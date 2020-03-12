@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_nagnajit-citralakSaNa">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Citralakṣaṇa</title>
+	<!-- TODO: Verify author -->	
+	<author>Nagnajit</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by Asoke Chatterjee Sastri: The Citralakṣaṇa : An Old Text of Indian Art,  Sanskrit, Tibetan and English Version. Calcutta 1987 (Bibliotheca Indica Series, 315)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Nagnajit: Citralaksana (= NCit)<BR>
+Based on the ed. by Asoke Chatterjee Sastri: The Citralakṣaṇa : An Old Text of Indian Art, <BR>
+Sanskrit, Tibetan and English Version. Calcutta 1987 (Bibliotheca Indica Series, 315)<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Version: 2009-03-19 13:29:40<BR>
+Proof Reader: Milan Shakya<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+PADA INDEX<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+akarod bhayajid rājā NCit_1.39c<lb/>
+akālamṛtyunā kasmāt NCit_1.22c<lb/>
+akālamṛtyuhīnāstāḥ NCit_1.11c<lb/>
+akuṭilamavakraṃ ca NCit_3.83a<lb/>
+akṣikoṣasya vistāraḥ NCit_3.16c<lb/>
+agre samunnatā kāryā NCit_3.66a<lb/>
+aṅgāni māṃsapūrṇāni NCit_3.142a<lb/>
+aṅgulirmaṇibandhaḥ syāt NCit_3.90a<lb/>
+aṅgulistu tribhāgaḥ syāt NCit_3.71a<lb/>
+aṅguliḥ syād yavāṣṭakam NCit_3.6b<lb/>
+aṅgulīnāṃ tu jālāśca NCit_3.68a<lb/>
+aṅgulīnāṃ vidhātavyā NCit_3.159c<lb/>
+aṅgulīnāṃ vidhānataḥ NCit_3.88d<lb/>
+aṅgulīnāṃ hi mānataḥ NCit_3.14d<lb/>
+aṅguṣṭasya tathāyāmo NCit_3.65c<lb/>
+aṅguṣṭhapārśvamāṃsaṃ tvā- NCit_3.79a<lb/>
+aṅguṣṭhasya pramāṇaṃ tu NCit_3.77c<lb/>
+aṅguṣṭhasya sadorahoś NCit_3.76a<lb/>
+aṅguṣṭhāttu caturbhāgā NCit_3.78a<lb/>
+aṅguṣṭhāntaṃ tu karabhāt NCit_3.79c<lb/>
+aṅguṣṭhāpekṣayā sthūlā NCit_3.66c<lb/>
+aṅguṣṭhe dve tu parvaṇī NCit_3.76c<lb/>
+ajaiṣīstvaṃ yato balāt NCit_1.74b<lb/>
+aṇḍajānāṃ khagādhipaḥ NCit_1.92b<lb/>
+ata ūdhrvaṃ pravakṣyāmi NCit_3.47a<lb/>
+atikramya ca sarveṣām NCit_3.123b<lb/>
+atiguhyaṃ mahad vākyaṃ NCit_1.88c<lb/>
+atī jñeyañca paṇḍitaiḥ NCit_3.146a<lb/>
+ato 'nyomānaniyamo NCit_3.160a<lb/>
+ato buddhayā suniścitya NCit_3.157a<lb/>
+atyantasradṛśaṃ tathā NCit_2.8d<lb/>
+atha brahmā nṛpaṃ prāha NCit_1.70a<lb/>
+athāsau brāhmaṇastuṣṭaḥ NCit_1.83a<lb/>
+adya prabhṛti taccitra NCit_1.77c<lb/>
+adya prabhṛti sarvatra NCit_2.12c<lb/>
+adya manuṣyalokeṣu NCit_2.19c<lb/>
+adharo 'rdhāṅgulistasya NCit_3.36a<lb/>
+adharoṣṭhasya cārohaś NCit_3.36c<lb/>
+adhastāccaturaṅguliḥ NCit_3.52f<lb/>
+adhaḥ syāt caturaṅgulam NCit_3.41b<lb/>
+adhādhaḥ kaṇṭhadeśaya NCit_3.39a<lb/>
+adhiṣṭhānaṃ prabhāvaṃ ca NCit_2.11c<lb/>
+anāmikāṅgulīmānaṃ NCit_3.75a<lb/>
+anukuryurna karttavyo NCit_1.71c<lb/>
+anukrameṇa vistṛtā NCit_3.135b<lb/>
+anumatistathā mama NCit_1.75d<lb/>
+antaraṃ svodarānnanu NCit_3.54b<lb/>
+antarākhacitaṃ kṛṣṇaṃ NCit_3.31c<lb/>
+anyapradarśanena kim NCit_3.156d<lb/>
+apratirodharupaṃ tad NCit_1.40c<lb/>
+apramādena cādaraḥ NCit_2.6e<lb/>
+aprasannaṃ yamaṃ dṛṣṭvā NCit_1.59a<lb/>
+apriyo na yathā yāyāt NCit_3.151a<lb/>
+abhimānaṃ ca varjayet NCit_1.60d<lb/>
+amaṅgalaṃ bhayaṃ bhavet NCit_3.147d<lb/>
+ardhacandraprabhāyuktā- NCit_3.136c<lb/>
+ardhalalāṭagāminau NCit_3.19d<lb/>
+ardhāṅguliścaturyavā NCit_3.6c<lb/>
+alaṃkārāstrasaṃyutaṃ NCit_2.8b<lb/>
+alpocco mukhakoṇaḥ syāt NCit_3.37c<lb/>
+avikṣiptena gṛhyatāṃ NCit_3.47c<lb/>
+avikṣiptena cittena NCit_3.103e<lb/>
+avirodhena satkāraḥ NCit_1.65a<lb/>
+avraṇā mṛdavaḥ pūrṇāḥ NCit_3.70c<lb/>
+aśeṣaṃ parimāṇaṃ ca NCit_2.20c<lb/>
+aśokaṃ prītimāpede NCit_1.69c<lb/>
+aśrutikāraṇān nanu NCit_3.153d<lb/>
+aṣṭayūkā yavaḥ smṛtaḥ NCit_3.5f<lb/>
+aṣṭalikṣā bhaved yūkaḥ NCit_3.5e<lb/>
+aṣṭāṅgulipramāṇakau NCit_3.63d<lb/>
+aṣṭādaśa prabāhośca NCit_3.88e<lb/>
+aṣṭādaśāṅgulā śroṇī NCit_3.49c<lb/>
+aṣṭāṣṭaguṇavṛddhyā vai NCit_3.4c<lb/>
+aṣṭottaraśataṃ jñeyaṃ NCit_3.9c<lb/>
+asaṃkhyānāṃ ca vāṇānāṃ NCit_1.39a<lb/>
+astu puṇyaṃ samāśritam NCit_2.12b<lb/>
+astraṃ vavarṣa dharmarāṭ NCit_1.40d<lb/>
+asthi cādarśanaṃ gatam NCit_3.68d<lb/>
+asmai prītyā ca dhīmate NCit_1.29d<lb/>
+asya brāhmaṇaputrasya NCit_1.76a<lb/>
+ahaṅkānarayuta bhūtaṃ NCit_1.62c<lb/>
+ākarādaṣṭacatvāriśat NCit_3.91c<lb/>
+ākarṣaṇe sutaṃ tasya NCit_1.25c<lb/>
+ākāreṇedṛśenaiva NCit_1.106a<lb/>
+ākuñcitamṛdusnigdha NCit_3.128a<lb/>
+ākṛtīrlakṣaṇānvitāḥ NCit_1.104b<lb/>
+āgaccha mama dāsa hi NCit_1.26b<lb/>
+āgamadāhavād drutam NCit_1.43d<lb/>
+āgrahasyātiśayyaṃ ca NCit_1.37a<lb/>
+āghātaṃ visṛjet sadā NCit_1.66b<lb/>
+ācaṣṭe bhūpatiṃ tathā NCit_2.1b<lb/>
+ājagāma svayaṃ tatra NCit_1.47c<lb/>
+ātithyaṃ vidhivat kṛtvā NCit_1.98c<lb/>
+ātmahaste gṛhītavān NCit_1.45d<lb/>
+ādau candramasaṃ vande NCit_1.4a<lb/>
+ādau saṃlikhitatvācca NCit_1.91a<lb/>
+ādyutpannañca doṣeṇa NCit_2.23a<lb/>
+āpnoti nindukaḥ sadā NCit_1.61d<lb/>
+ābhādṛśyā bhaved dhruvam NCit_3.134d<lb/>
+āyamo dvādaśāṅguliḥ NCit_3.12d<lb/>
+āyāmaśca tathārohaḥ NCit_3.80a<lb/>
+āyāmaśca tathaivāsya NCit_3.13c<lb/>
+āyāmaścaturaṅgulaḥ NCit_3.56d<lb/>
+āyāmaśca yathāyathaṃ NCit_3.132c<lb/>
+āyāmaścaikakāṅguliḥ NCit_3.22b<lb/>
+āyāmastryaṅgula proktaḥ NCit_3.60c<lb/>
+āyāmaḥ saptakāṅguliḥ NCit_3.102d<lb/>
+āyāmaḥ svāṅgulidvayam NCit_3.34b<lb/>
+āyāmārohamānaṃ ca NCit_3.139c<lb/>
+āyāmārohaḥ kīrttitaḥ NCit_3.94d<lb/>
+āyāme cāṅgulīnāṃ hī NCit_3.97c<lb/>
+āyāme tryaṅgulistathā NCit_3.38b<lb/>
+āyāme dvyaṅgulaṃ meḍhraṃ NCit_3.53a<lb/>
+āyāme na tathārohe NCit_3.57b<lb/>
+āyāmena prakāśitaḥ NCit_3.7b<lb/>
+āyāme yavayugmakāḥ NCit_3.106d<lb/>
+āyāmo jaṅghayoḥ kāryaḥ NCit_3.55a<lb/>
+āyāmo dvādaśāṅgulaḥ NCit_3.14b<lb/>
+āyāmo bāhubhāgasya NCit_3.89c<lb/>
+āyāmo mukhagāgasya NCit_3.42a<lb/>
+āyāmo mukhabhāgasya NCit_3.12a<lb/>
+āyāmo 'ṣṭayavaḥ kārya NCit_3.77e<lb/>
+āyuṣā sahitasyaiva NCit_2.4c<lb/>
+ārohaśca tathāyāmaḥ NCit_3.163c<lb/>
+ārohaścaturaṃgulam NCit_3.13a<lb/>
+ārohastasya madhyasya NCit_3.97a<lb/>
+ārohastu yavā nava NCit_3.77f<lb/>
+ārohaḥ ṣaḍyavastasya NCit_3.35c<lb/>
+ārohaḥ syāttu meṭrasya NCit_3.49a<lb/>
+ārohāthāmamānaṃ tu NCit_3.160e<lb/>
+ārohāyāmapīnatve NCit_3.145a<lb/>
+ārohāyāmamānaṃ tu NCit_3.87a<lb/>
+ārohāyāmayoḥ rājan NCit_3.148a<lb/>
+ārohāyāmayoḥ sarvaṃ NCit_3.103a<lb/>
+ārohāyāmaśobhitaḥ NCit_3.98b<lb/>
+ārohe kathitā budhaiḥ NCit_3.49d<lb/>
+ārohe caturaṅguliḥ NCit_3.65f<lb/>
+āroheṇa ṣaḍaṅguliḥ NCit_3.56f<lb/>
+ārohe triyavā jñeyā NCit_3.106c<lb/>
+ārohe tryaṅgulā matāḥ NCit_3.66d<lb/>
+āroho nāpriyo yāyāt NCit_3.162e<lb/>
+āroho bhujayoryastu NCit_3.91a<lb/>
+āroho vadanasyātra NCit_3.12e<lb/>
+ālocyātra pradarśinam NCit_3.160f<lb/>
+āvirbhūtena brahmaṇā NCit_1.54a<lb/>
+iti mānaṃ nigadyate NCit_3.6d<lb/>
+itthamukte suvuddhimān NCit_1.54b<lb/>
+itthaṃ caraṇamānaṃ syān NCit_3.72e<lb/>
+itthaṃ pūjābhavad viśva- NCit_2.18e<lb/>
+itthaṃ mādhuryamaṇḍitaḥ NCit_3.127d<lb/>
+indranīlasabhāḥ kṛṣṇā NCit_3.111c<lb/>
+ime devāḥ prasannāśca NCit_2.11a<lb/>
+īdṛśairlakṣaṇairyuktaṃ NCit_3.44a<lb/>
+īṣadromau manoharau NCit_3.130c<lb/>
+ucchrāyaparimāṇakam NCit_3.10b<lb/>
+ucchrāyaścakravartināṃ NCit_3.9a<lb/>
+ucchrāyaśca tathāyāmo NCit_3.8a<lb/>
+ucchrāyaśca tathāyāmo NCit_3.26a<lb/>
+ucchrāyaśca tathaivāsya NCit_3.34e<lb/>
+ucchrāye caturaṅgulau NCit_3.53f<lb/>
+ucchrāyeṇa tu pārṣṇīnāṃ NCit_3.60a<lb/>
+ucchrāye dvyaṅgulirhanur NCit_3.38a<lb/>
+ucchrāyo navarat strīṇā NCit_3.161a<lb/>
+ucyate citralakṣaṇam NCit_1.3d<lb/>
+ucyate citralakṣaṇaṃ NCit_1.8c<lb/>
+utkṣiptakaṇṭhamānaṃ hi NCit_3.38e<lb/>
+utkṣiptaṃ pṛthivīpatiḥ NCit_1.45b<lb/>
+uttamapuruṣādīnāṃ NCit_3.156e<lb/>
+uttamamadhyamādhama- NCit_3.163a<lb/>
+uttamaḥ puruṣo jñeyaḥ NCit_3.120c<lb/>
+uttamādhamamadhyama- NCit_3.160c<lb/>
+uttamāpratirodhyā ca NCit_1.16c<lb/>
+utpaladalavannetraṃ NCit_3.29a<lb/>
+utpaladalasannibham NCit_3.27d<lb/>
+utpalapatranetrasya NCit_3.24a<lb/>
+utpalābhaḥ sadā rakto NCit_3.86a<lb/>
+utpādanīyametaddhi NCit_1.87c<lb/>
+utsāhamatiyuktebhyaḥ NCit_1.108f<lb/>
+udarasya tathāntarā NCit_3.48b<lb/>
+uditaṃ tatra dṛṣṭavān NCit_1.26d<lb/>
+udyato 'bhūt sadaivāsau NCit_1.84c<lb/>
+unnataṃ ca bhaved dhruvam NCit_3.85d<lb/>
+unnataḥ karaśobhakaḥ NCit_3.86d<lb/>
+unnataḥ pṛṣṭhabhāga syāt NCit_3.40c<lb/>
+unnatau kramikau smṛtau NCit_3.19b<lb/>
+upadiśatu kārtsnyena NCit_1.100c<lb/>
+upadiśatu me prabho NCit_1.99d<lb/>
+upadiṣṭāśca tā mayā NCit_1.89d<lb/>
+upadiṣṭo dvijapriyaḥ NCit_1.68b<lb/>
+upadeśamanusṛtya NCit_1.97a<lb/>
+upayukteṣu sarveṣu NCit_3.144a<lb/>
+ubhayostu tathā bāhvīr NCit_3.88a<lb/>
+urddhabhāge tvadhībhāge NCit_3.12c<lb/>
+urdhve tu viṃśatirmatā NCit_3.98d<lb/>
+uṣṇīṣasya bhaved dhruvaṃ NCit_3.13b<lb/>
+ūrvorgulphayoścaiva NCit_3.55c<lb/>
+ṛddhiguṇasamāyuktaṃ NCit_1.13c<lb/>
+ekaṃ vālāgramucyate NCit_3.5b<lb/>
+ekāgramanasā tattu NCit_1.102a<lb/>
+ekāṅgulistathā madhyaḥ NCit_3.20a<lb/>
+ekāṅgulistathā rājñā NCit_3.161c<lb/>
+ekāṅgulo bhaved dhruvam NCit_3.15f<lb/>
+ekaikāṅgulito nyūnāḥ NCit_3.67a<lb/>
+etaddvijasutākṛtim NCit_1.53b<lb/>
+etādṛśasya bhūpateḥ NCit_1.18d<lb/>
+eteṣāṃ devadehastu NCit_3.117a<lb/>
+evamuktaḥ punarbhūpaḥ NCit_1.35a<lb/>
+evamukte narendreṇa NCit_1.101a<lb/>
+evambhūte sthite rāṣṭre NCit_1.14a<lb/>
+evaṃ kṛte sati brahmā- NCit_2.5c<lb/>
+evaṃ cintayatastasya NCit_2.6a<lb/>
+evaṃ vavatviti prāhur NCit_2.18a<lb/>
+eśaḥ spaṣṭaśca raktimaḥ NCit_3.109d<lb/>
+airāvatasamānau hi NCit_3.134a<lb/>
+airāvatasya vṛṃhatī NCit_3.110a<lb/>
+omityekākṣaraṃ tasmād NCit_2.3c<lb/>
+oṣṭha ekāṅguliḥ smṛtaḥ NCit_3.35d<lb/>
+oṣṭhāntau vimbavad raktau NCit_3.37a<lb/>
+kaṭideśastathā nābher NCit_3.52e<lb/>
+kaṭideśasya śobhanam NCit_3.52d<lb/>
+kaṭirāvartitā bhavet NCit_3.133b<lb/>
+kaṇṭhastribalibhiryuktaḥ NCit_3.40a<lb/>
+kaṇṭhasya tu samucchāyaś NCit_3.38c<lb/>
+kathayāmāsa tau tadā NCit_1.49f<lb/>
+kathaṃ janāśca jānīyuḥ NCit_2.6c<lb/>
+kathaṃ rodiṣi bho vipra NCit_1.19c<lb/>
+kathito nṛpatistadā NCit_1.20b<lb/>
+kadācinna parāṅguleḥ NCit_3.9d<lb/>
+kaniṣṭikāttayārohaḥ NCit_3.65a<lb/>
+kaniṣṭhikāpyadīrghā syāt NCit_3.75c<lb/>
+kaniṣṭhikāsamucchrāya- NCit_3.67c<lb/>
+kamaladalakoṣasya NCit_3.120a<lb/>
+karaṇīyaḥ sadā nṛpaiḥ NCit_1.65b<lb/>
+karaṇīyo mayā kṣitau NCit_1.72b<lb/>
+karatalasuśobhanam NCit_3.82b<lb/>
+karasyaivaṃ vidhānataḥ NCit_3.82d<lb/>
+karṇadeśasya cāyamo NCit_3.15a<lb/>
+karṇayorākṛtiḥ samā NCit_3.130b<lb/>
+karṇayorluṭike tasya NCit_3.131a<lb/>
+karṇarandhrasamānakaḥ NCit_3.16d<lb/>
+karṇasya luṭikāmānaṃ NCit_3.17a<lb/>
+karṇārandhrasya cāroha NCit_3.15e<lb/>
+karttavyaḥ kambuvat sadā NCit_3.40b<lb/>
+karmānusāriṇī bhūmir NCit_1.34c<lb/>
+kalāḥ sarvāḥ samāśritāḥ NCit_1.93f<lb/>
+kaśo 'ṣṭāṅgulakaṃ mānaṃ NCit_3.39c<lb/>
+kasyāpyākarṣaṇe tyāge NCit_1.31c<lb/>
+kāmināṃ ca tathā strīṇāṃ NCit_3.27a<lb/>
+kāyamāna vicārataḥ NCit_3.47b<lb/>
+kārpāsasparśakomalaṃ NCit_3.84c<lb/>
+kāryo bhinno vīcakṣaṇaiḥ NCit_3.149d<lb/>
+kālasya na tu karmaṇaḥ NCit_1.50d<lb/>
+kālāgnisadṛśaṃ dṛṣṭvā NCit_1.45a<lb/>
+kālena mahatākṛṣṭo NCit_1.33c<lb/>
+kiṃ bhavet parimāṇena NCit_3.151c<lb/>
+kīdṛśaṃ vā bhavettathā NCit_1.100b<lb/>
+kukṣipṛṣṭe suśobhite NCit_3.141a<lb/>
+kutaḥ krodhāḥ kuto malāḥ NCit_1.11d<lb/>
+kutrāpi na sukhaṃ bhavet NCit_1.67b<lb/>
+kuryāt karatalaṃ śubham NCit_3.84f<lb/>
+'kuśala iha bhāvini NCit_1.71d<lb/>
+kuśalaṃ cākuśalaṃ vā NCit_1.34a<lb/>
+kūrmapṛṣṭasamākārau NCit_3.64a<lb/>
+kūrmavat māṃsalau tathā NCit_3.136b<lb/>
+kṛtavantastathā ime NCit_2.11d<lb/>
+kṛtavān supriyaṃ tathā NCit_1.68d<lb/>
+kṛpayā brūhi me brahman NCit_1.86a<lb/>
+kena mānena śobhanāḥ NCit_1.105a<lb/>
+keśacūṛā manoharāḥ NCit_3.113d<lb/>
+keśariṇaḥ saṭāprabhāḥ NCit_3.113b<lb/>
+keśā na syurmahātmanām NCit_3.114d<lb/>
+keśānāṃ parimaṇḍalair NCit_3.115c<lb/>
+keśānāṃ prāntabhāgāttu NCit_3.96a<lb/>
+kokilābhāḥ śiroruhāḥ NCit_3.112b<lb/>
+komalaśca sulakṣaṇaḥ NCit_3.109b<lb/>
+komalau haritau smṛtau NCit_3.136f<lb/>
+kramādaṅguṣṭhayormithaḥ NCit_3.80b<lb/>
+kramike śaṅkhasannibhau NCit_3.131b<lb/>
+krameṇoccāvacau punaḥ NCit_3.93b<lb/>
+kriyate jayamaṃgalam NCit_1.1d<lb/>
+kruddhasya duḥkhitasyaiva NCit_3.28c<lb/>
+kruddhena tena vipreṇa NCit_1.20a<lb/>
+kroṛato 'pahṛtaḥ sutaḥ NCit_1.22d<lb/>
+krodhayuk roṣayuk caiva NCit_3.43c<lb/>
+kṣamāvalambanīyā syāt NCit_1.65c<lb/>
+kṣaumasūtramanoharam NCit_3.84d<lb/>
+gaṅgā nadiṣu śreṣṭhaiva NCit_1.94c<lb/>
+gacched grantho viśālatām NCit_3.155d<lb/>
+gajarājagatiryasya NCit_3.121a<lb/>
+gajavat sabalau pādau NCit_3.122a<lb/>
+gajaśuṇḍasamā jaṅghā NCit_3.135a<lb/>
+gatirasya bhavedrājan NCit_3.123e<lb/>
+gandharvāṇāṃ ca rājendra NCit_1.109c<lb/>
+gabhīrā syād yathāyatham NCit_3.133d<lb/>
+gambhīraṃ sūkṣmakaṃ tathā NCit_3.83b<lb/>
+girīṇāṃ sumeruḥ śreṣṭhaḥ NCit_1.92a<lb/>
+guṇine na dviṣennṛpaḥ NCit_1.65f<lb/>
+guṇottamasya bhūpasya NCit_1.10a<lb/>
+gulphalagnapradeśasya NCit_3.56c<lb/>
+gulphādeśastathā nāṛī NCit_3.59a<lb/>
+gulphādeśādadhobhāgaś NCit_3.72a<lb/>
+gulpho 'dṛśpo bhavet tathā NCit_3.135d<lb/>
+gṛhyatāṃ lokahetave NCit_3.103f<lb/>
+gokṣīravarṇavatsnigdhaṃ NCit_3.30a<lb/>
+gojī cārdhāṅgulistathā NCit_3.36b<lb/>
+gopucchāgrasamau tāvat NCit_3.93a<lb/>
+graheṣu somabhāskarau NCit_1.94d<lb/>
+ṅgulicakrapadāṅkitau NCit_3.136d<lb/>
+cakrarekhāsvalaṅkṛtau NCit_3.137f<lb/>
+cakravartimahīpasya NCit_3.63a<lb/>
+cakravartimahīpānām NCit_3.10a<lb/>
+cakravartī sa ucyate NCit_3.142f<lb/>
+cakravarttinarendrasya NCit_3.156a<lb/>
+cakravarttī sadā bhavet NCit_3.139b<lb/>
+cakrādilakṣaṇairyuktaṃ NCit_3.62a<lb/>
+cakṣurunmīlya sānandaṃ NCit_1.55c<lb/>
+cakṣuvat tārakocchrāyo NCit_3.23a<lb/>
+cakṣuṣodvaryaṅgulāroha NCit_3.22a<lb/>
+cakṣuḥ syāt sumanoharam NCit_3.129d<lb/>
+catasraśca prajāstāsāṃ NCit_2.4a<lb/>
+caturaṅgalisamucchrāyo NCit_3.15c<lb/>
+caturaṅgulakaṃ matam NCit_3.41d<lb/>
+caturaṅgulakaṃ smṛtam NCit_3.38d<lb/>
+caturaṅgulako mataḥ NCit_3.72d<lb/>
+caturaṅgulako mataḥ NCit_3.76b<lb/>
+caturaṅgulamānakam NCit_3.11f<lb/>
+caturaṅgulaṃ sthānaṃ syāt NCit_3.101c<lb/>
+caturaṅguliko 'ṅguṣṭo NCit_3.61a<lb/>
+caturaṅgulimātrakaḥ NCit_3.33b<lb/>
+caturaṅgulimānakaḥ NCit_3.36d<lb/>
+caturasraṃ ca vijñeyaṃ NCit_3.100c<lb/>
+caturasraṃ mukhaṃ pūrṇaṃ NCit_3.42c<lb/>
+caturṇāṃ ca tathā rājñāṃ NCit_3.152a<lb/>
+caturdaśāṅgulaṃ kaṭyā NCit_3.51a<lb/>
+caturbhāgena mukhyataḥ NCit_3.148d<lb/>
+catuḥśatamitāṅgulam NCit_3.158d<lb/>
+catvāriśacchubhā dantāḥ NCit_3.106a<lb/>
+candrakāntasamujjvalās NCit_3.70a<lb/>
+campakadāmaśobhitaḥ NCit_3.138a<lb/>
+caraṇamitisaṃjñitam NCit_3.72b<lb/>
+carācarayutā vṛkṣā NCit_1.91c<lb/>
+cākāle 'pahṛto yo 'sau NCit_1.28c<lb/>
+cānupūrvyeṇa saṃgatā NCit_3.132d<lb/>
+cāpākārā bhavet sadā NCit_3.18d<lb/>
+cāyamaḥ syād daśāṅguliḥ NCit_3.39b<lb/>
+cāyuḥ prajāḥ prapedire NCit_1.10d<lb/>
+cārukeśaḥ sunāsikaḥ NCit_3.128b<lb/>
+cārudeho mahīpateḥ NCit_3.142e<lb/>
+cārumaṇḍalayuktaśca NCit_3.102e<lb/>
+cārvoṣṭaṃ raktimāpūrṇaṃ NCit_3.128c<lb/>
+cāṣṭāṅgulisamanvitaḥ NCit_3.102b<lb/>
+citramiti prasiddhaṃ tat NCit_1.79c<lb/>
+citramityucyate tataḥ NCit_1.91b<lb/>
+citramīdṛśaṃ saṃlekhyaṃ NCit_1.108a<lb/>
+citraśāstraviśāradaiḥ NCit_3.159d<lb/>
+citraśāstreṣu dīkṣitaḥ NCit_3.31f<lb/>
+citraśilpasya śāstraṃ tu NCit_1.101c<lb/>
+citrasandarśane tāvad NCit_1.108e<lb/>
+citrasaṃracanāya vai NCit_1.84b<lb/>
+citrasaṃlekhanakramam NCit_1.86b<lb/>
+citrasya parinirmito NCit_2.1d<lb/>
+citrasya lakṣaṇaṃ karma NCit_1.99c<lb/>
+citrasya lakṣaṇāni me NCit_1.86c<lb/>
+citrasya lekhanena ca NCit_1.76b<lb/>
+citraṃ saṃlikhyate yataḥ NCit_1.90b<lb/>
+citrākāraṃ vinirmame NCit_2.9d<lb/>
+citrāviṣkārako bhava NCit_1.76d<lb/>
+cintayat jagato hitam NCit_2.5d<lb/>
+civukasya tathā mānaṃ NCit_3.41c<lb/>
+civunāsālalāṭaṃ vā NCit_3.11e<lb/>
+cetyapṛcchad dvijaṃ nṛpaḥ NCit_1.19d<lb/>
+caityānāṃ karaṇāyaiva NCit_1.90a<lb/>
+jagadetañcarācaram NCit_1.69d<lb/>
+jagadvandyaṃ bhavet sadā NCit_1.77d<lb/>
+jagāma svagṛhaṃ mudā NCit_1.81d<lb/>
+jagrāha pratihiṃsayā NCit_1.44d<lb/>
+jaṅkhopajaṅkhasundaram NCit_3.143d<lb/>
+jaṅgamāśca yathāsthitāḥ NCit_1.91d<lb/>
+jaṅghayoḥ sthūlatāmānaṃ NCit_3.57e<lb/>
+jaṅghāgramunnataṃ kuryāt NCit_3.58a<lb/>
+jaṅghādvayasya tasyordhaṃ NCit_3.57c<lb/>
+jaṅghāyāḥ paścimo bhāgaḥ NCit_3.59c<lb/>
+jaṅghāsu kaṇṭhagaṇḍeṣu NCit_3.114c<lb/>
+jatruto hṛdayaṃ yāvan NCit_3.50a<lb/>
+janma prāpya ca mānuṣam NCit_1.51d<lb/>
+jambunadasamāhṛta- NCit_3.119a<lb/>
+jātīkusumasaṃkāśaṃ NCit_3.107c<lb/>
+jātyā balena dānena NCit_1.63c<lb/>
+jānuparyantagāminau NCit_3.93d<lb/>
+jānuprāpta udīryate NCit_3.94b<lb/>
+jāyatāṃ kila paṇḍitāḥ NCit_1.2d<lb/>
+jālarekhāṅkitāḥ koṇāḥ NCit_3.113c<lb/>
+jālarekhānibhā keśāḥ NCit_3.111a<lb/>
+jālarekhaiḥ suśobhanaiḥ NCit_3.115b<lb/>
+jihvāsīmā ca lohitam NCit_3.107b<lb/>
+jīvayituṃ lilekha taṃ NCit_1.54c<lb/>
+jīvitaṃ putramāsādya NCit_1.56a<lb/>
+jñātavyamiti niścitam NCit_3.4d<lb/>
+jñeya ekāṅguliḥ kṛśaḥ NCit_3.161b<lb/>
+jñeyametanna cānyathā NCit_3.38f<lb/>
+jñeyaṃ tad dvyaṅgulaṃ nūnaṃ NCit_3.48c<lb/>
+jñeyaṃ pañcāṅgulaṃ sadā NCit_3.89d<lb/>
+jñeyaṃ mattastvathā rājan NCit_1.107a<lb/>
+jñeyaṃ sadā mahīpate NCit_3.96d<lb/>
+ñyaṅgulaṃ jānubhāgasya NCit_3.57a<lb/>
+taccaraṇasamucchrāyaḥ NCit_3.72c<lb/>
+taccitramiti kathyate NCit_1.91f<lb/>
+tataḥ prajā mayā sṛṣṭā NCit_1.89c<lb/>
+tataḥ pretādhipo devo NCit_1.44a<lb/>
+tataḥ sthūlastrimānataḥ NCit_3.39d<lb/>
+tato 'dharmeṇa rājyaṃ taṃ NCit_1.21a<lb/>
+tat tathaiva pravakṣyāmi NCit_3.1c<lb/>
+tatparāyaṇamānasaḥ NCit_2.13b<lb/>
+tat praṣṭuṃ sṛṣṭikattariṃ NCit_1.85c<lb/>
+tatra nindā bhaved dhruvam NCit_1.61b<lb/>
+tatra svāṅgulinā kāryaṃ NCit_3.144c<lb/>
+tatraiva praviveśa ca NCit_1.83d<lb/>
+tathā caraṇayornṛpa NCit_3.162d<lb/>
+tathā ca śiśunā kṛtam NCit_1.51b<lb/>
+tathā cāpānukārakau NCit_3.37b<lb/>
+tathā citraṃ kalāsu vai NCit_1.92d<lb/>
+tathānirdiṣṭapañcadhā NCit_3.155b<lb/>
+tathā parva ca dṛśyate NCit_3.140d<lb/>
+tathā pralikhanātteṣāṃ NCit_1.91e<lb/>
+tathābhūt dharaṇītale NCit_1.9f<lb/>
+tathā mānaṃ vicārayet NCit_3.151b<lb/>
+tathā mānaṃ vidhīyatām NCit_3.162f<lb/>
+tathārohasamucchrāyau NCit_3.7c<lb/>
+tathā śreṣṭhaṃ bhaveccitraṃ NCit_1.95c<lb/>
+tathā suspaṣṭasaṃyutāḥ NCit_3.70b<lb/>
+tathaiva citrakarmaṇi NCit_1.93e<lb/>
+tathaiva madhyadeśī hi NCit_3.56e<lb/>
+tathauṣṭhasya vivarṇitaḥ NCit_3.42b<lb/>
+tadā liptau babhūvatuḥ NCit_1.37d<lb/>
+taditarañca yad bhavet NCit_3.46a<lb/>
+tadvadeva bhaved dhruvam NCit_3.75b<lb/>
+tad vijñeyaṃ ca devānāṃ NCit_3.46c<lb/>
+tapasā śuddhamānasaḥ NCit_1.75b<lb/>
+tapasemaṃ guṇaṃ nṛpāḥ NCit_1.71b<lb/>
+taptakāñcanavarṇakaḥ NCit_3.119b<lb/>
+tamavocad nṛpaṃ yamaḥ NCit_1.38d<lb/>
+tamo hatvā jalāt kila NCit_2.2d<lb/>
+tayaiva dīyate śāntis NCit_2.17c<lb/>
+tayoritthaṃ babhūva ha NCit_1.37b<lb/>
+tarjanyā nyūnatā bodhyā NCit_3.74c<lb/>
+talaṃ saptāṅgulaṃ dīrghaṃ NCit_3.73c<lb/>
+talau padmasamau raktau NCit_3.82c<lb/>
+tava dūtena durdhiyā NCit_1.28d<lb/>
+tava śāsanakāle 'smin NCit_1.20c<lb/>
+tavādau lekhakakhyātiḥ NCit_1.79a<lb/>
+tasmāt rājan vijānīyān NCit_1.32c<lb/>
+tasmādaṇḍāt prādurabhūt NCit_2.3a<lb/>
+tasmād jñeyaṃ tathaiva tat NCit_1.90d<lb/>
+tasmād rājendra hastena NCit_3.94a<lb/>
+tasmin deśe raṇākule NCit_1.47d<lb/>
+tasminnupāyavidyeyaṃ NCit_1.52c<lb/>
+tasmai kāmasya siddhaye NCit_2.13e<lb/>
+tasmai bhaktāya sarvataḥ NCit_2.17d<lb/>
+tasmai rājñe hyupādiśat NCit_1.101d<lb/>
+tasyādho māṃsapiṇḍaśca NCit_3.77a<lb/>
+tasyāroho yathākraman NCit_3.132b<lb/>
+tasyāḥ pārśvāṅgulermadhye NCit_3.71c<lb/>
+tādṛśeṇa kṣitāvādi- NCit_1.76c<lb/>
+tāni tubhyaṃ vadāmyaham NCit_3.95d<lb/>
+tārakaṃ śrīsukhapradam NCit_3.31d<lb/>
+tiṣṭha tiṣṭheti ta rājā NCit_1.38a<lb/>
+tīkṣṇāgraparimaṇḍalaṃ NCit_3.108c<lb/>
+tīkṣṇānāṃ parivarṣaṇam NCit_1.39b<lb/>
+tubhyamadya pradīyate NCit_2.20d<lb/>
+tubhyaṃ pradarśayāmi ced NCit_3.155c<lb/>
+tubhyaṃ mayā pradaśryate NCit_1.109f<lb/>
+tubhyaṃ sa upadekṣyati NCit_1.96d<lb/>
+tṛṇakhaṇḍāṇiva prāṇān NCit_1.24c<lb/>
+tejasā pūritaṃ vacaḥ NCit_1.30d<lb/>
+tejasvī vīryavān rājan NCit_3.139a<lb/>
+tena trasyanti cālpajñā NCit_3.153c<lb/>
+tena durlakṣaṇena vai NCit_1.46d<lb/>
+tena mānaṃ dhruvaṃ bhavet NCit_3.156f<lb/>
+tena rājā mahākruddho NCit_1.41a<lb/>
+teṣāmatra pradarśitaḥ NCit_3.163d<lb/>
+tyajanti sarvamānavāḥ NCit_1.62d<lb/>
+trastasya rudataścaiva NCit_3.28a<lb/>
+trikoṇaṃ vā prajānāñca NCit_3.45c<lb/>
+trikoṇā kuṭilā vṛttā NCit_3.43a<lb/>
+tribhāgastārakā hyasya NCit_3.22c<lb/>
+tribhāgena vibhaktaṃ ca NCit_3.11c<lb/>
+trilokeśaḥ prajāpatiḥ NCit_1.81b<lb/>
+trilokeṣu ca pūjyānāṃ NCit_2.22a<lb/>
+tryaṅgulisammito bhavet NCit_3.77b<lb/>
+tvatsavidhe tyajāmyaham NCit_1.24d<lb/>
+tvaṃ sadā pṛthivīpate NCit_1.72d<lb/>
+tvācāryāṃśca punaḥ punaḥ NCit_1.5d<lb/>
+dakṣiṇāvartino nābhiḥ NCit_3.133c<lb/>
+dadau pratyuttaraṃ mṛdu NCit_1.30c<lb/>
+dadhimuktābjavacchuklāḥ NCit_3.105c<lb/>
+dantamūlaṃ tathā tālu NCit_3.107a<lb/>
+dantaśirasya lobhānāṃ NCit_3.104a<lb/>
+dayāṃ yadi na kuryāstvaṃ NCit_1.24a<lb/>
+darpaṇasparśakomalaḥ NCit_3.124b<lb/>
+darśanīyaṃ manuṣyebhyo NCit_1.108c<lb/>
+darśane sumanoharau NCit_3.64d<lb/>
+daśāṅgulaṃ bhaved dhruvam NCit_3.97b<lb/>
+dīyatāṃ tanayaḥ priyaḥ NCit_1.29b<lb/>
+dīrghaṃ khartaṃ ca vartulam NCit_3.45b<lb/>
+dīrghā aṅgulayastathā NCit_3.66b<lb/>
+dīrghāgrasundaraṃ pakṣma NCit_3.29c<lb/>
+dīrghāṅguliyutau karau NCit_3.137b<lb/>
+dīrdhottama ca pakṣma hi NCit_3.129a<lb/>
+dīrdhau sūkṣrmau ca sundarau NCit_3.92b<lb/>
+duḥkhitāṃ sakalāṃ pṛthvīṃ NCit_1.47a<lb/>
+dṛśyavannāṭakasyeva NCit_3.123c<lb/>
+dṛṣṭo 'sau viśvakarmā ca NCit_1.98a<lb/>
+dṛṣṭvā taṃ tu parājitam NCit_1.44b<lb/>
+dṛsṭvā brahmā tathā suraiḥ NCit_1.47b<lb/>
+dediṣyate ca deho 'sya NCit_3.119c<lb/>
+devatānāñca viprāṇāṃ NCit_1.64a<lb/>
+devabhūtamanuṣyāṇāṃ NCit_3.116a<lb/>
+devamukhe na dīyate NCit_3.104d<lb/>
+devarākṣasagandharva NCit_3.2a<lb/>
+devavipravirodhināṃ NCit_1.67a<lb/>
+devāllokapitāmahāt NCit_1.15d<lb/>
+devāstrairapi durjayaḥ NCit_1.16b<lb/>
+devāḥ prasannamānasāḥ NCit_2.18b<lb/>
+devena padmayoninā NCit_1.103b<lb/>
+devaiścitraṃ vivarddhitaṃ NCit_1.106c<lb/>
+deśasturandhrayormadhye NCit_3.35a<lb/>
+deśe 'kālamṛtiyataḥ NCit_1.20d<lb/>
+dehi dehi sutaṃ deva NCit_1.36c<lb/>
+dehi svāmin kṛpānvitaḥ NCit_1.23d<lb/>
+dehe jaṅghopajaṅghā ca NCit_3.140a<lb/>
+deho mānānvito bhavet NCit_3.141d<lb/>
+dehyasmai putramuttamam NCit_1.35d<lb/>
+daighrye tvaṣṭāṅgulo jñeyo NCit_3.48e<lb/>
+daurmanasyaṃ yamo gataḥ NCit_1.58d<lb/>
+dvātriṃśat tasya maṇdalam NCit_3.14c<lb/>
+dvādaśāṅgulimānakaḥ NCit_3.12f<lb/>
+dvādaśeṣu sahasreṣu NCit_3.154c<lb/>
+dvijaputraṃ mahopatiḥ NCit_1.54d<lb/>
+dvijaputro balīyasā NCit_1.33d<lb/>
+dviyavaparimāṇakaḥ NCit_3.35b<lb/>
+dveṣagrastebhya eva ca NCit_2.14b<lb/>
+dveṣiṇo 'pi budhāḥ svargād NCit_1.62a<lb/>
+dvau yavau caturaṃguliḥ NCit_3.17d<lb/>
+dvyaṅgulaḥ sādhuniścitaḥ NCit_3.65d<lb/>
+dvyaṅguliparimāṇakaḥ NCit_3.15b<lb/>
+dvyaṅguliparimāṇakaḥ NCit_3.33d<lb/>
+dvyaṅgulordvyaṅgulaṃ mānam NCit_3.6a<lb/>
+dvyaṅgulau hyakṣikoṣaḥ syān NCit_3.21c<lb/>
+dvyuṅgulaṃ bhūpadeśagam NCit_3.62d<lb/>
+dharāpṛṣṭe samāyāta NCit_3.127c<lb/>
+dharmajñaḥ satyaniṣṭhaśca NCit_1.9c<lb/>
+dharmanītiḥ suvijñāya NCit_1.60a<lb/>
+dharmarājaṃ jagadbandyaṃ NCit_1.27a<lb/>
+dharmaśca sadṛśo bhāvyaḥ NCit_2.15a<lb/>
+dhārmikasya praśāsane NCit_1.10b<lb/>
+dhīman śṛṇu vadāni te NCit_3.87d<lb/>
+dhūlimalena nirliptaḥ NCit_3.124c<lb/>
+na kāryaṃ viṣamaṃ kvacit NCit_3.58d<lb/>
+na kuṭilaḥ pradeśakaḥ NCit_3.50b<lb/>
+nakṣatraiścāśritaḥ sūryo NCit_1.93c<lb/>
+nakhaprabhāsamujjvalau NCit_3.137c<lb/>
+nakhā raktāstathā svacchāḥ NCit_3.78c<lb/>
+nakhāścārdhaśaśāṅkavat NCit_3.69a<lb/>
+nakhāḥ sūkṣmāṃ nakhāgrakāḥ NCit_3.81b<lb/>
+nakhodarastanuḥ snigdha NCit_3.86c<lb/>
+nageṣu sakaleṣu ca NCit_1.94b<lb/>
+nagnajitaṃ namaskṛtya NCit_1.5c<lb/>
+nagnajid gaccha tasmāt tvaṃ NCit_1.96a<lb/>
+nagnaṃ pretaṃ nivāraya NCit_1.70b<lb/>
+na cyutā dharmatatparāḥ NCit_1.13b<lb/>
+na jāto 'sau pravartate NCit_1.21d<lb/>
+na doṣo bhavatāṃ nātha NCit_1.50a<lb/>
+naddhā jālakramādanu NCit_3.78b<lb/>
+na nindet kāmapi prajām NCit_1.60b<lb/>
+na pātayed bhavān khalu NCit_1.70d<lb/>
+na bhūto na bhaviṣyati NCit_3.160b<lb/>
+namaskaromyahaṃ caiva NCit_1.5a<lb/>
+namaskṛtya yamasvārthe NCit_1.68c<lb/>
+na mukhaṃ syāt kadācana NCit_3.43d<lb/>
+namo namo mayā samyag NCit_1.3c<lb/>
+nayanaṃ cāpasannibham NCit_3.23b<lb/>
+nara iha ca sarvadā NCit_3.44d<lb/>
+nararājo mahodharaḥ NCit_1.9b<lb/>
+naralakṣaṇayukteṣu NCit_3.155a<lb/>
+narttane rodane krodhe NCit_3.18c<lb/>
+navayavakasammatam NCit_3.77d<lb/>
+navayavaiḥ susaṃnitam NCit_3.25b<lb/>
+navārdhaparṇavaccāruḥ NCit_3.109e<lb/>
+na śakyate na śakyate NCit_1.36a<lb/>
+naṣṭaḥ senāpatiścaiva NCit_1.43c<lb/>
+nāṛiparva tvadṛśyakam NCit_3.91d<lb/>
+nāṛī dṛśyā kadāpi na NCit_3.85b<lb/>
+nāgendrābhogasannibhaḥ NCit_3.86b<lb/>
+nāḍyaviṣamasaṃpuṣṭā NCit_3.68c<lb/>
+nātiprasārito bhavet NCit_3.102f<lb/>
+nātisaṃkocamāpanna NCit_3.102c<lb/>
+nātra śaṅkā kṛthā naraḥ NCit_2.12e<lb/>
+nānā prakāraduḥsvapnāt NCit_2.14a<lb/>
+nānāvidhāni santi ca NCit_1.86d<lb/>
+nānāśāstrasamuddhṛtam NCit_1.8b<lb/>
+nābhijaṅkhopajaṅkhānāṃ NCit_3.162a<lb/>
+nābhito meṭraparyantaṃ NCit_3.50e<lb/>
+nābherardhāṅgulaṃ matam NCit_3.51b<lb/>
+nāmādikīrtanaṃ kārya NCit_2.16c<lb/>
+nārāyaṇaṃ sarasvatīm NCit_1.1b<lb/>
+nārīṇāṃ parimāṇaṃ ca NCit_3.163e<lb/>
+nārīpuruṣayoḥ satsu NCit_3.154a<lb/>
+nālpamapi sukhaṃ kiñcid NCit_1.61c<lb/>
+nāśakam netramodakaṃ NCit_2.22d<lb/>
+nāsākarṇamukheṣu ca NCit_3.114b<lb/>
+nāsākośāt samutthāya NCit_3.19c<lb/>
+nāsāyāḥ punarārohaś NCit_3.33a<lb/>
+nāsārandhrāgradeśasya NCit_3.34c<lb/>
+nitambadeśa ārohe NCit_3.102a<lb/>
+nitambapārśvamānaṃ syāt NCit_3.100a<lb/>
+nindā tyājyā tathaiva ca NCit_1.65d<lb/>
+nindopāyaḥ kathañcana NCit_1.64d<lb/>
+nirahaṅkāriṇā tasmāt NCit_1.63a<lb/>
+nirdiṣṭaṃ cāvabodhārthaṃ NCit_3.103c<lb/>
+nirdiṣṭaṃ citralakṣaṇaṃ NCit_1.103c<lb/>
+nirmedhaśaśiccāru NCit_3.126a<lb/>
+nirvikalpaṃ bhaveccakṣur NCit_3.26c<lb/>
+nivartasva kumārgebhyas NCit_1.72c<lb/>
+niścayena na kīrtyate NCit_3.17b<lb/>
+niṣkuṭilaṃ sukomalam NCit_3.165b<lb/>
+nīrogā na ca hantāro NCit_1.11a<lb/>
+nīlavalkalasundaraṃ NCit_3.31b<lb/>
+nīlaṃ kṛṣṇaṃ ca dīrghaṃ ca NCit_3.129c<lb/>
+nīlaṃ cakṣurmanogrāhi NCit_3.118c<lb/>
+nīlāñjanasamaprabhaiḥ NCit_3.115d<lb/>
+nīlā dedīpyamānāśca NCit_3.112c<lb/>
+netraprītivivarddhanaṃ NCit_3.165d<lb/>
+netramadhyaṃ tathaiva tu NCit_3.21d<lb/>
+netramānamidaṃ jñeyaṃ NCit_3.32a<lb/>
+netramūlāt pramoditāḥ NCit_2.10b<lb/>
+netraṃ matsyodaraṃ bhavet NCit_3.27b<lb/>
+netrāṇāṃ varṇito mayā NCit_3.26b<lb/>
+netrānandavidhāyakau NCit_3.129f<lb/>
+naipuṇyena ca vidyayā NCit_1.63d<lb/>
+nairujyaṃ saṃpradāsyati NCit_2.13f<lb/>
+naiva kāryā mukhākṛtiḥ NCit_3.43b<lb/>
+nyāyaśca prābhavan tadā NCit_2.5b<lb/>
+pañcaviṃśatiraṅgulaḥ NCit_3.55b<lb/>
+pañcaśa upadiṣṭavān NCit_3.154d<lb/>
+pañcāṅgulaṃ tu gaṇḍodhvaṃ NCit_3.41a<lb/>
+pañcāṅgulaṃ prakīrtitam NCit_3.74b<lb/>
+pañcāṅgulisamāyāmau NCit_3.64c<lb/>
+patanti sāgare nadyaḥ NCit_1.93a<lb/>
+padmapatranibhaṃ netraṃ NCit_3.25a<lb/>
+padmapatranibhaṃ varam NCit_3.28b<lb/>
+padmapatrapratīkāśaḥ NCit_3.109a<lb/>
+padmāsyāyāstathā giram NCit_1.2b<lb/>
+paramaṃ kathayāmi te NCit_1.88d<lb/>
+paramāṇubhiraṣṭābhir NCit_3.5a<lb/>
+paramāṇuśca vālāgraṃ NCit_3.4a<lb/>
+parasparasamīpagam NCit_3.62b<lb/>
+parākrāntasya dhīmataḥ NCit_1.17b<lb/>
+parimaṇḍalasampannau NCit_3.137e<lb/>
+parimaṇḍalasaṃyutaḥ NCit_3.40d<lb/>
+parimāṇajñakīrtitā NCit_3.5d<lb/>
+parimāṇapratiṣṭāno- NCit_3.146c<lb/>
+parimāṇasya lakṣaṇam NCit_3.152b<lb/>
+parimāṇaṃ kalānvitaṃ NCit_1.107d<lb/>
+parimāṇaṃ kimasya syāt NCit_1.87a<lb/>
+parimāṇaṃ guṇaṃ tathā NCit_2.7d<lb/>
+parimāṇaṃ tathāsthānaṃ NCit_1.102c<lb/>
+parimāṇaṃ tu yatra ca NCit_3.144b<lb/>
+parimāṇaṃ ṣaḍaṅgulaṃ NCit_3.96c<lb/>
+parimāṇaṃ suyatnataḥ NCit_3.146b<lb/>
+parimāṇādikaṃ teṣāṃ NCit_2.19a<lb/>
+parimāṇānusareṇa NCit_3.7e<lb/>
+parimāṇānusāreṇa NCit_3.149c<lb/>
+parivṛtiḥ ṣaḍaṅguliḥ NCit_3.65e<lb/>
+parivṛtiḥ samānaiva NCit_3.53e<lb/>
+parivṛttirdviraṅguliḥ NCit_3.67d<lb/>
+paryāyavācinau matau NCit_3.7d<lb/>
+parvatarekhā tvadoṣabhāk NCit_3.81d<lb/>
+parvaṃ dīrghaṃ ca vṛtaṃ ca NCit_3.82a<lb/>
+parvārdhena mitāḥ kāryā NCit_3.81a<lb/>
+parvārdhena susaṃmatā NCit_3.74d<lb/>
+pātacampakapuṣpavat NCit_3.119d<lb/>
+pādapṛṣṭomṛdū syātāṃ NCit_3.136e<lb/>
+pādasya bandhanaṃ syāttu NCit_3.62c<lb/>
+pādau caturdaśāṅgulau NCit_3.60d<lb/>
+pāpaghnaṃ ca manohāri NCit_1.78a<lb/>
+pāpahānikaraṃ bhīter NCit_2.22c<lb/>
+pāpān nāśayati dhruvam NCit_2.14d<lb/>
+pāyādibhirvihīnā yā NCit_3.146d<lb/>
+pāyustu dvyuṅgulaṃ matam NCit_3.101d<lb/>
+pārvatyā anusṛtyaiva NCit_1.2c<lb/>
+pārśvāṅgulikramādanu NCit_3.75d<lb/>
+piśācapretakāyikāḥ NCit_3.2d<lb/>
+piśācā rākṣasā bhūtā NCit_3.147a<lb/>
+puṇyātmā pūjayiṣyati NCit_2.17b<lb/>
+punaragre pravakṣyāmi NCit_3.95a<lb/>
+punaratra pravakṣyate NCit_3.103d<lb/>
+punarjīvanamāpede NCit_1.55d<lb/>
+punardeyaṃ cucūkayoḥ NCit_3.52b<lb/>
+purā śubhāśubhaṃ karma NCit_1.51a<lb/>
+puruṣaṃ vacanaṃ tyājyam NCit_1.66a<lb/>
+puruṣāṇāmidaṃ mānaṃ NCit_3.99c<lb/>
+puredaṃ lakṣaṇaṃ śrutvā NCit_1.9a<lb/>
+purvoktaṃ vistareṇa ca NCit_3.10d<lb/>
+puṣṭamasina saṃyutam NCit_3.58b<lb/>
+puṣṭirjñeyā mahāmate NCit_3.161d<lb/>
+pūjanīyaṃ hasan nṛpam NCit_1.30b<lb/>
+pūjanīyo bhaviṣyasi NCit_1.77b<lb/>
+pūjayitvā prayantataḥ NCit_1.82b<lb/>
+pūjayiṣyati vaḥ sadā NCit_2.12f<lb/>
+pūrvalakṣaṇasaṃyutaṃ NCit_3.46b<lb/>
+pṛṣṭamūlasamāgatāḥ NCit_3.112d<lb/>
+pṛṣṭhamadhyaḥ ṣaḍaṅgulir NCit_3.98c<lb/>
+pṛṣṭhaṃ bhāgena sundaram NCit_3.99b<lb/>
+prakartavyo na kartavyo NCit_1.64c<lb/>
+pragacchannaiva dṛṣṭitām NCit_3.59b<lb/>
+pracāraya prayatnataḥ NCit_2.19d<lb/>
+prajāpatitulaḥ pṛthvāṃ NCit_1.74e<lb/>
+prajāpatestathā śambhoḥ NCit_1.2a<lb/>
+prajā mayā vinirmitāḥ NCit_1.106b<lb/>
+prajāhitakaraṃ bhavet NCit_3.30b<lb/>
+prajāḥ pālaya niṣpāpaḥ NCit_1.75c<lb/>
+praṇamya bhayajinnṛpaḥ NCit_1.27b<lb/>
+pratidiśamadhāvata NCit_1.43b<lb/>
+pratimānāṃ yathāyatham NCit_2.16b<lb/>
+pratimā sā parityaktā NCit_3.146e<lb/>
+pratimāṃ yāṃ pratidinaṃ NCit_2.17a<lb/>
+pratyakṣaṃ prāpyate yattu NCit_1.66c<lb/>
+pratyaṅgaṃ ca yathāyatham NCit_2.9b<lb/>
+pratyaṅgaṃ samatāṃ bhajet NCit_3.145b<lb/>
+pratyāvṛtya raṇād devaḥ NCit_1.49e<lb/>
+pratyupakṛddvijātestu NCit_1.28a<lb/>
+pradāya sarvamīśena NCit_1.103a<lb/>
+pradiptāgniśikhā yathā NCit_3.69d<lb/>
+pradīptamaṇisaṃkāśaḥ NCit_3.125a<lb/>
+pradhānānāñca bhūbhṛtām NCit_3.160d<lb/>
+prapayau nagaraṃ drutam NCit_1.83b<lb/>
+prapīḍya mumude bhṛśam NCit_1.41d<lb/>
+prabhāmaṇḍalamaṇḍitam NCit_3.126b<lb/>
+prabhāvaiḥ prāptaviśruteḥ NCit_1.17d<lb/>
+prabho tribhuvanasyāpi NCit_1.29a<lb/>
+pramāṇaṃṣaḍyavaṃ smṛtam NCit_3.24b<lb/>
+pralayānte ca vai purā NCit_2.2b<lb/>
+pravāhū caturaṅgulī NCit_3.90b<lb/>
+pravṛttaṃ tapasi drutam NCit_1.14d<lb/>
+praśaṃśasurvidhiṃ surāḥ NCit_2.10d<lb/>
+prasannapadmavannetrāṃ NCit_3.31a<lb/>
+prasannaṃ cārulakṣaṇam NCit_3.42d<lb/>
+prasanno hyagamad drutam NCit_1.97d<lb/>
+prasāre dīrghakau yathā NCit_3.137d<lb/>
+prasiddhaiḥ śilpibhiḥ kāryaṃ NCit_3.143a<lb/>
+prahlādasāramujjvalam NCit_1.7b<lb/>
+prākāra iva tṛptidaḥ NCit_3.120b<lb/>
+prāṇatulyaṃ sutaṃ mahyaṃ NCit_1.23c<lb/>
+prāṇebhyo 'pi sutaḥ priyaḥ NCit_1.28b<lb/>
+prādurabhūt suvarṇāṇḍaṃ NCit_2.2c<lb/>
+prāntadvayaṃ ca jaṅghāyā NCit_3.56a<lb/>
+prāha yathāyathaṃ vacaḥ NCit_1.48d<lb/>
+prāha vaivasvataṃ yamam NCit_1.35b<lb/>
+prāha saptasurān brahmā NCit_2.12a<lb/>
+priyaudāryaguṇā yatra NCit_3.142c<lb/>
+prīṇayitvā yamaṃ tathā NCit_1.82d<lb/>
+pretaparyāyakaṃ nagnam NCit_1.74a<lb/>
+pretānāṃ yakṣarakṣasām NCit_1.109b<lb/>
+preto dāruṇarupī ca NCit_1.43a<lb/>
+protisukhapradaṃ nṛṇām NCit_1.78b<lb/>
+phullāravindakoṣasya NCit_3.130a<lb/>
+baddhaskandhau supūrṇāṃśau NCit_3.131c<lb/>
+bandhanaṃ ca pradātavyaṃ NCit_3.52c<lb/>
+bandhuraḥ syānna saṃśayaḥ NCit_3.50d<lb/>
+babhūvurāturā sarve NCit_1.46c<lb/>
+balena tejasā cāpi NCit_1.71a<lb/>
+bahuśaḥ prāha vīrahā NCit_1.38b<lb/>
+bahusthānapratiṣṭhitam NCit_3.164d<lb/>
+bāhuprabāhumānāni NCit_3.94c<lb/>
+bāhumūlopajaṅghāsu NCit_3.114a<lb/>
+bāhū daṇḍāyamānasya NCit_3.93c<lb/>
+bāhūnāṃ mānamārohaṃ NCit_3.87c<lb/>
+bāhoścāpi tathaiva ca NCit_3.88f<lb/>
+buddhimantaḥ kṛte śṛṇu NCit_1.103d<lb/>
+buddhimān puraṣottamaḥ NCit_1.25b<lb/>
+buddhimāṃśca yaśo'nvitaḥ NCit_1.9d<lb/>
+bṛṣaṇau nātilambau hi NCit_3.53c<lb/>
+bramha priyau hi rājan tvaṃ NCit_1.23a<lb/>
+bramhā ṝṣyāśrayo yathā NCit_1.93d<lb/>
+bramhāṇamabhivandyātha NCit_1.56c<lb/>
+brahmajñayā hyupasthitaḥ NCit_1.99b<lb/>
+brahmaṇaśca mayā prāptaṃ NCit_2.20a<lb/>
+brahmaṇaḥ kṛpayā labdhāḥ NCit_1.105c<lb/>
+brahmaṇā tu pradarśitaṃ NCit_3.152c<lb/>
+brahmaṇetthaṃ vacasyukte NCit_1.80a<lb/>
+brahmaṇetthaṃ sa bhūpālo hy NCit_1.68a<lb/>
+brahmaṇo jātireva ca NCit_2.4d<lb/>
+brahmaṇo bhūpatistataḥ NCit_1.97b<lb/>
+brahmalokaṃ jagāma saḥ NCit_1.85d<lb/>
+brahmaśiro 'ṅkita cāstram NCit_1.45c<lb/>
+brahmāṇaṃ ca mahādevaṃ NCit_1.1a<lb/>
+brahmāṇaṃ lokapālakam NCit_1.80d<lb/>
+brahmāṇaṃ svāgata dṛṣṭvā NCit_1.48a<lb/>
+brahmāṇā kathite tvevaṃ NCit_1.58a<lb/>
+brahmā taccitramādāya NCit_1.54e<lb/>
+brahmātha prāha bhūpendraṃ NCit_1.88a<lb/>
+brahmā prasannatāṃ gataḥ NCit_1.69b<lb/>
+brahmābravīt tato bhūpaṃ NCit_1.57a<lb/>
+brahmā svayaṃ samāśvāsya NCit_1.59c<lb/>
+brahmetthaṃ cintayitvā tu NCit_2.7a<lb/>
+brāhmaṇaprītaye ime NCit_1.57b<lb/>
+brāhmaṇasya hitārthāya NCit_1.27c<lb/>
+brāhmaṇasyāsya pūjanāt NCit_1.52b<lb/>
+brāhmaṇānugrahāttathā NCit_1.74d<lb/>
+bhadro lekhyo vicārayan NCit_3.157b<lb/>
+bhadrau dvayaṅgulinā nyūno NCit_3.150a<lb/>
+bhayajito manaḥ śuddhaṃ NCit_1.14c<lb/>
+bhayajinnṛpasattamaḥ NCit_1.48b<lb/>
+bhayapravartakā ime NCit_1.42d<lb/>
+bhaye śoke ca bhrūprāntāv NCit_3.19a<lb/>
+bhavantaṃ pūjayiṣyati NCit_2.13d<lb/>
+bhavanti vicyutāstahā NCit_1.62b<lb/>
+bhavān mahāyaśasvī ca NCit_1.72a<lb/>
+bhavitavyaṃ sadā khalu NCit_1.63b<lb/>
+bhaveccaturdaśāṅguliḥ NCit_3.12b<lb/>
+bhavetāmānapūrṇyataḥ NCit_3.92d<lb/>
+bhavedaṣṭādaśāṅguliḥ NCit_3.91b<lb/>
+bhaved dvādaśakāṅgulam NCit_3.57f<lb/>
+bhāṣite tu dvijenaivaṃ NCit_1.25a<lb/>
+bhūtānāṃ śikṣako yathā NCit_3.123d<lb/>
+bhūpatiṃ prāha sattamaḥ NCit_1.59d<lb/>
+bhūpatonāṃ tatastathā NCit_3.3b<lb/>
+bhūpena sarvathā naṣṭā NCit_1.42c<lb/>
+bhūsparśau jālavṛddhau ca NCit_3.63c<lb/>
+bhṛśaṃ vikaśitā bhavet NCit_3.140b<lb/>
+bhramarāñjanasannibhāḥ NCit_3.111d<lb/>
+bhrupṛṣṭhakarṇayostathā NCit_3.16b<lb/>
+bhruvorucchrāya āroho NCit_3.17c<lb/>
+bhruḥsyānnavaśaśāṅkavat NCit_3.18b<lb/>
+bhrūmadhyāt keśaparyantaṃ NCit_3.20c<lb/>
+bhrūvaḥ prabhṛti bhālāntaṃ NCit_3.21a<lb/>
+bhrūvoḥ kaṇṭhasya bhālasya NCit_3.127e<lb/>
+bhrūvau dīptau sadā jñeyau NCit_3.129e<lb/>
+maṅgalaśropradāyakaṃ NCit_1.78c<lb/>
+maṇiputrasamākhyaspa NCit_1.18c<lb/>
+maṇḍalānvitanimnagam NCit_3.100d<lb/>
+maṇḍalo dvayaṅgulo vāsaḥ NCit_3.52a<lb/>
+matiritthaṃ babhūva ha NCit_2.6b<lb/>
+matiṃ cakre nṛpālakaḥ NCit_1.25d<lb/>
+mattaḥ śrutvā ca lakṣaṇam NCit_2.19b<lb/>
+matprasādāt prapūjyatām NCit_1.52d<lb/>
+matprārthanāvaśād deva NCit_1.35c<lb/>
+matsyodarasunetrasya NCit_3.24c<lb/>
+madīyavaṃśarakṣākṛt NCit_1.22a<lb/>
+madgṛhaṃ pratipadyātha NCit_1.33a<lb/>
+madhyasya dvayaṅgulāyāmaḥ NCit_3.99a<lb/>
+madhyāṅguleḥ samucchrāyaḥ NCit_3.74a<lb/>
+manasā ca mahipate NCit_3.47d<lb/>
+manuṣyeṣu ca yo nāma NCit_2.13c<lb/>
+manoramaṃ surupaṃ ca NCit_2.8c<lb/>
+manorogavivarjitāḥ NCit_1.11b<lb/>
+mama prasādād rājendra NCit_1.74c<lb/>
+mameyaṃ vacanena ca NCit_1.79b<lb/>
+mayā naiva pragṛhyate NCit_1.32d<lb/>
+mayā proktaṃ sucintitam NCit_3.72f<lb/>
+mayūrakaṇṭharomābhāḥ NCit_3.112a<lb/>
+marālagātasaṃyutaḥ NCit_3.138b<lb/>
+mahādevāya devāya NCit_1.3a<lb/>
+mahāprabhāvaśālibhiḥ NCit_1.41b<lb/>
+mahābhāgasya devānāṃ NCit_1.17c<lb/>
+mahābhūto 'pi sarvataḥ NCit_1.46b<lb/>
+mahendro devavṛndake NCit_1.95b<lb/>
+mānamaṣṭayavaṃ bhavet NCit_3.24d<lb/>
+mānamaṣṭāṅgulaṃ matam NCit_3.57d<lb/>
+mānamidaṃ pravartate NCit_3.3d<lb/>
+mānavaṃ syāccaturyavam NCit_3.34d<lb/>
+mānavāṅgeṣu yatnataḥ NCit_3.143b<lb/>
+mānaṃ kuryād yathāvidhi NCit_3.88b<lb/>
+mānaṃ ca dahiṇāvarttaṃ NCit_3.51c<lb/>
+mānaṃ tu kramikaṃ matam NCit_3.163b<lb/>
+mānaṃ daśayavaṃ bhavet NCit_3.25d<lb/>
+mānaṃ dvyardhāṅgulaṃ matam NCit_3.20d<lb/>
+mānaṃ pañcāṅgulaṃ matam NCit_3.60b<lb/>
+mānaṃ brūhi prajāsu ca NCit_3.1d<lb/>
+mānaṃ vā kīdṛśaṃ bhavet NCit_1.85b<lb/>
+mānaṃ sarvatra karmaṇi NCit_3.144d<lb/>
+mānaṃ syāccaturaṅgulam NCit_3.21b<lb/>
+mānaṃ syāccaturaṅgulam NCit_3.55d<lb/>
+mānena ca tathāyutam NCit_3.164b<lb/>
+mālavasya tathocchrāyaś NCit_3.158c<lb/>
+mālavyaścaturaṅguliḥ NCit_3.150b<lb/>
+māsāgrasya samucchrāyau NCit_3.33c<lb/>
+māṃsapurṇaṃ bhaved vakṣaḥ NCit_3.132a<lb/>
+māṃsapeśyalpasaṃyutaḥ NCit_3.99e<lb/>
+miśritena ca varṇena NCit_2.9c<lb/>
+mukhamānasusammatā NCit_3.22d<lb/>
+mukhasya mānamīdṛśam NCit_3.46d<lb/>
+mukhaṃ candradṛśaṃ śvetaṃ NCit_3.127a<lb/>
+mukhaṃ cāru manoharam NCit_3.141b<lb/>
+mukhaṃ vilikhayed yadi NCit_3.44b<lb/>
+mukhādīnāṃ parimāṇaṃ NCit_3.11a<lb/>
+mukhe vai vitato bhavet NCit_3.109f<lb/>
+mukhe śmaśru na roma ca NCit_3.116b<lb/>
+mukheṣu connatā jñeyā NCit_3.135c<lb/>
+munināgāsurāṇāṃ ca NCit_1.109a<lb/>
+mūrttadharmasya bodhinaḥ NCit_1.18b<lb/>
+mṛgarājagatisthairyaṃ NCit_3.121c<lb/>
+mṛtyupatermahātmanaḥ NCit_1.50b<lb/>
+mṛdu karikarākāraṃ NCit_3.58c<lb/>
+mṛdu mṛṇālatantuvat NCit_3.108d<lb/>
+mṛdusūkṣmaistathā snigdhair NCit_3.115a<lb/>
+meghato vārivarṣavat NCit_1.40b<lb/>
+megharavasya gambhīrā NCit_3.110c<lb/>
+medaṃ ṣaḍaṅgulaṃ proktam NCit_3.54a<lb/>
+yatnād buddhimatā tvayā NCit_1.108b<lb/>
+yatra sevā satāṃ nāsti NCit_1.61a<lb/>
+yat sthānaṃ kaṭideśasya NCit_3.48a<lb/>
+yathājñākāriṇaṃ daṇḍaṃ NCit_1.44c<lb/>
+yathājñānaṃ yathāśakti NCit_1.6c<lb/>
+yathā nareṣu bhūpendras NCit_1.92c<lb/>
+yathāśāstramudīritam NCit_3.32b<lb/>
+yathāśāstramupanyastaḥ NCit_3.80c<lb/>
+yathā syāt netralakṣaṇam NCit_3.30d<lb/>
+yathecchaṃ vai vibhaktavyaṃ NCit_3.148c<lb/>
+yathoktaṃ brahmaṇā pūrvam NCit_2.1a<lb/>
+yad bhavettasya mānaṃ syād NCit_3.23c<lb/>
+yama āha punaḥ punaḥ NCit_1.36b<lb/>
+yamadāsaiḥ sadā viśvaṃ NCit_1.70c<lb/>
+yamadutā jitāḥ śaktyā NCit_1.57c<lb/>
+yamadūtavinirgatāḥ NCit_1.42b<lb/>
+yamadūtāṃścadevāstraiḥ NCit_1.41c<lb/>
+yamasyāpi tato nṛpa NCit_1.67d<lb/>
+yamasyopari sarvataḥ NCit_1.39d<lb/>
+yamo 'pi praṇipatyātha NCit_1.49a<lb/>
+yamo 'pi prītimāpanno NCit_1.69a<lb/>
+yamo vipraśca nagnajit NCit_1.80b<lb/>
+yavatrayapramāṇakam NCit_3.23d<lb/>
+yavadvayasamāyutaḥ NCit_3.34f<lb/>
+yavamānena pūritāḥ NCit_3.70d<lb/>
+yavaikaṃ cucukaṃ smṛtam NCit_3.51d<lb/>
+yaśasvī tvaṃ bhaviṣyasi NCit_1.74f<lb/>
+yaśorāśivivardhakam NCit_2.23d<lb/>
+yaśovṛddhirbhaved viśve NCit_2.15c<lb/>
+yasmād deśāt samāpannas NCit_1.83c<lb/>
+yāni purvaṃ na coktāni NCit_3.95c<lb/>
+yāme aṅgulakaṃ matam NCit_3.79b<lb/>
+yuṣmākaṃ paripūjanāt NCit_2.15d<lb/>
+yuṣmākaṃ pratimāsu ca NCit_2.12d<lb/>
+ye bhavanti ca teṣāṃ vai NCit_3.3a<lb/>
+yogināṃ cāpasannibhaṃ NCit_3.26d<lb/>
+yojayāmāsa jīvitam NCit_1.54f<lb/>
+raktapadmāgrasādṛśyaṃ NCit_3.61c<lb/>
+raktavarṇaṃ suśobhanam NCit_3.83d<lb/>
+raktaṃ pādatalaṃ smṛtam NCit_3.61b<lb/>
+raktāntaṃ kṛṣṇatārakam NCit_3.29b<lb/>
+raktimāḥ snigdhavarṇakāḥ NCit_3.69b<lb/>
+rakṣoghnaṃ śatrunāśanam NCit_1.78d<lb/>
+rakṣohānirbhaved dhruvam NCit_2.15b<lb/>
+randhramardhāṅgalaṃ matam NCit_3.15d<lb/>
+rahasyaṃ saprakārakam NCit_1.100d<lb/>
+rājannetat vijānīyād NCit_3.30c<lb/>
+rājahaṃsagatistathā NCit_3.142d<lb/>
+rājātha dharmarājaṃ taṃ NCit_1.82a<lb/>
+rājā lekhyaḥ kṛśaḥ sadā NCit_3.125d<lb/>
+rājāha viśvakarman bho NCit_1.99a<lb/>
+rājñātiśuddhacetasā NCit_1.15b<lb/>
+rājñā namaskṛtastathā NCit_1.98b<lb/>
+rājñāpi prārthitaḥ punaḥ NCit_1.36d<lb/>
+rājñāṃ nyagrodhavṛkṣavat NCit_3.8b<lb/>
+rājñāṃ yathā pradarśitaṃ NCit_3.164a<lb/>
+rājñe so 'dadadāsanam NCit_1.98d<lb/>
+rāmo manusutastathā NCit_3.149b<lb/>
+rucakasya samucchrāyaḥ NCit_3.158a<lb/>
+rucako 'ṣṭāṅgulinyūnaḥ NCit_3.150c<lb/>
+rudan vipro 'tiduḥkhitaḥ NCit_1.19b<lb/>
+rupamālikha bho rājan NCit_1.53c<lb/>
+rupasaṃjñādayastadā NCit_2.4b<lb/>
+rekhātrayaṃ kare proktaṃ NCit_3.83c<lb/>
+romakoṣasamāvṛtaḥ NCit_3.20b<lb/>
+romabhiḥ parivarjitaḥ NCit_3.117b<lb/>
+lakṣaṇajñairudāhṛtam NCit_3.54d<lb/>
+lakṣaṇamagra ucyate NCit_3.32d<lb/>
+lakṣaṇamanusṛtyaica NCit_1.7c<lb/>
+lakṣaṇamākṛti tathā NCit_1.107b<lb/>
+lakṣaṇavidhimānaṃ ca NCit_1.96c<lb/>
+lakṣaṇaṃ kathitaṃ mayā NCit_3.148b<lb/>
+lakṣaṇaṃ kathitaṃ mayā NCit_3.156b<lb/>
+lakṣaṇaṃ cakravarttinaḥ NCit_3.124d<lb/>
+lakṣaṇaṃ cakravarttinaḥ NCit_3.126d<lb/>
+lakṣaṇaṃ tadudāhṛtam NCit_3.139d<lb/>
+lakṣaṇaṃ śāstrasammatam NCit_3.103b<lb/>
+lakṣaṇākṛtisundaraḥ NCit_1.22b<lb/>
+lakṣaṇāni śubhāni vai NCit_3.95b<lb/>
+lakṣaṇeṣu prajāpatiḥ NCit_3.154b<lb/>
+lakṣmaṇaṃ cakravarttinaḥ NCit_3.120d<lb/>
+lakṣmaṇaṃ cakravarttinaḥ NCit_3.121d<lb/>
+laṭikaṇṭhopajānunām NCit_3.162b<lb/>
+labdhañca maraṇaṃ śīghra NCit_1.51c<lb/>
+lākṣārasasamāyutam NCit_3.61d<lb/>
+likṣā yūko yavo 'ṅguliḥ NCit_3.4b<lb/>
+likhanādividhiṃ samyak NCit_2.1c<lb/>
+likhitvādau hyupāharat NCit_1.104d<lb/>
+likhitvā vividhaṃ samyak NCit_1.109e<lb/>
+liṅgakoṣaśca sundaraḥ NCit_3.134b<lb/>
+lekhyaṃ citramaninditaṃ NCit_3.165c<lb/>
+lokapitāmahaḥ svayam NCit_2.3b<lb/>
+lokapūjāvyavasthāyai NCit_2.16a<lb/>
+lokaśraddhāspadaṃ mahyaṃ NCit_1.104c<lb/>
+lokasya kāyamānaṃ māṃ NCit_3.1a<lb/>
+lokānāṃ hitasādhanāt NCit_1.77a<lb/>
+vakratāyāḥ puṭasyāpi NCit_3.34a<lb/>
+vakṣastu dviguṇaṃ smṛtam NCit_3.48f<lb/>
+vakṣasthalaṃ nṛpāṇāṃ ca NCit_3.115e<lb/>
+vacobhirmadhurairbhṛśam NCit_1.59b<lb/>
+vadanaṃ siṃhavad rāja- NCit_3.122c<lb/>
+varadāṃ ca mayā natvā NCit_1.1c<lb/>
+varāṭakanibhaṃ sadā NCit_3.28d<lb/>
+varāṭakābhanetrasya NCit_3.25c<lb/>
+varā bahuvidhā prāptā NCit_1.15c<lb/>
+varuṇaṃ marutaṃ tathā NCit_1.4d<lb/>
+varṇanoyāḥ kṣitau narāḥ NCit_3.7f<lb/>
+varṇarasasametāni NCit_1.12c<lb/>
+varṇasya lakṣaṇaṃ caiva NCit_3.104c<lb/>
+varṇaṃ ca citrakarmātha NCit_1.6a<lb/>
+varṇādīnāṃ samāyogaiḥ NCit_1.53a<lb/>
+varṇāśramā hi catvāro NCit_1.13a<lb/>
+varṇopāyau yathāyatham NCit_1.102d<lb/>
+valiḥ sūryo dāśarathiḥ NCit_3.149a<lb/>
+vasanti tvarita tathā NCit_3.147b<lb/>
+vāṇī proktā sulakṣaṇā NCit_3.110d<lb/>
+vāyuḥ supravahaścaiva NCit_1.12a<lb/>
+vālāgrāṣṭau ca likṣā sā NCit_3.5c<lb/>
+vāsibhiste prapūjitāḥ NCit_2.18f<lb/>
+vāsteyastu ṣaḍaṅgulaḥ NCit_3.53b<lb/>
+vikacotpalacakṣuṣmān NCit_1.55a<lb/>
+vikhyātaṃ citrakarmaṇi NCit_3.56b<lb/>
+vijānīhi kṣitīndra tvaṃ NCit_2.23c<lb/>
+vijñeyā ca sadā nṛṇām NCit_1.34d<lb/>
+viduṣāṃ sudhiyāṃ punaḥ NCit_1.7d<lb/>
+vidyādharāśca nāgendrāḥ NCit_3.2c<lb/>
+vidyottamā ca lakṣaṇam NCit_2.20b<lb/>
+vidvabhyo guṇayuktebhyaḥ NCit_1.108d<lb/>
+vidhinā kīdṛśena vā NCit_1.87b<lb/>
+vidhinā parimāṇena NCit_3.145c<lb/>
+vidhiyaṃ naiva kāryaṃ hi NCit_1.67c<lb/>
+vidhirvā parimāṇaṃ vā NCit_1.100a<lb/>
+vidhivat kakṣaṇādikam NCit_1.109d<lb/>
+vidhivat parimāṇañca NCit_3.156c<lb/>
+vilikhayet tathā dhīmān NCit_3.31e<lb/>
+vilokya tāni citrāṇi NCit_2.10a<lb/>
+vividhaṃ lakṣaṇānvitam NCit_1.106d<lb/>
+viśālo varttulākāraḥ NCit_3.90c<lb/>
+viśeṣaṇa samādaraḥ NCit_1.64b<lb/>
+viśruto bhayajinnāmnā NCit_1.9e<lb/>
+viśvakarman dvijanmane NCit_1.29c<lb/>
+viśvakarmaprajāpatī NCit_1.5b<lb/>
+viśvakarma samīpataḥ NCit_1.96b<lb/>
+viśvakarmasamīpe tu NCit_1.97c<lb/>
+viśvakarmā mudānvitaḥ NCit_1.101b<lb/>
+viśvakṛnnagnajiddeva- NCit_1.7a<lb/>
+viṣayastasya śatrubhir NCit_1.16a<lb/>
+viṣṇoḥ śivasya cātmanaḥ NCit_2.7b<lb/>
+viṣṇvindrau sūryamagniṃ ca NCit_1.4c<lb/>
+viṣmayo ya itaḥ pūrvaṃ NCit_1.21c<lb/>
+vistaraṃ bravīmi te NCit_3.152d<lb/>
+vistārasya yathaivārtha NCit_3.7a<lb/>
+vistāraḥ pañcakāṅguliḥ NCit_3.73d<lb/>
+vistāro bhavati dhruvam NCit_3.153b<lb/>
+vistṛtaścakravartināṃ NCit_3.8c<lb/>
+vījamūlaphalāni ca NCit_1.12d<lb/>
+vṛddhiḥ kāryā vicārayan NCit_3.108b<lb/>
+vṛṣapucchānupūrviyau NCit_3.137a<lb/>
+vṛṣarājapadonnatiḥ NCit_3.121b<lb/>
+vṛṣavadānanaṃ kharam NCit_3.122b<lb/>
+vedajño vrataniṣṭhaśca NCit_1.75a<lb/>
+vedavidyāśca kalpanā NCit_2.3d<lb/>
+vedāccitraṃ prajātaṃ vai NCit_1.90c<lb/>
+vedā yajñāśca bhūpate NCit_1.89b<lb/>
+veśadṛśāṃ gatiṃ cātha NCit_3.123a<lb/>
+vaiklavyakāraṇani ca NCit_1.49c<lb/>
+vyavasthā kramaśo yathā NCit_3.104b<lb/>
+vyākulau tī mahāyuddhe NCit_1.37c<lb/>
+śaktiman guṇavan nṛpa NCit_1.24b<lb/>
+śakrasya sarvadevānāṃ NCit_2.7c<lb/>
+śakraḥ suvarṣakastathā NCit_1.12b<lb/>
+śatasahasravarṣāṇi NCit_1.10c<lb/>
+śatasaṃkhyānvito bhavet NCit_3.158b<lb/>
+śarīraṃ cedasundaram NCit_3.151d<lb/>
+śarīraṃ taddhi kathyate NCit_3.117d<lb/>
+śarīraṃ yasya rājendra NCit_3.126c<lb/>
+śarīraṃ snigdhavarṇakam NCit_3.142b<lb/>
+śarīrāṅgavibhūṣaṇau NCit_3.130d<lb/>
+śarīrī na nivartate NCit_1.33b<lb/>
+śaśakaśca daśāṅguliḥ NCit_3.150d<lb/>
+śaśakasya samucchrāye NCit_3.159a<lb/>
+śāntikāmi mukhaṃ yat syād NCit_3.45a<lb/>
+śāstrānusāratastathā NCit_1.6b<lb/>
+śāssīdaṃ nṛpa niścitam NCit_1.21b<lb/>
+śiro 'laṃkaraṇaṃ gatāḥ NCit_3.111b<lb/>
+śīrṣakaṣṭabhujadvandaṃ NCit_3.143c<lb/>
+śīrṣadeśasya vakṣasas NCit_3.162c<lb/>
+śīrṣaṃ chatrasamākāram NCit_3.14a<lb/>
+śuktivaccārutānvitā NCit_3.78d<lb/>
+śubhaṃ kāryaṃ vicārayan NCit_3.80d<lb/>
+śuvarṇaṃ saralaṃ mṛdu NCit_3.29d<lb/>
+śūddhayā dānena vidhivat NCit_2.13a<lb/>
+śūlāsiprāsamudgarā NCit_1.42a<lb/>
+śṛṇu rājan samāhitaḥ NCit_1.88b<lb/>
+śṛṇvantu tadvidā janāḥ NCit_1.8d<lb/>
+śobhanamaṅgamaṇḍalam NCit_3.131d<lb/>
+śobhitaṃ syāt sulakṣaṇam NCit_3.115f<lb/>
+śobhitān nāśayanti ca NCit_3.147c<lb/>
+śobhitau ca bhujau syātāṃ NCit_3.141c<lb/>
+śrīmad vikasitaṃ jagat NCit_1.13d<lb/>
+śrīvatsacakracihnasva- NCit_3.84a<lb/>
+śrutaghnaṃ sarvato divyaṃ NCit_1.40a<lb/>
+śrutvā pretādhipo vākyaṃ NCit_1.30a<lb/>
+śrutvā śeṣāṇi sṛṣṭikṛt NCit_1.49d<lb/>
+śruyatāmucyate mayā NCit_3.11b<lb/>
+śruyatāṃ varṇyate mayā NCit_3.8d<lb/>
+śruyantāṃ kathayāmyaham NCit_3.73b<lb/>
+śrūyatāṃ yad madbhāṣitaṃ NCit_1.102b<lb/>
+śroṇīsīmāsamīpagam NCit_3.101b<lb/>
+śvadantānāṃ yavārdhena NCit_3.108a<lb/>
+śvadantābhaṃ suśobhanaṃ NCit_3.107d<lb/>
+śvadantaiśca suśobhitāḥ NCit_3.106b<lb/>
+śvetavastrasuśobhitaḥ NCit_3.125b<lb/>
+ṣaṭtriśakaṃ pramāṇaṃ vai NCit_3.88c<lb/>
+ṣaṭtriṃśaddṛṣṭiniyama- NCit_3.32c<lb/>
+ṣaḍaṅgulapramāṇakaḥ NCit_3.49b<lb/>
+ṣaḍaṅgulasamāyutaḥ NCit_3.13d<lb/>
+ṣaḍaṅgulaṃ bhavet mānaṃ NCit_3.54c<lb/>
+ṣaḍaṅgulisamanvitam NCit_3.100b<lb/>
+ṣaḍaṅgulisusammatam NCit_3.89b<lb/>
+ṣaḍaṅgulisusaṃyataḥ NCit_3.65b<lb/>
+ṣaḍuttaraśatāṅgulam NCit_3.157d<lb/>
+ṣoṛaśavarṣapūrakaṃ NCit_3.117c<lb/>
+ṣoṛaśāṅgulisammitam NCit_3.96f<lb/>
+sa ca bhavet samucchrāye NCit_3.157c<lb/>
+satyanarādhipasyaiva NCit_1.50c<lb/>
+sadā teṣu kathaṃ bhavet NCit_2.6f<lb/>
+sadānandapradobhavyastv NCit_1.60c<lb/>
+sadāsusmitasaṃyutaḥ NCit_3.37d<lb/>
+sannaddhāḥ sundarāstathā NCit_3.68b<lb/>
+saputre prasthite dvije NCit_1.84d<lb/>
+saptāṅgulamānakam NCit_3.79d<lb/>
+samadvibhāgasampannaṃ NCit_3.165a<lb/>
+samantāt kiraṇāvṛtaḥ NCit_3.125c<lb/>
+samantāt maṇḍalākāraḥ NCit_3.134c<lb/>
+samantān māṃsapūrṇaṃ vai NCit_3.85a<lb/>
+samantān māṃsapūrṇau ca NCit_3.92c<lb/>
+samānatalavijñeyaṃ NCit_3.16a<lb/>
+samānaṃ ca bhaved dhruvam NCit_3.50f<lb/>
+samānena tathā budhaiḥ NCit_3.11d<lb/>
+samudrā ratnamāśritāḥ NCit_1.93b<lb/>
+samenaika yavo bhavet NCit_3.76d<lb/>
+sameṣu vainateyaśca NCit_1.95a<lb/>
+sammpannaṃ śobhitaṃ bhavet NCit_3.145d<lb/>
+samyag vicārya śemuṣyā NCit_3.164c<lb/>
+sa rājā harṣamāptavām NCit_1.58b<lb/>
+sarvaguṇairupetasya NCit_1.17a<lb/>
+sarva jānāsi bhūtale NCit_1.23b<lb/>
+sarvajño nirahaṃkaro NCit_1.65e<lb/>
+sarvatraiva bhaviṣyati NCit_1.79d<lb/>
+sarvadamanakārī tu NCit_1.58c<lb/>
+sarvadevagaṇaiḥ sārdhaṃ NCit_1.81c<lb/>
+sarvamihānubhūyate NCit_1.34b<lb/>
+sarvarūpānukūlaṃ tat NCit_1.85a<lb/>
+sarvalokahitāya vaṃ NCit_1.53d<lb/>
+sarvavastusamākīrṇā NCit_1.104a<lb/>
+sarvavidyavijānate NCit_1.3b<lb/>
+sarvavidyāśrayasyāsya NCit_1.18a<lb/>
+sarvaśarīraśobhanaḥ NCit_3.99f<lb/>
+sarvaśāstre matistvatha NCit_1.16d<lb/>
+sarvasattvasukhapradam NCit_3.118d<lb/>
+sarvasya lekhane granthe NCit_3.153a<lb/>
+sarvaṃ karmavaśaṃ sadā NCit_1.32b<lb/>
+sarvaṃ śṛṇu krameṇa hi NCit_3.163f<lb/>
+sarvāṅgeṇa manoharaḥ NCit_3.138d<lb/>
+sarvāmakathayat kathām NCit_1.49b<lb/>
+sarvāsu hi kalāsu ca NCit_1.95d<lb/>
+sarvāḥ syuḥ kramikāgatāḥ NCit_3.67b<lb/>
+sarve nemuśca bhaktyā taṃ NCit_1.80c<lb/>
+sarve bhūtā bhayatrastā NCit_1.46a<lb/>
+sarve madvaśagā dhruvam NCit_1.31b<lb/>
+sarve śilpā mayā kṛtāḥ NCit_1.105d<lb/>
+sarveṣāmeva śāntānāṃ NCit_3.18a<lb/>
+sarveṣā rakṣaṇa kṛtvā NCit_2.14c<lb/>
+sarveṣāṃ ca manoramā NCit_3.123f<lb/>
+sarveṣāṃ dehināṃ tathā NCit_2.22b<lb/>
+sarveṣāṃ prāṇijātānāṃ NCit_3.3c<lb/>
+sarveṣāṃ maṅgalaṃ kṛtvā NCit_1.81a<lb/>
+savastraṃ vividhasthitam NCit_2.8a<lb/>
+savidhe tvāgataḥ kaścid NCit_1.19a<lb/>
+sasavibhaktasarvāṅgaṃ NCit_2.9a<lb/>
+saṃkṣepeṇa mayocyate NCit_1.6d<lb/>
+saṃkhyā yāyād navānvitā NCit_3.97d<lb/>
+saṃkhyāṣṭanavatiḥ sadā NCit_3.159b<lb/>
+saṃgṛhya mativṛddhaye NCit_1.8a<lb/>
+saṃjñāṃ devamahībhūjām NCit_2.6d<lb/>
+sākṣāt savarṇyate cātra NCit_3.10c<lb/>
+sāñjaliḥ pūjayitvā taṃ NCit_1.48c<lb/>
+sāñjaliḥ pṛṣṭhavān nṛpaḥ NCit_1.87d<lb/>
+sādaraṃ vākyamabravīt NCit_1.27d<lb/>
+sādṛśyaṃ veśasaundaryaṃ NCit_1.107c<lb/>
+sādhu sādhu kṛtaṃ tvayā NCit_1.57d<lb/>
+sādhu sādhviti saṃpūjya NCit_2.10c<lb/>
+sāntvitastu nṛvākyena NCit_1.26a<lb/>
+sāphalyameti te śramo NCit_1.52a<lb/>
+sāmānyānaṃ tu karttavyam NCit_3.27c<lb/>
+sāmānyānāṃ bhaviṣyati NCit_3.45d<lb/>
+sārthakyaṃ tasya cintayet NCit_1.66d<lb/>
+siddhanartakakinnarāḥ NCit_3.2b<lb/>
+sinduraliptasarvāṅgāḥ NCit_3.69c<lb/>
+siṃhodaravad vijñeyā NCit_3.133a<lb/>
+sukumāraśarīradhṛk NCit_1.55b<lb/>
+sukhadaṃ cāru susparśaṃ NCit_3.84e<lb/>
+sukhaśāntisamanvite NCit_1.14b<lb/>
+sukhaṃ vā yadi vā duḥkhaṃ NCit_1.32a<lb/>
+sugandhastvak kṛśaḥ snigdhī NCit_3.124a<lb/>
+sugnigdhaścāparaḥ śaśī NCit_3.127b<lb/>
+sugrathitāḥ samādantāḥ NCit_3.105a<lb/>
+suduṣkaraṃ tapaḥ kṛtvā NCit_1.15a<lb/>
+sundaracinhasaṃyutau NCit_3.64b<lb/>
+sundaraṃ ca tanustathā NCit_3.85f<lb/>
+sundarā dakṣiṇāvarttāḥ NCit_3.113a<lb/>
+subaddhāṅgulisundarau NCit_3.136a<lb/>
+suradevaiḥ sadā khalu NCit_3.146f<lb/>
+surāṇāṃ keśajālaṃ tu NCit_3.118a<lb/>
+suvṛtto 'lponnatau bhavet NCit_3.59d<lb/>
+susampanno bhaviṣyati NCit_3.44c<lb/>
+susaṃsthānasamāpannaḥ NCit_3.138c<lb/>
+suspaṣṭoraṃśo bhavet punaḥ NCit_3.90d<lb/>
+suhastau caraṇau syātāṃ NCit_3.140c<lb/>
+sūkṣmalateva saṃgatam NCit_3.118b<lb/>
+sūkṣmā aṅgulijālā hi NCit_3.85e<lb/>
+sūryavarcodharaṃ yamam NCit_1.26c<lb/>
+sṛṣṭerādau samāyātā NCit_1.89a<lb/>
+sṛṣyante ca yavādṛśaḥ NCit_3.81c<lb/>
+saundaryaṃ hi mukhasya ca NCit_3.127f<lb/>
+skandhadeśasya madhyāṃśa NCit_3.98a<lb/>
+skandhasthalasya mānaṃ hi NCit_3.96e<lb/>
+skandhāgrasya bhaven mānaṃ NCit_3.89a<lb/>
+skandhāyāmaḥ ṣaḍaṅgulaḥ NCit_3.48d<lb/>
+stavapūjādikaṃ tathā NCit_2.16d<lb/>
+stilakṣaṇa samanvitam NCit_3.84b<lb/>
+strīṇāṃ bhāgaḥ sa eva hi NCit_3.99d<lb/>
+sthānamardhāṅgulaṃ matam NCit_3.71d<lb/>
+sthānaṃ kaṭyāsthivistṛtam NCit_3.96b<lb/>
+sthānaṃ caryā ca dharmaśca NCit_2.5a<lb/>
+sthānāt tasmāt samārabhya NCit_3.101a<lb/>
+sthānopāyaiśca kīdṛśaiḥ NCit_1.105b<lb/>
+sthāvare jaṃgame naṣṭe NCit_2.2a<lb/>
+sthito 'smīti raṇe rājan NCit_1.38c<lb/>
+sthirataḍīnnibho jihvād NCit_3.109c<lb/>
+sthūlatve saptakāṅgulau NCit_3.53d<lb/>
+snigdhavarṇaṃ bhavettathā NCit_3.129b<lb/>
+snigdhavarṇāḥ sutīkṣṇakāḥ NCit_3.105b<lb/>
+spaṣṭā vṛddhāṅgulistathā NCit_3.71b<lb/>
+svakīyakarmavaśād jīvāḥ NCit_1.31a<lb/>
+svacchā dantā nabho yathā NCit_3.128d<lb/>
+svacchāḥ śvetā himā iva NCit_3.105d<lb/>
+svaptākāraṃ ca lebhire NCit_2.11b<lb/>
+svayambhūrupadiṣṭavān NCit_3.1b<lb/>
+svasthānamāgato dhīmān NCit_1.82c<lb/>
+svāṅguleḥ parimāṇataḥ NCit_3.9b<lb/>
+svādhiṣṭhānaṃ samāgatāḥ NCit_2.18d<lb/>
+svīyaputraṃ gṛhitavān NCit_1.56d<lb/>
+svīyaveṣaiḥ svacetasā NCit_2.18c<lb/>
+svecchāśaktiḥ kuto mama NCit_1.31d<lb/>
+hayarājasya nādavat NCit_3.110b<lb/>
+haraṃ ca candraśekharaṃ NCit_1.4b<lb/>
+hastapṛṣṭhaṃ sadā snigdham NCit_3.85c<lb/>
+hastasya gaditaṃ mayā NCit_3.87b<lb/>
+hastasya lakṣaṇānyatra NCit_3.73a<lb/>
+hastau na jānuparyantau NCit_3.92a<lb/>
+haṃsatejaḥ samāyutaḥ NCit_3.122d<lb/>
+haṃsavaccaraṇau matau NCit_3.63b<lb/>
+himālayo yathā śreṣṭho NCit_1.94a<lb/>
+hīnaṃ nānāśrayaṃ param NCit_2.23b<lb/>
+hṛdayān nābhirandhrakaḥ NCit_3.50c<lb/>
+hṛṣṭo brāhmaṇasattamaḥ NCit_1.56b<lb/>
+hṛṣṭo rājā samitraśca NCit_1.84a
+</p>
+</body>
+</text>
+</TEI>

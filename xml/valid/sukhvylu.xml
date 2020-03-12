@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_sukhAvatIvyUha+sUtra+vistaramAtRkA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Sukhāvatīvyūha sūtra vistaramātṛkā</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Yoshimichi Fujita</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Yoshimichi Fujita</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     not_specified-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- SUKHAVATIVYUHA<BR>
+Note: This e-text cannot be used for any commercial purpose.<BR>
+Data entry by Yoshimichi Fujita.  Aug.14,2000.<BR>
+Mail to zentokuji@hotmail.com<BR>
+Web:  http://mujintou.lib.net/<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+P1
+</p><p xml:id="1">
+oṃ namo daśadiganantāparyantalokadhātupratiṣṭhitebhyaḥ <lb/>
+sarvabuddhabodhisattvāryaśrāvakapratyekabuddhebhyo 'tītānāgata-<lb/>
+pratyutpannebhyaḥ. <lb/>
+namo 'mitābhāya. namo 'mitāyuṣe. namo 'cintyaguṇāka-<lb/>
+rātmane.<lb/>
+namo 'mitābhāya jināya, te mune. <lb/>
+sukhāvatīṃ yāmi te cānukampayā. <lb/>
+sukhāvatīṃ kanakavicitrakānanāṃ <lb/>
+manoramāṃ sugatasutair alaṃkṛtāṃ. <lb/>
+tathāśrayāṃ prathitayaśasya dhīmataḥ, <lb/>
+prayāmi tāṃ bahuguṇaratnasaṃcayām. <lb/>
+evaṃ mayā śrutam : ekasmin samaye bhagavān rājagṛhe <lb/>
+viharati sma, gṛdhrakūṭe parvate mahatā bhikṣusaṃghena <lb/>
+sārdhaṃ dvātriṃśatā bhikṣusahasraiḥ, sarvair arhadbhiḥ <lb/>
+kṣīṇāsravair niḥkleśair uṣitavadbhiḥ samyagājñāsuvimuktacittaiḥ <lb/>
+parikṣīṇabhavasaṃyojanasahasrair anuprāptasvakārthair <lb/>
+vijitavadbhir, uttamadamane śamathaprāptaiḥ, <lb/>
+suvimuktacittaiḥ suvimuktaprajñair mahānāgaiḥ, ṣaḍabhijñair <lb/>
+vaśībhūtair aṣṭavimokṣadhyāyibhir balaprāptair abhijñānābhijñātaiḥ, <lb/>
+sthavirair, mahāśrāvakaiḥ. tad yathā : ājñātakauṇḍinyena <lb/>
+ca, aśvajitā ca, bāṣpeṇa ca, mahānāmnā ca, bhadrajitā <lb/>
+P2<lb/>
+ca, yaśodevena ca, vimalena ca, subāhunā ca, pūrṇena <lb/>
+ca maitrāyaṇīputreṇa, gavāṃpatinā ca, uruvilvākāśyapena <lb/>
+ca, nadīkāśyapena ca, bhadrakāśyapena ca, kumārakāśyapena <lb/>
+ca, mahākāśyapena ca, śāriputreṇa ca, mahāmaudgalyāyanena <lb/>
+ca, mahākapphinena ca, mahācundena ca, <lb/>
+aniruddhena ca, rādhena ca, nandikena ca, kimpilena ca, <lb/>
+subhūtinā ca, revatena ca, khadiravanikena ca, vakkulena <lb/>
+ca, svāgatena ca, amogharājena ca, pārāyaṇikena ca, panthena <lb/>
+ca, cūlapanthena ca, nandena ca, rāhulena ca, āyuṣmatā <lb/>
+cānandena. ebhiś cānyaiś cābhijñānābhijñātaiḥ sthavirair <lb/>
+mahāśrāvakair, ekapudgalaṃ sthāpayitvā śaikṣapratipady uttarikaraṇīyaṃ, <lb/>
+yad idam : āyuṣmantam ānandaṃ, maitreyapūrvaṃgamaiś <lb/>
+ca saṃbahulaiś ca bodhisattvair mahāsattvaiḥ.<lb/>
+atha khalv āyuṣmān ānanda utthāyāsanād ekāṃśam <lb/>
+uttarāsaṅgaṃ kṛtvā dakṣiṇaṃ jānumaṇḍalaṃ pṛthivyāṃ pratiṣṭhāpya <lb/>
+yena bhagavāṃs tenāñjaliṃ praṇamya bhagavantam <lb/>
+etad avocat : viprasannāni ca tava bhagavata indriyāṇi, <lb/>
+pariśuddhaś chavivarṇaḥ, paryavadāto mukhavarṇaḥ pītanirbhāsaḥ, <lb/>
+tad yathā śāradaṃ vanadaṃ pāṇḍu pariśuddhaṃ <lb/>
+paryavadātaṃ pītanirbhāsaṃ. evam eva bhagavato <lb/>
+viprasannānīndriyāṇi, pariśuddho mukhavarṇaḥ, paryavadātaś <lb/>
+chavivarṇaḥ pītanirbhāsaḥ. tad yathāpi nāma bhagavañ <lb/>
+jāṃbūnadasuvarṇaniṣko, dakṣeṇa karmāreṇa karmāraputreṇa <lb/>
+volkāmukhe saṃpraveśya supariniṣṭhitaḥ pāṇḍukambalair <lb/>
+P3<lb/>
+upari kṣipto, 'tīvapariśuddho bhavati ; paryavadātaḥ <lb/>
+pītanirbhāsaḥ. evam eva bhagavato viprasannānīndriyāṇi, <lb/>
+pariśuddho mukhavarṇaḥ, paryavadātaś chavivarṇaḥ pītanirbhāsaḥ. <lb/>
+na khalu punar ahaṃ bhagavann abhijānāmi : iti <lb/>
+pūrvaṃ purvataram, evaṃ viprasannāni tathāgatasyendriyāṇy, <lb/>
+evaṃ pariśuddhaṃ mukhavarṇaṃ, paryavadātaṃ chavivarṇaṃ <lb/>
+pītanirbhāsam. tasya me bhagavann evaṃ bhavati : buddhavihāreṇa <lb/>
+vatādya tathāgato viharati ; jinavihāreṇa, sarvajñatāvihāreṇa, <lb/>
+mahānāgavihāreṇa vatādya tathāgato viharati. <lb/>
+atītānāgatapratyutpannān tathāgatān arhataḥ samyaksaṃbuddhān <lb/>
+samanupaśyatīti.<lb/>
+evam ukte, bhagavān āyuṣmantam ānandam etad avocat : <lb/>
+sādhu sādhv ānanda, kiṃ punas te devatā etam artham ārocayanty, <lb/>
+utāho buddhā bhagavantaḥ. atha svena pratyutpanna-<lb/>
+mīmāṃsājñānenaivaṃ prajānāsīti. evam ukte, āyuṣmān <lb/>
+ānando bhagavantam etad avocat : na me bhagavan devatā <lb/>
+etam artham ārocayanti, nāpi buddhā bhagavantaḥ. atha <lb/>
+tarhi me bhagavan svenaiva pratyātmamīmāṃsājñānenaivaṃ <lb/>
+bhavati : buddhavihāreṇādya tathāgato viharati ; jinavihāreṇa, <lb/>
+sarvajñatāvihāreṇa, mahānāgavihāreṇa vatādya tathāgato viharati ; <lb/>
+atītānāgatapratyutpannān sarvān buddhān bhagavataḥ <lb/>
+P4<lb/>
+samanupaśyatīti. <lb/>
+evam ukte, bhagavān āyuṣmantam ānandam etad avocat : <lb/>
+sādhu sādhv ānanda ; udāraḥ khalu ta unmiñjiḥ, bhadrikā <lb/>
+mīmāṃsā, kalyānaṃ pratibhānaṃ, bahujanahitāya yas <lb/>
+tvam ānanda pratipanno, bahujanasukhāya, lokānukampāyai, <lb/>
+mahato janakāyasyārthāya, hitāya sukhāya devānāṃ ca manuṣyānāṃ <lb/>
+ca, yas tvaṃ tathāgatam etam arthaṃ paripraṣṭavyaṃ <lb/>
+manyase. evam etad bhavaty ānanda, tathāgateṣv arhatsu <lb/>
+samyaksaṃbuddheṣv aprameyeṣv asaṃkhyeyeṣu jñānadarśanam <lb/>
+upasaṃharataḥ, na ca tathāgatasya jñānam upahanyate. <lb/>
+tat kasya hetoḥ. apratihatahetujñānadarśano hy ānanda tathāgataḥ. <lb/>
+ākāṅkṣan ānanda tathāgata ekapiṇḍapātena <lb/>
+kalpaṃ vā tiṣṭhet, kalpaśataṃ vā, kalpasahasraṃ vā, kalpaśatasahasraṃ <lb/>
+vā, yāvat kalpakoṭīnayutaśatasahasraṃ vā, tato <lb/>
+vottari, na ca tathāgatasyendriyāṇy upanaśyeyuḥ ; na mukha-<lb/>
+varṇasyānyathātvaṃ bhavet ; nāpi chavivarṇa upahanyate. tat <lb/>
+kasya hetoḥ. tathā hy ānanda tathāgataḥ samādhimukha-<lb/>
+pāramitāprāptaḥ. samyaksaṃbuddhānām ānanda loke sudurlabhaḥ <lb/>
+prādurbhāvaḥ ; tad yathodumbarapuṣpāṇāṃ loke prādurbhāvaḥ <lb/>
+sudurlabho bhavati, evam eva tathāgatānām arthakāmānāṃ <lb/>
+hitaiṣiṇām anukampakānāṃ mahākaruṇāpratipannānāṃ <lb/>
+sudurlabhaḥ prādurbhāvaḥ. api tu khalv āryānanda <lb/>
+P5<lb/>
+tathāgatasyaivaiṣo 'nubhāvo, yas tvaṃ sarvalokācāryāṇām <lb/>
+sattvānāṃ loke prādurbhāvāya bodhisattvānāṃ mahāsattvānām <lb/>
+arthāya tathāgatam etam arthaṃ paripraṣṭavyaṃ manyase. <lb/>
+tena hy ānanda śṛṇu sādhu ca suṣṭḥu ca, manasi kuru, <lb/>
+bhāṣiṣye 'haṃ te. evaṃ bhagavann ity āyuṣmān ānando <lb/>
+bhagavataḥ pratyaśrauṣīt. <lb/>
+bhagavāṃs tasyaitad avocat : bhūtapūrvam ānandātīte <lb/>
+'dhvanīto 'saṃkhyeye kalpe 'saṃkhyeyatare vipule 'prameye <lb/>
+'cintye, yadāsīt tena kālena tena samayena dīpaṃkaro nāma <lb/>
+tathāgato 'rhan samyaksaṃbuddho loka udapādi. dīpaṃkarasyānanda <lb/>
+pareṇa parataraṃ pratāpavān nāma tathāgato <lb/>
+'bhūt. tasya pareṇa parataraṃ prabhākaro nāma tathāgato <lb/>
+'bhūt. tasya pareṇa parataraṃ candanagandho nāma tathāgato <lb/>
+'bhūt. tasya pareṇa parataraṃ sumerukalpo nāma tathāgato <lb/>
+'bhūt. evaṃ candrānano nāma, vimalānano nāma, <lb/>
+anupalipto nāma, vimalaprabho nāma, nāgābhibhūr nāma, <lb/>
+sūryānano nāma, girirājaghoṣo nāma, sumerukūṭo nāma, suvarṇaprabhāso <lb/>
+nāma, jyotiṣprabho nāma, vaiḍūryanirbhāso nāma, <lb/>
+brahmaghoṣo nāma, candrābhibhūr nāma, sūryaghoṣo <lb/>
+nāma, muktakusumapratimaṇḍitaprabho nāma, śrīkūto nāma, <lb/>
+sāgaravarabuddhivikrīḍitābhijño nāma, varaprabho nāma, <lb/>
+mahāgandharājanirbhāso nāma, vyapagatakhilamalapratigho <lb/>
+nāma, śūrakūṭo nāma, ratnajaho nāma, mahāguṇadharabuddhiprāptābhijño <lb/>
+nāma, candrasūryajihmīkaraṇo nāma, uttaptavaiḍūryanirbhāso <lb/>
+nāma, cittadhārābuddhisaṃkusumitābhyudgato <lb/>
+P6<lb/>
+nāma puṣpāvatīvanarājasaṃkusumitābhijño nāma, puṣpākaro <lb/>
+nāma, udakacandropamo nāma, avidyāndhakāravidhvaṃsanakaro <lb/>
+nāma, lokendro nāma, muktacchatrāpravāḍasadṛśo <lb/>
+nāma, tiṣyo nāma, dharmamativinanditarājo nāma, siṃha-<lb/>
+sāgarakūṭavinanditarājo nāma, sāgaramerucandro nāma, brahma-<lb/>
+svaranādābhinandino nāma, kusumasaṃbhavo nāma, prāptaseno <lb/>
+nāma, candrabhānur nāma, merukūṭo nāma, candraprabho <lb/>
+nāma, vimalanetro nāma, girirājaghoṣeśvaro nāma, <lb/>
+kusumaprabho nāma, kusumavṛṣṭyābhiprakīrṇo nāma, ratnacchatro <lb/>
+nāma, padmavīthyupaśobhito nāma, tagaragandho <lb/>
+nāma, ratnanirbhāso nāma, nirmito nāma, mahāvyūho nāma, <lb/>
+vyapagatakhiladoṣo nāma, brahmaghoṣo nāma, saptaratnābhivṛṣṭo <lb/>
+nāma, mahāguṇadharo nāma, tamālapatracandanakardamo <lb/>
+nāma, kusumābhijño nāma, ajñānavidhvaṃsano <lb/>
+nāma, keśarī nāma, muktacchatro nāma, suvarṇagarbho <lb/>
+nāma, vaiḍūryagarbho nāma, mahāketur nāma, dharmaketur <lb/>
+nāma, ratnaśrīr nāma, narendro nāma, lokendro nāma, <lb/>
+kāruṇiko nāma, lokasundaro nāma, brahmaketur nāma, <lb/>
+dharmamatir nāma, siṃho nāma, siṃhamatir nāma, siṃhamater <lb/>
+ānanda pareṇa parataraṃ lokeśvararājo nāma tathāgato <lb/>
+'rhan samyaksaṃbuddho loka udapādi, vidyācaraṇa-<lb/>
+saṃpannaḥ, sugato, lokavidanuttaraḥ, puruṣadamyasārathiḥ, <lb/>
+śāstā devānāṃ ca manuṣyāṇāṃ ca, buddho, bhagavān. <lb/>
+tasya khalu punar ānanda lokeśvararājasya tathāgatasyārhataḥ <lb/>
+samyaksaṃbuddhasya pravacane dharmākaro nāma <lb/>
+bhikṣur abhūd, adhimātraṃ smṛtimān, gativān, prajñāvān, <lb/>
+adhimātraṃ vīryavān, udārādhimuktiḥ. <lb/>
+atha khalu ānanda sa dharmākaro bhikṣur utthāyāsanād <lb/>
+P7<lb/>
+ekāṃsam uttarāsaṅgaṃ kṛtvā, dakṣiṇaṃ jānumaṇḍalaṃ pṛthivyāṃ <lb/>
+pratiṣṭhāpya, yenāsau bhagavān lokeśvararājas tathāgatas <lb/>
+tenāñjaliṃ praṇamya, bhagavantaṃ namaskṛtya, <lb/>
+tasmin samaye saṃmukham ābhir gāthābhir abhyaṣṭāvīt : <lb/>
+amitaprabha, anantatulyabuddhe, <lb/>
+na ca iha anyaprabhā vibhāti kācit.<lb/>
+sūryamaṇisirīṇa candra-ābhā, <lb/>
+na tapi na bhāsiṣu ebhi sarvaloke. (1)<lb/>
+rūpam api anantu sattvasāre, <lb/>
+tatha api buddhasvaro anantaghoṣaḥ.<lb/>
+śīlam api samādhiprajñavīryaiḥ <lb/>
+sadṛśu na te 'stiha loki kaścid anyaḥ. (2)<lb/>
+gabhiru vipulu sūkṣma prāptu dharmo, <lb/>
+acintatu buddhavaro yathā samudraḥ. <lb/>
+tenonnamanā na cāsti śāstuḥ, <lb/>
+khiladoṣaṃ jahiyā atārṣi pāram. (3)<lb/>
+yatha buddhavaro anantatejā <lb/>
+pratapati sarvadiśā narendrarājā, <lb/>
+tatha ahu buddha bhavitva dharmasvāmī, <lb/>
+jaramaraṇān prajāṃ pramocayeyam. (4)<lb/>
+dānadamathaśīlakṣāntivīrya-<lb/>
+dhyānasamādhi tathaiva agraśreṣṭhāṃ, <lb/>
+ebhi ahu vratāṃ samādadāmi, <lb/>
+buddha bhaviṣyāmi sarvasattvatrātā. (5)<lb/>
+buddhaśatasahasrakoṭy anekā <lb/>
+P8<lb/>
+yathariva vālika gaṅgayā anantā, <lb/>
+sarva ta ahu pūjayiṣya nāthān <lb/>
+śivavarabodhigaveṣako atulyāṃ. (6)<lb/>
+gaṅgarajasamāna lokadhātūṃ <lb/>
+tatra bhūyottari ye ananta kṣetrā, <lb/>
+sarvata prabha muñcayiṣye tatrā <lb/>
+iti etādṛśi vīryam ārabhiṣye. (7)<lb/>
+kṣetra mama udāru agraśreṣṭho, <lb/>
+varam iha maṇḍa pi saṃskṛtesmin.<lb/>
+asadṛśa nirvāṇalokadhātusaukhyaṃ, <lb/>
+tac ca asattvatayā viśodhayiṣye. (8)<lb/>
+daśadiśata samāgatāni sattvā <lb/>
+tatra gatāḥ sukham edhiṣyanti kṣipram. <lb/>
+buddha mama pramāṇa atra sākṣī, <lb/>
+avitathavīryabalaṃ janemi cchandaṃ. (9)<lb/>
+daśadiśe lokavidū asaṅgajñānī <lb/>
+sada mama cittu prajānayantu te pi.<lb/>
+avicigatu ahaṃ sadā vaseyaṃ, <lb/>
+praṇidhibalaṃ na punar nivartayiṣye. (10)<lb/>
+atha khalu ānanda sa dharmākaro bhikṣus taṃ bhagavantaṃ <lb/>
+lokeśvararājaṃ tathāgatam saṃmukham ābhir gātābhir <lb/>
+abhiṣṭutyaitad avocat : aham asmi bhagavann anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbodhukāmaḥ, punaḥ punar <lb/>
+anuttarāyāṃ samyaksaṃbodhau cittam utpādayāmi, pariṇāmayāmi. <lb/>
+tasya me bhagavān sādhu tathā dharmaṃ deśayatu, <lb/>
+yathāhaṃ kṣipram anuttarāṃ samyaksaṃbodhim abhisaṃbudheyaṃ ; <lb/>
+P9<lb/>
+asamasamas tathāgato loke bhaveyaṃ ; tāṃś ca me <lb/>
+bhagavān ākārān parikīrtayatu, yair ahaṃ buddhakṣetrasya <lb/>
+guṇavyūhasaṃpadaṃ parigṛhnīyām. evam uktaś cānanda sa <lb/>
+bhagavāṃl lokeṣvararājas tathāgatas taṃ bhikṣum etad <lb/>
+avocat : tena hi tvaṃ bhikṣo svayam eva buddhakṣetra-<lb/>
+guṇālaṃkāravyūhasaṃpadaṃ parigṛhṇīṣe. so 'vocat : nāhaṃ <lb/>
+bhagavann utsahe. api tu bhagavān eva bhāṣatv anyeṣāṃ <lb/>
+tathāgatānāṃ buddhakṣetraguṇavyūhālaṃkārasaṃpadaṃ, yāṃ <lb/>
+śrutvā vayaṃ sarvākārāṃ paripūrayiṣyāma iti. <lb/>
+athānanda sa lokeśvararājas tathāgato 'rhan samyaksaṃbuddhas <lb/>
+tasya bhikṣor āśayaṃ jñātvā, paripūrṇāṃ varṣakoṭīm <lb/>
+ekāśītibuddhakoṭīnayutaśatasahasrāṇāṃ buddhakṣetraguṇālaṃkāra-<lb/>
+vyūhasaṃpadaṃ sākārāṃ soddeśāṃ sanirdeśāṃ saṃprakāśitavān ; <lb/>
+arthakāmo, hitaiṣy, anukampako, 'nukampām <lb/>
+upādāya, buddhanetryānupacchedāya, sattveṣu mahākaruṇāṃ <lb/>
+saṃjanayitvā. paripūrṇāṃś ca dvācatvārimśatkalpāṃs tasya <lb/>
+bhagavata āyuṣpramāṇam abhūt. <lb/>
+atha khalv ānanda sa dharmākaro bhikṣur yās teṣām ekāśīti-<lb/>
+buddhakoṭīnayutaśatasahasrāṇāṃ buddhakṣetraguṇālaṃkāra-<lb/>
+vyūhasaṃpadas tāś ca sarvā ekabuddhakṣetre parigṛhya, <lb/>
+bhagavato lokeśvarasya tathāgatasya pādau śirasā vanditvā, <lb/>
+pradakṣiṇīkṛtya, tasya bhagavato 'ntikāt prākrāmat. uttari <lb/>
+ca pañcakalpān buddhakṣetraguṇālaṃkāravyūhasaṃpadam, <lb/>
+P10<lb/>
+udāratarāṃś ca praṇītatarāṃś ca, sarvaloke daśasu dikṣv <lb/>
+apracaritapūrvāṃ parigṛhītavān ; udāraṃ ca praṇidhānam <lb/>
+akārṣīt. iti hy ānanda yā tena bhagavatā lokeśvararājena <lb/>
+tathāgatena teṣām ekāśītibuddhakṣetrakoṭīnayutaśatasahasrāṇāṃ <lb/>
+saṃpattiḥ kathitā, tato 'tirekāny udārapraṇītāprameyatarāṃ <lb/>
+buddhakṣetrasaṃpattiṃ parigṛhya, yena sa tathāgatas <lb/>
+tenopasaṃkramya, tasya bhagavataḥ pādau śirasā vanditvaitad <lb/>
+avocat : parigṛhītā me bhagavan buddhakṣetraguṇālaṃkāra-<lb/>
+vyūhasaṃpad iti. evam ukte, ānanda, sa lokeśvararājas <lb/>
+tathāgatas taṃ bhikṣum etad avocat : tena hi bhikṣo bhāṣasva. <lb/>
+anumodate tathāgataḥ. ayaṃ kālo bhikṣo, pramodaya <lb/>
+parṣadaṃ, harṣaṃ janaya, siṃhanādaṃ nada, yaṃ śrutvā <lb/>
+bodhisattvā mahāsattvā etarhy anāgate cādhvany evaṃrūpāṇi <lb/>
+buddhakṣetrasaṃpattipraṇidhānāni parigṛhīṣyanti. <lb/>
+athānanda sa dharmākaro bhikṣus tasyāṃ velāyāṃ taṃ <lb/>
+bhagavantam etad avocat : tena hi śṛṇotu me bhagavān, ye <lb/>
+mama praṇidhānaviśeṣāḥ, yathā me 'nuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbuddhasye. acintyaguṇālaṃkāravyūhasamanvāgataṃ <lb/>
+tad buddhakṣetraṃ bhaviṣyati : <lb/>
+1. sacen me bhagavaṃs tasmin buddhakṣetre nirayo vā, <lb/>
+tiryagyonir vā, pretaviṣayo vāsuro vā kāyo bhavet, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+2. sacen me bhagavaṃs tatra buddhakṣetre ye sattvāḥ <lb/>
+P11<lb/>
+pratyājātā bhaveyus, te punas tataś cyutvā, nirayaṃ vā, <lb/>
+tiryagyoniṃ vā, pretaviṣayaṃ vāsuraṃ vā kāyaṃ prapateyur, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam. <lb/>
+3. sacen me bhagavaṃs tatra buddhakṣetre ye sattvāḥ <lb/>
+pratyājātās, te ca sarve naikavarṇāḥ syur, yad idaṃ : suvarṇavarṇāḥ, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisambudhyeyam. <lb/>
+4. sacen me bhagavaṃs tasmin buddhakṣetre devānāṃ <lb/>
+ca manuṣyānāṃ ca nānātvaṃ prajñayetānyatra nāmasaṃketa-<lb/>
+saṃvṛtivyavahāramātrā devā manuṣyā iti saṃkhyāgaṇanāto, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam. <lb/>
+5. sacen me bhagavaṃs tasmin buddhakṣetre ye sattvāḥ <lb/>
+pratyājātās te cet sarve na rddhivaśitā paramapāramitāprāptā <lb/>
+bhaveyur, antaśa ekacittakṣaṇalavena buddhakṣetrakoṭīniyuta-<lb/>
+śatasahasrātikramaṇatayāpi, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+6. sacen me bhagavaṃs tasmin buddhakṣetre ye sattvāḥ <lb/>
+pratyājātā bhaveyus, te cet sarve na jātismarā syur, antaśaḥ <lb/>
+kalpakoṭīniyutaśatasahasrānusmaraṇatayāpi, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+7. sacen me bhagavaṃs tasmin buddhakṣetre ye sattvāḥ <lb/>
+pratyājāyeraṃs, te sarve na divyasya cakṣuṣo lābhino bhaveyur, <lb/>
+antaśo lokadhātukoṭīnayutaśatasahasrādarśanatayāpi, mā <lb/>
+P12<lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+8. sacen me bhagavaṃs tasmin buddhakṣetre ye <lb/>
+sattvāḥ pratyājāyeraṃs, te sarve na divyasya śrotrasya lābhino <lb/>
+bhaveyur, antaśo buddhakṣetrakoṭīnayutaśatasahasrād api yugapat <lb/>
+saddharmaśravaṇatayā, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+9. sacen me bhagavaṃs tasmin buddhakṣetre ye sattvāḥ <lb/>
+pratyājāyeraṃs, te sarve na paracittajñānakovidā bhaveyur, <lb/>
+antaśo buddhakṣetrakoṭīnayutaśatasahasraparyāpannānāṃ <lb/>
+sattvānāṃ cittacaritraparijñānatayā, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+10. sacen me bhagavaṃs tasmin buddhakṣetre ye <lb/>
+sattvāḥ pratyājāyeraṃs, teṣāṃ kācit parigrahasaṃjñotpadyetāntaśaḥ <lb/>
+svaśarīre 'pi, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam. <lb/>
+11. sacen me bhagavaṃs tasmin buddhakṣetre ye sattvāḥ <lb/>
+pratyājāyeraṃs, te sarve na niyatāḥ syur, yad idaṃ : samyaktve <lb/>
+yāvan mahāparinirvāṇād, mā tāvad anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam. <lb/>
+12. sacen me bhagavaṃs tasmin buddhakṣetre 'nuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbuddhasya, kaścid eva sattvaḥ <lb/>
+śrāvakānāṃ gaṇānām adhigacched, antaśas trisāhasra-<lb/>
+mahāsāhasraparyāpannā api sarvasattvāḥ pratyekabuddhabhūtāḥ <lb/>
+kalpakoṭīniyutaśatasahasram api gaṇayanto, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+13. sacen me bhagavann anuttarāṃ samyaksaṃbodhim <lb/>
+P13<lb/>
+abhisaṃbuddhasya, tasmin buddhakṣetre prāmāṇikī me prabhā <lb/>
+bhaved, antaśo buddhakṣetrakoṭīnayutaśatasahasrapramāṇenāpi, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhi-<lb/>
+saṃbudhyeyam. <lb/>
+14. sacen me bhagavaṃs tasmin buddhakṣetre 'nuttarāṃ <lb/>
+samyaksambodhim abhisaṃbuddhasya bodhiprāptasya, <lb/>
+sattvānāṃ pramāṇīkṛtyam āyuṣpramānaṃ bhaved, anyatra <lb/>
+praṇidhānavaśena, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+15. sacen me bhagavan bodhiprāptasyāyuṣpramāṇaṃ paryantīkṛtyaṃ <lb/>
+bhaved, antaśaḥ kalpakoṭīnayutaśatasahasragaṇanayāpi, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhi-<lb/>
+saṃbudhyeyam.<lb/>
+16. sacen me bhagavan bodhiprāptasya tasmin buddhakṣetre <lb/>
+sattvānām akuśalasya nāmadheyam api bhaven, mā <lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+17. sacen me bhagavan bodhiprāptasya, nāprameyeṣu <lb/>
+buddhakṣetreṣv aprameyāsaṃkhyeyā buddhā bhagavato nāmadheyaṃ <lb/>
+parikīrtayeyur, na varṇaṃ bhāṣeran, na praśaṃsām <lb/>
+abhyudīrayeyur, na samudīrayeyur, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+18. sacen me bhagavan bodhiprāptasya, ye sattvā anyeṣu <lb/>
+lokadhātuṣv anuttarāyāḥ samyaksaṃbodheś cittam utpādya, <lb/>
+mama nāmadheyaṃ śrutvā, prasannacittā mām anusmareyus, <lb/>
+teṣāṃ ced ahaṃ maraṇakālasamaye pratyupasthite bhikṣusaṃgha-<lb/>
+parivṛtaḥ puraskṛto na puratas tiṣṭheyam, yad <lb/>
+idaṃ : cittāvikṣepatāyai, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+P14<lb/>
+abhisaṃbudhyeyam.<lb/>
+19. sacen me bhagavan bodhiprāptasyāprameyāsaṃkhyeyeṣu <lb/>
+buddhakṣetreṣu ye sattvāḥ mama nāmadheyaṃ śrutvā, <lb/>
+tatra buddhakṣetre cittaṃ preṣayeyur, upapattaye kuśalamūlāni <lb/>
+ca pariṇāmayeyus, te ca tatra buddhakṣetre nopapadyeran, <lb/>
+antaśo daśabhiś cittotpādaparivartaiḥ, sthāpayitvānantaryakāriṇaḥ <lb/>
+saddharmapratikṣepāvaraṇāvṛtāṃś ca sattvān, mā <lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+20. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+bodhisattvāḥ pratyājāyeran, te sarve na dvātriṃśatā <lb/>
+mahāpuruṣalakṣaṇaiḥ samanvāgatā bhaveyur, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+21. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye sattvāḥ pratyājātā bhaveyus, te sarve naikajātibaddhāḥ <lb/>
+syur anuttarāyāṃ samyaksaṃbodhau, sthāpayitvā praṇidhānaviśeṣāṃs <lb/>
+teṣām eva bodhisattvānāṃ mahāsattvānāṃ, mahā-<lb/>
+saṃnāhasaṃnaddhānāṃ, sarvalokārthasaṃnaddhānāṃ, sarva-<lb/>
+lokārthābhiyuktānāṃ, sarvalokaparinirvāpitābhiyuktānāṃ, <lb/>
+sarvalokadhātuṣu bodhisattvacaryāṃ caritukāmānāṃ, sarva-<lb/>
+buddhān satkartukāmānāṃ, gaṅgānadīvālukasamān sattvān <lb/>
+anuttarāyāṃ samyaksaṃbodhau pratiṣṭhāpakānāṃ, bhūyaś cottari-<lb/>
+caryābhimukhānāṃ samantabhadracaryāniyatānāṃ, mā <lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+22. sacen me bhagavan bodhiprāptasya, tad-buddhakṣetre <lb/>
+P15<lb/>
+ye bodhisattvāḥ pratyājātā bhaveyus, te sarva ekapurobhaktenānyāni <lb/>
+buddhakṣetrāṇi gatvā, bahūni buddhaśatāni, bahūni <lb/>
+buddhasahasrāṇi, bahūni buddhaśatasahasrāṇi, bahvīr <lb/>
+buddhakoṭīr, yāvad bahūni buddhakoṭīniyutaśatasahasrāṇi, nopatiṣṭheran <lb/>
+sarvasukhopadhānair, yad idaṃ : buddhānubhāvena, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃ-<lb/>
+budhyeyam.<lb/>
+23. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye bodhisattvā yathārūpair ākārair ākāṃkṣeyuḥ kuṣalamūlāny <lb/>
+avalopituṃ, yad idaṃ : suvarṇena vā, rajatena vā, <lb/>
+maṇimuktāvaiḍūryaśaṅkhaśilāpravāḍasphaṭikamusālagalvālohita-<lb/>
+muktāśmagarbhādibhir vānyatamānyatamaiḥ sarvaratnair <lb/>
+vā, sarvapuṣpagandhamālyavilepanacūrṇacīvaracchatra-<lb/>
+dhvajapatākāpradīpair vā, sarvanṛtyagītavādyair vā, teṣāṃ <lb/>
+cet tathārūpā ākārāḥ sahacittotpādān na prādur bhaveyur, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam.<lb/>
+24. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye sattvāḥ pratyājātā bhaveyus, te sarve na sarvajñatāsahagatāṃ <lb/>
+dharmāṃ kathām kathayeyur, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+25. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+bodhisattvānām evaṃ cittam utpādyeta, yan nv ihaiva <lb/>
+vayaṃ lokadhātau sthitvāprameyāsaṃkhyeyeṣu buddhakṣetreṣu <lb/>
+buddhān bhagavataḥ satkuryāmo gurukuryāmo mānayemaḥ <lb/>
+P16<lb/>
+pūjayemaḥ, yad idaṃ : cīvarapiṇḍapātaśayanāsanaglāna-<lb/>
+pratyayabhaiṣajyapariṣkāraiḥ puṣpadhūpagandhamālyavilepana-<lb/>
+cūrṇacīvaracchatradhvajapatākābhir nānāvidhanṛttagītavādita-<lb/>
+ratnavarṣair iti, teṣāṃ cet te buddhā bhagavantaḥ sahacittotpādān <lb/>
+tan na pratigṛhṇīyur, yad idam : anukampām upādāya, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃ-<lb/>
+budhyeyam.<lb/>
+26. sacen me bhagavan bodhiprāptasya, tad-buddhakṣetre <lb/>
+ye bodhisattvāḥ pratyājātā bhaveyus, te sarve na nārāyaṇa-<lb/>
+vajrasaṃhananātmabhāvasthāmapratilabdhā bhaveyur, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam.<lb/>
+27. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+kaścit sattvo 'laṃkārasya varṇaparyantam anugṛhṇīyād, <lb/>
+antaśo na divyenāpi cakṣuṣaivaṃvarṇam evaṃvibhūtir iti <lb/>
+buddhakṣetram iti nānāvarṇatāṃ saṃjānīyān, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+28. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+yaḥ sarvaparīttakuśalamūlo bodhisattvaḥ sa ṣoḍaśayojana-<lb/>
+śatocchritam udāravarṇabodhivṛkṣaṃ na saṃjānīyān, mā <lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam.<lb/>
+29. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+P17<lb/>
+kasyacit sattvasyoddeśo vā svādhyāyo vā kartavyaḥ syān, <lb/>
+na te sarve pratisaṃvitprāptā bhaveyur, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+30. sacen me bhagavan bodhiprāptasya, naivaṃprabhāsvaraṃ <lb/>
+tad buddhakṣetraṃ bhaved, yatra samantād aprame-<lb/>
+yāsaṃkhyeyācintyātulyāparimāṇāni buddhakṣetrāṇi saṃdṛśyeran, <lb/>
+tad yathāpi nāma suparimṛṣṭa ādarśamaṇḍale mukhamaṇḍalaṃ, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+31. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+dharaṇitalam upādāya, yāvad antarīkṣād, devamanṣyavi-<lb/>
+ṣayātikrāntasyābhijātasya dhūpasya tathāgatasya bodhisattvasya <lb/>
+pūjā pratyahaṃ sarvaratnamayāni nānāsurabhigandhaghaṭikāśata-<lb/>
+sahasrāṇi sadā nirdhūpitāny eva na syur, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+32. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+na sadābhipraviṣṭāny eva sugandhinānāratnapuṣpavarṣāṇi, <lb/>
+sadā pravāditāś ca manojñasvarā vādyameghā na syur, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhye-<lb/>
+yam.<lb/>
+33. sacen me bhagavan bodhiprāptasya, ye sattvā apra-<lb/>
+meyāsaṃkhyeyācintyātulyeṣu lokadhātuṣv ābhayā sphuṭā bhaveyus, <lb/>
+te sarve na devamanuṣyasamatikrāntena sukhena samanvāgatā <lb/>
+P18<lb/>
+bhaveyur, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+34. sacen me bhagavan bodhiprāptasya, samantāc cāpra-<lb/>
+meyāsaṃkhyeyācintyātulyāparimāṇeṣu buddhakṣetreṣu bodhisattvā <lb/>
+mama nāmādheyaṃ śrutvā, tac-chravaṇasahagatena 
+</p><p xml:id="2">
+kuśalamūlena jātivyavṛttāḥ santo, na dhāraṇīpratilabdhā <lb/>
+bhaveyur, yāvad bodhimaṇḍaparyantam iti, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+35. sacen me bhagavan bodhiprāptasya, samantād aprame-<lb/>
+yāsaṃkhyeyācintyātulyāparimāneṣu buddhakṣetreṣu yāḥ striyo <lb/>
+mama nāmadheyaṃ śrutvā, prasādaṃ saṃjanayeyur, bodhicittaṃ <lb/>
+cotpādayeyuḥ, strībhāvaṃ ca vijugupsyeran, jātivyativṛttāḥ <lb/>
+samānāḥ saced dvitīyaṃ strībhāvaṃ pratilabheran, <lb/>
+mā tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃ-<lb/>
+budhyeyam.<lb/>
+36. sacen me bhagavan bodhiprāptasya, samantād daśasu <lb/>
+dikṣv aprameyāsaṃkhyeyācintyātulyāparimāṇeṣu buddhakṣetreṣu <lb/>
+ye bodhisattvā mama nāmadheyaṃ śrutvā, praṇipatya <lb/>
+pañcamaṇḍalanamaskāreṇa vandiṣyante, te bodhisattvacaryāṃ <lb/>
+caranto, na sadevakena lokena namasā satkṛtyeran, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+37. sacen me bhagavan bodhiprāptasya, kasyacid bodhisattvasya <lb/>
+cīvaradhāvanaśoṣaṇasīvanarajanakarma kartavyaṃ bhaven, <lb/>
+P19<lb/>
+na navanavābhijātacīvararatnaiḥ prāvṛtam evātmānaṃ <lb/>
+saṃjānīyuḥ, sahacittotpādāt tathāgatasyājñānujñātair, mā <lb/>
+tāvad aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+38. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+sahotpannāḥ sattvā naivaṃvidhaṃ sukhaṃ pratilabheraṃs, <lb/>
+tad yathāpi nāma niṣparidāhasyārhato bhikṣos tṛtīyadhyāna-<lb/>
+samāpannasya, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+39. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye bodhisattvāḥ pratyajātās, te yathārūpaṃ buddhakṣetra-<lb/>
+guṇālaṃkāravyūham ākāṃkṣeyus, tathārūpaṃ nānā-<lb/>
+ratnavṛkṣebhyo na saṃjānīyur, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+40. sacen me bhagavan bodhiprāptasya, taṃ mama nāmadheyaṃ <lb/>
+śrutvānyabuddhakṣetropapannā bodhisattvā indriyabalavaikalpaṃ <lb/>
+nirgaccheyur, mā tāvad aham anuttarāṃ <lb/>
+samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+41. sacen me bhagavan bodhiprāptasya, tad-anyabuddhakṣetra-<lb/>
+sthā bodhisattvā mama nāmadheyaṃ śrutvā, sahaśravaṇān <lb/>
+na suvibhaktavatīṃ nāma samādhiṃ pratilabheran, yatra <lb/>
+samādhau sthitvā bodhisattvā ekakṣaṇavyatihāreṇāprameyā-<lb/>
+saṃkhyeyācintyātulyāparimāṇān buddhān bhagavataḥ <lb/>
+paśyanti, sa caiṣāṃ samādhir antarā vipranaśyen, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+P20<lb/>
+42. sacen me bhagavan bodhiprāptasya, mama nāmadheyaṃ <lb/>
+śrutvā, tac-chravaṇasahagatena kuśalamūlena sattvā <lb/>
+nābhijātakulopapattiṃ pratilabheran, yāvad bodhimaṇḍa-<lb/>
+paryantaṃ, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+43. sacen me bhagavan bodhiprāptasya, tad-anyeṣu buddhakṣetreṣu <lb/>
+ye sattvā mama nāmadheyaṃ śrutvā, tac-chravaṇa-<lb/>
+sahagatena kuśalamūlena yāvad bodhiparyantaṃ na <lb/>
+sarve bodhisattvacaryāyāṃ prītiprāmodyakuśalamūlasamavadhāna-<lb/>
+gatā bhaveyur, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam.<lb/>
+44. sacen me bhagavan bodhiprāptasya, sahanāmadheya-<lb/>
+śravaṇāt tad-anyeṣu lokadhātuṣu bodhisattvā na samantānugataṃ <lb/>
+nāma samādhiṃ pratilabheran, yatra sthitvā bodhisattvā <lb/>
+ekakṣaṇavyatihāreṇāprameyāsaṃkhyeyācintyāparimāṇān <lb/>
+buddhān bhagavataḥ satkurvanti, sa caiṣāṃ samādhir antarād <lb/>
+vipranaśyed, yāvad bodhimaṇḍaparyantaṃ, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+45. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye bodhisattvāḥ pratyājātā bhaveyus, te yathārūpāṃ dharmadeśanām <lb/>
+ākāṃkṣeyuḥ, śrotum tathārupāṃ sahacittotpādān <lb/>
+P21<lb/>
+na śṛṇuyur, mā tāvad aham anuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbudhyeyam<lb/>
+46. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+tad-anyeṣu buddhakṣetreṣu ye bodhisattvā mama nāmadheyaṃ <lb/>
+śṛṇuyur, yas te sahanāmadheyaśravaṇān nāvaivarttikā <lb/>
+bhaveyur anuttarāyāḥ samyaksaṃbodher, mā tāvad aham <lb/>
+anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam. <lb/>
+47. sacen me bhagavan bodhiprāptasya, tatra buddhakṣetre <lb/>
+ye bodhisattvā mama nāmadheyaṃ śṛṇuyus, te sahanāmadheya-<lb/>
+śravaṇān na prathamadvitīyatṛtīyāḥ kṣāntīḥ pratilabheran, <lb/>
+nāvaivarttiko bhaved buddhadharmebhyo, mā tāvad <lb/>
+aham anuttarāṃ samyaksaṃbodhim abhisaṃbudhyeyam.<lb/>
+atha khalv ānanda sa dharmākaro bhikṣur imān evaṃrūpān <lb/>
+praṇidhānaviśeṣān nirdiśya, tasyāṃ velāyāṃ buddhānubhāvenemā <lb/>
+gāthā abhāṣata :<lb/>
+saci mi imi viśiṣṭa naikarūpā <lb/>
+varapraṇidhāna siyā khu bodhiprāpte, <lb/>
+ma ahu siya narendra sattvasāro, <lb/>
+daśabaladhāri atulyadakṣiṇīyaḥ (1)<lb/>
+saci mi siya na kṣetra evarūpaṃ <lb/>
+bahu adhanāna prabhūta divyacitraṃ, <lb/>
+sukhi na narakamaya duḥkhaprāpto, <lb/>
+ma ahu siyā ratano narāṇa rājā. (2)<lb/>
+saci mi upagatasya bodhimaṇḍaṃ, <lb/>
+daśadiśi pravraji nāmadheyu kṣipraṃ <lb/>
+P22<lb/>
+pṛthu bahava anantabuddhakṣetrāṃ, <lb/>
+ma ahu siyā balaprāptu lokanātha. (3)<lb/>
+saci khu ahu rameya kāmabhogāṃ, <lb/>
+smṛtimatigatiyā vihīnu santaḥ, <lb/>
+atulaśiva sameyamāṇa bodhi, <lb/>
+ma ahu siyā balaprāptu śāstu loke. (4)<lb/>
+vipulaprabha atulyananta nāthā <lb/>
+diśi vidiśi sphuri sarvabuddhakṣetrāṃ, <lb/>
+rāga praśami praśamiya sarvadoṣamohāṃ, <lb/>
+narakagatismi praśāmi dhūmaketuṃ. (5)<lb/>
+jāniya suruciraṃ viśālanetraṃ, <lb/>
+vidhuniya sarvanarāṇa andhakāram, <lb/>
+apaniya suna akṣaṇān aśeṣān, <lb/>
+upaniya svargapathān anantatejā. (6)<lb/>
+na tapati nabha candrasūrya-ābhā <lb/>
+maṇigaṇa agniprabhā va devatānāṃ, <lb/>
+abhibhavati narendra-ābha sarvān <lb/>
+purimacariṃ pariśuddha ācaritvā. (7)<lb/>
+puruṣavaru nidhāna duḥkhitānāṃ, <lb/>
+diśi vidiśāsu na asti evarūpā.<lb/>
+kuśalaśatasahasra sarva pūrṇā, <lb/>
+parṣagato nadi buddhasiṃhanadaṃ. (8)<lb/>
+purimajina svayaṃbhu satkaritvā, <lb/>
+vratatapakoṭi caritva aprameyāṃ, <lb/>
+pravara vara samesti jñānaskandhaṃ, <lb/>
+praṇidhibalaṃ paripūrṇa sattvasāro. (9)<lb/>
+P23<lb/>
+yathā bhagavan asaṅgajñānadarśī, <lb/>
+trividha prajānati saṃskṛtaṃ narendraḥ.<lb/>
+aham api siya tulyadakṣiṇīyo, <lb/>
+viduḥ pravaro naranāyako narāṇāṃ. (10)<lb/>
+saci mi ayu narendra evarūpā <lb/>
+praṇidhi samṛdhyati bodhi prāpuṇitvā, <lb/>
+calatu ayu sahasralokadhātūṃ <lb/>
+kusumu pravarṣa nabhātu devasaṃghān. (11)<lb/>
+pracalita vasudhā pravarṣi puṣpāḥ, <lb/>
+tūryaśatā gagane tha saṃpraṇeduḥ. <lb/>
+divyaruciracandanasya cūrṇā, <lb/>
+abhikiri caiva bhaviṣyi loki buddha, iti. (12)<lb/>
+evaṃrūpayānanda praṇidhisaṃpadā sa dharmākaro bhikṣur <lb/>
+bodhisattvo mahāsattvaḥ samanvāgato 'bhūt. evaṃrūpayā <lb/>
+cānanda praṇidhisaṃpadā alpakā bodhisattvāḥ samanvāgatāḥ. <lb/>
+alpakānāṃ caivaṃrūpāṇāṃ praṇidhīnāṃ loke prādurbhāvo <lb/>
+bhavati, parīttānāṃ na punaḥ sarvaśo nāsti.<lb/>
+sa khalu punar ānanda dharmākaro bhikṣus tasya bhagavato <lb/>
+lokeśvararājasya tathāgatasya purataḥ, sadevakasya lokasya <lb/>
+samārakasya sabrahmakasya saśramaṇabrāhmaṇikāyāḥ <lb/>
+prajāyāḥ sadevamānuṣāsurāyāḥ purata, imān evaṃrūpān praṇidhiviśeṣān <lb/>
+nirdiśya, yathābhūtaṃ pratijñāpratipattisthito <lb/>
+'bhūt. sa imām evaṃrūpāṃ buddhakṣetrapariśuddhiṃ buddhakṣetra-<lb/>
+māhātmyaṃ buddhakṣetrodāratāṃ samudānayan, bodhisattvacaryāṃ <lb/>
+caran, aprameyāsaṃkhyeyācintyātulyāmāpyāparimāṇānabhilāpyāni <lb/>
+P24<lb/>
+varṣakoṭīnayutāśatasahasrāṇi na jātu <lb/>
+kāmavyāpādavihiṃsāvitarkā vitarkitavān, na jātu kāmavyāpāda-<lb/>
+vihiṃsāsaṃjñā utpāditavān, na jātu rūpaśabdagandharasa-<lb/>
+spraṣṭavyasaṃjñā utpāditavān. sa daharo manohara eva <lb/>
+surato 'bhūt ; sukhasaṃvāso, 'dhivāsanajātīyaḥ, subharaḥ, supoṣo, <lb/>
+'lpecchasaṃtuṣṭaḥ, pravivikto, 'duṣṭo, 'mūḍho, 'vaṅko, <lb/>
+'jihmo, 'śatho, 'māyāvī, sukhilo, madhuraḥ, priyālāpo, nityābhiyuktaḥ <lb/>
+śukladharmaparyeṣṭau ; anikṣiptadhuraḥ, sarvasattvānām <lb/>
+arthāya mahāpraṇidhānaṃ samudānītavān ; buddhadharma-<lb/>
+saṃghācāryopādhyāyakalyāṇamitrasagauravo ; nityasaṃnaddho <lb/>
+bodhisattvacaryāyām ; ārjavo, mārdavo, 'kuhako, <lb/>
+nilapako, guṇavān, pūrvaṃgamaḥ sarvasattvakuśaladharmasamādāpanatāyai ;<lb/>
+śūnyatānimittāpraṇihitānabhisaṃskārānutpādavihāravihārī ; <lb/>
+nirmāṇaḥ svārakṣitavākyaś cābhūt. bodhisattvacaryāṃ <lb/>
+caran, sa yad vākkarmotsṛṣṭam, ātmaparobhayaṃ <lb/>
+vyāvādhāya saṃvartate ; tathāvidhaṃ tyaktvā yad vākkarma <lb/>
+svaparobhaye hitasukhasaṃvartakaṃ, tad evābhiprayuktavān. <lb/>
+evaṃ ca saṃprajāno 'bhūt. yad grāmanagara-<lb/>
+nigamajanapadarāṣṭrarājadhānīṣv avataran, na jātu rūpaśabda-<lb/>
+gandharasaspraṣṭavyadharmeṇa nīto 'bhūt. apratihataḥ sa <lb/>
+bodhisattvacaryāṃ caran, svayaṃ ca dānapāramitāyām acarat ; <lb/>
+parāṃś ca tatraiva samādāpitavān. svayaṃ ca śīlakṣāntivīrya-<lb/>
+dhyānaprajñāpāramitāsv acarat ; parāṃś ca tatraiva samādāpitavān. <lb/>
+tathārūpāṇi ca kuśalamūlāni samudānītavān. yaiḥ <lb/>
+samanvāgato yatra yatropapadyate, tatra tatrāsyānekāni nidhana-
+</p><p xml:id="3">
+P25<lb/>
+koṭīnayutaśatasahasrāṇi dharaṇyāḥ prādurbhavanti. <lb/>
+tena bodhisattvacaryāṃ caratā, tāvad aprameyāsaṃkhyeyāni <lb/>
+sattvakoṭīniyutaśatasahasrāṇy anuttarāyāṃ samyaksaṃbodhau <lb/>
+pratiṣṭhāpitāni, yeṣāṃ na sukaro vākkarmaṇā <lb/>
+paryanto 'dhigantum ; tāvad aprameyāsaṃkhyeyā buddhā <lb/>
+bhagavantaḥ satkṛtā gurukṛtā mānitāḥ pūjitāś, cīvarapiṇḍapāta-<lb/>
+śayanāsanaglānapratyayabhaiṣajyapariṣkāraiḥ sarvasukhopadhānaiḥ <lb/>
+sparśavihāraiś ca pratipāditāḥ ; yāvantaḥ sattvāḥ <lb/>
+śreṣṭhigṛhapatyāmātyakṣatriyabrāhmaṇamahāśālakuleṣu pratiṣṭhāpitās, <lb/>
+teṣāṃ na sukaro vākkarmanirdeśena paryanto <lb/>
+'dhigantum ; evaṃ jāmbūdvīpeśvaratve pratiṣṭhāpitāś, cakravartitve <lb/>
+lokapālatve śakratve suyāmatve saṃtuṣitatve sunirmitatve <lb/>
+vaśavartitve devarājatve mahābrāhmatve ca pratiṣṭhāpitāḥ ; <lb/>
+tāvad aprameyāsaṃkhyeyā buddhā bhagavantaḥ satkṛtā <lb/>
+gurukṛtā mānitāḥ pūjitā, dharmacakrapravartanārthaṃ cādhiṣṭhās, <lb/>
+teṣāṃ na sukaro vākkarmanirdeśena paryanto 'dhi-<lb/>
+gantum. <lb/>
+sa evaṃrūpaṃ kuśalaṃ samudānīyaṃ, yad asya bodhisattvacaryāś <lb/>
+carato, 'prameyāsaṃkhyeyācintyātulyāmāpyāparimāṇānabhilāpyāni <lb/>
+kalpakoṭīnayutaśatasahasrāṇi surabhidivyātikrānta-<lb/>
+candanagandho mukhāt pravāti sma ; sarvaromakūpebhya <lb/>
+utpalagandho vāti sma ; sarvalokābhirūpaś cābhūt, <lb/>
+prāsādiko, darśanīyaḥ, paramaśubhavarṇapuṣkalatayā samanvāgataḥ. <lb/>
+lakṣaṇānuvyañjanasamalaṃkṛtenātmabhāvena tasya <lb/>
+sarvaratnālaṃkārāḥ, sarvavastracīvarābhinirhārāḥ, sarvapuṣpa-<lb/>
+dhūpagandhamālyavilepanacchatradhvajapatākābhinirhārāḥ, <lb/>
+P26<lb/>
+sarvavādyasaṃgītyabhinirhārāś ca sarvaromakūpebhyaḥ pāṇitalābhyāṃ <lb/>
+ca niścaranti sma. sarvānnapānakhādyabhojyalehya-<lb/>
+rasābhinirhārāḥ sarvopabhogaparibhogābhinirhārāś ca pāṇitalābhyāṃ <lb/>
+prasyandantaḥ prādurbhavanti. iti hi sarva-<lb/>
+pariṣkāravaśitāpāramiprāptaḥ sa ānanda dharmākaro bhikṣur <lb/>
+abhūt, pūrvaṃ bodhicaryāś caran. <lb/>
+evam ukte, āyuṣmān ānando bhagavantam etad avocat : <lb/>
+kiṃ punar bhagavan sa dharmākaro bodhisattvo mahāsattvo <lb/>
+'nuttarāṃ samyaksaṃbodhim abhisaṃbudhyātītaḥ parinirvṛta, <lb/>
+utāho 'nabhisaṃbuddho, 'tha pratyutpanno 'bhisaṃbuddha, <lb/>
+etarhi tiṣṭhati dhriyate yāpayati, dharmaṃ ca deśayati. bhagavān <lb/>
+āha : na khalu punar ānanda sa tathāgato 'tīto, nānāgataḥ. <lb/>
+api tv eṣa sa tathāgato 'nuttarāṃ samyaksaṃbodhim <lb/>
+abhisaṃbuddha, etarhi tiṣṭhati dhriyate yāpayati, dharmaṃ <lb/>
+ca deśayati. paścimāyāṃ diśītaḥ koṭīnayutaśatasahasratame <lb/>
+buddhakṣetre sukhāvatyāṃ lokadhātāv amitābho <lb/>
+nāma tathāgato 'rhan samyaksaṃbuddho, 'parimāṇair bodhisattvaiḥ <lb/>
+parivṛtaḥ puraskṛto, 'nantaiḥ śrāvakair anantyā buddhakṣetra-<lb/>
+saṃpadā samanvāgataḥ. amitā cāsya prabhā, yasyā <lb/>
+na sukaraṃ prāmāṇaṃ paryanto vādhigantum ; iyanti buddhakṣetrāṇi, <lb/>
+iyanti buddhakṣetraśatāni, iyanti buddhakṣetrasahasrāṇi, <lb/>
+iyanti buddhakṣetraśatasahasrāṇi, iyanti buddhakṣetrakoṭī, <lb/>
+iyanti buddhakṣetrakoṭīśatāni, iyanti buddhakṣetra-<lb/>
+koṭīsahasrāṇi, iyanti buddhakṣetrakoṭīśatasahasrāṇi, iyanti buddhakṣetra-<lb/>
+koṭīnayutaśatasahasrāni sphuritvā tiṣṭhantīti. api tv <lb/>
+P27<lb/>
+khalv ānanda saṃkṣiptena pūrvasyāṃ diśi gaṅgānadīvālikāsamāni <lb/>
+buddhakṣetrakoṭīnayutaśatasahasrāṇi tayā tasya <lb/>
+bhagavato 'mitābhasya tathāgatasya prabhayā sadā sphuṭāni. <lb/>
+evaṃ dakṣiṇapaścimottarāsu dikṣv adha ūrdhvam anuvidikṣv <lb/>
+ekaikasyāṃ diśi samantād gaṅgānadīvālikāsamāni buddhakṣetra-<lb/>
+koṭīnayutaśatasahasrāṇi tasya bhagavato 'mitābhasya <lb/>
+tathāgatasya tayā prabhayā sadā sphuṭāni, sthāpayitvā <lb/>
+buddhān bhagavataḥ pūrvapraṇidhānādhiṣṭhānena ye vyoma-<lb/>
+prabhayaikadvitricatuḥpañcadaśaviṃśatitriṃśaccatvāriṃśadyojana-<lb/>
+prabhayā, yojanaśataprabhayā, yojanasahasraprabhayā, yojana-<lb/>
+śatasahasraprabhayā, yāvad anekayojanakoṭīnayutaśatasahasra-<lb/>
+prabhayā, yāval lokaṃ spharitvā tiṣṭhanti.<lb/>
+nāsty ānandopamopanyāso, yena śakyaṃ tasyāmitābhasya <lb/>
+tathāgatasya prabhayāḥ pramāṇam udgṛhitum. tad anenānanda <lb/>
+paryāyeṇa sa tathāgato 'mitābha ity ucyate ; amitaprabho, <lb/>
+'mitaprabhāso, 'samāptaprabho, 'saṇgaprabho, 'pratihataprabho, <lb/>
+nityotsṛṣṭaprabho, divyamaṇiprabho, 'pratihata-<lb/>
+raśmirājaprabho, rañjanīyaprabhaḥ, premaṇīyaprabhaḥ, prāmodanīya-<lb/>
+prabhaḥ, prahlādanīyaprabha, ullokanīyaprabho, nibandhanīya-<lb/>
+prabho, 'cintyaprabho, 'tulyaprabho, 'bhibhūyanarendrāsurendra-<lb/>
+prabho, 'bhibhūyacandrasūryajihmīkaraṇaprabho, <lb/>
+'bhibhūyalokapālaśakrabrahmaśuddhāvāsamaheśvarasarvadeva-<lb/>
+jihmīkaraṇaprabhaḥ, sarvaprabhāpāragata ity ucyate. <lb/>
+sā cāsya prabhā vimalā, vipulā, kāyasukhasaṃjananī, <lb/>
+cittaudbilyakaraṇī, devāsuranāgayakṣagandharvagaruḍamahoraga-<lb/>
+kinnaramanuṣyāmanuṣyāṇāṃ prītiprāmodyasukhakaraṇī, <lb/>
+kuśalāśayānāṃ kalyalaghugativicakṣaṇabuddhiprāmodyakaraṇy <lb/>
+P28<lb/>
+anyeṣv api anantāparyanteṣu buddhakṣetreṣu. <lb/>
+anena cānanda paryāyeṇa tathāgataḥ paripūrṇaṃ kalpaṃ <lb/>
+bhāṣeta, tasyāmitābhasya tathāgatasya nāmakarmopādāya prabhām <lb/>
+ārabhya, na ca śakto guṇaparyanto 'dhigantuṃ tasyāḥ <lb/>
+prabhāyāḥ. <lb/>
+na ca tathāgatasya vaiśāradyopacchedo bhavet. tat <lb/>
+kasya hetoḥ. ubhayam apy etad ānandāprameyam asaṃkhyeyam <lb/>
+acintyāparyantam, yad idaṃ tasya bhagavato prabhāguṇavibhūtis <lb/>
+tathāgatasya cānuttaraṃ prajñāpratibhānam. <lb/>
+tasya khalu punar ānandāmitābhasya tathāgatasyāprameyaḥ <lb/>
+śrāvakasaṃgho, yasya na sukaraṃ pramāṇam udgṛhītum ; <lb/>
+iyatyaḥ śrāvakakoṭya, iyanti śrāvakakoṭīśatāni, iyanti śrāvaka-<lb/>
+koṭīsahasrāṇi, iyanti śrāvakakoṭīśatasahasrāṇi, iyanti kaṅkarāṇi, <lb/>
+iyanti biṃbarāṇi, iyanti nayutāni, iyanty ayutāni, <lb/>
+iyanti akṣobhyāṇi, iyantyo vivāhā, iyanti śrotāṃsi, iyantyo <lb/>
+jāyā, iyanty aprameṇeyāṇi, iyanty asaṃkhyeyāni, iyanty <lb/>
+agaṇyāni, iyanty atulyāṇi, iyanty acintyānīti. <lb/>
+tad yathānanda maudgalyāyano bhikṣur ṛddhivaśitāprāptaḥ <lb/>
+sa ākāṃkṣan trisāhasramahāsāhasralokadhātau yāvanti tārārūpāṇi <lb/>
+tāni sarvāṇy ekarātriṃ divena gaṇayed, evaṃrūpānāṃ <lb/>
+ca rddhimatāṃ koṭīnayutaśatasahasraṃ bhavet, te varṣakoṭī-<lb/>
+nayutaśatasahasram ananyakarmaṇo 'mitābhasya tathāgatasya <lb/>
+prathamaṃ śrāvakasannipātaṃ gaṇayeyus, tair gaṇayadbhiḥ <lb/>
+śatatamo 'pi bhāgo na gaṇito bhavet ; sahasratamo <lb/>
+'pi, śatasahasratamo 'pi, yāvat kalām apy, upamām apy, upaniśām <lb/>
+api, na gaṇito bhavet. <lb/>
+tad yathānanda mahāsamudrāc caturaśītiyojanasahasrāṇy <lb/>
+āvedhena tiryag aprameyāt, kaścid eva puruṣaḥ śatadhābhinnayā <lb/>
+P29<lb/>
+vālāgrakoṭyaikam udakabindum abhyutkṣipet, tat kiṃ <lb/>
+manyase, ānanda, katamo bahutaro, yo vā śatadhābhinnayā <lb/>
+vālāgrakoṭyābhyutkṣipta eka udakabindur, yo vā mahāsamudre <lb/>
+'pskandho 'vaśiṣṭa iti. āha : yojanasahasram api tāvad <lb/>
+bhagavan mahāsamudrasya parīttaṃ bhavet. kim aṅga <lb/>
+punar, yaḥ śatadhābhinnayā vālāgrakoṭyābhyutkṣipta eka udakabinduḥ. <lb/>
+bhagavān āha : tad yathā sa eka udakabindur ; <lb/>
+iyantaḥ sa prathamasannipāto 'bhūt, tair maudgalyāyanasadṛśair <lb/>
+bhikṣubhir gaṇayadbhis tena varṣakoṭīnayutaśatasahasreṇa <lb/>
+gaṇitaṃ bhaved, yathā mahāsamudre 'pskandho 'vaśiṣṭa, <lb/>
+evam agaṇitaṃ draṣṭavyam. kaḥ punar vādo dvitīyatṛtīyādīnāṃ <lb/>
+śrāvakasannipātādīnām. evam anantāparyantas <lb/>
+tasya bhagavataḥ śrāvakasaṃgho, yo 'prameyāsaṃkhyeya ity <lb/>
+eva saṃkhyāṃ gacchanti. <lb/>
+aparimitaṃ cānanda tasya bhagavato 'mitābhasya tathāgatasyāyuṣpramāṇaṃ, <lb/>
+yasya na sukaraṃ pramāṇam adhigantum ; <lb/>
+iyanti vā kalpā, iyanti vā kalpaśatāni, iyanti vā kalpasahasrāṇi, <lb/>
+iyanti vā kalpaśatasahasrāṇi, iyatyo vā kalpakoṭya, iyanti vā <lb/>
+kalpakoṭīśatāni, iyanti vā kalpakoṭīsahasrāṇi, iyanti vā kalpakoṭī-<lb/>
+śatasahasrāṇi, iyanti vā kalpakoṭīnayutaśatasahasrāṇīti. <lb/>
+atha tarhy ānandāparimitam eva tasya bhagavata āyuṣpramāṇam <lb/>
+aparyantam. tena sa tathāgato 'mitāyur ity ucyate. <lb/>
+yathā cānandeha lokadhātau kalpasaṃkhyā kalpagaṇanā prajñaptikasaṃketas, <lb/>
+tathā sāṃprataṃ daśakalpās tasya bhagavato <lb/>
+'mitāyuṣas tathāgatasyotpannasyānuttarāṃ samyaksaṃbodhim <lb/>
+P30<lb/>
+abhisaṃbuddhasya. <lb/>
+tasya khalu punar ānanda bhagavato 'mitābhasya sukhāvatī <lb/>
+nāma lokadhātur, ṛddhā ca, sphītā ca, kṣemā ca, subhikṣā <lb/>
+ca, ramaṇīyā ca, bahudevamanuṣyākīrṇā ca. tatra khalv <lb/>
+apy ānanda lokadhātau na nirayāḥ santi, na tiryagyonir, <lb/>
+na pretaviṣayo, nāsurāḥ kāyā, nākṣaṇopapattayaḥ ; na ca <lb/>
+tāni ratnāni loke pracaranti, yāni sukhāvatyāṃ lokadhātau <lb/>
+saṃvidyante. <lb/>
+sā khalv ānanda sukhāvatī lokadhātuḥ surabhinānāgandhasamīritā, <lb/>
+nānāpuṣpaphalasamṛddhā, ratnavṛkṣasamalaṃkṛtā, <lb/>
+tathāgatābhinirmitamanojñasvaranānādvijasaṃghaniṣevitā. <lb/>
+te cānanda ratnavṛkṣā nānāvarṇā, anekavarṇā, anekaśata-<lb/>
+sahasravarṇāḥ : santi tatra ratnavṛkṣāḥ suvarṇavarṇāḥ suvarṇa-<lb/>
+mayāḥ ; santi rūpyavarṇā rūpyamayāḥ ; santi vaiḍūryavarṇā <lb/>
+vaiḍūryamayāḥ ; santi sphaṭikavarṇāḥ sphaṭikamayāḥ ; <lb/>
+santi musāragalvavarṇā musāragalvamayāḥ ; santi lohitamuktāvarṇā <lb/>
+lohitamuktāmayāḥ ; santy aśmagarbhavarṇā aśmagarbhamayāḥ. <lb/>
+santi kecid dvayo ratnavṛkṣayoḥ suvarṇasya <lb/>
+rūpyasya ca. santi trayāṇāṃ ratnānāṃ suvarṇasya rūpyasya <lb/>
+vaiḍūryasya ca. santi caturṇāṃ suvarṇasya rūpyasya vaiḍūryasya <lb/>
+sphaṭikasya ca. santi pañcānāṃ suvarṇasya rūpyasya <lb/>
+vaiḍūryasya sphaṭikasya musāragalvasya ca. santi ṣaṇṇāṃ <lb/>
+suvarṇasya rūpyasya vaiḍūryasya sphaṭikasya musāragalvasya <lb/>
+lohitamuktāyāś ca. santi saptānāṃ ratnānāṃ suvarṇasya <lb/>
+rūpyasya vaiḍūryasya sphaṭikasya musālagalvasya lohitamuktāyā, <lb/>
+aśmagarbhasya ca saptamasya. <lb/>
+P31<lb/>
+tatrānanda sauvarṇāṇāṃ vṛkṣāṇāṃ suvarṇamayāni mūla-<lb/>
+skandhaviṭapaśākhāpattrapuṣpāni phalāni raupyamayāni ; raupyamayānāṃ <lb/>
+vṛkṣāṇāṃ rūpyamayāny eva mūlaskandhaviṭapa-<lb/>
+śākhāpattrapuṣpāni phalāni vaiḍūryamayāni ; vaiḍūryamayānāṃ <lb/>
+vṛkṣānāṃ vaiḍūryamayāni mūlaskandhaviṭapaśākhāpattra-<lb/>
+puṣpāṇi phalāni sphaṭikamayāni ; sphaṭikamayānāṃ <lb/>
+vṛkṣāṇāṃ sphaṭikamayāny eva mūlaskandhaviṭapaśākhāpattra-<lb/>
+puṣpāṇi phalāni musāragalvamayāni ; musāragalvamayānāṃ <lb/>
+vṛkṣāṇāṃ musāragalvamayāny eva mūlaskandhaviṭapaśākhā-<lb/>
+pattrapuṣpāṇi phalāni lohitamuktāmayāni ; lohitamuktāmayānāṃ <lb/>
+vṛkṣāṇāṃ lohitamuktāmayāny eva mūlaskandhaviṭapaśākhā-<lb/>
+pattrapuṣpāṇi phalāny aśmagarbhamayāṇi ; aśmagarbha-<lb/>
+mayāṇāṃ vṛkṣānām aśmagarbhamayāṇy eva mūlaskandhaviṭapa-<lb/>
+śākhāpattrapuṣpāṇi phalāni suvarṇamayāni. <lb/>
+keṣāṃcid ānanda vṛkṣāṇāṃ suvarṇamayāni mūlāni, raupyamayāḥ <lb/>
+skandhā, vaiḍūryamayā viṭapāḥ, sphaṭikamayāḥ śākhā, <lb/>
+musāragalvamayāni pattrāṇi, lohitamuktāmayāni puṣpāṇy, <lb/>
+aśmagarbhamayāṇi phalāni ; keṣāṃcid ānanda vṛkṣāṇāṃ rūpyamayāni <lb/>
+mūlāni, vaiḍūryamayāḥ skandhāḥ, sphaṭikamayā <lb/>
+viṭapā, musāragalvamayāḥ śākhā, lohitamuktāmayāni pattrāṇy, <lb/>
+aśmagarbhamayāṇi puṣpāṇi, suvarṇamayāni phalāni ; keṣāṃcid <lb/>
+ānanda vṛkṣāṇāṃ vaiḍūryamayāni mūlāni, sphaṭikamayāḥ <lb/>
+skandhā, musāragalvamayā viṭapā, lohitamuktāmayāḥ <lb/>
+śākhā, aśmagarbhamayāṇi pattrāṇi, suvarṇamayāni puṣpāṇi, <lb/>
+raupyamayāni phalāni ; keṣāṃcid ānanda vṛkṣāṇāṃ <lb/>
+P32<lb/>
+sphaṭikamayāni mūlāni, musāragalvamayāḥ skandhā, lohitamuktāmayā <lb/>
+viṭapā, aśmagarbhamayāḥ śākhāḥ, suvarṇamayāni <lb/>
+pattrāṇi, raupyamayāni puṣpāṇi, vaiḍūryamayāni phalāni ; keṣāṃcid <lb/>
+ānanda vṛkṣānāṃ musāragalvamayāni mūlāni, lohita-<lb/>
+muktāmayāḥ skandhā, aśmagarbhamayā viṭapāḥ, suvarṇa-<lb/>
+mayāḥ śākhā, raupyamayāni pattrāṇi, vaiḍūryamayāni puṣpāṇi, <lb/>
+sphaṭikamayāni phalāni ; keṣāṃcid ānanda vṛkṣāṇāṃ <lb/>
+lohitamuktāmayāni mūlāny, aśmagarbhamayāḥ skandhāḥ, suvarṇamayā <lb/>
+viṭapā, raupyamayā śākhā, vaiḍūryamayāṇi pattrāṇi, <lb/>
+sphaṭikamayāni puṣpāṇi, musāragalvamayāni phalāni ; keṣāṃcid <lb/>
+ānanda vṛkṣāṇām aśmagarbhamayāni mūlāni, suvarṇamayāḥ <lb/>
+skandhā, raupyamayā viṭapā, vaiḍūryamayāḥ śākhāḥ, <lb/>
+sphaṭikamayāni pattrāni, musāragalvamayāni puṣpāṇi, <lb/>
+lohitamuktāmayāni phalāni ; keṣāṃcid ānanda vṛkṣāṇāṃ <lb/>
+saptaratnamayāni mūlāni, saptaratnamayāḥ skandhāḥ, saptaratnamayā <lb/>
+viṭapāḥ, saptaratnamayāḥ śākhāḥ, saptaratnamayāni <lb/>
+pattrāṇi, saptaratnamayāni puṣpāni, saptaratnamayāni phalāni.<lb/>
+sarveṣāṃ cānanda teṣāṃ vṛkṣāṇāṃ mūlaskandhaviṭapaśākhā-<lb/>
+pattrapuṣpaphalāni mṛdūni sukhasaṃsparśāni sugandhīni ; vātena <lb/>
+preritānāṃ ca teṣāṃ valgumanojñanirghoṣo niścaraty, <lb/>
+asecanako 'pratikūlaḥ śravaṇāya. <lb/>
+evaṃrūpair ānanda saptaratnamayair vṛkṣaiḥ saṃtataṃ tad <lb/>
+buddhakṣetraṃ samantāc ca kadalīstambhaiḥ saptaratnamayai <lb/>
+ratnatālapaṇktibhiś cānuparikṣiptaṃ, sarvataś ca hemajālapraticchannaṃ, <lb/>
+P33<lb/>
+samantataś ca saptaratnamayaiḥ padmaiḥ saṃcchannaṃ. <lb/>
+santi tatra padmāny ardhayojanapramāṇāni, santi <lb/>
+yojanapramāṇāni, santi dvitricatuḥpañcayojanapramāṇāni, <lb/>
+santi yāvad daśayojanapramāṇāni. sarvataś ca ratnapadmāt <lb/>
+ṣaṭtriṃśadraśmikoṭīsahasrāṇi niścaranti. sarvataś ca <lb/>
+raśmimukhāt ṣaṭtriṃśadbuddhakoṭīsahasrāṇi niścaranti ; suvarṇa-<lb/>
+varṇaiḥ kāyair dvātriṃśan mahāpuruṣalakṣaṇadharair, <lb/>
+yāni pūrvasyāṃ diśy aprameyāsaṃkhyeyāsu lokadhātuṣu <lb/>
+gatvā, sattvebhyo dharmaṃ deśayanti. evaṃ dakṣiṇapaścimottarāsu <lb/>
+dikṣv adha ūrdhvam anuvidikṣu cānāvaraṇe loke <lb/>
+'prameyāsaṃkhyeyāṃl lokadhātūn gatvā, sattvebhyo dharmaṃ <lb/>
+deśayanti. <lb/>
+tasmin khalu punar ānanda buddhakṣetre sarvaśaḥ kālaparvatā <lb/>
+na santi, sarvato ratnaparvatāḥ. sarvaśaḥ sumeravaḥ <lb/>
+parvatarājānaḥ, sarvaśaś cakravāḍamahācakravāḍāḥ parvata-<lb/>
+rājāno, mahāsamudrāś ca na santi. samantāc ca tad <lb/>
+buddhakṣetraṃ samaṃ ramaṇīyaṃ pāṇitalajātaṃ nānāvidha-<lb/>
+ratnasaṃnicitabhūmibhāgam. <lb/>
+evam ukta āyuṣmān ānando bhagavantam etad avocat : ye <lb/>
+punas te bhagavaṃś cāturmahārājakāyikā devāḥ sumerupārśva-<lb/>
+nivāsinas trāyastriṃśā vā sumerumūrdhni nivāsinas, te <lb/>
+kutra pratiṣṭhitāḥ. bhagavān āha : tat kiṃ manyase, ānanda, <lb/>
+ye ta iha sumeroḥ parvatarājasyopari yāmā devās, tuṣitā <lb/>
+devā, nirmāṇaratayo devāḥ, paranirmitavaśavartino devā, <lb/>
+brahmakāyikā devā, brahmapurohitā devā, mahābrahmaṇo <lb/>
+P34<lb/>
+devā, yāvad akaniṣṭhā devāḥ, kutra te pratiṣṭhitā iti. āha : <lb/>
+acintyo bhagavan karmāṇāṃ vipākaḥ, karmābhisaṃskāraḥ. <lb/>
+bhagavān āha : labdhas tvayānandehācintyaḥ karmāṇāṃ <lb/>
+vipākaḥ, karmābhisaṃskāro ; na punar buddhānāṃ bhagavatām <lb/>
+acintyaṃ buddhādhiṣṭhānam. kṛtapuṇyānāṃ ca sattvānām <lb/>
+avaropitakuśalamūlānāṃ tatrācintyā puṇyā vibhūtiḥ. āha : <lb/>
+na me 'tra bhagavan kācit kāṃkṣā vā, vimatir vā, <lb/>
+vicikitsā vā. api tu khalv aham anāgatānāṃ sattvānāṃ <lb/>
+kāṃkṣāvimativicikitsāṃ nirghātāya tathāgatam etam arthaṃ <lb/>
+paripṛcchāmi. bhagavān āha : sādhu sādhv ānandaivaṃ te <lb/>
+karaṇīyam. <lb/>
+tasyāṃ khalv ānanda sukhāvatyāṃ lokadhātau nānāprakārā <lb/>
+nadyaḥ pravahanti. santi tatra mahānadyo yojanavistārāḥ. <lb/>
+santi yāvad viṃśatitriṃśaticatvāriṃśatpañcāśad, yāvad yojana-<lb/>
+śatasahasravistārāḥ, dvādaśayojanāvedhāḥ ; sarvāś ca nadyaḥ <lb/>
+sukhavāhinyo, nānāsurabhigandhavārivāhinyo, <lb/>
+nānāratnaluḍitapuṣpasaṃghātavāhinyo, nānāmadhurasvaranirghoṣāḥ. <lb/>
+tāsāṃ cānanda koṭīśatasahasrāṅgasaṃprayuktasya <lb/>
+divyasaṅgītisaṃmūrcchitasya tūryasya kuśalaiḥ saṃpravāditasya, <lb/>
+tāvan manojñanirghoṣo niścarati. yathārūpas tāsāṃ mahā-<lb/>
+nadīnāṃ nirghoṣo niścarati, gambhīra, ājñeyo, vijñeyo, 'nelaḥ <lb/>
+karṇasukho hṛdayaṃgamaḥ, premaṇīyo, valgumanojño, <lb/>
+'secanako 'pratikūlaḥ, śravaṇīyo, 'cintyaśāntam anātmeti sukhaśravaṇīyo, <lb/>
+P35<lb/>
+yas teṣāṃ sattvānāṃ śrotrendriyānāṃ bhāsam <lb/>
+āgacchanti. <lb/>
+tāsāṃ khalu punar ānanda mahānadīnām ubhayatas <lb/>
+tīrāṇi nānāgandhavṛkṣaiḥ saṃtatāni, yebhyo nānāśākhāpattra-<lb/>
+puṣpamañjaryo 'valaṃbante. tatra ye sattvās tesu nadītīreṣv <lb/>
+ākāṃkṣanti, divyāṃ nirāmiṣāṃ ratikrīḍāṃ cānubhavituṃ, <lb/>
+teṣāṃ tatra nadīṣv avatīrṇānāṃ ākāṃkṣatāṃ gulphamātraṃ <lb/>
+vāri saṃtiṣṭhante ; ākāṃkṣatāṃ jānumātraṃ kaṭīmātraṃ <lb/>
+kakṣamātram, ākāṃkṣatāṃ kaṇṭhamātraṃ vāri saṃtiṣṭhante ; <lb/>
+divyāś ca ratayaḥ prādurbhavanti. tatra ye sattvā ākāṃkṣanti : <lb/>
+śītaṃ vāri bhavatv iti, teṣāṃ śītaṃ bhavati ; ye ākāṃkṣanty : <lb/>
+uṣṇaṃ bhavatv iti, teṣām uṣṇaṃ bhavati ; ye ākāṃkṣanti : <lb/>
+śītoṣṇaṃ bhavatv iti, teṣāṃ śītoṣṇam eva tad vāri <lb/>
+bhavaty anusukham. <lb/>
+tāś ca mahānadyo divyatamālapattrāgarukālānusāritagaroraga-<lb/>
+sāracandanavaragandhavāsitavāriparipūrṇāḥ pravahanti ; <lb/>
+divyotpalapadmakumudapuṇḍarīkasaugandhikādipuṣpasaṃcchannā, <lb/>
+haṃsasārasacakravākakāraṇḍavaśukasārikākokilakuṇāla-<lb/>
+kalaviṅkamayūrādimanojñasvaratathāgatābhinirmitapakṣi-<lb/>
+saṃghaniṣevitapulinā, dhāturāṣṭropaśobhitāḥ, sūpatīrthā, <lb/>
+vikardamāḥ, suvarṇavālikāsaṃstīrṇāḥ. tatra yadā te sattvā <lb/>
+ākāṃkṣanti : īdṛśā asmākam abhiprāyāḥ paripūryantām iti, <lb/>
+tadā teṣāṃ tādṛśā evābhiprāyā dharmyāḥ paripūryante. yaś <lb/>
+P36<lb/>
+cāsāv ānanda tasya vāriṇo nirghoṣas tāvad manojño niścarati, <lb/>
+yena sarvāvat tad buddhakṣetram abhijñāpyate. tatra ye <lb/>
+sattvā nadītīreṣu sthitā ākāṃkṣanti : māsmākam ayaṃ śabdaḥ <lb/>
+śrotrendriyābhāsam āgacchann iti, teṣāṃ sa divyasyāpi śrotrendriyasyābhāsaṃ <lb/>
+nāgacchati. yaś ca yaś ca yathārūpaṃ <lb/>
+śabdam ākāṃkṣanti śrotuṃ, sa tathārūpam evaṃ manojñaṃ <lb/>
+śabdaṃ śṛṇoti ; tad yathā ; buddhaśabdaṃ, dharmaśabdam, <lb/>
+saṃghaśabdaṃ, pāramitāśabdaṃ, bhūmiśabdaṃ, balaśabdaṃ, <lb/>
+vaiśāradyaśabdam, āveṇikabuddhadharmaśabdam, abhijñāśabdam, <lb/>
+pratisaṃvicchabdaṃ śūnyatānimittāpraṇihitānabhisaṃskāra-<lb/>
+ajātānutpādābhāvanirodhaśabdaṃ, śāntapraśāntopaśānta-<lb/>
+śabdaṃ, mahāmaitrīmahākaruṇāmahāmuditāmahopekṣāśabdam, <lb/>
+anutpattikadharmakṣāntyabhiṣekabhūmipratilambhaśabdaṃ ca <lb/>
+śṛṇoti. ta evaṃrūpāṃś chabdāṃś chrutvodāraprītiprāmodyaṃ <lb/>
+pratilabhante, vivekasahagataṃ, virāgasahagataṃ, <lb/>
+śāntasahagataṃ, nirodhasahagataṃ, dharmasahagataṃ, bodhi-<lb/>
+pariniṣpattikuśalamūlasahagataṃ ca.<lb/>
+sarvaśaś cānanda sukhāvatyāṃ lokadhātāv akuśalaśabdo <lb/>
+nāsti ; sarvaśo nīvaraṇaśabdo nāsti ; sarvaśo 'pāyadurgativinipāta-<lb/>
+śabdo nāsti ; sarvaśo duḥkhaśabdo nāsti ; aduḥkhāsukha-<lb/>
+vedanāśabdo 'pi tāvad ānanda tatra nāsti ; kutaḥ punar <lb/>
+duḥkhaṃ duḥkhaśabdo vā bhaviṣyati. <lb/>
+P37<lb/>
+tad anenānanda paryāyeṇa sā lokadhātuḥ sukhāvaty <lb/>
+ucyate saṃkṣiptena, na punar vistareṇa. kalpo 'pi parikṣayaṃ <lb/>
+gacchet, sukhāvatyāṃ lokadhātau sukhakāraṇeṣu parikīrtayamāneṣu ; <lb/>
+na tv eva śakyaṃ teṣāṃ sukhakāraṇānāṃ <lb/>
+paryanto 'dhigantum. <lb/>
+tasyāṃ khalu punar ānanda sukhāvatyāṃ lokadhātau ye <lb/>
+sattvāḥ pratyājātāḥ pratyājaniṣyante vā, sarve ta evaṃrūpeṇa <lb/>
+varṇena, balena, sthāmnārohapariṇāhenādhipatyena, puṇya-<lb/>
+saṃcayenābhijñābhir vastrābharaṇodyānavimānakūṭāgāra-<lb/>
+paribhogair, evaṃrūpaśabdagandharasasparśāparibhogair, <lb/>
+evaṃrūpaiś ca sarvopabhogaparibhogaiḥ samanvāgatāḥ ; tad <lb/>
+yathāpi nāma devāḥ paranirmitavaśavartinaḥ. <lb/>
+na khalu punar ānanda sukhāvatyāṃ lokadhātau sattvā <lb/>
+audārikaṃ kavaḍīkārāhāram āharanti. api tu khalu punar <lb/>
+yathārūpam evāhāram ākāṃkṣanti, tathārūpam āhṛtam eva <lb/>
+saṃjānanti. prīṇitakāyāś ca bhavanti, prīṇitagātrāḥ. na <lb/>
+teṣāṃ bhūyaḥ kāye prakṣepaḥ karaṇīyaḥ. te prīṇitakāyās <lb/>
+tathārūpāni gandhajātāny ākāṃkṣanti, tādṛśair eva <lb/>
+gandhajātair divyais tad-buddhakṣetraṃ sarvam eva nirdhūpitaṃ <lb/>
+bhavati. tatra yas taṃ gandhaṃ nāghrātukāmo bhavati, <lb/>
+tasya sarvaśo gandhasaṃjñāvāsanāpi na samudācarati. evaṃ <lb/>
+ye yathārūpāṇi gandhamālyavilepanacūrṇacīvaracchatradhvaja-<lb/>
+patākātūryāṇy ākāṃkṣanti, teṣāṃ tathārūpair evaṃ taiḥ <lb/>
+sarvaṃ tad-buddhakṣetraṃ parisphuṭaṃ bhavati.<lb/>
+te yādṛśāni cīvarāṇy ākāṃkṣanti nānāvarṇāny anekaśata-<lb/>
+P38<lb/>
+sahasravarṇāni, teṣāṃ tādṛśair eva cīvararatnaiḥ samaṃ tad-<lb/>
+buddhakṣetraṃ parisphuṭaṃ bhavati ; prāvṛtam eva cātmānaṃ <lb/>
+saṃjānanti. <lb/>
+te yathārūpāṇy ābharaṇāny ākāṃkṣanti, tad yathā : śīrṣābharaṇāni <lb/>
+vā, karṇābharaṇāni vā, grīvahastapādābharaṇāni <lb/>
+vā, yad idaṃ : makuṭāni, kuṇḍalāni, kaṭakāṃ, keyūrāṃ, <lb/>
+vatsahārāṃ, rūcakahārāṃ, karṇikā, mudrikāḥ, suvarṇasūtrāṇi <lb/>
+mekhalāḥ, suvarṇajālāni, sarvaratnakaṃkaṇījālāni, te tathārūpair <lb/>
+ābharaṇair anekaratnaśatasahasrapratyuptaiḥ sphuṭaṃ <lb/>
+tad-buddhakṣetraṃ paśyanti sma. yad idam : ābharaṇavṛkṣa-<lb/>
+vastrais taiś cābharaṇair alaṃkṛtam ātmānaṃ saṃjānanti. <lb/>
+te yādṛśaṃ vimānam ākāṃkṣanti, yad varṇaliṅgasaṃsthānaṃ, <lb/>
+yāvad ārohapariṇāho, nānāratnamayaniryūhaśata-<lb/>
+sahasrasamalaṃkṛtaṃ, nānādivyadūṣyasaṃstīrṇaṃ, vicitropadhāna-<lb/>
+vinyastaratnaparyaṅkaṃ, tādṛśam eva vimānaṃ teṣāṃ <lb/>
+purataḥ prādurbhavati. te teṣu manobhinirvṛteṣu vimāneṣu <lb/>
+saptāpsaraḥsahasraparivṛtāḥ puraskṛtā viharanti, krīḍanti <lb/>
+ramante paricārayanti. <lb/>
+na ca tatra lokadhātau devānāṃ manuṣyāṇāṃ vā nānātvam <lb/>
+asti, anyatra saṃvṛtivyavahāreṇa devā manuṣyā veti saṃkhyāṃ <lb/>
+gacchati. tad yathānanda, rājñaś cakravartinaḥ purato <lb/>
+manuṣyahīno manuṣyaṣaṇḍako na bhāsate, na tapati, na virocate, <lb/>
+na bhavati viśārado, na prabhāsvara, evam eva devānāṃ <lb/>
+paranirmitavaśavartināṃ purataḥ śakro devendro na bhāsate, <lb/>
+P39<lb/>
+na tapati, na virocate, yad idam : udyānavimānavastrābharaṇair, <lb/>
+ādhipatyena vā, rddhyā vā, prātihāryeṇa vaiśvaryeṇa <lb/>
+vā ; na tu khalu punar dharmābhisamayena dharmaparibhogena <lb/>
+vā. tatrānanda yathā devāḥ paranirmitavaśavartina <lb/>
+evaṃ sukhāvatyāṃ lokadhātau manuṣyā draṣṭavyāḥ. <lb/>
+tasyāṃ khalu punar ānanda sukhāvatyāṃ lokadhātau pūrvāhna-<lb/>
+kālasamaye pratyupasthite, samantāc caturdiśam ākula-<lb/>
+samākulā vāyavo vānti, yenātra ratnavṛkṣāṃś citrān, darśanīyān, <lb/>
+nānāvarṇān, anekavarṇān, nānāsurabhidivyagandhaparivāsitān <lb/>
+kṣobhayanti, saṃkṣobhayanti, īrayanti, samīrayanti ; 
+</p><p xml:id="4">
+yato bahūni puṣpaśatāni tasyāṃ ratnamayyāṃ pṛthivyāṃ <lb/>
+prapatanti manojñagandhāni darśanīyāni. taiś ca puṣpais <lb/>
+tadbuddhakṣetraṃ samantāt saptapauruṣaṃ saṃskṛtaṃ rūpaṃ <lb/>
+bhavati. tad yathāpi nāma kaścid eva puruṣaḥ kuśalaḥ <lb/>
+pṛthivyāṃ puṣpasaṃstaraṃ saṃstṛṇuyād, ubhābhyāṃ <lb/>
+pāṇibhāṃ samaṃ racayet sucitraṃ darśanīyam, evam etad <lb/>
+buddhakṣetraṃ taiḥ puṣpair nānāgandhavarṇaiḥ samantāt <lb/>
+saptapauruṣaṃ sphuṭaṃ bhavati. tāni ca puṣpajātāni mṛdūni <lb/>
+kācalindikasukhasaṃsparśāny ; aupamyamātreṇa yāni nikṣipte <lb/>
+pāde caturaṅgulam eva namanty, utkṣipte pāde caturaṅgulam <lb/>
+evānamanti. nirgate punaḥ pūrvāhnakālasamaye, tāni puṣpāni <lb/>
+niravaseṣam antardhīyante. <lb/>
+atha tad-buddhakṣetraṃ viviktaṃ, ramyaṃ, śubhaṃ <lb/>
+bhavaty, aparikliṣṭais taiḥ pūrvapuṣpaiḥ. tataḥ punar 
+</p><p xml:id="5">
+api samantāc caturdiśaṃ vāyavo vānti, ye pūrvavad abhinavāni <lb/>
+puṣpāṇy abhiprakiranti. yathā pūrvāhna eva madhyāhne, <lb/>
+P40<lb/>
+'parāhne kālasamaye, saṃdhyāyāṃ, rātryāḥ prathame <lb/>
+yāme, madhyame paścime ca yāme. taiś ca vātair vāyadbhir <lb/>
+nānāgandhaparivāsitais te sattvāḥ spṛṣṭāḥ santa, evaṃ <lb/>
+sukhasamarpitā bhavanti sma, tad yathāpi nāma nirodhasamāpanno <lb/>
+bhikṣuḥ. <lb/>
+tasmiṃś cānanda buddhakṣetre sarvaśo 'gnicandrasūrya-<lb/>
+grahanakṣatratārārūpānāṃ tamo'ndhakārasya ca nāmadheya-<lb/>
+prajñaptir api nāsti. sarvaśo rātridivaprajñaptir api <lb/>
+nāsty, anyatra tathāgatavyavahārāt. sarvaśaś cāgāraparigraha-<lb/>
+saṃjñā nāsti. <lb/>
+tasyāṃ khalu punar ānanda sukhāvatyāṃ lokadhātau <lb/>
+kāle divyagandhodakameghā abhipravarṣanti. divyāni sarva-<lb/>
+varṇikāni kusumāni, divyāni saptaratnāni, divyaṃ candana-<lb/>
+cūrṇaṃ, divyāś cchatradhvajapatākā abhipravarṣanti. divyāni <lb/>
+vimānāni, divyāni vitānāni dhriyante, divyāni ratnacchatrāṇi <lb/>
+sacāmarāṇy ākāśe dhriyante. divyāni vādyāni pravādyante. <lb/>
+divyāś cāpsaraso nṛtyanti sma. <lb/>
+tasmin khalu punar ānanda buddhakṣetre ye sattvā <lb/>
+upapannā utpadyanta upapatsyante, sarve te niyatāḥ samyaktve <lb/>
+yāvan nirvāṇāt. tat kasya hetoḥ. nāsti tatra dvayo <lb/>
+rāśyor vyavasthānaṃ prajñaptir vā, yad idam : aniyatyasya <lb/>
+vā mithyātvaniyatasya vā. tad anenāpy ānanda paryāyeṇa <lb/>
+sā lokadhātuḥ sukhāvatīty ucyate saṃkṣiptena, na vistareṇa. <lb/>
+kalpo 'py ānanda parikṣayet, sukhāvatyāṃ lokadhātau <lb/>
+sukhakāraṇeṣu parikīrtayamāneṣu ; na ca teṣāṃ sukhakāraṇānāṃ <lb/>
+P41<lb/>
+śakyaṃ paryanto 'dhigantum. <lb/>
+atha khalu bhagavāṃs tasyāṃ velāyām imā gāthā <lb/>
+abhāṣata : <lb/>
+sarve pi sattvāḥ sugatā bhaveyuḥ, <lb/>
+viśuddhajñānāḥ paramārthakovidā.<lb/>
+te kalpakoṭīm atha vāpi uttarim, <lb/>
+sukhāvatīvarṇa prakāśayeyuḥ.(1)<lb/>
+kṣaye kalpakoṭīya vrajeyu tāś ca, <lb/>
+sukhāvatīye na ca varṇa antaḥ. <lb/>
+kṣayaṃ na gacchet pratibhā teṣāṃ <lb/>
+prakāśayantāna tha varṇamālā.(2) <lb/>
+ye lokadhātūṃ paramāṇusadṛśāṃ <lb/>
+cchindeya bhindeya rajāṃś ca kuryāt, <lb/>
+ato bahū uttari lokadhātū <lb/>
+pūretva dānaṃ ratanehi dadyāt.(3) <lb/>
+na tā kalāṃ pi upamā pi tasya <lb/>
+puṇyasya bhontī pṛthulokadhātavaḥ, <lb/>
+yal lokadhātūya sukhāvatīye <lb/>
+śrutvaiva nāma bhavatīha puṇyaṃ (4)<lb/>
+tato bahū puṇya bhaveta teṣāṃ, <lb/>
+ye śraddhaṇeya jinavacanasaṃjñā. <lb/>
+śraddhā hi mūlaṃ jagatasya prāptaye, <lb/>
+tasmād dhi śrutvā vimatiṃ vinodayed, iti.(5) <lb/>
+evam aprameyaguṇavarṇā ānanda sukhāvatī lokadhātuḥ. <lb/>
+tasya khalu punar ānanda bhagavato 'mitābhasya tathāgatasya <lb/>
+P42<lb/>
+daśasu dikṣv ekaikasyāṃ diśi gaṅgānadīvālukāsameṣu <lb/>
+buddhakṣetreṣu gaṅgānadīvālukāsamā buddhā bhagavanto <lb/>
+nāmadheyaṃ parikīrtayante, varṇaṃ bhāṣante, yaśaḥ <lb/>
+prakāśayanti, guṇam udīrayanti. tat kasya hetoḥ. ye <lb/>
+kecit sattvās tasya 'mitābhasya tathāgatasya nāmadheyaṃ <lb/>
+śṛṇvanti, śrutvā cāntaśa ekacittotpādam apy adhyāśayena <lb/>
+prasādasahagatam utpādayanti, sarve te 'vaivarttikatāyāṃ <lb/>
+saṃtiṣṭhante 'nuttarāyāḥ samyaksaṃbodheḥ. <lb/>
+ye cānanda kecit sattvās taṃ tathāgataṃ punaḥ punar <lb/>
+ākārato manasīkariṣyanti, bahuparimitaṃ ca kuśalamūlam <lb/>
+avaropayiṣyanti, bodhāya cittaṃ pariṇāmya tatra ca lokadhātāv <lb/>
+upapattaye praṇidhāsyanti, teṣāṃ so 'mitābhas <lb/>
+tathāgato 'rhan samyaksaṃbuddho maraṇakālasamaye pratyupasthite <lb/>
+'nekabhikṣugaṇaparivṛtaḥ puraskṛtaḥ sthāsyati. tatas <lb/>
+te taṃ bhagavantaṃ dṛṣṭvā prasannacittāḥ santi, tatraiva <lb/>
+sukhāvatyāṃ lokadhātāv upapadyate. ya ānandākāṃkṣata, <lb/>
+kulaputro vā kuladuhitā vā, kim ity ahaṃ dṛṣṭa eva dharme <lb/>
+tam amitābhaṃ tathāgataṃ paśyeyam iti, tenānuttarāyāṃ <lb/>
+samyaksaṃbodhau cittam utpādyādhyāśayapatitayā saṃtatyā <lb/>
+tasmin buddhakṣetre cittaṃ saṃpreṣyopapattaye kuśalamūlāni <lb/>
+ca pariṇāmayitavyāni. <lb/>
+ye punas taṃ tathāgataṃ na bhūyo manasīkariṣyanti, na <lb/>
+ca bahuparimitaṃ kuśalamūlam abhīkṣṇam avaropayiṣyanti, <lb/>
+tatra ca buddhakṣetre cittaṃ saṃpreṣayiṣyanti, teṣāṃ <lb/>
+tādṛśenaiva so 'mitābhas tathāgato 'rhan samyaksaṃbuddho <lb/>
+P43<lb/>
+varṇasaṃsthānārohapariṇāhena bhikṣusaṃghaparivāreṇa, tādṛśa <lb/>
+eva buddhanirmito maraṇakāle purataḥ sthāsyati, te tenaiva <lb/>
+tathagatadarśanaprasādālambanena samādhināpramuṣitayā <lb/>
+smṛtyā cyutās, tatraiva buddhakṣetre pratyājaniṣyanti. <lb/>
+ye punar ānanda sattvās taṃ tathāgataṃ daśacittotpādāṃ <lb/>
+samanusmariṣyanti ; spṛhāṃś ca tasmin buddhakṣetre utpādayiṣyanti ; <lb/>
+gambhīreṣu ca dharmeṣu bhāṣyamāṇeṣu tuṣṭiṃ <lb/>
+pratilapsyante, na vipatsyante, na viṣādam āpatsyante, na <lb/>
+saṃsīdam āpatsyante ; 'ntaśa ekacittotpādenāpi taṃ tathāgataṃ <lb/>
+manasikariṣyanti, spṛhāṃ cotpādayiṣyanti tasmin buddhakṣetre, <lb/>
+te 'pi svapnāntaragatās tam amitābhaṃ tathāgataṃ drakṣyanti ; <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; 'vaivarttikāś <lb/>
+ca bhaviṣyanty anuttarāyāḥ samyaksaṃbodheḥ. <lb/>
+imaṃ khalv ānandārthavasaṃ saṃpaśyantas, te tathāgatā <lb/>
+daśasu dikṣv aprameyāsaṃkhyeyāsu lokadhātusu tasyāmitābhasya <lb/>
+tathāgatasya nāmadheyaṃ parikīrtayanto, varṇān <lb/>
+ghoṣayantaḥ, praśaṃsām abhyudīrayanti. tasmin khalu <lb/>
+punar ānanda buddhakṣetre daśabhyo digbhya ekaikasyāṃ <lb/>
+diśi gaṅgānadīvālukopamā bodhisattvās tam amitābhaṃ <lb/>
+tathāgatam upasaṃkrāmanti darśanāya, vandanāya, paryupāsanāya, <lb/>
+paripraśnīkaraṇāya ; taṃ ca bodhisattvagaṇaṃ tāṃś <lb/>
+ca buddhakṣetraguṇālaṃkāravyūhasaṃpadaviśeṣān draṣṭum. <lb/>
+atha khalu bhagavāṃs tasyāṃ velāyām imam evārthaṃ <lb/>
+bhūyasyā mātrayā paridīpayann imā gāthā abhāṣata : <lb/>
+P44<lb/>
+yathaiva gaṅgāya nadīya vālikā, <lb/>
+buddhāna kṣetrā purimena tāttakāḥ. <lb/>
+yato hi te āgami buddha vanditum <lb/>
+saṃbodhisattvā amitāyu nāyakaṃ.(1)<lb/>
+bahupuṣpapuṭān gṛhītvā <lb/>
+nānāvarṇa surabhī manoramān, <lb/>
+okiranti naranāyakottamam <lb/>
+amita-āyu naradevapūjitam.(2)<lb/>
+tatha dakṣiṇapaścimottarāsu <lb/>
+buddhāna kṣetrā diśatāsu tattakāḥ, <lb/>
+yato yato āgami buddha vanditum <lb/>
+saṃbodhisattvā amitāyu nāyakaṃ.(3)<lb/>
+bahugandhapuṭān gṛhītvā <lb/>
+nānāvarṇa surabhī manoramān, <lb/>
+okiranti naranāyakottamaṃ <lb/>
+amita-āyu naradevapūjitam.(4)<lb/>
+pūjitva ca te bahubodhisattvān, <lb/>
+vanditva pādām amitaprabhasya, <lb/>
+pradakṣiṇīkṛtya vadanti caivaṃ : <lb/>
+aho 'dbhutaṃ śobhati buddhakṣetraṃ.(5)<lb/>
+te puṣpapuṭāhi samokiranti <lb/>
+udagracittā atulāya prītaye, <lb/>
+vācaṃ prabhāṣanti punas tu : nāyake, <lb/>
+asmāpi kṣetraṃ siya evarūpaṃ.(6)<lb/>
+P45<lb/>
+taiḥ puṣpapuṭā iti kṣipta tatra <lb/>
+cchatraṃ tadā saṃsthihi yojanāśatāṃ, <lb/>
+svalaṃkṛtaṃ śobhati citradaṇḍaṃ, <lb/>
+cchādeti buddhasya samantakāyaṃ.(7)<lb/>
+te bodhisattvās tatha satkaritvā, <lb/>
+kathā kathentī iti tatra tuṣṭaḥ :<lb/>
+sulabdha lābhāḥ khalu tehi sattvaiḥ, <lb/>
+yehī śrutaṃ nāma narottamasya.(8)<lb/>
+asmehi pī lābha sulabdha pūrvā <lb/>
+yad āgatasya ima buddhakṣetraṃ. <lb/>
+paśyātha svapnopama kṣetra kīdṛśaṃ, <lb/>
+yat kalpitaṃ kalpasahasra śāstunā.(9)<lb/>
+paśyatha, buddho varapuṇyarāśiḥ, <lb/>
+parīvṛtu śobhati bodhisattvaiḥ. <lb/>
+amitābhasya ābhā amitaṃ ca tejaḥ, <lb/>
+amitā ca āyur, amitaś ca saṃghaḥ.(10)<lb/>
+smitaṃ karontī amitāyu nāthaḥ <lb/>
+ṣaṭtriṃśatkoṭīnayutāni arciṣāṃ, <lb/>
+ye niścaritvā mukhamaṇḍalābhaḥ <lb/>
+sphuranti kṣetrāṇi sahasrakoṭīḥ.(11)<lb/>
+tāḥ sarva arcīḥ punaretya tatra, <lb/>
+mūrdhne ca astaṃgami nāyakasya. <lb/>
+devamanuṣyā janayanti prītim, <lb/>
+P46<lb/>
+arcis tadā astam itā viditvā.(12)<lb/>
+uttiṣṭhate buddhasuto mahāyaśā <lb/>
+nāmnātha so hi avalokiteśvaraḥ : <lb/>
+ko hetur atra bhagavan, ko pratyayaḥ, <lb/>
+yena smitaṃ kurvasi lokanātha.(13)<lb/>
+taṃ vyākarohī paramārthakovidā <lb/>
+hitānukampī bahusattvamocakaḥ. <lb/>
+śrutvā ti vācaṃ paramāṃ manoramāṃ, <lb/>
+udagracittā bhaviṣyanti sattvāḥ.(14)<lb/>
+ye bodhisattvā bahulokadhātuṣu <lb/>
+sukhāvatīṃ prasthita buddhapaśyanā, <lb/>
+te śrutva prītiṃ vipulāṃ janetvā, <lb/>
+kṣipraṃ imaṃ kṣetra vilokayeyuḥ.(15)<lb/>
+āgatya ca kṣetram idaṃ udāraṃ, <lb/>
+ṛddhībalaṃ prāpuṇi kṣipram eva, <lb/>
+divyaṃ ca cakṣus, tatha śrotra divyaṃ, <lb/>
+jātismaraḥ paramatakovidāś ca.(16)<lb/>
+amitāyu buddhas tada vyākaroti : <lb/>
+mama hy ayaṃ praṇidhir abhūṣi pūrva. <lb/>
+kathaṃ pi sattvāḥ śruṇiyāna nāmaṃ, <lb/>
+vrajeyu kṣetraṃ mama nityam eva.(17)<lb/>
+sa me aya praṇidhi prapūrṇa śobhanā, <lb/>
+sattvāś ca enti bahulokadhātutaḥ. <lb/>
+āgatya kṣipraṃ mama te 'ntikasmin <lb/>
+avivarttikā bhontiha ekajātiyā.(18)<lb/>
+tasmād ya icchatiha bodhisattvaḥ : <lb/>
+mamāpi kṣetraṃ siya evarūpaṃ. <lb/>
+ahaṃ pi sattvā bahu mocayeyaṃ, <lb/>
+P47<lb/>
+nāmena ghoṣena tha darśanena.(19)<lb/>
+sa śīghraśīghraṃ tvaramāṇarūpaḥ, <lb/>
+sukhāvatīṃ gacchatu lokadhātuṃ. <lb/>
+gatvā ca pūrvam amitaprabhasya, <lb/>
+pūjetu buddhāna sahasrakoṭī.(20)<lb/>
+buddhāna koṭīṃ bahu pūjayitvā, <lb/>
+ṛddhībalena bahu kṣetra gatvā, <lb/>
+kṛtvāna pūjāṃ sugatāna santike, <lb/>
+bhaktāgram eṣyanti sukhāvatī ta, iti.(21)<lb/>
+tasya khalu punar ānanda bhagavato 'mitāyuṣas tathāgatasyārhataḥ <lb/>
+samyaksaṃbuddhasya bodhivṛkṣaḥ ṣoḍasayojanaśatāny <lb/>
+uccaitvenāṣṭau yojanaśatāny abhipralambitaśākhāpattrapalāśaḥ <lb/>
+pañcayojanaśatamūlārohapariṇāhaḥ, sadāpattraḥ <lb/>
+sadāpuṣpaḥ sadāphalo, nānāvarṇo 'nekaśatasahasravarṇo, <lb/>
+nānāpattro nānāpuṣpo nānāphalo, nānāvicitrarūpena samalaṃkṛtaś, <lb/>
+candrabhāsamaṇiratnaparisphuṭaḥ, śakrābhilagnamaṇiratnavicitritaś, <lb/>
+cintāmaṇiratnakīrṇaḥ, sāgaravaramaṇiratnasuvicitrito, <lb/>
+divyasamatikrāntaḥ, suvarṇasūtrābhipralambito, rūcakahāro <lb/>
+ratnahāro vajrāhāraḥ kaṭakahāro lohitamuktāhāro <lb/>
+nīlamuktāhāraḥ, siṃhalatāmekhalākalāparatnasūtrasarva-<lb/>
+ratnakañcukaśatābhivicitritaḥ, suvarṇajālamuktājālasarvaratna-<lb/>
+jālakaṅkaṇījālāvanato, makarasvastikanandyāvartyardhacandra-<lb/>
+samalaṃkṛtaḥ, kiṅkiṇīmaṇisauvarṇasarvaratnālaṃkāravibhūṣito, <lb/>
+yathāśayasattvavijñaptisamalaṃkṛtaś ca. <lb/>
+tasya khalu punar ānanda bodhivṛkṣasya vātasamīritasya <lb/>
+yaḥ śabdaghoṣo niścarati, so 'parimāṇān lokadhātūn abhivijñāpayati. <lb/>
+tatrānanda yeṣāṃ sattvānāṃ bodhivṛkṣaśabdaḥ <lb/>
+P48<lb/>
+śrotrāvabhāsam āgacchati, teṣāṃ śrotrarogo na pratikāṃkṣitavyo, <lb/>
+yāvad bodhiparyantam. yeṣāṃ cāprameyāsaṃkhyeyā-<lb/>
+cintyāmāpyāparimāṇānabhilāpyānāṃ sattvānāṃ bodhivṛkṣaś <lb/>
+cakṣuṣābhāsam āgacchati, teṣāṃ cakṣūrogo na pratikāṃkṣitavyo, <lb/>
+yāvad bodhiparyantam. ye khalu punar ānanda <lb/>
+sattvās tato bodhivṛkṣād gandhaṃ jighranti, teṣāṃ yāvad <lb/>
+bodhiparyantaṃ na jātu ghrāṇarogaḥ pratikāṃkṣitavyaḥ. ye <lb/>
+sattvās tato bodhivṛkṣāt phalāny āsvādayanti, teṣāṃ yāvad <lb/>
+bodhiparyantaṃ na jātu jihvārogaḥ pratikāṃkṣitavyaḥ. <lb/>
+ye sattvās tasya bodhivṛkṣasyābhayā sphuṭā bhavanti, <lb/>
+teṣāṃ yāvad bodhimaṇḍaparyantaṃ na jātu kāyarogaḥ <lb/>
+pratikāṃkṣitavyaḥ. ye khalu punar ānanda sattvās taṃ <lb/>
+bodhivṛkṣaṃ dharmato nidhyāyanti, teṣāṃ tatropādāya yāvad <lb/>
+bodhiparyantaṃ na jātu cittavikṣepaḥ pratikāṃkṣitavyaḥ. sarve <lb/>
+ca te sattvāḥ sahadarśanāt tasya bodhivṛkṣasyāvaivarttikāḥ <lb/>
+saṃtiṣṭhante ; yad utānuttarāyāḥ samyaksaṃbodhes tisraś ca <lb/>
+kṣāntīḥ pratilabhante, yad idaṃ : ghoṣānugām anulomikāṃ <lb/>
+anutpattikadharmakṣāntiṃ ca ; tasyaivāmitāyuṣas tathāgatasya <lb/>
+pūrvapraṇidhānādhiṣṭhānena, pūrvajinakṛtādhikāratayā, <lb/>
+pūrvapraṇidhānaparicaryayoś ca susamāptayā, subhāvitayānū-<lb/>
+nāvikalatayā. <lb/>
+tatra khalu punar ānanda ye bodhisattvāḥ pratyājātāḥ <lb/>
+pratyājāyante pratyājaniṣyante vā, sarve ta ekajātipratibaddhās <lb/>
+tata evānuttarāṃ samyaksaṃbodhim abhisaṃbhotsyante ; <lb/>
+sthāpayitvā praṇidhānavaśena ye te bodhisattvā mahāsiṃhanādanāditā, <lb/>
+P49<lb/>
+udārasaṃnāhasamnaddhāḥ, sarvasattvaparinirvāṇābhiyuktāś <lb/>
+ca. <lb/>
+tasmin khalu punar ānanda buddhakṣetre ye śrāvakās <lb/>
+te vyomaprabhā, ye bodhisattvās te yojanakoṭīśatasahasraprabhāḥ ; <lb/>
+sthāpayitvā dvau bodhisattvau, yayoḥ prabhayā <lb/>
+sā lokadhātuḥ satatasamitaṃ nityāvabhāsasphuṭā. <lb/>
+atha khalv āyuṣmān ānando bhagavantam etad avocat : <lb/>
+kiṃ nāmadheyau bhagavan tau satpuruṣau bodhisattvau <lb/>
+mahāsattvau. bhagavān āha : ekas tayor ānandāvalokiteśvara <lb/>
+bodhisattvo mahāsattvo, dvitīyaḥ sthāmaprāpto nāma. ita <lb/>
+evānanda buddhakṣetrāc cyutvā tatropapannau. <lb/>
+tatra cānanda buddhakṣetre ye bodhisattvāḥ pratyājātāḥ, <lb/>
+sarve te dvātriṃśatā mahāpuruṣalakṣaṇaiḥ samanvāgatāḥ, <lb/>
+paripūrṇagātrā, dhyānābhijñākovidāḥ, prajñāprabhedakovidāḥ, <lb/>
+kuśalās, tīkṣṇendriyāḥ, susaṃvṛtendriyā, ājñātendriyā, adīnācalendriyāḥ, <lb/>
+pratilabdhakṣāntikā anantāparyantaguṇāḥ. <lb/>
+tasmin khalu punar ānanda buddhakṣetre ye bodhisattvāḥ <lb/>
+pratyājātāḥ, sarve te 'virahitā buddhadarśanena dharmaśravaṇenāvinipāta-<lb/>
+dharmāṇo, yāvad bodhiparyantaṃ. sarve ca <lb/>
+te tatropādāya na jātv ajātismarā bhaviṣyanti, sthāpayitvā <lb/>
+tathārūpeṣu kalpasaṃkṣobheṣu ye pūrvasthānapraṇihitāḥ <lb/>
+pañcasu kaṣāyeṣu vartamāneṣu, yadā buddhānāṃ bhagavatāṃ <lb/>
+P50<lb/>
+loke prādurbhāvo bhavati, tad yathāpi nāma mamaitarhi. <lb/>
+tasmin khalu punar ānanda buddhakṣetre ye bodhisattvāḥ <lb/>
+pratyājātāḥ, sarve ta ekapurobhaktenānyalokadhātūṃ gatvānekani <lb/>
+buddhakoṭīnayutaśatasahasrāṇy upatiṣṭhanti, yāvac <lb/>
+cākāṃkṣanti buddhānubhāvena te yathā cittam utpādayanty : <lb/>
+evaṃrūpaiḥ puṣpadīpadhūpagandhamālyavilepanacūrṇa-<lb/>
+cīvaracchatradhvajapatākāvaijayantītūryasaṃgītivādyaiḥ pūjāṃ <lb/>
+kuryāma iti, teṣāṃ sahacittotpādāt tathārūpāṇy eva sarvapūjāvidhānāni <lb/>
+pāṇau prādurbhavanti. te taiḥ puṣpair yāvad <lb/>
+vādyais teṣu buddheṣu bhagavatsu pūjāṃ kurvanto bahvapa-<lb/>
+rimāṇāsaṃkhyeyaṃ kuśalamūlam upacinvanti. sacet punar <lb/>
+ākāṃkṣanty : evaṃrūpāḥ puṣpapuṭāḥ pāṇau prādurbhavanti, <lb/>
+teṣāṃ sahacittotpādān nānāvarṇā anekavarṇā nānāgandhā divyāḥ <lb/>
+puṣpapuṭāḥ pāṇau prādurbhavanti. te tais tathārūpaiḥ <lb/>
+puṣpapuṭaiḥ tān buddhān bhagavato 'vakiranti sma, abhyavakiranty, <lb/>
+abhiprakiranti. teṣāṃ ca yaḥ sarvaparīttaḥ puṣpapuṭa <lb/>
+utsṛṣṭo, daśayojanavistāram puṣpacchatraṃ prādurbhavanti. <lb/>
+upary antarīkṣe dvitīye cānutsṛṣṭe, na prathamo <lb/>
+dharaṇyāṃ prapatati. santi tatra puṣpapuṭā ya utsṛṣṭāḥ santo <lb/>
+viṃśatiyojanavistārāṇi puṣpacchatrāṇy upary antarīkṣe <lb/>
+prādurbhavanti. santi triṃśatcatvāriṃśatpañcāśat, santi yojana-<lb/>
+śatasahasravistārāṇi puṣpacchatrāṇy upary antarīkṣe prādurbhavanti. <lb/>
+tatra ya udāraṃ prītiprāmodyaṃ saṃjanayanty ; <lb/>
+udāraṃ ca cittaudbilyaṃ pratilabhyante ; te bahv aparimitam <lb/>
+asaṃkhyeyaṃ ca kuśalamūlam avaropya, bahūni <lb/>
+buddhakoṭīnayutaśatasahasrāṇy upasthāyaikapūrvāhnena punar <lb/>
+api sukhāvatyāṃ lokadhātau pratiṣṭhante, tasyaivāmitāyuṣas <lb/>
+P51<lb/>
+tathāgatasya pūrvapraṇidhānādhiṣṭhānaparigraheṇa, pūrvapraṇidhāna-<lb/>
+samṛddhiparipūryānūnayā suvibhaktābhāvitayā. <lb/>
+tasmin khalu punar ānanda buddhakṣetre ye bodhisattvāḥ <lb/>
+pratyājātāḥ, sarve te sarvajñatāsahagatām eva dharmakathāṃ <lb/>
+kathyanti. na ca tatra buddhakṣetre sattvānāṃ kācit <lb/>
+parigrahasaṃjñāsti, sarvaṃ tad-buddhakṣetraṃ samanucaṃkramamāṇā, <lb/>
+anuvicaranto na ratiṃ nāratim utpādayanti. <lb/>
+prakrāmantas tāś cānupekṣā evaṃ prakrāmanti, na sāpekṣāḥ <lb/>
+sarvaśas caiṣām evaṃ cittam nāsti. <lb/>
+tatra khalu punar ānanda sukhāvatyāṃ lokadhātau ye <lb/>
+sattvāḥ pratyājātā, nāsti teṣām anyātakasaṃjñā, nāsti svakasaṃjñā, <lb/>
+nāsti mamasaṃjñā, nāsti vigraho, nāsti vivādo, nāsti <lb/>
+virodho, nāsti asamacittaḥ ; samacittās te, hitacittā, maitracittā, <lb/>
+mṛducittāḥ, snigdhacittāḥ, karmaṇyacittāḥ, prasannacittāḥ, <lb/>
+sthiracittā, vinīvaraṇacittā, akṣubhitacittā, aluḍitacittāḥ, <lb/>
+prajñāpāramitācaryācaraṇacittāś, cittādhārabuddhipraviṣṭāḥ, <lb/>
+sāgarasamāḥ prajñayā, merusamā buddhyānekaguṇasaṃnicayā, <lb/>
+bodhyaṅgasaṃgītyā vikrīḍitā, buddhasaṃgītyābhiyuktā ; <lb/>
+māṃsacakṣuḥ praticinvanti. divyaṃ cakṣur abhinirharanti. <lb/>
+prajñācakṣurgatiṃgatāḥ, dharmacakṣuḥpāraṃgatāḥ ; <lb/>
+buddhacakṣur niṣpādayanto, deśayanto, dyotayanto, vistāreṇa <lb/>
+prakāśayanto ; 'saṅgajñānam abhinirharantas, traidhātukasamatayābhiyuktā, <lb/>
+dāntacittāḥ, śāntacittāḥ, sarvadharmānupalabdhi-<lb/>
+P52<lb/>
+samanvāgatāḥ, samudayaniruktikuśalā, dharmaniruktisamanvāgatā, <lb/>
+hārāhārakuśalā, nayānayasthānakuśalā ; lokikīṣu <lb/>
+kathāsv anapekṣā viharanti. lokottarābhiḥ kathābhiḥ sāraṃ <lb/>
+pratyayanti. sarvadharmaparyeṣṭikusalāḥ, sarvadharmaprakṛtivyupasamajñāna-<lb/>
+vihārino, 'nupalambhagocarā, niṣkiñcanā, <lb/>
+nirupādānā, niścintā, nirupāyāsā, anupādāya suvimuktā, <lb/>
+anaṅgaṇā, aparyantasthāyino, 'bhijñāsv amūlasthāyino, <lb/>
+'saṅgacittā, anavalīnā, gambhīreṣu dharmeṣv abhiyuktā na <lb/>
+saṃsīdanti. duranubodhabuddhajñānapraveśodgatā, ekāyatanamārgānuprāptā, <lb/>
+nirvicikitsās, tīrṇakathaṃkathā, aparapratyayajñānā, <lb/>
+anadhimāninaḥ ; sumerusamā jñāne 'bhyudgatāḥ ; sāgarasamā <lb/>
+buddhyākṣobhyā ; candrasūryaprabhātikrāntāḥ prajñayā, <lb/>
+pāṇḍarasuśuklaśubhacittayā ca ; uttaptahemavrṇasadṛaśāvabhāsa-<lb/>
+nirbhāsaguṇapradhānatayā ca ; vasuṃdharāsadṛśāḥ sarvasattva-<lb/>
+śubhāśubhakṣapanatayā ; apsadṛśāḥ sarvakleśamalanidhāvana-<lb/>
+pravāhanatayā ; agnirājasadṛśāḥ sarvadharmamanyanākleśanirdahanatayā ; <lb/>
+vāyusadṛśāḥ sarvalokāsaṃjanatayā ; ākāśasadṛśāḥ <lb/>
+sarvadharmanairvedhikatayā, sarvaśo niṣkiṃcanatayā ca. <lb/>
+padmasadṛśāḥ sarvalokānupaliptayā ; kālānusārimahāmeghasadṛśā <lb/>
+dharmābhigarjanatayā ; mahāvṛṣṭisadṛśā dharmasalilābhivarṣaṇatayā ; <lb/>
+ṛṣabhasadṛśā mahāgaṇābhibhavanatayā ; <lb/>
+mahānāgasadṛśāḥ paramasudāntacittatayā ; bhadrāśvājāneyasadṛśāḥ <lb/>
+suvinītatayā ; siṃhamṛgarājasadṛśā vikramavaiśāradyāsaṃtrastatayā ; <lb/>
+P53<lb/>
+nyagrodhadrumarājasadṛśāḥ sarvasattvaparitrāṇatayā ; <lb/>
+sumeruparvatarājasadṛśāḥ sarvaparavādyakampanatayā ; <lb/>
+gaganasadṛśā aparimāṇamaitrībhāvanatayā ; mahābrahmasamāḥ <lb/>
+sarvakuśalamūladharmādhipatyapūrvaṃgamanatayā ; <lb/>
+pakṣisadṛśāḥ saṃnicayasthānatayā ; garuḍadvijarājasadṛśāḥ <lb/>
+parapravādividhvaṃsanatayā ; udumbarapuṣpasadṛśā <lb/>
+durlabhotpattyarthitayā ; nāgavat susamāhitā, avikṣiptā, ajihmendriyā ; <lb/>
+viniścayakuśalāḥ, kṣāntisaurabhyabahulā ; anīrṣyakāḥ <lb/>
+parasaṃpattyaprārthatayā. viśāradā dharmakathāsv ; <lb/>
+atṛptā dharmaparyeṣṭau ; vaiḍūryasadṛśāḥ śīlena ; ratnākarāḥ <lb/>
+śrutena ; mañjusvarā mahādharmadundubhighoṣena ; mahādharmabherīṃ <lb/>
+parāghnanto ; mahādharmaśaṅkham āpūrayanto ; <lb/>
+mahādharmadhvajām ucchrāpayanato ; mahādharmolkāṃ <lb/>
+prajvālayantaḥ ; prajñāvilokino, 'saṃmūḍhā, nirdoṣāḥ, <lb/>
+śāntākhilāḥ, śuddhā, nirāmagandhā, alubdhāḥ, saṃvibhāgaratā, <lb/>
+muktatyāgāḥ, prasṛtapāṇayo, dānasaṃvibhāgaratā dharmāmiṣābhyām, <lb/>
+dāne 'matsariṇo, 'saṃsṛṣṭā, anuttrastamānasā, <lb/>
+viraktā, dhīrā, vīrā, dhaureyā, dhṛtimanto, hrīmanto, 'sādṛśyā, <lb/>
+nirargaḍā, prāptābhijñāḥ, suratāḥ sukhasaṃvāsā, arthakarā, <lb/>
+P54<lb/>
+lokapradyotā, nāyakā, nandīrāgānunayapratighāḥ, prahīṇāḥ, <lb/>
+śuddhāḥ, śokāpagatā, nirmalās, trimalaprahīṇā, vikrīḍitābhijñā, <lb/>
+hetubalikāḥ, praṇidhānabalikā, ajihmā, akuṭilāḥ. <lb/>
+ye te bahubuddhakoṭīnayutaśatasahasrāvaropitakuśalamūlā, <lb/>
+utpāṭitamānaśalyā, apagatarāgadveṣamohāḥ, śuddhāḥ, śuddhādhimuktā, <lb/>
+jinavarapraśastā, lokapaṇḍitā, uttaptajñānasamudgatā, <lb/>
+jinastutās, cittaudbilyasamanvāgatāḥ, śūrā, dṛḍhā, asamā, <lb/>
+akhilā, atulā, arajasaḥ, sahitā, udārā, ṛṣabhā, hrīmanto, <lb/>
+dhṛtimantaḥ, smṛtimanto, matimanto, gatimantaḥ, prajñāśastrapraharaṇāḥ, <lb/>
+puṇyavanto, dyutimanto, vyapagatakhilamalaprahīṇā, <lb/>
+abhiyuktāḥ sātatyeṣu dharmeṣu. <lb/>
+īdṛśā ānanda tasmin buddhakṣetre bodhisattvā mahāsattvāḥ <lb/>
+saṃkṣiptena. vistareṇa punaḥ sacet kalpakoṭīnayutaśatasahasrasthitikenāpy <lb/>
+āyuṣpramāṇena tathāgato nirdiśed, na tv eva <lb/>
+śakyaṃ teṣāṃ satpuruṣāṇāṃ guṇaparyanto 'dhigantum. na ca <lb/>
+tathāgatasya vaiśāradyopacchedo bhavet. tat kasya hetoḥ. ubhayam <lb/>
+apy etad ānandācintyam atulyam, yad idam : teṣāṃ <lb/>
+ca bodhisattvānāṃ guṇās tathāgatasya cānuttaraṃ prajñāpratibhānam. 
+</p><p xml:id="6">
+api cānanda uttiṣṭha paścānmukho bhūtvā, puṣpāṇy avakīryāñjaliṃ <lb/>
+pragṛhya, praṇipata. eṣāsau dig, yatra sa bhagavān <lb/>
+amitābhas tathāgato 'rhan samyaksaṃbuddhas tiṣṭhati dhriyate <lb/>
+P55<lb/>
+yāpayati, dharmaṃ ca deśayati ; virajo viśuddho, yasya <lb/>
+taṃ nāmadheyam anāvaraṇaṃ daśadiśi loke vighuṣṭam ekaikasyāṃ <lb/>
+diśi gaṅgānadīvālikāsamā buddhā bhagavanto varṇayanti, <lb/>
+stuvanti, praśaṃsanty, asakṛd asakṛd asaṅgavācāprativākyāḥ. <lb/>
+evam ukta, āyusmān ānando bhagavantam <lb/>
+etad avocat : icchāmy ahaṃ bhagavantaṃ tam amitābham <lb/>
+amitaprabham amitāyuṣaṃ tathāgatam arhantaṃ samyaksaṃbuddhaṃ <lb/>
+draṣṭum, tāṃś ca bodhisattvān mahāsattvān <lb/>
+bahubuddhakoṭīnayutaśatasahasrāvaropitakuśalamūlān. samanantarābhāṣitā <lb/>
+cāyuṣmatānandeneyaṃ vāk, atha tāvad eva <lb/>
+so 'mitābhas tathāgato 'rhan samyaksaṃbuddhaḥ svapāṇitalāt <lb/>
+tathārūpāṃ prabhāṃ prāmuñcat, yayedaṃ koṭīśatasahasratamaṃ <lb/>
+buddhakṣetraṃ mahatāvabhāsena sphuṭam abhūt. <lb/>
+tena khalv api samayena sarvatra koṭīśatasahasrabuddhakṣetrāṇāṃ, <lb/>
+ye kecit kālaparvatā vā, ratnaparvatā vā, <lb/>
+merumahāmerumucilindamahāmucilindacakravāḍamahācakravāḍā <lb/>
+vā, bhittayo vā, stambhā vā, vṛkṣagahanodyānavimānāni <lb/>
+vā divyamānuṣyakāni, tāni sarvāṇi tasya tathāgatasya tayā <lb/>
+prabhayābhinirbhinnāny abhūvan, samabhibhūtāni. <lb/>
+tad yathāpi nāma puruṣo vyāmamātrake sthito dvitīyaṃ <lb/>
+puruṣaṃ pratyavekṣata āditye 'bhyudgata ; evam evāsmin <lb/>
+buddhakṣetre bhikṣubhikṣuṇyupāsakopāsikā devanāgayakṣa-<lb/>
+gandharvāsuragaruḍakinnaramahoragāś ca tasyāṃ velāyām <lb/>
+adrākṣus tam amitābhaṃ tathāgatam arhantaṃ samyaksaṃbuddhaṃ, <lb/>
+sumerum iva parvatarājānaṃ sarvakṣetrābhyudgatam, <lb/>
+sarvadiso 'bhibhūya, bhāsamānaṃ tapantaṃ virocamānaṃ <lb/>
+P56<lb/>
+bibhrājamānaṃ, taṃ ca mahāntaṃ bodhisattvagaṇaṃ, taṃ ca <lb/>
+bhikṣusaṃghaṃ, yad idaṃ buddhānubhāvena tasyāḥ prabhayāḥ <lb/>
+pariśuddhatvāt. <lb/>
+tad yatheyaṃ mahāpṛthivy ekodakajātā bhavet, tatra na <lb/>
+vṛkṣā, na parvatā, na dvīpā, na tṛṇagulmauṣadhivanaspatayo, <lb/>
+na nadīśvabhraprapātāḥ prajñāyeran, anyatraikārṇavībhūtamahāpṛthivy <lb/>
+aikā syāt ; evam eva tasmin buddhakṣetre nāsty <lb/>
+anyat kiṃcil liṅgaṃ vā, nimittaṃ vānyatraiva vyāmaprabhāḥ <lb/>
+śrāvakās, te ca yojanakoṭīśatasahasraprabhā bodhisattvāḥ, sa <lb/>
+ca bhagavān amitābhas tathāgato 'rhan samyaksaṃbuddhas, <lb/>
+taṃ ca śrāvakagaṇaṃ taṃ ca bodhisattvagaṇam abhibhūya, <lb/>
+sarvā diśaḥ prabhāsayan saṃdṛśyate. <lb/>
+tena khalv api samayena tasyāṃ sukhāvatyāṃ lokadhātau <lb/>
+bodhisattvāḥ śrāvākadevamanuṣyāś ca sarve ta imāṃ lokadhātuṃ, <lb/>
+śākyamuniṃ ca tathāgataṃ mahatā bhikṣusaṃghena <lb/>
+parivṛtaṃ paśyanti sma, dharmaṃ ca deśayantam. <lb/>
+tatra khalu bhagavān ajitaṃ bodhisattvaṃ mahāsattvam <lb/>
+āmantrayate sma : paśyasi tvam ajitāmuṣmin buddhakṣetre <lb/>
+guṇālaṃkāravyūhasaṃpadam ; upariṣṭāś cāntarīkṣa ārāmaramaṇīyāni, <lb/>
+vanaramaṇīyāny, udyānaramaṇīyāni, nadīpuṣkiriṇīramaṇīyāni, <lb/>
+nānāratnamayotpalapadmakumudapuṇḍaṛīkākīrṇāni ; <lb/>
+adhastāc ca dharaṇitalam upādāya, yāvad akaniṣṭhabhavanād, <lb/>
+gaganatalaṃ puṣpābhikīrṇaṃ, puṣpāvalisamupaśobhitaṃ, <lb/>
+nānāstambhapaṅktiparisphuṭaṃ tathāgatābhinirmita-<lb/>
+nānādvijasaṃghaniṣevitam. āha : paśyāmi bhagavan, bhagavān <lb/>
+āha : paśyasi punas tvam ajitaitān aparān dvijasaṃghān <lb/>
+P57<lb/>
+sarvabuddhakṣetrān buddasvareṇābhijijñāpayanti, yenaite <lb/>
+bodhisattvā nityam avirahitā buddhānusmṛtyā. āha : paśyāmi <lb/>
+bhagavan. bhagavān āha : paśyasi tvam ajitātra buddhakṣetre <lb/>
+amūn sattvān yojanaśatasahasrakeṣu vimāneṣv abhirūḍhān, <lb/>
+antarīkṣe 'saktān krāmataḥ. āha : paśyāmi bhagavan. <lb/>
+bhagavān āha : tat kiṃ manyase 'jita ; asti kiṃcin <lb/>
+nānātvaṃ devānāṃ vā paranirmitavaśavartināṃ sukhāvatyām <lb/>
+lokadhātau manuṣyaṇāṃ vā. āha : ekam apy ahaṃ bhagavan <lb/>
+nānātvaṃ na samanupaśyāmi. yāvad maharddhikā atra <lb/>
+sukhāvatyāṃ lokadhātau manuṣyāḥ. bhagavān āha : paśyasi <lb/>
+punas tvam ajita tatra sukhāvatyāṃ lokadhātāv ekeṣāṃ <lb/>
+manuṣyāṇām udāreṣu padmeṣu garbhāvāsam. āha ; tad yathāpi <lb/>
+nāma bhagavan trayaśtriṃśā devā yāmā devā vā, pañcāśadyojanakeṣu <lb/>
+vā, yojanaśatikeṣu vā, pañcayojanaśatikeṣu <lb/>
+vimāneṣu praviṣṭāḥ krīḍanti, ramanti, paricārayanti ; evam <lb/>
+evāhaṃ bhagavan atra sukhāvatyāṃ lokadhātāv ekeṣāṃ <lb/>
+manuṣyāṇām udārapadmeṣu garbhāvāsaṃ paśyāmi. <lb/>
+santi khalu punar atra bhagavan sattvā ya upapādukāḥ <lb/>
+padmeṣu paryaṅkaiḥ prādurbhavanti. tat ko 'tra bhagavan <lb/>
+hetuḥ, kaḥ pratyayo, yad anye punar garbhāvāse prativasanti ; <lb/>
+anye punar upapādukāḥ paryaṅkaiḥ padmeṣu prādurbhavanti. <lb/>
+bhagavān āha : ye te 'jita bodhisattvā anyeṣu buddhakṣetreṣu <lb/>
+sthitāḥ sukhāvatyāṃ lokadhātāv upapattaye vicikitsām <lb/>
+P58<lb/>
+utpādayanti, tena cittena kuśalamūlāny avaropayanti, <lb/>
+teṣām atra garbhāvāso bhavati. ye punar nirvicikitsāś cchinnakāṃkṣāḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapattaye kuśalamūlāny <lb/>
+avaropayanti, buddhānāṃ bhagavatām asaṅgajñānam avakalpayanty <lb/>
+abhiśraddhadhaty adhimucyante ; tatropapādukāḥ <lb/>
+padmeṣu paryaṅkaiḥ prādurbhavanti. ye te 'jita bodhisattvā <lb/>
+mahāsattvā anyatrabuddhakṣetrasthāś cittam utpādayanty <lb/>
+amitābhasya tathāgatasyārhataḥ samyaksaṃbuddhasya darśanāya, <lb/>
+na vicikitsām utpādayanti, na kāṃkṣanty asaṅgabuddhajñānaṃ, <lb/>
+svakucalamūlaṃ cābhiśraddhadhati, teṣām <lb/>
+aupapādukānāṃ paryaṅkaiḥ padmeṣu prādurbhūtānāṃ <lb/>
+muhūrtamātreṇaivaivaṃrūpaḥ kāyo bhavati, tad yathānyeṣāṃ <lb/>
+ciropapannānāṃ sattvānām. <lb/>
+paśyājita prajñādaurbalyaṃ prajñāvaimātraṃ prajñāparihāṇiṃ <lb/>
+prajñāparīttatāṃ, yatra hi nāma pañcavarṣaśatāni parihīṇā <lb/>
+bhavanti buddhadarśanād, bodhisattvadarśanāt, saddharmadarśanād, <lb/>
+dhārmasaṃkathyāt ; kuśalamūlacaryāyāḥ parihīṇā <lb/>
+bhavanti sarvakuśalamūlasaṃpatter, yad idaṃ vicikitsāpatitaiḥ <lb/>
+saṃjñāmanasikāraiḥ. <lb/>
+tad yathājita rājñaḥ kṣatriyasya mūrdhānābhiṣiktasya <lb/>
+bandhanāgāraṃ bhavet, sarvasauvarṇavaiḍūryapratyuptam, <lb/>
+avasaktapaṭṭamālyadāmakalāpaṃ, nānāraṅgavitatavitānaṃ, <lb/>
+dūṣyapaṭṭasaṃcchannaṃ, nānāmuktakusumābhikīrṇam, udāraṃ, <lb/>
+dhūpanirdhūpitaṃ, prāsādaharmyagavākṣavedikātoraṇavicitra-<lb/>
+sarvaratnapratimaṇḍitaṃ, hemaratnakaṃkaṇījālasaṃcchannaṃ, <lb/>
+caturasraṃ, catuḥsthūṇaṃ caturdvāraṃ, catuḥsopānakam. <lb/>
+tatra tasya rājñaḥ putraḥ kenacid eva kṛtyena prakṣipto <lb/>
+P59<lb/>
+jāmbūnadasuvarṇamayair nigaḍair baddho bhavati. tasya <lb/>
+ca tatra paryaṅkaḥ prajñaptaḥ syād, anekagoṇikāstīrṇas, <lb/>
+tūlikāpalālikāstīrṇaḥ, kācilindikasukhasaṃsparśaḥ, kāliṅga-<lb/>
+prāvaraṇasottarapaṭacchadana, ubhayāntalohitopadhānaś, citro, <lb/>
+darśanīyaḥ. sa tatrābhiniṣaṇṇo vābhinipanno vā bhavet. bahu <lb/>
+cāsyānekavidhaṃ śucipraṇītaṃ pānabhojanaṃ tatropanāmyet. <lb/>
+tat kiṃ manyase 'jita ; udāras tasya rājaputrasya sa paribhogo <lb/>
+bhavet. āha : udāro bhagavan. bhagavān āha : tat kiṃ <lb/>
+manyase 'jita ; api tv āsvādayet, sa tan nigamayed vā, <lb/>
+tena vā tuṣṭiṃ vidyāt. āha : no hīdaṃ bhagavan. api tu <lb/>
+khalu punar yena vyapanītena rājñā tatra bandhanāgāre <lb/>
+prakṣipto bhavet, sa tato mokṣam evākāṃkṣayet. abhijātān <lb/>
+kumārān amātyān stryāgārān śreṣṭhino gṛhapatīn koṭṭarājño <lb/>
+vā paryeṣed, ya enaṃ tato bandhanāgārāt parimocayeyuḥ. <lb/>
+kiṃ cāpi bhagavaṃs tasya kumārasya tatra bandhanāgāre <lb/>
+nābhiratiḥ. nātra parimucyate, yāvan na rājā prasādam upadarśayati. <lb/>
+bhagavān āha : evam evājita, ye te bodhisattvāḥ <lb/>
+vicikitsāpatitāḥ kuśalamūlāny avaropayanti, kāṃkṣanti <lb/>
+buddhajñānam asamasamajñānaṃ, kiṃ cāpi te buddhanāmaśravaṇena, <lb/>
+tena ca cittaprasādamātreṇātra sukhāvatyāṃ <lb/>
+lokadhātāv upapadyante. na tu khalv aupapādukāḥ padmeṣu <lb/>
+paryaṅkaiḥ prādurbhavanti. api tu padmeṣu garbhāvāse <lb/>
+P60<lb/>
+prativasanti. kiṃ cāpi teṣāṃ tatrodyānavimānasaṃjñāḥ <lb/>
+saṃtiṣṭhante. nāsty uccāraprasrāvaṃ, nāsti kheṭasiṃhānakaṃ, <lb/>
+na pratikūlaṃ manasaḥ pravartate. api tu khalu punaḥ <lb/>
+pañca varṣaśatāni virahitā bhavanti buddhadarśanena, <lb/>
+dharmaśravaṇena, bodhisattvadarśanena, dharmasāṃkathyaviniścayena, <lb/>
+sarvakuśaladharmacaryābhiś ca. kiṃ cāpi te <lb/>
+tatra nābhiramante, na tuṣṭiṃ vidanti. api tu khalu punaḥ <lb/>
+pūrvāparādhaṃ kṣapayitvā, te bhūyas tataḥ paścān niṣkrāmanti. <lb/>
+na caiṣāṃ tato niṣkrāmatāṃ niṣkramaḥ prajñāyata, ūrdhvam <lb/>
+adhas tiryag vā. <lb/>
+paśyājita ; yatra hi nāma pañcabhir varṣaśatair bahūni <lb/>
+buddhakoṭīnayutaśatasahasrāṇy upasthātavyāni, bahvasaṃkhyeyāprameyāni <lb/>
+ca kuśalamūlāny avaropayitavyāni ca syuḥ. <lb/>
+buddhadharmāś ca parigṛhītavyāḥ. tat sarvaṃ vicikitsādoṣeṇa <lb/>
+virāgayanti. paśyājita kiyan mahate 'narthāya <lb/>
+bodhisattvānāṃ vicikitsā saṃvartata iti. <lb/>
+tasmāt tarhy ajita ; bodhisattvair nirvicikitsair bodhāya <lb/>
+cittam utpādya, kṣipraṃ sarvasattvahitasukhādhānāya <lb/>
+sāmarthāpratilambhārthaṃ, sukhāvatyāṃ lokadhātāv <lb/>
+upapattaye kuśalamūlāni pariṇāmayitavyāni, yatra bhagavān <lb/>
+amitāyus tathāgato 'rhan samyaksaṃbuddhaḥ. <lb/>
+evam ukte, 'jito bodhisattvo bhagavantam etad avocat : <lb/>
+kiyantaḥ punar bhagavan bodhisattvā ito buddhakṣetrāt <lb/>
+pariniṣpannā, anyeṣāṃ vā buddhānāṃ bhagavatām antikād <lb/>
+ye sukhāvatyāṃ lokadhātāv upapatsyante. bhagavān āha : <lb/>
+P61<lb/>
+ito hy ajita buddhakṣetrād dvāsaptatikoṭīnayutāni bodhisattvānāṃ <lb/>
+pariniṣpannāni, yāni sukhāvatyāṃ lokadhātāv upapatsyante, <lb/>
+pariniṣpannānām avaivarttikānāṃ bahubuddhakoṭī-<lb/>
+śatasahasrāvaropitaiḥ kuśalamūlaiḥ. kaḥ punar vādas, tataḥ <lb/>
+parīttataraiḥ kuśalamūlaiḥ. <lb/>
+duṣprasahasya tathāgatasyāntikād aṣṭādaśakoṭīnayutāni <lb/>
+bodhisattvānāṃ sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+pūrvāntare digbhāge ratnākaro nāma tathāgato viharati. <lb/>
+tasyāntikān navatibodhisattvakoṭyaḥ sukhāvatyām lokadhātāv <lb/>
+upapatsyante ; <lb/>
+jyotiṣprabhasya tathāgatasyāntikād dvāviṃśatibodhisattvakoṭyaḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+amitaprabhasya tathāgatasyāntikāt pañcaviṃśatibodhisattvakoṭyaḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+lokapradīpasya tathāgatasyāntikāt ṣaṣṭibodhisattvakoṭyaḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+nāgābhibhuvas tathāgatasyāntikāt catuḥṣaṣtibodhisattvakoṭyaḥ <lb/>
+sukhāvatyām lokadhātāv upapatsyante ; <lb/>
+virajaprabhasya tathāgatasyāntikāt pañcaviṃśatibodhisattvakoṭyaḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+siṃhasya tathāgatasyāntikād aṣṭādaśabodhisattvasahasrāṇi <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+śrīkūṭasya tathāgatasyāntikād ekāśītibodhisattvakoṭīnayutāni <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+narendrarājasya tathāgatasyāntikād daśabodhisattvakoṭīnayutāni <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+P62<lb/>
+balābhijñasya tathāgatasyāntikād dvādaśabodhisattvasahasrāṇi <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+puṣpadhvajasya tathāgatasyāntikāt pañcaviṃśatir vīryaprāptā <lb/>
+bodhisattvakoṭya ekaprasthānasaṃsthitā ekenāṣṭāhena <lb/>
+navanavatikalpakoṭīnayutaśatasahasrāṇi paścānmukhīkṛtya <lb/>
+yāḥ sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+jvalanādhipates tathāgatasyāntikād dvādaśabodhisattvakoṭyaḥ <lb/>
+sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+vaiśāradyaprāptasya tathāgatasyāntikād ekonasaptatir <lb/>
+bodhisattvakoṭyo yāḥ sukhāvatyāṃ lokadhātāv upapatsyante ; <lb/>
+amitābhasya tathāgatasya darśanāya, vandanāya, <lb/>
+paryupāsanāya paripṛcchanāyai paripraśnīkaraṇāya. <lb/>
+etenājita paryāyeṇa paripūṛṇakalpakoṭīnayutaṃ nāmadheyāni <lb/>
+parikīrtayeyaṃ teṣāṃ tathāgatānām, yebhyas te bodhisattvā <lb/>
+upasaṃkrāmanti sukhāvatīṃ lokadhātuṃ tam amitābhaṃ <lb/>
+tathāgataṃ draṣṭuṃ vandituṃ paryupāsituṃ, na ca śakyaḥ <lb/>
+paryanto 'dhigantum. <lb/>
+paśyājita kiyat sulabdhalābhās te sattvā ye 'mitābhasya <lb/>
+tathāgatasyārhataḥ samyaksaṃbuddhasya nāmadheyaṃ <lb/>
+śroṣyanti, napi te sattvā hīnādhimuktikā bhaviṣyanti, <lb/>
+ye 'ntaśa ekacittaprasādam api tasmin tathāgate pratilapsyante, <lb/>
+'smiṃś ca dharmaparyāye. <lb/>
+tasmāt tarhy ajita ; ārocayāmi vaḥ, prativedayāmi vaḥ, <lb/>
+sadevakasya lokasya purato 'sya dharmaparyāyasya sravaṇāya, <lb/>
+P63<lb/>
+trisāhasramahāsāhasram api lokadhātum agniparipūṛṇām <lb/>
+avagāhyātikramyaikacittotpādam api vipratisāro na kartavyaḥ. <lb/>
+tat kasya hetoḥ. bodhisattvakoṭyo hy ajitāśravaṇād eṣām <lb/>
+evaṃrūpāṇāṃ dharmaparyāyāṇāṃ vivartante 'nuttarāyāḥ <lb/>
+samyaksaṃbodheḥ. tasmād asya dharmaparyāyasyādhyāśayena <lb/>
+śravaṇodgrahaṇadhāraṇārthāṃ, paryavāptaye, <lb/>
+vistareṇa saṃprakāśanārthāya, bhāvanārthaṃ ca, sumahadvīryam <lb/>
+ārabdhavyam. antaśa ekarātrim divasam apy, eka-<lb/>
+godohamātram apy antaśaḥ, pustakagatāvaropitam api kṛtvā <lb/>
+sulikhito dhārayitavyaḥ, śastṛsaṃjñā ca tatrotpādāya kartavyā, <lb/>
+icchadbhiḥ kṣipram aparimitān sattvān avaivarttikāṃś <lb/>
+cānuttarāyāṃ samyaksaṃbodhau pratiṣṭhāpayituṃ, taṃ ca <lb/>
+tasya bhagavato 'mitābhasya tathāgatasya buddhakṣetraṃ <lb/>
+draṣṭum. ātmanaś ca visiṣṭāṃ buddhakṣetraguṇālaṃkāravyūhasaṃpadaṃ <lb/>
+parigṛhītum iti. <lb/>
+api tu khalv ajita ; atyarthaṃ sulabdhalābhās te sattvā <lb/>
+avaropitakuśalamūlāḥ, pūrvajinakṛtādhikārā, buddhādhiṣṭhānādhiṣṭhitāś <lb/>
+ca bhaviṣyanti, yeṣām anāgate 'dhvani, yāvat <lb/>
+saddharmapralope vartamāna ima evaṃrūpā udārā dharmaparyāyāḥ <lb/>
+sarvabuddhasaṃvarṇitāḥ, sarvabuddhapraśastāḥ <lb/>
+sarvabuddhānujñātā, mahataḥ, sarvajñajñānasya kṣipram āhārakāḥ <lb/>
+śrotāvabhāsam āgacchanti. śrutvā codāraṃ prītiprāmodyaṃ <lb/>
+P64<lb/>
+pratilapsyanta, udgrahīṣyanti, dhārayiṣyanti, <lb/>
+vācayiṣyanti, paryavāpsyanti, parebhyaś ca vistareṇa saṃprakāśayiṣyanti, <lb/>
+bhāvanābhiratāś ca bhaviṣyanty, antaśo likhitvā <lb/>
+pūjayiṣyanti, bahu ca te puṇyaṃ prasaviṣyanti, yasya na <lb/>
+sukarā saṃkhyā kartum. <lb/>
+iti hy ajita yat tathāgatena kṛtyaṃ kṛtaṃ tan mayā. <lb/>
+yūṣmābhir idānīṃ nirvicikitsair yogaḥ karaṇīyaḥ. mā saṃśaya <lb/>
+tam asaṅgam anāvaraṇaṃ buddhajñānam. mā bhūt sarvākārāvaropeta-<lb/>
+ratnamayapadmabandhanāgārapraveśaḥ. durlabho <lb/>
+hy ajita buddhotpādaḥ, durlabhā dharmadeśanā, durlabhā <lb/>
+kṣaṇasaṃpat. ākhyātājita mayā pūrvakuśalamūlapāramiprāptiḥ. <lb/>
+yūyam idānīm abhiyujyata pratipadya vai. <lb/>
+asya khalu punar ajita dharmaparyāyasya mahatīṃ <lb/>
+parīndanāṃ karomy avipranāśāya. mā buddhadharmāṇām <lb/>
+antardhānāya parākramiṣyatha. mā tathāgatājñāṃ ksobha-<lb/>
+yiṣyatha. <lb/>
+atha khalu bhagavāṃs tasyāṃ velāyām imā gāthā abhā-<lb/>
+ṣata : <lb/>
+neme akṛtapuṇyānāṃ śravā bheṣyanti īdṛśāḥ, <lb/>
+ye tu te śūra siddhārthāḥ te śroṣyanti imāṃ girāṃ.(1) <lb/>
+dṛṣṭo yaiś ca hi saṃbuddho <lb/>
+lokanātha prabhaṃkaraḥ, <lb/>
+sa gauravaiḥ śruto dharmaḥ <lb/>
+prītiṃ prāpsyanti te parāṃ.(2) <lb/>
+na śakta hīnebhi kuśīdadṛṣtibhiḥ <lb/>
+buddhāna dharmeṣu prasāda vinditum. <lb/>
+ye pūrvabuddheṣu akārṣu pūjāṃ, <lb/>
+P65<lb/>
+te lokanāthān caryāsu śikṣiṣu.(3) <lb/>
+yathāndhakāre puruṣo hy acakṣuḥ <lb/>
+mārgaṃ na jāne kutu saṃprakāśayet. <lb/>
+sarve tathā śrāvaka buddhajñāne <lb/>
+ajānakāḥ kiṃ punar anyasattvāḥ.(4) <lb/>
+buddho hi buddhasya guṇā prajānate. <lb/>
+na devanāgāsurayakṣaśrāvakāḥ. <lb/>
+pratyekabuddhāna pi ko gatī yatho, <lb/>
+buddhasya jñāne hi prakāśyamāne.(5) <lb/>
+yadi sarvasattvāḥ sugatā bhaveyuḥ <lb/>
+viśuddhajñānā paramakovidā, <lb/>
+te kalpakoṭīr atha vāpi uttare <lb/>
+ekasya buddhasya guṇān katheyuḥ.(6) <lb/>
+atrāntare nirvṛta te bhaveyuḥ <lb/>
+prakāśyamānā bahukalpakoṭīḥ, <lb/>
+na ca buddhajñānasya pramāṇu labhyate, <lb/>
+tathā hi jñānāś cariyaṃ jinānāṃ.(7) <lb/>
+tasmān naraḥ paṇḍita vijñajātiyaḥ, <lb/>
+yo mahya vākyam abhiśraddhadheyuḥ, <lb/>
+kṛtsnāṃ sa sākṣī jinajñānarāśiṃ. <lb/>
+buddha prajānāti girām udīrayet.(8) <lb/>
+kadāci labhyāti manuṣyalābhaḥ, <lb/>
+kadāci buddhāna pi prādurbhāvaḥ. <lb/>
+śraddhā tha prajñā sucireṇa lapsyate, <lb/>
+tasyārthaprajñair janayātha vīryaṃ.(9) <lb/>
+ya īdṛśāṃ dharma śruṇitvā śreṣṭhāṃ <lb/>
+labhyanti prītiṃ sugataṃ smarantaḥ, <lb/>
+te mitram asmākam atītam adhvani, <lb/>
+ye buddhā bodhāya janenti cchandam, iti.(10) <lb/>
+P66<lb/>
+asmin khalu punar dharmaparyāye bhagavatā bhāṣyamāne <lb/>
+dvādaśānāṃ sattvanayutakoṭīnāṃ virajo vigatamalaṃ dharmeṣu <lb/>
+dharmacakṣur viśuddhaṃ, caturviṃśatyā koṭībhir anāgāmiphalaṃ <lb/>
+prāptam. aṣṭānāṃ bhikṣuśatānām anutpādāyāsravebhyaś <lb/>
+cittāni vimuktāni. pañcaviṃśatyā bodhisattvakoṭībhir <lb/>
+anutpattikadharmakṣāntipratilabdhāḥ. devamānuṣikāyāś <lb/>
+ca prajāyāś catvāriṃśatkoṭīnayutaśatasahasrāṇām anutpattipūrvāṇy <lb/>
+anuttarāyāṃ samyaksaṃbodhau cittāny utpannāni <lb/>
+sukhāvatyupapattaye ca kuśalamūlāny avaropitāni, bhagavato <lb/>
+'mitābhasya darśanakāmatayā. <lb/>
+sarve te tatrotpādyānupūrveṇa mañjusvarā nāma tathāgatā <lb/>
+anyeṣu lokadhātuṣūpapatsyante. aśītiś ca nayutakoṭyo dīpaṅkareṇa <lb/>
+tathāgatena labdhakṣāntikā avaivartyā anuttarāyāḥ <lb/>
+samyaksaṃbodher, amitāyuṣaiva tathāgatena paripācitāḥ <lb/>
+pūrvabodhisattvacaryāś carantās, tāś ca sukhāvatyāṃ <lb/>
+lokadhātāv upapadya pūrvapraṇidhānacaryāḥ paripūrayiṣyanti. <lb/>
+tasyāṃ ca velāyām ayaṃ trisāhasramahāsāhasro lokadhātuḥ <lb/>
+ṣaḍvikāraṃ prakampitaḥ. vividhāni ca prātihāryāṇi <lb/>
+saṃdṛśyanti, jānumātraṃ ca mandaravapuṣpaiḥ pṛthivyāṃ <lb/>
+saṃstṛtam abhūt. divyamānuṣikāni ca tūryāṇi saṃvāditāny <lb/>
+abhūvan. anumodakāśabdena ca yāvad akaniṣṭhabhavanaṃ <lb/>
+vijñaptam abhūt. <lb/>
+idam avocad bhagavān āttamanā, ajito bodhisattvo mahāsattva <lb/>
+āyuṣmāṃś cānandaḥ, sā ca sarvāvatī parṣat <lb/>
+sadevamānuṣyāsuragandharvaś ca loko bhagavato bhāṣitam <lb/>
+P67<lb/>
+abhyanandann iti. <lb/>
+bhagavato 'mitābhasya guṇaparikīrtanaṃ bodhisattvānām <lb/>
+avaivarttikabhūmipraveśaḥ. amitābhasya sukhāvatī-vyūha-<lb/>
+parivartaḥ samāptaḥ. 
+</p>
+</body>
+</text>
+</TEI>

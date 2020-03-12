@@ -1,0 +1,1759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_ratnaguNasaMcayagAthA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Ratnaguṇasaṃcayagāthā</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by P.L. Vaidya in: Mahayana-sutra-samgrahah, Part 1. Darbhanga: The Mithila Institute 1961 (Buddhist Sanskrit Texts, 17)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Ratnagunasamcayagatha<BR>
+Based on the ed. by P.L. Vaidya in: Mahayana-sutra-samgrahah, Part 1.<BR>
+Darbhanga: The Mithila Institute 1961 (Buddhist Sanskrit Texts, 17)<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Sutra section, text no. 28.<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+PLAIN TEXT VERSION<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Rgs">
+<body><p xml:id="0">
+Ratnaguṇasaṃcayagāthā /
+</p><p xml:id="1">
+om namo bhagavatyai āryaprajñāpāramitāratnaguṇasaṃcayagāthāyai /
+</p><p xml:id="2">
+namo āryamañjuśriye /
+</p><p xml:id="3">
+1 atha khalu bhagavāṃstāsāṃ catasṛṇāṃ parṣadāṃ saṃpraharṣaṇārthaṃ punarapīmāṃ prajñāpāramitāṃ paridīpayamānastasyāṃ velāyāmimā gāthā abhāṣata -
+</p>
+<lg xml:id="Rgs_1.1">
+<l>para prema gaurava prasāda upasthapitvā prajahitva āvaraṇa kleśamalātikrāntāḥ /</l>
+<l>śṛṇutā jagārthamabhiprasthita sura(vra?)tānāṃ prajñāya pāramita yatra caranti śūrāḥ //</l>
+</lg>
+<lg xml:id="Rgs_1.2">
+<l>yāvanti nadya pravahantiha jambudvīpe phala puṣpa auṣadhā(dhi) vanaspati rohayanti /</l>
+<l>bhūja(ta) gajendranāgapatiniśrayanovata(na)sya(?) tasyānubhāvaśriya sābhu jagādhipasya //</l>
+</lg>
+<lg xml:id="Rgs_1.3">
+<l>yāvanti dharma jinaśrāvaka deśayanti bhāṣanti yuktisahitāṃśca udīrayanti /</l>
+<l>paramārthasaukhyakriya tatphalaprāptitā ca sarvo ayaṃ puruṣakāru tathāgatasya //</l>
+</lg>
+<lg xml:id="Rgs_1.4">
+<l>kiṃ kāraṇaṃ ya jina bhāṣati dharmanetrīṃ tatrābhiśikṣita nararṣabhaśiṣyabhūtāḥ /</l>
+<l>sākṣātkaritva yatha śikṣita deśayanti buddhānubhāva puna ātmabalānubhāvā //</l>
+</lg>
+<lg xml:id="Rgs_1.5">
+<l>yasminna prajñavarapāramitopalabdhiḥ na ca bodhisattvaupalabdhi na cittabodheḥ /</l>
+<l>evaṃ śruṇitva na ca muhyati nāsti trāso so bodhi(sa)ttva carate sugatāna prajñām //</l>
+</lg>
+<lg xml:id="Rgs_1.6">
+<l>na ca rupa vedana na saṃjña na cetanā ca vijñāna sthānu aṇumātra na bhonti tasya /</l>
+<l>so sarvadharmaasthito aniketacārī aparī(ri)gṛhīta labhate sugatāna bodhim //</l>
+</lg>
+<lg xml:id="Rgs_1.7">
+<l>atha śreṇikasya abhutī parivrājakasya jñānopalambhu na hi skandhavibhāvanā ca /</l>
+<l>yo bodhisattva parijānati eva dharmāṃ na ca nirvṛtiṃ spṛśati so viharāti prajñām //</l>
+</lg>
+<lg xml:id="Rgs_1.8">
+<l>vyuparīkṣate punarayaṃ katareṣu prajñā kasmātkuto va imi śūnyaka sarva dharmāḥ /</l>
+<l>vyuparīkṣamāṇu na ca līyati nāsti trāso āsannu so bhavati bodhayi bodhisattvo //</l>
+</lg>
+<p xml:id="4">
+saci rupa saṃjña api vedana cetanā ca vijñāna skandha caratī aprajānamāno /
+</p>
+<lg xml:id="Rgs_1.9">
+<l>imi skandha śūnya parikalpayi bodhisattvo caratī nimittaanupādapade asakto //</l>
+</lg>
+<lg xml:id="Rgs_1.10">
+<l>na ca rupa vedana na saṃjña na cetanāyā vijñāni yo na caratī aniketacārī /</l>
+<l>caratīti so na upagacchati prajñadhārī anupādadhī spṛśati śānti samādhi śreṣṭhām //</l>
+</lg>
+<lg xml:id="Rgs_1.11">
+<l>evātmaśānti viharanniha bodhisattvo so vyākṛto puramakehi tathāgatehi /</l>
+<l>na ca manyate ahu samādhitu vyutthito vā kasmārtha dharmaprakṛtiṃ parijānayitvā //</l>
+</lg>
+<lg xml:id="Rgs_1.12">
+<l>evaṃ carantu caratī sugatāna prajñāṃ no cāpi so labhati yatra carāti dharmam /</l>
+<l>caraṇaṃ ca so 'caraṇaṃ ca prajānayitvā eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.13">
+<l>yo 'sau na vidyati sa eṣa avidyamāno tāṃ bālu kalpayi avidya karoti vidyām /</l>
+<l>vidyā avidya ubhi eti asanta dharmā niryāti yo iti prajānati bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_1.14">
+<l>māyopamāṃ ya iha jānati pañca skandhāṃ na ca māya anya na ca skandha karoti anyān /</l>
+<l>nānātvasaṃjñavigato upaśāntacārī eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.15">
+<l>kalyāṇamitrasahitasya vipaśyakasya trāso na bheṣyati śruṇitva jināna mātrām /</l>
+<l>yo pāpamitrasahito ca parapraṇeyo so āmabhājana yathodakaspṛṣṭa bhinno //</l>
+</lg>
+<lg xml:id="Rgs_1.16">
+<l>kiṃ kāraṇaṃ ayu pravucyati bodhisattvo sarvatra saṅgakriya icchati saṅgachedī /</l>
+<l>bodhiṃ spṛśiṣyati jināna asaṅgabhūtāṃ tasmāddhi nāma labhate ayu bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_1.17">
+<l>mahasattva so 'tha kenocyati kāraṇena mahatāya atra ayu bheṣyati sattvarāśeḥ /</l>
+<l>dṛṣṭīgatāṃ mahati chindati sattvadhātoḥ mahasattva tena hi pravucyati kāraṇena //</l>
+</lg>
+<lg xml:id="Rgs_1.18">
+<l>mahanāyako mahatabuddhi mahānubhāvo mahayāna uttamajināna samādhirūḍho /</l>
+<l>mahatā sanaddhu namuciṃ śaṭha dharṣayiṣye mahasattva tena hi pravucyati kāraṇena //</l>
+</lg>
+<lg xml:id="Rgs_1.19">
+<l>māyākaro yatha catuṣpathi nirmiṇitvā mahato janasya bahu chindati śīrṣakoṭī /</l>
+<l>yatha te ca māya tatha jānati sarvasattvāṃ nirmāṇu sarva jagato na ca tasya trāso //</l>
+</lg>
+<lg xml:id="Rgs_1.20">
+<l>rupaṃ ca saṃjña api vedana cetanā ca vijñāna bandhu na ca mukta asaṅgabhūto /</l>
+<l>evaṃ ca bodhi kramate na ca līnacitto saṃnā ha eṣa varapudgalauttamānām //</l>
+</lg>
+<lg xml:id="Rgs_1.21">
+<l>kiṃ kāraṇaṃ ayu pravucyati bodhiyāno yatrāruhitva sa nirvāpayi sarvasattvān /</l>
+<l>ākāśatulya ayu yāna mahāvimāno sukhasaukhyakṣemabhiprāpaṇu yānaśreṣṭho //</l>
+</lg>
+<lg xml:id="Rgs_1.22">
+<l>na ca labhyate ya vrajate diśa āruhitvā nirvāṇaokagamanaṃ gati nopalabdhiḥ /</l>
+<l>yatha agni nirvṛtu na tasya gatipracāro so tena nirvṛti pravucyati kāraṇena //</l>
+</lg>
+<lg xml:id="Rgs_1.23">
+<l>pūrvāntato na upalabhyati bodhisattvo aparāntato 'pi pratiupanna triyadhvaśuddho /</l>
+<l>yo śuddha so anabhisaṃskṛtu niṣprapañco eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.24">
+<l>yasmiṃś ca kāli samaye vidu bodhisattvo evaṃ carantu anupādu vicintayitvā /</l>
+<l>mahatīṃ janeti karuṇāṃ na ca sattvasaṃjñā eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.25">
+<l>saci sattvasaṃjña dukhasaṃjña upādayātī hariṣyāmi duḥkha jagatīṃ kariṣyāmi artham /</l>
+<l>so ātmasa(ttva) parikalpaku bodhisattvo na ca eṣa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.26">
+<l>yatha ātmanaṃ tatha prajānati sarvasattvāṃ yatha sarvasattva tatha prajānati sarvadharmān /</l>
+<l>anupādupādu ubhaye avikalpamāno eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_1.27">
+<l>yāvanti loki parikīrtita dharmanāma sarveṣupādasamatikramu nirgamitvā /</l>
+<l>amṛtaṃ ti jñānu paramaṃ na tu yo pareṇa ekārtha prajña ayu pāramiteti nāmā //</l>
+</lg>
+<lg xml:id="Rgs_1.28">
+<l>evaṃ carantu na ca kāṅkṣati bodhisattvo jñātavya yo vihara te sa upāyaprajño /</l>
+<l>prakṛtīasanta parijānayamāna dharmāṃ eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<p xml:id="5">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ sarvākārajñatācaryāparivarto nāma prathamaḥ //
+</p><p xml:id="6">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_2.1">
+<l>rupasmi yo na sthihate na ca vedanāyāṃ saṃjñāya yo na sthihate na ca cetanāyām /</l>
+<l>vijñāni yo na sthihate sthitu dharmatāyāṃ eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_2.2">
+<l>nityamanityasukhaduḥkhaśubhāśubhaṃ ti ātmanyanātmi tathatā ta(tha) śūnyatāyām /</l>
+<l>phalaprāptitāya athito arahantabhūmau pratyekabhūmiathito tatha buddhabhūmau //</l>
+</lg>
+<lg xml:id="Rgs_2.3">
+<l>yatha nāyako 'sthitaku dhātuasaṃskṛtāyā tatha saṃskṛtāya athito aniketacārī /</l>
+<l>evaṃ ca sthānu athito sthita bodhisattvo asthānu sthānu ayu sthānu jinena ukto //</l>
+</lg>
+<lg xml:id="Rgs_2.4">
+<l>yo icchatī sugataśrāvaka haṃ bhaveyaṃ pratyekabuddha bhaviyāṃ tatha dharmarājo /</l>
+<l>imu kṣāntyanāgami na śakyati prāpuṇetuṃ yatha ārapāragamanāya atītadarśī //</l>
+</lg>
+<lg xml:id="Rgs_2.5">
+<l>yo dharma bhāṣyati ya bhāṣyati bhāṣyamāṇāṃ phalaprāpta pratyayajino tatha lokanātho /</l>
+<l>nirvāṇato adhigato vidupaṇḍitehi sarve ta ātmaja nidṛṣṭa tathāgatena //</l>
+</lg>
+<lg xml:id="Rgs_2.6">
+<l>catvāri pudgala ime na trasanti ye 'smin jinaputra satyakuśalo avivartiyaśca /</l>
+<l>arhaṃ vidhūtamalakleśa prahīṇakāṅkṣo kalyāṇamitraparipācita yaścaturthaḥ //</l>
+</lg>
+<lg xml:id="Rgs_2.7">
+<l>evaṃ carantu vidu paṇḍitu bodhisattvo nārhaṃmi śikṣati na pratyayabuddhabhūmau /</l>
+<l>sarvajñatāya anuśikṣati buddhadharme śikṣāaśikṣa na ya śikṣati eṣa śikṣā //</l>
+</lg>
+<lg xml:id="Rgs_2.8">
+<l>na ca rupavṛddhiparihāṇiparigrahāye na ca śikṣati vividhadharmaparigrahāye /</l>
+<l>sarvajñatāṃ ca parigṛhṇati śikṣamāṇo niryāyatī ya iya śikṣa guṇe ratānām //</l>
+</lg>
+<lg xml:id="Rgs_2.9">
+<l>rupe na prajña iti rupi na asti prajñā vijñāna saṃjña api vedana cetanā ca /</l>
+<l>na ca eti prajña iti teṣa na asti prajñā ākāśadhātusama tasya na cāsti bhedaḥ //</l>
+</lg>
+<lg xml:id="Rgs_2.10">
+<l>ārambaṇāna prakṛtī sa a(na)ntapārā sattvāna yā ca prakṛtī sa anantapārā /</l>
+<l>ākāśadhātuprakṛtī sa anantapārā prajñā pi lokavidunāṃ sa anantapārā //</l>
+</lg>
+<lg xml:id="Rgs_2.11">
+<l>saṃjñeti nāma parikīrtitu nāyakena saṃjñāṃ vibhāviya prahāṇa vrajanti pāram /</l>
+<l>ye atra saṃjñavigamaṃ anuprāpnuvanti te pāraprāpta sthita pāramite hu bhonti //</l>
+</lg>
+<lg xml:id="Rgs_2.12">
+<l>saci gaṅgavālukasamāni sthihitva kalpāṃ sattveti śabda parikīrtayi nāyako 'yam /</l>
+<l>sattvasyupādu kutu bheṣyati ādiśuddho eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_2.13">
+<l>evaṃ jino bhaṇati apratikūlabhāṇī yadahaṃ imāya varapāramitāya āsī /</l>
+<l>tada vyākṛto 'hu parāpuruṣottamena buddho bhaviṣyasi anāgataadhvanasmin //</l>
+</lg>
+<p xml:id="7">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ śakraparivarto nāma dvitīyaḥ //
+</p><p xml:id="8">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_3.1">
+<l>ya imāṃ grahīṣyati paryāpuṇatī sa nityaṃ prajñāya pāramita yatra caranti nāthāḥ /</l>
+<l>viṣa vahni śastra udakaṃ na kramāti tasyo otāru māru na ca vindati mārapakṣo //</l>
+</lg>
+<lg xml:id="Rgs_3.2">
+<l>parinirvṛtasya sugatasya kareyya stūpāṃ pūjeya saptaratanāmayu kaścideva /</l>
+<l>tehi prapūrṇa siya kṣetrasahasrakoṭyo yatha gaṅgavālikasamaiḥ sugatasya stūpaiḥ //</l>
+</lg>
+<lg xml:id="Rgs_3.3">
+<l>yāvanta sattva puna tāntaka kṣetrakoṭyo te sarvi pūjana kareyuranantakalpān /</l>
+<l>divyehi puṣpavaragandhavilepanehi kalpāṃstriyadhvaparikalpa tato 'pi bhūyaḥ //</l>
+</lg>
+<lg xml:id="Rgs_3.4">
+<l>yaśco imāṃ sugatamāta likhitva puste yata utpatī daśabalāna vināyakānām /</l>
+<l>dhāreyi satkarayi puṣpavilepanehi kala puṇya bhonti na sa stūpi karitva pūjām //</l>
+</lg>
+<lg xml:id="Rgs_3.5">
+<l>mahavidya prajña ayu pāramitā janānāṃ dukhadharmaśokaśamanī pṛthusattvadhātoḥ /</l>
+<l>ye 'tīta ye 'pi ca daśaddiśa lokanāthā ima vidya śikṣita anuttaravaidyarājāḥ //</l>
+</lg>
+<lg xml:id="Rgs_3.6">
+<l>ye vā caranti cariyāṃ hitasānukampām iha vidyaśikṣita vidu spṛśiṣyanti bodhim /</l>
+<l>ye saukhya saṃskṛta asaṃskṛta ye ca saukhyā sarve ca saukhya prasutā itu veditavyāḥ //</l>
+</lg>
+<lg xml:id="Rgs_3.7">
+<l>bījāḥ prakīrṇa pṛthivīsthita saṃbhavanti sāmagri labdhva viruhanti anekarupāḥ /</l>
+<l>yāvanti bodhiguṇa pāramitāśca pañca prajñāya pāramita te viruhanti sarve //</l>
+</lg>
+<lg xml:id="Rgs_3.8">
+<l>yenaiva rāja vrajate sa ha cakravartī tenaiva sapta ratanā balakāya sarve /</l>
+<l>yenaiva prajña iya pāramitā jinānāṃ tenaiva sarvaguṇadharma samāgamanti //</l>
+</lg>
+<p xml:id="9">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmaprameyaguṇadhāraṇapāramitāstūpasatkāraparivarto nāma tṛtīyaḥ //
+</p><p xml:id="10">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_4.1">
+<l>śakro jinena paripṛcchitu praśnamāhu saci gaṅgavālikasamā siya buddhakṣetrāḥ /</l>
+<l>jinadhātu sarvi paripūrita cūḍibaddhā imameva prajñavarapāramitāhu gṛhṇe //</l>
+</lg>
+<lg xml:id="Rgs_4.2">
+<l>kiṃ kāraṇaṃ na mi śarīri agauravatvaṃ api tū khu prajñaparibhāvita pūjayanti /</l>
+<l>yatha rājaniśrita naro labhi sarvi pūjāṃ tatha prajñapāramitaniśrita buddhadhātuḥ //</l>
+</lg>
+<lg xml:id="Rgs_4.3">
+<l>maṇiratna sarvi guṇayukta anarghaprāpto yasmiṃ karaṇḍaki bhave sa namasyanīyaḥ /</l>
+<l>tasyāpi uddhṛta spṛhanti karaṇḍakasmiṃ tasyaiva te guṇa mahāratanasya bhonti //</l>
+</lg>
+<lg xml:id="Rgs_4.4">
+<l>emeva prajñavarapāramitāguṇāni yannirvṛte 'pi jinadhātu labhanti pūjām /</l>
+<l>tasmā hu tān jinaguṇā(n) parighettukāmo so prajñapāramita gṛhṇatu eṣa mokṣo //</l>
+</lg>
+<p xml:id="11">
+pūrvaṃgamā bhavatu dānu dadantu prajñā śīle ca kṣānti tatha vīrya tathaiva dhyāne /<lb/>
+parigrāhikā kuśaladharmaavipraṇāśe ekā ca sā api nidarśayi sarvadharmān // Rgs_4. 5 //
+</p>
+<lg xml:id="Rgs_4.6">
+<l>yatha jambudvīpi bahuvṛkṣasahasrakoṭī nānāprakāra vividhāśca anekarūpāḥ /</l>
+<l>na vi chāyanānatu bhaveta viśeṣatāpi anyatra chāyagatasaṃkhya prabhāṣamāṇā //</l>
+</lg>
+<lg xml:id="Rgs_4.7">
+<l>emeva pañca imi pāramitā jinānāṃ prajñāya pāramita nāmatayā bhavanti /</l>
+<l>sarvajñatāya pariṇāmayamāṇa sarve ṣaḍapīha ekanayamarchati bodhināmā //</l>
+</lg>
+<p xml:id="12">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ guṇaparikīrtanaparivarto nāma caturthaḥ //
+</p><p xml:id="13">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_5.1">
+<l>saci rūpa saṃjña api vedana cetanāyāṃ cittaṃ anitya pariṇāmayi bodhisattvo /</l>
+<l>pra(ti)varṇikāya carate aprajānamāno na hi dharma paṇḍita vināśa karoti jātu //</l>
+</lg>
+<lg xml:id="Rgs_5.2">
+<l>yasmin na rūpa api vedana cāpi saṃjñā vijñāna naiva na pi cetanayopalabdhiḥ /</l>
+<l>anupādu śūnya na ya jānati sarvadharmān eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_5.3">
+<l>yāvanti gaṅganadivālikatulyakṣetre tāvanti sattva arahanti vineya kaścit /</l>
+<l>yaścaiva prajña ima pāramitā likhitvā parasattvi pustaku dadeya viśiṣṭapuṇyaḥ //</l>
+</lg>
+<lg xml:id="Rgs_5.4">
+<l>kiṃ kāraṇaṃ ta iha śikṣita vādiśreṣṭhā gamayanti dharma nikhilāniha śūnyatāyām /</l>
+<l>yāṃ śrutva śrāvaka spṛśanti vimukti śīghraṃ pratyekabodhi spṛśayanti ca buddhabodhim //</l>
+</lg>
+<lg xml:id="Rgs_5.5">
+<l>asato 'ṅkurasya drumasaṃbhavu nāsti loke kuta śākhapatraphalapuṣpaupādu tatra /</l>
+<l>vina bodhicitta jinasaṃbhavu nāsti loke kuta śakrabrahmaphala śrāvakaprādubhāvaḥ //</l>
+</lg>
+<lg xml:id="Rgs_5.6">
+<l>ādityamaṇḍalu yadā prabhajāla muñcī karmakriyāsu tada sattva parākramanti /</l>
+<l>tatha bodhicitta sada lokavidusya jñāto jñānena sarvaguṇadharma samāgamanti //</l>
+</lg>
+<lg xml:id="Rgs_5.7">
+<l>yatha nopatapta asato bhujagādhipasya kuta nadyaprasravu bhavediha jambudvīpe /</l>
+<l>asatā nadīya phalapuṣpa na saṃbhaveyuḥ na ca sāgarāṇa ratanā bhavi naikarūpāḥ //</l>
+</lg>
+<lg xml:id="Rgs_5.8">
+<l>tatha bodhicitta asatīha tathāgatasya kuta jñānaprasravu bhavediha sarvaloke /</l>
+<l>jñānasya co asati nāsti guṇāna vṛddhiḥ na ca bodhi sāgarasamā na ca buddhadharmāḥ //</l>
+</lg>
+<lg xml:id="Rgs_5.9">
+<l>yāvanti loki kvaci jotikaprāṇabhūtā obhāsanārtha prabha osarayanti sarve /</l>
+<l>varasūryamaṇḍalaviniḥsṛta ekaraśmī na kalā pi jyotikagaṇe siya sarvaābhāḥ //</l>
+</lg>
+<p xml:id="14">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ puṇyaparyāyaparivarto nāma pañcamaḥ //
+</p><p xml:id="15">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_6.1">
+<l>yāvanti śrāvakagaṇāḥ prasavanti puṇyaṃ dānaṃ ca śīlamapi bhāvanasaṃprayuktam /</l>
+<l>sa hi bodhisattva anumodana ekacitte na ca sarvaśrāvakagaṇe siya puṇyaskandho //</l>
+</lg>
+<lg xml:id="Rgs_6.2">
+<l>ye buddhakoṭiniyutā purimā vyatītā ye vā anantabahukṣetrasahasrakoṭayaḥ /</l>
+<l>tiṣṭhanti ye 'pi parinirvṛta lokanāthā deśanti dharmaratanaṃ dukhasaṃkṣayāya //</l>
+</lg>
+<lg xml:id="Rgs_6.3">
+<l>prathamaṃ upādu varabodhayi cittupādo yāvat su dharmakṣayakālu vināyakānām /</l>
+<l>ekasmi tatra ciya teṣa jināna puṇyaṃ saha yukta pāramita ye 'pi ca buddhadharmāḥ //</l>
+</lg>
+<lg xml:id="Rgs_6.4">
+<l>yaścaiva buddhatanayāna(ca) śrāvakāṇāṃ śaikṣa aśaikṣa kuśalāsrava nāsravāśca /</l>
+<l>paripiṇḍayitva anumodayi bodhisattvo sarvaṃ ca nāmayi jagārthanidāna bodhi //</l>
+</lg>
+<lg xml:id="Rgs_6.5">
+<l>pariṇāmayantu yadi vartati cittasaṃjñā tatha bodhisattvapariṇāmana sattvasaṃjñā /</l>
+<l>saṃjñāya dṛṣṭisthitu citta trisaṅgayukto pariṇāmitaṃ na bhavatī upalabhyamānam //</l>
+</lg>
+<lg xml:id="Rgs_6.6">
+<l>saci eva jānati nirudhyati kṣīṇadharmā taccaita kṣīṇa pariṇāmayiṣyanti yatra /</l>
+<l>na ca dharma dharmi pariṇāmayate kadācit pariṇāmitaṃ bhavati eva prajānamāne //</l>
+</lg>
+<lg xml:id="Rgs_6.7">
+<l>saci so nimitta kurute na ca mānayāti atha ānimitta pariṇāmita bhonti bodhau /</l>
+<l>viṣasṛṣṭa bhojanu yathaiva kriyāpraṇīto tatha śukladharmaupalambha jinena ukto //</l>
+</lg>
+<lg xml:id="Rgs_6.8">
+<l>tasmā hu nāmapariṇāmana śikṣitavyā yatha te jinā kuśala eva prajānayanti /</l>
+<l>yajjātiyo 'yaṃ prabhavo yadalakṣaṇaṃ ca anumodamī tatha tathā pariṇāmayāmi //</l>
+</lg>
+<lg xml:id="Rgs_6.9">
+<l>evaṃ ca puṇya pariṇāmayamāna bodhau na ca so hi buddha kṣipate jina uktavādī /</l>
+<l>yāvanti loki upalambhikabodhisattvā abhibhonti sarvi pariṇāmayamāna śūro //</l>
+</lg>
+<p xml:id="16">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmanumodanāparivarto nāma ṣaṣṭhamaḥ //
+</p><p xml:id="17">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_7.1">
+<l>jātyandhakoṭiniyutānyaviunāyakānāṃ mārge akovidu kuto nagarapraveśe /</l>
+<l>vina prajña pañca imi pāramitā acakṣuḥ avināyakā na prabhavanti spṛśetu bodhim //</l>
+</lg>
+<lg xml:id="Rgs_7.2">
+<l>yatrāntarasmi bhavate pragṛhīta prajñā tatu labdhacakṣu bhavatī imu nāmadheyam /</l>
+<l>yatha citrakarmapariniṣṭhita cakṣuhīno na ca tāva puṇyu labhate akaritva cakṣuḥ //</l>
+</lg>
+<lg xml:id="Rgs_7.3">
+<l>yada dharma saṃskṛta asaṃskṛta kṛṣṇaśuklo aṇumātru no labhati prajña vibhāvamānaḥ /</l>
+<l>yada prajñapāramita gacchati saṃkhya loke ākāśa yatra na pratiṣṭhitu kiṃci tatra //</l>
+</lg>
+<lg xml:id="Rgs_7.4">
+<l>saci manyate ahu carāmi jināna prajñāṃ mociṣya sattvaniyutāṃ bahurogaspṛṣṭān /</l>
+<l>ayu sattvasaṃjñaparikalpaku bodhisattvo na ca eṣa prajñavarapāramitāya caryā //</l>
+</lg>
+<lg xml:id="Rgs_7.5">
+<l>yo bodhisattva varapāramiteti cīrṇo paricārikā ya na ca kāṅkṣati paṇḍitehi /</l>
+<l>saha śrutva tasya puna bheṣyati śāstṛsaṃjñā so vā laghū anubudhiṣyati bodhi śāntām //</l>
+</lg>
+<lg xml:id="Rgs_7.6">
+<l>satkṛtya buddhaniyutāṃ paricārikāyāṃ na ca prajñapāramita śraddadhitā jinānām /</l>
+<l>śrutvā ca so imu kṣipiṣyati so 'lpabuddhiḥ sa kṣipitva yāsyati avīcimatrāṇabhūto //</l>
+</lg>
+<lg xml:id="Rgs_7.7">
+<l>tasmā hu śraddadhata eva jināna mātāṃ yadi icchathā spṛśitu uttamabuddhajñānam /</l>
+<l>so vāṇijo yatha vrajitvana ratnadvīpaṃ mūlātu chedana karitva puna āgameyā //</l>
+</lg>
+<p xml:id="18">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ nirayaparivarto nāma saptamaḥ //
+</p><p xml:id="19">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_8.1">
+<l>rūpasya śuddhi phalaśuddhita veditavyā phalarūpaśuddhita sarvajñataśuddhimāhuḥ /</l>
+<l>sarvajñatāya phalaśuddhita rūpaśuddhī ākāśadhātusamatāya abhinnachinnāḥ //</l>
+</lg>
+<lg xml:id="Rgs_8.2">
+<l>traidhātukaṃ samatikrānta na bodhisattvā kleśāpanīta upapatti nidarśayanti /</l>
+<l>jaravyādhimṛtyuvigatāścyuti darśayanti prajñāya pāramita yatra caranti dhīrāḥ //</l>
+</lg>
+<lg xml:id="Rgs_8.3">
+<l>nāmeva rūpi jagatī ayu paṅkasaktā saṃsāracakri bhramate 'nilacakratulye /</l>
+<l>jānitva bhrāntu jagatī mṛgavāgureva ākāśa pakṣisadṛśā vicaranti prajñāḥ //</l>
+</lg>
+<lg xml:id="Rgs_8.4">
+<l>rūpasmi yo na carate pariśuddhacārī vijñāna saṃjña api vedana cetanāyām /</l>
+<l>evaṃ carantu parivarjayi sarvasaṅgāṃ saṅgādvimucya carate sugatāna prajñām //</l>
+</lg>
+<p xml:id="20">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ viśuddhiparivarto nāmāṣṭamaḥ //
+</p><p xml:id="21">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_9.1">
+<l>evaṃ carantu vidu paṇḍitu bodhisattvo saṅgā uchinnu vrajate jagatī asakto /</l>
+<l>sūryo va rāhugrahamukta virocamāno agnīva yukta tṛṇakāṣṭhavanaṃ dahāti //</l>
+</lg>
+<lg xml:id="Rgs_9.2">
+<l>prakṛtīya śuddha pariśuddhimi sarvadharmāṃ prajñāya pāramita paśyati bodhisattvo /</l>
+<l>na ca paśyakaṃ labhati nāpi ca sarvadharmān eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<p xml:id="22">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ stutiparivarto nāma navamaḥ //
+</p><p xml:id="23">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_10.1">
+<l>śakro jinasya paripṛcchati devarājo caramāṇa prajña katha yujyati bodhisattvo /</l>
+<l>aṇumātra yo na khalu yujyati skandhadhātau yo eva yujyati(sa yujyati)bodhisattvaḥ //</l>
+</lg>
+<lg xml:id="Rgs_10.2">
+<l>cirayānaprasthitu sa vedayitavya sattvo bahubuddhakoṭinayutehi kṛtādhikāro /</l>
+<l>yo śrutva dharmi imi nirmitamāyakalpāṃ na ca kāṅkṣate ayu prayujyati śikṣamāṇaḥ //</l>
+</lg>
+<lg xml:id="Rgs_10.3">
+<l>kāntāramārgi puruṣo bahu(bhī)janehi gopāla sīma vanasaṃpada paśyate yo /</l>
+<l>āśvāsaprāpta bhavatī na ca tasya trāso abhyāśa grāmanagarāṇa ime nimittāḥ //</l>
+</lg>
+<lg xml:id="Rgs_10.4">
+<l>emeva prajñavarapāramitā jinānāṃ śṛṇu tāta yo labhati bodhi gaveṣamāṇaḥ /</l>
+<l>āśvāsaprāpta bhavatī na ca tasya trāso nārhantabhūmi na pi pratyayabuddhabhūmī //</l>
+</lg>
+<lg xml:id="Rgs_10.5">
+<l>puruṣo hi sāgarajalaṃ vraji paśyanāya saci paśyate drumavanaspatiśailarājam /</l>
+<l>athavā na paśyati nimitta nikāṅkṣa bhoti a(bhyāśa)to mahasamudra na so 'tidūre //</l>
+</lg>
+<lg xml:id="Rgs_10.6">
+<l>emeva bodhivaraprasthitu veditavyo śruṇamāṇa prajña imi pāramitā jinānām /</l>
+<l>yadyāpi saṃmukha na vyākṛtu nāyakeno tathapi spṛśiṣyati nacireṇa hu buddhabodhim //</l>
+</lg>
+<lg xml:id="Rgs_10.7">
+<l>suvasanti kāli patite tṛṇapatraśākhā nacireṇa patraphalapuṣpa samāgamanti /</l>
+<l>prajñāya pāramita yasyimu hastaprāptā nacireṇa bodhivara prāpsyati nāyakānām //</l>
+</lg>
+<lg xml:id="Rgs_10.8">
+<l>yatha istri gurviṇi ya ceṣṭati vedanābhi jñātavyu kālu ayamasya prajāyanāya /</l>
+<l>tatha bodhisattva śruṇamāṇu jināna prajñāṃ rati chanda vīkṣati spṛśiṣyati bodhi śīghram //</l>
+</lg>
+<lg xml:id="Rgs_10.9">
+<l>caramāṇu prajñavarapāramitāya yogī na ca rūpavṛddhi na ca paśyati pārihāṇim /</l>
+<l>dharmā adharma imu paśyati dharmadhātuṃ na ca nirvṛtiṃ spṛśati so viharāti prajñām //</l>
+</lg>
+<lg xml:id="Rgs_10.10">
+<l>caramāṇu yo na iha kalpayi buddhadharmāṃ bala ṛddhipāda na ca kalpayi bodhi śāntām /</l>
+<l>avikalpakalpavigato 'dhiṣṭhānacārī eṣā sa prajñavarapāramitāya caryā //</l>
+</lg>
+<p xml:id="24">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ dhāraṇīguṇaparivarto nāma daśamaḥ //
+</p><p xml:id="25">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_11.1">
+<l>buddhaṃ subhūti paripṛcchati vādicandraṃ kyantantarāyu bhaviṣyanti guṇe ratānām /</l>
+<l>bahu antarāyu bhaviṣyanti bhaṇāti śāsta tatu alpamātra parikīrtayiṣyāmi tāvat //</l>
+</lg>
+<lg xml:id="Rgs_11.2">
+<l>pratibhāna neka vividhāni upapadyiṣyanti likhamāna prajña imu pāramitā jinānām /</l>
+<l>yuta śīghra vidyuta yathā parihāyiṣyanti akaritva artha jagatī imu mārakarma //</l>
+</lg>
+<lg xml:id="Rgs_11.3">
+<l>kāṅkṣā ca keṣaci bhaviṣyati bhāṣamāṇe na mamātra nāma parikīrtitu nāyakena /</l>
+<l>na ca jāti bhūmi parikīrtitu nāpi gotraṃ na ca so śruṇiṣyati kṣipiṣyati mārakarma //</l>
+</lg>
+<lg xml:id="Rgs_11.4">
+<l>evaṃ ta mūlamapahāya ajānamāno śākhāpalāśa parieṣayiṣyanti mūḍhāḥ /</l>
+<l>hastiṃ labhitva yatha hastipadaṃ gaveṣe tatha prajñapāramita śrutva sūtrānta eṣet //</l>
+</lg>
+<lg xml:id="Rgs_11.5">
+<l>yatha bhojanaṃ śatarasaṃ labhiyāna kaścit mārgeṣu ṣaṣṭiku labhitva sa bhojanāgryam /</l>
+<l>tatha bodhisattva ima pāramitāṃ labhitvā (a)rhantabhūmi(ta) gaveṣayiṣyanti bodhim //</l>
+</lg>
+<lg xml:id="Rgs_11.6">
+<l>satkārakāma bhaviṣyanti ca lābhakāmāḥ sāpekṣacitta kulasaṃstavasaṃprayuktāḥ /</l>
+<l>choritva dharma kariṣyanti adharmakāryaṃ patha hitva utpathagatā ima mārakarma //</l>
+</lg>
+<lg xml:id="Rgs_11.7">
+<l>ye cāpi tasmi samaye imu dharma śreṣṭhaṃ śruṇanāya chandika utpādayiṣyanti śraddhām /</l>
+<l>te dharmabhāṇaka viditvana kāryayuktaṃ premāpanīta gamiṣyanti sudurmanāśca //</l>
+</lg>
+<lg xml:id="Rgs_11.8">
+<l>imi mārakarma bhaviṣyanti ya tasmi kāle anye ca neka vividhā bahu antarāyā /</l>
+<l>yehī samākulikṛtā bahu bhikṣu tatra prajñāya pāramita etu na dhārayanti //</l>
+</lg>
+<lg xml:id="Rgs_11.9">
+<l>ye te bhavanti ratanā ya anarghaprāptā te durlabhā bahupratyarthika nityakālam /</l>
+<l>emeva prajñavarapāramitā jinānāṃ durlābhu dharmaratanaṃ baddupadravaṃ ca //</l>
+</lg>
+<lg xml:id="Rgs_11.10">
+<l>navayānaprasthita sa sattva parīttabuddhiḥ ya imaṃ durlābhu dharmaratanaṃ parāpuṇanti /</l>
+<l>māro 'tra utsuku bhaviṣyati antarāye buddhā daśaddiśi parigrahasaṃprayuktāḥ //</l>
+</lg>
+<p xml:id="26">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ mārakarmaparivarto nāmaikādaśamaḥ //
+</p><p xml:id="27">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_12.1">
+<l>mātrāya putra bahu santi gilāni kāye te sarvi durmanasa tatra prayujyayeyuḥ /</l>
+<l>emeva buddha(piṃ) daśaddiśi lokadhātau ima prajñapāramita mātra samanvāharanti //</l>
+</lg>
+<lg xml:id="Rgs_12.2">
+<l>ye 'tīta ye 'pi ca daśaddiśi lokanāthā itu te prasūta bhaviṣyantyanāgatāśca /</l>
+<l>loka(sya) darśika janetri jināna mātā parasattvacittacaritāna nidarśitā(kā) ca //</l>
+</lg>
+<lg xml:id="Rgs_12.3">
+<l>lokasya yā tathata yā tathatārhatānāṃ / pratyekabuddhatathatā tathatā jinānām /</l>
+<l>ekaiva bhāvavigatā tathatā ananyā prajñāya pāramita buddha tathāgatena //</l>
+</lg>
+<lg xml:id="Rgs_12.4">
+<l>tiṣṭhantu lokavidunāṃ parinirvṛtānāṃ [sthita eṣa dharmataniyāma śūnyadharmā /</l>
+<l>tāṃ bodhisattva tathatāmanubuddhayanti tasmā hu buddha kṛta nāma tathāgatebhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_12.5">
+<l>ayu gocaro daśabalāna vināyakānāṃ] prajñāya pāramita ramyavanāśritānām /</l>
+<l>dukhitāṃśca sattva triapāya samuddharanti na pi sattvasaṃjña api teṣu kadāci bhoti //</l>
+</lg>
+<lg xml:id="Rgs_12.6">
+<l>siṃho yathaiva girikandari niśrayitvā nadate achambhi mṛga kṣudraka trāsayanto /</l>
+<l>tatha prajñapāramitaniśraya narāṇa siṃho nadate achambhi pṛthutīrthika trāsayanto //</l>
+</lg>
+<lg xml:id="Rgs_12.7">
+<l>ākāśaniśrita yathaiva hi sūrya[raśmi] tāpetimāṃ dharaṇi darśayate ca rūpam /</l>
+<l>tatha prajñapāramitaniśrita dharmarājo tāpeti tṛṣṇanadi dharma nidarśayāti //</l>
+</lg>
+<lg xml:id="Rgs_12.8">
+<l>rūpasya darśanu adarśanu vedanāye saṃjñāya darśanu adarśanu cetanāye /</l>
+<l>vijñānacittamanudarśanu yatra nāsti aya dharmadarśanu nidiṣṭu tathāgatena //</l>
+</lg>
+<lg xml:id="Rgs_12.9">
+<l>ākāśa dṛṣṭu iti sattva pravyāharanti nabhadarśanaṃ kutu vimṛṣyatha etamartham /</l>
+<l>tatha dharmadarśanu nidiṣṭa tathāgatena na hi darśanaṃ bhaṇitu śakya nidarśanena //</l>
+</lg>
+<p xml:id="28">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ lokasaṃdarśanaparivarto nāma dvādaśamaḥ //
+</p><p xml:id="29">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_13.1">
+<l>yo eva paśyati sa paśyati sarvadharmān sarvānamātyakiriyā ti upekṣya rājā /</l>
+<l>yāvanti buddhakriya dharmata śrāvakāṇāṃ prajñāya pāramita sarva karoti tāni //</l>
+</lg>
+<lg xml:id="Rgs_13.2">
+<l>na ca rāja grāma vrajate na ca rājyarāṣṭrān sarvaṃ ca ādadati so viṣayātu āyam /</l>
+<l>na ca bodhisattva calate kvaci dharmatāyāṃ sarvāṃśca ādadati ye guṇa buddhadharme //</l>
+</lg>
+<p xml:id="30">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmacintyaparivarto nāma trayodaśamaḥ //
+</p><p xml:id="31">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_14.1">
+<l>yasyāmi śraddha sugate dṛḍha bodhisattvo varaprajñapāramitaāśayasaṃprayogo /</l>
+<l>atikramya bhūmidvaya śrāvakapratyayānāṃ laghu prāpsyate anabhibhū(tu) jināna bodhim //</l>
+</lg>
+<lg xml:id="Rgs_14.2">
+<l>sāmudriyāya yatha nāvi praluptikāye bhṛtakaṃ manuṣya tṛṇakāṣṭhamagṛhṇamāno /</l>
+<l>vilayaṃ prayāti jalamadhya aprāptatīro yo gṛhṇate vrajati pārasthalaṃ prayāti //</l>
+</lg>
+<lg xml:id="Rgs_14.3">
+<l>emeva śraddhasaṃgato ya prasādaprāpto prajñāya pāramita mātra vivarjayanti /</l>
+<l>saṃsārasāgara tadā sada saṃsaranti jātījarāmaraṇaśokataraṃgabhaṅge //</l>
+</lg>
+<lg xml:id="Rgs_14.4">
+<l>ye te bhavanti varaprajñaparigṛhītā bhāvasvabhāvakuśalā paramārthadarśī /</l>
+<l>te puṇyajñānadhanasaṃbhṛtayānapātrāḥ paramādbhutāṃ sugatabodhi spṛśanti śīghram //</l>
+</lg>
+<lg xml:id="Rgs_14.5">
+<l>ghaṭake apakvi yatha vāri vaheya kācit jñātavyu kṣipra ayu bhetsyati durbalatvāt /</l>
+<l>paripakvi vāri ghaṭake vahamānu mārge na ca bhedanādbhayamupaiti ca svasti geham //</l>
+</lg>
+<lg xml:id="Rgs_14.6">
+<l>kiṃcāpi śraddhabahulo siya bodhisattvo prajñāvihīna vilayaṃ laghu prāpuṇāti /</l>
+<l>taṃ caiva śraddha parigṛhṇayamāna prajñā atikramya bodhidvaya prāpsyati agrabodhim //</l>
+</lg>
+<lg xml:id="Rgs_14.7">
+<l>nāvā yathā aparikarmakṛtā samudre vilayamupaiti sadhanā saha vāṇijebhiḥ /</l>
+<l>sā caiva nāva parikarmakṛtā suyuktā na ca bhidyate dhanasamagramupaiti tīram //</l>
+</lg>
+<lg xml:id="Rgs_14.8">
+<l>emeva śraddhaparibhāvitu bodhisattvo prajñāvihīnu laghu bodhimupaiti hānim /</l>
+<l>so caiva prajñavarapāramitāsuyukto 'kṣato 'nupāhatu spṛśāti jināna bodhim //</l>
+</lg>
+<lg xml:id="Rgs_14.9">
+<l>puruṣo hi jīrṇa dukhito śataviṃśavarṣo kiṃcāpi utthitu svayaṃ na prabhoti gantum /</l>
+<l>so vāmadakṣiṇadvaye puruṣe gṛhīte patanādbhayaṃ na bhavate vrajate sukhena //</l>
+</lg>
+<lg xml:id="Rgs_14.10">
+<l>emeva prajña iha durbalu bodhisattvo kiṃcāpi prasthihati bhajyati antareṇa /</l>
+<l>so vā upāyabalaprajñaparigṛhīto na ca bhajyate spṛśati bodhi nararṣabhāṇām //</l>
+</lg>
+<p xml:id="32">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmaupamyaparivarto nāma caturdaśamaḥ //
+</p><p xml:id="33">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_15.1">
+<l>yo ādikarma sthitu bhūmiya bodhisattvo adhyāśayena vara prasthita buddhabodhim /</l>
+<l>tehī suśiṣyagurugauravasaṃprayukto kalyāṇamitra sada sevayitavya vijñaiḥ //</l>
+</lg>
+<lg xml:id="Rgs_15.2">
+<l>kiṃ kāraṇaṃ tatu guṇāgamu paṇḍitānāṃ prajñāya pāramita te anuśāsayanti /</l>
+<l>evaṃ jino bhaṇati sarvaguṇāgradhārī kalyāṇamitramupaniśrita buddhadharmāḥ //</l>
+</lg>
+<lg xml:id="Rgs_15.3">
+<l>dānaṃ ca śīlamapi kṣānti tathaiva vīryaṃ dhyānāni prajña pariṇāmayitavya bodhau /</l>
+<l>na ca bodhiskandha vimṛśitva parāmṛśeyā ye ādikarmika na deśayitavya evam //</l>
+</lg>
+<lg xml:id="Rgs_15.4">
+<l>evaṃ caranta guṇasāgara vādicandrāḥ trāṇā bhavanti jagatī śaraṇā ca lenā /</l>
+<l>gati buddhi dvīpa pariṇāyaka arthakāmāḥ pradyota ulka varadharmakathī akṣobhyāḥ //</l>
+</lg>
+<lg xml:id="Rgs_15.5">
+<l>saṃnāhu duṣkarū mahāyaśu saṃnahantī na ca skandhadhātu na ca āyatanaiḥ sanaddhāḥ /</l>
+<l>tribhi yānasaṃjñavigatā aparigṛhītā avivartikā acalitāśca akopyadharmāḥ //</l>
+</lg>
+<lg xml:id="Rgs_15.6">
+<l>te eva dharmasamudāgata niṣprapañcā kāṅkṣāvilekhavimatīvigatārthayuktāḥ /</l>
+<l>prajñāya pāramita śrutva na sīdayanti aparapraṇeya avivartiya veditavyāḥ //</l>
+</lg>
+<lg xml:id="Rgs_15.7">
+<l>gambhīra dharma ayu durdṛśu nāyakānāṃ na ca kenacīdadhigato na ca prāpuṇanti /</l>
+<l>etārthu bodhimadhigamya hitānukampī alpotsuko ka imu jñāsyati sattvakāyo //</l>
+</lg>
+<lg xml:id="Rgs_15.8">
+<l>sattvaśca ālayarato viṣayābhilāṣī sthita agrahe abudha yo mahaandhabhūto /</l>
+<l>dharmo anālayu anāgrahu prāpitavyo lokena sārdha ayu vigrahu prādubhūto //</l>
+</lg>
+<p xml:id="34">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ devaparivarto nāma pañcadaśamaḥ //
+</p><p xml:id="35">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_16.1">
+<l>ākāśadhātu purimādiśi dakṣiṇāyāṃ tatha paścimottaradiśāya anantapārā /</l>
+<l>uparādharāya daśaddiśi yāvadasti nānātvatā na bhavate na viśeṣaprāptā //</l>
+</lg>
+<lg xml:id="Rgs_16.2">
+<l>atikrānta yā tathata yā tathatā aprāptā pratyutpanna yā tathata yā tathatārhatānām /</l>
+<l>yā sarvadharmatathatā tathatārhatānāṃ sarveṣa dharmatathatā na viśeṣaprāptā //</l>
+</lg>
+<lg xml:id="Rgs_16.3">
+<l>yo bodhisattva imi icchati prāpuṇetuṃ nānātvadharmavigatāṃ sugatāna bodhim /</l>
+<l>prajñāya pāramita yujyatu yāya yukto vina prajña nāstyadhigamo naranāyakānām //</l>
+</lg>
+<lg xml:id="Rgs_16.4">
+<l>pakṣisya yojanaśataṃ mahatātmabhāvo pañcāśatā pi abalobhayakṣīṇapakṣo /</l>
+<l>so trāyatriṃśabhavanādiṣu jambudvīpe ātmānamosariyi taṃ vilayaṃ vrajeyyā //</l>
+</lg>
+<lg xml:id="Rgs_16.5">
+<l>yadyāpi pañca ima pāramitā jinānāṃ bahukalpakoṭiniyutāṃ samudānayeyyā /</l>
+<l>praṇidhīnanantavipulāṃ sada sevya loke anupāya prajñavikalā pari śrāvakatve //</l>
+</lg>
+<lg xml:id="Rgs_16.6">
+<l>niryāyanāya ya icchati buddhajñāne samacitta sarvajagatī pitṛmātṛsaṃjñā /</l>
+<l>hitacitta maitramana eva parākrameyyā akhilārjavo mṛdugirāya parākrameyyā //</l>
+</lg>
+<p xml:id="36">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ tathatāparivarto nāma ṣoḍaśamaḥ //
+</p><p xml:id="37">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_17.1">
+<l>sthaviro subhūti paripṛcchati lokanāthaṃ araṇāya liṅga bhaṇahī guṇasāgarāṇām /</l>
+<l>avivartiyā yatha bhavanti mahānubhāvā tāṃ vyākuruṣva jinaguṇāna pradeśamātram //</l>
+</lg>
+<lg xml:id="Rgs_17.2">
+<l>nānātvasaṃjñavigatā gira yuktabhāṇī na ca anya te śramaṇa brāhmaṇa āśrayanti /</l>
+<l>triyapāyavarjita vidū sadakāli bhonti daśabhiśca te kuśalakarmapathebhi yuktā //</l>
+</lg>
+<lg xml:id="Rgs_17.3">
+<l>dharmaṃ nirāmiṣu jagasyanuśāsayanti ekāntadharmaniyatāḥ sada snigdhavākyāḥ /</l>
+<l>sthiticaṃkramaṃ śayaniṣadya susaṃprajānā yugamātraprekṣiṇa vrajantyabhrāntacintā //</l>
+</lg>
+<lg xml:id="Rgs_17.4">
+<l>śuciśaucaambaradharā trivivekaśuddhā na ca lābhakāma vṛṣabhā sada dharmakāmāḥ /</l>
+<l>mārasyatītaviṣayā aparapraṇeyā catudhyānadhyāyi na ca niśrita tatra dhyāne //</l>
+</lg>
+<lg xml:id="Rgs_17.5">
+<l>na ca kīrtikāma na ca krodhaparītacittā gṛhibhūta nitya anadhyoṣita sarva vastuṃ /</l>
+<l>na ca jīvikāviṣayabhoga gaveṣayanti abhicāramantra na ca istriprayogamantrāḥ //</l>
+</lg>
+<lg xml:id="Rgs_17.6">
+<l>na ca ādiśanti puruṣaiḥ striya icchakarmāṃ pravivikta prajñavarapāramitābhiyuktāḥ /</l>
+<l>kalahāvivādavigatā dṛḍhamaitracittā sarvajñakāma sada śāsani nimnacittāḥ //</l>
+</lg>
+<lg xml:id="Rgs_17.7">
+<l>pratyantamlecchajanavarjitaantadeśāḥ svakabhūmi kāṅkṣavigatāḥ sada merukalpāḥ /</l>
+<l>dharmārtha jīvita tyajanti prayuktayogā avivartiyāna imi liṅga prajānitavyā //</l>
+</lg>
+<p xml:id="38">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmavinivartanīyaliṅgākāraparivarto nāma saptadaśamaḥ //
+</p><p xml:id="39">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_18.1">
+<l>gambhīra rupa api vedana cetanā ca vijñāna saṃjña prakṛtī animittaśāntā /</l>
+<l>kāṇḍena gādha yatha sāgari eṣamāṇo prajñāya skandha vimṛṣitva alabdhagādhā //</l>
+</lg>
+<lg xml:id="Rgs_18.2">
+<l>yo bodhisattva imu budhyati eva dharmāṃ gambhīrayānaparamārthanirupalepān /</l>
+<l>yasmin na skandha na pi āyatanaṃ na dhātu kiṃ vā svapuṇyasamudāgamu kiṃci tasya //</l>
+</lg>
+<lg xml:id="Rgs_18.3">
+<l>yatha rāgadharmacaritaḥ puruṣaḥ striyāye saṃketa kṛtva alabhantu vivartayeyā /</l>
+<l>yāvanti cittacaritā divasena tasya tāvanta kalpa anubudhyati bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_18.4">
+<l>yo bodhisattva bahukalpasahasrakoṭayo dānaṃ dadeyu vimalaṃ tatha śīla rakṣe /</l>
+<l>yaścaiva prajñavarapāramitāprayukto dharmaṃ bhaṇeya kala puṇya na dānaśīle //</l>
+</lg>
+<lg xml:id="Rgs_18.5">
+<l>yo bodhisattva varaprajña vibhāvayanto tata utthito kathayi dharma nirupalepam /</l>
+<l>taṃ cāpi nāmayi jagārthanidāna bodhau nāsti triloka śubha tena samaṃ bhaveyā //</l>
+</lg>
+<lg xml:id="Rgs_18.6">
+<l>taṃ caiva puṇya puna khyāyati riktameva tatha śūnya tuccha vaśikaṃ ca asārakaṃ ca /</l>
+<l>evaṃ carantu caratī sugatāna prajñāṃ caramāṇu puṇyu parigṛhṇati aprameyam //</l>
+</lg>
+<lg xml:id="Rgs_18.7">
+<l>abhilāpamātra ima jānati sarvadharmāṃ buddhena deśita prayukta prakāśitāṃśca /</l>
+<l>kalpāna koṭinayutāṃ bahu bhāṣamāṇo na ca kṣīyate na ca vivardhati dharmadhātuḥ //</l>
+</lg>
+<lg xml:id="Rgs_18.8">
+<l>ye cāpi pañca imi pāramitā jinānām ete 'pi dharma parikīrtita nāmamātrāḥ /</l>
+<l>pariṇāmayāti na ca manyati bodhisattvo na ca hīyate spṛśati uttamabuddhabodhim //</l>
+</lg>
+<p xml:id="40">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ śūnyatāparivarto nāmāṣṭādaśamaḥ
+</p><p xml:id="41">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_19.1">
+<l>tailasya varti jvalitā prathame nipāte na ca dagdha varti asatā na vinā ya dagdhā /</l>
+<l>na hi arci paścimanipāta sa varti dagdhā asatā pi paścima na dahyati dīpavarti //</l>
+</lg>
+<lg xml:id="Rgs_19.2">
+<l>prathameva citta spṛśatī na ca agrabodhim asatā na tasya spṛśatā puna śakya bhonti /</l>
+<l>na ca citta paścima śivāmanuprāpuṇāti asatā na tasya puna prāpaṇanāya śakyam //</l>
+</lg>
+<lg xml:id="Rgs_19.3">
+<l>bījātu stamba phala puṣpa samāgamanti so vāniruddha asato na hi tasya vṛkṣo /</l>
+<l>emeva citta prathamaṃ tu nidāna bodheḥ so vā niruddha asato na hi tasya bodhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_19.4">
+<l>bījaṃ pratītya ca bhavedyavaśālikādes tattatphalaṃ na ca tadasti na cāpi nāsti /</l>
+<l>utpattito bhavati bodhiriyaṃ jinānāṃ bhāvasvabhāvavigatā bhavatīha māyā //</l>
+</lg>
+<lg xml:id="Rgs_19.5">
+<l>udakabindu kumbha paripūryati stokastokaṃ prathame nipāti anupūrva sa paścimena /</l>
+<l>emeva citta prathamaṃ varabodhihetur anupūrva śuklaguṇapūrṇa bhavanti buddhāḥ //</l>
+</lg>
+<lg xml:id="Rgs_19.6">
+<l>śūnyānimittapraṇidhiṃ caramāṇu dharmā na ca nirvṛtiṃ spṛśati no ca nimittacārī /</l>
+<l>yatha nāviko kuśala gacchati ārapāram ubhayānti asthitu na tiṣṭhati arṇavesmin //</l>
+</lg>
+<lg xml:id="Rgs_19.7">
+<l>evaṃ carantu na ca manyati bodhisattvo ahu vyākṛto daśabalehi spṛśeya bodhim /</l>
+<l>na ca trāsu bodhi bhavate na ihāsti kiṃcid evaṃ carantu caratī sugatāna prajñām //</l>
+</lg>
+<lg xml:id="Rgs_19.8">
+<l>kāntāramārgi durabhikṣi savyādhi lokāṃ paśyitva nāsti bhaya uttari saṃnahante /</l>
+<l>aparāntakoṭi sada yukta prajānamāno aṇumātra kheda manaso na upādiyāti //</l>
+</lg>
+<p xml:id="42">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ gaṅgadevābhaginīparivarto nāmaikānnaviṃśatimaḥ //
+</p><p xml:id="43">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_20.1">
+<l>puna bodhisattva caramāṇu jināna prajñāṃ anupāda skandha imi jānati ādiśūnyān /</l>
+<l>asamāhito karuṇa prekṣati sattvadhātum atrāntare na parihāyati buddhadharmān //</l>
+</lg>
+<lg xml:id="Rgs_20.2">
+<l>puruṣo yathā kuśala sarvaguṇairupeto balavān dudharṣu kṛtayogya kalāvidhijño /</l>
+<l>iṣvastrapāramigato pṛthuśilpayukto māyāvidhijñaparamo jagadarthakāmo //</l>
+</lg>
+<lg xml:id="Rgs_20.3">
+<l>mātā pitā ca parigṛhya saputradāraṃ kāntāramārgi pratipadya bahūamitro /</l>
+<l>so nirmiṇitva puruṣān bahu śūravīrān kṣemeṇa gatva puna gehamupāgameyyā //</l>
+</lg>
+<lg xml:id="Rgs_20.4">
+<l>emeva yasmi samaye vidu bodhisattvo mahamaitri sarvi upabandhati sattvadhātau /</l>
+<l>caturo sa māra atikramya dvaye ca bhūmim asmin samādhi sthitu no ca spṛśāti bodhim //</l>
+</lg>
+<lg xml:id="Rgs_20.5">
+<l>ākāśaniśrita samīraṇa āpaskandho ta hi niśritā iha mahāpṛthivī jagacca /</l>
+<l>sattvāna karmaupabhoganidānameva ākāśasthānu kutu cintayi etamartham //</l>
+</lg>
+<lg xml:id="Rgs_20.6">
+<l>emeva śūnyatapratiṣṭhitu eṣa sattvo jagati kriyāṃ vividha darśayate vicitrām /</l>
+<l>sattvāna jñānapraṇidhānaadhiṣṭhānameva na ca nirvṛtiṃ spṛśati śūnyata nāsti sthānam //</l>
+</lg>
+<lg xml:id="Rgs_20.7">
+<l>yasmiṃśca kāli vidu paṇḍitu bodhisattvo caratī imāṃ pravara śūnya samādhi śāntām /</l>
+<l>atrāntare na ca nimitta prabhāvitavyo na ca ānimittasthitu śānta praśāntacārī //</l>
+</lg>
+<lg xml:id="Rgs_20.8">
+<l>pakṣisya nāsti padu gacchata antarīkṣe no cāpi tatra sthitu no ca patāti bhūmau /</l>
+<l>tatha bodhisattva caramāṇu vimokṣadvāre na ca nirvṛtiṃ spṛśati no ca nimittacārī //</l>
+</lg>
+<lg xml:id="Rgs_20.9">
+<l>iṣvastraśikṣita yathā puruṣodha kāṇḍaṃ kṣepitva anya puna kāṇḍa paraspareṇa /</l>
+<l>patanāya tasya purimasya na deya bhūmim ākāṅkṣamāṇa puruṣasya pateya kāṇḍam //</l>
+</lg>
+<lg xml:id="Rgs_20.10">
+<l>emeva prajñavarapāramitāṃ caranto prajñā upāya bala ṛddhi vicāramāṇo /</l>
+<l>tāvanna tāṃ paramaśūnyata prāpuṇoti yāvanna te kuśalamūla bhavanti pūrṇāḥ //</l>
+</lg>
+<lg xml:id="Rgs_20.11">
+<l>bhikṣū yathā paramaṛddhibalenupeto gagane sthito yamaka kurvati prātihāryāṃ /</l>
+<l>gaticaṃkramaṃ śayaniṣadya nidarśayāti na nivartate na pi ca khidyati yāva tatra //</l>
+</lg>
+<lg xml:id="Rgs_20.12">
+<l>emeva śūnyatasthito vidu bodhisattvo jñānarddhipāramigato aniketacārī /</l>
+<l>vividhāṃ kriyāṃ jagati darśayate anantāṃ na ca bhajyatī na pi ca khidyati kalpakoṭī //</l>
+</lg>
+<lg xml:id="Rgs_20.13">
+<l>puruṣā yathā mahaprapāti sthihitva kecid ubhi pāṇi chatradvaya gṛhṇa upakṣayeyyā /</l>
+<l>ākāli vāyuravasṛjya mahāprapāte no ca prapāta patiyāti na yāva tatra //</l>
+</lg>
+<lg xml:id="Rgs_20.14">
+<l>emeva sthitva karuṇāṃ vidu bodhisattvo prajñāupāyadvayachatraparigṛhīto /</l>
+<l>śūnyānimittapraṇidhiṃ vimṛṣāti dharmān na ca nirvṛtiṃ spṛśati paśyati dharmacārī //</l>
+</lg>
+<lg xml:id="Rgs_20.15">
+<l>ratanārthiko yatha vrajitvana ratnadvīpaṃ labdhvāna ratna puna gehamupāgameyyā /</l>
+<l>kiṃcāpi tatra sukha jīvati sārthavāho api duḥkhito manasi bhoti sa jātisaṃgho //</l>
+</lg>
+<lg xml:id="Rgs_20.16">
+<l>emeva śūnyata vrajitvana ratnadvīpaṃ labdhvāna dhyāna bala indriya bodhisattvo /</l>
+<l>kiṃcāpi nirvṛti spṛśedabhinandamāno api sarvasattva dukhitā manasī bhavanti //</l>
+</lg>
+<lg xml:id="Rgs_20.17">
+<l>abhyantare ya nagare nigame ca grāme kāmārtha vāṇiju yathā gami jānanāya /</l>
+<l>no cāpi tatra sthihatī na ca ratnadvīpe na ca geha mārgi kuśalo puna bhoti vijño //</l>
+</lg>
+<lg xml:id="Rgs_20.18">
+<l>tatha jñāna śrāvakavimuktisapratyayānāṃ sarvatra bhoti kuśalo vidu bodhisattvo /</l>
+<l>no cāpi tatra sthihate na ca buddhajñāne na ca saṃskṛte bhavati mārgavidū vidhijño //</l>
+</lg>
+<lg xml:id="Rgs_20.19">
+<l>yaṃ kāli maitri jagatī anubandhayitvā śūnyānimittapraṇidhī carate samādhim /</l>
+<l>asthānameva yadi nirvṛti prāpuṇeyā athavāpi saṃskṛta sa prajñapanāya śakyaḥ //</l>
+</lg>
+<lg xml:id="Rgs_20.20">
+<l>yatha nirmito puruṣa no va adṛśyakāyo nāmena vā puna sa prajñapanāya śakyaḥ /</l>
+<l>tatha bodhisattva caramāṇu vimokṣadvāraṃ nāmena vā puna sa prajñapanāya śakyaḥ //</l>
+</lg>
+<lg xml:id="Rgs_20.21">
+<l>yadi pṛcchamāna cari indriya bodhisattvo gambhīradharmaparidīpana no karoti /</l>
+<l>śūnyānimitta avivartiyabodhidharmāṃ na ca śocatī na ca sa vyākṛtu veditavyo //</l>
+</lg>
+<lg xml:id="Rgs_20.22">
+<l>arhantabhūmimapi pratyayabuddhabhūmau traidhātukaṃ na spṛśate supināntare 'pi /</l>
+<l>buddhāṃśca paśyati katheti janasya dharmaṃ avivartiyeti ayu vyākṛtu veditavyo //</l>
+</lg>
+<lg xml:id="Rgs_20.23">
+<l>triapāyaprāptu supinasmi viditva sattvān praṇidheti tatkṣaṇa apāya ucchoṣayeyam /</l>
+<l>satyādhiṣṭhāni praśameti sa cāgniskandham avivartiyeti ayu vyākṛtu veditavyo //</l>
+</lg>
+<lg xml:id="Rgs_20.24">
+<l>bhūtagrahā vividha vyādhaya martyaloke satyādhiṣṭhāni praśameti hitānukampī /</l>
+<l>na ca tena manyanupapadyati nāpi mānam avivartiyeti ayu vyākṛtu veditavyaḥ //</l>
+</lg>
+<p xml:id="44">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmupāyakauśalyamīmāṃsāparivarto nāma viṃśatitamaḥ //
+</p><p xml:id="45">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_21.1">
+<l>athavāsya manyanupapadyati vyākṛto 'smi satyādhiṣṭhāna vividhāni samṛddhyayanti /</l>
+<l>yadi anya vyākṛtaku manyati bodhisattvo jñātavya manyanasthito ayu alpabuddhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_21.2">
+<l>nāmādhiṣṭhāna puna māra upāgamitvā evaṃ vadiṣyati idaṃ tava nāmadheyam /</l>
+<l>mātāpitāya anusaptamupaiti vaṃśo buddho yadā bhavi idaṃ tava nāmadheyam //</l>
+</lg>
+<lg xml:id="Rgs_21.3">
+<l>dhutavṛtta yādṛśu sa bheṣyati yuktayogī pūrvaṃ pi tubhya imi āsi guṇovarūpā /</l>
+<l>yo eva śrutva abhimanyati bodhisattvo jñātavyu māru paryutthitu alpabuddhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_21.4">
+<l>pravivikta grāmanagare girikandarāṇi raṇyā vivikta vanaprastha niṣevamāṇo /</l>
+<l>ātmānukarṣi para paṃsayi bodhisattvo jñātavyu māru paryutthitu alpabuddhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_21.5">
+<l>grāme ca rāṣṭri nigame viharanti nityaṃ rahapratyayāni spṛhatāṃ janayanti tatra /</l>
+<l>anyatra sattvaparipācanabodhiyuktā eṣo viveku kathito sugatātmajānām //</l>
+</lg>
+<lg xml:id="Rgs_21.6">
+<l>yo pañcayojanaśate girikandareṣu vyālāvakīrṇi nivasedbahuvarṣakoṭī /</l>
+<l>no cā viveku imu jānati bodhisattvo saṃkīrṇa so viharate adhimānaprāptaḥ //</l>
+</lg>
+<lg xml:id="Rgs_21.7">
+<l>so caṃkramārthamabhiyuktakabodhisattvān baladhyānaindriyavimokṣasamādhiprāptān /</l>
+<l>abhimanyate na imi raṇyavivekacārī na vivekagocaru ayaṃ hi jinena ukto //</l>
+</lg>
+<lg xml:id="Rgs_21.8">
+<l>grāmānti yo viharate athavā araṇye dvayayānacittavigato niyato 'grabodhim /</l>
+<l>eṣo viveku jagadarthabhiprasthitānāṃ ātmā kṣiṇoti tulayeya sa bodhisattvo //</l>
+</lg>
+<p xml:id="46">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ mārakarmaparivarto nāmaikaviṃśatitamaḥ /
+</p><p xml:id="47">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_22.1">
+<l>tasmā hu mānu nihanitvana paṇḍitena guruāśayena varabodhi gaveṣamāṇaḥ /</l>
+<l>vaidyo va ātura svarogacikitsanārthaṃ kalyāṇamitra bhajitavya atandritena //</l>
+</lg>
+<lg xml:id="Rgs_22.2">
+<l>buddhā ya bodhivaraprasthita bodhisattvā kalyāṇamitra imi pāramitā nidiṣṭāḥ /</l>
+<l>te cānuśāsaka iyaṃ pratipattibhūmī duvi kāraṇena anubudhyati buddhabodhim //</l>
+</lg>
+<lg xml:id="Rgs_22.3">
+<l>atikrāntanāgata jinā sthita ye diśāsu sarveṣu mārgu ayu pāramitā ananyo /</l>
+<l>obhāsa ulka varabodhayi prasthitānām āloka śāstri imi pāramitā pradiṣṭāḥ //</l>
+</lg>
+<lg xml:id="Rgs_22.4">
+<l>yatha prajñapāramita śūnyata lakṣaṇena tathalakṣaṇā ya imi jānati sarvadharmān /</l>
+<l>śūnyānalakṣaṇa prajānayamāna dharmān evaṃ carantu caratī sugatāna prajñām //</l>
+</lg>
+<lg xml:id="Rgs_22.5">
+<l>āhārakāma parikalpayamāna sattvāḥ saṃsāri yuktamanasaḥ sada saṃsmaranti /</l>
+<l>ahu mahya dharma ubhi eti abhūta śūnyā ākāśagaṇṭhi ayu ātmana baddha bāle //</l>
+</lg>
+<lg xml:id="Rgs_22.6">
+<l>yatha śaṅkitena viṣasaṃjñata abhyupaiti no cāsya koṣṭhagatu so viṣu pātyate ca /</l>
+<l>emeva bālupagato ahu mahya eṣo ahasaṃjñi jāyi mriyate ca sadā abhūto //</l>
+</lg>
+<lg xml:id="Rgs_22.7">
+<l>yatha udgraho tatha prakāśitu saṃkileśo vyodāna ukta ahu mahya anopalabdhi /</l>
+<l>na hi atra kaści yo kliśyati śudhyate vā prajñāya pāramita budhyati bodhisattve //</l>
+</lg>
+<lg xml:id="Rgs_22.8">
+<l>yāvanta sattva nikhile iha jambudvipe te sarvi bodhivaracitta upādayitvā /</l>
+<l>dānaṃ daditva bahuvarṣasahasrakoṭīḥ sarvaṃ ca nāmayi jagārthanidāna bodhau //</l>
+</lg>
+<lg xml:id="Rgs_22.9">
+<l>yaścaiava prajñavarapāramitābhiyukto divasaṃ pi antamaśa ekanuvartayeyā /</l>
+<l>kalapuṇya so na bhavatī iha dānaskandho tadatandritena sada osaritavya prajñā //</l>
+</lg>
+<lg xml:id="Rgs_22.10">
+<l>caramāṇu prajñavarapāramitāya yogī mahatīṃ janeti karuṇāṃ na ca sattvasaṃjñā /</l>
+<l>tada bhonti sarvajagatī vidu dakṣiṇīyā satataṃ amoghu paribhuñjati rāṣṭrapiṇḍam //</l>
+</lg>
+<lg xml:id="Rgs_22.11">
+<l>cirabuddhadevamanujān triapāyi sattvān parimocituṃ ya iha icchati bodhisattvo /</l>
+<l>pṛthumārgu tīru upadarśayi sattvadhātau prajñāya pāramita yukta divā ca rātrau //</l>
+</lg>
+<lg xml:id="Rgs_22.12">
+<l>puruṣo ya agru ratanasya alabdhapūrvo aparasmi kāli puna labdhva bhaveya tuṣṭo /</l>
+<l>sa ha labdhva nāśayi puno 'pi pramādabhūto nāśitva duḥkhi satataṃ ratanābhikāṅkṣī //</l>
+</lg>
+<lg xml:id="Rgs_22.13">
+<l>emeva bodhivaraprasthita ratnatulyo prajñāya pāramita yogu na riñcitavyo /</l>
+<l>ratanaṃ va labdhva gṛhamāṇu abhinnasattvo anubuddhayati tvarito śivamabhyupaiti //</l>
+</lg>
+<p xml:id="48">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ kalyāṇamitraparivarto nāma dvāviṃśatitamaḥ //
+</p><p xml:id="49">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_23.1">
+<l>udayāti sūryu vigatāśca marīcimālā vidhamitva sarva tamasākulamandhakāram /</l>
+<l>avibhonti sarva krimijotikaprāṇabhūtāṃ sarvāṃśca tārakagaṇānapi candraābhām //</l>
+</lg>
+<lg xml:id="Rgs_23.2">
+<l>emeva prajñavarapāramitāṃ caranto vidhamitva dṛṣṭigahanaṃ vidu bodhisattvo /</l>
+<l>abhibhonti sarvajagatī rahapratyayāṃśca śūnyānimittacarito pṛthu bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_23.3">
+<l>yatha rājaputra dhanadāyaku arthakāmo sarveṣu śreṣṭha bhavate abhigāminīye /</l>
+<l>sa hyeṣa etarahi sattva pramocayāti prāgeva rājyasthitu bheṣyati paṭṭadhārī //</l>
+</lg>
+<lg xml:id="Rgs_23.4">
+<l>emeva prajñacarito vidu bodhisattvo amṛtasya dāyaku priyo marumānuṣāṇām /</l>
+<l>ayu eṣa eṣati hi sattvasukhābhiyukto prāgeva yāva sthitu bheṣyati dharmarājo //</l>
+</lg>
+<p xml:id="50">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ śakraparivarto nāma trayoviṃśatitamaḥ //
+</p><p xml:id="51">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_24.1">
+<l>māro 'pi tasmi samaye bhavate saśalyo śokātu duḥkhitu anantamano 'lpasthāmo /</l>
+<l>diśadāha ulka kṣipate bhayadarśanārthaṃ kathameṣa dīnamanaso bhavi bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_24.2">
+<l>[yatha te bhavanti vidu āśayasaṃprayuktā divarātri prajñavarapāramitārthadarśī] /</l>
+<l>tada kāyacitta khagapakṣisatulyabhūtā avatāru so kutu labhiṣyati kṛṣṇabandhuḥ //</l>
+</lg>
+<lg xml:id="Rgs_24.3">
+<l>kalahāvivādupagatā yada bodhisattvā bhonti parasparaviruddhaka ruṣṭacittāḥ /</l>
+<l>tada māra tuṣṭu bhavatī paramaṃ udagro ubhi eti dūra bhaviṣyanti jināna jñāne //</l>
+</lg>
+<lg xml:id="Rgs_24.4">
+<l>ubhi eti dūri bhaviṣyanti piśācatulyā ubhi eti ātma kariṣyanti pratijñahānim /</l>
+<l>duṣṭāna kṣāntivikalāna kuto 'sti bodhi tada māru tuṣṭu bhavatī namucīsapakṣo //</l>
+</lg>
+<lg xml:id="Rgs_24.5">
+<l>yo bodhisattva ayu vyākṛtu vyākṛtasmiṃ cittaṃ pradūṣayi vivādu samārabheyyā /</l>
+<l>yāvanti cittakṣaṇikā khiladoṣayuktās tāvanta kalpa puna saṃnahitavya bhonti //</l>
+</lg>
+<lg xml:id="Rgs_24.6">
+<l>atha tasyupadyati matīti aśobhanā ti kṣāntīya pāramita bodhi spṛśanti buddhāḥ /</l>
+<l>pratidarśayāti puna āyati saṃvarāṇi apayāti vā sa iha śikṣati buddhadharme //</l>
+</lg>
+<p xml:id="52">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmabhimānaparivarto nāma caturviṃśatitamaḥ //
+</p><p xml:id="53">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_25.1">
+<l>yo śikṣamāṇu na upaiti kahiṃci śikṣāṃ na ca śikṣakaṃ labhati nāpi ca śikṣadharmān /</l>
+<l>śikṣā aśikṣa ubhayo avikalpamāno yo śikṣate sa iha śikṣati buddhadharme //</l>
+</lg>
+<lg xml:id="Rgs_25.2">
+<l>yo bodhisattva imu jānati eva śikṣāṃ na sa jātu śikṣavikalo bhavate duśīlo /</l>
+<l>ārādhiteṣu iha śikṣati buddhadharmaṃ śikṣātiśikṣakuśalo ti nirūpalambho //</l>
+</lg>
+<lg xml:id="Rgs_25.3">
+<l>śikṣantu eva vidu prajña prabhaṃkarāṇāṃ notpadyate akuśalamapi ekacittam /</l>
+<l>sūrye yathā gagani gacchati antarīkṣe raśmīgate na sthihate purato 'ndhakāram //</l>
+</lg>
+<lg xml:id="Rgs_25.4">
+<l>prajñāya pāramita śikṣita saṃskṛtānāṃ sarveṣa pāramita bhontiha saṃgṛhītāḥ /</l>
+<l>satkāyadṛṣṭi yatha ṣaṣṭi duve ca dṛṣṭī antargatāstathami pāramitā bhavanti //</l>
+</lg>
+<lg xml:id="Rgs_25.5">
+<l>yatha jīvitendriya niruddhi ya kecidanye bhontī niruddha pṛthu indriya yāvadasti /</l>
+<l>emeva prajñacarite vidu uttamānāṃ sarveta pāramita ukta ya saṃgṛhītā //</l>
+</lg>
+<lg xml:id="Rgs_25.6">
+<l>ye cāpi śrāvakaguṇā tatha pratyayānāṃ sarveṣu bhonti vidu śikṣitu bodhisattvā /</l>
+<l>no cāpi tatra sthihatāna spṛheti teṣām ayu śikṣitavyamati śikṣati etamartham //</l>
+</lg>
+<p xml:id="54">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ śikṣāparivarto nāma pañcaviṃśatimaḥ //
+</p><p xml:id="55">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_26.1">
+<l>avivartiyasya varabodhayi prasthitasya yo cittupādu anumoditu āśayena /</l>
+<l>trisahasra meru tulayitva siyāpramāṇo na tveva tasya kuśalasyanumodanāye //</l>
+</lg>
+<lg xml:id="Rgs_26.2">
+<l>yāvanta sattva kuśalārthika mokṣakāmā sarveṣa bhonti anumoditu puṇyarāśi /</l>
+<l>sattvarthi te jinaguṇa ananta prāpuṇitvā dāsyanti dharma jagatī dukhasaṃkṣayāye //</l>
+</lg>
+<lg xml:id="Rgs_26.3">
+<l>yo bodhisattva avikalpaku sarvadharmān śūnyānimitta parijānati niṣprapañcān /</l>
+<l>na ca prajña bodhi parieṣati āśayena so yukta prajñavarapāramitāya yogī //</l>
+</lg>
+<lg xml:id="Rgs_26.4">
+<l>ākāśadhātu gaganasya siyā virodho na hi tena tasya kutu kenacideṣa prāptā /</l>
+<l>emeva prajñacarito vidu bodhisattvo abhyovakāśasadṛśo upaśāntacārī //</l>
+</lg>
+<lg xml:id="Rgs_26.5">
+<l>yatha māyakārapuruṣasya na eva bhoti te śiṣya māṃ janata so ca karoti kāryam /</l>
+<l>paśyanti taṃ vividha kāryu nidarśayantaṃ na ca tasya kāyu na pi citta na nāmadheyam //</l>
+</lg>
+<lg xml:id="Rgs_26.6">
+<l>emeva prajñacarite na kadāci bhoti buddhitva bodhi jagatī parimocayitvā /</l>
+<l>ātmopapatti vividhāṃ kriyasaṃprayogāṃ darśeti māyasadṛśo na vikalpacārī //</l>
+</lg>
+<lg xml:id="Rgs_26.7">
+<l>yatha buddha nirmita karoti ca buddhakāryaṃ na ca tasyupadyati mado karamāṇu kiṃcit /</l>
+<l>emeva prajñacarito vidu bodhisattvo darśeti sarva kriya nirmitamāyatulyam //</l>
+</lg>
+<lg xml:id="Rgs_26.8">
+<l>palagaṇḍa dakṣa vidunā kṛtu dāruyantro puruṣe stritulya sa karoti ha sarvakāryam /</l>
+<l>emeva prajñacarito vidu bodhisattvo jñānena sarva kriya kurvati nirvikalpo //</l>
+</lg>
+<p xml:id="56">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ māyopamaparivarto nāma ṣaḍviṃśatimaḥ //
+</p><p xml:id="57">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_27.1">
+<l>evaṃ carantu vidu nā pṛthudevasaṃghāḥ kṛtaañjalīpuṭa praṇamya namasyayanti /</l>
+<l>buddhā pi yāvata daśaddiśi lokadhātau guṇavarṇamālaparikīrtana kurvayanti //</l>
+</lg>
+<lg xml:id="Rgs_27.2">
+<l>yāvanti gaṅganadivālisame hi kṣetre sattvā ta sarvi parikalpa bhaveyu mārāḥ /</l>
+<l>ekaika roma puna tāntaka nirmiṇeyyā sarve na śakya karaṇe vidu antarāyam //</l>
+</lg>
+<lg xml:id="Rgs_27.3">
+<l>catukāraṇehi balavāṃ vidu bodhisattvo bhavate dugharṣu catumāraasaṃprakampyo /</l>
+<l>śūnyāvihāri bhavate na ca sattvatyāgī yathavādi sattvakaruṇānugatāvasthānaḥ //</l>
+</lg>
+<lg xml:id="Rgs_27.4">
+<l>yo bodhisattva adhimucyati bhāṣyamāṇām ima prajñapāramita māta tathāgatānām /</l>
+<l>pratipattiyā ca abhiyujyati āśayena sarvajñatāya abhiprasthitu veditavyo //</l>
+</lg>
+<lg xml:id="Rgs_27.5">
+<l>na ca dharmadhātutathatāya upaiti sthānaṃ bhavatī athānasthita so laghu antarīkṣe /</l>
+<l>vidyādharo va abhilambhu vanābhiprāyā khagu kālahīna druma mantrabalādhiṣṭhāno //</l>
+</lg>
+<lg xml:id="Rgs_27.6">
+<l>evaṃ carantu vidu paṇḍitu bodhisattvo na ca budhyakaṃ labhati nāpi ca buddhadharmān /</l>
+<l>na ca deśikaṃ na pi ca paśyaka dharmatāyāṃ śāntaiṣiṇāmayu vihāra guṇe ratānām //</l>
+</lg>
+<lg xml:id="Rgs_27.7">
+<l>yāvanta śrāvakavihāra sapratyayānāṃ śāntā samādhipraśame sukhasaṃprayuktā /</l>
+<l>arhanvimokṣa sthapayitva tathāgatānāṃ sarveṣu agra ayu vihāru niruttaraśca //</l>
+</lg>
+<lg xml:id="Rgs_27.8">
+<l>ākāśi pakṣi viharāti na co patāti dakamadhyi matsya viharāti na co marāti /</l>
+<l>emeva dhyānabalapāragu bodhisattvo śūnyāvihāri na ca nirvṛti prāpuṇāti //</l>
+</lg>
+<lg xml:id="Rgs_27.9">
+<l>yo sarvasattvaguṇaagratu gantukāmo agraṃ spṛśeya paramādbhuta buddhajñānam /</l>
+<l>agraṃ dadeya vara uttamadharmadānam imu agru sevatu vihāru hitaṃkarāṇām //</l>
+</lg>
+<p xml:id="58">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ sāraparivarto nāma saptaviṃśatimaḥ //
+</p><p xml:id="59">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_28.1">
+<l>yāvanti śikṣa paridīpita nāyakena sarveṣa śikṣa ayu agru niruttarā ca /</l>
+<l>yaḥ sarvaśikṣavidu icchati pāra gantum imu prajñapāramita śikṣati buddhaśikṣām //</l>
+</lg>
+<lg xml:id="Rgs_28.2">
+<l>agraṃ nidhāna ayu uttamadharmakośa buddhāna gotrajananaṃ sukhasaukhyagañjo /</l>
+<l>atikrāntanāgata daśaddiśi lokanāthā itu te prasūta na ca kṣīyati dharmadhātuḥ //</l>
+</lg>
+<lg xml:id="Rgs_28.3">
+<l>yāvanti vṛkṣa phalapuṣpavanaspatī yā sarve ca medinisamudgata prādubhūtāḥ /</l>
+<l>na ca medinī kṣayamupaiti na cāpi vṛddhiṃ na ca khidyatī na parihāyati nirvikalpā //</l>
+</lg>
+<lg xml:id="Rgs_28.4">
+<l>yāvanta buddhasama śrāvakapratyayāśca marutaśca sarvajagatī sukhasaukhyadharmāḥ /</l>
+<l>sarve ti prajñavarapāramitāprasūtā na ca kṣīyate na ca vivardhati jātu prajñā //</l>
+</lg>
+<lg xml:id="Rgs_28.5">
+<l>yāvanta sattva mṛdumadhyamutkṛṣṭa loke sarve avidyaprabhavā sugatena uktāḥ /</l>
+<l>sāmagripratyayu pravartati duḥkhayantro na ca yantra kṣīyati avidya na cāpi vṛddhiḥ //</l>
+</lg>
+<lg xml:id="Rgs_28.6">
+<l>yāvanti jñāna nayadvāra uyāyamūlāḥ sarve ti prajñavarapāramitāprasūtāḥ /</l>
+<l>sāmagripratyaya pravartati jñānayantro na ca prajñapāramita vardhati hīyate vā //</l>
+</lg>
+<lg xml:id="Rgs_28.7">
+<l>yo tu pratītyasamutpādu anudbhavāye imu prajña akṣayata budhyati bodhisattvo /</l>
+<l>so sūrya abhrapaṭale yatha muktaraśmī vidhamitvavidyapaṭalaṃ bhavate svayaṃbhūḥ //</l>
+</lg>
+<p xml:id="60">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmavakīrṇakusumaparivarto nāmāṣṭāviṃśatimaḥ //
+</p><p xml:id="61">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_29.1">
+<l>caturbhī ca dhyāna viharanti mahānubhāvā na ca ālayo na pi ca niśrayu kurvayāti /</l>
+<l>api kho punāśrayu ime catudhyāna sāṅgā bheṣyanti bodhivarauttamaprāpaṇāya //</l>
+</lg>
+<lg xml:id="Rgs_29.2">
+<l>dhyāne sthito 'tra bhavatī varaprajñalābhī ārūpyarūpi ca samādhi catasra śreṣṭhā /</l>
+<l>upakāribhūta imi dhyāna varāgrabodhau na punāsravakṣati sa śikṣati bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_29.3">
+<l>āścaryamadbhutamidaṃ guṇasaṃcayānāṃ dhyāne samādhi viharanti nimitta nāsti /</l>
+<l>tatra sthitāna yadi bhajyati ātmabhāvo puna kāmadhātu upapadyati yathābhiprāyā //</l>
+</lg>
+<lg xml:id="Rgs_29.4">
+<l>yatha jambudvīpaka manuṣya alabdhapūrvā divi devauttamapurā anuprāpuṇeyā /</l>
+<l>paśyitva te viṣaya tatra parigṛhītā punarāgameya na ca niśrayu tatra kuryāt //</l>
+</lg>
+<lg xml:id="Rgs_29.5">
+<l>emeva te guṇadharā varabodhisattvā dhyāne samādhi viharitva prayuktayogī /</l>
+<l>puna kāmadhātusthita bhonti anopaliptā padmeva vāriṇi aniśrita bāladharme //</l>
+</lg>
+<lg xml:id="Rgs_29.6">
+<l>anyatra sattvaparipācana kṣetraśodhī paripūraṇārtha imi pāramitā mahātmā /</l>
+<l>ārūpyadhātuupapatti na prārthayantī yatreha bodhiguṇapāramitāna hāni //</l>
+</lg>
+<lg xml:id="Rgs_29.7">
+<l>yatha kaścideva puruṣo ratanaṃ nidhānaṃ labdhvā tu tatra spṛhabuddhi na saṃjaneyyā /</l>
+<l>ekāki so puna gṛhītva parasmi kāle gṛhṇitva geha praviśitva na bhoti lubdho //</l>
+</lg>
+<lg xml:id="Rgs_29.8">
+<l>emeva dhyāna catureva samādhi śāntāṃ labdhvāna prīti sukhadāṃ vidu bodhisattvāḥ /</l>
+<l>avasṛjya dhyānasukhaprītisamādhilābhaṃ puna kāmadhātu praviśanti jagānukampī //</l>
+</lg>
+<lg xml:id="Rgs_29.9">
+<l>yadi bodhisattva viharāti samādhidhyāne rahapratyayāni spṛhabuddhi na saṃjaneyyā /</l>
+<l>asamāhito bhavati uddhatakṣiptacitto parihīnabuddhiguṇa nāvika bhinnanāvo //</l>
+</lg>
+<lg xml:id="Rgs_29.10">
+<l>kiṃcāpi rūpamapi śabda tathaiva gandho rasa sparśa kāmaguṇa pañcabhi yukta bhogī /</l>
+<l>rahapratyayāna vigato 'nantabodhisattvo satataṃ samāhitu prajānayitavya śūro //</l>
+</lg>
+<lg xml:id="Rgs_29.11">
+<l>parasattvapudgalanidāna viśuddhasattvā vicaranti vīryabalapāramitābhiyuktāḥ /</l>
+<l>yatha kumbhadāsi avaśāvaśa bhartikasya tatha sarvasattvavaśatāmupayānti dhīrāḥ //</l>
+</lg>
+<lg xml:id="Rgs_29.12">
+<l>na ca svāmikasya prativākyu dadāti dāsī ākruṣṭa cāpi athavā sada tāḍitā vā /</l>
+<l>ekāntatrastamanasā sa bhayābhibhūtā māmeva so anu vadhiṣyati kāraṇena //</l>
+</lg>
+<lg xml:id="Rgs_29.13">
+<l>emeva bodhivaraprasthitu bodhisattvo tiṣṭheya sarvajagatī yatha preṣyabhūto /</l>
+<l>anu bodhiāgamu guṇāna ca pāripūrī tṛṇa agni kāṣṭhaprabhavo dahate tameva //</l>
+</lg>
+<lg xml:id="Rgs_29.14">
+<l>avasṛjya ātma sugatāṃ parasattvakārye abhiyukta rātridiva niṣpratikāṅkṣacitto /</l>
+<l>māteva ekasutake paricāryamāṇo adhyāśaye na parikhinna upasthiheti //</l>
+</lg>
+<p xml:id="62">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāmanugamaparivarto nāmaikūnatriṃśatimaḥ //
+</p><p xml:id="63">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_30.1">
+<l>yo bodhisattva cirasaṃsaraṇābhiprāyo sattvārtha kṣetrapariśodhanayuktayogī /</l>
+<l>na ca khedabuddhi aṇumātra upādiyāti so vīryapāramitayukta atandritaśca //</l>
+</lg>
+<lg xml:id="Rgs_30.2">
+<l>saci kalpakoṭi gaṇaye vidu bodhisattvo cirasaṃjña bodhi samudāniya tena duḥkhe /</l>
+<l>ciraduḥkha bheṣyati samācaramāṇu dharmaṃ tatu vīryapāramitahīna kusīdarūpo //</l>
+</lg>
+<lg xml:id="Rgs_30.3">
+<l>prathamaṃ upādu varabodhayi cittupādo so vā anuttaraśivāmanuprāpuṇeyā /</l>
+<l>rātriṃdivaikamanasā tamadhiṣṭhiheyā ārambhavīrya vidu paṇḍitu veditavyo //</l>
+</lg>
+<lg xml:id="Rgs_30.4">
+<l>saci kaścideva vadayeya sumeruśailaṃ bhinditva paśca adhigamyasi agrabodhim /</l>
+<l>saci khedabuddhi kurute ca pramāṇabuddhiṃ kausīdyaprāpta bhavate tada bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_30.5">
+<l>atha tasyupadyati matī kimutālpamātraṃ kṣaṇamātra bhasma nayatī vilayaṃ sumerum /</l>
+<l>ārambhavīrya bhavate vidu bodhisattvo nacireṇa bodhivara lapsyati nāyakānām //</l>
+</lg>
+<lg xml:id="Rgs_30.6">
+<l>saci kāyacittavacasā ca parākrameyyā paripācayitva jagatī kariṣyāmi artham /</l>
+<l>kausīdyaprāpta bhavatī sthitu ātmasaṃjñaiḥ nairātmabhāvanavidūri nabhaṃ va bhūmeḥ //</l>
+</lg>
+<lg xml:id="Rgs_30.7">
+<l>yasminna kāyu na pi citta na sattvasaṃjñā saṃjñāvivarti sthitu advayadharmacārī /</l>
+<l>ayu vīryapāramita ukta hitaṃkareṇa ākāṅkṣamāṇu śivamacyutamagrabodhim //</l>
+</lg>
+<lg xml:id="Rgs_30.8">
+<l>paruṣaṃ śruṇitva vacanaṃ parato duruktaṃ paritoṣayāti susukhaṃ vidu bodhisattvo /</l>
+<l>ko bhāṣate ka śṛṇute kutu kasya kena so yukta kṣāntivarapāramitāya vijño //</l>
+</lg>
+<lg xml:id="Rgs_30.9">
+<l>so bodhisattva kṣamate guṇadharmayukto yaścaiva ratnabharitaṃ trisahasra dadyāt /</l>
+<l>buddhāna lokavidunārhatapratyayānāṃ kalapuṇya so na bhavate iha dānaskandhe //</l>
+</lg>
+<lg xml:id="Rgs_30.10">
+<l>kṣāntīsthitasya pariśudhyati ātmabhāvo dvātriṃśalakṣaṇaprabhāva anantapāro /</l>
+<l>[sattvāna śūnyavaradharma niśāmayātī priyu bhoti sarvajagatī kṣamamāṇu vijño //</l>
+</lg>
+<lg xml:id="Rgs_30.11">
+<l>saci kaści candanapuṭaṃ grahiyāna sattvo abhyokireya gurupremata bodhisattvam /</l>
+<l>dvitīyo 'pi] agni sakale śirasi kṣipeyā ubhayatra tulyu manu tena upāditavyo //</l>
+</lg>
+<lg xml:id="Rgs_30.12">
+<l>evaṃ kṣamitva vidu paṇḍitu bodhisattvo taṃ cittupādu pariṇāmayi agrabodhau /</l>
+<l>yāvanti kṣānti rahapratyayasattvadhātoḥ abhibhoti sarvajagatī kṣamamāṇu śūraḥ //</l>
+</lg>
+<lg xml:id="Rgs_30.13">
+<l>kṣamamāṇu eva puna citta upāditavyo narakeṣu tiryayamaloki aneka duḥkhā /</l>
+<l>anubhūya kāmaguṇahetu akāmakārā kasmā hu adya na kṣameya nidāna bodhau //</l>
+</lg>
+<lg xml:id="Rgs_30.14">
+<l>kaśadaṇḍaśastravadhabandhanatāḍanāśca śirachedakarṇacaraṇākaranāsachedāḥ /</l>
+<l>yāvanti duḥkha jagatī ahu tatsahāmi kṣāntīya pāramita tiṣṭhati bodhisattvo //</l>
+</lg>
+<p xml:id="64">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ sadāpraruditaparivarto nāma triṃśatimaḥ //
+</p><p xml:id="65">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_31.1">
+<l>śīlena udgata bhavanti samādhikāṅkṣī sthita gocare daśabalāna akhaṇḍaśīlāḥ /</l>
+<l>yāvanti saṃvarakriya anuvartayanti tāṃ sarvasattvahita bodhayi nāmayanti //</l>
+</lg>
+<lg xml:id="Rgs_31.2">
+<l>saci pratyayānarahabodhi spṛhāṃ janeti [duḥśīla bhoti]viduṣāṃ tatha chidracārī /</l>
+<l>atha bodhi uttamaśivāṃ pariṇāmayanti sthitu śīlapāramita kāmaguṇebhi yukto //</l>
+</lg>
+<lg xml:id="Rgs_31.3">
+<l>yo dharma bodhiguṇaāgamu sūratānāṃ so śīlaarthu guṇadharmasamanvitānām /</l>
+<l>yo dharma bodhiguṇahāni hitaṃkarāṇāṃ duḥśīlatā ayu prakāśitu nāyakena //</l>
+</lg>
+<lg xml:id="Rgs_31.4">
+<l>yadi pañca kāmaguṇa bhuñjati bodhisattvo buddhaṃ ca dharma śaraṇāgatu āryasaṃgham /</l>
+<l>sarvajñatā ca manasī bhaviṣyāmi buddho sthitu śīlapāramita vedayitavya vijño //</l>
+</lg>
+<lg xml:id="Rgs_31.5">
+<l>yadi kalpakoṭi daśabhī kuśalaiḥ pathebhiś caramāṇu pratyayarahatvaspṛhāṃ janeti /</l>
+<l>tada khaṇḍaśīlu bhavate api chidraśīlo pārājiko gurutaro ayu cittupādo //</l>
+</lg>
+<lg xml:id="Rgs_31.6">
+<l>rakṣantu śīla pariṇāmayi agrabodhiṃ na ca tena manyati na ātmana karṣayethā /</l>
+<l>ahusaṃjñatā ca parivarjita sattvasaṃjñā sthitu śīlapāramiti vucyati bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_31.7">
+<l>yadi bodhisattva caramāṇu jināna mārge imi śīlavānimi duśīla karoti sattvān /</l>
+<l>nānātvasaṃjñaprasṛto paramaṃ duśīlo api chidraśīlu na tu so pariśuddhaśīlo //</l>
+</lg>
+<lg xml:id="Rgs_31.8">
+<l>yasyo na asti ahasaṃjña na sattvasaṃjñā saṃjñāvirāgu kutu tasya asaṃvaro 'sti /</l>
+<l>yasyo na saṃvari asaṃvari manyanāsti ayu śīlasaṃvaru prakāśitu nāyakena //</l>
+</lg>
+<lg xml:id="Rgs_31.9">
+<l>yo evaśīlasamanvāgatu niṣprapañco anapekṣako bhavati sarvapriyāpriyeṣu /</l>
+<l>śirahastapāda tyajamāna adīnacitto sarvāstityāgi bhavate satataṃ alīno //</l>
+</lg>
+<lg xml:id="Rgs_31.10">
+<l>jñātvā ca dharmaprakṛtīṃ vaśikā nirātmyaṃ ātmāna māṃsa tyajamānu adīnacitto /</l>
+<l>prāgeva vastu tada bāhira nātyajeyā asthānameta yadi matsari so kareyā //</l>
+</lg>
+<lg xml:id="Rgs_31.11">
+<l>ahasaṃjñatastu mamatā bhavate ca rāgo kutu tyāgabuddhi bhaviṣyati sā muhānām /</l>
+<l>mātsarya preta bhavate upapadyayātī athavā manuṣya tada bhoti daridrarūpo //</l>
+</lg>
+<lg xml:id="Rgs_31.12">
+<l>tada bodhisattva imi jñātva daridrasattvān dānādhimukta bhavatī sada muktatyāgī /</l>
+<l>catvāri dvīpi samalaṃkṛtu kheṭatulyaṃ dattvā udagra bhavate na hi dvīpalabdho //</l>
+</lg>
+<lg xml:id="Rgs_31.13">
+<l>dānaṃ daditva vidu paṇḍitu bodhisattvo yāvanti sattva tribhave samanvāharitvā /</l>
+<l>sarveṣu teṣu bhavate ayu dattadānaṃ taṃ cāgrabodhi pariṇāmayate jagārtham //</l>
+</lg>
+<lg xml:id="Rgs_31.14">
+<l>na ca vastuniśrayu karoti daditva dānaṃ vidu pāku naiva pratikāṅkṣati so kadācit /</l>
+<l>evaṃ tyajitva bhavate vidu sarvatyāgī alpaṃ tyajitva labhate bahu aprameyam //</l>
+</lg>
+<lg xml:id="Rgs_31.15">
+<l>yāvanta sattva tribhave nikhilena asti te sarvi dāna dadayanti anantakalpān /</l>
+<l>buddhānuloki vidu nārhatipratyayānāṃ yāvanti śrāvakaguṇān parikalpa sthāne //</l>
+</lg>
+<lg xml:id="Rgs_31.16">
+<l>yaśco upāyakuśalo vidu bodhisattvo teṣāṃ sa puṇyakriyavastvanumodayitvā /</l>
+<l>sattvārtha agravarabodhayi nāmayeyā abhibhoti sarvajagatī pariṇāmayukto //</l>
+</lg>
+<lg xml:id="Rgs_31.17">
+<l>kācasya vā maṇina rāśi siyā mahanto vaiḍūryaratna abhibhoti sa sarva eko /</l>
+<l>emeva sarvajagatī pṛthu dānaskandho abhibhoti sarvapariṇāmaku bodhisattvo //</l>
+</lg>
+<lg xml:id="Rgs_31.18">
+<l>yadi bodhisattva dadamāna jagasya dānaṃ mamatāṃ na tatra karayenna ca vastuprema /</l>
+<l>tatu vardhate kuśalamūla mahānubhāvo candro va tatra prabhamaṇḍalu śuklapakṣe //</l>
+</lg>
+<p xml:id="66">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ dharmodgataparivarto nāmaikatriṃśatimaḥ //
+</p><p xml:id="67">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<lg xml:id="Rgs_32.1">
+<l>dānena pretagati chindati bodhisattvo dāridrakaṃ ca chinatī tatha sarvakleśān /</l>
+<l>bhogāṃścanantavipulāṃ labhate caranto dānena sattva paripācayi kṛcchraprāptān //</l>
+</lg>
+<lg xml:id="Rgs_32.2">
+<l>śīlena tīryagati varjayi nekarupām aṣṭau ca akṣaṇa kṣaṇāṃ labhate sa nityam /</l>
+<l>kṣāntīya rupa labhate paramaṃ udāraṃ suvarṇacchavi priyu jagasya udīkṣaṇīyo //</l>
+</lg>
+<lg xml:id="Rgs_32.3">
+<l>vīryeṇa śuklaguṇa hāni na abhyupaiti jñānaṃ ananta labhate jinakośagañjam /</l>
+<l>dhyānena kāmaguṇa utsṛjate jugupsyān vidyā abhijña abhinirharate samādhim //</l>
+</lg>
+<lg xml:id="Rgs_32.4">
+<l>prajñāya dharmaprakṛtī parijānayitvā traidhātukānta samatikramate apāyān /</l>
+<l>vartitva cakraratanaṃ puruṣarṣabhāṇāṃ deśeti dharma jagatī dukhasaṃkṣayāye //</l>
+</lg>
+<lg xml:id="Rgs_32.5">
+<l>paripūrayitva imi dharma sa bodhisattvo api kṣetraśuddhi parigṛhṇati sattvaśuddhim /</l>
+<l>api buddhavaṃśa parigṛhṇati dharmavaṃśaṃ tatha saṃghavaṃśa parigṛhṇati sarvadharmān //</l>
+</lg>
+<lg xml:id="Rgs_32.6">
+<l>vaidyottamo jagati rogacikitsakārī prajñopadeśa kathito ayu bodhimārgo /</l>
+<l>nāmena ratnaguṇasaṃcaya bodhimārgaḥ taṃ sarvasattva itu mārgatu prāpnuvanti //</l>
+</lg>
+<p xml:id="68">
+bhagavatyāṃ ratnaguṇasaṃcayagāthāyāṃ parīndanāparivarto nāma dvātriṃśatimaḥ //
+</p><p xml:id="69">
+<note type="segmentation">____________________________________________________________________________</note><!-- TODO; segmentation --></p>
+<p xml:id="70">
+[ācāryaharibhadrakṛtā praśastiḥ] /
+</p>
+<lg xml:id="Rgs_HPr_1">
+<l>lokaṃ prāpayituṃ sukhena padavīṃ saṃpaddūyāvāhinīṃ kāruṇyāhitacetasā bhagavatā buddhena saṃdīpitam /</l>
+<l>śrutvā te 'khiladharmatattvanilayaṃ sūtraṃ samādānato gatvā sthānamaharniśaṃ nijamalaṃ dhmāyantu ye 'bhyāgatāḥ //</l>
+</lg>
+<lg xml:id="Rgs_HPr_2">
+<l>kāle 'smin bahudṛṣṭisaṃkulakalau pāṭhe 'pi dūraṃ gate gāthābhedamanekapustakagataṃ dṛṣṭvādhunā nyāyataḥ /</l>
+<l>kūpaṃ vādigajendrakumbhadaraṇe bhadreṇa yā śodhitā lokārthaṃ hariṇā mayā suvihitā seyaṃ budhairgṛhyatām //</l>
+</lg>
+<p xml:id="71">
+āryāṣṭasāhasrikāyā bhagavatyāḥ prajñāpāramitāyāḥ parivartānusāreṇa bhagavatī ratnaguṇasaṃcayagāthā samāptā //
+</p><p xml:id="72">
+ye dharmā hetuprabhavā hetuṃ teṣāṃ tathāgato hyavadat /
+</p><p xml:id="73">
+teṣāṃ ca yo nirodha evaṃ vādī mahāśramaṇaḥ //
+</p><p xml:id="74">
+[lekhakapraśastiḥ] /
+</p>
+<lg xml:id="Rgs_LPr_1">
+<l>yo 'sau dharmaṃ sugatagaditaṃ paṭhate bhaktibhāvān mātrāhīnaṃ kathamapi padaṃ pādagāthākṣaraṃ vā /</l>
+<l>jihvādoṣaiḥ pavanacaritaiḥ śleṣmadoṣapracārair yūyaṃ buddhāḥ subhavanagatā bodhisattvāḥ kṣamadhvam //</l>
+</lg>
+<p xml:id="75">
+samāptam /<lb/>
+śubham //
+</p>
+</body>
+</text>
+</TEI>

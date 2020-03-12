@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_pratyakSalakSaNa+tarkarahasya">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Pratyakṣalakṣaṇa Tarkarahasya</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Helmut Krasser, Wien</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Helmut Krasser, Wien</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the edition by YAITA, Hideomi: Tarkarahasya kenyū (I).  Journal of Naritasan Institute for Buddhist Studies No. 12 (1988), 82-98.-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Pratyaksalaksana text of Tarkarahasya<BR>
+Based on the edition by YAITA, Hideomi: Tarkarahasya kenyū (I). <BR>
+Journal of Naritasan Institute for Buddhist Studies No. 12 (1988), 82-98.<BR>
+Provided by Helmut Krasser, Wien<BR>
+Y I = Yaita ed.<BR>
+M = manuscript<BR>
+Sh = P. Shastri (ed.), Tarkarahasya, Tibetan Sanskrit Works Series, No. 20, Patna, 1979.<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+<hi rend="bf">[M16a, Sh33] </hi>[1] tatra pratyakṣaṃ kalpanāpoḍham abhrāntam, abhilāpasaṃsargayogyapratibhāsatvārthakriyāsamarthaviparītākāratvarahitam.[2]
+</p><p xml:id="1">
+__________NOTES__________
+</p><p xml:id="2">
+[1] <hi rend="bf">Y I</hi>: 82.<lb/>
+[2] Cf. NB I s. 4-6; PVin I 40, 1-9; PVinT 44b1-5; NBT 41, 5-42,2. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="3">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ālocanājñānaṃ nirvikalpakam, tataḥ paraṃ jātyādiyojanātmakaṃ savikalpakam.[3]
+</p><p xml:id="4">
+__________NOTES__________
+</p><p xml:id="5">
+[3] Cf. ŚV IV 112ab, 120; TS 1285, 1287; TBh 12, 6-7; VR 44, 10-12.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="6">
+avyapadeśyam avikalpakaṃ vyavasāyātmakam.[4]aparam,
+</p><p xml:id="7">
+__________NOTES__________
+</p><p xml:id="8">
+[4] Cf. NS 1, 1, 4; TR 43, 20-21; VR 44, 10.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="9">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "na so'sti pratyayo loke yaḥ śabdānugamād ṛte/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> anuviddham[5]iva jñānaṃ sarvaṃ śabdena bhāsate[6]//"[7]
+</p><p xml:id="10">
+__________NOTES__________
+</p><p xml:id="11">
+[5] <hi rend="it">Sh</hi> anubiddham.<lb/>
+[6] <hi rend="it">M </hi>bhāṣate. <lb/>
+[7] = VP I 131. Cf. PVinT 50a8-b4, 53b4-6. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="12">
+iti[8]nyāyāt sarvam eva śabdānuviddham, iti bhāṭṭa[9]śaivavaiyākaraṇāḥ[10].
+</p><p xml:id="13">
+__________NOTES__________
+</p><p xml:id="14">
+[8] <hi rend="it">M </hi>ito.<lb/>
+[9] <hi rend="it">M</hi> bhaṭṭa-. <lb/>
+[10] Cf. TRD 76, 4: "naiyāyikamatasya śaivaśāsanasya..." <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="15">
+puruṣapravṛttyaṅgaṃ hi pramāṇam[11], tadaṅgatā ca saṃgatā tasya[12]vikalpakatvenaiva. na, arthasāmarthyena samudbhavāt.[13]tatrārthaḥ[14]pṛthivyādibhūtacatuṣṭayam. tatra pṛthvī[15]
+</p><p xml:id="16">
+__________NOTES__________
+</p><p xml:id="17">
+[11] Cf. PV II 3: dhīpramāṇatā pravṛttes tatpradhānatvād; PVinT97a4f.<lb/>
+[12] <hi rend="it">Sh</hi> saṅgatā tvasya. <lb/>
+[13] Cf. PVin I 40, 10-11 (v. 4cd). <lb/>
+[14] <hi rend="it">Sh</hi> na cārthaḥ. <lb/>
+[15] <hi rend="it">Sh </hi>pṛvivī. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="18">
+mahāsanniveśavatī mṛd[16]rūparasagandhakaṭhinasparśādisvabhāvā, tatpradeśaviṣayasamudbhūtāś ca pāṣāṇaśoṇamaṇiveṇuvīraṇaprabhṛtayaḥ. evam āpaḥ[17]
+</p><p xml:id="19">
+__________NOTES__________
+</p><p xml:id="20">
+[16] <hi rend="it">M</hi> & <hi rend="it">Sh</hi> mṛt/.<lb/>
+[17] <hi rend="it">M </hi>āpa. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="21">
+śuklamadhuraśītadravasvabhāvāḥ sarasvatsaritsaraḥprabhṛtibhiḥ svabhāvair vivartante, kārakādikaṃ[18]ca tatkāryam. evam uṣṇeraṇasparśarūpaśabdasvabhāvo vahnyādiko[19][20]'pi.
+</p><p xml:id="22">
+__________NOTES__________
+</p><p xml:id="23">
+[18] <hi rend="it">Sh </hi>karakā-.<lb/>
+[19] <hi rend="it">Sh</hi> bahny-. <lb/>
+[20] <hi rend="bf">Y I</hi>: 83. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="24">
+tasyālambanapratyayatvena[21]janyaṃ pāṣāṇādyākārajñānaṃ[22]niyamitapratibhāsatayā śabdasaṃsargāyogyam.
+</p><p xml:id="25">
+__________NOTES__________
+</p><p xml:id="26">
+[21] <hi rend="it">M </hi>-pratyakṣayatvena; <hi rend="it">Sh </hi>-pratyakṣayatnena.<lb/>
+[22] <hi rend="it">Sh</hi> -rakajñā-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="27">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> kathan<hi rend="bf"> [Sh34] </hi>dharmidharmābhidhānārthakriyāyojanā<hi rend="bf">[M16b]</hi>yāṃ[23]yogyaṃ[24]pravartakam iti cet, 
+</p><p xml:id="28">
+__________NOTES__________
+</p><p xml:id="29">
+[23] <hi rend="it">Sh</hi> kiṃ khalu --- sādharmyābhidhānā-.<lb/>
+[24] <hi rend="it">M</hi> & <hi rend="it">Sh</hi> -yām ayogyaṃ. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="30">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> taddṛṣṭāv eva dṛṣṭeṣu saṃvitsāmarthyabhāvinaḥ[25]/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> smaraṇād abhilāṣeṇa vyavahāraḥ pravartate//[26]
+</p><p xml:id="31">
+__________NOTES__________
+</p><p xml:id="32">
+[25] <hi rend="it">M </hi>-rthyaṃbhāvi-.<lb/>
+[26] <!-- TODO: &nbsp; -->= PVin I v. 18.Cf. TR 12,3-23. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="33">
+na vikalpakam[27]apy adhyakṣam[28]. svalpakālāvasthitatvena nirodhanād[29] ūrdhvasvabalotpannavyavahāro smārtavikalpam[30]apekṣate. tad evam tadutpannam.
+</p><p xml:id="34">
+__________NOTES__________
+</p><p xml:id="35">
+[27] <hi rend="it">Sh</hi> savikalpa-.<lb/>
+[28] <hi rend="it">M </hi>apyakṣadhyakṣaṃ. <lb/>
+[29] <hi rend="it">Or </hi>nirodhād ?. <hi rend="it">M </hi>nirodhānād ; <hi rend="it">Sh </hi>nidhānād. <lb/>
+[30] <hi rend="it">M </hi>-hārakasmārtta- ; <hi rend="it">Sh </hi>-hārakarmāt tu vika-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="36">
+nirvikalpake'py astu vyavahārakam. tataś ca jñānair eva parasparam ālocy eva vyavahāryavyahārakair upadarśakopadarśyamānavyavasthā yādṛśī sthāpitā, kevalam anuvadāmas tādṛśīm aparavyutpattaye.
+</p><p xml:id="37">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> tasmiṃś ca vikalpe'vidyānubhavavāsanopanīte[31][32]dravyam, tadāśritāś ca jātyādayo 'vidyābalena kalpitāḥ. kutaś cid anubhavasambandhāś ca saṃsthānopādhipāṣāṇarūparasādisvabhāvā[33]vibhāvyante. dravyādāv upalabdhilakṣaṇaprāptānupalabdhatvena bādhanād avidyātvam. upalambhasambhāvitatvāc[34] ca rūpāder arthakatvam[35][36], tato dravyāder apūrvārthatve'py anarthatvād aprāmāṇyam. rūpādau gṛhītagrahaṇāt smārtatvam.[37] na cāprasiddhaviśeṣyādikaṃ[38]durmativispanditam.
+</p><p xml:id="38">
+__________NOTES__________
+</p><p xml:id="39">
+[31] <hi rend="it">M</hi> & <hi rend="it">Sh</hi> -nubhavavyasano-. (<hi rend="it">Cf</hi>. TR 39,1-2; 43,4: avidyānubhavavāsanā-)<lb/>
+[32] Cf. PV I 68-91, 205; PVSV 42, 13-18; 50, 17-20. <lb/>
+[33] Cf. NBT 41, 5-42,2. Cf. TBh 66, 11f. <lb/>
+[34] <hi rend="it">M</hi> & <hi rend="it">Sh</hi> -bhavita-. <lb/>
+[35] <hi rend="it">M </hi>arthakaṃtvaṃ. <lb/>
+[36] Cf. PVSV ad PV I 215; PV III 6. <lb/>
+[37] Cf. HB* 2, 20-3,16. <lb/>
+[38] <hi rend="it">M </hi>-siddharaviśe- ; <hi rend="it">Sh</hi> -siddhe viśe. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="40">
+sādharmyādidṛgapekṣāyāṃ hi tathālakṣitaṃ rajataśuktivat.[39]
+</p><p xml:id="41">
+__________NOTES__________
+</p><p xml:id="42">
+[39] Cf. PV III 360, 362.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="43">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->[40]astīyam api yā tv antarupaplavasamudbhavā[41]//<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> doṣodbhavā[42]prakṛtyā sā vitathapratibhāsinī/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ana<hi rend="bf">[M17a]</hi>pekṣitasādharmyadṛgādi taimirādivat[43]//[44]
+</p><p xml:id="44">
+__________NOTES__________
+</p><p xml:id="45">
+[40] <hi rend="bf">Y I</hi>: 84.<lb/>
+[41] <hi rend="it">M </hi>antarūpa-. <lb/>
+[42] <hi rend="it">M</hi> & <hi rend="it">Sh</hi> -bhavāt. <lb/>
+[43] <hi rend="it">M </hi>-distaimi- ; <hi rend="it">Sh</hi> -di sauṣirā-. <lb/>
+[44] <!-- TODO: &nbsp; -->= PV III 361cd-362 = PVin I 53cd-54.Cf. PVSV 50, 17f. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="46">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ekaṃ dharmiṇam uddiśya nānādharmasamāśrayam/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> vidhāv ekasya tadbhājam ivānyeṣām[45]upekṣakam//
+</p><p xml:id="47">
+__________NOTES__________
+</p><p xml:id="48">
+[45] <hi rend="it">M </hi>-nyaiṣām.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="49">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> niṣedhe tadviviktañ ca tadanyeṣām apekṣakam/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> <hi rend="bf">[Sh35]</hi> vyavahāram asatyārthaṃ prakalpayati dhīr yathā//
+</p><p xml:id="50">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> taṃ tathaivāvikalpyārthabhedāśrayam[46]upāgatāḥ/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> anādivāsanodbhūtaṃ bādhante'rthaṃ na laukikam//[47]
+</p><p xml:id="51">
+__________NOTES__________
+</p><p xml:id="52">
+[46] <hi rend="it">Sh</hi> -vikalpārtha" bhe-.<lb/>
+[47] = PV IV 232-4 = PVin II v.23-25 (= 24-26. Cf. Ch. Lindtner, Marginalia to Dharmakīrti's Pramāṇaviniścaya I-II, WZKS 28, 1984). Cf. PVin II-2 p. 43. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="53">
+<!-- TODO: &nbsp; -->yady ayam avidyāvirbhūtadravyādivivarto vikalpaḥ, katham akhilajantusantānasambhavī, kathañ ca mahadbhir api śāstrakṛdbhir anuvartitaḥ, kathañ ca bhavatām api pratipadyāpy avidyātvaṃ tathaiva dravyādivyavahārābhiniveśaḥ. niyatasvalakṣaṇapratibhāsajanitatvāt sarvasantānasambhavī, svalakṣaṇasyaiva dravyāditvena pratyākalanāt. tatprāptau tadarthakriyāpratilambhe samāptatvād abhilāṣasya[48]bādhakānavadhānam.
+</p><p xml:id="54">
+__________NOTES__________
+</p><p xml:id="55">
+[48] <hi rend="it">M </hi>abhilāsasya; <hi rend="it">Sh </hi>abhilāpasya.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="56">
+<!-- TODO: &nbsp; -->śāstrakārair api vikalpapratyayasyaiva sukhakāṅkṣadbhis[49]tathaiva vyavasthāpitam-
+</p><p xml:id="57">
+__________NOTES__________
+</p><p xml:id="58">
+[49] <hi rend="it">Sh </hi>svargaṃkāṅ-.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="59">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> vikalpavyavahāreṣu samānau bālapaṇḍitau/[50]
+</p><p xml:id="60">
+__________NOTES__________
+</p><p xml:id="61">
+[50] Cf. Tattvopaplavasiṃha (E. Franco, "Perception, Knowledge and Disbelief", Stuttgart, 1987), p. 68, 7: "lokavyavahāraṃ prati sādṛśau bālapaṇḍitau"; Traikālyaparīkṣā (Dignāga), v. 4 (= VP III-3-55) cd: jñānaṃ praty abhilāsaṃ ca sādṛśaṃ bālapaṇḍitau".<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="62">
+kevalaṃ bādhitatvavyavasāyāt paṇḍitas taditaro bālaḥ. mokṣākāṅkṣayā pratikṣaṇakṣīṇatām abhilakṣya "pratyakṣasya parīkṣitaṃ sākṣātkaraṇaṃ[51]dravyādikaṃ prati nāstī"ty ākhyātam.
+</p><p xml:id="63">
+__________NOTES__________
+</p><p xml:id="64">
+[51] <hi rend="it">Sh</hi> -karaśaṃ.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="65">
+śāstrakārāṇām apy artheṣv atrā<hi rend="bf">[M17b]</hi>nyāviparītasvabhāvopasaṃhārasambhavāt. śāstraṃ [52] hi mohanivartanam[53]ārabdham. sthūlaparāmarśād[54]vyāmohaḥ, sa ca sūkṣmāvāntaraparāmarśād[55] apasarati.
+</p><p xml:id="66">
+__________NOTES__________
+</p><p xml:id="67">
+[52] <hi rend="it">M om. </hi>ḥ.<lb/>
+[53] <!-- TODO: &nbsp; --> Cf. TR 11, 2: "śāstraṃ mohanivartanam"; 11, 13-14: "vyāmohāpohayarabdham eva śastram". <lb/>
+[54] <hi rend="bf">Y I</hi>: 85. <lb/>
+[55] <hi rend="it">Sh</hi> -marśad. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="68">
+<!-- TODO: &nbsp; --> yathā rūpam iti cakṣurvijñānajanakatvena saṅketaḥ kṛtaḥ evaṃ svagrāhīndriyajñānāpekṣayā rasādike'pi vākyam[56]. tato ghaṭapaṭapaṅkapallavādiṣu tadanyavyāvṛttena rūpeṇa rūpādayo 'bhinnāḥ[57]vyavahriyante. vyavahārahetur ekapratyavamarśapratyayaḥ, ekasya pratyava<hi rend="bf">[Sh36]</hi>marśa[58]ekatvāropī[59]pratyavamarśa ity arthaḥ. sa cāpy avidyāvaśād[60] ekatvāropī. tadbalāt sāmānyaṃ kalpayanti, arūpādirūpasāmānyānupalambhāntaraparāmarśāt[61][62] tanniṣedhaḥ.
+</p><p xml:id="69">
+__________NOTES__________
+</p><p xml:id="70">
+[56] <hi rend="it">Sh </hi>vācyam.<lb/>
+[57] <hi rend="it">M om. </hi>ḥ.<lb/>
+[58] <hi rend="it">Sh</hi> -marśaḥ. <lb/>
+[59] <hi rend="it">M </hi>-āroropī. <lb/>
+[60] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>cāpi vidyā-. <lb/>
+[61] <hi rend="it"> Sh</hi> svarūpā-. <lb/>
+[62] Cf. TR 38, 11: "dravyam arūpādirūpam"; NC 780, 2: "na sāmānyākhyaḥ, arūpāditvāt, khapuṣpavat". <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="71">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> ekapratyavamarśārthajñānādyekārthasādhane/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bhede'pi niyatāḥ kecit svabhāvenendriyādivat//[63]
+</p><p xml:id="72">
+__________NOTES__________
+</p><p xml:id="73">
+[63] = PV I 73.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="74">
+tadatadvibhāgo'pi tadekaparāmarśabahulena sakṛd upapadyate. ataś[64]ca vānyonyāśrayaṇam api nāśrayaṇīyam.
+</p><p xml:id="75">
+__________NOTES__________
+</p><p xml:id="76">
+[64] <hi rend="it">Sh </hi>ata evānyo-.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="77">
+<!-- TODO: &nbsp;&nbsp; --> dṛśyavikalpyāv[65]arthāv ekīkṛtya vyavahārapravṛtter[66]visaṃvādaś[67] ca. dṛśyaḥ sphuṭatvena gṛhyamāṇaḥ, pūrvatayā pratīyamāno vikalpyaḥ[68]. kaḥ punar asau, ubhayathāpi nīla evaikībhūto'rthaḥ. sa cāsphuṭo nīlo'rthakriyāvirahalakṣaṇabādhakapramāṇena.
+</p><p xml:id="78">
+__________NOTES__________
+</p><p xml:id="79">
+[65] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-vikalpāv.<lb/>
+[66] VR 55, 16-17; 73, 25. Cf. PVSV 39, 7-8: "te tu..... dṛśyavikalpyāv arthāv ekīkṛtya pravartante". TUS p. 92; 93: "dṛśyavikalypāv arthāv ekikṛtya tadadhyavasāyena pravartante". Cf. J 226, 24-25; R 137, 3f. <lb/>
+[67] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-vṛtteravisaṃ-. <lb/>
+[68] <hi rend="it">Sh </hi>vikalpaḥ. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="80">
+"paramārthānyavyā<hi rend="bf">[M18a]</hi>vṛttisvabhāvo'poha[69]" ity ucyate. etena svavāgvirodho'pi pratyākhyātaḥ.
+</p><p xml:id="81">
+__________NOTES__________
+</p><p xml:id="82">
+[69] Cf. TR 37, 7: "ādyāpoho'nyavyāvṛttir".<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="83">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->"naimittikyāḥ śruter artham arthaṃ vā pāramārthikam[70]/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śabdānāṃ pratirundhāno na bādhyas[71]tena varṇitaḥ//"[72]
+</p><p xml:id="84">
+__________NOTES__________
+</p><p xml:id="85">
+[70] <hi rend="it">M </hi>pārapāramārthi-.<lb/>
+[71] <hi rend="it">Sh </hi>bādhyante (na varṇṇitaḥ). <hi rend="it">M </hi>(<hi rend="it">print </hi>!) <hi rend="it">not clear</hi>. <lb/>
+[72] = PV IV 128 = PVin III v.28. Cf. T. Tani, "The Problem of Interpretation on Pramāṇaviniścaya III ad vv. 28-29" (The Bulletin of the Kochi National College of Technology, No. 29, 1988). <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="86">
+iti nyāyāt. tathaikapratyavamarśaniyame[73]
+</p><p xml:id="87">
+__________NOTES__________
+</p><p xml:id="88">
+[73] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>tathā eka-.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="89">
+vācakaliṅgasambandhasāmānyasāmānādhikaraṇyādivyavahārā[74][75]jñātavyāḥ.
+</p><p xml:id="90">
+__________NOTES__________
+</p><p xml:id="91">
+[74] <hi rend="it">Sh </hi>-vahārāj.<lb/>
+[75] Cf. PV I 85-86; PVSV 42, 5-43, 11. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="92">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->[76]vicchedaṃ sūcayann[77]ekam apratikṣipya vartate/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> yadānyaṃ tena sa vyāpta ekatvena ca bhāsate//
+</p><p xml:id="93">
+__________NOTES__________
+</p><p xml:id="94">
+[76] <hi rend="bf">Y I</hi>: 86.<lb/>
+[77] <hi rend="it">Sh </hi>sūtrayann. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="95">
+sāmānādhikaraṇyaṃ[78]syāt tadā buddhyanurodhataḥ/[79]
+</p><p xml:id="96">
+__________NOTES__________
+</p><p xml:id="97">
+[78] <hi rend="it">M </hi>sāmānyanādhika-.<lb/>
+[79] <!-- TODO: &nbsp; -->= PV I 131-132ab. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="98">
+<!-- TODO: &nbsp;&nbsp; -->[Sh37]anyathā nīlotpalādiśabdānāṃ guṇajātyādibhedād anekārthatvenaikatropasaṃhārābhāvān[80]na sāmānādhikaraṇyam, nāpi viṣayatve[81]'py ekatropasaṃhāras[82]tannimittānām ekatra samavāyād iti cet, āyāsevat[83]vivartate svapakṣanirvāhanirbandhenāndham-bhaviṣṇuḥ paraḥ. param ayam anupalambho bhūyiṣṭhadauṣṭaryaniṣṭhyūtaparānurodhaḥ[84]paripanthī. tataś cādyāpoho[85] 'nyavyāvṛttir[86][87]ekapratyavamarśaviṣayo[88]dṛśyavikalpyārthaikīkṛtaḥ[89]svabhāva ity anarthāntaram. gatam ānuṣaṅgikam.
+</p><p xml:id="99">
+__________NOTES__________
+</p><p xml:id="100">
+[80] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-tvena eka.<lb/>
+[81] <hi rend="it">Sh </hi>-pve. <lb/>
+[82] <hi rend="it">M </hi>ekaka.. posaṃ- (<hi rend="it">one letter not clear</hi>) ; <hi rend="it">Sh </hi>ekatopasaṃ-. <lb/>
+[83] <hi rend="it">Sh </hi>āyātmavat. <lb/>
+[84] <hi rend="it">M looks not </hi>-dau- (<hi rend="it">Sh</hi>). <lb/>
+[85] <hi rend="it">M </hi>-dyāppoho. <lb/>
+[86] <hi rend="it">Sh </hi>-poho'nanya-. <lb/>
+[87] Cf. TR 36, 12. <lb/>
+[88] <hi rend="it">Sh </hi>pratyeva-. <lb/>
+[89] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>vikalpā-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="101">
+<!-- TODO: &nbsp;&nbsp; --> sāmānyavyavahāravad[90]ghaṭādidravyavyavahāro'pi jñeyaḥ.
+</p><p xml:id="102">
+__________NOTES__________
+</p><p xml:id="103">
+[90] <hi rend="it">M </hi>-vadyadghaṭā-.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="104">
+teṣām eva ghaṭādīnāṃ[91]sādhāraṇaṃ yat phalam udakāharaṇam, tatra <hi rend="bf">[M18b]</hi> ye hetavo na bhavanti ghaṭasanniveśenāvasthitā rūpādayaḥ, tebhyo vyavacchede ghaṭaśrutiḥ. evaṃ ghaṭādiśrutir api vivṛtā. uktañ ca 
+</p><p xml:id="105">
+__________NOTES__________
+</p><p xml:id="106">
+[91] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>rūpādīnāṃ.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="107">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->"rūpādiśaktibhedānām anākṣepeṇa vartate/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tatsamānaphalāhetuvyavacchede[92]ghaṭaśrutiḥ//
+</p><p xml:id="108">
+__________NOTES__________
+</p><p xml:id="109">
+[92] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-cchedagha-.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="110">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tato[93]na rūpaṃ ghaṭa ity ekādhikaraṇā śrutiḥ/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bhedaś[94]cāyam ato jātisamudāyābhidhāyinoḥ[95]//"[96]iti.
+</p><p xml:id="111">
+__________NOTES__________
+</p><p xml:id="112">
+[93] ato <hi rend="it">in all PV-kārikā editions</hi>.<lb/>
+[94] bhedo'yam īdṛśo <hi rend="it">in Miyasaka's edition </hi>(Acta Indologica, II, p. 16). <lb/>
+[95] <hi rend="it">M </hi>-yi(?)nor. <lb/>
+[96] <!-- TODO: &nbsp; -->= PV II 100-1. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="113">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saṃsthānavarṇāvayavair viśiṣṭe yaḥ pravartate/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śabdo na tasyāvayave pravṛttir upalabhyate//[97]
+</p><p xml:id="114">
+__________NOTES__________
+</p><p xml:id="115">
+[97] <!-- TODO: &nbsp; -->= VP II-155 (b-pāda wa "...'rthe prayujyate". mata "...yaḥ..." no variant mo aru.).<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="116">
+[98]yathā cakracitrāḍhakādayaḥ[99].
+</p><p xml:id="117">
+__________NOTES__________
+</p><p xml:id="118">
+[98] <hi rend="bf">Y I</hi>: 87.<lb/>
+[99] <hi rend="it">M </hi>cakra / citra-āḍhakā-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="119">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> <hi rend="bf">[Sh38]</hi> nanu tantuṣu prāvaraṇādikāryaṃ sambhavi, ghaṭe[100]'sambhavi[101], tatas tat tebhyo'rthāntaraṃ ghaṭaḥ[102]. yathā -- udakadhāraṇam asambhavi paṭe ghaṭe sambhavat, paṭād ghaṭaṃ bhedena vyavasthāpayati. satyam. sidhyaty evam arthāntaram. na punaḥ kriyāvad guṇavat samavāyikāraṇaṃ[103]dravyaṃ parābhipretaṃ sidhyati. raṇḍākaraṇḍaparipiṇḍitebhyo hi tantubhyas[104]tānapratitānībhūtā anye[105]tantavaḥ śaktibhede'pi bhinnāḥ sidhyanti.
+</p><p xml:id="120">
+__________NOTES__________
+</p><p xml:id="121">
+[100] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>paṭe.<lb/>
+[101] <hi rend="it">M </hi>-ṭe sambhavi. <lb/>
+[102] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>paṭaḥ. <lb/>
+[103] Cf. VS 1, 1.4: "kriyāvad guṇavat samavāyikāraṇam iti dravyalakṣaṇam". <lb/>
+[104] Cf. VR 37, 1f.: "raṇḍākaraṇḍapiṇḍitatantubhyaḥ.....sitātānavitānavasthā... ".<lb/>
+[105] <hi rend="it">Sh </hi>-bhūtāstvanye. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="122">
+<!-- TODO: &nbsp;&nbsp; --> na vayaṃ dravyasyopari baddhakruddhaḥ[106], kin tarhi pratyakṣam evan nakṣate[107] 'nupalabhamānaṃ dravyam arūpādirūpam[108]. tasmān naikarūpā rūpādayas tantvādayo vā, teṣām evāntaraśaktibhedād rūpatantughaṭapaṭarajjuprabhṛtayo vyapadeśāḥ[109], na tu vyapa<hi rend="bf">[M19a]</hi>deśebhyo[110]'rthāntaraparikalpanam[111]ucitam. tad uktam "aparāparapratyayayogena[112]pratikṣaṇaṃ santavantaḥ[113]saṃskārā yady api kutaścit sāmyāt[114] sarūpāḥ pratīyante, tathāpi bhinna evaiṣāṃ svabhāvaḥ[115], tena kiñcid eva kasya cit kāraṇam"[116] iti.
+</p><p xml:id="123">
+__________NOTES__________
+</p><p xml:id="124">
+[106] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-krudhaḥ.<lb/>
+[107] <hi rend="it">M </hi>-kṣam evannakṣamevannakṣate. <lb/>
+[108] Cf. TR 36, 2-3: "arūpādirūpasāmānya- (<hi rend="it">Sh</hi> wa svarūpādirūpasāmānya-)". <lb/>
+[109] Cf. PV I 82. <lb/>
+[110] <hi rend="it">M repeats </hi>vyapa. <lb/>
+[111] <hi rend="it">Sh om. </hi>pari. <lb/>
+[112] <hi rend="it">Sh </hi>-pranyaya-. <lb/>
+[113] <hi rend="it">Sh </hi>santantanta (santanvānāḥ?). <lb/>
+[114] <hi rend="it">M </hi>sāmyat sarū-; <hi rend="it">Sh </hi>sāmānyarūpāḥ. <lb/>
+[115] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-vas tena. <lb/>
+[116] = HB 12*, 4-7 = VR 9, 17-19. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="125">
+<!-- TODO: &nbsp;&nbsp; --> dravyādiparaparikalpitaṃ dṛśyam adṛśyaṃ[117]vāstu[118].
+</p><p xml:id="126">
+__________NOTES__________
+</p><p xml:id="127">
+[117] <hi rend="it">M </hi>dṛśyadṛśyaṃ.<lb/>
+[118] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>vā'stu. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="128">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "apravṛttiḥ[119]pramāṇānām apravṛttiphalāsati/"[120]
+</p><p xml:id="129">
+__________NOTES__________
+</p><p xml:id="130">
+[119] <hi rend="it">M</hi> & <hi rend="it">Sh om. </hi>ḥ.<lb/>
+[120] <!-- TODO: &nbsp; -->= PV I 3ab. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="131">
+iti nyāyāt[121]sad iti na vyavahartavyam. ekapratyavamarśam apekṣyāpunarupalabhyamānena[122] vyavahāraḥ.
+</p><p xml:id="132">
+__________NOTES__________
+</p><p xml:id="133">
+[121] <hi rend="it">M </hi>'satīti nyā-; <hi rend="it">Sh </hi>'satī" iti nyā-.<lb/>
+[122] <hi rend="it">Sh </hi>-rśamanape-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="134">
+tad evam [Sh39] indriyārthād utpadyamānaṃ niyatapratibhāsam[123][124]api yatpratibhāsāc[125] cāvidyānubhavavāsanāvaśād[126][127]udīyamānaṃ jñānam.
+</p><p xml:id="135">
+__________NOTES__________
+</p><p xml:id="136">
+[123] Cf. NBT 49, 1-51, 3.<lb/>
+[124] Y I: 88. <lb/>
+[125] <hi rend="it">Sh</hi> yat pra-. <lb/>
+[126] <hi rend="it">M </hi>-sāñ cāvi- ; <hi rend="it">Sh </hi>-sā'rthyā'vi-. <lb/>
+[127] Cf. TR 34, 9; 43, 4. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="137">
+<!-- TODO: &nbsp;&nbsp; atra prayogaḥ&nbsp; -->----- yat pūrvāparakālasvabhāvānanusandhāyi[128]
+</p><p xml:id="138">
+__________NOTES__________
+</p><p xml:id="139">
+[128] Cf. TBh 11, 15f: "pūrvāparam anusandhāya śabdasaṅkīrṇākārā pratītir.....; PV III 174=PVin I v.8.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="140">
+rūpādyekākāraniyatapratibhāsaṃ jñānaṃ na tat[129]
+</p><p xml:id="141">
+__________NOTES__________
+</p><p xml:id="142">
+[129] <hi rend="it">Sh inserts</hi> tu; <hi rend="it">M </hi>tat tat?<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="143">
+saṅketavyavahārakālopayogiśabdasaṃsargayogyapratibhāsam, yathā rūpādivikalpavijñānasvarūpaviṣayo'nubhavaḥ[130][131], yathoktasādhanopetañ ca cakṣūrūpajanitaṃ[132] vijñānam.
+</p><p xml:id="144">
+__________NOTES__________
+</p><p xml:id="145">
+[130] <hi rend="it">Sh inserts </hi>hy ; <hi rend="it">M </hi>-ṣayo anu-.<lb/>
+[131] Cf. NB I s. 5: "abhilāpasaṃsargayogyapratibhāsā pratītiḥ kalpanā". <lb/>
+[132] <hi rend="it">M </hi>vijñātanaṃ. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="146">
+<!-- TODO: &nbsp;&nbsp; --> ayaṃ kāraṇaviruddhopalambhaḥ[133][134]sambhāvanīyaḥ[135]. nāsiddhiḥ[136].
+</p><p xml:id="147">
+__________NOTES__________
+</p><p xml:id="148">
+[133] M <hi rend="it">inserts/ </hi>(daṇḍa).<lb/>
+[134] Cf. PV III 287. <lb/>
+[135] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-nīyo. <lb/>
+[136] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-ddhisin-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="149">
+sindhuravadhūvidhūtatvena
+</p><p xml:id="150">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "pratibhāso'sya nāsyeti nopapattes tu gocaraḥ/" iti,<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "saṃvedanasya tādātmye na vivādo'sti kasya cit/"[137]
+</p><p xml:id="151">
+__________NOTES__________
+</p><p xml:id="152">
+[137] <!-- TODO: &nbsp; -->= PV III 422ab.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="153">
+iti nyāyāt. svarūpasaṃvedanād eva yathoktaniyatasvabhāvasiddheḥ. aniyatapratibhāse śabdasaṅketasya susaṅkalitatvāt[138]kāryakāraṇabhāvasiddhau satyāṃ na śaṃsanīyam[139] aṃśenāpi[140] saṃśayāvahatvam asya. nāpi virodho'pi nāmāsya sannidhānam anubadhnāti.
+</p><p xml:id="154">
+__________NOTES__________
+</p><p xml:id="155">
+[138] <hi rend="it">Sh </hi>sasaṅka-.<lb/>
+[139] <hi rend="it">M </hi>saṃśa-. <lb/>
+[140] M -nīyaṃ maṃśe-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="156">
+sapakṣatām āvahati, vikalpavijñānasvabhāvānu[M19b]bhave sambhavāt.[141]
+</p><p xml:id="157">
+__________NOTES__________
+</p><p xml:id="158">
+[141] Cf. TR 39, 6: "yathā rūpādivikalpajñānasvarūpaviṣayo'nubhavaḥ".<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="159">
+jñānaparokṣatāpakṣas tu kṣapayiṣyate.
+</p><p xml:id="160">
+<!-- TODO: &nbsp;&nbsp;&nbsp; --> aniyatapratibhāsaṃ kathaṃ kāraṇaṃ[142]śabdayojanāyāḥ. ucyate---
+</p><p xml:id="161">
+__________NOTES__________
+</p><p xml:id="162">
+[142] <hi rend="it">Sh </hi>karaṇaṃ.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="163">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "viśeṣaṇaṃ[143]viśeṣyañ ca sambandhaṃ laukikīṃ sthitim/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> gṛhītvā saṅkalayyaitat tathā pratyeti nānyathā//
+</p><p xml:id="164">
+__________NOTES__________
+</p><p xml:id="165">
+[143] <hi rend="it">M</hi> & <hi rend="it">Sh om. </hi>ṃ.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="166">
+yathā daṇḍini"[144]
+</p><p xml:id="167">
+__________NOTES__________
+</p><p xml:id="168">
+[144] <!-- TODO: &nbsp; -->= PV III 145-146a. Cf. PVin I v. 7.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="169">
+yad vijñānaṃ viśeṣaṇarūpatayā vācakaṃ paricchinatti, rūpatayā ca nīlādikam.
+</p><p xml:id="170">
+sambandhavyavahārakālavyāpināpi[145]svabhāvena viśeṣaṇaṃ viśeṣyañ ca bhavad bhavet.
+</p><p xml:id="171">
+__________NOTES__________
+</p><p xml:id="172">
+[145] Y I: 89.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="173">
+tādṛśañ ca rūpaṃ gṛhṇad viśeṣaṇaṃ viśeṣyaṃ [Sh40] vā gṛhṇīyāt.
+</p><p xml:id="174">
+viśeṣaṇaviśeṣyayoś[146]ca sambandham. laukikīṃ sthitiṃ puruṣo daṇḍī na puruṣī daṇḍa iti.
+</p><p xml:id="175">
+__________NOTES__________
+</p><p xml:id="176">
+[146] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-ṇaviśeṣayoś.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="177">
+śiromān[147]samagreṇa[148]śṛṅgeṇa śṛṅgī, na galake lambamānena. tathā samastaṃ smṛtvā viśeṣaṇayuktaviśeṣyaṃ sakṛd gṛhṇāti, nānevaṃrūpatve.
+</p><p xml:id="178">
+__________NOTES__________
+</p><p xml:id="179">
+[147] <hi rend="it">M </hi>-mād?<lb/>
+[148] <hi rend="it">M </hi>-grena. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="180">
+<!-- TODO: &nbsp;&nbsp; --> tathā hi puruṣaś cāsti daṇḍaś ca, kiṃ na sarve daṇḍinaḥ saṃyogāc cet, saṃyogo'py asti.
+</p><p xml:id="181">
+kiṃ na sarve daṇḍinaḥ, saṃyogasya guṇatvena yatrāsau samavetaḥ sa eva daṇḍīti cet, samavāyo'py asti. kiṃ na sarve daṇḍinaḥ, yadaṅgatayā gṛhyate sa eva daṇḍīti cet, evaṃ tarhi daṇḍāder api[149]sāṃvṛtatām abhikhyāyāta[150].
+</p><p xml:id="182">
+__________NOTES__________
+</p><p xml:id="183">
+[149] <hi rend="it">M looks</hi> -devapi <hi rend="it">or</hi> -decapi.<lb/>
+[150] <hi rend="it">M </hi>-vṛtāti?āyātaṃ; <hi rend="it">Sh </hi>-vṛtā'bhivyāpātam(?). <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="184">
+<!-- TODO: &nbsp;&nbsp; --> yat pūrvāparakālānanusandhāyi viśeṣaṇena saha viśeṣyasyāgrāhakañ[151]ca[152]tan niyatapratibhāsam ucyate, tat kathaṃ na kāraṇaṃ viruddham.
+</p><p xml:id="185">
+__________NOTES__________
+</p><p xml:id="186">
+[151] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>-syagrāha-.<lb/>
+[152] <hi rend="it">Sh om</hi>. ca. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="187">
+prabalavikalpavāsanāpavanarayapreryamāṇātmano jñānapādapasyānyatra pratipacchāyānyatrādhyavasāyapāṇḍupatraprayātaḥ[153][154].
+</p><p xml:id="188">
+__________NOTES__________
+</p><p xml:id="189">
+[153] <hi rend="it">M </hi>'nyatrāvadhya-.<lb/>
+[154] <hi rend="it">Sh </hi>-trapātaḥ! <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="190">
+<!-- TODO: &nbsp;&nbsp; --> atha ko[155]'dhyavasāyo nāma. yadi grahaṇaṃ grahaṇam iti vaktavyam, athāpi [M20a] tadabhāvas tathāpy agrahaṇam evāstu. satyam. asannihitatayānusandhānam adhyavasāyo grahaṇaviśeṣaḥ.
+</p><p xml:id="191">
+__________NOTES__________
+</p><p xml:id="192">
+[155] <hi rend="it">Or </hi>kathaṃ ko?<hi rend="it">M</hi> & <hi rend="it">Sh </hi>kathako.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="193">
+<!-- TODO: &nbsp;&nbsp; --> yat smaraṇādisāmagrīrahitendriyajanitaṃ[156]tan nirvikalpam[157]astu, yat smaraṇādisāmagrīsavyapekśendriyajaṃ tad vikalpakam[158]astu. na, <hi rend="bf">[Sh41]</hi> aviṣaye'vṛtteḥ.
+</p><p xml:id="194">
+__________NOTES__________
+</p><p xml:id="195">
+[156] <hi rend="it">Sh </hi>grīsavyapekṣendri-.<lb/>
+[157] <hi rend="it">Sh </hi>-lpakam. <lb/>
+[158] <hi rend="it">Sh </hi>tat savikal-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="196">
+pratyakṣasyāsannihitaṃ[159]viśeṣaṇatvādi na viṣayaḥ. viśeṣaṇatvaṃ hi na vastunaḥ[160]sampraty asti.
+</p><p xml:id="197">
+__________NOTES__________
+</p><p xml:id="198">
+[159] Y I: 90.<lb/>
+[160] <hi rend="it">Sh </hi>vastutah. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="199">
+astitve[161]kiṃ[162]smaraṇena, tataś ca smaraṇenopanītam api viśeṣaṇatvādi nāsannihitatvaṃ[163] jahāti.
+</p><p xml:id="200">
+__________NOTES__________
+</p><p xml:id="201">
+[161] <hi rend="it">M </hi>astiketve.<lb/>
+[162] <hi rend="it">Sh </hi>ki. <lb/>
+[163] <hi rend="it">Sh </hi>tvādinā sanni-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="202">
+tasmād asannihitatvāt pratyakṣāviṣayaḥ.
+</p><p xml:id="203">
+<!-- TODO: &nbsp;&nbsp; --> na ca jātyādiviśiṣṭārthavikalpaś cakṣurarthasannidhāv eva bhavati, atītādiṣv api sambhavāt, vinā cārthaiḥ nimīlitavilocanasyāpi[164]gaur iti vikalpanāt.[165]
+</p><p xml:id="204">
+__________NOTES__________
+</p><p xml:id="205">
+[164] <hi rend="it">Sh </hi>-cananyāyi-.<lb/>
+[165] Cf. TBh 12, 15f. TBh 13,2-4: yadi punaḥ kalpanājñānam arthād upajāyate, tenāpi tadā ghaṭādir artho dṛśyeta. tataś cāndhasyāpi rūpadarśanaprasaṅgaḥ, na cāsti. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="206">
+<!-- TODO: &nbsp;&nbsp; --> nānyathedantayeti[166]cet. idantayā viśiṣṭaṃ jñānaṃ na[167]sannihitārthaniścayarūpam adhyakṣam akṣasāpekṣañ ca, ubhayanirapekṣatvāt[168]. tathā hi "śuklo gaur ayam" iti cākṣuṣo[169] 'nantaraṃ tathā spṛśato 'pi "sukumāraḥ śuklo 'yaṃ gaur" iti. ubhayaviṣayam api niścayanam idantayā viśiṣṭam.
+</p><p xml:id="207">
+__________NOTES__________
+</p><p xml:id="208">
+[166] <hi rend="it">M </hi>-dantatprayeti.<lb/>
+[167] <hi rend="it">M</hi> & <hi rend="it">Sh om</hi>. na. <lb/>
+[168] <hi rend="it">M </hi>ubhaya / nira-. <lb/>
+[169] <hi rend="it">M </hi>cakṣu-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="209">
+na cāndhatamase rūpasya śaktir asti, na vā cakṣuṣaḥ. na ca sparśenendriyeṇa[170]rūpagrahaṇam evaṃ sparśasya cakṣuṣi vyabhicāro vācyaḥ. tasmāc cakṣuḥsparśanābhyāṃ[171]bhinnaṃ viṣayam upalabhyānyad eva tatsahacarasamudāyaviṣayaṃ smārtam[172]abhedajñānam utpadyate.[173][174] tathā viśeṣyān svair indriyair bhinnān upalabhyārthāntaravya[M20b]vacchedaviṣayam[175]abhedena[176] sarvatra mānasaṃ jñānam utpadyate. na bhāvaguṇatvayoḥ pratyakṣam, tasyānupalakṣaṇāt[177].
+</p><p xml:id="210">
+__________NOTES__________
+</p><p xml:id="211">
+[170] <hi rend="it">Sh </hi>spārśe-.<lb/>
+[171] <hi rend="it">Sh om</hi>. ḥ.<lb/>
+[172] <hi rend="it">Sh </hi>sparśam. <lb/>
+[173] <!-- TODO: &nbsp; -->= PSV (M. Hattori, "Dignāga, on Perception" Harvard Oriental Series, No. 47, Cambridge, 1968) p. 48, 6-10 (translation); p. 204, 35-37; p. 205, 34-36. <lb/>
+[174] <!-- TODO: &nbsp; -->= PSV (M. Hattori, op. cit.) p. 48, 15-28 (translation); p. 206, 1-7; 205, 37-207,5. <lb/>
+[175] artha(<hi rend="it">Tib</hi> don) <hi rend="it">added from PSV</hi>. <lb/>
+[176] <hi rend="it">Sh </hi>-ṣayabhede. <lb/>
+[177] <hi rend="it">Sh </hi>-palambhāt. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="212">
+pratyakṣābhimāna eṣa[178]kutārkikāṇām, pratyakṣāsannivṛttitvāt.
+</p><p xml:id="213">
+__________NOTES__________
+</p><p xml:id="214">
+[178] <hi rend="it">M </hi>-mānaṃ eṣa; <hi rend="it">Sh </hi>mānam eṣu.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="215">
+<!-- TODO: &nbsp;&nbsp; --> uktañ ca [Sh42] "darśanasparśanānvayo[179]mānasa eva smārto[180]vibhrama" iti. "yam aham adrakṣaṃ tam eva[181]hi spṛśāmī"ti[182]vikalpād[183]dravyaparikalpaḥ kalpāvadhivyasanam, bhrāntyaiva samarthitatvāt. tasmān mano 'bhisaṃskṛtam arthaviśeṣaṇam arthaṃ nendriyaṃ pratyeti.
+</p><p xml:id="216">
+__________NOTES__________
+</p><p xml:id="217">
+[179] <hi rend="it">Sh </hi>-rśanā'nanvayo.<lb/>
+[180] Y I: 91. <lb/>
+[181] <hi rend="it">M </hi>yamahāmudrākṣakaṃ tam eva; <hi rend="it">Sh </hi>yamahāmudrākṣita[?]meva. <lb/>
+[182] NBh ad NS 3, 1, 1: "...yam aham adrākṣaṃ cakṣuṣā taṃ sparśanenāpi spṛśāmīti... "; NV ad NS 1, 1, 14: "...yam aham adrākṣaṃ taṃ spṛśāmīti... ".<lb/>
+[183] <hi rend="it">Sh </hi>-lpāt. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="218">
+<!-- TODO: &nbsp;&nbsp; --> yat pratyekaṃ samudāye ca tad vastuno rūpam[184], tad yathā nīlatvam. yat pratyekam asat samudāye cāsti sa samudāyadharmaḥ, yathā caturasratvādi.[185]sthaulyaṃ tu samudāyapratibhāsadharmaḥ[186].[187]bahuṣu pratibhāsamāneṣu nirantareṣu sthūlam iti pratyayaḥ. tena rūpaṃ sparśo vā sthūlaḥ, na tu tadatiriktaṃ dravyaṃ sthūlam apatibhāsanāt.
+</p><p xml:id="219">
+__________NOTES__________
+</p><p xml:id="220">
+[184] Cf. TR 43,7-8: "śuklaṃ hi rūpaṃ pratyekaṃ samudāye cāsti vastuno rūpam".<lb/>
+[185] Cf. NBT 41,5-42,2; DhPr 42,23-24 ("sanniveśaś catursratvādiḥ pratibhāsadharmaḥ"); 43, 9-10 ("eko'yaṃ sthūla iti tu tathābhūtapratibhāsāśrayeṇa vyavasthāpyamānatvāt pratibhāsadharma ity ucyate. na vastudharmaḥ pratyekam aparisamāpter"; PVinT 10b2-3 "maṅ po rnams śes pa gcig la snaṅ ba na riṅ po la sogs pa'i dbyibs tshogs pa'i yul la rnam par gnas pa ni so sor snaṅ pa'i chos yin gyi dṅos po'i chos ma yin pa'i phyir dkar po ma bzuṅ na de'i chos sam g'zan gyi chos kyi dbyibs ma bzuṅ bas na slu ba yin pa'i phyir ser por śes pa ni tshad ma ma yin no. "<lb/>
+[186] <hi rend="it">M </hi>-prati..bhāsa-. <lb/>
+[187] Cf. TBh 66, 18-19: "yady evaṃ kathaṃ pratibhāsadharmaḥ sthaulyam ity uktaṃ dharmottareṇa". <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="221">
+<!-- TODO: &nbsp;&nbsp; --> atha yadi pratibhāsadharmaḥ sthaulyaṃ tadā tat kim āntaram āhosvid bahiḥ, atha tad antar na[188]na bahir yad eva ca punar nistattvam[189]āropitam iti cet. tadāpi nāsty eveti vaktavyam. kim ucyate, "pratibhāsadharmaḥ sthaulyam" iti. satyam, sthaulyaṃ nāmāsthūlaparāvṛttaṃ rūpam, na vidhirūpaṃ kiñ cit. tato nistattvam[190]api sthūlaparāmarśena[191]vyavahriyamāṇatvāt saṃvṛtisad etan, na tu nāsty eva sarvathā. sāmānyam evaikapratyavamarśaviṣayatvena yathāsti. āha ca --
+</p><p xml:id="222">
+__________NOTES__________
+</p><p xml:id="223">
+[188] <hi rend="it">M </hi>no; <hi rend="it">Sh </hi>yo.<lb/>
+[189] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>nistatvam. <lb/>
+[190] <hi rend="it">M</hi> & <hi rend="it">Sh </hi>nistatvam. <lb/>
+[191] <hi rend="it">Sh<!-- TODO: &nbsp; --></hi>-lamaparā-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="224">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "sthūlapratyavamarśasya hetutvāt sthūlatā dhiyaḥ/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> sthūladhīhetubhāvena bhā<hi rend="bf">[M21a]</hi>vānāṃ[192]sthūlatā matā//"[193]
+</p><p xml:id="225">
+__________NOTES__________
+</p><p xml:id="226">
+[192] <hi rend="it">M repeats</hi> venabhā.<lb/>
+[193] Cf. PV I 109: "ekapratyavamarśasya hetutvād dhir abhedinī/ ekadhīhetubhāvena vyaktīnām apy abhinnatā//" <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="227">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->[Sh43] pratyavamarśa eva kiṃ sthūlam āropayatīti cet.
+</p><p xml:id="228">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> "astīyam api yā tv antarupaplavasamudbhavā/<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> doṣodbhavā prakṛtyā sā vitathapratibhāsinī//"[194]
+</p><p xml:id="229">
+__________NOTES__________
+</p><p xml:id="230">
+[194] <!-- TODO: &nbsp; -->= PV III 361cd-362ab.<lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="231">
+iti nyāyād avidyānubhavavāsanābhāvitvād ity asakṛd uktam.[195][196]tena sthūlaṃ nīlam iti pratibhāse 'pi na[197]nīle vasturūpe vibhramaḥ. vibhramas tu śaṅkhe pītapratibhāsaḥ. śuklaṃ[198]hi rūpaṃ pratyekaṃ samudāye[199]cāsti vastuno rūpam.[200]tatsamudāyadharmaś ca saṃsthānam.
+</p><p xml:id="232">
+__________NOTES__________
+</p><p xml:id="233">
+[195] Cf. TR 34, 9f; 39, 1f.<lb/>
+[196] Y I: 92. <lb/>
+[197] <hi rend="it">Sh</hi> ta. <lb/>
+[198] <hi rend="it">M </hi>śuklahi. <lb/>
+[199] <hi rend="it">Sh</hi> samudaye. <lb/>
+[200] Cf. TR 42, 5: "yat pratyekaṃ samudāye ca tad vastuno rūpam". <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="234">
+śuklāpratibhāse tadātmakasaṃstānasyāpratibhāsaḥ. tataḥ pītaśaṅkhajñānaṃ nāṅgenāpi saṃvādakam, nāpi ca vastunaḥ sākṣātkārakam. ato viśeṣaṇadvayaṃ vipratipattinirākaraṇārtham.
+</p><p xml:id="235">
+<!-- TODO: &nbsp;&nbsp; --> yat punar bhrāntijñāne[201], "alaukikatvād ubhayātmayogāt smṛtipramoṣād viparītacittair[202]" ityādinānāvyavahṛtiḥ. tatra na nāmni vivadāmahe. vivakṣitavasturūpaṃ na sākṣātkṛtam iti tu paramārthaḥ.
+</p><p xml:id="236">
+__________NOTES__________
+</p><p xml:id="237">
+[201] <hi rend="it">M </hi>punabhrā-.<lb/>
+[202] <hi rend="it">M </hi>-citter. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="238">
+<!-- TODO: &nbsp;&nbsp; --> "tato 'rthād vijñānaṃ pratyakṣam"ity ācāryavasubandhupādānāṃ lakṣaṇaṃ nyūnam.
+</p><p xml:id="239">
+naiyāyikīyam "indriyārthasannikarṣotpannaṃ jñānam avyapadeśyam avyabhicāri vyavasāyātmakaṃ pratyakṣam". vaiśeṣikīyam "dravyeṣu pratyakṣam ātmendriyamano 'rthasannikarṣād yan niṣpadyate tad anyad" iti.<!-- TODO: &nbsp; --> <hi rend="bf">[Sh44]</hi> kāpilānām api "śrotrādivṛttiḥ pratyakṣam. śrotratvakcakṣurjihvāghrāṇānāṃ[203]manasādhiṣṭhitā[204]vṛttiḥ [M21b] śabdasparśarūparasagandheṣu yathākramaṃ grahaṇe vartamānā pratyakṣaṃ pramāṇam".
+</p><p xml:id="240">
+__________NOTES__________<lb/>
+[203] <hi rend="it">Sh </hi>-traṃtvak-.<lb/>
+[204] <hi rend="it">M </hi>manusā-; <hi rend="it">Sh </hi>-ṇānāmarthasādhi-. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="241">
+mīmāmsāyām "satsaṃprayoge puruṣasyendriyāṇāṃ buddhijanma tat pratyakṣam". sarvam etad dravyaguṇātmādinirākaraṇād[205]ayathārtham.
+</p><p xml:id="242">
+__________NOTES__________
+</p><p xml:id="243">
+[205] <hi rend="it">Sh om.</hi> tmā. <lb/>
+<note type="segmentation">___________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="244">
+iti tarkarahasye svaparapratyakṣalakṣaṇanyāyanirṇayo dvitīyaḥ.
+</p>
+</body>
+</text>
+</TEI>

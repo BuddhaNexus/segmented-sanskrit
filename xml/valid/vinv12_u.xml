@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_pudgalavastu">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Pudgalavastu</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the edition by N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu,  part 3 (Srinagar 1943), pp. 59-88: Pudgalavastu (second edition: Delhi 1984).-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Pudgalavastu of the Vinayavastvagama of the Mulasarvastivadin (= Vastu 12 of the Vinayavastu)<BR>
+Based on the edition by N. Dutt: Gilgit Manuscript, vol. III: Mūlasarvāstivādavinayavastu, <BR>
+part 3 (Srinagar 1943), pp. 59-88: Pudgalavastu (second edition: Delhi 1984).<BR>
+Input by Klaus Wille, Göttingen<BR>
+ABBREVIATIONS:<BR>
+GBM =  Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh Chandra, 10 pts., New Delhi 1959Ō1974 (Śata-Piṭaka Series 10). (The Vinayavastu manuscript is reproduced in vol. 6) [repr. in 3 parts Delhi 1995. (The Vinayavastu manuscript is reproduced in vol. 2)]<BR>
+MSV III = Gilgit Manuscript, ed. N. Dutt, vol. III, part 3, Srinagar 1943.<BR>
+BOLD for references<BR>
+ITALICS for restored passages<BR>
+Some of Dutt's reading have been corrected by K. Wille according to the manuscript, for example:<BR>
+<i>samudyatam</i>; MS: <i>samudditam</i><BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+(<hi rend="bf">MSV III 59</hi>)<lb/>
+pudgalavastu
+</p><p xml:id="1">
+(<hi rend="bf">MSV III 61</hi>)<lb/>
+piṇḍoddānam* /
+</p><p xml:id="2">
+udāyī samucchrayaḥ paryanto 'thāpareṇa bhavati paścimam* /
+</p><p xml:id="3">
+uddānam* /
+</p><p xml:id="4">
+udāyī anyena smaranti lajjita idānīṃ jānāmi dvaya dvaya kṛtam* /<lb/>
+sudatta durdatta catuṣkabhāṣitam* smṛtipramoṣeṇa catvāraḥ prakāśitāḥ //
+</p><p xml:id="5">
+buddho bhagavān śrāvastyāṃ viharati jetavane anāthapiṇḍadasyārame / tena khalu samayena udāyī saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām (<hi rend="bf">303r1 = GBM 6.918</hi>) ardhamāsapraticchannām* / <hi rend="it">e</hi>tat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavaḥ udāyino bhikṣor asyāḥ saṃghāvaśeṣāyā āpatteḥ saṃcintyaśukravisṛṣṭisamutthitāyā ardhamāsapraticchannāyā ardhamāsaṃ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="6">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavo 'sya pudgalasyāsyāḥ saṃghāvaśeṣāyā āpatter apraticchannāyāḥ ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="7">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / sa te dve āpattī dvau māsau na jānāti / dvayor māsayor atyayāj jñātvā dvau māsau (<hi rend="bf">MSV III 62</hi>) praticchādya ekāṃ bhikṣūṇām ārocayati / <hi rend="it">ekāṃ nārocayati / tasya</hi> saṃghena dvau māsau parivāso dattaḥ / sa pārivāsika eva san tām anyāpattiṃ pratijānāti yā anena saṃghamadhye nārocayati / sa etat prakaraṇaṃ bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasyāpattes tāv eva dvau māsau parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ / yathā pratijānāty evaṃ smarati /
+</p><p xml:id="8">
+athāparaḥ pudgalaḥ saṃghāvaśeṣe dve āpattī āpannaḥ / sa te dve āpattī dvau māsau na jānāti / dvayor māsayor atyayāj jñātvā dvau māsau praticchādya ekāṃ bhikṣūṇām ārocayati / ekāṃ nārocayati / tasya saṃghe<hi rend="it">na</hi> dvau māsau parivāso dattaḥ / sa pārivāsiko lajjī dharmam avakrāntaḥ / sa etat prakaraṇaṃ bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣe dve āpattī āpannaḥ / so 'haṃ te dve āpattī dvau māsau na jānāmi / dvayor māsayor atyayāj jñātvā dvau māsau praticchādya ekāṃ bhikṣūṇām ārocayāmi / tasya mama saṃghena dvau māsau parivāso dattaḥ / so 'haṃ pārivāsiko lajjī dharmam avakrāntaḥ / tasya tat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatter yathāpraticchannāyāḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ / yathā jānāty evaṃ smarati /
+</p><p xml:id="9">
+(<hi rend="bf">MSV III 63</hi>)<lb/>
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / sa tv ardhamāsaṃ prātimokṣasūtroddeśa uddiśyamāne evam āha idānīm aham āyuṣmanto jāne yathā<hi rend="it">yaṃ</hi> dharmaḥ sūtragataḥ sūtraparyāpanna iti / taṃ ced bhikṣavo jānīran saṃniṣaṇṇaḥ pūrvo 'yam āyuṣmān dve trīṇi vā poṣadhakarmāṇi kaḥ punar vādo bhūya iti / tasyāyuṣmato naivājñānān muktiḥ / sa yāṃ cāpattim āpannas tāṃ ca yathādharmaṃ kārayitavyaḥ / uttare ca saṃvejayitavyaḥ / yathā jānāty evaṃ smarati /
+</p><p xml:id="10">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / sa tv ardhamāsaṃ prātimokṣasūtroddeśa uddiśyamāne evam āha idānīm aham āyuṣmanto jāne yathāyaṃ dharmaḥ sūtragataḥ sūtraparyāpanna iti / taṃ ced bhikṣavo na jānīran saṃniṣaṇṇaḥ pūrvo 'yam āyuṣmān dve trīṇi vā poṣadhakarmāṇi kaḥ punar vādo bhūya iti / tasyaivāyuṣmato naivājñānān muktiḥ / sa <hi rend="it">yāṃ</hi> cāpattim (<hi rend="bf">303v1 = GBM 6.919</hi>) āpannas tāṃ yathādharmaṃ kārayitavyaḥ / yathā jānāty evaṃ smarati /
+</p><p xml:id="11">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / sa tāṃ māsaṃ na jānāti / māsasyātyayāj jñātvā māsaṃ praticchādya bhikṣūṇām ārocayati / tasya saṃghena dvau māsau parivāso dattaḥ / sa pārivāsikaḥ sann āgatāgatānāṃ bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ / so 'haṃ tām āpattim āpanno jānāmi māsasyātyayāj jñātvā māsaṃ praticchādya bhikṣūṇām ārocayāmi / tasya mama saṃghena dvau māsau parivāso dattaḥ / (<hi rend="bf">MSV III 64</hi>) māsam āyuṣmantaḥ sudatto māsaṃ durdattaḥ / tat kasya hetoḥ / adharmatvāt kopyatvāt karmaṇaḥ / yathā jānāty evaṃ smarati /
+</p><p xml:id="12">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / sa tām āpattiṃ māsaṃ na jānāti / māsasyātyayāj jñātvā apraticchādya bhikṣūṇām ārocayati / tasya saṃghena māsaṃ parivāso dattaḥ / sa āgatāgatānāṃ bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ / so 'haṃ tām āpattim māsaṃ na jānāmi / māsasyātyayāj jñātvā apraticchādya bhikṣūṇām ārocayāmi / tasya mama saṃghena māsaṃ parivāso dattaḥ / durdattaḥ āyuṣman na sudattaḥ / tat kasya hetoḥ / mānāpyārha āyuṣman* / yathā jānāty evaṃ smarati /
+</p><p xml:id="13">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannāṃ deśayiṣyāmīti na smarati / sa tām āpattiṃ smṛtvāpraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatter ubhayasaṃtateḥ parivāsaṃ pūrvikāyāḥ paścimakāyā iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="14">
+<hi rend="bf">MSV III 65</hi>)<lb/>
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannāṃ deśayiṣyāmīti na smarati / sa tām smṛtvā apraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavata ārocayati / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ pūrvikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="15">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpanna<hi rend="it">s tām a</hi>praticchannāṃ deśayiṣyāmīti na smarati / sa tām smṛtvā praticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya <hi rend="it">tasyā ā</hi>patteḥ pūrvikāyāḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="16">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannas tām apraticchannāṃ deśayiṣyāmīti na smarati / sa tām smṛtvā apraticchādyaiva bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="17">
+uddānam* /
+</p><p xml:id="18">
+samucchrayeṇa ṣoḍaśa dve pañca aṣṭaviṃśake /<lb/>
+(<hi rend="bf">MSV III 66</hi>)<lb/>
+tribhis tribhir aṣṭakābhis tisṛbhiś catuścatura aṣṭakāḥ /<lb/>
+utkṣiptā aṣṭakās tisro mukhāḥ pañca samudditāḥ //
+</p><p xml:id="19">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannāṃ vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa tām (<hi rend="bf">304r1 = GBM 6.920</hi>) āpattiṃ praticchādyaiva bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ <hi rend="it">ubhaya</hi>saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="20">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannāṃ vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa tām āpattim apraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ pūrvikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="21">
+<hi rend="it">athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannāṃ vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa tām āpattiṃ praticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ paścimikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /</hi>
+</p><p xml:id="22">
+(<hi rend="bf">MSV III 67</hi>)<lb/>
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannāṃ vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa tām āpattim apraticchādyaiva bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tasyā āpatteḥ ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="23">
+yathā śuddhakena catvāri evaṃ jānataś catvāri / smarataś catvāri / vaimatikena catvāri / anenākāreṇa aparāpi catuṣkikā / kiṃ tu peyālaviśeṣaḥ /
+</p><p xml:id="24">
+athāparaḥ <hi rend="it">pudgalaḥ</hi> evaṃ pārivāsika eva vaktavyaḥ / yathā pārivāsikaḥ evaṃ paryuṣitaparivāso mānāpyacārikaś caritamānāpyaḥ śikṣādattakaś catuṣkikāyāṃ yojayitavyāḥ / yathā vibhrāntaḥ evaṃ śramaṇoddeśakatvaṃ pratijānāti / unmattakatvaṃ vikṣiptacittakatvaṃ vedanābhinnakatvam adarśanāyotkṣepakatvam apratikarmāyotkṣepakatvam apratinisṛṣṭe ca pāpake dṛṣṭigate utkṣepakatvam iti vistareṇa yojayitavyam* /
+</p><p xml:id="25">
+athāparaḥ pudgalo dve saṃghāvaśeṣe āpattī āpannaḥ praticchannāṃ cāpraticchannāṃ ca vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa yāṃ praticchādya vibhrāntas tāṃ praticchādyaiva bhikṣūṇām ārocayati / yām apraticchādya <hi rend="it">tāṃ praticchādya</hi> bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasyobhayasaṃtateḥ parivāsam* / ekasyāḥ pūrvikāyā dvitīyasyāḥ paścimikāyā iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="26">
+(<hi rend="bf">MSV III 68</hi>)<lb/>
+athāparaḥ pudgalaḥ saṃghāvaśeṣe dve āpattī āpannaḥ praticchannāṃ cāpraticchannāṃ ca vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa yāṃ praticchādya vibhrāntas tām apraticchādyaiva bhikṣūṇām ārocayati / yām apraticchādya tām apraticchādyaiva bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasyaikasyā āpatteḥ pūrvikāyāḥ saṃtateḥ parivāsam* / ekasyāḥ paścimikāyāḥ ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="27">
+athāparaḥ pudgalaḥ saṃghāvaśeṣe dve āpattī āpannaḥ praticchannāṃ cāpraticchannāṃ ca vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa yāṃ praticchādya vibhrāntas tām apraticchādya bhikṣūṇām ārocayati / yāṃ tv apraticchādya tāṃ praticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasyaikasyā āpatteḥ pūrvikāyāḥ saṃtateḥ parivāsam* / ekasyāḥ paścimikāyāḥ <hi rend="it">parivāsa</hi>m iti / (<hi rend="bf">304v1 = GBM 6.921</hi>) yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="28">
+athāparaḥ pudgalaḥ <hi rend="it">saṃghāvaśeṣe dve āpattī āpannaḥ</hi> praticchannāṃ cāpraticchannāṃ ca vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / sa yāṃ praticchādya vibhrāntas tām apraticchādya bhikṣūṇām ārocayati / yāṃ tv apraticchādya tām apraticchādyaiva bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasyaikasyā (<hi rend="bf">MSV III 69</hi>) āpatteḥ pūrvikāyāḥ saṃtateḥ parivāsam* / ekasyāḥ paścimikāyāḥ ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="29">
+athāparaḥ pudgalaḥ evaṃ pārivāsikaḥ paryuṣitaparivāso mānāpyacārikaś caritamānāpyaḥ śikṣādattakaś ca vaktavyaḥ / yathā vibhrāntaḥ evaṃ śramaṇoddeśakatvaṃ pratijānāti / unmattakatvaṃ pratijānāti / vikṣiptacittakatvaṃ vedanābhinnakatvam adarśanāyotkṣiptakatvam apratinisṛṣṭe pāpake dṛṣṭigate utkṣiptakatvam iti vistareṇa vācyam* /
+</p><p xml:id="30">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / parimāṇavatīḥ praticchannāḥ / sa saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tā āpattīḥ praticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnāṃ parimāṇavatya iti kṛtvā ubhayasaṃtateḥ parivāsaṃ pūrvikāyāḥ paścimikāyāś ceti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="31">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / parimāṇavatīḥ praticchannāḥ / sa saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tā āpattīr apraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnāṃ parimāṇavatya iti kṛtvā pūrvikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="32">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / parimāṇavatīr apraticchannāḥ / sa saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tā āpattīḥ (<hi rend="bf">MSV III 70</hi>) praticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnāṃ parimāṇavatya iti kṛtvā paścimikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="33">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / parimāṇavatīr apraticchannāḥ / sa saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tā āpattīr apraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnāṃ parimāṇavatya iti kṛtvā ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="34">
+yathā parimāṇavatīr evam aparimāṇavatīḥ / yathā (<hi rend="bf">305r1 = GBM 6.922</hi>) adarśanāyotkṣiptakenāṣṭāv evam apratikarmāyotkṣiptakenāṣṭāv evam apratinisṛṣṭe pāpake dṛṣṭigate utkṣiptakenāṣṭau /
+</p><p xml:id="35">
+pārivāsikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpanno vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / aparyuṣitaparivāsaṃ <hi rend="it">parivasa</hi>tu / paryuṣitaparivāso bhaviṣyatīti /
+</p><p xml:id="36">
+yathā vibhrānta evaṃ śramaṇoddeśakatvaṃ pratijānāti / unmattakatvaṃ <hi rend="it">vi</hi>kṣiptacittakatvaṃ vedanābhinnakatvam adarśanāyotkṣiptakatvam apratikarmāyotkṣiptakatvam* /
+</p><p xml:id="37">
+paryuṣitaparivāsaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpanno vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / (<hi rend="bf">MSV III 71</hi>) bhagavān āha / paryuṣitaparivāsa evāsau bhikṣavaḥ pudgalaḥ / dadatāsya mānāpyam iti /
+</p><p xml:id="38">
+yathā vibhrāntaḥ <hi rend="it">evaṃ śramaṇoddeśa</hi>katvaṃ pratijānāti / pūrvavad eva peyālo yāvad apratinisṛṣṭe pāpake dṛṣṭigate utkṣiptakatvam* /
+</p><p xml:id="39">
+mānāpyacārikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpanno vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / acaritaṃ caratu / caritamānāpyo bhaviṣyatīti / yathā vibhrāntaḥ pūrvavat* / eṣa eva peyālaḥ /
+</p><p xml:id="40">
+caritamānāpyaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpanno vibhrāntaḥ / sa āgatya punar upasaṃpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / caritamānāpya evāsau bhikṣavaḥ / āvarhatainam iti / yathā vibhrāntaḥ pūrvavat* / eṣa eva peyālaḥ /
+</p><p xml:id="41">
+adarśanāyotkṣiptakaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / <hi rend="it">sa</hi> saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tām āpattiṃ <hi rend="it">praticchādya</hi> bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsyā āpatteḥ paścimikāyāḥ saṃtateḥ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="42">
+adarśanāyotkṣiptakaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / sa saṃghenādarśanāyotkṣiptaḥ / osāritaḥ sa tām āpattim apraticchādya bhikṣūṇām ārocayati / bhikṣavo bhagavataḥ / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya ṣaḍ rātraṃ mānāpyam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="43">
+(<hi rend="bf">MSV III 72</hi>)<lb/>
+yathā śuddhakena dve evaṃ jānato dve smarato dve vaimatikena dve / yathādarśanāyotkṣiptakenāṣṭau evam apratikarmāyotkṣiptakenāṣṭau apratinisṛṣṭe pāpake dṛṣṭigate utkṣiptakenāṣṭau /
+</p><p xml:id="44">
+uddānam* /
+</p><p xml:id="45">
+paryantena dvādaśikā navikāḥ sārvakālikāḥ /<lb/>
+yāmikāṃ navikāṃ kṛtvā padāni daśa paṃca ca //
+</p><p xml:id="46">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / aparimāṇavatīḥ praticchannāḥ / sa tāsām āpattīnām āpattiparyantaṃ jānāti no tu rātriparyantam* / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnām aparimāṇavatya (<hi rend="bf">305v1 = GBM 6.923</hi>) iti kṛtvā śuddhāntikaṃ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="47">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / aparimāṇavatīḥ praticchannāḥ / sa tāsām āpattīnām rātriparyantaṃ jānāti no tv āpattiparyantam* / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnām aparimāṇavatya (<hi rend="bf">MSV III 73</hi>) iti kṛtvā yathā praticchannānāṃ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="48">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / <hi rend="it">a</hi>parimāṇavatīḥ praticchannāḥ / sa tāsāṃ naivāpattiparyantaṃ jānāti no rātriparyantam iti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnām aparimāṇavatya iti kṛtvā śuddhāntikaṃ parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ /
+</p><p xml:id="49">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / aparimāṇavatīḥ praticchannāḥ / sa tāsām āpattiparyantaṃ jānāti rātriparyantam iti / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / dadata yūyaṃ bhikṣavas tasya pudgalasya tāsām āpattīnām aparimāṇavatya iti kṛtvā yathā praticchannā<hi rend="it">nāṃ</hi> parivāsam iti / yo vā punar anyo 'py evaṃjātīyaḥ / yathā jānataś catvāri evaṃ smarataś catvāri vaimatikaś catvāri /
+</p><p xml:id="50">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa (<hi rend="bf">MSV III 74</hi>) pārivāsika eva <hi rend="it">san</hi> saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / mānāpyam apy adharmeṇa / āvrīḍho 'py adharmeṇa / ayam ucyate sārvakālikaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā āpatter na parimucyate /
+</p><p xml:id="51">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / mānāpyam apy adharmeṇa / āvrīḍho 'py adharmeṇa / (<hi rend="bf">MSV III 75</hi>) ayam ucyate yadbhūyaskālakaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā āpatter na parimucyate /
+</p><p xml:id="52">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa (<hi rend="bf">306r1 = GBM 6.924</hi>) / <hi rend="it">sa</hi> pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlaparivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / <hi rend="it">sa</hi> mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / mānāpyam apy adharmeṇa / āvrīḍho 'py adharmeṇa / ayam ucyate upārdhakālakaḥ pudgalaḥ aśuddhaḥ avyutthita<hi rend="it">s ta</hi>syā <hi rend="it">āpatter na pari</hi>mucyate /
+</p><p xml:id="53">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlaparivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣā<hi rend="it">m āpatti</hi>m āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / mānāpya<hi rend="it">m apy a</hi>dharmeṇa / āvrīḍho 'py adharmeṇa / ayam ucyate ekadeśakālakaḥ pudgalaḥ aśuddho 'vyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="54">
+(<hi rend="bf">MSV III 76</hi>)<lb/>
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ dharmeṇa <hi rend="it">karmaṇā</hi>kopyenāsthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / mānāpyam api dharmeṇa / āvrīḍhas tv adharmeṇa / ayam ucyate pradeśakālakaḥ pudgalaḥ aśuddho 'vyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="55">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlaparivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣo dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / mānāpyam api dharmeṇa / āvrīḍho 'pi dharmeṇa / ayam ucyate apagatakāla<hi rend="it">ka</hi>ḥ pudgalaḥ śuddho vyutthitas tasyā <hi rend="it">ā</hi>patteḥ parimucyate /
+</p><p xml:id="56">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena (<hi rend="bf">306v1 = GBM 6.925</hi>) sthāpanārheṇa / (<hi rend="bf">MSV III 77</hi>) sa mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā <hi rend="it">kopyena</hi> sthāpanārheṇa / sa mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / āvrīḍho 'py adharmeṇa / ayam ucyate sārvakālikaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="57">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / āvrīḍho 'py adharmeṇa / ayam ucyate yadbhūyaskālakaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="58">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlamānāpyaṃ (<hi rend="bf">MSV III 78</hi>) dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarā<hi rend="it">pattim antarā</hi>pattipratirūpāṃ praticchannām* / tasya saṃghena <hi rend="it">mūlāpakarṣamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpa</hi>nārheṇa / āvrīḍho 'py adharmeṇa / ayam ucyate upārdhakālakaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="59">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlamānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / <hi rend="it">sa</hi> mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣamānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / āvrīḍhas tv adharmeṇa / ayam ucyate ekadeśakālakaḥ pudgalaḥ aśuddhaḥ avyutthitas tasyā <hi rend="it">ā</hi>patter na parimucyate /
+</p><p xml:id="60">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ <hi rend="it">a</hi>praticchannām* / tasya saṃghena mānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlamānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / sa (<hi rend="bf">307r1 = GBM 6.926</hi>) mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / tasya saṃghena mūlāpakarṣamānāpyaṃ dattaṃ dharmeṇa karmaṇākopyenāsthāpanārheṇa / (<hi rend="bf">MSV III 79</hi>) āvrīḍho 'pi dharmeṇa / ayam ucyate apagatakālakaḥ pudgalaḥ śuddho vyutthitas tasyā <hi rend="it">ā</hi>patteḥ parimucyate /
+</p><p xml:id="61">
+dvau pudgalau saṃghāvaśeṣām āpattim āpannau deśayiṣyāvo deśayiṣyāva iti / tatraiko deśayati dvitīyo na deśayati / tatra yo 'sau na deśayati taṃ saṃbahulā vinayātisāriṇīr duṣṭhulā āpattir deśayitvā paścāt parivāso deyaḥ mūlaparivāso mānāpyam* / āvarhitavyaś ca /
+</p><p xml:id="62">
+dvau pudgalau saṃghāvaśeṣām āpattim āpannau / tāv asminn evāvāse pudgalasyāntike deśayiṣyāvo deśayiṣyāva iti / tatraiko deśayati dvitīyo na deśayati / tatra yo 'sau na deśayati taṃ saṃbahulā vinayātisāriṇīr duṣṭhulā āpattir deśayitvā paścāt parivāso deyaḥ mūlaparivāso mānāpyam* / āvarhitavyaś ca / yathā pudgalasyāntike evaṃ dvābhyāṃ saṃbahulānāṃ saṃghasya / yathāsminn āvāse evam anyasminn āvāse /
+</p><p xml:id="63">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa pārivāsika eva sann anyāpattiṃ jānāti yānena saṃghamadhye nārocitā / sa tām āpattiṃ jānāti / tām apy āpattiṃ jānāti yānena saṃghamadhye nārocitā / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ pārivāsika eva sann anyāpattiṃ (<hi rend="bf">MSV III 80</hi>) jānāmi yā me saṃghamadhye nārocitā / so 'haṃ tām āpattiṃ na jānāmi yasyā mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā āpatter api parivāsaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca paścimikāyāḥ / tasyās te bhikṣavaḥ pūrvikāyā āpatteḥ parivāsaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / tasyās tu paścimikāyāḥ parivāsaṃ dadati adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / sa tām antarāpattiṃ jānāti / tām apy āpattiṃ jānāti yasyā asya saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / so 'haṃ tām antarāpattiṃ jānāmi yasyā mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā āpatter mūlaparivāsaṃ dadatu dharmeṇa (<hi rend="bf">307v1 = GBM 6.927</hi>) karmaṇākopyenāsthāpanārheṇa / tasyāś cāntarāpatter mūlaparivāsam iti / tasyās te bhikṣavaḥ pūrvikāyā āpatteḥ parivāsaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / tasyās tv antarāpatter mūlaparivāsam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim (<hi rend="bf">MSV III 81</hi>) āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / sa tāṃ pratyantarāpattiṃ jānāti / tām apy āpattiṃ jānāti yasyā asya saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattirūpāṃ praticchannām* / tasya mama saṃghena mūlaparivāso dattaḥ dharmeṇa karmaṇākopyenāsthāpanārheṇa / so 'haṃ mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / so 'haṃ tāṃ pratyantarāpattiṃ jānāmi / tām apy a<hi rend="it">ntarā</hi>pattiṃ jānāmi yasyā mama saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyā antarāpatter mūlaparivāsaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca pratyantarāpatter mūlāpakarṣam iti / tasyās te bhikṣavaḥ pūrvikāyā āpatter mūlaparivāsaṃ dadati / tasyās tu pratyantarāpatter mūlāpakarṣaṃ dharmeṇa <hi rend="it">karmaṇā</hi>kopyenāsthāpanārheṇa /
+</p><p xml:id="64">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mānāpyacārika eva <hi rend="it">san</hi> saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpām apraticchannām* / sa tām antarāpattiṃ jānāti yasyā asya saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā (<hi rend="bf">MSV III 82</hi>) kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya mama saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattim pūrvāpattipratirūpām apraticchannām* / so 'haṃ tām antarāpattiṃ jānāmi yasyā mama saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā āpatter mānāpyaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś cāntarāpatter mūlamānāpyam iti / tasyās te bhikṣavaḥ pūrvikāyā āpatter mānāpyaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyās tv antarāpatter mūlamānāpyam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpām apraticchannām* / sa tām pratyantarāpattiṃ jānāti / tām apy antarāpattiṃ jānāti yasyā asya saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpām apraticchannām* / tasya mama saṃghena mūlamānāpyaṃ (<hi rend="bf">308r1 = GBM 6.928</hi>) dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpām apraticchannām* / so 'haṃ tāṃ pratyantarāpattiṃ jānāmi / tām apy antarāpattiṃ jānāmi yasyā mama saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu sādhu me (<hi rend="bf">MSV III 83</hi>) āyuṣmantas tasyāḥ pūrvikāyā antarāpatter mūlamānāpyaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca pratyantarāpatter mūlāpakarṣamānāpyam iti / tasyās te bhikṣavaḥ pūrvikāyā antarāpatter mūlamānāpyaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca pratyantarāpatter mūlāpakarṣamānāpyam* / yathā jānatā pañca evaṃ smaratā pañca vaimatikena pañca /
+</p><p xml:id="65">
+uddānam* /
+</p><p xml:id="66">
+yathāpareṇa dvādaśikā vastu śodhayitvā ca ṣaṭkikāḥ /<lb/>
+mahābhūmiṃ śodhayitvā pudgalavastu samudditam* //
+</p><p xml:id="67">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya saṃghena parivāso dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / sa tām antarāpattiṃ jānāti / tām apy āpattiṃ jānāti yasyā asya saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ praticchannām* / tasya mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ pārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpāṃ praticchannām* / so 'haṃ tām antarāpattiṃ jānāmi / tām apy āpattiṃ jānāmi yasyā mama saṃghena parivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā āpatteḥ parivāsaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / (<hi rend="bf">MSV III 84</hi>) tasyāś cāntarāpatter mūlaparivāsam iti / tasyās te bhikṣavas tasyāḥ pūrvikāyā āpatteḥ parivāsaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyās tv antarāpatter mūlaparivāsam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpāṃ praticchannām* / sa tāṃ pratyantarāpattiṃ jānāti / tām apy antarāpattiṃ jānāti yasyā asya saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattirūpāṃ praticchannām* / tasya mama saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ mūlapārivāsika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim pūrvāpattipratirūpāṃ praticchannām* / so 'haṃ tāṃ pratyantarāpattiṃ jānāmi / tām apy antarāpattiṃ jānāmi (<hi rend="bf">308v1 = GBM 6.929</hi>) yasyā mama saṃghena mūlaparivāso dattaḥ adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā antarāpatter mūlaparivāsaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca pratyantarāpatter mūlāpakarṣam iti / tasyās te bhikṣavaḥ pūrvikāyā antarāpatter mūlaparivāsaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / tasyās tu pratyantarāpatter mūlāpakarṣaṃ dharme<hi rend="it">ṇa karma</hi>ṇākopyenāsthāpanārheṇa /
+</p><p xml:id="68">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mānāpyacārika eva san saṃghāvaśeṣām āpattim (<hi rend="bf">MSV III 85</hi>) āpannaḥ antarāpattiṃ pūrvāpattipratirūpām apraticchannām* / sa tām antarāpattiṃ jānāti / tām apy āpattiṃ jānāti yasyā asya saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham asmy āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ apraticchannām* / tasya mama saṃghena ṣaḍ rātraṃ mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ mānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ antarāpattim pūrvāpattipratirūpām apraticchannām* / so 'haṃ tām antarāpattiṃ jānāmi / tām apy āpattiṃ jānāmi yasyā mama saṃghena mānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā āpatter mānāpyaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś cāntarāpatter mūlamānāpyam iti / tasyās te bhikṣavaḥ pūrvikāyā āpatter mānāpyaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyās tv antarāpatter mūlamānāpyam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim āpannaḥ pratyantarāpattim antarāpattipratirūpām apraticchannām* / sa tām pratyantarāpattiṃ jānāti / tām <hi rend="it">apy</hi> antarāpattiṃ jānāti yasyā asya saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sa bhikṣūṇām ārocayati / aham <hi rend="it">asmy</hi> āyuṣmantaḥ saṃghāvaśeṣām āpattim āpannaḥ antarāpattiṃ pūrvāpattipratirūpām apraticchannām* / tasya mama saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / so 'haṃ mūlamānāpyacārika eva san saṃghāvaśeṣām āpattim (<hi rend="bf">MSV III 86</hi>) āpannaḥ pratyantarāpattim antarāpattipratirūpām apraticchannām* / so 'haṃ tāṃ pratyantarāpattiṃ jānāmi / tām apy antarāpattiṃ jānāmi yasyā mama saṃghena mūlamānāpyaṃ dattam adharmeṇa karmaṇā kopyena sthāpanārheṇa / sādhu me āyuṣmantas tasyāḥ pūrvikāyā antarāpatter mūlamānāpyaṃ dadatu dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyāś ca pratyantarāpatter mūlāpakarṣamānāpyam iti / tasyās te bhikṣavaḥ pūrvikāyā antarāpatter mūlamānāpyaṃ dadati dharmeṇa karmaṇākopyenāsthāpanārheṇa / asyās (<hi rend="bf">309r1 = GBM 6.930</hi>) tu pratyantarāpatter mūlāpakarṣamānāpyam iti / yathā jānatā catvāri evaṃ smaratā catvāri vaimatikena catvāri /
+</p><p xml:id="69">
+pārivāsikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu śodhayitvā vinayātisāriṇīṃ <hi rend="it">ca</hi> duṣṭhulām āpattiṃ deśayitvā pārivāsika eva san* /
+</p><p xml:id="70">
+upārdhapārivāsikaḥ <hi rend="it">pudgalaḥ</hi> saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu śodhayitvā vinayātisāriṇīṃ ca duṣṭhulām āpattiṃ deśayitvā upārdhapārivāsika eva san* /
+</p><p xml:id="71">
+yadbhūyaḥpārivāsika eva pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu (<hi rend="bf">MSV III 87</hi>) śodhayitvā vinayātisāriṇīṃ ca duṣṭhulām āpattiṃ deśayitvā yadbhūyaḥpārivāsika eva san* /
+</p><p xml:id="72">
+mānāpyacārikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu śodhayitvā vinayātisāriṇīṃ ca duṣṭhulām āpattiṃ deśayitvā mānāpyacārika eva san* /
+</p><p xml:id="73">
+upārdhamānāpyacārikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu śodhayitvā vinayātisāriṇīṃ ca duṣṭhulām āpattiṃ deśayitvā upārdhamānāpyacārika eva san* /
+</p><p xml:id="74">
+yadbhūyomānāpyacārikaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / vastu śodhayitvā vinayātisāriṇīṃ ca duṣṭhulām āpattiṃ deśayitvā yadbhūyomānāpyacārika eva san* /
+</p><p xml:id="75">
+athāparaḥ pudgalaḥ saṃghāvaśeṣām āpattim āpannaḥ saṃcintyaśukravisṛṣṭisamutthitām ekarātripraticchannām* / udgrahasamutthitāṃ dvirātripraticchannām* / maithuna<hi rend="it">saṃlāpa</hi>samutthitāṃ trirātripraticchannām* / paricaryāsamutthitāṃ catūrātripraticchannām* / sāṃcaritrasamutthitāṃ paṃcarātripraticchannām* / kuṭikāsamutthitāṃ ṣaḍrātripraticchannām* / (<hi rend="bf">MSV III 88</hi>) mahallakasamutthitāṃ saptarātripraticchannām* / amūlakasamutthitām aṣṭarātripraticchannām* / leśisamutthitāṃ navarātripraticchannām* / saṃghabhedasamutthitāṃ daśarātripraticchannām* / tasyānuvartitasamutthitām ekādaśarātripraticchannām* / kuladūṣikasamutthitāṃ dvādaśarātripraticchannām* / daurvacasyasamutthitāṃ trayodaśarātripraticchannām* / etat prakaraṇaṃ bhikṣavo bhagavata ārocayanti / bhagavān āha / yā āsām āpattīnāṃ kharatā ca gurutarā ca tīvreṇa cātiniveśena kṛtā tasyā vaśena parivāso dātavyo mūlaparivāso mūlāpakarṣo mānāpyaṃ cāvarhitavyaś ceti /
+</p><p xml:id="76">
+pudgalavastu samāptam* //
+</p>
+</body>
+</text>
+</TEI>

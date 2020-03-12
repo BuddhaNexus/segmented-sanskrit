@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_ahorAtravratacaityasevAnuzaMsAvadAna">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Ahorātravratacaityasevānuśaṃsāvadāna</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the edition by R. Handurukande, Three Sanskrit Texts on Caitya Worship ḥ In Relation to the Ahorātravrata, Tokyo 2000 (Studia Philologica Buddhica, Monograph Series, 16).-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Ahoratravratacaityasevanusamsavadana = Avc<BR>
+Based on the edition by R. Handurukande, Three Sanskrit Texts on Caitya Worship ḥ In Relation to the Ahorātravrata, Tokyo 2000<BR>
+(Studia Philologica Buddhica, Monograph Series, 16).<BR>
+Input by Klaus Wille (Göttingen)<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Avc">
+<body><p xml:id="0">
+Ahorātravratacaityasevānuśaṃsāvadāna
+</p><p xml:id="1">
+oṃ namo ratnatrayāya /
+</p>
+<lg xml:id="Avc_1">
+<l>śrīmad ratnatrayaṃ natvā tridhātubhuvanādhipam /</l>
+<l>ahorātravratakathāṃ vakṣye gurūpadeśataḥ //</l>
+</lg>
+<lg xml:id="Avc_2">
+<l>kukkuṭārāmam āsīnam upaguptaṃ yatīśvaram /</l>
+<l>kṛtāñjalipuṭo 'śokaḥ prārthayad evam ādarāt //</l>
+</lg>
+<p xml:id="1.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+<lg xml:id="Avc_2*">
+<l>athāśoko mahīpāla upaguptaṃ yatiṃ ca tam /</l>
+<l>kṛtāñjalipuṭo natvā prārthayad evam ādarāt //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_3">
+<l>bhadanta śrotum icchāmi caityavratavidhiṃ punaḥ /</l>
+<l>ahorātravratasyāpi vidhiṃ puṇyāni sadguro //</l>
+</lg>
+<lg xml:id="Avc_4">
+<l>tad bhavān sadguruḥ śāstā lokapuṇyapravṛddhaye /</l>
+<l>ahorātravratasyātra vidhim ādeṣṭum arhati //</l>
+</lg>
+<lg xml:id="Avc_5">
+<l>iti tena narendreṇa prārthitaṃ sa sudhīr yatiḥ /</l>
+<l>śrutvā taṃ nṛpam ālokya punar evam upādiśat //</l>
+</lg>
+<lg xml:id="Avc_6">
+<l>śṛṇu sādhu mahārāja yathā me guruṇoditam /</l>
+<l>tathāhaṃ te pravakṣyāmi śrutvā caivaṃ samācara //</l>
+</lg>
+<lg xml:id="Avc_7">
+<l>purā sa bhagavāñ chāstā śākyasiṃho jagadguruḥ /</l>
+<l>śrāvakair bhikṣubhiḥ sārdhaṃ cailakaiś cāpy upāsakaiḥ //</l>
+</lg>
+<lg xml:id="Avc_8">
+<l>bhikṣuṇībhiḥ suśīlābhir bodhisattvagaṇair api /</l>
+<l>vihāre jetakāraṇye vyaharat saugatāśrame //</l>
+</lg>
+<lg xml:id="Avc_9">
+<l>tadā sa bhagavān buddho lokānāṃ puṇyavṛddhaye /</l>
+<l>sabhāmadhye samāsīno dharmam ādeṣṭum ārabhat //</l>
+</lg>
+<lg xml:id="Avc_10">
+<l>tadā sarve 'marendrādilokapālā maharddhikāḥ /</l>
+<l>tat saddharmāmṛtaṃ pātuṃ śraddhayā samupāgatāḥ //</l>
+</lg>
+<lg xml:id="Avc_11">
+<l>brahmādibrāhmaṇāś cāpi maharṣayas tapasvinaḥ /</l>
+<l>catvāraś ca mahārājāḥ sasainyaparicārakāḥ //</l>
+</lg>
+<lg xml:id="Avc_12">
+<l>daityendrā nāgarājāś ca yakṣagandharvakinnarāḥ /</l>
+<l>siddhā vidyādharāḥ sādhyā grahāś ca vasavas tathā //</l>
+</lg>
+<lg xml:id="Avc_13">
+<l>rākṣasāś ca mahāvirā garuḍāś ca mahoragāḥ /</l>
+<l>yogino yatayaś cāpi rājānaḥ kṣātriyā api //</l>
+</lg>
+<lg xml:id="Avc_14">
+<l>amātyā mantriṇaś cāpi vaiśyā rājakumārakāḥ /</l>
+<l>śreṣṭhino dhaninaḥ śūdrāḥ sārthavāhā māhājanāḥ //</l>
+</lg>
+<lg xml:id="Avc_15">
+<l>vaṇijaḥ śilpinaś cāpi paurā janapadās tathā /</l>
+<l>grāmyāḥ kārvaṭikāś cāpi tathānyadeśavāsinaḥ //</l>
+</lg>
+<lg xml:id="Avc_16">
+<l>sarve te samupāgatya buddhaṃ taṃ śṛīghanaṃ mudā /</l>
+<l>satkṛtya śraddhayābhyarcya kṛtvā pradakṣiṇāny api //</l>
+</lg>
+<lg xml:id="Avc_17">
+<l>kṛtāñjalipuṭā natvā niṛīkṣya saṃpramoditāḥ /</l>
+<l>tat saddharmāmṛtaṃ pātum upatasthuḥ samāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_18">
+<l>tadāsanāt samutthāya subhūtiḥ sthaviro yatiḥ /</l>
+<l>udvahann uttarāsaṅgaṃ jānubhyāṃ bhuvi saṃsthitaḥ //</l>
+</lg>
+<lg xml:id="Avc_19">
+<l>kṛtāñjalipuṭo natvā bhagavantaṃ jagadgurum /</l>
+<l>śrīghanaṃ taṃ samālokya prārthayad evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_20">
+<l>bhagavan nātha sarvajña vijānīyād bhavān guruḥ /</l>
+<l>sarvalokā ime śāstur dharmaṃ śrotuṃ samāsthitāḥ //</l>
+</lg>
+<lg xml:id="Avc_21">
+<l>tad atra bhuvane khyātam ahorātravrataṃ kadā /</l>
+<l>pravartate tad ākhyāhi tadvidhiṃ ca kathaṃ prabho //</l>
+</lg>
+<lg xml:id="Avc_22">
+<l>iti tenārhatā pṛṣṭe bhagavān sa munīśvaraḥ /</l>
+<l>tāṃ sabhāṃ taṃ subhūtiṃ ca samālokyaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_23">
+<l>sādhu śṛṇu subhūte tvaṃ sarvasattvahitārthabhṛt /</l>
+<l>ahorātravrataṃ puṇyaṃ vidhiṃ ca kathyate mayā //</l>
+</lg>
+<lg xml:id="Avc_24">
+<l>purā pūrvavidehe 'bhūt khyātā gandhavatī purī /</l>
+<l>tasyāṃ rājā mahāvijña indrapṣṭābhidhaḥ prabhuḥ //</l>
+</lg>
+<lg xml:id="Avc_25">
+<l>so 'ntaḥpure samānīya vasubandhuṃ jinātmajam /</l>
+<l>sabhāyāṃ svāsane sthāpya satkṛtya śraddhayārcayat //</l>
+</lg>
+<lg xml:id="Avc_26">
+<l>tataḥ sa bhūpatī rājā utthāya samupāśritaḥ /</l>
+<l>kṛtāñjaliḥ praṇatvainaṃ prārthayad evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_27">
+<l>bhadanta yad ime lokā asaddharmābhimāninaḥ /</l>
+<l>tad eṣāṃ mānaghātāya saddharmaṃ samupādiśa //</l>
+</lg>
+<lg xml:id="Avc_28">
+<l>yac chrutvaiva tv ime sarve saddharmapratibodhitāḥ /</l>
+<l>sarvapāpavinirmuktā bhaveyur bodhilābhinaḥ //</l>
+</lg>
+<lg xml:id="Avc_29">
+<l>iti rājñārthitaṃ śrutvā vasubandhuḥ sa ātmavit /</l>
+<l>indrapṛṣṭaṃ mahīndraṃ taṃ samālokyaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_30">
+<l>śṛṇu sādhu mahārājā tava puṇyapravṛddhaye /</l>
+<l>sarvasattvahitārthaṃ tad ahorātramahāvratam //</l>
+</lg>
+<lg xml:id="Avc_31">
+<l>yathā mayā śrutaṃ pūrvaṃ vipaśyinā prabhāṣitam /</l>
+<l>mahatpuṇyānuśaṃsā ca tadvidhiś ca pracakṣyate //</l>
+</lg>
+<lg xml:id="Avc_32">
+<l>saṃsāre 'tra mahat puṇyaṃ prāptum icchanti ye narāḥ /</l>
+<l>caritavyam ahorātravrataṃ taiḥ śraddhayā mudā //</l>
+</lg>
+<lg xml:id="Avc_33">
+<l>bhaktyā caranti ye martyā ahorātravrataṃ mudā /</l>
+<l>te sarve vimalātmānaḥ pariśuddhatrimaṇḍalāḥ //</l>
+</lg>
+<lg xml:id="Avc_34">
+<l>bodhicittaṃ samāsādya caritvā bodhicārikām /</l>
+<l>sarvasattvahitaṃ kṛtvā pūrya pāramitāḥ kramāt //</l>
+</lg>
+<lg xml:id="Avc_35">
+<l>sarvakleśagaṇāñ jitvā sarvamāragaṇān api /</l>
+<l>samyagbodhiṃ samāsādya bhaveyuḥ sugatā dhruvam //</l>
+</lg>
+<lg xml:id="Avc_36">
+<l>atītaiś ca jinaiḥ sarvaiḥ kṛtvaitad vratam uttamam /</l>
+<l>sarvamāragaṇāñ jitvā saṃbodhiḥ sādhitā khalu //</l>
+</lg>
+<lg xml:id="Avc_37">
+<l>vartamānaiś ca saṃbuddhaiḥ sarvair etad vrataṃ kṛtam /</l>
+<l>etatpuṇyānubhāvair hi saṃbodhiḥ sādhitā drutam //</l>
+</lg>
+<lg xml:id="Avc_38">
+<l>tathā cānāgataiḥ sarvaiḥ kṛtvā caitad vrataṃ varam /</l>
+<l>etatpuṇyavipākais tu prāpsyate bodhir uttamā //</l>
+</lg>
+<lg xml:id="Avc_39">
+<l>tathānye bodhisattvāś ca saṃbodhivratacārakāḥ /</l>
+<l>etad vratavaraṃ dhṛtvā caranti bodhisaṃvaram //</l>
+</lg>
+<lg xml:id="Avc_40">
+<l>tathā sarve 'marendrāś ca kṛtvā caitad vrataṃ mudā /</l>
+<l>devalokādhināthās te bhavanti bodhibhāginaḥ //</l>
+</lg>
+<lg xml:id="Avc_41">
+<l>evaṃ sarve mahāsattvā ṛṣayo munayo 'pi ca /</l>
+<l>etad vratavaraṃ kṛtvā bhavanti brahmacāriṇaḥ //</l>
+</lg>
+<lg xml:id="Avc_42">
+<l>evaṃ ye ye narāś cāpi caranty etad vrataṃ mudā /</l>
+<l>te te sarve 'pi tatpuṇyair bhavanti bodhibhāginaḥ //</l>
+</lg>
+<lg xml:id="Avc_43">
+<l>ye cāpy etad vrataṃ dṛṣṭvā śrutvāpi cānumoditāḥ /</l>
+<l>prasīdanti tathā te 'pi tatpuṇyaṃ prāpnuvanti hi //</l>
+</lg>
+<lg xml:id="Avc_44">
+<l>etatpuṇyānubhāvena naiva gacchanti durgatim /</l>
+<l>sarvadā saśubhaṃ saukhyaṃ bhuktvā yānti jinālayam //</l>
+</lg>
+<p xml:id="2">
+tasmāt sarvaprayatnena saddharmasukhavāñchibhiḥ /
+</p>
+<lg xml:id="Avc_46">
+<l>ahorātravratotpannapuṇyasaṃkhyā na vidyate /</l>
+<l>aprameyam asaṃkhyeyam iti buddhaiḥ prakathyate //</l>
+</lg>
+<lg xml:id="Avc_47">
+<l>sarvair api munīndrais tat saṃkhyāṃ kartuṃ na śakyate /</l>
+<l>mayātra śakyam ekena tatpuṇyaṃ gaṇituṃ katham //</l>
+</lg>
+<lg xml:id="Avc_48">
+<l>yasya puṇyānubhāvena mahānti pātakāny api /</l>
+<l>nirdahya pariśuddhātmā tatkṣaṇād yāti sadgatim //</l>
+</lg>
+<lg xml:id="Avc_49">
+<l>yathābhilaṣitaṃ kāryaṃ sādhayitvā hy avighnataḥ /</l>
+<l>sarvadā satsukhaṃ bhuktvā saṃyānty ante jinālayam //</l>
+</lg>
+<lg xml:id="Avc_50">
+<l>iti matvā mahatpuṇyam ahorātravrataṃ varam /</l>
+<l>dharmārthakāmamokṣāptyai caritavyaṃ sadā naraiḥ //</l>
+</lg>
+<lg xml:id="Avc_51">
+<l>tathā cet te mahatpuṇyam ihāmutra śubhaṃ sadā /</l>
+<l>kramād bodhivrataṃ prāpya bodhisattvo bhaved dhruvam //</l>
+</lg>
+<lg xml:id="Avc_52">
+<l>kramāt kleśān vinirjitya saṃsārasukhanandinaḥ /</l>
+<l>jitvā māragaṇān sarvān saṃbuddhapadam āpnuyāḥ //</l>
+</lg>
+<lg xml:id="Avc_53">
+<l>iti tena samākhyātaṃ dhīmatā vasubandhunā /</l>
+<l>śrutvaivaṃ sumahat puṇyam indrapṛṣṭo mumoda saḥ //</l>
+</lg>
+<lg xml:id="Avc_54">
+<l>tataḥ sa indrapṛṣṭākhyo mahārājo 'numoditaḥ /</l>
+<l>ahorātravrataṃ kartuṃ cārayituṃ samaicchata //</l>
+</lg>
+<lg xml:id="Avc_55">
+<l>tataḥ sa nṛpa utthāya sāñjaliḥ samupācaran /</l>
+<l>vasubandhuṃ tam ānatvā prārthayad evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_56">
+<l>bhadanta bhavatādiṣṭam ahorātravratodbhavam /</l>
+<l>mahat puṇyaṃ niśamyāhaṃ kartum icchāmi sāṃpratam //</l>
+</lg>
+<lg xml:id="Avc_57">
+<l>tasmāt tadvidhim ādeṣṭum arhasi me jagaddhite /</l>
+<l>sarvathāhaṃ cariṣyāmi cariṣyanti prajā api //</l>
+</lg>
+<lg xml:id="Avc_58">
+<l>tad atra sarvasattvānāṃ hitāya puṇyasiddhaye /</l>
+<l>ahorātravratasyaivaṃ vidhim ādeṣṭum arhasi //</l>
+</lg>
+<lg xml:id="Avc_59">
+<l>iti tena narendreṇa prārthitaṃ sa mahāmatiḥ /</l>
+<l>vasubandhur niśamyaivaṃ indrapṛṣṭaṃ tam abravīt //</l>
+</lg>
+<lg xml:id="Avc_60">
+<l>śṛṇu rājan yathākhyātaṃ munīndreṇa vipaśyinā /</l>
+<l>tathāhaṃ te pravakṣyāmi vratarājavidhiṃ kramāt //</l>
+</lg>
+<lg xml:id="Avc_61">
+<l>svayaṃbhūcaityabhūkṣetre vihāre sugatāśrame /</l>
+<l>puṇyakṣetre nadītīre saṃgame saritāṃ tathā //</l>
+</lg>
+<lg xml:id="Avc_62">
+<l>tīrthe samudratīre ca hradatīre sarastaṭe /</l>
+<l>udyāne parvate 'raṇye vivikte vana-āśrame //</l>
+</lg>
+<lg xml:id="Avc_63">
+<l>caityālaye śubhe sthāne prāsāde mandire gṛhe /</l>
+<l>evam anyatra bhūdeśe śuddhasthāne manorame //</l>
+</lg>
+<lg xml:id="Avc_64">
+<l>eteṣu pariśuddheṣu yatrepsite viśodhite /</l>
+<l>dharmaśālāṃ vidhāyādau mṛdgomayair vilepayet //</l>
+</lg>
+<lg xml:id="Avc_65">
+<l>caturdhvajān pratiṣṭhāpya vitanuyād vitānakam /</l>
+<l>puṣpamālādibhiś citrair duṣyaiḥ paṭṭaiś ca maṇḍayet //</l>
+</lg>
+<p xml:id="2.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+<lg xml:id="Avc_65*">
+<l>gokśīraiḥ paṃcaratnaiś ca śilācūrṇair vilepayet /</l>
+<l>digmālā digpratāpaiś (sic) ca lambayec ca jinālayaṃ //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_66">
+<l>tatra vajrī śubhācāraḥ pariśuddhatrimaṇḍalaḥ /</l>
+<l>maṇḍalaṃ vartayed ramyaṃ dharmadhātor yathāvidhi //</l>
+</lg>
+<lg xml:id="Avc_67">
+<l>tatas tan maṇḍalaṃ vajrī pratiṣṭhāpya yathāvidhi /</l>
+<l>vratināṃ saṃgrahaṃ kṛtvā vratārambhaṃ prakārayet //</l>
+</lg>
+<lg xml:id="Avc_68">
+<l>śuklapakṣe trayodaśyāṃ bhojanānte dinātyaye /</l>
+<l>dantādidhāvanaṃ kṛtvā mukhādiṃ pariśodhayet //</l>
+</lg>
+<lg xml:id="Avc_69">
+<l>caturdaśyāṃ prabhāte ca tīrthe snātvā vratī sudhīḥ /</l>
+<l>śucivastrāvṛto bhadraśīlaḥ śraddhāsamanvitaḥ //</l>
+</lg>
+<lg xml:id="Avc_70">
+<l>madhyāhne maṇḍalaṃ caityaṃ pañcabhir upahārakaiḥ /</l>
+<l>yathāvidhi samabhyarcya praṇāmaṃ saṃprakārayet //</l>
+</lg>
+<lg xml:id="Avc_71">
+<l>tato yāme tṛīye 'hnaḥ kārayed vratapālaṇam /</l>
+<l>nirāmiṣair viśuddhānnaiḥ snānaṃ ca kārayet tataḥ //</l>
+</lg>
+<lg xml:id="Avc_72">
+<l>tato rātrimukhe caityaṃ maṇḍalaṃ ca samarcayet /</l>
+<l>dīpamālāḥ samujjvālya dharmaṃ ca śrāvayed vratīn //</l>
+</lg>
+<lg xml:id="Avc_73">
+<l>pūrṇamāsyāṃ prabhāte tu snātvā śuddhāmbarāvṛtāḥ /</l>
+<l>śodhitapañcagavyena kuryuś cāṅgaviśodhanam //</l>
+</lg>
+<lg xml:id="Avc_74">
+<l>tato dattvārgham ādau te sūryāya vratinas tathā /</l>
+<l>gurave ca pradāyārghaṃ sthitvā svasvāsane kramāt //</l>
+</lg>
+<lg xml:id="Avc_75">
+<l>pūjāṅgāni ca sarvāṇi śodhayeyur yathāvidhi /</l>
+<l>tatrādau vratisaṃghaḥ sa vajrasattvaṃ samarcayet //</l>
+</lg>
+<lg xml:id="Avc_76">
+<l>tato ratnatrayaṃ caiva saṃpūjayed yathāvidhi /</l>
+<l>teṣāṃ ca śaraṇaṃ gatvā praṇamed racitāñjaliḥ //</l>
+</lg>
+<lg xml:id="Avc_77">
+<l>trisamādhiṃ tataḥ kṛtvā dhyātvātmani jineśvaram /</l>
+<l>āvāhayet puraḥ śrīmaddharmadhātuṃ maheśvaram //</l>
+</lg>
+<lg xml:id="Avc_78">
+<l>tatpādārghaṃ tato dadyāt tataś cācamanārghakam /</l>
+<l>prokṣaṇārghaṃ tato dattvā maṇḍale saṃniveśayet //</l>
+</lg>
+<lg xml:id="Avc_79">
+<l>tataḥ pūjopahārais taṃ maṇḍalaṃ sagaṇaṃ mudā /</l>
+<l>yathāvidhi samabhyarcya taddhṛnmantraṃ sudhīr japet //</l>
+</lg>
+<p xml:id="2.6">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="3">
+{E adds here:<lb/>
+tataḥ stotraṃ paṭhet /<lb/>
+dharmadhātumayaṃ caityaṃ sarvākārasvarūpiṇam /<lb/>
+ālayaṃ sarvabuddhānāṃ vāgīśvaraṃ namāmy aham //<lb/>
+jinajasakaladhātuṃ puṇyakṣetre kṛtārtham /<lb/>
+praviṇajanasukhārthaṃ sevitārthaṃ pradattam //<lb/>
+praṇamataṃ munirājaṃ aṃjaliṣṭhaṃ pradhānam /<lb/>
+jitasakalabhayārthaṃ lokanāthaṃ maheśam //}<lb/>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_80">
+<l>tataḥ stotraṃ paṭhitvā tu toṣayed racitāñjaliḥ /</l>
+<l>pāpānāṃ deśanāṃ kuryāt thatā puṇyānumodanām //</l>
+</lg>
+<lg xml:id="Avc_81">
+<l>pradakṣiṇāny ataḥ kuryāt saṃgītaiś ca mahotsavam /</l>
+<l>aṣṭāṅgapraṇatiṃ kṛtvā prārthayed bodhisaṃvaram /</l>
+<l>tataḥ kṣamārthanāṃ kṛtvā tanmaṇḍalaṃ visarjayet //</l>
+</lg>
+<lg xml:id="Avc_82">
+<l>yathā pūjā kṛtā tatra maṇḍale vidhivat tathā /</l>
+<l>caityabimbaṃ samabhyarcya prārthayed evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_83">
+<l>tathā sarvatra caityeṣu kuryāt pūjādikaṃ mudā /</l>
+<l>saṃgītisahitaiḥ stotraiḥ kuryād evaṃ mahotsavam //</l>
+</lg>
+<lg xml:id="Avc_84">
+<l>kṛtvā pradakṣiṇāny eva nidrālāsyaṃ vihāya ca /</l>
+<l>mudā jāgaraṇaṃ kurvann ahorātraṃ vrataṃ caret //</l>
+</lg>
+<lg xml:id="Avc_85">
+<l>catuḥsaṃdhyaṃ tathā snātvā caityasevāṃ samācaret /</l>
+<l>duṣṭajātir na ca spṛśyā sparśite snānam ācaret //</l>
+</lg>
+<lg xml:id="Avc_86">
+<l>viśrāmaṃ naiva kuryāc ca khedaṃ cittena vā vratī /</l>
+<l>caityadhyānasamādhāno japan stotraṃ paṭhaṃś caret //</l>
+</lg>
+<lg xml:id="Avc_87">
+<l>nṛtyagītamahotsāhair nānāvādyaiḥ sanṛtyakaiḥ /</l>
+<l>hāhākāraiḥ samullāsaiḥ pracārayen mahotsavam //</l>
+</lg>
+<lg xml:id="Avc_88">
+<l>evaṃ pūrṇam ahorātram aviśrāntaṃ vrataṃ caret /</l>
+<l>tataḥ prātas tathā snātvā maṇḍalaṃ caityam arcayet //</l>
+</lg>
+<lg xml:id="Avc_89">
+<l>tataś chatraṃ patākāś ca sindūrapātrayā saha /</l>
+<l>salājākṣatapuṣpāṃś ca prārohayet mahotsavaiḥ //</l>
+</lg>
+<lg xml:id="Avc_90">
+<l>yajñaṃ kuryāt tathā vajrī baliṃ dadyād yathāvidhi /</l>
+<l>abhiṣekaṃ tato dattvā pañcasūtraghaṭaṃ kramāt //</l>
+</lg>
+<lg xml:id="Avc_91">
+<l>sāśīrvādaṃ vratibhyo 'pi dadyād vajrī samāhitaḥ /</l>
+<l>tataḥ kṣamārthanāṃ kṛtvā maṇḍalaṃ tad visarjayet //</l>
+</lg>
+<lg xml:id="Avc_92">
+<l>tatas te vratinaḥ sarve vajrācāryaṃ guruṃ yatīn /</l>
+<l>abhyarcya dakṣiṇāṃ dattvā toṣayeyuḥ praṇamya ca //</l>
+</lg>
+<lg xml:id="Avc_93">
+<l>tatas tadraja ādāya tīrthe nāgān samarcya ca /</l>
+<l>pravāhayet tato gehaṃ prāyāyān maṅgalotsavaiḥ //</l>
+</lg>
+<lg xml:id="Avc_94">
+<l>tatra tanmaṇḍalasthānaṃ tīrthāmbunābhiṣiñcayet /</l>
+<l>tatas te vratinaḥ sarve kuryus tadvratapālaṇam //</l>
+</lg>
+<lg xml:id="Avc_95">
+<l>tatas tanmaṇḍalasthāne vajrācāryo yathāvidhi /</l>
+<l>kumārīṃ pūjayitvā tāṃ devīṃ bhojyaiḥ pratoṣayet //</l>
+</lg>
+<lg xml:id="Avc_96">
+<l>gaṇacakraṃ tato 'bhyarcya bhojanaiḥ saṃpratoṣayet /</l>
+<l>vratinaḥ sādhakāṃś cāpi janān sarvāṃś ca toṣayet //</l>
+</lg>
+<lg xml:id="Avc_97">
+<l>evaṃ caranti ye martyā ahorātravrataṃ mudā /</l>
+<l>te bhavanti mahāsattvā bodhisattvāḥ śubhāśayāḥ //</l>
+</lg>
+<lg xml:id="Avc_98">
+<l>durgatiṃ te na gacchanti sadā gacchanti sadgatim /</l>
+<l>bhuktvā dharmasukhotsāhaṃ saṃprayānti jinālayam //</l>
+</lg>
+<lg xml:id="Avc_99">
+<l>evaṃ vipaśyinā śāstrā samākhyātaṃ śrutaṃ mayā /</l>
+<l>bhūyaḥ śṛṇu mahārāja tatphalāni viśeṣataḥ //</l>
+</lg>
+<lg xml:id="Avc_100">
+<l>pañcāmṛtaiḥ pañcasugandhitoyair ye snāpayantīha jinendracaityam /</l>
+<l>mandākinīdivyasugandhitoye snātvāmarais te satataṃ ramante //</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+<lg xml:id="Avc_100*">
+<l>pañcāmṛtaiḥ pañcasugandhiratnair durvākṣataiḥ kūsumalājatoyaiḥ /</l>
+<l>ye cārghadānaṃ vitaranti caitye te prāpnuvantīha mahānidhānam //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_101">
+<l>kurvanti caitye jalamaṇḍalaṃ ye supiṣṭavāsena tathā manuṣyāḥ /</l>
+<l>te hemavarṇā nṛpavaṃśajātāḥ samṛddhimantaḥ subhagā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_102">
+<l>sugandhadhūpaṃ jinacaityabimbe ye dhūpayanti pratimodayantaḥ /</l>
+<l>sugandhadehāḥ surasaṃghavandyās te śuddhacittā manujā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_103">
+<l>ye pañcagandhair anulepayanti saṃbuddhacaityaṃ manujāḥ prasannāḥ /</l>
+<l>saugandhitāṅgā baladīptimantas te saṃbhavante paramārthalokāḥ //</l>
+</lg>
+<lg xml:id="Avc_104">
+<l>yajñopavītaṃ vararaṅgitaṃ ca sucīvarāṇi pradadanti caitye /</l>
+<l>te divyavastrāvṛtasaumyadehāḥ sarvārthasaṃpadbharitā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_105">
+<l>ye sarvapuṣpair varagandhavadbhir abhyarcayanti pratinamya caityam /</l>
+<l>nairogiṇas te sucirāyuṣaḥ syuḥ saubhāgyavantaḥ suviśālavaṃśāḥ //</l>
+</lg>
+<lg xml:id="Avc_106">
+<l>ye cāpi caityaṃ parimaṇḍayanti sragbhiḥ supuṣpai racitābhir evam /</l>
+<l>te bhāgyavantaḥ paribhūṣitāṅgā devā bhavanti prathitā nṛpāś ca //</l>
+</lg>
+<lg xml:id="Avc_107">
+<l>ye dīpamālā racayanti caitye te ratnasaṃpatparipūrṇakoṣāḥ /</l>
+<l>netrābhirāmāḥ sudṛśo bhavanti te jñānadīpāhatamohajālāḥ //</l>
+</lg>
+<p xml:id="3.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+{A has two additional verses here
+</p>
+<lg xml:id='Avc_107*'>
+<l>maitryā yaḥ saha kiṃkaraiḥ smararipuṃ nirjitya vajrāsane<lb/>
+kleśārīn api yo durantaviṣayān antaścarān durjanān /</l>
+<l>skandhārātim api prasahya sugato mṛtyuṃ ca niḥsvo 'vaśaḥ<lb/>
+prāptaḥ sarvarasāgrabhogavaśitāṃ kṣīrodanāḍhaukanāt //</l>
+</lg>
+<lg xml:id='Avc_107**'>
+<l>sauvarṇaraupyavidhadhātujamṛnmayaṃ vā<lb/>
+śālyodanaiḥ suparipūrṇasupiṇḍapātram /</l>
+<l>bhaktyā dadāti sugatālayacaityabimbe<lb/>
+syāt tasya puṇyam asamaṃ phalam aprameyam //</l>
+</lg>}<lb/>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_108">
+<l>ye caityabimbe surasaṃ praṇītaṃ naivedyam agraṃ pradadanti bhogyam /</l>
+<l>te lokaśreṣṭhā balakīrtiyuktā nṛpā bhavanti prathitānubhāvāḥ //</l>
+</lg>
+<lg xml:id="Avc_109">
+<l>ye cāpi caitye phalapattramūlaskandhādikaṃ vā pradadanti bhaktyā /</l>
+<l>nīrogiṇas te susamṛddhimanto yatheṣṭabhogyāḥ sukhino bhavanti //</l>
+</lg>
+<lg xml:id="Avc_110">
+<l>bhaiṣajyam evaṃ pradadanti ye ca saṃbuddhacaitye manujāḥ prasannāḥ /</l>
+<l>snigdhānanās te nṛpatīśvarāś ca sauvaṃavarṇā nirujo bhavanti //</l>
+</lg>
+<p xml:id="3.6">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="4">
+{B, which had vs. ii noted above here, adds another verse,
+</p>
+<lg xml:id='Avc_110*'>
+<l>māhiṣyagorasavaraṃ ghṛtayā sametam<lb/>
+....................................................... ye /</l>
+<l>tasmai dadanti satataṃ jinapuṃgavāya<lb/>
+te prāpnuvanty ............. sarājalakṣmīm //</l>
+</lg>}<lb/>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_111">
+<l>tāmbūlapūgādirasāyanāni ye caityabimbe pariḍhaukayanti /</l>
+<l>te bhūmipālāḥ subhagā bhavanti divyāṅganānetramanoharāsyāḥ //</l>
+</lg>
+<p xml:id="4.1">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="5">
+{A and B have the following additional verse here.
+</p>
+<lg xml:id='Avc_111*'>
+<l>kāntāpāṇisarojapattravidhṛtāṃ sadvarṇagandhojjvalāṃ<lb/>
+svādusparśasukhāṃ surāsurapure yad devavṛndārakaiḥ /</l>
+<l>bhāsvatkāñcanabhājaneṣu nihitām aśnanti divyāṃ sudhāṃ<lb/>
+tad buddhapramukhāryasaṃghaviṣaye nyastānnadānāt phalam //</l>
+</lg>}<lb/>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_112">
+<l>ye caityabimbe pariśuddharaṅgān dhvajān vicitrān adhiropayanti /</l>
+<l>mahīśvarās te jitaduṣṭasaṃghā dhanyā bhavanti prathitapratāpāḥ //</l>
+</lg>
+<lg xml:id="Avc_113">
+<l>uccair vitanvanti vitānam ārād ye caityabimbe manujāḥ prasannāḥ /</l>
+<l>devādhipās te manujādhipāś ca dhanyā bhavanti prathitarddhimantaḥ //</l>
+</lg>
+<lg xml:id="Avc_114">
+<l>ye cāpi caitye manujā vicitrāḥ śuddhāḥ patākā avalambayanti /</l>
+<l>te śrīsametā divi bhūtale ca nāthā bhavanti tridaśābhimānyāḥ //</l>
+</lg>
+<lg xml:id="Avc_115">
+<l>chattraṃ suvarṇaṃ maṇibhir vicitraṃ paṭṭaiś ca siktaiḥ kusumaiḥ kṛtaṃ ca /</l>
+<l>ye caityabimbe manujāḥ prasannā māṅgalyavādyair adhirohayanti //</l>
+</lg>
+<lg xml:id="Avc_116">
+<l>te dharmapālāḥ śubhakīrtiyuktā lakṣmyālayāḥ śrīguṇasaukhyavantaḥ /</l>
+<l>devādhirājā manujādhipāś ca saṃbodhicaryābhiratā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_117">
+<l>saṃgītavādyaiḥ sumanojñaśabdaiḥ śaṅkhādimāṅgalyamahānurāvaiḥ /</l>
+<l>vīṇādibhir vaṃśamanojñaghoṣair mahotsavaṃ ye vitaranti caitye //</l>
+</lg>
+<lg xml:id="Avc_118">
+<l>te divyakarṇāḥ sumanojñavākyāḥ saundaryarūpāḥ pariśuddhacittāḥ /</l>
+<l>maharddhimantaḥ sugatābhibhaktā martyāmarendrāḥ satataṃ bhavanti //</l>
+</lg>
+<lg xml:id="Avc_119">
+<l>nṛtyaiḥ sulāsyaiḥ sumanojñabhāvair ye caityabimbaṃ sarasā bhajanti /</l>
+<l>te pāpaduṣṭagraharogamuktāḥ puṇyā guṇārthānugatā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_120">
+<l>ye cāpi duṣṭān abhikheṭayanto rakṣanti caityaṃ satataṃ manuṣyāḥ /</l>
+<l>te bhāgyavanto nirujāḥ suvaṃśāḥ saukhyaṃ prabhuktvā prasaranti svargam //</l>
+</lg>
+<lg xml:id="Avc_121">
+<l>sadūrvakundākṣatalājakādi prākṣipya caityaṃ praṇamanti ye ca /</l>
+<l>vidyādhipās te susamṛddhimanto gacchanti cānte sugatālaye 'pi //</l>
+</lg>
+<lg xml:id="Avc_122">
+<l>ye vajramuktādiviśuddharatnaṃ hemādisaddravyavarāṣṭadhātūn /</l>
+<l>ye caityabimbe sarasā manuṣyāḥ śraddhānuraktā upaḍhaukayanti //</l>
+</lg>
+<lg xml:id="Avc_123">
+<l>pūrṇendriyāḥ pūrṇamanorathās te nirnaṣṭaśokāḥ subhagāḥ suvaṃśaḥ /</l>
+<l>dharmārthakāmāḥ suguṇābhirāmāḥ saṃbuddhamārgābhigatā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_124">
+<l>ye śuddhacittāḥ stutibhiḥ sugītair bhajanti caityaṃ manujāḥ prasannāḥ /</l>
+<l>dharmārthakāmābhimatarddhimanto bhavanti nāthā divi bhūtale te //</l>
+</lg>
+<lg xml:id="Avc_125">
+<l>ye 'ṣṭābhir aṅgaiḥ praṇamanti caityaṃ śraddhāprasannāḥ śaraṇaṃ prayātāḥ /</l>
+<l>bhūpādhipās te varasaptaratnair yuktāḥ sudhīrāḥ kṛtino bhavanti //</l>
+</lg>
+<lg xml:id="Avc_126">
+<l>pradakṣiṇīkṛtya mudā prasannā ye caityabimbaṃ praṇatā bhramanti /</l>
+<l>suvarṇavarṇāḥ suviśālavaṃśāḥ pūjyā nṛpāṇām api te bhavanti //</l>
+</lg>
+<lg xml:id="Avc_127">
+<l>śuddhāśmasaṃkṣārasugandhitoyaiś caityaṃ mudā ye 'bhyanulepayanti /</l>
+<l>nīrogaśokāḥ susamṛddhimanto dīrghāyuṣas te subhagā bhavanti //</l>
+</lg>
+<lg xml:id="Avc_128">
+<l>caityāṅganaṃ ye pariśodhayanti nirmālyam uddhṛtya ca mārjayanti /</l>
+<l>te hemavarṇāḥ pariśuddhacittā dharmābhiraktāḥ sudṛśo bhavanti //</l>
+</lg>
+<lg xml:id="Avc_129">
+<l>ālasyenāpi ca stūpe karoti yaḥ pradakṣiṇām /</l>
+<l>pade pade suvarṇaikakarṣadānaphalaṃ labhet //</l>
+</lg>
+<lg xml:id="Avc_130">
+<l>gandhapuṣpādibhir viprair arcanīyaṃ jinālayam /</l>
+<l>chattrāvarohaṇaṃ caitye kartavyaṃ kṣatriyair api //</l>
+</lg>
+<lg xml:id="Avc_131">
+<l>dhvajāvaropaṇaṃ vaiśyaiḥ kṛtyaṃ patākayā saha /</l>
+<l>naivedyam eva śūdrais tu dātavyaṃ caityapuṃgave //</l>
+</lg>
+<lg xml:id="Avc_132">
+<l>anyair vihīnajātībhir nārcanīyo jinālayaḥ /</l>
+<l>dhūpadīpādibhir naiva pūjanīyo na cānyathā //</l>
+</lg>
+<lg xml:id="Avc_133">
+<l>mūlaskandhapattraphalastambaśasyādibhis tathā /</l>
+<l>dhānyādivrīhibhiś caivam auṣadhībhī rasāyanaiḥ //</l>
+</lg>
+<lg xml:id="Avc_134">
+<l>tathā vādyaiḥ sugītaiś ca nṛtyaiś cāpi mahotsavaiḥ /</l>
+<l>hāhākāraiḥ samullāsair arcanīyo jinālayaḥ //</l>
+</lg>
+<lg xml:id="Avc_135">
+<l>carmakāraplavamlecchaniyogilubdhakādibhiḥ /</l>
+<l>dūrāt pradakṣiṇīkṛtya vandya eva jinālayaḥ //</l>
+</lg>
+<lg xml:id="Avc_136">
+<l>evaṃ sarvais tathā lokair dvijādisarvajātibhiḥ /</l>
+<l>svasvajātyarhapūjābhiḥ pūjanīyo jinālayaḥ //</l>
+</lg>
+<lg xml:id="Avc_137">
+<l>evaṃ caranti ye lokā ahorātravrataṃ mudā /</l>
+<l>te sarvapāpanirmuktāḥ saṃprayāyur jinālayam //</l>
+</lg>
+<lg xml:id="Avc_138">
+<l>evaṃ matvā mahārāja māse māse sadāpi ca /</l>
+<l>pūrṇamāsyām ahorātravrataṃ caritum arhasi //</l>
+</lg>
+<lg xml:id="Avc_139">
+<l>viśeṣād aśvinīmāse saṃpūrṇe candramaṇḍale /</l>
+<l>aśvinībhe tathā puṣyayogayukte raver dine //</l>
+</lg>
+<lg xml:id="Avc_140">
+<l>etadyogasamāyukte mahāparvadine śubhe /</l>
+<l>ahorātravrataṃ kuryād yathāvidhi samāhitaḥ //</l>
+</lg>
+<lg xml:id="Avc_141">
+<l>yaḥ karoti dine tasminn ahorātravrataṃ tathā /</l>
+<l>tatsahasraguṇaṃ puṇyam āpnuyāt sa pumān dhruvam //</l>
+</lg>
+<lg xml:id="Avc_142">
+<l>evaṃ rājann ahorātravratapuṇyaṃ mahattaram /</l>
+<l>aprameyam asaṃkhyeyam iti buddhair nigadyate //</l>
+</lg>
+<lg xml:id="Avc_143">
+<l>na hi sa vidyate rājan sarvatra bhuvaneṣv api /</l>
+<l>ahorātravratotpannaṃ puṇyaṃ yaḥ kurute 'nyathā //</l>
+</lg>
+<lg xml:id="Avc_144">
+<l>yasya śravaṇamātreṇa vimuktaḥ sarvapātakāt /</l>
+<l>darśanāt puṇyam āpnoti tathānumodanād api //</l>
+</lg>
+<lg xml:id="Avc_145">
+<l>ye caranti mahārāja vratarājam idaṃ tathā /</l>
+<l>teṣāṃ puṇyapramāṇāni saṃkhyātuṃ ko hi śaknuyāt //</l>
+</lg>
+<lg xml:id="Avc_146">
+<l>tatpuṇyasaptabhāgaikaṃ bhāgaṃ rājā samāpnuyāt /</l>
+<l>tathaikaṃ sarvasattvāś ca tathaikaṃ sādhakā janāḥ //</l>
+</lg>
+<lg xml:id="Avc_147">
+<l>vratinas taccaturbhāgān sarvān te prāpnuvanti hi /</l>
+<l>etatpuṇyānubhāvais tu sarvatra maṅgalaṃ sadā //</l>
+</lg>
+<lg xml:id="Avc_148">
+<l>sarve sattvāḥ sukhāḍhyāś ca bhavanti bodhicāriṇaḥ /</l>
+<l>evaṃ vijñāya rājendra lokānāṃ hitasādhanam /</l>
+<l>ahorātravrataṃ yūyaṃ kartum arhatha sarvathā //</l>
+</lg>
+<lg xml:id="Avc_149">
+<l>iti tena samākhyātaṃ dhīmatā vasubandhunā /</l>
+<l>śrutvā sa indrapṛṣṭas tad vrataṃ kartuṃ samaicchata //</l>
+</lg>
+<lg xml:id="Avc_150">
+<l>atha sa bhūpatiḥ śrīmān indrapṛṣṭo narādhipaḥ /</l>
+<l>sāñjalis taṃ punar natvā vasubandhuṃ tathārthayat //</l>
+</lg>
+<lg xml:id="Avc_151">
+<l>bhadanta sarvavic chāstar bhavadājñāṃ śirovahan /</l>
+<l>ahorātravrataṃ kartum icchāmi sāṃprataṃ khalu //</l>
+</lg>
+<lg xml:id="Avc_152">
+<l>bhavāñ chāstā mahāvijñaḥ sarvasattvahitāśayaḥ /</l>
+<l>sarvahitārthasiddhyai tad anujñāṃ pradadātu me //</l>
+</lg>
+<lg xml:id="Avc_153">
+<l>iti tena nṛpendreṇa prārthitaṃ sa mahāmatiḥ /</l>
+<l>vasubandhuḥ samākarṇya taṃ bhūpam evam abravīt //</l>
+</lg>
+<lg xml:id="Avc_154">
+<l>sādhu sādhu mahārāja yady evaṃ tvaṃ samicchasi /</l>
+<l>tat kuruṣva mahatpuṇyam ahorātravrataṃ mudā //</l>
+</lg>
+<lg xml:id="Avc_155">
+<l>tatkṛte te mahat puṇyaṃ sarvatrāpi bhavec chubham /</l>
+<l>etatpuṇyavipākena saṃbodhiṃ prāpnuyā api //</l>
+</lg>
+<lg xml:id="Avc_156">
+<l>iti śāstrā samādiṣṭam indrapṛṣṭaḥ sa bhūpatiḥ /</l>
+<l>śrutvā taṃ sāñjalir natvā punar evaṃ samabravīt //</l>
+</lg>
+<p xml:id="6">
+bhadanta kartum icchāmi puṇyakṣetre jinālayam /
+</p>
+<lg xml:id="Avc_158">
+<l>iti tena narendreṇa pṛṣṭe sa sarvavit sudhīḥ /</l>
+<l>vasubandhur narendraṃ taṃ punar evam upādiśat //</l>
+</lg>
+<lg xml:id="Avc_159">
+<l>śṛṇu sādho mahārāja yathā khyātaṃ munīśvaraiḥ /</l>
+<l>tathāhaṃ te pravakṣyāmi śrutvaivaṃ kartum arhasi //</l>
+</lg>
+<lg xml:id="Avc_160">
+<l>vārāṇasīti vikhyātā sarvabhūmī mahattarī /</l>
+<l>puṇyakṣetraṃ mahāpīṭhaṃ sarvabuddhaiḥ praśaṃsitam //</l>
+</lg>
+<lg xml:id="Avc_161">
+<l>tatra yat praṇidhānena prakṛtaṃ karma kāritam /</l>
+<l>tat tatheha paratrāpi sidhyate nānyathā khalu //</l>
+</lg>
+<lg xml:id="Avc_162">
+<l>iti vijñāya rājendra tatra gatvā yathāvidhi /</l>
+<l>pratiṣṭhāpya tathā caityam ahorātravrataṃ careḥ //</l>
+</lg>
+<lg xml:id="Avc_163">
+<l>tathā cet te sadā bhadram ihāmutra bhaved dhruvam /</l>
+<l>kramād bodhicarīḥ pūrya saṃbuddhapadam āpsyasi //</l>
+</lg>
+<lg xml:id="Avc_164">
+<l>iti tena samādiṣṭaṃ guruṇā vasubandhunā /</l>
+<l>śrutvā sa bhūpatiḥ śrīmāṃs tatheti cānvamodata //</l>
+</lg>
+<lg xml:id="Avc_165">
+<l>tataḥ sa indrapṛṣṭas taṃ vasubandhuṃ guruṃ puraḥ /</l>
+<l>kṛtvā tataḥ samāgatya vārāṇasīm upācarat //</l>
+</lg>
+<lg xml:id="Avc_166">
+<l>tatra prāpya sa bhūmīndro nirīkṣya śubhabhūtale /</l>
+<l>ādau bhūśodhanaṃ kṛtvā vāstunāgaṃ parīkṣya ca //</l>
+</lg>
+<lg xml:id="Avc_167">
+<l>vihāraṃ vidhivat kṛtvā tathā caityaṃ jinālayam /</l>
+<l>triratnaṃ ca pratiṣṭhāpya yathāvidhi sadābhajat //</l>
+</lg>
+<lg xml:id="Avc_168">
+<l>tatra tena yathādiṣṭaṃ guruṇā vasubandhunā /</l>
+<l>tathā sa nararājendras tad vrataṃ kartum ārabhat //</l>
+</lg>
+<lg xml:id="Avc_169">
+<l>tataś ca vidhivad dhṛtvā sabhāryaḥ sa nṛpādhipaḥ /</l>
+<l>ahorātravrataṃ kṛtvā tac caityaṃ vidhinārcayat //</l>
+</lg>
+<lg xml:id="Avc_170">
+<l>tat samāpya punas tatra dīpaṃkaraṃ sasāṃghikam /</l>
+<l>saṃnimantrya yathārhena bhojanena samārcayat //</l>
+</lg>
+<lg xml:id="Avc_171">
+<l>tataḥ sa pṛthivīpālaś ciraṃ tac caityam ādarāt /</l>
+<l>sevitvā satsukhaṃ bhuktvā yayau cānte jinālayam //</l>
+</lg>
+<lg xml:id="Avc_172">
+<l>ity evaṃ tan mahat puṇyam ahorātravratodbhavam /</l>
+<l>aprameyam asaṃkhyeyaṃ sarvabuddhaiḥ pracakṣyate //</l>
+</lg>
+<lg xml:id="Avc_173">
+<l>tathā yuṣmābhir apy atra tad ahorātrasaṃvaram /</l>
+<l>dhṛtvā caityaṃ samabhyarcya sevitavyaṃ sadādarāt //</l>
+</lg>
+<lg xml:id="Avc_174">
+<l>tathā vo maṅgalaṃ nityam ihāmutra bhaved dhruvam /</l>
+<l>kramād bodhiṃ samāsādya nirvṛtīpadam āpsyatha //</l>
+</lg>
+<lg xml:id="Avc_175">
+<l>ity ādiṣṭaṃ munīndreṇa śrutvā te bhikṣavo mudā /</l>
+<l>tathety abhyanumoditvā tad vrataṃ kartum īṣire //</l>
+</lg>
+<lg xml:id="Avc_176">
+<l>tatas te bhikṣavo bhūyaḥ śāstāraṃ taṃ munīśvaram /</l>
+<l>kṛtāñjalipuṭā natvā papracchur evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_177">
+<l>bhagavan bhavatādiṣṭam indrapṛṣṭena yat kṛtam /</l>
+<l>tat sarvaṃ śrutam asmābhiḥ punaḥ śrotuṃ samiṣyate //</l>
+</lg>
+<lg xml:id="Avc_178">
+<l>kena kena tathā pūrvaṃ kṛtam etad vratottamam /</l>
+<l>ahorātraṃ mahatpuṇyaṃ tat samādeṣṭum arhati //</l>
+</lg>
+<lg xml:id="Avc_179">
+<l>iti tair bhikṣubhiḥ pṛṣṭe bhagavān sa munīśvaraḥ /</l>
+<l>tān bhikṣūn sāṃghikān sarvān samālokyaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_180">
+<l>śṛṇudhvaṃ bhikṣavaḥ sarve tathānyaiś ca kṛtaṃ purā /</l>
+<l>tat sarvaṃ kathayiṣyāmi yuṣmākaṃ paribodhane //</l>
+</lg>
+<lg xml:id="Avc_181">
+<l>purā svarge tathendreṇa pratiṣṭhāpya jinālayam /</l>
+<l>ahorātravrataṃ kṛtvā vidhivac caityam ārcayat //</l>
+</lg>
+<lg xml:id="Avc_182">
+<l>etatpuṇyānubhāvaiḥ sa sarvapāramitāḥ kramāt /</l>
+<l>pūrayitvā mahāsattvo bodhisattvo 'bhavat sudhīḥ //</l>
+</lg>
+<p xml:id="6.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+<lg xml:id="Avc_182*">
+<l>tato 'nyaḥ devarājo 'bhut kālena samayena sa /</l>
+<l>devarājasukhaṃ bhuktvā caraty asmin yathecchayā //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_183">
+<l>pātāle ca mahāvīro daityendro 'bhūn maharddhimān /</l>
+<l>nirghoṣadamano nāma devalokabhayaṃkaraḥ //</l>
+</lg>
+<lg xml:id="Avc_184">
+<l>tena jitvā balenāpi trailokyaṃ svavaśīkṛtam /</l>
+<l>sarve 'pi lokapālāś ca parājitya vaśīkṛtāḥ //</l>
+</lg>
+<lg xml:id="Avc_185">
+<l>tadā sa pṛthivīṃ gatvā vārāṇasīm upācarat /</l>
+<l>indrapṛṣṭavihārasthaṃ caityaṃ dṛṣṭvānvamodata //</l>
+</lg>
+<lg xml:id="Avc_186">
+<l>tataḥ pradakṣiṇīkṛtya taṃ caityaṃ vidhinārcayat /</l>
+<l>kṛtāñjalipuṭo bhutvā prārthayad evam ānataḥ //</l>
+</lg>
+<lg xml:id="Avc_187">
+<l>yāvajjīvaṃ sukhaṃ bhuktvā saṃsthāpya svavaśe jagat /</l>
+<l>saṃbuddhaśaraṇaṃ gatvā prānte yāyāṃ jinālayam //</l>
+</lg>
+<lg xml:id="Avc_188">
+<l>ity evaṃ praṇidhiṃ dhṛtvā natvā taṃ ca jinālayam /</l>
+<l>tata eva yayau svargaṃ daityendraḥ sa maharddhikaḥ //</l>
+</lg>
+<lg xml:id="Avc_189">
+<l>tatrāpi caityam ālokya śakreṇa sthāpitaṃ purā /</l>
+<l>natvā pradakṣiṇīkṛtya vidhinā ca samārcayat //</l>
+</lg>
+<lg xml:id="Avc_190">
+<l>tathaiva praṇidhiṃ kṛtvā natvā ca sāñjalir mudā /</l>
+<l>tataś ca sa samāgatya pātāle svaṃ gṛhaṃ yayau //</l>
+</lg>
+<p xml:id="6.6">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+<lg xml:id="Avc_190*">
+<l>etatpuṇyānubhāvena daityendro 'sau maharddhikaḥ /</l>
+<l>śakrāsanaṃ tadā tatra labdhavān vigrahair balaiḥ //</l>
+</lg>
+<lg xml:id="Avc_190**">
+<l>tadāsa devarājendraḥ saṃjñātvāho tam āgatam /</l>
+<l>idānīṃ kiṃprakāreṇa vijayiṣyāmi dānavaṃ /</l>
+<l>mamāśrameṣu nirghoṣadamano nāmāsau sthitaḥ //</l>
+</lg>
+<lg xml:id="Avc_190***">
+<l>iti dhyātvā sa śakraḥ bhuvane trāyastriṃśake /</l>
+<l>prāktanair devarājendraiḥ pūjārthaṃ caityaṃ sthāpitaḥ //</l>
+</lg>
+<lg xml:id="Avc_190****">
+<l>tasmin caitye ahorātravrataṃ kuryāṃ yathāvidhiḥ /</l>
+<l>tadupāyena dharmeṇa vijayiṣye suradviṣaṃ //</l>
+</lg>
+<lg xml:id="Avc_190*****">
+<l>śrutaṃ mayāsti saddharmaṃ tad eṣo 'pi ca tadvrataiḥ /</l>
+<l>svarge surasahāyena gato 'sau maghavaṃuiīṃ //</l>
+</lg>
+<lg xml:id="Avc_190******">
+<l>tadanantare ca devendraḥ mahārheṇa vratārcanaṃ /</l>
+<l>atīva susamudāyena kṛtavāñ ca jinālaye //</l>
+</lg>
+<lg xml:id="Avc_190*******">
+<l>tadanantare 'pi nirghoṣadamano 'suranirjitaḥ /</l>
+<l>vinā yuddhena nirjityāsuraṃ bhūmyavatāritaḥ //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_191">
+<l>tatra sa daityarājendro yathāvidhi jinālayam /</l>
+<l>mahac caityaṃ pratiṣṭhāpya satkṛtya vidhinārcayat //</l>
+</lg>
+<lg xml:id="Avc_192">
+<l>tataś cāpi sa daityendro yathāvidhi samārabhan /</l>
+<l>ahorātravrataṃ dhṛtvā tac caityaṃ samapūjayat //</l>
+</lg>
+<lg xml:id="Avc_193">
+<l>tatraivaṃ praṇidhiṃ kṛtvā so 'surendro mahāmatiḥ /</l>
+<l>sarvadā vidhinābhyarcya bheje nityaṃ mahotsavaiḥ //</l>
+</lg>
+<lg xml:id="Avc_194">
+<l>tathā sa suciraṃ bhuktvā yāvajjīvaṃ mahāsukham /</l>
+<l>tac caityaṃ śaraṇaṃ kṛtvā yayau tathā jinālayam //</l>
+</lg>
+<lg xml:id="Avc_195">
+<l>tathānye nāgarājāś ca tac caityaṃ samupāśritāḥ /</l>
+<l>ahorātravrataṃ dhṛtvā satkṛtya vidhinārcayan //</l>
+</lg>
+<lg xml:id="Avc_196">
+<l>tathā sarve 'pi te nāgā yāvajjīvaṃ mahat sukham /</l>
+<l>bhuktvā puṇyānubhāvaiś ca prānte yayur jinālayam //</l>
+</lg>
+<lg xml:id="Avc_197">
+<l>tathābhūn magadhe deśe caityagarbhaṃ mahat saraḥ /</l>
+<l>śuddhāmbupūritaṃ padmakumudādipraśobhitam //</l>
+</lg>
+<p xml:id="7">
+tatrarṣayaḥ saromadhye pratiṣṭhite jinālaye /
+</p>
+<lg xml:id="Avc_199">
+<l>tathā tair ṛṣibhiś caityaṃ pūjitaṃ tatsaraḥsthitāḥ /</l>
+<l>nāgakanyāḥ samīkṣyāṣṭau tadantikam upāśrayan //</l>
+</lg>
+<lg xml:id="Avc_200">
+<l>tatra ta ṛsayas tāsāṃ saviṣaśvāsavāyubhiḥ /</l>
+<l>prahatā viṣasaṃdigdhāḥ kṣaṇamātraṃ mumūrchire //</l>
+</lg>
+<lg xml:id="Avc_201">
+<l>tatas ta ṛṣayaḥ sarve kṣaṇāt prāptasucetanāḥ /</l>
+<l>dṛṣṭvā tāḥ samupāsīnā nāgakanyā ruṣāśapan //</l>
+</lg>
+<lg xml:id="Avc_202">
+<l>are duṣṭāḥ supāpinyo yad yuṣmākaṃ viṣānalaiḥ /</l>
+<l>tāpitāḥ smas tadapuṇyair yūyaṃ bhavata śambukāḥ //</l>
+</lg>
+<lg xml:id="Avc_203">
+<l>iti tair ṛṣibhiḥ sarvaiḥ śāpitās ta bhayānvitāḥ /</l>
+<l>sarvān ṛṣivarān natvā prārthayann evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_204">
+<l>namo vo 'stu mahāvijñāḥ kṣamadhvaṃ no 'parādhatām /</l>
+<l>tacchāpamocanopāyaṃ samupadeṣṭum arhatha //</l>
+</lg>
+<lg xml:id="Avc_205">
+<l>iti saṃprārthitaṃ tābhir niśamya te maharṣayaḥ /</l>
+<l>karuṇākrāntacittās tāḥ samālokyaivam abruvan //</l>
+</lg>
+<lg xml:id="Avc_206">
+<l>śṛṇudhvaṃ śambukā yūyam upāyaṃ śāpamuktaye /</l>
+<l>asmābhir deśitaṃ śrutvā tathā carata sādaram //</l>
+</lg>
+<lg xml:id="Avc_207">
+<l>caityabimbaṃ samālambya tad anusmṛtya cetasā /</l>
+<l>sadā pradakṣiṇāṃ kṛtvā bhramitvā bhajatādṛtāḥ //</l>
+</lg>
+<lg xml:id="Avc_208">
+<l>tadā tatpuṇyabhāvena sarvapāpavimocitāḥ /</l>
+<l>pariśuddhāśayā bhadrā bhaviṣyatha nṛpātmajāḥ //</l>
+</lg>
+<lg xml:id="Avc_209">
+<l>tadāpi hi tathā yūyaṃ caityasevāsamāhitāḥ /</l>
+<l>saddharmasādhanaṃ kṛtvā prayāsyatha jinālayam //</l>
+</lg>
+<lg xml:id="Avc_210">
+<l>iti tair ṛṣibhiḥ satyaṃ samādiṣṭaṃ niśamya tāḥ /</l>
+<l>śambukās tān ṛṣīn natvā tato 'gacchan nijālayam //</l>
+</lg>
+<lg xml:id="Avc_211">
+<l>tatas tāḥ śambukāḥ sarvāḥ śālikṣetram upāsṛtāḥ /</l>
+<l>caityabimbam anusmṛtya praviceruḥ samantataḥ //</l>
+</lg>
+<lg xml:id="Avc_212">
+<l>tatra vicchinnaśeṣāṃśaṃ śālistambaṃ vilokya tāḥ /</l>
+<l>caityākāraṃ samālambya saṃsmṛtvā sugatālayam //</l>
+</lg>
+<lg xml:id="Avc_213">
+<l>sadā pradakṣiṇīkṛtya praṇatvā ca muhur muhuḥ /</l>
+<l>caityānusmṛtim ādhāya bhramitvā saṃprabhejire //</l>
+</lg>
+<lg xml:id="Avc_214">
+<l>tatra tāḥ śambukāḥ sarvās tatpuṇyapariśodhitāḥ /</l>
+<l>tacchāpaparimuktyarthaṃ caityaṃ smṛtvā pracerire //</l>
+</lg>
+<lg xml:id="Avc_215">
+<l>kadā cit tatra matsyārthī dhīvaraḥ krūramānasaḥ /</l>
+<l>tatsarasi sthitān mīnān samāhartum upācarat //</l>
+</lg>
+<lg xml:id="Avc_216">
+<l>tatra sa dhīvaro dṛṣṭvā mīnāharaṇalālasaḥ /</l>
+<l>tīrastho jālam utkṣipya mīnān āhartum udyayau //</l>
+</lg>
+<lg xml:id="Avc_217">
+<l>tatra jāle pratikṣipte śambukā daivayogataḥ /</l>
+<l>sarvā api praviṣṭās tā na tu matsyo hi kaś cana //</l>
+</lg>
+<lg xml:id="Avc_218">
+<l>tataḥ sa jālam ākṛṣya pravisārya vilokayan /</l>
+<l>dadarśa śambukā eva tatra matsyaṃ na kaṃ cana //</l>
+</lg>
+<lg xml:id="Avc_219">
+<l>atha so 'prāptamatsyas tāḥ śambukā eva lubdhakaḥ /</l>
+<l>ādāya parikhinnātmā svagṛhaṃ śanakair yayau //</l>
+</lg>
+<lg xml:id="Avc_220">
+<l>tatra sa svagṛhaprāpto viṣannāsyo nirāśitaḥ /</l>
+<l>patnyāḥ sundarikāyās tāḥ śambukāḥ purato 'rpayat //</l>
+</lg>
+<lg xml:id="Avc_221">
+<l>tataḥ sa dhīvaro 'nyatra mīnān āhartum udyataḥ /</l>
+<l>bhuktvāhāraṃ yathāprāptaṃ jālam ādāya niryayau //</l>
+</lg>
+<lg xml:id="Avc_222">
+<l>tataḥ sā dhīvarī dṛṣṭvā śambukās tāḥ puro 'rpitāḥ /</l>
+<l>bubhukṣitānupaśyantī niḥśvasanty evam ālapat //</l>
+</lg>
+<lg xml:id="Avc_223">
+<l>hā kaṣṭaṃ kiṃ karomy adya bhojyaṃ kiṃ cin na me gṛhe /</l>
+<l>kaḥ krīṇīyād imāḥ śuktīr jīveyaṃ katham atra hi //</l>
+</lg>
+<lg xml:id="Avc_224">
+<l>tad imāḥ śambukāḥ sarvāḥ paktvā bhuñjyām ihādhunā /</l>
+<l>etadāhāramātreṇa yāpayeyaṃ na cānyathā //</l>
+</lg>
+<lg xml:id="Avc_225">
+<l>iti niścitya sā nārī sarvās tāḥ śambukā api /</l>
+<l>rasair yutāḥ svayaṃ paktvā bubhuje jīvitārthinī //</l>
+</lg>
+<lg xml:id="Avc_226">
+<l>tatas tāḥ śambukāḥ sarvā daivayogānucāriṇaḥ /</l>
+<l>tasyā evodare yātā babhūvur ekapiṇḍitāḥ //</l>
+</lg>
+<lg xml:id="Avc_227">
+<l>tataḥ sāpannasattvābhūt pravṛddhagarbhabhāriṇī /</l>
+<l>dine dine 'bhiruṣṭāṅgī svalpāhāraratā kṛśā //</l>
+</lg>
+<lg xml:id="Avc_228">
+<l>tataḥ sā samaye 'sūta kanyakā hy aṣṭa sundarīḥ /</l>
+<l>ekanāḍīsamudbhūtāḥ samākārāḥ śubhāṃśikāḥ //</l>
+</lg>
+<lg xml:id="Avc_229">
+<l>tatra sā jananī dṛṣṭvā hy aṣṭa tāḥ sundarīḥ śiśūḥ /</l>
+<l>samākārāḥ subhadrāṅgīḥ paśyantī vismayaṃ yayau //</l>
+</lg>
+<lg xml:id="Avc_230">
+<l>tataḥ sa janakaḥ śrutvā jātā hy aṣṭa sutā iti /</l>
+<l>vismitaḥ sahasopetya paśyaṃs tasthau suniścalaḥ //</l>
+</lg>
+<lg xml:id="Avc_231">
+<l>tatas tā dārikāḥ sarvās tayā mātrābhipālitāḥ /</l>
+<l>pravardhitāḥ prapuṣṭāṅgā rurucuḥ paṅkajā iva //</l>
+</lg>
+<lg xml:id="Avc_232">
+<l>tatas tāḥ kanyakāḥ sarvāḥ pūrvapuṇyānubhāvikāḥ /</l>
+<l>prītiviśrambhasaṃbuddhā dharmārthābhiratāśayāḥ //</l>
+</lg>
+<lg xml:id="Avc_233">
+<l>svakulavṛttisaṃtrastā dayārdrāḥ karuṇānvitāḥ /</l>
+<l>triratnadarśanotsāhasamanvitāḥ pracerire //</l>
+</lg>
+<lg xml:id="Avc_234">
+<l>atha mātā samāhūya tāḥ sarvāḥ kanyakā api /</l>
+<l>matsyānāṃ vikrayārthena prairayat paṇyavīthikām //</l>
+</lg>
+<lg xml:id="Avc_235">
+<l>tatas tāḥ kanyakāḥ sarvā ādāya matsyabhājanam /</l>
+<l>vikretuṃ saṃcarantyas tatpuramārgam upācaran //</l>
+</lg>
+<lg xml:id="Avc_236">
+<l>tatra tāḥ kramato gatvā mārgādūrasarittaṭe /</l>
+<l>kṣaṇaṃ viśramya sarvās tad ālokyaiva samāśrayan //</l>
+</lg>
+<lg xml:id="Avc_237">
+<l>tatra tāsāṃ pradhāna yā jyeṣṭhā sā bhaginī sudhīḥ /</l>
+<l>tāḥ sarvā bhaginīr dṛṣṭvā samāmantryaitad abravīt //</l>
+</lg>
+<lg xml:id="Avc_238">
+<l>bhaginyo yat purāsmābhiḥ pātakaṃ dāruṇaṃ kṛtam /</l>
+<l>tenātra sāmprataṃ jātāś caṇḍālasya kule vayam //</l>
+</lg>
+<lg xml:id="Avc_239">
+<l>iti satyaṃ parijñāya viramya pāpakarmataḥ /</l>
+<l>dharmārthasādhane rantum arhāmahe vayaṃ sadā //</l>
+</lg>
+<lg xml:id="Avc_240">
+<l>ihāpi cet tathāsmābhiḥ kriyate pāpasādhanam /</l>
+<l>bhūyo 'pi narake lagnā duḥkhaṃ bhuktvā caremahi //</l>
+</lg>
+<lg xml:id="Avc_241">
+<l>kadā vayaṃ tato muktāḥ sukhaṃ lapsyāmahe katham /</l>
+<l>sadaivaṃ durgatau jātāḥ pāpeṣv eva caremahi //</l>
+</lg>
+<lg xml:id="Avc_242">
+<l>puṇyair vinā na mānuṣye janma saṃprapsyate kva cit /</l>
+<l>mānuṣye 'labhyamāne tu kutra dharme matiś caret //</l>
+</lg>
+<lg xml:id="Avc_243">
+<l>vinā dharmamatiṃ bhadre caritum utsahet katham /</l>
+<l>vinā bhadracariṃ loke sadgatiṃ katham āpnuyāt //</l>
+</lg>
+<lg xml:id="Avc_244">
+<l>sugatau ca sadā saukhyaṃ vinā dharmair na lapsyate /</l>
+<l>tasmād dharme matiṃ dhṛtvā caritavyaṃ śubhe sadā //</l>
+</lg>
+<lg xml:id="Avc_245">
+<l>śubhena sadgatiṃ yātāḥ pāpena durgatiṃ gatāḥ /</l>
+<l>sukhaduḥkhāni saṃbhuktva bhramanti jantavo bhave /</l>
+<l>tad itaḥ sadgatiṃ prāptuṃ caremahi śubhe sadā //</l>
+</lg>
+<lg xml:id="Avc_246">
+<l>kiṃ cāpy etā vayaṃ sarvāś caṇḍālakulasaṃbhavāḥ /</l>
+<l>tat kathaṃ kulavṛttiṃ nu tyaktvā caremahi śubhe //</l>
+</lg>
+<lg xml:id="Avc_247">
+<l>yad vayaṃ preritā mātrā matsyān vikrayituṃ khalu /</l>
+<l>tasmān mātur vaco 'śrutvā caremahy anyathā katham //</l>
+</lg>
+<lg xml:id="Avc_248">
+<l>yady atraitān avikrīya prakṣiptvā ca jalāśaye /</l>
+<l>riktahastāḥ kathaṃ gehe mātuḥ puro vrajemahi //</l>
+</lg>
+<lg xml:id="Avc_249">
+<l>yad bhogyaṃ no gṛhe nāsty etad eva hi jīvanam /</l>
+<l>tat kiṃ sā jananī bhuñjyād vināhāraṃ na jīvati //</l>
+</lg>
+<lg xml:id="Avc_250">
+<l>tad atra kiṃ kariṣyāmo dhig janma mānuṣe 'pi naḥ /</l>
+<l>varaṃ prāṇaparityāgaṃ na tu pāpārthasādhanam //</l>
+</lg>
+<lg xml:id="Avc_251">
+<l>sarveṣām api jantūnām avaśyaṃ maraṇaṃ bhave /</l>
+<l>iti matvātra samsāre vartayema śubhe sadā //</l>
+</lg>
+<lg xml:id="Avc_252">
+<l>tad atra jīvino matsyān prakṣipyaitāñ jalāśraye /</l>
+<l>nirjīvān eva vikrīya mūlyaṃ mātur dadīmahi //</l>
+</lg>
+<lg xml:id="Avc_253">
+<l>yady evaṃ kriyate 'smābhiḥ papaṃ no vidyate na hi /</l>
+<l>kiṃ cit puṇyaṃ tu vidyeta tasmāt kuryāmahe tathā //</l>
+</lg>
+<lg xml:id="Avc_254">
+<l>ity atra me vacaḥ śrutvā tat kartum anumodata /</l>
+<l>mātra śarikāviṣādatvaṃ kartum arhāmahe khalu //</l>
+</lg>
+<lg xml:id="Avc_255">
+<l>etat tayā samākhyātaṃ śrutvā tāḥ paribodhitāḥ /</l>
+<l>tathety abhyanumoditvā tad anukartum īṣire //</l>
+</lg>
+<lg xml:id="Avc_256">
+<l>tatas tāḥ kanyakaḥ sarvās teṣāṃ ye jīvino jhaṣāḥ /</l>
+<l>tān sarvān sahasādāya prākṣipaṃs tatsarijjale //</l>
+</lg>
+<lg xml:id="Avc_257">
+<l>yāvanto nirgataprāṇās tān eva sakalān api /</l>
+<l>ādāya tāḥ pure gatvā vyakrīṇanta yathocitam //</l>
+</lg>
+<lg xml:id="Avc_258">
+<l>tatas tat paṇam ādāya sarvās tāḥ kanyakā mudā /</l>
+<l>gṛham āgatya tan mūlyaṃ sarvaṃ mātuḥ samarpayan //</l>
+</lg>
+<lg xml:id="Avc_259">
+<l>evaṃ tayā jananyā tāḥ kanyakāḥ preritās tathā /</l>
+<l>sajīvāṃs tāñ jale kṣiptvā nirjīvaiḥ paṇam ādaduḥ //</l>
+</lg>
+<lg xml:id="Avc_260">
+<l>evaṃ tāḥ sarvadā nityaṃ kṛtvā bhuktvā vinoditāḥ /</l>
+<l>tadvṛttisaṃparitrastāḥ pāpaśaṅkā viṣedire //</l>
+</lg>
+<lg xml:id="Avc_261">
+<l>kasmiṃś cid divase sarvā mātrā tāḥ preritās tathā /</l>
+<l>mīnān vikretum ādāya nigame samupācaran //</l>
+</lg>
+<lg xml:id="Avc_262">
+<l>tatrāsan daivayogāt te mīnāḥ sarve sajīvitāḥ /</l>
+<l>tān sarvāñ jīvitān dṛṣṭvā sarvās tā vismayaṃ yayuḥ //</l>
+</lg>
+<lg xml:id="Avc_263">
+<l>tatra tāḥ kanyakāḥ sarvāḥ samālokya parasparam /</l>
+<l>katham adyātra kuryāma ity uktvaivāvatasthire //</l>
+</lg>
+<lg xml:id="Avc_264">
+<l>tatra tāsāṃ pradhānā sā kanyā śuddhāśayā sudhīḥ /</l>
+<l>tāḥ sarvā bhaginīr dṛṣṭvā samāśvāsyaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_265">
+<l>bhaginyo yad ime mīnāḥ sarve 'pi jīvinaḥ khalu /</l>
+<l>tat kathaṃ jīvino 'py atra vikrīṇīmahi sāṃpratam //</l>
+</lg>
+<lg xml:id="Avc_266">
+<l>tasmāt sarvān imān matsyān prakṣiptvātra sarijjale /</l>
+<l>triratnasmaraṇaṃ kṛtvā tiṣṭhemātraikavāsaram //</l>
+</lg>
+<lg xml:id="Avc_267">
+<l>yadi gṛhe gamiṣyāmo riktahastā vinā paṇam /</l>
+<l>mātā ruṣṭā parikruśya sarvā nas tāḍayet khalu //</l>
+</lg>
+<lg xml:id="Avc_268">
+<l>yac cāpy adya gṛhe kiṃ cid bhojyaṃ na vidyate kva cit /</l>
+<l>tat kiṃ mātānnam aśnīyād bubhukṣitā caret krudhā //</l>
+</lg>
+<lg xml:id="Avc_269">
+<l>asmabhyaṃ cāpi kiṃ dadyād annaṃ pānaṃ ca kopitā /</l>
+<l>paribhāṣya muhur bālā api niṣkāsayed gṛhāt //</l>
+</lg>
+<lg xml:id="Avc_270">
+<l>tad adya kiṃ gṛhe gatvā sarvā apīha saṃgatāḥ /</l>
+<l>triratnasmaraṇaṃ kṛtva tiṣṭhemahi dināntataḥ //</l>
+</lg>
+<lg xml:id="Avc_271">
+<l>etat tayoditaṃ śrutvā sarvās tā dārikā api /</l>
+<l>tatheti saṃmataṃ kṛtvā sarvān mīnāñ jale 'kṣipan //</l>
+</lg>
+<lg xml:id="Avc_272">
+<l>tatra tāḥ kanyakāḥ sarvaḥ sarittaṭasamāśritāḥ /</l>
+<l>triratnasmaraṇaṃ kṛtvā dhyātvā tasthuḥ samāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_273">
+<l>kena cit kathitaṃ tāsām etadvṛttiṃ niśamya sā /</l>
+<l>mātā krodhāgnisaṃtaptā vegāt tatra ruṣācarat //</l>
+</lg>
+<lg xml:id="Avc_274">
+<l>tatra tā dārikāḥ sarvās tathā sthitā nirīkṣya sā /</l>
+<l>jananī sahasopetya paribhāṣyaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_275">
+<l>are re durbhagā bālāḥ kim evam iha saṃsthitāḥ /</l>
+<l>pradoṣe 'pi gṛhe kena hetunā na samāgatāḥ //</l>
+</lg>
+<lg xml:id="Avc_276">
+<l>kim etān sakalān mīnān avikrīya vimuñcatha /</l>
+<l>kiṃ cid annaṃ gṛhe nāsti tat kiṃ bhokṣyāmahe 'dhunā //</l>
+</lg>
+<lg xml:id="Avc_277">
+<l>kasyopadeśam ākarṇya kuladharmanirādarāḥ /</l>
+<l>pitror api vaco 'śrutvā krīḍathaivaṃ tad ucyatām //</l>
+</lg>
+<lg xml:id="Avc_278">
+<l>evam ukte tayā mātrā sarvās tāḥ kanyakā api /</l>
+<l>adhomukhasthitāḥ kiṃ cid api nocur viṣāditāḥ //</l>
+</lg>
+<lg xml:id="Avc_279">
+<l>tathā sthitāḥ svaputrīs tā dṛṣṭvā sā jananī ruṣā /</l>
+<l>sahasā samupākramya laguḍenābhyatāḍayat //</l>
+</lg>
+<lg xml:id="Avc_280">
+<l>tataḥ sā jananī dṛṣṭvā sarvās tās trasitānanāḥ /</l>
+<l>bodhayitvā prayatnena nināya svagṛhe niśi //</l>
+</lg>
+<lg xml:id="Avc_281">
+<l>tatra tāḥ kanyakāḥ sarvāḥ svagṛhe saṃsthitāḥ niśi /</l>
+<l>abhuktvaikāntam āśritya tasthuḥ smṛtvā munīśvaram //</l>
+</lg>
+<lg xml:id="Avc_282">
+<l>tat paredyuś ca sā mātā hatvāpi jīvino jhaṣān /</l>
+<l>dattvā tān dārikās tāś ca vikrayāyairayat pure //</l>
+</lg>
+<lg xml:id="Avc_283">
+<l>mātrā tathā kṛtaṃ matvā sarvās tāḥ kanyakā api /</l>
+<l>tat kukarma iti dhyātvā tasthuḥ pāpaviṣāditāḥ //</l>
+</lg>
+<lg xml:id="Avc_284">
+<l>tathā sthitāś ca tāḥ sarvā dṛṣṭvā sā jananī ruṣā /</l>
+<l>bahuśaḥ paribhāṣitvā pratāḍya prairayat pure //</l>
+</lg>
+<lg xml:id="Avc_285">
+<l>tatas tā dārikāḥ sarvās tattāḍanarujānvitāḥ /</l>
+<l>viṣaṇṇās tāñ jhaṣān dhṛtvā vikretuṃ niryayuḥ śanaiḥ //</l>
+</lg>
+<lg xml:id="Avc_286">
+<l>tatas tā nirgatāḥ sarvās tanmārgasarasītaṭe /</l>
+<l>mātṛtāḍanaduḥkhārtā viśramya kṣaṇam āśrayan //</l>
+</lg>
+<lg xml:id="Avc_287">
+<l>tatra tāḥ kanyakāḥ sarvās tatpāpapariśodhane /</l>
+<l>triratnasmaraṇaṃ kṛtvā tasthur dhyānasamāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_288">
+<l>tatpuṇyapariśuddhās tā vālukābhiḥ pṛthak pṛthak /</l>
+<l>caityaṃ nirmāya satkṛtya pratiṣṭhāpya pramoditāḥ //</l>
+</lg>
+<lg xml:id="Avc_289">
+<l>tatrotpannāni puṣpāṇi phalāni ca samantataḥ /</l>
+<l>ādāya taiḥ phalaiḥ puṣpaiḥ svasvacaityaṃ samarcayan //</l>
+</lg>
+<lg xml:id="Avc_290">
+<l>tatas tāḥ prāñjaliṃ dhṛtvā kṛtvā pradakṣiṇāni ca /</l>
+<l>aṣṭāṅgapraṇatiṃ kṛtvā tasthur dhyānasamāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_291">
+<l>taddinānte 'pi tāḥ sarvā gṛhe naivāgatā iti /</l>
+<l>mātā vicintya bhartāraṃ sahasā caivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_292">
+<l>svāmiṃs tā dārikāḥ sarvā adyāpi nāgatā gṛhe /</l>
+<l>kutra gatā iti draṣṭuṃ gaccha tvaṃ sahasānaya //</l>
+</lg>
+<lg xml:id="Avc_293">
+<l>etat patnyoditaṃ śrutvā sa caṇḍālaḥ prakopitaḥ /</l>
+<l>sahasā tatsarastīre gacchan sarvā dadarśa tāḥ //</l>
+</lg>
+<lg xml:id="Avc_294">
+<l>tatra tāś caityam abhyarcya sthitāḥ sarvā vilokya saḥ /</l>
+<l>pitātikopasaṃtaptaḥ sahasā saṃmukho 'carat //</l>
+</lg>
+<lg xml:id="Avc_295">
+<l>tatra tāḥ kanyakāḥ sarvā dṛṣṭvā taṃ saṃmukhāgatam /</l>
+<l>krodhasaṃtaptaraktākṣaṃ tasthur dhyānasamāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_296">
+<l>tathā sthitāḥ sa ālokya sarvās tāḥ svātmajā api /</l>
+<l>nirdayo bahudhā bhartsya laguḍenāpy atāḍayat //</l>
+</lg>
+<lg xml:id="Avc_297">
+<l>tathātitāḍitāḥ sarvā api tā na vicerire /</l>
+<l>tatpāpatrasitā eva tasthur dhyānasamāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_298">
+<l>tataḥ sa janakaḥ krūraḥ saṃtāḍya paribhāṣya ca /</l>
+<l>sarvā ādāya tān mīnān sahasā tatpure 'carat //</l>
+</lg>
+<lg xml:id="Avc_299">
+<l>tatra vikrīya tān mīnān annam ādāya satvaraḥ /</l>
+<l>gṛhe patnyāḥ puro gatvā tac caritraṃ nyavedayat //</l>
+</lg>
+<lg xml:id="Avc_300">
+<l>tatra tattāḍanodbhūtaduḥsahavedanāturāḥ /</l>
+<l>bhuvy āvartya rudantyas tāḥ sarvās tasthur vimūrchitāḥ //</l>
+</lg>
+<lg xml:id="Avc_301">
+<l>tadantikagireḥ sānau niṣaṇṇaḥ karuṇānidhiḥ /</l>
+<l>pratyekabuddha ātmajñaḥ śuśrāva tadvilāpitam //</l>
+</lg>
+<lg xml:id="Avc_302">
+<l>tatra sa kṛpayā dṛṣṭyā vilokayan samantataḥ /</l>
+<l>tāḥ sarvā vedanākrāntāḥ samaikṣata vimūrchitāḥ //</l>
+</lg>
+<lg xml:id="Avc_303">
+<l>tataḥ pratyekabuddhaḥ sa kāruṇyacoditaḥ kṛtī /</l>
+<l>taddeśaṃ sahasopetya tasthau sudhākarotsṛjan //</l>
+</lg>
+<lg xml:id="Avc_304">
+<l>sarvās tās tatsudhāraśmiparispṛṣṭāḥ sukhānvitāḥ /</l>
+<l>saṃprāptacetanāḥ sarvāḥ prādrākṣus taṃ yatīśvaram //</l>
+</lg>
+<lg xml:id="Avc_305">
+<l>tatas tās taṃ muniṃ dṛṣṭvā vismayākrāntamānasāḥ /</l>
+<l>ko 'yaṃ munir iti dhyātvā sarvās tasthuḥ pramoditāḥ //</l>
+</lg>
+<lg xml:id="Avc_306">
+<l>tatas tāsāṃ pradhānā yā bhaginī sā vicakṣaṇā /</l>
+<l>tāḥ sarvā bhaginīr dṛṣṭvā samāmantryaivam abravīt //</l>
+</lg>
+<lg xml:id="Avc_307">
+<l>dhanyā vayaṃ tad adya smo yad ayaṃ saugato muniḥ /</l>
+<l>kṛpayāsmān samuddhartuṃ svayam eva samāgataḥ //</l>
+</lg>
+<lg xml:id="Avc_308">
+<l>yady ayaṃ nāgato buddhaḥ sudhāraśmir dayānidhiḥ /</l>
+<l>nistrāṇā vayam atraiva sarvā mṛtyuṃ vrajemahi //</l>
+</lg>
+<lg xml:id="Avc_309">
+<l>dhanyo 'yaṃ sugato nāthaḥ sarvasattvānukampakaḥ /</l>
+<l>ko hy asti trijagalloke buddhād anyo hitaṃkaraḥ //</l>
+</lg>
+<lg xml:id="Avc_310">
+<l>buddha eva jagacchāstā sarvabhadrārthasādhakaḥ /</l>
+<l>durgatitrāyako nāthaḥ sadgater mārgadarśakaḥ //</l>
+</lg>
+<lg xml:id="Avc_311">
+<l>tad etasya vayaṃ sarvāḥ sarvadā śaraṇaṃ gatāḥ /</l>
+<l>satkṛtya śraddhayā bhaktya yathāśakti bhajemahi //</l>
+</lg>
+<lg xml:id="Avc_312">
+<l>tato nūnaṃ vayaṃ sarvāḥ sarvapāpavimocitāḥ /</l>
+<l>pariśuddhatrikāyā hi sadgatiṃ ca vrajemahi //</l>
+</lg>
+<lg xml:id="Avc_313">
+<l>etat tayā samākhyātaṃ śrutvā tāḥ paribodhitāḥ /</l>
+<l>sarvā api munes tasya tathā bhaktuṃ samīṣire //</l>
+</lg>
+<lg xml:id="Avc_314">
+<l>tatas tāḥ kanyakāḥ sarvāḥ śraddhābhaktisamanvitāḥ /</l>
+<l>yathāśakti munes tasya satkāraiḥ prābhajan mudā //</l>
+</lg>
+<lg xml:id="Avc_315">
+<l>tatas tāḥ śaraṇaṃ gatvā kṛtāñjalipuṭā mudā /</l>
+<l>tridhā pradakṣiṇīkṛtya natvaivaṃ prārthayaṃs tathā //</l>
+</lg>
+<lg xml:id="Avc_316">
+<l>bhagavan nātha sarvajña bhavatāṃ sarvadā vayam /</l>
+<l>śaraṇasthā yathādeśam icchāmaś carituṃ tathā //</l>
+</lg>
+<lg xml:id="Avc_317">
+<l>tad bhavān kṛpayā dṛṣṭyā paśyann asmān suduḥkhitāḥ /</l>
+<l>sarvadāpi tathā sarvāḥ paritrātuṃ samarhati //</l>
+</lg>
+<lg xml:id="Avc_318">
+<l>nānyo no vidyate trātā nātho mitraṃ suhṛd guruḥ /</l>
+<l>bhavān eva guruḥ śāstā saddharmadeśakaḥ prabhuḥ //</l>
+</lg>
+<lg xml:id="Avc_319">
+<l>tad asmān duḥkhinīḥ sarvāḥ saṃpaśyan karuṇādṛśā /</l>
+<l>bodhimārge pratiṣṭhāpya sadaivaṃ trātum arhati //</l>
+</lg>
+<lg xml:id="Avc_320">
+<l>etat saṃprārthitaṃ tābhiḥ śrutvā so 'rhan mahāmatiḥ /</l>
+<l>pratyekasugato jñātvā tāsāṃ karmavipākatām //</l>
+</lg>
+<lg xml:id="Avc_321">
+<l>tata ākāśa utplutya sthitvā vahnir ivojjvalan /</l>
+<l>taccittasaṃvinodārthaṃ prātihāryam adarśayat //</l>
+</lg>
+<lg xml:id="Avc_322">
+<l>tasyaitat prātihāryaṃ tāḥ sarvā dṛṣṭvā savismayāḥ /</l>
+<l>suprasannamukhāmbhojāḥ sulabdhabodhimānasāḥ //</l>
+</lg>
+<lg xml:id="Avc_323">
+<l>tatra pradakṣiṇīkṛtya kṛtāñjalipuṭā mudā /</l>
+<l>aṣṭāṅgapraṇatiṃ kṛtvā bodhipraṇidhim ādadhuḥ //</l>
+</lg>
+<lg xml:id="Avc_324">
+<l>yad asmābhir muner asya satkṛtiḥ prakṛtā mudā /</l>
+<l>etatpuṇyavipākena labdhvā ca janma sadgatau //</l>
+</lg>
+<lg xml:id="Avc_325">
+<l>svaparātmahitaṃ kṛtvā sarvatrāpi śubhāni ca /</l>
+<l>īdṛkpratyekasaṃbodhiṃ labdhvā vrajema nirvṛtim //</l>
+</lg>
+<lg xml:id="Avc_326">
+<l>evaṃ tāḥ kanyakāḥ sarvāḥ praṇidhāya prasāditāḥ /</l>
+<l>tam eva sugataṃ natvā tasthur dhyānasamāhitāḥ //</l>
+</lg>
+<lg xml:id="Avc_327">
+<l>evaṃ hṛdbhāvitaṃ tāsāṃ matvā sa sugatas tataḥ /</l>
+<l>ākāśāt sahasopetya tā evaṃ samupādiśat //</l>
+</lg>
+<lg xml:id="Avc_328">
+<l>bhaginyaḥ saṃprasīdadhvaṃ yad itaḥ saptame 'hani /</l>
+<l>sarvā yūyaṃ subhāvinyaḥ samaṃ kālaṃ gamiṣyatha //</l>
+</lg>
+<lg xml:id="Avc_329">
+<l>tato rājakule janma vārāṇasyāṃ śubhāṃśikāḥ /</l>
+<l>labdhvā yūyaṃ samācārāḥ sarvāḥ śubhe cariṣyatha //</l>
+</lg>
+<lg xml:id="Avc_330">
+<l>tatra yūyaṃ samālokya saṃsāraṃ kleśasaṃkulam /</l>
+<l>sarvān parigrahāṃs tyaktvā tapovane ramiṣyatha //</l>
+</lg>
+<lg xml:id="Avc_331">
+<l>tatrāpi ca triratnāni smṛtvā sadā samāhitāḥ /</l>
+<l>pratyekāṃ bodhim āsādya nirvṛtipadam āpsyatha //</l>
+</lg>
+<lg xml:id="Avc_332">
+<l>etan matvā bhaginyo 'tra sarvā yūyaṃ samāhitāḥ /</l>
+<l>triratnabhajanaṃ kṛtvā carata sarvadā śubhe //</l>
+</lg>
+<lg xml:id="Avc_333">
+<l>etad evam upādiśya sa pratyekajinas tataḥ /</l>
+<l>bhāsayan khaṃ samutplutya svāśramaṃ sahasā yayau //</l>
+</lg>
+<lg xml:id="Avc_334">
+<l>tam ākāśagataṃ dṛṣṭvā sarvās tāḥ kanyakā mudā /</l>
+<l>praṇatvā suprasādinyaś cireṇa svālaye 'caran //</l>
+</lg>
+<lg xml:id="Avc_335">
+<l>tatra tāś caityam abhyarcya sthitāḥ saptadine mṛtāḥ /</l>
+<l>vārāṇasyāṃ kṛke rajñaḥ sutā āsan samānikāḥ //</l>
+</lg>
+<lg xml:id="Avc_336">
+<l>tāsaṃ yā bhaginī jyeṣṭhā vratīti pratiśrutā /</l>
+<l>dvitīyā dharmavatī khyātā tṛtīyā śubhamañjarī //</l>
+</lg>
+<lg xml:id="Avc_337">
+<l>caturthī dhīmatī nāmnā pañcamī netramañjarī /</l>
+<l>ṣaṣṭhī ca śrimatī khyātā saptamī ca madaṃjahā //</l>
+</lg>
+<lg xml:id="Avc_338">
+<l>aṣṭamī ratnamālākhyā ity etā aṣṭakanyakāḥ /</l>
+<l>sujātā nṛpateḥ putryaḥ samācārāḥ samāśayāḥ //</l>
+</lg>
+<p xml:id="7.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="8">
+{E adds the following after vs. 338 and continues from 339
+</p>
+<lg xml:id="Avc_338*">
+<l>tatra tāḥ dharmavatyādi saptakanyā śubhecarāḥ /</l>
+<l>kleśavyākulasaṃsāram ity ālokya parigrahān /</l>
+<l>svān svān sarvān parityaktvā sarvāḥ tapovanaṃ yayuḥ //</l>
+</lg>
+<lg xml:id="Avc_338**">
+<l>tatrāpi ca triratnāni sadā smṛtvā samāhitāḥ /</l>
+<l>pratyekāṃ bodhim āsādya nirvṛtiṃ tāḥ samāyayuḥ //</l>
+</lg>
+<lg xml:id="Avc_338***">
+<l>tāsaṃ jyeṣṭhā svasā yā tat vrataṃ pratijanma pracārikā /</l>
+<l>etatpuṇyānubhāvena sā kanyā ratisaṃnibhā //</l>
+</lg>
+<p xml:id="9">
+dharmaśīlā vratī nāmnī dharmapattane pure vare /}
+</p>
+<lg xml:id="Avc_339">
+<l>tāsāṃ jyeṣṭhā pradhānā yā sā kanyā ratisaṃnibhā /</l>
+<l>dharmadakṣasya bhūpasya bhāryābhūd dharmacāriṇī //</l>
+</lg>
+<lg xml:id="Avc_340">
+<l>tadāpi sā vratī kanyā caityasevānurāgiṇī /</l>
+<l>saṃbodhicaraṇārāgā saṃbuddhaguṇabhāvinī //</l>
+</lg>
+<lg xml:id="Avc_341">
+<l>tatra sā kanyakā sādhvī kartuṃ caityārcanaṃ mudā /</l>
+<l>dharmadakṣaṃ patiṃ natvā prārthayad evam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_342">
+<l>svāminn icchāmy ahaṃ kartuṃ caityabimbārcanaṃ sadā /</l>
+<l>ahorātravrataṃ cāpi tad anujñāṃ pradehi me //</l>
+</lg>
+<lg xml:id="Avc_343">
+<l>iti tayā subhāvinyā bhāryayā prārthitaṃ mudā /</l>
+<l>śrutvā sa nṛpatir dṛṣṭvā tāṃ bhāryām evam abravīt //</l>
+</lg>
+<lg xml:id="Avc_344">
+<l>bhadre sādhuḥ samicchā te yat tvayāhaṃ prabodhitaḥ /</l>
+<l>ahaṃ cāpi cariṣyāmi tathāhorātrasadvratam //</l>
+</lg>
+<lg xml:id="Avc_345">
+<l>ity uktvā sa mahīpālo dharmadakṣaḥ pramoditaḥ /</l>
+<l>bhāryayā sahasaicchat tad ahorātravrataṃ varam //</l>
+</lg>
+<lg xml:id="Avc_346">
+<l>tataḥ sa nṛpatiś caityaṃ pratiṣṭhāpya yathāvidhi /</l>
+<l>ahorātravrataṃ kṛtvā sabhāryas taṃ samārcayat //</l>
+</lg>
+<lg xml:id="Avc_347">
+<l>evaṃ tayā subhāvinyā bhāryayā saha sarvadā /</l>
+<l>dharmadakṣo narendro 'sau caityasevārato 'bhavat //</l>
+</lg>
+<lg xml:id="Avc_348">
+<l>tatas tau dampatī cāpi yāvajjīvaṃ jinārcanam /</l>
+<l>kṛtvā saukhyaṃ prabhuktvānte saṃjagmāte jinālayam //</l>
+</lg>
+<lg xml:id="Avc_349">
+<l>evaṃ matvātra yūyaṃ ca śraddhayā sadvrataṃ mudā /</l>
+<l>ahorātravrataṃ dhṛtvā bhajata caityam ādarāt //</l>
+</lg>
+<lg xml:id="Avc_350">
+<l>evaṃ kṛte hi vo bhadram ihāmutra sadā bhavet /</l>
+<l>kramād bodhipadaṃ prāpya gamiṣyatha jinālayam //</l>
+</lg>
+<lg xml:id="Avc_351">
+<l>iti śāstrā munīndreṇa samādiṣṭaṃ niśamya te /</l>
+<l>bhikṣavo 'pi tathā caityaṃ vrataṃ dhṛtvā prabhejire //</l>
+</lg>
+<lg xml:id="Avc_352">
+<l>evaṃ me guruṇākhyātaṃ śrutaṃ mayā narādhipa /</l>
+<l>sarvalokahitārthāya tavāpi ca pracakṣyate //</l>
+</lg>
+<lg xml:id="Avc_353">
+<l>tathā tvaṃ ca mahārāja saṃbodhipadalabdhaye /</l>
+<l>ahorātravrataṃ dhṛtvā caityasevārato bhava //</l>
+</lg>
+<lg xml:id="Avc_354">
+<l>etatpuṇyānubhāvais te sarvatra mangalaṃ bhavet /</l>
+<l>sarvadā satsukhaṃ bhuktvā yāyāś cānte jinālayam //</l>
+</lg>
+<p xml:id="9.5">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="10">
+{E adds the following between vss. 354 and 355.<lb/>
+punas ca maharaja<lb/>
+dharmaṃ vinā na mokṣaṃ ca dānaṃ vinā na bhuktavān /
+</p>
+<lg xml:id="Avc_354*">
+<l>saptajanmakṛtaṃ pāpaṃ tenaiva naśyate khalu /</l>
+<l>kukṣetre ca kugotre ca jananaṃ na bhaviṣyati //}</l>
+</lg>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+<lg xml:id="Avc_355">
+<l>iti tenopaguptena śāstrākhyātaṃ niśamya saḥ /</l>
+<l>aśokaḥ saprajālokas tatheti prābhyanandata //</l>
+</lg>
+<p xml:id="11">
+ye cedaṃ śuddhacittā jinavarakathitaṃ caityasevānubhāvam /
+</p>
+<lg xml:id="Avc_356">
+<l>śṛṇvanti śrāvayanti pramuditahṛdayāḥ śraddhayābhiprasannāḥ /</l>
+<l>te sarvakleśamuktā jinaguṇaniratāḥ prāptasaṃbodhicittāḥ /</l>
+<l>śuddhātmānaḥ sudhīrāḥ sakalaśubhakarā buddhaloke prayānti //</l>
+</lg>
+<p xml:id="12">
+ity ahorātravratacaityasevānuśaṃsāvadānam //
+</p><p xml:id="13">
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p><p xml:id="14">
+{Śvadānaṃ aśokapṛcchitaṃ samāptaṃ. śubhan astu jagatāṃ.<lb/>
+Saṃvat 32 āśvine māse ?kṛṣṇapakṣe likha etat pam. mudā E}<lb/>
+<note type="segmentation">____________________</note><!-- TODO; segmentation -->
+</p>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_prAtimokSa+sUtra">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Prātimoksasutra of the Mulasarvastivadins</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. Anukul Chandra Banerjee: Prātimokṣa-sūtra (Mūlasarvāstivāda), Calcutta 1954. [First published in IHQ 29 (1953), pp. 162-174.]-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Pratimoksasutra of the Mulasarvastivadins.<BR>
+Based on the ed. Anukul Chandra Banerjee: Prātimokṣa-sūtra (Mūlasarvāstivāda), Calcutta 1954.<BR>
+[First published in IHQ 29 (1953), pp. 162-174.]<BR>
+Reprinted with slight modifications (not indicated) as:<BR>
+Prātimokṣa Sūtra, in: Two Buddhist Vinaya Texts in Sanskrit, <BR>
+Prātimokṣa Sūtra and Bhikṣukarmavākya, ed. Anukul Chandra Banerjee, Calcutta 1977, pp. 1-56.<BR>
+Faks. in GBM 17-60<BR>
+Input by Klaus Wille, Göttingen<BR>
+ITALICS for corrections and additions according to the Tibetan text and Finot<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+namaḥ sarvajñāya //
+</p><p xml:id="1">
+praṇamya pūrvaṃ jagati pradhānaṃ duḥkhālayottīrṇam anantapāram* /<lb/>
+sarvajñaśikṣāpada<hi rend="it">ratnakośa</hi>m udghāṭayāmy āryagaṇasya madhye // 1 //<lb/>
+trailokyavikhyātayaśaḥpatākaṃ saddharmanādoditasiṃhanādam* /<lb/>
+sarvaṃ kaṣāsāditaratnakośaṃ brahmāṇḍacūḍāmaṇighṛṣṭapādam* // 2 //<lb/>
+kṛtsnasyāgādhapārasya bauddhasya vinayodadheḥ /<lb/>
+pratiṣṭhāhṛdayaṃ sāraṃ prātimokṣo 'yam ucyate // 3 //<lb/>
+eṣa saddharmarājasya saddharmālekhyasaṃgrahaḥ /<lb/>
+eṣa bhikṣuvaṇiggrāmaḥ śikṣāpaṇyamahāpaṇaḥ // 4 //<lb/>
+eṣa dau<hi rend="it">ḥ</hi>śīlyaduṣṭānāṃ viṣaviṣkambhaṇo 'gadaḥ /<lb/>
+eṣa yauvanavibhrānta<hi rend="it">kumāradvipadāṅkuśaḥ</hi> // 5 //<lb/>
+eṣa sāgaragambhīrasaṃsārottaraṇaplavaḥ /<lb/>
+eṣa kleśajayo mārgo nṛpater agra<hi rend="it">nāyakaḥ</hi> // 6 //<lb/>
+eṣa mokṣapurārohe mūlasopānavat sthitaḥ /<lb/>
+nirvṛte mayi yuṣmākam eṣa śāstety abhiṣṭutaḥ // 7 //<lb/>
+svayaṃ + + + + + kṣumamakṣam caiva yatnataḥ /<lb/>
+nihatākṣaḥ samantaḥ + + + + + + + + + //<lb/>
++ + + + + + + + + + naibhyaty adīkṣitaiḥ /<lb/>
+prātimokṣaḥ sadā rakṣo bhikṣubhir nirmumukṣubhiḥ //<lb/>
+jita pravṛtte 'py ahitāya + + + + + + + /<lb/>
+kṛtopakāre 'py apakartumīhate + + + + + //<lb/>
+prātimokṣasya śravaṇaṃ durlabhaṃ kalpakoṭibhiḥ /<lb/>
+grahaṇaṃ dharaṇaṃ caivatipattiḥ sudurlabhā // 8 //<lb/>
+buddhānāṃ sukham utpādaḥ sukhā dharmasya dhīṣaṇā<lb/>
+sukhā saṃghasya sāmagrī śramaṇānāṃ tapaḥ sukham* // 9 //<lb/>
+sukhaṃ darśanam āryāṇāṃ saṃvāso 'pi satā sukhaḥ /<lb/>
+adarśanena bālānāṃ nityam eva sukhaṃ bhavet* // 10 //<lb/>
+sukhaṃ dṛṣṭāḥ śīlavantaḥ sukhaṃ dṛṣṭā bahuśrutāḥ /<lb/>
+<hi rend="it">arhantaś ca</hi> sukhaṃ dṛṣṭā vipramuktapunarbhavāḥ // 11 //<lb/>
+sukhā nadī sukhaṃ tīrthaṃ sukhaṃ dharmajito jataḥ /<lb/>
+sukhaṃ prajñāpratilaṃbho hy asmimānakṣayaḥ sukham* // 12 //<lb/>
+sukho hi vāsaḥ kṛtaniścayānāṃ jitendriyāṇāṃ ca bahuśrutānām* /<lb/>
+śānteṣv araṇyeṣu jarāṃ gatānāṃ vaneṣu nirvāpitayauvanānām* // 13 //
+</p><p xml:id="2">
+nirgatam āyuṣmanto grīṣmāṇāṃ yāvat tāvad avaśiṣṭam* / atikrāmati āyuḥ <hi rend="it">āga</hi>taṃ ja<hi rend="it">rāmara</hi>ṇam* / pralaṅghyate śāstuḥ śāsanam <pb ed='#PrMoSū_Mū-Banerjee' n='6'/> apramādena āuṣmadbhir yogaḥ <hi rend="it">ka</hi>raṇīyaḥ / apramādādhigatāhi tathāgatānām arhatāṃ samyaksaṃbuddhānāṃ bodhir iti vā <hi rend="it">a</hi>py evaṃbhāgīyāḥ kuśalā dharmā bodhipakṣy<hi rend="it">āḥ</hi> / kiṃ <hi rend="it">bhagavataḥ śrāvaka</hi>saṃghasya pūrvakālakaraṇīyam alpo 'rtho <hi rend="it">'lpakṛtyam*</hi> / <hi rend="it">anā</hi>gatānām āyuṣmantaś chandapariśuddhiṃ cārocayata ārocitāṃ ca pravedayata /
+</p><p xml:id="3">
+<hi rend="it">praṇamya</hi> śākyasiṃhāya <hi rend="it">bhūtvā hy asmai kṛtāṃjaliḥ /</hi><lb/>
+prātimokṣaṃ pravakṣyāmi vinayaṃ tac chṛṇotu naḥ // 14 //<lb/>
+śrutvā ca <hi rend="it">tat karotv atra yathā</hi> proktaṃ <hi rend="it">maharṣiṇā</hi> /<lb/>
+aṇumātreṣv avadyeṣu bhavatā yatnakāriṇā // 15 //<lb/>
+yatnād drutaṃ <hi rend="it">satataṃ yaś ca cittahayaṃ mukhavacaneṣu anusārayati</hi> /<lb/>
+prātimokṣakhalīnam api sadṛśaṃ śatakaṇṭakaṃ tīkṣṇaṃ yenāti<hi rend="it">vidhyate</hi> // 16 //<lb/>
+<hi rend="it">mahātmanaḥ ye vacanamātreṇa yathābhāgān na nivartante /</hi><lb/>
+<hi rend="bf">puruṣaturagās te khalu kleśaraṇajayino</hi> bhaviṣyanti // 17 //<lb/>
+yeṣāṃ tu khalīnam idaṃ na vidyate nāpi <hi rend="it">antaḥkāmaṃ</hi> /<lb/>
+<hi rend="it">te</hi> tu kleśaraṇavimathyatā uddāmā vibhramiṣyanti // 19 //
+</p><p xml:id="4">
+śṛṇotu bhadantaḥ saṃghaḥ adya saṃghasya poṣadhaḥ <hi rend="it">cāturdaśikaḥ</hi> pāṃcadaśiko vā <pb ed='#PrMoSū_Mū-Banerjee' n='7'/> sacet saṃghasya prāptakālaṃ kṣametānujānīyāt saṃgho yat saṃghasya poṣadhaṃ kuryāt prātimokṣasūtroddeśam u<hi rend="it">ddeśa</hi>yed eṣā jñaptiḥ /
+</p><p xml:id="5">
+poṣadhaṃ vayam āyuṣman kariṣyāmaḥ prātimokṣasūtroddeśam uddeśāmaḥ / yasya syā<hi rend="it">t āpattiḥ tena āvi</hi>ṣkartavyā / āpattyāṃ <hi rend="it">asatyāṃ</hi> tūṣṇīṃ bhavitavyam* / tūṣṇīṃbhāvena ca vayam āyuṣmataḥ <hi rend="it">pari</hi>śuddhān vedayiṣyāmaḥ / yathāpi pratyekaṃ pṛṣṭasya bhikṣor vyākaraṇaṃ bhavati evam e<hi rend="it">vaṃ evaṃrūpā</hi>yāṃ bhikṣu<hi rend="it">parṣadi yā</hi>vat trir apy anuśrāvaṇaṃ bhavati / yaḥ punar bhikṣur evaṃrūpāyāṃ bhikṣuparṣadi yāvat trir apy <hi rend="it">anuśrāvyamāne sma</hi>ran satīm āpattiṃ nāviṣkaroti saṃprajānan mṛṣāvādo 'sya bhavati / saṃprajānan mṛṣāvādaḥ khalv <hi rend="it">āyuṣmantaḥ antarāyiko dharma ukto bhagavatā / tasmāt smaratā bhikṣuṇā āpannena viśuddhāpekṣeṇa satī āpattir āviṣkartavyā / āviṣkṛtenāsya phāsu bhavati nāviṣkṛtena na bhavati /</hi>
+</p><p xml:id="6">
+uddiṣṭaṃ khalu mayāyuṣmantaḥ prātimokṣasūtroddeśanidānam* / tatrāyuṣmataḥ pṛcchāmi -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="7">
+dvir api trir api pṛcchāmi -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="8">
+atrāyuṣmanto yasmāt tūṣṇīm evam etad dhārayāmi /
+</p><p xml:id="9">
+catvāraḥ pārājikā dharmāḥ /
+</p><p xml:id="10">
+<hi rend="bf">ime khalu āyuṣmantaś catvāraḥ pārājikā dharmā anvardhamāsaṃ prātimokṣasūtroddeśam āgacchanti /</hi>
+</p><p xml:id="par.1">
+<hi rend="it">yaḥ punar bhikṣur bhikṣūṇāṃ śikṣāsājīvasamāpannaḥ śikṣām apratyākhyāya śikṣādaurbalyam anāviṣkṛtyābrahmacaryaṃ maithunaṃ dharmaṃ pratisevate antatas tiryagyonigatayāpi sārdhaṃ, ayam api bhikṣuḥ pārājiko bhavaty asaṃvāsyaḥ /</hi>
+</p><p xml:id="par.2">
+<hi rend="it">yaḥ punar bhikṣur grāmagatam araṇyagataṃ vā pareṣāṃ adattaṃ steyasaṃkhyātam ādadīta yadrūpeṇādattādānena rājā vainaṃ gṛhītvā rājamātro vā hanyād vā saṃbadhnīyād vā pravāsayed vā evaṃ cainaṃ vadet* -- tvaṃ bhoḥ puruṣa cauro 'si bālo 'si steno 'sīty evaṃrūpaṃ adattaṃ bhikṣuḥ ādadita, ayam api bhikṣuḥ pārājayiko bhavaty asaṃvāsyaḥ /</hi>
+</p><p xml:id="par.3">
+<hi rend="it">yaḥ punar bhikṣur manuṣyaṃ vā manuṣyavigrahaṃ vā svahastena saṃcintya jīvitād vyaparopayet* /</hi> śastraṃ vainām ādhārayec chastradhārakaṃ vāsya paryeṣeta maraṇāya vainaṃ samādāpayen maraṇavarṇaṃ vāsyānusaṃvarṇayet* / evaṃ cainaṃ vadet* -- haṃbho puruṣa kiṃ tava pāpakenāśucinā durjīvitena <hi rend="it">mṛtaṃ te bho puruṣa jīvitād va</hi>ram iti cintānumataiś cittasaṃkalpair anekaparyāyeṇa maraṇāya vainaṃ samādāpayen <hi rend="it">maraṇavarṇaṃ</hi> vāsya anusaṃ<hi rend="it">varṇayet</hi> sa ca tena kālaṃ kuryād ayam api bhikṣuḥ pārājiko bhavaty asaṃvāsyaḥ /
+</p><p xml:id="par.4">
+yaḥ punar bhikṣur anabhijānann aparijānann asantam asaṃvidyamānam anuttaramanuṣyadharmam ala<hi rend="it">mārya</hi> viśeṣā<hi rend="it">dhigamaṃ jñānaṃ vā</hi> darśanaṃ sparśavihāratāṃ vā pratijānīyād idaṃ jānāmīdaṃ paśyāmīti sa pareṇa samayena samanuyujyamāno vā asamanuyujyamāno vā <hi rend="it">āpanno</hi> viśuddhiṃ prakṣyaivaṃ vaded ajānann evāham āyu<hi rend="it">ṣmanto</hi> 'vocaṃ j<hi rend="it">ānāmīty a</hi>paśyāmīti riktaṃ tucchaṃ mṛṣāvyapalapanam anyatrābhi<hi rend="it">mānāt*</hi> ayam api bhikṣuḥ <hi rend="it">pārājiko bhavaty asaṃ</hi>vāsyaḥ /
+</p><p xml:id="15">
+uddiṣṭā mayāyuṣmantaś catvāraḥ pārājikā dharmā yeṣāṃ bhikṣur anyatamānyatamam āpattim adhyāpatya na labhate bhikṣubhiḥ sārdhaṃ saṃvāsaṃ bhogaṃ vā yathāpūrvaṃ ca tathāpaścāt pārājiko bhavaty asaṃvāsyaḥ /
+</p><p xml:id="16">
+tatrāham āyuṣmantaḥ paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="17">
+dvir api trir api paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="18">
+pariśuddhā atrāyuṣmanto yasmā<hi rend="it">t tūṣṇī</hi>m evam etad dhārayāmi /
+</p><p xml:id="19">
+<hi rend="it">saṃghāvaśeṣā dharmāḥ</hi>
+</p><p xml:id="20">
+ime khalv āyuṣmantas trayodaśa saṃghāvaśeṣā dharmā anvardhamāsaṃ prātimokṣasūtroddeśam āgacchanti /
+</p><p xml:id="sa.1">
+saṃcintya śukravisṛṣṭir anyatra svapnāntarāt <hi rend="it">saṃghā</hi>vaśeṣaḥ /
+</p><p xml:id="sa.2">
+yaḥ punar bhikṣur avalavipariṇatena cittena mātṛgrāmeṇa sārdhaṃ kāya<hi rend="it">saṃsargaṃ</hi> samāpadyeta hastagrahaṇaṃ vā bāhugrahaṇaṃ vā veṇīgrahaṇaṃ vā anyatamānyatamasya vā aṅgapratyaṅgasaṃsparśanaṃ vā aṅgamarśanaṃ svīkuryāt saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.3">
+yaḥ punar bhikṣu<hi rend="it">r avadalavipariṇatena cittena mātṛgrāmaṃ duṣṭhulayā</hi> pāpikayā asabhyayā maithunopasaṃhitayā <hi rend="it">vācā ābhāṣeta</hi> yathāpi <hi rend="it">tāṃ yuvā</hi> yuvatiṃ saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.4">
+yaḥ punar bhikṣur avadalavipariṇatena cittena mātṛgrāmasya purastād ātmanaḥ kāyapari<hi rend="it">caryāyā saṃvarṇayed etad agraṃ mātṛsvasaḥ pari</hi>caryāṇāṃ yaduta mādṛśaṃ bhikṣuṃ śīlavantaṃ kalyāṇa<hi rend="it">dharmāṇaṃ brahmacāriṇa</hi>m anena dharmeṇa paricared yaduta maithunopasaṃhitena saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.5">
+<hi rend="it">yaḥ punar bhikṣuḥ saṃca</hi>ritraṃ samāpadyeta striyaṃ vā puruṣamatena puruṣaṃ vā strīmatena jāyātvena vā jā<hi rend="it">ritvena vā antatas ta</hi>tkṣaṇikāyām api saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.6">
+svayaṃ yācitā bhikṣuṇā kuṭiṃ kārayitvā asvā<hi rend="it">mikām ātmoddeśikāṃ</hi> prāmāṇikā kuṭiḥ kārayitavyā / tatredaṃ kuṭyāḥ pramāṇaṃ dairghyeṇa dvādaśa vitastayaḥ <hi rend="it">sugatavitastyā tīryak</hi> saptāntarataḥ / tena bhikṣuṇā bhikṣavo 'bhinetavyāḥ vāstudarśanāya / abhinītair bhikṣubhir vāstu draṣṭavyam anārambhaṃ saparikramam* / sārambhe ced bhikṣur vāstuny aparākrame svayaṃ yācitāṃ kuṭiṃ kārayed asvāmikām ātmoddeśakāṃ bhikṣūṃś ca <hi rend="it">nābhinayed vāstu</hi> darśanāya anabhinītair bhikṣubhiḥ adarśitavāstuni pramāṇaṃ vātikramet saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.7">
+<hi rend="it">mahallakaṃ punar bhikṣuḥ</hi> vihāraṃ kāraya<hi rend="it">mānāḥ sa</hi>svāmikaṃ saṃghoddeśakaṃ tena bhikṣuṇā bhikṣavo 'bhihitavyā vāstudarśanāya / ataḥ <hi rend="it">abhinī</hi>tair bhikṣubhir vāstu draṣṭavam anāraṃbhaṃ saparikramam* / sāraṃbhe ced bhikṣur vāstuny aparikrame mahantaṃ vihāraṃ kārayitvā yat sasvāmikaṃ saṃghoddeśakaṃ <hi rend="it">bhikṣūṃś ca nābhinayed</hi> vāstudarśanāya <hi rend="it">saṃghā</hi>vaśeṣaḥ /
+</p><p xml:id="sa.8">
+yaḥ punar bhikṣur dviṣṭoddeśād apratītaḥ śuddhaṃ bhikṣuṃ <hi rend="it">amūlakena pārājikena dharmeṇānudhvaṃsa</hi>yed apy evainaṃ brahmacaryāc cyāvayeyam iti tasya ca apareṇa samayena <hi rend="it">sama</hi>nuyujyamāno <hi rend="it">vā asamanuyujyamāno vā amūlakam eva svādhikaraṇaṃ bhaved bhikṣuś ca dveṣe pratiṣṭhed dveṣeṇāvoca</hi>m iti saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.9">
+yaḥ punar bhikṣur dviṣṭoddeśād apratītaḥ śuddhaṃ bhikṣuṃ <hi rend="it">anyasya vā anyathābhāgīyasya adhikaraṇasya kañcid eva leśamātraṃ dharmam upādāya</hi> pārājikena dharmeṇa anudhvaṃsayed apy evainaṃ brahmacaryāc cyāvayeyam iti tasya ca apareṇa samayena <hi rend="it">samanuyu</hi>jyamānasya vā samanuyujyamānasya vā anyabhāgīyaṃ tad adhikaraṇaṃ bhavati kaścid eva leśoddeśamātro dharma upātto bhavati bhikṣuś ca <hi rend="it">dveṣe pratiṣṭhed</hi> dveṣād avocam iti saṃghāvaśeṣaḥ /
+</p><p xml:id="sa.10">
+yaḥ punar bhikṣuḥ samagrasya saṃghasya bhedāya parākramed bhedakaraṇasaṃvartanīyaṃ cādhikaraṇaṃ samādhāya pragṛhya tiṣṭhet sa bhikṣur bhikṣubhir idaṃ syād vacanīyaḥ -- mā tvam āyuṣman samagrasya saṃghasya bhedāya parākramed bhedakaraṇasaṃvartanīyaṃ cādhikaraṇaṃ samādhāya pragṛhya tiṣṭha / sametv āyuṣman sārdhaṃ saṃghena <hi rend="it">samagro</hi> saṃghasahitaḥ saṃmodamāno 'vivadamānaḥ ekāgradharmoddeśaḥ ekakṣīrodakībhūtaḥ śāstu darśayamānaḥ sukhaṃ sparśaṃ vihāraṃ tu niśṛja tvam āyuṣman* idam evaṃrūpaṃ saṃghabhedakaraṇaṃ vastu / evaṃ cet sa bhikṣur bhikṣubhir ucyamānas tathaiva vastu samādāya <hi rend="it">pragṛhya tiṣṭhet*</hi> śuddhas tu prati<hi rend="it">niḥsṛje</hi>d ity evaṃ kuśalaṃ na ca pratiniḥsṛjed dvir api trir api samanuyoktavyaḥ samanuśāsitavyaḥ <hi rend="it">tasya vastunaḥ</hi> pratiniḥsargāya dvir api trir api samanuyujyamānaḥ samanuśiṣyamānas tad vastu <hi rend="it">pratiniḥsṛjed ity evaṃ kuśalaṃ no cet pratiniḥsṛjet saṃghā</hi>vaśeṣaḥ /
+</p><p xml:id="sa.11">
+tasya khalu bhikṣor bhikṣavaḥ syur sahāya<hi rend="it">kāḥ vyagravādinaḥ eko vā dvau vā saṃbahulā vā te tān bhikṣūn evaṃ</hi> vadeyuḥ -- mā yūyam <hi rend="it">āyuṣmantaḥ taṃ bhikṣuṃ kalyāṇaṃ vā pāpakaṃ vā kiṃcid vadata tat kasmād dhetor dharmavādī</hi> āyuṣmanto bhikṣur vinayavādī <hi rend="it">ca so 'smākaṃ caiṣaś chandaṃ ca ruciñ cādāya tu vyāharati / jānaṃś ca sa bhikṣur bhāṣate nājānan yac cāsya bhikṣoḥ rocate ca kṣamate ca asmākam api rocate ca kṣamate ca iti / te bhikṣavo bhikṣubhir evaṃ syur vacanīyā -- māyuṣmanta evaṃ vadantu na ca sa bhikṣur dharmavādī na vinayavādī adharmaṃ caiṣo 'vinayaṃ cāsmākaṃ chandaṃ ruciñ cādāya tu vyāharati nājānaṃś ca sa bhikṣur bhāṣate jānaṃś ca yac cāsya bikṣoḥ rocate ca kṣamate ca tavāyuṣmato 'pi saṃghabhedaḥ na rocate māyuṣmatām api saṃghabhedo rocate sametv āyuṣmantaḥ saṃghena samagro hi saṃgho saṃmodamāno avivadamāno ekāgradharmoddeśaḥ ekakṣīrodakībhūtaḥ śāstu darśayamānaḥ sukhaṃ sparśaṃ viharantu / tiṣṭha mā tvam āyuṣman saṃghabhedāya niḥsṛja imām evaṃrūpāṃ saṃghabhedakarāṃ kathām* / evaṃ te bhikṣavo bhikṣubhiḥ dvir api trir api samanuyoktavyāḥ samanuśāsitavyās tasya vastunaḥ pratiniḥsargāya dvir api trir api samanuyoktavyāḥ samanuśāsitavyāḥ pratiniḥsṛjeyuḥ ity evaṃ kuśalaṃ no cet pratiniḥsṛjeyuḥ saṃghāvaśeṣaḥ /</hi>
+</p><p xml:id="sa.12">
+<hi rend="it">saṃbahulā bhikṣavaḥ anyatamaṃ grāmaṃ vā nigamaṃ vā upaniḥśritya vihareyus te ca syuḥ kuladūṣakāḥ pāpasamācārāḥ teṣāṃ ca kulāni duṣṭāni dṛśyeran vā śrūyeran vā prajñāyeran vā / te bhikṣavaḥ bhikṣubhir evaṃ syur vacanīyāḥ -- āyuṣmantaḥ kuladūṣakāḥ pāpasamācārāḥ yuṣmākaṃ kulāni duṣṭāni dṛśyante 'pi śrūyante 'pi prajñāyante 'pi yuṣmākaṃ ca te pāpasamācārā dṛśyante 'pi śrūyante 'pi prajñāyante 'pi prakramadhvaṃ āyuṣmantaḥ yūyaṃ asmād āvāsād alaṃ yuṣmākaṃ iha vāseneti / evaṃ cet te bhikṣavas tān bhikṣūn vadeyuḥ -- chandagāmina āyuṣmantaḥ bhikṣava dveṣagāmino mohagāmino bhayagāminaś ca evaṃrūpāyāḥ āpattyāḥ ekatya bhikṣūn pravāsayanty ekatya bhikṣūn na pravāsayantīti / tatra bhikṣavaḥ evaṃ syur vacanīyāḥ -- mā āyuṣmanta evaṃ vadata / ekatya bhikṣavaś chandagāmino dveṣagāmino mohagāmino bhayagāminaś ca evaṃrūpāyāḥ āpattyāḥ ekatya bhikṣūn pravāsayanty ekatya bhikṣūn na pravāsayantīti / tat kasmād dhetoḥ / neme bhikṣavaś chandagāmino dveṣagāmino mohagāmino bhayagāminaś ca āyuṣmanta khalu kuladūṣakāḥ pāpasamācārāḥ yuṣmākaṃ kulāni duṣṭāni dṛśyante 'pi śrūyante 'pi pāpakāś ca yuṣmākaṃ samācārā dṛśyante 'pi śrūyante 'pi prajñāyante 'pi / bhikṣava āyuṣmantaś chandagāmino dveṣagāmino mohagāmino bhayagāminaś ca -- niḥsṛjata imām evaṃrūpāṃ kathām* / te bhikṣavaḥ bhikṣubhir evaṃ bhāsitavyāḥ -- evaṃ cet pratiniḥsṛjeyuḥ ity evaṃ kuśalaṃ no cet pratiniḥsṛjeyuḥ dvir api trir api samanuyoktavyāḥ samanuśāsitavyās tasya pratiniḥsargāya dvir api trir api samanuyoktavyāḥ samanuśāsitavyāḥ pratiniḥsṛjeyuḥ ity evaṃ kuśalaṃ no cet pratiniḥsṛjeyuḥ saṃghāvaśeṣaḥ /</hi>
+</p><p xml:id="sa.13">
+<hi rend="it">bhikṣur iha kaścid durvācyasvabhāvo bhavati uddeśyaparyāpannaiḥ śikṣāpadaiḥ sugatasūtraparyāpannaiḥ bhikṣubhiḥ sahadharmeṇa sahavinayenocyamāna ātmānam avacanīyaṃ karoti -- mā mām āyuṣmantaḥ yūyaṃ kiṃcid vadata kalyāṇam akalyāṇaṃ vā aham api āyuṣmataḥ na kiṃcid vakṣyāmi kalyāṇam akalyāṇaṃ vā viramantu āyuṣmantaḥ mama vacanād aham api viraṃsyāmi yuṣmākaṃ vacanād iti / sa bhikṣur bhikṣubhir evaṃ syād vacanīyo -- āyuṣman uddeśyaparyāpannaiḥ śikṣāpadaiḥ sugatasūtraparyāpannaiḥ bhikṣubhiḥ sahadharmeṇa sahavinayenocyamāna ātmānam tvaṃ avacanīyaṃ karoṣi āyuṣman vacanīyam eva ātmānaṃ karotu āyuṣmantam bhikṣavo sahadharmeṇa sahavinayena vadantu āyuṣmān api bhikṣūn sahadharmeṇa sahavinayena vadatu evaṃ saṃbaddhā hi tasya bhagavataḥ tathāgatasya arhato samyaksaṃbuddhasya pariṣad yad idaṃ anyonyavacanīyād anyonyāpattivyutthāpanād iti māyuṣman ātmānaṃ avacanīyaṃ karotu / sa bhikṣur bhikṣubhir evaṃ bhāsitavyaḥ -- evaṃ ced tad vastu pratiniḥsṛjed ity evaṃ kuśalaṃ no cet pratiniḥsṛjed dvir api trir api samanuyoktavyaḥ samanuśāsitavyas tasya pratiniḥsargāya dvir api trir api samanuyoktavyaḥ samanuśāsitavyaḥ pratiniḥsṛjed tad vastu ity evaṃ kuśalaṃ no cet pratiniḥsṛjet saṃghāvaśeṣaḥ /</hi>
+</p><p xml:id="33">
+<hi rend="bf">uddiṣṭā mayāyuṣmantas trayodaśa saṃghāvaśeṣā dharmāḥ / nava prathamāpattayaś catvāro yāvattṛtīyakā yeṣāṃ bhikṣur anyatamānyatamaṃ dharmam āpanno yāvatkālaṃ jānan pratichādayati tāvatkālaṃ tena akāmataḥ paryuṣitavyam* / akāmataḥ paryuṣitaparivāsena bhikṣuṇā uttariṣaḍrātraṃ saṃghamānatvaṃ cartavyaṃ bhavati /</hi> cīrṇamānatto bhikṣur āvarhaṇapratibaddhaḥ kṛtānudharmaḥ bhikṣusaṃghasya ārādhitacitto yatra syād viṃśatigaṇo bhikṣu<hi rend="it">saṃghasya ta</hi>tra ca <hi rend="it">so</hi> bhikṣur āvarhitavyaḥ / ekenāpi ced ūno viṃśatigaṇo bhikṣusaṃghas taṃ bhikṣum āvarhet sa ca bhikṣur anāvrīḍas te ca bhikṣavo gārhyāḥ tatra samayaḥ /
+</p><p xml:id="34">
+yatrāhaṃ āyuṣmataḥ paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="35">
+dvir api trir api paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="36">
+pariśuddhā atrāyuṣmanto yasmāt tūṣṇīm evaitad dhārayāmi /
+</p><p xml:id="37">
+<hi rend="it">III. dvāv aniyatau dharmau /</hi>
+</p><p xml:id="38">
+imau khalu āyuṣmantau dvau aniyatau dharmau anvardhamāsaṃ prātimokṣasūtroddeśam āgacchataḥ /
+</p><p xml:id="aniy.1">
+yaḥ punar bhikṣur mātṛgrāmeṇa sārdham eka ekikayā rahasi praticchanne āsane niṣadyāṃ kalpayed alaṃ kāmayitum* / sacec chrāddheyavacanopāsikā trayāṇāṃ dharmāṇām anyatamānyatamadharmeṇa vadet pārājikena vā saṃghādiśeṣeṇa vā pāyantikena vā niṣadyāṃ bhikṣuḥ prati<hi rend="it">jānamānaḥ</hi> trayāṇāṃ dharmāṇām anyatamānyatamena dharmeṇa kārayitavyaḥ pārājikena vā saṃghāvaśeṣeṇa vā pāyantikena vā yena yena vā punaḥ śrāddheyavacanopāsikā taṃ bhikṣuṃ dharmeṇa vadet tena tena dharmeṇa sa bhikṣuḥ kārayitavyo 'yaṃ dharmo 'niyataḥ /
+</p><p xml:id="aniy.2">
+yaḥ punar bhikṣur mātṛgrāmeṇa sārdham eka ekikayā rahasi praticchanne āsane niṣadyāṃ kalpayen nālaṃ kāmayitum* / sacec chrāddheyavacanopāsikā dvayor dharmayoḥ anyatamānyatamadharmeṇa vadet saṃghāvaśeṣeṇa vā pāyantikena vā niṣadyāṃ bhikṣuḥ pratijānato <hi rend="it">dvayor dharmayoḥ</hi> saṃghāvaśeṣeṇa vā <hi rend="it">pāyantikena vā</hi> yena yena vā punaḥ śrāddheyavacanopāsikā <hi rend="it">taṃ</hi> bhikṣuṃ dharmeṇa vadet tena tena dharmeṇa sa bhikṣuḥ kārayitavyo 'yam api dharmo 'niyataḥ /
+</p><p xml:id="41">
+uddiṣṭā me āyuṣmantaḥ dvāv aniyatau dharmau / tatrāham āyuṣmataḥ paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="42">
+dvir api trir api paripṛcchāmi -- kaścit sthātra pariśuddhāḥ
+</p><p xml:id="43">
+pariśuddhā atrāyuṣmanto yasmāt tūṣṇīm evam etad dhārayāmi /
+</p><p xml:id="44">
+<hi rend="it">triṃśan naisargikapāyantikā dharmāḥ</hi>
+</p><p xml:id="45">
+ime khalu āyuṣmantas triṃśan naisargikāḥ pāyantikā dharmā anvardhamāsaṃ prātimokṣasūtroddeśam āgacchanti /
+</p><p xml:id="np.1">
+niṣṭhitacīvareṇa bhikṣuṇā uddhṛte kaṭhine daśāhaparamaṃ atirekacīvaram avikalpitaṃ dhārayitavyaṃ tataḥ uttari dhārayen naisargikā pāyantikā /
+</p><p xml:id="np.2">
+niṣṭhitacīvaro bhikṣuḥ uddhṛtakaṭhine ekarātram api cet trayāṇāṃ cīvarāṇām anyatamānyatamasya cīvarād bahiḥsīmāṃ vipravased anyatra saṃghasaṃmatyā [Hs.: saṃghasaṃvṛttyā] naisargikapāyantikā /
+</p><p xml:id="np.3">
+niṣṭhitacīvarasya bhikṣor uddhṛte kaṭhine utpatya akālacīvaram ākāṃkṣinā tena bhikṣuṇā tac cīvaraṃ pratigṛhītavyaṃ pratigṛhya sacet paripūryate kṣipram eva kṛtvā dhārayitavyam* / no cet paripūryate māsaparamaṃ tena bhikṣuṇā tac cīvaram upanikṣiptavyaṃ satyāṃ cīvarapratyāśāyām ūnasya vā paripūrayet tataḥ uttari upanikṣipen naisargika<hi rend="it">pāyantikā</hi> /
+</p><p xml:id="np.4">
+yaḥ punar bhikṣur ajñātikayā bhikṣuṇyā purāṇacīvaraṃ dhāvayed raṃjayed ākoṭayed vā naisargikapāyantikā /
+</p><p xml:id="np.5">
+yaḥ punar bhikṣur ajñātikayā bhikṣuṇyā santikāc cīvaraṃ pratigṛhṇīyād anyatra parivartakān naisargikapātayantikā /
+</p><p xml:id="np.6">
+yaḥ punar bhikṣur ajñātigṛhapatiṃ gṛhapatipatnīṃ vopasaṃkramya cīvaraṃ vijñāpayed anyatra samayān naisargikapāyantikā / tatrāyaṃ samaya ācchinnacīvaro bhikṣur bhavati naṣṭacīvaro dagdhacīvaro ūḍhacīvaro hṛtacīvaro 'yaṃ tatra samayaḥ /
+</p><p xml:id="np.7">
+ācchinnacīvareṇa bhikṣuṇā naṣṭacīvareṇa dagdhacīvareṇa ūḍhacīvareṇa hṛtacīvareṇājñātigṛhapatinā gṛhapatipatnīṃ cīvaraṃ vijñāpayitavyaḥ taṃ cec chrāddho brāhmaṇo gṛhapatir vātyarthaṃ saṃbahulaiś cīvaraiḥ pravārayed ākāṃkṣatā tena bhikṣuṇā sāntarottara<hi rend="it">paramaṃ</hi> tasmāc cīvaraṃ prati<hi rend="it">gṛhītavyaṃ</hi> tata uttari pratigṛhṇīyān naisargikā pāyantikā /
+</p><p xml:id="np.8">
+bhikṣuṃ khalūddiśyājñātinā gṛhapatinā gṛhapatipatnyā vā cīvaracetanakāni pratyupasthāpitāni syuḥ ebhir ahaṃ cīvaracetanakair e<hi rend="it">vaṃrūpaṃ</hi> caivaṃrūpaṃ ca cīvaraṃ cetayitvā evaṃnāmā bhikṣur upasaṃkramiṣyati tam ācchādayiṣyāmi cīvareṇa kāle kalpikeneti / tatra caiko bhikṣuḥ pūrvam apravāritaḥ san kaṃcid eva <hi rend="it">vikalpaṃ</hi> pratipadya tam ajñātiṃ gṛhapatiṃ gṛhapatipatnīṃ vopasaṃkramyaivaṃ <hi rend="it">vaded yāni tāni āyuṣmatā mā</hi>m uddiśya cīvaracetanakāni pratyupasthāpitāni sādhyāyuṣmaṃs te cīvaracetanakair evaṃrūpaṃ caivaṃrūpaṃ ca cīvaraṃ cetayitvā ācchādaye 'haṃ cīvareṇa kālena kalpikeneti / abhiniṣpanne cīvare naisargikā pāyantikā /
+</p><p xml:id="np.9">
+bhikṣuṃ khalūddiśyājñātinā gṛhapatinā gṛhapatipatnyā ca<lb/>
+pratyekapratyekāni cīvaracetanakāni pratyupasthāpitāni syuḥ / ebhir āvāṃ pratyekapratyekaiḥ cīvaracetanakair evaṃrūpaṃ caivaṃrūpaṃ ca pratyekapratyekaṃ cīvaraṃ cetayitvā evaṃnāmā bhikṣur upasaṃkramiṣyati tam ācchādayiṣyāvaḥ / pratyekapratyekābhyāṃ cīvaracetanakābhyāṃ kāle kalpikābhyām iti / tatra cet sa bhikṣuḥ pūrvam apravāritaḥ san kaṃcid eva vikalpam āpatya tam ajñātigṛhapatiṃ gṛhapatipatnīṃ vopasaṃkramyaivaṃ vaded yāni tāny āyuṣmatyātmān uddiśya pratyekapratyekāni cīvaracetanakāni pratyupasthāpitāni / sādhyāyuṣmatau tau pratyekapratyekaiś cīvaracetanakair evaṃrūpaṃ caivaṃrūpaṃ ca cīvaraṃ cetayitvā ācchādayatām ubhāv api bhūtvā ekaikena cīvareṇa kāle kalpikena kalyāṇakāmatām upādāyābhiniṣpanne cīvare naisargikā pāyantikā /
+</p><p xml:id="np.10">
+bhikṣuṃ khalū<hi rend="it">ddiśya rājñā</hi> vā rājamātreṇa vā brāhmaṇena vā gṛhapatinā vā naigamena vā jānapadena vā dhaninā vā śreṣṭhinā vā sārthavāhena vā dūtasya haste cīvaracetanakāni anupreṣitāni syuḥ / atha sa dūtas tāni cetanakāni <hi rend="it">ādāya yena</hi> sa bhikṣus tenopasaṃkrāmed upasaṃkramya taṃ bhikṣum evaṃ vaded yat khalv ārya jānīyāt <hi rend="it">tvām uddiśya rājñā vā rājamātreṇa vā</hi> brāhmaṇena vā gṛhapatinā vā naigamena vā jānapadena vā dhaninā vā śreṣṭhinā vā sārthavāhena vā cīvaracetanakena vānupreṣitāny āryaṃ pratigṛhṇātv anukampām upādāya / tena bhikṣuṇā sa dūta idaṃ syād vacanīyaḥ -- gacchāyuṣman dūta bhikṣūṇāṃ cīvaracetanakāni patyante parigṛhītuṃ / cīvaraṃ tu vayaṃ labdhvā pratigṛhṇīmaḥ kāle kalpikaṃ / sa dūtas taṃ bhikṣum evaṃ vaded asti kaścid āryāṇāṃ vaiyyāvṛtyakaro ya āryāṇāṃ vaiyyāvṛtyaṃ pratyanubhavatīti / cīvarārthikena bhikṣuṇā vaiyyāvṛtyakaro vyapadeṣṭavya ārāmiko vā upāsako vā ete dūta bhikṣūṇāṃ vaiyyāvṛtyakarā ete bhikṣūṇāṃ vaiyyāvṛtyaṃ pratyanubhavantīti / atha sa dūtas tāni cīvaracetanakāny ādāya yena sa vaiyyāvṛtyakaras tenopasaṃkrāmet* / upasaṃkramya taṃ vaiyyāvṛtyakaram evaṃ vadet* / khalv āyuṣman vaiyyāvṛtyakara jānīyā ebhis taṃ cīvaracetanakair evaṃrūpam caivaṃrūpaṃ ca cīvaraṃ cetayitvā evaṃnāmā bhikṣur upasaṃkramiṣyati tam ācchādayethā cīvareṇa kāle kalpiteneti / atha sa dūtas taṃ vaiyyāvṛtyakaraṃ sādhu ca suṣṭhu ca samanuyujya samanuśiṣya yena sa bhikṣus tena saṃkrāmet* / upasaṃkramya taṃ bhikṣum evaṃ vaded yo 'sāv āryeṇa vaiyyāvṛtyakaro vyapadiṣṭaḥ samanuśiṣṭaḥ samayena tam upasaṃkrāmethā ācchādayiṣyati sa satvāṃ cīvareṇa kāle kalpiteneti / cīvarārthikena bhikṣuṇā vaiyyāvṛtyakara upasaṃkramya dvis triś codayitavyaḥ smārayitavyo 'rthiko 'smy āyuṣman vaiyyāvṛtyakara cīvareṇārthiko 'smy āyuṣman vaiyyāvṛtyakara cīvareṇeti / dvis triś codayataḥ smārayataḥ sacet tac cīvaram abhiniṣpadyate ity evaṃ kuśalaṃ no ced abhiniṣpadyeta catuṣpaṃcaṣaṭkṛtvaḥ paraṃ tūṣṇīm uddeśe sthātavyaṃ catuṣpaṃcaṣaṭkṛtvā paraṃ tūṣṇahīm uddeśe sthitasya sacet tac cīvaram abhiniṣpadyeta ity evaṃ kuśalaṃ no ced abhiniṣpadyeta na uttari dhyāyacchec cīvarasyābhinivartaye abhiṣpanne cīvare naisargikapāyantikā / no ced abhiniṣpadyeta yasyā diśas tāni cīvaracetanakāny ānītāni tatra svayaṃ vā gantavyam āpto vā dūto 'nupreṣitavyaḥ yāni tāny āyuṣmadbhir evaṃnāmānaṃ bhikṣum uddiśya cīvaracetanakāny anupreṣitāni na tāni tasya bhikṣoḥ kaṃcid arthaṃ spharanti prajānātv āyuṣmantaḥ svam arthaṃ mā vo 'rthaḥ praṇaśyatv ity ayaṃ tatra sāmayaḥ /
+</p><p xml:id="np.11">
+yaḥ punar bhikṣur navaṃ kauśeyasaṃstaraṃ kārayen naisargikapāyantikā /
+</p><p xml:id="np.12">
+yaḥ punar bhikṣuḥ śuddhakālakānām eḍakaromnāṃ navaṃ saṃstaraṃ kārayen naisargikapāyantikā /
+</p><p xml:id="np.13">
+navaṃ bhikṣuṇā saṃstaraṃ kārayatā dvau bhāgau śuddhakālakānām eḍakaromnām ādātavyau tṛtīyo 'vadātānāṃ caturtho gocarikāṇām anādāya ced bhikṣur dvau bhāgau śuddhakālakānām eḍakaromnāṃ tṛtīyo 'vadātānāṃ caturtho gocarikāṇāṃ navaṃ saṃstaraṃ kārayen naisargikapāyantikā /
+</p><p xml:id="np.14">
+navaṃ bhikṣuṇā saṃstaraṃ kārayatā akāmaṃ ṣaḍ varṣāṇi kṛtvā dhārayitavyam* / arvāk ced bhikṣuḥ ṣaṇṇāṃ varṣāṇāṃ taṃ purāṇasaṃstaraṃ ni<hi rend="it">ḥ</hi>sṛjya vā ani<hi rend="it">ḥ</hi>sṛjya vā anyaṃ navaṃ saṃstaraṃ kārayed anyatra saṃghasaṃmatyā [saṃghasaṃvṛtyā] naisargikapāyantikā /
+</p><p xml:id="np.15">
+navaṃ <hi rend="it">bhikṣu</hi>ṇā niṣadanaṃ kārayitā purāṇaniṣadanasāmantakāt sugatavitastir ādātavyā navasya durvarṇīkaraṇāya / anādāya ced bhikṣuḥ purāṇaniṣadanasāmantakāt sugatavitastiṃ navasya durvarṇīkaraṇāya navaṃ niṣadanaṃ paribhuṃjīta naisargikapāyantikā /
+</p><p xml:id="np.16">
+bhikṣoḥ khalv adhvapratipannasyotpadyerann eḍakaromāṇy ākāṃkṣatā tena bhikṣuṇā pratigṛhītavyāni pratigṛhya yāvat triyojanaparamaṃ svayaṃ hartavyāny<hi rend="it"> asati hārake</hi> tata uttari pāren naisargikapāyantikā /
+</p><p xml:id="np.17">
+yaḥ punar bhikṣur ajñātikayā bhikṣuṇyā eḍakaromāṇi dhāvayed raṃjayed vivaṭed vivaṭāpayed vā naisargikapāyantikā /
+</p><p xml:id="np.18">
+yaḥ punar bhikṣuḥ svahastaṃ jātarūparajatam udgṛhṇīyād udgrāhanasatvā naisargikā pāyantikā /
+</p><p xml:id="np.19">
+yaḥ punar bhikṣur nānāprakāraṃ rūpikavyavahāraṃ samāpadyeta naisargikā pāyantikā /
+</p><p xml:id="np.20">
+yaḥ punar bhikṣur nānāprakāraṃ krayavikrayaṃ samāpadyeta naisargikā pāyantikā /
+</p><p xml:id="np.21">
+daśāhaparamaṃ bhikṣuṇā atirekapātraṃ dhārayitavyaṃ tata uttaraṃ paridhārayen naisargikā pāyantikā /
+</p><p xml:id="np.22">
+yaḥ punar bhikṣur ūnapaṃcabandhanena <hi rend="it">pātreṇa</hi> pāribhogikenānyaṃ navaṃ pātraṃ paryeṣeta / <hi rend="it">kalyāṇa</hi>kāmatām upādāyābhiniṣpanne pātre naisargikā pāyantikā / tena bhikṣuṇā tat pātraṃ bhikṣuparṣady upani<hi rend="it">ḥsṛṣṭavyaḥ yaḥ</hi> tasyāṃ bhikṣuparṣadi pātraparyanto bhavati / tat tasya bhikṣor anupradātavyam idaṃ te bhikṣoḥ pātraṃ vādhiṣṭhātavyaṃ na vikārayitavyaṃ sacen mandaṃ mandaṃ paribhoktavyaṃ yāvad bhedanaparyantam upādāya ity ayaṃ tatra samayaḥ /
+</p><p xml:id="np.23">
+yaḥ punar bhikṣuḥ svayaṃ yācitena sūtreṇājñātinā tantuvāyena cīvaraṃ vāyeyam iti niṣpanne cīvare naisargikā pāyantikā /
+</p><p xml:id="np.24">
+bhikṣuṃ khalūddiśyājñātiḥ gṛhapatir vā gṛhapatipatnī vājñātitantuvāyena cīvaraṃ vāyayet tatra cet sa bhikṣuḥ pūrvam apravāritaḥ san kaṃcid eva vikalpam āpadya tam ajñātiṃ tantuvāyam upasaṃkramyaivaṃ vadet* / yat khalv āyuṣmāṃs tantuvāya jānīyā idaṃ cīvaram asmān uddiśya ūyate sādhv āyuṣmaṃs tantuvāya idaṃ cīvaraṃ su<hi rend="it">vistṛ</hi>taṃ ca kuru suvilikhitaṃ ca suvitakṣitaṃ ca svākoṭitaṃ cāpy eva vayam āyuṣmate tantuvāyāya kāṃcid eva mātram upasaṃhariṣyāmo yaduta piṇḍapātaṃ vā piṇḍapātamātraṃ vā piṇḍapātasaṃbalaṃ vā cīvarasyābhiniṣpattaye abhiniṣpanne cīvare naisargikā pāyantikā /
+</p><p xml:id="np.25">
+yaḥ punar bhikṣur bhikṣoś cīvaraṃ datvā tataḥ paścād abhiṣiktaḥ kupitaś caṇḍībhūto nātmamanā ācchindyād ācchedayed vā evaṃ cainaṃ <hi rend="it">vaded ānaya</hi> bhikṣo cīvaraṃ na te <hi rend="it">bhūyo</hi> dadāmīti / tena bhikṣuṇā tac cīvaraṃ tac ca śeṣam upaniḥsṛṣṭavyaṃ bhuktasya ca naisargikā pāyantikā /
+</p><p xml:id="np.26">
+daśāham āgatāyāṃ kārtikyāṃ paurṇamāsyāṃ bhikṣor utpadyetātyayakacīvaram ākāṃkṣatā tena bhikṣuṇā pratigṛhītavyaṃ pratigṛhya yāvac cīvaradānakālasamayād dhārayitavyaṃ tata uttaraṃ dhārayen naisargikā pāyantikā /
+</p><p xml:id="np.27">
+bhikṣavaḥ khalu saṃbahulāḥ āraṇyakeṣu śayanāsaneṣu na varṣakā bhavanti sāśaṅkasaṃmateṣu <hi rend="it">nānābha</hi>yasaṃmateṣu sapratibhayabhairavasaṃmateṣu ākāṃkṣatā āraṇyakena bhikṣuṇā trayāṇāṃ cīvarāṇām anyatamānyatamaṃ cīvaram antargṛhe upanikṣiptavyaṃ syāt khalv āraṇyakasya bhikṣos tadrūpapratyayo bahiḥsīmāṃ ga<hi rend="it">ntuṃ ṣaḍrā</hi>traparamam āraṇyakena bhikṣuṇā tasmāc cīvarād bahiḥsīmāṃ vipravastavyaṃ tata uttari vipravasen naisargikā pāyantikā /
+</p><p xml:id="np.28">
+māsyaḥ śeṣo grīṣmāṇāṃ bhikṣuṇā varṣāśāṭīcīvaraṃ paryeṣitavyam ardhamāsāvaśiṣṭā kṛtvā dhārayitavyam* / arvāk ced bhikṣuḥ śeṣo grīṣmāṇāṃ varṣāśāṭīcīvaraṃ paryeṣeta ūrdhvam ardhamāsāvaśiṣṭā varṣāḥ kṛtvā dhārayen naisargikā pāyantikā /
+</p><p xml:id="np.29">
+yaḥ punar bhikṣur jānan sāṃghikaṃ lābhaṃ pariṇatam ātmanaḥ paudgalikaṃ pariṇāmayen naisargikā pāyantikā /
+</p><p xml:id="np.30">
+yāni tāni bhagavatā glānānāṃ bhikṣūṇāṃ sāṃpreyāṇi pratisevanīyāni bhaiṣajyāny ākhyātāni tadyathā sarpis tailaṃ madhu phāṇitaṃ tāny ākāṃkṣatā glānena bhikṣuṇā saptāhaparamaṃ svayam adhiṣṭhāya saṃnidhikārapari<hi rend="it">bho</hi>gena paribhoktavyāni tata uttari paribhuṃjīta naisargikā pāyantikā /
+</p><p xml:id="76">
+uddiṣṭā me āyuṣmantas triṃśan naisargikapāyantikā dharmāḥ / tatrāham āyuṣmantaḥ paripṛcchāmi -- kaścit sthātra pariśuddhāḥ<lb/>
+dvir api trir api paripṛcchāmi -- kaścit sthātra pariśuddhāḥ<lb/>
+pariśuddhā atrāyuṣmanto yasmāt tūṣṇīm evam etad dhārayāmi /
+</p><p xml:id="77">
+<hi rend="it">navatiḥ pāyantikā dharmāḥ</hi>
+</p><p xml:id="78">
+ime khalv āyuṣmantaḥ navatiḥ pāyantikā dharmā <hi rend="it">anva</hi>rdhamāsaṃ prātimokṣasūtroddeśam āgacchanti /
+</p><p xml:id="pay.1">
+saṃprajānan mṛṣāvādāt pāyantikā /
+</p><p xml:id="pay.2">
+ūnamanuṣyavādāt pāyantikā /<lb/>
+</p><p xml:id="pay.3">
+bhikṣupaiśunyāt pāyantikā /
+</p><p xml:id="pay.4">
+yaḥ punar bhikṣur jānan samagreṇa saṃghena yathādharmam adhikaraṇam upanikṣiptaṃ punaḥ karmaṇaḥ khoṭayet pāyantikā /
+</p><p xml:id="pay.5">
+yaḥ punar bhikṣur mātṛgrāmasyottari ṣaṭpaṃcikayā vācā dharmaṃ deśayed <hi rend="it">anyatra vijñapu</hi>ruṣāt pāyantikā /
+</p><p xml:id="pay.6">
+yaḥ punar bhikṣur anupasaṃpannāya pudgalāya padaśo dharmaṃ vācayet pāyantikā /
+</p><p xml:id="pay.7">
+yaḥ punar bhikṣur anupasaṃpannāya pudgalāya duṣṭhulāpattim ārocayed anyatra saṃghasaṃmatyān [saṃghasaṃvṛtyā] pāyantikā /
+</p><p xml:id="pay.8">
+yaḥ punar bhikṣur anupasaṃpannāya pudgalāyottaraṃmanuṣyadharmam ārocayed bhūtāt pāyantikā /
+</p><p xml:id="pay.9">
+yaḥ punar bhikṣuḥ pūrvaṃ samanujño bhūtvā tataḥ paścād evaṃ vaded <hi rend="it">yathā</hi> saṃstutikayāyuṣmantaḥ sāṃghikaṃ lābhaṃ pariṇatam ātmanaḥ paudgalikaṃ pariṇāmayantīti pāyantikā /
+</p><p xml:id="pay.10">
+yaḥ punar bhikṣur anvardhamāsaṃ prātimokṣasūtroddeśe uddiśyamāne evaṃ vadet kiṃ punar ebhir āyuṣmantaḥ kṣudrānukṣudraiḥ śikṣāpadair anvardhamāsaṃ prātimokṣasūtroddeśair uccāryamānair yāni bhikṣūṇāṃ kaukṛtyāya saṃvartante ālekhāya vilekhāya vileṭhāya vipratisārāyeti śikṣā<hi rend="it">pada</hi>vilaṃghanāt pāyantikā /
+</p><p xml:id="pay.11">
+bījagrāmabhūtagrāmapātanapātāpanāt pāyantikā /
+</p><p xml:id="pay.12">
+avadhyānakṣipaṇāt pāyantikā /
+</p><p xml:id="pay.13">
+ājñāviheṭhanāt pāyantikā /
+</p><p xml:id="pay.14">
+yaḥ punar bhikṣuḥ sāṃghikaṃ maṃcaṃ vā pīṭhaṃ vā vṛṣiko vā biṃbopadhānacaturaśrakaṃ vā abhyavakāśe upanikṣipyoparikṣipya vā anuddhṛtānuddhṛtya vā tato viprakrāmet santaṃ bhikṣum anavalokyānyatra tadrūpāt <hi rend="it">pratyayāt</hi> pāyantikā /
+</p><p xml:id="pay.15">
+yaḥ punar bhikṣuḥ sāṃghike vihāre tṛṇasaṃstaraṃ vā parṇasaṃstaraṃ vā saṃstīrya vā saṃstārya vā anuddhṛtyānuddhārya vā tato viprakrāmet santaṃ bhikṣum anavalokyānyatra tadrūpāt pratyayāt pāyantikā /
+</p><p xml:id="pay.16">
+yaḥ punar bhikṣur abhiṣaktaḥ kupitaś caṇḍībhūto 'nāttamanā sāṃghikād vihārād bhikṣuṃ niṣkarṣen niṣkārṣāpayed vā anyatra tadrūpāt pratyayāt pāyantikā /
+</p><p xml:id="pay.17">
+yaḥ punar bhikṣur jānan sāṃghike vihāre pūrvopagatānāṃ bhikṣūṇāṃ tataḥ paścād āgatyānupraskandyāsane niṣadyāṃ śayyāṃ vā kalpayed yasya saṃbādho bhaviṣyati sa viprakramiṣyatīti ity eva pratyayaṃ kṛtvā pāyantikā /
+</p><p xml:id="pay.18">
+yaḥ punar bhikṣur jānan sāṃghike vihāre uparivihāyasikṛtāyāṃ kuṭikāyām āhāryapādake maṃce vā pīṭhe vā sahasā balenābhipaded vābhinipadyeta vā pāyantikā /
+</p><p xml:id="pay.19">
+yaḥ punar bhikṣur jānan saprāṇakenodakena tṛṇaṃ vā gomayaṃ vā mṛttikāṃ vā siñcet siñcayed vā pāyantikā /
+</p><p xml:id="pay.20">
+mahāntaṃ bhikṣuṇā vihāraṃ kārayitvā yāvad dvārakośārgalasthānād ālokasaṃjñinā bhūmiparikarmopādāya dvau vā trayo vā chedanaparyāyāḥ saharitāḥ adhiṣṭhātavyāḥ tata uttari adhitiṣṭhet pāyantikā /
+</p><p xml:id="pay.21">
+yaḥ punar bhikṣur asaṃmataḥ saṃghena bhikṣuṇīr avavadet tadrūpadharmasamanvāgamāt pāyantikā /
+</p><p xml:id="pay.22">
+saṃmataś cāpi bhikṣur saṃghena yāvat sūryāstagamanakālasamayāt pāyantikā /
+</p><p xml:id="pay.23">
+yaḥ punar bhikṣur bhikṣum evaṃ vaded āmiṣakiṃcithetor bhikṣavo bhikṣuṇīr avadantīti pāyantikā /
+</p><p xml:id="pay.24">
+yaḥ punar bhikṣur ajñātikāyai bhikṣuṇyai cīvaraṃ dadyād anyatra parivartakāt pāyantikā /
+</p><p xml:id="pay.25">
+yaḥ punar bhikṣur ajñātikāyā bhikṣuṇyāś cīvaraṃ kuryāt pāyantikā /
+</p><p xml:id="pay.26">
+yaḥ punar bhikṣur bhikṣuṇīsārtheṇa sārdham adhvānamārgaṃ pratipadyeta ato grāmāntaram api pāyantikā / tatrāyaṃ samayaḥ sārthagamanīyo mārgo bhavati sāśaṅkasaṃmataḥ sabhayasaṃmataḥ sapratibhayabhairavasaṃmato 'yaṃ tatra samayaḥ /
+</p><p xml:id="pay.27">
+yaḥ punar bhikṣur bhikṣuṇīsārtheṇa sārdhaṃ saṃvidhāya ekanāvam abhirohed ūrdhvagāminīṃ vā adhogāminīṃ vānyatra tīryakpārasantaraṇāt pātayantikā /
+</p><p xml:id="pay.28">
+yaḥ punar bhikṣur mātṛgrāmena sārdham eka ekayā rahasi praticchanne āsane niṣadyāṃ kalpayet pāyantikā /
+</p><p xml:id="pay.29">
+yaḥ punar bhikṣur bhikṣuṇyā sārdham eka ekikayā rahasi praticchanne tiṣṭhet pāyantikā /
+</p><p xml:id="pay.30">
+yaḥ punar bhikṣur jānan bhikṣuṇīparipācitaṃ piṇḍapātaṃ paribhuṃjītānyatra pūrvaṃ gṛhisamāraṃbhāt pāyantikā /
+</p><p xml:id="pay.31">
+paraṃparabhojanād anyatra samayāt pāyantikā / tatrāyaṃ samayo glānasamayaḥ karmasamayaḥ <hi rend="it">adhvānamārga</hi>samayaḥ cīvaradānakālasamayaḥ /
+</p><p xml:id="pay.32">
+ekāvasathoṣitena bhikṣuṇā aglānenaikapiṇḍapātaḥ paribhoktavyas tataḥ uttari paribhuṃjīta pāyantikā /
+</p><p xml:id="pay.33">
+bhikṣavaḥ khalu saṃbahulāḥ <hi rend="it">kulāni</hi> saṃkrāmeyus tāṃś cec chrāddhā brāhmaṇagṛhapatayas tv arthaṃ pravārayeyur maṇḍaiś cāpūpaiś cākāṃkṣibhis tair bhikṣubhir dvau trayo vā pātrapūrāḥ pratigrahītavyāḥ tata uttari <hi rend="it">prati</hi>gṛhṇīyuḥ pāyantikā / dvau trīn vā pātrapūrān pratigṛhya tair bhikṣubhir bahirārāmaṃ gatvā santo bhikṣavaḥ saṃvibhaktavyā ātmanā ca paribhoktavyam ayaṃ tatra samayaḥ /
+</p><p xml:id="pay.34">
+yaḥ punar bhikṣur bhuktavān pravāritaḥ akṛtātiriktaṃ khādanīyabhojanīyaṃ khāded bhuñjīta vā pāyantikā /
+</p><p xml:id="pay.35">
+yaḥ punar bhikṣur jānan bhikṣuṃ bhuktavantaṃ akṛtātirikte khā<hi rend="it">danīya</hi>bhojanīyenetyarthaṃ pravārayed idam āyuṣman khāda idaṃ bhuṃkṣva ity āsvādanaprekṣī kaścid eṣa bhikṣur āsvādito bhaviṣyati ity etad eva pratyayaṃ kṛtvā pāyantikā /
+</p><p xml:id="pay.36">
+gaṇa<hi rend="it">bhojanā</hi>d anyatra samayāt pāyantikā / tatrāyaṃ samayaḥ glānasamayaḥ karmasamayo <hi rend="it">'dhvānamārga</hi>samayo nāvādhirohaṇaṃ mahāsamājaḥ śramaṇabhaktasamayo 'yaṃ tatra samayaḥ /
+</p><p xml:id="pay.37">
+yaḥ <hi rend="it">punar bhikṣu</hi>r akāle khādanīyabhojanīyaṃ khāded bhuñjīta vā pāyantikā /
+</p><p xml:id="pay.38">
+yaḥ punar bhikṣuḥ saṃnihitaṃ khādanīyabhojanīyaṃ khāded bhuñjīta vā pāyantikā /
+</p><p xml:id="pay.39">
+yaḥ punar bhikṣur adattaṃ <hi rend="it">mukhadvārā</hi>hāram āhared anyatrodakadantakāṣṭhāt pāyantikā /
+</p><p xml:id="pay.40">
+yāni tāni bhagavatā bhikṣūṇāṃ praṇītabhojanāny akhyātāni tadyathā kṣīraṃ dadhi navanītaṃ matsyo māṃsaṃ vallūrī yaḥ puna<hi rend="it">r bhikṣuḥ</hi> evaṃrūpāṇi praṇītabhojanāni ātmārtham aglānaḥ parakulebhyo vijñāpya khāded bhuñjītā vā pāyantikā /
+</p><p xml:id="pay.41">
+yaḥ punar bhikṣur jānan saprāṇakam udakaṃ paribhuñjīta pāyantikā /
+</p><p xml:id="pay.42">
+yaḥ punar bhikṣur jānan sabhojane kule anupraskandyāsane niṣadyāṃ kalpayet pāyantikā /
+</p><p xml:id="pay.43">
+yaḥ punar bhikṣur jānan sabhojane kule praticchanne tiṣṭhet pāyantikā /
+</p><p xml:id="pay.44">
+yaḥ punar bhikṣur acelakāya vā acelikā<hi rend="it">yai vā</hi> parivrājakāya vā svahastaṃ khādanīyabhojanīyaṃ dadyāt pāyantikā /
+</p><p xml:id="pay.45">
+yaḥ punar bhikṣur udyuktāṃ senāṃ darśanāyopasaṃkrāmet pāyantikā /
+</p><p xml:id="pay.46">
+<hi rend="it">syād bhikṣo</hi>s tadrūpaḥ pratyayaḥ udyuktāṃ senāṃ darśanāya upasaṃkramituṃ dvirātraparamaṃ tena bhikṣuṇā tasyāṃ senāyāṃ vipravastavyaṃ tata uttari vipra<hi rend="it">vaset pāyantikā</hi> /
+</p><p xml:id="pay.47">
+<hi rend="it">dvirātraparama</hi>m api ced bhikṣus tasyāṃ senāyāṃ vipravasāṃ udyūṣikāṃ vā gacched dhvajāgraṃ vā balāgraṃ vā senāvyūham anīkadarśanaṃ vā pratyanubhavet pāyantikā /
+</p><p xml:id="pay.48">
+<hi rend="it">yaḥ punar bhikṣuḥ</hi> kupitaś caṇḍībhūto 'nāttamanā bhikṣoḥ prahāraṃ dadyāt pāyantikā /
+</p><p xml:id="pay.49">
+yaḥ punar bhikṣur abhiṣaktaḥ kupitaś caṇḍībhūto 'nāttamanā bhikṣoḥ prahāram upa<hi rend="it">darśayet* antatas talaśaktik</hi>am api pāyantikā /
+</p><p xml:id="pay.50">
+yaḥ punar bhikṣur jānan bhikṣoḥ duṣṭhulām āpattiṃ praticchādayet pāyantikā /
+</p><p xml:id="pay.51">
+yaḥ punar bhikṣur bhikṣum evaṃ vaded ehy āyuṣman kulāny upasaṃkramāvas tatra te dāpayiṣyāmi <hi rend="it">khādanīyabhoja</hi>nīyaṃ yāvadāptaṃ / sa tasya dāpayitvā praṇītaṃ khādanīyabhojanīyaṃ yāvadāptaṃ tataḥ paścād evaṃ vaded gaccha tvam āyuṣman na mama tvayā sārdhaṃ sparśo 'pi tu ekākina eva me sparśo bhavati kathāyāṃ vā niṣadyāyāṃ vā ity udyojanaprekṣī kaścid eṣa bhikṣur udyojito bhaviṣyatīty etad eva pratyayaṃ kṛtvā pāyantikā /
+</p><p xml:id="pay.52">
+<hi rend="it">yaḥ puna</hi>r bhikṣur ātmārtham aglāno vitapanaprekṣī jyotiḥ samavadhavyāt samavadhāpayed vā pāyantikā /
+</p><p xml:id="pay.53">
+yaḥ punar bhikṣur dhārmikasaṃghakaraṇīye bhikṣoś chandaṃ datvā paścād abhiṣaktaḥ <hi rend="it">kupitaś caṇḍībhūto nāttamanā</hi> kṣepadharmam āpadyeta / āhara bhikṣoś chandaṃ na te dadāmīti pāyantikā /
+</p><p xml:id="pay.54">
+yaḥ punar bhikṣur anupasaṃpannena pudgalena sārdhaṃ dvirātrād ūrdhvaṃ sahāgāra<hi rend="it">śayyāṃ kalpayet pāyantikā</hi> /
+</p><p xml:id="pay.55">
+yaḥ punar bhikṣur evaṃ vadet tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye antarāyikā dharmā uktā bhagavatā te pratisevyamānā nālam antarāyāyeti / <hi rend="it">so bhikṣur bhikṣubhi</hi>r idaṃ syād vacanīyo mā tvam āyuṣmann evaṃ vocas tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye antarāyikā dharmā uktā bhagavatā te ca pratisevyamānā <hi rend="it">nālam antarāyāya iti</hi> / mā bhagavantam abhyācakṣuḥ na sādhu bhavati bhagavato 'bhyākhyānaṃ na ca punar bhagavān evam āha anekaparyāyeṇa āyuṣmann antarāyikā dharmāḥ santaḥ antarāyikā evoktā bhagavatā te ca pratisevyamānā alam antarāyāyeti ni<hi rend="it">ḥ</hi>sṛja tvam āyuṣmann <hi rend="it">evaṃrūpaṃ pāpakaṃ dṛṣṭigataṃ / so bhikṣur bhikṣubhir ucyamānas tad vastu pratiniḥsṛjed ity evaṃ kuśalaṃ no cet pratiniḥsṛjed dvir api trir api samanuyoktavyaḥ samanuśāsitavyas tasya pratiniḥsargāya</hi> dvir api trir api samanuyujyamānaḥ samanuśiṣyamānas tad vastu pratini<hi rend="it">ḥ</hi>sṛjed ity evaṃ kuśalaṃ <hi rend="it">no cet pratiniḥsṛjet pāyantikā /</hi>
+</p><p xml:id="pay.56">
+<hi rend="it">yaḥ punar bhikṣur jānaṃs tathāvādinaṃ</hi> pudgalam akṛtānudharmāṇam apratini<hi rend="it">ḥ</hi>sṛṣṭe tasmin pāpake dṛṣṭigate ālā<hi rend="it">payet saṃlapet tena sārdhaṃ saṃvaset saṃbhuṃjīta sahāgāraśayyām api kalpayet pāyantikā /</hi>
+</p><p xml:id="pay.57">
+śramaṇoddeśaś cāpy evaṃ vadet tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā <hi rend="it">ye antarāyikā dharmā uktā bhagavatā te ca pratisevyamānā nālam antarāyāyeti /</hi> sa śramaṇoddeśo bhikṣubhir idaṃ syād vacanīyo mā tvam āyuṣman śramaṇoddeśa evaṃ vocaḥ <hi rend="it">tathāhaṃ bhagavato dharmaṃ deśitam ājānāmi yathā ye antarāyikā dharmā uktā</hi> bhagavatā te ca pratisevyamānā nālam antarāyāyeti / mā bhagavantam abhyācakṣuḥ na sādhu bhava<hi rend="it">ti bhagavato 'bhyākhyānaṃ na ca punar bhagavān evāha anekaparyāyeṇa śra</hi>maṇoddeśa antarāyikā dhamāḥ santaḥ antarāyikā evoktā bhagavatā te ca pratisevyamānā <hi rend="it">alam antarāyāyeti / niḥsṛja tvam* śramaṇoddeśa evaṃrūpaṃ dṛṣṭigatam* /</hi> sa śramaṇoddeśo bhikṣubhir ucyamānas tad vastu cet pratini<hi rend="it">ḥ</hi>sṛjed ity evaṃ kuśalaṃ <hi rend="it">no cet pratiniḥsṛjed dvir api trir api samanuyoktavyaḥ samanuśāsitavyas tasya vastunaḥ pratiniḥsargāya dvir api trir api samanuyujyamānaḥ samanuśiṣyamānas tad vastu pratiniḥsṛjed ity evaṃ kuśalaṃ no cet pratiniḥsṛjet sa</hi> śramaṇoddeśo bhikṣubhir idaṃ syād vacanīyo 'dyāgreṇāyuṣman śramaṇoddeśa nāsau bhagavāṃs tathāgataḥ <hi rend="it">arhan samyaksaṃbuddhaḥ śāstā / evaṃrūpasyānyatamānyatmasya brahmacāriṇaḥ pṛṣṭataḥ mā samanubadhāna</hi> yāvad apy anye śramaṇoddeśāḥ <hi rend="it">labhante bhikṣubhiḥ sārdhaṃ dvirātraparamaṃ sahāgāraśayyāṃ sāpi te adyāgreṇa nāsti cara careṇa mohapuruṣa naśyati / yaḥ punar bhikṣur jānan tathānāśitaṃ śramaṇoddeśam upasthāpayed vā upalālayed vā tena vā sārdhaṃ sahāgāraśayyāṃ kalpayet pāyantikā /</hi>
+</p><p xml:id="pay.58">
+<hi rend="it">navaṃ khalu bhikṣuṇā cīvaraṃ pratilabhya trayāṇāṃ durvarṇīkaraṇānām anyatamānyatamaḥ nīlo vā lohito vā pīto vā durvarṇīkaraṇāya ādātavyo 'nādāya ced bhikṣus trayāṇāṃ durvarṇīkaraṇānām anyatamānyatamaṃ durvaṇīkaraṇaṃ nīlaṃ vā lohitaṃ vā pītaṃ vā navaṃ cīvaraṃ paribhuṃjīta pāyantikā /</hi>
+</p><p xml:id="pay.59">
+<hi rend="it">yaḥ punar bhikṣu ratnaṃ vā ratnasaṃmataṃ vā svahastena udgṛhṇīyād udgrāhayed vānyatrādhyārāmagatād vādhyāvāsagatād vā pāyantikā / bhikṣuṇādhyārāmagataṃ vādhyāvāsagataṃ vā ratnaṃ ratnasaṃmataṃ vā udgrahītavyaṃ yasyedaṃ bhaviṣyati so hariṣyati ity evaṃ manasikṛtvā / ayaṃ tatra samayaḥ /</hi>
+</p><p xml:id="pay.60">
+<hi rend="it">bhagavatā deśitam anvardhamāsaṃ snāyād anyatra samayāt tadatikramāt pāyantikā / ayaṃ tatra samayaḥ -- adhyardho māsaḥ śeṣo grīṣmāṇāṃ pūrvo māso varṣāṇāṃ ity ete ardhatṛtīyamāsā uṣṇasamayo 'vaśiṣṭaṃ glānasamayaḥ karmasamayo vṛṣṭisamayo vātavṛṣṭisamayo 'yaṃ tatra samayaḥ /</hi>
+</p><p xml:id="pay.61">
+<hi rend="it">yaḥ punar bhikṣuḥ saṃcintya tīryagyonigataṃ prāṇinaṃ jīvitād vyaparopayet pāyantikā /</hi>
+</p><p xml:id="pay.62">
+<hi rend="it">yaḥ punar bhikṣuḥ saṃcintya kaccid asya bhikṣor muhūrtam api tāvad aphāṣaṃ sparśaṃ bhaved etad eva pratyayaṃ kṛtvā bhikṣoḥ kaukṛtyam upasaṃharet pātayantikā /</hi>
+</p><p xml:id="pay.63">
+<hi rend="it">aṅgulipratodanāt pāyantikā /</hi>
+</p><p xml:id="pay.64">
+<hi rend="it">udakaharṣaṇāt pāyantikā /</hi>
+</p><p xml:id="pay.65">
+<hi rend="it">yaḥ punar bhikṣur mātṛgrāmeṇa sārdhaṃ sahāgāraśayyāṃ kalpayet pāyantikā /</hi>
+</p><p xml:id="pay.66">
+<hi rend="it">yaḥ punar bhikṣur bhikṣuṃ bhīṣayed bhīṣāpayed vāntato hāsyaprekṣyam api pāyantikā /</hi>
+</p><p xml:id="pay.67">
+<hi rend="it">yaḥ punar bhikṣur bhikṣor vā bhikṣuṇyā vā śikṣamāṇāyā vā śrāmaṇerasya vā śrāmaṇerikāyā vā pātraṃ vā cīvaraṃ vā upānahaṃ vā sūcīgharaṃ vā kāyabandhanaṃ vānyatamānyatamaṃ vā jīvitapariṣkāram upanidadhyād upanidhāpayet tadrūpapratyayād anyatra pāyantikā /</hi>
+</p><p xml:id="pay.68">
+<hi rend="it">yaḥ punar bhikṣur bhikṣoś cīvaram vikalya tataḥ paścād apratyuddhārya paribhuṃjīta pāyantikā /</hi>
+</p><p xml:id="pay.69">
+<hi rend="it">yaḥ punar bhikṣuḥ kupito 'nāttamanā pariśuddhaṃ anāpattikaṃ bhikṣuṃ amūlakena saṃghāvaśeṣeṇa dharmeṇānudhvaṃsayet pāyantikā /</hi>
+</p><p xml:id="pay.70">
+<hi rend="it">yaḥ punar bhikṣur apuruṣayā striyā sārdhaṃ saṃvidhāyādhvamārgaṃ pratipadyetāntato grāmāntaram api pāyantikā /</hi>
+</p><p xml:id="pay.71">
+<hi rend="it">yaḥ punar bhikṣuḥ steyasārthena sārdhaṃ saṃvidhāyādhvamārgaṃ pratipadyetāntato grāmāntaram api pāyantikā /</hi>
+</p><p xml:id="pay.72">
+<hi rend="it">yaḥ punar bhikṣur ūnaviṃśavarṣaṃ pudgalaṃ bhikṣubhāvāyopasaṃpādayeta pāyantikā / sa ca pudgalo 'nupasaṃpannas te ca bhikṣavo garhyā ayaṃ tatra samayaḥ /</hi>
+</p><p xml:id="pay.73">
+<hi rend="it">yaḥ punar bhikṣuḥ svahastena pṛthivīṃ khanyāt khānayed vā pāyantikā /</hi>
+</p><p xml:id="pay.74">
+<hi rend="it">cāturmāsikapravāraṇā bhikṣuṇā svīkartavyā tatottaraṃ pāyantikā / pratyekapravāraṇāyā punaḥ punaḥ pravāraṇāyāḥ kālikapravāraṇāyā nityapravāraṇāyā anyatra ayaṃ tatra samayaḥ /</hi>
+</p><p xml:id="pay.75">
+<hi rend="it">yaḥ punar bhikṣur bhikṣubhir āyuṣmatā tvayā śikṣāyāṃ śikṣitavyam iti ucyamāna evaṃ vaden nāhaṃ tava bālasya mūḍhasya duṣprajñasya vacanāni śikṣiṣyāmi yāvan nāhaṃ bhikṣūn prakṣyāmi sūtradharān vinayadharān mātṛkadharān iti pāyantikā / sarvajñatākāmena bhikṣuṇā śikṣāyāṃ śikṣitavyaṃ bhikṣavaḥ praṣṭavyāḥ sūtradharā vinayadharā mātṛkadharā ayaṃ tatra samayaḥ /</hi>
+</p><p xml:id="pay 76">
+<hi rend="it">yaḥ punar bhikṣur bhikṣūṇāṃ kalahajātānāṃ bhaṇḍanajātānāṃ bhedagṛhītānāṃ vivādam āpannānāṃ tūṣṇīm upaśrutikas tiṣṭhed yad ete bhikṣavo vakṣyanti tad ahaṃ dhārayiṣyāmīty etad eva pratyayaṃ kṛtvā pāyantikā /</hi>
+</p><p xml:id="pay.77">
+<hi rend="it">yaḥ punar bhikṣuḥ saṃghe dharmikāyāṃ viniścayakathāyāṃ vartamānāyāṃ āsanāt tūṣṇīm utthāya prakrāmet santaṃ bhikṣum anavapṛcchyānyatra tadrūpapratyayāt pāyantikā /</hi>
+</p><p xml:id="pay.78">
+<hi rend="it">anādaravṛttāt pāyantikā /</hi>
+</p><p xml:id="pay.79">
+<hi rend="it">surāmaireyamadyapānāt pāyantikā /</hi>
+</p><p xml:id="pay.80">
+<hi rend="it">yaḥ punar bhikṣur akāle grāmaṃ praviśet santaṃ bhikṣum anavapṛcchya anyatra tadrūpāt pratyayāt pāyantikā /</hi>
+</p><p xml:id="pay.81">
+<hi rend="it">yaḥ punar bhikṣuḥ sabhaktaḥ kule nimantritaḥ pūrvabhaktaṃ paścādbhaktaṃ kuleṣu cāritram āpadyeta santaṃ kulaṃ apratisaṃvedito 'nyatra tadrūpāt pratyayāt pāyantikā /</hi>
+</p><p xml:id="pay.82">
+<hi rend="it">yaḥ punar bhikṣur anirgatāyāṃ rajanyām anudgate 'ruṇe anirhṛteṣu ratneṣu ratnasaṃmateṣu vā rājñaḥ kṣatriyasya mūrdhābhiṣiktasya indrakīlaṃ vā indrakīlasāmantakaṃ vā samatikraned anyatra tadrūpāt pratyayāt pāyantikā /</hi>
+</p><p xml:id="pay.83">
+<hi rend="it">yaḥ punar bhikṣur anvardhamāsaṃ prātimokṣasūtre uddiśyamāne evaṃ vaded idānīm ahaṃ jānāmi āyuṣmanto 'yam api kila dharmaḥ sūtragataḥ sūtraparyāyāpannoddeśyam āgacchatīti tatrāyuṣmantaṃ ced bhikṣavo jānīyuḥ niṣaṇṇapūrvaṃ āyuṣmatā dvitrikṛtvaṃ poṣadhe kaḥ punar vādo bhūya iti āyuṣmato ajñānataḥ na muktiḥ yata āpattim āpannaḥ tato yathādharmaṃ kārayitavya uttaraṃ ca kaukṛtyam āropayitavyaṃ -- āyuṣman te alābho 'labdhaḥ durlabdho na sulabdho yat tvaṃ anvardhamāsaṃ prātimokṣasūtroddiśyamāne na satkṛtya śṛṇoṣi na gurukaroṣi nārthikaroṣi na manasikaroṣi ekāgracittenāvahitaśrotreṇa na śṛṇoṣi sarvacittasaṃkalpair api na śṛṇoṣi / āyuṣman tatra kaukṛtyāt pāyantikā /</hi>
+</p><p xml:id="pay.84">
+<hi rend="it">yaḥ punar bhikṣur asthimayaṃ vā viṣāṇamayaṃ vā sūcigharaṃ kārayet tad bhedanāt pāyantikā /</hi>
+</p><p xml:id="pay.85">
+<hi rend="it">bhikṣuṇā saṃghasya pīṭhaṃ vā mañcaṃ kārayatā sugatāṣṭāṅgulipramāṇāḥ pādāḥ kārayitavyā anyatra adhastāt* aṭanyās tata uttaraṃ kārayec chedanāt pāyantikā /</hi>
+</p><p xml:id="pay.86">
+<hi rend="it">yaḥ punar bhikṣus tūlasaṃstṛtaṃ pīṭhaṃ vā mañcaṃ avanahed avanāhayed vā uddalanāt pāyantikā /</hi>
+</p><p xml:id="pay.87">
+<hi rend="it">niṣīdanaṃ bhikṣuṇā kārayatā prāmāṇikaṃ kārayitavyaṃ tatredaṃ pramāṇaṃ -- dīrghato vitastrī dve sugatavitastyās tīryak sārdhavitastir daśānāñ ca vitastis tata uttaraṃ kārayed bhedanāt pāyantikā /</hi>
+</p><p xml:id="pay.88">
+<hi rend="it">kaṇḍupraticchādanaṃ bhikṣuṇā kārayatā prāmāṇikaṃ kārayitavyaṃ tatredaṃ pramāṇaṃ -- dīrghataś catasro vitastayaḥ sugatavitastyas tiryag dve tata uttaraṃ kārayec chedanāt pāyantikā /</hi>
+</p><p xml:id="pay.89">
+<hi rend="it">varṣāśāṭīcīvaraṃ bhikṣuṇā kārayatā prāmāṇikaṃ kārayitavyaṃ tatredaṃ pramāṇaṃ -- dīrghataḥ ṣaṭ vitastayaḥ sugatavitastyas tiryak sārdhe dve tata uttaraṃ kārayec chedanāt pāyantikā /</hi>
+</p><p xml:id="pay.90">
+<hi rend="it">yaḥ punar bhikṣuḥ sugatacīvarapramāṇaṃ cīvaraṃ kārayed uttaraṃ vā sugatacīvarāt pāyantikā / tatredaṃ sugatacīvarapramāṇaṃ dīrghato nava vitastayaḥ tiryak ṣaḍ vitastayaḥ idaṃ sugatacīvarapramāṇam* /</hi>
+</p><p xml:id="168">
+<hi rend="bf">Pay.Schl.</hi> <hi rend="it">uddiṣṭā mayāyuṣmanto navatiḥ pāyantikā dharmāḥ / tatrāham āyuṣmantaḥ pṛcchāmi -- kaccit sthātra pariśuddhāḥ</hi>
+</p><p xml:id="169">
+pariśuddhā atrāyuṣmanto yasmāt tuṣṇīm evāhaṃ dhārayāmi /
+</p><p xml:id="170">
+catvāraḥ pratideśanīyā dharmāḥ /
+</p><p xml:id="171">
+<hi rend="bf">ime khalv āyuṣmantaś catvāraḥ pratideśanīyā dharmā anvardhamāsaṃ prātimokṣasūtroddeśam āgacchanti /</hi>
+</p><p xml:id="pratid.1">
+<hi rend="it">yaḥ punar bhikṣur antagṛhaṃ piṇḍāya carantyā ajñātyā bhikṣuṇyāḥ santikāt sahastaṃ khādanīyabhojanīyaṃ pratigṛhya khāded vā bhuñjīta vā tena bhikṣuṇā bahirārāmaṃ gatvā bhikṣor antike pratideśayitavyam garhyam asmy āyuṣmantaḥ sthānam āpanno 'sātmyaṃ pratideśanīyaṃ taṃ dharmaṃ pratideśayāmīti ayam api dharmaḥ pratideśanīyaḥ /</hi>
+</p><p xml:id="pratid.2">
+<hi rend="it">saṃbahulā bhikṣavaḥ kuleṣu nimantritā bhuṃjīran tatra ced bhikṣuṇī vyapadeśamānā sthitā syād iha bhojanīyaṃ datta odanaṃ datta sūpaṃ datteti sā bhikṣuṇī bhikṣubhir evaṃ syād vacanīyā āgamayasva bhagini muhūrtaṃ yāvad bhikṣavo bhuṃjate / ekenāpi bhikṣuṇā cet tāṃ bhikṣuṇīm apasārayituṃ na vacanīyaṃ sarvair bhikṣubhiḥ bahirārāmaṃ gatvā bhikṣūṇām antike pratideśitavyaṃ garhya</hi>m āyuṣmantaḥ sthānam āpannā asātmyaṃ pratideśanīyaṃ taṃ dharmaṃ pratideśayāma iti ayam api dharmaḥ pratideśanīyaḥ /
+</p><p xml:id="pratid.3">
+yāni tāni kulāni śikṣāsaṃvṛtisaṃmatāni yaḥ punar bhikṣus tadrūpeṣu saṃghasya śaikṣeṣu kuleṣu śikṣāsaṃvṛtisaṃmateṣu pūrvam apravāritasya khādanīyabhojanīyaṃ pratigṛhya khāded bhuñjīta vā tena bhikṣuṇā bahirārāmaṃ gatvā bhikṣūṇām antike pratideśanīyaṃ tat sthānam āpanno 'sātmyaṃ pratideśanīyaṃ taṃ dharmaṃ pratideśayāmīti ayam api dharmaḥ pratideśanīyaḥ /
+</p><p xml:id="pratid.4">
+yāni tāni kāni śayanāsanāni sāśaṃkasaṃmatāni sabhayasaṃmatāni sapratibhayabhairavasaṃmatāni yaḥ punar bhikṣus tadrūpeṣu saṃghasyāraṇyakeṣu śayaneṣu sāśaṃkasaṃmateṣu sabhayasaṃmateṣu sapratibhayabhairavasaṃmateṣu pūrvam apratisaṃvidyate vane bahirārāmasya khādanīyabhojanīyaṃ khāded bhuṃjīta vā tena bhikṣuṇā bhikṣūṇām antike pratideśayitavyaṃ garhyam asmy āyuṣmantaḥ sthānam āpanno 'sātmyaṃ pratideśanīyaṃ taṃ dharmaṃ pratideśayāmīti ayam api dharmaḥ pratideśanīyaḥ /
+</p><p xml:id="176">
+uddiṣṭā mayāyuṣmantaś catvāraḥ pratideśanīyā dharmāḥ / tatrāham āyuṣmantaḥ paripṛcchāmi -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="177">
+dvir api trir api -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="178">
+pariśuddhā āyuṣmanto yasmāt tūṣṇīm evam etad dhārayāmi /
+</p><p xml:id="179">
+<hi rend="it">saṃbahulāḥ śaikṣā dharmāḥ /</hi>
+</p><p xml:id="180">
+ime khalv āyuṣmantaḥ saṃbahulāḥ śaikṣā dharmā anvardhamāsaṃ prātimokṣasūtroddeśam ā<hi rend="it">gacchanti /</hi>
+</p><p xml:id="sai.1">
+parimaṇḍalaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.2">
+nātyutkṛṣṭaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.3">
+nātyavakṛṣṭaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.4">
+na hastiśuṇḍakaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.5">
+na tāla<hi rend="it">patraṃ</hi> nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.6">
+<hi rend="it">na kulmāṣapiṇḍakaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /</hi>
+</p><p xml:id="sai.7">
+na nāgaśīrṣakaṃ nivāsanaṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.8">
+parimaṇḍalaṃ cīvaraṃ nivāsayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.9">
+<hi rend="it">nātyutkṛṣṭaṃ cīvaraṃ nivāsayiṣyāma iti śikṣā karaṇīyā /</hi>
+</p><p xml:id="sai.10">
+<hi rend="it">nātyupakṛṣṭaṃ cīvaraṃ nivāsayiṣyāma iti śikṣā karaṇīyā /</hi>
+</p><p xml:id="sai.11">
+susaṃvṛtā antargṛhe gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.12">
+supraticchannā antargṛhe gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.13">
+alpaśabdā antargṛhe gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.14">
+anutkṣiptacakṣuṣo 'ntargṛhe gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.15">
+yugamātradarśino 'ntargṛhe gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.16">
+nodguṇṭhikā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.17">
+notkṛṣṭikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.18">
+notsaktikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.19">
+na vyastikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.20">
+na paryastikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.21">
+nolambikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.22">
+noṭṭambikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.23">
+notkuṭakayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.24">
+na nikaṭotkuṭakayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.25">
+na skambhākṛtā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.26">
+na kāyapracālakaṃ antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.27">
+na bāhupracālakaṃ antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.28">
+na śīrṣapracālakaṃ gamiṣyāma iti śikṣā karaṇīyā / /
+</p><p xml:id="sai.29">
+nāṃsotphatikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.30">
+na hastasaṃlagnikayā antargṛhaṃ gamiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.31">
+nānujñātā antargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.32">
+nāprativekṣyāsanaṃ antargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.33">
+na sarvakāyaṃ samavadhāyāntargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.34">
+na pāde pādam ādhāyāntargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.35">
+na gulphe gulpham ādhāyāntargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.36">
+na sakthani sakthi ādhāyāntargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.37">
+na saṃkṣipya pādau antargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.38">
+na vikṣipya pādau antargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.39">
+na vyataṅgikayā antargṛhe āsane niṣatsyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.40">
+satkṛtya piṇḍapātaṃ pratigrahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.41">
+samatīrthikaṃ piṇḍapātaṃ pratigrahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.42">
+samasūpikaṃ piṇḍapātaṃ pratigrahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.43">
+sāvadānaṃ piṇḍapātaṃ pratigrahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.44">
+na anāgate khādanīyabhojanīye pātram upanāmayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.45">
+nodanena sūpikaṃ praticchādayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.46">
+sūpikena vā odanaṃ bhūyaskāmatām upādāya iti śikṣā karaṇīyā /
+</p><p xml:id="sai.47">
+nopari khādanīyabhojanīyasya pātraṃ dhārayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.48">
+satkṛtya piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.49">
+nātikhuṇḍakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.50">
+nātimahāntaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.51">
+parimaṇḍalaṃ ālopam ālopayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.52">
+na anāgate ālope mukhadvāraṃ vivariṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.53">
+na sālopena mukhena vācaṃ pravyāhariṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.54">
+na cuccatkārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.55">
+naśuśaśutkārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.56">
+na thutyutkārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.57">
+na phuphphuphkārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.58">
+na jihvāniścārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.59">
+na sikthapṛthakkārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.60">
+nāvaraṇakārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.61">
+na gallāpahārakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.62">
+na jihvāsphoṭakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.63">
+na kavalacchedakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.64">
+na hastāvalehakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.65">
+na pātrāvalehakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.66">
+na hastasaṃdhūnakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.67">
+na pātrasaṃdhūnakaṃ piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.68">
+na stūpākṛtim avagṛhya piṇḍapātaṃ paribhokṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.69">
+nāvadhyānaprekṣiṇo 'ntarikasya bhikṣoḥ pātram avalokayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.70">
+na sāmiṣeṇa pāṇinā udakasthālakaṃ grahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.71">
+na sāmiṣeṇodakenāntarikaṃ bhikṣuṃ sekṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.72">
+na sāmiṣam udakam antargṛhe chorayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.73">
+na pātreṇa vighasaṃś chorayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.74">
+anāstīrṇe pṛthivīpradeśe pātraṃ sthāpayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.75">
+na taṭe na prapāte na prāgbhāre pātraṃ sthāpayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.76">
+notthitāḥ pātraṃ nirmādayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.77">
+na taṭe na prapāte na prāgbhāre pātraṃ nirmādayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.78">
+na nadyāḥ kāryakāriṇyā pratisrotaḥ pātrodakaṃ grahīṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.79">
+na utthitā niṣaṇṇāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.80">
+na niṣaṇṇā nipaṇṇāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.81">
+na nīcatarake āsane niṣaṇṇā uccatarake āsane niṣaṇṇāyāglānāya <hi rend="it">dharmaṃ</hi> deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.82">
+na pṛṣṭhato gacchantaḥ purato gacchate aglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.83">
+nonmārgeṇa gacchanto mārgeṇa gacchate āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.84">
+nodguṇṭhikākṛtāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.85">
+notkṛṣṭikākṛtāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.86">
+notsaktikākṛtāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.87">
+na vyastikākṛtāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.88">
+na paryastikākṛtāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.89">
+noṣṇīṣaśirase āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.90">
+na kholāśirase āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.91">
+na mauliśirase āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.92">
+na mālāśirase āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.93">
+na veṣṭitaśirase āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.94">
+na hastyārūḍhāya āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.95">
+na aśvārūḍhāya āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.96">
+na śivikārūḍhāya āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.97">
+na yānāruḍhāya āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.98">
+na pādukārūḍhāya āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.99">
+na daṇḍapāṇaye āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.100">
+na chatrapāṇaye āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.101">
+na śastrapāṇaye āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.102">
+na khaḍgapāṇaye āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.103">
+nāyudhapāṇaye āglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.104">
+saṃnaddhāyāglānāya dharmaṃ deśayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.105">
+nāglānā utthitā uccāraprasrāvaṃ kariṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.106">
+nāglānāḥ udake uccāraprasrāvaṃ kheṭaṃ siṃghāṇakaṃ vāntaṃ viriktaṃ chorayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.107">
+nāglānā saharite pṛthivīpradeśe uccāraprasrāvaṃ kheṭaṃ siṃghāṇakaṃ vāntaṃ viriktaṃ chorayiṣyāma iti śikṣā karaṇīyā /
+</p><p xml:id="sai.108">
+nāsādhikapauruṣaṃ vṛkṣam adhirokṣyāmo 'nyatrāpada iti śikṣā karaṇīyā /
+</p><p xml:id="287">
+uddiṣṭā me āyuṣmantaḥ saṃbahulāḥ <hi rend="it">śaikṣā</hi> dharmāḥ / tatrāham āyuṣmataḥ paripṛcchāmi -- kaccit sthātra pariśuddāḥ
+</p><p xml:id="288">
+dvir api trir api paripṛcchāmi -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="289">
+pariśuddhā āyuṣmanto yasmāt tūṣṇīm evam etad dhārayāmi //
+</p><p xml:id="290">
+<hi rend="it">sapta adhikaraṇaśamathā dharmāḥ</hi>
+</p><p xml:id="291">
+ime khalv āyuṣmantaḥ saptādhikaraṇaśamathāḥ dharmā anvardhamāsaṃ prātimokṣasūtroddeśam āgacchanti /
+</p><p xml:id="292">
+saṃmukhavinayārhāya saṃmukhavinayaṃ dāsyāmaḥ / smṛtivinayārhāya smṛtivinayaṃ dāsyāmaḥ / amūḍhavinayārhāya amūḍhavinayaṃ dāsyāmaḥ / yadbhūyeṣiyārhāya yadbhūyeṣiyaṃ dāsyāmaḥ / tatsvabhāveṣiyārhāya tatsvabhāveṣiyaṃ dāsyāmaḥ / tṛṇaprastārakārhāya tṛṇaprastārakaṃ dāsyāmaḥ / pratijñākārakārhāya pratijñāṃ dāsyāmaḥ /<lb/>
+utpannotpannāny adhikaraṇāny ebhiḥ saptabhir adhikaraṇaśamathair dharmair dāpayiṣyāmaḥ śamayiṣyāmo vyupaśamayiṣyāmo dharmavinaye śāstuḥ śāsane /
+</p><p xml:id="293">
+uddiṣṭā me āyuṣmantaḥ saptādhikaraṇaśamathā dharmāḥ /
+</p><p xml:id="294">
+tatrāham āyuṣmataḥ paripṛcchāmi -- kaccit sthātra pariśuddhāḥ
+</p><p xml:id="295">
+dvir api trir api paripṛcchāmi -- kaccit sthātra pariśuddhāḥ /
+</p><p xml:id="296">
+pariśuddhā āyuṣmanto yasmāt tūṣṇīm evam evāhaṃ dhārayāmi /
+</p><p xml:id="297">
+For the prose and verses see Klaus T. Schmidt: Der Schlußteil des Prātimokṣasūtra der Sarvāstivādins, Text in Sanskrit und Tocharisch A verglichen mit den Parallelversionen anderer Schulen, Auf Grund von Turfan-Handschriften hrsg., Göttingen 1989 (Sanskrittexte aus den Turfanfunden, 13).
+</p><p xml:id="298">
+uddiṣṭaṃ me āyuṣmantaḥ prātimokṣasūtroddeśasya nidānaṃ // uddiṣṭāś catvāraḥ pārājikā dharmās trayodaśa saṃghāvaśeṣā dharmā dvāv aniyatau dharmau / triṃśan naiḥsargikapāyantikā dharmāḥ navati pāyantikā dharmāś catvāraḥ pratideśanīyā dharmāḥ saṃbahulā śaikṣā dharmāḥ saptādhikaraṇaśamathā dharmā etāva<hi rend="it">t</hi> tasya bhagavatas tathāgatasyārhataḥ samyaksaṃbuddhasya sūtragataṃ sūtraparyāpannam iti yo vā punar anyo 'py āgacched dharmasyānudharmaḥ tatra sahitaiḥ samagraiḥ saṃmodamānair avivadamānais tīvraś cetasa ārakṣāsmṛtyapramāde yogaḥ karaṇīyaḥ // //
+</p><p xml:id="299">
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kṣāntiḥ paramaṃ tapas titikṣā nirvāṇaṃ paramaṃ vadanti buddhāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na hi pravrajitaḥ paropatāpī śramaṇo bhavati parān viheṭhayānaḥ // 1<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->cakṣuṣmān viṣamāṇīva vidyamāne parākrame /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->paṇḍito jīvaloke 'smin pāpāni parivarjayet // 2<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->anopavādī nopaghātī prātimokṣe ca saṃvaraḥ {B: anupavādo 'nupaghātaḥ} /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mātrajñatā ca bhakte 'smin prāntaṃ ca śayanāsanam*<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->adhicitte samāyoga etad buddhānuśāsanam* // 3<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathāpi bhramaraḥ puṣpād varṇagandhāv aheṭhayan* [yathā hi] / <lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ḍayate rasam ādāya evaṃ grāme muniś caret* // 4<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na pareṣāṃ vilomāni na pareṣāṃ kṛtākṛtam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ātmanas tu samīkṣeta samāni viṣamāṇi ca // 5<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->adhicetasi mā pramādyato munino maunapadeṣu śikṣataḥ {B:prāmodyato; maunipadeṣu} /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śokā na bhavanti tāyina upaśāntasya sadā smṛtimataḥ // 6<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dadataḥ puṇyaṃ pravardhate vairaṃ saṃyamato na cīyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kuśalī prajahāti pāpakaṃ kleśānāṃ kṣayatas tu nirvṛtiḥ {B: kṣayitas} // 7<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarvapāpasyākaraṇaṃ kuśalasyopasaṃpadā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->svacittaparidamanam etad buddhānuśāsanam* // 8<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kāyena saṃvaraḥ sādhu sādhu vācātha saṃvaraḥ {B: vācā ca} /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->manasā saṃvaraḥ sādhu sādhu sarvatra saṃvaraḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarvatra saṃvṛto bhikṣuḥ sarvaduḥkhāt pramucyate // 9<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vācānurakṣī manasā susaṃvṛtaḥ kāyena caivākuśalaṃ na kuryāt* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->etāṃs trīn karmapathān viśodhya nārāgayen mārgam ṛṣipraveditam* // 10<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->buddho vipaśyī ca śikhī ca viśvabhu krakutsundaḥ kanakamuniś ca kāśyapaḥ {B: krakutsandaḥ} /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->anuttaraḥ śākyamuniś ca gautamo devātidevo naradamyasārathiḥ // 11<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saptānāṃ buddhavīrāṇāṃ lokanāthāgratāyināṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->uddiṣṭaḥ prātimokṣo 'yaṃ vistareṇa yaśasvinām* // 12<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->asmin sagauravā buddhā buddhānāṃ śrāvakāś ca ye /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->asmin sagauravā bhūtvā prāpnumadhvam asaṃskṛtam* {B: prāptamadhvam} // 13<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ārabhadhvaṃ niṣkrāmata yujyadhvaṃ buddhaśāsane /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dhunīta mṛtyunaḥ sainyaṃ naḍāgāram iva kuñjaraḥ // 14<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yo hy asmin dharmavinaye apramattaś cariṣyati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prahāya jātisaṃsāraṃ duḥkhasyāntaṃ kariṣyati // 15<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->anyonyaṃ śīlaguptyarhaṃ śāsanasya ca vṛddhaye /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->uddiṣṭaḥ prātimokṣo 'yaṃ kṛtaḥ saṃghena poṣadhaḥ // 16<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yasyārthe sūtram uddiṣṭaṃ yasyārthe poṣadhaḥ kṛtaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tac chīlam anurakṣadhvaṃ bālāgraṃ camaro yathā // 17<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prātimokṣasamuddeśād yat puṇyaṃ samupārjitaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aśeṣas tena loko 'yaṃ maunīndraṃ padam āpnuyāt // 18
+</p><p xml:id="300">
+/// prātimokṣaḥ samāptaḥ /// 
+</p>
+</body>
+</text>
+</TEI>

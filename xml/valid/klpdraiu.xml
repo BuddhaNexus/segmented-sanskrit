@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_kalpadrumAvadAnamAlA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Kalpadrumāvadānamālā</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the text appended to P.L. Vaidya's edition of the Avadanasataka (Darbhanga 1958, Buddhist Sanskrit Texts ; 19)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Kalpadrumavadanamala<BR>
+Based on the text appended to P.L. Vaidya's edition of the Avadanasataka<BR>
+(Darbhanga 1958, Buddhist Sanskrit Texts ; 19)<BR>
+Input by Klaus Wille, Göttingen<BR>
+PADA INDEX<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+akarod brahmavittamaḥ KDA_465d<lb/>
+agamyagamanāc caivam KDA_248c<lb/>
+agamyagamanāc caivaṃ KDA_243c<lb/>
+agnikalpaḥ sutīkṣṇadhīḥ KDA_38b<lb/>
+agnikalpo mahātīkṣṇaḥ KDA_83a<lb/>
+agneḥ śabdaś ca sparśaś ca KDA_103a<lb/>
+agro 'raṇāvihāriṇām* KDA_454d<lb/>
+agro 'raṇāvihāriṇām* KDA_455d<lb/>
+atīva roṣasaṃkruṣṭo KDA_79c<lb/>
+atyayād bodhimānasaḥ KDA_351b<lb/>
+atha te bhikṣavaḥ sarve KDA_456a<lb/>
+atharvam apy adhītuṃ sa KDA_36c<lb/>
+atharvādhītasaṃratam* KDA_37b<lb/>
+atha śrībhagavān buddhaḥ KDA_452a<lb/>
+atha saṅge 'pi grāmeṣu KDA_344a<lb/>
+atha subhūtir āyuṣmān KDA_329a<lb/>
+atha so 'rhaṃs trimāsānām KDA_351a<lb/>
+atha svarddhibalenaiva KDA_358a<lb/>
+athāśoko mahārājaḥ KDA_1a<lb/>
+adattaṃ naiva gṛhṇāti KDA_254c<lb/>
+adyāgreṇa jagadbandho KDA_321a<lb/>
+adyāpi cet tathā cātra KDA_341a<lb/>
+adhamottamam adhyamāḥ KDA_97b<lb/>
+adharma eva saṃbhavet* KDA_248d<lb/>
+adharmapraṇayāśivam* KDA_414d<lb/>
+adhītya caturo vedān KDA_112a<lb/>
+adhairyatvād bhaven mūḍho KDA_406a<lb/>
+adhyūṣur dhyānatatparāḥ KDA_18d<lb/>
+anapekṣya svajīve 'pi KDA_434c<lb/>
+anādṛtya bhayaṃ pāpā KDA_382c<lb/>
+anuśocan muhuś cāpi KDA_435c<lb/>
+anena kuśalenāhaṃ KDA_466a<lb/>
+anena ruṣṭacittena KDA_473a<lb/>
+anyathāpi ca no bhūtā KDA_480a<lb/>
+anye 'pi bahavaḥ santi KDA_229a<lb/>
+anyonyaṃ vigrahaṃ kṛtvā KDA_389c<lb/>
+apaśyat sa tataś ceti KDA_330a<lb/>
+aprameyaṃ yudhiṣṭhira KDA_264d<lb/>
+abhakṣyabhakṣaṇāc caiva KDA_216c<lb/>
+abhidrutāni nāgena KDA_360c<lb/>
+abhuktaṃ kṣīyate naiva KDA_479a<lb/>
+abhuñjānaḥ svayaṃ sukham* KDA_429b<lb/>
+ayaṃ pravrajito bhūtvā KDA_464c<lb/>
+araṇāvihāriṇāṃ cāgro KDA_477a<lb/>
+araṇīgarbhasaṃbhūtaḥ KDA_122a<lb/>
+arthibhyaḥ prārthitaṃ vastu KDA_439c<lb/>
+arhatām agrasaṃprāpto KDA_469c<lb/>
+arhatāṃ jyeṣṭhatāṃ prāptas KDA_470c<lb/>
+arhan saṃbuddhasevakaḥ KDA_364b<lb/>
+avadānārthakovidaiḥ KDA_162d<lb/>
+avasanti puṇyatīrtheṣu KDA_46c<lb/>
+avigaṇayya pāpāni KDA_381c<lb/>
+asan mārgo samārūḍho KDA_407a<lb/>
+asusaṃsthitadharmāṇaṃ KDA_69c<lb/>
+astramantrādyabhijño 'pi KDA_402c<lb/>
+asmin* kalpe ca bhadrake KDA_460b<lb/>
+asyaiva śasane cāhaṃ KDA_469a<lb/>
+aham api ca bhūyāsaṃ KDA_21c<lb/>
+ahipūrṇo yathā hradaḥ KDA_401d<lb/>
+ahiṃsā nirmamatvaṃ vā KDA_268a<lb/>
+ahiṃsā brahmacaryaṃ ca KDA_260a<lb/>
+aho deśeṣu sarvatra KDA_345c<lb/>
+aho daivabalādhānāt KDA_82a<lb/>
+ahorātraṃ caren muktas KDA_266c<lb/>
+ākāśagāmino priyāḥ KDA_215a<lb/>
+ākāśacitto dhanasāravāsī KDA_327 b<lb/>
+ākāśasya guṇaś caikaḥ KDA_102a<lb/>
+ākṛter bhedalakṣaṇam* KDA_142d<lb/>
+ā garbhād bālakaṃ sutam* KDA_428b<lb/>
+ātmanīva dayā syāc cet KDA_414a<lb/>
+ātmānam ātmanā hatvā KDA_390a<lb/>
+ātharvaṇāt prayatnataḥ KDA_39b<lb/>
+ātharvaṇād vinirhṛtya KDA_40c<lb/>
+ādau krodharipuṃ jitvā KDA_68a<lb/>
+ādyante paśavo devā KDA_92a<lb/>
+ādhāto yaś ca satveṣu KDA_308c<lb/>
+āmantrya bhikṣavaḥ sarve KDA_13c<lb/>
+iccāmi tvatprasādataḥ KDA_300d<lb/>
+itas tataḥ samudbhrāntāḥ KDA_357c<lb/>
+itas tataḥ samudbhrāntāḥ KDA_361c<lb/>
+iti krodhaṃ vinirjitya KDA_413a<lb/>
+iti tasya vacaḥ śrutvā KDA_76a<lb/>
+iti tīrthyair vikalpitam* KDA_198b<lb/>
+iti tena munīndreṇa KDA_455a<lb/>
+iti tair bhikṣubhiḥ pṛṣṭo KDA_458a<lb/>
+iti dṛṣṭvā ca te satvā KDA_450a<lb/>
+iti dharmaguṇādhānāt KDA_95a<lb/>
+iti niścitya cittena KDA_342a<lb/>
+iti niścitya cittena KDA_355a<lb/>
+iti niścitya sā devī KDA_290a<lb/>
+iti pitur vacaḥ śrutvā KDA_64a<lb/>
+iti pṛṣṭo nṛpeṇāsāv KDA_3a<lb/>
+iti praṇidhiṃ kurvāṇo KDA_22a<lb/>
+iti matvā guruś cainaṃ KDA_89a<lb/>
+iti matvā tvayā rājan KDA_483c<lb/>
+iti matvā pitā bhūtiḥ KDA_40a<lb/>
+iti vede 'pi kathyate KDA_92b<lb/>
+iti śrutvā guror vākya KDA_281a<lb/>
+iti śrutvā mahāvijño KDA_252a<lb/>
+iti śrutvāryadharmāṇi KDA_317a<lb/>
+iti śrutvā vacas tasya KDA_303a<lb/>
+iti śrutvā vacas tasya KDA_449a<lb/>
+iti śrutvā subhūtiḥ sa KDA_299a<lb/>
+iti saṃnahya cittena KDA_350a<lb/>
+iti siddhāntasaṃmatam* KDA_94d<lb/>
+iti subhāṣitaṃ śrutvā KDA_485a<lb/>
+iti so 'rhan subhūtis tān KDA_365a<lb/>
+iti hi bhikṣavo yūyaṃ KDA_477c<lb/>
+itthaṃ duḥkhānuvedī sa KDA_410a<lb/>
+ityādipātakaṃ kṛtvā KDA_408c<lb/>
+ity uktam avadānikaiḥ KDA_106d<lb/>
+ity uktam avadāne 'pi KDA_118a<lb/>
+ity ukte bhagavān dṛṣṭvā KDA_323a<lb/>
+ity ukto guruṇā so 'bhūt KDA_77a<lb/>
+ity enaṃ krodhasaṃraktaṃ KDA_81a<lb/>
+ity evaṃ cintayāmāsa KDA_351c<lb/>
+ity evaṃ manur abravīt* KDA_113d<lb/>
+idaṃ kṣīram idaṃ māṃsam KDA_153a<lb/>
+idaṃ ghṛtam idaṃ dadhi KDA_153b<lb/>
+idānīṃ tu tathā caitaṃ KDA_332a<lb/>
+ime dharmā hi catvāraś KDA_316a<lb/>
+īdṛśo yo bhaved dvijaḥ KDA_258b<lb/>
+uktaṃ ca mānave dharme KDA_109a<lb/>
+udakaiḥ klidyate naiva KDA_479e<lb/>
+udbhrāntendriyacetasā (Speyer: yataḥ kleśāŚ) KDA_472b<lb/>
+upaguptasya sadguroḥ KDA_485b<lb/>
+upaguptaṃ guruṃ natvā KDA_1c<lb/>
+upagupto yatīśvaraḥ KDA_3b<lb/>
+upaghātāhate citte KDA_335a<lb/>
+upādhyāyā hi te dvijāḥ KDA_165d<lb/>
+upekṣāto labhet saukhyaṃ KDA_315c<lb/>
+upekṣāpi sadā dhāryā KDA_315a<lb/>
+urvaśīgarbhasaṃbhūto KDA_124a<lb/>
+ūrubhyām eva saṃbhavā KDA_246b<lb/>
+ūrubhyāṃ saṃbhavo vaiśyaḥ KDA_242c<lb/>
+ṛddhiṃ pradarśya saṃbodhau KDA_354c<lb/>
+ṛddhyā sākāśamārgeṇa KDA_304c<lb/>
+ṛṣayas te dvijottamāḥ KDA_168d<lb/>
+ṛṣayo brahmacāriṇaḥ KDA_128b<lb/>
+ṛṣicaryāṃ samācara KDA_42d<lb/>
+ṛṣibhir yogibhiś cāmbu- KDA_375a<lb/>
+ṛṣibhiḥ karmavādibhiḥ KDA_107b<lb/>
+ṛṣiṣu preṣayitvainaṃ KDA_39c<lb/>
+ṛṣyaśṛṅgo mahāmuniḥ KDA_125b<lb/>
+ekarātroṣitasyāpi KDA_271a<lb/>
+ekavarṇam idaṃ viśvaṃ KDA_261a<lb/>
+ekavarṇam idaṃ sarvaṃ KDA_130a<lb/>
+ekākī nirjane vane KDA_292b<lb/>
+ekānte hi vaseyaṃ ca KDA_338c<lb/>
+ekāṃśato viśeṣo na KDA_151c<lb/>
+ekendriyakriyārthāś ca KDA_131c<lb/>
+ekendriyakriyārthāś ca KDA_262c<lb/>
+ekaikaṃ guṇavṛddhitaḥ KDA_101b<lb/>
+etac caṇḍālalakṣaṇam* KDA_206d<lb/>
+etad icchāmi bho jñātuṃ KDA_251c<lb/>
+etad dhi paramaṃ brahma- KDA_278a<lb/>
+etad brāhmaṇalakṣaṇam* KDA_205d<lb/>
+etad brāhmaṇalakṣaṇam* KDA_268d<lb/>
+etad brāhmaṇalakṣaṇam* KDA_269d<lb/>
+etā brahmavihārākhyāḥ KDA_443a<lb/>
+etā vinā na śobhanti KDA_444a<lb/>
+etā vinā na sidhyanti KDA_445c<lb/>
+etā hi paramācāryāḥ KDA_445a<lb/>
+etāṃś ca garudān dṛṣṭvā KDA_357a<lb/>
+evam anye 'pi ye lokā KDA_440a<lb/>
+evam anye 'pi sarve ca KDA_128a<lb/>
+evam ṛddhiprabhāvāṇi KDA_363a<lb/>
+evam etan mahārāja KDA_483a<lb/>
+evaṃ cānye 'pi ye satvā KDA_185a<lb/>
+evaṃ cānye 'pi ye satvā KDA_194a<lb/>
+evaṃ cet tava vāñchāsti KDA_67a<lb/>
+evaṃ militayogaiś ca KDA_104c<lb/>
+evaṃ subhūtinā tena KDA_451a<lb/>
+eṣa me śrāvakāṇāṃ ca KDA_454a<lb/>
+ehi bhikṣo carasveti KDA_323c<lb/>
+ehi vatsa cara brahma- KDA_76c<lb/>
+ehīti proktaḥ sa jinena muṇḍo KDA_324a<lb/>
+auṣadhādipariṣkāra- KDA_10a<lb/>
+kaṭhinākhyo mahāmuniḥ KDA_122b<lb/>
+kathaṃ te brāhmaṇā naiva KDA_230a<lb/>
+kathaṃ dharmaviśuddhitā KDA_243d<lb/>
+kathaṃ na brāhmaṇā nu te KDA_232d<lb/>
+kadācit kupitaś cāyaṃ KDA_286a<lb/>
+kadācit kupito ruṣṭeḥ KDA_87a<lb/>
+kadācit kupito roṣāl KDA_38c<lb/>
+karuṇā ca tathā kāryā KDA_313a<lb/>
+karuṇā svātmaje 'pi ca KDA_442b<lb/>
+karomi lokabodhanam* KDA_352b<lb/>
+karmakriyāviśeṣeṇa KDA_261c<lb/>
+karma kvāpi kathaṃcana KDA_479b<lb/>
+karmaṇāpi dvijo naiva KDA_231a<lb/>
+karmaṇā vai dvijāś caivaṃ KDA_231c<lb/>
+karmabhedāt tathācāra- KDA_224a<lb/>
+karmasaṃskārajās tvamī KDA_201b<lb/>
+karmasu sukhavāñchibhiḥ KDA_481d<lb/>
+karmācārapramāṇataḥ KDA_228b<lb/>
+karmācārapramāṇena KDA_230c<lb/>
+karmāṇi prakṛtāny api KDA_471b<lb/>
+karmāṇi miśritāni ca KDA_481b<lb/>
+karmādhānabalābhyāsān KDA_283c<lb/>
+kalpakoṭiśatair api KDA_478d<lb/>
+kalpakoṭisahasrāṇi KDA_348a<lb/>
+kalpakoṭisahasrāṇi KDA_444c<lb/>
+kalyāṇavartmadeśaka KDA_75b<lb/>
+kalyāṇādhvāvatārakān* KDA_382b<lb/>
+kasya nāma bhavec cittam KDA_414c<lb/>
+kāni punar anenaiva KDA_471a<lb/>
+kāni bhadanta karmāṇi KDA_457a<lb/>
+kā nu tatra viśeṣatā KDA_138d<lb/>
+kāpālikāś ca te vīrāḥ KDA_172c<lb/>
+kāmabhogyāni ye hitvā KDA_47a<lb/>
+kāmeṣv asaktāḥ kaunteya KDA_267c<lb/>
+kāyasaṃsthānabhedatā KDA_141b<lb/>
+kāyena manasā vācā KDA_273c<lb/>
+kāruṇyahitamānasā KDA_290b<lb/>
+kāruṇyād vardhate dharmas KDA_313c<lb/>
+kālikās te 'pi mānavāḥ KDA_191d<lb/>
+kāśyapena sutāyinā KDA_466d<lb/>
+kāśyapo nāma nāyakaḥ KDA_461b<lb/>
+kāṣṭhapāṣāṇavat sthitaḥ KDA_352d<lb/>
+kāṣṭhapāṣāṇavadvṛthā KDA_292d<lb/>
+kim atra dhyānasaṃlīnaḥ KDA_352a<lb/>
+kimarthaṃ vasase caivam KDA_292a<lb/>
+kim eva svātmapoṣiṇaḥ KDA_50d<lb/>
+kiyat kālaṃ ca jīveyaṃ KDA_352c<lb/>
+kiṃcin na bhedalakṣaṇam* KDA_158d<lb/>
+kiṃcin nimittamātre 'pi KDA_78c<lb/>
+kiṃcin nimittamātre 'pi KDA_86c<lb/>
+kiṃcin nimittasaṃruṣṭo KDA_30c<lb/>
+kiṃ tavātharvavedena KDA_42a<lb/>
+kiṃ tasya brahmavṛttena KDA_52c<lb/>
+kiṃ tu krodhāviśuddhātmā KDA_86a<lb/>
+kiṃ tu prakṣiptavastūnāṃ KDA_220c<lb/>
+kiṃ bhāti muniveṣeṇa KDA_51c<lb/>
+kiṃ vā brāhmaṇalakṣaṇam* KDA_251b<lb/>
+kiṃ vāsti bhedakāraṇam* KDA_137d<lb/>
+kiṃ viśeṣatvalakṣaṇam* KDA_160d<lb/>
+kiṃ syāt saṃskāramātrataḥ KDA_210d<lb/>
+kutaś cyuto 'ham āyātaḥ KDA_329c<lb/>
+kuto deheṣu bhedatā KDA_151d<lb/>
+kutra kena ca karmaṇā KDA_329d<lb/>
+kutrāpy asti viśeṣatā KDA_218d<lb/>
+kuntapipīlikādiṣu KDA_348d<lb/>
+kupathe carate kudhīḥ KDA_406d<lb/>
+kumāratvaṃ kramāt prāpto KDA_29c<lb/>
+kurudhvaṃ prāṇiṣu kṣamām* KDA_447d<lb/>
+kurvan mṛtyum avāptavān* KDA_339d<lb/>
+kuladharmam anādṛtya KDA_386c<lb/>
+kulena kiṃ śīlavivarjitena KDA_203b<lb/>
+kṛtaṃ kalpasahasrair yad KDA_337c<lb/>
+kṛtāñjalipuṭo mudā KDA_74b<lb/>
+kṛtāñjalipuṭo 'vadat* KDA_1d<lb/>
+kṛtāñjalis tathā natvā KDA_64c<lb/>
+kṛtāny api subhūtinā KDA_457b<lb/>
+kṛtvā śiṣyo 'bhavan muneḥ (Speyer: śikṣo) KDA_319b<lb/>
+kṛtvendriyavinigraham* KDA_338b<lb/>
+kṛmyādhikīṭayaś cāpi KDA_437a<lb/>
+kṛṣikās te narā dhānyaiḥ KDA_178c<lb/>
+kṛṣṇānāṃ kṛṣṇatā khalu KDA_480d<lb/>
+kecic ca paścimāṃ diśam* KDA_17b<lb/>
+kecit prācīṃ diśaṃ gatāḥ KDA_16b<lb/>
+kecid dṛṣṭvaiva māṃ yatim* KDA_347b<lb/>
+ke te ye brāhmaṇāḥ proktāḥ KDA_251a<lb/>
+kenacit kleśitaś cāhaṃ KDA_341c<lb/>
+kevalaṃ duḥkhahetunā KDA_55d<lb/>
+kevalaṃ pāpahetubhiḥ KDA_53d<lb/>
+kevalaṃ svamanas tuṣṭyai KDA_353a<lb/>
+kaivartigarbhasaṃbhūto KDA_123a<lb/>
+ko nāmāsti guṇaḥ sa sādhudayito yo nānuyāto dayām* KDA_419b<lb/>
+kriyatām iti so 'bravīt* KDA_26d<lb/>
+kriyatāṃ yatnam ādarāt* KDA_368b<lb/>
+kriyābhir brāhmaṇo na ca KDA_259b<lb/>
+kriyāvādena dṛśyate KDA_196b<lb/>
+krīḍamānā mahāpathe KDA_152b<lb/>
+krūravāgvigrahotsukaḥ KDA_82d<lb/>
+krūrā gṛdhrādipakṣiṇaḥ KDA_437b<lb/>
+krūro lokopaghātakaḥ KDA_331b<lb/>
+krodhakalaṅkito yo hi KDA_400a<lb/>
+krodhacittodbhavāni ca KDA_396d<lb/>
+krodhacittodbhavāni hi KDA_411d<lb/>
+krodhajiṣṇuḥ samāhitaḥ KDA_72b<lb/>
+krodhataḥ śāpavahninā KDA_286b<lb/>
+krodhanaḥ krūrabhāṣaṇaḥ KDA_30b<lb/>
+krodhaparyākulo naraḥ KDA_374d<lb/>
+krodham ekaṃ tu yo hanyāt KDA_371c<lb/>
+krodhavān na vibhāty eva KDA_401c<lb/>
+krodhavān naiva sevyatām* KDA_402d<lb/>
+krodhavān paribhūyate KDA_403d<lb/>
+krodhavān vadhyate janaiḥ KDA_403b<lb/>
+krodhavān hasyate lokaiḥ KDA_403a<lb/>
+krodhavān hīyate mitraiḥ KDA_403c<lb/>
+krodhasaṃraktamānasaḥ KDA_78b<lb/>
+krodhaṃ jitvāṃvarair api KDA_447b<lb/>
+krodhaṃ prahātum ācare KDA_332b<lb/>
+krodhaṃ mūlaṃ jagur jināḥ KDA_412b<lb/>
+krodhāgniḥ paridīpyate KDA_335b<lb/>
+krodhāgniḥ samudīritaḥ KDA_283b<lb/>
+krodhāc chāpahutāśanaiḥ KDA_375d<lb/>
+krodhāt tato mahad bhayaṃ* KDA_385d<lb/>
+krodhānalavidāhini KDA_399b<lb/>
+krodhānalasamuddīpto KDA_335c<lb/>
+krodhāriṃ yatnato jitvā KDA_484a<lb/>
+krodhena tyajyate satyaṃ KDA_395c<lb/>
+krodhena dhvaṃsyate dharmaḥ KDA_395a<lb/>
+krodhena paribhāṣyate KDA_392b<lb/>
+krodhena bhidyate cittaṃ KDA_405a<lb/>
+krodhena bhidyate lokaḥ KDA_392a<lb/>
+krodhena vilayaṃ gataḥ KDA_395b<lb/>
+krodhena hiṃsyate jantus KDA_392c<lb/>
+krodhenaiva tathā rudraḥ KDA_394a<lb/>
+krodhenaiva mahārudraś KDA_393a<lb/>
+krodho dharmaviruddhatvāc KDA_404a<lb/>
+krodho hi vasate yasya KDA_71a<lb/>
+kleśasaṃghān vinirjitya KDA_317c<lb/>
+kleśād yair asamāhitam* KDA_54b<lb/>
+kleśāṃś ca sarvān pravihāya saṃyataḥ KDA_326c<lb/>
+kleśito 'dhairyatāṃ vrajet KDA_405d<lb/>
+kṣatriyavaiśyaśūdrāś ca KDA_232c<lb/>
+kṣatriyasya bhaved bhāryā KDA_245c<lb/>
+kṣatriyā bhaginī khalu KDA_245d<lb/>
+kṣatriyās te nṛpā narāḥ KDA_174d<lb/>
+kṣamā dayā damo dānaṃ KDA_269a<lb/>
+kṣamādharmapuraskṛtaḥ KDA_484b<lb/>
+kṣamaiva sādhyatāṃ sadā KDA_413b<lb/>
+kṣāntivādī vane vasan* KDA_388b<lb/>
+kṣāntyādibhir guṇair yuktas KDA_253a<lb/>
+kṣipraṃ kleśān vinirjitya KDA_288c<lb/>
+kharo dvādaśa janmāni KDA_113a<lb/>
+gacchata bhikṣavo yūyaṃ KDA_14a<lb/>
+gaṇakās te 'pi mānavāḥ KDA_182d<lb/>
+gaṇayanti divāniśam* KDA_182b<lb/>
+gandhaś ca pṛthivīguṇāḥ KDA_104b<lb/>
+garuḍānāṃ mahaujasām* KDA_356b<lb/>
+garuḍās trāsam āgatāḥ KDA_361b<lb/>
+garbhaḥ samanuvardhitaḥ KDA_24b<lb/>
+gāyatrīmātrasāro 'pi KDA_270a<lb/>
+guṇadharmapramāṇena KDA_162a<lb/>
+guṇadharmānucāreṇa KDA_161a<lb/>
+guṇadharmānusārataḥ KDA_100b<lb/>
+guṇadharmānusāraiś ca KDA_93c<lb/>
+guṇabhedād bhaved dharma- KDA_223a<lb/>
+guṇavān brāhmaṇo bhavet* KDA_132b<lb/>
+guṇavān brāhmaṇo bhavet* KDA_263b<lb/>
+guṇavidyānidhir vidvān KDA_265c<lb/>
+guṇān sā hi prasūyate KDA_416d<lb/>
+guṇāsvādādibhedatā KDA_148b<lb/>
+guṇāḥ kalyāṇakārakāḥ KDA_265b<lb/>
+guṇair dharmais tathā śīlair KDA_133a<lb/>
+gurukṛtaś ca pūjitaḥ KDA_6d<lb/>
+guruḍaiś ca mahāsarpais KDA_8c<lb/>
+gurubhaktāś ca nirmadāḥ KDA_44b<lb/>
+gurur brahmavidāṃ varaḥ KDA_76b<lb/>
+guruś caivam acintayat* KDA_81d<lb/>
+gurūn saddharmaśāstṝṃś ca KDA_382a<lb/>
+guro ājñāṃ vahantas te KDA_16a<lb/>
+guro brahmavidāṃ śreṣṭha KDA_75a<lb/>
+guror ājñāsamādhṛtaḥ KDA_282b<lb/>
+gocaram abhyalakṣayat* KDA_345b<lb/>
+ghnanti krodhaprabhāvataḥ KDA_381d<lb/>
+ghnanti krodhād anāryakāḥ KDA_378d<lb/>
+ghnanti krodhoddhatā narāḥ KDA_382d<lb/>
+cakravākau śaradvīpe KDA_108a<lb/>
+caṇḍavṛttipracārāś ca KDA_186c<lb/>
+caṇḍālā api yonitaḥ KDA_137b<lb/>
+caṇḍālā iti te smṛtāḥ KDA_186d<lb/>
+caṇḍālā nirghṛṇā raudrāḥ KDA_438a<lb/>
+caṇḍālīgarbhasaṃbhūto KDA_126a<lb/>
+caṇḍālo 'pi sa vipraḥ syāl KDA_58c<lb/>
+caṇḍālo 'pi hi śīlasthas KDA_204c<lb/>
+caturaśīti lakṣāś ca KDA_105c<lb/>
+caturthadhyānasaṃyutaḥ KDA_343b<lb/>
+caturthaṃ brāhmalakṣaṇam* KDA_256d<lb/>
+caturbrahmavihāratā KDA_316d<lb/>
+caturbrahmavihāriṇaḥ KDA_48b<lb/>
+caturbrahmavihāriṇaḥ KDA_163d<lb/>
+caturbrahmavihāriṇaḥ KDA_387b<lb/>
+caturbrahmavihāriṇā KDA_62b<lb/>
+caturyonisamudbhūtāḥ KDA_95c<lb/>
+caturvargaphalāptaye KDA_316b<lb/>
+caturvargavināśakṛt* KDA_404b<lb/>
+catvāry eva samīraṇe KDA_103d<lb/>
+caranti vratam ādarāt* KDA_171b<lb/>
+cara brahman vratottamam* KDA_297d<lb/>
+cara brahmavihāriṇam* (Speyer: brahmavihāraṇam*) KDA_278d<lb/>
+cara brahmavrataṃ samyag- KDA_67c<lb/>
+cara brāhmaṇyam ādarāt* KDA_72d<lb/>
+cara saṃbodhisatpathe KDA_293d<lb/>
+carasva vratam uttamam* KDA_43d<lb/>
+cariṣye tad vratottamam* KDA_302b<lb/>
+cariṣye brahmasadvratam* KDA_65d<lb/>
+careyaṃ bhavamuktaye KDA_75d<lb/>
+caryaṃ jitvā ṣaḍ indriyam* KDA_76d<lb/>
+cāṇḍālo 'pi hi vṛttastho KDA_259c<lb/>
+cāturvarṇyam idaṃ khalu KDA_241d<lb/>
+cāturvarṇyam idaṃ lokam KDA_198a<lb/>
+cāturvarṇyam idaṃ lokaṃ KDA_240c<lb/>
+cāturvarṇyam idaṃ loke KDA_161c<lb/>
+cāturvarṇyaṃ prakalpitam* KDA_130d<lb/>
+cāturvarṇyaṃ pratiṣṭhitam* KDA_261d<lb/>
+cic cheda brahmaṇaḥ śiraḥ KDA_393b<lb/>
+cittaṃ tathānumoditam* KDA_303d<lb/>
+cittāni saṃpradūṣyaiva KDA_473c<lb/>
+citte{na} parimohite KDA_52d<lb/>
+citte mānamadākule KDA_71b<lb/>
+citte lokārthaṃ sādhitum* KDA_53b<lb/>
+celakopāsakais tathā KDA_11b<lb/>
+cchetāraṃ saṃśayānāṃ taṃ KDA_456c<lb/>
+cchedayāmāsa mastakam* KDA_394d<lb/>
+chūdro 'pi saṃskṛto dvijaḥ KDA_211d<lb/>
+chreṣṭhatvam iha yujyate KDA_197b<lb/>
+jagannāthaṃ munīśvaram* KDA_307b<lb/>
+jagādaivaṃ puraḥ sthitā KDA_290d<lb/>
+jantuḥ krodhahavir bhujā KDA_372b<lb/>
+jarā rūpavatāṃ krodhas KDA_373a<lb/>
+jalajānāṃ ca puṣpāṇāṃ KDA_146a<lb/>
+jahāti krodhatas tathā KDA_386d<lb/>
+jātavedā yathāraṇeḥ KDA_136d<lb/>
+jātikundādipuṣpāṇāṃ KDA_145a<lb/>
+jātidharmapravṛttikāḥ KDA_185d<lb/>
+jātibhedā bhavanti hi KDA_161b<lb/>
+jātibhedā hy anekaśaḥ KDA_96b<lb/>
+jātibhedāḥ pravartitāḥ KDA_224d<lb/>
+jātiṣv api ca sarvāsu KDA_96c<lb/>
+jāter naiva pramāṇatā KDA_162b<lb/>
+jāter liṅgaṃ pṛthak pṛthak* KDA_158b<lb/>
+jātyā ced brāhmaṇo bhūto KDA_119c<lb/>
+jātyāpi brāhmaṇo naiva KDA_119a<lb/>
+jānīdhvaṃ karmatāphalam* KDA_477d<lb/>
+jinenādvayavādinā KDA_118b<lb/>
+jino 'pi naiva śaknuyāt* KDA_410d<lb/>
+jīvamāno bhavec chūdro KDA_111c<lb/>
+jīvamāno bhavec chūdro KDA_207c<lb/>
+jīvaś ced brāhmaṇas tāvad KDA_91c<lb/>
+jīvitaṃ yasya lokārthe KDA_266a<lb/>
+jīvitād vyavaropitaḥ KDA_22b<lb/>
+jugupsyo 'śucir ucyate KDA_138b<lb/>
+juhvatyagnau samāhitāḥ KDA_173b<lb/>
+jetavane manorame KDA_12b<lb/>
+jainadharmaparāyaṇāḥ KDA_193b<lb/>
+jainadharmānucāraṇāt* KDA_193d<lb/>
+jñātayo 'pi tathā śrutvā KDA_27a<lb/>
+jñātvāryasatyadharmāṇi KDA_310c<lb/>
+jñātvā lokahitārthena KDA_278c<lb/>
+jñānadharmaguṇācārair KDA_221c<lb/>
+jñānadharmaguṇācārair KDA_222a<lb/>
+jñānavajreṇa sādhunā KDA_398b<lb/>
+jñānavantaś ca ye dhīrās KDA_229c<lb/>
+jñānavān hi bhavet pūjyo KDA_218a<lb/>
+jñānavijñānadharmeṣu KDA_287c<lb/>
+jñānavijñānapātratvāt KDA_226c<lb/>
+jñānavijñānabhedena KDA_222c<lb/>
+jñānavijñānamātreṇa KDA_226a<lb/>
+jñānavijñānahīnatvān KDA_227a<lb/>
+jñānīnāhūya cādarāt* KDA_26b<lb/>
+jñānena yadi vā vipraḥ KDA_228c<lb/>
+jñānenāpi dvijo naiva KDA_228a<lb/>
+jyeṣṭho 'raṇāvihāriṇām* KDA_457d<lb/>
+jyotir vidyāvido ye ca KDA_182a<lb/>
+ta eva brāhmaṇottamāḥ KDA_49d<lb/>
+ta kāruṇyaṃ sadā kuru KDA_313d<lb/>
+tac ca krodhaprabhāvataḥ KDA_376d<lb/>
+tac ca krodhaprabhāvataḥ KDA_380d<lb/>
+tac ca maitrīprabhāvataḥ KDA_428d<lb/>
+tac ca maitrīprabhāvataḥ KDA_429d<lb/>
+tac ca maitrīprabhāvataḥ KDA_430d<lb/>
+tac ca maitrīprabhāvataḥ KDA_431d<lb/>
+tac ca maitrīprabhāvataḥ KDA_432d<lb/>
+tac ca maitrīprabhāvataḥ KDA_433d<lb/>
+tac ca maitrīprabhāvataḥ KDA_434d<lb/>
+tac ca maitrīprabhāvataḥ KDA_435d<lb/>
+tac ca maitrīprabhāvataḥ KDA_436d<lb/>
+tac ca maitrīprabhāvataḥ KDA_440d<lb/>
+tac cāpi krodhabhāvataḥ KDA_377d<lb/>
+taṇḍulīgarbhasaṃbhūto KDA_127a<lb/>
+tata eva samāgṛhya KDA_304a<lb/>
+tataś ca kramatas tasyā KDA_24a<lb/>
+tataś ca narakān yāyād KDA_409a<lb/>
+tataś ca mānavo bhūtvā KDA_115c<lb/>
+tataś cyutvāham āgataḥ KDA_330d<lb/>
+tatas tatsamaye prāpte KDA_24c<lb/>
+tataḥ kālagatas tatra KDA_23a<lb/>
+tataḥ kleśagaṇān hitvā KDA_298a<lb/>
+tataḥ kleśān vinirjitvā KDA_279a<lb/>
+tataḥ pitā ca taṃ dṛṣṭā KDA_25a<lb/>
+tataḥ pūjā na cākṛteḥ KDA_227d<lb/>
+tataḥ prasādajāto 'sau KDA_309a<lb/>
+tato jātimahaṃ kṛtvā KDA_26a<lb/>
+tato 'tyantaviruddhaṃ syād KDA_249a<lb/>
+tato dharmaprabhāveṇa KDA_448a<lb/>
+tato dharmābhisaṃskāraiḥ KDA_92c<lb/>
+tato 'nyad vanam āśritya KDA_282a<lb/>
+tato māṃsāni varjayet KDA_215d<lb/>
+tato ye mānavāḥ krūrā KDA_186a<lb/>
+tato vyākaraṇādīni KDA_35a<lb/>
+tato 'sau bhagavāṃs tasya KDA_310a<lb/>
+tat kathaṃ saṃcariṣye 'tra KDA_346c<lb/>
+tatkarmaphalato rājā KDA_116a<lb/>
+tatkṛtabhājaneṣv api KDA_220b<lb/>
+tat kṛtaṃ yat subhūtinā KDA_458d<lb/>
+tat ko 'nyaḥ paribhokṣyate KDA_459b<lb/>
+tatkrodhād aparo vairaḥ KDA_397a<lb/>
+tat tat karmānuśīlena KDA_185c<lb/>
+tatpāpakarmaṇā hy eva KDA_394e<lb/>
+tat pravakṣye yathāśrutam* KDA_4d<lb/>
+tatprāptyai sādhyatāṃ yatnāc KDA_316c<lb/>
+tatra ca vanaṣaṇḍe yā KDA_284a<lb/>
+tatra tatraiva sarvatra KDA_424c<lb/>
+tatra pitā dvijo bhūtir KDA_37a<lb/>
+tatra prāpto munīn natvā KDA_74a<lb/>
+tatra bhava samāhitaḥ KDA_89d<lb/>
+tatra sa buddhanāthāya KDA_115a<lb/>
+tatrasthās tena nāgena KDA_20a<lb/>
+tatrādhivasato 'syāpi KDA_283a<lb/>
+tatrāpi karmabhedena KDA_96a<lb/>
+tatrāpi buddhanāthāya KDA_116c<lb/>
+tatraiva garuḍenaivaṃ KDA_22c<lb/>
+tathā kramād vivṛddho 'sau KDA_29a<lb/>
+tathāgato bhaviṣyasi KDA_468d<lb/>
+tathā ca kalpyate loka- KDA_241a<lb/>
+tathā ca kṣatriyā jātā KDA_245a<lb/>
+tathā ca procyate bauddhair KDA_162c<lb/>
+tathācāraviśeṣeṇa KDA_224c<lb/>
+tathā ced dhi bhaved doṣo KDA_243a<lb/>
+tathā dharmaḥ kathaṃ bhavet* KDA_248b<lb/>
+tathā dharme ca saṃgheṣu KDA_321c<lb/>
+tathā nāsti manuṣyāṇām KDA_142c<lb/>
+tathā nāsti manuṣyāṇāṃ KDA_144c<lb/>
+tathā nāsti manuṣyāṇāṃ KDA_148c<lb/>
+tathā nāsti manuṣyāṇāṃ KDA_149c<lb/>
+tathā nāsti manuṣyāṇāṃ KDA_150c<lb/>
+tathā nāsti yathānyāsu KDA_158a<lb/>
+tathānumoditaḥ prāha KDA_299c<lb/>
+tathānyasatvajātikaiḥ KDA_8d<lb/>
+tathānye śilpavidyādīn KDA_181a<lb/>
+tathāpi daivasāmarthyāt KDA_78a<lb/>
+tathā brahmaguṇādhānād KDA_280a<lb/>
+tathābhūd rāvaṇo nāma KDA_238a<lb/>
+tathāraṇāvihāriṇām* KDA_470d<lb/>
+tathā vedān adhītyaivaṃ KDA_36a<lb/>
+tathāśu kṛpayā nītvā KDA_302c<lb/>
+tathā satyaṃ manas tāta KDA_65a<lb/>
+tathāhaṃ devate yāmi KDA_300a<lb/>
+tathā hi mānave dharme KDA_121c<lb/>
+tatheti nṛparājaḥ sa KDA_485c<lb/>
+tatheti pratisaṃśrutya KDA_281c<lb/>
+tatheti bhikṣavaḥ śrutvā KDA_482a<lb/>
+tathety asau pratiśrutya KDA_73a<lb/>
+tathety eva pratiśrutya KDA_15a<lb/>
+tathaikam anujātānāṃ KDA_160c<lb/>
+tathaikākī vasaṃs tatra KDA_343a<lb/>
+tathaite sarvasatvāś ca KDA_100a<lb/>
+tathaiva narajātīnāṃ KDA_141c<lb/>
+tathoktam avadāne 'pi KDA_114a<lb/>
+tathottarāṃ diśaṃ gatvā KDA_17c<lb/>
+tad anvāharitavyo 'yam KDA_39a<lb/>
+tad ahaṃ sarvasatveṣu KDA_348c<lb/>
+tad ahaṃ saṃprabodhyainaṃ KDA_88a<lb/>
+tad ājñāṃ dehi me tāta KDA_65c<lb/>
+tadā pitrā niyukto 'sau KDA_34a<lb/>
+tadā pūrvam asau dṛṣṭvā KDA_345a<lb/>
+tadābdher garuḍenaiko KDA_19a<lb/>
+tadā bhagavatā satva- KDA_13a<lb/>
+tadā lokahite caret* KDA_289b<lb/>
+tad upekṣāyutaś cara KDA_277d<lb/>
+tadupekṣāṃ sadā bhaja KDA_315d<lb/>
+tadṛddhinirmitāny eva KDA_356a<lb/>
+taddīpaṃkaraprasādena KDA_117a<lb/>
+taddharmeṣu niveśaya KDA_301d<lb/>
+tad dhi maitrīprabhāvataḥ KDA_437d<lb/>
+tad dhi maitrīprabhāvataḥ KDA_438d<lb/>
+tad dhi maitrīprabhāvataḥ KDA_439d<lb/>
+tadbhavān vyākarotu me KDA_251d<lb/>
+tad bhāṇḍaṃ tena lakṣyate KDA_221b<lb/>
+tan na tyājyā kadācana KDA_312d<lb/>
+tan na śarīrasaṃskāra- KDA_211a<lb/>
+tan me gaditum arhasi KDA_2d<lb/>
+tapanti puṇyakṣetreṣu KDA_167c<lb/>
+tapaś caraṇasaṃraktas KDA_84a<lb/>
+tapasā brāhmaṇā bhūtā KDA_128c<lb/>
+tapasā brāhmaṇo jātas KDA_122c<lb/>
+tapasā brāhmaṇo jātas KDA_123c<lb/>
+tapasā brāhmaṇo jātas KDA_124c<lb/>
+tapasā brāhmaṇo jātas KDA_125c<lb/>
+tapasā brāhmaṇo jātas KDA_126c<lb/>
+tapasā brāhmaṇo jātas KDA_127c<lb/>
+tapaḥ śaucaṃ ca pañcamam* KDA_257d<lb/>
+taptvāpi duṣkaraṃ tapaḥ KDA_444d<lb/>
+tamaś cakṣuṣmatām api KDA_373b<lb/>
+tam ahaṃ brāhmaṇaṃ brūyāṃ KDA_258c<lb/>
+tamāc ca jñānamātreṇa KDA_230a<lb/>
+tam āśramam upānīya KDA_19c<lb/>
+tam eva dharmam ādhyāya KDA_349e<lb/>
+tamodharmadharā daityā KDA_94c<lb/>
+tayaiva sahasuptasya KDA_110c<lb/>
+tal loke modavāṃś cara KDA_276d<lb/>
+tasmāc ca vedamātreṇa KDA_230c<lb/>
+tasmāc caivaṃ vijānīyā KDA_118c<lb/>
+tasmāc chīlaguṇair dvijāḥ KDA_131d<lb/>
+tasmāc chīlaguṇair dvijāḥ KDA_262d<lb/>
+tasmāj jātir akāraṇam* KDA_122d<lb/>
+tasmāj jātir akāraṇam* KDA_123d<lb/>
+tasmāj jātir akāraṇam* KDA_124d<lb/>
+tasmāj jātir akāraṇam* KDA_125d<lb/>
+tasmāj jātir akāraṇam* KDA_126d<lb/>
+tasmāj jātir akāraṇam* KDA_127d<lb/>
+tasmāj jñānapramāṇena KDA_219a<lb/>
+tasmāj jñānaṃ vinā naiva KDA_217c<lb/>
+tasmāt kāruṇiko bhava KDA_275d<lb/>
+tasmāt krodhaprahāṇāya KDA_368a<lb/>
+tasmāt krodhavināśāya KDA_397c<lb/>
+tasmāt krodhavināśāya KDA_404c<lb/>
+tasmāt krodhāgniśāntyarthaṃ KDA_338a<lb/>
+tasmāt krodho nivāryatām* KDA_373d<lb/>
+tasmāt krodho mahāripuḥ KDA_383d<lb/>
+tasmāt krodho mahāripuḥ KDA_384d<lb/>
+tasmāt krodho mahāripuḥ KDA_392d<lb/>
+tasmāt krodho mahāripuḥ KDA_395d<lb/>
+tasmāt putra ivātmanīva ca dayāṃ nītvā prakarṣaṃ jane KDA_419c<lb/>
+tasmāt putra mayā proktaṃ KDA_63a<lb/>
+tasmāt sarvaprayatnena KDA_72a<lb/>
+tasmāt sarvaprayatnena KDA_447a<lb/>
+tasmāt subhūtir ity eva KDA_28c<lb/>
+tasmād apāsya kṛṣṇāni KDA_481a<lb/>
+tasmād ahaṃ cariṣyāmi KDA_333a<lb/>
+tasmād ācāramātreṇa KDA_236c<lb/>
+tasmād dayāṃ hṛdi sthāpya KDA_420c<lb/>
+tasmād dharmatapaḥśīla- KDA_210a<lb/>
+tasmād dhi brāhmaṇo naiva KDA_123c<lb/>
+tasmād dhyānāt samutthāya KDA_354a<lb/>
+tasmād vāñchati yo brahma KDA_70a<lb/>
+tasmān na karmamātreṇa KDA_233a<lb/>
+tasmān maitrī pradhīyatām* KDA_442d<lb/>
+tasmān maitrī prayatnena KDA_369c<lb/>
+tasmān maitrī prasādhyatām+ KDA_441d<lb/>
+tasmān maitrīṃ vibhāvaya KDA_274d<lb/>
+tasmiṃś ca samaye buddhaḥ KDA_461a<lb/>
+tasmai dānaṃ pradātavyam KDA_264c<lb/>
+tasya kiṃ tapasā siddhe KDA_53c<lb/>
+tasya kiṃ brahmacaryeṇa KDA_55c<lb/>
+tasya saṃjāyate brahma KDA_276c<lb/>
+tasya saṃjāyate brahma KDA_277c<lb/>
+tasyaiva tat phalaṃ dhruvam* KDA_478b<lb/>
+tasyaiva dharmatā śuddhā KDA_295a<lb/>
+tasyaiva śāsane śuddhe KDA_464a<lb/>
+taṃ devā brāhmaṇaṃ viduḥ KDA_204d<lb/>
+taṃ devā brāhmaṇaṃ viduḥ KDA_266d<lb/>
+taṃ devā brāhmaṇaṃ viduḥ KDA_272d<lb/>
+taṃ subhūtiṃ samāgamya KDA_290c<lb/>
+tāḍayanti ruṣānvitāḥ KDA_387d<lb/>
+tāḍitā tyajyate bhartrā KDA_385c<lb/>
+tādṛgdharmasamāhitaḥ KDA_21d<lb/>
+tādṛśī jātitā bhavet* KDA_195b<lb/>
+tān api saṃmukhaṃ ghnanti KDA_379c<lb/>
+tān api saṃmukhaṃ duṣṭās KDA_387c<lb/>
+tāni sarvāṇi jānīta KDA_446c<lb/>
+tāni sarvāṇi jānīdhvaṃ KDA_411c<lb/>
+tāni sarvāṇi duṣṭāni KDA_396c<lb/>
+tāvat kiṃ tapasāpy etan KDA_336c<lb/>
+tāvat sadguṇayukto 'pi KDA_71c<lb/>
+tāvan maitrī na bhāvyate KDA_368d<lb/>
+tāṃ devatāṃ puraḥ sthitām* KDA_299d<lb/>
+tiryagyonigateṣv api KDA_207b<lb/>
+tiryagyonigateṣv api KDA_256b<lb/>
+tiryagyonyudbhavāś cāpi KDA_436a<lb/>
+tīkṣṇabuddhiḥ kṛtodyamaḥ KDA_84b<lb/>
+tīrthikair iti kalpitam* KDA_240d<lb/>
+tṛṇauṣadhādiśasyānāṃ KDA_143a<lb/>
+tṛtīyaṃ brāhmalakṣaṇam* KDA_255d<lb/>
+te ca lokāḥ prabhāṣitāḥ KDA_482b<lb/>
+te te syur brāhmaṇāḥ kila KDA_234d<lb/>
+te devā nirmalānandā KDA_99c<lb/>
+te 'dhobhuvanasaṃjātā KDA_97e<lb/>
+te narā brāhmaṇāḥ khalu KDA_207d<lb/>
+tena sarve jitā duṣṭā KDA_398c<lb/>
+tena sarve dviṣo hatāḥ KDA_371d<lb/>
+tena saṃpadyate brahma KDA_274c<lb/>
+tena saṃpadyate brahma KDA_275c<lb/>
+tenādau cittakoṭarāt* KDA_70b<lb/>
+tenāpy evaṃ suparṇānāṃ KDA_360a<lb/>
+tenedānīṃ tathārhatvaṃ KDA_476c<lb/>
+tenaiva karmaṇā cādya KDA_470a<lb/>
+tenaiva krodhinā sārdhaṃ KDA_33c<lb/>
+tenaiva tat prabhujyate KDA_459d<lb/>
+tenaiva pātakenaiva KDA_393c<lb/>
+tenaiva pātakenaivaṃ KDA_474c<lb/>
+tenaiva hetunā cādya KDA_340a<lb/>
+tenaiva hetunā cāhaṃ KDA_331c<lb/>
+tenaivaṃ prārthyamāno 'sau KDA_66a<lb/>
+tenaivābhidrutāḥ sarve KDA_361a<lb/>
+te 'pi ca manujā jainā KDA_193c<lb/>
+te 'pi ca mānavā dhīrāḥ KDA_171c<lb/>
+te 'pi ca mānavā bauddhāḥ KDA_192c<lb/>
+te 'pi ca mānavāḥ sarve KDA_194c<lb/>
+te 'pi jātāḥ kurukṣetre KDA_108c<lb/>
+te 'pi dhanyā dvijottamāḥ KDA_47d<lb/>
+te 'pi maitrīpracāriṇaḥ KDA_427d<lb/>
+te 'pi maitryāḥ prabhāvataḥ KDA_426d<lb/>
+te 'pi sarve ruṣānvitāḥ KDA_390d<lb/>
+te 'pi sarve ruṣāśrayāt* KDA_391d<lb/>
+te 'pi syur brāhmaṇāś caivaṃ KDA_236a<lb/>
+te 'pi syur brāhmaṇāḥ khalu KDA_229d<lb/>
+te 'pi hi paramarṣayaḥ KDA_46d<lb/>
+te lokā maitracittās tribhuvanasukhadāḥ kṣāntisaurabhyayuktāḥ KDA_486c<lb/>
+te viviktasukhaiṣiṇaḥ KDA_18b<lb/>
+te śaivā manujā jñeyāḥ KDA_187c<lb/>
+teṣāṃ dhyānaratā ye vai KDA_18a<lb/>
+teṣāṃ hi jātisāmānyād KDA_202a<lb/>
+te satvā bhūmisaṃjātā KDA_98c<lb/>
+te hi brahmavidāṃ varāḥ KDA_48d<lb/>
+te hotāraś ca yajvāno KDA_173c<lb/>
+tyaktakrūrasvabhāvas tu KDA_255a<lb/>
+tyaktadaṇḍo nirāmiṣaḥ KDA_253b<lb/>
+tyaktamārābhigocarāḥ KDA_166b<lb/>
+triratnaguṇavarṇanām* KDA_299b<lb/>
+triratnaśaraṇaṃ gatvā KDA_297c<lb/>
+triratnaśaraṇaṃ gatvā KDA_302a<lb/>
+triratnasamayaṃ prāptum KDA_300c<lb/>
+traidhātukabhavālaye KDA_95b<lb/>
+trailokyabhartṛkā nāthāḥ KDA_443c<lb/>
+trailokyādhipanāyakaḥ KDA_425b<lb/>
+tvadājñāṃ śirasā vahan* KDA_322d<lb/>
+tvaṃ cāpi hi tathā matvā KDA_297a<lb/>
+tvaṃ hi vidvān mahāvijñaḥ KDA_41c<lb/>
+dakṣiṇasyāṃ tathā kecit KDA_17a<lb/>
+dagdhā janapadāś cāpi KDA_375c<lb/>
+dadarśa jinabhāskaram* KDA_305b<lb/>
+dadāti piṇḍam ādarāt* KDA_435b<lb/>
+dadāha brahmajaṃ kāmaṃ KDA_376c<lb/>
+dadau ca paṇasaṃ mudā KDA_115b<lb/>
+dayākrāntaṃ cittaṃ na bhavati paradroharabhasaṃ KDA_417a<lb/>
+dayācittaṃ samālambya KDA_349a<lb/>
+dayām iṣṭaphalodayām* KDA_416b<lb/>
+dayālur nodvegaṃ janayati pareṣām upaśamād KDA_418a<lb/>
+dayālur viśvāsyo bhavati jagatāṃ bāndhava iva KDA_418b<lb/>
+dayālor hṛdaye jātā KDA_420a<lb/>
+dayāviyogato lokaḥ KDA_415a<lb/>
+darśanīyaṃ subhadrāṅgaṃ KDA_25c<lb/>
+daśakuśalasaṃmatā KDA_295b<lb/>
+daśa varṣasahasrāṇi KDA_465a<lb/>
+daśākuśalanirbhuktā KDA_168a<lb/>
+daśākuśalasaṃratāḥ KDA_168b<lb/>
+dahate sa parān api (Speyer: svaparān api) KDA_335d<lb/>
+dahaty ātmānam evādau KDA_372c<lb/>
+dahet krodhānalaḥ kṣaṇāt* KDA_337d<lb/>
+dānavā ghnanti devāṃś ca KDA_389a<lb/>
+dānaśīlādisaddharma- KDA_401a<lb/>
+dānaśīlādisādhanam* (Speyer: dharmasucaritaṃ) KDA_337b<lb/>
+dārakaṃ saṃprasādikam* KDA_25b<lb/>
+dārakaḥ samajāyata KDA_24d<lb/>
+dideśaivaṃ savistaram KDA_310d<lb/>
+divyabhogānubhoktā ca KDA_374a<lb/>
+durjanān mardayan sarvān KDA_430c<lb/>
+durvāgbāṇai ruṣā khalāḥ KDA_379d<lb/>
+durvṛttiprabhavāni hi KDA_411b<lb/>
+duṣṭabhārān vinirjaya (Speyer: duṣṭamārān) KDA_68b<lb/>
+duṣṭamitropadeśena KDA_406c<lb/>
+duṣṭāñjetuṃ na śaknuyāḥ KDA_68d<lb/>
+duṣṭā matsariṇaḥ śaṭhāḥ KDA_346b<lb/>
+dūṣayiṣyanti cittāni KDA_347a<lb/>
+dṛṣṭasatyo 'tha saṃbuddhaṃ KDA_319c<lb/>
+dṛṣṭvā cainaṃ ca bālakam* KDA_27b<lb/>
+dṛṣṭvā sarve janaughās te KDA_363c<lb/>
+dṛṣṭvaiva sahasā cātha KDA_308a<lb/>
+dṛṣṭvaiva suprasannena KDA_20c<lb/>
+dṛṣṭvaivaṃ samacintayat* KDA_37d<lb/>
+dṛṣṭvaivaṃ samacintayat* KDA_284d<lb/>
+devamanuṣyanārīṇāṃ KDA_207a<lb/>
+devamanuṣyanārīṇāṃ KDA_256a<lb/>
+devā daityāś ca mānuṣāḥ KDA_93d<lb/>
+devānām api te mānyā KDA_45c<lb/>
+devāś ca ghnanti dānavān* KDA_389b<lb/>
+devāsuramahānāgair KDA_8a<lb/>
+devair api praśasyate KDA_421b<lb/>
+deśayañ chubhayas sadā KDA_12d<lb/>
+deśayanti sma saddharmaṃ KDA_16c<lb/>
+deśe janapadeṣu ca KDA_344b<lb/>
+dehasaṃskāramātrataḥ KDA_123d<lb/>
+dehasaṃsthānaliṅgaiś ca KDA_139c<lb/>
+dravyavarṇādibhedatā KDA_149b<lb/>
+dvijātikulasaṃbhavaḥ KDA_340b<lb/>
+dvitīyaṃ brāhmalakṣaṇam* KDA_254d<lb/>
+dveṣaśalye hṛdi sthite KDA_370d<lb/>
+dvau guṇau parikīrtitau KDA_102d<lb/>
+dhakṣyati parvatāṃś cāpi KDA_286c<lb/>
+dhanādivastusaṃgrahaiḥ KDA_179b<lb/>
+dhanibhiḥ puravāsibhiḥ KDA_7b<lb/>
+dhanyās te bhikṣavaś caiva KDA_296a<lb/>
+dhanyās te bhikṣavo hy ete KDA_21a<lb/>
+dhanyās te vītarāgā ye KDA_44a<lb/>
+dhanyo 'yam ṛddhimān bhikṣur KDA_364a<lb/>
+dhanyo 'si tvaṃ mahādhīra KDA_291c<lb/>
+dharmakalpavikalpena KDA_130c<lb/>
+dharmakriyāviśeṣāt tu KDA_249c<lb/>
+dharmacaryānuvarṇinaḥ KDA_194d<lb/>
+dharmataḥ sukhino bhūtāḥ KDA_106a<lb/>
+dharmabhedāt tataḥ karma- KDA_223c<lb/>
+dharmamātā yato maitrī KDA_312c<lb/>
+dharmarājas tathāgataḥ KDA_5b<lb/>
+dharmarājo yudhiṣṭhiraḥ KDA_250b<lb/>
+dharmavṛttipramāṇena KDA_129c<lb/>
+dharmasaṃyamatatparaḥ KDA_83d<lb/>
+dharmasaṃskārajāḥ khalu KDA_198d<lb/>
+dharmasaṃskārataḥ sarve KDA_129a<lb/>
+dharmasaṃskṛtivṛttisthaḥ KDA_121a<lb/>
+dharmaṃ sucaritaṃ puṇyaṃ KDA_337a<lb/>
+dharmāṇāṃ tu kṣamā mūlaṃ KDA_412c<lb/>
+dharmānumodanaṃ kṛtvā KDA_450c<lb/>
+dharmārthakāmamokṣeṣu KDA_80a<lb/>
+dharmārthakāmamokṣeṣu KDA_293a<lb/>
+dharmārthī na tyajed asmād KDA_416a<lb/>
+dharmārthe yasya jīvitam* KDA_266b<lb/>
+dharmeṣu varṇavādinām* KDA_243b<lb/>
+dharme sthātuṃ na śaknuyāḥ KDA_69b<lb/>
+dhātudoṣāny abhijñāya KDA_183a<lb/>
+dhātrīr vā snehapālinīḥ KDA_380b<lb/>
+dhātvannakṣiravikrayī KDA_214b<lb/>
+dhānyādivrīhijātīnāṃ KDA_144a<lb/>
+dhānyādivrīhisādhakāḥ KDA_178b<lb/>
+dhīracittasamāhitaḥ KDA_67d<lb/>
+dhyānacaryām upāśrayat* KDA_281d<lb/>
+dhyānaṃ saukhyārthasādhanam* KDA_353b<lb/>
+na kartavyaḥ kadācana KDA_90d<lb/>
+na kulena na jātyā ca KDA_259a<lb/>
+na keśena na kaṛṇena KDA_155a<lb/>
+na kopāgniś citte jvalayati hi dayātoyaśiśire KDA_418d<lb/>
+na grīvayā na bāhunā KDA_155d<lb/>
+na ca dveṣasamaṃ pāpaṃ KDA_369a<lb/>
+na ca bālasya vacanāt KDA_153c<lb/>
+na ca maitrīsamaṃ tapaḥ KDA_369b<lb/>
+na cendriyeṣu nānātvaṃ KDA_196a<lb/>
+na jātir dṛśyate devaiḥ KDA_204a<lb/>
+na jātir dṛśyate rājan KDA_265a<lb/>
+na jīvo brāhmaṇas tāvad KDA_91a<lb/>
+na jīvo brāhmaṇaḥ khalu KDA_118d<lb/>
+na jñānasya pramāṇatā KDA_230d<lb/>
+na tasya ko 'py abhūt suhṛt* KDA_31b<lb/>
+na tāṃ kratusahasreṇa KDA_271c<lb/>
+natvā caiva kṛtāñjaliḥ KDA_319d<lb/>
+natvā pādau muner dharmaṃ KDA_309c<lb/>
+na tv etair hi vinā vipraḥ KDA_210c<lb/>
+na dviṣantaḥ kṣayaṃ yānti KDA_371a<lb/>
+nananda sasabhājanaḥ KDA_485d<lb/>
+nanandur anumoditāḥ KDA_482d<lb/>
+na naśyanti hi karmāṇi KDA_478c<lb/>
+na nidrāṃ na dhṛtiṃ yāti KDA_370c<lb/>
+na pṛṣṭhenodareṇa vā KDA_156b<lb/>
+na prītisukham aśnute KDA_370b<lb/>
+na bhāryā bhaginī yuktā KDA_200c<lb/>
+namas te bhagavan nātha KDA_320c<lb/>
+na mukhena na nāsāyā KDA_155c<lb/>
+na muditā na copekṣā KDA_442c<lb/>
+na yuktā bhaginī bhāryā KDA_248a<lb/>
+narakān narakaṃ gatvā KDA_409c<lb/>
+narakebhyas tam uddhartuṃ KDA_410c<lb/>
+narakeṣu sadā vaset* KDA_410b<lb/>
+narāṇāṃ kiṃ viśeṣatā KDA_139d<lb/>
+narāṇāṃ tu tathā na hi KDA_146d<lb/>
+narāṇāṃ nāsti bhedatā KDA_140d<lb/>
+nareṣu kiṃ viśeṣatā KDA_133d<lb/>
+na viśeṣo 'sti vai tathā KDA_134d<lb/>
+na śarīrapramāṇatā KDA_219b<lb/>
+na śīrṣeṇa na cakṣuṣā KDA_155b<lb/>
+na satvā brahmaṇo jātāḥ KDA_201a<lb/>
+na sarvāṃśair na maithunaiḥ KDA_157b<lb/>
+na saṃrambhakṣobhaḥ prabhavati dayādhīr ahṛdaye KDA_418c<lb/>
+na sādhur duṣṭajantuvat* KDA_54d<lb/>
+na svareṇa na varnena KDA_157a<lb/>
+na hanti sarvabhūtāni KDA_253c<lb/>
+na hi brāhmaṇa ākāśān KDA_136a<lb/>
+na hy ātmanaḥ samutkarṣāc KDA_197a<lb/>
+nāgapotaḥ samuddhṛtaḥ KDA_19b<lb/>
+nāgayonisamutpannas KDA_330c<lb/>
+nāgayonisamutpanno KDA_475a<lb/>
+nāgāś ca garuḍā api KDA_364d<lb/>
+nāgāś ca garuḍā yateḥ KDA_449b<lb/>
+nāgāś ca garuḍāś ca te KDA_451b<lb/>
+nāgāś ca garuḍās tathā KDA_366b<lb/>
+nāgāḥ saṃtrasitās tataḥ KDA_357b<lb/>
+nāgnibhir dahyate karma KDA_479c<lb/>
+nā jātyā dharmato dvijaḥ KDA_120b<lb/>
+nādhitya caturo vedān KDA_270c<lb/>
+nānādeśasamāgataiḥ KDA_7d<lb/>
+nāpi svācāramātreṇa KDA_233c<lb/>
+nāmnā bhavatu viśrutaḥ KDA_28d<lb/>
+nāradākhyo mahāmuniḥ KDA_127b<lb/>
+nāsti cendriyasaṃyamaḥ KDA_206b<lb/>
+nināya jinamandiram* KDA_304d<lb/>
+niyukto 'yaṃ dvijottamaḥ KDA_288b<lb/>
+nirapekṣaḥ sutīkṣṇavāk* KDA_80b<lb/>
+nirapekṣāḥ svadehe 'pi KDA_166a<lb/>
+nirarthaṃ duḥkhahetave KDA_336d<lb/>
+nirguṇo 'pi praśobhate KDA_422b<lb/>
+nirghṛṇo dṛkprabhānalaiḥ KDA_376b<lb/>
+nirdayas tāḍayan hanti KDA_383c<lb/>
+nirdayāḥ satvahiṃsakāḥ KDA_186b<lb/>
+nirdiṣṭaḥ sarvabhikṣūṇām KDA_455c<lb/>
+nirdiṣṭo bhavatā yena KDA_457c<lb/>
+nirdiṣṭo 'yaṃ mayā khalu KDA_477b<lb/>
+nirmadā nirahaṃkārās KDA_49c<lb/>
+nirmamā nirahaṃkārā KDA_170c<lb/>
+nirmamo niḥparigrahaḥ KDA_255b<lb/>
+nirmuktabhavacārakāḥ KDA_170b<lb/>
+nirlobhāḥ satyavādinaḥ KDA_49b<lb/>
+nirviśeṣo 'bhavad yataḥ KDA_195d<lb/>
+nirvṛtisukham āpnuyāḥ KDA_298d<lb/>
+niścittaḥ pratisaṃlīnaḥ KDA_292c<lb/>
+niṣkṛtir nopalabhyate KDA_110d<lb/>
+nihīnotkṛṣṭamadhyāś ca KDA_201c<lb/>
+niḥśvāsopahatasya ca KDA_110b<lb/>
+niḥsaṅgā dhīramānasāḥ KDA_167b<lb/>
+niḥsaṅgo nirahaṃkṛtiḥ KDA_333b<lb/>
+niḥsaṅgo nyavasat sudhīḥ KDA_342d<lb/>
+nīcajā api santi ca KDA_235d<lb/>
+nīco 'pi sa dvijakalpo KDA_56c<lb/>
+naikā viśeṣatā vāpi KDA_157c<lb/>
+naiva kaścid abhāṣata KDA_32d<lb/>
+naiva kasyāpy abhūt priyaḥ KDA_32b<lb/>
+naiva cittasamāhitaḥ KDA_287b<lb/>
+naiva muktāś ca durgateḥ KDA_348b<lb/>
+naiva viśvasyate janaiḥ KDA_399d<lb/>
+naiva śāntim upāyayau KDA_283d<lb/>
+naiva syur brāhmaṇāḥ khalu KDA_230d<lb/>
+naivāsti bhedalakṣaṇam* KDA_141d<lb/>
+naiṣāṃ kiṃcid viśiṣyate KDA_196d<lb/>
+norasā na ca pārśvena KDA_156a<lb/>
+norubhyām atha jaṅgābhyāṃ KDA_156c<lb/>
+nyavasad dhyānasaṃrataḥ KDA_350d<lb/>
+pakṣiṇāṃ ca viśeṣatā KDA_140b<lb/>
+pañca kulaśatāni ca KDA_360b<lb/>
+pañca kulaśatāny atra KDA_356c<lb/>
+pañcajanmaśatāni ca KDA_330b<lb/>
+pañca janmaśatāny api KDA_474d<lb/>
+pañcalakṣaṇasaṃpanna KDA_258a<lb/>
+pañcānantaryam āpnuyāt* KDA_408d<lb/>
+pañcābhijñapadaprāpto KDA_280c<lb/>
+pañcendriyārṇavaṃ ghoraṃ KDA_264a<lb/>
+patanti narake ghore KDA_391c<lb/>
+patitā māṃsabhakṣaṇāt* KDA_215b<lb/>
+patito brāhmaṇaś caivaṃ KDA_217a<lb/>
+patito brāhmaṇo hy asau KDA_109d<lb/>
+patir mitraḥ suhṛd bandhus KDA_441c<lb/>
+patrādyākārabhedatā KDA_142b<lb/>
+pathi vā yadi vā gṛhe KDA_254b<lb/>
+padādibhedalakṣaṇam* KDA_139b<lb/>
+padbhyāṃ jāto yathā śūdraḥ KDA_247a<lb/>
+padbhyāṃ śūdraḥ samudbhavaḥ KDA_242d<lb/>
+padmādīnāṃ viśeṣatā KDA_146b<lb/>
+papracchur evam īśvaram* KDA_456d<lb/>
+paratreha śivaṃkarāḥ KDA_295d<lb/>
+paramāmeti vikriyām* KDA_415b<lb/>
+parātmaśubhavāñchinā KDA_483d<lb/>
+parān dhakṣyati vā na vā KDA_372d<lb/>
+parigrahān parityajya KDA_164a<lb/>
+parityajya gṛhāvāsaṃ KDA_267a<lb/>
+paritrātāś ca sarvataḥ KDA_358d<lb/>
+pariṣvajyātmajaṃ putraṃ KDA_66c<lb/>
+paruṣābaddhacetasā KDA_473b<lb/>
+paruṣībhūtacittatvān KDA_31a<lb/>
+parṣadaṃ ca samālokya KDA_3c<lb/>
+paśavaḥ krūramānasāḥ KDA_436b<lb/>
+paśuvatsa narākāraḥ KDA_227c<lb/>
+paśyadhvaṃ bhikṣavo yūyaṃ KDA_453a<lb/>
+pāṇipādanakhair na ca KDA_156d<lb/>
+pātako 'nyo na vidyate KDA_397b<lb/>
+pāti snehopacāreṇa KDA_428c<lb/>
+pāti snehopacāreṇa KDA_429c<lb/>
+pātrī susaṃghāṭiparītadehaḥ KDA_324b<lb/>
+pāpato duḥkhabhāginaḥ KDA_106b<lb/>
+pāragaś ca mahāsudhīḥ KDA_85d<lb/>
+pāragaḥ sarvavedānāṃ KDA_272a<lb/>
+pāraṃ prāpa subuddhimān* KDA_35d<lb/>
+pālayanti mahāsnehāt KDA_440c<lb/>
+pālayanti sadā prajāḥ KDA_174b<lb/>
+pāvako brahmahā bhavet* KDA_212b<lb/>
+pāṃśavo 'nnā bhavanti hi KDA_153d<lb/>
+pāṃśudātā hy abhūc chiśuḥ KDA_115d<lb/>
+pāṃśupuñjāni saṃpiṇḍya KDA_152c<lb/>
+pāṃśupuñjābhidhānena KDA_158c<lb/>
+piṇḍapātaṃ dadau mudā KDA_116d<lb/>
+piṇḍapātāsanādīnāṃ KDA_9c<lb/>
+pitaram ity abhāṣata KDA_64d<lb/>
+pitā śāstā guruḥ prabhuḥ KDA_441b<lb/>
+pitṛbhyām apy upekṣitaḥ KDA_31d<lb/>
+pitṛbhyo mṛtakebhyo 'pi KDA_435a<lb/>
+puṇyasiddhāni sarvathā KDA_446b<lb/>
+putra brahmasusādhanaiḥ KDA_67b<lb/>
+putrīṃ vā bālakām api KDA_383b<lb/>
+punar anyat subhāṣitam* KDA_2b<lb/>
+punar apy abravīn mudā KDA_66d<lb/>
+punas tena suparṇānāṃ KDA_359a<lb/>
+purā śrībhagavān buddho KDA_5a<lb/>
+puruṣadamyasārathiḥ KDA_462b<lb/>
+pūjyate svajanair yathā KDA_424d<lb/>
+pūjyante nīcajā api KDA_226d<lb/>
+pūjyante satvalokaiś ca KDA_426c<lb/>
+pūjyaś ca mānyo abhivādanīyo KDA_328c<lb/>
+pūrvakarmabalādhānāt KDA_30a<lb/>
+pūrvam āsīd yudhiṣṭhira KDA_261b<lb/>
+prakāśayata saṃvṛtim* KDA_14b<lb/>
+prakṣiptaṃ yatra yad dravyaṃ KDA_221a<lb/>
+prajāpatir hi caikatve KDA_195c<lb/>
+praṇidhānaṃ tathā cāyam KDA_465c<lb/>
+pratasthus te niyoginaḥ KDA_15d<lb/>
+pratideśānupāsthitāḥ KDA_16d<lb/>
+pratimādīn vighātayet* KDA_408b<lb/>
+pratilabhya jitendriyaḥ KDA_43b<lb/>
+pratyuvāceti kaunteya KDA_252c<lb/>
+prathamaṃ brāhmalakṣaṇam* KDA_253d<lb/>
+pradānakṣāntyādīñ janayati guṇān kīrtyanusṛtān* KDA_417d<lb/>
+prabodhayaṃs tam abravīt* KDA_40d<lb/>
+prabodhya bālakāñ chāsti KDA_431c<lb/>
+pramathnanti ruṣākulāḥ KDA_389d<lb/>
+pramadāpi ca bhartāraṃ KDA_386a<lb/>
+prayatadhvaṃ samāhitāḥ KDA_397d<lb/>
+prayatadhvaṃ samāhitāḥ KDA_404d<lb/>
+prayujyamāno vyaharat samādhau KDA_325b<lb/>
+prarakṣanti svapakṣāṃś ca KDA_432c<lb/>
+pravadaṃs taṃ samagrahīt* KDA_323d<lb/>
+praviṣṭo mama śāsane KDA_470b<lb/>
+pravrajya buddhaśāsane KDA_475d<lb/>
+pravrajyāprārthanāṃ cakre KDA_320a<lb/>
+pravrajyāṃ dehi me nātha KDA_322a<lb/>
+pravrajyāṃ dehi me satyaṃ KDA_75c<lb/>
+pravrajyāṃ samayācata KDA_74d<lb/>
+pravrajyāṃ samupāsiśritya KDA_72c<lb/>
+prasasrire samantataḥ KDA_356d<lb/>
+prāñjaliḥ paryapṛcchata KDA_250d<lb/>
+prātihāryam adarśayat* KDA_355d<lb/>
+prāpadabhijñāḥ pratisaṃvidaś ca KDA_327 d<lb/>
+prāpnuvanti yudhiṣṭhira KDA_271d<lb/>
+prāpya sākṣātkṛtaṃ mudā KDA_476d<lb/>
+prārabhat tīkṣṇamānasaḥ KDA_36d<lb/>
+prāsāde maṇimaṇḍite KDA_374b<lb/>
+proktā vai jīvajātayaḥ KDA_105d<lb/>
+phalanti khalu dehināṃ KDA_478f<lb/>
+phalamūlāditoṣitaiḥ KDA_375b<lb/>
+phalamūlāmbusaṃtuṣṭo KDA_343c<lb/>
+phalamūlodakais tuṣṭās KDA_47c<lb/>
+phalānāṃ nāsti bhedatā KDA_160b<lb/>
+phaleṣv anabhilipsātha KDA_260c<lb/>
+bandhubhiś ca parityakto KDA_32a<lb/>
+bandho dharmārthakāmānāṃ KDA_373c<lb/>
+babhūva vānarādhipaḥ KDA_114d<lb/>
+babhūva sa brahmavihāracārī KDA_328d<lb/>
+babhūvāyaṃ mahāviṣaḥ KDA_475b<lb/>
+babhūvur maitricāriṇaḥ KDA_449d<lb/>
+babhūvur maitricāriṇaḥ KDA_450d<lb/>
+balād ākṛṣya bhakṣitaḥ KDA_339b<lb/>
+balipūjāvidhānataḥ KDA_184b<lb/>
+bahavo narā nīcakulaprasūtāḥ KDA_203c<lb/>
+bāndhavāṃs te 'pi rakṣanti KDA_438c<lb/>
+bāndhavaiḥ svajanair janaiḥ KDA_421d<lb/>
+bālavṛddhādiduḥkhite KDA_52b<lb/>
+bāhubhyām eva cet tathā KDA_245b<lb/>
+bāhubhyāṃ kṣatriyaḥ smṛtaḥ KDA_242b<lb/>
+buddhadharmaṃ samaikṣata KDA_317d<lb/>
+buddhavacomṛtaṃ pītvā KDA_482c<lb/>
+buddhasya vacanaṃ śrutvā KDA_293c<lb/>
+buddhasyopāsakāś ca ye KDA_296b<lb/>
+buddhenādvayavādinā KDA_114b<lb/>
+buddho 'pi sa bhaviṣyati KDA_117d<lb/>
+buddho hi jagatāṃ bandhus KDA_425a<lb/>
+buddho hi bhagavān nāthaḥ KDA_294a<lb/>
+bodhārtham iti tīrthikaiḥ KDA_241b<lb/>
+bodhicittaṃ ca lapsyati KDA_288d<lb/>
+bodhicitte pralabdhe tu KDA_289a<lb/>
+bodhipadam avāpnuyāḥ KDA_314d<lb/>
+bodhisatvamahāsatvaiḥ KDA_11c<lb/>
+bodhisatvā mahāsatvā KDA_427a<lb/>
+bodhisatvo 'bhavan nṛpaḥ (Speyer: bhaven) KDA_117b<lb/>
+bodhisatvo mahāvijño KDA_289c<lb/>
+bodhisaṃbhārasādhakāḥ KDA_427b<lb/>
+bauddhadharmaparāyaṇāḥ KDA_192b<lb/>
+brahmacaryam apālayat* KDA_465b<lb/>
+brahmacaryaṃ ca pālitam* KDA_476b<lb/>
+brahmacaryaṃ cariṣye 'haṃ KDA_322c<lb/>
+brahmacāriñ jinendravat* KDA_298b<lb/>
+brahmacārī bhavāmy aham* KDA_340d<lb/>
+brahmacārī mumoda saḥ KDA_343d<lb/>
+brahmajā brāhmaṇā naivaṃ KDA_198c<lb/>
+brahmajā brāhmaṇā yadi KDA_249b<lb/>
+brahmajā yadi sāṃpratam* KDA_199d<lb/>
+brahmajeṣu hi sarveṣu KDA_133c<lb/>
+brahmaṇāṃ brahmajā yadi KDA_200d<lb/>
+brahmadharmasamācārād KDA_189c<lb/>
+brahmapraṇidhim ālambya KDA_279c<lb/>
+brahmabhaktiparāyaṇāḥ KDA_189b<lb/>
+brahmarṣis tvaṃ bhaveḥ kila KDA_280b<lb/>
+brahmalokam avāpnuyāḥ KDA_280d<lb/>
+brahmavihārasaṃpanno KDA_77c<lb/>
+brahma saṃpadyate tadā KDA_273d<lb/>
+brahmasṛṣṭisamudbhavam* KDA_130b<lb/>
+brahmahatyā ca bandhūnāṃ KDA_212c<lb/>
+brahmā jñānarato yataḥ (Speyer: dhyānarato) KDA_60d<lb/>
+brahmāṇaṃ ye bhajayanty eva KDA_189a<lb/>
+brahmāṇāṃś ca samudbhavāḥ (Speyer:brahmāṇāṃśasamudbhavāḥ) KDA_105b<lb/>
+brahmāṇotpattir ucyate KDA_104d<lb/>
+brāhmaṇabījasaṃbhūtaḥ KDA_123a<lb/>
+brāhmaṇasya ca sā bhāryā KDA_200a<lb/>
+brāhmaṇaḥ patito bhavet* KDA_216d<lb/>
+brāhmaṇaḥ sa yudhiṣṭhira KDA_259d<lb/>
+brāhmaṇaḥ syād yudhiṣṭhira KDA_260d<lb/>
+brāhmaṇā api mānavāḥ KDA_218b<lb/>
+brāhmaṇā naiva mānuṣāḥ KDA_236d<lb/>
+brāhmaṇā yonito jātāś KDA_137a<lb/>
+brāhmaṇā vedapāragāḥ KDA_108d<lb/>
+brāhmaṇās te 'pi mānavāḥ KDA_189d<lb/>
+brāhmaṇās te mahāśuddhāś KDA_163c<lb/>
+brāhmaṇās te yudhiṣṭhira KDA_267d<lb/>
+brāhmaṇāḥ kṣatriyās tathā KDA_169b<lb/>
+brāhmaṇāḥ syur narāḥ khalu KDA_233b<lb/>
+brāhmaṇāḥ syur narottamāḥ KDA_237b<lb/>
+brāhmaṇāḥ syus tathā narāḥ KDA_233d<lb/>
+brāhmaṇī kutra saṃbhavā KDA_199b<lb/>
+brāhmaṇī kutra saṃbhavā KDA_244b<lb/>
+brāhmaṇīgarbhasaṃbhavāḥ KDA_128d<lb/>
+brāhmaṇe kṣatriye tathā KDA_202b<lb/>
+brāhmaṇe cānyajātau vā KDA_134c<lb/>
+brāhmaṇe cānyajātau vā KDA_134c<lb/>
+brāhmaṇe cānyajātau vā KDA_196c<lb/>
+brāhmaṇo jāyate kharaḥ KDA_112d<lb/>
+brāhmaṇo 'dattam ādāya KDA_114c<lb/>
+brāhmaṇo na bhavet khalu KDA_230b<lb/>
+brāhmaṇo 'pi kriyāhīnaḥ KDA_132c<lb/>
+brāhmaṇo 'pi kriyāhīnaḥ KDA_263c<lb/>
+brāhmaṇo 'pi bhavec chūdraḥ KDA_214c<lb/>
+brāhmaṇo 'pi mṛtotsṛṣṭo KDA_138a<lb/>
+brāhmaṇo brahmacārāṇāt* KDA_265d<lb/>
+brāhmaṇo 'smīty ahaṃkāro KDA_90c<lb/>
+brāhmaṇy api tathā caiva KDA_199c<lb/>
+brāhmaṇy api mukhāj jātā KDA_244c<lb/>
+brāhmaṇyasaṃvaraṃ prāptuṃ KDA_74c<lb/>
+bhakṣitum upacakrame KDA_19d<lb/>
+bhakṣito 'bhūt sa nāgakaḥ KDA_22d<lb/>
+bhakṣyate tena kiṃ na hi KDA_216b<lb/>
+bhakṣyante yena māṃsāni KDA_216a<lb/>
+bhagavantaṃ mahāsaumyaṃ KDA_305c<lb/>
+bhagavān ity udāharat* KDA_458b<lb/>
+bhajanti kuladharmiṇaḥ KDA_191b<lb/>
+bhadanta śrotum icchāmi KDA_2a<lb/>
+bhavanti nirguṇā janāḥ KDA_345d<lb/>
+bhavanti brahmacāriṇaḥ KDA_45b<lb/>
+bhavanto 'sya nu kiṃ nāma KDA_26c<lb/>
+bhaviṣyati na saṃśayaḥ KDA_289d<lb/>
+bhavec cittaṃ prasāditam* KDA_349d<lb/>
+bhaved āryāpavādakaḥ KDA_407d<lb/>
+bhaveyaṃ bauddhasadyatiḥ KDA_466b<lb/>
+bhaveyaṃ śrāvakottamaḥ KDA_469b<lb/>
+bhārate 'pi tathā caivaṃ KDA_250a<lb/>
+bhārate 'pi tathā proktam KDA_107a<lb/>
+bhāryā dharmānucāriṇī KDA_385b<lb/>
+bhāryāyā garbham āviśat* KDA_23d<lb/>
+bhāvanīyā sadādarāt* KDA_369d<lb/>
+bhāvanīyā sadā maitrī KDA_312a<lb/>
+bhikṣavo dhyānasaṃratāḥ KDA_20b<lb/>
+bhikṣavo brahmavādinaḥ KDA_166d<lb/>
+bhikṣāśinaḥ samādhisthās KDA_48c<lb/>
+bhikṣāśino vratasthās te KDA_166c<lb/>
+bhikṣāhetor vihartuṃ vā KDA_344c<lb/>
+bhikṣāhetoḥ kule kule KDA_346d<lb/>
+bhikṣuṇyupāsikābhiś ca KDA_11a<lb/>
+bhikṣubhiś ca jitendriyaiḥ KDA_10d<lb/>
+bhikṣuḥ subhūtiḥ sugataprabhāvāt* KDA_324d<lb/>
+bhikṣūṇāṃ brahmacāriṇām* KDA_454b<lb/>
+bhikṣūṇāṃ brahmacāriṇām* KDA_472d<lb/>
+bhikṣūn āmantrayāmāsa KDA_452c<lb/>
+bhitvā vā pṛthivīṃ jāto KDA_136c<lb/>
+bhidyante khalu mānavāḥ KDA_226b<lb/>
+bhindann avidyādrim ivāṇḍakośaṃ KDA_327 c<lb/>
+bhinnacitto vikīryate KDA_405b<lb/>
+bhiṣajas te hi vaidyakāḥ KDA_183d<lb/>
+bhūtadoṣāṇy abhijñāya KDA_184a<lb/>
+bhūtapūrvam atīte 'dhvany KDA_460a<lb/>
+bhūtināmnā dvijasyāsau KDA_23c<lb/>
+bhūtiṃ tam abruvaṃs tathā KDA_27d<lb/>
+bhūtvāraṇāvihāriṇām* KDA_469d<lb/>
+bhūmiṣv api na naśyati KDA_479f<lb/>
+bhedatā ca pravartate KDA_224b<lb/>
+bhedatā saṃpravartate KDA_223d<lb/>
+bhedā ca saṃprajāyate KDA_223b<lb/>
+bhairavabhaktimānasāḥ KDA_190b<lb/>
+bhairavikāś ca mānavāḥ KDA_190d<lb/>
+bhaiṣajyaṃ ye dadanty eva KDA_183c<lb/>
+bhojayantaḥ parasparam* KDA_440b<lb/>
+bhautikās te 'pi mānavāḥ KDA_184d<lb/>
+bhramanti durgatiṣv api KDA_347d<lb/>
+bhramanti narakeṣu te KDA_332d<lb/>
+bhraṣṭim evam avāpnuyām* KDA_341d<lb/>
+bhrātaraḥ sahajāś cāpi KDA_384a<lb/>
+bhrāntacitto 'bhavac chivaḥ KDA_393d<lb/>
+bhrāmyanti tribhavālaye KDA_100d<lb/>
+matvā ca saṃsāragatiṃ vibhaṅginīm* KDA_326b<lb/>
+matsarākrāntacetasaḥ KDA_50b<lb/>
+manasā praṇidhir dadhe KDA_20d<lb/>
+manaḥ śamaṃ na gṛhṇāti KDA_370a<lb/>
+manujānāṃ tathā nāsti KDA_147c<lb/>
+manunābhihitaṃ khalu KDA_121d<lb/>
+manuṣyeṣu na vidyate KDA_157d<lb/>
+manovākkāyavispandaiḥ KDA_415c<lb/>
+mantrasiddhiprayogavit* KDA_85b<lb/>
+manyante sevayā śuddhiṃ KDA_177c<lb/>
+mayi mokṣārthasādhini KDA_301b<lb/>
+maruto vā samudbhavaḥ KDA_136b<lb/>
+mahadvyasanam āptavān+ KDA_331d<lb/>
+maharṣir dvijasattama KDA_291d<lb/>
+mahādātāpy abhūt tadā KDA_464d<lb/>
+mahāduḥkhabhayāni ca KDA_396b<lb/>
+mahāduḥkham avāpnuyāt* KDA_409d<lb/>
+mahān nāgo vinirmitaḥ KDA_359d<lb/>
+mahābhijñās tapasvinaḥ KDA_444b<lb/>
+mahābhūtasamudbhūta- KDA_225a<lb/>
+mahāyajñasamācārā KDA_165c<lb/>
+mahāyajñādikarmiṇaḥ KDA_232b<lb/>
+mahāraudrāś ca te khyātā KDA_190c<lb/>
+mahotsāho mahāvīraḥ KDA_84c<lb/>
+māṇava uttaro nāma KDA_467a<lb/>
+māṇava tvaṃ prajānāṃ tu KDA_467c<lb/>
+mātaraṃ janmadātrīṃ ca KDA_380a<lb/>
+mātreṇa brāhmaṇo bhavet* KDA_211b<lb/>
+mānavānāṃ tathā nāsti KDA_143c<lb/>
+mānavānāṃ tathā nāsti KDA_145c<lb/>
+mānavā brāhmaṇāḥ khalu KDA_129b<lb/>
+mānavā ye praśāntāsthā KDA_163a<lb/>
+mānavās te tapasvinaḥ KDA_167d<lb/>
+mānavo 'pi na pūjyate KDA_227b<lb/>
+mānino madamohāndhā KDA_346a<lb/>
+māyākleśārthasādhinā KDA_42b<lb/>
+māyāyāṃ jāyate ratiḥ KDA_333d<lb/>
+māsam ekaṃ nirantaram* KDA_111b<lb/>
+māsam ekaṃ nirantaram* KDA_207b<lb/>
+māheśvarīvratādhārāḥ KDA_191c<lb/>
+māṃ vihāre praveśaya KDA_302d<lb/>
+māṃsāsthiguṇabhedatā KDA_147d<lb/>
+mithyājīvena jīvan yaḥ KDA_109c<lb/>
+miśrataiva tu miśrāṇāṃ KDA_480e<lb/>
+miśrato miśrabhuktāra KDA_106c<lb/>
+muktaś carati yo nityaṃ KDA_255c<lb/>
+mukhato brāhmaṇo jāto KDA_242a<lb/>
+mukhādivarṇaśabdaiś ca KDA_140c<lb/>
+muditāpi sadā sādhyā KDA_314a<lb/>
+muditāṃ hi samālambya KDA_314c<lb/>
+munayaḥ satyavādinaḥ KDA_169d<lb/>
+muninā muninā + + KDA_109b<lb/>
+munīnām āśramaṃ yayau KDA_73d<lb/>
+munīnām upadeśāni KDA_43a<lb/>
+munīndraḥ śrīdhanaḥ śāstā KDA_294c<lb/>
+muhuḥ paśyann ananda saḥ KDA_25d<lb/>
+mūḍhasya drūyate cittaṃ KDA_334c<lb/>
+mūḍho duṣṭavaśaṃ vrajet* KDA_406b<lb/>
+mṛgadāve jināśrame KDA_463b<lb/>
+mṛgāḥ kāliñjare girau KDA_107d<lb/>
+mṛtaś ca sa prajāyate KDA_111d<lb/>
+mṛtaḥ sa śvā prajāyate KDA_207d<lb/>
+mṛtena svāminā saha KDA_434b<lb/>
+mṛttikayaiva bhārgavaḥ KDA_219d<lb/>
+mṛttikāyā na bhedo 'sti KDA_220a<lb/>
+mṛtyuṃ yānti janaiḥ sārdhaṃ KDA_377c<lb/>
+meror upariṣaṇḍāyām KDA_18c<lb/>
+maitrīcittaṃ samālambya KDA_413c<lb/>
+maitrīdharmam upādiśat* KDA_365d<lb/>
+maitrīdharmopadeśena KDA_451c<lb/>
+maitrīmāñ jagatām iṣṭo KDA_423a<lb/>
+maitrīmāñ jagatāṃ mitro KDA_423c<lb/>
+maitrīmāñ jagatāṃ sakhā KDA_423d<lb/>
+maitrīmāñ jagatāṃ suhṛt* KDA_423b<lb/>
+maitrīmān puruṣaḥ śrīmān KDA_424a<lb/>
+maitrīmān puruṣaḥ sādhur KDA_421a<lb/>
+maitrīmān sajjano loke KDA_422a<lb/>
+maitrīmān sanmatir bandhur KDA_422c<lb/>
+maitrīmūlodbhavāni hi KDA_446d<lb/>
+maitrīyuktam ivātmaje KDA_274b<lb/>
+maitrī loke prasāryatām* KDA_420d<lb/>
+maitrī saddharmasādhanī KDA_420b<lb/>
+maitrī hi jagatāṃ mātā KDA_441a<lb/>
+maitrīṃ citte samādhāya KDA_447c<lb/>
+maitrīṃ bhāvaya satveṣu KDA_484c<lb/>
+maitrīṃ vinā na jāyeta KDA_442a<lb/>
+maitryā saṃskārayañ jagat* KDA_425d<lb/>
+maithunaṃ nādhigacchanti KDA_207c<lb/>
+maithunaṃ hi sadā tyaktaṃ KDA_256c<lb/>
+yakṣagandharvakinnaraiḥ KDA_8b<lb/>
+yac ca bhāryānuyāty eva KDA_434a<lb/>
+yac ca rājā prajāḥ pāti KDA_430a<lb/>
+yac ca vidvān guruḥ śiṣyān KDA_431a<lb/>
+yac ca vīrā raṇe sthitvā KDA_432a<lb/>
+yac cānena punas tatra KDA_475c<lb/>
+yac cittaṃ muditaṃ loke KDA_276a<lb/>
+yac chāṃkaro mahāraudro KDA_376a<lb/>
+yatayo yogino 'pi te KDA_170d<lb/>
+yataḥ saukhyaṃ pravartate KDA_412d<lb/>
+yatitavyaṃ śubheṣv eva KDA_481c<lb/>
+yatir mokṣam avāpnuyāt* KDA_349f<lb/>
+yatīn dṛṣṭvānumodaṃ ca KDA_339c<lb/>
+yato dātā prajāpatiḥ KDA_56d<lb/>
+yat taḥ kleśāprahīṇatvād KDA_472a<lb/>
+yatnai ratnāni sādhayan* KDA_433b<lb/>
+yat pitā bālakaṃ putram KDA_429a<lb/>
+yat pitā svātmajaṃ putraṃ KDA_383a<lb/>
+yatra yatra pragacchati KDA_424b<lb/>
+yat svayaṃ pariṇītāpi KDA_385a<lb/>
+yathā karoti bhāṇdāni KDA_219c<lb/>
+yathākṛtiviśeṣatā KDA_143b<lb/>
+yathā ca kṛmikīṭānāṃ KDA_141a<lb/>
+yathā prakāśatamasor KDA_134a<lb/>
+yathā bhasmani sauvarṇe KDA_134a<lb/>
+yathā bhūruhavṛkṣāṇāṃ KDA_142a<lb/>
+yathāmrādiphalānāṃ ca KDA_147a<lb/>
+yathā vajrādiratnānāṃ KDA_150a<lb/>
+yathā varṇādibhedatā KDA_145b<lb/>
+yathā vṛkṣo 'hiveṣṭitaḥ KDA_400d<lb/>
+yathā ṣaḍrasajātīnāṃ KDA_148a<lb/>
+yathā siṃhādijantūnāṃ KDA_139a<lb/>
+yathā haṃsamayūrādi- KDA_140a<lb/>
+yathā hi bālakā bālā KDA_152a<lb/>
+yathā hemādidhātūnāṃ KDA_149a<lb/>
+yathaikavṛkṣajātānāṃ KDA_160a<lb/>
+yadā ca garuḍenāhaṃ KDA_339a<lb/>
+yadā na kurute pāpaṃ KDA_273a<lb/>
+yadā varṣaśatāyuṣi KDA_467d<lb/>
+yadā sarvaparadravyaṃ KDA_254a<lb/>
+yadi te dharmavāñchāsti KDA_311c<lb/>
+yadi te 'sti kṛpā devi KDA_301a<lb/>
+yadi bauddheṣu dharmeṣu KDA_288a<lb/>
+yadi me śaraṇaṃ yātha KDA_366c<lb/>
+yadi vāñchāsti te yate KDA_293b<lb/>
+yadi vā brahmajā viprā KDA_199a<lb/>
+yadi vipraḥ śarīraḥ syāt KDA_212a<lb/>
+yadi vipro mukhāj jāto KDA_244a<lb/>
+yadi vedād dvijo bhavet* KDA_230b<lb/>
+yadi vedair bhaved vipro KDA_237c<lb/>
+yadi śūdro 'pi tīrṇavān* KDA_264b<lb/>
+yadi svācārato vipraḥ KDA_234a<lb/>
+yad uktaṃ śākyasiṃhena KDA_2c<lb/>
+yad dadanti mahāsatvāḥ KDA_439a<lb/>
+yad dveṣābhyāsataś cāsaṃ KDA_331a<lb/>
+yad dhetor janāś caivaṃ(?) KDA_347c<lb/>
+yad yat karmānucāriṇaḥ KDA_185b<lb/>
+yady ācārapramāṇatā KDA_236b<lb/>
+yad rājāno viruddhāś ca KDA_377a<lb/>
+yan mayā hitam ucyate KDA_291b<lb/>
+yan mātā duḥkhitāpy evam KDA_428a<lb/>
+yaś ca dātā viśuddhātmā KDA_56a<lb/>
+yasmāt saṃskārato dvijaḥ KDA_91b<lb/>
+yasmād bhūter ayaṃ putraṃ KDA_28a<lb/>
+yasya cittaṃ dayāśūlaṃ KDA_58a<lb/>
+yasya cittaṃ pravikṣiptaṃ KDA_54a<lb/>
+yasya cittaṃ sadā satva- KDA_60a<lb/>
+yasya cittaṃ hy aviśuddhaṃ KDA_51a<lb/>
+yasya citte dayā nāsti KDA_399a<lb/>
+yasya dātuṃ mano nāsti KDA_50a<lb/>
+yasya na kuśalotsāhaṃ KDA_53a<lb/>
+yasya prajñā jagalloka- KDA_61a<lb/>
+yasya prajñā viśuddhā na KDA_55a<lb/>
+yasya lokahite cittaṃ KDA_274a<lb/>
+yasya loke dayā nāsti KDA_52a<lb/>
+yasya lokeṣu kāruṇyaṃ KDA_275a<lb/>
+yasyaiva hetunā lokā KDA_332c<lb/>
+yasyopekṣāyutaṃ cittaṃ KDA_277a<lb/>
+yā gatir brahmacāriṇaḥ KDA_271b<lb/>
+yātāḥ saukhāvatīṃ te 'py amitarucimuner dharmam ārādhayanti KDA_486d<lb/>
+yādṛśaṃ sādhyate karma KDA_195a<lb/>
+yāni mahānti pāpāni KDA_396a<lb/>
+yāmi te śaraṇaṃ sadā KDA_321b<lb/>
+yāvac citte sthitaṃ krodhaṃ KDA_368c<lb/>
+yāvajjīvam api ghnataḥ KDA_371b<lb/>
+yāvajjīvaṃ sukhaṃ bhuktvā KDA_448c<lb/>
+yāvat krodham anirjitya KDA_68c<lb/>
+yāvat krodhānaloddīptaṃ KDA_336a<lb/>
+yāvad duṣṭān anirjitya KDA_69a<lb/>
+yāvanti pāpaduḥkhāni KDA_411a<lb/>
+yāvanti sukhabhogyāni KDA_446a<lb/>
+yuktaś carati dharmaṃ yo KDA_272c<lb/>
+yugāntakālavijñātā KDA_182c<lb/>
+yuddhaṃ kṛtvā parasparam* KDA_377b<lb/>
+yūyaṃ sarve 'numoditāḥ KDA_448b<lb/>
+ye ete duḥkhino loke KDA_367c<lb/>
+ye ete sukhino loke KDA_367a<lb/>
+yee bhajanti sadā buddhaṃ KDA_192a<lb/>
+ye ca kurvanti mānavāḥ KDA_181b<lb/>
+ye ca kṣatrāṇi rakṣantaḥ KDA_174a<lb/>
+ye ca kṣetrāṇi karṣanti KDA_178a<lb/>
+ye ca jitendriyagrāmā KDA_170a<lb/>
+ye ca bhasmaviliptāṅgā KDA_172a<lb/>
+ye ca mārān vinirjitya KDA_167a<lb/>
+ye ca māheśvarīṃ devīṃ KDA_191a<lb/>
+ye ca lokapracāreṣu KDA_169a<lb/>
+ye ca satvahitādhāne KDA_176a<lb/>
+ye ca sārthān samāhṛtya KDA_180a<lb/>
+ye ca sthaṇḍilam āśritya KDA_171a<lb/>
+ye cāparigrahītāro KDA_49a<lb/>
+yena krodho jito vairo KDA_398a<lb/>
+yena saṃrakṣitaṃ nityaṃ KDA_57a<lb/>
+yenaite garuḍā nāgā KDA_453c<lb/>
+yenaite rakṣitāḥ sarve KDA_364c<lb/>
+yenaiva duṣkaraṃ karma KDA_59a<lb/>
+yenaiva nāgayonau ca KDA_471c<lb/>
+yenaiva nirjitāḥ kleśāś KDA_62a<lb/>
+yenaiva yat kṛtaṃ karma KDA_459c<lb/>
+yenaiva yat kṛtaṃ karma KDA_478a<lb/>
+yenaivaṃ sarvasatānāṃ KDA_349c<lb/>
+ye 'pi kleśān vinirjitya KDA_48a<lb/>
+ye 'pi parigrahāṃs tyaktvā KDA_45a<lb/>
+ye pravrajyāṃ samāgṛhya KDA_46a<lb/>
+ye bhajanti jinaṃ caiva KDA_193a<lb/>
+ye bhajanti mahāraudraṃ KDA_190a<lb/>
+ye bhajanti viṣṇuṃ nityaṃ KDA_188a<lb/>
+ye bhajanti śivaṃ nityaṃ KDA_187a<lb/>
+ye bhajanti sadā brahma KDA_164c<lb/>
+ye maitrībhāvadharmaṃ kalimatiharaṇaṃ tat subhūteś caritraṃ KDA_486a<lb/>
+ye ye duṣṭāśayāḥ krūrāḥ KDA_391a<lb/>
+ye ye satvā mahābhijñāḥ KDA_426a<lb/>
+ye ye svācāravantaś ca KDA_234c<lb/>
+ye rañjayanti dharmārthe KDA_175a<lb/>
+ye śāntā yatayo dhīrāś KDA_387a<lb/>
+ye satvās tāmasā raudrā KDA_97c<lb/>
+ye samiddhavyadravyāṇi KDA_173a<lb/>
+ye sthitā mokṣakāṅkṣiṇaḥ KDA_267b<lb/>
+yogo 'py eṣa na vidyate KDA_158d<lb/>
+yojayiṣye ca saṃyame KDA_39d<lb/>
+yojayeyaṃ sa sarvathā KDA_88d<lb/>
+yonijaṃ sarvam eva hi KDA_197d<lb/>
+yo 'sau bhagavatānena KDA_466c<lb/>
+rajodharmadharā narāḥ KDA_94b<lb/>
+rajodharmaratā ye hi KDA_98a<lb/>
+ratau rāgo 'bhijāyeta KDA_334a<lb/>
+ratnākarasamāgatāḥ KDA_180b<lb/>
+ratnāṅgam iva jaṅgamam* KDA_306d<lb/>
+ramadhvaṃ maitramānasāḥ KDA_366d<lb/>
+rarāma sa vayonvitaḥ KDA_29d<lb/>
+rākṣaso 'pi dvijaḥ khalu KDA_237d<lb/>
+rākṣaso vedapāragaḥ KDA_238b<lb/>
+rāgacaryānusāriṇaḥ KDA_98b<lb/>
+rāgadveṣanivṛttiś ca KDA_268c<lb/>
+rāge mohaḥ pravardhate KDA_334b<lb/>
+rājabhī rājamātraiś ca KDA_7a<lb/>
+rājānas te mahāvīrāḥ KDA_175c<lb/>
+rūpam eva trayo guṇāḥ KDA_103b<lb/>
+rocate tapase mama KDA_65b<lb/>
+roṣitā bheditāśayāḥ KDA_384b<lb/>
+rauravaṃ so 'dhigacchati KDA_208d<lb/>
+rauravādīn samantataḥ KDA_409b<lb/>
+lakṣaṇaiḥ samalaṃkṛtam* KDA_305d<lb/>
+lakṣyate mānavas tathā KDA_221d<lb/>
+lābhī cīvaravāsasām* KDA_9b<lb/>
+lipim anvagrahīt kramāt* KDA_34d<lb/>
+lipiśālām upāgamat* KDA_34b<lb/>
+lokānāṃ jagatām api KDA_422d<lb/>
+lokānāṃ paricārakāḥ KDA_183b<lb/>
+lokānugrahakāraṇāt* KDA_351d<lb/>
+lokān nītiprayojakāḥ KDA_175b<lb/>
+loke 'narthaṃ kariṣyati KDA_38d<lb/>
+loke 'narthaṃ kariṣyati KDA_87d<lb/>
+lokeśo hi kṣamākaraḥ KDA_58d<lb/>
+vaṇikkarmābhisaṃyuktā KDA_179c<lb/>
+vaṇijas te mahodyamāḥ KDA_179d<lb/>
+vanaprasthanivāsinaḥ KDA_164b<lb/>
+vandanīyāḥ sadā khalu KDA_45d<lb/>
+varaṃ vipraḥ suyantritaḥ KDA_270b<lb/>
+varjitaḥ pitṛdevaiś ca KDA_208c<lb/>
+varṇagandhādibhedatā KDA_145d<lb/>
+varṇasaṃsthānagandhāś ca KDA_146c<lb/>
+varṇākāraviśeṣatā KDA_144d<lb/>
+varṇākārādilakṣaṇam* KDA_144b<lb/>
+varṇāvasthāḥ pratiṣṭhitāḥ KDA_249d<lb/>
+varṇās tathaiva catvāraḥ KDA_158a<lb/>
+varṇās sathava cāpy anye KDA_138c<lb/>
+varṇā hy anekajātayaḥ KDA_133b<lb/>
+vartate guṇabhedatā KDA_222d<lb/>
+varṣasahasram āyuṣ ca KDA_460c<lb/>
+vasanti kleśabhāginaḥ KDA_97f<lb/>
+vasanti dhyāyinaḥ sadā KDA_44d<lb/>
+vasanti narake ghore KDA_390c<lb/>
+vasanti mānuṣādayaḥ KDA_98d<lb/>
+vasanti svargatiṃ gatāḥ KDA_99d<lb/>
+vasantī vanadevatā KDA_284b<lb/>
+vasiṣṭhākhyo mahāmuniḥ KDA_124b<lb/>
+vaseyaṃ janapadāśrame(?) KDA_341b<lb/>
+vaseyaṃ dhyānasaṃrataḥ KDA_349b<lb/>
+vastūnāṃ sarvataḥ sadā KDA_10b<lb/>
+vācaṃyamāś ca te bhadrā KDA_169c<lb/>
+vānaprasthā hi te dvijāḥ KDA_164d<lb/>
+vāyubhir nāpi śuṣyati KDA_479d<lb/>
+vārāṇasīm upāśritya KDA_463a<lb/>
+vikalāni kṛtāny api KDA_473d<lb/>
+vikalpen dhanadīptena KDA_372a<lb/>
+vikīrṇaḥ kliśyate māraiḥ KDA_405c<lb/>
+vikruśyābhāṇi sāṃghike KDA_474b<lb/>
+vikruṣṭo 'tha ruṣāśayaḥ KDA_86d<lb/>
+vigṛhṇanti mahākruddhās KDA_384c<lb/>
+vigrahavān asaṃyataḥ KDA_78d<lb/>
+vigrahī vādasaṃrataḥ KDA_86b<lb/>
+vigrahe nirato 'bhavat KDA_30d<lb/>
+vicikṣepa yatīn api KDA_79d<lb/>
+vijagrāhāsamāhitaḥ KDA_80d<lb/>
+vijñāya bodhimārgeṣu KDA_303c<lb/>
+vidārya jñānavajreṇa KDA_318c<lb/>
+vidikṣu cāpi sarvataḥ KDA_17d<lb/>
+vidyācaraṇasaṃpannaḥ KDA_5c<lb/>
+vidyācaraṇasaṃpannaḥ KDA_461c<lb/>
+vidyā vidyānamādhītyam KDA_269c<lb/>
+vinayānugrahārthinā KDA_13b<lb/>
+vinayārthaṃ subhūtinā KDA_359b<lb/>
+viniḥkṛṣya prayatnena KDA_70c<lb/>
+vinītaḥ śraddhayānvitaḥ KDA_77d<lb/>
+vinītā dharmasatpathe KDA_451d<lb/>
+vinītā dharmasatpathe KDA_453d<lb/>
+viparītaṃ samācaret* KDA_407b<lb/>
+viparītānubodhena KDA_407c<lb/>
+viprāṇāṃ patanaṃ dṛṣṭvā KDA_215c<lb/>
+viratā dharmamānasāḥ KDA_169b<lb/>
+viramya tadadhiṣṭhānād KDA_42c<lb/>
+vivādī krodhabāhulaḥ KDA_79b<lb/>
+viviktāraṇyagocare KDA_338d<lb/>
+viviktāraṇyavāseṣu KDA_44c<lb/>
+vivikte 'raṇyadeśe 'pi KDA_350c<lb/>
+vivikte 'raṇyavāse sa KDA_342c<lb/>
+vividhārthānukāriṇaḥ KDA_176b<lb/>
+vivṛddhā tasyaivaṃ parahitarucir maitryanugatā KDA_417c<lb/>
+viśārado mahābhijño KDA_83c<lb/>
+viśuddhātmāparigrahaḥ KDA_260b<lb/>
+viśeṣa upalabhyate KDA_134b<lb/>
+viśeṣa upalabhyate KDA_134b<lb/>
+viśeṣaṃ nādhigacchati KDA_287d<lb/>
+viśeṣo naiṣa vidyate KDA_134d<lb/>
+viśrambhapraṇayaṃ tasmin KDA_32c<lb/>
+viśvakarmā yato vidhiḥ KDA_59d<lb/>
+viśvasyate sadā sadbhir KDA_421c<lb/>
+viśvāmitro mahāmuniḥ KDA_126b<lb/>
+viṣaśastrānalādibhiḥ KDA_390b<lb/>
+viṣṇudharmasamācārād KDA_188c<lb/>
+viṣṇubhaktiparāyaṇāḥ KDA_188b<lb/>
+vismayaharṣasaṃyutāḥ KDA_450b<lb/>
+viharadhvaṃ yathāsukhaṃ KDA_413d<lb/>
+vihāraṃ brahmasādhanam* KDA_278b<lb/>
+vihāre vyaharad dharmaṃ KDA_12c<lb/>
+vihīno mānavaḥ paśuḥ KDA_222b<lb/>
+viṃśatiguṇitaṃ yadā KDA_460d<lb/>
+viṃśatiśikharodgatam* KDA_318b<lb/>
+vṛttaiś ca yadi bhūṣitaḥ KDA_401b<lb/>
+vṛthā syāt saṃskṛter vidhiḥ KDA_119d<lb/>
+vṛthā syād dharmasaṃskṛtaiḥ KDA_91d<lb/>
+vṛddhiṃ prāpya guṇāś cettham KDA_101a<lb/>
+vṛṣalīphenapītasya KDA_110a<lb/>
+vedakarmānucārakāḥ KDA_238d<lb/>
+vedadharmārthasādhakāḥ KDA_173d<lb/>
+vedadharmāsthito dvijaḥ KDA_61d<lb/>
+vedaśāstrāgamais tasya KDA_50c<lb/>
+vedasiddhāntamāninam* KDA_81b<lb/>
+vedasiddhāntayogānāṃ KDA_85c<lb/>
+vedasiddhāntaśāstreṣu KDA_79a<lb/>
+vedenāpi tathā naiva KDA_237a<lb/>
+veśayanti prajā dharme KDA_176c<lb/>
+vairānuśayatāṃ tyaktvā KDA_449c<lb/>
+vaiśampāyana ādarāt* KDA_252b<lb/>
+vaiśampāyanam āgamya KDA_250c<lb/>
+vaiśyaśūdre tathānyeṣu KDA_202c<lb/>
+vaiśyasyāpi bhaved bhāryā KDA_246c<lb/>
+vaiśyā tu bhaginī viśaḥ KDA_246d<lb/>
+vaiśyāpi hi tathā caivam KDA_246a<lb/>
+vaiśyās te hi narottamāḥ KDA_176d<lb/>
+vaiśyāḥ śūdrās tathānye 'pi KDA_169c<lb/>
+vaiṣṇavās te 'pi mānavāḥ KDA_188d<lb/>
+vyañjanaiś ca virājantaṃ KDA_306a<lb/>
+vyaharat sarvasatvānām KDA_463c<lb/>
+vyaharaddhyānatatparaḥ KDA_282d<lb/>
+vyākṛta iti bodhaye KDA_467b<lb/>
+vyāmaprabhāmahojjvalam* KDA_306b<lb/>
+vyāyacchamānaḥ khalu bodhimārge KDA_325c<lb/>
+vyāso nāma mahāmuniḥ KDA_123b<lb/>
+vratacaryānuliṅginaḥ KDA_194b<lb/>
+vratācāravihīnā ye KDA_177a<lb/>
+vratopavāsadharmiṣṭā KDA_235c<lb/>
+śatravo duḥkhadāyakāḥ KDA_398d<lb/>
+śabda eva na cāparaḥ KDA_102b<lb/>
+śabdasparśarūparasāś KDA_103c<lb/>
+śabdasparśau ca vāyor vai KDA_102c<lb/>
+śamayanti ca ye bhūtān KDA_184c<lb/>
+śayituṃ vābhilāpitum* KDA_33b<lb/>
+śayyādīnāṃ tathaiva ca KDA_9d<lb/>
+śarīradahanād bhavet* KDA_212d<lb/>
+śarīrākārabhedatā KDA_150d<lb/>
+śarīro brāhmaṇo bhavet* KDA_217d<lb/>
+śākyamunir mahābuddhaḥ KDA_468a<lb/>
+śāntātmāno jitendriyāḥ KDA_46b<lb/>
+śāntātmā sukham āsthāya KDA_43c<lb/>
+śāntātmā hitakṛdyogī KDA_388a<lb/>
+śāpāśaniprahāreṇa KDA_87c<lb/>
+śāstā devamanuṣyāṇāṃ KDA_6a<lb/>
+śāstā devamanuṣyāṇāṃ KDA_462a<lb/>
+śāstuḥ pādau praṇamya ca KDA_15b<lb/>
+śilpinas te tathānye 'pi KDA_181c<lb/>
+śivadharmānucārataḥ KDA_187d<lb/>
+śivabhaktiparāyaṇāḥ KDA_187b<lb/>
+śivo 'py abhūd digambaraḥ KDA_394f<lb/>
+śīlaś cendriyasaṃyamaḥ KDA_205b<lb/>
+śīlasaṃvaravarjitam* KDA_51b<lb/>
+śīlaṃ pradhānaṃ na kulaṃ pradhānaṃ KDA_203a<lb/>
+śīlaṃ saṃyamasaṃvṛttam* KDA_57b<lb/>
+śīlaḥ kalyāṇakārakaḥ KDA_204b<lb/>
+śukraśoṇitasaṃbhūtaṃ KDA_197c<lb/>
+śuklānāṃ śuklatā nityaṃ KDA_480c<lb/>
+śucau tasmin vāṇī vrajati vikṛtaṃ naiva ca tanuḥ KDA_417b<lb/>
+śuddhācārapramāṇataḥ KDA_231b<lb/>
+śuddhācārasamanvitāḥ KDA_235b<lb/>
+śūdrasyāpi bhaved bhāryā KDA_247c<lb/>
+śūdrāt pratigrahagrāhī KDA_112c<lb/>
+śūdrāt pratyavaro bhavet* KDA_132d<lb/>
+śūdrāt pratyavaro bhavet* KDA_263d<lb/>
+śūdrās te śreṣṭhinas tathā KDA_177d<lb/>
+śūdrī ca gṛhamedhinī KDA_208b<lb/>
+śūdrī cāpi tathodbhavā KDA_247b<lb/>
+śūdrīparivṛto vipraḥ KDA_208a<lb/>
+śūdrīhastena yo bhuṅkte KDA_207a<lb/>
+śūdrīhastena yo bhuñkte KDA_111a<lb/>
+śūdrī hi bhaginī khalu KDA_247d<lb/>
+śūdro 'pi na kathaṃ dvijaḥ KDA_123b<lb/>
+śūdro 'pi brāhmaṇo bhavet* KDA_228d<lb/>
+śūdro 'pi śīlasaṃpanno KDA_132a<lb/>
+śūdro 'pi śīlasaṃpanno KDA_263a<lb/>
+śṛṇu tat kathyate mayā KDA_252d<lb/>
+śṛṇudhvaṃ bhikṣavaḥ sarve KDA_458c<lb/>
+śṛṇudhvaṃ madvacaḥ sarve KDA_366a<lb/>
+śṛṇu putra mayā proktaṃ KDA_41a<lb/>
+śṛṇu rājan mahābāho KDA_4a<lb/>
+śṛṇu vatsa mahābhāga KDA_291a<lb/>
+śṛṇu vatsa hitaṃ vakṣye KDA_89c<lb/>
+śṛṇu vipra mahābhāga KDA_311a<lb/>
+śṛṇvanti śrāvayanti tribhuvanasukhadaṃ saṃnipātya janaughān* KDA_486b<lb/>
+śeṣāḥ śudrā yudhiṣṭhira KDA_258d<lb/>
+śaikṣāśaikṣagāṇānāṃ ca KDA_472c<lb/>
+śaucam indriyanigrahaḥ KDA_257b<lb/>
+śmaśānavratacāriṇaḥ KDA_172d<lb/>
+śrāvakā bhikṣavaś caiva KDA_15c<lb/>
+śrāvastyāṃ puri + + + KDA_23b<lb/>
+śrāvastyāṃ rājadhānyāṃ vai KDA_12a<lb/>
+śrutaṃ me gurubhāṣitam* KDA_483b<lb/>
+śrutvā lokahitotsukaḥ KDA_63b<lb/>
+śreṣṭhatve vṛṣalatve ca KDA_137c<lb/>
+śreṣṭhibhiḥ sārthavāhaiś ca KDA_7c<lb/>
+śrotuṃ tasthau mudāḥ puraḥ KDA_309d<lb/>
+śrotriyā gṛhavāsinaḥ KDA_165b<lb/>
+śrotriyo vedanān yatiḥ KDA_57d<lb/>
+śvapacā api dharmasthāḥ KDA_93a<lb/>
+śvapaco 'pi dvijo bhavet* KDA_121b<lb/>
+śvaśurasyāpi dakṣasya KDA_394c<lb/>
+śvānaḥ saptati janmāni KDA_113c<lb/>
+ṣaṭkarmaniratā ye tu KDA_165a<lb/>
+ṣaṭ ca pāramitāḥ khyātāḥ KDA_295c<lb/>
+ṣaḍabhijño munīśvaraḥ KDA_462d<lb/>
+ṣaḍindriyaviśeṣatā KDA_148d<lb/>
+ṣaḍindriyasamās tathā KDA_151b<lb/>
+ṣaḍgatiṣu bhramanti te KDA_95d<lb/>
+ṣaḍgatau bhujyate dhruvam* KDA_480f<lb/>
+ṣaṣṭi janmāni sūkaraḥ KDA_113b<lb/>
+sa eva brāhmaṇaḥ śuddhaḥ KDA_57c<lb/>
+sa eva brāhmaṇottamaḥ KDA_62d<lb/>
+sa eva brāhmaṇo dhīro KDA_59c<lb/>
+sa kiṃ guhāniviṣṭo 'pi KDA_54c<lb/>
+sakaivartādinīcajāḥ KDA_229b<lb/>
+saṅgād dhi jāyate māyā KDA_333c<lb/>
+saccittalabdhaḥ sa muneḥ prasādāt KDA_325a<lb/>
+satkāyadṛṣṭiśailaṃ ca KDA_318a<lb/>
+satkāralābheṣu parāṅmukatvāt KDA_328a<lb/>
+satkṛto mānitaḥ satvair KDA_6c<lb/>
+satkṛtyasya vivarjanam* KDA_268b<lb/>
+satyadharmapramāṇena KDA_240a<lb/>
+satyadharmavratānvitāḥ KDA_163b<lb/>
+satyadharmāv anādṛtya KDA_378c<lb/>
+satyavāco vratasthā ye KDA_168c<lb/>
+satyaṃ nāsti tapo nāsti KDA_206a<lb/>
+satyaṃ brahma tapo brahma KDA_205a<lb/>
+satyaṃ śaucaṃ dayā śaucaṃ KDA_257a<lb/>
+satyaṃ śaucaṃ smṛtir ghṛṇā KDA_269b<lb/>
+satvajīvānupoṣakāḥ KDA_178d<lb/>
+satvadharmadharā devā KDA_94a<lb/>
+satvadharmaratā ye tu KDA_99a<lb/>
+satvarakṣārthacāriṇaḥ KDA_177b<lb/>
+satvarakṣāvratācārāḥ KDA_174c<lb/>
+satvahiṃsāratāḥ khalāḥ KDA_438b<lb/>
+satvā nānāśrayāḥ pṛthak* KDA_201d<lb/>
+satvānāṃ vinayārthena KDA_355c<lb/>
+satvānugrahakāraṇāt* KDA_354b<lb/>
+satvānugrahaṇaṃ vinā KDA_353d<lb/>
+satvā naikavidhā jātā KDA_97a<lb/>
+satvān pāti dadad dānaṃ KDA_433c<lb/>
+satvārthabodhivāñchibhiḥ KDA_11d<lb/>
+satveṣ api yathātmaje KDA_313b<lb/>
+satveṣu ca yathātmaje KDA_314b<lb/>
+satveṣ evaṃ yathātmaje KDA_312b<lb/>
+satveṣv api yathātmaje KDA_315b<lb/>
+sadā dānāni saṃdatvā KDA_476a<lb/>
+sadāśīviṣavādena KDA_474a<lb/>
+sadguṇālaṃkṛto yadi KDA_400b<lb/>
+saddharmaguṇadāyakāḥ KDA_445b<lb/>
+saddharmaguṇasādhane KDA_55b<lb/>
+saddharmasukhacāriṇaḥ KDA_21b<lb/>
+saddharmaṃ samupādiśan* KDA_463d<lb/>
+saddharmādīn pratikṣipya KDA_408a<lb/>
+saddharmābhirato bhava KDA_63d<lb/>
+saddharmārthopadarśayan* KDA_431b<lb/>
+saddharme vinayārthena KDA_365c<lb/>
+saddharmeṣu niveśaya KDA_322b<lb/>
+sadyaḥ patati māṃsena KDA_214a<lb/>
+sadyaḥ praśāntendriya eva tasthau KDA_324c<lb/>
+sa naṭarṣir ivonmadaḥ KDA_51d<lb/>
+santi ca bahavaḥ śūdrāḥ KDA_235a<lb/>
+santi hi bahavo loke KDA_232a<lb/>
+sanmaitryā viharanta eva muditāṃ prodbhāvayadhvaṃ sadā KDA_419d<lb/>
+sapakṣijantumānavān* KDA_286d<lb/>
+sapta vyādhā daśāraṇye KDA_107c<lb/>
+sa prativigato 'py abhūt* KDA_308d<lb/>
+samantata itas tataḥ KDA_360d<lb/>
+samantato mahābhadraṃ KDA_307a<lb/>
+samanvāharad ātmavān* KDA_329b<lb/>
+samamāṃsādibhedāś ca KDA_151a<lb/>
+samaṃ jñānaṃ pravartate KDA_202d<lb/>
+samādhidhyānayukto 'pi KDA_287a<lb/>
+samādhidhyānavaryāsu KDA_88c<lb/>
+samāneṣu ca deheṣu KDA_218c<lb/>
+samāśvāsya subhūtinā KDA_358b<lb/>
+samāśvāsya surakṣitāḥ KDA_362d<lb/>
+samutpanno babhūva saḥ KDA_471d<lb/>
+samutsehur na kecana KDA_33d<lb/>
+samṛddhaḥ śilpavān api KDA_402b<lb/>
+sameṣu kā viśeṣatā KDA_225d<lb/>
+samyaksaṃbodhideśakaḥ KDA_6b<lb/>
+samyagājñāpitā iti KDA_13d<lb/>
+sarvakleśān vinirjitya KDA_63c<lb/>
+sarvakleśān vinirjitya KDA_340c<lb/>
+sarvajantuśarīreṣu KDA_225c<lb/>
+sarvajātivarottamaḥ KDA_90b<lb/>
+sarvajñātiviruddhatvāt KDA_31c<lb/>
+sarvajño bhagavān nāthaḥ KDA_462c<lb/>
+sarvajño lokanāyakaḥ KDA_294b<lb/>
+sarvajño lokanāyakaḥ KDA_468b<lb/>
+sarvatīrthābhiṣiñcanaiḥ KDA_272b<lb/>
+sarvatra munibhiś cāpi KDA_80c<lb/>
+sarvathā karmaṇāṃ gatiḥ KDA_480b<lb/>
+sarvadarśī vināyakaḥ KDA_452b<lb/>
+sarvadevādhipaṃ samyak- KDA_307c<lb/>
+sarvadharmānupālakaḥ KDA_294d<lb/>
+sarvadharmābhipālakāḥ KDA_175d<lb/>
+sarvapāramitāratāḥ KDA_445d<lb/>
+sarvapāramitāḥ pūrya KDA_117c<lb/>
+sarvabhūtadayā nāsti KDA_206c<lb/>
+sarvabhūtadayā brahma KDA_205c<lb/>
+sarvabhūtadayā śaucaṃ KDA_257c<lb/>
+sarvabhūteṣu dāruṇam* KDA_273b<lb/>
+sarvamantravidhānajñaḥ KDA_285c<lb/>
+sarvam ekaṃ jagad dhruvam* KDA_240b<lb/>
+sarvalokahitārthataḥ KDA_4b<lb/>
+sarvalokānukampakāḥ KDA_426b<lb/>
+sarvalokeṣv ivātmaje KDA_277b<lb/>
+sarvavarṇāgrajo vipraḥ KDA_90a<lb/>
+sarvavidyākalājño 'pi KDA_402a<lb/>
+sarvavedārthapāragaḥ KDA_285b<lb/>
+sarvaśāstrakalābhijño KDA_85a<lb/>
+sarvaśāstrāṅgapāragaḥ KDA_41d<lb/>
+sarvaśāstrāṇy anukramāt* KDA_35b<lb/>
+sarvaśāstrārthakovidaḥ KDA_83b<lb/>
+sarvaśokavinoditaḥ KDA_1b<lb/>
+sarvasatvahitārthataḥ KDA_311b<lb/>
+sarvasatvahitārthasthās KDA_427c<lb/>
+sarvasatvahitārthena KDA_296c<lb/>
+sarvasatvahiteṣitam* KDA_58b<lb/>
+sarvasatvānupālaka KDA_320d<lb/>
+sarvasatvān upālakaḥ KDA_56b<lb/>
+sarvasatvānupālakāḥ KDA_443d<lb/>
+sarvaṃ ca saṃsāram anityatāhataṃ KDA_326a<lb/>
+sarvaṃ hi manusaṃbhavam* KDA_161d<lb/>
+sarvānando babhūva saḥ KDA_116b<lb/>
+sarvān dṛṣṭvā prasannitān* KDA_365b<lb/>
+sarvāśī sarvavikrayī KDA_270d<lb/>
+sarve jīvā militvaiva KDA_105a<lb/>
+sarve te krodhino narāḥ KDA_367d<lb/>
+sarve te garuḍā api KDA_362b<lb/>
+sarve te maitracāriṇaḥ KDA_367b<lb/>
+sarve nāgāḥ suparṇebhyaḥ KDA_358c<lb/>
+sarvendriyavinirgatyā KDA_282c<lb/>
+sarve 'pi rākṣasāś caivaṃ KDA_238c<lb/>
+sarve mūtrapurīṣiṇaḥ KDA_131b<lb/>
+sarve mūtrapurīṣiṇaḥ KDA_262b<lb/>
+sarve vai yonijā martyāḥ KDA_131a<lb/>
+sarve vai yonijā martyāḥ KDA_262a<lb/>
+sarveṣāṃ pātakānāṃ tat KDA_412a<lb/>
+sarve syur brāhmaṇā narāḥ KDA_129d<lb/>
+sarve syur brāhmaṇāḥ khalu KDA_231d<lb/>
+sarve syur brāhmaṇāḥ khalu KDA_234b<lb/>
+sarve syur mānavā dvijāḥ KDA_92d<lb/>
+sarve harṣasamāpannā KDA_27c<lb/>
+sa vidvān api nāsevyo KDA_400c<lb/>
+saśakradevāsuramānuṣāṇām* KDA_328b<lb/>
+sa sakāmo 'bhavad yadā KDA_344d<lb/>
+sa sādhupuruṣaś cāpi KDA_399c<lb/>
+sa subhūtir guṇotsukaḥ KDA_281b<lb/>
+sa subhūtiḥ pramoditaḥ KDA_317b<lb/>
+sa subhūtiḥ samṛddhimān* KDA_355b<lb/>
+sa subhūtiḥ subuddhimān* KDA_350b<lb/>
+sahantyarīn prahāriṇaḥ KDA_432b<lb/>
+saharṣādbhutam āyayuḥ KDA_363d<lb/>
+sahasā pitarau natvā KDA_73c<lb/>
+sahasrakiraṇādhikyaṃ KDA_306c<lb/>
+sa hi vipro mahābhijño KDA_60c<lb/>
+saṃkleśādhīracetanaḥ KDA_87b<lb/>
+saṃkṣepeṇa dayāmataḥ sthiratayā paśyanti dharmaṃ budhāḥ KDA_419a<lb/>
+saṃjñayākhyāyate khalu KDA_220d<lb/>
+saṃjñāmātreṇa kalpyante KDA_169a<lb/>
+saṃjñāmātre hi kīrtitāḥ KDA_169d<lb/>
+saṃbabhāṣa subhāṣitam* KDA_3d<lb/>
+saṃbuddhadarśanaṃ prati KDA_300b<lb/>
+saṃbuddhadharme ghaṭamāna eva KDA_325d<lb/>
+saṃbuddhaṃ darśaya kṣipraṃ KDA_301c<lb/>
+saṃbuddho bhagāvan nāthas KDA_468c<lb/>
+saṃbodhiguṇaprāptaye KDA_321d<lb/>
+saṃbodhiguṇasāgaram* KDA_307d<lb/>
+saṃbodhiguṇasādhakāḥ KDA_296d<lb/>
+saṃbodhipadasādhakāḥ KDA_443b<lb/>
+saṃbodhipadasādhane KDA_311d<lb/>
+saṃbodhipadasādhinaḥ KDA_192d<lb/>
+saṃyamajñānato dvijaḥ KDA_210b<lb/>
+saṃvṛticārakān api KDA_452d<lb/>
+saṃvṛttidharmacāriṇaḥ KDA_379b<lb/>
+saṃśayoddhatamānasāḥ KDA_456b<lb/>
+saṃsāraratiniḥspṛhaḥ KDA_318d<lb/>
+saṃskāraṃ nārhati punaḥ KDA_217b<lb/>
+saṃskṛtas tu dvijo bhavet* KDA_119b<lb/>
+saṃskṛtāḥ syur dvijādhamāḥ KDA_93b<lb/>
+saṃskṛtena dvijo vā cec KDA_211c<lb/>
+saṃsthānavarṇabhedatā KDA_149d<lb/>
+saṃsthānavarṇabhedatā KDA_150b<lb/>
+saṃsthānaṃ bhinnalakṣaṇam* (Speyer:saṃsthānabhinnaŚ) KDA_143d<lb/>
+sākṣāc ca so 'rhann abhavan maharddhikaḥ KDA_326d<lb/>
+sākṣād arhatpadaṃ prāpya KDA_298c<lb/>
+sāṅgopāṅgān yathākramam* KDA_36b<lb/>
+sāṅgopāṅgāṃś ca tatvataḥ KDA_112b<lb/>
+sātvikāḥ śāntacāriṇaḥ KDA_99b<lb/>
+sādhayanti ca ratnāni KDA_180c<lb/>
+sādhayanti mahatkāryaṃ KDA_179a<lb/>
+sādhayante tapovane KDA_47b<lb/>
+sādhavo ye mahātmānaḥ KDA_379a<lb/>
+sādhitaṃ satvahetunā KDA_59b<lb/>
+sāmagrīṃ prāpya kālaṃ ca KDA_478e<lb/>
+sāmāny akāraṇaṃ manye KDA_158c<lb/>
+sārthavāhāś ca te narāḥ KDA_180d<lb/>
+sārthavāho 'mbudhiṃ gatvā KDA_433a<lb/>
+sārdhaṃ saśrāvakaiḥ saṃghair KDA_10c<lb/>
+sā subhūtiṃ mahākrodhaṃ KDA_284c<lb/>
+siddhavidyo mahotkaṭaḥ KDA_84d<lb/>
+sukhaṃ labdhvāpi kiṃ sāraṃ KDA_353c<lb/>
+sukhībhūte ivātmaje KDA_276b<lb/>
+sugato lokavijjinaḥ KDA_5d<lb/>
+sugato lokavij jinaḥ KDA_461d<lb/>
+sujāto lakṣaṇānvitaḥ KDA_28b<lb/>
+sutīkṣṇakrodhabāhulaḥ KDA_285d<lb/>
+supto 'pi na labhen nidrāṃ KDA_374c<lb/>
+subhūta iti kalpitāḥ KDA_158b<lb/>
+subhūtinā kṛtaṃ karma KDA_459a<lb/>
+subhūtinā tathā caivaṃ KDA_362a<lb/>
+subhūtinā pitā tataḥ KDA_66b<lb/>
+subhūtir eva sadyatiḥ KDA_455b<lb/>
+subhūtir dvijasattamaḥ KDA_309b<lb/>
+subhūtir nirahaṃkṛtiḥ KDA_342b<lb/>
+subhūtir bālasundaraḥ KDA_29b<lb/>
+subhūtir brāhmaṇo 'py ayam* KDA_82b<lb/>
+subhūtir brāhmaṇo hy eṣa KDA_285a<lb/>
+subhūtir mama putro 'yam KDA_38a<lb/>
+subhūtir muniveṣabhṛt* KDA_77b<lb/>
+subhūtiś ca guruṃ natvā KDA_34c<lb/>
+subhūtis tatra saṃprāpto KDA_305a<lb/>
+subhūtiṃ dvijasattamam* KDA_88b<lb/>
+subhūtiṃ brahmacāriṇam* KDA_304b<lb/>
+subhūtiṃ brahmacāriṇam* KDA_453b<lb/>
+subhūtiṃ brāhmaṇaṃ dṛṣṭvā KDA_81c<lb/>
+subhūtiṃ samabodhayat* KDA_89b<lb/>
+subhūtiṃ svātmajaṃ tathā KDA_40b<lb/>
+subhūtiṃ svātmajaṃ putraṃ KDA_37c<lb/>
+subhūtiḥ kulaputro 'yam KDA_454c<lb/>
+subhūtiḥ saṃpramoditaḥ KDA_73b<lb/>
+subhūtiḥ so 'numoditaḥ KDA_64b<lb/>
+subhūter avadānaṃ yat KDA_4c<lb/>
+subhūter vanadevatā KDA_303b<lb/>
+subhūteś cittaśuddhatām* KDA_310b<lb/>
+subhūtes tasya sadyateḥ KDA_363b<lb/>
+subhūtes tasya sarvathā KDA_308b<lb/>
+subhūteḥ śaraṇaṃ yayuḥ KDA_357d<lb/>
+subhūteḥ śaraṇaṃ yayuḥ KDA_361d<lb/>
+surajyeṣṭhātmajasya ca KDA_394b<lb/>
+surayā lavaṇena ca KDA_214d<lb/>
+suvītarāgaḥ samaloṣṭahemā KDA_327 a<lb/>
+suvṛṣṭir iva śasyāni KDA_416c<lb/>
+susaṃjñāto mahāpuṇyo KDA_9a<lb/>
+suhṛdo yat sahāyāṃś ca KDA_378a<lb/>
+sevyate naiva sajjanaiḥ KDA_71d<lb/>
+saiva dvijavaro vijño KDA_61c<lb/>
+so 'dhītyaiṣāṃ suśīghreṇa KDA_35c<lb/>
+so 'pi śakalito rājñā KDA_388c<lb/>
+so 'pi śāstā vibhāty evaṃ KDA_425c<lb/>
+saukhāvatīṃ gamiṣyatha KDA_448d<lb/>
+skandheṣv āyataneṣu ca KDA_225b<lb/>
+sthaṇḍilā jaṭilās tathā (Speyer: sthāṇḍilā) KDA_171d<lb/>
+sthātuṃ gantuṃ tathā bhoktuṃ KDA_33a<lb/>
+sthāpayiṣye mahajjanān* KDA_354d<lb/>
+sthirībhava samādhiṣu KDA_279d<lb/>
+snehaviśrambhacāriṇaḥ KDA_378b<lb/>
+snehasatkārapālakam* KDA_381b<lb/>
+sparśaḥ śabdo raso rūpaṃ KDA_104a<lb/>
+smṛtau hi tat tathā proktaṃ KDA_120a<lb/>
+syāc caivedaṃ na yuktitaḥ KDA_200b<lb/>
+srotāpattiphalaṃ sākṣāt KDA_319a<lb/>
+svakarmapariṇāmataḥ KDA_96d<lb/>
+svakṛtaṃ karma bhuñjanto KDA_100c<lb/>
+svacittaṃ kleśavāyubhiḥ KDA_336b<lb/>
+svacitte bhāvitaṃ brahma KDA_62c<lb/>
+svajane 'pi yathā jane KDA_415d<lb/>
+svajane vā yathā jane KDA_414b<lb/>
+svadehe 'py anapekṣitāḥ KDA_439b<lb/>
+svaparātmahitārthataḥ KDA_297b<lb/>
+svaparārthābhighātakāḥ KDA_391b<lb/>
+svabandhūn snehataḥ pānti KDA_437c<lb/>
+svayam evāsinā ruṣā KDA_388d<lb/>
+svayaṃ nāmāni kurvate KDA_152d<lb/>
+svayaṃbhūdehasaṃbhūtaṃ KDA_241c<lb/>
+svayaṃ vīravrataṃ dadhat* KDA_430b<lb/>
+svargaṃ gatāḥ śīlam upetya dhīrāḥ KDA_203d<lb/>
+svarṇakārādayo narāḥ KDA_181d<lb/>
+svarddhibalaprabhāveṇa KDA_362c<lb/>
+svarddhivalaprabhāveṇa KDA_359c<lb/>
+svasā bhāryā kathaṃ nanu KDA_244d<lb/>
+svasiddhāntasamāno 'dya KDA_82c<lb/>
+svasutān snehataḥ pānti KDA_436c<lb/>
+svākhyātadharmasādhane KDA_320b<lb/>
+svākhyāte dharmavainaye KDA_464b<lb/>
+svātmacittasamāhitaḥ KDA_279b<lb/>
+svātmajān nirdayā ghnanti KDA_380c<lb/>
+svātmajāḥ pitaraṃ yac ca KDA_381a<lb/>
+svātmaje iva duḥkhite KDA_275b<lb/>
+svātmajeṣu yathā sadā KDA_484d<lb/>
+svādādiguṇabhedatā KDA_147b<lb/>
+svāminaṃ snehakāriṇam* KDA_386b<lb/>
+sveṣṭakāryopaghātataḥ KDA_334d<lb/>
+hantavyaḥ krodhapannagaḥ KDA_70d<lb/>
+hanyur mārā hi sarvathā KDA_69d<lb/>
+hariṇīgarbhasaṃbhūto KDA_125a<lb/>
+hastena tacchiraḥ spṛśan* KDA_323b<lb/>
+haṃsāḥ sarasi mānase KDA_108b<lb/>
+hārābharaṇabhūṣitāḥ KDA_172b<lb/>
+hitānuśāsanojjvalā KDA_61b<lb/>
+hitārthaṃ tava saṃmatam* KDA_41b<lb/>
+hitārtheṣu samādhitam* KDA_60b<lb/>
+hiṃsākarmānusaṃratāḥ KDA_97d
+</p>
+</body>
+</text>
+</TEI>

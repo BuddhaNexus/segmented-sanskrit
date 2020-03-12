@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_nAgArjuna-ratnAvalI+[ratnamAlA]">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Ratnāvalī [Ratnamālā]</title>
+	<!-- TODO: Verify author -->	
+	<author>Nāgārjuna</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the edition by Giuseppe Tucci: Journal of the Royal Asiatic Society of Great Britain and Ireland,  1934, pp. 307-325; 1936, pp. 237-252, 423-435.-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Nagarjuna: Ratnavali, 1<BR>
+Based on the edition by Giuseppe Tucci:<BR>
+Journal of the Royal Asiatic Society of Great Britain and Ireland, <BR>
+1934, pp. 307-325; 1936, pp. 237-252, 423-435.<BR>
+Version: 0.1a<BR>
+Last updated: Tue May  6 21:10:14 NZST 2003<BR>
+Text input by Richard Mahoney: r.mahoney@comnet.net.nz<BR>
+Latest Version:<BR>
+ http://homepages.comnet.co.nz/~r-mahoney/ratna_text/ratna_text.html<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+// namo ratnatrayāya //
+</p><p xml:id="1">
+sarvadoṣavinirmuktaṃ guṇaiḥ sarvair alaṃkṛtaṃ /
+</p><p xml:id="2">
+praṇamya sarvajñam ahaṃ sarvasattvaikabāndhavaṃ // RATNA_01.01
+</p><p xml:id="3">
+dharmam ekāntakalyāṇaṃ rāja [ n dha ] rmodayāya te /
+</p><p xml:id="4">
+vakṣyāmi dharmaḥ siddhiṃ hi yāti saddharmabhājane // RATNA_01.02
+</p><p xml:id="5">
+prāg dharmābhyudayo yatra paścān naiḥśreyasodayaḥ /
+</p><p xml:id="6">
+samprāpyābhyudayaṃ yasmād eti naiḥśreyasaṃ kramāt // RATNA_01.03
+</p><p xml:id="7">
+sukham abhyudaya [ s tatra mokṣo ] naiḥśreyaso mataḥ /
+</p><p xml:id="8">
+asya sādhanasaṃkṣepaḥ śraddhāprajñe samāsataḥ // RATNA_01.04
+</p><p xml:id="9">
+śrāddhatvād bhajate dharmaṃ prājñatvād vetti tattvataḥ /
+</p><p xml:id="10">
+prajñā pradhānaṃ tv anayoḥ śraddhā pūrvaṅgamāsya tu // RATNA_01.05
+</p><p xml:id="11">
+chandād dveṣād bhayān mohād yo dharmaṃ nātivartate /
+</p><p xml:id="12">
+sa śrāddha iti vijñeyaḥ śreyaso bhājanaṃ param // RATNA_01.06
+</p><p xml:id="13">
+kāyavāṅmānasaṃ karma sarvaṃ samyak parīkṣya yaḥ /
+</p><p xml:id="14">
+parātmahitam ājñāya sadā kuryāt sa paṇḍitaḥ // RATNA_01.07
+</p><p xml:id="15">
+ahiṃsā cauryaviratiḥ paradāravivarjanam /
+</p><p xml:id="16">
+mithyāpaiśunyapāruṣyābaddhavādeṣu saṃyamaḥ // RATNA_01.08
+</p><p xml:id="17">
+lobhavyāpādanāstik [ yadṛṣṭīnāṃ parivarjanaṃ /
+</p><p xml:id="18">
+ete karmapathā ] śuklā daśa kṛṣṇā viparyayāt // RATNA_01.09
+</p><p xml:id="19">
+amadyapānaṃ svājīvo 'vihiṃsā dānam ādarāt /
+</p><p xml:id="20">
+pūjyapūjā ca maitrī ca dharmaś caiṣa samāsataḥ // RATNA_01.10
+</p><p xml:id="21">
+śarīratāpanād dharmaḥ kevalān [ nāsti tena hi ] /
+</p><p xml:id="22">
+[ 2,a ] na paradrohaviratir na pareṣām anugrahaḥ // RATNA_01.11
+</p><p xml:id="23">
+dānaśīlakṣamāspaṣṭaṃ yaḥ saddharmamahāpatham /
+</p><p xml:id="24">
+anādṛtya vrajet kāyakleśago daṇḍakotpathaiḥ // RATNA_01.12
+</p><p xml:id="25">
+sa saṃsārāṭavīṃ ghorām anantajanapādapām /
+</p><p xml:id="26">
+kleśavyālāvalīḍhāṅgaḥ sudīrghaṃ pratipadyate // RATNA_01.13
+</p><p xml:id="27">
+hiṃsayā jāyate 'lpāyuḥ bahvābādho vihiṃsayā /
+</p><p xml:id="28">
+cauryeṇa bhogavyasanī saśa [ truḥ ] paradārikaḥ // RATNA_01.14
+</p><p xml:id="29">
+pratyākhyānaṃ mṛṣāvādāt paiśunyāt mitrabhedanam /
+</p><p xml:id="30">
+apriyaśravaṇaṃ raukṣyād abāddhād durbhagaṃ vacaḥ // RATNA_01.15
+</p><p xml:id="31">
+manorathān hanty abhidhyā vyāpādo bhayadaḥ smṛtaḥ /
+</p><p xml:id="32">
+mithyādṛṣṭiḥ kudṛṣṭitvaṃ madyapānaṃ matibhramaḥ // RATNA_01.16
+</p><p xml:id="33">
+apradānena dāridryaṃ mithyājivena vañcanā /
+</p><p xml:id="34">
+stambhena duḥkuḷīnatvam alpaujaskatvam īrṣayā // RATNA_01.17
+</p><p xml:id="35">
+krodhād durvarṇatā maurkhyam apraśnena vipaścitām /
+</p><p xml:id="36">
+phalam etan manuṣyatve sarvebhyaḥ prāk ca durgatiḥ // RATNA_01.18
+</p><p xml:id="37">
+esāṃ akuśalākhyānāṃ vipāko yaḥ prakīrtitaḥ /
+</p><p xml:id="38">
+kuśalānāṃ ca sarveṣāṃ viparītaḥ phalodayaḥ // RATNA_01.19
+</p><p xml:id="39">
+lobho dveṣaś ca mohas ca tajjaṃ karmeti cāśubham /
+</p><p xml:id="40">
+alobhāmohādveṣāś ca tajjaṃ karmetarac chubhaṃ // RATNA_01.20
+</p><p xml:id="41">
+aśubhāt sarvaduḥkhāni sarvadurgatayas tathā /
+</p><p xml:id="42">
+śubhāt sugatayaḥ sarvāḥ sarvajanmasukhāni ca // RATNA_01.21
+</p><p xml:id="43">
+nivṛttir [ 2,b ] aśubhāt kṛtsnāt pravṛttis tu śubhe sadā /
+</p><p xml:id="44">
+manasā karmaṇā vācā dharmo 'yaṃ dvividhaḥ smṛtaḥ // RATNA_01.22
+</p><p xml:id="45">
+narakapretatiryagbhyo dharmād asmād vimucyate /
+</p><p xml:id="46">
+nṛṣu deveṣu cāpnoti sukhaśrīrājyavistarān // RATNA_01.23
+</p><p xml:id="47">
+dhyānāpramāṇārūpyais tu brahmādyasukham aśnute /
+</p><p xml:id="48">
+ityabhyudayadharmo 'yaṃ phalaṃ cāsya samāsataḥ // RATNA_01.24
+</p><p xml:id="49">
+naiḥśreyasaḥ punar dharmaḥ sūkṣmo gambhīradarśanaḥ /
+</p><p xml:id="50">
+bālānāṃ [ aśrotravatām ] uktas trāsakāro jinaiḥ // RATNA_01.25
+</p><p xml:id="51">
+nāsmy ahaṃ na bhaviṣyāmi na me 'sti na bhaviṣyati /
+</p><p xml:id="52">
+iti bālasya santrāsaḥ paṇḍitasya bhayakṣayaḥ // RATNA_01.26
+</p><p xml:id="53">
+ahaṃkāraprasūteyaṃ mamakāropasaṃhitā /
+</p><p xml:id="54">
+prajā prajāhitaikāntavādinā 'bhihitā khila // RATNA_01.27
+</p><p xml:id="55">
+asty ahaṃ mama cāstīti mithyaitat paramārthataḥ /
+</p><p xml:id="56">
+yathābhūtaparijñānān na bhavaty ubhayam yataḥ // RATNA_01.28
+</p><p xml:id="57">
+ahaṃkārodbhavāḥ skandhāḥ so 'haṃkāro 'nṛto 'rthataḥ /
+</p><p xml:id="58">
+bījaṃ yasyānṛtaṃ tasya prarohaḥ satyataḥ kutaḥ // RATNA_01.29
+</p><p xml:id="59">
+skandhān asatyān dṛṣṭvaivam ahaṃkāraḥ prahīyate /
+</p><p xml:id="60">
+ahaṃkāraprahāṇāc ca na punaḥ skandhasaṃbhavaḥ // RATNA_01.30
+</p><p xml:id="61">
+yathādarśam upādāya [ svamukhapratibimbakam /
+</p><p xml:id="62">
+dṛśya ] te nāma tac caivam na kiṃcid api tattvataḥ // RATNA_01.31
+</p><p xml:id="63">
+ahaṃkāras tathā skandhān upādāyopalabhyate /
+</p><p xml:id="64">
+na ca kaścit sa tattvena svamukhapratibimbavat // RATNA_01.32
+</p><p xml:id="65">
+yathādarśam anādāya svamukhapratibimbakam /
+</p><p xml:id="66">
+na dṛśyate tathā skandhān [ 3,a ] anādāyāham ity api // RATNA_01.33
+</p><p xml:id="67">
+evaṃvidhārthaśravaṇād dharmacakṣur avāptavān /
+</p><p xml:id="68">
+āryānanandaḥ svayaṃ caiva bhikṣubhyo 'bhīkṣṇam uktavān // RATNA_01.34
+</p><p xml:id="69">
+skandhagrāho yāvad asti tāvad evāham ity api /
+</p><p xml:id="70">
+ahaṃkāre sati punaḥ karma janma tataḥ punaḥ // RATNA_01.35
+</p><p xml:id="71">
+trivartmaitad anādyantamadhyaṃ saṃsāramaṇḍalaṃ /
+</p><p xml:id="72">
+alātamaṇḍalaprakhyaṃ bhramaty anyonyahetukaṃ // RATNA_01.36
+</p><p xml:id="73">
+svaparobhayatas tasya traikālyato 'py aprāptitaḥ /
+</p><p xml:id="74">
+ahaṃkāraḥ kṣayaṃ yāti tataḥ karma ca janma ca // RATNA_01.37
+</p><p xml:id="75">
+evaṃ hetuphalotpādaṃ paśyaṃs tatkṣayaṃ eva ca /
+</p><p xml:id="76">
+nāstitām astitāṃ caiva naiti lokasya tattvataḥ // RATNA_01.38
+</p><p xml:id="77">
+sarvaduḥkhakṣayaṃ dharmaṃ śrutvaivam aparīkṣakaḥ /
+</p><p xml:id="78">
+saṃkampaty aparijñānād abhayasthānakātaraḥ // RATNA_01.39
+</p><p xml:id="79">
+na bhaviṣyati nirvāṇe sarvam etan na te bhayam /
+</p><p xml:id="80">
+ucyamāna ihābhāvas tasya te kiṃ bhayaṃkaraḥ // RATNA_01.40
+</p><p xml:id="81">
+mokṣe nātmā na ca skandhā mokṣaś ced īdṛṣaḥ priyaḥ /
+</p><p xml:id="82">
+ātmaskandhāpanayanaṃ kim ihaiva tavāpriyaṃ // RATNA_01.41
+</p><p xml:id="83">
+na cābhāvo 'pi nirvāṇaṃ kuta eva tasya bhāvatā /
+</p><p xml:id="84">
+bhāvābhāvaparāmarśakṣayo nirvāṇam ucyate // RATNA_01.42
+</p><p xml:id="85">
+samāsān nāstitādṛṣṭiḥ phalaṃ nāstīti karmaṇaḥ /
+</p><p xml:id="86">
+apuṇyāpāyikī caiṣā mithyādṛṣṭir iti smṛtā // RATNA_01.43
+</p><p xml:id="87">
+samāsād astitādṛṣtiḥ phalaṃ cāstīti karmaṇām /
+</p><p xml:id="88">
+puṇyā sugatiniṣyandā samyagdṛṣṭir iti smṛtā // RATNA_01.44
+</p><p xml:id="89">
+jñāne [ 3,b ] nāstyastitāśānteḥ pāpapuṇyavyatikramaḥ /
+</p><p xml:id="90">
+durgateḥ sugateś cāsmāt sa mokṣah sadbhir ucyate // RATNA_01.45
+</p><p xml:id="91">
+sahetum udayaṃ paśyan nāstitām ativartate /
+</p><p xml:id="92">
+astitām api nopaiti nirodhaṃ saha hetunā // RATNA_01.46
+</p><p xml:id="93">
+prāgjātaḥ sahajātaś ca hetur ahetuko 'rthataḥ /
+</p><p xml:id="94">
+prajñapter apratītatvād utpatteś caiva tattvataḥ // RATNA_01.47
+</p><p xml:id="95">
+asmin satīdaṃ bhavati dīrghe hrasvaṃ yathā sati /
+</p><p xml:id="96">
+[ tasyotpādād udetīdaṃ dīpotpādād yathā ] prabhā // RATNA_01.48
+</p><p xml:id="97">
+hrasve 'sati punar dīrghaṃ na bhavati svabhāvataḥ /
+</p><p xml:id="98">
+pradīpasyāpy anutpādāt prabhāyā apy asaṃbhavaḥ // RATNA_01.49
+</p><p xml:id="99">
+evaṃ hetuphalotpādaṃ dṛṣtvā nopaiti nāstikyaṃ /
+</p><p xml:id="100">
+abhyupetyāsya lokasya yāthābhūtyaṃ prapañcajam // RATNA_01.50
+</p><p xml:id="101">
+nirodhaṃ ca prapañcotthaṃ yāthābhūtyād upāgataḥ /
+</p><p xml:id="102">
+nopayāty astitāṃ tasmān mucyate 'dvayaniśritaḥ // RATNA_01.51
+</p><p xml:id="103">
+durād ālokitaṃ rūpam āsannair dṛśyate sphuṭam /
+</p><p xml:id="104">
+marīcir yadi vāri syād āsannaiḥ kiṃ na dṛśyate // RATNA_01.52
+</p><p xml:id="105">
+dūrībhūtair yathābhūto loko 'yaṃ dṛśyate tathā /
+</p><p xml:id="106">
+na dṛśyate tadāsannair animitto marīcivat // RATNA_01.53
+</p><p xml:id="107">
+[ marīcis toyasadṛśī yathā nāmbo na ] cārthataḥ /
+</p><p xml:id="108">
+skandhās tathātmasadṛśā natmāno nāpi te 'rthataḥ // RATNA_01.54
+</p><p xml:id="109">
+mariciṃ toyam ity etad iti matvāgato 'tra san /
+</p><p xml:id="110">
+yadi nāstīti tat toyaṃ [ gṛhṇīyān mūḍha eva saḥ // RATNA_01.55
+</p><p xml:id="111">
+marīcipratimaṃ lo ] kam [ 4,a ] evam astīti gṛhṇataḥ /
+</p><p xml:id="112">
+nāstīti cāpi moho 'yaṃ sati mohe na mucyate // RATNA_01.56<lb/>
+nāstiko durgatiṃ yāti sugatiṃ yāti cāstikaḥ /
+</p><p xml:id="113">
+yathābhūtaparijñānān mokṣam advayaniśritaḥ // RATNA_01.57
+</p><p xml:id="114">
+anicchan nāstitāstitve yathābhūtaparijñayā /
+</p><p xml:id="115">
+nāstitāṃ labhate mohāt kasmān na labhate 'stitāṃ // RATNA_01.58
+</p><p xml:id="116">
+syād astidūṣaṇād asya nāstitākṣipyate 'rthataḥ /
+</p><p xml:id="117">
+nāstitādūṣanād eva kasmān nākṣipyate 'stitā // RATNA_01.59
+</p><p xml:id="118">
+na pratijñā na caritaṃ na cittaṃ bodhiniśrayāt /
+</p><p xml:id="119">
+nāstikatve 'rthato yeṣāṃ kathaṃ te nāstikāḥ smṛṭāḥ // RATNA_01.60
+</p><p xml:id="120">
+sasāṃkhyaulūkyanirgranthapudgalaskandhavādinam /
+</p><p xml:id="121">
+pṛccha lokaṃ yadi vadaty astināstivyatikramam // RATNA_01.61
+</p><p xml:id="122">
+dharmayautakam ity asmān nāstyastitvavyatikramam /
+</p><p xml:id="123">
+viddhi gaṃbhīram ity uktaṃ buddhānāṃ śāsanāmṛtam // RATNA_01.62
+</p><p xml:id="124">
+vibhavaṃ naiti nāyāti na tiṣṭhaty api cakṣaṇam /
+</p><p xml:id="125">
+traikālyavyativṛttātmā loka eva kuto 'rthataḥ // RATNA_01.63
+</p><p xml:id="126">
+dvayor apy āgatigatī prasthitiś ca na tattvataḥ /
+</p><p xml:id="127">
+lokanirvāṇayos tasmād viśeṣaḥ ka ivārthataḥ // RATNA_01.64
+</p><p xml:id="128">
+sthiter abhāvād udayo nirodhaś ca na tattvataḥ /
+</p><p xml:id="129">
+uditaḥ sthitaś ceti niruddhaś ca kuto 'rthataḥ // RATNA_01.65
+</p><p xml:id="130">
+katham aksaṇiko bhāvaḥ pariṇāmaḥ sadā yadi /
+</p><p xml:id="131">
+nāsti cet pariṇāmaḥ syād anyathātvaṃ kuto 'rthataḥ // RATNA_01.66
+</p><p xml:id="132">
+ekadeśe [ 4,b ] kṣayād vā syāt kṣaṇikaṃ sarvaśo 'pi vā /
+</p><p xml:id="133">
+vaiṣamyānupalabdheś ca dvidhāpy etad ayuktimat // RATNA_01.67
+</p><p xml:id="134">
+kṣaṇike sarvathā bhāvet kutaḥ kācit purāṇatā /
+</p><p xml:id="135">
+sthairyād akṣaṇike cāpi kutaḥ kācit purāṇatā // RATNA_01.68
+</p><p xml:id="136">
+yathānto 'sti kṣaṇasyaivam ādir madhyaṃ ca kalpyatām /
+</p><p xml:id="137">
+tryātmakatvāt kṣaṇasyaivaṃ na lokasya kṣaṇaṃ sthitiḥ // RATNA_01.69
+</p><p xml:id="138">
+ādimadhyāvasānāni c [ intyāni kṣaṇavat punaḥ /
+</p><p xml:id="139">
+ādimadhyā ] vasānatvaṃ na svataḥ parato 'pi vā // RATNA_01.70
+</p><p xml:id="140">
+naiko 'nekapradeśatvān nāpradeśaś ca kaścana /
+</p><p xml:id="141">
+vinaikam api nāneko nāstitvam api cāstitām // RATNA_01.71
+</p><p xml:id="142">
+vināśāt pratipakṣād vā syād astitvasya nāstitā /
+</p><p xml:id="143">
+vināśaḥ pratipakṣo vā kathaṃ syād astyasaṃbhavāt // RATNA_01.72
+</p><p xml:id="144">
+nirvṛtes tena lokasya nopaity ūnatvam arthataḥ /
+</p><p xml:id="145">
+antavān iti lokaś ca pṛṣṭas tuṣṇīṃ jino 'bhavat // RATNA_01.73
+</p><p xml:id="146">
+sarvajña iti sarvajño budhais tenaiva gamyate /
+</p><p xml:id="147">
+yenaitad dharmagāmbhīryaṃ novācābhājane loke // RATNA_01.74
+</p><p xml:id="148">
+iti naiḥśreyaso dharmo gambhīro niṣparigrahaḥ /
+</p><p xml:id="149">
+anālaya ity proktaḥ saṃbuddhais tattvadarśibhiḥ // RATNA_01.75
+</p><p xml:id="150">
+asmād anālayād dharmād ālayābhiratā janāḥ /
+</p><p xml:id="151">
+astināstyavyatikrantā bhītā naśyanty amedhasaḥ // RATNA_01.76
+</p><p xml:id="152">
+te naṣṭā nāśayanty anyān abhayasthānabhīravaḥ /
+</p><p xml:id="153">
+tathā kuru yathā rājan naṣṭair na vipranāśyase // RATNA_01.77
+</p><p xml:id="154">
+* * * * * * * * * *
+</p>
+</body>
+</text>
+</TEI>

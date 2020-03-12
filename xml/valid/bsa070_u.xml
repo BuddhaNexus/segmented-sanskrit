@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_upAyahRdaya">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Upāyahṛdaya</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the edition by G. Tucci: Pre-Diṅnāga Buddhist texts on Logic from Chinese Sources. Baroda 1929 (Gaekwad's Oriental Series, 49). reprint:  Nepal: Pilgrims Book House, 1998, 1-40. (Reconstructed Text)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Upayahrdaya (reconstructed text) = Uh<BR>
+Based on the edition by G. Tucci: Pre-Diṅnāga Buddhist texts on Logic from Chinese Sources.<BR>
+Baroda 1929 (Gaekwad's Oriental Series, 49).<BR>
+reprint:  Nepal: Pilgrims Book House, 1998, 1-40. (Reconstructed Text)<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Sastra section, text no. 70<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+BOLD for references to Tucci's edition (added)<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+Upāyahṛdayam /
+</p><p xml:id="1">
+atha prathamaṃ prakaraṇam /
+</p><p xml:id="2">
+etādvādāvabodhena vādadharmāvabodhanam /<lb/>
+vistareṇa ca gambhīro 'yamartho 'trābhidhīyate //
+</p><p xml:id="3">
+vādo na kartavyaḥ / kasmāt? prāyeṇa hi vādakārakāṇāṃ sañjātavipulakrodhamadamattānāṃ svayaṃ vibhrāntacittānāṃ manaso 'natimṛdutā parapāpaprakāśakatvaṃ svapāṇḍityānumodakatvañcetyādayo doṣā budhirnirbhatsitāḥ / tasmādāryajanā asaṃkhyeyopāyairvivādachedakāstatparihāraprītāśca viṣabhājanaparityāgādiva / vādakārakāṇāñcāntaraṃ vastuto mṛdvapi paraṃ bahirbahudoṣaṃ dṛśyate / tasmātsvahitaparahitābhilāṣiṇaite vivādadharmāḥ praheyāḥ /
+</p><p xml:id="4">
+atrocyate / maivaṃ, naiṣa vādaprārambhaḥ paribhavalābhakhyātyartho 'pi tu sulakṣaṇadurlakṣaṇopadeśecchayaiva vādasya prārambhaḥ /
+</p><p xml:id="5">
+yadīha loke vādo na bhavet, mugdhānāṃ bāhulyaṃ syāt / tataśca laukikamithyājñānakuśalatāsahacarabhrāntisamudbhūtakukarmabhiḥ saṃsāradurgatiḥ sadarthahāniśca /
+</p><p xml:id="6">
+vādāvagame tu svayaṃ sulakṣadurlakṣaṇaśūnyalakṣaṇaparijñānatvāt sarve mārāstīrthikā mithyādṛṣṭimanuṣyāśca viheṭhanāsamarthā (# Uh 4#) apratibandhakārāśca / tasmātsattvahitecchayeha loke saddharmasya pracārecchayā ca mayaiṣa samyagvāda ārabhyate /
+</p><p xml:id="7">
+yathāsraphalaparipuṣṭikāmena tat(phala)parirakṣaṇārthaṃ bahirbahutīkṣṇakaṇṭakanikaravinyāsaḥ kriyate /
+</p><p xml:id="8">
+vādārambho 'pi tathaivādhunā saddharmmarakṣaṇecchayā na tu khyātilābhāya / yaduktaṃ (bhavatā) pūrvaṃ [eṣa vādo] vivādapravardhaka iti / tadayuktam / dharmarakṣaṇārthameva hi vāda ārabdhavyaḥ /
+</p><p xml:id="9">
+āha / yaduktaṃ pūrvaṃ bhavatā yadyetaṃ vādaṃ jānīyādvādadharmānavagacchediti vaktavyametasya lakṣaṇam /
+</p><p xml:id="10">
+atrocyate / tasya vādasyāṣṭavidho bhedaḥ / tadarthagatiprajñānasāmarthye paravādāvagamaḥ, yathā dhānyamuptvā siktā codakena tasya puṣṭiḥ samṛddhiśca sādhyate / tṛṇādyanutsāraṇe tūṭkṛṣṭāṅkurā na jāyante / yadi kaścidetamaṣṭāvidhaṃ [vādaṃ] śṛṇuyādarthantu tasya nāvagacchettadā [tasya] sarveṣu vādeṣu saṃśayo bhavet / yadi kaścidetamaṣṭavidhamarthaṃ parijānīyānniyatameva sarvavādadharmāvagame samartho bhavet /
+</p><p xml:id="11">
+āha / etadvādaparijñānādeva vādadharmā niyatamavagamyanta iti (bhavato)ktam / atha tīrthikānāṃ vādadharmāḥ santi na vā / atrocyate santyeva / yathā vaiśeṣikāṇāṃ ṣaṭ padārthāḥ / dravyaṃ guṇaḥ sāmānyaṃ viśeṣaḥ karma samavāyaścetyādikavādadharmeṣu svavagateṣvapi parasūtraśāstrāṇāmapratītiḥ /
+</p><p xml:id="12">
+ato vādanayapratipādanārthaṃ prapañcocchedanārthañcaite 'ṣṭavidhā gambhīrāḥ sadvādadharmāḥ saṃkṣepato mayā kathyante / (#
+Uh 5#) dṛṣṭāntaḥ siddhānto vākyapraśaṃsā vākyadoṣaḥ pramāṇaṃ prāptakālavākyaṃ hetvābhāso vākchalam /
+</p><p xml:id="13">
+dṛṣṭānto dvividhaḥ / saṃpūrṇadṛṣṭānta āśiṃkadṛṣṭāntaśca / siddhānto niścitārtha iti / vākyapraśaṃsā vākyasyārthānugamaḥ / vākyadoṣo vākyasya yuktivyatyayaḥ / pramāṇaṃ dvividhajñāpakaheturutpattiheturvyañjanahetuśca / prāptakāla vākyam / yathā yadi pūrvaṃ dhātvāyatanāni vadet / paścāttu pañcaskandhān tadaitadaprāptakālamityucyate / prāptakālavākyaṃ tu vākyakramāvagame / hetvābhāso yathā marīcābudakābhāsaḥ, na tu vastuta udakam / yadi vādī svalaṅkṛtairvākyairudakamiti vadettadā sa hetvābhāsaḥ / vākchalaṃ yathā / navakambala ityukte taddūṣayan vadet / vastraṃ na kālaḥ kathaṃ nava ityucyate / iti chalam / evaṃ samāmato 'ṣṭavidho 'rthaḥ samākhyātaḥ / idānīṃ krameṇa tallakṣaṇāni vistareṇa vyākhyāsyāmaḥ /
+</p><p xml:id="14">
+āha / ukto bhavatā pūrvaṃ dṛṣṭāntaḥ / kastāvadupāyo dṛṣṭāntasya sthāpane / atrocyate / dṛṣṭāntavacanaṃ hi yatra pṛthagjanānāmāryāṇāñca buddhisāmyaṃ tadā vaktavyam / yathā cittaṃ cañcalaṃ drutavāyuvat / sarveṣāṃ janānāṃ vāyucāñcalyasya pratīteḥ / tadā cittasthiratāyā niścayaḥ / apratītau dṛṣṭāntālābhaḥ / āha / kasmātsadartha eva nocyate 'pi tu dṛṣṭāntaḥ / atrocyate / dṛṣṭāntavacanaṃ hi sadarthadyotanārtham /
+</p><p xml:id="15">
+āha / bhavatā pūrvamuktam pṛthagjanānāmāryāṇāñca buddhisāmyadṛṣṭāntalābha iti / kiṃ sāmyaṃ ko vā viśeṣaḥ / atrocyate / pūrvavat / vāyudṛṣṭāntasya sāmyamityucyate / (#
+Uh 6#) āryāṇāṃ nirvāṇaprāptiḥ pṛthagjanānāṃ tvaprāptirayaṃ viśeṣa ityucyate /
+</p><p xml:id="16">
+āha / uktaṃ dṛṣṭāntalakṣaṇam / kiṃ punaḥ siddhāntalakṣaṇam / atrocyate / sādhyasya hetubhirvistareṇa sthāpanaṃ nirṇayaśca / etatsiddhāntalakṣaṇam /
+</p><p xml:id="17">
+āha / siddhāntadharmāḥ kiyantaḥ / atrocyate / catvāraḥ / sarvasamaḥ sarvabhinna ādau samaḥ paścādbhinna ādau bhinnaḥ paścātsamaśca / āha / adhunā bhavataitāni catvāri lakṣaṇāni vyākhyātavyāni /
+</p><p xml:id="18">
+atrocyate / arthasthāpanamicchatā caturvidhaṃ jñānamāśrayitavyam / kiṃ taccaturvidham / pratyakṣamanumānamupamānamāgamaśca /
+</p><p xml:id="19">
+sarvasamo yathā, (vādī vadeda)ātmātmīyañca na vidyete, prativadyapi vadedātmātmīyañca na vidyeta ityayaṃ sarvasamaḥ / sarvabhinno yathā, (vādī vadet) pṛthagiti prativādī tu vadedekamityayam sarvabhinnaḥ / ādau samaḥ paścādbhinno yathā, (vādī vadet) sarvaṃ dṛṣṭadharmaṃ sat / ātmā punarapratyakṣo 'pi sag / prativādī vadedyatpratyakṣadharmakaṃ tadeva saditi vaktavyam / ātmā cedapratyakṣaḥ kathaṃ san / anumānena cedātmā sanniti tarhi pratyakṣapūrvakamanumānamiti / apratyakṣadharmaka ātmā kathamanumīyate / yadi punarupamānenātmā sanniti, atha sādharmyapūrvakamupamānamityātmā kenopamīyate / yadi tvāgamenātmā siddha ityucyate tadayuktam / durbodhaṃ hi sūtram / kutracitsanniti kutracidasanniti kathaṃ tatpratītirityayamādau samaḥ paścādbhinnaḥ / ādau bhinnaḥ (#
+Uh 7#) paścātsamo yathā, (vādī vadeda)ātmātmīyañca na vidyete / prativādī tu vadedastyātmā, asti puruṣaḥ / nirvāṇābhyupagamastrūbhayorvādinoḥ / ayamucyata bhinnaḥ paścātsamaḥ /
+</p><p xml:id="20">
+api cāparimitāni lakṣaṇāni siddhāntasya, tadyathā dvādaśa nidānāni, duḥkhaṃ, samudayaḥ, nirodhaḥ, mārgaḥ saptatriṃśatpakṣāḥ, catvāri śrāmaṇyaphalānītyādayo dharmā buddhasya samyagarthā ityucyante /
+</p><p xml:id="21">
+sandhyāpūjā, balidānaṃ, dhūpadīpanaṃ, tailadīpanivedanamiti caturvidhā yājñikatīrthikānāṃ kriyā /
+</p><p xml:id="22">
+triṣaṣṭyakṣarāṇāṃ caturṇāṃ ca padānāmartha iti śābdikāstīrthikāḥ /
+</p><p xml:id="23">
+oṣadhividyā ṣaḍvidhā / oṣadhināma, oṣadhiguṇaḥ, oṣadhirasaḥ, oṣadhivīryaṃ, sannipātaḥ, vipākaśceti bhaiṣājyadharmāḥ /
+</p><p xml:id="24">
+ṣaṭpadārthā vaiśeṣikāṇām //
+</p><p xml:id="25">
+pradhanasyaikyaṃ puruṣā bahavaḥ / [teṣāṃ ca] vimuktiriti sāṃkhyāḥ /
+</p><p xml:id="26">
+aṣṭau sūkṣmāṇi yathā / catvāri mahābhūtāni buddhirākāśo, vidyā, avidyā, aṣṭaiśvaryāṇi [tadyathā] aṇimā, mahimā, laghimā, prāptiḥ, prākāmyaṃ, kāyavibhāgaḥ, īśitvaṃ tirobhāvaśca / iti yogatīrthikāḥ /
+</p><p xml:id="27">
+jīvo 'jīvaḥ pāpaṃ puṇyamāśravaḥ, nirjarā, sambaraḥ, bandhaḥ, mokṣaḥ / pañcajñānāni [tadyathā] śrutajñānaṃ, matijñānaṃ, avadhijñānaṃ, manaḥparyāyajñānaṃ, kevalajñānam / ṣaḍāvaraṇāni, (#
+Uh 8#) darśanāvaraṇaṃ, duḥkhavedanīyāvaraṇaṃ, mohāvaraṇamāyurāvaraṇaṃ, gotrāvaraṇaṃ, nāmāvaraṇañca / catvāraḥ kaṣāyāḥ [tadyathā] krodhaḥ, mānaḥ, lābhaḥ, māyā ceti nirgranthadharmāḥ /
+</p><p xml:id="28">
+apare 'pi santi ye vadanti sarvamekaṃ sadbhāvājjñeyam / sarvadharmāṇāṃ ca guṇavattvādaikyam, kiñca pradhānāt samutpannaṃ sarvamekaṃ jñeyamekamūlatvā ityevamekavādinastīrthikāḥ /
+</p><p xml:id="29">
+apare vadanti / sarvaṃ pṛthak / kuta iti cet / yathā śiraḥpadādi kāyātpṛthak / api ca lakṣaṇapṛthaktaṃ yathā vṛṣabho 'śvavilakṣaṇaḥ / tasmātsarvaṃ pṛthagiti jñeyam / iti pṛthagvādinastīrthikāḥ /
+</p><p xml:id="30">
+atha kathaṃ sarvamekaṃ sadbhāvāditi / yataḥ saddhi dvedhā cetanamacetanañca / tatkathamekaṃ hetuvaiṣamyāṃditi / evaṃ dharmāṇāṃ samāsato dūṣaṇam /
+</p><p xml:id="31">
+yadi punaḥ kaścidvadedduḥkhasamudayanirodhamārgadvādaśanidānasaṃskṛtādidharmāṇāmekatvaṃ pṛthaktaṃ veti sarvametadasaddhetukam / kasmāt / yadyekatvaṃ tadā duḥkhāntavādāpattiḥ / yadi pṛthaktaṃ tadā sukhāntavādāpattiḥ / tasmāduktaṃ [ekatve pṛthakte vā]ntadvayavādāpattiḥ / naiṣa buddhadharmasyārtha iti /
+</p><p xml:id="32">
+api ca yathā kecidvadanti nirvāṇabhāvaḥ na duḥkhaṃ na ca sukham / kathaṃ jñātamiti cet / sarve hi dharmāścetanāḥ saduḥkhasukhā nirvāṇaṃ tvacetanaṃ kathaṃ sukhaṃ syāt /
+</p><p xml:id="33">
+api ca kecidvādinaḥ sukhaṃ vadanti / kuta iti cet / sukhaṃ trividham / sukhavedanāsukhaṃ, anupaghātaḥ, anākāṅkṣā ca / nirvāṇa ākāṅkṣābhāvānnirvāṇaṃ sukham /
+</p><p xml:id="34">
+Uh 9#)<lb/>
+api ca nirvāṇaṃ nityamiti mayā pūrvaṃ jñātam / idānīntu [vaktavyaṃ] saṃskārebhyastat pṛthak na veti kecit / atrocyate / nirvāṇaṃ nityamiti pūrvaṃ jñātaṃ kimucyate saṃksāraistattulyam / saṃskārāṇāṃ svabhāvaḥ pariṇāmaḥ pradhvaṃsaśca / nirvāṇabhāvasya tu nityatā sukhatvañca / kathaṃ vidvāṃstatsaṃskāraistulyaṃ vadet /
+</p><p xml:id="35">
+anyacca kecidāhuḥ / ātmabhāvasya rūpavattve nityo 'nityo vāyamiti na niścīyate /
+</p><p xml:id="36">
+atrocyate / sarvaṃ mūrtamanityameva yathā murto ghaṭo vināśī / ātmāpi tadvaditi cettadānitya eva / ātmano mūrtatvantu sūtrairna samarthitaṃ, yuktihīnañcaitat / yathā ratnabudhyā sikatopalādānaṃ tathā bhavato vacanamatīva mithyā / atha kasmādātmāmurta iti cenmayā pūrvamuktaṃ ghaṭo mūrtatvādvināśīti / yadyātmaivaṃ syāt, tadā so 'pi vināśī bhavet / kathamidānīṃ bhavatā pṛcchyate `kasmādātmāmūrta' iti /
+</p><p xml:id="37">
+aparañca / aniyatasiddhāntalakṣaṇam, yathā kaścit pṛcchet / kiṃ śabdo vastu[bhūto] nityo 'nityo vā / atrocyate / yadvibhāganiṣpannaṃ tadanityameva / śabdo 'pi vibhāganiṣpannaḥ kathaṃ nityo bhavet /
+</p><p xml:id="38">
+atha kiṃ nāma śabdo vastu[bhūtaḥ] / atrocyate / aniścaye kathaṃ praśnaḥ /
+</p><p xml:id="39">
+atha kiṃ kevala evātmānāgate 'dhvani sukhaduḥkhe vedayate saśarīro vā /
+</p><p xml:id="40">
+atrocyate / etasmiccharīre vinaṣṭa ātmano 'parasmiñcharīre vedanam /
+</p><p xml:id="41">
+Uh 10#)<lb/>
+nanu ka eṣa ātmā yo 'nāgate 'dhvani sukhaduḥkhe vedayate / atrocyate / 'ātmā, iti pūrvamuktaṃ bhavatā / kathaṃ punaḥ sannasan vātmā' iti pṛcchyate / ayuktametat /
+</p><p xml:id="42">
+atha siddhāntārtha uktaḥ / kiṃ punarvākyapraśaṃsālakṣaṇam / atrocyate / yuktyaviruddhamanadhikamanyūnamadhigatapadārthaṃ vacanadharmanibaddhaṃ prasiddhadṛṣṭāntāviruddhamananuyojyañca / ebhirhetubhirvākyapraśaṃsetyucyate /
+</p><p xml:id="43">
+nanu kiṃ nāma yuktyaviruddham / atrocyate / vijñānamevātmeti kecinmanyante sarvaskārāṇāṃ śūnyatvādanātmatvācca / na hi sarve saṃskārā vijñānamiti tadayuktam / saṃskārā hi vijñānasya hetavaḥ / hetūnāṃ cānātmatvāt, kathaṃ vijñānamātmā /
+</p><p xml:id="44">
+atha sarve dharmāṃ anityāḥ śabdastu naiva sarvaṃ, tasmācchabdo nitya iti / atrocyate / bhavatā sarvamityuktam, ko 'rthaḥ punaḥ śabdasya, yo naiva sarvam / etadahetukamayuktañca /
+</p><p xml:id="45">
+anyacca / sarve kṛtakadharmā anityā eva / agnisantānavat / śabdo 'pi tathā / tasmādanityaḥ / etadaviruddhalakṣaṇam /
+</p><p xml:id="46">
+atha kimanadhikamanyūnañca / atrocyate / ahikanyūnatvayorlakṣaṇaṃ pūrvamuktam / nyūnatvaṃ trividham hetunyūnatvaṃ vākyanyūnatvaṃ dṛṣṭāntanyūnatvañca / yadi kaścidvadet / ṣaḍvijñānanyanityāni ghaṭavat / kāraṇantu na vadettadā taddhetunyūnatvamityucyate / yadi kaścidvadeheho 'yamanātmā sakāraṇatvāt / śabdo 'pyanātmā sakāraṇatvādetadṛṣṭāntanyūnatvam /
+</p><p xml:id="47">
+Uh 11#)<lb/>
+yadi kaścidvadedanityāni catvāri mahābhūtāni ghaṭavatkṛtakāni / etadvākyanyūnatvam / etadvīparītaṃ tu sampannamityucyate /
+</p><p xml:id="48">
+sampannañca yathā / ātmavādyevaṃ praṣṭavyaḥ / yaduktaṃ bhavatātmeti sa nityo 'nityo vā / yadyanityastadā saṃskāravadvināśadharmā / nitya iti cettarhi kathaṃ nirvāṇaspṛhā / etat sampannalakṣaṇam /
+</p><p xml:id="49">
+atha kiṃ nāmādhikam / atrocyate / adhikaṃ trividham, hetvadhikaṃ, dṛṣṭāntādhikaṃ, vākyādhikañca / yadi kaścidvadecchabdo 'nityaḥ samyogajaḥ / yathā ghaṭaḥ kṛtako 'nityaśca / punarapi vadecchabda ākāśasya guṇaḥ / ākāśo 'mūrtaḥ śabdastu rūpadharmā kathamanyonyasamāśrayaḥ / etaddhetvadhikam yadyucyate pañcendriyāṇyanityāni pratidhvanivatkṛtakatvāt / śabdo 'pi tathā / kathaṃ tajjñāyate / oṣṭhamukhādisamudbhavatvāt / tadṛṣṭāntādhikam / yadyucyate 'ṇuḥ sūkṣma ākāśastu vyāpī / ubhāvapi nityau / śabdastu na tathā tasmādanitya etadṛṣṭāntādhikam / api ca śabdo 'nityaḥ sakāraṇatvāt / nitya iti cet, tadayuktam / kasmāt? dvābhyāṃ hetubhyām / murtodbhavatvādaindriyakatvācca / kathaṃ nitya iti yacca samānadharmakaṃ tatsarvamanityam / etadvākyādhikamucyate /
+</p><p xml:id="50">
+atrāha / kīdṛśaṃ vākyaṃ laukikānāṃ pratipādanāya smartham / ucyate / yadi mūrkhāya gambhīrārtha vadedyathā sarve dharmā śūnyāḥ śāntā nirātmāno niṣpugdalā māyāvat nirmāṇavattattvarahitā ityādi tadā taṃ gambhīrārthaṃ vidvāneva jñātuṃ śankoti pṛthagjanastu śrutvā bhrāntyāpanno bhavet / (#
+Uh 12#) etadaprāptakālam / athocyate / asti dharmāṇāṃ karma, asti viṣākro 'sti ca bandhamokṣaḍiḥ / yaḥ karoti so 'nubhuṅkta ityalpabuddhayo 'pi śrutvāvagacchanti yathā vedhakāraṇisaṃyogenāgnerūtpattiḥ / yadabhidhīyate tadyadi sattvopayogi bhavet, tadā sarveṣāṃ [tatra] pratītiranumodanañca / etat prāptakālam /
+</p><p xml:id="51">
+atha kiṃ pratipattiḥ / ucyate / abhihitasya bāhulye 'pi smaraṇasāmarthyam, arthānāṃ gāmbhīrye 'pi tallakṣaṇopalabdhiḥ, janaprītikaraśca sādhyasāraḥ / yathā kaścidvadet sarve dharmāḥ śūnyā anīśvarāḥ sarvavastūnāṃ pratītyasamutpannatvāditi pratipattiḥ /
+</p><p xml:id="52">
+atha ke vākyadoṣāḥ / atrocyate / pūrvoktaviparītā vākyadoṣāḥ / vākyadoṣāḥ punardvividhāḥ / kiñca taddvaividhyam / arthasyābhede punaruktiḥ / vākyasya cābhede punaruktiriti / kā nāmaikārthapunaruktiḥ / yathā kauśika ityuktvā punarvadeddevendraḥ śakraḥ purandaro veti / iyamucyata etasyaivārthasya nāmāntarapunaruktiḥ /
+</p><p xml:id="53">
+nāmārthatulyatā yathā / indra ityuktvā punarapīndra iti vadet / iyaṃ nāmārthābhede punaruktiḥ /
+</p><p xml:id="54">
+yadalaṅkṛtamasaṅgaṃ voktaṃ sa sarvo vākyadoṣa ityucyate / aparañca yadyuktisamupetamapyakramam eṣo 'pi vākyadoṣa iti /
+</p><p xml:id="55">
+yathā gāthayoktam /
+</p><p xml:id="56">
+yathā kaściddevānāmindrasya śakrasya bhāryāṃ praśaṃmayan suvarṇarūpiṇīm //
+</p><p xml:id="57">
+Uh 13#)<lb/>
+komalapādahastāṃ paścācca śakro devānāmindro 'suratripuravināśīti tu vadannityakramaṃ vacanamuktam /
+</p><p xml:id="58">
+atha katividhaṃ pramāṇam / caturvidhaṃ pramāṇam / pratyakṣamanumānamupamānamāgamaśceti / caturṣu pramāṇeṣu pratyakṣa śreṣṭham / kutaḥ punaḥ pratyakṣaṃ śreṣṭhamiti cedapareṣāṃ trayāṇāṃ pramāṇānāṃ pratyakṣopajīvakatvācchreṣṭham / yathā dṛṣṭe dhūmavatyagnau paścāddhumadarśanādagneranumānam / tasmātpratyakṣaṃ viśiṣyate / yatha ca marīcidarśanenodakopamānam / tasmātpratyakṣe pūrvaṃ jñāte paścādupamānalābhaḥ / .....paścātpratyakṣakāle pūrvajñānaṃ satyam /
+</p><p xml:id="59">
+tataśca pratyakṣādeva [pramāṇa]trayaṃ jñānamiti jñātam / idānīntu tatpratyakṣaṃ kathaṃ saditi / atrocyate / pañcendriyajñānaṃ kadācinmithyā / yattu sādhyavasāyaṃ samyagdharmāvabodhakaṃ tatparamam / grīṣme marīcīnāmalātacakragandharvanagarāṇāṃ ca pratyakṣe 'pi tadasat /
+</p><p xml:id="60">
+aparañca / lakṣaṇāspaṣṭatvāddarśanabhramaḥ / yathā rātrau sthāṇuṃ dṛṣṭvā manuṣya eṣa ityucyate / aṅgulyā cakṣuḥpīḍanācca dvicandradarśanam / śūnyatājñāne prāpte samyagdṛṣṭirucyate / jñāta pratyakṣaṃ tāvat / atha kimanumānalakṣaṇam / ucyate tatpūrvamuddiṣṭam / adhunā vyākhyāyate / anumānaṃ trividhaṃ pūrvavat, śeṣavat, sāmānyato [dṛṣṭaṃ] ca / yathā ṣaḍaṅguliṃ sapiḍakamūrdhānaṃ bālaṃ dṛṣṭvā paṣcāddhṛddhaṃ bahuśrutaṃ devadattaṃ dṛṣṭvā ṣaḍaṅgulismaraṇāt so 'yamiti pūrvavat /
+</p><p xml:id="61">
+śeṣavat yathā, sāgarasalilaṃ pītvā tallavaṇarasamanubhūya (#
+Uh 14#) śeṣamapi salilaṃ tulyameva lavaṇamiti / etaccheṣavadanumānam /
+</p><p xml:id="62">
+sāmānyato dṛṣṭaṃ yathā / kaścigdacchaṃstaṃ deśaṃ prāpnoti / gagane 'pi sūryācandramasau pūrvasyāṃ diśyuditau paścimāyāñcāstaṃ gatau / tacceṣṭāyāmadṛṣṭāyāmapi tadgamanamanumīyate / etatsāmānyato dṛṣṭam / nanu kā śrutiḥ / atrocyate, satyaprācīnavṛddhabuddhabodhisattvadarśanādāryasūtradharmaśravaṇagrahaṇayorjñānadarśanotpādasāmarthyameṣā śrutirityucyate / yathā suvaidyako bheṣajakuśalo maitracittena śikṣakaḥ suśruta ityucyate /
+</p><p xml:id="63">
+evamapi yat kṛtasarvadharmasākṣātkārairmahājñānairāryaiḥ śrutaṃ tat suśrutamucyate /
+</p><p xml:id="64">
+atha kimupamānalakṣaṇam / atrocyate / yathā sarve dharmā śūnyāḥ śāntā māyāvat nirmāṇavat / saṃjñādāntāśvavat, saṃskārāḥ kadalīvat, kāmalakṣaṇaṃ piḍakavat viṣavat / etadupamānamucyate / evaṃ catvāro hetavaḥ / tadavagamanaṃ hetujñānamityuktam /
+</p><p xml:id="65">
+atha ke hetvābhāsāḥ / atrācyate / hetvābhāsā eteṣu vādadharmesu mahādoṣā eva jñeyāḥ / śīghrañcāpahartavyāḥ / athedānīṃ hetvābhāsā vyākhyāsyante / hetvābhāsānāṃ lakṣaṇānyaparimitāni saṃkṣepatastvaṣṭāveva / vākchalaṃ, sāmānyachalaṃ, saṃśayasamaḥ, kālātītaḥ, prakaraṇasamaḥ, varṇyasamaḥ, savyabhicāraḥ, viruddhaḥ /
+</p><p xml:id="66">
+nanvete 'ṣṭau dharmā vistareṇa vivektavyāḥ / ucyate / nava iti caturvidham / navaḥ, nava, na vaḥ, nava iti /
+</p><p xml:id="67">
+Uh 15#)<lb/>
+yathā kaścidāha / yo maya parihitaḥ sa navakambalaḥ / atra dūṣaṇaṃ (vadet) yadbhavatā parihitaṃ tadekameva vastraṃ kathaṃ naveti / atra prativedenmayā nava ityuktaṃ tathāca navaḥ kambalaḥ natu naveti / atra dūṣayetkathaṃ nava? navalomairnirmitatvānnava ityukte prativādī vadet tattvato 'parimitāni lomāni kathaṃ navalomānītyucyate /
+</p><p xml:id="68">
+atrāha / nava iti mayā pūrvamuktaṃ na tu navasaṃkhyā / atra dūṣaṇam / tadvastraṃ yuṣmākameveti jñātaṃ kasmādetanna vaḥ kathyate / atrottaram / mayā nava ityuktaṃ kintu na va iti noktam / atra dūṣaṇam / bhavataḥ kāyaṃ kambalo vasta iti pratyakṣametat / kathamucyate na vaḥkambalaḥ / ayaṃ hetvābhāsa ityucyate vākchalaṃ ca /
+</p><p xml:id="69">
+aparañca vākchalam / yathā girirdahyata ityukte, dūṣaṇam / tattvatastṛṇataravo dahyante kathaṃ girirdahyata ityuktam / etadvākchalamityucyate /
+</p><p xml:id="70">
+api ca chalaṃ dvividhaṃ / pūrvavat sāmānyañceti / yathā / saṃskṛtā dharmāḥ śrūnyāḥ śāntā ākāśavadityukte, dūṣaṇam / yadyevaṃ, ubhayorapi śūnyatvamabhāvaśca, tadā niḥsvabhāvā dharmā ākāśatulyā iti sāmānyachalam /
+</p><p xml:id="71">
+kā tāvadutpattiriti / atrocyate / sata utpattiriti / yathā mṛdo ghaṭatvattvāddhaṭotpādakatvam / yadi mṛdo ghaṭatvavattvaṃ tadā mṛdeva ghaṭaḥ syāt / tadā tadutpattaye kṛtaṃ kumbhakārarajjucakrasaṃyogena / yadi mṛdaḥ sadbhāvena ghaṭotpādakatvaṃ, tadodakasyāpi sadbhāvena ghaṭotpādakatvaṃ (#
+Uh 16#) syāt / yadyudakasya sadbhāvena ghaṭānutpādakatvaṃ kathaṃ tarhi mṛdo ghaṭotpādakatvam / iti sāmānyachalam /
+</p><p xml:id="72">
+kiṃ nāma saṃśayahetvābhāsalakṣaṇam / ucyate / sthāṇormanuṣyasādṛśyāt, rātrau taṃ dṛṣṭvā, eṣa sthāṇuḥ puruṣo veti vimarśaḥ / ayaṃ saṃśayahetvābhāsa iti /
+</p><p xml:id="73">
+kaḥ punaḥ kālātītahetvābhāsaḥ / ucyate / yathā kaścidvadennityaḥ śabdaḥ / śabdamayatvādvedo 'pi nitya iti / atra dūṣaṇam / idānīṃ bhavatā śabdasya nityatākāraṇamapratiṣṭhāpya kathaṃ vedo nitya ityucyate /
+</p><p xml:id="74">
+atra vadedyathākāśamarūpatvānnityaṃ tathā śabdo 'pyarūpatvānnityaḥ / tadvacane paścādapyukte so 'rthaḥ sidhyati / atra dūṣaṇaṃ kālatītametadvacanam / yathā gṛhe dagdha udākānveṣaṇaṃ bhavatopyevamiti kālātītaḥ /
+</p><p xml:id="75">
+atha ko nāma prakaraṇasamaḥ? (ātmanaḥ) śarīra bhinnatvādātmā nityaḥ / yathā (ghaṭasya) ākaśabhinnatvādvaṭo 'nityaḥ / ayaṃ prakaraṇasama ityucyate /
+</p><p xml:id="76">
+atra dūṣaṇam / yadyātmā śarīrabhinnatrvānnitya iti, tadā (ghaṭasya) ākāśabhinnatvādvaṭo 'nityaḥ / ayam prakaraṇasama ityucyate / atra dūṣaṇam / yadyātmā śarīrabhinnatvānnitya iti, tadā (ghaṭasya) śarīrabhinnatvādvaṭo 'pi nityaḥ syāt śarīrabhinnatve 'pi ghaṭo 'nitya iti cet, tarhyātmāpi śarīrabhinnatvāt kathaṃ nityaḥ / iti prakaraṇasamaḥ /
+</p><p xml:id="77">
+ko nāma varṇyasamaḥ / ucyate / yathā nityamākāśamasparśatvāt / manovijñānamapi tathā / ayaṃ varṇyasama ityucyate /
+</p><p xml:id="78">
+kaḥ savyabhicāraḥ / ucyate / yathā pañcaviṣayā anityā (#
+Uh 17#) indriyagrāhyatvāt / catvāri mahābhūtānyapi tathā tasmādanityāni /
+</p><p xml:id="79">
+atra dūṣaṇam / kūrmaroma lavaṇagandhaśca nirābhāsamātraṃ manovijñānopalabhyatvātkimanityamiti savyabhicāraḥ /
+</p><p xml:id="80">
+atha ko nāma viruddhaḥ / ucyate / viruddho dvividhaḥ / dṛṣṭāntaviruddho yuktiviruddhaśca / yathātmā nityo 'mūrtatvāt, vṛṣabhavat / ayaṃ dṛṣṭāntaviruddhaḥ /
+</p><p xml:id="81">
+yuktiviruddho yathā, brāhmaṇasya kṣatrakarmānupālanaṃ mṛgayādiśikṣā ca, kṣatriyasya dhyānasamāpattiriti yuktiviruddhaḥ / evambhūtau dharmāvajñā abuddhaiva satyaṃ manyante /
+</p><p xml:id="82">
+nanu kimaviruddham / atrocyate / etadbhinnamaviruddhamityabhidhīyate /
+</p><p xml:id="83">
+iti hetvābhāsāḥ /<lb/>
+// iti prathamaṃ prakaraṇam //
+</p><p xml:id="84">
+Uh 18#)<lb/>
+atha dvitīyaṃ prakaraṇam /
+</p><p xml:id="85">
+pūrvamaṣṭavidhā vādadharmā uktāḥ / atha nigraha[sthāna]dharmān vakṣyāmaḥ /
+</p><p xml:id="86">
+nanu katame vādadharmāḥ / (atrocyate) yathā catvāri mahābhūtāni prajñaptireva / kasmāt / rūpādidharmatvādeva / aparaḥ punarāha / catvāri mahābhūtāni tattvataḥ santi / kathametajjñātam / kāṭhinyaṃ pṛthivīdharmo yāvaccalatvaṃ vāyudharmaḥ / tatsaditi jñeyam / etacca prativiruddham / tasmādvivādaḥ / yathā vā / pṛthivī śarīrakāraṇameva / aparāṇi mahābhūtānyapi tathā / atra dūṣaṇam / pṛthivyādi sarvavastusādhanasamarthaṃ sat, kathaṃ śarīramātraṃ sādhayediti nātra vivādaḥ / yadyevaṃ na syāttadā vāda ityucyate /
+</p><p xml:id="87">
+nanu kāni nigrahasthānāni / (atrocyate) yathā śabdo nityo 'mūrtatvādākāśavat /
+</p><p xml:id="88">
+atra dūṣaṇam / yadyapi śabdo 'mūrtaḥ / tathāpyaindriyakaḥ, saṃpratighaḥ, ghaṭavatkṛtakaḥ / api tvākāśe 'kṛtake kathaṃ tadṛṣṭāntalābhaḥ / etannigrahasthānamityucyate /
+</p><p xml:id="89">
+atha ghaṭo mūrta ityanityaḥ śabdasya tvamūrtatvāt kathaṃ tadṛṣṭāntalābhaḥ /
+</p><p xml:id="90">
+atra dūṣaṇam / śabdo ghaṭabhinno 'pyaindriyakaḥ śrāvaṇatvāt / tasmādanityaḥ /
+</p><p xml:id="91">
+nanu kasyārthasyānigrahasthānatvāpattiḥ / saṃskārā vijñānañca (#
+Uh 19#) kṛtakatvādanityam / nirvāṇamakṛtakatvānnityam / etadvākyaṃ samyakpadarasam / etaducyate 'nigrahasthānam /
+</p><p xml:id="92">
+nanu kiṃ vacanaṃ dūṣayitavyam / cuayte / vākyavaiparītyaṃ, asaddhetusthāpanaṃ, udāharaṇavaiṣamyañcaitaddūṣayitavyam /
+</p><p xml:id="93">
+yatha saṃjñā saṃyojanocchedikā, ityukte kaścit pṛcchet / kathaṃ saṃjñā samyojanocchedikā / jñānasya saṃjñāta utpādaṃ pūrvamanutkā saṃjñāmātrakathanādvākyavaiparītyamitīdaṃ dūṣaṇīyam /
+</p><p xml:id="94">
+nanu kathaṃ punaretadvākyamucyate / asidvasthāpanānnigrahasthānāpattijñāpanārthamuktam /
+</p><p xml:id="95">
+aparañca / anuyojyānanuyogaḥ / prativaktavye 'prativaktavyata / trirabhihitasya parairavijñātam / trirabhihitasya svayamavijñānam / etāni nigrahasthānāni /
+</p><p xml:id="96">
+anyacca / pareṇa vivadamānastadvikalatāṃ nāvagacchati / anyastu vadati / eṣo 'rthaḥ mithyaiva, kiṃ bhavānnopalabhate tadā nigrahasthānam /
+</p><p xml:id="97">
+anyacca / parasya samyagarthe doṣasamārope 'pi nigrahasthānam /
+</p><p xml:id="98">
+anyacca / vādinoktaṃ sarvairvijñātamapyasāveva (prativādī) nāvagacchati cettadapi nigrahasthānam / praśno 'pi tadvat / etāni nigrahasthānāni vādasya mahākaṇṭakāni gambhīraduḥkhāni jñeyāni, drutañca heyāni /
+</p><p xml:id="99">
+nanu praśnāḥ katividhāḥ / ucyate / trividhāḥ / yathā vacanasamaḥ, arthasamaḥ, hetusamaśca / yadi vādinastaistribhiḥ (#
+Uh 20#) praśnottarāṇi na kurvanti tadvibhrāntam / yadyeteṣāṃ trayāṇāmuttarāṇāmanyatamaṃ nyūnaṃ syāttadasampannam /
+</p><p xml:id="100">
+yadi vadedahamevamprakārān trīn praśnānnāvagacchāmi mama yathājñānamanyonyaṃ praṣṭavyaṃ, tadādoṣaḥ /
+</p><p xml:id="101">
+vākyasamaḥ yathā / ātmā nāstītyukte tadvākyāśrayeṇa praśnaḥ / ayaṃ vākyasama ityucyate /
+</p><p xml:id="102">
+arthasamaḥ tanmatopādānamevāyamarthasama ityucyate /
+</p><p xml:id="103">
+hetusamaḥ / paramanogaterutpādakasya hetorjñāmayaṃ hetusama ityucyate /
+</p><p xml:id="104">
+evaṃ sāmarthye satye nigrahasthānamityucyate /
+</p><p xml:id="105">
+yadyatidrutaṃ vadecchrotāraśca nāvagaccheyustadapi nigrahasthānam /
+</p><p xml:id="106">
+athaitāvamātramaparāṇi vā santi / atrocyate / santyeva yathā nyūnaṃ, adhikam nirarthakaṃ, aprāptakālaṃ, punaruktaṃ pratijñāsannyāsa ityādīni nigrahasthānānītyucyante /
+</p><p xml:id="107">
+yadyevamādi pūrvapakṣī vadet, tadā nigrahasthānāpattiḥ /
+</p><p xml:id="108">
+atha pratijñāvirodhaḥ / yathā vijñānaṃ nityam / kasmāt / vijñānasya hi dvaividhyam / vijñānotpāttirvijñākriyā ca /
+</p><p xml:id="109">
+ghaṭasyāpi dvaividhyam, ghaṭotpattirghaṭakriyā ca / evaṃ vijñānamutpādyamānameva sakriyaṃ tasmānnityam / ghaṭasya tūtpattyanantaraṃ sakriyatvam, tasmādanityatvam /
+</p><p xml:id="110">
+atra dūṣaṇam / utpattāveva sakriyatvānnityamiti ceddīpasyāpyutpattāveva sakriyatvānnityatvaprasaṅgaḥ / atha dīpaścakṣuṣā dṛṣṭaḥ syāt, śabdaśca śravaṇena śrūyata iti kathaṃ dṛṣṭāntopapattiḥ / etatpratijñāsannyāsanigrahasthānam /
+</p><p xml:id="111">
+Uh 21#)<lb/>
+aparañca / kecidvadantyātmā nitya iti / kathaṃ jñātam / anaindriyakatvāt / yathā ākāśo 'naindriyakatvānnityaḥ /
+</p><p xml:id="112">
+atra dūṣaṇam / paramāṇavo 'nindriyakā api tvanityāḥ /
+</p><p xml:id="113">
+atrocyate / ātmākṛtakatvānnityaḥ paramāṇavastu kṛtakatvādanityāḥ /
+</p><p xml:id="114">
+atra dūṣaṇam / anupalabdheriti bhavatā pūrvamuktam / adhunā cākṛtakatvādibyucyate / ayaṃ pratijñāvirodhaḥ /<lb/>
+nanūcyate 'haṃ virodhīti cedbhavāṃstu mama vacanaṃ pratikūlayan katham virodhau na syāt /
+</p><p xml:id="115">
+kiñca kathametadyuktisaham / yadvi viruddhamityucyate mayā, sā bhavata eva vacanasya pūrvoktenārthan pratikūlatā / tasmādviruddhamityuktam /
+</p><p xml:id="116">
+anyacca / bhavatā pūrvamuktamaspaṣṭatvānme saṃśaya utpanna iti / nāhaṃ bhavadvirodhītyevaṃ saṃśayena virodhaḥ / etadapi nigrahasthānamiti /
+</p><p xml:id="117">
+// iti dvitīyaṃ prakaraṇam //
+</p><p xml:id="118">
+Uh 22#)<lb/>
+atha tṛtīyaṃ prakaraṇam /
+</p><p xml:id="119">
+vādī prāha / yadi kaścidvadedasti sattvo yāvatsanti prāṇā asti jīva ityādi / kathaṃ jñātam / aindriyakatvāt / yathā nirupadhiśeṣanirvāṇasyendriyairanupalabdherabhāvaḥ sattvānāntu na tathā / tasmātsantyeva iti jñātam /
+</p><p xml:id="120">
+atmā nityaḥ / yathārhattvaphalaṃ kasmiṃścideva kāle vidyamānamapi pūrvaṃ paścāccāvidyamānatvādabhāva iti jñāyate / yathā ca dvītīyo mūrdhā tṛtīyo hastaśca / abhūtvā bhāvāt prāgabhāvaḥ / bhūtvā tu vināśātpradhvaṃsābhāva iti jñāyate / ātmā tu na tathā tasmānnityaḥ /
+</p><p xml:id="121">
+atra dūṣaṇam / yathā mūla[kīla]odakānyadṛśyatvānna sadityuktam / arhattva[phalasyāpi] tathātvameva na tvabhāvaḥ / etattu na bhavatā sākṣātkriyate /
+</p><p xml:id="122">
+nanu maivam / udakasya pṛthivyāvaraṇādadṛśyatvam / arhattva[phalasya tu] kenāvaraṇenādṛśyatvam / tasmāttadasaditi jñāyate /
+</p><p xml:id="123">
+atra dūṣaṇam / yadbhavatoktaṃ [yathā] dvitīyasya mūrdhnastṛtīyasya hastasya cādṛśyatvāda[bhāvaḥ] arhattva[phalasyāpya]bhāvaḥ iti spaṣṭam / tadayuktam / dvitīyasya mūrdhno nāstitve 'pi tarhi na prathamasya nāstitvam / arhattva[phalaṃ] tu nāstyeveti tasyaivātyantābhāvaḥ / kathaṃ dṛṣṭāntatopapattiḥ / yacca bhavatoktamanupalabdhernirvāṇābhāvaḥ siddha iti tadapyayuktam / kiṃ nāma (mahā)śāgarodakasya binduparimāṇasyāśakyajñānatvāttadasaditi (#
+Uh 23#) vaktuṃ śakyate / yadyapi binduparimāṇaṃ na jñāyate tathāpyastyeva sāgaraḥ / nirvāṇasyāpi tathātvam / anupalabdhāvapi tattattvataḥ sadeva / asaditi cedvaktavyam tasya kāraṇam / yadi na śakyate vaktaṃ tadā bhavata evārthahāniḥ / ayamucyate yathādharmavādaḥ /
+</p><p xml:id="124">
+anyacca yadyanupalabdhernirvāṇasyāsattvaṃ, tadā parasya saṃśayaḥ / yathā rātrau taruṃ dṛṣṭvā citte saṃśayaḥ / eṣa sthāṇurvā manuṣyo veti / na khalū taruḥ sthāṇoḥ puruṣasya vo[palabdhau] niyato hetuḥ / anupalabdhireva nirvāṇasyābhāve niyato heturiti cennātra saṃśayasambhavaḥ /
+</p><p xml:id="125">
+anyacca karmavipākāvināśāt, sadeva nirvāṇam / kuta iti cet / yathā davena girestarudāhe 'gnistadvināśahetuḥ / kaḥ punastasya karmavipākasya vināśaheturyena tadvinaśyate / nirvāṇalābhe tadā prahāniḥ /
+</p><p xml:id="126">
+atrocyate / asti tattvato vināśahetuḥ / āvaraṇāttvanupalabdhaḥ /
+</p><p xml:id="127">
+atra dūṣaṇam / nirvāṇamapi sadāvaraṇāttvanupalabdham /
+</p><p xml:id="128">
+kiñca yadi vipākasya vināśaheturvartata iti cennocyate / tadā bhavato 'rthahāniḥ / yadyabhāvādvināśaheturanuktastadāvaraṇābhāvo 'pi kathamuktaḥ / evaṃ kāraṇairkarmāṇāmavināśo jñāyate /
+</p><p xml:id="129">
+eṣa yathādharmavāda ityucyate /
+</p><p xml:id="130">
+pūrvapakṣī vadati / yadi sāgarodakasadbhāvānnirvāṇasadbhāvaḥ siddhastadā kiṃ dvitīyasyāpi mūrdhnaḥ sadbhāvo na sidhyati / dvitīyasyāpi mūrdhnaḥ sadbhāvo na siddha iti cet (#
+Uh 24#) kathaṃ nirvāṇasya sadbhāvaḥ / tasmādbhavatoktaḥ sāgarodakadṛṣṭāntaḥ nirvāṇasadbhāvaṃ sādhayituṃ na samarthaḥ / kiṃ dvitīyasya mūrdhnaḥ sadbhāvaṃ sādhayet /
+</p><p xml:id="131">
+atra dūṣaṇam / kiṃ nirvāṇamasaditi bhavadabhipretam / asataḥ sattā vāsato 'sattā vā / asato 'satteti cet kathaṃ nirvāṇamasaditi pratijñāyate / yadi tvasataḥ sattā kathaṃ bhavatāsattocyate /
+</p><p xml:id="132">
+yadyasato nirvāṇasya sattā tadā svato 'sato 'sattvamapi saditi cet, kathaṃ na nirvāṇasadbhāvalāba ityatra heturvaktavyaḥ / yadi vaktuṃ na śakyate, tadā niścitameva nirvāṇaṃ saditi jñeyam / etadapi yathādharmavāda ityucyate /
+</p><p xml:id="133">
+nanvātmā nityo 'nityo vā / atmā 'kṛtakatvānnityaḥ, ghaṭādiṣṭu kṛtakatvādanityaḥ /
+</p><p xml:id="134">
+atra dūṣaṇam / akṛtakatvādātmā nitya iti cettadayuktam / kasmāt / puruṣāṇāṃ saṃśayajanakatvāt / yadyakṛtakatvānnitya evātmeti tadā nityo 'nitya veti saṃśayasyāsambhavaḥ / saṃśayajanakatvāddoṣaḥ /
+</p><p xml:id="135">
+vādī / iyaṃ doṣāpattirna mamaivāpi tu sarveṣāmeva vādināṃ yathā śabdo nityo 'mūrtatvāt / atītaḥ kāyo 'styeva pūrvanivāsānusmaraṇādityādipratijñā pūrvavatsaṃśayamutpādayatīti / tasmatsarvatraiva doṣāpattiḥ /
+</p><p xml:id="136">
+atra dūṣaṇam / dṛṣṭānta eva saṃśayaṃ nirdhārayati / bhavatāṃ tūdāhṛto dṛṣṭānto mama saṃśayamutpādayati tasmādasiyo 'yaṃ dṛṣṭāntaḥ / dṛṣṭānte 'siddhe 'rthahāniḥ / tadeva nigrahasthānam /
+</p><p xml:id="137">
+yatpunarbhavatoktaṃ sarveṣāmeva doṣāpattirna tu mamaivetyeṣa (#
+Uh 25#) svadoṣa eva na tu paradoṣaḥ / kuta iti cet / yathā kaścidabhiyukta ātmānamaprakāśya sarva eva taskarā iti vadettadāsau puruṣa ātmānamapi taskaraṃ manyata iti jñeyam / bhavānapi tathā tasmānnigrāhyaḥ /
+</p><p xml:id="138">
+idānīṃ yadi bhavānātmānaṃ prakāśayitumiḥcchu pūrvayuktimatikramya punarvaktumicchennūnaṃ bahudoṣāpattiḥ syāt / bhavataḥ prathamaḥ pakṣo dvitīyena [pakṣeṇa] dūṣitaḥ / tṛtīyaścārtho mayā dūṣitaḥ / pañcamena doṣāvadhimicchan pūrvaṃ nātikrāmedataḥ bhavato 'ntyaḥ pakṣaḥ punaruktaṃ bhavet / punaruktaṃ ca nigrahasthānam /
+</p><p xml:id="139">
+nanvanuyojyaḥ ṣaṣṭho 'pi?
+</p><p xml:id="140">
+atrocyate / sidvastāvatpañcamasya doṣaḥ / tatkathaṃ ṣaṣṭho 'nuyojyaḥ / asmin hi pratyukte pūrvadoṣatulyatā / anuyoktuḥ sadoṣatve pratipakṣeṇa tūṣṇīmbhaviṃtavyam /
+</p><p xml:id="141">
+aparañca / ṣaṣṭhasya doṣaḥ pañcamenāparyanuyojyaḥ / kuta iti cet / pañcamenaiva hyeṣa ṣaṣṭho 'nuyuktaḥ / ato 'yaṃ svayame sadoṣaḥ kathaṃ taṃ dūṣayet / evaṃ saddharmavādaḥ /
+</p><p xml:id="142">
+// iti tṛtīyaṃ prakaraṇam //
+</p><p xml:id="143">
+Uh 26#)<lb/>
+athe caturthaṃ prakaraṇam /
+</p><p xml:id="144">
+nanu bhavatā vyākhyāto yathādharmasadvādaḥ / kaḥ punaḥ sambandhaḥ /
+</p><p xml:id="145">
+atrocyate / praśnottarasambandho viṃśatividhaḥ / yadi kaścittena viṃśatividhenārthena samyagnyāyamārabhate sa sadvādasya jñātetyucyate / yadi naivaṃ tadā nāyaṃ vivādadharmāvagantā / eṣāṃ viṃśatividhānāṃ sāro dvividhaḥ / vaidharmyaṃ sādharmyañca / sajātīyatvātsādharmyaṃ vijātīyatvādvaidharmyam / arthasya hi tatsamāśrayatvātte viṃśatidharmān vyāpnuvataḥ /
+</p><p xml:id="146">
+kiṃ sādharmyam / yathā kleśakṣayo nirābhāsa eva, ākāśabhāvo 'pi nirābhāsa iti sādharmyam /
+</p><p xml:id="147">
+kiṃ vaidharmyam / yathā nirvāṇamakṛtakatvānnityaṃ tathā sarve saṃskārāḥ kṛtakatvādanityāḥ / iti vaidharmyam /
+</p><p xml:id="148">
+nanu sādharmyavaidharmyābhyāṃ kathaṃ dūṣaṇam /
+</p><p xml:id="149">
+atrocyate / sādharmyadūṣaṇamicchatā evaṃ vaktavyam / rūpaṃ cakṣuṣā dṛṣṭaṃ, śabdastu śravaṇena śruta iti, kathaṃ tayoḥ sādharmyam / yadi rūpādbhinnaḥ śabdastadā rūpasyānityatvācchabdo nityo bhavet /
+</p><p xml:id="150">
+vaidharmyadūṣaṇam / yatha rūpasyaindriyakatvādanityatā, ātmano 'naindriyakatvānnityatā /
+</p><p xml:id="151">
+ghaṭasyātmanaśca sadbhāvaḥ / sadbhāvasādharmye ghaṭasyānityatvādātmano 'pi tathātvāpattiḥ / ghaṭasadbhāva ātmasadbhāvādbhinnastataścātmā (#
+Uh 27#) nityo ghātastvanitya iti cet / nityatāsādharmyada[pya]ātmanā nityena bhavitavyam /
+</p><p xml:id="152">
+evaṃ dūṣaṇaṃ viṃśatividhaṃ yathā 1 utkarṣa[sama]m, 2 apakarṣa[sama]m, 3 bhedābheda[sama]m, 4 praśnabāhulyamuttarālpatā, 5 praśnālpatottarabāhulyam, 6 hetusamam, 7 kāryasamam, 8 vyāptisamam, 9 avyāptisamam, 10 kālasamam, 11 prāptisamam, 12 aprāptisamam, 13 viruddham, 14 aviruddham, 15 saṃśaya[sama]m, 16 asaṃśaya[sama]m, 17 pratidṛṣṭānta[sama]m, 18 śrutisamam, 19 śrutibhinnam, 20 anupapatti[sama]ñceti praśnottaradharmā viṃśatidhā /
+</p><p xml:id="153">
+1. utkarṣa[sama]m / yathā (kaścidvaded), ātmā nitya indriyānupalabdheḥ / ākāśo hyanupalabdhernityaḥ / sarvamanupalabhyaṃ nityameva / ātmāpyanupalabhyaḥ kathaṃ tadanityatāprāptiḥ /
+</p><p xml:id="154">
+atra dūṣaṇam / ākāśo 'cetanatvānnityaḥ / ātmā tu cetanaḥ kathaṃ nityaḥ / ākāśaścetana ityanyāyyam / yadyātmācetanastadaivākāśena sadharmā / evaṃ vidvāṃsaḥ so 'nitya iti manyante / etadutkarṣa[sama]m /
+</p><p xml:id="155">
+2. apakarṣa[sama]m / yathākāśo 'cetana ātmā tu cetanaḥ / kathamākāśa ātmano dṛṣṭāntaḥ / etadapakarṣa[sama]m /
+</p><p xml:id="156">
+3. bhedābheda[sama]m / yathātmanityatāsthāpana ākāśa udāharaṇam / [atra dūṣaṇaṃ] ātmā ākāśaścābhinnau iti cedaikadharmyāt kathamākāśasyātmano dṛṣṭāntatā / (#
+Uh 28#) bhinnau iti cedanyānyasādharmyāprāptiḥ / etaducyate bhedābheda[sama]m /
+</p><p xml:id="157">
+4. anyacca / ātmā nityo 'naindriyakatvāt / yathākāśo 'nindriyakatvānnitya iti bhavataḥ sthāpanā /
+</p><p xml:id="158">
+atha yadanaindriyakaṃ tannāvaśyaṃ nityam / tatkathaṃ siddham / etaducyate praśnabāhulyamuttarālpatā ca /
+</p><p xml:id="159">
+5. anyacca / ātmā nityonaindriyakatvāditi bhavatsthāpanā / anaindriyakasya dvaividhyam / yathā paramāṇavo 'nupalabhyā anityāḥ / ākāśastvindriyānupalabhyo nityaśca / kathaṃ bhavatocyate yadanupalabhyatvānnitya ityucyate praśnālpatottarabāhulyañca /
+</p><p xml:id="160">
+6. anyacca / anupalabdhihetunātmā nitya iti bhavatā pratijñātam / ākāśaścātmā ca bhinnauḥ kathamubhayoranupalabhyatvaṃ heturbhavet / iti hetusamam /
+</p><p xml:id="161">
+7. anyacca / yatpañcamahābhūtamayaṃ tadanityam / ākāśa ātmā ca pañcamahābhūtamayau kathaṃ nityāvuktau / iti kāryasamam /
+</p><p xml:id="162">
+8. anyacca / anupalabhyatvānnitya ākāśa iti bhavataḥ sthāpanā / ākāśaśca sarvavyāpī [tataśca] kiṃ sarvāṇi bastūnyanupalabhyāni / etadyāptisamam /
+</p><p xml:id="163">
+9. anyacca / paramāṇuravyāpyanaindriyako 'pyanityaḥ / ātmā tvanaindriyakaḥ kathaṃ nityaḥ / iti avyāptisamam /
+</p><p xml:id="164">
+10. anyacca / ātmā nityo 'nindriyakatvāditi bhavatsthāpanā / so 'yaṃ[hetu]rvartamāne 'tīte 'nāgate vā / atīta iti cedatītatvānnaṣṭāḥ / anāgata iti cedabhāvaḥ / vartamāna (#
+Uh 29#) iti cettadāhetuḥ / yathā śṛṅge yugapadeva jātatvānnānyonyahetuke / iti kālasamam /
+</p><p xml:id="165">
+11. anyacca / ātmā nityo 'naindriyakatvāditi bhavatsthāpanā / atha prāpyāprāpya vā heturiti / aprāpya cedasiddho hetuḥ / yathāgniraprāpya dahanāsamarthaḥ, asiścāprāpya chedanāsamarthaḥ / ātmānamaprāpya kathaṃ heturbhavet / ityaprāpti[samam] /
+</p><p xml:id="166">
+12. anyacca / prāpya iti cet, prāpterahetutvam / iti prāptisamam /
+</p><p xml:id="167">
+13. anyacca / sarvamanityam / na tvātmā sarvaṃ, tato nitya iti bhavatpratijñā ātmā ca tadbhāvādanitya iti vaktavyaḥ, kiñciddagdho hi kambalaḥ prāyeṇādagdhatvādadagdha ityucyate / etadviruddham /
+</p><p xml:id="168">
+14. anyacca / ātmānaindriyakatvādākāśatulya iti bhavatsthāpanā / ākāśasyānupalabdhirātmano 'pi tathātvam / ātmana upalabdhiriti cettadākāśo 'pi sukhadūḥkhadikamupalabheta / ātmana ākāśasya cābhinnatvāt / etadaviruddham /
+</p><p xml:id="169">
+15. anyacca / ātmanaḥ sadbhāvavannityatāniyatā / laukikānāṃ saṃśayasambhavo nityo 'nityo veti / etat saṃśayasamam /
+</p><p xml:id="170">
+16. anyacca / astyātmānaindriyakatvāditi bhavadvacanam atha vimarśaḥ kenāvaraṇenānupalabdhiḥ / kāraṇamatra vaktavyam / yadi kāraṇaṃ na vidyata ātmārthasya hāniḥ / ityasaṃśayasamam /
+</p><p xml:id="171">
+Uh 30#)<lb/>
+17. anyacca / ātmānaindriyakatrvānnitya iti bhavatā pratijñātam / atha mūlakilodakānyanaindriyakānyapyanityānyātmā tu kathaṃ nityaḥ / iti pratidṛṣṭānta[sama]m /
+</p><p xml:id="172">
+18. anyacca / sūtreṣu ātmano 'nupalabdhiruktā tasmāttasya nityatā jñāteti bhavataḥ [sthāpanā] / (parantu) nāstyātmā nāstyātmīyamityapi sūtreṣūktam / nirgranthadharme cātmānityatoktā / ātmanityatve niyate sati sūtrāṇāṃ vaiṣamyānupapattiḥ / iti śrutisamam /
+</p><p xml:id="173">
+19. anyacca / yadi bhavatā ekameva sūtramadhigacchatātmā nitya iti manyate / athānyeṣāmapi sūtrāṇāṃ pratīterātmānityo mantavyaḥ / ubhayathā pratītiriti cedekasyaivātmano nityatvānityatvaprasaṅgaḥ / iti śrutibhinnam /
+</p><p xml:id="174">
+20. anyacca / yadi sadbhāvāditi hetunātmāstīti / atha śālasya sadbhāvāttāla utpadyate / yadyabhāvānnāstīti tadā tālabījeṣu vṛkṣākārābhāvāttadutpattyaprāptiḥ / sadbhāve 'nutpattiḥ / abhāve 'pyanutpattiḥ / ātmano 'pi tathātvam /
+</p><p xml:id="175">
+yadi kiṃcitsadeva na tadānaindriyakatvaṃ hetutvena prayoktavyam / yadi ca sadeva tadā nānaindriyakatvena tasya sattā sādhyā / ityanutpattisamam /
+</p><p xml:id="176">
+yadi punaḥ kaścicchabdanityatāṃ sthāpayet, tadaivamvidhairuktapūrvairviśatiṃdharmaistadvadeva dūṣayet /
+</p><p xml:id="177">
+nanvātmasadbhāvādeva bhavānātmānaṃ dūṣayati / ātmano 'bhāve kiṃ bhavatā dūṣaṇīyam / dūṣaṇāddhyasti dūṣayitavyam /
+</p><p xml:id="178">
+atra dūṣaṇam / yuktito nāsyātmā / bhavatā tu (#
+Uh 31#) tatsadbhāvasya vikalpānmayā bhavato dūṣaṇaṃ kṛtam / yadbhavatoktaṃ dūṣayitavyabhavādastyātmeti / tato dūṣaṇānnāstyātmeti jñātam / bhavata ātmaparigraha ātmābhāvadyotanarthamiti cettadayuktam / bhavadarthāprayogāt / idānīntu svayaṃ bhavatā mama siddhāntaḥ prayuktaḥ /
+</p><p xml:id="179">
+nanu kathaṃ bhavatā jñātaṃ yanmayā bhavadarthaḥ parigṛhītaḥ / atra kāraṇaṃ vaktavyamiti cenmayā khalu pūrvamuktaṃ yatsvārthamaparigṛṇhatā bhavatā parasthāpanā parigṛhītā kathamidānīṃ punaridaṃ pṛcchyate / kathaṃ jñātaṃ yadbhavato 'rtho maya parigṛhīta iti / yato bhavadvacanaṃ viruddhaṃ tasmānnigrahasthānāpattiḥ /
+</p><p xml:id="180">
+anyacca / anaindriyakatvātsannevātmeti bhavatā pūrvaṃ pratijñātaṃ paścāttu dharmabāhulyena sādhitam / sthāpitahetoraniyatatvātpratijñāvirodhācca nigrahasthānam / tasmādbhavadarthanāhau yadi punarahaṃ kiṃcibdravīmi, [yanmayā] pūrvamuktaṃ tasmādetanna bhidyate / tadā vacanasya bahudoṣaprasaṅgaḥ / pakṣapratipakṣayoḥ pratipakṣamaryādā pañcame / tadatikramyoktaṃ vacanaṃ doṣaḥ / yadi vidvān gambhīraṃ nyāyaṃ bhāvayatyuktena dṛṣṭāntenārthāvagamasamarthaśca syāttadā tasya vāda evaṃvidhaṃ dharmaṃ nātikrāmati /
+</p><p xml:id="181">
+vādī prāha / evamukto vadadharmāṇāṃ sāraḥ / eṣa vādasāraḥ sarvavādānāṃ mūlam / etasmādvādātpakṣapratipakṣayoḥ paramotkarṣajñānaṃ jāyate / yathā bīje sukṣetra upte mūlāṅkurāḥ samṛddhāḥ / kukṣetre tūpte phalabhāva eva / etasya dharmasyāpi tathātvam /
+</p><p xml:id="182">
+Uh 32#)<lb/>
+yadi vidvān kaścit pramāṇavicārakuśalastadā vādānutpādayati / mūrkhastvalpabuddhiretadvādābhyāsenāpi tadavagamāsamarthastattvato vidvān nocyate / tasmādye ye sañjñānotpattiṃ subhāśubhavivekañcecchanti taistaireva saddharmavāda āśrayitavyaḥ /
+</p><p xml:id="183">
+// iti caturthaṃ prakaraṇam //
+</p><p xml:id="184">
+samāptaścāyaṃ granthaḥ /
+</p>
+</body>
+</text>
+</TEI>

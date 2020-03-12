@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_AyuHparyanta+sUtra">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Āyuḥparyanta sūtra</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by H. Matsumura: Ayuhparyantasutra, Das Sutra von der Lebensdauer in den verschiedenen Welten, Göttingen 1989 (Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen, Erste Folge; SWTF, Beiheft 2), pp. 69-100.  and Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh Chandra, 10 pts., New Delhi 1959-1974 (Śata-Piṭaka Series, 10); revised and enlarged compact edition in 3 pts., Delhi 1995 (Bibliotheca Indo-Buddhica Series, 150-152).-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!-- STRUCTURE OF REFERENCES:<BR>
+Āps = Āyuḥparyantasūtra<BR>
+GBM = Gilgit Buddhist Manuscripts (Facsimile ed.)<BR>
+<BR>
+METRICS:<BR>
+_ = long<BR>
+^ = short<BR>
+X [uppercase!] = anceps<BR>
+<BR>
+ITALIC = emendations<BR>
+<BR>
+
+
+<hr>
+<br>
+ -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Ayuhparyantasutra<BR>
+Based on the ed. by H. Matsumura: Ayuhparyantasutra, Das Sutra von der Lebensdauer in den verschiedenen Welten,<BR>
+Göttingen 1989 (Sanskrit-Texte aus dem buddhistischen Kanon: Neuentdeckungen und Neueditionen, Erste Folge; SWTF, Beiheft 2), pp. 69-100. <BR>
+and<BR>
+Gilgit Buddhist Manuscripts (Facsimile Edition), ed. by Raghu Vira and Lokesh Chandra, 10 pts.,<BR>
+New Delhi 1959-1974 (Śata-Piṭaka Series, 10);<BR>
+revised and enlarged compact edition in 3 pts., Delhi 1995 (Bibliotheca Indo-Buddhica Series, 150-152).<BR>
+Input by Klaus Wille<BR>
+STRUCTURE OF REFERENCES:<BR>
+Āps = Āyuḥparyantasūtra<BR>
+GBM = Gilgit Buddhist Manuscripts (Facsimile ed.)<BR>
+<BR>
+METRICS:<BR>
+_ = long<BR>
+^ = short<BR>
+X [uppercase!] = anceps<BR>
+<BR>
+ITALIC = emendations<BR>
+<BR>
+
+
+<hr>
+<br>
+ OF REFERENCES:<BR>
+Āps = Āyuḥparyantasūtra<BR>
+GBM = Gilgit Buddhist Manuscripts (Facsimile ed.)<BR>
+METRICS:<BR>
+_ = long<BR>
+^ = short<BR>
+X [uppercase!] = anceps<BR>
+ITALIC = emendations<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+<lg xml:id="Āps_1">
+<l> bhagavāṃc chrāvastyāṃ viharati sma jetavane anāthapiṇḍadasyārāme. tatra bhagavān bhikṣūn āmantrayate sma. icchatha yūyaṃ bhikṣavaḥ satvānām <pb ed='#GBM' n='1707.1'/> āyuḥparyantaṃ śrotuṃ. etasya bhagavāṃ kāla, etasya sugata samayo, yad bhagavān bhikṣūṇāṃ satvānām āyuḥparyantaṃ deśayed. bhagavataḥ śrutvā bhikṣavo dhārayiṣyanti. tena hi bhikṣavaḥ <pb ed='#GBM' n='1707.2'/> śṛṇuta sādhu ca suṣṭhu ca manasikuruta, bhāṣiṣya. evaṃ bhadanteti. te bhikṣavo bhagavataḥ pratyaśroṣuḥ. atha bhagavāṃs tān bhikṣūn idam avocat*.</l>
+</lg>
+<lg xml:id="Āps_2">
+<l> paraṃ bhikṣavo narakeṣu kalpa āyuṣaḥ <pb ed='#GBM' n='1707.3'/> pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_3">
+<l> paraṃ bhikṣavas tiryakṣu kalpa āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_4">
+<l> yāni bhikṣavo manuṣyāṇāṃ triṃśad rātriṃdivasāni tat pretānām <pb ed='#GBM' n='1707.4'/> ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsaragaṇanayā paṃca varṣaśatāni pretānām āyuṣaḥ <pb ed='#GBM' n='1707.5'/> pramāṇāṃ. tad bhavati mānuṣikayā gaṇanayā paṃcadaśa varṣasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_5">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthā bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->viśuṣkakaṇṭhauṣṭhapuṭā <pb ed='#GBM' n='1707.6'/> su<hi rend="it">duḥ</hi>khitā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pravṛddhaśailā iva ucchritāśrayā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->svakeśasaṃcchannavidāritonmukhā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->susūkṣmasūcīsadṛśā nasāḥ kṛśā // 1<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nagnā svakeśasaṃchanno asthiyantravadantatā <pb ed='#GBM' n='1707.7'/> /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kapālapāṇayo ghorāḥ kradantaḥ paridhāvinaḥ // 2<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ārtasvarāṇi krandanto duḥkhāṃ vindati vedanām* // 3<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->X X X X <pb ed='#GBM' n='1693.1'/> ^ _ vyehe kṛtverṣyāṃ ca parasparam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->utpannās te pretaloke karma kṛtveha pāpakaḥ // 4<lb/>
+<lg xml:id="Āps_6">
+<l> pūrvavidehakānāṃ bhikṣavo manuṣyāṇām ardhatritīyāni varṣaśatāny āyuṣaḥ pramāṇam, asty antareṇa <pb ed='#GBM' n='1693.2'/> kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_7">
+<l> avaragodānīyakānāṃ bhikṣavo manuṣyāṇāṃ paṃca varṣaśatāny āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_8">
+<l> uttarakauravāṇāṃ bhikṣavo manuṣyāṇāṃ varṣasahasrāṇy āyuṣaḥ <pb ed='#GBM' n='1693.3'/> pramāṇam, nāsty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_9">
+<l> kena kāraṇenottarakauravāṇāṃ manuṣyāṇāṃ varṣasahasram āyuṣaḥ pramāṇam, nāsty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_10">
+<l> uttarakauravā bhikṣavo <pb ed='#GBM' n='1693.4'/> manuṣyā <hi rend="it">amamā</hi>ś ca parigrahāś ca ni<hi rend="it">yatāyus</hi> + + tac cyutā viśeṣagāmina āyatyāṃ svargopagāḥ. anena kāraṇenottarakauravāṇāṃ bhikṣavo manuṣyāṇāṃ varṣasa<hi rend="it">hasram</hi> <pb ed='#GBM' n='1693.5'/> <hi rend="it">āyu</hi>ṣaḥ pramāṇam, nāsty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_11">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthā bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->daridryaduḥkhitā satvā āśaṃsanti dhanaṃ param* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->parapreṣya <pb ed='#GBM' n='1693.6'/> ^ _ _ X X X X X ^ _ ^ X // 5<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->āḍhyā mahādhanā satvā upabhogasamanvitāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dhanadānyajanopetās tais tu santa upāsita // 6<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->upajīvanti puṇyāḍhyaṃ karma kṛtveha śobhanam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><pb ed='#GBM' n='1693.6'/> X X X X ^ _ _ X X X X X ^ _ ^ X // 7<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->X X X X ^ _ _ X X X X X ^ _ ^ X /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ye loke _ .i _ _ .i <hi rend="it">pūrvadāna</hi>sya tat phalam* // 8<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->manuṣyā hy uttare dvīpe ama<hi rend="it">ma</hi> <pb ed='#GBM' n='1692.1'/> <hi rend="it">aprigrahāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --></hi>X X X <hi rend="it">kalpa</hi>duṣyāṇi pūrvadānasya tat phalam* // 9<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na teṣāṃ śītam ūṣṇaṃ ca vyādhis teṣāṃ na vidyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->varṇarūpeṇasaṃpannāḥ pūrvadānasya tat phalam* // 10<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->akha<hi rend="it">ṇḍā</hi> vimalā śāli <pb ed='#GBM' n='1692.2'/> X X X X ^ _ ^ X /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->X X te hy uttare dvīpe pūrvadānasya tat phalam* // 11<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->maṇijyotiṣkaras teṣāṃ śubhaḥ prajvalate sadā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yas teṣāṃ pācayaty annaṃ pūrvadānasya tat phalam* // 12<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na teṣāṃ vyaṃja<hi rend="it">naṃ</hi> <pb ed='#GBM' n='1692.3'/> _ X X X X X pavidyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->varṇagandharasopetaṃ śāliṃ te bhuṃjate sadā // 13<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ekasmād dīyate hy annaṃ na kṣayo 'sti hi bhājanam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->āsannān notthitā yāvat pūrvadānasya ta<hi rend="it">t</hi> <pb ed='#GBM' n='1692.4'/><hi rend="it"> phalam* // 14</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">alābūnāṃ pha</hi>lāny eṣāṃ cchinā śākhā prarohate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->apakṣalūnāṃ bhuṃjate pūrvadānasya tat phalam* // 15<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nadya suśītalās teṣāṃ aṣṭāṃgaṃ ca jalaṃ śubham* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pītaṃ <pb ed='#GBM' n='1692.5'/> <hi rend="it">na b</hi>ādhate kukṣiṃ pūrvadānasya tat phalam* // 16<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vādyavṛkṣā śubhās teṣāṃ celavṛkṣā hy ana ^ Xḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->gandhavṛkṣa ^ _ _ Xḥ pūrvadānasya tat phalam* // 17<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vādyaṃ gandhaṃ ca puṣpaṃ ca ni<pb ed='#GBM' n='1692.6'/>Xm <hi rend="it">e</hi>va ca cīvaram* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kāṃkṣate yādṛśaṃ yo hi tad bhavaty asya tādṛśam* // 18<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->haritaḥ śādvalas teṣāṃ sumṛdus tūlasannibhaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ramante yatra satataṃ pūrvadānasya tat phalam* // 19<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->parasparaṃ ca <pb ed='#GBM' n='1692.7'/> <hi rend="it">krīḍa</hi>nti kroṣas teṣāṃ na vidyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nāsti mātsaryam īrṣyā va pūrvadānasya tat phalam* // 20<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->rātryās tu prathame yāme kṣaṇamātraṃ hi varṣati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->virajorajo bhavati pūrvadānasya tat phalam* // 21<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><pb ed='#GBM' n='1705.1'/> mātā putraṃ na jānīte nāsti teṣāṃ parigrahaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na śocanti priyair nāśaṃ pūrvadānasya tat phalam* // 22<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mātā hi sva<hi rend="it">p</hi>utra<hi rend="it">ṃ</hi> _ X X X X X ^ _ ^ X /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">sravate</hi> kṣīraṃ aṅguṣṭhāt pūrvadānasya tat phalam* // 23<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><pb ed='#GBM' n='1705.2'/> na teṣāṃ rodate kaścid mṛtaṃ cotsṛjya gacchati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śodhayanti khagā dvīpaṃ pūrvadānasya tat phalam* // 24<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->samantāt parikhācchinnaṃ nṛtagī<hi rend="it">tair manoramai /</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ramante yatra krīḍanti pūrvadānasya tat phalam* // 25<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->āyur <pb ed='#GBM' n='1705.3'/> varṣasahasraṃ hi kṣapayitvātra mānuṣam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mriyante nāntareṇeti pūrvadānasya tat phalam* // 26<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->hitvā X X ^ _ _ Xṃ kṛtvā ca vipulaṃ śriyam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->deveṣu nopapadyante pūrvadānasya <pb ed='#GBM' n='1705.4'/> tat phalam* // 27<lb/>
+<lg xml:id="Āps_12">
+<l> jāmbūdvīpakānāṃ bhikṣavo manu<hi rend="it">ṣ</hi>yāṇām utkarṣāpakarṣaṃ prajñāyate. jāmbudvīpakā bhikṣavo manuṣyā amitāyuṣo 'pi, aśītivarṣasahasrāyuṣo 'pi, <pb ed='#GBM' n='1705.5'/> <hi rend="it">varṣa</hi>śatāyuṣo 'pi, daśavarṣāyuṣo 'pi.</l>
+</lg>
+<lg xml:id="Āps_13">
+<l> etarhi bhikṣavo jāmbūdvīpakānāṃ manuṣyāṇāṃ varṣaśatam āyuṣaḥ pramāṇaṃ. etarhi bhikṣavo jāmbūdvīpakānāṃ manu<hi rend="it">ṣyā</hi>ṇāṃ <pb ed='#GBM' n='1705.6'/> yaś ciraṃ jīvati sa varṣaśataṃ kiṃcid vā bhūyaḥ samyaksukhena parihṛyamāṇaḥ.</l>
+</lg>
+<lg xml:id="Āps_14">
+<l> varṣaśataṃ khalu bhikṣavo jīvaṃ daśāvasthāḥ pratyanubhavati. prathamāyām avasthāyāṃ <pb ed='#GBM' n='1705.7'/> bālo bhavati manda uttānaśāyī. dvitī<hi rend="it">yā</hi>yām avasthāyāṃ kumāro bhavati krīḍanajātīyaḥ. tṛtīyāyām avasthāyāṃ yuvā bhavati kāmabhogī. caturthyām avasthāyāṃ <pb ed='#GBM' n='1704.1'/> balavān bhavati utsāhī. paṃcamyām avasthāyāṃ prajño bhavati pratibhānavān*. ṣaṣṭhyām avasthāyāṃ smṛtimān bhavati mīmāṃsanajātīyaḥ. saptamyām avasthāyāṃ sthito bhavati manā <pb ed='#GBM' n='1704.2'/> + + prāptaḥ. aṣṭhamyām avasthāyāṃ sthaviro bhavati rājanyaḥ. navamyām avasthāyāṃ vṛddho bhavati jarājīrṇaḥ. daśamyām avasthāyāṃ gatāyur bhavati maraṇaparāyaṇaḥ. varṣaśa<hi rend="it">taṃ</hi> <pb ed='#GBM' n='1704.3'/> <hi rend="it">kha</hi>lu bhikṣavo jīvam iha daśāvasthāḥ pratyanubhavati.</l>
+</lg>
+<lg xml:id="Āps_15">
+<l> varṣaśataṃ khalu bhikṣavo jīvan trīṇi ṛtuśatāni jīvati, ṛtuśataṃ hemantānāṃ, ṛtuśataṃ grīṣmāṇā<hi rend="it">ṃ</hi> <pb ed='#GBM' n='1704.4'/> <hi rend="it">ṛt</hi>uśataṃ varṣāṇām*. trīṇi ṛtuśatāni <hi rend="it">j</hi>īvan dvādaśa māsaśatāni jīvati, catvāri hemantānāṃ, catvāri grīṣmāṇāṃ, catvāri varṣāṇāṃ. dvādaśa māsaśatāni <pb ed='#GBM' n='1704.5'/> jīvaṃ caturviṃśatim ardhamāsaśatāni jīvati, aṣṭau hemantānām, aṣṭau grīṣmāṇām, aṣṭau varṣāṇām*. caturviṃśatim ardhamāsaśatāni jīvaṃ ṣaṭtriṃśataṃ rātriṃdivasasahasrāṇi <pb ed='#GBM' n='1704.6'/> jīvati dvādaśa hemantānāṃ, dvādaśa grīṣṃāṇāṃ, dvādaśa varṣāṇāṃ.</l>
+</lg>
+<lg xml:id="Āps_16">
+<l> ṣaṭtriṃśataṃ rātriṃdivasasa<hi rend="it">hasrā</hi>ṇi <hi rend="it">j</hi>īvan dvāsaptatiṃ bhaktasahasrāṇi bhuṃkte sārdhaṃ <pb ed='#GBM' n='1704.7'/> bhaktāntarāyaiḥ. tatreme bhaktāntarāyāḥ, kupito 'pi na bhuṃkte, duḥkhito 'pi na bhuṃkte, kṛcchraprāto 'pi na bhuṃkte, + + + + + + + + + + + + pano 'pi na bhuṃkte, labha<hi rend="it">māno 'pi na bhuṃkte</hi> <pb ed='#GBM' n='1702.1'/> alabhamāno 'pi na bhuṃkte, supto 'pi na bhuṃkte, matto 'pi na bhuṃkte, pramatto 'pi na bhuṃkte, iti yaś ca bhuṃkte yaś ca na bhuṃkte tad aikadhyam abhisaṃkṣipya dvāsaptati<hi rend="it">r bhakta</hi>sahasrāṇi bhavanti <pb ed='#GBM' n='1702.2'/> <hi rend="it">sārdhaṃ</hi> mātu stanyapānena.</l>
+</lg>
+<lg xml:id="Āps_17">
+<l> iti hi bhikṣavo mayā jāmbūdvīpakāṇāṃ manuṣyāṇām āyur apy ākhyātam, ṛtavo 'pi, māsā apy, ardhamāsā api, rātriṃdivasāny api, bhaktāny api, <pb ed='#GBM' n='1702.3'/> <hi rend="it">bhaktā</hi>ntarāyāṇy apy ākhyātā.</l>
+</lg>
+<lg xml:id="Āps_18">
+<l> yāni bhikṣavo manuṣyāṇāṃ paṃcāśad varṣāṇi tac cāturmahārājikānāṃ devānām ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rā<hi rend="it">trakena</hi> <pb ed='#GBM' n='1702.4'/> māsena, dvādaśa mā<hi rend="it">sakena saṃva</hi>tsareṇa, tayā saṃvatsaragaṇanayā divyāni paṃca varṣaśatāni cāturmahārājikānāṃ devānām āyuṣaḥ pramāṇaṃ. <pb ed='#GBM' n='1702.5'/> <hi rend="it">ta</hi>d bhavati mānuṣikayā gaṇanayā navati varṣaśatasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_19">
+<l> tad bhavati saṃjīve mahānarake ekaṃ rātriṃd<hi rend="it">i</hi>vasaṃ, <pb ed='#GBM' n='1702.6'/> tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsaraga<hi rend="it">ṇanayā paṃca varṣaśatā</hi>ni saṃjīve mahānarake nārakāṇāṃ <pb ed='#GBM' n='1702.7'/> satvānām āyuṣaḥ pramāṇaṃ. tad bhavati māṇuṣikayā gaṇanayā. ekaṃ varṣakoṭīśatasaha<hi rend="it">s</hi>r<hi rend="it">a</hi>ṃ <hi rend="it">dvāṣaṣṭīṇi ca varṣakoṭīsahasrāṇy āyuṣa</hi>ḥ pra<hi rend="it">māṇam, asty antare</hi>ṇa <pb ed='#GBM' n='1703.1'/> kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_20">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthā bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kāyaduścaritaṃ kṛtvā vacoduścaritām iva /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->X X X X ^ _ _ X X X X X ^ _ ^ X // 28<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">saṃjīva upapadya</hi>nte <pb ed='#GBM' n='1703.2'/> narake tena karmaṇā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->varṣakoṭīsahasrāṇi saṃjīvanti hatā hatāḥ // 29<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->anyonyavairasaṃsaktā narāḥ puruṣaghātak<hi rend="it">āḥ /</hi><lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saṃjīva upapadyante na</hi>rake tena karmaṇā // 30<lb/>
+<lg xml:id="Āps_21">
+<l> yad bh<hi rend="it">i</hi>kṣa<hi rend="it">vo</hi> <pb ed='#GBM' n='1703.3'/> <hi rend="it">ma</hi>nuṣyāṇā<hi rend="it">ṃ</hi> varṣaśataṃ ta<hi rend="it">d</hi> devāṇā<hi rend="it">ṃ</hi> trayastriṃśānām ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsa<hi rend="it">raga</hi>ṇanayā <pb ed='#GBM' n='1703.4'/> divyaṃ varṣasahasraṃ <hi rend="it">devā</hi>nām trayastriṃśānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā gaṇanayā tisro varṣakoṭyaḥ ṣaṣṭiś ca varṣaśatasa<hi rend="it">hasrā</hi>ṇy <pb ed='#GBM' n='1703.5'/> āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_22">
+<l> tad bhavati kālasūtre mahānarake ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māse<hi rend="it">na</hi>, <pb ed='#GBM' n='1703.6'/> <hi rend="it">d</hi>vādaśa māsakena saṃvatsareṇa, tayā saṃvatsaragaṇanayā varṣasahasraṃ kālasūtre mahānarake nārakāṇāṃ satvānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā <pb ed='#GBM' n='1703.7'/> gaṇanayā dvādaśa varṣakoṭīśatasahasrāṇi ṣaṇnavatiś ca varṣakoṭīsahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_23">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ <pb ed='#GBM' n='1694.1'/> <hi rend="it">gāthe bhāṣa</hi>te.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mātāpitṛṣu ye drugdhā buddheṣu śrāvakeṣu ca /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kālasūtropapannās te duḥkhā vindanti vedanā // 31<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->adhura X ^ _ _ X puruṣā mitrabhedakāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kālasūtraṃ pra<hi rend="it">pannās</hi> <pb ed='#GBM' n='1694.2'/> te X cakā nyatikā mṛṣāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kālasūtraṃ prapannās te narakaṃ tena karmaṇā // 32<lb/>
+<lg xml:id="Āps_24">
+<l> yad bhikṣavo manuṣyāṇāṃ dve varṣaśate tad yamānāṃ devāṇām ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena <pb ed='#GBM' n='1694.3'/> <hi rend="it">triṃśad rātrake</hi>ṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsaragaṇanayā divye dve varṣasahasre yamānāṃ devānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣika<hi rend="it">yā</hi> <pb ed='#GBM' n='1694.4'/> <hi rend="it">gaṇanayā</hi> caturdaśa varṣakoṭyaḥ catvāriṃ<hi rend="it">śac ca</hi> varṣaśatasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_25">
+<l> tad bhavati saṃghāte mahānarake ekaṃ rātriṃdiva<hi rend="it">saṃ</hi>, <pb ed='#GBM' n='1694.5'/> <hi rend="it">tena rātriṃ</hi>d<hi rend="it">i</hi>vasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsaragaṇanayā dve varṣasahasre saṃghāte mahānarake nārakāṇāṃ <pb ed='#GBM' n='1694.6'/> <hi rend="it">satvānām ā</hi>yuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā gaṇanayā ekavarṣakoṭīṇāṃ koṭiḥ triṇī ca varṣakoṭīśatasahasrāṇi <hi rend="it">aṣṭāṣaṣṭīṇi ca varṣa</hi>koṭīsahasrāṇy āyuṣaḥ <pb ed='#GBM' n='1694.7'/> <hi rend="it">pramāṇa</hi>m, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_26">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthe bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->trividham akuśalaṃ kṛtvā akṛ<hi rend="it">ta</hi> X ^ X ^ X /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saṃghāta upapadyante narake tena karmaṇā // 33<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><pb ed='#GBM' n='1695.1'/> <hi rend="it">balā</hi>kān ajamahiṣān mṛgān kukuṭasūkarān /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tathānyān prāṇino hatvā saṃghāte upapadyate // 34<lb/>
+<lg xml:id="Āps_27">
+<l> yāni bhikṣavo manuṣyāṇā<hi rend="it">ṃ catvāri varṣaśatāni tāni tuṣitānāṃ devānā</hi>m <hi rend="it">e</hi>kaṃ rātriṃ<hi rend="it">divasaṃ</hi> <pb ed='#GBM' n='1695.2'/> rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃvatsaragaṇanayā divyāni catv<hi rend="it">āri varṣasahasrāṇi tuṣitānāṃ</hi> devānām āyuṣaḥ <pb ed='#GBM' n='1695.3'/> <hi rend="it">pramāṇaṃ. tad bha</hi>vati mānuṣikayā gaṇanayā saptapaṃcāśad varṣakoṭyaḥ ṣaṣṭiś ca varṣaśatasahasrāṇy āyuṣaḥ pramāṇam, asty antare<hi rend="it">ṇa</hi> k<hi rend="it">ālak</hi>riyā.</l>
+</lg>
+<lg xml:id="Āps_28">
+<l> tad bhavati raurave mahāna<hi rend="it">rake</hi> <pb ed='#GBM' n='1695.4'/> ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā saṃ<hi rend="it">va</hi>tsaragaṇanayā catvāri varṣasahasrāṇi raurave <pb ed='#GBM' n='1695.5'/> <hi rend="it">mahānarake</hi> nārakāṇāṃ satvānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā gaṇanayā aṣṭau varṣakoṭīnayutāny ekonatriṃśac ca varṣakoṭīśatasahasrāṇi <pb ed='#GBM' n='1695.6'/> <hi rend="it">catuścatvāriṃ</hi>śac ca varṣakoṭīsahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_29">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthe bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->X .i X .ini _ porā raudrā rudhirapāṇayaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pāpa<hi rend="it">karmasa</hi>mācārā <pb ed='#GBM' n='1695.7'/> jāyante raurave sadā // 35<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vināśayitvā janatāṃ dahyante raurave ciran* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na datto bhairavaṃ nādaṃ tūṭakā vaṭikā narāḥ // 36<lb/>
+<lg xml:id="Āps_30">
+<l> yāni bhikṣavo manuṣyāṇām aṣṭau <pb ed='#GBM' n='1696.1'/> <hi rend="it">varṣaśatā</hi>n<hi rend="it">i</hi> tāni nirmāṇaratīnāṃ devānām ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃva<hi rend="it">tsa</hi>reṇa, tayā saṃvatsaragaṇanayā divyāni aṣṭau varṣa<hi rend="it">sahasrā</hi>ṇi <pb ed='#GBM' n='1696.2'/> nirmāṇaratīnāṃ devānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā gaṇanayā triṃśad uttare dve varṣakoṭiśate catvāriṃśac ca varṣaśatasahasrāṇy āyuṣaḥ pramāṇa<hi rend="it">m</hi>, <pb ed='#GBM' n='1696.3'/> <hi rend="it">asty antareṇa k</hi>ālakriyā.</l>
+</lg>
+<lg xml:id="Āps_31">
+<l> tad bhavati mahāraurave mahānarake ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsakena saṃvatsareṇa, tayā <pb ed='#GBM' n='1696.4'/> <hi rend="it">saṃvatsaragaṇa</hi>nayā aṣṭau varṣasahasrāṇi mahāraurave mahānarake nārakāṇāṃ satvānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā gaṇanayā ṣaṭṣaṣṭi varṣakoṭī<hi rend="it">koṭyaḥ</hi> <pb ed='#GBM' n='1696.5'/> paṃcatriṃśac ca varṣakoṭīśatasahasrāṇi dvāpaṃcāśac ca varṣakoṭīsahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_32">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthā bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dṛṣṭīgahanasaṃcchannā tṛṣṇācchandanacchāditā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pāpadharmasamācārā mahārauravagāmina // 37<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mahārauravam āsādya jvalanaṃ romaharṣaṇaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dahyante nta <pb ed='#GBM' n='1696.7'/> ^ _ ruddhā narā viśvāsaghātakā // 38<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saṃcchinnagātrā asibhir gṛddhrakākolūkakukurair /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->viceṣṭhyamānā khādyante X X X X ^ _ ^ X // 39<lb/>
+<lg xml:id="Āps_33">
+<l> <hi rend="it">yāni bhikṣa</hi>vo manuṣyāṇāṃ ṣo<hi rend="it">ḍaśa</hi> <pb ed='#GBM' n='1697.1'/> <hi rend="it">varṣa</hi>śatāni tat paranirmitavaśavartināṃ devānām ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvā<hi rend="it">daśa māsakena saṃvatsareṇa, tayā saṃvat</hi>saragaṇanayā <pb ed='#GBM' n='1697.2'/> <hi rend="it">ṣo</hi>ḍaśa varṣasahasrāṇi) paranirmitavaśavartināṃ devānām āyuṣaḥ pramāṇaṃ. tad bhavati mānuṣikayā ga<hi rend="it">ṇana</hi>yā ekav<hi rend="it">iṃśati varṣakoṭi nava ca varṣakoṭiśa</hi>tāni ṣaṣtiś ca varṣa<hi rend="it">śatasahasrā</hi>ṇy <pb ed='#GBM' n='1697.3'/> āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_34">
+<l> tad bhavati tapane mahānarake ekaṃ rātriṃdivasaṃ, tena rātriṃdivasena triṃśad rātrakeṇa māsena, dvādaśa māsake<hi rend="it">na</hi> <pb ed='#GBM' n='1697.4'/> <hi rend="it">saṃvatsareṇa,</hi> tayā saṃvatsaragaṇanayā ṣaḍaśa varṣasahasrāṇi tapane mahānarake nārakāṇāṃ satvānām āyuṣaḥ pramāṇaṃ. tad bhavati mānu<hi rend="it">ṣikayā</hi> <pb ed='#GBM' n='1697.5'/> <hi rend="it">gaṇana</hi>yā paṃca varṣakoṭīkoṭiśatāni triṃśac ca varṣakoṭikoṭyaś caturaśītiś ca varṣakoṭīśatasahasrāṇi ṣoḍaśa ca varṣakoṭīsahasrāṇy āyuṣaḥ pra<hi rend="it">māṇam,</hi> <pb ed='#GBM' n='1697.6'/> <hi rend="it">ast</hi>y antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_35">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthe bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śramaṇān brāhmaṇān sādhūn mātaraṃ pitaraṃ tathā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->santāpayati yo śiṣṭais tapane sa prapadyate // 40<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><pb ed='#GBM' n='1697.7'/> X X X yāni kṛtveha tāpayitvā bahujanān* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tapane upapadyante narake tena karmaṇā // 41<lb/>
+<lg xml:id="Āps_36">
+<l> icchatha yūyaṃ bhikṣavaḥ arbudopapannānāṃ satvānām āyuḥparyantaṃ śrotuṃ. eta<hi rend="it">sya</hi> <pb ed='#GBM' n='1698.1'/> <hi rend="it">bhagava</hi>n kāla, etasya sugata samayo, yad bhagavān bhikṣūṇāṃ arbudopapannānāṃ satvānām āyuḥparyantaṃ deśayed. bhagavataḥ śrutvā bhikṣavo dhārayiṣyanti. tena hi bhikṣavaḥ śṛ<hi rend="it">ṇuvantu</hi> <pb ed='#GBM' n='1698.2'/> <hi rend="it">sā</hi>dhu ca suṣṭhu ca manasikuruta bhāṣiṣye.</l>
+</lg>
+<lg xml:id="Āps_37">
+<l> tadyathā bhikṣavaḥ iha syād viṃśatikhārīkaḥ kosalakas tila<hi rend="it">vāhaḥ pūrṇas</hi> tilānāṃ sacūḍikābaddhaḥ. tataḥ kaścid eva pu<hi rend="it">ruṣo</hi> <pb ed='#GBM' n='1698.3'/> <hi rend="it">va</hi>rṣaśatasya varṣaśatasyātyayād ekaikaṃ tilam apanayet*. kṣiprataraṃ khalu bhikṣavaḥ savi<hi rend="it">ṃ</hi>śatikhārīkaḥ kosalakas tilavāhaḥ anenopakrameṇa pa<hi rend="it">rikṣayaṃ</hi> <pb ed='#GBM' n='1698.4'/> paryādānaṃ gacchen, na tv evāhaṃ arbudopapannānāṃ satvānām āyuḥparyantaṃ vadāmi.</l>
+</lg>
+<lg xml:id="Āps_38">
+<l> yathā viṃśatir arbudāny evam ekaṃ nirarbudaṃ. yathā viṃśatir nira<hi rend="it">rbudān</hi>y <pb ed='#GBM' n='1698.5'/> <hi rend="it">e</hi>vam ekam aṭaṭaṃ. yathā viṃśatir aṭaṭāny evam ekaṃ hahavaṃ. yathā viṃśatir hahavāny evam ekaṃ huhuvaṃ. yathā viṃśatir huhuvāny evam ekam utpalaṃ. <pb ed='#GBM' n='1698.6'/> yathā viṃśatir utpalāny evam ekaṃ padmaṃ. yathā vi<hi rend="it">ṃ</hi>śatiḥ padmāny evam ekaṃ mahāpadmaṃ, yatra kokāliko bhikṣavo <hi rend="it">devadattapakṣaḥ</hi> śāriputramaudgalyāyanayor bhikṣor <pb ed='#GBM' n='1698.7'/> antike cittaṃ pradūṣya svaśarīreṇaiva mahāpadme mahānarake upapannaḥ.</l>
+</lg>
+<lg xml:id="Āps_39">
+<l> tasmā<hi rend="it">t</hi> tarhi bhikṣava e<hi rend="it">va</hi>ṃ <hi rend="it">śikṣitavya</hi> + + + + + + + + pi cittam apradūṣayi <pb ed='#GBM' n='1699.1'/> + + ḥ prāg eva savijñānake + + ity evaṃ vo bhikṣavo śikṣitavyaṃ.</l>
+</lg>
+<lg xml:id="Āps_40">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthā bhāṣate.//zu 42-46 cf. Uv 7.2-6, Suvarṇavarṇāvadāna, PatnaDhp 300-303, Sn 127.1-15, SN I 149.17-31 etc.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->puru<hi rend="it">ṣasya hi jātasya kuṭḥārī jāyate mukhe /</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">c</hi>ch<hi rend="it">ina</hi>tti hi yayātmānaṃ <pb ed='#GBM' n='1699.2'/> <hi rend="it">vā</hi>cā durbhāṣitaṃ vadan* // 42<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yo nindyajana<hi rend="it">ṃ</hi> praśaṃsati praśaṃsyaṃ ca janaṃ vinindati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sa cinoti m<hi rend="it">u</hi>khena taṃ kaliṃ kalinā yena sukha<hi rend="it">ṃ na vindati // 43</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">alpamā</hi>tr<hi rend="it">o</hi> hy ayaṃ kalir ya ihākṣaiḥ svadha<hi rend="it">naṃ</hi> <pb ed='#GBM' n='1699.3'/> <hi rend="it">parā</hi>jayet* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ayam atra mahattaraḥ kalir ya<hi rend="it">ḥ</hi> sugateṣu manaḥ pradūṣyet* // 44<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śataṃ sahasrāṇi nirarbudānāṃ ṣaṭtriṃśataṃ paṃca caivārbudāni /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yān āryagarhī narakān upaiti<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vācaṃ ma<hi rend="it">naś</hi> <pb ed='#GBM' n='1699.4'/> <hi rend="it">ca pra</hi>ṇidhāya pāpakaṃ // 45<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->asatābhivadanti pā<hi rend="it">pa</hi>cittā narakān ātmavadhāya vardhayante /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->anavadyabalas titikṣate tan manaso 'nāvilatām asau prakurvan* // 46<lb/>
+<lg xml:id="Āps_41">
+<l> pratā<hi rend="it">pane</hi> <pb ed='#GBM' n='1699.5'/> <hi rend="it">khal</hi>u bhikṣavo mahānarake ardhakalpa āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_42">
+<l> atha bhagavāṃs tasyāṃ velāyāṃ gāthe bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->apahāya phalaṃ <pb ed='#GBM' n='1699.6'/> _ X <hi rend="it">ś</hi>ubhaṃ svargopapattaye /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aniṣṭaṃ karma kṛtveha utpadyante pratāpane // 47<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śramaṇān brāhmaṇān sādhūn mātaraṃ pitaraṃ tathā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->hanti yaś ca gurūn anyān pacyate sa pratāpa<hi rend="it">ne</hi> <pb ed='#GBM' n='1699.7'/> // 48<lb/>
+<lg xml:id="Āps_43">
+<l> avīcau khalu bhikṣavo mahānarake kalpa āyuṣaḥ pramāṇam, asty antareṇa kālakriyā. yatra devadatto mohapuruṣaḥ samagraṃ saṃghaṃ bhit<hi rend="it">v</hi>ā tathāgata<hi rend="it">syānti</hi>k<hi rend="it">e</hi> <pb ed='#GBM' n='1701.1'/> duṣṭacitto rudhiram utpādayitvā bhikṣuṇīṃ vārhantīṃ ghātayitvā svaśarīreṇaiva avīcau mahānarake <hi rend="it">upapannaḥ.</hi></l>
+</lg>
+<lg xml:id="Āps_42">
+<l> <hi rend="it">atha bhagavāṃs tasyāṃ velā</hi>yāṃ gāthā bhāṣate.</l>
+</lg>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yaḥ <pb ed='#GBM' n='1701.2'/> <hi rend="it">śā</hi>sanam āryāṇām arhatāṃ dharmajīvināṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pratikrośati durmedhā dṛṣṭiṃ niśṛtya pāpikāṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->phalaṃ kaṇṭakaveṇur vā <hi rend="it">phalat</hi>y <hi rend="it">ātmavadhāya saḥ // 49</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="it">kal</hi>yāṇikām eva muñcen na tu muñceta <pb ed='#GBM' n='1701.3'/> <hi rend="it">pāpikāṃ</hi> /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->muktvā kalyāṇikāṃ śreyo muktvā tapati pāpikān* // 50<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saced muñcet pratimuñced mu<hi rend="it">ñ</hi>camāno hi vadhyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na tām āryā vimuñcanti bālā muñcanti pāpikān* // 51<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->adhī <pb ed='#GBM' n='1701.4'/> X X ^ <hi rend="it">kṛ</hi>tveha karma durgatigāmikaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->avī<hi rend="it">cāv upa</hi>padyante narake tena karmaṇā // 52<lb/>
+<lg xml:id="Āps_45">
+<l> brahmakāyikānāṃ bhikṣavo devānām ardhakalpa āyuṣaḥ pramāṇam, <pb ed='#GBM' n='1701.5'/> <hi rend="it">asty antare</hi>ṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_46">
+<l> brahmapurohitānāṃ bhikṣavo devānāṃ kalpa āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_47">
+<l> mahābrahmāṇāṃ bhikṣavo devānām adhyardha<hi rend="it">kalpa //addhyardhakalpa</hi>// āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_48">
+<l> parīttābhānāṃ bhikṣavo devānāṃ dvau kalpāv āyuṣaḥ pramāṇam. asty a<hi rend="it">nta</hi>reṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_49">
+<l> apramāṇābhānāṃ bhikṣavo de<hi rend="it">vānāṃ</hi> <pb ed='#GBM' n='1701.7'/> catvāraḥ kalpā āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_50">
+<l> ābhāsvarāṇāṃ bhikṣavo devānām aṣṭau kalpā āyuṣaḥ pramāṇam, ast<hi rend="it">y</hi> an<hi rend="it">t</hi>areṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_51">
+<l> parī<hi rend="it">ttāśubhā</hi>nāṃ <pb ed='#GBM' n='1700.1'/> bhikṣavo devānāṃ ṣoḍaśa kalpā āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_52">
+<l> apraṃāṇaśubhānāṃ bhikṣavo devānāṃ dvātriṃśat kalpā āyuṣaḥ pramāṇam, asty a<hi rend="it">nta</hi>reṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_53">
+<l> <pb ed='#GBM' n='1700.2'/> śubhakṛtsnānāṃ bhikṣavo devānāṃ catuḥṣaṣṭiḥ kalpā āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_54">
+<l> anabhrakāṇāṃ bhikṣavo devānāṃ paṃcaviṃśaty adhikaṃ kalpaśatam āyuṣaḥ pramāṇam, a<hi rend="it">sty</hi> <pb ed='#GBM' n='1700.3'/> <hi rend="it">antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_55">
+<l> puṇyaprasavānāṃ bhikṣavo devānām ardhatritīyāni kalpaśatāny āyuṣaḥ pramāṇam, asty a<hi rend="it">nta</hi>reṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_56">
+<l> bṛhatphalānāṃ bhikṣavo devānāṃ <pb ed='#GBM' n='1700.4'/> <hi rend="it">paṃca kalpaśa</hi>tāny āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_57">
+<l> tathaivāsaṃjñāsatvānāṃ paṃca kalpaśatāny āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_58">
+<l> abṛhānāṃ <pb ed='#GBM' n='1700.5'/> <hi rend="it">bhikṣavo</hi> devānāṃ kalpasahasram āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_59">
+<l> atapānāṃ bhikṣavo devānāṃ dve kalpasahasre āyuṣaḥ pramāṇam, asty antare<hi rend="it">ṇa</hi> <pb ed='#GBM' n='1700.6'/> kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_60">
+<l> sudṛśānāṃ bhikṣavo devānāṃ catvāri kalpasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_61">
+<l> suda<hi rend="it">rśanānāṃ bh</hi>i<hi rend="it">kṣav</hi>o devānām aṣṭau kalpasahasrāṇy āyu<hi rend="it">ṣaḥ</hi> <pb ed='#GBM' n='1700.7'/> pramāṇam, asty antareṇa kālakriyā.</l>
+</lg>
+<lg xml:id="Āps_62">
+<l> akaniṣṭhānāṃ bhikṣavo devānāṃ ṣoḍaśa kalpasahasrāṇy āyuṣaḥ pra<hi rend="it">māṇam, asty antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_63">
+<l> <hi rend="it">ākā</hi>śānantyāyatanopagānāṃ <hi rend="it">bhikṣavo devānāṃ viṃśatiḥ kalpasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_64">
+<l> <hi rend="it">vijñānānantyāyatanānāṃ bhikṣavo devānāṃ catvāriṃśat kalpasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_65">
+<l> <hi rend="it">ākiṃcanyāyatanānāṃ bhikṣavo devānāṃ ṣaṣṭiḥ kalpasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_66">
+<l> <hi rend="it">naivasaṃjñānāsaṃjñāyatanānāṃ bhikṣavo devānām aśītiḥ kalpasahasrāṇy āyuṣaḥ pramāṇam, asty antareṇa kālakriyā.</hi></l>
+</lg>
+<lg xml:id="Āps_67">
+<l>...</l>
+</lg>
+</p>
+</body>
+</text>
+</TEI>

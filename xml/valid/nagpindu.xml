@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_nAgArjuna-piNDIkrama">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Piṇḍīkrama</title>
+	<!-- TODO: Verify author -->	
+	<author>Nāgārjuna</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by Ram Ram Shankar Tripathi: Piṇḍīkramaḥ Pañcakramaś ca, Varanasi/Sarnath 2001-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Nagarjuna: Pindikrama (transmitted as the first krama of Nagarjuna's Pancakrama)<BR>
+Based on the ed. by Ram Ram Shankar Tripathi: Piṇḍīkramaḥ Pañcakramaś ca, Varanasi/Sarnath 2001<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Version: 2009-04-29 09:27:09<BR>
+Proof Reader: Milan Shakya<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Pik">
+<body><p xml:id="0">
+piṇḍīkramaḥ
+</p><p xml:id="1">
+ācāryanāgārjunapraṇītaḥ
+</p><p xml:id="2">
+piṇḍīkramaḥ
+</p><p xml:id="3">
+namaḥ sarvajñāya
+</p>
+<lg xml:id="Pik_1">
+<l>trailokyācāramuktaṃ gaganasamagataṃ sarvabhāvasvabhāvam,</l>
+<l>śuddhaṃ śāntaṃ viviktaṃ paramaśivamayaṃ yogināmeva gamyam /</l>
+<l>durbodhaṃ durvicāraṃ svaparahitatamaṃ vyāpinaṃ nirnimittam,</l>
+<l>vande kāyaṃ jinānāṃ sukhamasamasamaṃ nirvikalpaikamūrtim //</l>
+</lg>
+<lg xml:id="Pik_2">
+<l>śrīmatsamājatantrasya ṣaṭkoṭyarthāvabodhataḥ /</l>
+<l>piṇḍīkramamahaṃ vakṣye sarvasattvahitodayam //</l>
+</lg>
+<lg xml:id="Pik_3">
+<l>vikalpavāsanādoṣān jagattrayavimohakān /</l>
+<l>samabhivīkṣya tān dhīmān yogatantreṇa śodhayet //</l>
+</lg>
+<lg xml:id="Pik_4">
+<l>pañca kāmān parityajya tapobhirna ca pīḍayet / Pik_</l>
+<l>sukhena dhārayed vodhiṃ yogatantrānusārataḥ //</l>
+</lg>
+<lg xml:id="Pik_5">
+<l>teneha saṃvarastho 'yamabhedastu sadā vratī /</l>
+<l>kāyavākcittavajrasya sādhanaṃ tu samārabhet //</l>
+</lg>
+<lg xml:id="Pik_6">
+<l>mahāṭavīpradeśeṣu phalapuṣpādyalaṅkṛte /</l>
+<l>parvate vijate sādhyaṃ sarvasiddhisamuccayam //</l>
+</lg>
+<lg xml:id="Pik_7">
+<l>mṛdvāsanasamāsīnaḥ sattvaparyaṅkasaṃsthitaḥ /</l>
+<l>dveṣavajrasamādhisthaḥ sthānarakṣāṃ vicintayet //</l>
+</lg>
+<lg xml:id="Pik_8">
+<l>daśakrodhān samutsṛjya jvālābhāsurabhīṣaṇān /</l>
+<l>hūṃkārodbhūtabhānusthān pratyālīḍhapade sthitān //</l>
+</lg>
+<lg xml:id="Pik_9">
+<l>daśadigmaṇḍalāgre tu sañcintyaivaṃ yathākramam /</l>
+<l>sarvavidhnavināśārthaṃ sumbhamājñāya kīlayet //</l>
+</lg>
+<p xml:id="5">
+aṃ sumbha nisumbha hūṃ gṛhṇa gṛhṇa hūṃ gṛhṇāpaya gṛhṇāpaya hūṃ ānaya ho bhagavan vidyārāja hūṃ phaṭ /
+</p>
+<lg xml:id="Pik_10">
+<l>anena krodharūpeṇa ākṛṣyaivaṃ vināyakān /</l>
+<l>kīlayed vidhivat sarvān prayogeṇa tu buddhimān //</l>
+</lg>
+<lg xml:id="Pik_11">
+<l>vajrāmṛtamahārājaṃ vrajakīlaṃ vibhāvayet /</l>
+<l>nīlotpaladalaśyāmaṃ jvālāmālākulapratham //</l>
+</lg>
+<lg xml:id="Pik_12">
+<l>nābhideśādadhoobhāgaṃ śūlākāraṃ vibhāvayet /</l>
+<l>ūrdhvaṃ krodhākṛtiṃ caiva trimukhākāraṣaḍbhujam //</l>
+</lg>
+<lg xml:id="Pik_13">
+<l>adho vighnagaṇān vīkṣya tān mantraṃ samudāharan /</l>
+<l>nikhanet vajrakīlaṃ tu vighnadeheṣu niścalam //</l>
+</lg>
+<p xml:id="6">
+oṃ gha gha ghātaya ghātaya sarvaduṣṭān phaṭ phaṭ kīlaya kīlaya sarvapāpān phaṭ phaṭ hūṃ hūṃ hūṃ vajrakīla vajradhara ājñāpayati sarvavighnānāṃ kāyavākcittavajraṃ kīlaya hūṃ hūṃ hūṃ phaṭ /
+</p><p xml:id="7">
+vajramudgarahastaṃ ca sumbharājaṃ vibhāvayet /
+</p>
+<lg xml:id="Pik_14">
+<l>vajramudgarahastaṃ ca sumbharājaṃ vibhāvayet /</l>
+<l>vajravahniṃ samantācca vispharantaṃ vicintya vai /</l>
+<l>duṣṭān pralapitāṃścinted dahyamānānitastataḥ //</l>
+</lg>
+<p xml:id="8">
+daśadik kīlayitvā tu adha ūrdhvamadhiṣya ca /<lb/>
+bhāvayet paramārthena niḥsvabhāvabhavatrayam // Pik_15 /
+</p>
+<lg xml:id="Pik_16">
+<l>abhāve bhāvanābhāvo bhāvanā naiva bhāvanā /</l>
+<l>iti bhāvo na bhāvaḥ syād bhāvanā nopalabhyate //</l>
+</lg>
+<lg xml:id="Pik_17">
+<l>anayā gāthayā śūnyaṃ dhyātvā sthiracarātmakam /</l>
+<l>anena vidhiyogena jñānabhūmiradhiṣyate //</l>
+</lg>
+<lg xml:id="Pik_18">
+<l>ākāśadhātumadhyasthaṃ bhāvayed vāyumaṇḍalam /</l>
+<l>dvi-hūṃ yaṃ bījaniṣpannaṃ vajradvayasamāyutam //</l>
+</lg>
+<lg xml:id="Pik_19">
+<l>agnimaṇḍalakaṃ cāpi tasyopari vibhāvayet /</l>
+<l>dvi-hūṃ raṃ bījaniṣpannaṃ vajradvayasamāṅkitam //</l>
+</lg>
+<lg xml:id="Pik_20">
+<l>vārimaṇḍalakaṃ cāpi tasyopari vibhāvayet /</l>
+<l>dvi-hūṃ vaṃ bījaniṣpannaṃ vajradvayasamāyutam //</l>
+</lg>
+<lg xml:id="Pik_29">
+<l>pṛthvīmaṇḍalakaṃ cāpi tasmopari vibhāvayet /</l>
+<l>dvi-hūṃ laṃ bījaniṣpannaṃ vajradvayasamanvitam //</l>
+</lg>
+<lg xml:id="Pik_22">
+<l>caturmaṇḍalasaṃhāre vajrabhūbhāgamaṇḍalam /</l>
+<l>tatra bhrūṃkāraniṣpatraṃ kūṭāgāraṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_23">
+<l>caturastraṃ caturdvāraṃ catustoraṇaśobhitam /</l>
+<l>catuḥsūtrasamāyuktamaṣṭambhopaśobhitam //</l>
+</lg>
+<lg xml:id="Pik_24">
+<l>hārārddhahāraracitaṃ maṇivajrārdhacandrakam /</l>
+<l>khacitaṃ vajraratnaistu dvāraniryūhasandhiṣu //</l>
+</lg>
+<lg xml:id="Pik_25">
+<l>kumbhastambhamahāvajraṃ kramaśīrṣastu pakṣiṇī /</l>
+<l>ghaṇṭāpatākasaṃśobhaṃ cāmarādivibhūṣitam //</l>
+</lg>
+<lg xml:id="Pik_26">
+<l>madhyamaṇḍalake dhyāyādātmānaṃ mudrayā yutam /</l>
+<l>trimukhaṃ ṣaḍbhujākāramindranīlasamapratham //</l>
+</lg>
+<lg xml:id="Pik_27">
+<l>śrīvairocana-ratnau ca amitābhaśca karmarāṭ /</l>
+<l>pūrvādidikṣu sañcintyāstrimukhākāraṣaḍbhujāḥ //</l>
+</lg>
+<lg xml:id="Pik_28">
+<l>moharatyādikā devyastrimukhākāraṣaḍbhujāḥ /</l>
+<l>āgneyīṃ diśāmārabhya sanniveśyā yathākramam //</l>
+</lg>
+<lg xml:id="Pik_29">
+<l>rūpavajrādikāstadvad bāhyakoṇacatuṣṭaye /</l>
+<l>sthitaiva sparśavajrā tu vajrasattvasamāyutā //</l>
+</lg>
+<lg xml:id="Pik_30">
+<l>paṭṭikāyāṃ nyaset pūrve maitreyaṃ kṣitigarbhakam /</l>
+<l>vajrapāṇiṃ khagarbhaṃ ca nyased dakṣiṇato vratī //</l>
+</lg>
+<lg xml:id="Pik_31">
+<l>lokeśaṃ mañcughoṣaṃ ca paścimāyāṃ nyaset punaḥ /</l>
+<l>sarvāvaraṇaviṣkambhiṃ samantabhadrañcottare //</l>
+</lg>
+<lg xml:id="Pik_32">
+<l>yamāntakaśca prāgdvāre dakṣiṇe tvaparājitaḥ /</l>
+<l>paścime tu hayagrīva uttare 'mṛtakuṇḍaliḥ //</l>
+</lg>
+<lg xml:id="Pik_33">
+<l>acalaṣṭakkirājaśca nīladaṇḍo mahābalaḥ /</l>
+<l>pūrvādikoṇamārabhya pravicintyā yathāyatham //</l>
+</lg>
+<lg xml:id="Pik_34">
+<l>sumbharājamahākrodhamadhastāt pravicintayet /</l>
+<l>uṣṇīṣacakravartī ca pravicintyastathopari //</l>
+</lg>
+<lg xml:id="Pik_35">
+<l>dhyātvaivamadhimuktayā vai māṇḍaleyān yathāvidhi /</l>
+<l>punaḥ sampuṭayogena svakāye tān praveśayet //</l>
+</lg>
+<lg xml:id="Pik_36">
+<l>kāyacakragatān buddhān sañcintyaivaṃ yathāyatham /</l>
+<l>pāramārthikacakreṇa tathatāyāṃ praveśayet //</l>
+</lg>
+<lg xml:id="Pik_37">
+<l>mārayet tvāgataṃ vyūhaṃ sutarāṃ siddhimāpnuyāt /</l>
+<l>asyārtho vajramālāyāṃ vistṛto visphuṭaṃ yathā //</l>
+</lg>
+<lg xml:id="Pik_38">
+<l>rūpaskandhagatādarśo bhūdhāturnayanendriyam /</l>
+<l>rūpaṃ ca pañcamaṃ yāti krodhamaitreyasaṃyutam //</l>
+</lg>
+<lg xml:id="Pik_39">
+<l>vedanā skandhasamatā abdhātuḥ śravaṇendriyam /</l>
+<l>śabdaśca pañcamaṃ yāti krodhadvayasamanvitam //</l>
+</lg>
+<lg xml:id="Pik_40">
+<l>saṃjñā ca pratyavaikṣaṇyaṃ hutabhug nāsikendriyam /</l>
+<l>gandhaśca pañcaṃ yāti krodhadvayasamanvitam //</l>
+</lg>
+<lg xml:id="Pik_41">
+<l>saṃskāraḥ kṛtyānuṣṭānaṃ māruto rasanendriyam /</l>
+<l>rasaśca pañcamaṃ yāti krodhadvayasamanvitam //</l>
+</lg>
+<lg xml:id="Pik_42">
+<l>urdhvādhaḥ krodhasaṃyuktaṃ prakṛtyābhāsameva ca /</l>
+<l>vijñānaskandhamāyāti vijñānaṃ ca prabhāsvaram //</l>
+</lg>
+<lg xml:id="Pik_43">
+<l>nirvāṇaṃ sarvaśūnyaṃ ca dharmakāyaśca gadyate /</l>
+<l>dṛḍhīkaraṇahetutvān mantrametadudāharet //</l>
+</lg>
+<p xml:id="9">
+oṃ śūnyatājñānavajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_44">
+<l>paramārthamaṇḍalaṃ hyetannirābhāsamalakṣaṇam /</l>
+<l>paramārthasatyanāmāpi sarvatāthāgatālayaḥ //</l>
+</lg>
+<lg xml:id="Pik_45">
+<l>prabhāsvarapraviṣṭasya vyutthānaṃ ca pradarśate /</l>
+<l>mantramūrtiprayogeṇa devatālambanaṃ prati //</l>
+</lg>
+<lg xml:id="Pik_46">
+<l>ākāśadhātumadhyasthaṃ bhāvayet sūryamaṇḍalam /</l>
+<l>tasyopari punarmantrī candrabimbaṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_47">
+<l>tatra cāṣṭadalaṃ padmaṃ raktavarṇaṃ vibhāvayet /</l>
+<l>padmopari mahāmantraṃ tryakṣaraṃ bhāvayet punaḥ //</l>
+</lg>
+<lg xml:id="Pik_48">
+<l>mantraṃ padmaṃ tathā sūryaṃ praviṣṭaṃ candramaṇḍale /</l>
+<l>candramaṇḍalamāpūrṇaṃ bodhicittaṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_49">
+<l>sthāvaraṃ jaṅgamaṃ sarvaṃ tatraiva pravicintayet /</l>
+<l>dṛḍhīkaraṇahetutvānmantrametadudāharet //</l>
+</lg>
+<p xml:id="10">
+oṃ dharmadhātusvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_50">
+<l>yogamevaṃ samālambya anuyogaṃ samācaret /</l>
+<l>punaśca tryakṣaraṃ yogī candramadhye vicintayet //</l>
+</lg>
+<lg xml:id="Pik_51">
+<l>tatastryakṣarasambhūtaṃ sitakundendusannibham /</l>
+<l>ādināthaṃ vicintyātha atiyogaṃ samārabhet //</l>
+</lg>
+<lg xml:id="Pik_52">
+<l>akṣobhyānupraveśena trimukhaṃ ṣaḍbhujojjvalam /</l>
+<l>indranīlaprabhaṃ dīptaṃ vajrasattvaṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_53">
+<l>vajraṃ cakraṃ tathā padmaṃ savyahasteṣu bhāvayet /</l>
+<l>ghaṇṭāṃ ratnaṃ tathā khaṅgaṃ vāmahasteṣu bhāvayet //</l>
+</lg>
+<lg xml:id="Pik_54">
+<l>tato nyāsaṃ prakurvīta skandhādīnāṃ vibhāgavit /</l>
+<l>vairocanādisumbhāntaṃ bījanyāsena tattvataḥ //</l>
+</lg>
+<lg xml:id="Pik_55">
+<l>vairocanīyabījaṃ tu oṃkāraṃ śuklavarṇakam /</l>
+<l>rūpaskandhasvabhāvena nyasen mūrdhani mantravit //</l>
+</lg>
+<lg xml:id="Pik_56">
+<l>āḥkāramamittābhasya saṃjñāskandhasvabhāvakam /</l>
+<l>raktavarṇaṃ mukhe dhyātvā vāgaiśvaryamavāpnuyāt //</l>
+</lg>
+<lg xml:id="Pik_57">
+<l>akṣobhyasya tu hūkāraṃ rājāvartakasuprabham /</l>
+<l>vinyaseddhṛdaye mantrī vijñānaskandharūpataḥ //</l>
+</lg>
+<lg xml:id="Pik_58">
+<l>svākāraṃ ratnanāthasya vedanāskandharūpataḥ /</l>
+<l>pītavarṇaṃ nyasennābhau vedanāśuddhihetukam //</l>
+</lg>
+<lg xml:id="Pik_59">
+<l>pādadvaye tu hāḥkāraṃ saṃskāaskandhabhāvataḥ /</l>
+<l>haritābhaṃ nyasenmantrī karmanāthasya tattvataḥ //</l>
+</lg>
+<lg xml:id="Pik_60">
+<l>moharatyādikairmantrī pṛthivyādīn praveśayet /</l>
+<l>kharatvaṃ dravatā auṣṇyamīraṇatvaṃ ca te kramāt //</l>
+</lg>
+<lg xml:id="Pik_61">
+<l>thlīṃkāraṃ cakṣuṣi nyasya kṣitigarbhaṃ vibhāvayet /</l>
+<l>oṃkāraṃ karṇayornyasya vajrapāṇiṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_62">
+<l>oṃkāraṃ vinyased ghrāṇe khagarbhaṃ tu vibhāvayet /</l>
+<l>oṃkāraṃ rasane dhyātvā lokeśaṃ ca vikalpayet //</l>
+</lg>
+<lg xml:id="Pik_63">
+<l>hūṃkāraṃ manasi dhyātvā mañjughoṣaṃ prabhāvayet /</l>
+<l>oṃkāraṃ sarvakāye ca dhyātvā viṣkambhiṇaṃ smaret //</l>
+</lg>
+<lg xml:id="Pik_64">
+<l>maiṃ-kāreṇa śiraḥsaṃsthaṃ maitreyaṃ parikalpayet /</l>
+<l>bhadraṃ samantato dhyātvā sarvasandhiṣu sannyaset //</l>
+</lg>
+<lg xml:id="Pik_65">
+<l>yamāntakaḥ savyabhuje apasavye 'parājitaḥ /</l>
+<l>hayagrīvo mukhe bhāvyo vajre cāmṛtakuṇḍaliḥ //</l>
+</lg>
+<lg xml:id="Pik_66">
+<l>acalaṃ dakṣiṇe bhāge vāme ca ṭakkirājakam /</l>
+<l>jānau ca dakṣiṇe cintennīladaṇḍaṃ mahojjavalam //</l>
+</lg>
+<lg xml:id="Pik_67">
+<l>vāmajānau mahābalaṃ mūrdhni coṣṇīṣajriṇam /</l>
+<l>pādāntadvayavinyastaṃ sumbharājaṃ vicintayet //</l>
+</lg>
+<lg xml:id="Pik_68">
+<l>nyāsaṃ kṛtvā tato mantrī skandhādīnāṃ yathāvidhi /</l>
+<l>kāyamaṇḍalamāpanno mahāyogaṃ samārabhet //</l>
+</lg>
+<lg xml:id="Pik_69">
+<l>mūrdhni madhyagataṃ cintet sampūrṇaṃ candramaṇḍalam /</l>
+<l>tatra oṃkāraṃ śuklābhaṃ prasphurat-pañcaraśmikam //</l>
+</lg>
+<lg xml:id="Pik_70">
+<l>tato devīṃ viniścārya ādhipatyaprayogataḥ /</l>
+<l>locanāṃ vividhāṃ cintet sarvavyomni prapūritām //</l>
+</lg>
+<lg xml:id="Pik_71">
+<l>kāyavajraṃ vicintyātha vyomāpūrya vyavasthitam /</l>
+<l>tanmadhye 'dhipatiṃ cintedātmanaśca puraḥsthitam //</l>
+</lg>
+<lg xml:id="Pik_72">
+<l>dvātriṃśallakṣaṇadharaṃ vyañcanāśītibhūṣitam /</l>
+<l>prārthayet tu tato mantrī gāthādvayamudāharan //</l>
+</lg>
+<lg xml:id="Pik_73">
+<l>buddhakāyadharaḥ śrīmāṃstrivajrābhedyabhāvitaḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya karotu kāyavajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_74">
+<l>daśadiksaṃsthitā buddhāstrivajrābhedyabhāvitāḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya kurvantu kāyavajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_75">
+<l>locanāsahasaṃyuktaṃ śāścataṃ ca vibhāvayet /</l>
+<l>tatpraveśyādhitiṣṭheta pañcuskandhaprapūritam //</l>
+</lg>
+<lg xml:id="Pik_76">
+<l>yatkāyaṃ sarvabuddhānāṃ pañcaskandhaprapūritam /</l>
+<l>buddhākāyasvabhāvena mamāpi tādṛśaṃ bhavet //</l>
+</lg>
+<p xml:id="11">
+oṃ sarvatathāgatakāyavajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_77">
+<l>jihvābjamadhyagataṃ cinted āḥkāraṃ raktavarṇakam /</l>
+<l>pāṇḍarākhyāṃ ca sagaṇāṃ saṃspharet vyomapūritām //</l>
+</lg>
+<lg xml:id="Pik_78">
+<l>vāgvajraṃ ca tathā mantrī vyomāpūrya vyavasthitam /</l>
+<l>prārthayet tu tato mantrī gāthādvayamudāharan //</l>
+</lg>
+<lg xml:id="Pik_79">
+<l>dharmo vai vākpathaḥ śrīmāṃstrivajrābhedyabhāvitaḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya karotu vāgvajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_80">
+<l>daśadiksaṃsthitā buddhāstrivajrābhedyabhāvitāḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya kurvantu vāgvajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_81">
+<l>svanāyakena saṃyuktāṃ pāṇḍarāṃ sahasaiva tu /</l>
+<l>jihvāpraviṣṭāṃ sañcintya vāgadhiṣṭhānamārabhet //</l>
+</lg>
+<lg xml:id="Pik_82">
+<l>yadeva vajradharmasya vācā niruktisampadā /</l>
+<l>mamāpi tādṛśī vācā bhaved dharmadharopamā //</l>
+</lg>
+<p xml:id="12">
+oṃ sarvatathāgatavāgvajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_83">
+<l>vinyasya hṛdaye mantrī śaśibimbaṃ samujjvalam /</l>
+<l>rājāvartanibhaṃ tatra hūṃkāraṃ pañcaraśmikam //</l>
+</lg>
+<lg xml:id="Pik_84">
+<l>tato niścārayed devīṃ māmakīṃ sagaṇāṃ tataḥ /</l>
+<l>cittavajraṃ tathā dhyātvā prārthayeta yathā puraḥ //</l>
+</lg>
+<lg xml:id="Pik_84">
+<l>cittavajradharaḥ śrīmāṃstrivajrābhedyabhāvitaḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya karotu cittavajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_84">
+<l>daśadiksaṃsthitā buddhāstrivajrābhedyabhāvitāḥ /</l>
+<l>adhiṣṭhānapadaṃ me 'dya kurvantu cittavajriṇaḥ //</l>
+</lg>
+<lg xml:id="Pik_87">
+<l>cittavajrasamāyuktaṃ hṛdaye sampraveśya ca /</l>
+<l>māmakīvyūhamakhilaṃ cittādhiṣṭhānamārabhet //</l>
+</lg>
+<lg xml:id="Pik_88">
+<l>yaccittaṃ samantabhadrasya guhyakendrasya dhīmataḥ /</l>
+<l>mamāpi tādṛśaṃ cittaṃ bhaved vajradharopamam // Pik_</l>
+</lg>
+<p xml:id="13">
+oṃ sarvatathāgatacittavajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_89">
+<l>evaṃ pṛthagadhiṣṭhāya kulatrayavibhāgataḥ /</l>
+<l>punaḥ sarvātmakaṃ kuryānmantreṇānena buddhimān //</l>
+</lg>
+<p xml:id="14">
+oṃ sarvatathāgatakāyavākcittavajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_90">
+<l>adhiṣṭhāyaivamātmānaṃ śaśimaṇḍalamadhyagam /</l>
+<l>ṣaḍbhiścihnaiḥ samāyuktaṃ cintet samayasattvakam //</l>
+</lg>
+<lg xml:id="Pik_91">
+<l>hṛnmadhyasaṃsthitaṃ sūkṣmaṃ jñānasattvaṃ vibhāvayet /</l>
+<l>samādhisattvasaṃjñaṃ ca hūṃkāraṃ taddṛḍhī nyaset //</l>
+</lg>
+<lg xml:id="Pik_92">
+<l>niṣpādyaivaṃ mahāyogaṃ trisattvātmakamātmavān /</l>
+<l>anena vidhiyogena mahāsādhānamārabhet //</l>
+</lg>
+<lg xml:id="Pik_93">
+<l>prāpya kanyāṃ viśālākṣīṃ rūpayauvanamaṇḍitām /</l>
+<l>nīlotpaladalaśyāmāṃ rajakasya mahātmanaḥ //</l>
+</lg>
+<lg xml:id="Pik_94">
+<l>suśikṣitāṃ samādāya sādhake bhaktivatsalām /</l>
+<l>oṃkāraṃ śirasi dhyātvā āḥkāraṃ vākyathe nyaset //</l>
+</lg>
+<lg xml:id="Pik_15">
+<l>hūṃkāraṃ hṛdaye dhyātvā svā nābhau hā dvipādayoḥ /</l>
+<l>locanāṃ māmakīṃ cāpi tathā pāṇḍaravāsinīm //</l>
+</lg>
+<p xml:id="15">
+tārāṃ cāpi tathā mantrī pṛthivyādiṣu sannyaset /<lb/>
+rūpavajrādikā devīstasyāmeva vibhāvayet // Pik_ 96 //
+</p>
+<lg xml:id="Pik_97">
+<l>kṣitigarbhādibhistāsāṃ samāpattiṃ vibhāvayet /</l>
+<l>dakṣiṇe vajravetālīṃ bhuje vāme 'parājitām //</l>
+</lg>
+<lg xml:id="Pik_98">
+<l>bhṛkuṭiṃ ca mukhe tasyā ekajaṭāṃ ca guhyake /</l>
+<l>bhūyo dakṣiṇapārśvasthāṃ viśvavajrīṃ tathāgatīm //</l>
+</lg>
+<lg xml:id="Pik_99">
+<l>viśvaratnāṃ ca vāme tu mudrāyāḥ pravibhāvayet /</l>
+<l>purnadakṣiṇajānusthāṃ viśvapadmāṃ tathāgatīm //</l>
+</lg>
+<lg xml:id="Pik_100">
+<l>viśvakarmāṃ ca vāme tu mūrdhni gaganavajriṇīm / Pik_</l>
+<l>pādāntadvayavinyastāṃ dharaṇīndharadevatīm //</l>
+</lg>
+<lg xml:id="Pik_101">
+<l>evaṃ saṃskṛtya tāṃ yogī vajrapadmathārabhet /</l>
+<l>mantrī hūṃkārajaṃ vajraṃ dhyāyād vai pañcasūcikam //</l>
+</lg>
+<p xml:id="16">
+madhyasūcau tathā tasya praṇavaṃ va vibhāvayet /
+</p>
+<lg xml:id="Pik_102">
+<l>madhyasūcau tathā tasya praṇavaṃ va vibhāvayet /</l>
+<l>tathaivāṣṭadalaṃ padmam āḥkāreṇa tu bhāvayet /</l>
+<l>pañcaraśmisamākīrṇaṃ tataḥ sādhanamārabhet //</l>
+</lg>
+<p xml:id="17">
+oṃ sarvatathāgatānurāgaṇavajrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_103">
+<l>hūṃkāragītena tu cālayeta samudvahan vajradharasya garvam /</l>
+<l>svabodhicittodayakāla eva phaṭkāramantraṃ samudīrayet saḥ //</l>
+</lg>
+<lg xml:id="Pik_104">
+<l>visargānte punarmantrī bodhicittena pūjayet /</l>
+<l>daśadiksaṃsthitān buddhān mantrametadudīrayet //</l>
+</lg>
+<p xml:id="18">
+oṃ sarvatathāgatapūjājrasvabhāvātmako 'ham /
+</p>
+<lg xml:id="Pik_105">
+<l>svamantrākṣaraniṣpannaṃ trivajrādhiṣṭhitasvakam /</l>
+<l>padmamadhye tu niṣpādya dveṣavajro bhavet punaḥ //</l>
+</lg>
+<lg xml:id="Pik_106">
+<l>vajradhṛg-mantraniṣpannaṃ paśyedakṣobhyavajriṇam /</l>
+<l>jaṭāmukuṭadharaṃ nātham akṣobhyakṛtaśekharam //</l>
+</lg>
+<lg xml:id="Pik_107">
+<l>nṛpāvartakasaṅkāśaṃ kṛṣṇaraktasitānanam / Pik_</l>
+<l>sarvālaṅkārasampūrṇaṃ ṣaḍbhujaṃ tu vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_108">
+<l>vajraṃ cakraṃ tathā padmaṃ savyahasteṣu dhārayet /</l>
+<l>ghaṇṭāṃ cintāmaṇiṃ khaḍgaṃ tasya vāmeṣu bhāvayet //</l>
+</lg>
+<lg xml:id="Pik_109">
+<l>niṣkramya hṛdayādeṣa vyavalokya diśo daśa /</l>
+<l>buddharddhimakhilāṃ kṛtvā dharmacakraṃ pravartya ca //</l>
+</lg>
+<lg xml:id="Pik_110">
+<l>saṃśodhya nikhilān sattvān dveṣavajrapade sthitān /</l>
+<l>āgatya vajranāthasya purato 'bhiniṣīdati //</l>
+</lg>
+<lg xml:id="Pik_111">
+<l>anupraveśya tanmantrī hṛdyātmānaṃ vibhāvayet /</l>
+<l>pūrvarūpaṃ parāvṛttya dveṣavajrapade sthitaḥ //</l>
+</lg>
+<lg xml:id="Pik_112">
+<l>indranīlaprabhaṃ dīptaṃ sūryamaṇḍalamadhyagam /</l>
+<l>svamudrāliṅgitaṃ vīraṃ sarvālaṅkārabhūṣitam //</l>
+</lg>
+<lg xml:id="Pik_113">
+<l>raudraśāntamahārāgaṃ mukhatrayavirājitam /</l>
+<l>dveṣavajrasamādhisthaḥ protsṛjet sarvamaṇḍalam //</l>
+</lg>
+<lg xml:id="Pik_114">
+<l>jinajig-mantraniṣpannaṃ sṛjed vairocanaṃ vibhum /</l>
+<l>śaraccandrāṃśusaṅkāśaṃ jaṭāmukuṭamaṇḍitam //</l>
+</lg>
+<lg xml:id="Pik_115">
+<l>sitaraktakṛṣṇavadanaṃ ṣaḍbhujaṃ śāntarūpiṇam /</l>
+<l>cakravajrasitāmbhojaṃ dakṣiṇeṣu vicintayet //</l>
+</lg>
+<lg xml:id="Pik_116">
+<l>ghaṇṭāṃ cintāmaṇiṃ khaḍgaṃ vāmeṣvasya vibhāvayet /</l>
+<l>hṛdayāt tathaiva nirgatya mohacaryāsthitāḥ prajāḥ //</l>
+</lg>
+<lg xml:id="Pik_117">
+<l>saṃśodhya punarāgatya punaścake niṣīdati /</l>
+<l>ratnadhṛg-mantraniṣpannaṃ ratnaketuṃ sṛjed budhaḥ //</l>
+</lg>
+<lg xml:id="Pik_118">
+<l>jaṭājūṭadharaṃ saumyamakṣobhyakṛtaśekharam /</l>
+<l>pītakṛṣṇasitāsyaṃ ca ṣaḍbhujaṃ cāpi cintayet //</l>
+</lg>
+<lg xml:id="Pik_119">
+<l>tasya cintāmaṇiṃ vajraṃ cakraṃ savyeṣu bhāvayet /</l>
+<l>ghaṇṭāṃ ca pītakamalaṃ khaḍgaṃ vāmeṣu bhāvayet //</l>
+</lg>
+<lg xml:id="Pik_120">
+<l>hṛdayāt tathaiva nirgatya ahaṅkārapade sthitān /</l>
+<l>saṃśodhya dakṣiṇe bhāge ratnamadhye niṣīdati //</l>
+</lg>
+<lg xml:id="Pik_121">
+<l>ārolig-mantraniṣpannaṃ sṛjedamitavajriṇam /</l>
+<l>padmarāgaprabhaṃ saumyamakṣobhyakṛtaśekharam //</l>
+</lg>
+<lg xml:id="Pik_122">
+<l>jaṭāmukuṭadharaṃ nāthaṃ raktakṛṣṇasitānanam /</l>
+<l>śṛṅgārarasasaṃyuktaṃ ṣaḍbhujaṃ tu vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_123">
+<l>padmanālaṃ gṛhītvā tu vāmena saha ghaṇṭayā /</l>
+<l>hṛtpradeśasthitaṃ padmaṃ dakṣiṇena vikāśayet //</l>
+</lg>
+<lg xml:id="Pik_124">
+<l>savyayorvajracakre tu vāmayoḥ ratnakhaḍgakau / Pik_</l>
+<l>pūrvavad rāgiṇaḥ śodhya pṛṣṭhato 'bje niṣīdatī //</l>
+</lg>
+<lg xml:id="Pik_125">
+<l>amoghavajriṇaṃ mantrī prajñādhṛg-mantranirmitam /</l>
+<l>haritābhaṃ sṛjennāthaṃ jaṭāmukuṭamaṇḍitam //</l>
+</lg>
+<lg xml:id="Pik_126">
+<l>haritakṛṣṇasitāsyaṃ ca ṣaḍbhujaṃ raśmibhāsuram /</l>
+<l>khaḍgaṃ ca viśvavajraṃ ca cakraṃ savyeṣu bhāvayet //</l>
+</lg>
+<lg xml:id="Pik_127">
+<l>ghaṇṭāmapasavyahasteṣu haritapadmaṃ maṇiṃ tathā /</l>
+<l>abhūtavacasaḥ sattvān viśodhya punarāgataḥ //</l>
+</lg>
+<lg xml:id="Pik_128">
+<l>uttarasyāṃ diśi tathā viśvavajre niṣīdati /</l>
+<l>dveṣo mohastathā rāgaścintāmaṇiḥ samayastathā //</l>
+</lg>
+<lg xml:id="Pik_129">
+<l>kulā hyete tu vai pañca kāmamokṣaprasādhakāḥ /</l>
+<l>mantrānmoharaterjātāṃ sṛjed devīṃ tu locanām //</l>
+</lg>
+<lg xml:id="Pik_130">
+<l>śvetāṃ śāntarasopetāṃ mūrdhni vairocanāṅkitām /</l>
+<l>sitaraktakṛṣṇavadanāṃ ṣaḍbhujāṃ tu vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_139">
+<l>savye cakraṃ va vajraṃ ca tathaiva sitamutpalam /</l>
+<l>vāme ghaṇṭāṃ tathā ratnaṃ khaḍgaṃ cāpi vibhāvayet //</l>
+</lg>
+<lg xml:id="Pik_132">
+<l>hṛdayāt tu vinirgatya vyavalokya diśo daśa /</l>
+<l>grahavyādhyāture loke śāntiṃ kṛtvā mahākṛpā //</l>
+</lg>
+<lg xml:id="Pik_133">
+<l>āgatya cakramadhye tu pūrvakoṇe niṣīdati /</l>
+<l>mantrād dveṣaraterjātā sṛjed devīṃ tu māmakīm /</l>
+</lg>
+<lg xml:id="Pik_134">
+<l>mantrād dveṣaraterjātā sṛjed devīṃ tu māmakīm /</l>
+<l>nīlotpaladalaśyāmāṃ cāruvaktrāṃ manoramām / Pik_</l>
+<l>kṛṣṇaraktasitāsyāṃ ca akṣobhyakṛtaśekharām //</l>
+</lg>
+<lg xml:id="Pik_135">
+<l>savyeṣu vajraṃ cakraṃ ca nīlaraktotpalaṃ tathā /</l>
+<l>ghaṇṭāṃ ratnaṃ ca khaḍgaṃ ca vāhasteṣu dhārayet //</l>
+</lg>
+<lg xml:id="Pik_136">
+<l>mahāvighnabhayārtānāṃ rakṣāṃ kṛtvā mahākṛpā /</l>
+<l>niṣkramya punarāgatya nairṛtyāṃ sā niṣīdati //</l>
+</lg>
+<lg xml:id="Pik_137">
+<l>mantrād rāgaraterjātā sṛjet pāṇḍaravāsinīm /</l>
+<l>raktakṛsṇasitāsyāṃ vai padmarāgamaṇiprabhām //</l>
+</lg>
+<lg xml:id="Pik_138">
+<l>sāmitābhajaṭājūṭāṃ ṣaḍbhujāṃ tu vibhāvayet /</l>
+<l>gṛhītvolpalanālaṃ tu vāmena saha ghaṇṭayā //</l>
+</lg>
+<lg xml:id="Pik_139">
+<l>utpalaṃ hṛtpradeśasthaṃ rakta savyena bodhayet /</l>
+<l>vajraṃ cakraṃ ca savyābhyāṃ maṇiṃ khaḍgaṃ ca vāmataḥ //</l>
+</lg>
+<lg xml:id="Pik_140">
+<l>dhārayantī vinirgatya śāntiṃ kṛtvā mahāture /</l>
+<l>āgatya padmamadhye vai vāyukoṇe niṣīdati //</l>
+</lg>
+<lg xml:id="Pik_141">
+<l>mantrād vajraraterjātāṃ sṛjet tārāṃ manoramām /</l>
+<l>haritakṛṣṇasitāsyāṃ ca dūrvāpatrasamaprabhām //</l>
+</lg>
+<lg xml:id="Pik_142">
+<l>amoghena kṛtosṇīṣāṃ ṣaḍbhujāṃ tu vibhāvayet /</l>
+<l>viśvavajraṃ ca cakraṃ ca savyato 'sitamutpalam //</l>
+</lg>
+<lg xml:id="Pik_143">
+<l>vāmeṣu vinyased ghaṇṭāṃ ratnaṃ khaḍgaṃ tathā vratī /</l>
+<l>sarvasattvān vaśīkṛtya viśvavajrāsanā punaḥ //</l>
+</lg>
+<lg xml:id="Pik_144">
+<l>nirgatāsau samāgamya śivasthāne niṣīdati /</l>
+<l>dvitīye tu puṭe yogī rūpavajrādikaṃ sṛjet //</l>
+</lg>
+<lg xml:id="Pik_145">
+<l>agnikoṇe sṛjed devīṃ rūpavajrāṃ manoramām /</l>
+<l>trimukhāṃ ṣaḍbhujāṃ śvetāṃ śrīvairocanamaulikām //</l>
+</lg>
+<lg xml:id="Pik_146">
+<l>gṛhītadarpaṇāṃ dvābhyāṃ śeṣaṃ moharateriva /</l>
+<l>nairṛtyāṃ vinyased devīṃ śabdavajrāṃ tu ṣaḍbhujām //</l>
+</lg>
+<lg xml:id="Pik_147">
+<l>pītavarṇāṃ trivaktrāṃ ca ratnasambhavamaulikām /</l>
+<l>vīṇāvyagradvihastāṃ ca śeṣaṃ māmakīvad bhavet //</l>
+</lg>
+<lg xml:id="Pik_148">
+<l>vāyusthāne nyased devīṃ gandhavajrāṃ tu ṣaḍbhujām /</l>
+<l>raktavarṇāṃ trivaktrāṃ ca amitābhajaṭādharām //</l>
+</lg>
+<lg xml:id="Pik_149">
+<l>śaṅkhavyagradvihastāṃ ca śeṣaiḥ pāṇḍaravāsinīm /</l>
+<l>aiśānyāṃ vinyased devīṃ rasavajrāṃ tu ṣaḍbhujām //</l>
+</lg>
+<lg xml:id="Pik_150">
+<l>trimukhāṃ śyāmavarṇā ca dandubhisvaramaulikām /</l>
+<l>hastastharasabhāṇḍāṃ ca śeṣaistārāsamākṛtim //</l>
+</lg>
+<lg xml:id="Pik_151">
+<l>vajrasattvaṃ samāliṅgya cakramadhye vyavasthitām /</l>
+<l>cintayet sparśavajrāṃ tu patitulyāṃ mukhādibhiḥ //</l>
+</lg>
+<lg xml:id="Pik_152">
+<l>tṛtīye tu puṭe pūrve paṭṭikāyāṃ sṛjed vratī /</l>
+<l>maiṃ-thlīṃ bījaviniṣpanau maitreyakṣitigarbhakau //</l>
+</lg>
+<lg xml:id="Pik_153">
+<l>praṇavena samutpannau vajrapāṇikhagarbhakau /</l>
+<l>paṭṭikāyāṃ sṛjenmantrīṃ dakṣiṇāyāṃ yathākramam //</l>
+</lg>
+<lg xml:id="Pik_154">
+<l>o-hūṃkāraviniṣpannaṃ lokeśaṃ mañcughoṣakam /</l>
+<l>paścimāyāṃ sṛjedetāvuttarasyāṃ punaḥ sṛjet //</l>
+</lg>
+<lg xml:id="Pik_155">
+<l>oṃ-saṃ-bījaviniṣpannaṃ saviṣkambhisamantakam /</l>
+<l>ete svanāthamukuṭā varnādyaistatsamāḥ punaḥ //</l>
+</lg>
+<lg xml:id="Pik_156">
+<l>bhujaiḥ praharaṇaiścāpi svasvādhipatibhiḥ samāḥ /</l>
+<l>maitreyaḥ kevalaṃ savye nāgapuṣpaṃ bibharti ca //</l>
+</lg>
+<lg xml:id="Pik_157">
+<l>saṃśodhyāyatanānyete divyanetrādidāyakāḥ /</l>
+<l>sattvānāṃ punarāgatya niṣīdantyāsaneṣu vai //</l>
+</lg>
+<lg xml:id="Pik_158">
+<l>yamāntakṛnmantrabhavaṃ kṛṣṇaraktasitānanam /</l>
+<l>yamāntakaṃ sṛjenmantrī suliṅgagahanākulam //</l>
+</lg>
+<lg xml:id="Pik_159">
+<l>daṇḍaṃ cakraṃ tathā vajraṃ savyahasteṣu dhārayan /</l>
+<l>hṛddeśe tarjanīpāśaṃ ghaṇṭā paraśuṃ ca vāmataḥ //</l>
+</lg>
+<lg xml:id="Pik_160">
+<l>vighnān santrāsayan ghorān indrādīn sagaṇānapi /</l>
+<l>padmasūryaṃ samākramya pūrvasyāṃ diśi tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_161">
+<l>prajñāntakṛnmantrabhavaṃ ratnasambhavamaulikam /</l>
+<l>aparājitaṃ sṛjenmantrī śvetābhamahibhūṣaṇam //</l>
+</lg>
+<lg xml:id="Pik_162">
+<l>sitakṛṣṇaraktavadanaṃ bṛhatkukṣiṃ trilocanam /</l>
+<l>daṃṣṭrākarālavikaṭaṃ sphuliṅgagahanākulam //</l>
+</lg>
+<lg xml:id="Pik_163">
+<l>vajraṃ daṇḍaṃ tathā khaḍgaṃ savyahasteṣu dhārayan /</l>
+<l>hṛddeśe tarjanīpāśaṃ ghaṇṭāṃ paraśuṃ ca vāmataḥ //</l>
+</lg>
+<lg xml:id="Pik_164">
+<l>vighnān santrāsayan ghorān pratyālīḍhapadena tu /</l>
+<l>padmasūryaṃ samākramya yāmyāṃ diśi sa tiṣṭhatio //</l>
+</lg>
+<lg xml:id="Pik_165">
+<l>yamāntakṛnmantrabhavaṃ hayagrīvaṃ sṛjed vratī /</l>
+<l>padmarāganibhaṃ tryakṣaṃ raktakṛṣṇasitānanam //</l>
+</lg>
+<lg xml:id="Pik_166">
+<l>karālāsyaṃ bṛhatkukṣimamitābhakirīṭinam /</l>
+<l>pratyālīḍhapadaṃ vīraṃ sphuliṅgagahanākulam //</l>
+</lg>
+<lg xml:id="Pik_167">
+<l>padmaṃ khaṅgaṃ ca musalaṃ savyahasteṣu bhāvayet /</l>
+<l>ghaṇṭāṃ sagarvaparaśuṃ pāśaṃ savyetareṣu ca //</l>
+</lg>
+<lg xml:id="Pik_168">
+<l>padmasūryaṃ samāruhya vyavalokya diśo daśa /</l>
+<l>vidhnasantrāsanaṃ kṛtvā vāruṇyāṃ diśi tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_169">
+<l>vidhnāntakṛnmantrabhavaṃ dundubhisvaramaulikam /</l>
+<l>nīlotpaladalaśyāmaṃ sṛjedamṛtakuṇḍalim //</l>
+</lg>
+<lg xml:id="Pik_170">
+<l>nīlaraktasitāsyaṃ ca karālamukhavibhramam /</l>
+<l>bṛhatkukṣiṃ trinayanaṃ raktajvālāvibhūṣitam //</l>
+</lg>
+<lg xml:id="Pik_171">
+<l>viśvavajraṃ tathā vakraṃ musalaṃ cāpi savyataḥ /</l>
+<l>dhārayaṃstarjanīpāśaṃ ghaṇṭāṃ paraśuṃ ca vāmataḥ //</l>
+</lg>
+<lg xml:id="Pik_172">
+<l>vidhnasantrāsanaṃ kṛtvā pratyālīḍhapadena tu /</l>
+<l>padmasūryaṃ samāruhya kauberyāṃ diśi tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_173">
+<l>svamantrākṣaraniṣpannamacalaṃ ca sṛjet punaḥ /</l>
+<l>indranīlaprabhaṃ tryakṣaṃ śrīvairocanamaulikam //</l>
+</lg>
+<lg xml:id="Pik_174">
+<l>daṃṣṭrākarālavadanaṃ kṛṣṇaraktasitānanam /</l>
+<l>aṭṭahāsaravaṃ ghoraṃ bṛhatkukṣiṃ mahābalam //</l>
+</lg>
+<lg xml:id="Pik_178">
+<l>khaṅkaṃ vajraṃ tathā cakraṃ savyahasteṣu dhārayet /</l>
+<l>tarjanīṃ cāpi paraśuṃ pāśaṃ vāmeṣu pāṇiṣu //</l>
+</lg>
+<lg xml:id="Pik_176">
+<l>vighnān jvarādikān hatvā pratyālīḍhapadena tu /</l>
+<l>padmasūryaṃ samāruhya vahnisthāne sa tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_177">
+<l>svamantrākṣaraniṣpannaṃ ṭakkirājaṃ sṛjed vratī /</l>
+<l>indranīlaprabhaṃ vīraṃ ratnasambhamaulikam //</l>
+</lg>
+<lg xml:id="Pik_178">
+<l>kṛṣṇaraktasitāsyaṃ ca bṛhatkukṣiṃ bhayānakam / Pik_</l>
+<l>dadhānaṃ vajraṃ hūṃkāramudrāṃ paṇidvayena tu //</l>
+</lg>
+<lg xml:id="Pik_179">
+<l>vajraṃ khaḍgaṃ ca savyābhyāṃ vāmataḥ pāśamaṅkuśam /</l>
+<l>pratyālīḍhena sūryastho nairṛtyāṃ vidhnanāśakaḥ //</l>
+</lg>
+<lg xml:id="Pik_180">
+<l>svamantrākṣaranispannaṃ nīladṇḍaṃ sṛjed vratī /</l>
+<l>nīlameghanibhaṃ tryakṣamamitābhakirīṭinam //</l>
+</lg>
+<lg xml:id="Pik_181">
+<l>nīlaraktasitāsyaṃ ca bṛhatkukṣiṃ bhayāvaham /</l>
+<l>daṇḍaṃ khaṅgaṃ tathā savyahasteṣu dhārayan //</l>
+</lg>
+<lg xml:id="Pik_182">
+<l>hṛdeśe tarjanīpāśaṃ padmaṃ paraśuṃ ca vāmataḥ /</l>
+<l>hatvetyupadravabhayaṃ pratyālīḍhapade sthitaḥ //</l>
+</lg>
+<lg xml:id="Pik_183">
+<l>padmasūryaṃ samāruhya vāyavyāṃ diśi tiṣṭhati /</l>
+<l>svamantrākṣaraniṣpannaṃ dundubhisvaramaulikam //</l>
+</lg>
+<lg xml:id="Pik_184">
+<l>mahābalaṃ sṛjenmantrī nīlotpaladalaprabham /</l>
+<l>kṛṇṇaraktasitāsyaṃ ca tryakṣaṃ bhairavanāditam //</l>
+</lg>
+<lg xml:id="Pik_185">
+<l>nāgabhūṣitasarvāṅgaṃ bṛhatkukṣiṃ bhayānakam /</l>
+<l>daṇḍaṃ khaḍgaṃ tathā cakraṃ savyahasteṣu dhārayan //</l>
+</lg>
+<lg xml:id="Pik_186">
+<l>hṛddeśe tarjanīpāśaṃ padmaṃ paraśuṃ ca vāmataḥ /</l>
+<l>ḍākinyādibhayadhvaṃsī pratyālīḍhapadena saḥ //</l>
+</lg>
+<lg xml:id="Pik_187">
+<l>padmasūryaṃ samāruhya aiśānyāṃ diśi tiṣṭhati /</l>
+<l>svamantrākṣaraniṣpannaṃ sṛjeduṣṇīṣacakriṇam //</l>
+</lg>
+<lg xml:id="Pik_188">
+<l>ākāśaśyāmakaṃ ghoramakṣobhyakṛtaśekharam /</l>
+<l>kṛṣṇaraktasitāsyaṃ ca tryakṣaṃ lambodaraṃ vibhum //</l>
+</lg>
+<lg xml:id="Pik_189">
+<l>vāmadakṣiṇahastābhyāmuṣṇīṣaṃ mūrdhniṃ dhārayan /</l>
+<l>vajraṃ padmaṃ ca savyābhyāṃ tarjanīkhaḍgamanyataḥ //</l>
+</lg>
+<lg xml:id="Pik_190">
+<l>sarvopadravavidhvaṃsī pratyālīḍhapadodyataḥ /</l>
+<l>padmasūryaṃ samāruhya brahmasthāne sa tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_191">
+<l>svamantrākṣaraniṣpannaṃ sumbharājaṃ sṛjed vratī /</l>
+<l>ākāśasuprabhaṃ tryakṣaṃ kṛṣnaraktasitānanam //</l>
+</lg>
+<lg xml:id="Pik_192">
+<l>bṛhatkukṣiṃ karālāsyamakṣobhyakṛtaśekharam /</l>
+<l>vajraṃ cakraṃ tathā ratnaṃ savyahasteṣu dhārayan //</l>
+</lg>
+<lg xml:id="Pik_193">
+<l>hṛddeśe tarjanīpāśaṃ padmakhaḍgaṃ ca vāmataḥ /</l>
+<l>kālakūṭādikaṃ sarvaviṣaṃ sthāvarajaṅgamam //</l>
+</lg>
+<p xml:id="19">
+hatvā vināyakān sarvān śāntiṃ kṛtvā tu sarvataḥ /
+</p>
+<lg xml:id="Pik_194">
+<l>hatvā vināyakān sarvān śāntiṃ kṛtvā tu sarvataḥ /</l>
+<l>ājñāṃ sampādya nikhilāṃ pratyālīḍhapade sthitaḥ /</l>
+<l>padmasūryaṃ samāruhya bhuvo 'dhastāt sa tiṣṭhati //</l>
+</lg>
+<lg xml:id="Pik_194">
+<l>utsṛjya maṇḍalaṃ sarvaṃ dvātriṃśaddevatāmayam /</l>
+<l>cakramadhyasthito bhūtvā sūkṣmayogamathārabhet //</l>
+</lg>
+<lg xml:id="Pik_196">
+<l>nāsagre sarṣapaṃ cintet sarṣape sacarācaram /</l>
+<l>bhāvayejjñānapadaṃ ramyaṃ rahasyaṃ jñānakalpitam //</l>
+</lg>
+<lg xml:id="Pik_197">
+<l>sthiraṃ tu sphārayed ratnamasthiraṃ naiva sphārayet /</l>
+<l>sphārayet pravarairmeghaibuddhajvālāsamaprabhaiḥ //</l>
+</lg>
+<lg xml:id="Pik_198">
+<l>bhikṣāśinā na japtapyaṃ na ca bhaikṣarato bhavet /</l>
+<l>japenmantramabhinnāṅgaṃ sarvakāmopabhogakṛt //</l>
+</lg>
+<p xml:id="20">
+uccārya saṃsphared vajraṃ samāptau saṃhāramādiśet /<lb/>
+idaṃ tat sarvabuddhānāṃ japoktaṃ paramārthataḥ // Pik_iti / Pik_ 199 //
+</p>
+<lg xml:id="Pik_200">
+<l>sūkṣmayogajapaṃ cāpi dvidhā kṛtvā yathāruci /</l>
+<l>ātmānaṃ ca punarmantrī tathatāyāṃ praveśayet //</l>
+</lg>
+<lg xml:id="Pik_201">
+<l>maṇḍalasthāścaturdevyo na paśyantyastataḥ patim /</l>
+<l>gāthācatuṣṭayenetthaṃ bodhayanti mahāsukham //</l>
+</lg>
+<lg xml:id="Pik_202">
+<l>tvaṃ vajrasattva bhuvaneśvara sattvadhāto trāyāhi māṃ ratinojñamahārthakāmaiḥ /</l>
+<l>kāmāhi māṃ janaka sattvamahāgrabandho yadīcchase jīvatu mahya nātha //</l>
+</lg>
+<lg xml:id="Pik_203">
+<l>tvaṃ vajrakāya bahusattvapriyāgracakra buddhārthabodhiparamārthahitānudarśīṃ /</l>
+<l>rāgeṇa rāgasamayāṃ mama kāmayasva yadīcchase jīvatu mahya nātha //</l>
+</lg>
+<lg xml:id="Pik_204">
+<l>tvaṃ vajravāca sakalasya hitānukampī lokārthakāryakaraṇe sada sampravṛttaḥ /</l>
+<l>kāmāhi māṃ sugatacarya samantabhadra yadīcchase jīvatu mahya nātha //</l>
+</lg>
+<lg xml:id="Pik_205">
+<l>tvaṃ vajrakāma samayāgra mahāhitārtha saṃbuddhavaṃśatilakaḥ samatānukampī /</l>
+<l>kāmāhi mām guṇanidhiṃ bahuratnabhūtāṃ yadīcchase jīvatu mahya nātha //</l>
+</lg>
+<lg xml:id="Pik_206">
+<l>evamutthāpitaṃ nāthaṃ sadbhūtaguṇakīrtanaiḥ /</l>
+<l>akṣobhyādisvabhāvena saṃstuvanti tathāgatāḥ //</l>
+</lg>
+<lg xml:id="Pik_207">
+<l>akṣobhyavajra mahājñāna vajradhātu mahābudha /</l>
+<l>trimaṇḍala trivajrāgra bhāṣa guhyaṃ namo 'stu te //</l>
+</lg>
+<lg xml:id="Pik_208">
+<l>vairocana mahāśuddha vajraśānta mahārate /</l>
+<l>prakṛtiprabhāsvarān dharmān deśa vajra namo 'stu te //</l>
+</lg>
+<lg xml:id="Pik_209">
+<l>ratnarāja sugambhīra khavajrākāśanirmala /</l>
+<l>svabhāvaśuddha nirlepa bhāṣa guhyaṃ namo 'stu te //</l>
+</lg>
+<lg xml:id="Pik_210">
+<l>vajrāmitamahārāja nirvikalpa khavajriṇa /</l>
+<l>rājapāramitāprāpta bhāṣa vajra namo 'stu te //</l>
+</lg>
+<lg xml:id="Pik_211">
+<l>amoghavajra saṃbuddha sarvāśāparipūraka /</l>
+<l>śuddhasvabhāvasambhūta vajrasattva namo 'stu te //</l>
+</lg>
+<lg xml:id="Pik_212">
+<l>nutvātha buddhaiaranurāgya cakram prakāśya guhyaṃ paramaṃ yathāyatham /</l>
+<l>svakāyacakre viniveśya cakram mahāsukhastiṣṭhati nātha ekaḥ //</l>
+</lg>
+<p xml:id="21">
+evaṃ caturyogakarastu yogī hūṃkāragarbhaṃ pravicintya lokam /<lb/>
+dṛṣṭvā japat tadbhavavajrasattvaṃ vyutthāya taddhīrvicared yathāvad // iti / Pik_213 //
+</p>
+<lg xml:id="Pik_214">
+<l>samādhimālambayan mantrī śuṣkamūrtiryadā bhavet /</l>
+<l>vicintayedimaṃ yogaṃ kāyavākcittaprīṇanam //</l>
+</lg>
+<lg xml:id="Pik_215">
+<l>vitastimātramākramya mūrdhni maṇḍalakalpanā /</l>
+<l>oṃkāraṃ tatragaṃ dhvātvā pañcāmṛtanipātanam //</l>
+</lg>
+<lg xml:id="Pik_216">
+<l>anena vajrayogena tejasvī bhavati kṣaṇāt /</l>
+<l>kāyavākcittasausthityaṃ labhate nātra saṃśayaḥ //</l>
+</lg>
+<lg xml:id="Pik_217">
+<l>evamabhyāsato mantrī śodhayed bodhayet yathā /</l>
+<l>hṛtkaṇṭhaṃ caiva saṃśodhyaṃ prīṇayecca tathāgatān //</l>
+</lg>
+<lg xml:id="Pik_218">
+<l>hūṃkāreṇa ca saṃśodhya āḥkāreṇa tu bodhayet /</l>
+<l>jvālayet praṇavākrāntam iyamāhāraśodhanā //</l>
+</lg>
+<lg xml:id="Pik_219">
+<l>kaṇṭhe śaṅkhaṃ vicintyādau tasmin hrīḥkārasambhavam /</l>
+<l>padmamaṣṭadalaṃ cinted hūṃkāraṃ karṇikopari //</l>
+</lg>
+<lg xml:id="Pik_220">
+<l>hūṃkārajaṃ mahāvajraṃ pañcaśūkaṃ vibhāvayet /</l>
+<l>madhyaśūkāgre sañcinted oṃkāraṃ kaṇṭhaśodhanam //</l>
+</lg>
+<lg xml:id="Pik_221">
+<l>meghanādaṃ hṛdi dhyātvā triśikhāgniṃ tataḥ spharet /</l>
+<l>tatrāhāraṃ ca juhuyād homamādhyātmikaṃ tvidam //</l>
+</lg>
+<lg xml:id="Pik_222">
+<l>vāyavyaṃ dīpayed agniṃ vāruṇaṃ pacate tu saḥ /</l>
+<l>māhendramaṇḍalaṃ sthānaṃ yatra sañcarate haviḥ //</l>
+</lg>
+<lg xml:id="Pik_223">
+<l>annaṃ pānaṃ ca yat kiñcit tat sarvaṃ vāruṇena tu /</l>
+<l>aśanaṃ mukhapadmena hṛtpadyaṃ sampraveśayet //</l>
+</lg>
+<lg xml:id="Pik_224">
+<l>nābhipadmagataṃ paścāt sampuṭīkaraṇayogataḥ /</l>
+<l>gudapadmād vinirgatya bhaśmāntaṃ ca vinirdiśet //</l>
+</lg>
+<p xml:id="22">
+na jarā nāpi rogaśca na mṛtyurna viṣādikam /<lb/>
+nākālamaraṇaṃ tasya sarvopadravanāśanam // Pik_iti / Pik_ 225 //
+</p>
+<lg xml:id="Pik_226">
+<l>śrīvajramālāvaramanthanena gūḍhaṃ samājāmbunidhiṃ mathitvā /</l>
+<l>yat sādanāṅgāmṛtamāpi tena lokaḥ samasto 'maratāmupaitu //</l>
+</lg>
+<p xml:id="23">
+// piṇḍīkramasādhanaṃ samāptam //
+</p><p xml:id="24">
+/ kṛtirācāryaśrīnāgārjunapādānām / 
+</p>
+</body>
+</text>
+</TEI>

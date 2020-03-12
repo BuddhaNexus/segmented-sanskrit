@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_zAntideva-zikSAsamuccaya">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Śikṣāsamuccaya</title>
+	<!-- TODO: Verify author -->	
+	<author>Śāntideva</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Jens Braarvig (Oslo) Converted by Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Jens Braarvig (Oslo) Converted by Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     not_specified-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Santideva: Siksasamuccaya<BR>
+8. Papasodhana<BR>
+Version: 0.1a<BR>
+Last updated: Sun Dec 15 15:34:47 NZDT 2002<BR>
+Input by Jens Braarvig (Oslo)<BR>
+Converted by Richard Mahoney<BR>
+VOWEL SANDHIS MARKED WITH CIRCUMFLEX!<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+pāpaśodhanaṃ aṣṭamaḥ paricchedaḥ /
+</p><p xml:id="1">
+uktā trayāṇām apy ātmabhāvâdīnāṃ rakṣā /
+</p><p xml:id="2">
+śuddhir adhunā vaktavyā /
+</p><p xml:id="3">
+kim artham /
+</p><p xml:id="4">
+śodhitasyâtmabhāvasya bhogaḥ pathyo bhaviṣyati /
+</p><p xml:id="5">
+samyaksiddhasya bhaktasya niṣkaṇasyêva dehinām //
+</p><p xml:id="6">
+yathôktam āryatathāgataguhyasūtre /
+</p><p xml:id="7">
+yāni ca tāni mahānagareṣu mahāśmaśānāni bhavanty anekaprāṇiśatasahasrâkīrṇāni /
+</p><p xml:id="8">
+tatrâpi sa bodhisatvo mahāsatvo*mahāntam ātmabhāvaṃ mṛtaṃ kā-
+</p><p xml:id="9">
+[ Bendall ed p159 ---> ]
+</p><p xml:id="10">
+lagatam upadarśayati /
+</p><p xml:id="11">
+tatra te tiryagyonigatāḥ satvā yāvad arthaṃ māṃsaṃ*paribhujyâyuḥparyante mṛtāḥ kālagatāḥ sugatau svargaloke deveṣûpapadyante /
+</p><p xml:id="12">
+sa câiva teṣāṃ hetur bhavati yāvat pari-
+</p><p xml:id="13">
+[ Cambridge MS f78a ---> ]
+</p><p xml:id="14">
+nirvāṇāya /
+</p><p xml:id="15">
+yad idaṃ /
+</p><p xml:id="16">
+tasyâiva bodhisatvasya pūrvapraṇidhānapariśuddhyā /
+</p><p xml:id="17">
+yena dīrgharātram evaṃ praṇidhānaṃ kṛtaṃ /
+</p><p xml:id="18">
+ye me mṛtasya kālagatasya māṃsaṃ paribhuñjīran /
+</p><p xml:id="19">
+sâiva teṣāṃ hetur bhavet svargôtpattaye yāvat parinirvāṇāya tasya śīlavataḥ /
+</p><p xml:id="20">
+ṛdhyati cetanā /
+</p><p xml:id="21">
+ṛdhyati prārthanā /
+</p><p xml:id="22">
+ṛdhyati praṇidhānam iti //
+</p><p xml:id="23">
+punar atrâivôktaṃ /
+</p><p xml:id="24">
+sa dharmakāyaprabhāvito darśanenâpi satvānām arthaṃ karoti /
+</p><p xml:id="25">
+śravaṇenâpi sparśanenâpi satvānām arthaṃ karoti /
+</p><p xml:id="26">
+tad yathâpi nāma śāntamate jīvakena vaidyarājena sarvabhaiṣajyāni samudānīya bhaiṣajyatarusaṃhātam ayaṃ dārikārūpaṃ kṛtaṃ prāsādikaṃ darśanīyaṃ sukṛtaṃ suniṣṭhitaṃ suparikarmakṛtaṃ /
+</p><p xml:id="27">
+sâgacchati gacchati tiṣṭhati niṣīdati śayyāṃ ca kalpayati /
+</p><p xml:id="28">
+tatra ye āgacchanty āturā mahâtmāno rājāno vā rājamātrā vā śreṣṭhigṛhapatyamātyakoṭṭarājāno vā /
+</p><p xml:id="29">
+tān sa jīvako vaidyarājas tayā bhaiṣajyadārikayā sārddhaṃ saṃyojayati /
+</p><p xml:id="30">
+teṣāṃ samanantarasaṃyogam āpannānāṃ sarvavyādhayaḥ prasrabhyante 'rāgāś ca bhavanti sukhino nirvikārāḥ /
+</p><p xml:id="31">
+paśya śāntamate jīvakasya vaidyarājasya laukikavyādhicikitsājñānaṃ yady anyeṣāṃ vaidyānāṃ saṃvidyate /
+</p><p xml:id="32">
+evam eva śāntamate tasya dharmakāyaprabhāvitasya bodhisatvasya yāvantaḥ satvāḥ strīpuruṣadārakadārikā rāgadoṣamohasaṃtaptāḥ kāyaṃ spṛśanti /
+</p><p xml:id="33">
+teṣāṃ saṃspṛṣṭamātrāṇāṃ sarvakleśāḥ prasrabhyante vigatasaṃtāpaṃ ca kāyaṃ saṃjānanti //
+</p><p xml:id="34">
+yad idaṃ tasyâiva bodhisatvasya pūrvapraṇidhānasupariśuddhatvāt /
+</p><p xml:id="35">
+etadartham ātmabhāvaḥ śodhyaḥ //
+</p><p xml:id="36">
+kiṃ câśodhane doṣam āha /tṛṇachannaṃ yathā śasyaṃ rogaiḥ sīdati nâidhate /
+</p><p xml:id="37">
+buddhâṅkuras tathā vṛddhiṃ kleśachanno na gacchati //
+</p><p xml:id="38">
+[ Bendall ed p160 ---> ]
+</p><p xml:id="39">
+pratipakṣanirāsena vṛddhyarthaṃ cêty abhiprāyaḥ //
+</p><p xml:id="40">
+ātmabhāvasya kā śuddhiḥ /
+</p><p xml:id="41">
+pāpakleśaviśodhanaṃ /
+</p><p xml:id="42">
+saṃbuddhôktyarthasāreṇa /
+</p><p xml:id="43">
+yatnâbhāve tv apāyagaḥ //
+</p><p xml:id="44">
+tatra pāpaśodhanaṃ caturdharmakasūtre deśitaṃ /
+</p><p xml:id="45">
+caturbhir maitreya dharmaiḥ samanvāgato bodhisatvo mahāsatvaḥ kṛtôpacitaṃ pāpam abhibhavati /
+</p><p xml:id="46">
+katamaiś caturbhiḥ /
+</p><p xml:id="47">
+yad uta /
+</p><p xml:id="48">
+vidūṣaṇâsamudācāreṇa pratipakṣasamudācāreṇa /
+</p><p xml:id="49">
+pratyāpattibalena /
+</p><p xml:id="50">
+āśrayabalena ca //
+</p><p xml:id="51">
+tatra vi-
+</p><p xml:id="52">
+[ Cambridge MS f78b ---> ]
+</p><p xml:id="53">
+dūṣaṇâsamudācāro 'kuśalaṃ karmâdhyacārati tatra tatrâiva ca vipratisārabahulī bhavati //
+</p><p xml:id="54">
+tatra pratipakṣasamudācāraḥ kṛtvâpy akuśalaṃ karma kuśale karmaṇy atyarthâbhiyogaṃ gataḥ //
+</p><p xml:id="55">
+pratyāpattibalaṃ saṃvarasamādānād akaraṇasaṃvaralābhaḥ //
+</p><p xml:id="56">
+tatrâśrayabalaṃ buddhadharmasaṃghaśaraṇa gamanam anutsṛṣṭabodhicittatā ca /
+</p><p xml:id="57">
+subalavatsaṃniśrayeṇa na śakyate pāpenâbhibhavituṃ /
+</p><p xml:id="58">
+ebhir maitreya caturbhir dharmaiḥ samanvāgato bodhisatvo mahāsatvaḥ kṛtôpacitaṃ pāpam abhibhavatîti //
+</p><p xml:id="59">
+tatra kathaṃ vidūṣaṇâsamudācāro bhāvayitavyaḥ /
+</p><p xml:id="60">
+yathā suvarṇaprabhāsôttamasūtre 'bhihitaṃ //
+</p><p xml:id="61">
+samanvāharantu māṃ buddhāḥ kṛpākāruṇyacetasaḥ /
+</p><p xml:id="62">
+ye ca daśadiśi loke tiṣṭhanti dvipadôttamāḥ //
+</p><p xml:id="63">
+[ Bendall ed p161 ---> ]
+</p><p xml:id="64">
+yac ca me pāpakaṃ karma kṛtaṃ pūrvaṃ sudāruṇaṃ /
+</p><p xml:id="65">
+tat sarvaṃ deśayiṣyāmi sthito daśabalâgrataḥ //
+</p><p xml:id="66">
+mātāpit-rn ajānatā buddhānām aprajānatā /
+</p><p xml:id="67">
+kuśalaṃ câprajānatā yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="68">
+aiśvaryamadamattena kulabhogamadena ca /
+</p><p xml:id="69">
+tāruṇyamadamattena yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="70">
+duścintitaṃ duruktaṃ ca duṣkṛtenâpi karmaṇā /
+</p><p xml:id="71">
+anādīnavadarśinā yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="72">
+bālabuddhipracāreṇâjñānâvṛtacetasā /
+</p><p xml:id="73">
+pāpamitravaśāc câiva kleśavyākulacetasā //
+</p><p xml:id="74">
+krīḍārativaśāc câiva śokarogavaśena vā /
+</p><p xml:id="75">
+atṛptadhanadoṣeṇa yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="76">
+anāryajanasaṃsargair īrṣyāmātsaryahetunā /
+</p><p xml:id="77">
+śāṭhyadāridryadoṣeṇa yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="78">
+vyasanâgamakāle 'smin kāmānāṃ bhayahetunā /
+</p><p xml:id="79">
+anaiśvaryagatenâpi yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="80">
+calacittavaśenâiva kāmakrodhavaśena vā /
+</p><p xml:id="81">
+kṣutpipāsârditenâpi yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="82">
+[ Bendall ed p162 ---> ]
+</p><p xml:id="83">
+pānârthaṃ bhojanârthaṃ ca vastrârthaṃ strīṣu hetunā /
+</p><p xml:id="84">
+vicitraiḥ kleśasaṃtāpair yat tu pāpaṃ kṛtaṃ mayā //
+</p><p xml:id="85">
+kāyavāṅmanasāṃ pāpaṃ tridhā duścaritaṃ cittaṃ /
+</p><p xml:id="86">
+yat kṛtam īdṛśai rūpais tat sarvaṃ deśayāmy aham //
+</p><p xml:id="87">
+yat tu buddheṣu dharmeṣu śrāvakeṣu tathâiva ca /
+</p><p xml:id="88">
+agauravaṃ kṛtaṃ syād dhi tat sarvaṃ deśayāmy aham //
+</p><p xml:id="89">
+yat tu pratyekabuddheṣu bodhisatveṣu vā punaḥ /agauravaṃ kṛtaṃ syād dhi tat srvaṃ deśayāmy aham //
+</p><p xml:id="90">
+saddharma-
+</p><p xml:id="91">
+[ Cambridge MS f79a ---> ]
+</p><p xml:id="92">
+bhāṇakeṣv evânyeṣu guṇavatsu vā /
+</p><p xml:id="93">
+agauravaṃ kṛtaṃ syād dhi tat sarvaṃ deśayāmy aham //
+</p><p xml:id="94">
+saddharmaḥ pratikṣiptaḥ syād ajñānaṃ tena me sadā /
+</p><p xml:id="95">
+mātāpitṛṣv agauravaṃ tat sarvaṃ deśayāmy aham //
+</p><p xml:id="96">
+mūrkhatvena bālatvena mānadarpâvṛtena ca /
+</p><p xml:id="97">
+rāgadveṣeṇa mohena tat sarvaṃ deśayāmy aham //
+</p><p xml:id="98">
+vyavalokayantu māṃ buddhāḥ samanvāhṛtacetasaḥ /
+</p><p xml:id="99">
+atyayaṃ pratigṛhṇantu kāruṇyârpitacetasaḥ //
+</p><p xml:id="100">
+[ Bendall ed p163 ---> ]
+</p><p xml:id="101">
+yat tu pāpaṃ kṛtaṃ pūrvaṃ mayā kalpaśateṣu ca /
+</p><p xml:id="102">
+tasyârthaṃ śokacitto 'haṃ krpaṇīyo bhayârditaḥ //<lb/>
+bhavāmi pāpakarmāṇāṃ satataṃ dīnamānasaḥ /
+</p><p xml:id="103">
+yatra yatra cariṣyāmi na câsti me balaṃ kvacit //
+</p><p xml:id="104">
+sarve kāruṇikā buddhāḥ sarve bhayaharā jage /
+</p><p xml:id="105">
+atyayaṃ pratigṛhṇantu mocayantu ca māṃ bhayāt //
+</p><p xml:id="106">
+kleśakarmaphalaṃ mahyaṃ pravāhayantu tathāgatāḥ /
+</p><p xml:id="107">
+snāpayantu ca māṃ buddhāḥ kāruṇyasaritôdakaiḥ //
+</p><p xml:id="108">
+sarvaṃ pāpaṃ deśayāmi yat tu pūrvaṃ kṛtaṃ mayā /
+</p><p xml:id="109">
+yac câitarhi me pāpaṃ tat sarvaṃ deśayāmy aham //
+</p><p xml:id="110">
+āyatyāṃ saṃvaram āpadye sarvaduṣkṛtakarmaṇām /
+</p><p xml:id="111">
+na chādayāmi tat pāpaṃ yad bhaven mama duṣkṛtam //
+</p><p xml:id="112">
+trividhaṃ kāyikaṃ karma vacasā ca caturvidham /
+</p><p xml:id="113">
+manasā triprakāreṇa tat sarvaṃ deśayāmy aham //
+</p><p xml:id="114">
+kāyakṛtaṃ vācakṛtaṃ manasā ca vicintitaṃ /
+</p><p xml:id="115">
+kṛtaṃ daśavidhaṃ karma tat sarvaṃ deśayāmy aham //
+</p><p xml:id="116">
+[ Bendall ed p164 ---> ]
+</p><p xml:id="117">
+yac ca me pāpakaṃ karmâniṣṭaphaladāyakaṃ /
+</p><p xml:id="118">
+tat sarvaṃ deśayiṣyāmi buddhānāṃ purataḥ sthitaḥ //
+</p><p xml:id="119">
+bhavagatisaṃkaṭe bālabuddhinā pāpaṃ yan me kṛtaṃ sudāruṇam /
+</p><p xml:id="120">
+daśabalam agrataḥ sthitaḥ tat sarvaṃ pāpaṃ pratideśayāmi /
+</p><p xml:id="121">
+deśayāmi ca tat pāpaṃ yan mayā saṃcitaṃ janmasaṃkaṭe vividhaiḥ kāyapracārasaṃkaṭair bhavasaṃkaṭalokasaṃkaṭe cāpalacalacittasaṃkaṭe mūrkhabālakṛtakleśasaṃkaṭe /
+</p><p xml:id="122">
+pāpamitrâgamasaṃkaṭe ca /
+</p><p xml:id="123">
+bhayasaṃkaṭarāgasaṃkaṭe doṣamohatamasaṃkaṭair api kṣaṇasaṃkaṭe kālasaṃkaṭe puṇyôpārjanasaṃkaṭair api /
+</p><p xml:id="124">
+jinasaṃkaṭasaṃmukhasthitaḥ /
+</p><p xml:id="125">
+tat sarvapāpaṃ pratideśayāmi //
+</p><p xml:id="126">
+viśeṣatas tu bodhisatvâpattīnāṃ gurvīṇāṃ laghvīnāṃ deśanâryôpāliparipṛcchāyām uktā
+</p><p xml:id="127">
+[ Cambridge MS f79b ---> ]
+</p><p xml:id="128">
+kā punar gurvī mūlâpattiḥ //
+</p><p xml:id="129">
+sāmānyatas tu tatrôktaṃ /
+</p><p xml:id="130">
+saced upāle mahāyānasaṃprasthito bodhisatvo mahāsatvo gaṅgānadīvālikôpamā rāgapratisaṃyuktâpattīr āpadyeta /
+</p><p xml:id="131">
+yāṃ câikato dveṣasaṃprayuktām āpattim āpadyeta bodhisatvayānaṃ pramāṇīkṛtya //
+</p><p xml:id="132">
+pe //
+</p><p xml:id="133">
+iyaṃ tābhyo gurutarâpattir yêyaṃ dveṣasaṃyuktā /
+</p><p xml:id="134">
+tat kasya hetoḥ /
+</p><p xml:id="135">
+yo 'yaṃ dveṣôpāle satvaparityāgāya saṃvartate /
+</p><p xml:id="136">
+rāgaḥ satvasaṃgrahāya saṃvartate /
+</p><p xml:id="137">
+tatrôpāle yaḥ kleśaḥ satvasaṃgrahāya saṃvartate /
+</p><p xml:id="138">
+na tatra bodhisatvasya chalaṃ na bhayaṃ //
+</p><p xml:id="139">
+pe //
+</p><p xml:id="140">
+tasmāt tarhi tvām upāle yāḥ kāścana rāgapratisaṃyuktâpattayaḥ sarva-s tânāpattayêti vadāmi /
+</p><p xml:id="141">
+ko 'trâbhiprāyaḥ /
+</p><p xml:id="142">
+satvasaṃgrahasyâiva pūrvam eva viśeṣitatvād /
+</p><p xml:id="143">
+adhyāśayakṛpāvato hy ayam upadeśaḥ //
+</p><p xml:id="144">
+yasmād anantaram āha /
+</p><p xml:id="145">
+tatrôpāle ye 'nupāyakuśalā bodhisatvās te rāgapratisaṃyuktābhyâpattibhyo bibhyati /
+</p><p xml:id="146">
+ye punar upāyakuśalā-
+</p><p xml:id="147">
+[ Bendall ed p165 ---> ]
+</p><p xml:id="148">
+bodhisatvās te dveṣasaṃprayuktābhyâpattibhyo bibhyati na rāgapratisaṃyuktābhyêti //
+</p><p xml:id="149">
+ke punar upāyakuśalāḥ /
+</p><p xml:id="150">
+ye prajñākṛpābhyāṃ satvatyāgān nivāryante /
+</p><p xml:id="151">
+ubhayathā hi satvatyāgo bhavati /
+</p><p xml:id="152">
+kevalaprajñayā duṣkhaśūnyatâvabodhāt /
+</p><p xml:id="153">
+kevalayā ca kṛpayā kleśabalād acireṇa kṛpāhāniḥ //
+</p><p xml:id="154">
+yad uktam upāyakauśalyasūtre /
+</p><p xml:id="155">
+tad yathā kulaputra maṃtravidyādharaḥ puruṣo rājñā pañcapāśakena bandhanena baddhaḥ syāt /
+</p><p xml:id="156">
+sa yadā kāṅkṣeta prakramaṇāya tadâikamantravidyābalena sarvabandhanāni chittvā prakramet /
+</p><p xml:id="157">
+evam eva kulaputrôpāyakuśalo bodhisatvaḥ pañcabhiḥ kāmaguṇai ratiṃ vindati taiś câkīrṇo viharati /
+</p><p xml:id="158">
+yadā ca punar ākāṅkṣate tadā prajñābalâdhīnenâikena ca sarvajñatācittena sarvakāmaguṇān prabhujya cyuto brahmalokae upapadyatae iti //dveṣe 'pi kiṃ nâivam iṣyate /
+</p><p xml:id="159">
+prakṛtimahāsâvadyatvāt /
+</p><p xml:id="160">
+kṛpāvaikalye côpāyasyâivâsaṃbhavāt //
+</p><p xml:id="161">
+parârthasiddhiṃ vā svârthād gurutarām adhimucyamānaḥ kopaparavattayâpi param anuśāsyânutāpapūrvakam āyatyāṃ saṃvaram utpadyate /
+</p><p xml:id="162">
+ahitanivārake krodhe ko doṣaḥ /
+</p><p xml:id="163">
+avakāśa-
+</p><p xml:id="164">
+[ Cambridge MS f80a ---> ]
+</p><p xml:id="165">
+dānena tadvāsanādoṣāt kṛpāhānidoṣaḥ /
+</p><p xml:id="166">
+tacchedena mūlacchedadoṣêti paścād darśayiṣyāmaḥ /
+</p><p xml:id="167">
+yady api tasya satvasya taddhitaṃ tathâpi bodhisatvakṛpāhānyā mahataḥ satvârthânubandhasya hāniḥ syāt //
+</p><p xml:id="168">
+āryasatyake parivartte 'pi putradṛṣṭântaḥ karuṇâdhiṣṭhitâiva veditavyaḥ /
+</p><p xml:id="169">
+yaś ca tatrâpi kṛpāpratiṣedhaḥ sa lokârthapāṇḍityena lokâvarjanârthaṃ /
+</p><p xml:id="170">
+nivāryamāṇaś ca yadi hitakāme bo-
+</p><p xml:id="171">
+[ Bendall ed p166 ---> ]
+</p><p xml:id="172">
+dhisatve pratighaṃ labheta sa bodhisatvaḥ syād ubhayor anarthaḥ //
+</p><p xml:id="173">
+rāge 'pi tarhi doṣaḥ paṭhyate /
+</p><p xml:id="174">
+kāmânuṣevaṇi bhoti andha manujo /
+</p><p xml:id="175">
+mātāpitṛghātayī /
+</p><p xml:id="176">
+kāmān sevatu śīlavantu vadhayī /
+</p><p xml:id="177">
+tasmād vivarjet sadêti //
+</p><p xml:id="178">
+svasaukhyasaṃgena ca paraduṣkhôpekṣā dṛṣṭā //
+</p><p xml:id="179">
+satyaṃ dṛṣṭā /
+</p><p xml:id="180">
+yena paraduṣkhaṃ svaduṣkhatayā nâbhyastaṃ /
+</p><p xml:id="181">
+yena tv abhyastaṃ /
+</p><p xml:id="182">
+tasyôbhayadoṣâsaṃbhavaḥ //
+</p><p xml:id="183">
+yathôktaṃ candrapradīpasūtre /
+</p><p xml:id="184">
+tad yathâpi nāmânanda kaścid eva puruṣo 'dhastāt pādatalam ādāya yāvan murddhany ādīpto bhavet /
+</p><p xml:id="185">
+saṃprajvalitâikajvalībhu-tas taṃ ka?scid eva puruṣôpasaṃkramyâivaṃ vaded /
+</p><p xml:id="186">
+ehi tvāṃ bhoḥ puruṣa nirvāpitenâtmabhāvena pañcabhiḥ kāmaguṇaiḥ samarpitaḥ samanvaṅgībhūtaḥ krīḍasva ramasva paricārayasvêti /
+</p><p xml:id="187">
+tat kiṃ manyase ānanda /
+</p><p xml:id="188">
+api tu sa puruṣo 'nirvāpitenâtmabhāvena pañcabhiḥ kāmaguṇaiḥ krīḍeta ramet paricaret //
+</p><p xml:id="189">
+ānandâha //
+</p><p xml:id="190">
+nô hîdaṃ bhagavan //
+</p><p xml:id="191">
+bhagavān āha /
+</p><p xml:id="192">
+krīḍetânanda sa puruṣo ramet paricaret parikalpam upādāyâparinirvāpitenâtmabhāvena pañcabhiḥ kāmaguṇaiḥ samarpitaḥ samanvaṅgībhūto /
+</p><p xml:id="193">
+na tv evaṃ tathāgatasya pūrvaṃ bodhisatvacaryāṃ caramāṇasya satvān tribhir apāyair duṣkhitān dṛṣṭvā daridrān abhūt saumanasyaṃ vā cittaprasādo vêti vistaraḥ //
+</p><p xml:id="194">
+loke 'pi putre śūlam āropyamāṇe /
+</p><p xml:id="195">
+paśyator mātāpitror na svasaukhyasaṃgo dṛṣṭaḥ svânurūpakṛpāvaśāt /
+</p><p xml:id="196">
+pracchannas tarhi sasvāmikāsu nisvāmikāsu bāhuladharmadhvajarakṣitāsu kāmamithyâcāro na syāt /
+</p><p xml:id="197">
+sati satvârthe satvânupaghāte cânubandhaṃ nirūpyâdoṣaḥ
+</p><p xml:id="198">
+[ Cambridge MS f80b ---> ]
+</p><p xml:id="199">
+samyagbrahmacāriṇīṣu kṛtârthatvād dūrāt parihāraḥ /
+</p><p xml:id="200">
+pūjyā ca mātṛbhaginy-ādivat /
+</p><p xml:id="201">
+evaṃ tarhi bhikṣor apy evam āpannaṃ /
+</p><p xml:id="202">
+na tasyâpareṇa brahmacaryaprakāreṇa satvârthasādhanāt //
+</p><p xml:id="203">
+[ Bendall ed p167 ---> ]
+</p><p xml:id="204">
+tathā hy uktam āryâkṣayamatisūtre /
+</p><p xml:id="205">
+kālâkāle punar anenôpekṣā karaṇīyêti //
+</p><p xml:id="206">
+atha tato 'py adhikaṃ satvârthaṃ paśyet /
+</p><p xml:id="207">
+śikṣāṃ nikṣipet //
+</p><p xml:id="208">
+upāyakauśalyasūtre jyotirmāṇavakaṃ dvācatvāriṃśadvarṣasahasrabrahmacāriṇam adhikṛtya saptame pade sthitasya kāruṇyam utpadyeta /
+</p><p xml:id="209">
+kiṃ câpy aham idaṃ vrataṃ khaṇḍayitvā nirayaparāyaṇaḥ syāṃ /
+</p><p xml:id="210">
+tathâpy utsahe 'haṃ nairayikaṃ duṣkhaṃ prativedayitum atha cêyaṃ strī sukhitā bhavatu /
+</p><p xml:id="211">
+mā kālaṃ karotu /
+</p><p xml:id="212">
+iti hi kulaputra jyotirmāṇavakaḥ paścānmukho nivartya tāṃ striyaṃ dakṣiṇena pāṇinā gṛhītvâivam āha /
+</p><p xml:id="213">
+uttiṣṭha bhagini yathākāmakaraṇīyas te bhavāmîti //
+</p><p xml:id="214">
+pe //
+</p><p xml:id="215">
+so 'haṃ kulaputra mahākāruṇyacittôtpādenêtvareṇa kāmôpasaṃhitena daśakalpasahasrāṇi paścānmukham akārṣam /
+</p><p xml:id="216">
+paśya kulaputra yad anyeṣāṃ nirayasaṃvartanīyaṃ karma /
+</p><p xml:id="217">
+tad upāyakuśalasya bodhisatvasya brahmalokôpapattisaṃvartanīyam iti //
+</p><p xml:id="218">
+punar atrâivâha /
+</p><p xml:id="219">
+yadi bodhisatvâikasya satvasya kuśalamūlaṃ saṃjanayet tathārūpāṃ câpattim āpadyeta yathārūpayâpattyâpannayā kalpaśatasahasraṃ niraye pacyeta /
+</p><p xml:id="220">
+utsoḍhavyam eva bhagavan bodhisatvenâpattim āpattuṃ tac ca nairayikaṃ duṣkhaṃ /
+</p><p xml:id="221">
+na tv eva tasyâikasay satvasya kuśalaṃ parityaktum iti //
+</p><p xml:id="222">
+punar atrâivâha /
+</p><p xml:id="223">
+iha kulaputrôpāyakuśalo bodhisatvo yadā kadācit kasmiṃścit pāpamitravaśenâpattim āpadyeta /
+</p><p xml:id="224">
+sêtaḥ pratisaṃśikṣate /
+</p><p xml:id="225">
+na mayâibhiḥ skandhaiḥ parinirvāpayitavyaṃ /
+</p><p xml:id="226">
+mayā punar evaṃ saṃnāhaḥ saṃnaddhavyaḥ /
+</p><p xml:id="227">
+aparântakoṭiḥ saṃsaritavyā satvānāṃ paripācanahetor iti /
+</p><p xml:id="228">
+na mayā cittadāhaḥ karaṇīyo /
+</p><p xml:id="229">
+yathā yathā saṃsariṣyāmi tathā tathā satvān paripācayiṣyāmi /
+</p><p xml:id="230">
+api tv etāṃ câpattiṃ yathādharmaṃ pratikariṣyāmi /
+</p><p xml:id="231">
+āyatyāṃ saṃvaram āpatsye /
+</p><p xml:id="232">
+sacet kulaputra pravrajito bodhisatvaḥ parikalpam ādā-
+</p><p xml:id="233">
+[ Cambridge MS f81a ---> ]
+</p><p xml:id="234">
+ya sarvāś catasro mūlâpattīr atikramed anena côpāyakauśalyena vinodayed /
+</p><p xml:id="235">
+anāpattiṃ bodhisatvasya vadāmîti //
+</p><p xml:id="236">
+[ Bendall ed p168 ---> ]
+</p><p xml:id="237">
+sphuṭaṃ câryaratnameghe ānantaryacikīrṣupuruṣamāraṇânujñānāt //
+</p><p xml:id="238">
+śrāvakavinaye 'pi mūlâpattisthānae eva kāruṇyān mṛgâdimokṣaṇe 'nāpattir uktâiva //
+</p><p xml:id="239">
+ayaṃ ca rāge guṇo yad bodhisatve rāgam utpādya sugatir labhyate /
+</p><p xml:id="240">
+na tu krodhena //
+</p><p xml:id="241">
+yathôktam upāyakauśalyasūtre /
+</p><p xml:id="242">
+priyaṃkare bodhisatve raktā ... dhavyottarāṃ dārikām adhikṛtya /
+</p><p xml:id="243">
+priyaṃkarasya praṇidheḥ punaḥ punar yêstri prekṣeta sarāgacittā /
+</p><p xml:id="244">
+sêstribhāvaṃ parivarjayitvā puruṣo bhavet yādṛg udārasatvaḥ //
+</p><p xml:id="245">
+paśyasvânanda guṇâsyêdṛśāḥ /
+</p><p xml:id="246">
+yenânyasatvā nirayam vrajanti /
+</p><p xml:id="247">
+tenâiva śūreṣu janitva rāgaṃ gacchanti svargaṃ puruṣatvam eva ca //
+</p><p xml:id="248">
+pe //
+</p><p xml:id="249">
+bhaiṣajyarājeṣu mahāyaśeṣu /
+</p><p xml:id="250">
+ko bodhisatveṣu janayeta dveṣam /
+</p><p xml:id="251">
+yesāṃ kileśo 'pi sukhasya dāyakaḥ /
+</p><p xml:id="252">
+kiṃ vā punar yaḥ tān satkareyā /
+</p><p xml:id="253">
+iti //
+</p><p xml:id="254">
+evam anyasmin satvârthôpāye sati rāgajâpattir anāpattir uktā //
+</p><p xml:id="255">
+upāyakauśalyasūtre ca gaṇikāvat kṛtârtho bodhisatvo nirapekṣas taṃ satvaṃ tyajatîti vistareṇôktam //
+</p><p xml:id="256">
+alabdhabhūmeś ca ṣaṭpāramitāsu caritavatêyaṃ cintā /
+</p><p xml:id="257">
+nêtarasyêty āstāṃ prāsaṅgikam //
+</p><p xml:id="258">
+tasmād dveṣasyâvakāśo na deya /
+</p><p xml:id="259">
+uktaṃ hy upāliparipṛcchāyāṃ /
+</p><p xml:id="260">
+bodhisatvānāṃ śāriputra dve mahāsâvadye āpattī /
+</p><p xml:id="261">
+katame dve /
+</p><p xml:id="262">
+dveṣasahagatā mohasahagatā cêti /
+</p><p xml:id="263">
+tatra śāriputra prathamā
+</p><p xml:id="264">
+[ Bendall ed p169 ---> ]
+</p><p xml:id="265">
+āpattir daśavarge ṛjukena deśayitavyā /
+</p><p xml:id="266">
+hastâpattiḥ pañca varge gurvī deśayitavyā /
+</p><p xml:id="267">
+striyā hastagrahaṇaṃ cakṣurdarśanaṃ /
+</p><p xml:id="268">
+duṣṭacittâpattir ekapudgalasya dvayor vā śāriputra tāṃ gurvīṃ daśayet /
+</p><p xml:id="269">
+pañcânantaryasamanvāgatâpattir bodhisatvena stry-āpattir dārikâpattir hastâpattiḥ stūpâpattiḥ saṃghâpattis tathânyāś câpattayo bodhisatvena na pañcatriṃśatāṃ buddhānāṃ bhagavatām antike rātriṃdivaṃ ekākinā gurvyo deśayitavyāḥ //
+</p><p xml:id="270">
+tatrêyaṃ deśanā /
+</p><p xml:id="271">
+aham evaṃnāmā buddhaṃ śaraṇaṃ gacchāmi /
+</p><p xml:id="272">
+dharmaṃ śaraṇaṃ gacchāmi /
+</p><p xml:id="273">
+saṃghaṃ śaraṇaṃ gacchāmi //
+</p><p xml:id="274">
+namaḥ śākyamunaye tathāgatāyârhate samyaksaṃbuddhāya /
+</p><p xml:id="275">
+namo vajrapramardine /
+</p><p xml:id="276">
+namo ratnârciṣe /
+</p><p xml:id="277">
+namo nāgêśvararājāya /
+</p><p xml:id="278">
+namo vīrasenāya /
+</p><p xml:id="279">
+namo vīranandine /
+</p><p xml:id="280">
+namo ratnaśriye /
+</p><p xml:id="281">
+namo ratnacandraprabhāya /
+</p><p xml:id="282">
+namo 'moghadarśine /
+</p><p xml:id="283">
+namo ratnacandrāya /
+</p><p xml:id="284">
+namo nirmalāya /
+</p><p xml:id="285">
+namo vimalāya /
+</p><p xml:id="286">
+namaḥ śūradattāya /
+</p><p xml:id="287">
+namo brahmaṇe /
+</p><p xml:id="288">
+namo brahmadattāya /
+</p><p xml:id="289">
+namo varuṇāya /
+</p><p xml:id="290">
+namo varuṇadevāya /
+</p><p xml:id="291">
+namo bhadraśriye /
+</p><p xml:id="292">
+namaś chandanaśriye /
+</p><p xml:id="293">
+namo 'nantâujase /
+</p><p xml:id="294">
+namaḥ prabhāsaśriye
+</p><p xml:id="295">
+[ Cambridge MS f81b ---> ]
+</p><p xml:id="296">
+namo 'śokaśriye /
+</p><p xml:id="297">
+namo nārāyaṇāya /
+</p><p xml:id="298">
+namaḥ kusumaśriye /
+</p><p xml:id="299">
+namo brahmajyotirvikrīḍitâbhijñāya tathāgatāya /
+</p><p xml:id="300">
+namo dhanaśriye /
+</p><p xml:id="301">
+namaḥ smṛtiśriye /
+</p><p xml:id="302">
+namaḥ suparikīrtitanāmadheyaśriye /
+</p><p xml:id="303">
+namêndraketudhvajarājāya /
+</p><p xml:id="304">
+namaḥ suvikrāntaśriye /
+</p><p xml:id="305">
+namo vicitrasaṃkramāya /
+</p><p xml:id="306">
+namo vikrāntagāmine /
+</p><p xml:id="307">
+namaḥ samantâvabhāsavyūhaśriye /
+</p><p xml:id="308">
+namo ratnapadmavikrāmiṇe /
+</p><p xml:id="309">
+namo ratnapadmasupratiṣṭhitaśailêndrarājāya tathāgatāyârhate samyaksaṃbuddhāya //
+</p><p xml:id="310">
+evaṃpramukhā yāvantaḥ sarvalokadhātuṣu tathāgatârha-
+</p><p xml:id="311">
+[ Bendall ed p170 ---> ]
+</p><p xml:id="312">
+ntaḥ samyaksaṃbuddhās tiṣṭhanti dhriyante yāpayanti /
+</p><p xml:id="313">
+te māṃ samanvāharantu buddhā bhagavanto yan mayâsyāṃ jātau anyāsu vā jātiṣv anavarâgre jātisaṃsāre saṃsaratā [[DOUBT]] pāpakaṃ karma kṛtaṃ syāt kāritaṃ vā kriyamāṇaṃ vânumoditaṃ bhavet /
+</p><p xml:id="314">
+staupikaṃ vā sāṅghikaṃ vā dravyam apahṛtaṃ syāt hāritaṃ vā hriyamāṇaṃ vânumoditaṃ bhavet /
+</p><p xml:id="315">
+pañcânantaryāṇi kṛtāni syuḥ kāritāni vā kriyamāṇāni vânumoditāni bhaveyuḥ /
+</p><p xml:id="316">
+daśâkuśalān karmapathān samādāya vartitaṃ syāt pare vā samādāpitāḥ syur vartamānā vânumoditā bhaveyur yena karmâvaraṇenâvṛto 'haṃ nirayaṃ vā gaccheyaṃ tiryagyoniṃ vā yamaviṣayaṃ vā gaccheyaṃ pratyantajanapadeṣu mleccheṣu vā pratyājāyeyaṃ dīrghâyuṣkeṣu deveṣûpapadyeyam indriyavikalatāṃ vâdhigaccheyaṃ mithyādṛṣṭiṃ vôpagṛhṇīyāṃ buddhôtpādaṃ vā virāgayeyaṃ /
+</p><p xml:id="317">
+tat sarvaṃ karmâvaraṇaṃ teṣāṃ buddhānāṃ bhagavatāṃ jñānabhūtānāṃ cakṣurbhūtānāṃ sâkṣibhūtānāṃ pramāṇabhūtānāṃ jānatāṃ paśyatām agrataḥ pratideśayāmi āviṣkaromi na praticchādayāmy āyatyāṃ saṃvaram āpadye /
+</p><p xml:id="318">
+samanvāharantu māṃ te buddhā bhagavanto yan mayâsyāṃ jātāv anyāsu vā jātiṣv anavarâgre vā jātisaṃsāre saṃsaratā dānaṃ dattaṃ bhaved antaśas tiryagyonigatā-
+</p><p xml:id="319">
+[ Cambridge MS f82a ---> ]
+</p><p xml:id="320">
+yâpy ālopaḥ śīlaṃ vā rakṣitaṃ bhaved yac ca me brahmacaryavāsakuśalamūlaṃ yac ca me satvaparipākakuśalamūlaṃ yac ca me bodhicittakuśalamūlaṃ yac ca me 'nuttarajñānakuśalamūlaṃ tat sarvam aikadhyaṃ piṇḍayitvā tulayitvâbhisaṃkṣipyânutt
+</p><p xml:id="321">
+arāyāṃ samyaksaṃbodhaûttarôttarayā pariṇāmanayā yathā pariṇāmitam atītair buddhair bhagavadbhir yathā pariṇāmayiṣyanty anāgatā buddhā bhagavanto yathā pariṇamanty etarhi daśasu dikṣu pratyutpannā buddhā bhagavantaḥ /
+</p><p xml:id="322">
+tathâham api pariṇāmayāmi /
+</p><p xml:id="323">
+sarvaṃ puṇyam anumodayāmi /
+</p><p xml:id="324">
+sarvān buddhān adhyeṣayāmi /
+</p><p xml:id="325">
+bhavatu me jñānam anuttaram /
+</p><p xml:id="326">
+ye câbhyatītās tathâpi ca ye 'nāgatā ye câpi tiṣṭhanti narôttamā jināḥ /
+</p><p xml:id="327">
+anantavarṇān guṇasāgarôpamān upaimi sarvān śaraṇaṃ kṛtâñjaliḥ /
+</p><p xml:id="328">
+ye bodhisatvāḥ karuṇabalair upetā vicarati loke satvahitāya śūrāḥ trāyantu te māṃ sadapāpakāriṇaṃ [[DOUBT]] /
+</p><p xml:id="329">
+śaraṇaṃ yāmi tān buddhabodhisatvān //
+</p><p xml:id="330">
+[ Bendall ed p171 ---> ]
+</p><p xml:id="331">
+iti hi śāriputra bodhisatvenêmān pañcatriṃśato buddhān pramukhān kṛtvā sarvatathāgatânugatair manasikāraiḥ pāpaśuddhiḥ kāryā /
+</p><p xml:id="332">
+tasyâivaṃ sarvapāpaviśuddhasya tatra ca buddhā bhagavanto mukhāny upadarśayanti satvavimokṣârtham eva /
+</p><p xml:id="333">
+nānāvyañjanâkāram upadarśayanti vibhrāntabālapṛthagjanānāṃ paripācanāhetoḥ //
+</p><p xml:id="334">
+pe //
+</p><p xml:id="335">
+na śakyaṃ sarvaśrāvakapratyekabuddhanikāyair āpattikaukṛtyasthānaṃ viśodhayituṃ yad bodhisatvas teṣāṃ buddhānāṃ bhagavatāṃ nāmadheyadhāraṇaparikīrtanena rātriṃdivaṃ triskandhakadharmaparyāyapravartanenâpattikaukṛtyān niḥsarati samādhiṃ ca pratilabhate //
+</p><p xml:id="336">
+ukto vidūṣaṇâsamudācāraḥ /
+</p><p xml:id="337">
+pratipakṣasamudācārôcyate /
+</p><p xml:id="338">
+tatra gambhīrasūtrântaparicayāt pāpakṣayo bhavati //
+</p><p xml:id="339">
+yathā vajracchedikāyām uktaṃ /
+</p><p xml:id="340">
+ye te subhūte kulaputrā vā kuladuhitaro vā imān evaṃrūpān sūtrântān udgrahīṣyanti yāvat paryavāpsyanti /
+</p><p xml:id="341">
+te paribhūtā bhaviṣyanti suparibhūtāḥ /
+</p><p xml:id="342">
+tat kasya hetoḥ /
+</p><p xml:id="343">
+yāni teṣāṃ satvānāṃ paurvajanmikāni karmāṇi kṛtāny apāyasaṃvartanīyāni /
+</p><p xml:id="344">
+tāni tayā paribhūtatayā dṛṣṭae eva dharme kṣapayiṣyanti buddhabodhiṃ ca prāpsyantîti //
+</p><p xml:id="345">
+śūnyatā-
+</p><p xml:id="346">
+[ Cambridge MS f82b ---> ]
+</p><p xml:id="347">
+adhimuktyâpi pāpaśuddhir bhavati tathāgatakoṣasūtre vacanāt /
+</p><p xml:id="348">
+yaḥ kāśyapa pitā ca syāt pratyekabuddhaś ca taṃ jīvitād vyaparopayed idam agraṃ prāṇâtipātānāṃ /
+</p><p xml:id="349">
+idam agram adattâdānānāṃ yad uta triratnadravyâpaharaṇatā /
+</p><p xml:id="350">
+idam agraṃ kāmamithyâcārāṇāṃ yad uta mātā syād arhantī ca /
+</p><p xml:id="351">
+idam agraṃ mṛṣāvādānāṃ yad uta tathāgatasyâbhyākhyānaṃ /
+</p><p xml:id="352">
+idam agraṃ paiśunyānāṃ yad utârya-
+</p><p xml:id="353">
+[ Bendall ed p172 ---> ]
+</p><p xml:id="354">
+saṃghasyâvarṇaḥ /
+</p><p xml:id="355">
+idam agraṃ pāruṣyāṇāṃ yad utâryāṇām avasphaṇḍanaṃ /
+</p><p xml:id="356">
+idam agraṃ saṃbhinnapralāpānāṃ yad uta dharmakāmānāṃ vikṣepaḥ /
+</p><p xml:id="357">
+idam agraṃ vyāpādānāṃ yad utânantaryaparikarṣaṇam /
+</p><p xml:id="358">
+idam agram abhidhyānāṃ yad uta samyaggatānāṃ lābhaharaṇacittatā /
+</p><p xml:id="359">
+idam agraṃ mithyādṛṣṭīnāṃ yad uta gahanatādṛṣṭiḥ /
+</p><p xml:id="360">
+ime kāśyapa daśâkuśalāḥ karmapathā mahāsâvadyāḥ /
+</p><p xml:id="361">
+sacet kāśyapâikasatvâibhir evaṃ mahāsâvadyair daśabhir akuśalaiḥ karmapathaiḥ samanvāgato bhavet /
+</p><p xml:id="362">
+sa ca tathāgatasya hetupratyayasaṃyuktāṃ dharmadeśanām avataren /
+</p><p xml:id="363">
+nâtra kaścid ātmā vā satvo vā jīvo vā pudgalo vā yaḥ karoti pratisaṃvedayate iti hy akṛtām anabhisaṃskārāṃ māyādharmatām asaṃkleśadharmatāṃ prakṛtiprabhāsvaratāṃ sarvadharmāṇām avataraty ādiśuddhān sarvadharmān abhiśraddadhāty adhimucyate /
+</p><p xml:id="364">
+nâhaṃ tasya satvasyâpāyagamanaṃ vadāmîti //
+</p><p xml:id="365">
+karmâvaraṇaviśuddhisūtre 'py uktaṃ /
+</p><p xml:id="366">
+punar aparaṃ mañjuśrīr yo bodhisatvâpattim anāpattiṃ paśyati /
+</p><p xml:id="367">
+avinayaṃ vinayaṃ paśyati /
+</p><p xml:id="368">
+saṃkleśaṃ vyavadānaṃ paśyati /
+</p><p xml:id="369">
+saṃsāradhātuṃ nirvāṇadhātuṃ paśyati /
+</p><p xml:id="370">
+sa karmâvaraṇaviśuddhiṃ pratilabhatae iti //
+</p><p xml:id="371">
+trisamayarāje 'pi pāpapratipakṣasamudācārôktaḥ //
+</p><p xml:id="372">
+akṣiṇī nimīlya buddhabodhisatvâ-
+</p><p xml:id="373">
+[ Bendall ed p173 ---> ]
+</p><p xml:id="374">
+lambanacittaḥ śatâkṣaram aṣṭasahasraṃ japet /
+</p><p xml:id="375">
+nimīlitâkṣâiva buddhabodhisatvān paśyati vigatapāpo-
+</p><p xml:id="376">
+[ Cambridge MS f83a ---> ]
+</p><p xml:id="377">
+bhavati /
+</p><p xml:id="378">
+athavā caityaṃ pradakṣiṇīkurvann aṣṭasahasraṃ japec caityapratimāyāḥ saddharmapustakānāṃ câikatamaṃ puraskṛtyâyam eva vidhir iti //
+</p><p xml:id="379">
+cundādhāraṇīṃ vā tāvaj japed yāvat pāpakṣayanimittāni paśyati svapne /
+</p><p xml:id="380">
+tad yathā krandanâdichardanadadhikṣīrâdibhojanāt tu vigatapāpo bhavati /
+</p><p xml:id="381">
+vamanād vā candrasūryadarśanād ākāśagamanāj jvalitânalamahiṣakṛṣṇapuruṣaparājayād bhikṣubhikṣuṇīsaṃghadarśanāt kṣīravṛkṣagaja vṛṣagirisiṃhâsanaprāsādanâvarohaṇād dharmaśravaṇāc ca pāpakṣayaḥ saṃlakṣayitavyaḥ //
+</p><p xml:id="382">
+tathāgatabimbaparivarte 'pi pratipakṣasamudācārôktaḥ /
+</p><p xml:id="383">
+tad yathā puruṣo mīḍhâvaliptaḥ sudhautusnānaṃ kṛtvā gandhair vilipyate /
+</p><p xml:id="384">
+tasya tad daurgandhyaṃ vāntaṃ vigataṃ syād evaṃ pañcânantaryakāriṇas tat pāpaṃ vigacchati /
+</p><p xml:id="385">
+yo 'pi daśâkuśalakarmapathasamanvāgatas tathāgate śraddhāṃ pratilabhya tathāgatabimbaṃ kārayet tasyâpi tat pāpaṃ na prajñāyate viśeṣato bodhicittasamanvāgatasya /
+</p><p xml:id="386">
+viśeṣato 'bhiniṣkrāntagṛhâvāsasya śīlavatêti //
+</p><p xml:id="387">
+puṣpakūṭadhāraṇyām apy uktaṃ /
+</p><p xml:id="388">
+yaś ca khalu punaḥ siṃhavikrīḍitatathāgataṃ saṃmukhaṃ varṣaṃ vā varṣasahasraṃ vā varṣaśatasahasraṃ vā sarvasukhôpadhānair upatiṣṭhed /
+</p><p xml:id="389">
+yaś ca parinirvṛtasya tathāgatasya caitye bodhicittasaṃgṛhītâikapuṣpam āropayet tathāgatapūjāyai janâñjaliṃ côpanāmayej jalena vā siñcayed iṣikāpadaṃ vā dadyān nirmālyaṃ câpanayed upalepanapradānaṃ vā puṣpapradānaṃ vā dīpapradānaṃ vā kuryād āttamanāḥ ekakramavyatihāraṃ vâtikramya vācaṃ bhāṣate /
+</p><p xml:id="390">
+namas tasmai buddhāya bhagavatêtimātre 'tra siṃhavikrīḍitakāṅkṣā vā vimatir vā vicikitsā vā yad asau kalpaṃ vā kalpaśataṃ vā kalpasahasraṃ vā durgativinipātaṃ gacchen nêdaṃ-
+</p><p xml:id="391">
+[ Cambridge MS f83b ---> ]
+</p><p xml:id="392">
+sthānaṃ vidyatae iti //
+</p><p xml:id="393">
+[ Bendall ed p174 ---> ]
+</p><p xml:id="394">
+bhaiṣajyaguruvaidūryaprabharājasūtre 'py uktaṃ /
+</p><p xml:id="395">
+ye pañca śikṣāpadāni dhārayanti /
+</p><p xml:id="396">
+ye daśa śikṣāpadāni dhārayanti /
+</p><p xml:id="397">
+ye ca bodhisatvasaṃvaraṃ caturthaṃ śataṃ śikṣāpadānāṃ dhārayanti /
+</p><p xml:id="398">
+ye punar abhiniṣkrāntagṛhâvāsā bhikṣavaḥ pañcāśâdhike dve śikṣāpadaśate dhārayanti /
+</p><p xml:id="399">
+yāś ca bhikṣuṇyaḥ pañcaśikṣāpadaśatāni dhārayanti /
+</p><p xml:id="400">
+ye ca yathāparigṛhītāc chikṣāsaṃvarād anyatarāc chikṣāpadād bhraṣṭā bhavanti /
+</p><p xml:id="401">
+sacet te durgatibhayabhītās tasya bhagavato bhaiṣajyaguruvaiḍūryaprabharājasya tathāgatasya nāmadheyaṃ dhārayeyur yathāvibhavataś ca pūjāṃ kuryuḥ /
+</p><p xml:id="402">
+na bhūyas teṣām apāyagatiḥ pratikāṅkṣitavyā //
+</p><p xml:id="403">
+atha bhagavān āyuṣmantam ānandam āmantrayate sma /
+</p><p xml:id="404">
+śraddadhāsi tvam ānanda /
+</p><p xml:id="405">
+pattīyasi /
+</p><p xml:id="406">
+yad ahaṃ tasya bhagavato bhaiṣajyaguruvaiḍūryaprabharājasya tathāgatasya guṇān varṇayāmi /
+</p><p xml:id="407">
+atha te kāṅkṣā vā vimatir vā vicikitsā vâtra gambhīre buddhagocare //
+</p><p xml:id="408">
+athâyuṣmān ānando bhagavantam etad avocat /
+</p><p xml:id="409">
+na me bhadanta bhagavan kāṅkṣā vā vimatir vā vicikitsā vā tathāgatabhāṣiteṣu sūtrânteṣu /
+</p><p xml:id="410">
+tat kasya hetoḥ /
+</p><p xml:id="411">
+nâsti tathāgatānām apariśuddhakāyavāṅmanaḥsamudācāratā /
+</p><p xml:id="412">
+imau bhagavan candrasūryāv evaṃ maharddhikāv evaṃ mahânubhāvau pṛthivyāṃ patetāṃ /
+</p><p xml:id="413">
+sumeruḥ parvatarājā sthānāc calet /
+</p><p xml:id="414">
+na tu buddhānāṃ vacanam anyathā bhavet //
+</p><p xml:id="415">
+kiṃtu bhadanta bhagavan santi satvāḥ śraddhêndriyavikalā ye buddhagocaraṃ śrutvā na śraddadhati /
+</p><p xml:id="416">
+teṣām evaṃ bhavati /
+</p><p xml:id="417">
+katham idaṃ nāmadheyaṃ smaraṇamātreṇa tasya tathāgatasyâittakā guṇânuśaṃsā bhavati /
+</p><p xml:id="418">
+te na śraddadhati /
+</p><p xml:id="419">
+na pattīyanti /
+</p><p xml:id="420">
+pratikṣipanti /
+</p><p xml:id="421">
+teṣāṃ dīrgharātram anarthāyâhitāyâsukhāya vinipātāya bhaviṣyati //
+</p><p xml:id="422">
+bha-
+</p><p xml:id="423">
+[ Cambridge MS f84a ---> ]
+</p><p xml:id="424">
+gavān āha /
+</p><p xml:id="425">
+asthānam ānandânavakāśo yeṣāṃ tasya nāmadheyaṃ nipatet karṇe teṣāṃ durgatyapāyagamanaṃ bhaved iti /
+</p><p xml:id="426">
+duḥśraddhānīyaś cânanda buddhānāṃ buddhagocaraḥ /yac ca tvam ānanda śraddadhāsi pattīyasi /
+</p><p xml:id="427">
+[ Bendall ed p175 ---> ]
+</p><p xml:id="428">
+tathāgatasyâiṣo 'nubhāvo draṣṭavyaḥ /
+</p><p xml:id="429">
+abhūmiś câtra śrāvakapratyekabuddhānāṃ sthāpayitvâikajātipratibaddhān bodhisatvān mahāsatvān iti //
+</p><p xml:id="430">
+atrâiva côktaṃ /
+</p><p xml:id="431">
+ye cânye śrāddhāḥ kulaputrā vā kuladuhitaro vâṣṭâṅgasamanvāgatam upavāsam upavasanti /
+</p><p xml:id="432">
+ekavārṣikaṃ vā traivārṣikaṃ vā śikṣāpadaṃ dhārayanti /
+</p><p xml:id="433">
+yeṣām evam abhiprāyaḥ evaṃ praṇidhānaṃ /
+</p><p xml:id="434">
+anena vayaṃ kuśalamūlena paścimāyāṃ diśāyāṃ sukhāvatyāṃ lokadhātaûpapadyema yatrâmitābhas tathāgataḥ /
+</p><p xml:id="435">
+yaiḥ śrutaṃ bhaviṣyati tasya bhagavato bhaiṣajyaguruvaiḍūryaprabhavarājasya tathāgatasya nāmadheyaṃ /
+</p><p xml:id="436">
+teṣāṃ maraṇakālasamaye 'ṣṭau bodhisatvā ṛddhyâgatya mārgam upadarśayanti /
+</p><p xml:id="437">
+te tatra nānāraṅgeṣu padmeṣûpapādukāḥ prādurbhavanti /
+</p><p xml:id="438">
+kecit punar devalokae upapadyante /
+</p><p xml:id="439">
+teṣāṃ tatrôpapannānāṃ tat pūrvakaṃ kuśalamūlaṃ na kṣīyate /
+</p><p xml:id="440">
+durgativinipātabhayaṃ ca na bhaviṣyati /
+</p><p xml:id="441">
+te tataś cyutêha manuṣyaloke rājāno bhavanti /
+</p><p xml:id="442">
+caturdvīpêśvarāś cakravartinaḥ /
+</p><p xml:id="443">
+anekāni satvakoṭīniyutaśatasahasrāṇi daśa kuśaleṣu karmapatheṣu pratiṣṭhāpayanti /
+</p><p xml:id="444">
+apare punaḥ kṣatriyamahāśālakuleṣûpapadyante /
+</p><p xml:id="445">
+brāhmaṇamahāśālakuleṣûpapadyante /
+</p><p xml:id="446">
+gṛhapatimahāśālakuleṣu prabhūtadhanadhānyakoṣakoṣṭhâgārakuleṣûpapadyante /
+</p><p xml:id="447">
+te rūpasaṃpannā bhavanti /
+</p><p xml:id="448">
+parivārasampannā bhavanti //
+</p><p xml:id="449">
+tatrâivôktaṃ /
+</p><p xml:id="450">
+yena ca punar mātṛgrāmeṇa tasya bhagavato bhaiṣajyaguruvaiḍūryaprabharājasya tathāgatasya nāmadheyaṃ śrutaṃ bhaviṣyati /
+</p><p xml:id="451">
+udgṛhītaṃ vā /
+</p><p xml:id="452">
+sa tasya paścimo mātṛgrāmabhā-
+</p><p xml:id="453">
+[ Cambridge MS f84b ---> ]
+</p><p xml:id="454">
+vaḥ pratikāṅkṣitavyêti //
+</p><p xml:id="455">
+mañjuśrībuddhakṣetraguṇavyūhâlaṃkārasūtre 'py uktaṃ /
+</p><p xml:id="456">
+jñānôttaraprabhāketuṃ praṇidhānamatiṃ tathā /
+</p><p xml:id="457">
+śāntêndriyaṃ mañjughoṣaṃ bhaktitaḥ praṇamāmy aham //
+</p><p xml:id="458">
+[ Bendall ed p176 ---> ]
+</p><p xml:id="459">
+yâiṣāṃ bodhisatvānāṃ nāmadheyaṃ tu dhārayet /
+</p><p xml:id="460">
+etasya mātṛgrāmasya strībhāvo na bhaviṣyati //
+</p><p xml:id="461">
+uktaḥ saṃkṣepāt pratipakṣasamudācāraḥ //
+</p><p xml:id="462">
+pratyāpattibalam adhunôcyate //
+</p><p xml:id="463">
+yathôktam āryakṣitigarbhasūtre /
+</p><p xml:id="464">
+prāṇâtipātāt prativirato bhavati bodhisatvo mahāsatvaḥ sarvasatvānām abhayaṃdadaḥ /
+</p><p xml:id="465">
+anuttrāso 'nupāyāso 'lomaharṣaḥ sa tena kuśalamūlena karmavipākena /
+</p><p xml:id="466">
+yat pūrvântakoṭipañcagaticakrâruḍhena saṃsāranady-udyātena prāṇâtipātahetunā kāyavāṅmanasā karmâvaraṇaṃ kleśâvaraṇaṃ dharmâvaraṇaṃ kṛtaṃ vā syāt kāritaṃ vânumoditaṃ syāt /
+</p><p xml:id="467">
+tat sarvaṃ tena prāṇâtipātavairamaṇacakreṇa sarvânarthaṃ mardayati /
+</p><p xml:id="468">
+yāvad aśeṣam avipākaṃ kurute /
+</p><p xml:id="469">
+sanikāyasabhāge devamanuṣyāṇāṃ priyo bhavati nirātaṅko dīrghâyuṣkêti //
+</p><p xml:id="470">
+yāvat punar aparaṃ kulaputra yo bodhisatvo yāvajjīvam adattâdānāt prativirato bhavati sa sarvasatvānām abhayam dadāti anyatrâsayatnenâsaṃkṣobheṇa svalābhena saṃtuṣṭo viharati /
+</p><p xml:id="471">
+adhā-
+</p><p xml:id="472">
+[ Bendall ed p177 ---> ]
+</p><p xml:id="473">
+rmikabhogânabhilāṣī sa tena kuśalamūlena yāvad adattâdānahetukaṃ karmâvaraṇaṃ mardayati pramardayati yāvad aśeṣam avipākaṃ kurutae iti //
+</p><p xml:id="474">
+pe //evaṃ daśâpi kuśalāḥ karmapathāḥ svavipakṣâkuśalaghātakās tatra paṭhyante //
+</p><p xml:id="475">
+tathā candrapradīpasūtre 'pi vyāpādaviratyā sarvapāpakṣayaḥ śrūyate /
+</p><p xml:id="476">
+yathâha /
+</p><p xml:id="477">
+sahiṣyāmy atra bālānām abhūtāṃ paribhāṣaṇāṃ /
+</p><p xml:id="478">
+ākrośanaṃ tarjanāṃ câdhivāsiṣya nāyakaḥ //
+</p><p xml:id="479">
+kṣapayiṣye pāpakaṃ karma yan mayā purime kṛtam /
+</p><p xml:id="480">
+anyeṣu bodhisatveṣu vyāpādo janito mayêti //
+</p><p xml:id="481">
+uktaṃ pratyāpattibalam //
+</p><p xml:id="482">
+āśrayabalaṃ tu vaktavyam //
+</p><p xml:id="483">
+atra sūkarikâvadānam udāhāryam /
+</p><p xml:id="484">
+ye buddhaṃ śaraṇaṃ yānti na te gacchanti durgatiṃ /
+</p><p xml:id="485">
+prahāya mānuṣān kāyān divyān kāyāṃl labhanti te //
+</p><p xml:id="486">
+ity evaṃ dharmaṃ saṃghaṃ câdhikṛtya pāpakṣayaḥ //
+</p><p xml:id="487">
+āryamaitreyavimokṣe tu bodhicittena pāpaviśuddhir uktā /
+</p><p xml:id="488">
+kalpa-
+</p><p xml:id="489">
+[ Cambridge MS f85a ---> ]
+</p><p xml:id="490">
+uddāhâgnibhūtaṃ sarvaduṣkṛtanirdahanatayā /
+</p><p xml:id="491">
+pātālabhūtaṃ sarvâkuśaladharmaparyādānakaraṇatayā //
+</p><p xml:id="492">
+pe //
+</p><p xml:id="493">
+tad yathā kulaputra hāṭakaprabhāsaṃ nāma rasajātaṃ /
+</p><p xml:id="494">
+tasyâikaṃ palaṃ lohapalasahasraṃ suvarṇīkaroti /
+</p><p xml:id="495">
+na ca tatra tat palaṃ śakyate tena lohapalasahasreṇa paryādātuṃ /
+</p><p xml:id="496">
+na lohīkartuṃ /
+</p><p xml:id="497">
+evam evâikaḥ sarvajñatācittôtpādarasadhātuḥ kuśalamūlapariṇāmanājñānasaṃgṛhītaḥ sarvakarmakleśâvaraṇalohāni pa-
+</p><p xml:id="498">
+[ Bendall ed p178 ---> ]
+</p><p xml:id="499">
+ryādāya sarvadharmān sarvajñatāvarṇān karoti /
+</p><p xml:id="500">
+na ca sarvajñatācittôtpādarasadhātuḥ śakyaḥ sarvakarmakleśalohaiḥ saṃkleśayituṃ paryādātuṃ vā /
+</p><p xml:id="501">
+tad yathā kulaputrâikaḥ pradīpo yādṛśe gṛhe vā layane vā praveśyate sa saha praveśito varṣasahasrasaṃcitam api tamondhakāraṃ vidhamayati /
+</p><p xml:id="502">
+avabhāsaṃ ca karoti /
+</p><p xml:id="503">
+evam evâikaḥ sarvajñatācittôtpādapradīpo yādṛśe satvâśaye gahane 'vidyātamondhakārânugate praveśyate sa saha praveśito 'nabhilāpyakalpaśatasahasrasaṃcitam api karmakleśâvaraṇatamondhakāraṃ vidhamati /
+</p><p xml:id="504">
+jñānâlokaṃ ca karoti //
+</p><p xml:id="505">
+tad yathā kulaputra cintāmaṇirājamukuṭānāṃ mahānāgarājñāṃ nâsti parôpakramabhayaṃ /
+</p><p xml:id="506">
+evam eva bodhicittamahākaruṇācintāmaṇirājamukuṭâvabaddhānāṃ bodhisatvānāṃ nâsti durgatyapāyaparôpakramabhayam iti //
+</p><p xml:id="507">
+āryôpāliparipṛcchāyām apy uktaṃ /
+</p><p xml:id="508">
+ihôpāle mahāyānaṃ saṃprasthito bodhisatvaḥ sacet pūrvâhṇakālasamaye āpattim āpadyeta /
+</p><p xml:id="509">
+madhyâhnakālasamaye sarvajñatācittenâvirahito vihared aparyantâiva bodhisatvasya śīlaskandhaḥ /
+</p><p xml:id="510">
+sacen madhyâhnakālasamaye āpattim āpadyate sāyâhnakālasamaye sarvajñatācittenâvirahito bhaved aparyantâiva bodhisatvasya śīlaskandhaḥ /
+</p><p xml:id="511">
+evaṃ yāme yāme vidhir uktaḥ /
+</p><p xml:id="512">
+evaṃ hy upāle saparihārā śikṣā mahāyānasaṃprasthitānāṃ bodhisatvānāṃ /
+</p><p xml:id="513">
+tatra bodhisatvena nâtikaukṛtyaparyutthānam utpādyaṃ nâtivipratisāriṇā bhavitavyaṃ /
+</p><p xml:id="514">
+sacet punaḥ śrāvakayānīyaḥ pudgalaḥ punaḥ punar āpattim āpadyeta /
+</p><p xml:id="515">
+naṣṭaḥ śrāvakasya pudgalasya
+</p><p xml:id="516">
+[ Cambridge MS f85b ---> ]
+</p><p xml:id="517">
+śīlaskandho veditavyaḥ /
+</p><p xml:id="518">
+iti //
+</p><p xml:id="519">
+iti śikṣāsamuccaye pāpaśodhanam aṣṭamaḥ paricchedaḥ //
+</p><p xml:id="520">
+Copyright (c) 2002 by Jens Braarvig - Oslo
+</p>
+</body>
+</text>
+</TEI>

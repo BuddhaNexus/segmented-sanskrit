@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_vizvantarAvadAna">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Viśvantarāvadāna</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by Kabita Das Gupta:  Viśvantarāvadāna, Eine buddhistische Legende, Berlin 1978. Cf. GBM 157-174, 1332-1349, 3314-3315-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Visvantaravadana  = Viśv<BR>
+Based on the ed. by Kabita Das Gupta: <BR>
+Viśvantarāvadāna, Eine buddhistische Legende, Berlin 1978.<BR>
+Cf. GBM 157-174, 1332-1349, 3314-3315<BR>
+Input by Klaus Wille (Göttingen)<BR>
+BOLD for emedations (and references)<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+fol.<!-- TODO: &nbsp;&nbsp;&nbsp;GBM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GBM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Viśv&nbsp;&nbsp;&nbsp;&nbsp; -->remarks<lb/>
+5r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;172&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1347&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->preserved as v of 13<lb/>
+5v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;159&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1332&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->3-10<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;160&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1333&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->blank! r of fol. 5<lb/>
+6r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;161&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1334&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->11-15<lb/>
+6v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;162&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1335&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->15-18<lb/>
+7r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;157&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1336&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->18-22<lb/>
+7v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;158&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1337&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->22-25<lb/>
+8r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;163&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1338&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->25-30<lb/>
+8v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;164&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1339&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->30-35<lb/>
+9<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35-39&nbsp;&nbsp;&nbsp; -->lost<lb/>
+10r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;165&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1340&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->40-43<lb/>
+10v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;166&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1341&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->43-45<lb/>
+11r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;167&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1342&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->45-48<lb/>
+11v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;168&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1343&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->48-51<lb/>
+12r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;169&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1344&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->51-54<lb/>
+12v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;170&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1345&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->54-59<lb/>
+13r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;171&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1346&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->59-64<lb/>
+r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;64-68&nbsp;&nbsp;&nbsp; -->GBM 3314<lb/>
+v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;68-69&nbsp;&nbsp;&nbsp; -->GBM 3315<lb/>
+14r<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;173&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1348&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;69-70&nbsp;&nbsp;&nbsp; -->+ Col. and beg. of Kapphiṇa-avadāna<lb/>
+14v<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;174&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1349&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->Kapphiṇa-avadāna
+</p><p xml:id="1">
+(<hi rend="bf">Viśv 1</hi>) punar api yathaiṣa akṛtajñaḥ akṛtavedī tac chrūyatāṃ<lb/>
+(<hi rend="bf">Viśv 2</hi>) bhūtapūrvaṃ bhikṣavo viśvapuryāṃ rājadhānyāṃ viśvāmitro nāma rā<hi rend="bf">jā</hi> rājyaṃ kārayati ṛddhaṃ ca sphītaṃ ca kṣemaṃ ca subhikṣaṃ cākīrṇabahujanamanuṣya<hi rend="bf">ṃ</hi> ca praśāntakalikalahaḍimbaḍamarataskararogāpagataṃ śālīkṣugomahiṣīsaṃpannaṃ. dhārmiko dharmarājā dharmeṇa rājyaṃ kā<hi rend="bf">ra</hi>yati. sa ca rājā śrāddho bhadraḥ kalyāṇāśayaḥ ātmahitaparahitapratipannaḥ kāruṇiko mahātmā dharmakāmaḥ prajāvatsalaḥ<lb/>
+(<hi rend="bf">Viśv 3</hi>) so 'pareṇa samayena devyā sārdhaṃ krīḍati ramati paricārayati. tasya krīḍato rama<hi rend="bf">māṇa</hi>sya paricārayataḥ kālāntareṇa devī āpannasatvā saṃvṛttā<lb/>
+(<hi rend="bf">Viśv 4</hi>) sāṣṭānāṃ va nāvānāṃ vā māsānām atyayāt prasūtā. dārako jāta abhirūpo darśanīyaḥ prāsādiko gauraḥ kanakava<hi rend="bf">rṇaś cha</hi>trākāraśirā pralambabāhur vistīrṇalalāṭa<hi rend="bf">ḥ</hi> saṃgatabhrūs tuṃganāsa<hi rend="bf">ḥ</hi> sarvāṃgapratyaṃgopetaḥ<lb/>
+(<hi rend="bf">Viśv 5</hi>) tasya jātau jātimahaṃ kṛtvā nāmadheyaṃ vyavasthāpyate. kiṃ bhavatu dārakasya nāmeti jñātaya ūcur yasmād ayaṃ dārako viśvāmitrasya rājñaḥ putras tasmā<hi rend="bf">d</hi> bhavatu dārakasya viśvantara i<hi rend="bf">t</hi>i <hi rend="bf">nā</hi>meti. tasya viśvantara iti nāmadheyaṃ vyavasthāpitaṃ.<lb/>
+(<hi rend="bf">Viśv 6</hi>) viśvantaro dārakaḥ aṣṭābhyo dhātrībhyo 'nupradattaḥ dvābhyām aṃsadhātrībhyāṃ dvābhyāṃ kṣīradhātrībhyāṃ dvābhyāṃ maladhātrībhyāṃ dvābhyāṃ krīḍanakadhātrībhyāṃ. <hi rend="bf">sa a</hi>ṣṭābhir dhātrībhir unnīyate vardhyate kṣīreṇa dadhnā navanītena sarpiṣā sarpirmaṇḍenānyaiś cottaptottaptair upakaraṇaviśeṣair āśu vardhyate hradastham iva paṅkajaṃ<lb/>
+(<hi rend="bf">Viśv 7</hi>) sa yadā mahān saṃvṛttas tadā lipyām upanyastaḥ saṃkhyāyāṃ gaṇanāyāṃ mudrāyāṃ. sa yāni tāni rājñāṃ kṣatriyāṇāṃ mūrdhābhiṣiktānāṃ janapadaiśvaryasthā<hi rend="bf">ma</hi>vīryam <hi rend="bf">anuprāptānāṃ mahāntaṃ pṛthivīmaṇḍalam abhinirjityādhyāvasatāṃ pṛtha</hi>g bhavanti śilpasthānakarmasthānāni tadyathā hastigrīvāyām aśvapṛṣṭhe rathe tsarau dhanuṣy apayāne niryāṇe aṃkuśag<hi rend="bf">ra</hi>he pāśag<hi rend="bf">ra</hi>he tomaragrahe cchedye bhedye vedhye muṣṭibandhe pādaba<hi rend="bf">ndhe śikhābandhe dūravedhe śabdavedhe marmavedhe akṣaṇavedhe dṛḍhaprahāritāyāṃ pañcasu sthāne</hi>ṣu kṛtāvī saṃvṛttaḥ<lb/>
+(<hi rend="bf">Viśv 8</hi>) viśvantaraḥ kumāro śrāddho bhadraḥ kalyāṇāśayaḥ ātmahitaparahitapratipannaḥ kāruṇiko mahātmā dharmakāmaḥ prajāvatsalaḥ sarva<hi rend="bf">pradaḥ sarvaparityāgī niḥsaṅgaparityāgī ca mahati tyāge vartate</hi> tasya pradānavistaram upaśrutya yojanaśatād abhyarthijano 'bhyāgacchati. sarvaṃ ca paripūrṇamanorathaṃ preṣayati<lb/>
+(<hi rend="bf">Viśv 9</hi>) atha kadācid bodhisatvo maṇikana<hi rend="bf">karajatavajravidrumavaiḍūryamusāragalvārkendranīlavidyotitaṃ candanavarasā</hi>rapariṇāmitaṃ siṃhavyāghradvīpicarmapariṇaddhaṃ pavanaba<hi rend="bf">la</hi>samajavaiḥ kanakarajatamaṇighaṇṭikāpūrṇitaravaiś caturbhis turagair yuktaṃ syandanavaram a<hi rend="bf">dhiruhya nagarād udyānābhimukho niryayau</hi>.<lb/>
+(<hi rend="bf">Viśv 10</hi>) <hi rend="bf">atha kecit pratyarthikapra</hi>yuktā viprā vedavedāṃgavidas tvaritatvaritaṃ viśvantarakumāram abhigamyocuḥ jayatu bhavāṃ kṣatriyakumāraḥ ity āha ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarveṣu khalu lokeṣu viśruta<hi rend="bf">ḥ sarvado bhavān /</hi><lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ratham etad dvijātibhyo dānaṃ tvaṃ dātum arhasi //</hi><lb/>
+(<hi rend="bf">Viśv 11</hi>) <hi rend="bf">ity eva</hi>m ukte bodhisatvo laghulaghv eva tasmād rathavarād avatīrya hṛṣṭatuṣṭapramuditahṛdayas tebhyo dvijātibhyas taṃ rathavaram upadarśayann uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathā mayā rathas tyakto viprebhyaḥ parayā mudā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tathāhaṃ tribhavaṃ tyaktvā spṛśeyaṃ bodhim uttamām //<lb/>
+(<hi rend="bf">Viśv 12</hi>) so 'pareṇa samayena kundakumudahimarajatasitābhravarṇaṃ saptasujātasupratiṣṭhitacaraṇatalaṃ airāvaṇadviradavilāsagāminaṃ parasvābhāvyalakṣaṇālaṃkṛtaṃ puṇyadarśanaṃ rājyavardhanaṃ nāma gajavaram adhiruhya parituṣṭabhṛtyamitrasevakānuyātrikaiś candra iva nakṣatragaṇaparivṛtaḥ saṃprāpte vasantakālasamaye saṃpuṣpiteṣu pādapeṣu haṃsakrauṃcamayūraśukaśārikākokilajīva<hi rend="bf">ṃ</hi>jīvavakanirghoṣitavanaṣaṇḍam udyānabhūmi<hi rend="bf">ṃ</hi> viniryayau<lb/>
+(<hi rend="bf">Viśv 13</hi>) atha kecit pratyarthikaprayuktā viprā vedavedāṃgavidas tvaritatvaritaṃ viśvantarakumāram abhigamyocuḥ: jayatu bhavāṃ kṣatriyakumāra ity āha ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sadaityāmaralokeṣu viśrutaḥ sarvado bhavāṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dātum enaṃ{d} gajavaram asmabhyas tvam ihārhasi //<lb/>
+(<hi rend="bf">Viśv 14</hi>) evam ukte bodhisatva<hi rend="bf">s tasmād a</hi>pi gajavarāl laghulaghv evāvatīrya hṛṣṭatuṣṭapramuditamanās tebhyo dvijātibhyas taṃ gajavaram upadarśayann uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathā mayā gajas tyakto viprebhyaḥ parayā mudā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tathāhaṃ tribhavaṃ tyaktvā spṛśeyaṃ bodhim uttamām //<lb/>
+(<hi rend="bf">Viśv 15</hi>) śuśrāva ca rājā viśvāmitra<hi rend="bf">ḥ pu</hi>treṇa cāt<hi rend="bf">ra</hi> viśvantareṇa rājyavardhano <hi rend="bf">nā</hi>ma gajavaraḥ pratyarthikaprayuktebhyo viprebhyo dattaḥ iti. śrutvā ca puna rājñā visvāmitreṇa paramakopakupitena viśvantaraḥ kumāra āhūyoktaḥ: gaccha kumāra na te madviṣaye vastavyam iti.<lb/>
+(<hi rend="bf">Viśv 16</hi>) kumāraḥ pitrā parityaktaś cintayāmāsa: bodhāya mayā kṛtavyavasāyena sarvalokānugrahārthaṃ baddhasannāhena gajo 'sau tyaktas<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tadgṛhe vartamānena deyaṃ dānaṃ yathābalam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tapovanaṃ vā saṃśṛtya kartavyo niyamaḥ paraḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tato 'haṃ gṛham utsṛjya prayāsyāmi tapovanam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vaktuṃ na tūtsahe vākyaṃ na dāsyāmīti yācakaṃ //<lb/>
+(<hi rend="bf">Viśv 17</hi>) athaivaṃ kṛtamatir bodhisatvo bhāryāyā mādryāḥ sakāśaṃ abhigamyaitad vistareṇa nivedayāmāsa. tato mādrī sahaśravaṇād eva priyaviprayogāśaṃkitahṛdayā kṛtakarapuṭā bodhisatvam uvāca: āryaputra yady evam ahaṃ api tapovanaṃ yāsyāmi. na śakyaṃ mayā āryaputraviyuktayā m<hi rend="bf">u</hi>hūrtam api prāṇān dhārayituṃ. kutaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->gaganam iva candravihīnaṃ sasyavihīnā bhaved yathā pṛthivī /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nalinīva jalavihīnā bhartṛvihīnā tathā bhaven nārī //<lb/>
+(<hi rend="bf">Viśv 18</hi>) bodhisatva uvāca: avaśyam evāvayor ante viyogena bhavitavyaṃ. eṣa hi lokasvabhāvaḥ. tvaṃ ca pravarānnapānaśa<hi rend="bf">ya</hi>nāsana<hi rend="bf">saṃ</hi>vasano<hi rend="bf">pa</hi>citā paramasukumāraśarīrā. tapovane tṛṇaparṇopacitāyāṃ bhūmyāṃ svaptavyaṃ, mūlapuṣpaphalāni cāhāro darbhopalakuśakaṇṭakacitāyāṃ mahyāṃ vicaritavyaṃ abhīkṣṇaṃ copavāsa upavasitavyaḥ, sarvajanasyātmā darśayitavyaḥ, sarvaprayatnenātithayaḥ pūjayitavyās. tatrāpi ca mayā avaśyaṃ yathāśaktyā dānaṃ deyaṃ. tatra bhavatyā na kathaṃcid anutāpaḥ karaṇīyas ta<hi rend="bf">t</hi> punar api tāvat saṃpradhāryatām iti.<lb/>
+mādrī kathayaty āryaputra yathāśaktyāham āryaputrasya anuvartiṣyāmīti.<lb/>
+bodhisatvaḥ kathayati yady evaṃ smartavyā te iyaṃ pratijñeti.<lb/>
+(<hi rend="bf">Viśv 19</hi>) tato bodhisatvaḥ pitaram abhigamya mūrdhnā praṇipatyovāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kṣamasva yat tāta mayāparāddhaṃ gajapradānaṃ prati pārthivendra /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->eṣa prayāsyāmi purād araṇyaṃ kośakṣayo mā nṛpate tavābhūd // iti<lb/>
+tata<hi rend="bf">ḥ</hi> putraviyogaviklavo rājā bāṣpoparudhyamānagadgadakaṇṭha uvāca: putra tiṣṭha nivartyatāṃ dānān mati<hi rend="bf">r iti</hi>. bodhisatva uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->apy eva parivarteta dharā sadharaṇīdharāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pradānān na tv ahaṃ cittaṃ nivarteyaṃ mahīpate //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ity uktvā prakrāntaḥ.<lb/>
+(<hi rend="bf">Viśv 20</hi>) tataḥ putraduhitṛkalatrasahitaḥ śokotkaṇṭhaiḥ paurajānapadaśatasahasrair anugamyamāno ratham adhiruhya tasmān nagaravarān nirjagāma.<lb/>
+(<hi rend="bf">Viśv 21</hi>) atha kaścit puruṣas taṃ ruditaparidevitaśabdaṃ śrutvā mahājanakāyaṃ ca nagaradvāreṇa nirgacchantaṃ dṛṣṭvānyatamaṃ puruṣam uvāca: bhoḥ puruṣa kiṃkṛto 'yaṃ mahājanakāyasya rudanaśabda iti. sa uvāca: kiṃ bhavān na jānīte. yad asmad-<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->deśāt svakān nṛpatinā svasutaḥ sudaṃṣṭro<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nirvāsyate sthiradhṛtir nirataḥ pradāne /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sa prasthito vanam apetya saputradāraḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->paurāḥ <hi rend="bf">c</hi>a bhṛtya karuṇaṃkaruṇaṃ rudanti //<lb/>
+(<hi rend="bf">Viśv 22</hi>) tato viśvantaro bodhisatvas tasmān nagaravarān nirgatān paurān yathānyāyam abhigamyovāca: nivartantu nivartantu bhavantaḥ. suciram api hi priyasaṃprayogo bhūtvāvaśyam evānte viyogāvasāno bhaviṣyati. vāsavṛkṣādhvapratiśrayabhūto 'pi bandhujanaviyogo 'vaśyabhāvī priyaviprayogaḥ. kutaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarveṣu lokeṣv avagamya jantoḥ priyair viyogo bhavatīti matvā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kāryā bhavadbhir bhuvi sarvayatnaiḥ sthirāprakaṃpyā ca śamāya buddhiḥ //<lb/>
+(<hi rend="bf">Viśv 23</hi>) atha triṃśadyojanātikrāntaṃ bodhisatvam avekṣyānyatamo brāhmaṇo 'bhigamyovāca: bhoḥ kṣatriyakumāra itas triṃśanmātrair yojanair adhiṣṭhānaṃ yato 'haṃ bhavato guṇaśravaṇād āgata iti. tad arhasi bhavān anena rathavareṇa me saphalaṃ śramaṃ kartum iti.<lb/>
+tato mādrī saṃjātāmarṣā niṣṭhurābhidhānena taṃ brāhmaṇam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aho dvijasyāsya sudāruṇā matir vane 'pi yo 'bhyarthayate nṛpātmajaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na nāma kāruṇyam ihāsya jāyate narendraputre nṛpatiśriyā cyute //<lb/>
+bodhisatva uvāca: e<hi rend="bf">va</hi>ṃ na khalu na khalu bhavatyā brāhmaṇaḥ paribhāṣaṇīyaḥ. kutaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yady ete na bhaveyur arthanadayo mādri pratigrāhakāḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bodhiṃ kaḥ samavāpnuyād bhuvi naraḥ sarvapradānād ṛte /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ṣaḍbhiḥ pāramitābhir uttamaguṇāḥ saṃbodhisatvāḥ sadā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dānādyābhir avāpnuvanti niyataṃ sarvajñatām uttamām //<lb/>
+(<hi rend="bf">Viśv 24</hi>) atha bodhisatvas tam apy aśvarathaṃ parameṇa praharṣeṇa tasmai brāhmaṇāya datvovāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->a<hi rend="bf">n</hi>nena mātsaryamalapravāhiṇā rathapradānena mamāstv iha dvija /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->maharṣibhi<hi rend="bf">ḥ</hi> ṣaḍbhir anupravartito nirāsravo dharmamayo mah<hi rend="bf">ā</hi>rathaḥ //<lb/>
+(<hi rend="bf">Viśv 25</hi>) tato bodhisatva<hi rend="bf">ḥ</hi> pramuditahṛdayas tam api rathavaraṃ brāhmaṇāya datvā kṛṣṇājināṃ kumārī<hi rend="bf">ṃ</hi> skandhe āropya mādrī ca jālinaṃ kumāraṃ tapovanābhimukhau saṃprasthitau. anupūrveṇa tapovanam anuprāptau. tato viśvantaro bodhisatvas tasmiṃ tapovane svahṛdayapraritoṣakaraṃ vratam āsthāya vijahāra.<lb/>
+(<hi rend="bf">Viśv 26</hi>) tena khalu samayena anyatamasmiṃ karvaṭake brāhmaṇaḥ prativasati sma. tena sadṛśāt kulāt kalatram ānītaṃ. sa tayā sārdhaṃ krīḍati ramati paricārayati. tasya krīḍato ramamāṇasya paricārayataḥ <hi rend="bf">pu</hi>tro jāta aṣṭādaśabhir apalakṣaṇaiḥ samanvāgataḥ. sa yadā jujjavayati, tasya jujjuko jujjuka iti saṃjñā saṃvṛttā.<lb/>
+(<hi rend="bf">Viśv 27</hi>) anyata<hi rend="bf">masmiṃ</hi> api karvaṭake brāhmaṇaḥ prativasati caturveda<hi rend="bf">jña</hi>s. tena sadṛśāt kulāt kalatram ānītaṃ. sa tayā sā<hi rend="bf">rdhaṃ</hi> krīḍati ramati paricārayati. tasya krīḍato ramamāṇasya paricārayato duhitā jātā abhirūpā darśanīyā prāsādikā caturdināvadhinā mahatī saṃvṛttā. tena brāhmaṇena pratijñā kṛtā: na mayā kasyacid iyaṃ duhitā rūpeṇa vā kulena vā dhanena vā śilpena vā dātavyāpi tu yo mamāntikāc caturo vedān adhigamiṣyati, tasya mayeyaṃ dātavyā.<lb/>
+(<hi rend="bf">Viśv 28</hi>) atha jujjuko mantrārthī mantragaveṣī tasya gṛham upasaṃkrāntaḥ. sa tena brāhmaṇenābhihito: bho māṇava ku<hi rend="bf">ta</hi>s tvaṃ kiṃ vā prārthayasi<lb/>
+sa kathayatīcchāmy aham upādhyāyasya pādaśuśruṣāṃ kartuṃ.<lb/>
+sa kathayati: śobhanam evaṃ kuruṣva māṇava. karaṇīyam etad brāhmaṇānāṃ.<lb/>
+(<hi rend="bf">Viśv 29</hi>) sa tasyāntike vedādhyayanaṃ kartum ārabdhaḥ. sa medhāvī jātīyaḥ. tena alpīyasā kālena <hi rend="bf">ca</hi>tvāro vedā adhītāḥ<lb/>
+(<hi rend="bf">Viśv 30</hi>) sa brāhmaṇaḥ saṃlakṣayati: mayā pratijñā kṛtā na mayā kasyacid iyaṃ duhitā rūpeṇa vā kulena vā dhanena vā śilpena vā dātavyā. api tu yo mamāntikāc caturo vedān adhigamiṣyati tasya mayeyaṃ dātavyā. anena ca māṇavakena mamāntikāc caturo vedān adhigatā. ayaṃ ca aṣṭādaśabhir apalakṣaṇaiḥ samanvāgataḥ. yady etāṃ dārikāṃ sa pratigṛhṇīyāc chobhanaṃ syāt.<lb/>
+(<hi rend="bf">Viśv 31</hi>) tasya tenoktaṃ: māṇava mayā pratijñā kṛtā na mayā kasyacid iyaṃ duhitā rūpe<hi rend="bf">ṇa vā kule</hi>na vā dhanena vā śilpena vā dātavyā, api tu yo mamāntikāc caturo vedān adhigamiṣyati tasya mayedaṃ dātavyā. tvayā ca mamāntikāc caturo vedā adhigatāḥ. tavāhaṃ duhitā bhāryārtham anuprayacchāmi.<lb/>
+sa kathayati: svasti pratigṛhītā bhavatu.<lb/>
+tasya tena maha<hi rend="bf">tā</hi> śrīsamudayena vivāhaḥ kāritaḥ kṛtvā kathayati: māṇa<hi rend="bf">va</hi> patnīm ādāya svagṛhaṃ gaccha.<lb/>
+(<hi rend="bf">Viśv 32</hi>) sa tāṃ patnīm ādāya svagṛhaṃ gataḥ. sa tayā ucyate: āryaputra sukumārā nāhaṃ śaknomi karma kartuṃ. mama upasthāyakam anuprayaccheti.<lb/>
+sa kathayati: bhadre kuto mama upasthāyakaḥ.<lb/>
+sā kathayaty āryaputra viśvapuryāṃ viśvāmitro nāma rājā. tasya putro viśvantaro nāma. sa yat kiṃcit yācyate tat sarvaṃ dadāti. tasya <hi rend="bf">sa</hi>kāśān mama upasthāyakaṃ mṛgaya.<lb/>
+sa kathayati: bhadre yad<hi rend="bf">y</hi> evaṃ sahitaṃ gacchāvaḥ.<lb/>
+(<hi rend="bf">Viśv 33</hi>) sa tayā sārdhaṃ viśvapuriṃ gatvā pṛcchati: kutra viśvantarakumāras.<lb/>
+te kathayanti: tapovanaṃ saṃśritaḥ.<lb/>
+(<hi rend="bf">Viśv 34</hi>) atha jujjukaḥ patnyā sārdhaṃ tapovanaṃ gata<hi rend="bf">ḥ</hi>.<lb/>
+(<hi rend="bf">Viśv 35</hi>) tato 'sau brāhmaṇo mādryā mūlaphalārtham abhigatāyās tapovanā<hi rend="bf">n nirgatya</hi> viśvantaram abhigamyovāca: jayatu bha<hi rend="bf">vān kṣatriyakumāra iti</hi>
+</p><p xml:id="2">
+(<hi rend="bf">Viśv 40</hi>) taṃ arthaṃ nivedayāmāsa:<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nūnaṃ tapovanagatau hi phalāmbubhakṣyau bālau sutau nayanatuṣṭikarau manojñau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->duḥkhānvitasya jagataḥ parimokṣaṇārthaṃ viśvantaras tyajati kaṃpati yena bhūmiḥ //<lb/>
+(<hi rend="bf">Viśv 41</hi>) tatas tau bāladārakau pitur āśayaparityāgabuddhim avagamya karu<hi rend="bf">ṇa</hi>karuṇaṃ rudantau viśvantarasya pādayor nipatya kṛtakarapuṭāv ūcatuḥ: prasīda tāta māvāṃ parityākṣīs tadānīṃ guruvihīnau gamiṣyā<hi rend="bf">vaḥ</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aṃbā ca tāta niṣkrāntā tvaṃ ca no dātum arhasi /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yāvat tām api paśyāvas tato dāsyati nau bhavān //<lb/>
+tato bodhisatvaḥ sahaviklavahṛday<hi rend="bf">a</hi> .. .. .. .. .. vadanas tau bāladārakau pariṣvajyovāca: putrakau<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na me hṛdayaṃ asnigdhaṃ nākṛpā nāpi nairghṛṇaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarvalokahitārthaṃ tu tyajāmi guṇadarśinau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="bf">budh</hi>y <hi rend="bf">e</hi>vāhaṃ parāṃ bodhim abhigamya śivāṃ svayam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->duḥkhārṇavagataṃ lokaṃ tārayeyaṃ nirāśrayam //<lb/>
+(<hi rend="bf">Viśv 42</hi>) tatas tau bāladārakau pitur āśayaparityāgabuddhim avagamya karuṇadīnavilaṃbitākṣaraiḥ pādayor nipatya kṛtakarapuṭāv ūcatuḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yady evaṃ vyavasāyas te vacanād ā<hi rend="bf">vayo</hi>s tvayā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vaktavyā jananī tāta kṣantum aṃba tvam ihārhasi //<lb/>
+api ca tāta<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yan nau guror apakṛtaṃ tvayi bālabāvā<hi rend="bf">d</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yady apriyaṃ kvacana kiṃcid udāhṛtaṃ vā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śuśrūṣayā ca paripūritam eva na syād<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bālāparādha iti tat khalu marṣaṇīyam //<lb/>
+ity uktvā pitaram abhivādya triḥpradakṣiṇīkṛtya guruvacanapālakau muhurmuhu<hi rend="bf">ḥ</hi> saṃparivartamānau nayanāmbupariplutākṣakau tasmād āśramapadād viniścakrāmatuḥ.<lb/>
+(<hi rend="bf">Viśv 43</hi>) tato bodhisatvas tair atikaruṇair bāladārakavacobhiḥ viklavīkṛtahṛdayo bodhau mana<hi rend="bf">ḥ pra</hi>ṇ<hi rend="bf">i</hi>dhāya tapova + + + + niṣkrāntamātrayoś ca punar tayor bāladārakayor ayaṃ trisahasramahāsahasro lokadhātuḥ ṣaḍvikāraṃ prakaṃpito 'nekaiś ca devatāsahasrair hāhākāro 'ntarikṣāj jāto babhūva<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aho pradānasya māhātmyam aho <hi rend="bf">sat</hi>vasya niścayaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bālāv imau sutau tyaktvā yan na vikriyate manaḥ //<lb/>
+(<hi rend="bf">Viśv 44</hi>) tasmiṃś ca samaye mādrī mūlaphalāny ādāyāśramapadābhimukhī saṃprasthitā. tena ca mahatā bhūmikaṃpena tvaritatvaritam evāśramapadaṃ saṃpratasthe. tatrānyatamā devatā siṃharūpadhāriṇī bhūtva mārgam avarudhyamānāvasthitā mā haiva madrī bodhisattvasya sarvasatvanirmokṣaṇakṛtodyogasya dānapāramitāyā<hi rend="bf">ṃ</hi> vighnam utpādayiṣyatīti.<lb/>
+tato mādrī tāṃ mṛgarājavadhūvilāsinīm uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mṛgarājavadhūvilāsini kim idaṃ mām uparudhya tiṣṭhasi<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dhruvam asmi yathā patiṃ gatā laghu mārgād apasarpa me tathā //<lb/>
+api ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tvam api mṛgarājapatnī aham api bhāryā narendrasiṃhasya /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dharmeṇa bhavasi bhaginī mṛgarājñi dadasva me mārgam //<lb/>
+ity evam uktā sā siṃharūpadhāriṇī devatā tasmān mārgād apakrāntā<lb/>
+(<hi rend="bf">Viśv 45</hi>) tato mādrī 'nimittāny aprasannānīti matvā m<hi rend="bf">u</hi>hūrtaṃ cintayāmāsa: yathā<hi rend="bf">ya</hi>m antarikṣe rudanaśabdaḥ śrūyate, yathā ca vanavāsināṃ bhūtānāṃ vidrāvaṇaśabdo vyaktam āśramapade akuśalaṃ bhaviṣyatīty āha ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathā sphurati me netraṃ yathā rauti vihaṃgamaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ka<hi rend="bf">th</hi>an nau bālakau tyaktau yathā ca matir utsukā //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathāyaṃ pṛthivīkaṃpo vepate hṛdayaṃ ca me /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->suvyaktau bālakau tyaktau yathā kāyaś ca sīdati //<lb/>
+(<hi rend="bf">Viśv 46</hi>) saivam anarthaśatasahasrāṇi cintayantī āsramapadaṃ gatvā praviśya cāśramapadaṃ sasaṃbhrāntā nirīkṣate, na paśyati tau putrakau. tato mādrī viklavahṛdayā vepamānā sthānapadānusāraṃ vikalpayaty asmin pradeśe jālimāṃ kumāraḥ saha bhaginyā mṛgapotakair abhīkṣṇaṃ krīḍitavāṃ. imāni ca tābhyāṃ pāṃsunagarāṇi kṛtāni. imāni ca tayoḥ krīḍanakāni. tau tu na paśyāmi. atha vā aṃbā na dṛśyata iti parṇakuṭīṃ praviśya śayitau bhaviṣyataḥ<lb/>
+(<hi rend="bf">Viśv 47</hi>) ity evam āśaṃkāparigatahṛdayā sutadarśanalālasā mūlaphalāny ekānte upanikṣipya bāṣpāmbupariplutekṣaṇā bhartuḥ pādayor nipatya pṛcchaty āryaputra kva gatau tau bāladārakāv iti. viśvantara uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->āśayā samabhikrānto brāhmaṇo mama sannidhim /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tasya tau bālakau dattau tāv anujñātum arhasi //<lb/>
+(<hi rend="bf">Viśv 48</hi>) athaivam uktā mādrī viṣadigdhaviddheva mṛgī bhūmau nipapāta. jalāśrayoddhṛteva matsī pṛthivyām āvartanaṃ parivartanaṃ karoti sma. hṛtapoteva kurarī karuṇakaruṇaṃ virauti sma. pranaṣṭavatseva ca gaur bahuvidhaṃ haṃbhāravair vilalāpa. āha ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bālapaṃkajasamānavaktrakau padmapatrasukumārahastakau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->duḥkhitāv ananubhūtaduḥkhakau kāṃ gatiṃ mama gatau hi putrakau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->niratau mṛgakaiḥ sahāśrame mṛgaśāvārjavakau mṛgākṣakau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->katham adya nu putrakau mama vrajato 'nyasya vaśena duḥkhitau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nayanāṃbupariplutākṣakau virudantau karuṇaṃ suduḥkhitau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na ca me 'dya sudṛṣṭakau kṛtau kṛpaṇair jīvati duḥkhitau <hi rend="bf">bata</hi> //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="bf">aṃge</hi> mama tau vivṛddhakau mūlapuṣpaphalabhojanātmakau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kṣāntimārdava<hi rend="bf">iḥ</hi> sadā gurupriyau duḥkhitau hi paramaṃ sutau mama //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->jñātimātṛparihīnakau ca tau bandhubhiś ca sahasā nirākṛtau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->durjanaṃ janam upetya pāpakaṃ duḥkhitau hi paramaṃ sutau mama //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kṣuttṛṣāparigṛhātmakau sadā kasya tau vaśam upāgamiṣyataḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ārttiduḥkhaparipīḍitau ca tau preṣyabhāvam upayāsyato dhruvam //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->karma nūnam iha pāpakaṃ mayā anyajanmani sudāruṇaṃ kṛtaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prāṇina<hi rend="bf">ḥ pri</hi>yaśatair viyojitā yena gaur iva viraumy adharmikā //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yena satyavacanena <hi rend="bf">me sadā</hi> sarvasatvasamatāṃ nataṃ manas /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tena satyavacanena me sutau dāsabhāvagamanā<hi rend="bf">d</hi> vimucyatām //<lb/>
+(<hi rend="bf">Viśv 49</hi>) tato mādrī tābhyāṃ bāladārakābhyāṃ ye vṛkṣā ropitakāḥ pālitakāś ca tān kisalayasaṃchannāṇ dṛṣṭvā sasaṃbhramā pariṣvajyovāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bāla bāla kalaśāvasiktakāḥ pa<hi rend="bf">lla</hi>v<hi rend="bf">ā</hi>ḥ prapatitāśrubindavaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->cetanā iva rudanti vṛkṣakā bālakāḥ stanavihīnakā iveti //<lb/>
+(<hi rend="bf">Viśv 50</hi>) punaś ca tayor bāladārakayoḥ krīḍanakāny āśramavāsino mṛgaśāvakān dṛṣṭvā karuṇādīnavilaṃbitair akṣaraiḥ vacanam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->duḥkham etad aparam hy analpakam yad ramanti mṛgaśāvakā ime /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tad vayasyaparidarśanotsukāḥ sthānakeṣu parimārgamāṇakā //<lb/>
+(<hi rend="bf">Viśv 51</hi>) tato mādrī yena mārgeṇa tau bāladārakau gatau taṃ mārgam anusarantī tayor bāladārakayor itaś cāmutaś ca padāny ariktakāni dṛṣṭvā tīvraduḥkhābhyāhatā punar uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tāḍyamānau dhruvaṃ nītau yathā padavilaṃbitau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kvacid gatau gatāvṛttau hā nṛśaṃsa dvijottama //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bāṣpagadgadaniruddhakaṇṭhakau vepamānarucirādharauṣṭhakau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tau hi me hariṇapariplutākṣakau komalaiś caraṇakaiḥ kathaṃ gatāv iti //<lb/>
+(<hi rend="bf">Viśv 52</hi>) tato bodhisatvas tāṃs tathāparidevanātmikāṃ dṛṣṭvā tābhis tābhi<hi rend="bf">ḥ</hi> śrutibhir anityatāpratisaṃyuktābhiḥ bahuprakāram anusaṃjñāpayann uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na darpān na ca vidveṣān mayā tyaktaṃ sutadvayam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sarvasatvahitārthaṃ tu tyaktau tau dustyajau sutau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ātmaputrakalatrāṃś ca tyaktvā paramadustyajāṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prāpnuvanti mahāsatvā vidhivad bodhim uttamām //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tyāgādhiṣṭhānān mādri putrau yadā te tyaktau dustyājau lokanirmokṣaṇ<hi rend="bf">ā</hi>rtham /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dadyā<hi rend="bf">ṃ</hi> svāṃ dārāṃ vāhanaṃ cāpi vittaṃ sarvaṃ sarvebhyo dātum eṣā matir me // ity<lb/>
+(<hi rend="bf">Viśv 53</hi>) atha mādrī dhairyam ālaṃbya cittena bodhisatvam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na karomy antarāyaṃ te mā te bhūn matir anyathā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mām apīcchasi ced dātuṃ nirviśaṃkaḥ prayaccha mām //<lb/>
+api ca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yasyārthe svajanān vīra tyajasi snehaviklavāṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tam arthaṃ prāpnuhi kṣipraṃ tāraya tribhavāj jagat //<lb/>
+(<hi rend="bf">Viśv 54</hi>) tataḥ śakro devendras tad atyadbhutam atiduṣkaraṃ mādryā bodhisatvasya ca vyavasāyam avagamya tridaśagaṇaparivṛta upari vihāyasā tadāśramam upagamyodāreṇāvabhāsena tad vanam avabhāsya gaganatalastha eva bodhisatvam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathā mūḍhe loke kumatimatiparyākulamatau<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vibho bhogāsakte sutahṛdayapāś<hi rend="bf">ā</hi>ni sahite /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tvam eko niḥsaṃgas tyajasi tanayāṃ snehajanakāṃ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dhruvaṃ kṣemaṃ śāntaṃ vimalam araja<hi rend="bf">ṃ</hi> prāpsyasi padam //<lb/>
+(<hi rend="bf">Viśv 55</hi>) tad evaṃ protsāhya bodhisatva<hi rend="bf">ṃ</hi> śakro devendraś cintayāmāsa: eko 'yam upasthāyakarahitaḥ khedam āpatsyate. yanv aham apy asmāt prāthayeyam iti. tato bodhisatvasakāśād apakramya brāhmaṇaveṣam āsthāya punar bodhisatvam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->imāṃ sarvānavadyāṃgīm anuraktāṃ pativratām /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saṃprayaccha kulaślāghyāṃ mama bhṛtyārthabhāginīṃ //<lb/>
+(<hi rend="bf">Viśv 56</hi>) tato mādrī saṃjātāmarṣā niṣṭhurābhidhānena taṃ brāhmaṇam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nirlajjaś cāsi lubdhaś ca tvam iha brāhmaṇādhama /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->saddharmaniratāṃ yas tvaṃ mām icchasi pativratām //<lb/>
+(<hi rend="bf">Viśv 57</hi>) tato bodhisatvaḥ karuṇāparigatahṛdayo mādrīṃ nirīkṣitum ārabdhaḥ. atha <hi rend="bf">mād</hi>rī bodhisatvam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na śocāmy aham ātmānaṃ nāpekṣā me tathātmani /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->yathā tvām anuśocāmi katham eko bhaviṣyasi //<lb/>
+tato bodhisatvo mādrīm uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->aham iha bhuvi mādri nānuśocyaḥ parimṛgayaṃ padam akṣayaṃ viśokam /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tam imam anusara dvijaṃ viśokā mṛga<hi rend="bf">śa</hi>raṇaṃ tv a<hi rend="bf">ha</hi>m āśrame 'bhyupaimi //<lb/>
+(<hi rend="bf">Viśv 58</hi>) <hi rend="bf">iti</hi> viditvā hṛṣṭatuṣṭapramuditamanāś cintayāmāsa<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->idam asmiṃ vane dānaṃ paścimaṃ me bhaviṣyati<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mādrīpriyāṃ parityajya bhaviṣyāmy aparigraha<hi rend="bf">ḥ</hi> //<lb/>
+iti viditvā mādrī<hi rend="bf">ṃ</hi> ca pā<hi rend="bf">ṇinā</hi> gṛhītvā taṃ brāhmaṇam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bhāvānuraktaśuśrūṣāṃ sadvṛttāṃ priyavādinīm /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mama bhāryām imāṃ śiṣyāṃ gṛhāṇa tvaṃ dvijottama //<lb/>
+(<hi rend="bf">Viśv 59</hi>) tataḥ patnīm upaspṛśya tyajato bodhikāṃ<hi rend="bf">kṣayā</hi> /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ṣaḍvikāramahī kṛtsnā cacālāmbhasi naur yathā //<lb/>
+(<hi rend="bf">Viśv 60</hi>) tato mādrī bāṣpoparudhyamānā gadgadakaṇṭhī brāhmaṇavaśam āgatā patiputraduhitṛvirahitā idam abhravīt<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kīdṛṅ mayā kṛtaṃ karma anāryaṃ pūrvajanmasu /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->naṣṭavatseva gaur yena viraumi vijane vane //<lb/>
+(<hi rend="bf">Viśv 61</hi>) tataḥ śakro devendro brāhmaṇaveṣam antardhāpya svaveṣeṇa sthitvā mādrīm uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na brāhmaṇo 'smi subhage na ca mānuṣo 'smi<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->śakras tv ahaṃ hy asuranāśakaraḥ surendraḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prīto 'smy anena vinayena tavottamena<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tad brūhi kiṃ varam apīcchasi matsakāśāt //<lb/>
+tato mādrī tadvacanajanitasaumanasyā śakraṃ praṇipatyovāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->mama putrau sahasrākṣa dāsabhāvād vimocaya /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->pitāmahasakāśaṃ ca prāpaya tridaśeśvara //<lb/>
+(<hi rend="bf">Viśv 62</hi>) tathety uktvā mahendraḥ punar āśramaṃ praviśya bodhisatvasakāśam abhijagmivān. mādrī<hi rend="bf">ṃ</hi> ca vāmena pāṇinā gṛhītvā bodhisatvam uvāca<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->ahaṃ mādrīm imāṃ tubhyaṃ dadāmi paricārikām /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->na ca te kasyacid deyā nyāsadroho <hi rend="bf">hi</hi> garhitaḥ //<lb/>
+(<hi rend="bf">Viśv 63</hi>) tataḥ śakro devendras taṃ bāladārakaparigṛhītāraṃ brāhmaṇaṃ tathā vyāmohayāmāsa yathānyanagaraśaṃkayā tad eva nagaram upagamya tau bāladārakau vikrītum ārabdho yāvad amātyair dṛṣṭvā rājño niveditaṃ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->etau putrasya te putrau brāhmaṇo 'smin purottame /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->jālinaṃ ceva kṛṣṇāṃ ca vikrīṇīte ti dāruṇaḥ //<lb/>
+(<hi rend="bf">Viśv 64</hi>) eta<hi rend="bf">c</hi> chrutvodbhrāntacittaḥ sa rājā prāha kṣipraṃ darśayadhvaṃ kumārau /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->nāryaś cakruḥ kro<hi rend="bf">śa</hi>m antaḥpurasthāḥ paurā rājñaḥ kṣipram eyuḥ samīpam //<lb/>
+yāvad anyatamenāmātyena rājñaḥ sakāśam upanītau<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->putrau nirīkṣya sa nṛpo 'bhi<hi rend="bf">mukhopanītau</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="bf">kṣīṇasvarau kṛśatanū maladigdhagātrau /</hi><lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->siṃhāsanāt</hi> kṣititale sahasā papātaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->paurā vicukruśur amātyagaṇā<hi rend="bf">ḥ</hi> striyaś ca //<lb/>
+(<hi rend="bf">Viśv 65</hi>) tato rā<hi rend="bf">jā</hi> amātyān āmantrayate<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->vane 'pi vasato dāneṣv abhirataṃ manaḥ /<lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->tam ihānayata kṣipraṃ patnyā sārdhaṃ sulocanam //</hi><lb/>
+(<hi rend="bf">Viśv 66</hi>) <hi rend="bf">tataḥ śakro devendro</hi> bodhisatvam abhinamasyamānaḥ svabhavanam upajagāma.<lb/>
+(<hi rend="bf">Viśv 67</hi>) śakreṇa ca rājani viśvāmi<hi rend="bf">tre abhyatīte brāhmaṇāmātyapaurajānapadaiḥ sārdhaṃ tad āśramapadaṃ gatvā bodhisatvaṃ yācitvā svapuram ānīya rājye pratiṣṭhāpitavān</hi>.<lb/>
+(<hi rend="bf">Viśv 68</hi>) <hi rend="bf">tato</hi> viśvantaro rājā sarva<hi rend="bf">ṃ</hi>dado babh<hi rend="bf">ū</hi>va. sa śraṃanabrāhmaṇavanī<hi rend="bf">pakasuhṛtsambandhibāndhavānujīvijaneṣu anekaprakārāṇi dānāni datvā puṇyāni kṛtvā gāthāṃ bhāṣate</hi><lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->bodhiṃ prārthayamānena dānaṃ deyaṃ vi</hi>śāradaḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->kṣatriye brāhmaṇe vaiśye śūdre caṇḍālapukkase //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --><hi rend="bf">hiraṇyaṃ ca suvarṇaṃ ca gavāśvamaṇikuṇḍalam //</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->dadyāt saṃpannaśīlebhyo dāsakarmakaraṃ tathā //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->sutadāraparityāgaṃ kṛtvā muktena cetasā /<lb/>
+<hi rend="bf"><!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->prāpnuvanti narāḥ śuddhim a</hi>smiṃ loke paratra ceti //<lb/>
+(<hi rend="bf">Viśv 69</hi>) yadā viśvāmitreṇa rājñā viśvantar<hi rend="bf">animittaṃ jujjukāya brāhmaṇāya prabhūtaṃ dhanaṃ dattaṃ tadāsau vistīrṇavibhavo jātaḥ. tasya suhṛtsambandhibāndhavā mitrāṇi cāgamya kathayanti:</hi> yā kāci<hi rend="bf">t</hi> tava śrīsaubhāgyasaṃpat sarvāsau viśvantarakumāram āgamyeti. sa kathayat<hi rend="bf">i: kiṃ mama viśvantareṇa kṛtam uttamavarṇaprasūto 'haṃ, dakṣiṇīyo lokasya; yena mama</hi> bhogā upanayanti.<lb/>
+(<hi rend="bf">Viśv 70</hi>) bhagavān āha: kiṃ manyadhve bhikṣavo yo 'sau viśvantaro nāma rājakumāra aham eva sa tena kālena tena samayena. yo 'sau jujjuko brāhmaṇa eṣa evāsau devadattas tena kālena tena samayena. tadāpy eṣa akṛtajñaḥ akṛtavedī. etarhy apy eṣa akṛtajña akṛtavedī. tasmāt tarhi bhikṣavaḥ evaṃ śikṣitavyaṃ yat kṛtajñā bhaviṣyāmaḥ kṛtavedinaḥ svalpam api kṛtaṃ na nāśayiṣyāmaḥ, prāg eva prabhūtaṃ. ity evaṃ vo bhikṣavaḥ śikṣitavyam.<lb/>
+viśvantarāvadānaṃ samāptam.
+</p>
+</body>
+</text>
+</TEI>

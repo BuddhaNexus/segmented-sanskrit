@@ -1,0 +1,2427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_kalpadrumAvadAnamAlA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Kalpadrumāvadānamālā</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille, Göttingen</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the text appended to P.L. Vaidya's edition of the Avadanasataka (Darbhanga 1958, Buddhist Sanskrit Texts ; 19)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Kalpadrumavadanamala<BR>
+Based on the text appended to P.L. Vaidya's edition of the Avadanasataka<BR>
+(Darbhanga 1958, Buddhist Sanskrit Texts ; 19)<BR>
+Input by Klaus Wille, Göttingen<BR>
+PLAIN TEXT VERSION<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="KDA">
+<body><p xml:id="0">
+Kalpadrumāvadānamālāyāṃ<lb/>
+10 subhūtyavadānam* //
+</p>
+<lg xml:id="KDA_1">
+<l>athāśoko mahārājaḥ sarvaśokavinoditaḥ /</l>
+<l>upaguptaṃ guruṃ natvā kṛtāñjalipuṭo 'vadat* //</l>
+</lg>
+<lg xml:id="KDA_2">
+<l>bhadanta śrotum icchāmi punar anyat subhāṣitam* /</l>
+<l>yad uktaṃ śākyasiṃhena tan me gaditum arhasi //</l>
+</lg>
+<lg xml:id="KDA_3">
+<l>iti pṛṣṭo nṛpeṇāsāv upagupto yatīśvaraḥ /</l>
+<l>parṣadaṃ ca samālokya saṃbabhāṣa subhāṣitam* //</l>
+</lg>
+<lg xml:id="KDA_4">
+<l>śṛṇu rājan mahābāho sarvalokahitārthataḥ /</l>
+<l>subhūter avadānaṃ yat tat pravakṣye yathāśrutam* //</l>
+</lg>
+<lg xml:id="KDA_5">
+<l>purā śrībhagavān buddho dharmarājas tathāgataḥ /</l>
+<l>vidyācaraṇasaṃpannaḥ sugato lokavijjinaḥ //</l>
+</lg>
+<lg xml:id="KDA_6">
+<l>śāstā devamanuṣyāṇāṃ samyaksaṃbodhideśakaḥ /</l>
+<l>satkṛto mānitaḥ satvair gurukṛtaś ca pūjitaḥ //</l>
+</lg>
+<lg xml:id="KDA_7">
+<l>rājabhī rājamātraiś ca dhanibhiḥ puravāsibhiḥ /</l>
+<l>śreṣṭhibhiḥ sārthavāhaiś ca nānādeśasamāgataiḥ //</l>
+</lg>
+<lg xml:id="KDA_8">
+<l>devāsuramahānāgair yakṣagandharvakinnaraiḥ /</l>
+<l>guruḍaiś ca mahāsarpais tathānyasatvajātikaiḥ //</l>
+</lg>
+<lg xml:id="KDA_9">
+<l>susaṃjñāto mahāpuṇyo lābhī cīvaravāsasām* /</l>
+<l>piṇḍapātāsanādīnāṃ śayyādīnāṃ tathaiva ca //</l>
+</lg>
+<lg xml:id="KDA_10">
+<l>auṣadhādipariṣkāra- vastūnāṃ sarvataḥ sadā /</l>
+<l>sārdhaṃ saśrāvakaiḥ saṃghair bhikṣubhiś ca jitendriyaiḥ //</l>
+</lg>
+<lg xml:id="KDA_11">
+<l>bhikṣuṇyupāsikābhiś ca celakopāsakais tathā /</l>
+<l>bodhisatvamahāsatvaiḥ satvārthabodhivāñchibhiḥ //</l>
+</lg>
+<lg xml:id="KDA_12">
+<l>śrāvastyāṃ rājadhānyāṃ vai jetavane manorame /</l>
+<l>vihāre vyaharad dharmaṃ deśayañ chubhayas sadā //</l>
+</lg>
+<lg xml:id="KDA_13">
+<l>tadā bhagavatā satva- vinayānugrahārthinā /</l>
+<l>āmantrya bhikṣavaḥ sarve samyagājñāpitā iti //</l>
+</lg>
+<lg xml:id="KDA_14">
+<l>gacchata bhikṣavo yūyaṃ satvānāṃ vinayārthataḥ /</l>
+<l>deśān pratyabhigacchantaḥ prakāśayata saṃvṛtim* //</l>
+</lg>
+<p xml:id="1">
+-------------------- Vaidya, p. 266 --------------------
+</p>
+<lg xml:id="KDA_15">
+<l>tathety eva pratiśrutya śāstuḥ pādau praṇamya ca /</l>
+<l>śrāvakā bhikṣavaś caiva pratasthus te niyoginaḥ //</l>
+</lg>
+<lg xml:id="KDA_16">
+<l>guro ājñāṃ vahantas te kecit prācīṃ diśaṃ gatāḥ /</l>
+<l>deśayanti sma saddharmaṃ pratideśānupāsthitāḥ //</l>
+</lg>
+<lg xml:id="KDA_17">
+<l>dakṣiṇasyāṃ tathā kecit kecic ca paścimāṃ diśam* /</l>
+<l>tathottarāṃ diśaṃ gatvā vidikṣu cāpi sarvataḥ //</l>
+</lg>
+<lg xml:id="KDA_18">
+<l>teṣāṃ dhyānaratā ye vai te viviktasukhaiṣiṇaḥ /</l>
+<l>meror upariṣaṇḍāyām adhyūṣur dhyānatatparāḥ //</l>
+</lg>
+<lg xml:id="KDA_19">
+<l>tadābdher garuḍenaiko nāgapotaḥ samuddhṛtaḥ /</l>
+<l>tam āśramam upānīya bhakṣitum upacakrame //</l>
+</lg>
+<lg xml:id="KDA_20">
+<l>tatrasthās tena nāgena bhikṣavo dhyānasaṃratāḥ /</l>
+<l>dṛṣṭvaiva suprasannena manasā praṇidhir dadhe //</l>
+</lg>
+<lg xml:id="KDA_21">
+<l>dhanyās te bhikṣavo hy ete saddharmasukhacāriṇaḥ /</l>
+<l>aham api ca bhūyāsaṃ tādṛgdharmasamāhitaḥ //</l>
+</lg>
+<lg xml:id="KDA_22">
+<l>iti praṇidhiṃ kurvāṇo jīvitād vyavaropitaḥ /</l>
+<l>tatraiva garuḍenaivaṃ bhakṣito 'bhūt sa nāgakaḥ //</l>
+</lg>
+<lg xml:id="KDA_23">
+<l>tataḥ kālagatas tatra śrāvastyāṃ puri + + + /</l>
+<l>bhūtināmnā dvijasyāsau bhāryāyā garbham āviśat* //</l>
+</lg>
+<lg xml:id="KDA_24">
+<l>tataś ca kramatas tasyā garbhaḥ samanuvardhitaḥ /</l>
+<l>tatas tatsamaye prāpte dārakaḥ samajāyata //</l>
+</lg>
+<lg xml:id="KDA_25">
+<l>tataḥ pitā ca taṃ dṛṣṭā dārakaṃ saṃprasādikam* /</l>
+<l>darśanīyaṃ subhadrāṅgaṃ muhuḥ paśyann ananda saḥ //</l>
+</lg>
+<lg xml:id="KDA_26">
+<l>tato jātimahaṃ kṛtvā jñānīnāhūya cādarāt* /</l>
+<l>bhavanto 'sya nu kiṃ nāma kriyatām iti so 'bravīt* //</l>
+</lg>
+<lg xml:id="KDA_27">
+<l>jñātayo 'pi tathā śrutvā dṛṣṭvā cainaṃ ca bālakam* /</l>
+<l>sarve harṣasamāpannā bhūtiṃ tam abruvaṃs tathā //</l>
+</lg>
+<lg xml:id="KDA_28">
+<l>yasmād bhūter ayaṃ putraṃ sujāto lakṣaṇānvitaḥ /</l>
+<l>tasmāt subhūtir ity eva nāmnā bhavatu viśrutaḥ //</l>
+</lg>
+<lg xml:id="KDA_29">
+<l>tathā kramād vivṛddho 'sau subhūtir bālasundaraḥ /</l>
+<l>kumāratvaṃ kramāt prāpto rarāma sa vayonvitaḥ //</l>
+</lg>
+<p xml:id="2">
+-------------------- Vaidya, p. 267 --------------------
+</p>
+<lg xml:id="KDA_30">
+<l>pūrvakarmabalādhānāt krodhanaḥ krūrabhāṣaṇaḥ /</l>
+<l>kiṃcin nimittasaṃruṣṭo vigrahe nirato 'bhavat //</l>
+</lg>
+<lg xml:id="KDA_31">
+<l>paruṣībhūtacittatvān na tasya ko 'py abhūt suhṛt* /</l>
+<l>sarvajñātiviruddhatvāt pitṛbhyām apy upekṣitaḥ //</l>
+</lg>
+<lg xml:id="KDA_32">
+<l>bandhubhiś ca parityakto naiva kasyāpy abhūt priyaḥ /</l>
+<l>viśrambhapraṇayaṃ tasmin naiva kaścid abhāṣata //</l>
+</lg>
+<lg xml:id="KDA_33">
+<l>sthātuṃ gantuṃ tathā bhoktuṃ śayituṃ vābhilāpitum* /</l>
+<l>tenaiva krodhinā sārdhaṃ samutsehur na kecana //</l>
+</lg>
+<lg xml:id="KDA_34">
+<l>tadā pitrā niyukto 'sau lipiśālām upāgamat* /</l>
+<l>subhūtiś ca guruṃ natvā lipim anvagrahīt kramāt* //</l>
+</lg>
+<lg xml:id="KDA_35">
+<l>tato vyākaraṇādīni sarvaśāstrāṇy anukramāt* /</l>
+<l>so 'dhītyaiṣāṃ suśīghreṇa pāraṃ prāpa subuddhimān* //</l>
+</lg>
+<lg xml:id="KDA_36">
+<l>tathā vedān adhītyaivaṃ sāṅgopāṅgān yathākramam* /</l>
+<l>atharvam apy adhītuṃ sa prārabhat tīkṣṇamānasaḥ //</l>
+</lg>
+<lg xml:id="KDA_37">
+<l>tatra pitā dvijo bhūtir atharvādhītasaṃratam* /</l>
+<l>subhūtiṃ svātmajaṃ putraṃ dṛṣṭvaivaṃ samacintayat* //</l>
+</lg>
+<lg xml:id="KDA_38">
+<l>subhūtir mama putro 'yam agnikalpaḥ sutīkṣṇadhīḥ /</l>
+<l>kadācit kupito roṣāl loke 'narthaṃ kariṣyati //</l>
+</lg>
+<lg xml:id="KDA_39">
+<l>tad anvāharitavyo 'yam ātharvaṇāt prayatnataḥ /</l>
+<l>ṛṣiṣu preṣayitvainaṃ yojayiṣye ca saṃyame //</l>
+</lg>
+<lg xml:id="KDA_40">
+<l>iti matvā pitā bhūtiḥ subhūtiṃ svātmajaṃ tathā /</l>
+<l>ātharvaṇād vinirhṛtya prabodhayaṃs tam abravīt* //</l>
+</lg>
+<lg xml:id="KDA_41">
+<l>śṛṇu putra mayā proktaṃ hitārthaṃ tava saṃmatam* /</l>
+<l>tvaṃ hi vidvān mahāvijñaḥ sarvaśāstrāṅgapāragaḥ //</l>
+</lg>
+<lg xml:id="KDA_42">
+<l>kiṃ tavātharvavedena māyākleśārthasādhinā /</l>
+<l>viramya tadadhiṣṭhānād ṛṣicaryāṃ samācara //</l>
+</lg>
+<lg xml:id="KDA_43">
+<l>munīnām upadeśāni pratilabhya jitendriyaḥ /</l>
+<l>śāntātmā sukham āsthāya carasva vratam uttamam* //</l>
+</lg>
+<lg xml:id="KDA_44">
+<l>dhanyās te vītarāgā ye gurubhaktāś ca nirmadāḥ /</l>
+<l>viviktāraṇyavāseṣu vasanti dhyāyinaḥ sadā //</l>
+</lg>
+<p xml:id="3">
+-------------------- Vaidya, p. 268 --------------------
+</p>
+<lg xml:id="KDA_45">
+<l>ye 'pi parigrahāṃs tyaktvā bhavanti brahmacāriṇaḥ /</l>
+<l>devānām api te mānyā vandanīyāḥ sadā khalu //</l>
+</lg>
+<lg xml:id="KDA_46">
+<l>ye pravrajyāṃ samāgṛhya śāntātmāno jitendriyāḥ /</l>
+<l>avasanti puṇyatīrtheṣu te 'pi hi paramarṣayaḥ //</l>
+</lg>
+<lg xml:id="KDA_47">
+<l>kāmabhogyāni ye hitvā sādhayante tapovane /</l>
+<l>phalamūlodakais tuṣṭās te 'pi dhanyā dvijottamāḥ //</l>
+</lg>
+<lg xml:id="KDA_48">
+<l>ye 'pi kleśān vinirjitya caturbrahmavihāriṇaḥ /</l>
+<l>bhikṣāśinaḥ samādhisthās te hi brahmavidāṃ varāḥ //</l>
+</lg>
+<lg xml:id="KDA_49">
+<l>ye cāparigrahītāro nirlobhāḥ satyavādinaḥ /</l>
+<l>nirmadā nirahaṃkārās ta eva brāhmaṇottamāḥ //</l>
+</lg>
+<lg xml:id="KDA_50">
+<l>yasya dātuṃ mano nāsti matsarākrāntacetasaḥ /</l>
+<l>vedaśāstrāgamais tasya kim eva svātmapoṣiṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_51">
+<l>yasya cittaṃ hy aviśuddhaṃ śīlasaṃvaravarjitam* /</l>
+<l>kiṃ bhāti muniveṣeṇa sa naṭarṣir ivonmadaḥ //</l>
+</lg>
+<lg xml:id="KDA_52">
+<l>yasya loke dayā nāsti bālavṛddhādiduḥkhite /</l>
+<l>kiṃ tasya brahmavṛttena citte{na} parimohite //</l>
+</lg>
+<lg xml:id="KDA_53">
+<l>yasya na kuśalotsāhaṃ citte lokārthaṃ sādhitum* /</l>
+<l>tasya kiṃ tapasā siddhe kevalaṃ pāpahetubhiḥ //</l>
+</lg>
+<lg xml:id="KDA_54">
+<l>yasya cittaṃ pravikṣiptaṃ kleśād yair asamāhitam* /</l>
+<l>sa kiṃ guhāniviṣṭo 'pi na sādhur duṣṭajantuvat* //</l>
+</lg>
+<lg xml:id="KDA_55">
+<l>yasya prajñā viśuddhā na saddharmaguṇasādhane /</l>
+<l>tasya kiṃ brahmacaryeṇa kevalaṃ duḥkhahetunā //</l>
+</lg>
+<lg xml:id="KDA_56">
+<l>yaś ca dātā viśuddhātmā sarvasatvān upālakaḥ /</l>
+<l>nīco 'pi sa dvijakalpo yato dātā prajāpatiḥ //</l>
+</lg>
+<lg xml:id="KDA_57">
+<l>yena saṃrakṣitaṃ nityaṃ śīlaṃ saṃyamasaṃvṛttam* /</l>
+<l>sa eva brāhmaṇaḥ śuddhaḥ śrotriyo vedanān yatiḥ //</l>
+</lg>
+<lg xml:id="KDA_58">
+<l>yasya cittaṃ dayāśūlaṃ sarvasatvahiteṣitam* /</l>
+<l>caṇḍālo 'pi sa vipraḥ syāl lokeśo hi kṣamākaraḥ //</l>
+</lg>
+<lg xml:id="KDA_59">
+<l>yenaiva duṣkaraṃ karma sādhitaṃ satvahetunā /</l>
+<l>sa eva brāhmaṇo dhīro viśvakarmā yato vidhiḥ //</l>
+</lg>
+<p xml:id="4">
+-------------------- Vaidya, p. 269 --------------------
+</p>
+<lg xml:id="KDA_60">
+<l>yasya cittaṃ sadā satva- hitārtheṣu samādhitam* /</l>
+<l>sa hi vipro mahābhijño brahmā jñānarato yataḥ (Speyer: dhyānarato) //</l>
+</lg>
+<lg xml:id="KDA_61">
+<l>yasya prajñā jagalloka- hitānuśāsanojjvalā /</l>
+<l>saiva dvijavaro vijño vedadharmāsthito dvijaḥ //</l>
+</lg>
+<lg xml:id="KDA_62">
+<l>yenaiva nirjitāḥ kleśāś caturbrahmavihāriṇā /</l>
+<l>svacitte bhāvitaṃ brahma sa eva brāhmaṇottamaḥ //</l>
+</lg>
+<lg xml:id="KDA_63">
+<l>tasmāt putra mayā proktaṃ śrutvā lokahitotsukaḥ /</l>
+<l>sarvakleśān vinirjitya saddharmābhirato bhava //</l>
+</lg>
+<lg xml:id="KDA_64">
+<l>iti pitur vacaḥ śrutvā subhūtiḥ so 'numoditaḥ /</l>
+<l>kṛtāñjalis tathā natvā pitaram ity abhāṣata //</l>
+</lg>
+<lg xml:id="KDA_65">
+<l>tathā satyaṃ manas tāta rocate tapase mama /</l>
+<l>tad ājñāṃ dehi me tāta cariṣye brahmasadvratam* //</l>
+</lg>
+<lg xml:id="KDA_66">
+<l>tenaivaṃ prārthyamāno 'sau subhūtinā pitā tataḥ /</l>
+<l>pariṣvajyātmajaṃ putraṃ punar apy abravīn mudā //</l>
+</lg>
+<lg xml:id="KDA_67">
+<l>evaṃ cet tava vāñchāsti putra brahmasusādhanaiḥ /</l>
+<l>cara brahmavrataṃ samyag- dhīracittasamāhitaḥ //</l>
+</lg>
+<lg xml:id="KDA_68">
+<l>ādau krodharipuṃ jitvā duṣṭabhārān vinirjaya (Speyer: duṣṭamārān) /</l>
+<l>yāvat krodham anirjitya duṣṭāñjetuṃ na śaknuyāḥ //</l>
+</lg>
+<lg xml:id="KDA_69">
+<l>yāvad duṣṭān anirjitya dharme sthātuṃ na śaknuyāḥ /</l>
+<l>asusaṃsthitadharmāṇaṃ hanyur mārā hi sarvathā //</l>
+</lg>
+<lg xml:id="KDA_70">
+<l>tasmād vāñchati yo brahma tenādau cittakoṭarāt* /</l>
+<l>viniḥkṛṣya prayatnena hantavyaḥ krodhapannagaḥ //</l>
+</lg>
+<lg xml:id="KDA_71">
+<l>krodho hi vasate yasya citte mānamadākule /</l>
+<l>tāvat sadguṇayukto 'pi sevyate naiva sajjanaiḥ //</l>
+</lg>
+<lg xml:id="KDA_72">
+<l>tasmāt sarvaprayatnena krodhajiṣṇuḥ samāhitaḥ /</l>
+<l>pravrajyāṃ samupāsiśritya cara brāhmaṇyam ādarāt* //</l>
+</lg>
+<lg xml:id="KDA_73">
+<l>tathety asau pratiśrutya subhūtiḥ saṃpramoditaḥ /</l>
+<l>sahasā pitarau natvā munīnām āśramaṃ yayau //</l>
+</lg>
+<lg xml:id="KDA_74">
+<l>tatra prāpto munīn natvā kṛtāñjalipuṭo mudā /</l>
+<l>brāhmaṇyasaṃvaraṃ prāptuṃ pravrajyāṃ samayācata //</l>
+</lg>
+<p xml:id="5">
+-------------------- Vaidya, p. 270 --------------------
+</p>
+<lg xml:id="KDA_75">
+<l>guro brahmavidāṃ śreṣṭha kalyāṇavartmadeśaka /</l>
+<l>pravrajyāṃ dehi me satyaṃ careyaṃ bhavamuktaye //</l>
+</lg>
+<lg xml:id="KDA_76">
+<l>iti tasya vacaḥ śrutvā gurur brahmavidāṃ varaḥ /</l>
+<l>ehi vatsa cara brahma- caryaṃ jitvā ṣaḍ indriyam* //</l>
+</lg>
+<lg xml:id="KDA_77">
+<l>ity ukto guruṇā so 'bhūt subhūtir muniveṣabhṛt* /</l>
+<l>brahmavihārasaṃpanno vinītaḥ śraddhayānvitaḥ //</l>
+</lg>
+<lg xml:id="KDA_78">
+<l>tathāpi daivasāmarthyāt krodhasaṃraktamānasaḥ /</l>
+<l>kiṃcin nimittamātre 'pi vigrahavān asaṃyataḥ //</l>
+</lg>
+<lg xml:id="KDA_79">
+<l>vedasiddhāntaśāstreṣu vivādī krodhabāhulaḥ /</l>
+<l>atīva roṣasaṃkruṣṭo vicikṣepa yatīn api //</l>
+</lg>
+<lg xml:id="KDA_80">
+<l>dharmārthakāmamokṣeṣu nirapekṣaḥ sutīkṣṇavāk* /</l>
+<l>sarvatra munibhiś cāpi vijagrāhāsamāhitaḥ //</l>
+</lg>
+<lg xml:id="KDA_81">
+<l>ity enaṃ krodhasaṃraktaṃ vedasiddhāntamāninam* /</l>
+<l>subhūtiṃ brāhmaṇaṃ dṛṣṭvā guruś caivam acintayat* //</l>
+</lg>
+<lg xml:id="KDA_82">
+<l>aho daivabalādhānāt subhūtir brāhmaṇo 'py ayam* /</l>
+<l>svasiddhāntasamāno 'dya krūravāgvigrahotsukaḥ //</l>
+</lg>
+<lg xml:id="KDA_83">
+<l>agnikalpo mahātīkṣṇaḥ sarvaśāstrārthakovidaḥ /</l>
+<l>viśārado mahābhijño dharmasaṃyamatatparaḥ //</l>
+</lg>
+<lg xml:id="KDA_84">
+<l>tapaś caraṇasaṃraktas tīkṣṇabuddhiḥ kṛtodyamaḥ /</l>
+<l>mahotsāho mahāvīraḥ siddhavidyo mahotkaṭaḥ //</l>
+</lg>
+<lg xml:id="KDA_85">
+<l>sarvaśāstrakalābhijño mantrasiddhiprayogavit* /</l>
+<l>vedasiddhāntayogānāṃ pāragaś ca mahāsudhīḥ //</l>
+</lg>
+<lg xml:id="KDA_86">
+<l>kiṃ tu krodhāviśuddhātmā vigrahī vādasaṃrataḥ /</l>
+<l>kiṃcin nimittamātre 'pi vikruṣṭo 'tha ruṣāśayaḥ //</l>
+</lg>
+<lg xml:id="KDA_87">
+<l>kadācit kupito ruṣṭeḥ saṃkleśādhīracetanaḥ /</l>
+<l>śāpāśaniprahāreṇa loke 'narthaṃ kariṣyati //</l>
+</lg>
+<lg xml:id="KDA_88">
+<l>tad ahaṃ saṃprabodhyainaṃ subhūtiṃ dvijasattamam* /</l>
+<l>samādhidhyānavaryāsu yojayeyaṃ sa sarvathā //</l>
+</lg>
+<lg xml:id="KDA_89">
+<l>iti matvā guruś cainaṃ subhūtiṃ samabodhayat* /</l>
+<l>śṛṇu vatsa hitaṃ vakṣye tatra bhava samāhitaḥ //</l>
+</lg>
+<p xml:id="6">
+-------------------- Vaidya, p. 271 --------------------
+</p>
+<lg xml:id="KDA_90">
+<l>sarvavarṇāgrajo vipraḥ sarvajātivarottamaḥ /</l>
+<l>brāhmaṇo 'smīty ahaṃkāro na kartavyaḥ kadācana //</l>
+</lg>
+<lg xml:id="KDA_91">
+<l>na jīvo brāhmaṇas tāvad yasmāt saṃskārato dvijaḥ /</l>
+<l>jīvaś ced brāhmaṇas tāvad vṛthā syād dharmasaṃskṛtaiḥ //</l>
+</lg>
+<lg xml:id="KDA_92">
+<l>ādyante paśavo devā iti vede 'pi kathyate /</l>
+<l>tato dharmābhisaṃskāraiḥ sarve syur mānavā dvijāḥ //</l>
+</lg>
+<lg xml:id="KDA_93">
+<l>śvapacā api dharmasthāḥ saṃskṛtāḥ syur dvijādhamāḥ /</l>
+<l>guṇadharmānusāraiś ca devā daityāś ca mānuṣāḥ //</l>
+</lg>
+<lg xml:id="KDA_94">
+<l>satvadharmadharā devā rajodharmadharā narāḥ /</l>
+<l>tamodharmadharā daityā iti siddhāntasaṃmatam* //</l>
+</lg>
+<lg xml:id="KDA_95">
+<l>iti dharmaguṇādhānāt traidhātukabhavālaye /</l>
+<l>caturyonisamudbhūtāḥ ṣaḍgatiṣu bhramanti te //</l>
+</lg>
+<lg xml:id="KDA_96">
+<l>tatrāpi karmabhedena jātibhedā hy anekaśaḥ /</l>
+<l>jātiṣv api ca sarvāsu svakarmapariṇāmataḥ //</l>
+</lg>
+<lg xml:id="KDA_97">
+<l>satvā naikavidhā jātā adhamottamam adhyamāḥ /</l>
+<l>ye satvās tāmasā raudrā hiṃsākarmānusaṃratāḥ /</l>
+<l>te 'dhobhuvanasaṃjātā vasanti kleśabhāginaḥ //</l>
+</lg>
+<lg xml:id="KDA_98">
+<l>rajodharmaratā ye hi rāgacaryānusāriṇaḥ /</l>
+<l>te satvā bhūmisaṃjātā vasanti mānuṣādayaḥ //</l>
+</lg>
+<lg xml:id="KDA_99">
+<l>satvadharmaratā ye tu sātvikāḥ śāntacāriṇaḥ /</l>
+<l>te devā nirmalānandā vasanti svargatiṃ gatāḥ //</l>
+</lg>
+<lg xml:id="KDA_100">
+<l>tathaite sarvasatvāś ca guṇadharmānusārataḥ /</l>
+<l>svakṛtaṃ karma bhuñjanto bhrāmyanti tribhavālaye //</l>
+</lg>
+<lg xml:id="KDA_101">
+<l>vṛddhiṃ prāpya guṇāś cettham ekaikaṃ guṇavṛddhitaḥ /</l>
+<l>+ + + + + + + + + + + + + + + + + //</l>
+</lg>
+<lg xml:id="KDA_102">
+<l>ākāśasya guṇaś caikaḥ śabda eva na cāparaḥ /</l>
+<l>śabdasparśau ca vāyor vai dvau guṇau parikīrtitau //</l>
+</lg>
+<lg xml:id="KDA_103">
+<l>agneḥ śabdaś ca sparśaś ca rūpam eva trayo guṇāḥ /</l>
+<l>śabdasparśarūparasāś catvāry eva samīraṇe //</l>
+</lg>
+<lg xml:id="KDA_104">
+<l>sparśaḥ śabdo raso rūpaṃ gandhaś ca pṛthivīguṇāḥ /</l>
+<l>evaṃ militayogaiś ca brahmāṇotpattir ucyate //</l>
+</lg>
+<p xml:id="7">
+-------------------- Vaidya, p. 272 --------------------
+</p>
+<lg xml:id="KDA_105">
+<l>sarve jīvā militvaiva brahmāṇāṃś ca samudbhavāḥ (Speyer:brahmāṇāṃśasamudbhavāḥ) /</l>
+<l>caturaśīti lakṣāś ca proktā vai jīvajātayaḥ //</l>
+</lg>
+<lg xml:id="KDA_106">
+<l>dharmataḥ sukhino bhūtāḥ pāpato duḥkhabhāginaḥ /</l>
+<l>miśrato miśrabhuktāra ity uktam avadānikaiḥ //</l>
+</lg>
+<lg xml:id="KDA_107">
+<l>bhārate 'pi tathā proktam ṛṣibhiḥ karmavādibhiḥ /</l>
+<l>sapta vyādhā daśāraṇye mṛgāḥ kāliñjare girau //</l>
+</lg>
+<lg xml:id="KDA_108">
+<l>cakravākau śaradvīpe haṃsāḥ sarasi mānase /</l>
+<l>te 'pi jātāḥ kurukṣetre brāhmaṇā vedapāragāḥ //</l>
+</lg>
+<lg xml:id="KDA_109">
+<l>uktaṃ ca mānave dharme muninā muninā + + /</l>
+<l>mithyājīvena jīvan yaḥ patito brāhmaṇo hy asau //</l>
+</lg>
+<lg xml:id="KDA_110">
+<l>vṛṣalīphenapītasya niḥśvāsopahatasya ca /</l>
+<l>tayaiva sahasuptasya niṣkṛtir nopalabhyate //</l>
+</lg>
+<lg xml:id="KDA_111">
+<l>śūdrīhastena yo bhuñkte māsam ekaṃ nirantaram* /</l>
+<l>jīvamāno bhavec chūdro mṛtaś ca sa prajāyate //</l>
+</lg>
+<lg xml:id="KDA_112">
+<l>adhītya caturo vedān sāṅgopāṅgāṃś ca tatvataḥ /</l>
+<l>śūdrāt pratigrahagrāhī brāhmaṇo jāyate kharaḥ //</l>
+</lg>
+<lg xml:id="KDA_113">
+<l>kharo dvādaśa janmāni ṣaṣṭi janmāni sūkaraḥ /</l>
+<l>śvānaḥ saptati janmāni ity evaṃ manur abravīt* //</l>
+</lg>
+<lg xml:id="KDA_114">
+<l>tathoktam avadāne 'pi buddhenādvayavādinā /</l>
+<l>brāhmaṇo 'dattam ādāya babhūva vānarādhipaḥ //</l>
+</lg>
+<lg xml:id="KDA_115">
+<l>tatra sa buddhanāthāya dadau ca paṇasaṃ mudā /</l>
+<l>tataś ca mānavo bhūtvā pāṃśudātā hy abhūc chiśuḥ //</l>
+</lg>
+<lg xml:id="KDA_116">
+<l>tatkarmaphalato rājā sarvānando babhūva saḥ /</l>
+<l>tatrāpi buddhanāthāya piṇḍapātaṃ dadau mudā //</l>
+</lg>
+<lg xml:id="KDA_117">
+<l>taddīpaṃkaraprasādena bodhisatvo 'bhavan nṛpaḥ (Speyer: bhaven) /</l>
+<l>sarvapāramitāḥ pūrya buddho 'pi sa bhaviṣyati //</l>
+</lg>
+<lg xml:id="KDA_118">
+<l>ity uktam avadāne 'pi jinenādvayavādinā /</l>
+<l>tasmāc caivaṃ vijānīyā na jīvo brāhmaṇaḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_119">
+<l>jātyāpi brāhmaṇo naiva saṃskṛtas tu dvijo bhavet* /</l>
+<l>jātyā ced brāhmaṇo bhūto vṛthā syāt saṃskṛter vidhiḥ //</l>
+</lg>
+<p xml:id="8">
+-------------------- Vaidya, p. 273 --------------------
+</p>
+<lg xml:id="KDA_120">
+<l>smṛtau hi tat tathā proktaṃ nā jātyā dharmato dvijaḥ /</l>
+<l>+ + + + + + + + + + + + + + + + //</l>
+</lg>
+<lg xml:id="KDA_121">
+<l>dharmasaṃskṛtivṛttisthaḥ śvapaco 'pi dvijo bhavet* /</l>
+<l>tathā hi mānave dharme manunābhihitaṃ khalu //</l>
+</lg>
+<lg xml:id="KDA_122">
+<l>araṇīgarbhasaṃbhūtaḥ kaṭhinākhyo mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_123">
+<l>kaivartigarbhasaṃbhūto vyāso nāma mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_124">
+<l>urvaśīgarbhasaṃbhūto vasiṣṭhākhyo mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_125">
+<l>hariṇīgarbhasaṃbhūto ṛṣyaśṛṅgo mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_126">
+<l>caṇḍālīgarbhasaṃbhūto viśvāmitro mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_127">
+<l>taṇḍulīgarbhasaṃbhūto nāradākhyo mahāmuniḥ /</l>
+<l>tapasā brāhmaṇo jātas tasmāj jātir akāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_128">
+<l>evam anye 'pi sarve ca ṛṣayo brahmacāriṇaḥ /</l>
+<l>tapasā brāhmaṇā bhūtā brāhmaṇīgarbhasaṃbhavāḥ //</l>
+</lg>
+<lg xml:id="KDA_129">
+<l>dharmasaṃskārataḥ sarve mānavā brāhmaṇāḥ khalu /</l>
+<l>dharmavṛttipramāṇena sarve syur brāhmaṇā narāḥ //</l>
+</lg>
+<lg xml:id="KDA_130">
+<l>ekavarṇam idaṃ sarvaṃ brahmasṛṣṭisamudbhavam* /</l>
+<l>dharmakalpavikalpena cāturvarṇyaṃ prakalpitam* //</l>
+</lg>
+<lg xml:id="KDA_131">
+<l>sarve vai yonijā martyāḥ sarve mūtrapurīṣiṇaḥ /</l>
+<l>ekendriyakriyārthāś ca tasmāc chīlaguṇair dvijāḥ //</l>
+</lg>
+<lg xml:id="KDA_132">
+<l>śūdro 'pi śīlasaṃpanno guṇavān brāhmaṇo bhavet* /</l>
+<l>brāhmaṇo 'pi kriyāhīnaḥ śūdrāt pratyavaro bhavet* //</l>
+</lg>
+<lg xml:id="KDA_133">
+<l>guṇair dharmais tathā śīlair varṇā hy anekajātayaḥ /</l>
+<l>brahmajeṣu hi sarveṣu nareṣu kiṃ viśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_134">
+<l>yathā bhasmani sauvarṇe viśeṣa upalabhyate /</l>
+<l>brāhmaṇe cānyajātau vā na viśeṣo 'sti vai tathā //</l>
+</lg>
+<lg xml:id="KDA_134">
+<l>yathā prakāśatamasor viśeṣa upalabhyate /</l>
+<l>brāhmaṇe cānyajātau vā viśeṣo naiṣa vidyate //</l>
+</lg>
+<p xml:id="9">
+-------------------- Vaidya, p. 274 --------------------
+</p>
+<lg xml:id="KDA_136">
+<l>na hi brāhmaṇa ākāśān maruto vā samudbhavaḥ /</l>
+<l>bhitvā vā pṛthivīṃ jāto jātavedā yathāraṇeḥ //</l>
+</lg>
+<lg xml:id="KDA_137">
+<l>brāhmaṇā yonito jātāś caṇḍālā api yonitaḥ /</l>
+<l>śreṣṭhatve vṛṣalatve ca kiṃ vāsti bhedakāraṇam* //</l>
+</lg>
+<lg xml:id="KDA_138">
+<l>brāhmaṇo 'pi mṛtotsṛṣṭo jugupsyo 'śucir ucyate /</l>
+<l>varṇās sathava cāpy anye kā nu tatra viśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_139">
+<l>yathā siṃhādijantūnāṃ padādibhedalakṣaṇam* /</l>
+<l>dehasaṃsthānaliṅgaiś ca narāṇāṃ kiṃ viśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_140">
+<l>yathā haṃsamayūrādi- pakṣiṇāṃ ca viśeṣatā /</l>
+<l>mukhādivarṇaśabdaiś ca narāṇāṃ nāsti bhedatā //</l>
+</lg>
+<lg xml:id="KDA_141">
+<l>yathā ca kṛmikīṭānāṃ kāyasaṃsthānabhedatā /</l>
+<l>tathaiva narajātīnāṃ naivāsti bhedalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_142">
+<l>yathā bhūruhavṛkṣāṇāṃ patrādyākārabhedatā /</l>
+<l>tathā nāsti manuṣyāṇām ākṛter bhedalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_143">
+<l>tṛṇauṣadhādiśasyānāṃ yathākṛtiviśeṣatā /</l>
+<l>mānavānāṃ tathā nāsti saṃsthānaṃ bhinnalakṣaṇam* (Speyer:saṃsthānabhinnaŚ) //</l>
+</lg>
+<lg xml:id="KDA_144">
+<l>dhānyādivrīhijātīnāṃ varṇākārādilakṣaṇam* /</l>
+<l>tathā nāsti manuṣyāṇāṃ varṇākāraviśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_145">
+<l>jātikundādipuṣpāṇāṃ yathā varṇādibhedatā /</l>
+<l>mānavānāṃ tathā nāsti varṇagandhādibhedatā //</l>
+</lg>
+<lg xml:id="KDA_146">
+<l>jalajānāṃ ca puṣpāṇāṃ padmādīnāṃ viśeṣatā /</l>
+<l>varṇasaṃsthānagandhāś ca narāṇāṃ tu tathā na hi //</l>
+</lg>
+<lg xml:id="KDA_147">
+<l>yathāmrādiphalānāṃ ca svādādiguṇabhedatā /</l>
+<l>manujānāṃ tathā nāsti māṃsāsthiguṇabhedatā //</l>
+</lg>
+<lg xml:id="KDA_148">
+<l>yathā ṣaḍrasajātīnāṃ guṇāsvādādibhedatā /</l>
+<l>tathā nāsti manuṣyāṇāṃ ṣaḍindriyaviśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_149">
+<l>yathā hemādidhātūnāṃ dravyavarṇādibhedatā /</l>
+<l>tathā nāsti manuṣyāṇāṃ saṃsthānavarṇabhedatā //</l>
+</lg>
+<lg xml:id="KDA_150">
+<l>yathā vajrādiratnānāṃ saṃsthānavarṇabhedatā /</l>
+<l>tathā nāsti manuṣyāṇāṃ śarīrākārabhedatā //</l>
+</lg>
+<lg xml:id="KDA_151">
+<l>samamāṃsādibhedāś ca ṣaḍindriyasamās tathā /</l>
+<l>ekāṃśato viśeṣo na kuto deheṣu bhedatā //</l>
+</lg>
+<p xml:id="10">
+-------------------- Vaidya, p. 275 --------------------
+</p>
+<lg xml:id="KDA_152">
+<l>yathā hi bālakā bālā krīḍamānā mahāpathe /</l>
+<l>pāṃśupuñjāni saṃpiṇḍya svayaṃ nāmāni kurvate //</l>
+</lg>
+<lg xml:id="KDA_153">
+<l>idaṃ kṣīram idaṃ māṃsam idaṃ ghṛtam idaṃ dadhi /</l>
+<l>na ca bālasya vacanāt pāṃśavo 'nnā bhavanti hi //</l>
+</lg>
+<lg xml:id="KDA_158">
+<l>varṇās tathaiva catvāraḥ subhūta iti kalpitāḥ /</l>
+<l>pāṃśupuñjābhidhānena yogo 'py eṣa na vidyate //</l>
+</lg>
+<lg xml:id="KDA_155">
+<l>na keśena na kaṛṇena na śīrṣeṇa na cakṣuṣā /</l>
+<l>na mukhena na nāsāyā na grīvayā na bāhunā //</l>
+</lg>
+<lg xml:id="KDA_156">
+<l>norasā na ca pārśvena na pṛṣṭhenodareṇa vā /</l>
+<l>norubhyām atha jaṅgābhyāṃ pāṇipādanakhair na ca //</l>
+</lg>
+<lg xml:id="KDA_157">
+<l>na svareṇa na varnena na sarvāṃśair na maithunaiḥ /</l>
+<l>naikā viśeṣatā vāpi manuṣyeṣu na vidyate //</l>
+</lg>
+<lg xml:id="KDA_158">
+<l>tathā nāsti yathānyāsu jāter liṅgaṃ pṛthak pṛthak* /</l>
+<l>sāmāny akāraṇaṃ manye kiṃcin na bhedalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_169">
+<l>saṃjñāmātreṇa kalpyante brāhmaṇāḥ kṣatriyās tathā /</l>
+<l>vaiśyāḥ śūdrās tathānye 'pi saṃjñāmātre hi kīrtitāḥ //</l>
+</lg>
+<lg xml:id="KDA_160">
+<l>yathaikavṛkṣajātānāṃ phalānāṃ nāsti bhedatā /</l>
+<l>tathaikam anujātānāṃ kiṃ viśeṣatvalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_161">
+<l>guṇadharmānucāreṇa jātibhedā bhavanti hi /</l>
+<l>cāturvarṇyam idaṃ loke sarvaṃ hi manusaṃbhavam* //</l>
+</lg>
+<lg xml:id="KDA_162">
+<l>guṇadharmapramāṇena jāter naiva pramāṇatā /</l>
+<l>tathā ca procyate bauddhair avadānārthakovidaiḥ //</l>
+</lg>
+<lg xml:id="KDA_163">
+<l>mānavā ye praśāntāsthā satyadharmavratānvitāḥ /</l>
+<l>brāhmaṇās te mahāśuddhāś caturbrahmavihāriṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_164">
+<l>parigrahān parityajya vanaprasthanivāsinaḥ /</l>
+<l>ye bhajanti sadā brahma vānaprasthā hi te dvijāḥ //</l>
+</lg>
+<lg xml:id="KDA_165">
+<l>ṣaṭkarmaniratā ye tu śrotriyā gṛhavāsinaḥ /</l>
+<l>mahāyajñasamācārā upādhyāyā hi te dvijāḥ //</l>
+</lg>
+<lg xml:id="KDA_166">
+<l>nirapekṣāḥ svadehe 'pi tyaktamārābhigocarāḥ /</l>
+<l>bhikṣāśino vratasthās te bhikṣavo brahmavādinaḥ //</l>
+</lg>
+<lg xml:id="KDA_167">
+<l>ye ca mārān vinirjitya niḥsaṅgā dhīramānasāḥ /</l>
+<l>tapanti puṇyakṣetreṣu mānavās te tapasvinaḥ //</l>
+</lg>
+<p xml:id="11">
+-------------------- Vaidya, p. 276 --------------------
+</p>
+<lg xml:id="KDA_168">
+<l>daśākuśalanirbhuktā daśākuśalasaṃratāḥ /</l>
+<l>satyavāco vratasthā ye ṛṣayas te dvijottamāḥ //</l>
+</lg>
+<lg xml:id="KDA_169">
+<l>ye ca lokapracāreṣu viratā dharmamānasāḥ /</l>
+<l>vācaṃyamāś ca te bhadrā munayaḥ satyavādinaḥ //</l>
+</lg>
+<lg xml:id="KDA_170">
+<l>ye ca jitendriyagrāmā nirmuktabhavacārakāḥ /</l>
+<l>nirmamā nirahaṃkārā yatayo yogino 'pi te //</l>
+</lg>
+<lg xml:id="KDA_171">
+<l>ye ca sthaṇḍilam āśritya caranti vratam ādarāt* /</l>
+<l>te 'pi ca mānavā dhīrāḥ sthaṇḍilā jaṭilās tathā (Speyer: sthāṇḍilā) //</l>
+</lg>
+<lg xml:id="KDA_172">
+<l>ye ca bhasmaviliptāṅgā hārābharaṇabhūṣitāḥ /</l>
+<l>kāpālikāś ca te vīrāḥ śmaśānavratacāriṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_173">
+<l>ye samiddhavyadravyāṇi juhvatyagnau samāhitāḥ /</l>
+<l>te hotāraś ca yajvāno vedadharmārthasādhakāḥ //</l>
+</lg>
+<lg xml:id="KDA_174">
+<l>ye ca kṣatrāṇi rakṣantaḥ pālayanti sadā prajāḥ /</l>
+<l>satvarakṣāvratācārāḥ kṣatriyās te nṛpā narāḥ //</l>
+</lg>
+<lg xml:id="KDA_175">
+<l>ye rañjayanti dharmārthe lokān nītiprayojakāḥ /</l>
+<l>rājānas te mahāvīrāḥ sarvadharmābhipālakāḥ //</l>
+</lg>
+<lg xml:id="KDA_176">
+<l>ye ca satvahitādhāne vividhārthānukāriṇaḥ /</l>
+<l>veśayanti prajā dharme vaiśyās te hi narottamāḥ //</l>
+</lg>
+<lg xml:id="KDA_177">
+<l>vratācāravihīnā ye satvarakṣārthacāriṇaḥ /</l>
+<l>manyante sevayā śuddhiṃ śūdrās te śreṣṭhinas tathā //</l>
+</lg>
+<lg xml:id="KDA_178">
+<l>ye ca kṣetrāṇi karṣanti dhānyādivrīhisādhakāḥ /</l>
+<l>kṛṣikās te narā dhānyaiḥ satvajīvānupoṣakāḥ //</l>
+</lg>
+<lg xml:id="KDA_179">
+<l>sādhayanti mahatkāryaṃ dhanādivastusaṃgrahaiḥ /</l>
+<l>vaṇikkarmābhisaṃyuktā vaṇijas te mahodyamāḥ //</l>
+</lg>
+<lg xml:id="KDA_180">
+<l>ye ca sārthān samāhṛtya ratnākarasamāgatāḥ /</l>
+<l>sādhayanti ca ratnāni sārthavāhāś ca te narāḥ //</l>
+</lg>
+<lg xml:id="KDA_181">
+<l>tathānye śilpavidyādīn ye ca kurvanti mānavāḥ /</l>
+<l>śilpinas te tathānye 'pi svarṇakārādayo narāḥ //</l>
+</lg>
+<lg xml:id="KDA_182">
+<l>jyotir vidyāvido ye ca gaṇayanti divāniśam* /</l>
+<l>yugāntakālavijñātā gaṇakās te 'pi mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_183">
+<l>dhātudoṣāny abhijñāya lokānāṃ paricārakāḥ /</l>
+<l>bhaiṣajyaṃ ye dadanty eva bhiṣajas te hi vaidyakāḥ //</l>
+</lg>
+<p xml:id="12">
+-------------------- Vaidya, p. 277 --------------------
+</p>
+<lg xml:id="KDA_184">
+<l>bhūtadoṣāṇy abhijñāya balipūjāvidhānataḥ /</l>
+<l>śamayanti ca ye bhūtān bhautikās te 'pi mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_185">
+<l>evaṃ cānye 'pi ye satvā yad yat karmānucāriṇaḥ /</l>
+<l>tat tat karmānuśīlena jātidharmapravṛttikāḥ //</l>
+</lg>
+<lg xml:id="KDA_186">
+<l>tato ye mānavāḥ krūrā nirdayāḥ satvahiṃsakāḥ /</l>
+<l>caṇḍavṛttipracārāś ca caṇḍālā iti te smṛtāḥ //</l>
+</lg>
+<lg xml:id="KDA_187">
+<l>ye bhajanti śivaṃ nityaṃ śivabhaktiparāyaṇāḥ /</l>
+<l>te śaivā manujā jñeyāḥ śivadharmānucārataḥ //</l>
+</lg>
+<lg xml:id="KDA_188">
+<l>ye bhajanti viṣṇuṃ nityaṃ viṣṇubhaktiparāyaṇāḥ /</l>
+<l>viṣṇudharmasamācārād vaiṣṇavās te 'pi mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_189">
+<l>brahmāṇaṃ ye bhajayanty eva brahmabhaktiparāyaṇāḥ /</l>
+<l>brahmadharmasamācārād brāhmaṇās te 'pi mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_190">
+<l>ye bhajanti mahāraudraṃ bhairavabhaktimānasāḥ /</l>
+<l>mahāraudrāś ca te khyātā bhairavikāś ca mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_191">
+<l>ye ca māheśvarīṃ devīṃ bhajanti kuladharmiṇaḥ /</l>
+<l>māheśvarīvratādhārāḥ kālikās te 'pi mānavāḥ //</l>
+</lg>
+<lg xml:id="KDA_192">
+<l>yee bhajanti sadā buddhaṃ bauddhadharmaparāyaṇāḥ /</l>
+<l>te 'pi ca mānavā bauddhāḥ saṃbodhipadasādhinaḥ //</l>
+</lg>
+<lg xml:id="KDA_193">
+<l>ye bhajanti jinaṃ caiva jainadharmaparāyaṇāḥ /</l>
+<l>te 'pi ca manujā jainā jainadharmānucāraṇāt* //</l>
+</lg>
+<lg xml:id="KDA_194">
+<l>evaṃ cānye 'pi ye satvā vratacaryānuliṅginaḥ /</l>
+<l>te 'pi ca mānavāḥ sarve dharmacaryānuvarṇinaḥ //</l>
+</lg>
+<lg xml:id="KDA_195">
+<l>yādṛśaṃ sādhyate karma tādṛśī jātitā bhavet* /</l>
+<l>prajāpatir hi caikatve nirviśeṣo 'bhavad yataḥ //</l>
+</lg>
+<lg xml:id="KDA_196">
+<l>na cendriyeṣu nānātvaṃ kriyāvādena dṛśyate /</l>
+<l>brāhmaṇe cānyajātau vā naiṣāṃ kiṃcid viśiṣyate //</l>
+</lg>
+<lg xml:id="KDA_197">
+<l>na hy ātmanaḥ samutkarṣāc chreṣṭhatvam iha yujyate /</l>
+<l>śukraśoṇitasaṃbhūtaṃ yonijaṃ sarvam eva hi //</l>
+</lg>
+<lg xml:id="KDA_198">
+<l>cāturvarṇyam idaṃ lokam iti tīrthyair vikalpitam* /</l>
+<l>brahmajā brāhmaṇā naivaṃ dharmasaṃskārajāḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_199">
+<l>yadi vā brahmajā viprā brāhmaṇī kutra saṃbhavā /</l>
+<l>brāhmaṇy api tathā caiva brahmajā yadi sāṃpratam* //</l>
+</lg>
+<p xml:id="13">
+-------------------- Vaidya, p. 278 --------------------
+</p>
+<lg xml:id="KDA_200">
+<l>brāhmaṇasya ca sā bhāryā syāc caivedaṃ na yuktitaḥ /</l>
+<l>na bhāryā bhaginī yuktā brahmaṇāṃ brahmajā yadi //</l>
+</lg>
+<lg xml:id="KDA_201">
+<l>na satvā brahmaṇo jātāḥ karmasaṃskārajās tvamī /</l>
+<l>nihīnotkṛṣṭamadhyāś ca satvā nānāśrayāḥ pṛthak* //</l>
+</lg>
+<lg xml:id="KDA_202">
+<l>teṣāṃ hi jātisāmānyād brāhmaṇe kṣatriye tathā /</l>
+<l>vaiśyaśūdre tathānyeṣu samaṃ jñānaṃ pravartate //</l>
+</lg>
+<lg xml:id="KDA_203">
+<l>śīlaṃ pradhānaṃ na kulaṃ pradhānaṃ kulena kiṃ śīlavivarjitena /</l>
+<l>bahavo narā nīcakulaprasūtāḥ svargaṃ gatāḥ śīlam upetya dhīrāḥ //</l>
+</lg>
+<lg xml:id="KDA_204">
+<l>na jātir dṛśyate devaiḥ śīlaḥ kalyāṇakārakaḥ /</l>
+<l>caṇḍālo 'pi hi śīlasthas taṃ devā brāhmaṇaṃ viduḥ //</l>
+</lg>
+<lg xml:id="KDA_205">
+<l>satyaṃ brahma tapo brahma śīlaś cendriyasaṃyamaḥ /</l>
+<l>sarvabhūtadayā brahma etad brāhmaṇalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_206">
+<l>satyaṃ nāsti tapo nāsti nāsti cendriyasaṃyamaḥ /</l>
+<l>sarvabhūtadayā nāsti etac caṇḍālalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_207">
+<l>devamanuṣyanārīṇāṃ tiryagyonigateṣv api /</l>
+<l>maithunaṃ nādhigacchanti te narā brāhmaṇāḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_207">
+<l>śūdrīhastena yo bhuṅkte māsam ekaṃ nirantaram* /</l>
+<l>jīvamāno bhavec chūdro mṛtaḥ sa śvā prajāyate //</l>
+</lg>
+<lg xml:id="KDA_208">
+<l>śūdrīparivṛto vipraḥ śūdrī ca gṛhamedhinī /</l>
+<l>varjitaḥ pitṛdevaiś ca rauravaṃ so 'dhigacchati //</l>
+</lg>
+<lg xml:id="KDA_210">
+<l>tasmād dharmatapaḥśīla- saṃyamajñānato dvijaḥ /</l>
+<l>na tv etair hi vinā vipraḥ kiṃ syāt saṃskāramātrataḥ //</l>
+</lg>
+<lg xml:id="KDA_211">
+<l>tan na śarīrasaṃskāra- mātreṇa brāhmaṇo bhavet* /</l>
+<l>saṃskṛtena dvijo vā cec chūdro 'pi saṃskṛto dvijaḥ //</l>
+</lg>
+<lg xml:id="KDA_212">
+<l>yadi vipraḥ śarīraḥ syāt pāvako brahmahā bhavet* /</l>
+<l>brahmahatyā ca bandhūnāṃ śarīradahanād bhavet* //</l>
+</lg>
+<lg xml:id="KDA_123">
+<l>brāhmaṇabījasaṃbhūtaḥ śūdro 'pi na kathaṃ dvijaḥ /</l>
+<l>tasmād dhi brāhmaṇo naiva dehasaṃskāramātrataḥ //</l>
+</lg>
+<lg xml:id="KDA_214">
+<l>sadyaḥ patati māṃsena dhātvannakṣiravikrayī /</l>
+<l>brāhmaṇo 'pi bhavec chūdraḥ surayā lavaṇena ca //</l>
+</lg>
+<lg xml:id="KDA_215">
+<l>ākāśagāmino priyāḥ patitā māṃsabhakṣaṇāt* /</l>
+<l>viprāṇāṃ patanaṃ dṛṣṭvā tato māṃsāni varjayet //</l>
+</lg>
+<p xml:id="14">
+-------------------- Vaidya, p. 279 --------------------
+</p>
+<lg xml:id="KDA_216">
+<l>bhakṣyante yena māṃsāni bhakṣyate tena kiṃ na hi /</l>
+<l>abhakṣyabhakṣaṇāc caiva brāhmaṇaḥ patito bhavet* //</l>
+</lg>
+<lg xml:id="KDA_217">
+<l>patito brāhmaṇaś caivaṃ saṃskāraṃ nārhati punaḥ /</l>
+<l>tasmāj jñānaṃ vinā naiva śarīro brāhmaṇo bhavet* //</l>
+</lg>
+<lg xml:id="KDA_218">
+<l>jñānavān hi bhavet pūjyo brāhmaṇā api mānavāḥ /</l>
+<l>samāneṣu ca deheṣu kutrāpy asti viśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_219">
+<l>tasmāj jñānapramāṇena na śarīrapramāṇatā /</l>
+<l>yathā karoti bhāṇdāni mṛttikayaiva bhārgavaḥ //</l>
+</lg>
+<lg xml:id="KDA_220">
+<l>mṛttikāyā na bhedo 'sti tatkṛtabhājaneṣv api /</l>
+<l>kiṃ tu prakṣiptavastūnāṃ saṃjñayākhyāyate khalu //</l>
+</lg>
+<lg xml:id="KDA_221">
+<l>prakṣiptaṃ yatra yad dravyaṃ tad bhāṇḍaṃ tena lakṣyate /</l>
+<l>jñānadharmaguṇācārair lakṣyate mānavas tathā //</l>
+</lg>
+<lg xml:id="KDA_222">
+<l>jñānadharmaguṇācārair vihīno mānavaḥ paśuḥ /</l>
+<l>jñānavijñānabhedena vartate guṇabhedatā //</l>
+</lg>
+<lg xml:id="KDA_223">
+<l>guṇabhedād bhaved dharma- bhedā ca saṃprajāyate /</l>
+<l>dharmabhedāt tataḥ karma- bhedatā saṃpravartate //</l>
+</lg>
+<lg xml:id="KDA_224">
+<l>karmabhedāt tathācāra- bhedatā ca pravartate /</l>
+<l>tathācāraviśeṣeṇa jātibhedāḥ pravartitāḥ //</l>
+</lg>
+<lg xml:id="KDA_225">
+<l>mahābhūtasamudbhūta- skandheṣv āyataneṣu ca /</l>
+<l>sarvajantuśarīreṣu sameṣu kā viśeṣatā //</l>
+</lg>
+<lg xml:id="KDA_226">
+<l>jñānavijñānamātreṇa bhidyante khalu mānavāḥ /</l>
+<l>jñānavijñānapātratvāt pūjyante nīcajā api //</l>
+</lg>
+<lg xml:id="KDA_227">
+<l>jñānavijñānahīnatvān mānavo 'pi na pūjyate /</l>
+<l>paśuvatsa narākāraḥ tataḥ pūjā na cākṛteḥ //</l>
+</lg>
+<lg xml:id="KDA_228">
+<l>jñānenāpi dvijo naiva karmācārapramāṇataḥ /</l>
+<l>jñānena yadi vā vipraḥ śūdro 'pi brāhmaṇo bhavet* //</l>
+</lg>
+<lg xml:id="KDA_229">
+<l>anye 'pi bahavaḥ santi sakaivartādinīcajāḥ /</l>
+<l>jñānavantaś ca ye dhīrās te 'pi syur brāhmaṇāḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_230">
+<l>tamāc ca jñānamātreṇa brāhmaṇo na bhavet khalu /</l>
+<l>karmācārapramāṇena na jñānasya pramāṇatā //</l>
+</lg>
+<lg xml:id="KDA_231">
+<l>karmaṇāpi dvijo naiva śuddhācārapramāṇataḥ /</l>
+<l>karmaṇā vai dvijāś caivaṃ sarve syur brāhmaṇāḥ khalu //</l>
+</lg>
+<p xml:id="15">
+-------------------- Vaidya, p. 280 --------------------
+</p>
+<lg xml:id="KDA_232">
+<l>santi hi bahavo loke mahāyajñādikarmiṇaḥ /</l>
+<l>kṣatriyavaiśyaśūdrāś ca kathaṃ na brāhmaṇā nu te //</l>
+</lg>
+<lg xml:id="KDA_233">
+<l>tasmān na karmamātreṇa brāhmaṇāḥ syur narāḥ khalu /</l>
+<l>nāpi svācāramātreṇa brāhmaṇāḥ syus tathā narāḥ //</l>
+</lg>
+<lg xml:id="KDA_234">
+<l>yadi svācārato vipraḥ sarve syur brāhmaṇāḥ khalu /</l>
+<l>ye ye svācāravantaś ca te te syur brāhmaṇāḥ kila //</l>
+</lg>
+<lg xml:id="KDA_235">
+<l>santi ca bahavaḥ śūdrāḥ śuddhācārasamanvitāḥ /</l>
+<l>vratopavāsadharmiṣṭā nīcajā api santi ca //</l>
+</lg>
+<lg xml:id="KDA_236">
+<l>te 'pi syur brāhmaṇāś caivaṃ yady ācārapramāṇatā /</l>
+<l>tasmād ācāramātreṇa brāhmaṇā naiva mānuṣāḥ //</l>
+</lg>
+<lg xml:id="KDA_237">
+<l>vedenāpi tathā naiva brāhmaṇāḥ syur narottamāḥ /</l>
+<l>yadi vedair bhaved vipro rākṣaso 'pi dvijaḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_238">
+<l>tathābhūd rāvaṇo nāma rākṣaso vedapāragaḥ /</l>
+<l>sarve 'pi rākṣasāś caivaṃ vedakarmānucārakāḥ //</l>
+</lg>
+<lg xml:id="KDA_230">
+<l>kathaṃ te brāhmaṇā naiva yadi vedād dvijo bhavet* /</l>
+<l>tasmāc ca vedamātreṇa naiva syur brāhmaṇāḥ khalu //</l>
+</lg>
+<lg xml:id="KDA_240">
+<l>satyadharmapramāṇena sarvam ekaṃ jagad dhruvam* /</l>
+<l>cāturvarṇyam idaṃ lokaṃ tīrthikair iti kalpitam* //</l>
+</lg>
+<lg xml:id="KDA_241">
+<l>tathā ca kalpyate loka- bodhārtham iti tīrthikaiḥ /</l>
+<l>svayaṃbhūdehasaṃbhūtaṃ cāturvarṇyam idaṃ khalu //</l>
+</lg>
+<lg xml:id="KDA_242">
+<l>mukhato brāhmaṇo jāto bāhubhyāṃ kṣatriyaḥ smṛtaḥ /</l>
+<l>ūrubhyāṃ saṃbhavo vaiśyaḥ padbhyāṃ śūdraḥ samudbhavaḥ //</l>
+</lg>
+<lg xml:id="KDA_243">
+<l>tathā ced dhi bhaved doṣo dharmeṣu varṇavādinām* /</l>
+<l>agamyagamanāc caivaṃ kathaṃ dharmaviśuddhitā //</l>
+</lg>
+<lg xml:id="KDA_244">
+<l>yadi vipro mukhāj jāto brāhmaṇī kutra saṃbhavā /</l>
+<l>brāhmaṇy api mukhāj jātā svasā bhāryā kathaṃ nanu //</l>
+</lg>
+<lg xml:id="KDA_245">
+<l>tathā ca kṣatriyā jātā bāhubhyām eva cet tathā /</l>
+<l>kṣatriyasya bhaved bhāryā kṣatriyā bhaginī khalu //</l>
+</lg>
+<lg xml:id="KDA_246">
+<l>vaiśyāpi hi tathā caivam ūrubhyām eva saṃbhavā /</l>
+<l>vaiśyasyāpi bhaved bhāryā vaiśyā tu bhaginī viśaḥ //</l>
+</lg>
+<lg xml:id="KDA_247">
+<l>padbhyāṃ jāto yathā śūdraḥ śūdrī cāpi tathodbhavā /</l>
+<l>śūdrasyāpi bhaved bhāryā śūdrī hi bhaginī khalu //</l>
+</lg>
+<p xml:id="16">
+-------------------- Vaidya, p. 281 --------------------
+</p>
+<lg xml:id="KDA_248">
+<l>na yuktā bhaginī bhāryā tathā dharmaḥ kathaṃ bhavet* /</l>
+<l>agamyagamanāc caivam adharma eva saṃbhavet* //</l>
+</lg>
+<lg xml:id="KDA_249">
+<l>tato 'tyantaviruddhaṃ syād brahmajā brāhmaṇā yadi /</l>
+<l>dharmakriyāviśeṣāt tu varṇāvasthāḥ pratiṣṭhitāḥ //</l>
+</lg>
+<lg xml:id="KDA_250">
+<l>bhārate 'pi tathā caivaṃ dharmarājo yudhiṣṭhiraḥ /</l>
+<l>vaiśampāyanam āgamya prāñjaliḥ paryapṛcchata //</l>
+</lg>
+<lg xml:id="KDA_251">
+<l>ke te ye brāhmaṇāḥ proktāḥ kiṃ vā brāhmaṇalakṣaṇam* /</l>
+<l>etad icchāmi bho jñātuṃ tadbhavān vyākarotu me //</l>
+</lg>
+<lg xml:id="KDA_252">
+<l>iti śrutvā mahāvijño vaiśampāyana ādarāt* /</l>
+<l>pratyuvāceti kaunteya śṛṇu tat kathyate mayā //</l>
+</lg>
+<lg xml:id="KDA_253">
+<l>kṣāntyādibhir guṇair yuktas tyaktadaṇḍo nirāmiṣaḥ /</l>
+<l>na hanti sarvabhūtāni prathamaṃ brāhmalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_254">
+<l>yadā sarvaparadravyaṃ pathi vā yadi vā gṛhe /</l>
+<l>adattaṃ naiva gṛhṇāti dvitīyaṃ brāhmalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_255">
+<l>tyaktakrūrasvabhāvas tu nirmamo niḥparigrahaḥ /</l>
+<l>muktaś carati yo nityaṃ tṛtīyaṃ brāhmalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_256">
+<l>devamanuṣyanārīṇāṃ tiryagyonigateṣv api /</l>
+<l>maithunaṃ hi sadā tyaktaṃ caturthaṃ brāhmalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_257">
+<l>satyaṃ śaucaṃ dayā śaucaṃ śaucam indriyanigrahaḥ /</l>
+<l>sarvabhūtadayā śaucaṃ tapaḥ śaucaṃ ca pañcamam* //</l>
+</lg>
+<lg xml:id="KDA_258">
+<l>pañcalakṣaṇasaṃpanna īdṛśo yo bhaved dvijaḥ /</l>
+<l>tam ahaṃ brāhmaṇaṃ brūyāṃ śeṣāḥ śudrā yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_259">
+<l>na kulena na jātyā ca kriyābhir brāhmaṇo na ca /</l>
+<l>cāṇḍālo 'pi hi vṛttastho brāhmaṇaḥ sa yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_260">
+<l>ahiṃsā brahmacaryaṃ ca viśuddhātmāparigrahaḥ /</l>
+<l>phaleṣv anabhilipsātha brāhmaṇaḥ syād yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_261">
+<l>ekavarṇam idaṃ viśvaṃ pūrvam āsīd yudhiṣṭhira /</l>
+<l>karmakriyāviśeṣeṇa cāturvarṇyaṃ pratiṣṭhitam* //</l>
+</lg>
+<lg xml:id="KDA_262">
+<l>sarve vai yonijā martyāḥ sarve mūtrapurīṣiṇaḥ /</l>
+<l>ekendriyakriyārthāś ca tasmāc chīlaguṇair dvijāḥ //</l>
+</lg>
+<lg xml:id="KDA_263">
+<l>śūdro 'pi śīlasaṃpanno guṇavān brāhmaṇo bhavet* /</l>
+<l>brāhmaṇo 'pi kriyāhīnaḥ śūdrāt pratyavaro bhavet* //</l>
+</lg>
+<p xml:id="17">
+-------------------- Vaidya, p. 282 --------------------
+</p>
+<lg xml:id="KDA_264">
+<l>pañcendriyārṇavaṃ ghoraṃ yadi śūdro 'pi tīrṇavān* /</l>
+<l>tasmai dānaṃ pradātavyam aprameyaṃ yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_265">
+<l>na jātir dṛśyate rājan guṇāḥ kalyāṇakārakāḥ /</l>
+<l>guṇavidyānidhir vidvān brāhmaṇo brahmacārāṇāt* //</l>
+</lg>
+<lg xml:id="KDA_266">
+<l>jīvitaṃ yasya lokārthe dharmārthe yasya jīvitam* /</l>
+<l>ahorātraṃ caren muktas taṃ devā brāhmaṇaṃ viduḥ //</l>
+</lg>
+<lg xml:id="KDA_267">
+<l>parityajya gṛhāvāsaṃ ye sthitā mokṣakāṅkṣiṇaḥ /</l>
+<l>kāmeṣv asaktāḥ kaunteya brāhmaṇās te yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_268">
+<l>ahiṃsā nirmamatvaṃ vā satkṛtyasya vivarjanam* /</l>
+<l>rāgadveṣanivṛttiś ca etad brāhmaṇalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_269">
+<l>kṣamā dayā damo dānaṃ satyaṃ śaucaṃ smṛtir ghṛṇā /</l>
+<l>vidyā vidyānamādhītyam etad brāhmaṇalakṣaṇam* //</l>
+</lg>
+<lg xml:id="KDA_270">
+<l>gāyatrīmātrasāro 'pi varaṃ vipraḥ suyantritaḥ /</l>
+<l>nādhitya caturo vedān sarvāśī sarvavikrayī //</l>
+</lg>
+<lg xml:id="KDA_271">
+<l>ekarātroṣitasyāpi yā gatir brahmacāriṇaḥ /</l>
+<l>na tāṃ kratusahasreṇa prāpnuvanti yudhiṣṭhira //</l>
+</lg>
+<lg xml:id="KDA_272">
+<l>pāragaḥ sarvavedānāṃ sarvatīrthābhiṣiñcanaiḥ /</l>
+<l>yuktaś carati dharmaṃ yo taṃ devā brāhmaṇaṃ viduḥ //</l>
+</lg>
+<lg xml:id="KDA_273">
+<l>yadā na kurute pāpaṃ sarvabhūteṣu dāruṇam* /</l>
+<l>kāyena manasā vācā brahma saṃpadyate tadā //</l>
+</lg>
+<lg xml:id="KDA_274">
+<l>yasya lokahite cittaṃ maitrīyuktam ivātmaje /</l>
+<l>tena saṃpadyate brahma tasmān maitrīṃ vibhāvaya //</l>
+</lg>
+<lg xml:id="KDA_275">
+<l>yasya lokeṣu kāruṇyaṃ svātmaje iva duḥkhite /</l>
+<l>tena saṃpadyate brahma tasmāt kāruṇiko bhava //</l>
+</lg>
+<lg xml:id="KDA_276">
+<l>yac cittaṃ muditaṃ loke sukhībhūte ivātmaje /</l>
+<l>tasya saṃjāyate brahma tal loke modavāṃś cara //</l>
+</lg>
+<lg xml:id="KDA_277">
+<l>yasyopekṣāyutaṃ cittaṃ sarvalokeṣv ivātmaje /</l>
+<l>tasya saṃjāyate brahma tad upekṣāyutaś cara //</l>
+</lg>
+<lg xml:id="KDA_278">
+<l>etad dhi paramaṃ brahma- vihāraṃ brahmasādhanam* /</l>
+<l>jñātvā lokahitārthena cara brahmavihāriṇam* (Speyer: brahmavihāraṇam*) //</l>
+</lg>
+<lg xml:id="KDA_279">
+<l>tataḥ kleśān vinirjitvā svātmacittasamāhitaḥ /</l>
+<l>brahmapraṇidhim ālambya sthirībhava samādhiṣu //</l>
+</lg>
+<p xml:id="18">
+-------------------- Vaidya, p. 283 --------------------
+</p>
+<lg xml:id="KDA_280">
+<l>tathā brahmaguṇādhānād brahmarṣis tvaṃ bhaveḥ kila /</l>
+<l>pañcābhijñapadaprāpto brahmalokam avāpnuyāḥ //</l>
+</lg>
+<lg xml:id="KDA_281">
+<l>iti śrutvā guror vākya sa subhūtir guṇotsukaḥ /</l>
+<l>tatheti pratisaṃśrutya dhyānacaryām upāśrayat* //</l>
+</lg>
+<lg xml:id="KDA_282">
+<l>tato 'nyad vanam āśritya guror ājñāsamādhṛtaḥ /</l>
+<l>sarvendriyavinirgatyā vyaharaddhyānatatparaḥ //</l>
+</lg>
+<lg xml:id="KDA_283">
+<l>tatrādhivasato 'syāpi krodhāgniḥ samudīritaḥ /</l>
+<l>karmādhānabalābhyāsān naiva śāntim upāyayau //</l>
+</lg>
+<lg xml:id="KDA_284">
+<l>tatra ca vanaṣaṇḍe yā vasantī vanadevatā /</l>
+<l>sā subhūtiṃ mahākrodhaṃ dṛṣṭvaivaṃ samacintayat* //</l>
+</lg>
+<lg xml:id="KDA_285">
+<l>subhūtir brāhmaṇo hy eṣa sarvavedārthapāragaḥ /</l>
+<l>sarvamantravidhānajñaḥ sutīkṣṇakrodhabāhulaḥ //</l>
+</lg>
+<lg xml:id="KDA_286">
+<l>kadācit kupitaś cāyaṃ krodhataḥ śāpavahninā /</l>
+<l>dhakṣyati parvatāṃś cāpi sapakṣijantumānavān* //</l>
+</lg>
+<lg xml:id="KDA_287">
+<l>samādhidhyānayukto 'pi naiva cittasamāhitaḥ /</l>
+<l>jñānavijñānadharmeṣu viśeṣaṃ nādhigacchati //</l>
+</lg>
+<lg xml:id="KDA_288">
+<l>yadi bauddheṣu dharmeṣu niyukto 'yaṃ dvijottamaḥ /</l>
+<l>kṣipraṃ kleśān vinirjitya bodhicittaṃ ca lapsyati //</l>
+</lg>
+<lg xml:id="KDA_289">
+<l>bodhicitte pralabdhe tu tadā lokahite caret* /</l>
+<l>bodhisatvo mahāvijño bhaviṣyati na saṃśayaḥ //</l>
+</lg>
+<lg xml:id="KDA_290">
+<l>iti niścitya sā devī kāruṇyahitamānasā /</l>
+<l>taṃ subhūtiṃ samāgamya jagādaivaṃ puraḥ sthitā //</l>
+</lg>
+<lg xml:id="KDA_291">
+<l>śṛṇu vatsa mahābhāga yan mayā hitam ucyate /</l>
+<l>dhanyo 'si tvaṃ mahādhīra maharṣir dvijasattama //</l>
+</lg>
+<lg xml:id="KDA_292">
+<l>kimarthaṃ vasase caivam ekākī nirjane vane /</l>
+<l>niścittaḥ pratisaṃlīnaḥ kāṣṭhapāṣāṇavadvṛthā //</l>
+</lg>
+<lg xml:id="KDA_293">
+<l>dharmārthakāmamokṣeṣu yadi vāñchāsti te yate /</l>
+<l>buddhasya vacanaṃ śrutvā cara saṃbodhisatpathe //</l>
+</lg>
+<lg xml:id="KDA_294">
+<l>buddho hi bhagavān nāthaḥ sarvajño lokanāyakaḥ /</l>
+<l>munīndraḥ śrīdhanaḥ śāstā sarvadharmānupālakaḥ //</l>
+</lg>
+<lg xml:id="KDA_295">
+<l>tasyaiva dharmatā śuddhā daśakuśalasaṃmatā /</l>
+<l>ṣaṭ ca pāramitāḥ khyātāḥ paratreha śivaṃkarāḥ //</l>
+</lg>
+<p xml:id="19">
+-------------------- Vaidya, p. 284 --------------------
+</p>
+<lg xml:id="KDA_296">
+<l>dhanyās te bhikṣavaś caiva buddhasyopāsakāś ca ye /</l>
+<l>sarvasatvahitārthena saṃbodhiguṇasādhakāḥ //</l>
+</lg>
+<lg xml:id="KDA_297">
+<l>tvaṃ cāpi hi tathā matvā svaparātmahitārthataḥ /</l>
+<l>triratnaśaraṇaṃ gatvā cara brahman vratottamam* //</l>
+</lg>
+<lg xml:id="KDA_298">
+<l>tataḥ kleśagaṇān hitvā brahmacāriñ jinendravat* /</l>
+<l>sākṣād arhatpadaṃ prāpya nirvṛtisukham āpnuyāḥ //</l>
+</lg>
+<lg xml:id="KDA_299">
+<l>iti śrutvā subhūtiḥ sa triratnaguṇavarṇanām* /</l>
+<l>tathānumoditaḥ prāha tāṃ devatāṃ puraḥ sthitām* //</l>
+</lg>
+<lg xml:id="KDA_300">
+<l>tathāhaṃ devate yāmi saṃbuddhadarśanaṃ prati /</l>
+<l>triratnasamayaṃ prāptum iccāmi tvatprasādataḥ //</l>
+</lg>
+<lg xml:id="KDA_301">
+<l>yadi te 'sti kṛpā devi mayi mokṣārthasādhini /</l>
+<l>saṃbuddhaṃ darśaya kṣipraṃ taddharmeṣu niveśaya //</l>
+</lg>
+<lg xml:id="KDA_302">
+<l>triratnaśaraṇaṃ gatvā cariṣye tad vratottamam* /</l>
+<l>tathāśu kṛpayā nītvā māṃ vihāre praveśaya //</l>
+</lg>
+<lg xml:id="KDA_303">
+<l>iti śrutvā vacas tasya subhūter vanadevatā /</l>
+<l>vijñāya bodhimārgeṣu cittaṃ tathānumoditam* //</l>
+</lg>
+<lg xml:id="KDA_304">
+<l>tata eva samāgṛhya subhūtiṃ brahmacāriṇam* /</l>
+<l>ṛddhyā sākāśamārgeṇa nināya jinamandiram* //</l>
+</lg>
+<lg xml:id="KDA_305">
+<l>subhūtis tatra saṃprāpto dadarśa jinabhāskaram* /</l>
+<l>bhagavantaṃ mahāsaumyaṃ lakṣaṇaiḥ samalaṃkṛtam* //</l>
+</lg>
+<lg xml:id="KDA_306">
+<l>vyañjanaiś ca virājantaṃ vyāmaprabhāmahojjvalam* /</l>
+<l>sahasrakiraṇādhikyaṃ ratnāṅgam iva jaṅgamam* //</l>
+</lg>
+<lg xml:id="KDA_307">
+<l>samantato mahābhadraṃ jagannāthaṃ munīśvaram* /</l>
+<l>sarvadevādhipaṃ samyak- saṃbodhiguṇasāgaram* //</l>
+</lg>
+<lg xml:id="KDA_308">
+<l>dṛṣṭvaiva sahasā cātha subhūtes tasya sarvathā /</l>
+<l>ādhāto yaś ca satveṣu sa prativigato 'py abhūt* //</l>
+</lg>
+<lg xml:id="KDA_309">
+<l>tataḥ prasādajāto 'sau subhūtir dvijasattamaḥ /</l>
+<l>natvā pādau muner dharmaṃ śrotuṃ tasthau mudāḥ puraḥ //</l>
+</lg>
+<lg xml:id="KDA_310">
+<l>tato 'sau bhagavāṃs tasya subhūteś cittaśuddhatām* /</l>
+<l>jñātvāryasatyadharmāṇi dideśaivaṃ savistaram //</l>
+</lg>
+<lg xml:id="KDA_311">
+<l>śṛṇu vipra mahābhāga sarvasatvahitārthataḥ /</l>
+<l>yadi te dharmavāñchāsti saṃbodhipadasādhane //</l>
+</lg>
+<p xml:id="20">
+-------------------- Vaidya, p. 285 --------------------
+</p>
+<lg xml:id="KDA_312">
+<l>bhāvanīyā sadā maitrī satveṣ evaṃ yathātmaje /</l>
+<l>dharmamātā yato maitrī tan na tyājyā kadācana //</l>
+</lg>
+<lg xml:id="KDA_313">
+<l>karuṇā ca tathā kāryā satveṣ api yathātmaje /</l>
+<l>kāruṇyād vardhate dharmas ta kāruṇyaṃ sadā kuru //</l>
+</lg>
+<lg xml:id="KDA_314">
+<l>muditāpi sadā sādhyā satveṣu ca yathātmaje /</l>
+<l>muditāṃ hi samālambya bodhipadam avāpnuyāḥ //</l>
+</lg>
+<lg xml:id="KDA_315">
+<l>upekṣāpi sadā dhāryā satveṣv api yathātmaje /</l>
+<l>upekṣāto labhet saukhyaṃ tadupekṣāṃ sadā bhaja //</l>
+</lg>
+<lg xml:id="KDA_316">
+<l>ime dharmā hi catvāraś caturvargaphalāptaye /</l>
+<l>tatprāptyai sādhyatāṃ yatnāc caturbrahmavihāratā //</l>
+</lg>
+<lg xml:id="KDA_317">
+<l>iti śrutvāryadharmāṇi sa subhūtiḥ pramoditaḥ /</l>
+<l>kleśasaṃghān vinirjitya buddhadharmaṃ samaikṣata //</l>
+</lg>
+<lg xml:id="KDA_318">
+<l>satkāyadṛṣṭiśailaṃ ca viṃśatiśikharodgatam* /</l>
+<l>vidārya jñānavajreṇa saṃsāraratiniḥspṛhaḥ //</l>
+</lg>
+<lg xml:id="KDA_319">
+<l>srotāpattiphalaṃ sākṣāt kṛtvā śiṣyo 'bhavan muneḥ (Speyer: śikṣo) /</l>
+<l>dṛṣṭasatyo 'tha saṃbuddhaṃ natvā caiva kṛtāñjaliḥ //</l>
+</lg>
+<lg xml:id="KDA_320">
+<l>pravrajyāprārthanāṃ cakre svākhyātadharmasādhane /</l>
+<l>namas te bhagavan nātha sarvasatvānupālaka //</l>
+</lg>
+<lg xml:id="KDA_321">
+<l>adyāgreṇa jagadbandho yāmi te śaraṇaṃ sadā /</l>
+<l>tathā dharme ca saṃgheṣu saṃbodhiguṇaprāptaye //</l>
+</lg>
+<lg xml:id="KDA_322">
+<l>pravrajyāṃ dehi me nātha saddharmeṣu niveśaya /</l>
+<l>brahmacaryaṃ cariṣye 'haṃ tvadājñāṃ śirasā vahan* //</l>
+</lg>
+<lg xml:id="KDA_323">
+<l>ity ukte bhagavān dṛṣṭvā hastena tacchiraḥ spṛśan* /</l>
+<l>ehi bhikṣo carasveti pravadaṃs taṃ samagrahīt* //</l>
+</lg>
+<lg xml:id="KDA_324">
+<l>ehīti proktaḥ sa jinena muṇḍo pātrī susaṃghāṭiparītadehaḥ /</l>
+<l>sadyaḥ praśāntendriya eva tasthau bhikṣuḥ subhūtiḥ sugataprabhāvāt* //</l>
+</lg>
+<lg xml:id="KDA_325">
+<l>saccittalabdhaḥ sa muneḥ prasādāt prayujyamāno vyaharat samādhau /</l>
+<l>vyāyacchamānaḥ khalu bodhimārge saṃbuddhadharme ghaṭamāna eva //</l>
+</lg>
+<lg xml:id="KDA_326">
+<l>sarvaṃ ca saṃsāram anityatāhataṃ matvā ca saṃsāragatiṃ vibhaṅginīm* /</l>
+<l>kleśāṃś ca sarvān pravihāya saṃyataḥ sākṣāc ca so 'rhann abhavan maharddhikaḥ //</l>
+</lg>
+<p xml:id="21">
+suvītarāgaḥ samaloṣṭahemā ākāśacitto dhanasāravāsī /
+</p>
+<lg xml:id="KDA_327">
+<l>suvītarāgaḥ samaloṣṭahemā ākāśacitto dhanasāravāsī /</l>
+<l>bhindann avidyādrim ivāṇḍakośaṃ prāpadabhijñāḥ pratisaṃvidaś ca //</l>
+</lg>
+<p xml:id="22">
+-------------------- Vaidya, p. 286 --------------------
+</p>
+<lg xml:id="KDA_328">
+<l>satkāralābheṣu parāṅmukatvāt saśakradevāsuramānuṣāṇām* /</l>
+<l>pūjyaś ca mānyo abhivādanīyo babhūva sa brahmavihāracārī //</l>
+</lg>
+<lg xml:id="KDA_329">
+<l>atha subhūtir āyuṣmān samanvāharad ātmavān* /</l>
+<l>kutaś cyuto 'ham āyātaḥ kutra kena ca karmaṇā //</l>
+</lg>
+<lg xml:id="KDA_330">
+<l>apaśyat sa tataś ceti pañcajanmaśatāni ca /</l>
+<l>nāgayonisamutpannas tataś cyutvāham āgataḥ //</l>
+</lg>
+<lg xml:id="KDA_331">
+<l>yad dveṣābhyāsataś cāsaṃ krūro lokopaghātakaḥ /</l>
+<l>tenaiva hetunā cāhaṃ mahadvyasanam āptavān+ //</l>
+</lg>
+<lg xml:id="KDA_332">
+<l>idānīṃ tu tathā caitaṃ krodhaṃ prahātum ācare /</l>
+<l>yasyaiva hetunā lokā bhramanti narakeṣu te //</l>
+</lg>
+<lg xml:id="KDA_333">
+<l>tasmād ahaṃ cariṣyāmi niḥsaṅgo nirahaṃkṛtiḥ /</l>
+<l>saṅgād dhi jāyate māyā māyāyāṃ jāyate ratiḥ //</l>
+</lg>
+<lg xml:id="KDA_334">
+<l>ratau rāgo 'bhijāyeta rāge mohaḥ pravardhate /</l>
+<l>mūḍhasya drūyate cittaṃ sveṣṭakāryopaghātataḥ //</l>
+</lg>
+<lg xml:id="KDA_335">
+<l>upaghātāhate citte krodhāgniḥ paridīpyate /</l>
+<l>krodhānalasamuddīpto dahate sa parān api (Speyer: svaparān api) //</l>
+</lg>
+<lg xml:id="KDA_336">
+<l>yāvat krodhānaloddīptaṃ svacittaṃ kleśavāyubhiḥ /</l>
+<l>tāvat kiṃ tapasāpy etan nirarthaṃ duḥkhahetave //</l>
+</lg>
+<lg xml:id="KDA_337">
+<l>dharmaṃ sucaritaṃ puṇyaṃ dānaśīlādisādhanam* (Speyer: dharmasucaritaṃ) /</l>
+<l>kṛtaṃ kalpasahasrair yad dahet krodhānalaḥ kṣaṇāt* //</l>
+</lg>
+<lg xml:id="KDA_338">
+<l>tasmāt krodhāgniśāntyarthaṃ kṛtvendriyavinigraham* /</l>
+<l>ekānte hi vaseyaṃ ca viviktāraṇyagocare //</l>
+</lg>
+<lg xml:id="KDA_339">
+<l>yadā ca garuḍenāhaṃ balād ākṛṣya bhakṣitaḥ /</l>
+<l>yatīn dṛṣṭvānumodaṃ ca kurvan mṛtyum avāptavān* //</l>
+</lg>
+<lg xml:id="KDA_340">
+<l>tenaiva hetunā cādya dvijātikulasaṃbhavaḥ /</l>
+<l>sarvakleśān vinirjitya brahmacārī bhavāmy aham* //</l>
+</lg>
+<lg xml:id="KDA_341">
+<l>adyāpi cet tathā cātra vaseyaṃ janapadāśrame(?) /</l>
+<l>kenacit kleśitaś cāhaṃ bhraṣṭim evam avāpnuyām* //</l>
+</lg>
+<lg xml:id="KDA_342">
+<l>iti niścitya cittena subhūtir nirahaṃkṛtiḥ /</l>
+<l>vivikte 'raṇyavāse sa niḥsaṅgo nyavasat sudhīḥ //</l>
+</lg>
+<lg xml:id="KDA_343">
+<l>tathaikākī vasaṃs tatra caturthadhyānasaṃyutaḥ /</l>
+<l>phalamūlāmbusaṃtuṣṭo brahmacārī mumoda saḥ //</l>
+</lg>
+<p xml:id="23">
+-------------------- Vaidya, p. 287 --------------------
+</p>
+<lg xml:id="KDA_344">
+<l>atha saṅge 'pi grāmeṣu deśe janapadeṣu ca /</l>
+<l>bhikṣāhetor vihartuṃ vā sa sakāmo 'bhavad yadā //</l>
+</lg>
+<lg xml:id="KDA_345">
+<l>tadā pūrvam asau dṛṣṭvā gocaram abhyalakṣayat* /</l>
+<l>aho deśeṣu sarvatra bhavanti nirguṇā janāḥ //</l>
+</lg>
+<lg xml:id="KDA_346">
+<l>mānino madamohāndhā duṣṭā matsariṇaḥ śaṭhāḥ /</l>
+<l>tat kathaṃ saṃcariṣye 'tra bhikṣāhetoḥ kule kule //</l>
+</lg>
+<lg xml:id="KDA_347">
+<l>dūṣayiṣyanti cittāni kecid dṛṣṭvaiva māṃ yatim* /</l>
+<l>yad dhetor janāś caivaṃ(?) bhramanti durgatiṣv api //</l>
+</lg>
+<lg xml:id="KDA_348">
+<l>kalpakoṭisahasrāṇi naiva muktāś ca durgateḥ /</l>
+<l>tad ahaṃ sarvasatveṣu kuntapipīlikādiṣu //</l>
+</lg>
+<lg xml:id="KDA_349">
+<l>dayācittaṃ samālambya vaseyaṃ dhyānasaṃrataḥ /</l>
+<l>yenaivaṃ sarvasatānāṃ bhavec cittaṃ prasāditam* /</l>
+<l>tam eva dharmam ādhyāya yatir mokṣam avāpnuyāt* //</l>
+</lg>
+<lg xml:id="KDA_350">
+<l>iti saṃnahya cittena sa subhūtiḥ subuddhimān* /</l>
+<l>vivikte 'raṇyadeśe 'pi nyavasad dhyānasaṃrataḥ //</l>
+</lg>
+<lg xml:id="KDA_351">
+<l>atha so 'rhaṃs trimāsānām atyayād bodhimānasaḥ /</l>
+<l>ity evaṃ cintayāmāsa lokānugrahakāraṇāt* //</l>
+</lg>
+<lg xml:id="KDA_352">
+<l>kim atra dhyānasaṃlīnaḥ karomi lokabodhanam* /</l>
+<l>kiyat kālaṃ ca jīveyaṃ kāṣṭhapāṣāṇavat sthitaḥ //</l>
+</lg>
+<lg xml:id="KDA_353">
+<l>kevalaṃ svamanas tuṣṭyai dhyānaṃ saukhyārthasādhanam* /</l>
+<l>sukhaṃ labdhvāpi kiṃ sāraṃ satvānugrahaṇaṃ vinā //</l>
+</lg>
+<lg xml:id="KDA_354">
+<l>tasmād dhyānāt samutthāya satvānugrahakāraṇāt* /</l>
+<l>ṛddhiṃ pradarśya saṃbodhau sthāpayiṣye mahajjanān* //</l>
+</lg>
+<lg xml:id="KDA_355">
+<l>iti niścitya cittena sa subhūtiḥ samṛddhimān* /</l>
+<l>satvānāṃ vinayārthena prātihāryam adarśayat* //</l>
+</lg>
+<lg xml:id="KDA_356">
+<l>tadṛddhinirmitāny eva garuḍānāṃ mahaujasām* /</l>
+<l>pañca kulaśatāny atra prasasrire samantataḥ //</l>
+</lg>
+<lg xml:id="KDA_357">
+<l>etāṃś ca garudān dṛṣṭvā nāgāḥ saṃtrasitās tataḥ /</l>
+<l>itas tataḥ samudbhrāntāḥ subhūteḥ śaraṇaṃ yayuḥ //</l>
+</lg>
+<lg xml:id="KDA_358">
+<l>atha svarddhibalenaiva samāśvāsya subhūtinā /</l>
+<l>sarve nāgāḥ suparṇebhyaḥ paritrātāś ca sarvataḥ //</l>
+</lg>
+<p xml:id="24">
+-------------------- Vaidya, p. 288 --------------------
+</p>
+<lg xml:id="KDA_359">
+<l>punas tena suparṇānāṃ vinayārthaṃ subhūtinā /</l>
+<l>svarddhivalaprabhāveṇa mahān nāgo vinirmitaḥ //</l>
+</lg>
+<lg xml:id="KDA_360">
+<l>tenāpy evaṃ suparṇānāṃ pañca kulaśatāni ca /</l>
+<l>abhidrutāni nāgena samantata itas tataḥ //</l>
+</lg>
+<lg xml:id="KDA_361">
+<l>tenaivābhidrutāḥ sarve garuḍās trāsam āgatāḥ /</l>
+<l>itas tataḥ samudbhrāntāḥ subhūteḥ śaraṇaṃ yayuḥ //</l>
+</lg>
+<lg xml:id="KDA_362">
+<l>subhūtinā tathā caivaṃ sarve te garuḍā api /</l>
+<l>svarddhibalaprabhāveṇa samāśvāsya surakṣitāḥ //</l>
+</lg>
+<lg xml:id="KDA_363">
+<l>evam ṛddhiprabhāvāṇi subhūtes tasya sadyateḥ /</l>
+<l>dṛṣṭvā sarve janaughās te saharṣādbhutam āyayuḥ //</l>
+</lg>
+<lg xml:id="KDA_364">
+<l>dhanyo 'yam ṛddhimān bhikṣur arhan saṃbuddhasevakaḥ /</l>
+<l>yenaite rakṣitāḥ sarve nāgāś ca garuḍā api //</l>
+</lg>
+<lg xml:id="KDA_365">
+<l>iti so 'rhan subhūtis tān sarvān dṛṣṭvā prasannitān* /</l>
+<l>saddharme vinayārthena maitrīdharmam upādiśat* //</l>
+</lg>
+<lg xml:id="KDA_366">
+<l>śṛṇudhvaṃ madvacaḥ sarve nāgāś ca garuḍās tathā /</l>
+<l>yadi me śaraṇaṃ yātha ramadhvaṃ maitramānasāḥ //</l>
+</lg>
+<lg xml:id="KDA_367">
+<l>ye ete sukhino loke sarve te maitracāriṇaḥ /</l>
+<l>ye ete duḥkhino loke sarve te krodhino narāḥ //</l>
+</lg>
+<lg xml:id="KDA_368">
+<l>tasmāt krodhaprahāṇāya kriyatāṃ yatnam ādarāt* /</l>
+<l>yāvac citte sthitaṃ krodhaṃ tāvan maitrī na bhāvyate //</l>
+</lg>
+<lg xml:id="KDA_369">
+<l>na ca dveṣasamaṃ pāpaṃ na ca maitrīsamaṃ tapaḥ /</l>
+<l>tasmān maitrī prayatnena bhāvanīyā sadādarāt* //</l>
+</lg>
+<lg xml:id="KDA_370">
+<l>manaḥ śamaṃ na gṛhṇāti na prītisukham aśnute /</l>
+<l>na nidrāṃ na dhṛtiṃ yāti dveṣaśalye hṛdi sthite //</l>
+</lg>
+<lg xml:id="KDA_371">
+<l>na dviṣantaḥ kṣayaṃ yānti yāvajjīvam api ghnataḥ /</l>
+<l>krodham ekaṃ tu yo hanyāt tena sarve dviṣo hatāḥ //</l>
+</lg>
+<lg xml:id="KDA_372">
+<l>vikalpen dhanadīptena jantuḥ krodhahavir bhujā /</l>
+<l>dahaty ātmānam evādau parān dhakṣyati vā na vā //</l>
+</lg>
+<lg xml:id="KDA_373">
+<l>jarā rūpavatāṃ krodhas tamaś cakṣuṣmatām api /</l>
+<l>bandho dharmārthakāmānāṃ tasmāt krodho nivāryatām* //</l>
+</lg>
+<lg xml:id="KDA_374">
+<l>divyabhogānubhoktā ca prāsāde maṇimaṇḍite /</l>
+<l>supto 'pi na labhen nidrāṃ krodhaparyākulo naraḥ //</l>
+</lg>
+<p xml:id="25">
+-------------------- Vaidya, p. 289 --------------------
+</p>
+<lg xml:id="KDA_375">
+<l>ṛṣibhir yogibhiś cāmbu- phalamūlāditoṣitaiḥ /</l>
+<l>dagdhā janapadāś cāpi krodhāc chāpahutāśanaiḥ //</l>
+</lg>
+<lg xml:id="KDA_376">
+<l>yac chāṃkaro mahāraudro nirghṛṇo dṛkprabhānalaiḥ /</l>
+<l>dadāha brahmajaṃ kāmaṃ tac ca krodhaprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_377">
+<l>yad rājāno viruddhāś ca yuddhaṃ kṛtvā parasparam* /</l>
+<l>mṛtyuṃ yānti janaiḥ sārdhaṃ tac cāpi krodhabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_378">
+<l>suhṛdo yat sahāyāṃś ca snehaviśrambhacāriṇaḥ /</l>
+<l>satyadharmāv anādṛtya ghnanti krodhād anāryakāḥ //</l>
+</lg>
+<lg xml:id="KDA_379">
+<l>sādhavo ye mahātmānaḥ saṃvṛttidharmacāriṇaḥ /</l>
+<l>tān api saṃmukhaṃ ghnanti durvāgbāṇai ruṣā khalāḥ //</l>
+</lg>
+<lg xml:id="KDA_380">
+<l>mātaraṃ janmadātrīṃ ca dhātrīr vā snehapālinīḥ /</l>
+<l>svātmajān nirdayā ghnanti tac ca krodhaprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_381">
+<l>svātmajāḥ pitaraṃ yac ca snehasatkārapālakam* /</l>
+<l>avigaṇayya pāpāni ghnanti krodhaprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_382">
+<l>gurūn saddharmaśāstṝṃś ca kalyāṇādhvāvatārakān* /</l>
+<l>anādṛtya bhayaṃ pāpā ghnanti krodhoddhatā narāḥ //</l>
+</lg>
+<lg xml:id="KDA_383">
+<l>yat pitā svātmajaṃ putraṃ putrīṃ vā bālakām api /</l>
+<l>nirdayas tāḍayan hanti tasmāt krodho mahāripuḥ //</l>
+</lg>
+<lg xml:id="KDA_384">
+<l>bhrātaraḥ sahajāś cāpi roṣitā bheditāśayāḥ /</l>
+<l>vigṛhṇanti mahākruddhās tasmāt krodho mahāripuḥ //</l>
+</lg>
+<lg xml:id="KDA_385">
+<l>yat svayaṃ pariṇītāpi bhāryā dharmānucāriṇī /</l>
+<l>tāḍitā tyajyate bhartrā krodhāt tato mahad bhayaṃ* //</l>
+</lg>
+<lg xml:id="KDA_386">
+<l>pramadāpi ca bhartāraṃ svāminaṃ snehakāriṇam* /</l>
+<l>kuladharmam anādṛtya jahāti krodhatas tathā //</l>
+</lg>
+<lg xml:id="KDA_387">
+<l>ye śāntā yatayo dhīrāś caturbrahmavihāriṇaḥ /</l>
+<l>tān api saṃmukhaṃ duṣṭās tāḍayanti ruṣānvitāḥ //</l>
+</lg>
+<lg xml:id="KDA_388">
+<l>śāntātmā hitakṛdyogī kṣāntivādī vane vasan* /</l>
+<l>so 'pi śakalito rājñā svayam evāsinā ruṣā //</l>
+</lg>
+<lg xml:id="KDA_389">
+<l>dānavā ghnanti devāṃś ca devāś ca ghnanti dānavān* /</l>
+<l>anyonyaṃ vigrahaṃ kṛtvā pramathnanti ruṣākulāḥ //</l>
+</lg>
+<p xml:id="26">
+-------------------- Vaidya, p. 290 --------------------
+</p>
+<lg xml:id="KDA_390">
+<l>ātmānam ātmanā hatvā viṣaśastrānalādibhiḥ /</l>
+<l>vasanti narake ghore te 'pi sarve ruṣānvitāḥ //</l>
+</lg>
+<lg xml:id="KDA_391">
+<l>ye ye duṣṭāśayāḥ krūrāḥ svaparārthābhighātakāḥ /</l>
+<l>patanti narake ghore te 'pi sarve ruṣāśrayāt* //</l>
+</lg>
+<lg xml:id="KDA_392">
+<l>krodhena bhidyate lokaḥ krodhena paribhāṣyate /</l>
+<l>krodhena hiṃsyate jantus tasmāt krodho mahāripuḥ //</l>
+</lg>
+<lg xml:id="KDA_393">
+<l>krodhenaiva mahārudraś cic cheda brahmaṇaḥ śiraḥ /</l>
+<l>tenaiva pātakenaiva bhrāntacitto 'bhavac chivaḥ //</l>
+</lg>
+<lg xml:id="KDA_394">
+<l>krodhenaiva tathā rudraḥ surajyeṣṭhātmajasya ca /</l>
+<l>śvaśurasyāpi dakṣasya cchedayāmāsa mastakam* /</l>
+<l>tatpāpakarmaṇā hy eva śivo 'py abhūd digambaraḥ //</l>
+</lg>
+<lg xml:id="KDA_395">
+<l>krodhena dhvaṃsyate dharmaḥ krodhena vilayaṃ gataḥ /</l>
+<l>krodhena tyajyate satyaṃ tasmāt krodho mahāripuḥ //</l>
+</lg>
+<lg xml:id="KDA_396">
+<l>yāni mahānti pāpāni mahāduḥkhabhayāni ca /</l>
+<l>tāni sarvāṇi duṣṭāni krodhacittodbhavāni ca //</l>
+</lg>
+<lg xml:id="KDA_397">
+<l>tatkrodhād aparo vairaḥ pātako 'nyo na vidyate /</l>
+<l>tasmāt krodhavināśāya prayatadhvaṃ samāhitāḥ //</l>
+</lg>
+<lg xml:id="KDA_398">
+<l>yena krodho jito vairo jñānavajreṇa sādhunā /</l>
+<l>tena sarve jitā duṣṭā śatravo duḥkhadāyakāḥ //</l>
+</lg>
+<lg xml:id="KDA_399">
+<l>yasya citte dayā nāsti krodhānalavidāhini /</l>
+<l>sa sādhupuruṣaś cāpi naiva viśvasyate janaiḥ //</l>
+</lg>
+<lg xml:id="KDA_400">
+<l>krodhakalaṅkito yo hi sadguṇālaṃkṛto yadi /</l>
+<l>sa vidvān api nāsevyo yathā vṛkṣo 'hiveṣṭitaḥ //</l>
+</lg>
+<lg xml:id="KDA_401">
+<l>dānaśīlādisaddharma- vṛttaiś ca yadi bhūṣitaḥ /</l>
+<l>krodhavān na vibhāty eva ahipūrṇo yathā hradaḥ //</l>
+</lg>
+<lg xml:id="KDA_402">
+<l>sarvavidyākalājño 'pi samṛddhaḥ śilpavān api /</l>
+<l>astramantrādyabhijño 'pi krodhavān naiva sevyatām* //</l>
+</lg>
+<lg xml:id="KDA_403">
+<l>krodhavān hasyate lokaiḥ krodhavān vadhyate janaiḥ /</l>
+<l>krodhavān hīyate mitraiḥ krodhavān paribhūyate //</l>
+</lg>
+<lg xml:id="KDA_404">
+<l>krodho dharmaviruddhatvāc caturvargavināśakṛt* /</l>
+<l>tasmāt krodhavināśāya prayatadhvaṃ samāhitāḥ //</l>
+</lg>
+<p xml:id="27">
+-------------------- Vaidya, p. 291 --------------------
+</p>
+<lg xml:id="KDA_405">
+<l>krodhena bhidyate cittaṃ bhinnacitto vikīryate /</l>
+<l>vikīrṇaḥ kliśyate māraiḥ kleśito 'dhairyatāṃ vrajet //</l>
+</lg>
+<lg xml:id="KDA_406">
+<l>adhairyatvād bhaven mūḍho mūḍho duṣṭavaśaṃ vrajet* /</l>
+<l>duṣṭamitropadeśena kupathe carate kudhīḥ //</l>
+</lg>
+<lg xml:id="KDA_407">
+<l>asan mārgo samārūḍho viparītaṃ samācaret* /</l>
+<l>viparītānubodhena bhaved āryāpavādakaḥ //</l>
+</lg>
+<lg xml:id="KDA_408">
+<l>saddharmādīn pratikṣipya pratimādīn vighātayet* /</l>
+<l>ityādipātakaṃ kṛtvā pañcānantaryam āpnuyāt* //</l>
+</lg>
+<lg xml:id="KDA_409">
+<l>tataś ca narakān yāyād rauravādīn samantataḥ /</l>
+<l>narakān narakaṃ gatvā mahāduḥkham avāpnuyāt* //</l>
+</lg>
+<lg xml:id="KDA_410">
+<l>itthaṃ duḥkhānuvedī sa narakeṣu sadā vaset* /</l>
+<l>narakebhyas tam uddhartuṃ jino 'pi naiva śaknuyāt* //</l>
+</lg>
+<lg xml:id="KDA_411">
+<l>yāvanti pāpaduḥkhāni durvṛttiprabhavāni hi /</l>
+<l>tāni sarvāṇi jānīdhvaṃ krodhacittodbhavāni hi //</l>
+</lg>
+<lg xml:id="KDA_412">
+<l>sarveṣāṃ pātakānāṃ tat krodhaṃ mūlaṃ jagur jināḥ /</l>
+<l>dharmāṇāṃ tu kṣamā mūlaṃ yataḥ saukhyaṃ pravartate //</l>
+</lg>
+<lg xml:id="KDA_413">
+<l>iti krodhaṃ vinirjitya kṣamaiva sādhyatāṃ sadā /</l>
+<l>maitrīcittaṃ samālambya viharadhvaṃ yathāsukhaṃ //</l>
+</lg>
+<lg xml:id="KDA_414">
+<l>ātmanīva dayā syāc cet svajane vā yathā jane /</l>
+<l>kasya nāma bhavec cittam adharmapraṇayāśivam* //</l>
+</lg>
+<lg xml:id="KDA_415">
+<l>dayāviyogato lokaḥ paramāmeti vikriyām* /</l>
+<l>manovākkāyavispandaiḥ svajane 'pi yathā jane //</l>
+</lg>
+<lg xml:id="KDA_416">
+<l>dharmārthī na tyajed asmād dayām iṣṭaphalodayām* /</l>
+<l>suvṛṣṭir iva śasyāni guṇān sā hi prasūyate //</l>
+</lg>
+<lg xml:id="KDA_417">
+<l>dayākrāntaṃ cittaṃ na bhavati paradroharabhasaṃ śucau tasmin vāṇī vrajati vikṛtaṃ naiva ca tanuḥ /</l>
+<l>vivṛddhā tasyaivaṃ parahitarucir maitryanugatā pradānakṣāntyādīñ janayati guṇān kīrtyanusṛtān* //</l>
+</lg>
+<lg xml:id="KDA_418">
+<l>dayālur nodvegaṃ janayati pareṣām upaśamād dayālur viśvāsyo bhavati jagatāṃ bāndhava iva /</l>
+<l>na saṃrambhakṣobhaḥ prabhavati dayādhīr ahṛdaye na kopāgniś citte jvalayati hi dayātoyaśiśire //</l>
+</lg>
+<p xml:id="28">
+-------------------- Vaidya, p. 292 --------------------
+</p>
+<lg xml:id="KDA_419">
+<l>saṃkṣepeṇa dayāmataḥ sthiratayā paśyanti dharmaṃ budhāḥ ko nāmāsti guṇaḥ sa sādhudayito yo nānuyāto dayām* /</l>
+<l>tasmāt putra ivātmanīva ca dayāṃ nītvā prakarṣaṃ jane sanmaitryā viharanta eva muditāṃ prodbhāvayadhvaṃ sadā //</l>
+</lg>
+<lg xml:id="KDA_420">
+<l>dayālor hṛdaye jātā maitrī saddharmasādhanī /</l>
+<l>tasmād dayāṃ hṛdi sthāpya maitrī loke prasāryatām* //</l>
+</lg>
+<lg xml:id="KDA_421">
+<l>maitrīmān puruṣaḥ sādhur devair api praśasyate /</l>
+<l>viśvasyate sadā sadbhir bāndhavaiḥ svajanair janaiḥ //</l>
+</lg>
+<lg xml:id="KDA_422">
+<l>maitrīmān sajjano loke nirguṇo 'pi praśobhate /</l>
+<l>maitrīmān sanmatir bandhur lokānāṃ jagatām api //</l>
+</lg>
+<lg xml:id="KDA_423">
+<l>maitrīmāñ jagatām iṣṭo maitrīmāñ jagatāṃ suhṛt* /</l>
+<l>maitrīmāñ jagatāṃ mitro maitrīmāñ jagatāṃ sakhā //</l>
+</lg>
+<lg xml:id="KDA_424">
+<l>maitrīmān puruṣaḥ śrīmān yatra yatra pragacchati /</l>
+<l>tatra tatraiva sarvatra pūjyate svajanair yathā //</l>
+</lg>
+<lg xml:id="KDA_425">
+<l>buddho hi jagatāṃ bandhus trailokyādhipanāyakaḥ /</l>
+<l>so 'pi śāstā vibhāty evaṃ maitryā saṃskārayañ jagat* //</l>
+</lg>
+<lg xml:id="KDA_426">
+<l>ye ye satvā mahābhijñāḥ sarvalokānukampakāḥ /</l>
+<l>pūjyante satvalokaiś ca te 'pi maitryāḥ prabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_427">
+<l>bodhisatvā mahāsatvā bodhisaṃbhārasādhakāḥ /</l>
+<l>sarvasatvahitārthasthās te 'pi maitrīpracāriṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_428">
+<l>yan mātā duḥkhitāpy evam ā garbhād bālakaṃ sutam* /</l>
+<l>pāti snehopacāreṇa tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_429">
+<l>yat pitā bālakaṃ putram abhuñjānaḥ svayaṃ sukham* /</l>
+<l>pāti snehopacāreṇa tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_430">
+<l>yac ca rājā prajāḥ pāti svayaṃ vīravrataṃ dadhat* /</l>
+<l>durjanān mardayan sarvān tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_431">
+<l>yac ca vidvān guruḥ śiṣyān saddharmārthopadarśayan* /</l>
+<l>prabodhya bālakāñ chāsti tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_432">
+<l>yac ca vīrā raṇe sthitvā sahantyarīn prahāriṇaḥ /</l>
+<l>prarakṣanti svapakṣāṃś ca tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<p xml:id="29">
+-------------------- Vaidya, p. 293 --------------------
+</p>
+<lg xml:id="KDA_433">
+<l>sārthavāho 'mbudhiṃ gatvā yatnai ratnāni sādhayan* /</l>
+<l>satvān pāti dadad dānaṃ tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_434">
+<l>yac ca bhāryānuyāty eva mṛtena svāminā saha /</l>
+<l>anapekṣya svajīve 'pi tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_435">
+<l>pitṛbhyo mṛtakebhyo 'pi dadāti piṇḍam ādarāt* /</l>
+<l>anuśocan muhuś cāpi tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_436">
+<l>tiryagyonyudbhavāś cāpi paśavaḥ krūramānasāḥ /</l>
+<l>svasutān snehataḥ pānti tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_437">
+<l>kṛmyādhikīṭayaś cāpi krūrā gṛdhrādipakṣiṇaḥ /</l>
+<l>svabandhūn snehataḥ pānti tad dhi maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_438">
+<l>caṇḍālā nirghṛṇā raudrāḥ satvahiṃsāratāḥ khalāḥ /</l>
+<l>bāndhavāṃs te 'pi rakṣanti tad dhi maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_439">
+<l>yad dadanti mahāsatvāḥ svadehe 'py anapekṣitāḥ /</l>
+<l>arthibhyaḥ prārthitaṃ vastu tad dhi maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_440">
+<l>evam anye 'pi ye lokā bhojayantaḥ parasparam* /</l>
+<l>pālayanti mahāsnehāt tac ca maitrīprabhāvataḥ //</l>
+</lg>
+<lg xml:id="KDA_441">
+<l>maitrī hi jagatāṃ mātā pitā śāstā guruḥ prabhuḥ /</l>
+<l>patir mitraḥ suhṛd bandhus tasmān maitrī prasādhyatām+ //</l>
+</lg>
+<lg xml:id="KDA_442">
+<l>maitrīṃ vinā na jāyeta karuṇā svātmaje 'pi ca /</l>
+<l>na muditā na copekṣā tasmān maitrī pradhīyatām* //</l>
+</lg>
+<lg xml:id="KDA_443">
+<l>etā brahmavihārākhyāḥ saṃbodhipadasādhakāḥ /</l>
+<l>trailokyabhartṛkā nāthāḥ sarvasatvānupālakāḥ //</l>
+</lg>
+<lg xml:id="KDA_444">
+<l>etā vinā na śobhanti mahābhijñās tapasvinaḥ /</l>
+<l>kalpakoṭisahasrāṇi taptvāpi duṣkaraṃ tapaḥ //</l>
+</lg>
+<lg xml:id="KDA_445">
+<l>etā hi paramācāryāḥ saddharmaguṇadāyakāḥ /</l>
+<l>etā vinā na sidhyanti sarvapāramitāratāḥ //</l>
+</lg>
+<lg xml:id="KDA_446">
+<l>yāvanti sukhabhogyāni puṇyasiddhāni sarvathā /</l>
+<l>tāni sarvāṇi jānīta maitrīmūlodbhavāni hi //</l>
+</lg>
+<lg xml:id="KDA_447">
+<l>tasmāt sarvaprayatnena krodhaṃ jitvāṃvarair api /</l>
+<l>maitrīṃ citte samādhāya kurudhvaṃ prāṇiṣu kṣamām* //</l>
+</lg>
+<p xml:id="30">
+-------------------- Vaidya, p. 294 --------------------
+</p>
+<lg xml:id="KDA_448">
+<l>tato dharmaprabhāveṇa yūyaṃ sarve 'numoditāḥ /</l>
+<l>yāvajjīvaṃ sukhaṃ bhuktvā saukhāvatīṃ gamiṣyatha //</l>
+</lg>
+<lg xml:id="KDA_449">
+<l>iti śrutvā vacas tasya nāgāś ca garuḍā yateḥ /</l>
+<l>vairānuśayatāṃ tyaktvā babhūvur maitricāriṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_450">
+<l>iti dṛṣṭvā ca te satvā vismayaharṣasaṃyutāḥ /</l>
+<l>dharmānumodanaṃ kṛtvā babhūvur maitricāriṇaḥ //</l>
+</lg>
+<lg xml:id="KDA_451">
+<l>evaṃ subhūtinā tena nāgāś ca garuḍāś ca te /</l>
+<l>maitrīdharmopadeśena vinītā dharmasatpathe //</l>
+</lg>
+<lg xml:id="KDA_452">
+<l>atha śrībhagavān buddhaḥ sarvadarśī vināyakaḥ /</l>
+<l>bhikṣūn āmantrayāmāsa saṃvṛticārakān api //</l>
+</lg>
+<lg xml:id="KDA_453">
+<l>paśyadhvaṃ bhikṣavo yūyaṃ subhūtiṃ brahmacāriṇam* /</l>
+<l>yenaite garuḍā nāgā vinītā dharmasatpathe //</l>
+</lg>
+<lg xml:id="KDA_454">
+<l>eṣa me śrāvakāṇāṃ ca bhikṣūṇāṃ brahmacāriṇām* /</l>
+<l>subhūtiḥ kulaputro 'yam agro 'raṇāvihāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_455">
+<l>iti tena munīndreṇa subhūtir eva sadyatiḥ /</l>
+<l>nirdiṣṭaḥ sarvabhikṣūṇām agro 'raṇāvihāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_456">
+<l>atha te bhikṣavaḥ sarve saṃśayoddhatamānasāḥ /</l>
+<l>cchetāraṃ saṃśayānāṃ taṃ papracchur evam īśvaram* //</l>
+</lg>
+<lg xml:id="KDA_457">
+<l>kāni bhadanta karmāṇi kṛtāny api subhūtinā /</l>
+<l>nirdiṣṭo bhavatā yena jyeṣṭho 'raṇāvihāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_458">
+<l>iti tair bhikṣubhiḥ pṛṣṭo bhagavān ity udāharat* /</l>
+<l>śṛṇudhvaṃ bhikṣavaḥ sarve tat kṛtaṃ yat subhūtinā //</l>
+</lg>
+<lg xml:id="KDA_459">
+<l>subhūtinā kṛtaṃ karma tat ko 'nyaḥ paribhokṣyate /</l>
+<l>yenaiva yat kṛtaṃ karma tenaiva tat prabhujyate //</l>
+</lg>
+<lg xml:id="KDA_460">
+<l>bhūtapūrvam atīte 'dhvany asmin* kalpe ca bhadrake /</l>
+<l>varṣasahasram āyuṣ ca viṃśatiguṇitaṃ yadā //</l>
+</lg>
+<lg xml:id="KDA_461">
+<l>tasmiṃś ca samaye buddhaḥ kāśyapo nāma nāyakaḥ /</l>
+<l>vidyācaraṇasaṃpannaḥ sugato lokavij jinaḥ //</l>
+</lg>
+<lg xml:id="KDA_462">
+<l>śāstā devamanuṣyāṇāṃ puruṣadamyasārathiḥ /</l>
+<l>sarvajño bhagavān nāthaḥ ṣaḍabhijño munīśvaraḥ //</l>
+</lg>
+<p xml:id="31">
+-------------------- Vaidya, p. 295 --------------------
+</p>
+<lg xml:id="KDA_463">
+<l>vārāṇasīm upāśritya mṛgadāve jināśrame /</l>
+<l>vyaharat sarvasatvānām saddharmaṃ samupādiśan* //</l>
+</lg>
+<lg xml:id="KDA_464">
+<l>tasyaiva śāsane śuddhe svākhyāte dharmavainaye /</l>
+<l>ayaṃ pravrajito bhūtvā mahādātāpy abhūt tadā //</l>
+</lg>
+<lg xml:id="KDA_465">
+<l>daśa varṣasahasrāṇi brahmacaryam apālayat* /</l>
+<l>praṇidhānaṃ tathā cāyam akarod brahmavittamaḥ //</l>
+</lg>
+<lg xml:id="KDA_466">
+<l>anena kuśalenāhaṃ bhaveyaṃ bauddhasadyatiḥ /</l>
+<l>yo 'sau bhagavatānena kāśyapena sutāyinā //</l>
+</lg>
+<lg xml:id="KDA_467">
+<l>māṇava uttaro nāma vyākṛta iti bodhaye /</l>
+<l>māṇava tvaṃ prajānāṃ tu yadā varṣaśatāyuṣi //</l>
+</lg>
+<lg xml:id="KDA_468">
+<l>śākyamunir mahābuddhaḥ sarvajño lokanāyakaḥ /</l>
+<l>saṃbuddho bhagāvan nāthas tathāgato bhaviṣyasi //</l>
+</lg>
+<lg xml:id="KDA_469">
+<l>asyaiva śasane cāhaṃ bhaveyaṃ śrāvakottamaḥ /</l>
+<l>arhatām agrasaṃprāpto bhūtvāraṇāvihāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_470">
+<l>tenaiva karmaṇā cādya praviṣṭo mama śāsane /</l>
+<l>arhatāṃ jyeṣṭhatāṃ prāptas tathāraṇāvihāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_471">
+<l>kāni punar anenaiva karmāṇi prakṛtāny api /</l>
+<l>yenaiva nāgayonau ca samutpanno babhūva saḥ //</l>
+</lg>
+<lg xml:id="KDA_472">
+<l>yat taḥ kleśāprahīṇatvād udbhrāntendriyacetasā (Speyer: yataḥ kleśāŚ) /</l>
+<l>śaikṣāśaikṣagāṇānāṃ ca bhikṣūṇāṃ brahmacāriṇām* //</l>
+</lg>
+<lg xml:id="KDA_473">
+<l>anena ruṣṭacittena paruṣābaddhacetasā /</l>
+<l>cittāni saṃpradūṣyaiva vikalāni kṛtāny api //</l>
+</lg>
+<lg xml:id="KDA_474">
+<l>sadāśīviṣavādena vikruśyābhāṇi sāṃghike /</l>
+<l>tenaiva pātakenaivaṃ pañca janmaśatāny api //</l>
+</lg>
+<lg xml:id="KDA_475">
+<l>nāgayonisamutpanno babhūvāyaṃ mahāviṣaḥ /</l>
+<l>yac cānena punas tatra pravrajya buddhaśāsane //</l>
+</lg>
+<lg xml:id="KDA_476">
+<l>sadā dānāni saṃdatvā brahmacaryaṃ ca pālitam* /</l>
+<l>tenedānīṃ tathārhatvaṃ prāpya sākṣātkṛtaṃ mudā //</l>
+</lg>
+<lg xml:id="KDA_477">
+<l>araṇāvihāriṇāṃ cāgro nirdiṣṭo 'yaṃ mayā khalu /</l>
+<l>iti hi bhikṣavo yūyaṃ jānīdhvaṃ karmatāphalam* //</l>
+</lg>
+<p xml:id="32">
+-------------------- Vaidya, p. 296 --------------------
+</p>
+<lg xml:id="KDA_478">
+<l>yenaiva yat kṛtaṃ karma tasyaiva tat phalaṃ dhruvam* /</l>
+<l>na naśyanti hi karmāṇi kalpakoṭiśatair api /</l>
+<l>sāmagrīṃ prāpya kālaṃ ca phalanti khalu dehināṃ //</l>
+</lg>
+<lg xml:id="KDA_479">
+<l>abhuktaṃ kṣīyate naiva karma kvāpi kathaṃcana /</l>
+<l>nāgnibhir dahyate karma vāyubhir nāpi śuṣyati /</l>
+<l>udakaiḥ klidyate naiva bhūmiṣv api na naśyati //</l>
+</lg>
+<lg xml:id="KDA_480">
+<l>anyathāpi ca no bhūtā sarvathā karmaṇāṃ gatiḥ /</l>
+<l>śuklānāṃ śuklatā nityaṃ kṛṣṇānāṃ kṛṣṇatā khalu /</l>
+<l>miśrataiva tu miśrāṇāṃ ṣaḍgatau bhujyate dhruvam* //</l>
+</lg>
+<lg xml:id="KDA_481">
+<l>tasmād apāsya kṛṣṇāni karmāṇi miśritāni ca /</l>
+<l>yatitavyaṃ śubheṣv eva karmasu sukhavāñchibhiḥ //</l>
+</lg>
+<lg xml:id="KDA_482">
+<l>tatheti bhikṣavaḥ śrutvā te ca lokāḥ prabhāṣitāḥ /</l>
+<l>buddhavacomṛtaṃ pītvā nanandur anumoditāḥ //</l>
+</lg>
+<lg xml:id="KDA_483">
+<l>evam etan mahārāja śrutaṃ me gurubhāṣitam* /</l>
+<l>iti matvā tvayā rājan parātmaśubhavāñchinā //</l>
+</lg>
+<lg xml:id="KDA_484">
+<l>krodhāriṃ yatnato jitvā kṣamādharmapuraskṛtaḥ /</l>
+<l>maitrīṃ bhāvaya satveṣu svātmajeṣu yathā sadā //</l>
+</lg>
+<lg xml:id="KDA_485">
+<l>iti subhāṣitaṃ śrutvā upaguptasya sadguroḥ /</l>
+<l>tatheti nṛparājaḥ sa nananda sasabhājanaḥ //</l>
+</lg>
+<lg xml:id="KDA_486">
+<l>ye maitrībhāvadharmaṃ kalimatiharaṇaṃ tat subhūteś caritraṃ śṛṇvanti śrāvayanti tribhuvanasukhadaṃ saṃnipātya janaughān* /</l>
+<l>te lokā maitracittās tribhuvanasukhadāḥ kṣāntisaurabhyayuktāḥ yātāḥ saukhāvatīṃ te 'py amitarucimuner dharmam ārādhayanti //</l>
+</lg>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,2801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_abhisamayAlaGkAravRttiH+sphuTArthA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Abhisamayālaṅkāravṛttiḥ sphuṭārthā</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by Ram Shankar Tripathi: Abhisamayalankaravrti sputartha. Sarnath: Central Institute of Higher Tibetan Studies, 1977, pp. 3-44.-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Abhisamayalankaravrttih sphutartha<BR>
+Based on the ed. by Ram Shankar Tripathi: Abhisamayalankaravrti sputartha.<BR>
+Sarnath: Central Institute of Higher Tibetan Studies, 1977, pp. 3-44.<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Sastra section, text no. 31<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+REFERENCE SYSTEM (added):<BR>
+Abhis_nn.nn = Abhisamayalankaravrttih sphutartha_adhikara.verse<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Abhis">
+<body><p xml:id="0">
+Prajñāpāramitopadeśaśāstre<lb/>
+ācaryaharibhadrakṛtā
+</p><p xml:id="1">
+Abhisamayālaṅkāravṛttiḥ sphuṭārthā
+</p><p xml:id="2">
+sarvākārajñatādhikāraḥ prathamaḥ
+</p><p xml:id="3">
+namaḥ sarvabuddhabodhisattvebhyaḥ<lb/>
+maṃgalācaraṇam
+</p>
+<lg xml:id="Abhis_0.1">
+<l>prajñāpāramitāyai yasyāstadalaṅkārakārikāṇām /</l>
+<l>sarvālaṅkaraṇārthaṃ kriyate vyākhyā namastasyai //</l>
+</lg>
+<lg xml:id="Abhis_0.2">
+<l>jagadāsaṅgasaṅgena tvāryāsaṅgena tāyinā /</l>
+<l>ākarṇyājitanāthāttanmahāśāstraṃ vyabhajyata //</l>
+</lg>
+<lg xml:id="Abhis_0.3">
+<l>jagaddhitaparo bandhuḥ vasubandhuḥ svakāśayam /</l>
+<l>cāntarjñeyaṃ samāśritya tadvyākhyāmakarottataḥ //</l>
+</lg>
+<lg xml:id="Abhis_0.4">
+<l>āryāntargaṇitaḥ khyāto vimuktiriti tatkṛtām /</l>
+<l>akṛtāmiva tāṃ draṣṭvā cakre 'nyāṃ madhyayā dhiyā //</l>
+</lg>
+<lg xml:id="Abhis_0.5">
+<l>tato vimuktisenena śāstrāṇyaprāpya sarvaśaḥ /</l>
+<l>śraddhābhūmisthitenāpi vyākhyātā svamanīṣayā //</l>
+</lg>
+<lg xml:id="Abhis_0.6">
+<l>evaṃ vidvadvaraiḥ prokte kiñcannaiyūnyamīkṣyate /</l>
+<l>asmin sarvaṃ susampannaṃ mahadāścaryakārakam //</l>
+</lg>
+<lg xml:id="Abhis_0.7">
+<l>ayaṃ sudurlabhaḥ panthāḥ gambhīraśca yathārthakaḥ /</l>
+<l>suvimṛśyaśca vidvadbhiḥ prāpto buddhānukampayā //</l>
+</lg>
+<lg xml:id="Abhis_0.8">
+<l>sarvathā mama nāstyeva gocaro 'pyahamutsahe /</l>
+<l>puṇyavidhyanukūlatvāt svaparopacikīrṣayā //</l>
+</lg>
+<p xml:id="4">
+āryamaitreyaḥ sadācārānuvṛttimātmanaḥ prakhyāpayan svapratisaṃvijjñānena prajñāpāramitāviṣayakaḥ prasāda eva sarvaśreyaḥ prāptipradhānaheturityavadhṛtya paraṃ niratiśayānantaguṇaratnākarabhagavatyāṃ pravartayituṃ prasādotpādanāya tāvadādau yathāguṇābhidhānapuraḥsuraṃ jananīṃ namaskurvannāha -
+</p>
+<lg xml:id='Abhis_1.1'>
+<l>yā sarvajñatayā nayatyupaśamaṃ śāntaiṣiṇaḥ śrāvakān<lb/>
+yā mārgajñatayā jagaddhitakṛtāṃ lokārthasampādikā /</l>
+<l>sarvākāramidaṃ vadanti munayo viśvaṃ yayā saṃgatās<lb/>
+tasyai śrāvakabodhisattvagaṇino buddhasya mātre namaḥ //</l>
+</lg>
+<p xml:id="5">
+anayā kārikayā asyāḥ atiśayamāhātmyavattvam amihitam / tacchrutvā tāvacchraddhānusāriṇaḥ asyāṃ niḥsaṃśayamacireṇa śraddhāmutpādayanti / dharmānusāriṇo 'pi ekānekasvabhāvaviyuktatvādityādipramāṇena anutpannavastumārgākāraparijñānakārikārthalakṣaṇajananyāṃ bādhām adṛṣṭvā trisarvajñatāsvarūpatrayātmikā buddhādinirmātrī prajñāpāramitāvaśyameva sambhavinītyavadhṛtya tasyāṃ prasādamutpādayanti / tasyāṃ prasādena tadguṇābhilāṣiṇaḥ ubhayavidhā api pudgalāḥ tattadāśritapravacanadhāraṇādyarthaṃ sarvathā atyantamādriyante / tataḥ śrutamayādijñānotpādakrameṇa suśreyo 'dhigatāḥbhavanti / ata eva bhagavatyāṃ pradāsa eva sarvaśreyo 'dhigamahetuḥ /
+</p><p xml:id="6">
+tatra tisṛbhiḥ sarvajñatābhiraṣṭāvarthāḥ saṅgṛhītā bhavanti / tābhiśca vakṣamāṇavidhinā sarvārthāḥ sampatsyanta iti manasi nidhāya trisarvajñatābhiḥ prajñāpāramitāṃ stauti / śrāvakaḥ, tatpakṣanikṣiptaḥ kiñcidvimokṣādhikaḥ ekakrama nirdiṣṭaḥ pratyekabuddhaśca nirvāṇabhilāṣiṇau, tayo anutpannasarvavastujñatayā sopadhinirupadhilakṣaṇadvividhanirvāṇaprāpikā yā, yāvatsaṃsāraṃ jagaddhitakṛtāṃ bodhisattvānāmanutpannasarvamārgajñatayā sarvalokārthasampādikā yā, anutpannasarvākārajñatayā yayā saṅgatāḥ saṃyatakāyāḥ pradhānayogīśvarā buddhāḥ sarvathā caritapratipakṣasarvadharmacakrān pravartayanti / tasyai śrāvakādiparivṛtabuddhānāmutpāyitryai mātre namaḥ / evaṃ namaskārastutipūvakeṇābhisamayālaṅkāraśāstreṇa vastupratipakṣākāreṣu kasmiṃścidekasmin (pakṣe) saṃgṛhīte, prathamapakṣe tāvattadarthapariśramavaiyarthyam / tathā hi na hi tadasti iha prajñāpāramitāyāṃ vastujātaṃ yanna lakṣaṇaśāstreṣu uktapūrvam / dvitīye vyavadānavastu (mātra) saṅgrahāt sāṃkleśikavastvasaṃgrahācca na jñāyate kasyāyaṃ pratipakṣa iti / tṛtīte nirvastukākāramātrasaṃgrahādarthādhigamaśūnyādiha kiñcidapi noktamiti vyartha eva (śāstraracanāyāsaḥ) iti nāpare śaṅkiṣyante kim iti cet? tannaḥ, yato hi yathākramaṃ śrāvakapratyekabuddhabodhisattvānuttarabuddhānāṃ trisarvajñatāyāṃ samastābhisamayānāṃ saṃgrahaṇena pakṣatrayasyāpi saṃgṛhītatvāt /
+</p><p xml:id="7">
+yathā madhyamajinajananyāṃ - "subhūte śrāvakapratyekabuddhayoḥ sarvajñatā, bodhisattvānāṃ mārgajñatā, tathāgatārhatsamyaksambuddhānāṃ sarvākārajñatā / bhagavan kimarthaṃ sarvajñatā śrāvakapratyekabuddhayoḥ? subhūte sarve hi yāvanto bāhyābhyantaradharmāḥ, tāvata eva śrāvakapratyekabuddhā jānanti, na tu mārgeṇa, nāpi sarvākāreṇa, ataḥ sarvajñatā śrāvakapratyekabuddhayoriti / bhagavan, kimarthaṃ mārgajñatā bodhisattvānām? subhūte bodhisattvaiḥ, yaṃ śrāvakasya mārgaḥ, yāḥ pratyekabuddhasya mārgaḥ, yo buddhasya mārgaḥ sarve mārgā utpādyante jñāyante ca / te 'pi paripūryante, teṣāṃ mārgāṇāṃ kriyāpi kriyate / na yāvat praṇidhānaparisamāptiḥ, sattvaparipākaḥ, buddhakṣetrapariśuddhirvā kriyate, na tāvatteṣāṃ samyagbhūtāntasākṣātkāraḥ, ataḥ mārgajñatā bodhisattvānām / bhagavan, kimarthaṃ sarvākārajñatā tathāgatasyārhataḥ samyaksambuddhasya? subhūte, yena ākāreṇa, yena liṅgena, yena nimittena prakhyātā dharmāḥ, tamākāraṃ talliṅgaṃ tannimittaṃ tathāgatā avagacchanti, ataḥ tathāgatasya arhataḥ samyaksambuddhasya sarvākārajñateti / "evaṃ saṃkṣiptāyāmapi (jinajananyāṃ) - "śrāvakabhūmāvapi śikṣitukāmenāpi" ityādikamāha / vistṛtāyāmapi vistareṇābhihitam /
+</p><p xml:id="8">
+tatra sarvajñatā hi rūpādidharmānityatādyadhiṣṭhānā ātmamohaprahāṇaphalā; mārgajñatā sarvayānaniryāṇā tattvāsākṣātkārādhiṣṭhānā asaṃgṛhītasattvasaṃgrahādiphalāḥ; sarvākārajñatā sarvadharmānutpādādhiṣṭhānā ākāśadhātuparyantāvicchinnasattvārthaphalā bhūtāntādhigamavāsanāpratisandhiprahāṇātmikā /
+</p><p xml:id="9">
+itthamabhisamayālaṅkāre sarvavastupratipakṣākārasaṃgrahaṇenāśeṣābhisamayanirdeśaḥ kṛta itīdamupapadyate /
+</p><p xml:id="10">
+granthārambhaprayojanam
+</p><p xml:id="11">
+mandadhījanānāṃ tu vistṛtamadhmasaṃkṣiptāsu bhagavatīṣu (saṃkṣiptamadhyavistṛta) rucisampannasattvahitecchayā karuṇāmayena tattajjinajananyāṃ sakalaprajñāpāramitārthāṣṭābhisamayakramo deśita eva, bhagavata āryājitajinasya tannidarśane kiṃ prayojanamitiśaṅkānirākaraṇārthasandehotpādanena pravṛttyaṅgaṃ svīyaśāstrābhidheyaprayojanaprayojanaprayojanāntarbhūtasambandhāṃśca pradarśayannāha -
+</p>
+<lg xml:id="Abhis_1.2">
+<l>sarvākārajñatāmārgaṃḥ śāsitrā yo 'tra deśitaḥ /</l>
+<l>dhīmanto vīkṣiṣīraṃstamanālīḍhaṃ parairiti //</l>
+</lg>
+<lg xml:id="Abhis_1.3">
+<l>smṛtau cādhāya sūtrārthaṃ dharmacaryāṃ daśātmikām /</l>
+<l>sukhena pratipatsīrannityārambhaprayojanam //</l>
+</lg>
+<p xml:id="12">
+iti / sarvākārajñataiva hi buddhatvamārga iti sarveṣāmabhisamayānāmupalakṣaṇatvāttasyāmeva tātparyam / triprātihāryaiḥ sakalajanānuśāsakena bhagavatā jinajananītraye yo 'bhidheyo deśitaḥ, sa abhidhānābhidheyopāyopeyapratipattirūpeṇa sambaddhaḥ, bāhyetaravītarāgādibhiḥ sarvadharmanairātmyānabhyastaiḥ śrutamayādiprajñākrameṇānālīḍha iti suvyavasthāpite vāsanāsambhūtasmṛtijñāne bodhicittadānapratipattyācāramaṣṭābhisamayātmakamaśeṣaprajñāpāramitāsūtrārthaṃ samyagādhāya sarvatragadharmadhātvadhigamalakṣaṇapramuditabhūmyādyadhigamakrameṇa sarvākāraṃ sākṣātkuryāditi prayojanaprayojanāya vineyā abhilaṣitaprajñāpāramitārthabodhicittapratipattyādilakṣaṇāni sukhena pratipatsīranniti śāstrārambhaprayojanam //
+</p><p xml:id="13">
+prajñāpāramitāyāḥ kāyikavyavasthāpanam
+</p><p xml:id="14">
+evaṃ sambandhādīn vyāhṛtya vineyānāṃ sukhena pratipattaye supravibhaktasyāpi śāstrārthasya asaṃlulitatvena vyākhyānasaukaryamavalokya pañcadaśabhiḥ kārikābhiḥ samāsavyāsanirdeśena prajñāpāramitāyāḥ kāyikavyavasthāpanamāha -
+</p>
+<lg xml:id="Abhis_1.4">
+<l>prajñāpāramitāṣṭābhiḥ padārthaiḥ samudīritā /</l>
+<l>sarvākārajñatā mārgajñatā sarvajñatā tataḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.5">
+<l>sarvākārābhisambodho mūrdhaprāpto 'nupūrvikaḥ /</l>
+<l>ekakṣaṇābhisambodho dharmakāyaśca te 'ṣṭadhā //</l>
+</lg>
+<lg xml:id="Abhis_1.6">
+<l>cittotpādo 'vavādaśca nirvedhāṅgaṃ caturvidham /</l>
+<l>ādhāraḥ pratipatteśca dharmadhātusvabhāvakaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.7">
+<l>ālambanaṃ samuddeśaḥ sannāhaprasthitikriye /</l>
+<l>sambhārāśca saniryāṇāḥ sarvākārajñatā muneḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.8">
+<l>śyāmīkaraṇatādīni śiṣyakhaḍgapathau ca yau /</l>
+<l>mahānuśaṃso dṛṅmārga aihikāmutrikairguṇaiḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.9">
+<l>kāritramadhimuktiśca stutastobhitaśaṃsitāḥ /</l>
+<l>pariṇāme 'numode ca manaskārāvanuttamau //</l>
+</lg>
+<lg xml:id="Abhis_1.10">
+<l>nirhāraḥ śuddhiratyantamityayaṃ bhāvanāpathaḥ /</l>
+<l>vijñānāṃ bodhisattvānāmiti mārgajñatoditā //</l>
+</lg>
+<lg xml:id="Abhis_1.11">
+<l>prajñayā na bhave sthānaṃ kṛpayā na śame sthitiḥ /</l>
+<l>anupāyena dūratvapāyenāvidūratā //</l>
+</lg>
+<lg xml:id="Abhis_1.12">
+<l>vipakṣapratipakṣau ca prayogaḥ samatāsya ca /</l>
+<l>dṛṅmārgaḥ śrāvakādīnāmiti sarvajñateṣyate //</l>
+</lg>
+<lg xml:id="Abhis_1.13">
+<l>ākārāḥ saprayogāśca guṇā doṣāḥ salakṣaṇāḥ /</l>
+<l>mokṣanirvedhabhāgīye śaikṣo 'vaivartiko gaṇaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.14">
+<l>samatābhavaśāntyośca kṣetraśuddhiranuttarā /</l>
+<l>sarvākārābhisambodha eṣa sopāyakauśalaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.15">
+<l>liṅgaṃ tasya vivṛddhiśca nirūḍhiścittasaṃsthitiḥ /</l>
+<l>caturdhā ca vikalpasya pratipakṣaścaturvidhaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.16">
+<l>pratyekaṃ darśanākhye ca bhāvanākhye ca vartmani /</l>
+<l>ānantaryasamādhiśca saha vipratipattibhiḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.17">
+<l>mūrdhābhisamayastredhā daśadhā cānupūrvikaḥ /</l>
+<l>ekakṣaṇābhisambodho lakṣaṇena caturvidhaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.18">
+<l>svābhāvikaḥ sasāṃbhogo nairyāṇiko 'parastathā /</l>
+<l>dharmakāyaḥ sakāritraścaturdhā samudīritaḥ //</l>
+</lg>
+<p xml:id="15">
+iti / tatra prathamakārikādvayena aṣṭavastūnāṃ saṃgrahāt samāsanirdeśaḥ, tataḥ trayodaśakārikābhiḥ tasyaivārthaṃ saṃgṛhya vistareṇa vyākhyānaṃ bhavati / itthaṃ saṃkṣepavistarābhyāṃ bhāṣitatvena subhāṣitam / piṇḍārthakārikāṇāmeva śāstrapraṇetrā 'cittotpādaḥ parārthāya' - ityādivakṣyamāṇasakalaśāstreṇa vyākhyāsyamānatvāt tadvyākhyānenaiva vyākhyānaṃ sañcintya vīpsābhayena nātraitā vyākhyātāḥ /
+</p><p xml:id="16">
+sarvākārajñatā<lb/>
+1 cittotpādaḥ
+</p><p xml:id="17">
+itthaṃ sakalapiṇḍārtha nirdiśya bodhiṃ prāptukāmairbodhisattvaiḥ phalabhūtatvāt sarvākārajñatādhigantavyetyādau sarvākārajñatāsaṃgrahakārikāṃ vyākhyātukāmaḥ sālambanaṃ cittotpādasvarūpamāha -
+</p><p xml:id="18">
+cittotpādaḥ parārthāya samyaksambodhikāmatā /
+</p><p xml:id="19">
+buddho bhūtvā yathābhavyatayā parārthaṃ prati yatnaṃ kuryāmiti parārthāya samyaksambodhyadhikāmatālakṣaṇaḥ praṇidhiprasthānasvabhāvo dvividhaścittotpādaḥ / samyaksambodhikāmatā ca tatprārthanā kuśalo dharmacchandaścaitasikaḥ / viśiṣṭaviṣayapratibhāsamutpadyamānaṃ cittaṃ "cittotpādaḥ" iti kathaṃ sa (caitasikaḥ) cittotpādo bhavet? satyametat / kintu kuśaladharmacchandalakṣaṇāyāṃ prārthanāyāṃ satyāṃ bodhicittamutpadyata iti kāraṇenātra kāryaṃ nirdiṣṭamevaṃ prārthayituḥ bodhisattvasya sarve kuśalā dharmā vṛddhiṃ yāntīti jñāpanāya copacāraḥ samāśrita ityadoṣaḥ / anyaprakāreṇa praṇidhānaṃ prārthanā vā samyaksambodhikāmatā tatsahacaritacittotpādaḥ prārthanayātidiśyate / evañca praṇidhānasahagataṃ taccittamutpadyata iti jñāpanāya vā //
+</p><p xml:id="20">
+keyaṃ samyaksaṃbodhiḥ? kaśca parārtho yatkāmatātmako yadarthaścittotpāda iti cet? ucyate -
+</p>
+<lg xml:id="Abhis_1.19">
+<l>samāsavyāsataḥ sā ca yathāsūtraṃ sa cocyate //</l>
+</lg>
+<p xml:id="21">
+tisṛṣvapi jinajananīṣu prajñāpāramitāyāṃ dānādau ca deyadāyakapratigrāhakādyanupalabdhiḥ pratipattavyeti jñāpanārthakena; yathābhavyasarvasattvān nirvāṇe, matsariṇaśca dānādau pratiṣṭhāpayitukāmenāsyāṃ prajñāpāramitāyāṃ pratipattavyamitipradarśanapareṇa vacanena (vākyena) sūtrārthāviruddhena samāsavyāsataḥ parārthā samyaksambodhiḥ nirdiṣṭā / itthaṃ 'cittotpādaḥ parārthāya samyaksambodhikāmatā' jñātavyā / sarvākaragranthatātparyārthanirdeśāvasare sarvaṃ kathitaṃ tathāpi bahuvaktavyamāśaṅkya na (atra pradhānataḥ) samullikhitam /
+</p><p xml:id="22">
+evaṃ sālambanaṃ cittotpādasvarūpamabhidhāyedānīṃ tasya dvāviṃśatiprabhedān dvābhyāmantaraślokābhyāmāha -
+</p>
+<lg xml:id="Abhis_1.20">
+<l>bhūhemacandrajvalanairnidhiratnākarārṇavaiḥ /</l>
+<l>vajrācalauṣadhīmitraiścintāmaṇyarkagītibhiḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.21">
+<l>nṛpagañjamahāmārgayānaprasravaṇodakaiḥ /</l>
+<l>ānandoktinadīmaighairdvāviṃśatividhaḥ sa ca //</l>
+</lg>
+<p xml:id="23">
+chanda-āśaya-adhyāśaya-prayoga-dāna-śīla-kṣānti-vīrya-dhyāna-prajñā-upāya-kauśala-praṇidhāna-bala-jñāna-abhijñā-puṇyajñāna-bodhipakṣānukūladharma-karuṇāvipaśyanā-dhāraṇīpratibhāna-dharmotsava-ekayāna-dharmakāyaiḥ sahagataḥ (cittotpādaḥ) yathākramaṃ pṛthivī-kalyāṇasuvarṇa-śuklapakṣavanacandra-jvalana-mahānidhāna-ratnākara-mahārṇava-vajraparvatarāja-bhaiṣajya-kalyāṇamitra-cintāmaṇi-āditya-dharmamadhurasaṃgīti-mahārāja-koṣṭhāgāra-mahāmārga-yāna prasravaṇodaka-ānandokti-nadīdhārā-meghaiḥ-sadṛśaḥ; sarvaśukladharmapratiṣṭhābhūtatvāt, bodhiparyāntāvikāritvāt, sakalaśukladharmavivṛddhigamanāt, trisarvajñatāvaraṇendhanadāhakatvāt, sarvasattvasaṃtarpaṇāt, guṇaratnānāmāśrayabhāvāt, sarvāniṣṭopanipātairakṣobhyatvāt, saṃpratyayadārḍhyenābhedyatvāt, ālambanavikṣepeṇāniṣkampyatvāt, kleśajñeyāvaraṇavyādhipraśamanāt, sarvāvasthāsu sattvārthāparityāgāt, yathāpraṇidhānaṃ phalasamṛddheḥ, vineyajanasya paripācanāt, vineyāvarjana karadharmadeśakatvāt, avyāhataprabhāvatvena parārthānuṣṭhānāt, bahupuṇyajñānasaṃbhārakośasthānatvāt, sarvāryayātānuyātatvāt, saṃsāranirvāṇānyatarāpātena sukhasaṃvāhanāt, śrutāśrutadharmadhāraṇādakṣayatvāt, mokṣakāmānāṃ vineyānāṃ priyaśrāvaṇāt, asaṃbhinna-ḥ parakāryakriyātvāt, tuṣitabhavanavāsādisandarśanayogyatvāt yathāsaṃkhyaṃ bhavati / ityevaṃ 'bhūhemacandrajvalanaitira' tyādibhiḥ dvāviṃśatiścittotpādā vyākhyātāḥ /
+</p><p xml:id="24">
+tatra prathamāstrayo mṛdumadhyādhimātratayādikarmikabhūmisaṅgṛhītāḥ / tataḥ ekaḥ prathamabhūmipraveśamārgasaṅgṛhītaḥ / tadantaraṃ daśa pramuditādidaśabhūmisaṅgṛhītā darśanabhāvanāmārgagocarāḥ / tataḥ pañca viśeṣamārgasaṅgṛhītāḥ / tadantaraṃ trayaṃ cittotpādāḥ prayogamaulapṛṣṭhadvāreṇa buddhabhūmisaṅgṛhītāḥ / iti cittotpādabhedaḥ ādikarmikabhūmimārabhya yāvad buddhabhūmi saṅgṛhītaḥ /
+</p><p xml:id="25">
+2 - avavādaḥ
+</p><p xml:id="26">
+prasaṅgāgata (cittotpāda)-bhedamabhidhāya utpāditaprathamādibodhicittāya yathākālaṃ bodhisattvāya prārthitārthabodhicittotpādāya tadākṣiptadharmasiddhaye prāptaguṇaparirakṣaṇenābhivṛddhaye copadeśo 'vavāda ityata āha -
+</p>
+<lg xml:id="Abhis_1.22">
+<l>pratipattau ca satyeṣu buddharatnādiṣu triṣu /</l>
+<l>asaktāvapariśrāntau pratipatsamparigrahe //</l>
+</lg>
+<lg xml:id="Abhis_1.23">
+<l>cakṣuḥṣu pañcasu jñeyaḥ ṣaḍsvabhijñāguṇeṣu ca /</l>
+<l>dṛṅmārge bhāvanākhye cetyavavādo daśātmakaḥ //</l>
+</lg>
+<p xml:id="27">
+yathoktaprabhedabodhicittapratipattau saṃvṛtiparamārthasatyānatikrameṇa śrāvakādyasādhāraṇatayā'nupalambhayogena vartanamiti śikṣaṇaṃ pratipattyavavādaḥ /
+</p><p xml:id="28">
+duḥkhe phalabhūtarūpādiśūnyatāprajñāpāramitayostathatārūpatvādaikātmyamiti / samudaye śūnyatāhetubhūtarūpādyoravyatiriktatvena rūpādirna samudayanirodhasaṃkleśavyavadānadharmī iti / nirodhe śūnyatāyāmutpādanirodhasaṃkleśavyavadānahānivṛddhyādirahitāyānna rūpaṃ yāvannāvidyotpādo nāvidyānirodho na buddho bodhiriti / mārge dānādipāramitābhirātmano 'dhyātmaśūnyatādīnāṃ bahirdhāśūnyatādibhiḥ pūrvāntāparāntayośca parasparaṃ na yuktāyuktatvena pratipattirityupadeśaḥ satyāvavādaḥ /
+</p><p xml:id="29">
+buddhe buddhabodhyorekatvalakṣaṇatvena buddhakaradharmalakṣaṇasarvākārajñatāyā anupalambhe rūpādyayojanenālambyālambakasamatājñānamiti / dharme trisarvajñatāsaṃgṛhītasamastavastupratipakṣākārasaṅgrahaiḥ sarvadharmāṇāṃ saṅgṛhītānāṃ niḥsvabhāvateti / saṃghe buddharatnāntargatatvenārhadvarjyeṣu phalasthapratipannakabhedena saptasu mahāpuruṣeṣu pratyekabuddhena sahāṣṭāsu mṛdvindriyādibhedena viṃśatisaṃkhyāvacchinneṣyāryāvaivarttikabodhisattvaśaikṣeṣvanutpādatayā pravṛttirityupadeśo ratnatrayāvavādaḥ /
+</p><p xml:id="30">
+ārabdhavīryatayā yathoktārthānuṣṭhānaṃ prati kāyādisukhallikatvena kasyacidabhiniveśaḥ syādityasaktau kāyādīnāmasvabhāvatayā deśanāvavādaḥ /
+</p><p xml:id="31">
+ciratarakālābhyāsenāpi samīhitārthāniṣpattāvuttrasanajātīyasya parikhedaḥ syādityapariśrāntau rūpāderyāvat samyaksambodheramananatayā deśanāvavādaḥ /
+</p><p xml:id="32">
+daśadigavasthitabuddhādibhyaḥ pratyarthaṃ mārgopadeśe gṛhyamāṇe cittāvalīnatā syāditi pratipatsamparigrahe dharmāṇāṃ prakṛtyajātatvena śikṣaṇamavavādaḥ / māṃsavaipākikadivyaprajñādharmabuddhacakṣuṣāṃ yathāsaṃkhyaṃ pratiniyatavastusarvasattvacyutyupapattisarvadharmāvikalpānāṃ sarvāryapudgalādhigamasarvākārasarvadharmābhisambodhaviṣayāṇāṃ tathatayaikatvena pratipattiriti śikṣaṇaṃ pañcacakṣuravavādaḥ /
+</p><p xml:id="33">
+ṛddhidivyaśrotraparacittajñānapūrvanivāsānusmṛtyabhisaṃskārikadivyacakṣurāsravakṣayajñānābhijñānāṃ pṛthivīkampanādisarvalokadhātusthasūkṣmataraśabdaśravaṇasarāgādiparacittaparijñānasvapara-pūrvānekajātyanusmaraṇasarvarūpadarśanakleśajñeyāvaraṇaprahāṇakāritrāṇāmādiśāntatvenāvabodha iti deśanā ṣaḍabhijñāvavādaḥ / catuḥsatyasaṅgṛhītaṣoḍaśakṣaṇasvabhāvaṃ darśanamārgaṃ dharmānvayajñānakṣāntijñānātmakaṃ sarvadharmaniḥsvabhāvabodhena māyākāra iva sarvatrānabhiniviṣṭamūrtistatprahātavyavastupratipakṣatvena yogī vibhāvayatīti deśanā darśanamārgāvavādaḥ /
+</p><p xml:id="34">
+saṃskṛtāsaṃskṛtayorekarūpatvena parasparamaśakyavyatirekaprajñaptivad yathoktadarśanamārgasaṃmukhīkṛtavastvavyatirekālambanād darśanabhāvanayorapṛthagbhāva iti na lākṣaṇikaṃ bhāvanāmārgavyavasthānam, atha ca sa tatprahātavyavastupratipakṣatvena vibhāvyate pratītyasamutpādadharmatayeti deśanā bhāvanāmārgāvavāda ityevaṃ bodhicittatadākṣitpadharmasvabhāvaprajñāpāramitāyāṃ yā pratipattiranupalambhākārā, tasyā yadālambanaṃ catvāryasatyāni, ya āśrayastrīṇi śaraṇāni, yo viśeṣagamanaheturasaktiḥ, yo 'vyāvṛttigamanahetupariśrāntiḥ, yo 'nanyayānagamanahetuḥ pratipatsaṃparigrahaḥ, yo 'parapratyagāmitvahetuḥ pañca cakṣūṃṣiḥ, yaḥ sarvākārajñatāparipūrihetuḥ ṣaḍabhijñāḥ, yau niṣṭhāhetū darśanabhāvanāmārgau, tatsarvamavavādaprakaraṇe nirdiṣṭametāvataiva sarvo 'rthaḥ sampanna iti daśavidho 'vavādaḥ /
+</p><p xml:id="35">
+saṃgharatnādhikāre tatsubodhāya dvau antaraślokau ityāha -
+</p>
+<lg xml:id="Abhis_1.24">
+<l>mṛdutīkṣṇendriyai śraddhādṛṣṭiprāptau kulaṅkulau /</l>
+<l>ekavīcyantarotpadya kārākārākaniṣṭhagāḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.25">
+<l>plutāstrayo bhavasyāgraparamo rūparāgahā /</l>
+<l>dṛṣṭadharmaśamaḥ kāyasākṣī khaḍgaśca viṃśatiḥ //</l>
+</lg>
+<p xml:id="36">
+vakṣyamāṇamārgajñatāsaṅgṛhītaṣoḍaśakṣaṇadarśanamārgam āśritya śraddhādharmānusāribhedena prathamaphalapratipannako dvividhaḥ / tataḥ srota āpannaḥ / tato devamanuṣyakulaṃkulatvena sa evānyo dvividhaḥ / tato dvitīyaphalapratipannako mṛdutīkṣṇendriya evaikaḥ śraddhādṛṣṭiprāptaḥ / tataḥ sakṛdāgāmī / tataḥ sa ekavīciko 'paraḥ / tataṃ tṛtīyaphalapratipannakaḥ pūrvavacchaddhādṛṣṭiprāptaḥ / tataḥ anāgāmī antarābhave upapadya, abhisaṃskāre anabhisaṃskāre ca parinirvāyīti caturdhā / tataṃ evākaniṣṭhagaḥ plutārdhaplutasarvasthānacyutatvenordhvāvakrāntāparastrividhaḥ / tataḥ sa eva bhavāgragastu rūpavītarāgo dṛṣṭadharmaśamaḥ kāyasākṣīti aparo dvividhaḥ / tato 'rhattvaphalapratipannakaḥ / tataḥ pratyekabuddha iti viṃśatiḥ /
+</p><p xml:id="37">
+3 - nirvedhāṅgam
+</p><p xml:id="38">
+labdhāvavādasyaivamādikarmikasya nirvedhāṅgabhavanamiti nirvedhāṅgamāha -
+</p>
+<lg xml:id="Abhis_1.26">
+<l>ālambanata ākārāddhetutvātsamparigrahāt /</l>
+<l>caturvikalpasaṃyogaṃ yathāsvaṃ bhajatāṃ satām //</l>
+</lg>
+<lg xml:id="Abhis_1.27">
+<l>śrāvakebhyaḥ sakhaḍgebhyo bodhisattvasya tāyinaḥ /</l>
+<l>mṛdumadhyādhimātrāṇāmūṣmādīnāṃ viśiṣṭatā //</l>
+</lg>
+<p xml:id="39">
+bodhisattvānāṃ śrutādiprakarṣaprāptamokṣabhāgīyaśraddhādilakṣaṇakuśalamūlādūrdhvaṃ catuḥsatyaprativedhānukūlāni ca caturnirvedhabhāgīyāni laukikabhāvanāmayāni ūṣmaprāpta iti kuśalamūlam, tato mūrdhaprāptaḥ, tataḥ kṣāntiprāptaḥ, tato 'gradharma iti mṛdvādikrameṇa utpādo 'thavā bodhisattvasambaddhamṛdvindriyādipudgalabhedena vakṣyamāṇamṛdumadhyādhimātrālambanaviśiṣṭavastvātmakacatuḥsatyālambanadharmadarśana-pratipakṣatvenānabhiniveśādyākāraviśeṣāt yānatrayādhigamahetutvaviśeṣādupāyakauśalakalyāṇamitralakṣaṇasamparigrahād darśanabhāvanāmārgābhyāṃ prahātavyā grāhyagrāhakacaturvikalpāḥ vakṣamāṇanayasambandhenotpannāḥ śrāvakādīnāmūṣmādibhyo viśiṣṭāḥ / teṣāmūṣmādikuśalamūlaṃ nyāye rūpaṇādilakṣaṇavastvātmakacatuḥsatyālambanamātmadarśanapratipakṣatvenānityādyākārapratipannaṃ svayānādhigamahetubhūtaṃ samparigraharahitaṃ, caturvidho vikalpo 'saṃsṛṣṭo bhavatīti vyavasthāpanāt / bodhisattvānāṃ nirvedhabhāgīyāni upāyakauśalabalena kvacit hetunā, kvacit phalena, kvacit svarūpatayā, kvacid dharmatākāreṇa yathābhavyatayā catuḥsatyavastvālambanamiti veditavyam / saṃkṣiptavyākhyāmātraṃ vaktukāmena na prapañcitam / yata idameva vyavasthāpanaṃ hyato 'nyayānamāśritya kutrāpi dūṣaṇaṃ nābhidhātavyam /
+</p><p xml:id="40">
+ālambanākārayoḥ kā viśeṣatā ityata ālambanākārau saptamiḥ antaraślokairāha -
+</p>
+<lg xml:id="Abhis_1.28">
+<l>ālambanamanityādi satyādhāraṃ tadākṛtiḥ /</l>
+<l>niṣedho 'bhiniveśāderheturyānatrayāptaye //</l>
+</lg>
+<p xml:id="41">
+rūpādyāyavyayau viṣṭhāsthitī prajñaptyavācyate /
+</p><p xml:id="42">
+tatra mṛduna anityādiṣoḍaśākāraṃ duḥkhādicatuḥsatyādhāramālambanam / duḥkhādisatyābhiniveśālambanādīnāṃ niṣedhaḥ tadākṛtiḥ / yānatrayādhigamaprāptaye hetubhāvaḥ sarveṣāmevoṣmādīnāṃ veditavyaḥ /
+</p><p xml:id="43">
+adhimuktinā tattvamanaskāreṇa ca yathāsaṃkhyaṃ rūpādīnāṃ pratipatteḥ niṣedhasya cānupalambhanaṃ na samanudarśanamiti madhyasyālambanam /
+</p><p xml:id="44">
+sarvanāmadheyābhāvena prabandhavisadṛśaprabandhasadṛśapravṛttilakṣaṇayorabhāva ityākṛtiḥ /
+</p><p xml:id="45">
+rūpamārabhya yāvadbuddha iti sarvadharmasāṅketiko vyāvahārikadharma ityadhimātrasyālambanam / kuśalādidharmatā na kenacid vacanīyā ityākṛtiḥ / ityālambanākāravannirvikalpajñānāgneḥ pūrvarūpatvādūṣmagataṃ trividham /
+</p>
+<lg xml:id="Abhis_1.29">
+<l>rūpādāvasthitisteṣāṃ tadbhāvenāsvabhāvatā //</l>
+</lg>
+<lg xml:id="Abhis_1.30">
+<l>tayormithaḥsvabhāvatvaṃ tadanityādyasaṃsthitiḥ /</l>
+<l>tāsāṃ tadbhāvaśūnyatvaṃ mithaḥ svābhāvyametayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.31">
+<l>anudgraho yo dharmāṇāṃ tannimittāsamīkṣaṇam /</l>
+<l>parīkṣaṇañca prajñāyāḥ sarvaṃsyānupalambhataḥ //</l>
+</lg>
+<p xml:id="46">
+iti / atra svabhāvaśūnyatayā rūpādīnāṃ rūpādisvabhāvenāpagatasvabhāvatā, tataḥ rūpādyasthānamiti mṛduna ālambanam / paramārthena rūpādisarvadharmaśūnyatayoḥ parasparamekaṃ rūpamiti śūnyatāyāmanityatvādīnāmabhāvena rūpādau na nityānityādibhiḥ sthānamityākāraḥ /
+</p><p xml:id="47">
+dharmadhāturūpatayānityādiśūnyatānāṃ svaniḥsvabhāvatvādanityādiśūnyatānāṃ parasparamaikātmyamiti madhyasyālambanam / yaṃ svabhāvapratiṣedhenāsvīkāro rūpādīnāṃ sa ākāra iti /
+</p><p xml:id="48">
+svabhāvābhāvatayaiva nīlādinimittādarśanaṃ rūpādīnāmiti adhimātrasyālambanam / samyagdharmapravicayatvena prajñāyāḥ sarvavastuno 'nupalambhatayā nirūpaṇamityākāraḥ / ityālambanākāravaccalakuśalamūlamūrdhatvānmūrdhagataṃ trividham /
+</p>
+<lg xml:id="Abhis_1.32">
+<l>rūpāderasvabhāvatvaṃ tadabhāvasvabhāvatā /</l>
+<l>tadajātiraniryāṇaṃ śuddhistadanimittatā //</l>
+</lg>
+<p xml:id="49">
+tannimittānadhiṣṭhānānadhimuktirasaṃjñatāṃ /
+</p><p xml:id="50">
+iti / atra śūnyatā rūpalakṣyalakṣaṇayorekatvenāsvabhāvo rūpādīnāmiti mṛduna ālambanam / ālambakajanaṃ prati abhāvasvabhāvatā rūpādīnāmityākāraḥ /
+</p><p xml:id="51">
+prakṛtyasvabhāvatvena rūpādīnāmanutpādānirodhāviti(madhyasya) ālambanam / sarvadharmasvarūpāvabodhena kāyādīnāṃ sarvākāraviśuddhirityākāraḥ /
+</p><p xml:id="52">
+svasāmānyalakṣaṇānupapattyā sarvadharmāṇāmanimittatvamiti adhimātrasyālambanam / prakṛtyaiva rūpādinimittānāmāśrayarahitatvenādhimokṣamanaskārānadhimokṣatattvamanaskārāparijñānamiti ākāraḥ / ityālambanākāravadapāyābhāvenādhimātradharmakṣamaṇāt kṣāntigataṃ trividham /
+</p>
+<lg xml:id="Abhis_1.33">
+<l>samādhistasya kāritraṃ vyākṛtirmananākṣayaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.34">
+<l>mithastrikasya svābhāvyaṃ samādheravikalpanā /</l>
+<l>iti nirvedhabhāgīyaṃ mṛdumadhyādhimātrataḥ //</l>
+</lg>
+<p xml:id="53">
+iti / atra sarvadharmāṇāmanutpādasya vīraṃgamādīnāñca samādhirbhāvanīya iti mṛduna ālambanam / svapraṇidhānapuṇyajñānadharmadhātubalenānābhogātsarvalokadhātuṣu yathābhavyatayā samādhervyāpāraḥ pravartata ityākāraḥ /
+</p><p xml:id="54">
+dharmataiṣā samyakpratipannasamādheryogino buddhairvyākaraṇaṃ kriyata iti madhyasyālambanam / sarvavikalpānupapattyā viditasamādhisvarūpasya bodhisattvasyāhaṃ samāhitaṃ ityādijñānaṃ na sambhavatītyākāraḥ /
+</p><p xml:id="55">
+dharmatayā samādhibodhisattvaprajñāpāramitārthatrayasya parasparamekaṃ rūpamityadhimātrasyālambanam / sarvadharmāvidyamānatvena samādheravikalpanaṃ paramopāya ityākāraḥ / ityālambanākāravallaukikasarvadharmāgratvādagradharmākhyaṃ trividham /
+</p><p xml:id="56">
+ālambanamanityādi satyādhāramatiricya ālambanaviśiṣṭākārayoḥ dharmadharmyabhidhāne satyapi ālambanaviśiṣṭākārayoḥ dharmābhidhānena sarvatra ucyamāne ṛte viśiṣṭāntaraparihārāparihārau nānayoḥ kaścit prativiśeṣa iti nyāyāt / athavā kārikācchandānurodhena bhinnābhidhāne 'pi abhiniveśādiniṣedhayuktayoḥ tattvataḥ vidhānapratiṣedharahitatvād duḥkhādisatyāntargatamevālambanamākāraśca kriyete / tathaivāparatrāpi boddhavyam /
+</p><p xml:id="57">
+caturvikalpasaṃyogasya sphuṭārthāvabodhāya dvau antaraślokau āha -
+</p>
+<lg xml:id="Abhis_1.35">
+<l>dvaividhyaṃ grāhyakalpasya vastutatpratipakṣataḥ /</l>
+<l>moharāśyādibhedena pratyekaṃ navadhā tu saḥ //</l>
+</lg>
+<p xml:id="58">
+iti / sāṃkleśikavastvadhiṣṭhānatvena pratipakṣādhiṣṭhānatvena ca prakāradvaye 'vidyāvyavadānaskandhādiprabhedā navadhā /
+</p>
+<lg xml:id="Abhis_1.36">
+<l>dravyaprajñaptyadhiṣṭhāno dvividho grāhako mataḥ /</l>
+<l>svatantrātmādirūpeṇa skandhādyāśrayatastathā //</l>
+</lg>
+<p xml:id="59">
+iti / atra pudgaladravyasatpuruṣaprajñaptisadupalambhatvena dvividho grāhakavikalpo 'pi / svatantrātmaskandhādyupalambhena pratyekaṃ navaprakāro bhavati /
+</p><p xml:id="60">
+tatrāyameva saṃkṣepārthaḥ-saṃkleśavastvadhiṣṭhānāḥ (yathā)-avidyā-rūpādi-skandha-nāmarūpābhiniveśa-antadvayasakti-saṃkleśavyavadānājñāna-āryamārgāpratiṣṭhāna-upalambha-ātmādi-viśuddhyutpādādigrāhyavikalpāḥ /
+</p><p xml:id="61">
+pratipakṣādhiṣṭhānā-rāśi-āyadvāra-gotra-utpāda-śūnyatā-pāramitārtha-darśana-bhāvanā-aśaikṣamārgāśceti grāhyavikalpāḥ /
+</p><p xml:id="62">
+pudgaladravyasadadhiṣṭhānāḥ-svatantrātma-eka-kāraṇa-draṣṭādyātma-saṃkleśa-vairāgya-darśana-bhāvanā-kṛtārthādhārāśceti grāhakavikalpāḥ /
+</p><p xml:id="63">
+prajñaptisatpuruṣādhiṣṭhānāḥ-skandha-āyatana-dhātu-pratītyasamutpāda-vyavadāna-darśana-bhāvanā-viśeṣa-aśaikṣamārgāśceti grāhakavikalpāḥ /
+</p><p xml:id="64">
+ityevaṃ caturvikalpāścaturnivedhabhāgīyairyathākramaṃ saṃyuktā bhavanti /
+</p><p xml:id="65">
+sambaddhakārikānusāram uktapūrve 'pi samparigrahe tadbalena yathoktaviśeṣo bhavatīti darśanāya tadanantaramantaraślokaḥ -
+</p>
+<lg xml:id="Abhis_1.37">
+<l>cittānavalīnatvādi naiḥsvābhāvyādideśakaḥ /</l>
+<l>tadvipakṣaparityāgaḥ sarvathā samparigrahaḥ //</l>
+</lg>
+<p xml:id="66">
+cittānabalīnatvānuttrāsādinopāyakauśalyena yathāśayaṃ mātsaryādivipakṣadharmaviyuktaḥ samastavastunairātmyādideśakaḥ kalyāṇamitramiti samparigrahaḥ /
+</p><p xml:id="67">
+4 - pratipatterādhāraḥ
+</p><p xml:id="68">
+pratipattimato yathoktanirvedhabhāgīyamanyadapi darśanamārgādikamiti pratipatterādhāramāha -
+</p>
+<lg xml:id="Abhis_1.38">
+<l>ṣoḍhādhigamadharmasya pratipakṣaprahāṇayoḥ /</l>
+<l>tayoḥ paryupayogasya prajñāyāḥ kṛpayā saha //</l>
+</lg>
+<lg xml:id="Abhis_1.39">
+<l>śiṣyāsādhāraṇatvasya parārthānukramasya ca /</l>
+<l>jñānasyāyatnavṛtteśca pratiṣṭhā gotramucyate //</l>
+</lg>
+<p xml:id="69">
+tatrādau tāvaccaturvidhalaukikanirvedhabhāgīyānāmutpādādhāraḥ / tato lokottaradarśanabhāvanāmārgayoḥ / tatastadutpattibalena cauraniṣkāsanakapāṭapidhānavat samakālaṃ samastapratipakṣotpādavipakṣanirodhayoḥ / tatastadanupalabdhyā tadutpādanirodhayuktavikalpāpagamasya / tataṃ pūrvapraṇidhānadānādyupāyakauśalyabalena saṃsāranirvāṇāpratiṣṭhānayoḥ prajñākaruṇayoḥ / tatastadutpattyā śrāvakādyasādhāraṇadharmasya / tato yathāśayamavatāraṇādyabhisandhidvāreṇa yānatrayapratiṣṭhāpanalakṣaṇaparārthānukramasya / tato yāvadāsaṃsāraṃ nirnimittānābhogaparārthajñānasya cādhāraḥ / ayamevānukramaḥ / anenaiva sarva puruṣārthāḥ sampadyante /
+</p><p xml:id="70">
+pratipattidharmāvasthāntarabhedena trayodaśavidho bodhisattvo yathoktadharmādhāro dharmadhātusvabhāva eva gotramiti nirdiṣṭam /
+</p><p xml:id="71">
+yadi dharmadhātorevāryadharmādhigamāya hetutvāttadātmako bodhisattvaḥ prakṛtisthamanuttarabuddhadharmāṇāṃ gotram, tadā tatsāmānyavartitvād 'na bodhisattva eveti' mandabuddhi puruṣaṃ pratyāśaṃkya antaraślokamāha -
+</p><p xml:id="72">
+dharmadhātorasambhedād gotrabhedo na yujyate /
+</p><p xml:id="73">
+yathā śrāvakayānādyadhigamakrameṇālambeta tathāryadharmādhigamāya dharmadhātorhetubhāvena vyavasthāpanād gotratvena vyapadeśa ityapi samādhiḥ dṛśyate, tathāpi saukaryāt laukikadṛṣṭāntenāpi samādhyantaramāha -
+</p>
+<lg xml:id="Abhis_1.40">
+<l>ādheyadharmabhedāttu tadbhedaḥ parigīyate //</l>
+</lg>
+<p xml:id="74">
+yathaikamṛddravyābhinirvṛttaikatejaḥparipakvādhāraghaṭāderādheyakṣaudraśarkarādibhājanatvena bhedastadbad yānatrayasaṅgṛhītādhigantavyādheyadharmanānātvenādhāranānātvaṃ nirdiṣṭamiti /
+</p><p xml:id="75">
+5 - ālambanam
+</p><p xml:id="76">
+yathoktapratipattyādhārasya kimālambanamityāha -
+</p>
+<lg xml:id="Abhis_1.41">
+<l>ālambanaṃ sarvadharmāste punaḥ kuśalādayaḥ /</l>
+<l>laukikādhigamākhyāśca ye ca lokottarā matāḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.42">
+<l>sāsravānasravā dharmāḥ saṃskṛtāsaṃskṛtāśca ye /</l>
+<l>śiṣyasādhāraṇā dharmā ye cāsādhāraṇā muneḥ //</l>
+</lg>
+<p xml:id="77">
+tatrādau tāvat sāmānyena (sarvadharmāḥ) kuśalākuśalāvyākṛtāḥ yathākramaṃ śrāmaṇyatāprāṇātipātādyavyākṛtakāyakarmādayaḥ / tatasteṣāmeva laukikādidvividhasyāvaśiṣṭāścattvāro bhedāḥ, yathāsaṃkhyaṃ bālapṛthagjanasambaddhāḥ pañca skandhāḥ, sarvāryajanasaṃgṛhītāni catvāri dhyānāni, ātmadarśanāpratipakṣatvena pañcopādānaskandhāḥ / taddarśanapratipakṣatvena catvāri smṛtyupasthānāni / hetupratyayādhīnāḥ kāmādidhātavaḥ / kāraṇānapekṣāḥ tathatā / sarvāryajanasantānaprabhavāni caturdhyānāni / samyaksambuddhasantānodayadharmīṇi daśabalāni ityevamadhigamānukrameṇa sarvadharmā yathāvadālambyanta ityālambanamekādaśavidham /
+</p><p xml:id="78">
+6 - samuddeśaḥ
+</p><p xml:id="79">
+tādṛśālambanapratipatteḥ kaḥ samuddeśa iti samuddeśamāha -
+</p>
+<lg xml:id="Abhis_1.43">
+<l>sarvasattvāgratā cittaprahāṇādhigamatraye /</l>
+<l>tribhirmahattvairuddeśo vijñeyo 'yaṃ svayambhuvām //</l>
+</lg>
+<p xml:id="80">
+sarvathā sarvākārajñatāparijñānena bhaviṣyadbuddhabodhisattvānāṃ sarvasattva (rāśi)-akhilasattva (nikāya)-agratācittamahattvaṃ prahāṇamahattvamadhigamamahattvañcādhikṛtya pratipattau pravṛttatvānmahattvānmahattvatrayayuktatvācca trividhaḥ samuddeśo jñātavyaḥ /
+</p><p xml:id="81">
+7 - sannāhapratipattiḥ
+</p><p xml:id="82">
+ityevaṃ pratipattyādhārādīn abhidhāya kiñca tatsvarūpamiti cet? sā trisarvajñatāviṣaye sāmānyena śukladharmādhiṣṭhānā, sarvākārābhisambodhādau caturvidhe 'bhisamaye pratyabhisamayaṃ ṣaṭpāramitādhiṣṭhānā ca kriyā paripattiḥ / evaṃ yathāvat prayogadarśanabhāvanāviśeṣamārgasvabhāvānāṃ pratipattilakṣaṇānāṃ sannāhaprasthānasambhāraniryāṇānāṃ madhye
+</p><p xml:id="83">
+vīryarūpatayā sannāhapratipattiṃ prathamāmāha -
+</p>
+<lg xml:id="Abhis_1.44">
+<l>dānādau ṣaḍvidhe teṣāṃ pratyekaṃ saṃgraheṇa yā /</l>
+<l>sannāhapratipattiḥ ṣā ṣaḍbhiḥ ṣaṭkairyathoditā //</l>
+</lg>
+<p xml:id="84">
+iti / dharmadānādidāne śrāvakādimanaskāraparivarjanam, sarvajanāpriyavāditvakṣāntiḥ, chandajananam, yānāntarāvyavakīrṇaikāgratānuttarasamyaksambodhipariṇāmanā yathākramaṃ deyādyanupalambhasannāhatvena kriyante / tathaiva śīlasya rakṣaṇam, kṣānteḥ sampādanam, vīryasya prārambhaḥ, dhyānasya ārādhanam, prajñāyā bhāvanā ityevaṃ dānādiṣaṭpāramitāsu pratyekaṃ dānādau saṃgṛhītāsu ṣaḍbhiḥ ṣaṭkaiḥ ṣaṭtriṃśadvidyā bhavanti dānādisādharmyācca ṣaṭ sannāhapratipattayo bhavanti /
+</p><p xml:id="85">
+8 - prasthānapratipattiḥ
+</p><p xml:id="86">
+kṛtasannāhasyaivaṃ prasthānamiti prasthānapratipattiṃ dvitīyāmāha -
+</p>
+<lg xml:id="Abhis_1.45">
+<l>dhyānārūpyeṣu dānādau mārgai maitryādikeṣu ca /</l>
+<l>gatopalambhayoge ca trimaṇḍalaviśuddhiṣu //</l>
+</lg>
+<lg xml:id="Abhis_1.46">
+<l>uddeśe ṣaṭsvabhijñāsu sarvākārajñatānaye /</l>
+<l>prasthānapratipajjñeyā mahāyānādhirohiṇo //</l>
+</lg>
+<p xml:id="87">
+dhyānārūpyasamāpatti-dānādiṣaṭpāramitā-darśanabhāvanāśaikṣaviśeṣamārga-caturapramāṇa-anupalambhayoga-sarvavastutrimaṇḍalaviśuddhi-uddeśa-ṣaḍabhijñā-sarvākārajñatāsu samyagvyavasthitilakṣaṇā hi samastamahāyānadharmākramaṇasvabhāvā prasthānapratipattiḥ navadhā /
+</p><p xml:id="88">
+9 - sambhārapratipattiḥ
+</p><p xml:id="89">
+kṛtaprasthānasyaivaṃ sambhāra iti sambhārapratipattiṃ tṛtīyāmāha -
+</p>
+<lg xml:id="Abhis_1.47">
+<l>dayā dānādhikaṃ ṣaṭkaṃ śamathaḥ savidarśanaṃ /</l>
+<l>yuganaddhaśca yo mārgaṃ upāye yacca kauśalam //</l>
+</lg>
+<lg xml:id="Abhis_1.48">
+<l>jñānaṃ puṇyaṃ mārgaśca dhāraṇī bhūmayo daśa /</l>
+<l>pratipakṣaśca vijñeyaḥ sambhārapratipatkramaḥ //</l>
+</lg>
+<p xml:id="90">
+mahākaruṇa-dāna-śīla-vīrya-dhyāna-prajñā-śamatha-vidarśanā-yuganaddhamārga-upāyakauśala-jñāna-puṇya-darśanādimārga-vacanādidhāraṇī-bhūmi-pratipakṣāṇāmanupalambhena saṃvṛtisatyānatikrameṇa samastamahāyānārthapratipatterebhiḥ karuṇādibhiḥ samyak-pratipatsvābhāvyāt mahābodhigrahaṇāt mahākaruṇādisambhārā iti saptadaśa sambhārapratipattayaḥ / tatra jñānasambhāraḥ ādhyātmika-bāhya-tadubhaya-śūnyatā-mahat-paramārtha-saṃskṛta-asaṃskṛta-atītānanta-anavarāgra-anavakāra-prakṛti-sarvadharma-lakṣaṇa-anupalambha-abhāvasvabhāva-bhāva-abhāva-svabhāva-parabhāvaśūnyatānāṃ bhedena viṃśatidhā /
+</p><p xml:id="91">
+ādhyātmikatvabāhyatvobhayaśūnyatvatastathā /<lb/>
+diṅnirvāṇārthataścaiva saṃskṛtāsaṃskṛtatvataḥ // 1 //<lb/>
+atyantānavarāgratvānavakārākṛtātvataḥ /<lb/>
+sarvadharmatvalakṣmatvābhyatītāditvataḥ punaḥ // 2 //<lb/>
+sāṃyogikatvabhāvatvākāśaśūnyasvabhāvataḥ /<lb/>
+svasvabhāvaviyuktatvād viṃśatiḥ śūnyatā matāḥ // 3 //
+</p><p xml:id="92">
+bhūmisambhāreṇa daśabhūbhaya iti pariṣkriyamāṇānāṃ dharmāṇāṃ saṃdarśanāya trayoviṃśatirantaraślokā kathyante -
+</p><p xml:id="93">
+1. pramuditā bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.49">
+<l>labhyate prathamā bhūmirdaśadhā parikarmaṇā /</l>
+<l>āśayo hitavastutvaṃ sattveṣu samacittatā //</l>
+</lg>
+<lg xml:id="Abhis_1.50">
+<l>tyāgaḥ sevā ca mitrāṇāṃ saddharmālambanaiṣaṇā /</l>
+<l>sadā naiṣkramyacittatvaṃ buddhakāyagatā spṛhā //</l>
+</lg>
+<lg xml:id="Abhis_1.51">
+<l>dharmasya deśanā satyaṃ daśamaṃ vākyamiṣyate /</l>
+<l>jñeyañca parikarmaiṣāṃ svabhāvānupalambhataḥ //</l>
+</lg>
+<p xml:id="94">
+iti / yathāvat sarvavastuṣu akauṭilyāśayaḥ, sva-paraprayojane hitatvam, sarvasattveṣu samacittatā, sarvasvaparityāgaḥ, kalyāṇamitrārāgaṇam, yānatrayasaṅgṛhīta saddharmālambanaparyeṣṭiḥ, gṛhavāsānabhiratiḥ, anuttarabuddhakāyagatā spṛhā, saddharmaprakāśanam, satyavāditetyevamebhirdaśabhirlakṣaṇadharmaiḥ sarvathotpadyamānattvāt parikarmabhiḥ kāraṇaviśeṣaiḥ svabhāvānupalambhatayā kṛtaviśeṣalakṣaṇaparikarmabhireva prathamā pramuditā bhūmiḥ prāpyate /
+</p><p xml:id="95">
+2 - vimalā bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.52">
+<l>śīlaṃ kṛtajñatā kṣānti pramodyaṃ mahatī kṛpā /</l>
+<l>gauravaṃ guruśuśrūṣā vīryaṃ dānādike 'ṣṭamam //</l>
+</lg>
+<p xml:id="96">
+iti kuśaladharma-sattvārthakriyā-saṃvaraśīlāni, parakṛtopakārasya avismaraṇam (avipraṇāśanam), parakṛtāpakārādau kṣāntiḥ, kuśaladharmasyārādhane 'vipratisāraḥ, sarvajaneṣu maitrī, upādhyāyādiṣu praṇamanam, kalyāṇamitranirdiṣṭadharmasādhanā, dānādiṣaṭpāramitāsu paryeṣṭirityevaṃ kṛtaparikarmaviśeṣeṇāṣṭaprakāradharmeṇa dvitīyā vimalā bhūmiradhigamyate /
+</p><p xml:id="97">
+3. prabhākarī bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.53">
+<l>atṛptatā śrute dānaṃ dharmasya ca nirāmiṣam /</l>
+<l>buddhakṣetrasya saṃśuddhiḥ saṃsārāparikheditā //</l>
+</lg>
+<p xml:id="98">
+hrīrapatrāpyamityetat pañcadhā mananātmakam /
+</p><p xml:id="99">
+iti / saddharmaśravaṇe tṛpterajñānam, lābhādinirapekṣacittena saddharmaprakāśanam, svabuddhakṣetrāśrayāśritasaṃśodhanam, upakṛtasattvavaiparītyādidarśanena na parikhedāpattiḥ, svaparāpekṣayā akuśaladharmākaraṇamityevaṃ pañcadhā parikarmaṇā pūrvavat kṛtānavabudhyamānasvabhāvaparikarmaṇā tṛtīyā prabhākarī bhūmiravabudhyate /
+</p><p xml:id="100">
+4. arciṣmatī bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.54">
+<l>vanāśā 'lpecchatā tuṣṭirdhūtasaṃlekhasevanam //</l>
+</lg>
+<lg xml:id="Abhis_1.55">
+<l>śikṣāyā aparityāgaḥ kāmānāṃ vijugupsanam /</l>
+<l>nirvitsarvāstisantyāgo 'navalīnānapekṣate //</l>
+</lg>
+<p xml:id="101">
+iti / araṇyāvāsaḥ, aprāptalābheṣu anabhilāṣaḥ, prāptalābheṣvanadhikābhyarthanā, bhikṣādidhautaguṇasaṃvaraṇam, gṛhītaśikṣāṇāṃ prāṇādibhyo 'pi aparityajanam, kāmaguṇeṣu doṣopalambhadarśanena nindanam, vineyānusāreṇa nirvāṇe pravaṇatvam, sarvasvaparityāgaḥ, kuśalasādhane cittāsaṃkocaḥ, sarvavastvanapekṣaṇamityevaṃ pūrvavaddaśaprakāreṇa caturthī arciṣmatī bhūmirabhirūhyate /
+</p><p xml:id="102">
+5. sudurjayā bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.56">
+<l>saṃstavaṃ kulamātsaryaṃ sthānaṃ saṅgaṇikāvaham /</l>
+<l>ātmotkarṣaparāvajñe karmamārgān daśāśubhān //</l>
+</lg>
+<lg xml:id="Abhis_1.57">
+<l>mānaṃ stambhaṃ viparyāsaṃ vimatiṃ kleśamarṣaṇam /</l>
+<l>vivarjayan samāpnoti daśaitān pañcamīṃ bhuvam //</l>
+</lg>
+<p xml:id="103">
+iti / lābhādyarthaṃ gṛhipravrajitādibhiḥ saṃvāsaḥ, śrāddhakulānupadarśanam, janākīrṇanagarādi, svapraśaṃsanaparanindane, daśākuśalakarmapathāḥ, śrutādyabhimānaḥ, parāpraṇamanam, kuśalākuśalaviparītābhīniveśaḥ, mithyādṛṣṭyādikumatiḥ, sarvarāgādisarvakleśābhimukhīkaraṇaṃ cetyevaṃlakṣaṇān daśadharmān vivarjayan arthādākṣiptaviparyayadharmeṇa daśaprakāraparikarmaṇā pūrvavat pañcamī sudurjayā bhūmirākramyate /
+</p><p xml:id="104">
+6. abhimukhī bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.58">
+<l>dānaśīlakṣamāvīryadhyānaprajñāprapūraṇāt /</l>
+<l>śiṣyakhaḍgaspṛhātrāsacetasāṃ parivarjakaḥ //</l>
+</lg>
+<lg xml:id="Abhis_1.59">
+<l>yācito 'navalīnaśca sarvatyāge 'pyadurmanāḥ /</l>
+<l>kṛśo 'pi nārthināṃ kṣeptā ṣaṣṭhīṃ bhūmiṃ samaśnute //</l>
+</lg>
+<p xml:id="105">
+dānādiṣaṭpāramitāparipūraṇena śrāvakapratyekabuddhābhilāṣasya svabhāvānupalambhotttrāsasya ca yācakajanaprārthanāsaṃkocasya svarasapravṛttasarvārthatyāgadaurmanasyasya dāridryādarthijanapratikṣepacittasya ca varjanenetyevaṃ dvādaśabhiḥ parikarmabhiḥ pūrvavat ṣaṣṭhī abhimukhī bhūmirājñāyate /
+</p><p xml:id="106">
+7. dūraṅgamā bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.60">
+<l>ātmasattvagraho jīvapudgalocchedaśāśvataḥ /</l>
+<l>nimittahetvoḥ skandheṣu dhātuṣvāyataneṣu ca //</l>
+</lg>
+<lg xml:id="Abhis_1.61">
+<l>traidhātuke pratiṣṭhānaṃ saktirālīnacittatā /</l>
+<l>ratnatritayaśīleṣu taddṛṣṭyabhiniveśitā //</l>
+</lg>
+<lg xml:id="Abhis_1.62">
+<l>śūnyatāyāṃ vivādaśca tadvirodhaśca viṃśatiḥ /</l>
+<l>kalaṅkā yasya vicchinnāḥ saptamīmetyasau bhuvam //</l>
+</lg>
+<p xml:id="107">
+iti / ātmasattvajīvapudgalocchedaśāśvatanimittahetuskandhadhātvāyatanatraidhātukādhiṣṭhāna-saktyālīnacittabuddhadharmasaṃghaśīladṛṣṭyabhiniveśaśūnyatāvivādavirodhodbhāvanāgrahotsṛṣṭayaścetyevaṃ viṃśatiprakārakalaṅkāpagamādākṣiptaviparyayadharmeṇa viṃśatiprakāreṇa parikarmadharmeṇa pūrvavat saptamī dūraṅgamā bhūmiḥ samīyate /
+</p><p xml:id="108">
+arthākṣiptadharmatānirdeśāyāha -
+</p>
+<lg xml:id="Abhis_1.63">
+<l>trivimokṣamukhajñānaṃ trimaṇḍalaviśuddhatā /</l>
+<l>karuṇāmananā dharmasamataikanayajñatā //</l>
+</lg>
+<lg xml:id="Abhis_1.64">
+<l>anutpādakṣamājñānaṃ dharmāṇāmekadheraṇā /</l>
+<l>kalpanāyāḥ samuddhātaḥ saṃjñādṛkkleśavarjanam //</l>
+</lg>
+<lg xml:id="Abhis_1.65">
+<l>śamathasya ca nidhyaptiḥ kauśalañca vidarśane /</l>
+<l>cittasya dāntatā jñānaṃ sarvatrāpratighāti ca //</l>
+</lg>
+<lg xml:id="Abhis_1.66">
+<l>sakterabhūmiryatrecchaṃ kṣetrāntaragatiḥ samam /</l>
+<l>sarvatra svātmabhāvasya darśanañceti viṃśatiḥ //</l>
+</lg>
+<p xml:id="109">
+śūnyatā 'nimittāpraṇihitavimokṣamukhasamyagjñānam, daśakuśalakarmapatheṣu vadhavadhyaghātakānupalambhādi, sarvasattvālambanakaruṇā, vastvanupalambhaḥ, sarvadharmasamatāvabodhaḥ, mahāyānaikayānāvabodhaḥ, anutpādaparijñānam, gambhīradharmanidhyānakṣāntyavagamaḥ, sarvajñeyānāṃ mahāyānopāyamukhena prakāśanam, sarvakalpanocchedaḥ, nimittodgrahaṇavikalpābhāvasatkāyādipañcadṛṣṭisantyāgaḥ, rāgādikleśavarjanāni, śamathabhāvanā, prajñākauśalyam, cittopaśamaḥ, rūpādyapratighātajñānam, abhiniveśāsthānam, yatheṣṭasamakālabuddhakṣetragamanam, vineyānurūpaṃ sarvatra svakāyaprakāśanamiti viṃśatiprakāreṇānena parikarmadharmeṇāpi pūrvavat saptamī bhūmiḥ samīyate /
+</p><p xml:id="110">
+8. acalā bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.67">
+<l>sarvasattvamanojñānamabhijñākrīḍanaṃ śubhā /</l>
+<l>buddhakṣetrasya niṣpattirbuddhasevāparīkṣaṇe //</l>
+</lg>
+<lg xml:id="Abhis_1.68">
+<l>akṣajñānaṃ jinakṣetraśuddhirmāyopamā sthitiḥ /</l>
+<l>sañcintya ca bhavādānamidaṃ karmāṣṭaghoditam //</l>
+</lg>
+<p xml:id="111">
+iti / yathāvatsarvasattvacittacaritajñānam, lokadhātau ṛddhyabhijñābhiḥ krīḍanam, ādhārabuddhakṣetrasuvarṇādibhāvapariṇāmaḥ, sarvākāradharmaparīkṣaṇena buddharāgaṇam, divyacakṣuṣo niṣpattiḥ, ādheyabuddhakṣetrasattvapariśodhanam, sarvatra māyopamatāvasthānam, sarvasattvārthadarśanāda buddhipūrvakajanmagrahaṇañcetyevamaṣṭaprakāradharmeṇa parikarmaṇā pūrvavadaṣṭamī acalā bhūmiranubhūyate /
+</p><p xml:id="112">
+9. sādhumatī bhūmiḥ
+</p>
+<lg xml:id="Abhis_1.69">
+<l>praṇidhānānyanantāni devādīnāṃ rūtajñatā /</l>
+<l>nadīva pratibhānānāṃ garbhāvakrāntiruttamā //</l>
+</lg>
+<lg xml:id="Abhis_1.70">
+<l>kulajātyośca gotrasya parivārasya janmanaḥ /</l>
+<l>naiṣkramyabodhivṛkṣāṇāṃ guṇapūre svasampadaḥ //</l>
+</lg>
+<p xml:id="113">
+iti / anantapraṇidhānam, devādisarvasattvarutajñānam, nadyupamitākṣayapratibhānam, sarvajanapraśastagarbhāvakramaṇam, rājādisthānam, ādityādyanvayaḥ, mātrādisusambandhajñātiḥ, svavidheyaparivāraḥ, śakrādyabhinanditotpādaḥ, buddhādisañcodananiṣkramaṇam, cintāmaṇisadṛśāśvatthavṛkṣādiḥ, buddhabuddhadharmasvabhāvaguṇaparipūraṇañcetyevaṃ sampattilakṣaṇairdvādaśabhiḥ parikarmabhiḥ pūrvavatkṛtaparikarmaviśeṣairnavamī sādhumatī bhūmiḥ sākṣātkriyate /
+</p><p xml:id="114">
+10. dharmameghā bhūmiḥ
+</p><p xml:id="115">
+hetubhūmitvena tatparikarmāṇyevaṃ nirdiśya phalabhūmitvena pṛthak tānyanabhidhāya saṅgrahaṇena daśamabhūmilakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_1.71">
+<l>navabhūmīratikramya buddhabhūmau pratiṣṭhate /</l>
+<l>yena jñānena sā jñeyā daśamī bodhisattvabhūḥ //</l>
+</lg>
+<p xml:id="116">
+iti / śrāvakādigotra-prathamaphalapratipannaka-srota-āpanna-sakṛdāgāmi-anāgāmi-arhatāmiti ṣaṇṇāṃ nayatrayavyavasthāpanābhiprāyeṇa śeṣasaṅgṛhītāpannakatrayasya pratyekabuddhasya ca yathākramaṃ gotra-aṣṭamaka-darśana-tanu-vītarāga-kṛtavikalpa-śrāvaka-pratyekabuddhabhūmayaḥ, bodhisattvānāṃ yathoktā navavidhetyevaṃ navabhūmīratikramya daśamyāṃ punaḥ bhūmau bodhisattvo buddha eva vaktavyo na tu samyaksambuddha iti vacanāt buddhabhūmau yena praṇidhānajñānenāvatiṣṭhate sā eva daśamī bodhisattvabhūmiḥ jñeyā /
+</p><p xml:id="117">
+(pratipakṣasambhāraḥ)
+</p><p xml:id="118">
+pratipakṣasambhārārthaṃ antaraślokamāha -
+</p>
+<lg xml:id="Abhis_1.72">
+<l>pratipakṣo 'ṣṭadhā jñeyo darśanābhyāsamārgayoḥ /</l>
+<l>grāhyagrāhakavikalpānāmaṣṭānāmupaśāntaye //</l>
+</lg>
+<p xml:id="119">
+iti / sāṃkleśikavastumātrapratipakṣādhiṣṭhānagrāhyavikalpadvayasya dravyapudgalaprajñaptipuruṣādhiṣṭhānagrāhakavikalpadvayasya ca darśanamārgabhāvanāmārgayoḥ prahāṇād grāhyagrāhakāṣṭavikalpopaśāntaye satyadvayamāśritya sākṣātkaraṇīyā vipakṣabhedena mārgadvayāvasthāyāmeva aṣṭavidhāḥ pratipakṣāḥ /
+</p><p xml:id="120">
+10. niryāṇapratipatiḥ
+</p><p xml:id="121">
+sambhṛtasambhārasyaivaṃ niryāṇamiti niryāṇapratipattiṃ caturthīṃmāha -
+</p>
+<lg xml:id="Abhis_1.73">
+<l>uddeśe samatāyāñca sattvārthe yatnavarjane /</l>
+<l>atyantāya ca niryāṇaṃ niryāṇaṃ prāptilakṣaṇam //</l>
+</lg>
+<lg xml:id="Abhis_1.74">
+<l>sarvākārajñatāyāñca niryāṇaṃ mārgagocaram /</l>
+<l>niryāṇapratipajjñeyā seyamaṣṭavidhātmikā //</l>
+</lg>
+<p xml:id="122">
+iti / yathokta uddeśaḥ , sarvadharmasamatā, sattvārthakaraṇam, animittasarvakriyākāritvenānābhogaḥ, śāśvatocchedarahitāvasthāviśeṣaḥ, triyānasarvārthaprāptiḥ, yathoktasarvākārajñatā tadviśiṣṭamārga ityevaṃ niryātavyavastuṣu prativiśiṣṭānyadharmābhāvena sarvānupalambhatayā ebhiraṣṭābhirniryāṇapratipattiḥ aṣṭadhā bhavati /
+</p><p xml:id="123">
+iti abhisamayālaṅkāre nāma prajñāpāramitāśāstre prathamādhikāravṛttiḥ /
+</p><p xml:id="124">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="125">
+Mārgajñatādhikāraḥ dvitīyaḥ
+</p><p xml:id="126">
+1 - dhyāmīkaraṇatādīni
+</p><p xml:id="127">
+sarvākārajñatādhigamo na vinā mārgajñatāparijñāneneti mārgajñatāmāha -
+</p>
+<lg xml:id="Abhis_2.1">
+<l>dhyāmīkaraṇatā bhābhirdevānāṃ yogyatāṃ prati /</l>
+<l>viṣayo niyato vyāptiḥ svabhāvastasya karma ca //</l>
+</lg>
+<p xml:id="128">
+mārgajñatotpattiṃ prati yogyatāpādanāya devādīnāṃ svakarmajaprabhāyāstathāgataprakṛtiprabhābhirmalinīkaraṇatā nihatamānasantāne 'dhigama utpadyata iti jñāpanāya kṛtā, ato vakroktyādhāraḥ kathitaḥ / sa cotpāditabodhicitta eveti viṣayapratiniyato bhavati / triyānavyavasthānamābhiprāyikam, na lākṣaṇikamiti nyāyādanuttarasamyaksambodhiparyavasāna eva sarvo jana ityato vītarāgetarayogināpi buddhatvaprāptaye mārgajñatā bhāvanīyeti vyāptirbhavati / sattvārthakaraṇapravṛttatvenotpāditabodhicittasya sarvathā kleśāprahāṇamiti svabhāvo bhavati / tādṛśasvabhāvasya bhūtakoṭerasākṣātkaraṇena prayopāyakauśalena cāparigṛhītasattvasya parigrahaṇādineti kāritram /
+</p><p xml:id="129">
+2 - śrāvakamārgaḥ
+</p><p xml:id="130">
+ādhārādikamevamamidhāya mārgajñatādhikāre sarve mārgāḥ paripūrayitavyā iti śrāvakamārgamāha -
+</p>
+<lg xml:id="Abhis_2.2">
+<l>caturṇāmāyasatyānāmākārānupalambhataḥ /</l>
+<l>śrāvakāṇāmayaṃ mārgo jñeyo mārgajñatānaye //</l>
+</lg>
+<p xml:id="131">
+iti / tatra duḥkhasatyasyānukrameṇa anityaṃ duḥkhaṃ śūnyamanātmetyetāni catvāri śāntākāralakṣaṇāni /
+</p><p xml:id="132">
+samudayasatyasya hetu-samudaya-prabhava-pratyayarūpatvena roga-gaṇḍa-śalya-aghākārāḥ /
+</p><p xml:id="133">
+nirvide virāgāya nirodhāya ca pratipanno bhavatītyatastayoḥ duḥkhasamudayayoḥ pratyekaḥ para-pralopadharmasvarūpau nirvidākārau, cala-prabhaṅgurasvarūpau virāgākārau; bhaya-upasarga-upadravasvarūpā nirodhākārāḥ / nirodhasatyasya nirodharūpa-nirātma-śānta-praṇītarūpavivikta-niryāṇarūpaśūnyānimittāpraṇihitānabhisaṃskārā nirodhasatyākārāḥ /
+</p><p xml:id="134">
+mārgasatyasya mārga-nyāya-pratipatti-nairyāṇikā iti mārgasatyākārāḥ / tataścaiṣāṃ svabhāvānupalambhabhāvanayā mārgajñatādhikāre śrāvakāṇāṃ mārgo bodhisatvenaivaṃ parijñeyaḥ /
+</p><p xml:id="135">
+nirvedhabhāgīyādhigamapūrvakaṃ catuḥsatvaparijñānamiti mārgamamidhāya nirvedhabhāgīyamāha-
+</p>
+<lg xml:id="Abhis_2.3">
+<l>rūpādiskandhaśūnyatvācchūnyatānāmabhedataḥ /</l>
+<l>ūṣmāṇo 'nupalambhena teṣāṃ mūrdhagataṃ matam //</l>
+</lg>
+<lg xml:id="Abhis_2.4">
+<l>kṣāntayasteṣu nityādigosthānaniṣedhataḥ /</l>
+<l>daśa bhūmīḥ samārabhya vistarāsthānadeśanāt //</l>
+</lg>
+<lg xml:id="Abhis_2.5">
+<l>agradharmagataṃ proktamāryaśrāvakavartmani /</l>
+<l>tatkasya hetorbuddhena buddhvā dharmāsamīkṣaṇāt //</l>
+</lg>
+<p xml:id="136">
+rūpādiskandhānāṃ svasvarūpaśūnyatvācchūnyatānāmabhedena, rūpādīnāṃ pūrvavadanupambhena, evaṃ rūpādīnāṃ 'na nityaṃ nānityam' ityupalambhayogataḥ sthānaniṣedhena, yasmāt tathāgatena bodhimabhisambudhya dharmā na samīkṣitā iti pramāṇapuruṣādarśanakāraṇopapattyā pramuditabhūmyādau vistarāsthānadeśanayā ceti ebhirākārairyathākramaṃ satyānāmupalabdhau nirvedhabhāgīyā utpadyante /
+</p><p xml:id="137">
+3 - pratyekabuddhamārgaḥ
+</p><p xml:id="138">
+śrāvakamārgānantaraṃ pratyekabuddhānāṃ mārgābhidhāne nyāyaprāpte 'pi śrāvakebhyaḥ kathaṃ prativiśiṣṭāste yena teṣāṃ mārgabheda ityāśaṅkya vaiśiṣṭyapratipādanārthaṃ tāvadāha -
+</p>
+<lg xml:id="Abhis_2.6">
+<l>paropadeśavaiyarthyaṃ svayambodhāt svayambhuvām /</l>
+<l>gambhīratā ca jñānasya khaḍgānāmabhidhīyate //</l>
+</lg>
+<p xml:id="139">
+iti / śrāvakāḥ paropadeśasāpekṣāḥ svabodhiṃ budhyante; sālāpadharmadeśanayā ca parānapi kuśale pravartayantītyāgamaḥ / pratyekabuddhāḥ punaḥ svayaṃ pūrvaśrutādyabhisaṃskāreṇa paropadeśaṃ pratyanapekṣāḥ svabodhisamadhigacchantyatasteṣāṃ buddhādyupadeśanairarthakyamityekaṃ vaiśiṣṭyam / śabdoccāraṇadharmadeśanayā śrotṛbhiḥ kriyate vaktṛjñānasāmarthyāvabodhaḥ / te (pratyekabuddhāḥ) punaḥ aśabdoccāraṇadharmadeśanayā svādhigatajñānādisāmarthyena parān daśakuśalādau pravartayantyatasteṣāṃ jñānasyānavabodhatayā dvitīyaṃ vaiśiṣṭyamiti /
+</p><p xml:id="140">
+kathamaśabdoccāraṇadharmadeśanetyāśaṃkyāha -
+</p>
+<lg xml:id="Abhis_2.7">
+<l>śuśrūṣā yasya yasyārthe yatra yatra yathā yathā /</l>
+<l>sa so 'rthaḥ khyātyaśabdo 'pi tasya tasya tathā tathā //</l>
+</lg>
+<p xml:id="141">
+iti / nāvitarkya nāvicārya vācaṃ bhāṣata ityālāpo vikṣepaḥ / sa ca santānakṣobhamādadhātīti yathā yathā bodhisattvena 'buddho bhūtvā ālāpamantareṇa dharmadeśanāṃ kuryām' iti praṇidhānaṃ pravartitam, tathā buddhatvasāmyāt pratyekabuddhāvasthāyāñca praṇidhānādisāmarthyena yasminnarthe yena prakāreṇa yasya śravaṇecchā, tasya vijñāne tenaiva prakāreṇa aśabdo 'pi so 'rthaḥ pratibhātītyaśabdadharmadeśanocyate / ityevaṃ vakṣyamāṇadharmasya śrotṛvijñāne sunirmāṇamutpādaścetyayaṃ bhavati dharmadeśanā śabdārthaḥ /
+</p><p xml:id="142">
+vaiśiṣṭyamevamabhidhāya viśiṣṭānāṃ viśiṣṭa eva mārga iti prakṛtapratyekabuddhamārgamāha -
+</p>
+<lg xml:id="Abhis_2.8">
+<l>grāhyārthakalpanāhānād grāhakasyāprahāṇataḥ /</l>
+<l>ādhārataśca vijñeyaḥ khaḍgamārgasya saṅgrahaḥ //</l>
+</lg>
+<p xml:id="143">
+ityuktam / pratyekabuddhasya mārgaḥ yathoktasatyabhāvanayā eva, yathāavastu pratītyasamutpādabhāvanayā ca / grāhyagrāhakārthavikalpayoryathākramaṃ prahāṇāprahāṇe pratyekabuddhayānasaṅgṛhītādhāradharmavastuno viśeṣaviśiṣṭadharmādhigamaśca bodhisattvena parijñeyo na sarvākārajñāneneti pratyekabuddhamārgaḥ /
+</p><p xml:id="144">
+nirvedhabhāgīyādhigame sati yathoktamārga utpadyata iti nirvedhabhāgīyamāha -
+</p>
+<lg xml:id="Abhis_2.9">
+<l>prajñapteravirodhena dharmatāsūcanākṛtiḥ /</l>
+<l>ūṣmagaṃ mūrdhaṃgaṃ rūpādyahānādiprabhāvitam //</l>
+</lg>
+<lg xml:id="Abhis_2.10">
+<l>adhyātmaśūnyatādyābhī rūpāderaparigrahāt /</l>
+<l>kṣāntī rūpādyanutpādādyākārairagradharmatā //</l>
+</lg>
+<p xml:id="145">
+iti / rūpādisāṅketikadharmaprajñapteravirodhena dharmatāyāḥ pratipādanenaḥ, rūpādeḥ paramārthato na hānivṛddhyādyarthaṃ śikṣaṇena, svabhāvaśūnyatvāt rūpāderadhyātmabahirdhādiśūnyatayā aparigrahaṇena, rūpāderanutpādānirodhādyākāraiśca yathākramaṃ catuḥsatyālambane nirvedhabhāgīyo bhavati /
+</p><p xml:id="146">
+4 - bodhisattvamārgaḥ
+</p><p xml:id="147">
+pratyekabuddhamārgānantaraṃ bodhisattvamārgamāha -
+</p>
+<lg xml:id="Abhis_2.11">
+<l>kṣāntijñānakṣaṇaiḥ satyaṃ satyaṃ prati caturvidhaiḥ /</l>
+<l>mārgajñatāyāṃ dṛṅmārgaḥ sānuśaṃso 'yamucyate //</l>
+</lg>
+<p xml:id="148">
+iti / mārgajñatādhikāre bodhisattvena dharmajñānakṣāntirdharmajñānamanvayajñānakṣāntiranvayajñānaṃ ceti catvāraḥ kṣāntijñānakṣaṇāḥ pratyekaṃ duḥkhādisatyasambandhayuktā aihikāmutrikairguṇairyuktā vimāvanīyā iti darśanamārgo mahānuśaṃsa ityucyate /
+</p><p xml:id="149">
+kathamākāro bhāvanīya ityāha -
+</p>
+<lg xml:id="Abhis_2.12">
+<l>ādhārādheyatābhāvāttathatābuddhayormithaḥ /</l>
+<l>paryāyeṇānanujñānaṃ mahattā sā 'pramāṇatā //</l>
+</lg>
+<lg xml:id="Abhis_2.13">
+<l>parimāṇāntatābhāvo rūpāderavadhāraṇam /</l>
+<l>tasyāṃ sthitasya buddhatve 'nudgrahātyāgatādayaḥ //</l>
+</lg>
+<lg xml:id="Abhis_2.14">
+<l>maitryādi śūnyatāprāptirbuddhatvasya parigrahaḥ /</l>
+<l>sarvasya vyavadānasya sarvādhivyādhiśātanam //</l>
+</lg>
+<lg xml:id="Abhis_2.15">
+<l>nirvāṇagrāhaśāntatvaṃ buddhebhyo rakṣaṇādikam /</l>
+<l>aprāṇivadhamārabhya sarvākārajñatānaye //</l>
+</lg>
+<lg xml:id="Abhis_2.16">
+<l>svayaṃ sthitasya sattvānāṃ sthāpanaṃ pariṇāmanam /</l>
+<l>dānādīnāñca sambodhāviti mārgajñatākṣaṇāḥ //</l>
+</lg>
+<p xml:id="150">
+paramārthataḥ tathatābuddhayorādhārādheyabhāvo na vidyata ityatastayoḥ paryāyeṇāvasthiterananujñānam / rūpādīnāṃ dharmadhātusvabhāvatayā mahattā tathaiva teṣāmapramāṇatā / pūrvavadākāśāparimāṇatayā teṣāmaparimāṇatetyevaṃ duḥkhasatyākārā bhavanti /
+</p><p xml:id="151">
+rūpādīnāṃ niḥsvabhāvatvena śāśvatocchedādyantābhāvaḥ / prajñāpāramitāyāṃ sthitasya dharmadhātusvabhāvatayā rūpādīnāṃ tathāgatatvāvadhāraṇam / tathaiva tasyāṃ sthitasya sarvadharmāṇāṃ nodgrahatyāgabhāvanādikam / niḥsvabhāvādhimokṣapūrvakaṃ caturapramāṇaṃ vibhāvanīyamityevaṃ samudayasatyākārā bhavanti /
+</p><p xml:id="152">
+rūpādernijarūpā prakṛtyaiva śūnyatā / dharmadhātupariṇāmitakuśalamūlānāṃ phalaṃ tathāgatatvasya prāpaṇam / prajñāpāramitayā sarvākārapratipakṣāṇāṃ saṃgrahaḥ / tayaiva bāhyābhyantaropadravapraśamanamityevaṃ nirodhasatyākārā bhavanti /
+</p><p xml:id="153">
+niḥsvabhāvatābhāvanayaiva rūpādinirvāṇābhiniveśasya śāntiḥ / prajñopāyakauśalapravṛttasya buddhebhyo rakṣāvaraṇaguptayo bhavanti / buddhatvābhilāṣiṇā svayaṃ prāṇātipātaviratyādipūrvakaṃ sarvākārajñatāyāṃ sthitvā tatraiva pareṣāṃ sthāpanam / dānādīnāmakṣayaṃ kartumicchatā samyaksambodhau pariṇāmanamityevaṃ mārgasatyasyākārā bhavanti / ityevameva mārgajñatāyāḥ kṣaṇā bhavanti /
+</p><p xml:id="154">
+kecidiha kārikārthopalakṣaṇapareṇa granthena ākārārthamanuktvā darśanamārgaṣoḍaśakṣaṇopalakṣaṇameva kevalamanukṛtamiti varṇayanti, evamuktānuktanirvedhabhāgīyādyarthakārikāsvapi draṣṭavyamiti / tairbhāvanānukramādyanirdeśāt kācidabhisamayānupūrvī na pratipāditā / 'ālambanamanityādi satyādhāraṃ tadākṛtiḥ' ityādikārikārthaśca kathaṃ vyākhyeya ityapare /
+</p><p xml:id="155">
+5 - bhāvanāmārgakāritram
+</p><p xml:id="156">
+darśanamārgānantaraṃ bhāvanāmārgābhidhāne sati svalpavaktatvena phalanimnatvena ca vineyapravṛtteḥ tatkāritraṃ tāvat -
+</p>
+<lg xml:id="Abhis_2.17">
+<l>sarvato damanaṃ nāa sarvataḥ kleśanirjayaḥ /</l>
+<l>upakramāviṣahyatvaṃ bodhirādhārapūjyatā //</l>
+</lg>
+<p xml:id="157">
+ityuktam / sarvaprakāracittasvavidheyīkaraṇam, kalyāṇamitrādisarvajananamanam, rāgādyabhibhavaḥ, parakṛtāghātānanupratipatteḥ aviṣahyatvam, samyaksambodhipratipattiḥ, ādhāraviṣayapūjyatākāritrañceti ṣaḍvidhameva kāritram /
+</p><p xml:id="158">
+sāsravo bhāvanāmārgaḥ
+</p><p xml:id="159">
+6 - bhāvanāmārgādhimuktiḥ
+</p><p xml:id="160">
+kāritrānantaraṃ bhāvanāmārgaḥ / sa ca sāsravānāsravabhedena dvividhaḥ / ataḥ sāsravabhāvanāmārgādhimuktipariṇāmanānumodanāmanaskāreṣu prathamaṃ bhāvanāmārgādhimuktimanaskāramāha -
+</p>
+<lg xml:id="Abhis_2.18">
+<l>adhimuktistridhā jñeyā svārthā ca svaparārthikā /</l>
+<l>parārthikaivetyeṣā ca pratyekaṃ trividheṣyate //</l>
+</lg>
+<lg xml:id="Abhis_2.19">
+<l>mṛdvī madhyādhimātrā ca mṛdumṛdvādibhedataḥ /</l>
+<l>sā punastrividhetyevaṃ saptaviṃśatidhā matā //</l>
+</lg>
+<p xml:id="161">
+iti / svobhayaparārthopalambhatayā yathādhimokṣaṃ dṛṣṭakuśaladharmadhiṣṭhānā bhāvanāmārgādhikārādādau asākṣātkriyārūpādhimuktiḥ trividhā satī pratyekaṃ mṛdvādibhedena trividhā / evameṣāpi pratyekaṃ mṛdumṛdvādibhedena trividhā / evaṃ navabhistribhiradhimuktiḥ saptaviṃśatiprakārā bhavati /
+</p><p xml:id="162">
+7 - bhāvanāmārgādhimuktasya stutiḥ stobhaḥ praśaṃsā ca
+</p><p xml:id="163">
+tadbhāvakabodhisattvasyotsāhavardhanāya tadadhimokṣasya styutyādayo buddhādibhiḥ kriyanta iti stutiṃ, stobhaṃ praśaṃsāñcāha -
+</p>
+<lg xml:id="Abhis_2.20">
+<l>stutiḥ stobhaḥ praśaṃsā ca prajñāpāramitāṃ prati /</l>
+<l>adhimokṣasya mātrāṇāṃ navakaistribhiriṣyate //</l>
+</lg>
+<p xml:id="164">
+iti / yathādhimokṣadṛṣṭadharmalakṣaṇāṃ prajñāpāramitāṃ prati pravṛttasyādhimokṣamanaskārasya prathamadvitrinavāvasthānāṃ pratyekaṃ navabhiḥ prakārairuttarottarābhinandanaṃ stutiḥ stobhaḥ praśaṃsā ca iṣyate / ataste stutyādayo yathābhūtārthādhigamamātralakṣaṇā nārthavādarūpāḥ /
+</p><p xml:id="165">
+8 - pariṇāmanā
+</p><p xml:id="166">
+evamadhimokṣasya pariṇāmanāsambhavād dvitīyaṃ pariṇāmanāmanaskāramāha -
+</p>
+<lg xml:id="Abhis_2.21">
+<l>viśeṣaḥ pariṇāmastu tasya kāritramuttamam /</l>
+<l>nopalambhākṛtiścāsāvaviparyāsalakṣaṇaḥ //</l>
+</lg>
+<lg xml:id="Abhis_2.22">
+<l>vivikto buddhapuṇyaughasvabhāvasmṛtigocaraḥ /</l>
+<l>sopāyaścānimittaśca buddhairabhyanumoditaḥ //</l>
+</lg>
+<lg xml:id="Abhis_2.23">
+<l>traidhārukāprapannaśca pariṇāmo 'parastridhā /</l>
+<l>mṛdurmadhyo 'dhimātraśca mahāpuṇyodayātmakaḥ //</l>
+</lg>
+<p xml:id="167">
+iti / yathokto viśeṣādhimokṣaḥ, anupalambhaḥ, aviparyāsaḥ, viviktaḥ, tathāgatakuśalamūlaudhasvabhāvasmṛtiḥ, sopāyakauśalaḥ, animittaḥ, buddhānujñātaḥ, traidhātukāprapannaḥ, mṛdumadhyādhimātraśca mahāpuṇyodaya ityevamadhyāropitamanaskārā yathākramamanuttarasamyaksambodhiḥ śīlādiskandha-pariṇāmanācitta-ātmādiyuktavastu-trikālabuddhakuśala-dānādi-nimitta-sarvamārga-kāmādidhātu-daśakuśalakarmapatha-srota-āpannādyanuttarasambodhiprasthitānāmanupalabdhānāmupalambhā iti triyānavineyasattvānāṃ mārgopadeśahetubhāvavyāpārayuktaiḥ sarvasattvārthamakṣayāya cānuttarasamyaksambodhau dvādaśa pariṇāmanāḥ kriyante /
+</p><p xml:id="168">
+9 - anumodanā
+</p><p xml:id="169">
+evaṃ pariṇāmayitavastu abhivardhayitavyamiti tṛtīyamanumodanāmanaskāramāha -
+</p>
+<lg xml:id="Abhis_2.24">
+<l>upāyānupalambhābhyāṃ śubhamūlānumodanā /</l>
+<l>anumode manaskārabhāvaneha vidhīyate //</l>
+</lg>
+<p xml:id="170">
+iti / saṃvṛtyupāyena kuśalamūlānyupalabhya pramuditacittena paramārthato 'nupalambhatayānumodanīyānīti /
+</p><p xml:id="171">
+tatrāyaṃ samāsārthaḥ-ākarānniṣkṛṣṭaḥ svarṇapiṇḍa ivādhimokṣamanaskāraḥ, svarṇakāreṇa tato 'laṅkārakaraṇamiva samyaksambodheraṅgakaraṇaṃ pariṇāmanāmanaskāraḥ, svaparapuṇyasamatāprāpti anumodanāmanaskāra iti /
+</p><p xml:id="172">
+anāsravo bhāvanāmārgaḥ
+</p><p xml:id="173">
+10 - abhinirhāraḥ
+</p><p xml:id="174">
+sāsravānantaramanāsravo bhāvanāmārgaḥ / sa ca dvividha iti prathamamabhinirhāralakṣaṇaṃ bhāvanāmārgamāha -
+</p>
+<lg xml:id="Abhis_2.25">
+<l>svabhāvaḥ śreṣṭhatā tasya sarvasyānabhisaṃskṛtiḥ /</l>
+<l>nopalambhena dharmāṇāmarpaṇā ca mahārthatā //</l>
+</lg>
+<p xml:id="175">
+iti / rūpādyaviparītadarśanaṃ svabhāvaḥ / nānyathā buddhatvasaṃprāptiriti śreṣṭhatā / sarvadharmaviśeṣānutpādanena adhigamaprayogo 'nabhisaṃskāraḥ / tādṛśasvabhāvādiyuktamārgadharmāṇāmanupalambhatayā yogisantāne samutpādanamarpaṇā / buddhatvamahārthasādhanānmahārthatā /
+</p><p xml:id="176">
+11 - atyantaviśuddhiḥ tadanantaraṃ yaḥ parigrahatyāgena prāpsyamānaḥ kastasyotpādānutpādaheturiti ākāṃkṣānirāsadvāreṇa dvitīyamatyantaviśuddhilakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_2.26">
+<l>buddhasevā ca dānādirupāye yacca kauśalam /</l>
+<l>hetavo 'trādhimokṣasya dharmavyasanahetavaḥ //</l>
+</lg>
+<lg xml:id="Abhis_2.27">
+<l>mārādhiṣṭhānagambhīradharmatānadhimuktate /</l>
+<l>skandhādyabhiniveśaśca pāpamitraparigrahaḥ //</l>
+</lg>
+<p xml:id="177">
+iti / buddhasamārādhanam, dānādipāramitāparipūraṇam, śamathakauśalañceti utpādahetavaḥ /
+</p><p xml:id="178">
+mārabādhitam, gambhīradharmānadhimokṣaḥ, bhāvagrahaḥ, pāpamitrasaṃgatiriti anutpādahetavaḥ /
+</p><p xml:id="179">
+adhigamānadhigamahetūnevamuktvā prakṛtasya sāmānyena viśuddhimāha -
+</p>
+<lg xml:id="Abhis_2.28">
+<l>phalaśuddhiśca rūpādiśuddhireva tayordvayoḥ /</l>
+<l>abhinnācchinnatā yasmāditi śuddhirūdīritā //</l>
+</lg>
+<p xml:id="180">
+iti / āryapudgalasya yat śrāmaṇyatāphalaṃ tasya sarvavipakṣarahitatvena yā viśuddhiḥ saiva rūpādiviśuddhiḥ, phalarūpādiviśuddhiḥ rūpāderātmābhiniveśādivigamāt / prabhedatvena yasmāt tadviśuddhiḥ abhinnā acchinnā tasmāt svasāmānyalakṣaṇanānātvavirahād evaṃ viśuddhirabhidhīyate /
+</p><p xml:id="181">
+sāmānyena viśuddhimevamabhidhāya viśeṣeṇāha -
+</p>
+<lg xml:id="Abhis_2.29">
+<l>kleśajñeyatrimārgasya śiṣyakhaḍgajinaurasām /</l>
+<l>hānādviśuddhirātyantikī tu buddhasya sarvathā //</l>
+</lg>
+<p xml:id="182">
+iti / rāgādikleśaprahāṇāt, etasya jñeyāvaraṇaikadeśagrāhyavikalpasya ca prahāṇāt, yānatrayamārgāvaraṇaprahāṇād yathākramaṃ śrāvaka-pratyekabuddha-bodhisattvānāṃ śuddhirbhavati / sarvathā savāsanakleśajñeyāvaraṇaprahāṇāt dharmadhātūdbhavānuttarabuddhānāṃ viśuddhiriṣyate /
+</p><p xml:id="183">
+mārgajñatādhikāre viśuddikathanaprasaṅgādātyantikī cetarā ca buddhānāṃ śrāvakādīnāṃ ca yathākramaṃ viśuddhiḥ / saḥ kathamityāha -
+</p>
+<lg xml:id="Abhis_2.30">
+<l>mṛdumṛdvādiko mārgaḥ śuddhirnavasu bhūmiṣu /</l>
+<l>adhimātrādhimātrādermalasya pratipakṣataḥ //</l>
+</lg>
+<p xml:id="184">
+iti / kāradhātudhyānārūpyasamāpattaya iti navabhūmiṣvadhimātrādinavaprakāravipakṣasya pratipakṣabhāvena mṛdumṛdvādimārgo yathākramaṃ navaprakāraḥ / sarvathānyathā ca viśuddhihetutvādātyantikī cetarā ca viśuddhiriti /
+</p><p xml:id="185">
+kathamātyantikītyāha -
+</p>
+<lg xml:id="Abhis_2.31">
+<l>tridhātupratipakṣatvaṃ samatā mānameyayoḥ /</l>
+<l>mārgasya ceṣyate tasya codyasya parihārataḥ //</l>
+</lg>
+<p xml:id="186">
+iti / tatrādhimātrādhimātrādiḥ pratipakṣo mṛdumṛdvādirvipakṣa iti bhavitavyamiticodyasya vastraliptasūkṣmamalāpakaṣarṇe rajakamahāyatnodāharaṇena parihārataḥ yathānirdiṣṭabhāvanāmārgasyātyantikī / traidhātukākārajñānajñeyānupalambhād yā samatā saiva samastapratipakṣatvādātyantikī viśuddhirbuddhasya vyavasthāpyata iti //
+</p><p xml:id="187">
+abhisamayālaṅkāre nāma prajñāpāramitopadeśaśāstre dvitīyādhikāravṛttiḥ
+</p><p xml:id="188">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="189">
+Sarvajñatādhikāraḥ tṛtīyaḥ<lb/>
+1 - prajñayā na bhave sthānam<lb/>
+2 - kṛpayā na śame sthitiḥ
+</p><p xml:id="190">
+sarvavastuparijñānaṃ vinā na mārgajñatāparijñānaṃ samyag iti sarvajñatāmāha -
+</p>
+<lg xml:id="Abhis_3.1">
+<l>nāpare na pare tīre nāntarāle tayoḥ sthitā /</l>
+<l>adhvanāṃ samatājñānāt prajñāpāramitā matā //</l>
+</lg>
+<p xml:id="191">
+iti / traiyadhvikadharmāṇāmanutpādākāreṇa tulyatāvabodhāt buddhabodhisattvānāṃ yā āsannībhūtā matā prajñāpāramitā, sā khalu prajñayā punarnāpare tīre saṃsāre, na pare tīre nirvāṇe ca yathākramaṃ śāśvatocchedalakṣaṇe, na tayormadhye 'pi vyavasthiteti na saṃsāranirvāṇayoḥ vyavasthitā /
+</p><p xml:id="192">
+3 - anupāyena dūratvam<lb/>
+4 - upāyenāvidūratā
+</p><p xml:id="193">
+sarvajñatādhikārād vyatirekanirdeśena śrāvakādīnāṃ tryadhvasamatājñānābhāvāt samyak prajñāpāramitā dūrībhūteti / svādhigamamātrātmikā tu prajñāpāramitā kṛpāprajñāvaikalyānnirvāṇe saṃsāre cāvasthitā vastvastūpalambhatayeti jñeyā / 'yaḥ pratītyasamutpādaḥ śūnyatā saiva te matā' iti nyāyādadhvatrayasamatājñānaṃ padārthāvabodha eva, nanu sa ca sarveṣāmeva samastīti kathaṃ śrāvakabodhisattvādīnāṃ samyak prajñāpāramitādūrībhāvaḥ, na cetareṣāṃ bhavatīti cet? āha -
+</p>
+<lg xml:id="Abhis_3.2">
+<l>anupāyena dūraṃ sā sanimittopalambhataḥ /</l>
+<l>upāyakauśalenāsyāḥ samyagāsannatoditā //</l>
+</lg>
+<p xml:id="194">
+iti / māyākāranirmitavastunaḥ pratibhāse aviditatatsvarūpasya bhāvābhiniveśitā naiḥsvābhāvyāpratibhāsa iva kalyāṇamitrādyupāyakauśalavaikalyād vastu nimittayogena pratipattau tatsamatāparijñānamavijñātabhāvarūpāṇāṃ śrāvakādīnāṃ nāstītyatasteṣāṃ dūrībhāvo jinajananyā iti / bodhisattvānāṃ tu samārādhitakalyāṇamitropadeśatayā aviparītasatyadvayāśritaśrutādijñānotpattyupāyakauśalena ca utsāritabhāvābhiniveśabhrāntinimittānāṃ rūpādisarvadharmaparijñānameva tatsamatāparijñānamityatasteṣāṃ samyagāsannībhāvo 'syā māturiti anupāyena eva dūratā, upāyena tu adūratā bhavati /
+</p><p xml:id="195">
+5 - vipakṣaḥ
+</p><p xml:id="196">
+śrāvakādīnāmevaṃ māturdūrībhāvenānuṣṭhānaṃ vipakṣamāha
+</p>
+<lg xml:id="Abhis_3.3">
+<l>rūpādiskandhaśūnyatve dharmeṣu tryadhvageṣu ca /</l>
+<l>dānādau bodhipakṣeṣu caryāsaṃjñā vipakṣatā //</l>
+</lg>
+<p xml:id="197">
+iti / sarveṣāṃ rūpādīnāṃ traiyadhvikānāñca dharmāṇāṃ sāsravānāsravobhayasthānīyānāmanupalambhasvarūpāṇāṃ sarvatra bhāvopalambhatayā te paraparikalpitātmādiśūnyatvena dṛṣṭāḥ / anuṣṭhānasaṃjñā tu eteṣāṃ pratipakṣabhūtāni viparyāsapravṛttatvena heyatvāt vipakṣo bhavati /
+</p><p xml:id="198">
+6 - pratipakṣaḥ
+</p><p xml:id="199">
+viparyayeṇa bodhisattvānāṃ paripakṣa ityāha -
+</p>
+<lg xml:id="Abhis_3.4">
+<l>dānādiṣvanahaṅkāraḥ pareṣāṃ tanniyojanam /</l>
+<l>saṅgakoṭīniṣedho 'yaṃ sūkṣmaḥ saṅgo jinādiṣu //</l>
+</lg>
+<p xml:id="200">
+iti / trimaṇḍalaviśuddhyā dānādāvanātmāvabodhena svaparayorniyojanaṃ samyak pravṛttatvāt sarvasaktinicayasthānapratiṣedhena copādeyatvāt sarvathā pratipakṣaḥ / tathāgatādiṣu namaskārādiḥ puṇyasambhārahetutvena pratipakṣo 'pi san sūkṣmasaktirūpatayā na sarvathā pratipakṣa iti vipakṣo bhavati /
+</p><p xml:id="201">
+kathaṃ punaḥ sukṣmasaktirvipakṣa iti cedāha -
+</p><p xml:id="202">
+tadgāmbhīryaṃ prakṛtyaiva vivekāddharmapaddhateḥ /
+</p><p xml:id="203">
+iti / yasmāt svabhāvenaiva dharmagotrāṇāṃ śūnyatvāt teṣāṃ gāmbhīryam, tasmāt tathāgatopalambho 'pi vipakṣaḥ /
+</p><p xml:id="204">
+kathaṃ tarhi tasya varjanamityāha -
+</p>
+<lg xml:id="Abhis_3.5">
+<l>evaprakṛtikaṃ jñānaṃ dharmāṇāṃ saṅgavarjanam //</l>
+</lg>
+<p xml:id="205">
+iti / rūpādisarvadharmāṇāmekaiva prakṛtiḥ yaduta niḥsvabhāva iti jñānajñeyasamataikaparijñāne saktirvarjitā bhavati /
+</p><p xml:id="206">
+katha punaḥ prakṛtyā dharmagāmbhīryamityāha -
+</p><p xml:id="207">
+dṛṣṭādipratiṣedhena tasyā durbodhatoditā /
+</p><p xml:id="208">
+iti / yasmāt sarvavijñānopalavdhārthanirākaraṇena tasyāḥ prakṛterdurbodhatā kathitā, atastasyā gāmbhīryam / kathaṃ punarevaṃ durbodhatetyāha -
+</p>
+<lg xml:id="Abhis_3.6">
+<l>rūpādibhiravijñānāt tadacintyatvamiṣyate //</l>
+</lg>
+<p xml:id="209">
+rūpādyāveṇikabuddhadharmādyākāraiḥ prakṛtestathatāsvābhāvyādanabhisambodhena yasmāccintātikrāntatvamiṣyate, ato 'syā durbodhateti yāvat /
+</p><p xml:id="210">
+vipakṣādi evamabhidhāya upasaṃhāramāha -
+</p>
+<lg xml:id="Abhis_3.7">
+<l>evaṃ kṛtvā yathokto vai jñeyaḥ sarvajñatānate /</l>
+<l>ayaṃ vibhāgo niḥśeṣo vipakṣapratipakṣayoḥ //</l>
+</lg>
+<p xml:id="211">
+iti / sarvajñatādhikāre yathoktanayena yathākramaṃ śrāvakabodhisattvādīnāṃ vipakṣapratipakṣayorayaṃ prabhedo 'vasātavyaḥ /
+</p><p xml:id="212">
+7 - prayogaḥ
+</p><p xml:id="213">
+vipakṣādi evamabhidhāya tayorvibhāvanāyāṃ kaḥ prayoga iti cet prayogamāha -
+</p>
+<lg xml:id="Abhis_3.8">
+<l>rūpādau tadanityādau tadapūriprapūrayoḥ /</l>
+<l>tadasaṅgatve caryāyāḥ prayogaḥ pratiṣedhataḥ //</l>
+</lg>
+<lg xml:id="Abhis_3.9">
+<l>avikāro na karttā ca prayogo duṣkarastridhā /</l>
+<l>yathābhavyaṃ phalaprāpterabandhyo 'bhimataśca saḥ //</l>
+</lg>
+<p xml:id="214">
+aparapratyayo yaśca saptadhā khyātivedakaḥ /
+</p><p xml:id="215">
+rūpādisarvadharmāḥ, teṣāmevānityatāśūnyatādayaḥ, pratipūrṇāpūrṇatā, asaṅgaḥ, anyathā 'vikāraḥ, akartṛtvam, trisarvajñatātmakānāṃ yathākramaṃ uddeśaprayogakāritrāṇāṃ duṣkaratā, yathābhavyaphalaprāptyā avandhyatā, parapratyayānirgāmitvam, pariṇāmasamāhāra-virodha-pratyaya-asaṅkrānti-nirādhāra-akārakātmaka-saptakhyātisiddhaparijñānasya nirākaraṇam, tadevamanvayamukhena bodhisattvānāṃ daśavidhaḥ prayogaḥ kathitaḥ, arthād yathoktaviparyayeṇa śrāvakādīnāṃ prayogo bhavati /
+</p><p xml:id="216">
+8 - samatā
+</p><p xml:id="217">
+samatādvāreṇa prayogo bhāvanīya iti prayogānantaraṃ samatāmāha -
+</p>
+<lg xml:id="Abhis_3.10">
+<l>caturdhā 'mananā tasya rūpādau samatā matā //</l>
+</lg>
+<p xml:id="218">
+iti / rūpādyabhiniveśanīlādinimittaprapañcādhigamamananānāṃ sarvathānupalabdhiriti prayogasamatātvāt samatā bhavati /
+</p><p xml:id="219">
+9 - darśanamārgaḥ
+</p><p xml:id="220">
+prayogasamatāṃ pratividhya darśanamārgo bhāvanīya iti darśanamārgamāha -
+</p>
+<lg xml:id="Abhis_3.11">
+<l>dharmajñānānvayajñānakṣāntijñānakṣaṇātmakaḥ /</l>
+<l>duḥkhādisatye dṛṅmārga eṣa sarvajñatānaye //</l>
+</lg>
+<p xml:id="221">
+iti / pratisatyaṃ dharmajñānakṣāntirdharmajñānamanvayajñānakṣāntiranvayajñānamityevaṃ ṣoḍaśakṣaṇātmakaḥ sarvajñatādhikāre darśanamārgo bhavati /
+</p><p xml:id="222">
+nanu kaḥ satyasyākāra ityāha -
+</p>
+<lg xml:id="Abhis_3.12">
+<l>rūpaṃ na nityaṃ nānityamatītāntaṃ viśuddhakam /</l>
+<l>anutpannāniruddhādi vyomābhaṃ lepavarjitam //</l>
+</lg>
+<lg xml:id="Abhis_3.13">
+<l>parigraheṇa nirmuktamavyāhāraṃ svabhāvataḥ /</l>
+<l>pravyāhāreṇa nāsyārthaḥ pareṣu prāptaye yataḥ //</l>
+</lg>
+<lg xml:id="Abhis_3.14">
+<l>nopalambhakṛdatyantaviśuddhirvyādhyasambhavaḥ /</l>
+<l>apāyocchittyakalpatve phalasākṣātkriyāṃ prati //</l>
+</lg>
+<lg xml:id="Abhis_3.15">
+<l>asaṃsargo nimittaiśca vastuni vyañjane dvaye /</l>
+<l>jñānasya yā cānutpattiriti sarvajñatākṣaṇāḥ //</l>
+</lg>
+<p xml:id="223">
+naiḥsvābhāvyena rūpādi nityānityaviyogānna nityaṃ nānityam, duḥkhāduḥkhavigamatvena apagataśāśvatocchedāntam, śūnyāśūnyarahitatvād viśuddham, ātmānātmasvabhāvābhāvānnotpannaṃ na niruddhaṃ na saṃkliṣṭaṃ na vyavadātamityādayo duḥkhasatyākārā bhavanti /
+</p><p xml:id="224">
+hetvahetutucchatvādākāśasadṛśam, samudayāsamudayavisaṃyogāt sarvakleśopakleśanirupaliptam, prabhavāprabhavāsambaddhatvāt parigraheṇa nirmuktam, pratyayāpratyayavimuktatvāt svarūpato 'vacanīyamiti samudayasatyākārā bhavanti /
+</p><p xml:id="225">
+yasmānnirodhānirodhenāsambandhaḥ, tasmānnirodhasatyārtho vacanodāharaṇena santānāntare 'prāpaṇīyaḥ, śāntāśāntābhāvānnopalambhakaraṇam, praṇītāpraṇītavikalatvādatikrāntobhayāntā viśuddhiḥ, niḥsaraṇāniḥsaraṇaviviktatvāt sarvavyādhyanutpāda iti nirodhasatyākārā bhavanti /
+</p><p xml:id="226">
+mārgāmārgarahitatvādapāyocchittiḥ, nyāyānyāyāsaṃśleaṣāt phalasākṣātkaraṇaṃ pratyupāyo 'vikalpatvam, pratipattyapratipattivinirmuktatvena sarvadharmāṇāṃ nimittairasaṃsargaḥ, nairyāṇikānairyāṇikavikalpatvenobhaye vācyavācakabhāvalakṣaṇe jñeye śabde jñānasyānutpattiriti mārgasatyākārā bhavanti /
+</p><p xml:id="227">
+evamete ākārāḥ sarvajñatākṣaṇā iti bodhisattvānāṃ darśamārgaḥ, tadviparyayeṇa śrāvakadīnāmanityādibhirākāraiḥ sarvajñatāyāṃ darśanamārgo vibhāvanīyaḥ /<lb/>
+śrāvakamārgo bodhisattvena parijñātavyo na sākṣātkaraṇīya iti bhāvanāmārgo na nirdiṣṭaḥ /
+</p><p xml:id="228">
+vistareṇa evaṃ nirdiśya sakalārthasaṅgrāhakatvena trisarvajñatāmupasaṃharannāha -
+</p>
+<lg xml:id="Abhis_3.16">
+<l>iti seyaṃ punaḥ seyaṃ khalu punastridhā /</l>
+<l>adhikāratrayasyaiṣā samāptiḥ paridīpitā //</l>
+</lg>
+<p xml:id="229">
+iti / yathoktanītyā iyaṃ sarvākārajñatā, iyaṃ mārgajñatā, iyaṃ sarvajñatā cetyevaṃ parivartatrayeṇa prakāratrayaṃ parisamāptam /
+</p><p xml:id="230">
+iti abhisamayālaṅkāre nāma prajñāpāramitāśāstre tṛtīyādhikāravṛttiḥ /
+</p><p xml:id="231">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="232">
+Sarvākārābhisambodhādhikāraḥ caturthaḥ
+</p><p xml:id="233">
+1 - ākārāḥ
+</p><p xml:id="234">
+parijñātatrisarvajñatāvaśitvārthaṃ punaḥ sarvākāramārgavastujñānasaṅgraheṇa trisarvajñatāṃ bhāvayatīti sarvākārābhisambodha ityāha -
+</p>
+<lg xml:id="Abhis_4.1">
+<l>vastujñānaprakārāṇāmākārā iti lakṣaṇam /</l>
+<l>sarvajñatānāṃ traividhyāt trividhā eva te matāḥ //</l>
+</lg>
+<p xml:id="235">
+nityādigrāhavipakṣasya pratipakṣadharmatāsvabhāvānāmanityādyālambanajñānaprakārāṇāmākāratvena vyavasthānaṃ lakṣaṇam / te cākārāstrisarvajñatābhedāt triprakārā eva matāḥ /
+</p><p xml:id="236">
+sāmānyenākārān nirdiśya idānīṃ viśeṣeṇāha -
+</p>
+<lg xml:id="Abhis_4.2">
+<l>asadākāramārabhya yāvanniścalatākṛtiḥ /</l>
+<l>catvāraḥ pratisatyaṃ te mārge pañcadaśa smṛtāḥ //</l>
+</lg>
+<p xml:id="237">
+iti / tatra trisarvajñatāmadhikṛtya asad-anutpāda-viveka-anavamardanīya-apada-ākāśa-apravyāhāra-anāma-agamana-asaṃhārya-akṣaya-anutpattaya iti dvādaśa ākārā hi yathākramaṃ duḥkhādisatyatrayasya anityādilakṣaṇā bhavanti / kleśāvaraṇapratipakṣatvenaikaḥ anāsravamārgaḥ, sarvajñatayā pratyekabuddhāḥ saṅgṛhītā iti teṣāṃ jñeyāvaraṇapratipakṣatvena dvau sāsravānāsravabhāvanāmārgau ceti mārgāḥ triprakārāḥ /
+</p><p xml:id="238">
+tatra prathame akārakājānakāsaṃkrāntyavinayākārā iti catvāro yathākramaṃ mārgādilakṣaṇāḥ (kleśāvaraṇapratipakṣe) bhavanti /
+</p><p xml:id="239">
+dvitīye svapna-pratiśrutkā-pratibhāsa-māyākārā iti pañca yathākramaṃ niḥsvabhāva-anutpanna-aniruddha-ādiśānta-prakṛtiparinirvṛtilakṣaṇāḥ sāmānyato jñeyāvaraṇapratipakṣabhūtāḥ santi /
+</p><p xml:id="240">
+tṛtīye asaṃkleśa-avyavadāna-anupalepa-aprapañca-amanana-acalākārāṃ ṣaṭ yathākramaṃ saṃkleśa-vyavadāna-kleśavāsanā-rūpādiprapañca-svādhigama-parihāṇi-vikalpānāṃ pratiniyatajñeyāvaraṇānāṃ pratipakṣabhūtā bhavanti /
+</p><p xml:id="241">
+ityevaṃ mārgasatyasya pañcadaśa ākārāḥ / samudāyena saptaviṃśatiriti sarvajñatākārā bhavanti /
+</p><p xml:id="242">
+tadanantaraṃ mārgajñatāyā ākārā ityāha -
+</p>
+<lg xml:id="Abhis_4.3">
+<l>hetau mārge ca duḥkhe ca nirodho ca yathākramam /</l>
+<l>aṣṭau te sapta pañceti ṣoḍaśeti ca kīrtitāḥ //</l>
+</lg>
+<p xml:id="243">
+tatra saṃkleśetarapakṣāśrayeṇa samudayamārgasatye kāraṇam, duḥkhanirodhasatye ca phalamityarthadvāreṇa nirdiṣṭe samudayamārgaduḥkhanirodhasatyeṣu yathāsaṃkhyamaṣṭādyākārā boddhavyāḥ //
+</p><p xml:id="244">
+tatra virāga-asamutthāna-śānta-arāga-adveṣa-amoha-niḥkleśa-niḥsattvākārā eva yathākramaṃ yo hetuḥ chando rāgo nandī ca, yaḥ samudayaḥ rāgo dveṣo mohaśca, yaḥ prabhavaḥ parikalpaḥ, yaśca pratyayaḥ sattvābhiniveśa iti eteṣāṃ pratipakṣabhūtatvena trayastraya eka eka ityaṣṭāvākārāḥ samudayasatye bhavanti /
+</p><p xml:id="245">
+apramāṇa-antadvayānanugama-asambhinna-aparāmṛṣṭa-avikalpa-aprameya-asaṅgākārā-yathākramaṃ yaḥ sarvasattvāvakāśado mārgaḥ yathā va sarvasattvāvakāśadaḥ, yo nyāyo yathā ca nyāyaḥ, yā pratipattiryathā ca pratipattiḥ, yacca niryāṇamiti tatsvabhāvā dvau dvau dvāveka iti saptākārā mārgasatye bhavanti /
+</p><p xml:id="246">
+anitya-duḥkha-śūnya-anātmākārāḥ pañcamālakṣaṇākārasvabhāvā ityevaṃ pañcākārā duḥkhasatye bhavanti /
+</p><p xml:id="247">
+adhyātmabahirdhobhayavastūnāṃ nirodhenādhyātmabahirdhobhayaśūnyatākārāstrayaḥ nirodhākārasvabhāvāḥ, śūnyatāyāṃ bhājanaloke paramārthe saṃskṛte 'saṃskṛte śāśvatocchedānte 'navarāgrasaṃsāre adhigatadharmānavakāre abhiniveśasya prajñaptyātmakasya nirodhena yathākramaṃ śūnyatā-mahat-paramārtha-saṃskṛta-asaṃskṛta-atyanta-anavarāgra-anavakāraśūnyatākārā aṣṭau śāntākārasvabhāvāḥ, praṇītākāraḥ paraparikalpitakārakanirodhena prakṛtiśūnyatākāraḥ, viṣayabhrāntyātmikānāṃ prajñaptilakṣaṇakālabhrāntīnāṃ ca nirodhena sarvadharmasvalakṣaṇānupalambhaśūnyatākārāstrayo niḥsaraṇākārasvabhāvāḥ, svabhāvanirodhena abhāvasvabhāvaśūnyatākāra ekaḥ niḥsaraṇākārātmaka ityevaṃ ṣoḍaśākārā nirodhasatye bhavanti / samudāyena ṣaṭtriṃśaditi mārgajñatākārāḥ /
+</p><p xml:id="248">
+tadanantaraṃ sarvākārajñatākārā ityāha-
+</p>
+<lg xml:id="Abhis_4.4">
+<l>smṛtyupasthānamārabhya buddhatvākārapaścimāḥ /</l>
+<l>śiṣyāṇāṃ bodhisattvānāṃ buddhānāṃ ca yathākramam //</l>
+</lg>
+<lg xml:id="Abhis_4.5">
+<l>saptatriṃśaccatustriṃśattriṃśannava ca te mayāḥ /</l>
+<l>trisarvajñatvabhedena mārgasatyānurodhataḥ //</l>
+</lg>
+<p xml:id="249">
+smṛtyupasthānamārabhya buddhākāraparyantānāṃ hi trisarvajñatāsaṅgṛhītamārgadvāreṇa sarvākārajñatayā sarveṣāmāryapudgalānāṃ saṅgrahaṇena ca yathāsaṃkhyaṃ śrāvakāṇāṃ saptatriṃśat, bodhisattvānāṃ catustriṃśat, buddhānāṃ triṃśannava ceti matāḥ / tatra sarvajñatāyāmādau catuḥsatyāvatārāya svasāmānyalakṣaṇaparīkṣitakāyavedanācittadharmasmṛtyupasthānākārāścatvāro vastuparīkṣāmārgaḥ / tato 'vatīrṇasya vīryamiti utpannānutpannasya akuśalasya kuśalasya ca yathākramaṃ samyakprahāṇānutpādanārthaṃ vardhana (bhūyobhāva)-utpādanārthaṃ ca hetubhūtavīryātmakāḥ samyakprahāṇākārāścatvāro vyāvasāyikamārgaḥ / vīryavataścittakarmaṇyatāpādanamiti chandavīryacittamīmāṃsāsamādhiprahāṇasaṃskārasamanvāgatarddhipādākārāścatvāraḥ samādhiparikarmamārgaḥ / kṛtacittaparikarmaṇo 'nantaramūṣmamūrdhaprayogaḥ iti ūṣmamūrdhasvabhāvāḥ śraddhāvīryasmṛtisamādhiprajñendriyākārāḥ pañca samyagabhisamayaprāyogikamārgaḥ / adhigatoṣmādeḥ kṣāntyagradharmaprayoga iti kṣāntyagradharmasvabhāvāḥ śraddhāvīryasmṛtisamādhiprajñābalākārāḥ pañca abhisamayasaṃśleṣamārgaḥ / viditoṣmādicatuṣkasya satyadarśanamārgotpāda iti smṛtidharmapravicayavīryaprītiprasrabdhisamādhyupekṣākārāḥ sapta bodhyaṅgānyabhisamayamārgaḥ / parijñātasatyadarśanasya bhāvanāmārgotpāda iti samyagdṛṣṭisaṃkalpavākkarmāntājīvavyāyāmasmṛtisamādhyāryāṣṭāṅgamārgākārā viśuddhanairyāṇikamārga iti śiṣyāṇāṃ sarvajñatāmārgādhiṣṭhānāḥ saptatriṃśadākārā bhavanti /
+</p><p xml:id="250">
+mārgajñatāyāṃ dṛṣṭikṛtapratipakṣaḥ, tannimittavikalpapratipakṣaḥ, traidhātukapraṇidhānapratipakṣaḥ iti tatsvabhāvā yathākramaṃ śūnyānātmākārasvabhāvaṃ prathamaṃ vimokṣamukham, nirodhamārgasatyākārasvabhāvaṃ dvitīyam, anityaduḥkhasamudayasatyākārasvabhāvaṃ tṛtīyamityevaṃ trivimokṣamukhākārāstrayaḥ pratipakṣamārgaḥ /
+</p><p xml:id="251">
+avibhāvitavibhāvitarūpasaṃjñatvād yathākramamadhyātmaṃ rūpyarūpīti bahirdhā rūpāṇi paśyatītyetau nirmāṇāvaraṇapratipakṣeṇa dvau vimokṣau / śubhāśubharūpanirmāṇe ca yathākramamābhogaḥ prātikūlyañca saṃkleśaḥ tatpratipakṣeṇa śubhaṃ vimokṣamukhaṃ kāyena sākṣātkṛtvopasampadya viharatītyeko vimokṣa iti vimokṣākārāḥ trayo niryāṇamārgaḥ /
+</p><p xml:id="252">
+mokṣānukūlavihāramārgasvabhāvāścaturārūpyasamāpattyākārāḥ śāntavihārasvabhāvaḥ saṃjñāveditanirodhākāra eka iti pañcākārā dṛṣṭadharmasukhavihāramārgaḥ /
+</p><p xml:id="253">
+caturdhyānārūpyanirodhasamāpatyākārā nava lokottaramārgaḥ / catuḥsatyasaṅgṛhītāḥ kleśavisaṃyogalakṣaṇānantaryamārgākārāścatvāraḥ prahāṇamārgaḥ / dānādipāramitākārā daśa buddhatvamārgaḥ / tadevaṃ bodhisattvānāṃ mārgajñatāmārgādhiṣṭhānāścatustriṃśadākārā bhavanti /
+</p><p xml:id="254">
+sarvākārajñatākārastu niratiśayatvādeka eva kevalamasādhāraṇamārgaḥ / tatra sthānāsthāna-karmavipākaḥ-nānādhimukti-anekalokadhātu-indriyaparāpara-sarvatragāminī-pratipat-saṃkleśavyavadāna-pūrvanivāsānusmṛti-cyutyupapatti-āsravakṣayajñānabalākārā daśa / buddho 'hamityātmapratijñāne rāgādīnāmantarāyatvākhyāne sarvajñatādimārgasya niryāṇatvaprakāśane kṣīṇāsravatvenātmano 'bhyupagame ca paryanuyokturabhāvena vaiśāradyākārāścatvāraḥ / paryāye dharmalakṣaṇe janapadabhāṣāyāṃ dharmaprabhede ca yathākramaṃ dharmārthaniruktipratibhānapratisaṃvidākārāścatvāraḥ / nāsti skhalitaḥ ravitaṃ muṣitasmṛtirasamāhitaṃ cittaṃ nānātvasaṃjñā apratisaṃkhyāyopekṣā cetyevamākārāḥ ṣaṭ / nāstichandato vīryataḥ smṛtitaḥ samādheḥ prajñāyāḥ vimukteśca parihāṇirityevamākārāḥ ṣaṭ / kāyavāṅmanaskarmaṇāṃ jñānapūrvaṅgamānuparivartanākārāstrayaḥ / atītānāgatapratyutpanneṣu asaṅgāpratihatajñānākārāstraya iti aṣṭādaśāveṇikabuddhadharmākārāḥ / sarvabuddhabhāṣitatathatā-satvadharmavaśavartanasvayambhū-sarvākārābhisambodhibuddhatvākārāḥ trayaśca / ityekonacatvāriṃśadākārāḥ sarvākārajñatāmārgādhiṣṭhānā bhavanti /
+</p><p xml:id="255">
+tatrānāsravāḥ sāsravāśca sarvajñatākārā yathākramaṃ śrāvakabodhisattvabhedena / mārgajñatākārāḥ sāsravā eva, bodhisattvānāmatyantakleśāprahāṇāt / anāsravā eva sarvākārajñatākārāḥ sarvathā savāsanasarvakleśajñeyāvaraṇaprahāṇena samyaksambuddhasya sarvadharmavaśavartitvād, ityekatra gaṇyamānaṃ trisaptatyuttaraśatamityākārāḥ /
+</p><p xml:id="256">
+viśiṣṭaprayogairākārā bhāvayitavyāḥ, te ca prayoktāraṃ vinā kathayitumaśakyā iti śravaṇādibhājanaṃ prayoktāramāha -
+</p>
+<lg xml:id="Abhis_4.6">
+<l>kṛtādhikārā buddheṣu teṣūptaśubhamūlakāḥ /</l>
+<l>mitraiḥ sanāthāḥ kalyāṇairasyāḥ śravaṇabhājanam //</l>
+</lg>
+<lg xml:id="Abhis_4.7">
+<l>buddhopāsanasampraśnadānaśīlādicaryayā /</l>
+<l>udgrahadhāraṇādīnāṃ bhājanatvaṃ satāṃ matam //</l>
+</lg>
+<p xml:id="257">
+atītapratyutpannabuddheṣu sāmānyenoptaśodhitaśubhamūlakāḥ, kāyādyupasthānārādhanāt kṛtatathāgataparyupāsanāḥ, kṛtaśaṃkāsthānaparipraśnāḥ, kṛtadānādidaśapāramitāpratipattyanuṣṭhānāḥ, kalyāṇamitrairadhiṣṭhitāśca yathākramamākāralakṣaṇāyā māturasyā granthaśravaṇadhāraṇāmuṣitārthayathānayamanaskārāṇāṃ bhājanaṃ buddhādibhiḥ matamiti /
+</p><p xml:id="258">
+2 - prayogāḥ
+</p><p xml:id="259">
+prayoktāraṃ nirdiśya prayoga ityāha -
+</p>
+<lg xml:id="Abhis_4.8">
+<l>rūpādiṣvanavasthānāt teṣu yoganiṣedhataḥ /</l>
+<l>tattathatāgambhīratvāt teṣāṃ duravagāhataḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.9">
+<l>tadaprāmāṇyataḥ kṛcchrāccireṇa pratibodhataḥ /</l>
+<l>vyākṛtāvavivartyatve niryāṇe sanirantare //</l>
+</lg>
+<lg xml:id="Abhis_4.10">
+<l>āsannabodhe kṣiprañca parārthe 'vṛddhyahānitaḥ /</l>
+<l>dharmādharmādyadṛṣṭau ca rūpācintyādyadarśane //</l>
+</lg>
+<lg xml:id="Abhis_4.11">
+<l>rūpādestannimittasya tadbhāvasyāvikalpakaḥ /</l>
+<l>phalaratnapradātā ca śuddhakaḥ sāvadhiśca saḥ //</l>
+</lg>
+<p xml:id="260">
+rūpādiṣu niḥsvabhāvatayā 'navasthānam, ayoga eva teṣu prayogo bhavati, tāveva rūpāditathatāsvarūpatvena gambhīraḥ, duravagāhaḥ, apramāṇaścetyevamabhisambodhānāṃ yathāsaṃkhyaṃ rūpādiṣvanavasthānaayogagambhīraduravagāhaapramāṇānīti pañca prayogāḥ / prajñāpāramitāyā uttrāsaanuttrāsasamyagudgrahaṇaāntarāyikadharmavarjanasatatadharmabhāvanā abhinavānāsravadharmādhāratvadharmakāyaphalābhinirvartanadharmacakrapravartanavṛddhi parihāṇyadarśanakāmadhātvanupalambharūpādyacintyākārāmananarūpatannimittatatsva bhāvāvikalpaprathamaphaladarśanarūpaviśuddhisaṃvatsarābhiyogānutsargādipratipattimatāṃ yathākramaṃ mahatkṛcchracirābhisambodhavyākaraṇalābhaavinivartanīyaniryāṇanirantaraāsannābhisambodhakṣiprābhisambodhaparārthaavṛddhyaparihāṇidharmādharmādyanupalambharūpādyacintyākāranirodharūpādibhāvāvikalpaphalaratnadānaviśuddhiavadhiprayogāḥ pañcadaśadhā iti viṃśatiprayogā bhavanti /
+</p><p xml:id="261">
+3 - guṇāḥ
+</p><p xml:id="262">
+prayogānantaraṃ guṇadarśanapūrvakaṃ sutarāmabhyasyante prayogā iti tadguṇān āha -
+</p><p xml:id="263">
+mārāṇāṃ śaktihānyādiścaturdaśavidho guṇaḥ /
+</p><p xml:id="264">
+māraśaktivyāghātabuddhasamanvāhārajñātatvabuddhapratyakṣīkaraṇasamyaksambodhyāsannībhāvamahārthatādideśanirūpaṇasarvānāsravadharmaparipūriguṇakathāpuruṣatāabhedyatāasādhāraṇakuśalamūlotpattipratijñāyāthārthyasampādanaudāraphalaparigrahaṇasattvārthapratipattiniyatilābhā - iti guṇā yathāsaṃkhyaṃ buddhādhiṣṭhānaānubhāvajñānadarśanaṃ - āsannībhāvamahānuśaṃsakṛtyakaraṇapratipakṣadharmaparipūraṇasarvākārajñatākathākathanasānāthyakaraṇamahodāraprītisampādanatatpratijñāvacanānumodanagambhīradharmābhilāṣasattvārthakaraṇaavikalaprajñāpāramitāprāpakā ityetadaviparītaprayogānumodanāt - sattvārthakaraṇa - avikalaprajñāpāramitāprāpakā ityetadaviparītaprayogānumodanāt caturdaśa guṇā utpadyante prāpyante ca /
+</p><p xml:id="265">
+4 - doṣāḥ
+</p><p xml:id="266">
+tadanantaraṃ ke punaḥ prayogāntarāyakarā doṣāḥ, yeṣāṃ parivarjanena prayogā bhāvayitavyā ityantarāyakarān doṣānāha -
+</p>
+<lg xml:id="Abhis_4.12">
+<l>doṣāśca ṣaḍ viboddhavyāścaturbhirdaśakaiḥ saha //</l>
+</lg>
+<p xml:id="267">
+mahākṛcchraprāptiḥ, atyāśupratibhānatā, kāyadauṣṭhulyam, cittadauṣṭhulyam, ayogavihitasvādhyāyādikam, vaimukhyanimittagrāhitā, hetvabhiniveśabhraṃśaḥ, praṇītāsvādabhraṃśaḥ, sarvathā uttamayānasaṃgrahabhraṃśaḥ, sarvadoddeśabhraṃśa iti prathamaṃ daśakam / hetuphalasambandhabhraṃśaḥ, niruttarabhraṃśaḥ, bahuvidhaviṣayavikalpapratibhānotpādaḥ, akṣaralikhanābhiniveśaḥ, abhāvābhiniveśaḥ, akṣarābhiniveśaḥ, anakṣarābhiniveśaḥ, janapadādimanaskāraḥ, lābhasatkāraślokāsvādanam, amārgopāyakauśalamārgaṇamiti dvitīyaṃ daśakam /
+</p><p xml:id="268">
+yathāsaṃkhyaṃ śrotāvaktroḥ pūrvāparayoḥ kasyacidabhisambandhena chandakilāsavaidhuryam, chandaviṣayabhedavaidhuryam, alpecchatānalpecchatāvaidhuryam, dhūtaguṇayogāyogau, kalyāṇākalyāṇadharmatvam, tyāgamātsaryam, dānāgrahaṇam, uddhaṭitajñavipañcitajñatvam, sūtrādidharmābhijñānabhijñatvam, ṣaṭpāramitāsamanvāgamāsamanvāgamāviti tṛtīyaṃ daśakam /
+</p><p xml:id="269">
+tathaiva upāyānupāyakauśale, dhāraṇīpratilambhāpratilambhau, likhitukāmatā'likhitukāmate, vigatāvigatakāmacchandatve ceti catvāri; apāyagativaimukhyam, sugatigamanasaumanasyamiti dve; yathāsaṃkhyaṃ śrotāvaktroḥ pūrvāparayoḥ kasyacidabhisambandhena ekākiparṣadabhiratiḥ, anubandhakāmānavakāśadānatvam, āmiṣakiñcitkābhilāṣatadadātukāmatā, sadasajjīvitāntarāyadiggamanamiti catvāri ca caturthaṃ daśakam /
+</p><p xml:id="270">
+tathaiva durbhikṣadiggamanāgamanam, caurādyākulitadiggamanāgamanam, kulāvalokanadaurmanasyamiti trīṇi; mārabhedaprayogaḥ, prativarṇikopasaṃhāraḥ, ayathāviṣaya-spṛhotpādanamiti aparāṇi trīṇi / ityevaṃ ṣaṭcatvāriṃśaddoṣā bhavanti /
+</p><p xml:id="271">
+5 - lakṣaṇāni
+</p><p xml:id="272">
+doṣānantaraṃ yathāsaṃkhyaṃ guṇadoṣādānatyāgena prayogā bhāvanīyā lakṣaṇajñāna pūrvakamiti teṣāṃ lakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.13">
+<l>lakṣyate yena tajjñeyaṃ lakṣaṇaṃ trividhaṃ ca tat /</l>
+<l>jñānaṃ viśeṣa kāritraṃ svabhāvo yaśca lakṣyate //</l>
+</lg>
+<p xml:id="273">
+prayogāṇāṃ lakṣaṇaṃ karaṇasādhanaparigraheṇa jñānaviśeṣakāritrasvarūpam, karmasādhanaparigraheṇa ca svabhāvātmakamiti lakṣaṇaṃ caturvidhaṃ boddhavyam /
+</p><p xml:id="274">
+tatra tāvat jñānalakṣaṇaṃ trisarvajñatābhedena bhidyamānaṃ sarvajñatādvāreṇāha -
+</p>
+<lg xml:id="Abhis_4.14">
+<l>tathāgatasya nirvṛttau loke cālujyanātmake /</l>
+<l>sattvānāṃ cittacaryāsu tatsaṃkṣepe bahirgatau //</l>
+</lg>
+<lg xml:id="Abhis_4.15">
+<l>akṣayākāratāyāṃ ca sarāgādau pravistṛte /</l>
+<l>mahadgate 'pramāṇe ca vijñāne cānidarśane //</l>
+</lg>
+<lg xml:id="Abhis_4.16">
+<l>adṛśyacittajñāne ca tadunmiñjādisaṃjñakam /</l>
+<l>punastathatākāreṇa teṣāṃ jñānamataḥ param //</l>
+</lg>
+<lg xml:id="Abhis_4.17">
+<l>tathatāyāṃ munerbodhatatparākhyānamityayam /</l>
+<l>sarvajñatādhikāreṇa jñānalakṣaṇasaṃgraha //</l>
+</lg>
+<p xml:id="275">
+tathāgatanirvṛttilokālujyatāsattvacittacaritacittasaṃkṣepacittavikṣepacittākṣayākārasarāgādicittaādiśabdasaṅgṛhītavigatarāgacittavipulacittamahadgatacittaapramāṇacittaanidarśanacittaḥadṛśacittacittonmiñjitādiunmiñjitāditathatākāratathāgatatathatāvabodhatatparasamākhyānaprajñapanañcetyebhiḥ ṣoḍaśabhiḥ jñānākāraprakāraiḥ yathānayaṃ sarvajñatāprayogāḥ samyag lakṣyanta iti jñānalakṣaṇaṃ sarvajñatayā saṅgṛhītam /
+</p><p xml:id="276">
+tadanantaraṃ mārgajñatādhikāreṇāha -
+</p>
+<lg xml:id="Abhis_4.18">
+<l>śūnyatve sānimitte ca praṇidhānavivarjite /</l>
+<l>anutpādānirodhādau dharmatāyā akopane //</l>
+</lg>
+<lg xml:id="Abhis_4.19">
+<l>asaṃskāre 'vikalpe ca prabhedālakṣaṇatvayoḥ /</l>
+<l>mārgajñatādhikāreṇa jñānalakṣaṇamiṣyate //</l>
+</lg>
+<p xml:id="277">
+śūnyatānimittāpraṇihitānutpādānirodhātmakāni / ādiśabdena asaṃkleśāvyavadānābhāvasvabhāvāniśritākāśalakṣaṇāni etāni ṣaṭ saṅgṛhītāni / dharmatā 'vikopanāsaṃskārāvikalpaprabhedālakṣaṇāni cetyebhiḥ ṣoḍaśabhiḥ jñānākāraprakāraiḥ yathāvat mārgajñatāprayogā lakṣyanta iti jñānalakṣaṇaṃ mārgajñatāsaṅgṛhītam /
+</p><p xml:id="278">
+tadanantaraṃ sarvākārajñatādvāreṇāha -
+</p>
+<lg xml:id="Abhis_4.20">
+<l>svadharmamupaniśritya vihāre tasya satkṛtau /</l>
+<l>gurutve mānanāyāñca tatpūjā 'kṛtakatvayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.21">
+<l>sarvatra vṛttimajjñānamadṛṣṭasya ca darśakam /</l>
+<l>lokasya śūnyatākārasūcakajñāpakākṣagam //</l>
+</lg>
+<lg xml:id="Abhis_4.22">
+<l>acintyaśāntatādarśi lokasaṃjñānirodhi ca /</l>
+<l>jñānalakṣaṇamityuktaṃ sarvākārajñatānaye //</l>
+</lg>
+<p xml:id="279">
+iti / tathāgatasvadharmopaniśrayavihāra-satkāra-gurukāra-mānanā-pūjanā-akṛta-katva-sarvatraga-adṛṣṭārthadarśaka-lokaśūnyatākāra-lokaśūnyatāsūcakaḥ-lokaśūnyatājñāpaka-lokaśūnyatādarśaka-acintyatādeśanā-śāntatādeśanā-lokanirodha-saṃjñānirodhākhyaiḥ ebhiḥ ṣoḍaśabhirjñānākāraprakāraiḥ yathāvat sarvākārajñatāprayogā lakṣyanta iti jñānalakṣaṇaṃ sarvākārajñatāsaṃgṛhītaṃ bhavati /
+</p><p xml:id="280">
+navabhirantaraślokairevaṃ jñānalakṣaṇamabhidhāya jñānākāreṇa paricchinnānāṃ viśeṣo jñeya iti jñānalakṣaṇānantaram antaraślokena viśeṣalakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.23">
+<l>acintyādiviśeṣeṇa viśiṣṭaiḥ satyagocaraiḥ /</l>
+<l>viśeṣalakṣaṇaṃ ṣaḍbhirdaśabhiścoditaṃ kṣaṇaiḥ //</l>
+</lg>
+<p xml:id="281">
+iti / acintyātulyādiviśeṣaviśiṣṭairduḥkhādisatyaviṣayaiḥ ṣoḍaśabhirdharmānvayajñānakṣāntijñānakṣaṇairmārgajñatādiprayogā lakṣyanta iti viśeṣalakṣaṇam /
+</p><p xml:id="282">
+kaḥ punaracintyādiviśeṣa ityantaraślokatrayamāha -
+</p>
+<lg xml:id="Abhis_4.24">
+<l>acintyātulyate meyasaṃkhyayoḥ samatikramau /</l>
+<l>sarvāryasaṃgraho vijñavedyāsādhāraṇajñate //</l>
+</lg>
+<lg xml:id="Abhis_4.25">
+<l>kṣiprajñānyūnapūrṇatve pratipatsamudāgamau /</l>
+<l>ālambanañca sādhāraṃ sākalyaṃ samparigrahaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.26">
+<l>anāsvādaśca vijñeyo viśeṣaḥ ṣoḍaśātmakaḥ /</l>
+<l>viśeṣamārgo mārgebhyo yenānyebhyo viśiṣyate //</l>
+</lg>
+<p xml:id="283">
+iti / samyaksambuddhādeḥ susaṃgṛhītaprajñābalena acintyatā, atulyatā, prameyasamatikramaḥ, saṃkhyeyasamatikramaḥ, sarvāryapudgalasaṃgrahaḥ, vijñapuruṣavedanīyatā, śrāvakādyagocaravastuparijñānam, svamatāpekṣakṣiprābhijñatājñānam, saṃvṛtiparamārthasatyāśritasarvadharmānyūnāpūrṇatā, trimaṇḍalaviśuddhadānādiṣaṭpāramitāpratipattiḥ, samyakprayogenānekakalpeṣu āsāditapuṇyajñānasamudāgamau, avikalpena sarvadharmālambanam, dharmadhātusvabhāvabodhisattvādhāraḥ, praṇidhānādiṣaṭpāramitāparisamāptihetusambhāraḥ, kalyāṇamitropāyena saṃparigrahaḥ, abhiniveśānāsvāda iti ṣoḍaśātmakaḥ yathākramaṃ duḥkhādisatyakṣaṇānāṃ viśeṣaḥ, yena śrāvakādimārgebhyo bodhisattvādīnāṃ mārgajñatādidvaye viśeṣamārgo viśiṣyate / atasteṣāṃ yathoktaviśeṣavikalo 'bhiniveśādyutpādanalakṣaṇatvena sugamatvānnoktaḥ /
+</p><p xml:id="284">
+viśeṣalakṣaṇenāvacchinnānāṃ kiṃ kāritramiti antaraślokadvayena kāritralakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.27">
+<l>hitaṃ sukhaṃ ca trāṇaṃ ca śaraṇaṃ layanaṃ nṛṇām /</l>
+<l>parāyaṇa ca dvīpaṃ ca pariṇāyakasaṃjñakam //</l>
+</lg>
+<lg xml:id="Abhis_4.28">
+<l>anābhogaṃ tribhiryānaiḥ phalāsākṣātkriyātmakam /</l>
+<l>paścimaṃ gatikāritramidaṃ kāritralakṣaṇam //</l>
+</lg>
+<p xml:id="285">
+iti / anāgatahita-aihikasukhaḥ-duḥkharahitāvipākadharmatopasthāpanārthena hitāditrayaṃ sarvajñatākāritram / ātyantikahita-duḥkhahetunivartana-saṃsāranirvāṇa-samatādhigama-svaparārthādhigamādhārabhāva-parārthapratipati-anābhogapravṛttasattvārtha-yānatrayaniryāṇaphalāsākṣātkārā iti yathākālamupasaṃhārārthena śaraṇādīni sapta mārgajñatākāritrāṇi / sarvākārajñatayā sarvadharmadaiśikatvena sarvākārajñatāyā ekameva gatikāritram / kāritrākārairevaṃ yathāvad sarvajñatātrayasya prayogā lakṣyanta iti kāritralakṣaṇam /
+</p><p xml:id="286">
+kāritralakṣaṇenāvacchinnānāṃ kaḥ svabhāva iti antaraślokatrayeṇa svabhāvalakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.29">
+<l>kleśaliṅganimittānāṃ vipakṣapratipakṣayoḥ /</l>
+<l>viveko duṣkaraikāntāvuddeśo 'nupalambhakaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.30">
+<l>niṣiddhābhiniveśaśca yaścālambanasaṃjñakaḥ /</l>
+<l>vipratyayo 'vighātī ca so 'padāgatyajātikaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.31">
+<l>tathatānupalambhaśca svabhāvaḥ ṣoḍaśātmakaḥ /</l>
+<l>lakṣīva lakṣyate ceti caturthaṃ lakṣaṇaṃ matam //</l>
+</lg>
+<p xml:id="287">
+iti / rāgādikleśa-talliṅgakāyadauṣṭhulya-tannimittāyoniśomanasikārādirāgārāgādivipakṣapratipakṣāṇāṃ śūnyatvena sarvajñatāvivekasvabhāvacatuṣṭayam / paramārthāsatsattvaparinirvāṇaduṣkarakāraka-anyayānāpātalakṣaṇaikāntika-cirasādhyottamoddeśa-bhāvyabhāvakadharmānupalambha-samastabhāvābhiniveśaniṣedhā ityete pañca mārgajñatāsvabhāvāḥ / sarvajñatāmārgajñatāsaṅgṛhītavastuviśeṣālambanam, lokapratipattigrahaṇādiviparītanirdeśāt vipratyayaḥ, rūpādyavighātijñānam, jñānajñeyānupalambhena apratiṣṭham, tathatayā agatiḥ, rūpādiniḥsvabhāvatvena ajātikaḥ, bhāvābhāvādisvabhāvatrayānupalambha iti ete sarvākārajñatāyāḥ sapta svabhāvāḥ / ityevaṃ ṣoḍaśabhiḥ svabhāvairyathāvat trisarvajñatāprayogā lakṣīva lakṣyante iti caturthaṃ svabhāvalakṣaṇaṃ matam / ityevaṃ sāmānyena ekatra kṛtāni ekanavatiḥ lakṣaṇāni bhavanti /
+</p><p xml:id="288">
+6 - mokṣabhāgīyam
+</p><p xml:id="289">
+yathoktaprayogaparijñānaṃ mokṣabhāgīyakuśalamūlavataḥ eva bhavatīti mokṣabhāgīyamāha -
+</p>
+<lg xml:id="Abhis_4.32">
+<l>animittapradānādisamudāgamakauśalam /</l>
+<l>sarvākārāvabodhe 'smin mokṣabhāgīyamiṣyate //</l>
+</lg>
+<p xml:id="290">
+iti / animittālambanajñānākāreṇa dānādipāramitā ārabhya sarvākārajñatāparyantaṃ svasantāne samudāgame kauśalamevāsmin sarvākārābhisambodhe mokṣabhāgīyamiṣṭam /
+</p><p xml:id="291">
+kiñca tatkauśalamiti taddarśanāyāntaraślokau āha -
+</p>
+<lg xml:id="Abhis_4.33">
+<l>buddhādyālambanā śraddhā vīryaṃ dānādigocaram /</l>
+<l>smṛtirāśayasampattiḥ samādhiravikalpanā //</l>
+</lg>
+<lg xml:id="Abhis_4.34">
+<l>dharmeṣu sarvairākārairjñānaṃ prajñeti pañcadhā /</l>
+<l>tīkṣṇaiḥ subodhā sambodhirdurbodhā mṛdubhirmatā //</l>
+</lg>
+<p xml:id="292">
+iti / anindriyasvabhāvāḥ śraddhāvīryasmṛtisamādhiviśiṣṭaprajñāḥ yathāsaṃkhyaṃ buddha-dāna-āśayasampatti-avikalpa-sarvadharmasarvākāraparijñādiṣu pañcavidhaviṣayeṣu kauśalam / evamapi na sarvairanuttarā samyaksambodhiḥ prāpyā / dharmateyaṃ yato 'dhimātraiḥ śraddhādibhiḥ samyaksambodhiḥ subodhā, mṛdubhistaireva durbodhetyarthādidamākṣiptam / madhyaiḥ pratyekabuddhabodhirmṛdubhiḥ śrāvakabodhiścādhigamyata iti //
+</p><p xml:id="293">
+7 - nirvedhabhāgīyam
+</p><p xml:id="294">
+utpannamokṣabhāgīyasyotsāhino nirvedhabhāgīyamutpadyata ityāha -
+</p>
+<lg xml:id="Abhis_4.35">
+<l>ālambanaṃ sarvasattvā ūṣmaṇāmiha śasyate /</l>
+<l>samacittādirākārasteṣveva daśadhoditaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.36">
+<l>svayaṃ pāpānnivṛttasya dānādyeṣu sthitasya ca /</l>
+<l>tayorniyojanānyeṣāṃ varṇavādānukūlate //</l>
+</lg>
+<lg xml:id="Abhis_4.37">
+<l>mūrdhagaṃ svaparādhāraṃ satyajñānaṃ tathā kṣamā /</l>
+<l>tathāgradharmā vijñeyāḥ sattvānāṃ pācanādibhiḥ //</l>
+</lg>
+<p xml:id="295">
+iti / asyāṃ sarvākārābhisambodhau samamaitrahitāpratighāviheṭhanācittākāraiḥ pañcabhirmātāpitṛcittabhrātṛbhaginīcittaputraduhitṛcittamitrāmātyacittajñātisālohitacittākāraiḥ ānyaiḥ pañcabhiḥ sattvālambane ūṣmagatimiṣyate /
+</p><p xml:id="296">
+saṃkṣepato 'kuśalakuśalayoryathāsaṃkhyaṃ hānopādānābhyāṃ svayaṃ nivṛttasya pravṛttasya ca, taddvārā anyeṣāṃ pāpānnivartanaṃ kuśale ca pravartanamiti dvāvākārau / tathaiva anyeṣāṃ svayampravṛttau varṇavādo 'nukūlatā ceti dharmaprabhedadvaividhyena hi anantākārā iti sattvālambane mūrdhagato bhavati /
+</p><p xml:id="297">
+yathā mūrdhagate svaparādhiṣṭhānabhedena ālambanākārāḥ, tathā niyojanavarṇavādānukūlatādyākāraiḥ svaparādhiṣṭhānaduḥkhādisatyeṣvālambanameva kṣāntirbhavati /
+</p><p xml:id="298">
+pūrvavat svaparādhiṣṭhānapācanamocanādyākāraiḥ sattvālambanameva agradharmā bhavantītyevaṃ nirvedhabhāgīyā bhavanti /
+</p><p xml:id="299">
+sarvākāramārgavastuvibhāvanābhedena yathākramaṃ sarvākārajñatāditrividhe 'bhisamaye laukikanirvedhabhāgīyādhigamapūrvako lokottaradarśanabhāvanāmārgādhigamaḥ / sarvākārābhisambodhādau tu trividhe 'bhisamaye bhāvanottarottarāvasthāviśeṣeṇa sarvākāraviśeṣamārgasaṃgṛhītaṃ jñānamanāsravaṃ mṛdumadhyādhimātrakrameṇotpadyata iti sakṛdutpattinirāsāya nirvedhabhāgīyādivyapadeśo 'bhihita iti veditavyam /
+</p><p xml:id="300">
+8 - avaivartiko gaṇaḥ
+</p><p xml:id="301">
+avaivartikabodhisattvasaṃghasya yathoktanirvedhabhāgīyamutpadyata ityavaivartikabodhisattvasaṃghalakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.38">
+<l>nirvedhāṅgānyupādāya darśanābhyāsamārgayoḥ /</l>
+<l>ye bodhisattvā vartante so 'trāvaivartiko gaṇaḥ //</l>
+</lg>
+<p xml:id="302">
+iti / ye vīrāḥ caturṣu nirvedhabhāgīyeṣu vakṣyamāṇadarśanamārgabhāvanāmārgayoḥ tattadadhigamanayena sthitāḥ, te eva avaivartikaśaikṣyabodhisattvasaṃghā bhavanti /
+</p><p xml:id="303">
+kiñca teṣāmāveṇikalakṣaṇamiti cet tāvadekena antaraślokena nirvedhabhāgīyasthitānāṃ lakṣaṇamāha -
+</p>
+<lg xml:id="Abhis_4.39">
+<l>rūpādibhyo nivṛttyādyairliṅgairviṃśatidheritaiḥ /</l>
+<l>nirvedhāṅgasthitasyedamavaivarttikalakṣaṇam //</l>
+</lg>
+<p xml:id="304">
+iti / rūpādinivṛttinirvicikitsādyākārairviṃśatiprakārairnirvedhabhāgīyasthānāmavaivartikalakṣaṇaṃ jñeyam /
+</p><p xml:id="305">
+kāni ca nivṛttyāderlakṣaṇāni iti cet ṣaḍbhiḥ antaraślokaiḥ pratipādayitumāha -
+</p>
+<lg xml:id="Abhis_4.40">
+<l>rūpādibhyo nivṛttiśca vicikitsākṣaṇakṣayau /</l>
+<l>ātmanaḥ kuśalasthasya pareṣāṃ tanniyojanam //</l>
+</lg>
+<lg xml:id="Abhis_4.41">
+<l>parādhārañca dānādi gambhīre 'rthepyakāṃkṣaṇam /</l>
+<l>maitraṃ kāyādyasaṃvāsaḥ pañcadhāvaraṇena ca //</l>
+</lg>
+<lg xml:id="Abhis_4.42">
+<l>sarvānuśayahānañca smṛtisaṃprajñatā śuci /</l>
+<l>cīvarādi śarīre ca kṛmīṇāmasamudbhavaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.43">
+<l>cittākauṭilyamādānaṃ dhūtasyāmatsarāditā /</l>
+<l>dharmatāyuktagāmitvaṃ lokārthaṃ narakaiṣaṇā //</l>
+</lg>
+<lg xml:id="Abhis_4.44">
+<l>parairaneyatā mārasyānyamārgopadeśinaḥ /</l>
+<l>māra ityeva bodhaśca caryā buddhānumoditā //</l>
+</lg>
+<lg xml:id="Abhis_4.45">
+<l>ūṣmamūrddhasu sakṣāntiṣvagradharmeṣvavasthitaḥ /</l>
+<l>liṅgairamībhirviṃśatyā sambodherna nivartate //</l>
+</lg>
+<p xml:id="306">
+iti / asvabhāvatvād rūpādidharmebhyo nivṛttiḥ, avetya prasādalābhena vicikitsākṣayaḥ, praṇidhānasamṛddhyā mithyādṛṣṭi-naraka-preta-tiryagupapatti-buddhavacanā-śravaṇa-pratyantajanapadotpāda-indriyavaikalyajaḍamūkabhāva-dīrghāyuṣkadevopapattītyaṣṭā-kṣaṇakṣayaḥ, kāruṇikatayā svaparakuśaladharmaniyojanam, parātmaparivarttakatvena parasattvaviṣayapariṇāmitadānādiḥ, samyagdharmāvabodhena gambhīradharmārthākāṃkṣaṇam, parahitapratipannatvena maitrakāyavāṅmanaskarma, prayogasampattyā kāmacchando vyāpādaḥ styānamiddhamauddhatyakaukṛtyaṃ vicikitsā ceti pañcanīvaraṇairasaṃvāsaḥ, vibhāvitapratipakṣatvena avidyādisarvānuśayavidhvaṃsaḥ, nityasamāhitatvena smṛtisamprajñānayogaḥ, caukṣasamudācāratvena śuciparibhogyacīvarādīti ekādaśa ākārāḥ / sarvalokābhyupagatakuśalamūlatvena kāye aśītikṛmikulasahasrāsambhavaḥ, kuśalamūlaviśuddhyā cittākauṭilyam, lābhasatkārādinirapekṣatvena pāṃśukūlikatvādidhūtaguṇasamādānam, dānādiviśeṣapratipatipattyā tadvipakṣamātsaryabhraṣṭaśīlāderabhāvaḥ, sarvadharmasaṃgrahād dharmatā 'viruddhaprajñāpāramitāyogagamanam, svātmīkṛtasattvadhātutvena parārthanarakābhilāṣa iti ṣaḍākārāḥ / adhigatasampratyayadharmatvena aparapraṇayanam, viditabuddhatvopāyakauśalatvena pratirūpamārgopadekamārasya māratvāvabodhaśceti dvāvākārau / trimaṇḍalaviśuddhyā sarvāsu caryāsu buddhānumoditatvamiti eva ākāraḥ / yathākramaṃ ūṣmamūrdhakṣāntyagradharmeṣvavasthito bodhisattvo 'nuttarabodherna nivartata iti ebhirviṃśatiliṅgairvijñeyam /
+</p><p xml:id="307">
+nirvedhabhāgīyāvaivartikalakṣaṇānantaraṃ darśanamārgāvaivartikalakṣaṇamekena antaraślokenāha -
+</p>
+<lg xml:id="Abhis_4.46">
+<l>kṣāntijñānakṣaṇāḥ ṣaṭ ca pañca pañca ca dṛkpathe /</l>
+<l>bodhisattvasya vijñeyamavaivartikalakṣaṇam //</l>
+</lg>
+<p xml:id="308">
+iti / duḥkhādisatyadvārā dharmānvayajñānakṣāntyādayaḥ ṣoḍaśa kṣaṇāḥ darśanamārgasthabodhisattvasyāvaivartikalakṣaṇaṃ bhavati /
+</p><p xml:id="309">
+kīdṛśakṣaṇākāralakṣaṇamiti cet pañcabhirantaraślokairākārānāha -
+</p>
+<lg xml:id="Abhis_4.47">
+<l>rūpādisaṃjñāvyāvṛttirdārḍhyaṃ cittasya hīnayoḥ /</l>
+<l>yānayorvinivṛttiśca dhyānādyaṅgaparikṣayaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.48">
+<l>kāyacetolaghutvañca kāmasevābhyupāyikī /</l>
+<l>sadaiva brahmacāritvamājīvasya viśuddhatā //</l>
+</lg>
+<lg xml:id="Abhis_4.49">
+<l>skandhādāvantarāyeṣu sambhāre sendriyādike /</l>
+<l>samare matsarādau ca neti yogānuyogayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.50">
+<l>vihārapratiṣedhaśca dharmasyāṇoralabdhatā /</l>
+<l>niścitatvaṃ svabhūmau ca bhūmitritayasaṃsthitiḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.51">
+<l>dharmārthaṃ jīvitatyāga ityamī ṣoḍaśa kṣaṇāḥ /</l>
+<l>avaivartikaliṅgāni dṛṅmārgasthasya dhīmataḥ //</l>
+</lg>
+<p xml:id="310">
+iti / svalakṣaṇaśūnyatayā rūpādidharmāvabodhavyāvartanam, buddhāderadhiṣṭhānena anuttarabodhicittadṛḍhatā, mahāyānaviśeṣadharmapratipattyā śrāvakapratyekabuddhayānacittavinivartanam, dharmapravicayasāmarthyād dhyānārūpyasamāpattyādyudayāṅgaparikṣaya iti catvāra eva duḥkhasyākārā bhavanti /
+</p><p xml:id="311">
+apagatākuśalatvena kāyacetolāghavam, sattvadamanopāyakauśalasāmarthyena anabhiniveśakāmopabhogaḥ, viṣayādīnavadarśanena sadā brahmacāritvam, satpuruṣadharmatayā samyagupakaraṇājīvaviśuddhatvamiti catvāra eva samudayākārā bhavanti /
+</p><p xml:id="312">
+śūnyatāvasthitatvena skandhadhātvāyatanayogānuyogayorakaraṇamityevaṃ yogānuyogavihārapratiṣedhaḥ, nirastavipakṣatvena adhigamāntarāyadharmāṇāṃ pūrvavadyogānuyogavihārapratiṣedhaḥ, parijñātavikalpadoṣatvena bodhisambhāradānādīnāṃ pūrvavat kathāyogānuyogavihārapratiṣedhaḥ, grāhyagrāhakayorheyatvenendriyāśrayanagarādiyuddheṣu pūrvavadyogānuyogavihārapratiṣedha iti catvāro nirodhākārā bhavanti /
+</p><p xml:id="313">
+dānādiviśeṣāvabodhena mātsaryadauḥśīlyādiyogānuyogavihārapratiṣedhaḥ, sarvadharmatrivimokṣamukhasvabhāvatvena aṇumātrajñeyadharmānupalambhaḥ, abhisampratyayalābhena trisarvajñatātmakasvabhūmitrayayathāvanniścitāvasthānam, ekāntaniṣṭhatvena sarvākārajñatādidharmārthaṃ jīvitatyāga iti catvāro mārgākārā bhavanti /
+</p><p xml:id="314">
+evaṃ kṣāntijñānakṣaṇāḥ ṣoḍaśabhirākāraiḥ samyagadhigatāḥ santo 'nabhiniviṣṭagrāhyagrāhakākāraśuddhalaukikapṛṣṭhacittasaṃgṛhītaṃ svānurūpakāryaṃ rūpādisaṃjñāvyāvartanādikaṃ parapratipattiviṣayaṃ janayantītyato darśanamārgasthāvaivartikabodhisattvalakṣaṇāni bhavanti / adhigamānurūpa eva sarvatra yogināṃ vyavahāraḥ anyatra sattvavinayaprayojanavaśāditi jñāpanāyopacāreṇoktam, anyathā yogisantānapratyātmavedyakṣaṇāḥ kathaṃ parapratipattaye lakṣaṇānīti?
+</p><p xml:id="315">
+tadanantaraṃ satyapi bhāvanāmārgasthāvaivartikalakṣaṇe 'nāgṛhītaviśeṣaṇā viśeṣye buddhirutpadyate ' iti nyāyāt tāvadbhāvanāmārgaṃ viśeṣayannāha -
+</p>
+<lg xml:id="Abhis_4.52">
+<l>gambhīro bhāvanāmārgo gāmbhīryaṃ śūnyatādikam /</l>
+<l>samāropāpavādāntamuktatā sā gabhīratā //</l>
+</lg>
+<p xml:id="316">
+iti / śūnyatādike na rūpādikam, na tato 'nyacchūnyatādikamiti yathākramaṃ yā samāropāpavādāntamuktatā, sā śūnyatādergāmbhīryaṃ śūnyatādikamiti gāmbhīryayogād gambhīro 'bhyāsapatha iti /
+</p><p xml:id="317">
+viśeṣaṇaṃ nirdiśyaivaṃ viśeṣyaṃ vastu āha -
+</p>
+<lg xml:id="Abhis_4.53">
+<l>cintātulananidhyānānyabhīkṣṇaṃ bhāvanāpathaḥ /</l>
+<l>nirvedhāṅgeṣu dṛṅmārge bhāvanāmārga eva ca //</l>
+</lg>
+<p xml:id="318">
+iti / śrutacintābhāvanāmayaprajñayā samādhau vā prayogamaulapṛṣṭhabhāvinyā prajñayā yathākramaṃ triṣu nirvedhāṅgādiṣu nirdiṣṭānāmarthānāṃ punaḥ punaścintātulananidhyānāni bhāvanāmārge prābandhikāni bhavanti /
+</p><p xml:id="319">
+tasya kati prakārā iti cedāha -
+</p>
+<lg xml:id="Abhis_4.54">
+<l>prābandhikatvādiṣṭo 'sau navadhā ca prakārataḥ /</l>
+<l>mṛdumadhyādhimātrāṇāṃ punarmṛdvādibhedataḥ //</l>
+</lg>
+<p xml:id="320">
+iti / vikalpakleśā bodhisattvā iti kṛtvā yathaudārikañca tamaḥ sūkṣmeṇālokena hanyate sukṣmañcādhimātreṇeti mṛdumadhyādhimātravikalpānāṃ pratyekaṃ mṛdumadhyādhimātrabhedāt teṣāṃ mṛdumadhyādhimātrapratipakṣāṇāṃ pratyekaṃ mṛdumadhyādhimātrabhedāt tathā paramārthataḥ śūnyatālakṣaṇākāradvārā vikalpapratipakṣayorbhedād yathāsaṃkhyaṃ kāmadhātvādinavabhūmiṣu navaprakāraḥ prabandhena vartamānaḥ bhāvanāmārgo bhavati /
+</p><p xml:id="321">
+tattajjinajananīnāmekaikaṃ prakāramadhikṛtya asaṃkhyeyāprameyāpramāṇapuṇyaprasavavacanād bahudhā bhedāt kathaṃ navaprakāra iti cedāha -
+</p>
+<lg xml:id="Abhis_4.55">
+<l>asaṃkhyeyādinirdeśā paramārthena na kṣamāḥ /</l>
+<l>kṛpāniṣyandabhūtāste saṃvṛtyābhimatā muneḥ //</l>
+</lg>
+<p xml:id="322">
+iti / asaṃkhyeyāprameyāpramāṇanirdeśā vāgabhilāpasvabhāvā vyāvṛttyapekṣopajanitanānātvarūpeṇa ekasminnarthe pratyuktāstasmāt paramārthena yathoktalakṣaṇasya bhāvanāmārgasya bhedaṃ kartuṃ na kṣamāḥ / saṃvṛtyā tvanālambanamahākaruṇāsvabhāvadharmadhātuniṣyandabhūtāste deśanādharmasvabhāvā yathoktanirdeśā bālajanānāṃ mahāphalodayaprakāśakatvenābhimatāstathāgatasyeti bahutvaṃ na prasajyate /
+</p><p xml:id="323">
+śūnyatālakṣaṇatayā atiśayādhānābhāvād kiñcidapi mandabuddhipuruṣaṃ prati na kriyata eveti āśaṅkyāha -
+</p>
+<lg xml:id="Abhis_4.56">
+<l>hānivṛddhī na yujyete nirālāpasya vastunaḥ /</l>
+<l>bhāvanākhyena kiṃ hīnaṃ vartmanā kimudāgatam //</l>
+</lg>
+<p xml:id="324">
+dharmatāsvarūpasya abhimatamārgavastuno niḥsvabhāvatayā tattvānyatvobhayānubhayatvairavācyasya bhāvanātiśayādhānābhāvāt vipakṣapratipakṣayoryathākramamapagamodayau na yujyete /
+</p><p xml:id="325">
+yadyevaṃ bhāvanāsaṃjñakena mārgeṇa kiṃ vipakṣasvarūpaṃ parityaktam, kiñca vyavadāna svarūpaṃ prāptam, na kiñcidapi kriyate, ataḥ anupanyasanīya eveti cet? maivam / tathā coktam -
+</p>
+<lg xml:id="Abhis_4.57">
+<l>yathā bodhistathaivāsāviṣṭasyārthasya sādhakaḥ /</l>
+<l>tathatālakṣaṇā bodhiḥ so 'pi tallakṣaṇo mataḥ //</l>
+</lg>
+<p xml:id="326">
+iti / yathā niratiśayādhānā tathatāsvarūpā bodhiḥ niṣprapañcajñānātmakadharmakāyādibuddhasvabhāvā ādhipatyamātreṇa vineyajanānāṃ puṇyajñānānurūpatayā viśiṣṭārthapratibhāsicittajananadvāreṇābhimatārthasya sādhikā, tadvadayamapyāgantukamalāpagamād bhāvanayā sākṣātkṛto mārgaḥ tathatālakṣaṇo 'pi saṃvṛtyābhimatārthakriyākārī / paramārthatastu hānivṛddhyabhāva evāṅgīkriyata iti aprayoga eva prayogatvāt na doṣaḥ /
+</p><p xml:id="327">
+evaṃ sati saṃvṛtyā arthakriyāsāmarthyaṃ na ghaṭata ityāśaṅkayannāha -
+</p><p xml:id="328">
+pūrveṇa bodhirno yuktā manasā paścimena vā /
+</p><p xml:id="329">
+iti / ekaikasmiṃścitte pūrvāparībhūte buddhabodhiniṣpādakasarvākārajñatādisamastārthāpratibhāsanānnaivaikena (pūrveṇa paścimena vā) bodhiryujyate / 'ekavijñānasantatayaḥ sattvāḥ' iti vacanādasambhavitvena yugapadutpannasamīhitārthaniṣpādakadharmapratibhāsena anekacittenāpi na (yujyate) / anuttarabuddhabodhiniṣpādakasmṛtyupasthānādyaṣṭādaśāveṇikabuddhadharmaparyantādhigantṛsvarūpa-pūrvāparībhūtānekacittena vā na(yujyate) ; niranvayodayavināśena parasparasambandhāt /
+</p><p xml:id="330">
+kiṃ tarhi viśiṣṭārthapratibhāsicittajananadvāreṇa arthakriyākārīti? na, tadasamyaktvāt / ityāha -
+</p>
+<lg xml:id="Abhis_4.58">
+<l>dīpadṛṣṭāntayogena gambhīrā dharmatāṣṭadhā //</l>
+</lg>
+<p xml:id="331">
+prathame jvālāvartyormīlanakṣaṇe dvitīyakṣaṇamantareṇa svakāraṇaparamparākramāyātasamānakālasaṃhatotpattyaviśiṣṭatvāt kāryakāraṇalakṣaṇadāhyadāhakābhāvaḥ / tathaiva dvitīyakṣaṇe 'pi viśiṣṭajvālāvartyorūtpattikṣaṇe prathamakṣaṇamantareṇa nityasattvādiprasaṅgatayā saṃvṛtyutpādābhāvāt kāryakāraṇalakṣaṇadāhyadāhakābhāvaḥ / yadyevaṃ tathāpi yadā idampratyayatātmakapratītyasamutpādadharmatayā avicāraikaramyatvena hetuphalasambandhabalād saṃhataviśiṣṭotpannaṃ prathamakṣaṇaṃ samapekṣya tadāhitasāmarthyātiśaya eva viśiṣṭo dvitīyakṣaṇaḥ syāt, tadā nirhetukavināśe 'pi kāraṇakāryayoḥ yathākramaṃ tulyakālaniranvayavināśodayād dāhyadāhakabhāvaḥ / tasmāt prathamakṣaṇe dvitīyārciranapekṣya vartī na dahyate, dvitīyakṣaṇenāpi prathamārciranapekṣya vartī na dahyata iti dīpadṛṣṭāntanyāyena pūrvāparībhūtakṣaṇayorekaviṣayopayogajñāpanapareṇa pūrvakṣaṇavat bodhiniṣpādakakatipayapadārthapratibhāsi prathamavijñānaṃ pratītya tatpratibhāsābhyadhika viśiṣṭārthapratibhāsipaścimavijñānodayād bodhiprāptiryujyate /
+</p><p xml:id="332">
+yathoktenaiva ca dṛṣṭāntena aṣṭaprakārā gambhīradharmatā pratisartavyā iti bhāvanāmārgasthabodhisattvānāmavaivartikalakṣaṇakathanāya yasmin viṣaye aṣṭavidhagāmbhīryaṃ tatkathayannāha -
+</p>
+<lg xml:id="Abhis_4.59">
+<l>utpāde ca nirodhe ca tathatāyāṃ gabhīratā /</l>
+<l>jñeye jñāne ca caryāyāmadvayopāyakauśale //</l>
+</lg>
+<p xml:id="333">
+iti / na pūrvāparakṣaṇābhyāṃ na ca niḥsvabhāvatayā bhāvanāgamyaviśiṣṭārthotpādanamiti pratītyasamutpādaḥ / sarvabhāvodaya eva niḥsvabhāva iti saṃvṛtyā nirudhyata iti nirodhaḥ / sarvāvasthāsu tathatābhyāse 'pi tasyā asākṣātkaraṇamiti tathatā / tathatāsvabhāvasarvadharmasya dānādyanekavidhānuṣṭhānamiti jñeyaḥ / tathatārūpeṇādarśanameva darśanamiti jñānam / dharmatayā sarvatrācaraṇameva caraṇamiti caryā / advayasvabhāve sarvasiddhirityadvayaḥ / sarvasambhārapariniṣpattau tatphalabuddhatvasyāprāptirityupāyakauśalam / acintyavimokṣamukhalābhāt parasparaviruddhārthānuṣṭhānena gāmbhīryaṃ bhavati / evaṃ avaivartikaśaikṣaḥ salakṣaṇo 'bhihitaḥ /
+</p><p xml:id="334">
+9 - bhavaśāntyoḥ samatā
+</p><p xml:id="335">
+śaikṣasambhāradharmaprāpto buddhatvaprāptaye yatate, ataḥ buddhatvaprāptinimittasaṃsāranirvāṇasamatāṃ kathayannāha -
+</p>
+<lg xml:id="Abhis_4.60">
+<l>svapnopamatvāddharmāṇāṃ bhavaśāntyorakalpanā /</l>
+<l>karmābhāvādicodyānāṃ parihārā yathoditāḥ //</l>
+</lg>
+<p xml:id="336">
+iti / vipakṣapratipakṣasāṃsārikavaiyadānikadharmāṇāṃ pratibhāsamātrasvabhāvasvapnasadṛśatvena avagamāt saṃsāranirvāṇayornānātvena avikalpa iti samatā / nanu svapnasadṛśatve sati daśākuśaladānādīnāmabhāvaḥ svapnāvasthāyāmiva jāgraddaśāyāmapi syāditicodyānāṃ parihārā bāhyārthavādanaye kṣaṇikatayā nirhetukavināśe
+</p><p xml:id="337">
+karmajaṃ lokavaicitryam
+</p><p xml:id="338">
+iti siddhāntāt paramārthato na kaścinna kenaciddhato nāpi kayacid dravyaṃ kenacid gṛhītamityādyupagame pakṣapravṛttasantānaviruddhapadārthotpādanāt māraṇādyadhyavasāyadvāreṇa ayoniśomanaskārādimato 'kuśalādivat prāṇātipātādayo vyavasthāpyante, tathaiva svapnasadṛśe vastuni tadanurūpārthe bhāvādyabhiniveśena akhaṇḍitasakalaviparyāsabandhanānāmityevaṃ tatpatihārāḥ tatpakṣāścānyatra abhihitā ityavagantavyāḥ / kiñcamiddhenopahataṃ cittaṃ svapne tenāsamaṃ phalam /
+</p><p xml:id="339">
+iti dṛṣṭāntāsiddhiḥ / ityeva svapne 'pyupacittakuśalākuśalasya prabuddhāvasthāyāmaho kṛtaḥ sukṛta ityanumodane pṛṣṭhāvasthācittābhiniveśaparipuṣṭyā paripoṣaḥ / ataśca dṛṣṭāntāsiddheḥ saṃsāranirvāṇasamatā eva /
+</p><p xml:id="340">
+10 - anuttarā kṣetraśuddhiḥ
+</p><p xml:id="341">
+ubhayasamatāvibhāvanayā svabuddhakṣetre buddho bhaviṣyatīti tadanantaraṃ buddhakṣetrapariśuddhirityāha -
+</p>
+<lg xml:id="Abhis_4.61">
+<l>sattvalokasya yā 'śuddhistasyāḥ śuddhyupahārataḥ /</l>
+<l>tathā bhājanalokasya buddhakṣetrasya śuddhatā //</l>
+</lg>
+<p xml:id="342">
+sattvabhājanalokabhedena dvividhabuddhakṣetrayoryathākramaṃ jighatsāpipāsāsthāṇukaṇṭakādikā yā 'śuddhiḥ, tasyāḥ pratipakṣeṇa divyopabhogakanakabhūbhyādiśuddhijananadvāreṇa viśuddhirbuddhakṣetraviśuddhiḥ /
+</p><p xml:id="343">
+11 - upāyakauśalam
+</p><p xml:id="344">
+niṣpāditasvabuddhakṣetraviśuddhinopāyakauśalena yathābhavyatayā buddhakṛtyaṃ karaṇīyamityupāyakauśalamāha -
+</p>
+<lg xml:id="Abhis_4.62">
+<l>viṣayo 'sya prayogaśca śātravāṇāmatikramaḥ /</l>
+<l>apratiṣṭho yathāvedhamasādhāraṇalakṣaṇaḥ //</l>
+</lg>
+<lg xml:id="Abhis_4.63">
+<l>asakto 'nupalambhaśca nimittapraṇidhikṣataḥ /</l>
+<l>talliṅgaṃ cāpramāṇaṃ ca daśadhopāyakauśalam //</l>
+</lg>
+<p xml:id="345">
+iti / āntarāyikadharmasamatikramaṇena devādimārātikramaḥ, vibhāvitasarvadharmasamatvena apratiṣṭhitavihāraḥ, praṇidhānasamṛddhyā yathāvedhaṃ parārthakaraṇam, svabhyastasarvaduṣkaratvena asādhāraṇaḥ, śukladharmaviśuddhyā sarvadharmasyāgrahaṇam, śunyatāvimokṣamukhatvena anupalambhaḥ, animittavimokṣamukhatvena animittaḥ, apraṇihitavimokṣamukhatvena apraṇidhānam, praśnapūrvakāvaivartikadharmakathanena avaivartikaliṅgam, sarvaviṣayajñānatvena apramāṇamiti prajñāpāramitāyā daśavidhaviṣayāṇāṃ sākṣātkriyāyāṃ kālākālajñānaprayoga eva upāyakauśalaṃ bhavatīti /<lb/>
+iti abhisamayālaṅkāre nāma prajñāpāramitopadeśaśāstre caturthādhikāravṛttiḥ //
+</p><p xml:id="346">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="347">
+Mūrdhābhisamayādhikāraḥ pañcamaḥ
+</p><p xml:id="348">
+1 - liṅgam (ūṣmā mūrdhaprayogaḥ)
+</p><p xml:id="349">
+prāptasarvākārabhisambodhasya prakarṣaparyanto 'dhigamo bhavatīti tatsukhāvabodhāya liṅgādyabhidhānapuraḥsaraṃ mūrdhābhisamayamāha -
+</p>
+<lg xml:id="Abhis_5.1">
+<l>svapnāntare 'pi svapnābhasarvadharmekṣaṇādikam</l>
+<l>mūrdhaprāptasya yogasya liṅgaṃ dvādaśadhā matam //</l>
+</lg>
+<p xml:id="350">
+iti / svapnāvasthāyāmapyatyabhyāsāt svapnasadṛśasarvadharmekṣaṇam, śrāvakādibhūmispṛhācittānutpādanam, tathāgatādidarśanam, buddharddhivikurvitopalabdhiḥ, dharmadeśanādicittotpādaḥ, nairayikasattvādīkṣaṇapuraḥsarasvabuddhakṣetrāpāyaprahāṇānusmaraṇam, nagarādidāhapraśamanasatyādhiṣṭhānasamṛddhiḥ, yakṣādyamanuṣyāpagamasatyavākyaniṣpattiḥ, svayamabhijñāparākramakalyāṇamitrasevanam, sarvaprakāraprajñāpāramitāśikṣaṇam, sarvadharmānabhiniveśaḥ, buddhabodhyāsannībhavanamiti dvādaśa prakārāṇi prāptābhisamayāvasthāyā viśeṣaliṅgāni /
+</p><p xml:id="351">
+2 - vivṛddhiḥ (mūrdhā mūrdhaprayogaḥ)
+</p><p xml:id="352">
+liṅgenaivaṃ lakṣitasya katiprakārā vivṛddhiriti vivṛddhimāha -
+</p>
+<lg xml:id="Abhis_5.2">
+<l>jambudvīpajaneyattābuddhapūjāśubhādikām /</l>
+<l>upamāṃ bahudhā kṛtvā vivṛddhiḥ ṣoḍaśātmikā //</l>
+</lg>
+<p xml:id="353">
+iti / jambūdvīpakāditrisāhasralokadhātavīyasattveyattātathāgatapūjādhikatvam, viśiṣṭaprajñāpāramitāmanaskāraḥ, anutpattidharmakṣāntilābhaḥ, bodhyabodhakadharmānupalambhaḥ, daśakuśalādyārūpyasamāpattiyogād viśeṣotkarṣaḥ, sarvadevanikāyopasaṃkramaḥ, sarvamārābhibhavaḥ, śāstṛsadṛśajanasamānāvasthā iti aṣṭaprakārāṇi puṇyāni / punaḥ sarvathopāyakauśalapariśuddhaśikṣā, buddhagotrībhavanam, buddhatvaphalaprāptinimittam, pāramitāvipakṣacittānutpādaḥ, rūpādiyogādhigamacittānutpādaḥ, sarvapāramitāsaṃgrahajñānam, sarvasampatpratilambhaḥ, samyaksambodhyāsannībhāva ityanyāni aṣṭaprakārāṇi puṇyāni / puṣpādibhiḥ buddhapūjāyāḥ śubhādikāṃ bahudhā upamāṃ kṛtvā uttarottaraviśeṣotkarṣeṇa ṣoḍaśāvasthātmikā vivṛddhirbhavati /
+</p><p xml:id="354">
+3 - nirūḍhiḥ (kṣāntiḥ mūrdhaprayogaḥ)
+</p><p xml:id="355">
+vivṛddhyaivaṃ vardhitasya ātmībhāvagamanaparyantalakṣaṇāṃ nirūḍhiṃ vaktumāha -
+</p>
+<lg xml:id="Abhis_5.3">
+<l>trisarvajñatvadharmāṇāṃ paripūriranuttarā /</l>
+<l>aparityaktasattvārthā nirūḍhirabhidhīyate //</l>
+</lg>
+<p xml:id="356">
+iti / samyagupāyakauśalabalenaivaṃ nirvikalpādhigamāvasthāyāṃ mahākaruṇādisammukhīkaraṇabhāvena aparityaktasattvārthalakṣaṇā yathoktasarvākārajñatāditrisarvajñatādharmāṇāṃ cittotpādādīnāmuparyuktānāmanuttarā paripūrirnirūḍhiriti /
+</p><p xml:id="357">
+4 - cittasaṃsthitiḥ (agradharmākhyaḥ mūrdhaprayogaḥ)
+</p><p xml:id="358">
+nirūḍhyaivaṃ virūḍhasya sthirībhāvalakṣaṇā cittasaṃsthitiriti cittasaṃsthitimāha -
+</p>
+<lg xml:id="Abhis_5.4">
+<l>caturdvīpakasāhasradvitrisāhasrakopamaḥ /</l>
+<l>kṛtvā puṇyabahutvena samādhiḥ parikīrtitaḥ //</l>
+</lg>
+<p xml:id="359">
+iti / sambhavatpramāṇasya palapramāṇena parimāṇaṃ pramātuṃ śakyata iti nyāyāt caturdvīpāditrisāhasralokadhātūnāṃ sarveṣāṃ pāramitādīnāṃ samādhipuṇyajñānasvarūpāṇāṃ pṛthak pṛthak upamāṃ kṛtvā tebhyo viśiṣṭā pramāṇātikrāntapuṇyabahutvena samādhilakṣaṇā cittasaṃsthitiḥ kathiteti /
+</p><p xml:id="360">
+etāni ca liṅgādīni yathākramamūṣmādicaturnirvedhabhāgīyasvarūpāṇi veditavyāni /
+</p><p xml:id="361">
+5 - darśanamārgaḥ (mūrdhaprayogaḥ)
+</p><p xml:id="362">
+nirvedhabhāgīyānantaraṃ darśamārgaḥ / tatra caturvidho vipakṣaḥ sapratipakṣaḥ / vipakṣaṃ tāvad grāhyavikalpadvayamāha -
+</p>
+<lg xml:id="Abhis_5.5">
+<l>pravṛtau ca nivṛtau ca pratyekaṃ tau navātmakau /</l>
+<l>grāhyau vikalpau vijñeyāvayathāviṣayātmakau //</l>
+</lg>
+<p xml:id="363">
+iti / anupalambhopalambhasvabhāvo pravṛttinivṛttipakṣau yathākramaṃ śrāvakabodhisattvādīnāṃ dharmasyādānasantyāgākāreṇa grāhyāviti kleśavad vipakṣau grāhyavikalpau vastunyapratibaddhavṛttitvena vitathapratibhāsitvādayathāsvarūpau viṣayaprabhedena pratyekaṃ navaprakārau jñeyāviti /
+</p><p xml:id="364">
+grāhyavikalpapakṣadvayamevaṃ nirdiśya grāhakavikalpadvayamāha -
+</p>
+<lg xml:id="Abhis_5.6">
+<l>dravyaprajñaptisatsattvavikalpau grāhakau matau /</l>
+<l>pṛthagjanāryabhedena pratyekaṃ tau navātmakau //</l>
+</lg>
+<lg xml:id="Abhis_5.7">
+<l>grāhau cenna tathā sto 'rthau kasya tau grāhakau matau /</l>
+<l>iti grāhakabhāvena śūnyatālakṣaṇaṃ tayoḥ //</l>
+</lg>
+<p xml:id="365">
+iti / pṛthagjanāryapudgalayoryathākramaṃ dravyaprajñaptisatpuruṣādhiṣṭhānau grāhakavikalpau vibandhakatvād vipakṣau viṣayabhedena pratyekaṃ navaprakārāviti / yadā viṣayabhāvāpannagrāhyāvarthau na tathā grāhyarūpeṇa bhavatastadā na kasyacit tau grāhakāviti, grāhakarūpeṇānayorviviktaṃ rūpamiti vitathapratibhāsitvādayathāviṣayasvarūpau jñeyāviti /
+</p><p xml:id="366">
+kathaṃ pravṛtyadhiṣṭhānaḥ prathamo grāhyavikalpo navadhāḥ? ityāha -
+</p>
+<lg xml:id="Abhis_5.8">
+<l>eṣa svabhāve gotre ca pratipatsamudāgame /</l>
+<l>jñānasyālambanābhrāntau pratipakṣavipakṣayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.9">
+<l>svasminnadhigame kartṛtatkāritrakriyāphale /</l>
+<l>pravṛttipakṣadhiṣṭhāno vikalpo navadhā mataḥ //</l>
+</lg>
+<p xml:id="367">
+iti / viviktena viviktānavabodhasvabhāve, acalādibhūmipraveśena niyatabuddhagotre, māyopamapratipattyā darśanādimārgasamudāgame, pratibhāsamātreṇa abhrāntajñānālambane, guṇadoṣapūrvakopādeyaheyatvena pratipakṣavipakṣe, sarvamalarahitatvena svādhigame, hīnāpraṇītatvena śrāvakādibhūmidūrīkaraṇe, yathāśayānurūpanirmāṇena sattvārthavyāpāre, samyagupāyakauśalabalena sarvajananirvāṇapratiṣṭhāpanakriyāphale ca nirdoṣatayā upādeyatvena pravṛttiḥ kāryā, ityevaṃ pravṛttipakṣādhiṣṭhānaḥ prathamo grāhyavikalpo navaprakāro darśanamārgaprayogāvasthāyāṃ praheyo mata iti /
+</p><p xml:id="368">
+kathaṃ nivṛttipakṣadhiṣṭhāno dvitīyo grāhyavikalpo navadheti? āha -
+</p>
+<lg xml:id="Abhis_5.10">
+<l>bhavaśāntiprapātitvānnyunatve 'dhigamasya ca /</l>
+<l>parigrahasyābhāve ca vaikalye pratipadgate //</l>
+</lg>
+<lg xml:id="Abhis_5.11">
+<l>parapratyayagāmitve samuddeśanivartane /</l>
+<l>prādeśikatve nānātve sthānaprasthānamohayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.12">
+<l>pṛṣṭhato gamane ceti vikalpo 'yaṃ navātmakaḥ /</l>
+<l>nivṛttipakṣadhiṣṭhānaḥ śrāvakādimanobhavaḥ //</l>
+</lg>
+<p xml:id="369">
+iti / saṃsāranirvāṇānyataraprapātitvena nyunatādhigame, kalyāṇamitropāyakauśalavikalatvena saṃparigrahābhāve, samastajñeyāvaraṇāpratipakṣatvena pratipadvaikalye, tathāgatādyupadeśasāpekṣatvena parapratyayagāmitve, sarvasattvāgratācittamahattvādyapravṛttatvena uddeśanivṛtau, kleśāvaraṇapratipakṣatvena prādeśikamārgavyāpāre, sopalambhatvena prathamaphalādyadhigamanānātve, sarvāvidyānuśayāprahīṇatvena sthānagamanājñāne, mahāyānasarvasaṃgrāhakatvena sarvākārajñatāsarvanirvāṇapaścādanugamane ca sadoṣatayā grāhyatvena vinivṛttiḥ kāryā / ityevaṃ dvitīyo grāhyavikalpo nivṛttipakṣādhiṣṭhānaḥ śrāvakapratyekabuddhasantānopādeyatvasamudbhavo navadhā bodhisattvānāṃ darśanamārge cittacaittapravṛttyavasthāyāṃ praheyo mata iti /
+</p><p xml:id="370">
+kathaṃ dravyasatpṛthagjanapuruṣādhiṣṭhānaḥ prathamo grāhakavikalpo navadhā? ityāha -
+</p>
+<lg xml:id="Abhis_5.13">
+<l>grāhakaḥ prathamo jñeyo grahaṇapratimokṣaṇe /</l>
+<l>manaskriyāyāṃ dhātūnāmupaśleṣe trayasya ca //</l>
+</lg>
+<lg xml:id="Abhis_5.14">
+<l>sthāne cābhiniveśe ca prajñaptau dharmavastunaḥ /</l>
+<l>saktau ca pratipakṣe ca yathecchaṃ ca gatikṣatau //</l>
+</lg>
+<p xml:id="371">
+iti / saṃvṛtyā māyāvad grahaṇamokṣaṇe, tattvato 'manaskāreṇa manaskaraṇe, dharmatayā traidhātukopaśleṣaṇe, śūnyatā 'navasthānena avasthāne, vastvanabhiniveśena sarvābhiniveśe, dravyasadbhāvena sarvadharmaprajñaptau, tattvajñānāsaktyā anabhiniveśapūrvakasaktau, samatābhāvanāpratipakṣatayā pratipakṣe, samyagavijñātaprajñāpāramitatvena yathecchagamanavyāghāte ca pāramārthikabhāvābhiniveśena prathamo grāhakavikalpo navaprakāro darśanamārgaprayogāvasthāyāṃ praheyo mata iti /
+</p><p xml:id="372">
+kathaṃ prajñaptisatpuruṣādhiṣṭhāno dvitīyo grāhakavikalpo navadhā? ityāha -
+</p>
+<lg xml:id="Abhis_5.15">
+<l>yathoddeśamaniryāṇe mārgāmārgāvadhāraṇe /</l>
+<l>sanirodhe samutpāde vastuyogaviyogayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.16">
+<l>sthāne gotrasya nāśe ca prārthanāhetvabhāvayoḥ /</l>
+<l>pratyarthikopalambhe ca vikalpo grāhako 'paraḥ //</l>
+</lg>
+<p xml:id="373">
+iti / śrāvakādiniryāṇatvena yathoktoddeśāniryāṇe, svābhīṣṭamārgābhāvena itaramārgāmārgāvadhāraṇe, saṃvṛtikāryakāraṇabhāvena utpādanirodhe, nirantaretarapratibhāsatvena samastavastusaṃyogaviyoge, vyomāvasthitaśakunisadṛśatvena rūpādisthāne, bodhicittotpādādidvāreṇa śrāvakādigotravināśe, tathatāprativiśiṣṭadharmatābhāvena abhilāṣābhāve, paramārthasatyāśrayeṇa hetvabhāve, abhyastamātsaryadharmatayā pratyarthikamārādivastūpalambhe ca prajñaptibhāvābhiniveśena dvitīyo grāhakavikalpo navaprakāro darśanamārgacittacaittapravṛttyavasthāyāṃ praheyo mata iti /
+</p><p xml:id="374">
+darśanamārge vipakṣaṃ sapratipakṣamevaṃ nirdiśya yanmahābodhiniṣpattaye darśanamārgo yena kāraṇena sahita iṣyate, tatkāraṇapradarśanāyāntaraślokamāha -
+</p>
+<lg xml:id="Abhis_5.17">
+<l>bodhau sandarśanānyeṣāṃ taddhetośca parīndanā /</l>
+<l>tatprāptyanantaro hetuḥ puṇyabāhulyalakṣaṇaḥ //</l>
+</lg>
+<p xml:id="375">
+iti / vakṣyamāṇalakṣaṇabodhau darśanādimārgasandarśanena anyeṣāṃ pratiṣṭhāpanaṃ prathamam (kāraṇam) /
+</p><p xml:id="376">
+bodhinimittamevānyeṣāṃ samyag granthārthādidvāreṇa prajñāpāramitāpratyarpaṇaṃ dvitīyam (kāraṇam) /
+</p><p xml:id="377">
+bodhiprāptaye cāvyavahitakāraṇaṃ svataḥ pracurataraprajñāpāramitābhāvanādipuṇyalakṣaṇaṃ tṛtīyam (kāraṇam) /
+</p><p xml:id="378">
+kā punariyaṃ mahābodhiryadarthaṃ yathoktakāraṇasahāyo darśanamārgo 'bhipreta ityantaraślokena mahābodhimāha -
+</p>
+<lg xml:id="Abhis_5.18">
+<l>kṣayānutpādayorjñāne malānāṃ bodhirucyate /</l>
+<l>kṣayābhāvādanutpādātte hi jñeye yathākramam //</l>
+</lg>
+<p xml:id="379">
+iti / kleśajñeyāvaraṇamalānāmutpannānutpannatvena kalpitānāṃ -
+</p><p xml:id="380">
+dharmadhātuvinirmukto yasmāddharmo na vidyate /
+</p><p xml:id="381">
+iti dharmadhātusvabhāvānāmākāśasyeva nirodhotpādābhāvād ekānesvabhāvakāryakāraṇapramāṇādyupapannabhāvavaidhuryād gaganakamalavadvā yathākramaṃ malānāṃ kṣayotpādābhāvād akṣayānutpādajñānātmikā sarvadharmāviparītādhigatilakṣaṇā yathāvad dhamakāyādyātmikā mahābodhirabhidhīyata iti /
+</p><p xml:id="382">
+yasmādevaṃ ato ye bhāvavināśābhisandhinā kṣīṇe kṣīṇamiti jñānaṃ kṣayajñānam, bhāvānutpādābhisandhinā ca anutpanne 'nutpannamiti jñānamanutpādajñānaṃ varṇayanti / bodhiñca kṣayānutpādajñānaṃ varṇayanti / teṣāṃ kṣayānutpādavaikalyād etajjñānaṃ na ghaṭata ityantaraślokenāha -
+</p>
+<lg xml:id="Abhis_5.19">
+<l>prakṛtāvaniruddhāyāṃ darśanākhyena vartmanā /</l>
+<l>vikalpajātaṃ ki kṣīṇaṃ kiṃ vānutpattimāgatam //</l>
+</lg>
+<p xml:id="383">
+iti / utpannānutpannayorthathākramaṃ kṣayotpattivighātalakṣaṇanirodhena aniruddhāyāṃ paramārthatastathatārūpāyāṃ prakṛtau satyāṃ katarad vikalpādirūpamutpannaṃ kṣīṇaṃ, kataraccānutpannam anutpattidharmakaṃ jātaṃ darśanamārgabalena vitathabhāvābhiniveśināṃ bhavatām? yāvatā naiva kiñcit / tasmādasmākaṃ matamevāṅgīkartavyamityabhiprāyaḥ /
+</p><p xml:id="384">
+anyathā tāttvikadharmasattvopagame bhagavataḥ sarvathā vikalpakleśajñeyāvaraṇaprahāṇaṃ mahadvismayasthānīyaṃ syādityantaraślokenāha -
+</p>
+<lg xml:id="Abhis_5.20">
+<l>sattvā ca nāma dharmāṇāṃ jñeye cāvaraṇakṣayaḥ /</l>
+<l>kathyate yatparaiḥ śāsturatra vismīyate mayā //</l>
+</lg>
+<p xml:id="385">
+iti / tatra hyadayavyayaśūnyatvānnāstyātmeti vibhāvayannātmābhiniveśaṃ parityajya tadviviktaskandhādikaṃ pratītyasamutpannam udayavyayadharmakaṃ samupalabhya nīlataddhiyoḥ sahopalabhbhaniyamāccittamātramevedaṃ na bāhyārtho 'stīti manasikurvan aparityaktagrāhakākāracittābhiniveśo bāhyārthābhiniveśaṃ tiraskṛtya grāhyābhāve grāhakābhāva iti nidhyāyaṃstāmapi grāhakākāralakṣaṇāṃ vijñaptimātratāmavadhūya advayajñānameva kevalaṃ bhāvato bhāvarūpamiti niścitya tadapi pratītyasamutpannatvānmāyāniḥsvabhāvaṃ tattvato 'pagataikāntabhāvābhāvādiparāmarśarūpamiti bhāvayan bhāvanābalaniṣpattau keṣāñcinmaṇirūpyādijñānavad utsāritasakalabhrāntinimittāyā māyopamātmapratibhāsadhiyo nirvikalpāyāḥ kathañcit pratyātmavedyāyāḥ samutpāde jñeyāvaraṇaṃ samyag yogī prajahyāt / anyathā paraiḥ sarvadā ākāśasya dravyābhāvamātrarūpadhāraṇavad anādheyānapaneyasvarūpadhāraṇād dharmāṇāṃ kṣaṇikānāṃ jñānamātrarūpāṇāṃ jñeyalakṣaṇānāñca yadi paramārthato vidyamānatā syāt tadā pratipakṣabhāvanayā ākāśasyeva teṣāṃ na kiñcit kriyate / ato bhāvābhiniveśaviparyāsāvinivṛtyā yad bhagavataḥ sarvathāḥ jñeyāvaraṇaprahāṇaṃ dharmāṇāñca yatsattopagamyate paraiḥ tatparasparaviruddhārthābhyupagame vismayasthānīyaṃ bhavet /
+</p><p xml:id="386">
+ityevaṃ bhāvapakṣaṃ nirākṛtya niḥsvabhāvapakṣadṛḍhīkāreṇa mumukṣubhiridamevāṅgīkarttavyamityantaraślokena sthānapakṣamāha -
+</p>
+<lg xml:id="Abhis_5.21">
+<l>nāpaneyamataḥ kiñcit pakṣeptavyaṃ na kiñcana /</l>
+<l>draṣṭavyaṃ bhūtato bhūtaṃ bhūtadarśī vimucyate //</l>
+</lg>
+<p xml:id="387">
+iti / yasmādevaṃ bhāvābhiniveśena mukteranupapattirato apavādasamāroparūpamapanayanaprakṣepaṃ kasyaciddharmasyākṛtvā idameva pratītyasamutpannaṃ saṃvṛtyā tathyarūpaṃ rūpādiniḥsvabhāvādirūpato nirūpaṇīyam, evañca māyāgajena aparamāyāgajaparājayavad viparyāsanivṛtyā tatvadarśī vimucyata iti /
+</p><p xml:id="388">
+ityevaṃ prāsaṅgikamabhidhāya prakṛtaṃ darśanamārgamāha -
+</p>
+<lg xml:id="Abhis_5.22">
+<l>ekaikasyaiva dānādai teṣāṃ yaḥ saṅgraho mithaḥ /</l>
+<l>sa ekakṣaṇikaḥ kṣāntisaṅgṛhīto 'tra dṛkpathaḥ //</l>
+</lg>
+<p xml:id="389">
+iti / dānādiṣaṭpāramitānāṃ pratyekamekaikabhāve dānādau yaḥ parasparaṃ sarvapāramitāsaṅgrahaḥ, so 'traikakṣaṇiko mūrdhābhisamaye duḥkhadharmajñānakṣāntisaṃgṛhītaḥ trimaṇḍalaviśuddhiprabhāvitaḥ ṣaṭtriṃśadākāranirjāto darśanamārgaḥ /
+</p><p xml:id="390">
+asmiṃśca (darśanamārge) samutpanne kāmarūpārūpyadhātubhedena pratyekaṃ caturvikalpanavaprakāratayā aṣṭottaraśatagrāhyagrāhakavikalpaprahāṇena tatsaṃgṛhītavikalpajanakavāsanākleśāṣṭottaraśataprahāṇaṃ pratītyasamutpādadharmatayopalabhyate /
+</p><p xml:id="391">
+tatra vaśitvārthaṃ tāmeva punaḥ punarbhāvayatīti antaraślokenāha -
+</p>
+<lg xml:id="Abhis_5.23">
+<l>sa samādhiṃ samāpadya tataḥ siṃhavijṛmbhitam /</l>
+<l>anulomaṃ vilomañca pratītyotpādamīkṣate //</l>
+</lg>
+<p xml:id="392">
+iti / sa darśanamārgaprāpto yogī kleśajñeyāvaraṇabhayābhāvāt siṃhavijṛmbhitaṃ (nāma) samādhiṃ samāpadya uttarakālamavidyāpratyayāḥ saṃskārā ityādyanulomaṃ jarāmaraṇanirodho jātinirodhād ityādipratilomaṃ pratītyasamutpādaṃ nirūpayati /
+</p><p xml:id="393">
+6 - bhāvanāmārgaḥ (mūrdhaprayogaḥ)
+</p><p xml:id="394">
+darśanamārgamevamabhidhāya vipakṣaprahāṇādikam ādhārapratipattipūrvakaṃ subodhamiti ādhāraṃ bhāvanāmārgamāha -
+</p>
+<lg xml:id="Abhis_5.24">
+<l>kāmāptamavadhīkṛtya vijñānamasamāhitam /</l>
+<l>sanirodhāḥ samāpattīrgatvāgamya nava dvidhā //</l>
+</lg>
+<lg xml:id="Abhis_5.25">
+<l>ekadvitricatuḥpañcaṣaṭsaptāṣṭavyatikramāt /</l>
+<l>avaskandasamāpattiranirodhamatulyatā //</l>
+</lg>
+<p xml:id="395">
+iti / bodhisattvāḥ prathamadhyānamārabhya yāvannirodhaṃ gatvā tato nirodhamārabhya yāvat prathamadhyānamāgamya evamanulomapratiloma (krama)-dvayena caturdhyāna caturārūpyanirodhalakṣaṇā nava samāpattīrgatvā āgamya punaḥ prathamaṃ dhyānaṃ samāpadya tato vyutthāya nirodham, evaṃ yāvannaivasaṃjñānāsaṃjñāyatanānnirodhaṃ samāpadya, tato vyutthāya anantarasamāpattimālambya kāmāvacaraṃ vijñānaṃ maryādārūpeṇāvasthāpya upāyakauśalyabalena vyutthāya tadeva vijñānamasamāhitamāmukhīkṛtya, tato nirodhaṃ tato 'samāhitaṃ tato nirodhamekaṃ parityajya naivasaṃjñānāsaṃjñāyatanaṃ tato 'samāhim tato dvayaṃ parityajya ākiñcanyāyatanaṃ tato 'samāhitam, evaṃ yāvadaṣṭau parityajya prathamaṃ dhyānaṃ tato 'samāhitam, ityekādiparityāgenānirodhasamāpattiṃ yāvad visadṛśadvāreṇa gacchatītyatulyagām avaskandasamāpattiṃ vaśitvalakṣaṇām āmukhīkṛtya bhāvanāmārgo bhavati /
+</p><p xml:id="396">
+bhāvanāmārgamevamabhidhāya tatra praheyaḥ caturvidho vipakṣo vaktavyaḥ /<lb/>
+prathamaṃ tāvad grāhyavikalpamāha -
+</p>
+<lg xml:id="Abhis_5.26">
+<l>saṃkṣepe vistare buddhaiḥ sānāthyenāparigrahe /</l>
+<l>traikālike guṇābhāve śreyasastrividhe pathi //</l>
+</lg>
+<p xml:id="397">
+eko grāhyavikalpo 'yaṃ prayogākāragocaraḥ /
+</p><p xml:id="398">
+iti saṃkṣiptarūcisattvānugraheṇa dharmasaṃkṣepe, vistararucisattvānukampayā dharmavistare, yathāvihitārthānanuṣṭhānena buddhasānāthyāparigrahe, samutpannaniruddhatvena prayogamārgaguṇābhāve, samyagutpattihetuvaidhuryād darśanamārgaguṇābhāve, anāgatāsattvena bhāvanāmārgaguṇābhāve, viparyāsaśāntatvādinā nirvāṇaprayogamārge, śūnyatābhinirhāratvena darśanamārge, naiḥsvābhāvyabhāvakatvena bhāvanāmārge ca prathamo grāhyavikalpaḥ asyāmavasthāyāṃ praheyatvena bhāvanāmārgaprayogāvasthāyāṃ navavidho viṣayī /
+</p><p xml:id="399">
+prathamamevaṃ nirdiśya dvitīyaṃ grāhyavikalpamāha -
+</p>
+<lg xml:id="Abhis_5.27">
+<l>dvitīyaścittacaittānāṃ pravṛttiviṣayo mataḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.28">
+<l>anutpādastu cittasya bodhimaṇḍāmanaskriyā /</l>
+<l>hīnayānamanaskārau sambodheramanaskṛtiḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.29">
+<l>bhāvane 'bhāvane caiva tadviparyaya eva ca /</l>
+<l>ayathārthaśca vijñeyo vikalpo bhāvanāpathe //</l>
+</lg>
+<p xml:id="400">
+iti / kalyāṇamitrādivaikalyād bodhicittānutpāde, viśiṣṭabuddhālambanapuṇyābhāvād bodhimaṇḍāmanaskāre, śrāvakagotratvāt tadyānamanaskaraṇe, pratyekabuddhagotratvāt tadyānāmukhīkaraṇe, prajñāpāramitāpratipattivaidhuryāt samyaksambodhyamanaskaraṇe, sopalambhatvena bhāvanāyāṃ nirupalambhavattvena abhāvanāyām, anupalambhānanupalambhatvāt nabhāvanānābhāvane, viparītābhiniveśād ayathārthatve ca dvitīyo grāhyavikalpaḥ tasyāmavasthāyāṃ praheyatvena bhāvanāmārge cittacaittapravṛtyavasthāyāṃ navavidho viṣayī /
+</p><p xml:id="401">
+dvitīyamevaṃ nirdiśya prathamaṃ grāhakavikalpamāha -
+</p>
+<lg xml:id="Abhis_5.30">
+<l>grāhakaḥ prathamo jñeyaḥ sattvaprajñaptigocaraḥ /</l>
+<l>dharmaprajñatyaśūnyatvasaktipravicayātmakaḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.31">
+<l>kṛte ca vastuno yānatritaye ca sa kīrttitaḥ /</l>
+<l>dakṣiṇāyā aśuddhau vā caryāyāśca vikopane //</l>
+</lg>
+<p xml:id="402">
+iti / dravyasadanupapattyā sattvaprajñaptau, pratibhāsamātratvāt (sarva)-dharmaprajñaptau, sarvatragatvāt sarvākārajñatādidharmāśūnyatve, sarvathābhiniveśāprahāṇād dharmasaktau, niḥsvabhāvāvabodhena dharmapravicaye, samuddeśākaraṇena vastūddeśakaraṇe, rūpādyupalambhatvād yānatrayaniryāṇe, samyagapratipannatvena dakṣiṇāśuddhau, dānādyupalambhapratiṣattyā caryāvikopane ca pūrvavad grāhakavikalpo bhāvanāmārgaprayogāvasthāyāṃ navavidho viṣayī /
+</p><p xml:id="403">
+prathamamevaṃ nirdiśya dvitīyaṃ grāhakavikalpamāha -
+</p>
+<lg xml:id="Abhis_5.32">
+<l>sattvaprajñaptitaddhetuviṣayo navadhā 'paraḥ /</l>
+<l>bhāvanāmārgasambaddho vipakṣastadvighātataḥ //</l>
+</lg>
+<p xml:id="404">
+iti / vipakṣo dvitīyo grāhakavikalpaḥ sattvaprajñaptitadvyavasthāpanapratibhāsamātrahetuviṣayo bhāvanāmārgeṇa sampraheyatvāt tatsambaddho navaprakāraḥ /
+</p><p xml:id="405">
+kathaṃ navaprakāra iti ced? dvābhyāmantaraślokābhyāmāha -
+</p>
+<lg xml:id="Abhis_5.33">
+<l>sarvajñatānāṃ tisṛṇāṃ yathāsvaṃ trividhāvṛtau /</l>
+<l>śāntimārgatathatādisaṃprayogaviyogayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.34">
+<l>asamatve ca duḥkhādau kleśānāṃ prakṛtāvapi /</l>
+<l>dvayābhāve ca saṃmohe vikalpaḥ paścimo mataḥ //</l>
+</lg>
+<p xml:id="406">
+iti / sarvākārāparijñānena sarvākārajñatāvaraṇasaṃmohe, sarvamārgāparijñānena mārgajñatāvaraṇasaṃmohe, sarvavastvaparijñānena sarvajñatāvaraṇasaṃmohe, prajñāpāramitā 'parijñānena sarvaśāntamārgasaṃmohe, tathatājñeyarūpādyaparijñānena tathatādisaṃyogaviyogasaṃmohe, mārādisvarūpāparijñānena asamatvasaṃmohe, yathārūtārthagrāhitvena duḥkhādisatyasaṃmohe, rāgādisvabhāvāparijñānena kleśaprakṛtisaṃmohe, grāhyagrāhakalakṣaṇāparijñānena advayasaṃmohe ca pūrvavat paścimo grāhakavikalpo bhāvanāmārgacittacaittapravṛttyavasthāyāṃ navaprakāro viṣayī mataḥ //
+</p><p xml:id="407">
+teṣāṃ bhāvanāmārgavipakṣāṇāṃ prahāṇe caturvidhapratipakṣo 'pi tadbhedena bhinno 'vagantavyaḥ /
+</p><p xml:id="408">
+pūrvavad aṣṭottaraśatavikalpaprahāṇasamakālameva tatsaṃgṛhītāṣṭottaraśatakleśānāṃ prahāṇena sarvaguṇasampado bhāvanāmārgasthaṃ bodhisattvamāśrayanta iti dvābhyām antaraślokābhyāmāha -
+</p>
+<lg xml:id="Abhis_5.35">
+<l>āsāṃ kṣaye satītīnāṃ cirāyocchvasitā iva /</l>
+<l>sarvākārajagatsaukhyasādhanā guṇasampadaḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.36">
+<l>sarvāḥ sarvābhisāreṇa nikāmaphalaśālinam /</l>
+<l>bhajante taṃ mahāsattvaṃ mahodadhimivāpagāḥ //</l>
+</lg>
+<p xml:id="409">
+iti / bhāvanāmārgābhyāsād āsāṃ caturvikalpajātīnāmupadravatvena itīnāṃ kṣaye sati saṃrodhavaikalyena saṃharṣocchvāsaprāptā iva sarvāstriyānasaṃgṛhītā guṇasampadaḥ kṛpāpāratantryāt sarvaprakārajagatsaukhyotpādanadakṣā sarvathābhimukhyāgamanaprakāreṇa prakarṣaparyantādhigamaphalaiḥ prātaśobhaṃ bhāvanāmārgasthaṃ bodhisattvamāśrayante mahāsamudramiva nadya iti /
+</p><p xml:id="410">
+7 - ānantaryasamādhiḥ (mūrdhaprayogaḥ)
+</p><p xml:id="411">
+bhāvanāmārgānantaramānantaryamārgamāha -
+</p>
+<lg xml:id="Abhis_5.37">
+<l>trisāhasrajanaṃ śiṣyakhaḍgādhigamasaṃpadi /</l>
+<l>bodhisattvasya ca nyāme pratiṣṭhāpya śubhopamāḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.38">
+<l>kṛtvā puṇyabahutvena buddhatvāpteranantaraḥ /</l>
+<l>ānantaryasamādhiḥ sa sarvākārajñatā ca tat //</l>
+</lg>
+<p xml:id="412">
+iti / śrāvakapratyekabuddhabodhisattvānāṃ nyāme trisāhasramahāsāhasralokadhātavīyasattvān pratiṣṭhāpya kaścid yatpuṇyaṃ prasravati, tadupamīkṛtya tadviśiṣṭapuṇyabahutvena yā sarvākārajñatā tad buddhatvamiti buddhatvaprāpteravyavahito yaḥ samādhiḥ so 'trānantaryasamādhiḥ /
+</p><p xml:id="413">
+tadālambanādayaḥ kīdṛśā iti ced? antaraślokena ālambanādīnāha -
+</p>
+<lg xml:id="Abhis_5.39">
+<l>ālambanamabhāvo 'sya smṛtiścādhipatirmataḥ /</l>
+<l>ākāraḥ śāntatā cātra jalpājalpipravādinām //</l>
+</lg>
+<p xml:id="414">
+iti / asya cānantaryasamādheḥ sarvadharmābhāvopalabdhiḥ ālambanapratyayaḥ, smaraṇaṃ cādhiparipratyayaḥ, prakṛtiśāntatā cākāraḥ / atra ca sthāne duravagāhatvād aviditopāyakauśalānāṃ pravādināṃ (nānā)-codyamukhaparamparāprasarpiṇī (vipratipattiḥ) iti upāyakauśalena sā nirākartavyeti / anenāsya gabhīratā abhihitetyabhiprāyaḥ /
+</p><p xml:id="415">
+8 - vipratipattiḥ (mūrdhaprayogaḥ)
+</p><p xml:id="416">
+viparyastamatīnāṃ kīdṛśīḥ vipratipattīḥ nirākṛtya sa samādhirutpādayitavya iti cet? samādheranantaraṃ vipratipattīrāha -
+</p>
+<lg xml:id="Abhis_5.40">
+<l>ālambanopapattau ca tatsvabhāvāvadhāraṇe /</l>
+<l>sarvākārajñatājñāne paramārthe sasaṃvṛtau //</l>
+</lg>
+<lg xml:id="Abhis_5.41">
+<l>prayoge triṣu ratneṣu sopāye samaye muneḥ /</l>
+<l>viparyāse samārge ca pratipakṣavipakṣayoḥ //</l>
+</lg>
+<lg xml:id="Abhis_5.42">
+<l>lakṣaṇe bhāvanāyāñca matā vipratipattayaḥ /</l>
+<l>sarvākārajñatādhārā ṣoḍhā daśa ca vādinām //</l>
+</lg>
+<p xml:id="417">
+iti saṃskṛtāsaṃskṛtadhātvorabhāvatvena ālambanopapattau, sarvathā nīrūpatvād ālambanasvabhāvāvadhāraṇe, bhāvābhāvānupalambhena sarvākārajñatājñāne, tathatāsvabhāvatvena saṃvṛtiparamārthasatyadvaye, dānādyanupalambhena prayoge, boddhavyābhāvād buddharatne, nāmadheyamātratvād dharmaratne, rūpādyālambanapratiṣedhāt saṃgharatne, dānādyanupalambhena upāyakauśale, bhāvābhāvobhayarūpādhigamapratiṣedhāt tathāgatābhisamaye, prapañcavyavasthāpitānityāditvena nityādiviparyāse, vibhāvitamārgaphalāsākṣātkaraṇena mārge, hānopādānābhāvena vipakṣe pratipakṣe ca, dharmyabhāvād dharmalakṣaṇe, svasāmānyalakṣaṇānupapattyā bhāvanāyāñca parasparaviruddhā bhāṣārthānuṣṭhānena ayujyamānatayā saṃśayarūpāḥ ṣoḍaśa vipratipattīryathānirdiṣṭaviṣayatvena sarvākārajñatādhiṣṭhānāḥ sarveṣāmeva aviditabodhisattvopāyakauśalajanapravādināṃ yathāsambhavamubhayasatyāśritopāyakauśalena nirākṛtya samyak sarvathā niścayamutpādya kalyāṇakāmairbodhisattvairānantaryasamādhiradhigamyata iti /
+</p><p xml:id="418">
+iti abhisamayālaṅkāre nāma prajñāpāramitopadeśaśāstre pañcamādhikāravṛttiḥ /
+</p><p xml:id="419">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="420">
+Ānupūrvikādhikāraḥ ṣaṣṭhaḥ
+</p><p xml:id="421">
+prāptamūrdhā 'bhisamayo vyastasamastatvena adhigatānarthān anupurvīkṛtya sthirīkaraṇāya vibhāvayatītyanupūrvābhisamayamāha -
+</p>
+<lg xml:id="Abhis_6.1">
+<l>dānena prajñayā yāvad buddhādau smṛtibhiśca sā /</l>
+<l>dharmābhāvasvabhāvenetyanupūrvakriyā matā //</l>
+</lg>
+<p xml:id="422">
+iti / trimaṇḍalaviśuddhiprabhāvitadānādiṣaṭpāramitāsarvākāraparipūraṇena prajñāpāramitāntargatapāramitācatuṣṭayatvāt samyag daśabhūminiṣpādakena smṛtyupasthānādinā saptabodhyaṅgākāreṇa āryāṣṭāṅgamārgatayā ca paramārthataḥ asmaraṇalakṣaṇena trividhabuddhānusmaraṇena yathākramaṃ nirvedhabhāgīyadarśanabhāvanāmārgadyotakena tathaiva kuśalākuśalāvyākṛtadharmānusmaraṇena pūrvavad āryāvaivartikabodhisattvasaṃghasmaraṇena tathaiva śīlatyāgadevatānusmaraṇena rūpādisarvadharmābhāve svabhāvāvabuddhena ca yo 'dhigamaḥ sānupūrvakriyeṣyata iheti /
+</p><p xml:id="423">
+iti abhisamayālaṅkāre nāma prajñāpāramitopadeśaśāstre ṣaṣṭhādhikāravṛttiḥ /
+</p><p xml:id="424">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="425">
+Ekakṣaṇābhisambodhādhikāraḥ saptamaḥ
+</p><p xml:id="426">
+vibhāvitānupūrvābhisamayasya svabhyastīkaraṇāya teṣāmeva kṣaṇenaikenādhigama ityekakṣaṇābhisambodhaḥ / so 'pi lakṣaṇena caturvidha iti /
+</p><p xml:id="427">
+1 - avipākalakṣaṇaḥ
+</p><p xml:id="428">
+avipākānāsravasarvadharmaikakṣaṇalakṣaṇena prathama ekakṣaṇābhisambodhaḥ / ityāha -
+</p>
+<lg xml:id="Abhis_7.1">
+<l>anāsravāṇāṃ sarveṣāmekaikenāpi saṃgrahāt /</l>
+<l>ekakṣaṇāvabodho 'yaṃ jñeyo dānādinā muneḥ //</l>
+</lg>
+<p xml:id="429">
+dharmadhātusvabhāvarūpe -
+</p><p xml:id="430">
+eko bhāvaḥ sarvabhāvasvabhāvaḥ sarve bhāvā ekabhāvasvabhāvāḥ /<lb/>
+eko bhāvastattvato yena dṛṣṭaḥ sarve bhāvāstattvatastena dṛṣṭāḥ //
+</p><p xml:id="431">
+itinyāyānna kevalaṃ bahubhirekasya saṃgrahaḥ, api tvekakṣaṇadānādijñānena ālambyamānena apagatapratiniyatavastugrahaṇaviparyayarūpeṇa dānādyaśītyanuvyañjanalakṣaṇānāṃ dharmāṇāṃ saṃgraheṇa muneḥ bodhisattvasyāvabodho hi ekakṣaṇābhisambodha iti jñātavyaḥ /
+</p><p xml:id="432">
+kimevaṃ punarekānāsravajñānālambane sarvānāsravasaṃgraha iti cet? laukikadṛṣṭāntenāha -
+</p>
+<lg xml:id="Abhis_7.2">
+<l>araghaṭṭaṃ yathaikāpi padikā puruṣeritā /</l>
+<l>sakṛtsarvaṃ calayati jñānamekakṣaṇe tathā //</l>
+</lg>
+<p xml:id="433">
+iti / yathaikāpi padikā puruṣeritā sakṛdekavāraṃ sarvamaraghaṭṭaṃ sacchilpipūrvaparikarmasāmarthyāt calayati tathā pūrvapraṇidhānāvedhadharmadhātusāmarthyād ekasminneva kṣaṇe ekamanāsravamālambyamānaṃ sarvaṃ sajātīyamabhimukhīkārayatīti /
+</p><p xml:id="434">
+2 - vipākalakṣaṇaḥ
+</p><p xml:id="435">
+evaṃ prathamaṃ nirdiśya vipākadharmatāvasthānāsravasarvadharmaikakṣaṇalakṣaṇo bhavatyekakṣaṇābhisambodho dvitīyaḥ / ityāha -
+</p>
+<lg xml:id="Abhis_7.3">
+<l>vipākadharmatāvasthā sarvaśuklamayī yadā /</l>
+<l>prajñāpāramitā jātā jñānamekakṣaṇe tadā //</l>
+</lg>
+<p xml:id="436">
+yadā bodhisattvasya pratipakṣabhāvanayā sarvavipakṣāpagamanena sakalavyavadānapakṣavipākadharmatāvasthā sarvakalaṅkāpagamena śaradindujyotsnāvat śuklasvabhāvā jātā tadā ekasminnevakṣaṇe vipākāvasthāprāptānām anāsravadharmāṇāṃ bodhāt jñānaṃ prajñāpāramitā ekakṣaṇābhisambodha iti /
+</p><p xml:id="437">
+3 - alakṣaṇalakṣaṇaḥ
+</p><p xml:id="438">
+dvitīyamevaṃ nirdiśya alakṣaṇasarvadharmaikakṣaṇalakṣaṇaḥ ekakṣaṇābhisambodhastṛtīyaḥ / ityāha -
+</p>
+<lg xml:id="Abhis_7.4">
+<l>svapnopameṣu dharmeṣu sthitvā dānādicaryayā /</l>
+<l>alakṣaṇatvaṃ dharmāṇāṃ kṣaṇenaikena vindati //</l>
+</lg>
+<p xml:id="439">
+pūrvaṃ svapnopamasarvadharmābhyāsena sambhāradvayamanubhūya adhigamāvasthāyāṃ svapnasvabhāveṣu sarvadharmeṣu upādānaskandhādiṣu sthitvā dānādiṣaṭpāramitāpratipattyā dānādirūpanirūpaṇākāreṇa alakṣaṇāḥ sarvadharmā iti saṃkleśavyavadānarūpāṇāṃ dharmāṇām ekenaiva kṣaṇenālakṣaṇatvaṃ jānātītyevamekakṣaṇābhisambodhaḥ /
+</p><p xml:id="440">
+4 - advayalakṣaṇaḥ
+</p><p xml:id="441">
+tṛtīyamevaṃ nirdiśya advayalakṣaṇasarvadharmaikakṣaṇalakṣaṇaḥ ekakṣaṇābhisambodhaścaturthaḥ / ityāha -
+</p>
+<lg xml:id="Abhis_7.5">
+<l>svapnaṃ taddarśinañcaiva dvayayogena nekṣate /</l>
+<l>dharmāṇāmadvayaṃ tattvaṃ kṣaṇenaikena paśyati //</l>
+</lg>
+<p xml:id="442">
+nirantaradīrghakāladvayapratibhāsaprahāṇābhyāsasātmībhāvād unmūlitadvayapratibhāsavāsano yadā bodhisattvo grāhyagrāhakayogena svapnaṃ grāhyaṃ svapnadaśiṃnaṃ grāhakaṃ nekṣate, tadā sarve 'pvevaṃdharmāṇo dharmā iti dharmāṇāmadvayaṃ tattvam ekenaiva kṣaṇenādhigacchatītyekakṣaṇābhisambodha iti /
+</p><p xml:id="443">
+iti abhisamayālaṅkāre nāma prajñāpāramitopadeśaśāstre saptamādhikāravṛttiḥ /
+</p><p xml:id="444">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="445">
+Dharmakāyādhikāraḥ aṣṭamaḥ
+</p><p xml:id="446">
+1 - svabhāvakāyaḥ
+</p><p xml:id="447">
+vibhāvitaikakṣaṇābhisambodhasya dvitīye kṣaṇe dharmakāyābhisambodhaḥ / sa ca svābhāvikakāyādibhedena caturvidhaḥ / (tatra) prathamaḥ svābhāvikakāya ityāha -
+</p>
+<lg xml:id="Abhis_8.1">
+<l>sarvākārāṃ viśuddhiṃ ye dharmāḥ prāptā nirāsravāḥ /</l>
+<l>svābhāviko muneḥ kāyasteṣāṃ prakṛtilakṣaṇaḥ //</l>
+</lg>
+<p xml:id="448">
+smṛtyupasthānādayo jñānātmakā lokottarā dharmadhāturūpatvād anāsravāmalānāmāgantukatvena sarvaprakārāṃ viśuddhiṃ prakṛtiviviktalakṣaṇāṃ prāptāsteṣāṃ yā prakṛtiḥ svabhāvo 'nutpādarūpaḥ, ayaṃ munerbuddhasya bhagavato lokottareṇa mārgeṇa prāpyate, na kriyata ityakṛtrimārthena māyopamavijñānasarvadharmapratipattyādhigataḥ svābhāvikaḥ kāyaḥ /
+</p><p xml:id="449">
+pariśiṣṭakāyatrayaṃ tathyasaṃvṛtyā pratibhāsamānaṃ paramārthato dharmatārūpaṃ yathādhimokṣaprabhāvitaṃ buddhabodhisattvaśrāvakādigocaratvena vyavasthāpitamiti kathanāya -
+</p><p xml:id="450">
+viviktāvyatirekitvaṃ vivekasya yato matam /
+</p><p xml:id="451">
+itinyāyāt tadavyatireke 'pi pṛthag vyavasthāpyate /
+</p><p xml:id="452">
+2 - jñānadharmakāyaḥ
+</p><p xml:id="453">
+itthaṃ prathamaṃ kāyaṃ nirdiśya dvitīyo niṣprapañcajñānātmako dharmakāyaḥ anāsravaḥ smṛtyupasthānādyātmaka iti tamāha -
+</p>
+<lg xml:id="Abhis_8.2">
+<l>bodhipakṣāpramāṇāni vimokṣā anupūrvaśaḥ /</l>
+<l>navātmikā samāpattiḥ kṛtsnaṃ daśavidhātmakam //</l>
+</lg>
+<lg xml:id="Abhis_8.3">
+<l>abhibhvāyatanānyaṣṭaprakārāṇi prabhedataḥ /</l>
+<l>araṇā praṇidhijñānamabhijñāḥ pratisaṃvidaḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.4">
+<l>sarvākārāścatasro 'tha śuddhayo vaśitā daśa /</l>
+<l>balāni daśa catvāri vaiśāradyānyarakṣaṇam //</l>
+</lg>
+<lg xml:id="Abhis_8.5">
+<l>trividhaṃ smutyupasthānaṃ tridhā 'saṃmoṣadharmatā /</l>
+<l>vāsanāyāḥ samuddhāto mahato karuṇā jane //</l>
+</lg>
+<lg xml:id="Abhis_8.6">
+<l>āveṇikā munereva dharmā ye 'ṣṭādaśeritāḥ /</l>
+<l>sarvākārajñatā ceti dharmakāyo 'bhidhīyate //</l>
+</lg>
+<p xml:id="454">
+iti / smṛtyupasthānādyārabhya āryāṣṭāṅgamārgaparyantā bodhipakṣāḥ / pūrvavadapramāṇāni maitryādicaturbrahmavihārāḥ / adhyātmaṃ rūpyarūpī bahirdhā rūpāṇi paśyatīti dvauḥ, śubhaṃ vimokṣaṃ kāyena sākṣātkṛtvopampadya viharatītyekaḥ, ākāśavijñānākiñcanyanaivasaṃjñānāsaṃjñāyatanānīti catvāraḥ, saṃjñāveditanirodha ityekaḥ ityaṣṭau vimokṣāḥ / rūpadhātucaturdhyānāni caturārūpyasamāpattayo nirodhasamāpattiriti nava samāpattayaḥ / pṛthivyaptejovāyunīlapītalohitāvadātavijñānākāśamiti kṛtsnaṃ daśavidham / adhyātmarūpārūpasaṃjñinau pratyekaṃ parīttādhimātrākārābhyāṃ bahirdhā rūpāṇi paśyatastānyabhibhūya jānīta iti catuṣṭayam, adhyātmārūpasaṃjñī eva nīlapītalohitāvadātānabhibhūya paśyatīti catuṣṭayamityaṣṭavidhamabhibhvāyatanam / parasantānagatakleśaraṇaprabandhonmūlanāt samādhirityaraṇā / samyagapagatasarvanimittasaṅgavyāghātaṃ saṃśayāpanayanakāripraṇidhānasamṛddhyā āsaṃsāramasamāhitāvasthāyāṃ pravartata iti praṇidhijñānam, ṣaḍabhijñāścatasraśca pratisavidaḥ pūrvoktā āśrayālambanacittajñānapariśuddhaya iti catasraḥ śuddhayaḥ / āyuścittapariṣkārakarmopapattyadhimuktipraṇidhānarddhijñānadharmavaśitā iti daśa vaśitāḥ / pūrvoktāni daśa balāni, catvāri vaiśāradyāni ca / pariśuddhakāyavāṅmanaḥsamudācārastathāgataḥ, nāstyasya viparītasamudācāratā, yāṃ paraparijñānabhayāt pracchādayitavyāṃ manyeta ityarakṣaṇaṃ trividham / dharmadeśanāyāṃ śrotukāmāśrotukāmobhayakāmeṣu yathākramamanunayapratighobhayavivikta evopakṣekaḥ smṛtimān viharatīti smṛtyupasthānaṃ tridhā / sattvārthakriyākālānatikramalakṣaṇetyasaṃmoṣadharmatā / kleśajñeyāvaraṇānuśayarūpabījaprahāṇād vāsanāyāḥ samuddhātaḥ sakalajanahitāśayatā, mahatī karuṇā jane 'ṣṭādaśāveṇikā buddhadharmā sarvākārajñatā / 'ca' iti śabdena saṃgṛhītāḥ mārgajñatādayo 'pi prāguktāḥ /
+</p><p xml:id="455">
+sarve cāśrayaparāvṛttyā parāvṛttā bodhipakṣādayo niṣprapañcajñānātmakā dharmakāyo 'bhidhīyata iti kecit /
+</p><p xml:id="456">
+anye tu -
+</p><p xml:id="457">
+sarvākārāṃ viśuddhiṃ ye dharmāḥ prāptā nirāsravāḥ /<lb/>
+svābhāviko muneḥ kāyasteṣāṃ prakṛtilakṣaṇaḥ //
+</p><p xml:id="458">
+iti yathārutattvena lokottarānevānāsravān dharmānabhyupagamya teṣāṃ yāṃ prakṛtiranutpādatā tallakṣaṇaḥ svābhāvikaḥ kāyaḥ, sa eva ca dharmatākāyo dharmakāya iti bhāvapratyayalopād vyapadiśyata iti vyākhyāya, ke punaste 'nāsravā dharmā yeṣāṃ prakṛtilakṣaṇo dharmakāya ityāśaṅkya 'bodhipakṣāpramāṇānī' tyādikārikāmavatārayanti / teṣāṃ yogisaṃvṛtyā viśiṣṭārthapratibhāsajananadvāreṇāśrayaparāvṛttyā parāvṛttā dharmadeśanādyarthakriyākāriṇo 'vaśyamadvayāścittacaitāḥ kathamabhyupagantavyāḥ? saṅgṛhītā ityapare /
+</p><p xml:id="459">
+kecit (kāyacatuṣṭayavyākhyāne) -<lb/>
+svābhāvikaḥ sasāmbhogo nairmāṇiko 'parastathā /<lb/>
+dharmakāyaḥ sakāritraścaturdhā samudīritaḥ //
+</p><p xml:id="460">
+itikārikāyāṃ svābhāvikaśabdānantaraṃ dharmakāyaśabdasyāpāṭhāt kāyatrayameveti / anye tūpadarśitaprayojanasāmarthyāt kārikābandhānurodhena jñānasyaiva kāritreṇa sambandhārthaṃ caivamuktam, ato 'viruddhaṃ sarvaṃ pradeśāntarābhihitaṃ kāyacatuṣṭayaṃ bhavatīti /
+</p><p xml:id="461">
+śrāvakādyaraṇāsamādheḥ buddhasyāraṇāsamādheḥ vaiśiṣṭyadarśanāya antaraślokenāha -
+</p>
+<lg xml:id="Abhis_8.7">
+<l>śrāvakasyāraṇādṛṣṭernṛkleśaparihāritā /</l>
+<l>tatkleśasrotaucchittyai grāmādiṣu jināraṇā //</l>
+</lg>
+<p xml:id="462">
+iti / mā 'smaddarśanāt kasyacit kleśotpattiḥ syāditi manuṣyakleśotpattiparihāritā śrāvakādyaraṇāsamādhiḥ / tathāgatānāṃ tu sakalajanakleśaprabandhonmūlanaṃ syāditi grāmādiṣu araṇāsamādhiviśeṣaḥ /
+</p><p xml:id="463">
+śrāvakādipraṇidhijñānāt tathāgatapraṇidhijñānasya vaiśiṣṭyapradarśanāya antaraślokenāha -
+</p>
+<lg xml:id="Abhis_8.8">
+<l>anābhogamanāsaṅgamavyāghātaṃ sadā sthitam /</l>
+<l>sarvapraśnāpanudbauddhaṃ praṇidhijñānamiṣyate //</l>
+</lg>
+<p xml:id="464">
+iti / nirnimittatvena svarasapravṛttam, vastvanabhiniveśād rūpādisaṅgavigatam, savāsanakleśajñeyāvaraṇaprahāṇāt sarvajñeyāvyāghātam, āsaṃsāramavasthānāt sadā sthitam, samyak pratisaṃvillābhāt praśnavisarjanakāri tāthāgataṃ praṇidhijñānamitīṣṭam / śrāvakādīnāṃ viparītatvena naivam /
+</p><p xml:id="465">
+syādevaṃ nityaṃ mahākaruṇāmayadharmakāyāvasthāne kathaṃ (sakalaprāṇabhṛtāṃ) sadā nāthekriyeti? antaraślokena samādhānamāha -
+</p>
+<lg xml:id="Abhis_8.9">
+<l>paripākaṃ gate hetau yasya yasya yadā yadā /</l>
+<l>hitaṃ bhavati kartavyaṃ prathate tasya tasya saḥ //</l>
+</lg>
+<p xml:id="466">
+iti / kalyāṇamitrādisamavadhānād buddhādyālambane paripoṣaṃ gate hetau pūrvāvaropitakuśalamūlabīje sati, yasya sattvasya yasmin kāle dharmadeśanādikaṃ kriyamāṇamāyatipathyaṃ bhavati, tadā tasyārthakaraṇāya pūrvapraṇidhānasamṛddhyā tatpratibhāsānurūpeṇārthakriyākārī bhagavāniti (mahākaruṇāsvabhāvadharmakāyāvasthānena) sarvadā cintāmaṇirivopasthito 'pi svakarmāparādhajanitahetuvaidhuryānna phaladāyakaḥ pratibhāsata ityabhiprāyaḥ /
+</p><p xml:id="467">
+tatkathamiti śaṃkāyāmantaraślokena dṛṣṭāntamāha -
+</p>
+<lg xml:id="Abhis_8.10">
+<l>varṣatyapi hi parjanye naiva bījaṃ prarohati /</l>
+<l>samutpāde 'pi buddhānāṃ nābhavyo bhadramaśnute //</l>
+</lg>
+<p xml:id="468">
+iti / yathā devarāje varṣatyapi sati pūtībhāvādinā abījībhūtaṃ bījaṃ tilādi na prādurbhavati, tadvad buddhānāṃ sakalamanorathaparipūraṇadakṣāṇāṃ samutpāde 'pi abhavyo na bhadraṃ saddharmaśravaṇādikaṃ prāpnotīti /
+</p><p xml:id="469">
+kathaṃ jñānātmako dharmakāyaḥ pratiniyatayogisantānādhāravartī pratikṣaṇamutpadyamāno vyāpo nitya iti kathyata iti ced? antaraślokenāha -
+</p>
+<lg xml:id="Abhis_8.11">
+<l>iti kāritravaipulyād buddho vyāpī nirūcyate /</l>
+<l>akṣayatvācca tasyaiva nitya ityapi kathyate //</l>
+</lg>
+<p xml:id="470">
+iti / yathoktanyāyenaivaṃ sarvatra pratibhāsadvāreṇārthakriyākaraṇavaipulyāt prabandhatayā āsaṃsāramavasthānena ca bhagavataḥ kṣayābhāvād yathākramaṃ buddho vyāpī nitya ityabhidhīyate /
+</p><p xml:id="471">
+3 - sambhogakāyaḥ
+</p><p xml:id="472">
+kāyadvayamevaṃ nirdiśya lakṣaṇānuvyañjanavirājitaḥ sāmbhogikaḥ rūpakāyasvabhāvastṛtīyaḥ / tamāha -
+</p>
+<lg xml:id="Abhis_8.12">
+<l>dvātriṃśallakṣaṇāśītivyañjanātmā munerayam /</l>
+<l>sāṃbhogiko mataḥ kāyo mahāyānopabhogataḥ //</l>
+</lg>
+<p xml:id="473">
+iti / dvātriṃśallakṣaṇāśītyanuvyañjanātmako 'yaṃ daśabhūmipraviṣṭamahābodhisattvaiḥ paramānavadyamahāyānadharmasaṃbhogaprītisukhopabhogāt buddhasya bhagavataḥ sāmbhogikakāyaḥ /
+</p><p xml:id="474">
+kāni tāni dvātriṃśallakṣaṇānīti cet? pañcabhirantaraślokairāha -
+</p>
+<lg xml:id="Abhis_8.13">
+<l>cakrāṅkahastaḥ kramakūrmapādo jālāvanaddhāṅgulipāṇipādaḥ /</l>
+<l>karau sapādau taruṇau mṛdū ca samutsadaiḥ saptabhirāśrayo 'sya //</l>
+</lg>
+<lg xml:id="Abhis_8.14">
+<l>dīrghāṅgulirvyāyatapārṣṇigātraṃ prājyaṃ tvṛjūcchaṅkhapadordhvaromā /</l>
+<l>eṇeyajaṅghaśca paṭūrubāhuḥ kośāvanaddhottamabastiguhyaḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.15">
+<l>suvarṇavarṇaḥ pratanucchaviśca pradakṣiṇaikaikasujātaromā /</l>
+<l>ūrṇāṅkitāsyo haripūrvakāyaḥ skandhau vṛtāvasya citāntarāṃsaḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.16">
+<l>hīno rasaḥ khyāti rasottamo 'sya nyagrodhavanmaṇḍalatulyamūrtiḥ /</l>
+<l>uṣṇīṣamūrdhā pṛthucārujihvo brahmasvaraḥ siṃhahanuḥsuśuklāḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.17">
+<l>tulyāḥ pramāṇe 'viralāśca dantā anyūnasaṃkhyā daśikāścatasraḥ /</l>
+<l>nīlekṣaṇo govṛṣapakṣmanetro dvātriṃśadetāni hi lakṣaṇāni //</l>
+</lg>
+<p xml:id="475">
+iti / (1) gurūṇāmanugamanapratyudgamanādinā cakrāṅkahastapādatā /<lb/>
+(2) dṛḍhasaṃvarasamādānatvāt kūrmavat supratiṣṭhitapādatā /<lb/>
+(3) catuḥsaṃgrahavastusevanād rājahaṃsavat jālāvanaddhāṅgulipāṇipādatā /<lb/>
+(4) praṇītakhādyabhojyādidānād mṛdutaruṇahastapādatā /<lb/>
+(5) praṇītataralehyādidānena samucchritahastapādaskandhagrīvāpradeśatvāt saptocchrayatā /<lb/>
+(6) vadhyamokṣaṇatvād dīrghāṅgulitā /<lb/>
+(7) jīvitānugrahaṇād āyatapārṣṇitā /<lb/>
+(8) prāṇātipātaviratyā bṛhadṛjugātratā /<lb/>
+(9) kuśaladharmasamādānād ucchaṅkhapādatā /<lb/>
+(1)) gṛhītakuśalasamādānavardhanāt ūrdhvagaromatā /<lb/>
+(11) satkṛtya vidyāśilpādidānād eṇeyajaṅghatā /<lb/>
+(12) saṃvidyamānārthayācanakajanāpratyākhyānāt paṭūrūbāhutā /<lb/>
+(13) sarvajanabrahmacaryasamādāpanaguhyamantrārakṣaṇāt kośagatabastiguhyatā /<lb/>
+(14) praṇītopāstaraṇadānāt suvarṇavarṇatā /<lb/>
+(15) prāsādādivaradānāt ślakṣṇacchavitā /<lb/>
+(16) saṅgaṇikādiparivarjanāt pradakṣiṇāvartaikaikaromatā /<lb/>
+(17) sarvagurujanayathāsthānaniveśanād ūrṇāṅkitamukhatā /<lb/>
+(18) sarvathā mukharavacanānavasādanāt siṃhapūrvārddhakāyatā /<lb/>
+(19) priyavāditvasubhāṣitānulomatvāt susaṃvṛtaskandhatā /<lb/>
+(20) bhaiṣajyādidānāt citāntarāṃsatā /<lb/>
+(21) glānajanopasthānād rasarasāgratā /<lb/>
+(22) vanārāmādikaraṇasamādāpanāt nyagrodhaparimaṇḍalatā /<lb/>
+(23) vihārādyabhyadhikapradānāduṣṇīṣaśiraskatā /<lb/>
+(24) ślakṣṇādivacanāt prabhūtajihvatā /<lb/>
+(25) sarvalokadhātusattvasaddharmavijñapanād brahmasvaratā /<lb/>
+(26) sambhinnapralāpaviratyā siṃhahanutā /<lb/>
+(27) sarvajanasammānādinā śukladantatā /<lb/>
+(28) viśuddhājīvatvāt samadantatā /<lb/>
+(29) satyavacanasamudācārād aviraladantatā /<lb/>
+(30) piśunavacanānabhyāsāt samacatvāriṃśaddantatā /<lb/>
+(31) sarvasattvaikaputradarśanād abhinīlanetratā /<lb/>
+(32) pratighātādivivekadarśanād gopakṣmanetratā /
+</p><p xml:id="476">
+siddhakaraṇāt lakṣaṇaṃ siddhaṃ bhavatītyantaraślokenāha -
+</p>
+<lg xml:id="Abhis_8.18">
+<l>yasya yasyātra yo heturlakṣaṇasya prasādhakaḥ /</l>
+<l>tasya tasya prayūryāyaṃ samudāgamalakṣaṇaḥ //</l>
+</lg>
+<p xml:id="477">
+iti / yeṣāṃ lakṣaṇānāṃ ye prasādhakāḥ, tān prapūrya tāni dvātriṃśallakṣaṇāni prādurbhavanti /
+</p><p xml:id="478">
+kāni teṣāṃ kāraṇānīti cet? dvābhyāmantaraślokābhyāmāha -
+</p>
+<lg xml:id="Abhis_8.19">
+<l>gurūṇāmanuyānādirdṛḍhatā saṃvaraṃ prati /</l>
+<l>saṅgrahāsevanaṃ dānaṃ praṇītasya ca vastunaḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.20">
+<l>vadhyamokṣasamādānaṃ vivṛddhiḥ kuśalasya ca /</l>
+<l>ityādiko yathāsūtraṃ heturlakṣaṇasādhakaḥ //</l>
+</lg>
+<p xml:id="479">
+iti / ime dve kārike uparyeva lakṣaṇavyākhyānāvasare sphuṭite, ato na punaḥ vistīryeta iti /
+</p><p xml:id="480">
+lakṣaṇānyevaṃ vyākhyāya dvādaśabhiḥ antaraślokaiḥ aśītyanuvyañjanānyāha -
+</p>
+<lg xml:id="Abhis_8.21">
+<l>tāmrāḥ snigdhāśca tuṅgāśca nakhā aṃgulayo muneḥ /</l>
+<l>vṛttāścitānupūrvāśca gūḍhā nirgranthayaḥ śirāḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.22">
+<l>gūḍhau gulphau samau pādau siṃhebhadvijagopateḥ /</l>
+<l>vikrāntaṃ dakṣiṇaṃ cārugamanamṛjuvṛttatā //</l>
+</lg>
+<lg xml:id="Abhis_8.23">
+<l>mṛṣṭānupūrvate medhyamṛdutve śuddhagātratā /</l>
+<l>pūrvavyañjanatā cārūpṛthumaṇḍalagātratā //</l>
+</lg>
+<lg xml:id="Abhis_8.24">
+<l>samakramatvaṃ śuddhatvaṃ netrayoḥ sukumāratā /</l>
+<l>adīnotsadagātratve susaṃhatanagātratā //</l>
+</lg>
+<lg xml:id="Abhis_8.25">
+<l>suvibhaktāṅgatā dhvāntapradhvastālokaśuddhatā /</l>
+<l>vṛttamṛṣṭākṣatākṣāmakukṣitāśca gabhīratā //</l>
+</lg>
+<lg xml:id="Abhis_8.26">
+<l>dakṣiṇāvartatā nābheḥ samantāddarśanīyatā /</l>
+<l>samācāraḥ śuciḥ kālatilakāpagatā tanuḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.27">
+<l>karau tūlamṛdū snigdhagambhīrāyatalekhatā /</l>
+<l>nātyāyataṃ vaco bimbapratibimbaupamauṣṭhatā //</l>
+</lg>
+<lg xml:id="Abhis_8.28">
+<l>mṛdvī tanvī ca raktā ca jihvā jīmūtaghoṣatā /</l>
+<l>cārumañjusvaro daṃṣṭrā vṛttāstīkṣṇāḥ sitāḥ samāḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.29">
+<l>anupūrvīṃ gatāstuṅgā nāsikā paramaṃ śuciḥ /</l>
+<l>viśāle nayane pakṣmacitaṃ padmadalākṣitā //</l>
+</lg>
+<lg xml:id="Abhis_8.30">
+<l>āyataślakṣṇasusnigdhasamaromnau bhruvau bhujau /</l>
+<l>pīnāyatau samau karṇāvupaghātavivarjitau //</l>
+</lg>
+<lg xml:id="Abhis_8.31">
+<l>lalāṭamaparimlānaṃ pṛthupūrṇottamāṅgatā /</l>
+<l>bhrabharābhāścitāḥ ślakṣṇā asaṃlulitamūrtayaḥ //</l>
+</lg>
+<lg xml:id="Abhis_8.32">
+<l>keśā aparuṣāḥ puṃsāṃ saurabhyādapahāriṇaḥ /</l>
+<l>śrīvatsaḥ svastikañceti buddhānuvyañjanaṃ matam //</l>
+</lg>
+<p xml:id="481">
+iti / (1) sarvasaṃskāravītarāgatvena tāmranakhatā /<lb/>
+(2) sarvasattvahitādhyāśayatvena snigdhanakhatā /<lb/>
+(3) śreṣṭhavaṃśaprabhavatvena tuṅganakhatā /<lb/>
+(4) vṛttānavadyatvena vṛttāṅgulitā /<lb/>
+(5) samupacitakuśalamūlatvena citāṅgulitā /<lb/>
+(6) samyaganūpūrvapravṛtatvena anupūrvāṅgulitā /<lb/>
+(7) sunigūḍhakāyādikarmāntājīvatvena gūḍhaśiratā /<lb/>
+(8) kleśagranthibhedakatvena nirgranthiśiratā /<lb/>
+(9) sunigūḍhadharmamatitvena gūḍhagulphatā /<lb/>
+(10) sarvadurgasthānajanottārakatvena aviṣamapādatā /<lb/>
+(11) narābhibhavanakuśalatayā siṃhavikrāntagāmitā /<lb/>
+(12) nāgābhibhavanakuśalatayā nāgavikrāntagāmitā /<lb/>
+(13) vaihāyasaṅgamakuśalatayā haṃsavikrāntagāmitā /<lb/>
+(14) puruṣavṛṣabhakuśalatayā vṛṣabhavikrāntagāmitā /<lb/>
+(15) pradakṣiṇamārgānuyātatayā pradakṣiṇagāmitā /<lb/>
+(16) prāsādikakuśalatayā cārugāmitā /<lb/>
+(17) nityamavakracittatayā avakragāmitā /<lb/>
+(18) viśuddhaguṇākhyāpakatayā vṛttagātratā /<lb/>
+(19) pramṛṣṭapāpadharmatayā mṛṣṭagātratā /<lb/>
+(20) vineyānurūpadharmadeśakatayā anupūrvagātratā /<lb/>
+(21) kāyādiśucisamudācāratvāt śucigātratā /<lb/>
+(22) karuṇācittatvāt mṛdugātratā /<lb/>
+(23) viśuddhacittatvāt viśuddhagātratā /<lb/>
+(24) paripūrṇadharmavinayatvāt paripūrṇavyañjanatā /<lb/>
+(25) pṛthucāruguṇākhyānāt pṛthucārumaṇḍalagātratā /<lb/>
+(26) sarvatra samacittatvāt samakramatā /<lb/>
+(27) suviśuddhadharmadeśanād viśuddhanetratā /<lb/>
+(28) sugamadharmadeśanāt sukumāragātratā /<lb/>
+(29) nityamadīnacittatvād adīnagātratā /<lb/>
+(30) samudgatakuśalatvād utsadagātratā /<lb/>
+(31) kṣīṇapunarbhavatvena susaṃhatagātratā /<lb/>
+(32) suvibhaktapratītyasamutpādadeśakatvena suvibhaktāṅgapratyaṅgatā /<lb/>
+(33) suviśuddhapadārthadarśanād vitimiraśuddhālokatā /<lb/>
+(34) vṛttasampannaśiṣyasaṃvartanīyatvena vṛttakukṣitā /<lb/>
+(35) pramṛṣṭasaṃsāradoṣatvena mṛṣṭakukṣitā /<lb/>
+(36) bhagnamānaśṛṅgatvena abhagnakukṣitā /<lb/>
+(37) dharmakṣayavinivartakatvena akṣāmakukṣitā /<lb/>
+(38) pratividdhadharmagambhīratvena gambhīranābhitā /<lb/>
+(39) pradakṣiṇagrāhiśiṣyasaṃvartanīyatvena pradakṣiṇāvartanābhitā /<lb/>
+(40) samantaprāsādikaparivārasaṃvartanīyatvena samantaprāsādikatā /<lb/>
+(41) śucicittatvena śucisamudācāratā /<lb/>
+(42) vyapagatākāladharmavinayatvena vyapagatatilakālakagātratā /<lb/>
+(43) kāyādilāghavaprāpakadharmadeśakatvena tūlasadṛśasukumārapāṇitā /<lb/>
+(44) pratilabdhasnigdhamahāśramaṇatvena snigdhapāṇilekhatā /<lb/>
+(45) gambhīradharmasthānatvena gambhīrapāṇilekhatā /<lb/>
+(46) samyagāyatipariśuddhadharmadeśakatvena āyatapāṇilekhatā /<lb/>
+(47) pracurataraśikṣādeśakatvena nātyāyatavacanatā /<lb/>
+(48) pratibimbavat viditasarvalokatvena bimbapratibimbopamauṣṭhatā /<lb/>
+(49) mṛduvacanavinayatvenamṛdujihvatā /<lb/>
+(50) prabhūtaguṇopapannatvena tanujihvatā /<lb/>
+(51) raktabālajanaduravagāhadharmavinayatvena raktajihvatā /<lb/>
+(52) sarvatrāsāpagatatvena meghagarjitaghoṣatā /<lb/>
+(53) madhurādyālāpatvena madhuracārumañjusvaratā /<lb/>
+(54) nivṛttabhavasaṃyojanatvena vṛttadaṃṣṭratā /<lb/>
+(55) durdāntajanadamakatvena tīkṣṇadaṃṣṭratā /<lb/>
+(56) paramaśukladharmavinayatvena śukladaṃṣṭratā /<lb/>
+(57) samabhūtipratiṣṭhitatvena samadaṃṣṭratā /<lb/>
+(58) samyaganupūrvābhisamayaprakāśakatvena anupūrvadaṃṣṭratā /<lb/>
+(59) prajñāprakarṣasthāpakatvena tuṅganāsatā /<lb/>
+(60) śucijanasampannatvena śucināsatā /<lb/>
+(61) paramodāradharmatvenaviśālanayanatā /<lb/>
+(62) samupacitasattvarāśitvena cittapakṣmatā /<lb/>
+(63) sarvayuvatijanābhinanditvena sitāsitakamaladalanayanatā /<lb/>
+(64) nityamāyatidarśitvena āyatabhrūkatā /<lb/>
+(65) ślakṣṇadharmavinayakuśalatvena ślakṣṇabhrakatā /<lb/>
+(66) kuśalasnigdhasantānatvena susnigdhabhrakatā /<lb/>
+(67) samantadoṣadarśitvena samaromabhrūkatā /<lb/>
+(68) paramapīḍānivartakatvena pīnāyatabhujatā /<lb/>
+(69) vijitarāgādisamaratvena samakarṇatā /<lb/>
+(70) sarvasattvānupahatasantānasvena anupahatakarṇendriyatā /<lb/>
+(71) sarvadṛṣṭikṛtānyathāvipariṇāmatvena aparimlānalalāṭatā /<lb/>
+(72) sarvavādipramathanatvena pṛthulalāṭatā /<lb/>
+(73) paripūrṇottamapraṇidhānatvena pūrṇottamāṅgatā /<lb/>
+(74) viṣayarativyāvartakatvena bhramarasadṛśakeśatā /<lb/>
+(75) prahīṇadarśanabhāvanāprahātavyānuśayatvena citakeśatā /<lb/>
+(76) ślakṣṇabuddhiparijñātaśāsanatvena ślakṣṇakeśatā /<lb/>
+(77) rāgādyasaṃluṭhitacetanatvena asaṃluṭhitakeśatā /<lb/>
+(78) nityamaparuṣavacanatvena aparuṣakeśatā /<lb/>
+(79) bodhyaṅgakusumāvakīrṇatvena surabhikeśatā /<lb/>
+(80) sarvathā śobhāsaṃvartanīyatvena śrīvatsasvastikanandyāvartalalitapāṇipādatalatā ceti /
+</p><p xml:id="482">
+4 - nairmāṇikakāyaḥ
+</p><p xml:id="483">
+itthaṃ kāyatrayaṃ nirdiśyaṃ caturthaḥ nairmāṇikakāyaḥ sarvabālajanasādhāraṇa iti /<lb/>
+tamāha -
+</p>
+<lg xml:id="Abhis_8.33">
+<l>karoti yena citrāṇi hitāni jagataḥ samam /</l>
+<l>ābhavātso 'nupacchinnaḥ kāyo nairmāṇiko mune //</l>
+</lg>
+<p xml:id="484">
+iti / yena śākyamunitathāgatādirūpeṇa āsaṃsāraṃ sarvalokadhātuṣu sattvānāṃ samīhitamarthaṃ samaṃ karoti, asau kāyaḥ prabandhatayā anuparato nairmāṇiko buddhasya bhagavataḥ sarvabālajanasādhāraṇaścaturtho 'vasātavyaḥ /
+</p><p xml:id="485">
+buddhakāritrāṇi
+</p><p xml:id="486">
+ityevaṃ svābhāvikakāyasvarūpabhāvanāprabhāvitabuddhādiviṣayatve jñānādyapekṣya parikalpitakāyatrayaṃ nirdiśyaṃ saṃvṛtyā jñānameva sāmbhogikakāyādipratibhāsotpādadvāreṇārthakriyākārīti karma vineyajanapratibhāsabhāk tadādhipatyāśrayeṇāyātaṃ dharmakāya eveti /
+</p>
+<lg xml:id="Abhis_8.34">
+<l>tathā karmāpyanucchinnamasyāsaṃsāramiṣyate /</l>
+<l>gatīnāṃ śamanaṃ karma saṅgrahe ca caturvidhe //</l>
+</lg>
+<lg xml:id="Abhis_8.35">
+<l>niveśanaṃ sasaṃkleśe vyavadānāvabodhane /</l>
+<l>sattvānāmarthayāthātmye ṣaṭsu pāramitāsu ca //</l>
+</lg>
+<lg xml:id="Abhis_8.36">
+<l>buddhamārge prakṛtyaiva śūnyatāyāṃ dvayakṣaye /</l>
+<l>saṃkete 'nupalambhe ca paripāke ca dehinām //</l>
+</lg>
+<lg xml:id="Abhis_8.37">
+<l>bodhisattvasya mārge 'bhiniveśasya nivāraṇe /</l>
+<l>bodhiprāptau jinakṣetraviśuddhau niyatiṃ prati //</l>
+</lg>
+<lg xml:id="Abhis_8.38">
+<l>aprameye ca sattvārthe buddhasevādike guṇe /</l>
+<l>bodheraṅgeṣvanāśe ca karmaṇāṃ satyadarśane //</l>
+</lg>
+<lg xml:id="Abhis_8.39">
+<l>viparyāsaprahāṇe ca tadavastukatānaye /</l>
+<l>vyavadāne sasambhāre saṃskṛtāsaṃskṛte prati //</l>
+</lg>
+<lg xml:id="Abhis_8.40">
+<l>vyatibhedāparijñāne nirvāṇe ca niveśanam /</l>
+<l>dharmakāyasya karmedaṃ saptaviṃśatidhā matam //</l>
+</lg>
+<p xml:id="487">
+iti / tatra prathamaṃ praśastāpraśastagatyanabhiniveśāvasthānalakṣaṇaṃ gatipraśamanaṃ karma kṛtvā, dānādicatuḥsaṅgrahavastuni pratiṣṭhāpya, śrutamayādijñānena vipakṣapratipakṣaheyopādeyadvāreṇa bodhayitvā, māyākāra ivānunayādiviviktatayā maitryādilakṣaṇe parārthe sattvārthayāthātmye pratiṣṭhāpya, tadanu svārthe trimaṇḍalaviśuddhiprabhāvitaṣaṭpāramitābhyāse, tadanantaraṃ svaparārthalakṣaṇe daśakuśalakarmapathe buddhamārge, tataḥ sarvadharmaprakṛtiśūnyatābhyāse, tadanu dānapāramitādhiṣṭhānena prathamāyāṃ bhūmau sarvatragadharmadhātuprativedhalakṣaṇe advayadharme, tato dvitīyādibhūmau sambhāraparipūrihetubhūte śīlādipāramitāsarvadharmasāṅketikajñāne niveśayati / evamanukrameṇa prajñāpāramitādhiṣṭhānena ṣaṣṭhyāṃ bhūmau jñānajñeyabhāvānabhiniveśalakṣaṇe sarvadharmānupalambhe, tadanantaraṃ saptamyāmupāyapāramitābalena sattvaparipāke, tato balapāramitābalenāṣṭamyāṃ śrāvakādyasādhāraṇe bodhisattvamārge, punastatraiva sarvabhāvābhiniveśaprahāṇe, tadanu navamyāṃ praṇidhānapāramitāsāmarthyād bodhiprāptau, tadanantaraṃ jñānapāramitābalād daśamyāṃ bhūmau vividhabuddhakṣetraviśuddhau pratiṣṭhāpya, punastatraiva ekajātipratibaddhasvarūpe samyak sambodhipratiniyame daśadiglokadhātavīyasattvārthe sarvalokadhātubuddhopasaṅkramaṇādiguṇe ca niveśayati /
+</p><p xml:id="488">
+evamanukrameṇa punastatraina viśeṣamārgasvarūpe samastabodhyāvāhakadharmalakṣaṇe bodhyaṅge, karmaphalasambandhāvipraṇāśe, yathābhūtapadārthādhigame, sarvaviparyāsaprahāṇe, nirvastukaviparyāsaprahāṇe jñāne, prakṛtipariśuddhilakṣaṇe bodhisattvavyavadāne, sarvakalaṅkāpagatavyavadānahetau sambhāre, śūnyatāsvabhāvena saṃskṛtāsaṃskṛtāvyatibhedaparijñāne ca pratiṣṭhāpya tāthāgatyāṃ bhūmau nirvāṇe niveśayati / evaṃ dharmakāyavadasya saptaviṃśatiprakāraṃ karma āsaṃsāramiṣyata iti kāritram /
+</p><p xml:id="489">
+prathamacittotpādasya antimakarmaṇāñca anukramanirdeśena avaśiṣṭānāṃ madhyapadārthānāmapi kramo veditavyaḥ, vaktavyabāhulyabhayānmayā nollikhitaḥ /
+</p><p xml:id="490">
+iti abhisamayālaṅkāre nāma prajñāpāramitāśāstre aṣṭamādhikāravṛttiḥ /
+</p><p xml:id="491">
+<note type="segmentation">________________________________________________________________</note><!-- TODO; segmentation -->
+</p><p xml:id="492">
+Madhyamarucisattvārthaṃ vyākhyānam
+</p><p xml:id="493">
+evaṃ vistararucisattvānugraheṇa aṣṭabhiḥ padārthaiḥ (prajñāpāramitāṃ) vyākhyāya punaranyaprakāreṇa vyākhyānāyāha -
+</p><p xml:id="494">
+lakṣaṇaṃ tatprayogastatprakarṣastadanukramaḥ /<lb/>
+tanniṣṭhā tadvipākaścetyanyaḥ ṣoḍhārthasaṃgrahaḥ // 1 //
+</p><p xml:id="495">
+iti / prathamaṃ sarvākārajñatāditrisarvajñatābhilakṣyasthānīyatvena lakṣaṇam / tato vaśitvārthatrisarvajñatābhāvanāṃ prati prayujyate 'neneti trisarvajñatāprayogaḥ sarvākārābhisambodhaḥ / tato 'tyabhyāsāt prakarṣagamanamiti trisarvajñatāyāḥ prakarṣāvasthomūrdhābhisamayaḥ / tato 'dhigatavastuniścayāya vyastasamastavibhāvitārthapraguṇīkaraṇamiti trisarvajñatānukramāvastho 'nupūrvābhisamayaḥ / tato viśeṣagamanābhāvāt trisarvajñatāniṣṭhāvasthaḥ samyagekakṣaṇābhisambodhaḥ / tatastasya phalam, iti trisarvajñatāvipāko dharmakāyaḥ sakāritraḥ / evaṃ ṣaṭprakāreṇārthasaṃgraheṇa pūrvavadeva jinajananī vyākhyeyā /
+</p><p xml:id="496">
+saṃkṣiptarūcisattvārthaṃ vyākhyānam
+</p><p xml:id="497">
+madhyamarucisattvānukampayā amunā ṣaṭprakāreṇārthasaṃgraheṇa vyākhyāya punaḥ saṃkṣiptarucisattvānurodhenānyaprakāreṇa vyākhyānāyāha -
+</p><p xml:id="498">
+viṣayastritayo hetuḥ prayogaścaturātmakaḥ /<lb/>
+dharmakāyaḥ phalaṃ karmetyanyastredhārthasaṃgrahaḥ // 2 //
+</p><p xml:id="499">
+iti / ādau sarvākārajñatāditrisarvajñatāsvabhāvaḥ pravṛttiviṣayahetuḥ / sa kathaṃ prayujyata iti tadanantaraṃ sarvākārābhisambodhādiścaturvidho 'bhisamayaḥ prayogaḥ / tasyaivaṃ prayogavato viṣayasya kiṃ phalamiti tadanu dharmakāyaḥ sakarmā phalamityevaṃ trividhenārthasaṃgraheṇa tathaiva jinajananī vyākhyeyā /
+</p><p xml:id="500">
+pariṇāmanā
+</p><p xml:id="501">
+arthataḥ padato vāpi nāmaparyāyataḥ kvacit /<lb/>
+tāvāneva budhairjñeyaḥ piṇḍārthaḥ sarvamātṛṣu // 1 //<lb/>
+anyathā na bhavetsamyak sarvāsāṃ kramasaṃgrahaḥ /<lb/>
+tatra piṇḍādibhedena vaiśiṣṭyaṃ jāyate dhruvam // 2 //<lb/>
+āryavimuktisenasyānubhāvenātra darśitam /<lb/>
+arthamātraṃ subodhāya tyaktvā vacanavistaram // 3 //<lb/>
+vairocanaṃ guruṃ natvā sadupādhyāyajñāninam /<lb/>
+kārikāṇāṃ sphuṭā vṛttirharibhadreṇa racyate // 4 //<lb/>
+etadgranthavidhānena yatpuṇyamarjitaṃ mayā /<lb/>
+nikhilāḥ prāṇinastena prāpnuyuḥ saugatīṃ dhiyam // 5 //<lb/>
+sarvaśāstrabahirbhūtaḥ kvāhaṃ svalpamatiḥ pumān /<lb/>
+kva cāryagatigamyo 'yaṃ śāstrārtho mahimānvitaḥ // 6 //<lb/>
+tathāpyagocarībhūte yatnamāsthitavānaham /<lb/>
+parātmahitabuddhyaiva kṣamyatāmeṣa sādhubhiḥ // 7 //<lb/>
+aho mṛśaṃ mayā nānāmataiḥ śrāntena vīkṣitam /<lb/>
+śamasthānaṃ cireṇedaṃ prajñāpāramitāmatam // 8 //
+</p><p xml:id="502">
+iti prajñāpāramitopadeśaśāstre ācāryaharibhadrakṛtā abhisamayālaṅkāravṛttiḥ samāptā /
+</p><p xml:id="503">
+bhāratīyapaṇḍitena vidyākaraprabheṇa mahālokacakṣuṣā vandeśrīkūṭena cānūdya nirṇītā /<lb/>
+śrīpaṇḍitāmaragomyādibhiḥ bhikṣudhīmatprajñena ca paścāt sunirṇītā /
+</p>
+</body>
+</text>
+</TEI>

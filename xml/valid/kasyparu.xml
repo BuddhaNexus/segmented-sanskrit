@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_kAzyapaparivarta+sUtra">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Kāśyapaparivarta Sūtra</title>
+	<!-- TODO: Verify author -->	
+	<author></author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Klaus Wille (Göttingen)</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by M.I. Vorobyova-Desyatovskaya (in collaboration with S. Karashima and N. Kudo): The Kāśyapaparivarta, Romanized Text and Facsimiles, Tokyo 2002 (Bibliotheca Philologica et Philosophica Buddhica, V)-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Kasyapaparivartasutra = KP-VD<BR>
+Based on the ed. by M.I. Vorobyova-Desyatovskaya (in collaboration with S. Karashima and N. Kudo):<BR>
+The Kāśyapaparivarta, Romanized Text and Facsimiles, Tokyo 2002<BR>
+(Bibliotheca Philologica et Philosophica Buddhica, V)<BR>
+Input by Klaus Wille (Göttingen)<BR>
+BOLD = beginning of a new line<BR>
+ITALICS = restored<BR>
+{...} = note<BR>
+Anusvāra -&gt; class nasal (yāvaṃtaḥ -&gt; yāvantaḥ)<BR>
+gemination of consonant -&gt; simplified<BR>
+-rr. (Khotanese writing) -&gt; -r.<BR>
+-au (writing due to Khotanese influence) -&gt; o (pauṣau -&gt; poṣo)<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="">
+<body><p xml:id="0">
+MSS: SI P/2, SI P/85A; Hoernle 143 S.B.38+39+Mannerheim 3; SHT I 374
+</p><p xml:id="1">
+fol. 1v (KP-SI P/2)<lb/>
+1 siddham* evaṃ mayā śrutam ekasmiṃ samaye bhagavān rājagṛhe viharati sma / gṛddhakūṭe parvat<hi rend="it">e</hi><lb/>
+2 mahatā bhikṣusaṃghena sārdham aṣṭābhir bhikṣusahasraiḥ ṣoḍaśabhiś ca bodhisatvasahasraiḥ nānā<hi rend="it">bu</hi><hi rend="bf">ddha</hi>kṣetrasaṃnipatitair<lb/>
+3 ekajātiprabaddhair yadutānut<hi rend="it">t</hi>arasyāṃ samyaksambodhau / tatra bhagavā<hi rend="it">n ā</hi><hi rend="bf">yu</hi>ṣmantaṃ<lb/>
+4 mahākāśyapam āmantrayati sma /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 1 catvāra ime kāśyapa dharmā bodhisatvasya prajñāpāri<hi rend="it">hā</hi><hi rend="bf">ṇā</hi>ya<lb/>
+5 saṃvartan<hi rend="it">t</hi>e / katame catvāraḥ yaduta agaura<hi rend="it">v</hi>o <hi rend="it">bhava</hi>ti dharme ca dh<hi rend="it">armabhāṇa</hi>ke ca / dharma<hi rend="it">mātsaraḥ</hi>
+</p><p xml:id="2">
+fol. 2r (KP-SI P/2)<lb/>
+1 ca bhavati / dharmācāryamuṣṭiñ ca karoti dharmakāmānañ ca pudgalānāṃ dharmāntarāyaṃ karoti / viccha<hi rend="it">n</hi>d<hi rend="it">ayati</hi><lb/>
+2 vikṣipati / na deśayati / praticchādayati / ābhimānikaś ca bhavaty ātmotkarṣī parapaṃsakaḥ <hi rend="it">ime</hi><lb/>
+3 kāśyapa catvāro dharmā bodhisatvasya prajñāpārihāṇāya saṃvartate / tatredam ucyate // a<hi rend="it">gaura</hi><hi rend="bf">vo</hi><lb/>
+4 bhavati ca dharmabhāṇake dharmeṣu mātsaryarato ca bhoti / ācāryamuṣṭiṃ ca karoti dharme dha<hi rend="it">rmārthi<hi rend="bf">k</hi>ā</hi>nā<lb/>
+5 ca karoti vigh<hi rend="it">n</hi>am* vic<hi rend="it">ch</hi>a<hi rend="it">n</hi>dayanto vividhaṃ kṣipanto dharmaṃ na deśayati jinap<hi rend="it">r</hi>aśas<hi rend="it">t</hi>ān* so ā<hi rend="it">tma u</hi><hi rend="bf">tka</hi>rṣaṇi
+</p><p xml:id="3">
+fol. 2v (KP-SI P/2)<lb/>
+1 nityayu<hi rend="it">k</hi>to parapaṃsane cābhirataḥ kusīdo / caturo ime dharmā jinena proktā prajñāpra<hi rend="it">hā</hi><hi rend="bf">ṇā</hi>ya<lb/>
+2 jinorasānām etāṃ hi catvāri jahitvā dharmāś caturo parāṃ dharmajinokta bhāvayet* <hi rend="it">//</hi><lb/>
+3<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 2 catvāra ime kāśyapa dharmā bodhisatvasya mahāprajñātāyai saṃvartante / katame ca<hi rend="it">tvā</hi><hi rend="bf">ra</hi>ḥ<lb/>
+4 yadu<hi rend="it">ta</hi> sagauravo bhavati dharme ca dharmabhāṇake ca / yathāśrutāṃś ca dharmān yathā<hi rend="it">pa</hi><hi rend="bf">ryā</hi>ptān<lb/>
+5 parebhyo vistareṇa saṃprakāśayati / nirāmiṣeṇa cittena na pratikāṃkṣayati <hi rend="it">śrava<hi rend="bf">ṇaṃ</hi></hi>
+</p><p xml:id="4">
+fol. 3r (KP-SI P/2)<lb/>
+1 lābhasatkāraśl<hi rend="it">o</hi>kaṃ bāhuśrutyena ca prajñāgamaṃ viditvā / ādiptaśiraścai<hi rend="it">lopamaḥ śru</hi><hi rend="bf">taṃ</hi><lb/>
+2 paryeṣate śrutāś ca dharmān dhārayati / pratipattisāraś ca bhavati na vyāhā<hi rend="it">rapada</hi><hi rend="bf">vā</hi>kyaparamaḥ<lb/>
+3 ime kāśyapa catvāro dharmāḥ bodhisatvasya mahāprajñatā<hi rend="it">yai saṃ</hi><hi rend="bf">va</hi>rtante<lb/>
+4 idam uvāca bhagavāṃs tatredam ucyate // sagauravo bhavati ca dharmabhā<hi rend="it">ṇake</hi><lb/>
+5 yathāśrutān dharma pa<hi rend="it">re</hi>ṣu bhāṣate / nirāmiṣaś cāpratikāṃkṣamāṇo na lābhasatkāraśilok<hi rend="it">a</hi>
+</p><p xml:id="5">
+fol. 3v (KP-SI P/2)<lb/>
+1 .y. taḥ śrutena prajñāga<hi rend="it">ma</hi> so viditvā ādīptaśīrṣaḥ śrutam eṣate sadā / yathāśrutān dhāraya<hi rend="it">tī</hi><lb/>
+2 ca dharmān dhāritva dharmā pratipattiyā sthitaḥ pratipattisāro ca sa bhoti paṇḍito na vākpa + + + <lb/>
+3 taparo ca bhoti : catvār' imā dharma bhajanta paṇḍitāḥ prajñām anāpnoti jinapraśastā :<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 3 <hi rend="it">caturbhiḥ</hi><lb/>
+4 kāśyapa dharmaiḥ samanvāgatasya bodhisatvasya bodhicittaṃ muhyati katamaiś caturbhiḥ yadut<hi rend="it">ācārya<hi rend="bf">gu</hi></hi>r<hi rend="it">u</hi>dākṣiṇīyavisaṃvādanatayā /<lb/>
+5 pareṣām akaukṛtye kaukṛtyopasaṃhāraṇatayā mahāyāna<hi rend="it">sa</hi>ṃ<hi rend="it">prasthitā<hi rend="bf">nāṃ</hi></hi>
+</p><p xml:id="6">
+fol. 4r (KP-SI P/2)<lb/>
+1 c<hi rend="it">a</hi> s<hi rend="it">a</hi>tvānām <hi rend="it">a</hi>va<hi rend="it">r</hi>ṇ<hi rend="it">ā</hi>yaśakīrt<hi rend="it">i</hi>śabdaślokaniścāraṇat<hi rend="it">a</hi>y<hi rend="it">ā</hi> / māy<hi rend="it">ā</hi>śāṭhy<hi rend="it">e</hi>n<hi rend="it">a</hi> c<hi rend="it">a</hi> p<hi rend="it">a</hi>r<hi rend="it">a</hi>m up<hi rend="it">acarati nādhyāśaye</hi><hi rend="bf">na</hi> /<lb/>
+2 ebhiḥ kāśyapa caturbhiḥ dharmaiḥ samanvāgatasya bodhisatvasya bodhicittaṃ muhyati / idam uv<hi rend="it">āca bhaga</hi><hi rend="bf">vāṃ</hi><lb/>
+3 tatredam ucyate // gurudākṣiṇīye na karoti proktuṃ pareṣu kaukṛty' upasaṃharanti /<lb/>
+bodhā<hi rend="it">ya saṃpra</hi><hi rend="bf">sthi</hi>ta<lb/>
+4 ye ca satvās teṣām avarṇam ayaśaṃ bhaṇanti / māyāya śāṭhyena ca ketavena<lb/>
+par<hi rend="it">aṃ ca seva</hi><hi rend="bf">nti</hi><lb/>
+5 ca nāśayena / c<hi rend="it">a</hi>t<hi rend="it">ur</hi>o i<hi rend="it">m</hi>e <hi rend="it">dha</hi>r<hi rend="it">ma n</hi>iṣev<hi rend="it">ya</hi>mān<hi rend="it">ā</hi> mohen<hi rend="it">t</hi>i cittaṃ varab<hi rend="it">u</hi>d<hi rend="it">dh</hi>abodhaye : <hi rend="it">t</hi>as<hi rend="it">m</hi>ād imā<hi rend="it">n dharma niṣe</hi><hi rend="bf">va</hi>māṇo
+</p><p xml:id="7">
+fol. 4v (KP-SI P/2)<lb/>
+1 varāgrab<hi rend="it">o</hi>dh<hi rend="it">āya</hi> su<hi rend="it">d</hi>ūr<hi rend="it">i var</hi>t<hi rend="it">a</hi>t<hi rend="it">e</hi> / .. tādv<hi rend="it">i</hi>p<hi rend="it">arītas tu</hi> n<hi rend="it">i</hi>ṣ<hi rend="it">e</hi>v<hi rend="it">a</hi>māṇ<hi rend="it">o</hi> v<hi rend="it">a</hi>rāgr<hi rend="it">a</hi>b<hi rend="it">o</hi>dh<hi rend="it">iṃ</hi> spṛś<hi rend="it">a</hi>t<hi rend="it">i</hi> pr<hi rend="it">a</hi>śā<hi rend="it">s</hi>t<hi rend="it">āṃ</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 4<hi rend="it"> ca</hi><hi rend="bf">tu</hi>rbhiḥ<lb/>
+2 kāśyapa dharmaiḥ samanvāgatasya bodhisattvasya / sarvāsu jātiṣu jātamātrasya bodhicitt<hi rend="it">am āmukhī</hi><hi rend="bf">bha</hi>vati<lb/>
+3 na cāntarā <hi rend="it">mu</hi>hyati yāvad bodhimaṇḍaniṣadanāt* katamaiś caturbhiḥ yaduta jīvitahe<hi rend="it">tor api saṃ</hi>prajāna<lb/>
+4 mṛṣāvāda<hi rend="it">ṃ</hi> na bhāṣate / antamaśa hāsyaprekṣyam api / adhyāśayena ca sarvasatvānām an<hi rend="it">tike tiṣṭha<hi rend="bf">ty</hi> a</hi>pagatamāyāśāṭhya<hi rend="it">ta</hi>yā /<lb/>
+5 sarvabodhisatveṣu ca śās<hi rend="it">tṛ</hi>saṃjñām <hi rend="it">u</hi>t<hi rend="it">p</hi>ādayati / cat<hi rend="it">u</hi>r<hi rend="it">d</hi>iśaṃ <hi rend="it">ca t</hi>e<hi rend="it">ṣ</hi>ā<hi rend="it">ṃ varṇaṃ pari</hi><hi rend="bf">cā</hi>rayati /
+</p><p xml:id="8">
+fol. 5r (KP-SI P/2)<lb/>
+1 yāś ca satvān paripācayati tān sarvān uttarasyā<hi rend="it">ṃ</hi> samyaksambodhau samādāpay<hi rend="it">ati</hi> + + <hi rend="it">prāde</hi><hi rend="bf">śi</hi>kayānaspṛhaṇatayā /<lb/>
+2 ebhiḥ kāśyapa caturbhiḥ dharmaiḥ samanvāgatasya bodhisattv<hi rend="it">a</hi>sy<hi rend="it">a</hi> s<hi rend="it">arvāsu jā</hi><hi rend="bf">ti</hi>ṣu<lb/>
+3 jātamātrasya <hi rend="it">bo</hi>dhicittam āmukhībhavati na cāntarāṃ muhyati yāvad bodhimaṇḍaniṣadanāt* <hi rend="it">tatreda</hi><hi rend="bf">m</hi><lb/>
+4 ucyate / 4 // na jīvitārthe anṛtaṃ vadanti bhāṣanti vācaṃ sada arthayuktāṃ / māyāya śāṭhye<hi rend="it">na ca ni</hi><hi rend="bf">tya</hi><lb/>
+5 varjitā adhyāśayena sada satva paśyati / bodhāya ye prasthita śuddhasatvā śās<hi rend="it">t</hi>eti tān manyati bodhisa<hi rend="it">tvān*</hi>
+</p><p xml:id="9">
+fol. 5v (KP-SI P/2)<lb/>
+1 varṇa<hi rend="it">ṃ</hi> ca teṣā<hi rend="it">ṃ</hi> bhaṇate caturdiśaṃ śāstāra sa<hi rend="it">ṃ</hi>jñā<hi rend="it">ṃ</hi> sad' upasth<hi rend="it">a</hi>p<hi rend="it">i</hi>tvā 2 y<hi rend="it">āṃ</hi>ś cāpi satvān paripāc<hi rend="it">a</hi>yati anuttar<hi rend="it">e j</hi>ñ<hi rend="it">āni</hi><lb/>
+2 samādapeti eteṣu dharmeṣu pratiṣṭhitānāṃ cittaṃ na bodhāya kadāci muhyati : 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 5 caturbhiḥ kāśyapa <hi rend="it">dharmaiḥ</hi><lb/>
+3 samanvāgatasya bodhisatvasyotpannotpannā kuśalā dharmāḥ paryādīyante yair na vivardhati ku<hi rend="it">śalai</hi>r<lb/>
+4 dharmaiḥ katamaiś caturbhiḥ yaduta abhimānikasya lokāyatanamantraparyeṣṭyā / lābhasat<hi rend="it">k</hi>ārādh<hi rend="it">yavasita</hi><hi rend="bf">s<hi rend="it">y</hi>a</hi><lb/>
+5 kulapratyavalokanena / bodhisatvavidveṣābhyākhyānena / aśr<hi rend="it">u</hi>tānām anud<hi rend="it">d</hi>iṣṭānāṃ ca sū<hi rend="it">t</hi>r<hi rend="it">āntānāṃ pratikṣepe</hi><hi rend="bf">ṇa</hi> :
+</p><p xml:id="10">
+fol. 6r (KP-SI P/2)<lb/>
+1 ebhiḥ kāśyapa caturbhir dharmaiḥ samanvāgatasya bodhisatvasyotpannotpannā kuśalā dha<hi rend="it">rmāḥ paryādīyante yair na</hi><lb/>
+2 vivardhate kuśalair dharmaiḥ tatredam ucyate 5 // lokāyikam eṣati ābhimāniko kulāni c<hi rend="it">a yojayati lābhārtha</hi><hi rend="bf">to</hi><lb/>
+3 2 buddhaurasā dviṣate ca bodhisatvāṃs teṣām avarṇaṃ bhaṇate samantāt* noddiṣṭa no cāpi śrutā<hi rend="it">sūtrāntā hitena</hi><lb/>
+4 kṣipīta imi jinena proktān tam ehi dharmehi samanvitasya kuśaleṣu dharmeṣu na vṛddhir asti / tasmād <hi rend="it">dhi paṇḍi</hi><hi rend="bf">ta</hi><lb/>
+5 bodhisatvo dūrān vijahyāc caturo pi dharmān* imā niṣevanta sudūri bodhaye nabhaṃ va bhūmīya sudūradūre <hi rend="it">//</hi><lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 6 <hi rend="it">ca</hi><hi rend="bf">tu</hi>rbhiḥ
+</p><p xml:id="11">
+fol. 6v (KP-SI P/2)<lb/>
+1 kāśyapa dharmaiḥ samanvāgato bodhisatvaḥ aparihāṇadharm<hi rend="it">o</hi> bhavati viśeṣagāmitāyai : katam<hi rend="it">ai</hi>ś caturbh<hi rend="it">i</hi>ḥ <hi rend="it">s</hi>u<hi rend="it">śrutaṃ</hi><lb/>
+2 paryeṣate na duśrutaṃ / yaduta ṣaṭpāramitābodhisatvapiṭakaparyeṣṭi śvasadṛśaś ca bhavati nirmā<hi rend="it">natayā</hi><lb/>
+3 sarvasatveṣu dharmalābhasaṃtuṣṭaś ca bhavati / sarvamithyājīvaparivarjitaḥ āryavaṃśasaṃtuṣ<hi rend="it">ṭaḥ nāpa</hi><hi rend="bf">tā</hi>yā<lb/>
+4 cāpatyā na parāṃś codayati / na ca doṣāntaraskhalitagaveṣī bhavati / yeṣu cā<hi rend="it">sya buddhir na gā</hi><hi rend="bf">ha</hi>te<lb/>
+5 tatra tathāgatam e<hi rend="it">va</hi> sākṣīti kṛtvā na pratikṣipati / tathāgata eva jānāti nāhaṃ <hi rend="it">jāne anantā buddhabo</hi><hi rend="bf">dh<hi rend="it">i</hi></hi>r
+</p><p xml:id="12">
+fol. 7r (KP-SI P/2)<lb/>
+1 nānādhimuktikānāṃ satvānāṃ yathādhimuktikatayā dharmadeśanā pravartate / ebhiḥ kā<hi rend="it">śyapa caturbhir dharmaiḥ samanvā</hi><hi rend="bf">ga</hi>to<lb/>
+2 bodhisatvaḥ aparihāṇadharmo bhavati viśeṣagāmitāyai / tatredam ucyate 6 // nityaṃ ca so <hi rend="it">pāramitāsu</hi><lb/>
+3 yukto upāyakauśaly' atha bodhipīṭake / nirmānatāyāś ca śvacittasādṛśo sarve ca satveṣu ni<hi rend="it">rmānataḥ sevati</hi><lb/>
+4 tuṣṭaś ca lābhena sa dhārmikena ājivaśuddho sthita āryavaṃśe / paraṃ ca nāpattiṣu codayanto skhalita<hi rend="it">ṃ pareṣāṃ</hi><lb/>
+5 na gaveṣamāṇo 2 na gāhate yatra ca buddhir asya tathāgataṃ sāk<hi rend="it">ṣ</hi>ikaroti tatra /<lb/>
+nāhaṃ prajānāmi jino prajā<hi rend="it">nate</hi>
+</p><p xml:id="13">
+fol. 7v (KP-SI P/2)<lb/>
+1 ananta bodhi sugatena bhāṣitā 3 imā tu dharmāś caturo viditvā na hāpaye jātu viśeṣam uttamam* imeṣu dharmeṣu <hi rend="it">prati</hi><hi rend="bf">ṣṭhi</hi>tasya<lb/>
+2 na durlabhā bodhi jinapraśastā //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 7 catvāra ime kāśyapa kuṭilāś cittotpādās tena bodhisatve<hi rend="it">na pari</hi><hi rend="bf">va</hi>rjitavyāḥ<lb/>
+3 katame catvāra yaduta kāṃkṣā vimatir vicikitsā sarvabuddhadharmeṣu / mānamadamrakṣa<hi rend="it">kr</hi>o<hi rend="it">dhavyāpā</hi><hi rend="bf">dā</hi>ḥ<lb/>
+4 sarvasatveṣu irṣyāmātsaryaṃ paralābheṣu avarṇāyaśokīrtiśabdaślokaniścāraṇatayā <hi rend="it">bodhisatveṣu</hi><lb/>
+5 ime kāśyapa catvāraḥ kuṭilāś cittotpādās te<hi rend="it">na</hi> bodhisatvena parivarjitavyāḥ tatreda<hi rend="it">m ucyate 7 // dharmeṣu kāṃkṣāṃ vi</hi><hi rend="bf">ma</hi>tiṃ
+</p><p xml:id="14">
+fol. 8r (KP-SI P/2)<lb/>
+1 ca kurvati satveṣu mānaṃ mada krodhaṃ sevati / mātsaryam irṣyā paralābha kurvate jine prasāda<hi rend="it">ṃ</hi> c<hi rend="it">a</hi> n<hi rend="it">a karoti kudācana</hi><lb/>
+2 akīrty avarṇam ayaśaṃ ca cārayī so bodhisatveṣu sadā avidvān* catvāri cittā kuṭilā vivarjaye<hi rend="it">t syāt satva</hi><hi rend="bf">pa</hi>kṣaṃ<lb/>
+3 sada bodhisatvaḥ 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 8 catvāra ime kāśyapa ṛjukasya bodhisatvasya ṛjukalakṣaṇāni bhavant<hi rend="it">i kata</hi><hi rend="bf">mā</hi>ni<lb/>
+4 catvāri / yaduta āpatti-āpanno na pracchādayaty ācaṣṭe vivṛṇoti niṣparyutthāno bhavati / yen<hi rend="it">a sa</hi><hi rend="bf">tya</hi>vacanena<lb/>
+5 rājyapārihāṇir vā dhanapārihāṇir vā kāyajīvitāntarāyo bhavet tat satyavacanaṃ na vig<hi rend="it">ū</hi>ḍha +
+</p><p xml:id="15">
+fol. 8v (KP-SI P/2)<lb/>
+1 nānyenānyaṃ pratinisṛtya vācā bhāṣate / sarvaparopakrameṣu cākrośaparibhāṣaṇakutsanapaṃsanatā<hi rend="it">ḍana</hi><hi rend="bf">ta</hi>rjanavadhabandhanāparādheṣv<lb/>
+2 ātmāparādhī bhavati / karmavipākapratisaraṇo na pareṣāṃ kupyati <hi rend="it">nā</hi><hi rend="bf">nu</hi>śayaṃ<lb/>
+3 vahati / sa śraddhāpratiṣṭhitaś ca bhavati / sarvāśraddheyān api buddhadharmā śraddadhāti āśay<hi rend="it">aśuddha</hi><hi rend="bf">tā</hi>m<lb/>
+4 upādāya / ime kāśyapa catvāro ṛjukasya bodhisatvasya ṛjukalakṣaṇāni bhavanti / ta<hi rend="it">tredam u</hi><hi rend="bf">cya</hi>te 8 //<lb/>
+5 āpattim āpanna na cchādayanti kathenti vivaranti ca eti doṣān* dhanarājyaheto na ca jī<hi rend="it">v</hi>i<hi rend="it">tārthaṃ mṛṣā</hi>
+</p><p xml:id="16">
+fol. 9r (KP-SI P/2)<lb/>
+1 vadante vidadhīya saṃjñām* ākrośanākutsanapaṃsanāsu vadheṣu bandheṣv avarodhaneṣu / ātmāparādhī na pare<hi rend="it">ṣu</hi><lb/>
+2 kupyate karmasvako nānuśayaṃ vahanto : 2 sa śraddadhāti sugatāna bodhiṃ<lb/>
+śraddhāsthito āśayi śuddhi yukto<lb/>
+3 ṛjukalakṣaṇā hy eti jinena proktā varāgrasatvena niṣevitavyāḥ 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 9 catvāra ime kāśyapa bodhisa<hi rend="it">tva</hi><hi rend="bf">kha</hi>ḍuṃkāḥ<lb/>
+4 katame catvāraḥ śrutoddhatadharmavihārī ca bhavati na ca pratipadyate dharmānudharmapratipattiṃ / a<hi rend="bf">nu</hi>śāsanen'<lb/>
+5 uddhatadharmavihārī ca bhavati / na ca śuśrūṣaty ācāryopādhyāyānāṃ / śraddhādeyaṃ vinipātayati cy<hi rend="it">uta</hi><hi rend="bf">pra</hi>tijñaś
+</p><p xml:id="17">
+fol. 9v (KP-SI P/2)<lb/>
+1 ca śraddhādeyaṃ paribhuṃkte / dāntājāneyaprāptāś ca bodhisatvāṃ dṛṣṭvā agauravo bhavati mānagrāhī / im<hi rend="it">e</hi><lb/>
+2 kāśyapa catvāro bodhisatvakhaḍuṃkāḥ tatredam ucyate 9 // śrutena auddhatyavihāri bhoti na coddhato gacchati ā<hi rend="bf">nu</hi>śāsaniṃ /<lb/>
+3 so uddhato sevati sarvadharmān śuśrūṣate na ca āryāṃ kathaṃcit* cyutapratijño paribhuṃjate sa<hi rend="bf">dā</hi><lb/>
+4 śraddhāya dinnāni subhojanāni / ājanyaprāptān api bodhisatvān paśyitva no gauravatā karoti / 2 m<hi rend="it">ā</hi><hi rend="bf">naṃ</hi><lb/>
+5 ca so bṛṃhayate khaḍuṃko nirmāṇa no sevati bodhisatvān* ete khaḍuṃkā sugatena proktā jinātmajās te par<hi rend="it">i</hi><hi rend="bf">va</hi>rjanīyāt* 3 //
+</p><p xml:id="18">
+fol. 10r (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->  10 catvāra ime kāśyapa ājāneyā bodhisatvāḥ katame catvāraḥ suśrutaṃ śruṇoti tatra ca prati<hi rend="it">padya</hi><hi rend="bf">te</hi> /<lb/>
+2 arthapratisaraṇaś ca bhavati na vyaṃjanapratisaraṇaḥ pradakṣiṇagrāhī bhavaty avavādānuśāsane / su<hi rend="it">va</hi><hi rend="bf">cā</hi>ḥ<lb/>
+3 sukṛtakarmakārī ca bhavati / guruśuśrūṣaniryātaḥ ājāneya bhojanāni ca paribhuṃkte / acyuta<hi rend="it">śī</hi><hi rend="bf">la</hi>samādhir<lb/>
+4 dāntājāneyāprāptāṃś ca bodhisatvāṃ dṛṣṭvā sagauravo bhavati sapratīśaḥ tannimnaḥ tatpravaṇaḥ tatprā<hi rend="bf">gbhā</hi>raḥ<lb/>
+5 tadguṇapratikāṃkṣī / ime kāśyapa catvāro ājāneyā bodhisatvāḥ tatredam ucyate 10 // śruṇoti yaṃ suśruta
+</p><p xml:id="19">
+fol. 10v (KP-SI P/2)<lb/>
+1 taṃ karoti dharmārthasāro pratipattisusthitaḥ pradakṣiṇaṃ gṛhṇati ānuśāsanī<hi rend="it">ṃ</hi> suvaco guru sevati dharmakāma / śīl<hi rend="it">e</hi><lb/>
+2 samādhau ca sadā pratiṣṭhito / subhojanaṃ bhuṃjati śīlasaṃvṛtaḥ sagauravo bhavati ca sapradeśo tannimna tatpro<hi rend="bf">ṇu</hi><lb/>
+3 guṇābhikāṃkṣi 2 ājanyaprāptāś ca jinorasā ye premeṇa tāṃ paśyati nityakālam* catvāra ete sugato<hi rend="it">pa</hi><hi rend="bf">di</hi>ṣṭā<lb/>
+4 ājanyaprāptā sugatasya putrāḥ 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 11 catvāra ime kāśyapa bodhisatvaskhalitāni / katamāni catvā<hi rend="it">ri</hi><lb/>
+5 aparipāciteṣu satveṣu viśvāso bodhisatvasya skhalitaṃ / abhājanībhūteṣu satveṣūdārabuddhadharmasaṃpra<hi rend="it">kāśa</hi><hi rend="bf">na</hi>tā
+</p><p xml:id="20">
+fol. 11r (KP-SI P/2)<lb/>
+1 bodhisatvasya skhalitaṃ / udārādhimuktikeṣu satveṣu hīnayānasaṃprakāśanā bodhisatvasya skhalitaṃ / samyakpra<hi rend="it">tyu</hi><hi rend="bf">pa</hi>sthiteṣu<lb/>
+2 satveṣu śīlavatsu kalyāṇadharmeṣu pratimānanā duḥśīlapāpadharmasaṃgraho bodhisatvasya skhalit<hi rend="it">aṃ /</hi><lb/>
+3 imāni kāśyapa catvāro bodhisatvaskhalitāni / tatredam ucyate 10 // na viśvaseyāparipāciteṣu abh<hi rend="it">ā</hi><hi rend="bf">ja</hi>ne<lb/>
+4 dharma udāra no bhaṇe / udāradharmeṣu na hīnayāne prakāśaye jātu sa bodhisatvo / samyaksthitāṃ śī<hi rend="bf">la</hi>guṇopapetān<lb/>
+5 kalyāṇadharmā na vimānayeta / duḥśīlasatvā na parigraheyā pāpaṃ ca dharmaṃ parivarjayeta : skha<hi rend="bf">li</hi>tāni
+</p><p xml:id="21">
+fol. 11v (KP-SI P/2)<lb/>
+1 catvāri imāni jñātvā vivarjayed dūrata bodhisatvaḥ imā niṣevantu na bodhi buddhyate tasmād vivarjed imi dharma<lb/>
+2 paṇḍitaḥ 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 12 catvāra ime kāśyapa bodhisatvamārgāḥ / katame catvāraḥ samacittatā sarvasatveṣu /<lb/>
+3 buddhajñānasamādāpanatā sarvasatveṣu samadharmadeśanā sarvasatveṣu samyakprayogatā sarvas<hi rend="it">a</hi><hi rend="bf">tve</hi>ṣu /<lb/>
+4 4 ime kāśyapa catvāro bodhisatvamārgāḥ tatredam ucyate 12 // samacitta satveṣu bha<hi rend="it">ve</hi><hi rend="bf">ta</hi><lb/>
+5 nityaṃ samādapeyā-d-iha buddhayāne / dharmaṃ ca deśeta jinapraśastaṃ sarveṣu satveṣu prasannacitto / sam<hi rend="it">ya</hi><hi rend="bf">kpra</hi>yuktā
+</p><p xml:id="22">
+fol. 12r (KP-SI P/2)<lb/>
+1 pratipattisusthito sarveṣu satveṣu samaṃ careta / mārgān imāṃś catura jinapraśastāṃ jinorasā sada taṃ<lb/>
+2 bhāvayanti / 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 13 catvāra ime kāśyapa bodhisatvasya kumitrāṇi kusahāyās te bodhisatvena parivarjayi<hi rend="bf">ta</hi>vyā /<lb/>
+3 katamāni catvāri / śrāvakayānīyo bhikṣu ātmahitāya pratipannaḥ pratyekabuddhayānīyo<lb/>
+4 'lpārtho 'lpakṛtyaḥ lokāyatiko vicitramantrapratibhānaḥ yaṃ ca pudgalaṃ sevamāna tato lokāmiṣasaṃgra<hi rend="bf">ho</hi><lb/>
+5 bhavati na dharmasaṃgrahaḥ ime kāśyapa catvāro bodhisatvasya kumitrāṇi kusahāyās te bodhisatvena pariva<hi rend="bf">rja</hi>yitavyāḥ
+</p><p xml:id="23">
+fol. 12v (KP-SI P/2)<lb/>
+1 tatredam ucyate // ye śrāvakā ātmahitāya yuktā yogaṃ ca ye pravrajitāś caranti / pratyekabuddhā pi<lb/>
+2 ca ye 'lpakṛtyā alpārthasaṃsarga vivarjayanti / lokāyataṃ ye ca paṭhanti bālā vigrāhikā yatra ka<hi rend="bf">tho</hi>padiṣṭā /<lb/>
+3 yaṃ sevamānāmiṣasaṃgraho bhaved bhaven na dharmasya ca saṃgraho yahim* 2 tān bodhisatvāś catu<hi rend="bf">ro</hi><lb/>
+4 prahāya kalyāṇamitrāś caturo bhajanti / ete kumitrā kusahāya-y-uktā jinena dūrāt parivarja<hi rend="bf">nī</hi>yā / 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 14 catvāra ime kāśyapa bodhisatvasya bhūtakalyāṇamitrāṇi / katamāni catvāri / yācanako <hi rend="it">b</hi>o<hi rend="it">dhi</hi><hi rend="bf">sa</hi>tvasya
+</p><p xml:id="24">
+fol. 13r (KP-SI P/2)<lb/>
+1 bhūtakalyāṇamitraṃ bodhimārgopastaṃbhāya saṃvartate dharmabhāṇako bodhisatvasya bhūtakalyāṇa<hi rend="it">mitraṃ</hi><lb/>
+2 śrutaprajñopastaṃbhāya saṃvartate / pravrajyāsamādapako bodhisatvasya bhūtakalyāṇamitra sarvakuś<hi rend="it">alamū</hi><hi rend="bf">lo</hi>pastaṃbhāya<lb/>
+3 saṃvartate / buddhā bhagavanto bodhisatvasya bhūtakalyāṇamitra sarvabuddhadharmop<hi rend="it">astaṃ</hi><hi rend="bf">bhā</hi>ya<lb/>
+4 saṃvartate / ime kāśyapa bodhisatvasya bhūtakalyāṇamitrāṇi tatredam ucyate / 12 // kalyā<hi rend="it">ṇa</hi><hi rend="bf">mi</hi>traṃ<lb/>
+5 sa ca dāyakānāṃ pratigrāhako bodhiparigrahāya / dharmārthavādī śrutaprajñak<hi rend="it">ārī ka</hi>lyāṇamitraṃ sugate<hi rend="it">na</hi>
+</p><p xml:id="25">
+fol. 13v (KP-SI P/2)<lb/>
+1 proktaṃ / pravrajya ye cāpi samādapenti te mitra mūlaṃ sugatasya vuktāḥ buddhāś ca mitraṃ sugatātmajānāṃ sambuddham<hi rend="it">ā</hi><hi rend="bf">rga</hi>sy'<lb/>
+2 upastambhanāya : ete hi catvāri jinapraśastā kalyāṇamitrā sugatātmajānāṃ /<lb/>
+etā<hi rend="it">ṃ</hi> niṣeva<hi rend="it">nta</hi><lb/>
+3 sadāpramattā prāpnoti bodhī sugatopadiṣṭā / 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 15 catvāra ime kāśyapa bodhisatvapratirūpa<hi rend="it">kāḥ</hi><lb/>
+4 katame catvāraḥ / lābhasatkārārthiko bhavati na dharmārthikaḥ kīrtiśabdaślokārthiko bhavati <hi rend="it">na gu</hi><hi rend="bf">ṇā</hi>rthikaḥ<lb/>
+5 ātmasukhārthiko bhavati na satvaduḥkhāpanayanārthikaḥ parṣadgaṇārthiko bhava<hi rend="it">ti na</hi>
+</p><p xml:id="26">
+fol. 14r (KP-SI P/2)<lb/>
+1 vivekārthikaḥ ime kāśyapa catvāro bodhisatvapratirūpakāḥ tatredam ucyate 14 // lābhārthiko bhavati <hi rend="it">na dharma</hi><hi rend="bf">kā</hi>mo<lb/>
+2 kīrtyarthiko nn' eva guṇebhir arthikaḥ na satvaduḥkhāpanayena cārthiko yo cātmano nitya sukh<hi rend="it">ena cā</hi><hi rend="bf">rthi</hi>kaḥ<lb/>
+3 parṣadgaṇārthī na vivekakāmo sukhe prasakto na guṇeṣu sakto / catvāra ete pratirūpakoktāḥ t<hi rend="it">e</hi><lb/>
+4 bodhisatvāt parivarjanīyā 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 16 catvāra ime kāśyapa bodhisatvasya bhūtā bodhisatvaguṇā / katame <hi rend="it">ca</hi><hi rend="bf">tvā</hi>ra<lb/>
+5 śunyatāṃ cādhimucyate / karmavipākaṃ cābhiśraddadhāti / nairātmyaṃ cāsya kṣamate sarvasatveṣu mahākaruṇ<hi rend="it">ā</hi>
+</p><p xml:id="27">
+fol. 14v (KP-SI P/2)<lb/>
+1 nirvāṇagataś cāsyāśayaḥ saṃsāragataś ca prayogaḥ satvaparipākāya ca dānaṃ vipākāpratikāṃkṣanatā ca / im<hi rend="it">e</hi><lb/>
+2 kāśyapa catvāro dharmā bodhisatvasya bhūtā bodhisatvaguṇā tatredam ucyate 15 // śunyāś ca dharmān adhimucy<hi rend="it">a</hi><hi rend="bf">te</hi><lb/>
+3 sadā vipāka pattīyati karmaṇaṃ ca / nairātmakṣāntyā samatāpratiṣṭhito karuṇāṃ ca satveṣu jan<hi rend="it">e</hi><hi rend="bf">ti</hi><lb/>
+4 nityaṃ / nirvāṇi bhāvo sada tasya bhoti prayoga saṃsāragataś ca tasya / paripācanārthaṃ ca dadāti dā<hi rend="it">na</hi>ṃ <hi rend="it">vi</hi><hi rend="bf">pā</hi>ka<lb/>
+5 nākāṃkṣati karmaṇāṃ ca 2 // <lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 17 catvāra ime kāśyapa bodhisatvasya mahānidhānapratilaṃbhāḥ katame c<hi rend="it">atvāraḥ</hi>
+</p><p xml:id="28">
+fol. 15r (KP-SI P/2)<lb/>
+1 buddhotpādārāgaṇatā / ṣaṭpāramitāśravaṇaḥ apratihatacittasya dharmabhāṇakadarśanaṃ / apramattasyār<hi rend="it">aṇyavā</hi><hi rend="bf">sā</hi>bhirataḥ<lb/>
+2 ime kāśyapa catvāro bodhisatvasya mahānidhānapratilaṃbhā / tatredam ucyate / 16 // bu<hi rend="it">ddhā</hi><hi rend="bf">na</hi>m<lb/>
+3 ārāgaṇa sarvajātiṣu śravaś ca ṣaṇṇām api pāramīṇām / prasannacitto 'pi ca dharmabhāṇakaṃ sampaśy<hi rend="it">a</hi><hi rend="bf">te</hi><lb/>
+4 gaurava jātu nityam* sadāpramattasya cāraṇyavāso tatr' eva so bhoti ratiḥ sadāsya / catvāra dharmā sug<hi rend="it">a</hi><hi rend="bf">te</hi>na<lb/>
+5 proktā mahānidhānāni jinātmajānām* 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 18 catvāra ime kāśyapa bodhisatvamārapathasamatikramaṇā dha<hi rend="it">r</hi>m<hi rend="it">āḥ</hi>
+</p><p xml:id="29">
+fol. 15v (KP-SI P/2)<lb/>
+1 katame catvāraḥ bodhicittasyānutsargaḥ sarvasatveṣv apratihatacittatā / sarvadṛṣṭīkṛtānām avabodhanā / anat<hi rend="it">i</hi><hi rend="bf">ma</hi>nyanā<lb/>
+2 sarvasatveṣu ime kāśyapa catvāro bodhisatvasya mārapathasamatikramaṇā dharmā / tatredam <hi rend="it">u</hi><hi rend="bf">cya</hi>te 17 //<lb/>
+3 bodhāya cittaṃ na parityajanti satveṣu ca pratigha jahanti nityam* sarvāś ca dṛṣṭīgatan utsṛjan<hi rend="it">ti</hi><lb/>
+4 na cādhimanyanti 'ha satvakāyam* catvāra ete sugatena proktā dharmā hi mārasya atikramāya / e<hi rend="it">tān</hi><lb/>
+5 niṣevitva jinā bhavanti aṃgīrasā apratimā vināyakā 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 19 catvāra ime kāśyapa dharmā bodhisatvasya sa<hi rend="it">rvakuśa</hi><hi rend="bf">la</hi>dharmasaṃgrahāya
+</p><p xml:id="30">
+fol. 16r (KP-SI P/2)<lb/>
+1 saṃvartante / katame catvāra niṣkuhakasyāraṇyavāsābhiratiḥ pratikārāprātikāṃkṣiṇaś c<hi rend="it">atvāri</hi><lb/>
+2 saṃgrahavastūni sarvasatveṣu kāya<hi rend="it">j</hi>īvitotsargaḥ saddharmaparyeṣṭim ārabhyātṛptitā sarvakuśalamū<hi rend="it">la</hi><hi rend="bf">sa</hi>mudānanāya /<lb/>
+3 ime kāśyapa <hi rend="it">ca</hi>tvāro dharmā bodhisatvasya sarvakuśaladharmasaṃgrahāya saṃvart<hi rend="it">ante</hi><lb/>
+4 tatredam ucyate / 18 // araṇyavāse ku<hi rend="it">ha</hi>nāvivarjito satveṣu cā saṃgrahayo jinoktā / utsarga kāy<hi rend="it">a</hi><hi rend="bf">sya</hi><lb/>
+5 ca jīvitasya saddharmaparyeṣṭi samāra<hi rend="it">bh</hi>i<hi rend="it">tvā</hi> samudānanāyāś ca sadā atṛpto kuśalāna mūlāna a<hi rend="it">na</hi><hi rend="bf">lpa</hi>kānāṃ /
+</p><p xml:id="31">
+fol. 16v (KP-SI P/2)<lb/>
+1 kuśalāna dharmāṇa ca saṃgrahārthe ca<hi rend="it">tvā</hi>ro dharm<hi rend="it">ā</hi> sugatena proktā 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->  20 catvāra ime kāśyapa bodhisatvas<hi rend="it">yā</hi><hi rend="bf">pra</hi>meyā<lb/>
+2 puṇyasaṃbhārāḥ katame ca<hi rend="it">tvā</hi>r<hi rend="it">a</hi>ḥ nirāmiṣacittasyā dharmadānaṃ duḥśīleṣu ca satveṣu mahāk<hi rend="it">a</hi><hi rend="bf">ru</hi>ṇā<lb/>
+3 sarvasatveṣu bodhicittārocan<hi rend="it">at</hi>ā durbaleṣu satveṣu kṣāntyā sevanatā / ime kāśyapa catvāro bodhisa<hi rend="it">tva</hi><hi rend="bf">syā</hi>prameyā<lb/>
+4 puṇyasaṃbhārāḥ tatreda<hi rend="it">m u</hi>cyate 19 // dānaṃ ca dharmasya jinapraśastaṃ cittena śuddhena ni<hi rend="it">rāmi</hi><hi rend="bf">ṣe</hi>ṇa<lb/>
+5 apetaśīle karuṇā ca tīvrā pareṣu <hi rend="it">b</hi>odhāya janeti cittam* / kṣāntyādhiseveti ca durbaleṣu<lb/>
+dharmeṣv a<hi rend="it">mī</hi> +
+</p><p xml:id="32">
+fol. 17r (KP-SI P/2)<lb/>
+1 saṃgrahatā<hi rend="it">yai c</hi>oktā / etā niṣevitvā jinā bhavanti te bodhisatve sada sevitavyāḥ catuṣkakā aṣṭa jahi<hi rend="it">tva pāpa<hi rend="bf">k</hi>ā</hi> /<lb/>
+2 bodhāya ye āvaraṇaṃ karonti / tathāparā dvādaśa sevya paṇḍitā prāpnoti bodhiṃ amṛtaṃ spṛśitv<hi rend="it">ā</hi> +<lb/>
+3 ye cāgrasatvā ima dharmanetrī dhārenti vācenti prakāśayanti / teṣā jino puṇyam anantu bhāṣate ye<hi rend="it">ṣā</hi><hi rend="bf">m</hi><lb/>
+4 apramāṇaṃ jina varṇayanti 4 ye kṣetrakoṭyo yatha gaṃgavālikā ratnāna pūritvana teṣu dadyāt* yo vā ito<lb/>
+5 gātha catuṣpadī paṭhed imasya puṇyasya na eti saṃkhyā / 5 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 21 catvāra ime kāśyapa dharmā bodhisatvasya avidyā<hi rend="bf">bhā</hi>gīyakleśasamatikramāya
+</p><p xml:id="33">
+fol. 17v (KP-SI P/2)<lb/>
+1 saṃvartante / katame catvāraḥ śīlasaṃvaraḥ saddharmaparigrahaḥ pradīpadānam antama<hi rend="bf">śa</hi>ḥ<lb/>
+2 <hi rend="it">dānaṃ</hi> saṃstutebhyaḥ ime kāśyapa catvāro dharmā bodhisatvasya avidyābhāgīyakleśasamatikramāya saṃvartan<hi rend="bf">te</hi> //<lb/>
+3<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 22 catvāra ime kāśyapa dharmā bodhisatvasya anāvaraṇajñānatāye saṃvartante /<lb/>
+katame catvāraḥ y<hi rend="it">a</hi><hi rend="bf">du</hi>ta<lb/>
+4 indriyasaṃvaraḥ gaṃbhīrārthavivaraṇatā svalābhenānavamanyanā / paralābheṣv anadhyava<hi rend="it">sā</hi><hi rend="bf">na</hi>tā /<lb/>
+5 ime kāśyapa catvāro dharmā bodhisatvasyānāvaraṇajñānatāye saṃvartante / 22 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 23 na khalu <hi rend="it">punaḥ</hi>
+</p><p xml:id="34">
+fol. 18r (KP-SI P/2)<lb/>
+1 kāśyapa nāmamātreṇa bodhisatvo mahāsatva ity ucyate dharmacaryayā samacaryayā kuśalacaryayā dharm<hi rend="it">āś</hi><lb/>
+2 ritābhiḥ kāśyapa samanvāgato bodhisatvo mahāsatva ity ucyate / dvātriṃśadbhi kāśyapa dharmaiḥ samanvā<hi rend="it">ga</hi><hi rend="bf">to</hi><lb/>
+3 bodhisatvo ity ucyate / katame dvātriṃśadbhiḥ yaduta hitasukhādhyāśayatayā sarvasatveṣu / s<hi rend="it">a</hi><hi rend="bf">rva</hi>jñajñānāvatāraṇatayā<lb/>
+4 kim aham arghāmīti pareṣāṃ jñānākutsanatā niradhimānatayā / <hi rend="it">d</hi>ṛ<hi rend="bf">ḍhā</hi>dhyāśayatayā ḥ<lb/>
+5 akṛtrimaprematayā / atyantamitratā / mitrāmitreṣu samacittatayā / yā<hi rend="it">van ni</hi><hi rend="bf">rvā</hi>ṇaparyantatāye /
+</p><p xml:id="35">
+fol. 18v (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 24 sūnṛtavākyatā smitamukhapūrvābh<hi rend="it">i</hi>bhāṣaṇatā-n-upādatt<hi rend="it">e</hi>ṣu bhār<hi rend="it">e</hi>ṣv <hi rend="it">a</hi>v<hi rend="it">i</hi>ṣ<hi rend="it">a</hi>d<hi rend="it">ā</hi>n<hi rend="it">atayā</hi><lb/>
+2 sarvasatveṣv aparichinnamahākaruṇatā aparikhinnamānasatayā saddharmaparyeṣṭim ārabhyātṛp<hi rend="it">tā</hi><lb/>
+3 śrutārthatayā / ātmaskhaliteṣu doṣadarśanatayā / paraskhaliteṣv aruṣṭāpatticodanatayā / s<hi rend="it">a</hi><hi rend="bf">rva-ī</hi>ryapatheṣu<lb/>
+4 bodhicittaparikarmatayā / vipākāpratikāṃkṣiṇa tyāgaḥ sarvabhavagatyupapa<hi rend="it">ttya</hi><hi rend="bf">ni</hi>ḥśritaṃ<lb/>
+5 śīlam* sarvasatveṣv apratihatā kṣāntiḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 25 sarvakuśalamūlasamudānanāya vīryaṃ / ārūpyadh<hi rend="it">ātu</hi><hi rend="bf">pa</hi>rikarṣitaṃ
+</p><p xml:id="36">
+fol. 19r (KP-SI P/2)<lb/>
+1 dhyānāṃ / upāyasaṃgṛhītā prajñā / catuḥsaṃgrahavastusaṃprayuktā upāya / śīlavadduḥśī<hi rend="it">lādva</hi><hi rend="bf">ya</hi>tayā<lb/>
+2 maitratā / satkṛtya dharmaśravaṇaṃ / satkṛtyāraṇyavāsaḥ sarvalokavicitrikeṣv anabhiratiḥ <hi rend="it">ku</hi><hi rend="bf">dṛ</hi>ṣṭivigataṃ /<lb/>
+3 hīnayānāspṛhaṇatā / mahāyāne cānuśaṃsasaṃdarśitayā / pāpamitravivarjanat<hi rend="it">ā /</hi><lb/>
+4 kalyāṇamitrasevanatā / catubrahmavihāraniṣpādanatā / paṃcābhijñavikrīḍanatā / jñānapratisa<hi rend="bf">ra</hi>ṇatā /<lb/>
+5 pratipattivipratipattisthitānā satvānām anutsargaḥ ekāṃśavacanatā / satyagurukatā / <hi rend="it">sarva</hi><hi rend="bf">ku</hi>śalamūlasamudānatayā
+</p><p xml:id="37">
+fol. 19v (KP-SI P/2)<lb/>
+1 atṛptatā / bodh<hi rend="it">i</hi>cittapūrvaṃgamatā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 26 ebhiḥ kāśyapa dvātriṃśadbhir dharmaiḥ sa<hi rend="it">manvā</hi><hi rend="bf">ga</hi>to<lb/>
+2 bodhisatvo mahāsatva ity ucyate // tatredam ucyate / // sarveṣu satveṣu hitaṃ sukhaṃ ca adhyāśaye<hi rend="bf">nā</hi>py<lb/>
+3 adhimucyamānāḥ sarvajñajñānotaraṇāya kiṃ nu arghāmi nārghāmy ahaṃ jñānamānā / akutsan<hi rend="it">ata</hi><hi rend="bf">yā</hi>nadhimānatāyā<lb/>
+4 dṛḍhāśayākṛtrimaprematāyā : satveṣu cātyantasumitratāyā yāvan na <hi rend="it">ni</hi><hi rend="bf">rvā</hi>ṇaparāyaṇatvaṃ 2<lb/>
+5 mitre amitre samacittatāyā smitomukhatvaṃ sunṛtā ca vāṇī / upāttabhāre + +
+</p><p xml:id="38">
+fol. 20r (KP-SI P/2)<lb/>
+1 dāryaṇatvaṃ karuṇāparicchinna tath' eva satve 3<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 27 saddharmaparyeṣṭiya nāsti khedaḥ śruteṣv atṛpte skhalite 'tmadoṣ<hi rend="it">a / pa</hi><hi rend="bf">ra</hi>ś<lb/>
+2 ca ruṣṭena na codanīyaḥ īryāpathe cittasukarmatāyā 4 tyāgo vipākāpratikāṃkṣaṇaṃ ca an<hi rend="it">iśri</hi><hi rend="bf">taṃ</hi><lb/>
+3 śīla bhavaṃgatīṣu satveṣu kṣānti pratighātavarjitā samudānanāyā kuśalasya vīrya 5 ārūpyadhā<hi rend="it">tva</hi><hi rend="bf">va</hi>kṛṣṭaṃ<lb/>
+4 ca dhyānaṃ upāyato saṃgṛhītā ca prajñā : catuḥsaṃgraheḥ saṃgrahīto 'pāyo duḥśīlaśīle <lb/>
+'dvaya<hi rend="it">tā</hi><lb/>
+5 ca maitryā 6 satkṛtya dharmaśravaṇaṃ ca kālaṃ satkṛtya vāso ca araṇya śānte / lokeṣu citreṣu ratir na kāryaṃ hīne<hi rend="it">ṣu</hi>
+</p><p xml:id="39">
+fol. 20v (KP-SI P/2)<lb/>
+1 yāneṣu ratir na kāryam* 7 udārayāneṣu spṛhā janeyā pāpāṇi mitrāṇi vivarjayeyā / kalyāṇamitr<hi rend="it">āṇi sa</hi><hi rend="bf">dā</hi><lb/>
+2 ca seve catvāra brahmāś ca vihāra bhāvayet* 8<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 28 krīḍet abhijñehi ca paṃcabhiḥ sadā jñānānusārī ca bhāveta n<hi rend="it">ityaṃ</hi><lb/>
+3 na utsṛjeyā pratipattiyuktā na ca dvitīyā pi kadācid anyāḥ 9 ekāntavādī ca bhaveta nityaṃ satye <hi rend="it">ca</hi><lb/>
+4 se gaurava nitya bhoti / bhāveti dharmāṃś ca jinapraśastā pūrvaṃgamaṃ bodhayi citta kṛtvā 10 dvātriṃśad ete suga<hi rend="it">t</hi>e<hi rend="it">na</hi><lb/>
+5 proktā dharmā niṣevyā sugatorasebhi / imehi dharmehi samanvitā ye te bodhisatvā sugatena proktā 11 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 29 u<hi rend="it">pamo</hi><hi rend="bf">pa</hi>nyāsanirdeśās
+</p><p xml:id="40">
+fol. 21r (KP-SI P/2)<lb/>
+1 te kāśyapa nirdekṣyāmi / yair upamopanyāsanirdeśebhiḥ bodhisatvo mahāsatvaguṇān v<hi rend="it">i</hi>jñāpay<hi rend="it">et* //</hi><lb/>
+2 tadyathā kāśyapa iyaṃ mahāpṛthivī sarvasatvopajīvyā nirvikārā niṣpratikārā / evam eva kāśya<hi rend="it">pa</hi><lb/>
+3 prathamacittotpādiko bodhisatvo yāvad bodhimaṇḍaniṣadanā tāvat sarvasatvopajīvyo nirvikāro <hi rend="it">ni</hi><hi rend="bf">ṣpra</hi>tikāro<lb/>
+4 bhavati / tatredam ucyate // pṛthivī yathā sarvajanopajīvyā pratikāra nākāṃkṣati ni<hi rend="it">r</hi>vi<hi rend="bf">kā</hi>rā /<lb/>
+5 citte tathādye sthitā bodhisatvo yāvan na buddho bhavitā jinottama / anuttarā sarvajanopajīvyo pratikā<hi rend="bf">ra</hi>
+</p><p xml:id="41">
+fol. 21v (KP-SI P/2)<lb/>
+1 nākāṃkṣati nirvikāro / putre ca śatruṃhi ca tulyamānaso paryeṣate nitya varāgrabodhim* 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 30 tadyathā kāśyapa abdhātu<lb/>
+2 sarvatṛṇagulmoṣadhivanaspatayo rohāpayati / evam eva kāśyapa āśayaśuddho bodhisatvaḥ sarva<hi rend="bf">sa</hi>tvāni<lb/>
+3 maitratayā spharitvā viharan sarvasatvānāṃ sarvaśukladharmān virohayati / tatredam ucyate <hi rend="it">//</hi><lb/>
+4 yathāpi ābdhātu tṛṇagulma-m-auṣadhī vanaspatīn auṣadhidhānyajātān* em eva śuddhāśayabodhisa<hi rend="it">tvo</hi><lb/>
+5 maitryāya satvān spharate anantān* spharitva dharmān vividhā krameṇa śuklehi dharmehi vivardhamānaḥ a<hi rend="it">nupū</hi>rva
+</p><p xml:id="42">
+fol. 22r (KP-SI P/2)<lb/>
+1 prāpnoti jināna bodhiṃ nihatya māraṃ sabalaṃ sasainyam* 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 31 tadyathā kāśyapa tejodhātuḥ sarvasasyāni parip<hi rend="it">āca</hi><hi rend="bf">ya</hi>ti /<lb/>
+2 evam eva kāśyapa bodhisatvasya prajñā sarvasatvānāṃ sarvaśukladharmān paripācayati / ta<hi rend="it">t</hi>r<hi rend="it">e</hi><hi rend="bf">da</hi>m<lb/>
+3 ucyate 3 // yathāpi tejo paripācayanti sasyāni sarvāṇi tṛṇauṣadhīṃś ca / em eva prajñā sugat<hi rend="it">ā</hi><hi rend="bf">tma</hi>jānān<lb/>
+4 dharmān śubhā vardhayate janasya / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 32 tadyathā kāśyapa vāyudhātuḥ sarvabuddhakṣetrāṇi viṭhapaya<hi rend="bf">ti</hi> /<lb/>
+5 evam eva kāśyapa bodhisatvasyopāyakauśalyaṃ sarvabuddhadharmān viṭhapayati / tatredam ucyate / // vāyu<hi rend="bf">r</hi>
+</p><p xml:id="43">
+fol. 22v (KP-SI P/2)<lb/>
+1 yath' eva viṭhapeti kṣetrān buddhāna nānāvidha āśayato / upāya evaṃ hi jinorasānān viṭhapanti dharmān sugato<hi rend="bf">kta</hi>-m-agrān* //<lb/>
+2<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 33 tadyathāpi nāma kāśyapa mārasya pāpīmataś caturaṃgaṃ balasainya sarvadevair na śakyam abhi<hi rend="bf">bha</hi>vituṃ<lb/>
+3 paryādatuṃ vā / evam eva kāśyapa śuddhāśayo bodhisatva sarvamārair na śakyam abhibhavitu<hi rend="it">ṃ</hi> paryā<hi rend="bf">da</hi>ttuṃ vā / //<lb/>
+4<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 34 tadyathāpi nāma kāśyapa śuklapakṣe candramaṇḍalaṃ paripūryate vardhate ca / evam eva kā<hi rend="it">śya</hi><hi rend="bf">pa</hi><lb/>
+5 āśayaśuddho bodhisatvaḥ sarvaśukladharmair vardhate / tatredam ucyate 6 // śuklapakṣe yatha candramaṇḍalaṃ p<hi rend="it">ari</hi><hi rend="bf">pū</hi>ryate
+</p><p xml:id="44">
+fol. 23r (KP-SI P/2)<lb/>
+1 vardhati no ca hīyate / em eva śuddhāśaya bodhisatvo : śuddhehi dharmehi sadā vivardhate / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 35 tadyathāpi n<hi rend="it">āma</hi><lb/>
+2 kāśyapa sūryamaṇḍalam ekapramuktābhi sūryaraśmibhiḥ satvānām avabhāsaṃ karoti / evam eva kāśyap<hi rend="it">a</hi><lb/>
+3 bodhisatva-m-ekapramuktābhiḥ prajñāraśmibhiḥ satvānām jñānāvabhāsaṃ karoti / tatredam ucyate 7 // ekapra<hi rend="bf">mu</hi>ktābhi<lb/>
+4 yath' eva sūryo raśmībhi satvāna karoti bhāsam* evaṃ jinānāṃ suta jñānaraśmibhi<lb/>
+prajñāya sa<hi rend="bf">tvā</hi>na<lb/>
+5 'vabhāsa kurvati / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 36 tadyathāpi nāma kāśyapa siṅho mṛgarājā yato yata eva prakramate sarvatrā<hi rend="bf">bhī</hi>to
+</p><p xml:id="45">
+fol. 23v (KP-SI P/2)<lb/>
+1 'nutrasta evaṃ prakramati / evam eva kāśyapa śīlaśrutaguṇadharmapratiṣṭhito bodhisatvo yato yata eva prakra<hi rend="bf">ma</hi>te<lb/>
+2 sarvatrābhīto 'nutrasta eva prakramate / tatredam ucyate 8 // yathā hi siṅho mṛgarāja kesarī<lb/>
+3 yenecchakaṃ yāti asaṃtrasanto / evam eva śīlaśrutajñānasusthito yenecchakaṃ gacchati bodhisatvo / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 37 ta<hi rend="bf">dya</hi>thāpi<lb/>
+4 nāma kāśyapa sudāntaḥ kuṃjaro nāgas sarvabhāravahanatayā na parikhidyate / evam eva e<hi rend="it">va</hi><lb/>
+5 kāśyapa sudāntacitto bodhisatva sarvasatvānāṃ sarvabhāravahanatā na parikhidyate : tatredam ucyate <hi rend="it">9 //</hi>
+</p><p xml:id="46">
+fol. 24r (KP-SI P/2)<lb/>
+1 yathāpi nāgo balavān sudānto bhāraṃ vahanto na-d-upeti khedaṃ / sudāntacitto tathā bodhisatvo satvāna bhāreṇa n<hi rend="it">a khe</hi><hi rend="bf">da</hi>m <lb/>
+2 aiti //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 38 tadyathāpi nāma kāśyapa padmam udake jātam udakena na lipyate / evam eva kāśyapa bodhisatvo<lb/>
+3 loke jāto lokadharme<hi rend="it">hi</hi> na lipyate / tatredam ucyate 10 // padmaṃ yathā kokanadaṃ jaleruhaṃ jalena no lipyati<lb/>
+4 kardamena vā / lokesmi jāto tathā bodhisatvo na lokadharmehi kadāci lipyate / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 39 tadyathāpi nāma kāśyapa<lb/>
+5 viṭapacchinno vṛkṣo mūle 'nupahate punar eva virohati / evam eva kāśyapa upāyakauśalyakleśacchinno bodhi<hi rend="bf">sa</hi>tvaḥ
+</p><p xml:id="47">
+fol. 24v (KP-SI P/2)<lb/>
+1 sarvakuśalamūlasaṃyojane 'nupahate punar eva traidhātuke virohati / tatredam ucyate 11 // yathāpi vṛkṣo<lb/>
+2 viṭapasmi cchinno virohate mūla dṛḍhe 'nupadrute / evam upāyo 'pahato virohate mūlasmi saṃyojana<lb/>
+3 suprahīṇe / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 40 tadyathāpi nāma kāśyapa nānādigvidikṣu mahānadīṣv āpskandho mahāsamudre praviṣṭaḥ sarvam e<hi rend="bf">ka</hi>raso<lb/>
+4 bhavati yaduta lavaṇarasaḥ evam eva kāśyapa nānāmukhopacitaṃ kuśalamūlaṃ bodhisatvasya bo<hi rend="bf">dhā</hi>ya<lb/>
+5 pariṇāmitaṃ sarvam ekarasaṃ bhavati yad ida<hi rend="it">ṃ</hi> vimuktirasa<hi rend="it">ṃ</hi> / tatredam ucyate 12 // nānānadīnām udakaṃ praviṣṭaṃ mahā<hi rend="it">samu</hi><hi rend="bf">dr'</hi>
+</p><p xml:id="48">
+fol. 25r (KP-SI P/2)<lb/>
+1 ekarasaṃ yathā syāt* kuśalāni nānāmukhasaṃcitāni parināmitāny ekarasāni bodhaye //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 41 tadyathāpi nām<hi rend="it">a kā</hi><hi rend="bf">śya</hi>pa<lb/>
+2 sumerupratiṣṭhitā caturmahārājakāyikās trayastriṃśāś ca devāḥ evam eva kāśyapa bodhicittāku<hi rend="it">śa</hi><hi rend="bf">la</hi>mūlapratiṣṭhitā<lb/>
+3 bodhisatvasya sarvajñatā tatredam ucyate 13 // caturmahārājikas trāyastriṃśā ya<hi rend="it">thā</hi><lb/>
+4 sumerusthita devasaṃghā / tatha bodhisatvā kuśale pratiṣṭh<hi rend="it">it</hi>āḥ sarvajñatā prāpya vadanti dharmān* //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 42 tadyathāpi<lb/>
+5 nāma kāśyapa āmātyasaṃgṛhītā rājānaḥ sarvarājakāryāṇi kurvanti / evam eva kāśyapa upāyasaṃgṛhī<hi rend="bf">tā</hi>
+</p><p xml:id="49">
+fol. 25v (KP-SI P/2)<lb/>
+1 bodhisatvasya prajñā sarvabuddhakāryāṇi karoti / tatredam ucyate 14 // yathā hi rājāna āmātyasaṃgrahā sarvāṇi k<hi rend="it">ā</hi><hi rend="bf">ryā</hi>ṇi<lb/>
+2 karo<hi rend="it">n</hi>ti nityaṃ / tatha bodhisatvasya upāyasaṃgraho buddhārtha prajñāya karonti nitya //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 43 tadyathāpi nāma k<hi rend="it">ā</hi><hi rend="bf">śya</hi>pa<lb/>
+3 vyabhre deve vigatavalāhake nāsti varṣasyāyadvāram evam eva kāśyapa alpaśrutasya bodhisatvasyā<hi rend="it">nti</hi><hi rend="bf">kā</hi><lb/>
+4 nāsti saddharmavṛṣṭer āyadvāraṃ / tatredam ucyate 15 // vyabhre yathā vigatavalāhake nabhe varṣasya āyo<lb/>
+5 na kadāci vidyate / alpaśrutasyāntika dharmadeśanā na bodhisatvasya kadāci labhyate //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 44 tadyathāpi nāma kāśyapa <hi rend="it">a</hi><hi rend="bf">bhra</hi>ghanameghasamutthitā
+</p><p xml:id="50">
+fol. 26r (KP-SI P/2)<lb/>
+1 varṣadhārā sasyāny abhivarṣati / evam eva kāśyapa mahākaruṇādharmameghasamutth<hi rend="it">itā</hi><lb/>
+2 bodhisatvasya saddharmavṛṣṭis satvānām abhivarṣati / tatredam ucyate 16 <hi rend="it">//</hi> yathāpi megho vipulo savidyuto <hi rend="it">sa</hi><hi rend="bf">syā</hi>nu<lb/>
+3 varṣeṇa karoti tṛptim* / saddharmameghotthitavarṣadhārā tarpeti satvās tatha bodhisatvaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 45 tadyathā<hi rend="it">p</hi>i<lb/>
+4 nāma kāśyapa yatra rājā cakravarti utpadyate tatra sapta ratnāny utpadyante evam eva kāśyapa ya<hi rend="it">t</hi>r<hi rend="it">a</hi><lb/>
+5 bodhisatva utpadyate tatra saptātriṃśad bodhapakṣyā dharmā utpadyante / tatredam ucyate 17 // utpadyate yatra hi ca<hi rend="it">k</hi>r<hi rend="it">ava</hi><hi rend="bf">rti</hi>
+</p><p xml:id="51">
+fol. 26v (KP-SI P/2)<lb/>
+1 tatrāsya ratnāni bhavanti sapta utpadyate yatra ca bodhisatvas tatrāsya bodhyaṃga bhavanti sapta //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 46 tadyathāpi nāma k<hi rend="it">āśya</hi><hi rend="bf">pa</hi><lb/>
+2 yatra maṇiratnāyadvāraṃ bhavati bahūnāṃ tatra karṣāpaṇaśatasahasrāṇām āyadvāraṃ bhavati / e<hi rend="it">va</hi><hi rend="bf">m</hi><lb/>
+3 eva kāśyapa yatra bodhisatvasyāyadvāraṃ bhavati / bahūnām tatra śrāvakapratyekabuddhahaśatasahasrā<hi rend="it">ṇā</hi><hi rend="bf">m</hi><lb/>
+4 āyadvāraṃ bhavati / tatredam ucyate 18 // yathāpi yasmiṃ maṇiratna bhoti / karṣāpaṇāyo bahu <hi rend="it">ta</hi><hi rend="bf">tra</hi><lb/>
+5 bhoti saṃbodhicittasya ca yatra āyo āyo bahū tatra ca śrāvakānām //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 47 tadyathāpi nāma kāśyapa miśrakāvanapra<hi rend="it">ti</hi><hi rend="bf">ṣṭh<hi rend="it">i</hi></hi>tānā
+</p><p xml:id="52">
+fol. 27r (KP-SI P/2)<lb/>
+1 trāyastriṃśānāṃ devānām upabhogaparibhogāḥ samāḥ saṃtiṣṭhante / evam eva kāśyapa āśayaśuddhasya bo<hi rend="bf">dhi</hi>satvasya<lb/>
+2 sarvasatvānām antike samyakprayogo bhavati / tatredam ucyate 19 // yathāpi devāna samā<lb/>
+3 prayogā miśrāvane saṃsthihate sthitānā evam eva śuddhāśaya bodhisatvo satveṣu samyak kurute prayo<hi rend="bf">ga</hi>m* //<lb/>
+4<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 48 tadyathāpi nāma kāśyapa mantrauṣadhaparigṛhītaṃ viṣaṃ na vinipātayati / evam eva kāśyapa jñānopā<hi rend="bf">ya</hi>kauśalyaparigṛhīto<lb/>
+5 bodhisatvasya kleśaviṣaṃ na śaknoti vinipātayitum* / tatredam ucyate 20 // yathā viṣam man<hi rend="it"><hi rend="bf">tra</hi>pa</hi>rigraheṇa
+</p><p xml:id="53">
+fol. 27v (KP-SI P/2)<lb/>
+1 janasya doṣaṃ kriyayāsamarthaṃ evaṃ hi jñānī iha bodhisatvo kleśair na śakyaṃ vinipātanāya / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 49 ta<hi rend="bf">dya</hi>thāpi<lb/>
+2 nāma kāśyapa yaṃ mahānagareṣu saṃkarakūṭaṃ bhavati sa ikṣukṣetreṣu śālikṣetreṣu mṛdvīkākṣetre<hi rend="bf">ṣu</hi><lb/>
+3 copakārībhūto bhavati / evam eva kāśyapa yo bodhisatvasya kleśaḥ sa sarvajñatāyām upakārībhū<hi rend="bf">to</hi><lb/>
+4 bhavati / tatredam ucyate / 21 // nagareṣu saṃkāru yathā acokṣo so ikṣukṣetreṣ' upakāra kurvati / evam eva<lb/>
+5 k<hi rend="it">l</hi>eśo upakāra kurvati yo bodhisatvasya jināna dharme / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 50 tadyathāpi nāma kāśyapa iṣvastre aśikṣitasya śastragraha<hi rend="bf">ṇa</hi>ṃ
+</p><p xml:id="54">
+fol. 28r (KP-SI P/2)<lb/>
+1 evam eva kāśyapa alpaśrutasya bodhisatvasya dharmapravicayakauśalyamīmāṃsa-d-arthagrahaṇajñānaṃ draṣṭavyaḥ 22 //<lb/>
+2<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 51 tadyathāpi nāma kāśyapa kuṃbhakārasya bālabhājaneṣūdārāgnidānam evam eva kāśyapa bālaprajñeṣu bo<hi rend="it">dhi</hi><hi rend="bf">sa</hi>tvasyodāradharmadeśanā<lb/>
+3 veditavyaḥ 23 // <lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 52 tasmin tarhi kāśyapa iha mahāratnakūṭe dharmaparyāye śikṣitu<hi rend="bf">kā</hi>mena<lb/>
+4 bodhisatvena yoniśodharmaprayuktena bhavitavyaṃ / tatra kāśyapa katamo yoniśadharmaprayogaḥ ya<hi rend="bf">du</hi>ta<lb/>
+5 sarvadharmāṇāṃ bhūtapratyavekṣā / katamā ca kāśyapa sarvadharmāṇāṃ bhūtapratyavekṣā / yatra kāśyapa nātmapratyave<hi rend="bf">kṣā</hi>
+</p><p xml:id="55">
+fol. 28v (KP-SI P/2)<lb/>
+1 nasatvanajīvanapoṣanapudgalanamanujanamānavāpratyavekṣā / iyam ucyate kāśyapa madhyamā pratipad dha<hi rend="bf">rmā</hi>ṇāṃ<lb/>
+2 bhūtapratyavekṣā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 53 punar aparaṃ kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā yā rūpasya na ni<hi rend="bf">tya</hi>m<lb/>
+3 iti pratyavekṣā nānityānīti pratyavekṣā / yā vedanāyāḥ saṃjñāyāḥ saṃskārāṇāṃ vijñānasya na nityam i<hi rend="bf">ti</hi><lb/>
+4 pratyavekṣā / nānityam iti pratyavekṣā iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā<lb/>
+5<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 54 yā pṛthivīdhātor na nityam iti pratyavekṣā nānityam iti pratyavekṣā yābdhātos tejodhātor vāyudhāto na nityam iti pratya<hi rend="bf">ve</hi>kṣā
+</p><p xml:id="56">
+fol. 29r (KP-SI P/2)<lb/>
+1 nānityam iti pratyavekṣā / yā ākāśadhātor vijñānadhāto na nityam iti pratyavekṣā nānityam iti pratyavekṣā iya<hi rend="bf">m</hi><lb/>
+2 ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā / <lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 55 punar aparaṃ kāśyapa madhyamā pratipad dharmāṇāṃ bhūta<hi rend="bf">pra</hi>tyavekṣā /<lb/>
+3 yā cakṣurāyatanasya na nityam iti pratyavekṣā nānityam iti pratyavekṣā iyam ucyate kāśyapa madhya<hi rend="bf">mā</hi><lb/>
+4 pratipad dharmāṇāṃ bhūtapratyavekṣā / evaṃ yāvac chrotraghrāṇajihvākāyamanāyatanasya na nityam it<hi rend="it">i pratyavekṣā nān</hi>ityam iti /<lb/>
+5 pratyavekṣā iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 56 nityam iti kāśyapa ayam eko 'ntaḥ ani<hi rend="bf">tya</hi>m
+</p><p xml:id="57">
+fol. 29v (KP-SI P/2)<lb/>
+1 iti kāśyapa ayaṃ dvitīyo 'ntaḥ yad etayor dvayo nityānityayor madhyaṃ tad arūpy anidarśanam anābhāsam avijñaptikam apra<hi rend="bf">ti</hi>ṣṭham<lb/>
+2 aniketam iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 57 ātmeti kāśyapa ayam eko 'ntaḥ<lb/>
+3 nairātmyam ity ayaṃ dvitīyo 'ntaḥ yad ātmanairātmyayor madhyaṃ tad arūpy anidarśanam anābhāsam avijñaptikam apra<hi rend="bf">ti</hi>ṣṭham<lb/>
+4 aniketam iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 58 bhūtacittam iti kāśyapa aya<hi rend="bf">m</hi><lb/>
+5 eko 'ntaḥ abhūtacittam iti kāśyapa ayaṃ dvitīyo 'ntaḥ yatra kāśyapa na cetanā na mano na vijñānam iyam ucyate kā<hi rend="bf">śya</hi>pa
+</p><p xml:id="58">
+fol. 30r (KP-SI P/2)<lb/>
+1 madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 59 evaṃ sarvadharmāṇāṃ kuśalākuśalānāṃ lokikalokottarāṇāṃ sāvadyānav<hi rend="it">a</hi><hi rend="bf">dyā</hi>nāṃ<lb/>
+2 sāsravānāsravānāṃ saṃskṛtāsaṃskṛtānāṃ saṃkleśa iti kāśyapa ayam eko 'ntaḥ vyavadānam ity ayaṃ kāśya<hi rend="bf">pa</hi><lb/>
+3 dvitīyo 'ntaḥ yo 'syāntadvayasyānupagamo 'nudāhāro pravyāhāra iyam ucyate kāśyapa madhyamā pratipad dha<hi rend="bf">rmā</hi>ṇāṃ<lb/>
+4 bhūtapratyavekṣā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 60 astīti kāśyapa ayam eko 'ntaḥ nāstīty ayaṃ dvitīyo 'ntaḥ yad etayor dvayor antayor ma<hi rend="bf">dhya</hi>m<lb/>
+5 iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 61 yad api kāśyapa yuṣmākaṃ mayākhyāta / yadu<hi rend="bf">ta</hi>
+</p><p xml:id="59">
+fol. 30v (KP-SI P/2)<lb/>
+1 avidyāpratyayā saṃskārāḥ saṃskārapratyayaṃ vijñānaṃ vijñānapratyayaṃ nāmarūpaṃ nāmarūpapratyayaṃ ṣaḍāya<hi rend="bf">ta</hi>naṃ<lb/>
+2 ṣaḍāyatanapratyaya sparśaḥ sparśapratyayā vedanā vedanāpratyayā tṛṣṇā tṛṣṇāpratyayam upādā<hi rend="bf">na</hi>m<lb/>
+3 upādānapratyayo bhavaḥ bhavapratyayā jātiḥ jātipratyayā jarāmaraṇaśokaparidevaduḥkhadaurmana<hi rend="bf">syo</hi>pāyāsāḥ<lb/>
+4 saṃbhavanty evam asya kevalasya mahato duḥkhaskandhasya samudayo bhavati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 62 avidyānirodhā saṃ<hi rend="it">sk</hi>ā<hi rend="bf">ra</hi>nirodhaḥ<lb/>
+5 saṃskāranirodhād vijñānanirodhaḥ vijñānanirodhān nāmarūpanirodhaḥ nāmarūpanirodhāt ṣaḍāyatanani
+</p><p xml:id="60">
+fol. 31 (KP-SI P/2) is missing
+</p><p xml:id="61">
+fol. 32r (KP-SI P/2)<lb/>
+1 cyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 63 punar aparaṃ kāśyapa dharmāṇāṃ bhūtapratyavekṣā yan na śunya<hi rend="bf">tā</hi>yā<lb/>
+2 dharmā śūnyā karoti dharmā eva śūnyā / yan nānimittena dharmān animittān karoti dharmā caivānimittāḥ yan nā<hi rend="bf">pra</hi>ṇihitena<lb/>
+3 dharmā 'praṇihitān karoti dharmā evāpraṇihitāḥ yan nānabhisaṃskāreṇa dharmānabhisaṃ<hi rend="bf">s<hi rend="it">kṛ</hi>tān</hi><lb/>
+4 karoti dharmā caivānabhisaṃskṛtāḥ evaṃ nānutpādena dharmān anutpādā karoti dharmā caivānutpannāḥ e<hi rend="bf">vaṃ</hi><lb/>
+5 n' ajātā dharmān ajātīkaroti dharmā caivājātāḥ eva<hi rend="it">ṃ</hi> yan na agrāhyā dharmān agrāhyā karoti dharmā caivāgrāhyā /
+</p><p xml:id="62">
+fol. 32v (KP-SI P/2)<lb/>
+1 evam nānāsravā dharmān anāsravā karoti dharmā caivānāsravā / evaṃ yo n' asvabhāvena dharmān asvabhāvīkaroti dha<hi rend="bf">rmā</hi><lb/>
+2 caivāsvabhāvā / evaṃ yan na 'svabhāvena dharmāsvabhāvatā dharmāṇāṃ yat svabhāvaṃ nopalabhate yā evaṃ pra<hi rend="bf">tya</hi>vekṣā<lb/>
+3 iyam ucyate kāśyapa madhyamā pratipad dharmāṇāṃ bhūtapratyavekṣā : //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 64 na khalu punaḥ kāśyapa pudga<hi rend="bf">la</hi>bhāvavināśāya<lb/>
+4 śūnyatā pudgalaś caiva śūnyatā śūnyatā caiva śūnyatā / atyantaśunyatā / pūrvāntaśunyatā / a<hi rend="bf">pa</hi>rāntaśunyatā<lb/>
+5 pratyutpannaśunyatā / śunyatā kāśyapa pratisaratha mā pudgalam* ye khalu puna kāśyapa śunyatopa<hi rend="bf">laṃ</hi>bhena
+</p><p xml:id="63">
+fol. 33r (KP-SI P/2)<lb/>
+1 śunyatā pratisaranti / tān ahaṃ kāśyapa naṣṭapranaṣṭān iti vadāmi ito pravacanāt* varaṃ khalu puna kāśyapa<lb/>
+2 sumerumātrā pudgaladṛṣṭir āśritā na tv evādhimānikasya śunyatādṛṣṭi-m-ālinā / tat kasmād dheto pudgaladṛṣṭi<hi rend="bf">ga</hi>tānāṃ<lb/>
+3 kāśyapa śunyatā niḥsaraṇaṃ śunyatādṛṣṭi puna kāśyapa kena niḥsariṣyati : //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 65 tadyathāpi nāma<lb/>
+4 kāśyapa kaścid eva puruṣo glāno bhavet* tasmai vaidyo bhaiṣajyaṃ dadyāt tasya tad bhaiṣajyaṃ sarvadoṣān ucālya koṣṭha<hi rend="bf">ga</hi>ta<lb/>
+5 na nirgacchet* tat kiṃ manyase kāśyapa api nu sa glānapuruṣas tasmād glānyā parimukto bhavet* yasya tad bhaiṣajyaṃ
+</p><p xml:id="64">
+fol. 33v (KP-SI P/2)<lb/>
+1 sarvakoṣṭhagatā doṣān uccālya koṣṭhagato na niḥsaret* āha no bhagavān* gāḍhataraś ca tasya puruṣasya tad gelānyaṃ bhavet*<lb/>
+2 yasya tad bhaiṣajyaṃ sarvadoṣān ucālya sa<hi rend="it">rva</hi>koṣṭhagataṃ na niḥsaret* bhagavān āha / evam eva kāśyapa sarva<hi rend="bf">dṛ</hi>ṣṭigatānāṃ<lb/>
+3 unyatā niḥsaraṇaṃ yasya khalu punaḥ kāśyapa śunyatādṛṣṭis tam aham acikitsyam iti vadā<hi rend="bf">mi</hi> /<lb/>
+4 tatredam ucyate / // yathā hi vaidyo puruṣasya dadyād virecanaṃ rogavinigrahāya<lb/>
+uccālya doṣāś ca na niḥ<hi rend="bf">sa</hi>reta<lb/>
+5 tatonidānaṃ ca na copaśānti / // em eva dṛṣṭīgahanāśṛteṣu yā śunyatā niḥsaraṇaṃ paraṃ hi / sā śu
+</p><p xml:id="65">
+foll. 34-36 (KP-SI P/2) are lost. However, in fact there are only two pages omitted; and the next folio onwards is mistakenly paginated.
+</p><p xml:id="66">
+fol. 37r (KP-SI P/2)<lb/>
+1 ye pi śunyaṃ / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 70 tadyathāpi nāma kāśyapa tailapradīpasy<hi rend="it">a n</hi>aivaṃ bhavaty aham andhakāraṃ vidhamāmīti / athā ca punas tailapra<hi rend="bf">dyo</hi>te<lb/>
+2 kṛte ālokaṃ pratītya tamondhakāraṃ vigacchati / yaś ca kāśyapa tailapradyoto yaś ca tamondhakāram ubhāyam e<hi rend="bf">ta</hi>cchunyatā /<lb/>
+3 agrāhyā śūnya niśceṣṭā : evam eva kāśyapa yaṃ ca jñānaṃ cājñānaṃ ca ubhayam etacchu<hi rend="bf">nya</hi><hi rend="it">tā</hi>-d-agrāhyā<lb/>
+4 śūnyā niśceṣṭyā 7 / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 71 tadyathāpi nāma kāśyapa gṛhe vā layane vā avavarake vā varṣāsahasra<hi rend="bf">syā</hi>tyayena<lb/>
+5 na tat kadācit tailapradyotaḥ kṛto bhavet* atha ca tatra kaścid eva puruṣaḥ tailapradīpaṃ kuryāt* tat kiṃ manyase
+</p><p xml:id="67">
+fol. 37v (KP-SI P/2)<lb/>
+1 kāśyapa maivaṃ tasya tamondhakārasya bhūd varṣāsahasraṃ saṃcito 'haṃ nāham ito vigamiṣyāmīti / āha no hīdaṃ bhagavan n<hi rend="it">a</hi> h<hi rend="it">i</hi><lb/>
+2 tasya tamondhakārasya śaktir asti yas tailapradyot<hi rend="it">e</hi> kṛte na vigantum avaśyaṃ tena vigatavyaṃ bhagavān āha eva<hi rend="bf">m</hi><lb/>
+3 eva kāśyapa kalpakoṭīnayutaśatasahasrasaṃcito 'pi karmakleśa ekena yoniśomanasīkāraprajñāpra<hi rend="bf">tya</hi>vekṣaṇena<lb/>
+4 vigacchati / tailapradyota iti kāśyapa āryasyaitat prajñendriyasyādhivacanaṃ / tamondhakāra iti kā<hi rend="bf">śya</hi>pa<lb/>
+5 karmakleśasyādhivacanam* tatredam ucyate 8 // yathāpi dīpo layane cirasya kṛto bhaveta puruṣeṇa kenacit*
+</p><p xml:id="68">
+foll. 38-39 (KP-SI P/2) are missing
+</p><p xml:id="69">
+fol. 40r (KP-SI P/2)<lb/>
+1 <!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 77 vālam uddharet* kuśalānvitaṃ śrāvakam eva paśyatha kuśalena yuktam abhisaṃskṛtena / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 78 tadyathāpi nāma kāśyapa ghu<hi rend="bf">ṇa</hi>khāditasya<lb/>
+2 sarṣapa-m-abhyantare ākāśadhātu evam eva kāśyapa śrāvakasyābhisaṃskṛtaṃ jñānaṃ draṣṭavya / ta<hi rend="bf">tre</hi>dam<lb/>
+3 ucyate 14 // ghuṇakhāditasyaiva hi sarṣapasya ākāśam abhyantarito parittaṃ / abhisaṃskṛtaṃ jñā<hi rend="bf">na</hi><lb/>
+4 tathā vijānatha yaṃ śrāvakasya laghukaṃ parittakaṃ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 79 tadyathāpi nāma kāśyapa daśāsu dikṣv ākāśadhātur e<hi rend="bf">vaṃ</hi><lb/>
+5 bodhisatvasyābhisaṃskṛtaṃ jñānaṃ draṣṭavyaṃ / tatredam ucyate 15 // yathāpi ākāśa daśaddiśāsu anāvṛtaṃ tiṣṭhati sa<hi rend="bf">rva</hi>loke /
+</p><p xml:id="70">
+fol. 40v (KP-SI P/2)<lb/>
+1 abhisaṃskṛtaṃ paśyatha bodhisatve jñānaṃ tathā sarvajagatpradhāna / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 80 tadyathāpi nāma kāśyapa rājñaḥ kṣatriyasya<lb/>
+2 mūrdhnābhiṣiktasyāgramahiṣī daridrapuruṣeṇa sārdhaṃ vipratipadyeta tasya tataḥ putro jāyeta : tat kiṃ manya<hi rend="bf">se</hi><lb/>
+3 kāśyapa api nu sa rājaputra iti vaktavyaḥ āha no hīdaṃ bhagavan bhagavān āha / evam eva kāśyapa<lb/>
+4 kiṃ cāpi mama śrāvakār dharmadhātunirjātā na ca punas te tathāgatasyābhiṣekyaputrā iti vaktavyāḥ tatre<hi rend="bf">da</hi>m<lb/>
+5 ucyate 16 // yathāpi rājño mahiṣī manāpī daridrasatvena sahā vaseta / tasyā <hi rend="it">s</hi>utas tena ca jāyate yo
+</p><p xml:id="71">
+fol. 41r (KP-SI P/2)<lb/>
+1 sa rājaputro na tu rājā bheṣyati / evam eva ye śrāvakā vītarāgā na te 'bhiṣekyā mama jātu putrāḥ tathā hi te ā<hi rend="bf">tma</hi>hitāya<lb/>
+2 yuktā svaparobhayārthekara buddhaputrāḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 81 / tadyathāpi nāmā kāśyapa rājā kṣatriyo mūrdhnā<hi rend="bf">bhi</hi>ṣiktaḥ<lb/>
+3 pratyavarayā ceṭikayā saha pratipadyeta / tasya tata putra utpadyeta / kiṃ cāpi kāśyapa sa pra<hi rend="bf">tya</hi>varayā<lb/>
+4 ceṭikayā sāntikād utpanno 'tha ca puna sa rājaputra iti vaktavyaḥ evam eva kāśyapa kiṃ cāpi<lb/>
+5 prathamacittotpādiko bodhisatvaḥ apratibalaḥ saṃsāre saṃsaran* satvān vinayi<hi rend="it">tuṃ</hi> kāmam athā ca puna sa tathāga<hi rend="bf">ta</hi>putro
+</p><p xml:id="72">
+fol. 41v (KP-SI P/2)<lb/>
+1 iti vaktavyaḥ tatredam ucyate 17 // ceṭīya sārdhaṃ yatha cakravartī saṃvāsaṃ gatvā janayeta putraṃ / kiṃ cāpi c<hi rend="it">e</hi><hi rend="bf">ṭī</hi>ya<lb/>
+2 sakāśa jāto taṃ rājaputreti vadeti loke / citte tathā prathame bodhisatvo balena hīno tribhave bhramanto /<lb/>
+3 dānena satvā vinayann upāyair jinātmajo vuccati śuddhasatvo : 3 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 82 tadyathāpi nāma kāśyapa rājñā cakrava<hi rend="bf">rti</hi>naḥ<lb/>
+4 putrasahasraṃ bhavet* na cātra kaści cakravartilakṣaṇasamanvāgato bhavet* na tatra rājñaś cakravarti<hi rend="bf">na</hi>ḥ<lb/>
+5 putrasaṃjña manyeta / evam eva kāśyapa kiṃ cāpi tathāgato koṭīśatasahasraparivāraḥ śrāvakair na cātra kaści<hi rend="bf">d</hi>
+</p><p xml:id="73">
+fol. 42r (KP-SI P/2)<lb/>
+1 bodhisatvo bhavati na tatra tathāgatasya putrasaṃjñotpadyate / tatredam ucyate 18 // yathā sahasraṃ nṛpate sutānāṃ na c' e<hi rend="bf">ka</hi><lb/>
+2 putro pi salakṣaṇaḥ syāt* na tatra sañjñā nṛvarasya teṣu voḍhū yatas te na dhuraṃ samarthāḥ tathā hi buddho bahu<hi rend="bf">ko</hi>ṭinirvṛtaḥ<lb/>
+3 syāt teṣu kaścin na ca bodhisatvaḥ na putrasaṃjñā sugatasya teṣu na bodhisatvo 'sti yato 'tra kaścit* 2 //<lb/>
+4<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 83 tadyathāpi nāma kāśyapa rājñaś cakravartino agramahiṣyā kukṣe saptarātropapannaḥ kumāraś cakravartilakṣaṇa<hi rend="bf">sa</hi>manvāgataḥ<lb/>
+5 tasya kukṣigatasyāparipakvendriyasya kalalamahābhūtagatasya balavantatarā tatra devatā spṛha<hi rend="bf">m</hi>
+</p><p xml:id="74">
+fol. 42v (KP-SI P/2)<lb/>
+1 utpādayanti / na tv eva teṣu balajavanavegasthāmaprāpteṣu kumāreṣu tat kasmād dheto sa hi cakravartivaṃśasyānupacchedā<hi rend="bf">ya</hi><lb/>
+2 sthāsyati / evam eva kāśyapa prathamacittotpādiko bodhisatvaḥ aparipakvendriya kalalamahābhūtagata e<hi rend="bf">va</hi><lb/>
+3 samāno-d-atha ca punar balavantatarā tatra pūrva<hi rend="it">buddha</hi>darśan<hi rend="it">ā</hi> devā spṛhām utpādayanti / na tv evāṣṭavimokṣadhyā<hi rend="bf">yī</hi>ṣv<lb/>
+4 arhatsu / tat kasmād dhetoḥ sa hi buddhavaṃśasyānupacchedāya sthāsyati / tatredam ucyate 19 // yathāgradevī<hi rend="bf">ya</hi><lb/>
+5 tu cakravartino kukṣisthito lakṣaṇapuṇyasatvo / balavattaraṃ deva spṛhā karonti na sthāmaprāptāna kumārakānāṃ / e<hi rend="bf">kā</hi>gracitte
+</p><p xml:id="75">
+fol. 43r (KP-SI P/2)<lb/>
+1 sthitabodhisatve saṃsārasaṃsthe ghaṭamāna bodhaye / janenti tasya spṛha devanāgā na śrāvakeṣu trivimokṣa<hi rend="bf">dhyā</hi>yiṣu //<lb/>
+2<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 84 tadyathāpi nāma kāśyapa karaviṅkapotaka āṇḍakośaprakṣipataḥ anirbhinne nayane sarvapakṣiga<hi rend="bf">ṇa</hi>m<lb/>
+3 abhibhavati / yaduta gaṃbhīramadhuranirghoṣarutaravitena / evam eva kāśyapa prathamacittotpādiko bo<hi rend="bf">dhi</hi>satvo<lb/>
+4 avidyāṇḍakośaprakṣipta karmakleśatamastimirapaṭalaparyavanaddhaḥ nayano 'pi sarvaśrāvakapratyeka<hi rend="bf">bu</hi>ddhā-m-<lb/>
+5 abhibhavati / yaduta kuśalamūlapariṇāmanāprayoganirhārarutaravitena 20 // tadyathāpi nāma kāśyapa rā<hi rend="bf">jña</hi>ś
+</p><p xml:id="76">
+fol. 43v (KP-SI P/2)<lb/>
+1 cakravartina agramahiṣyā tatkṣaṇajātaṃ kumāraṃ sarvaśreṣṭhinaigamajānapatayaḥ koṭṭarājānaś ca namasyanty evam eva<lb/>
+2 kāśyapa prathamacittotpādiko bodhisatvaḥ sadevako loko namaskaronti 21 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 85 tadyathāpi nāma kāśyapa e<hi rend="bf">kaṃ</hi><lb/>
+3 vaiḍūryaṃ maṇiratnaṃ sumerumātraṃ rāśi kācamaṇikān' abhibhavati evam eva kāśyapa prathamacittotpā<hi rend="bf">di</hi>ko<lb/>
+4 bodhisatvaḥ sarvaśrāvakapratyekabuddhān abhibhavati / tatredam ucyate 22 // yathāpi vaiḍūryamaṇi prabhā<hi rend="bf">sva</hi>raḥ<lb/>
+5 kācāmaṇīn abhibhavate prabhūtān* em eva citte prathame bodhisatvo abhībhavati pṛthakcchrāvakān gaṇān* //
+</p><p xml:id="77">
+fol. 44r (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 86 tadyathāpi nāma kāśyapa rājño 'gramahiṣyāḥ tatkṣaṇajātaṃ kumāra sarvaśreṣṭhinaigamajānapadā koṭṭarājānaś ca nama<hi rend="bf">sya</hi>nti /<lb/>
+2 evam eva kāśyapa prathamacittotpādiko bodhisatvaḥ sadevako loko namasyanti / tatredam ucyate 23 // ya<hi rend="bf">thā</hi>pi<lb/>
+3 rājñaḥ pṛthivīśvarasya putro bhavel lakṣaṇacitritāṅgaṃ dṛṣtv' eva taṃ jātamātraṃ kumāraṃ sakoṭṭarājā praṇa<hi rend="bf">ma</hi>nti<lb/>
+4 paurāḥ utpannamātre tatha bodhisatve sallakṣaṇaṃ taṃ jinarājaputraṃ lokas sadevo pi namaskaronti prasa<hi rend="bf">nna</hi>cittaṃ<lb/>
+5 bahumānapūrvam* //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 87 tadyathāpi nāma kāśyapa yāni himavantaḥ parvatarājā bhaiṣajyāni virohanti sarvāny a<hi rend="bf">ma</hi>māny
+</p><p xml:id="78">
+fol. 44v (KP-SI P/2)<lb/>
+1 aparigrahāny avikalpāni / yatra ca punar vyādhyā vyupanāmyante taṃ vyādhiṃ praśamayanti / evam eva kāśyapa pratha<hi rend="bf">ma</hi>cittotpādiko<lb/>
+2 bodhisatvo ya jñānabhaiṣajyaṃ samudānayati tat sarva nirvikalpa samudānayati samaci<hi rend="bf">tta</hi>tā<lb/>
+3 sarvasatveṣu cikitsā pra<hi rend="it">yoja</hi>yati / tatredam ucyate 24 // himavanta ye parvatarāja bheṣajā rohanti te ni<hi rend="bf">rma</hi>ma<lb/>
+4 nirvikalpā / yatropanāmyanti ca taṃ śamenti vyādhiṃ jarā cāpanayanti kecit* jinātmajā pi samudānayan<hi rend="bf">ti</hi><lb/>
+5 yaṃ jñānabhaiṣajya vikalpa muktvā / hitārtha sarvaṃ samudānayanti samacitta satveṣu cikitsa kurvan* //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 88 tadyathāpi
+</p><p xml:id="79">
+fol. 45r (KP-SI P/2)<lb/>
+1 nāma kāśyapa navacandro namaskṛyate so c' eva pūrṇacandro na tathā namaskṛyate / evam eva kāśyapa ye mama śra<hi rend="bf">dda</hi>dhanti<lb/>
+2 te balavantataraṃ bodhisatvaṃ namaskartavya / na tathāgataḥ tat kasya heto bodhisatvanirjātā hi tathāgatāḥ<lb/>
+3 tatredam ucyate 25 // candraṃ navaṃ sarva namaskaronti tam eva pūrṇaṃ na namaskaronti / em eva yaḥ śraddadhate jinā<hi rend="bf">tma</hi>jo<lb/>
+4 sa bodhisatvaṃ namatā<hi rend="it">ṃ</hi> jinā na tu / // <lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 89 tadyathāpi nāma kāśyapa mātrikā sarvaśāstragrahaṇajñāne pūrvaṃga<hi rend="bf">mā</hi> /<lb/>
+5 evam eva kāśyapa prathamacittotpādiko bodhisatvaḥ sarvabuddhavikurvitādhiṣṭhāne 'nuttare pūrvaṃgamaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 90 tadyathāpi
+</p><p xml:id="80">
+fol. 45v (KP-SI P/2)<lb/>
+1 nāma kāśyapa na jātu kenacic candramaṇḍalam utsṛjya tārakarūpaṃ namaskṛtapūrvaṃ / evam eva kāśyapa na jātu paṇḍito ma<hi rend="bf">ma</hi><lb/>
+2 śikṣāpratipanna bodhisatvaṃ riñcitvā śrāvakaṃ namaskaroti / tatredam ucyate 26 // na kenaci<hi rend="it">c</hi> candra vivarjayi<hi rend="bf">tvā</hi><lb/>
+3 namaskṛtā tāragaṇā kadācit* na jātu śikṣāpratipanna evaṃ mamātmajaṃ tyaj<hi rend="it">y</hi>a nameta śrāvakaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 91 ta<hi rend="bf">dya</hi>thāpi<lb/>
+4 nāma kāśyapa sadevako loko kācamaṇikasya parikarma kuryāt* na jātu sa kācamaṇiko vaiḍūrya<hi rend="bf">ma</hi>ṇiratno<lb/>
+5 bhaviṣyati / evam eva kāśyapa sarvaśīlaśikṣādhutaguṇasamādhisamanvāgato 'pi śrāvako na jātu sa
+</p><p xml:id="81">
+fol. 46r (KP-SI P/2)<lb/>
+1 bodhimaṇḍe niṣadyānuttarā samyaksaṃbodhim abhisaṃbhotsyate / tatredam ucyate 27 // yathāpi loko parikarma kuryāt sa<hi rend="bf">de</hi>vakaḥ<lb/>
+2 kācamaṇisya śuddhaye / na kāca vaiḍūrya kadāci bheṣyate anyādṛśī tasya sa-d-eva jātiḥ evaṃ hi śī<hi rend="bf">lā</hi>śrutadhyānayukto<lb/>
+3 yaḥ śrāvakaḥ sarvaguṇānvito pi / na bodhimaṇḍasthita māra jitvā bodhiṃ spṛśitvā suga<hi rend="bf">to</hi><lb/>
+4 bhaviṣyati //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 92 tadyathāpi nāma kāśyapa vaiḍūryasya mahāmaṇiratnasya parikarma kriyamāṇair bahūṇāṃ tatra<lb/>
+5 karṣāpaṇaśatasahasrāṇām āyadvāraṃ bhavati / evam eva kāśyapa yatra bodhisatvasya parikarma kriyamāṇe
+</p><p xml:id="82">
+fol. 46v (KP-SI P/2)<lb/>
+1 bahūnāṃ tatra śrāvakapratyekabuddhaśatasahasrāṇām āyadvāraṃ bhavati / tatredam ucyate 28 // vaiḍūryaratne parika<hi rend="bf">rma</hi><lb/>
+2 nīyate karṣāpaṇānāṃ ca bahu āyu bhoti / buddhorasānāṃ parikarmaṇaṃ tathā āyo bahūnāṃ śrāva<hi rend="bf">kā</hi>nāṃ tath' eva / 30 //<lb/>
+3<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 93 atha khalu bhagavān punar evāyuṣmantaṃ mahākāśyapam āmantrayati sma / yasmiṃ kāśya<hi rend="bf">pa</hi><lb/>
+4 deśe uṣṭradhūmaka kṛṣṇaśira uttānaśāyī bhavati sa deśa sopadravaḥ sopakleśa sopāyāso bhavati / sa<hi rend="bf">ce</hi>t<lb/>
+5 puna kāśyapa yasmiṃ deśe bodhisatvo bhavati / sa deśa nirupadrava nirupakleśa nirupāyāso bhavati / tasmāt tarhi
+</p><p xml:id="83">
+fol. 47r (KP-SI P/2)<lb/>
+1 kāśyapa satvārthodyuktena bodhisatvena bhavitavyaṃ tena sarvakuśalamūlāni sarvasatvānām utsraṣṭavyaṃ / sarvaṃ ca kuśalamū<hi rend="bf">la</hi><lb/>
+2 samyak samudānayitavyaṃ / yac ca jñānabheṣajyaṃ paryeṣate tena caturdiśaṃ gatvā sarvasatvānāṃ bhūtacikitsā<lb/>
+3 kartavyā : bhūtacikitsāyā ca satvā cikitsitavyāḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 94 tatra kāśyapa katamā bhūtacikitsā : yaduta rāga<hi rend="bf">sya</hi><lb/>
+4 aśubhā cikitsā / dveṣasya maitrī cikitsā : mohasya pratītyasamutpādapratyavekṣaṇā cikitsā : sarvadṛṣṭī<hi rend="bf">ga</hi>tānāṃ<lb/>
+5 śunyatā cikitsā : sarvakalpavikalpaparikalpāraṃbhaṇavitarkamanasīkārāṇām ānimitta cikitsā :
+</p><p xml:id="84">
+fol. 47v (KP-SI P/2)<lb/>
+1 sarvakāmadhāturūpadhātvārūpyadhātuprahāṇāyā-m-apraṇihita cikitsā : sarvaviparyāsānā catvāro 'viparyāsa ciki<hi rend="bf">tsā</hi> :<lb/>
+2 anitye nityasaṃjñāyāḥ anityāḥ sarvasaṃskārā iti cikitsā : duḥkhe sukhasaṃjñāyā duḥkhā sarvasaṃskā<hi rend="bf">rā</hi><lb/>
+3 iti cikitsā : anātmīye ātmīyasaṃjñāyā anātmāna sarvadharmā iti cikitsā : aśubhe śubhasaṃ<hi rend="bf">jñā</hi>yāḥ<lb/>
+4 śāntaṃ nirvāṇam iti cikitsā :<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 95 catvāri smṛtyupasthānāni kāyavedanācittadharmasaṃniśritānāṃ ciki<hi rend="bf">tsā</hi> :<lb/>
+5 kāye kāyānupasyī viharati na ca kāye kāyānupāśyanāyām ātmyadṛṣṭyāṃ patati / vedanāyāṃ vedanānupa<hi rend="bf">śyī</hi>
+</p><p xml:id="85">
+fol. 48r (KP-SI P/2)<lb/>
+1 viharati na ca vedanānupaśyanāyā ātmadṛṣṭīgate patati / citte cittānupaśyī viharati na ca cittānupaśya<hi rend="bf">nā</hi>yāṃ<lb/>
+2 jīvadṛṣṭīye patati / dharme dharmānupaśyī viharati na ca dharmānupaśyanāyāṃ pudgaladṛṣṭīye patati /<lb/>
+3 catvāri samyakprahāṇāni sarvākuśaladharmaprahāṇāya cikitsā / sarvakuśaladharmapāripūryai saṃvartante /<lb/>
+4 catvāro-d-ṛddhipādāḥ kāyacittapiṇḍagrāhotsargāya saṃva<hi rend="it">rtan</hi>te / cikitsā : paṃcendriyāṇi paṃca balāni<lb/>
+5 aśrāddhyakausīdyamuṣitasmṛticittavikṣepa-asaṃprajanyatāduṣprajñātā<hi rend="it">nāṃ</hi> cikitsā : sapta bodhyaṃgāni dharmasamū<hi rend="bf">hā</hi>jñānasya
+</p><p xml:id="86">
+fol. 48v (KP-SI P/2)<lb/>
+1 cikitsā : āryāṣṭāṃgo mārga dauṣprajñāsarvaparapravādināṃ kumārgapratipannānāṃ cikitsā : iyam ucyate<lb/>
+2 kāśyapa bhūtacikitsā : tatra kāśyapa bodhisatvena yogaḥ karaṇīyaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 96 yāvanta kāśyapa jaṃbudvīpe vaidyā vā<lb/>
+3 vaidyāntevāsino vā sarveṣāṃ teṣām jīvako vaidyarājā agro-m-ākhyāyate / yāvantaḥ kāśyapa trisāhasrama<hi rend="bf">hā</hi>sāhasrāyāṃ<lb/>
+4 lokadhātau satvāḥ te sarve jīvakavaidyarājasadṛśā bhaveyuḥ te sarve paripṛccheran* dṛṣṭi<hi rend="bf">kau</hi>kṛtyapratiṣṭhitasya<lb/>
+5 prapatitasya kiṃ bhaiṣajyam iti / te na samarthā na ca śakno<hi rend="it">n</hi>ti tam artha ākhyātuṃ vā nirdeṣṭuṃ vā
+</p><p xml:id="87">
+fol. 49r (KP-SI P/2)<lb/>
+1 jñānavijñātā vā / tatra kāśyapa bodhisatvenaivam upaparīkṣitavya na mayā lokikabhaiṣajyasaṃtuṣṭir veditavyā / loko<hi rend="bf">tta</hi>ra<lb/>
+2 mayā jñānabhaiṣajyaṃ paryeṣitavyaṃ sarvakuśalamūlaṃ ca samyak samudānayitavyam* ity evaṃ copaparīkṣi<hi rend="bf">ta</hi>vyaḥ<lb/>
+3 yac ca jñānabhaiṣajyaṃ samudānayitvā tena caturdiśaṃ gatvā sarvasatvānāṃ bhūtacikitsā kartavyāḥ<lb/>
+4 bhūtacikitsayā ca satvāni cikitsitavyāḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 97 tatra kataraṃ lokottaraṃ jñānabhaiṣajyaṃ / yad idaṃ hetupratyayajñānaḥ<lb/>
+5 nairātmye niḥsatvanirjīvaniṣpoṣaniṣpudgaleṣu dharmeṣv adhimuktijñānaṃ / śunyatānupalaṃbheṣu dharmeṣv anutrāsaḥ citta<hi rend="bf">pa</hi>rigaveṣatāye
+</p><p xml:id="88">
+fol. 49v (KP-SI P/2)<lb/>
+1 vīryaṃ / sa evaṃ cittaṃ parigaveṣate / kataraṃ cittaṃ rajyati vā duṣyati vā muhyati vā / a<hi rend="bf">tī</hi>taṃ<lb/>
+2 vā anāgataṃ vā pratyutpannaṃ vā / yadi tāvad atītaṃ cittaṃ tat kṣīṇaṃ / yad anāgataṃ cittaṃ tad a<hi rend="bf">saṃ</hi>prāptaḥ<lb/>
+3 atha pratyutpannasya cittasya sthitir nāsti /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 98 cittaṃ hi kāśyapa na bahirdhā nobhayayo-m-anta<hi rend="bf">rā</hi>le<lb/>
+4 upalabhyate / cittaṃ hi kāśyapa arūpy anidarśanam apratigham anābhāsam avijñāptikam apra<hi rend="bf">ti</hi>ṣṭhitam<lb/>
+5 aniketa : cittaṃ hi kāśyapa sarvabuddhair na dṛṣṭaṃ na paśyanti na paśyiṣyanti na drakṣyanti yat sarvabuddhair na
+</p><p xml:id="89">
+fol. 50r (KP-SI P/2)<lb/>
+1 dṛṣtaṃ na paśyanti na drakṣyanti kīdṛśas tasya pracāro draṣṭavyaṃ nānyatra vitathaviparyāsapatitāyā saṃtatyā dharmāḥ prava<hi rend="bf">rta</hi>nte 3<lb/>
+2 cittaṃ hi kāśyapa māyāsadṛśam abhūtaṃ vikalpya vividhopapattiṃ parigṛhṇāti 4 cittaṃ hi kāśyapa vā<hi rend="it">yu</hi>sadṛśaṃ<lb/>
+3 dūraṃgamam agrāhyam apracāra 5 cittaṃ hi kāśyapa nadīsrotasadṛśam anavasthitam utpa<hi rend="bf">nnaṃ</hi><lb/>
+4 bhagnavilīna 6 cittaṃ hi kāśyapa pradīpārciḥsadṛśaṃ hetupratyayatayā pravartate / jvalati ca 7<lb/>
+5<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 99 cittaṃ hi kāśyapa vidyusadṛśa kṣaṇabhaṃgāvyavasthitaṃ 8 / cittaṃ hi kāśyapa ākāśasadṛśam āgantuker upakleśe saṃ<hi rend="bf">kli</hi>śyate 9
+</p><p xml:id="90">
+fol. 50v (KP-SI P/2)<lb/>
+1 cittaṃ hi kāśyapa vānarasadṛśa viṣayābhilāṣi vicitrakarmasaṃsthānatayā 10 cittaṃ hi kāśyapa citrakara<hi rend="bf">sa</hi>dṛśa<lb/>
+2 vicitrakarmābhisaṃskaraṇatayā / 11 cittaṃ hi kāśyapa anavasthitaṃ nānākleśapravartanatayā 12<lb/>
+3 cittaṃ hi kāśyapa ekacaram advitīyacittābhisandhānatayā 13 cittaṃ hi kāśyapa rājasadṛśaṃ sarvadharmā<hi rend="bf">dhi</hi>pateyā 14<lb/>
+4 cittaṃ hi kāśyapa amitrasadṛśaṃ sarvaduḥkhasaṃjananatayā 15<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 100 cittaṃ hi kāśyapa pāṃsvā<hi rend="bf">gā</hi>rasadṛśam<lb/>
+5 anitye nityasaṃjñayā 16 cittam hi kāśyapa nīlamakṣikāsadṛśam aśuco śucisaṃjñāyā 17 cittaṃ hi kā<hi rend="bf">śya</hi>pa
+</p><p xml:id="91">
+fol. 52r (KP-SI P/2); no gap between fol. 50 and 52, mistake in pagination<lb/>
+1 matsyabaḍīśasadṛśa duḥkhe sukhasaṃjñāyā 18 cittaṃ hi kāśyapa svapnasadṛśam anātmīye ātmīyasaṃjñāyā 19<lb/>
+2 cittaṃ hi kāśyapa pratyarthikasadṛśa vividhakāraṇākaraṇatayā 20 cittaṃ hi kāśyapa ojāhārayakṣasadṛśa sadā<hi rend="bf">va</hi>tāragaveṣaṇatayā 21<lb/>
+3 cittaṃ hi kāśyapa arisadṛśaṃ sadācchidrārāmagaveṣaṇatayā 22<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 101 cittaṃ hi kā<hi rend="bf">śya</hi>pa<lb/>
+4 sadā unnatāvanatam anunayapratighopahataṃ 23 cittaṃ hi kāśyapa corasadṛśa sarvakuśalamūla<hi rend="bf">mu</hi>ṣaṇatayā 24<lb/>
+5 cittaṃ hi kāśyapa rūpārāma pataṃganetrasadṛśaṃ 25 cittaṃ hi kāśyapa śabdārāma saṃgrāmabhe<hi rend="bf">rī</hi>sadṛśaṃ 26
+</p><p xml:id="92">
+fol. 52v (KP-SI P/2)<lb/>
+1 cittaṃ hi kāśyapa sadā gandhārāma varāha iva mīḍakuṇape 27 cittaṃ hi kāśyapa rasārāma rasabho<hi rend="bf">jya</hi>ceṭīsadṛśaṃ 28<lb/>
+2 cittaṃ hi kāśyapa sparśārāma makṣikeva tailapātre 29<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 102 cittaṃ hi kāśyapa parigaveṣamā<hi rend="bf">ṇaṃ</hi><lb/>
+3 na labhyate 30 yan na labhyate tan nopalabhyate tan nātītaṃ nānāgataṃ na pratyutpannaṃ / yan nātītaṃ nā<hi rend="bf">nā</hi>gataṃ<lb/>
+4 na pratyutpannaṃ ta<hi rend="it">t</hi> tryadhvasamatikrāntaṃ ya<hi rend="it">t</hi> tryadhvasamatikrāntaṃ / tan naivāsti neva nāsti / yan naivāsti<lb/>
+5 na nāsti / tad ajātaṃ yad ajātaṃ / tasya nāsti svabhāvaḥ yasya nāsti svabhāvaḥ tasya nāsty utpāda / yasya nā<hi rend="bf">sty u</hi>tpādaḥ
+</p><p xml:id="93">
+fol. 53r (KP-SI P/2)<lb/>
+1 tasya nāsti nirodhaḥ yasya nāsti nirodhaḥ tasya nāsti vigamaḥ avigamas tasya na gatir nāgatir na cyutir nopa<hi rend="bf">pa</hi>ttiḥ<lb/>
+2 yatra na gatir nāgatir na cyutir nopapattiḥ tatra na kecit saṃskārāḥ yatra na kecit saṃskārāḥ tad asaṃskṛtaṃ /<lb/>
+3<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 103 tad āryāṇāṃ gotra yad āryāṇāṃ gotra / tatra na śikṣā na niśrayo nāniśrayaḥ yatra na śikṣā na niḥśrayo nāniśra<hi rend="bf">ya</hi>ḥ<lb/>
+4 tatra na śikṣāvyatikramaḥ yatra na śikṣāvyatikramaḥ tatra na saṃvaro nāsaṃvaraḥ yatra na saṃvaro nāsaṃ<hi rend="bf">va</hi>ra /<lb/>
+5 tatra na cāro nācāraḥ na pracāraḥ yatra na cāro nācāra na pracāraḥ tatra na cittaṃ na cetasikā dharmāḥ
+</p><p xml:id="94">
+fol. 53v (KP-SI P/2)<lb/>
+1 yatra na cittaṃ na cetasikā dharmāḥ tatra na mano na vijñānaḥ yatra na mano na vijñāna / tatra na karmo na vipākaḥ yatra na<lb/>
+2 karmo na vipākaḥ tatra na sukhaṃ na duḥkhaṃ yatra na sukhaṃ na duḥkhaṃ tad āryāṇāṃ gotraṃ yad āryāṇāṃ gotraṃ / tatra na karmo<lb/>
+3 na karmābhisaṃskāro nāpi tatra gotre kāyena karma kṛyate na vācā na manasā / nāpi tatra gotre hīno<hi rend="bf">tkṛ</hi>ṣṭamadhyamavyavasthānaṃ<lb/>
+4 samaṃ tad gotram ākāśasamatayā / nirviśeṣaṃ tad gotraṃ sarvadharmaikarasatayā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 104 vivi<hi rend="bf">ktaṃ</hi><lb/>
+5 tad gotraṃ kāyacittavivekatayā / anulomaṃ tad gotraṃ nirvāṇasya / vimalaṃ tad gotraṃ sarvakleśamalavigata amamaṃ
+</p><p xml:id="95">
+fol. 54r (KP-SI P/2)<lb/>
+1 tad gotram ahaṃkāramamakāravigataṃ / aviṣamaṃ tad gotraṃ bhūtābhūtasamatayā niryātaṃ satyaṃ tad gotraṃ paramārtha<hi rend="bf">sa</hi>tyayā /<lb/>
+2 akṣayaṃ tad gotra atyantatānutpannaṃ / nityaṃ tad gotraṃ sadādharmatathatayā / aśubhaṃ tad gotraṃ nirvāṇa<hi rend="bf">pa</hi>ramatayā /<lb/>
+3 śubhaṃ tad gotraṃ sarvākāramalavigataṃ / anātmā tad gotram ātmanaḥ parigaveṣyamāṇanupa<hi rend="bf">laṃ</hi>bhāt /<lb/>
+4 viśuddhaṃ tad gotram atyantaviśuddhatayā / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 105 adhyātmaṃ kāśyapa parimargatha mā bahir vidhāvadhvaṃ / tat kasmā<hi rend="bf">d</hi><lb/>
+5 dhetoḥ bhaviṣyanti kāśyapa anāgate 'dhvani bhikṣavaḥ śvaloṣṭvānujavanasadṛśāḥ kathaṃ ca kāśyapa bhikṣavaḥ śvaloṣṭ<hi rend="it">v</hi>ānuja<hi rend="bf">va</hi>nasadṛśā
+</p><p xml:id="96">
+fol. 54v (KP-SI P/2)<lb/>
+1 bhavati / tadyathāpi nāma kāśyapa śvāno loṣṭunā trāsitaḥ tam eva loṣṭu-r-anudhāvati / na tam anudhā<hi rend="bf">va</hi>ti /<lb/>
+2 yena sa loṣṭuṃ kṣiptaṃ bhavati / evam eva kāśyapa sa<hi rend="it">n</hi>ty eke śramaṇabrāhmaṇā ye rūpaśabdagandha<hi rend="bf">ra</hi>sasparśair<lb/>
+3 bhayabhītā araṇyāyataneṣu viharanti / teṣā tatr' ekākinām advitīyānāṃ kāya<hi rend="bf">pra</hi>viviktavihāriṇāṃ<lb/>
+4 rajanīyās tajjakriyā {tarjanīyā?} rupaśabdagandharasasparśāvabhāsam āgacchanti / te tatrā<hi rend="bf">ve</hi>kṣakāḥ<lb/>
+5 sukhalikānuyogam anuyuktā viharanti /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 106 te na jānanti na buddhyanti kiṃ rūpaśabdagandharasa<hi rend="bf">spa</hi>rśānāṃ
+</p><p xml:id="97">
+fol. 55r (KP-SI P/2)<lb/>
+1 niḥsaraṇam iti / te ajānantāḥ abuddhyantaḥ teṣāṃ rūpaśabdaga<hi rend="it">ndha</hi>rasasparśānām āsvādaṃ cādīnavaṃ<lb/>
+2 ca niḥsaraṇaṃ ca avatīrṇā grāmanagaranigamarāṣṭrarājadhānīṣu punar eva rūpaśabdagandharasa<hi rend="bf">spa</hi>rśair<lb/>
+3 hanyante / saced araṇyagatā kālaṃ kurvanti / teṣāṃ lokikasaṃvarasthitānā svargaloka upapatti<hi rend="bf">r</hi><lb/>
+4 bhavati / te tatrāpi divyaiḥ paṃcabhiḥ kāmaguṇair hanyante / te tataś cyutā aparimuktā samānāś caturbhi<hi rend="it">r</hi><lb/>
+5 apāyair nirayatiryagyoniyamalokāsuraiḥ evaṃ hi kāśyapa bhikṣavaḥ śvaloṣṭvanujavanasadṛśā bhavan<hi rend="bf">ti</hi> / //
+</p><p xml:id="98">
+fol. 55v (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 107 katham ca kāśyapa bhikṣur na śvaloṣṭvanujavanasadṛśo {hereafter written always as ŚleṣṭŚ} bhavati yaḥ kāśyapa bhikṣu ākruṣṭo na pratyākrośati tāḍito na<lb/>
+2 pratitāḍayati paṃsito na pratipaṃsayati / bhaṇḍito na pratibhaṇḍayati / roṣito na pratiroṣayati / ā<hi rend="bf">dhyā</hi>tmaṃ<lb/>
+3 cittanidhyaptiṃ pratyavekṣate / ko vākruṣṭo vā tāḍito vā / paṃsito vā bhaṇḍito vā roṣito vā / evaṃ hi<lb/>
+4 kāśyapa bhikṣur na śvaleṣṭvanujavanasadṛśo bhavati / tatredam ucyate // śvāno yathā leṣṭuna<lb/>
+5 trāsyamāno anudhāvate leṣṭu na yena kṣiptaṃ em ev' ih' eke śramaṇā dvijā vā<lb/>
+rūpādibhītā vanavāsam āśritā / //
+</p><p xml:id="99">
+fol. 56r (KP-SI P/2)<lb/>
+1 teṣāṃ ca tasmin vasatām araṇye rūpādayo darśanam eta iṣṭā / upekṣakādhyātmagate 'nabhijñā ādīnavān n<hi rend="it">i</hi>ḥsaraṇaṃ k<hi rend="it">i</hi><hi rend="bf">m</hi> eṣā<lb/>
+2 ajānamānā puna grāmam āśritā / pune pi rūpehi vihanyamānā cyutaś ca devai manujaiś ca kecit tatrā<hi rend="bf">pi</hi><lb/>
+3 divyān upabhujya bhogā 3 apāyabhūmiḥ prapatanti kecit* cyutā cyutā duḥkham upaiti mūḍhāḥ evaṃ hi<lb/>
+4 te duḥkhaśatānubaddhā śvaleṣṭatulyā sugatena deśitā / 4 ākruṣṭa nākrośati tāḍitas tathā na paṃsitaḥ<lb/>
+5 paṃsayate ca kecit* na bhaṇḍito bhaṇḍayate tathānyā na roṣito roṣayate ca sūrataḥ 5 ādhyātma cittaṃ prati<hi rend="bf">pa</hi>kṣataś
+</p><p xml:id="100">
+fol. 56v (KP-SI P/2)<lb/>
+1 ca gaveṣate śāntatavi smṛtīmān* evaṃvidhaḥ śīlavratopapaṇno : na śvānatulya kathito jinena / 6 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 108 tadyathāpi nā<hi rend="bf">ma</hi><lb/>
+2 kāśyapa kuśalo aśvadamakasūto / yatra yatra pṛthivīpradeśe aśva skhalati / utkuṃbhati vā khaḍuṃkakriyā vā karo<hi rend="bf">ti</hi> /<lb/>
+3 tatra tatra caiva pṛthivīpradeśe nigṛhṇāti sa tathā tathā nigṛhṇāti yan na punar api prakupyate / evam eva<lb/>
+4 kāśyapa yogācāro bhikṣur yatra yatraivaṃ cittasya vikāraṃ paśyati / tatra tatraivāsya nigrahāya pratipadyate / sa ta<hi rend="bf">thā</hi><lb/>
+5 tathā cittaṃ nigṛhṇāti yathā na puna prakupyate / tatredam ucyate / // yathāśvasūta kuśalo bhaveta skhalitaṃ ca aśva<hi rend="it">ṃ</hi> sa<hi rend="bf">ma</hi>bh<hi rend="it">i</hi>gr<hi rend="it">a</hi>h<hi rend="it">e</hi>t<hi rend="it">i</hi> /
+</p><p xml:id="101">
+fol. (57)r (KP-SI P/2)<lb/>
+1 yogī tathā cittavikāra dṛṣṭvā tathā nigṛhṇāti yathā na kupyati / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 109 tadyathāpi nāma kāśyapa galagraha sarve<hi rend="bf">ndri</hi>yāṇāṃ<lb/>
+2 graho bhavati jīvitendriyasyoparodhe vartate / evam eva kāśyapa sarvadṛṣṭigatānām ātmagrāho dharmajī<hi rend="bf">vi</hi>tendriyasyoparodhena<lb/>
+3 vartate / tatredam ucyate // galagraho ve yatha jīvitendriyā nigṛhṇate nāsya sukhaṃ dadāti /<lb/>
+4 dṛṣṭīkṛtānām api ātmadṛṣṭi vināśayeta ima dharmajīvitaṃ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 110 tadyathāpi nāma kāśyapa puruṣo yato ya<hi rend="bf">ta</hi>ḥ<lb/>
+5 baddho bhavati tatas tata eva mocayitavyo bhavati / evam eva kāśyapa yato yata eva cittaṃ sajyati / tatas <hi rend="it">t</hi>a<hi rend="bf">ta</hi>
+</p><p xml:id="102">
+fol. (57v) (KP-SI P/2)<lb/>
+1 eva mocayitavyaṃ bhavati / tatredam ucyate // yathāpi baddhaḥ puruṣaḥ samantāt samantato mocayitavya bhoti /<lb/>
+2 evaṃ yahiṃ sajjati mūḍhacittaṃ tatas tato yogina mocanīyam* //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 111 dvāv imau kāśyapa pravrajitasyākāśapali<hi rend="bf">go</hi>dhau /<lb/>
+3 katamau dvau / lokāyatamantraparyeṣṭitā ca / utsadapātracīvaradhāraṇatā ca / imau dvau / tatredam u<hi rend="bf">cya</hi>te 1 //<lb/>
+4 lokāyatasyābhyasanābhiyogo tatotsadaṃ cīvarapātradhāraṇaṃ / ākāśabodhe imi dve 'pratiṣṭhite tau<lb/>
+5 bodhisatvena vivarjanīyau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 112 dvāv imau kāśyapa pravrajitasya gāḍhabandhano / katamau dvau / yadutātmadṛṣṭikṛtaba<hi rend="bf">ndha</hi>naṃ
+</p><p xml:id="103">
+fol. 58r (KP-SI P/2)<lb/>
+1 ca lābhasatkāraślokabandhanaṃ cetīme kāśyapa dvau pravrajitasya gāḍhabandhanaṃ / tatredam ucyate 2 // dve bandha<hi rend="bf">ne</hi><lb/>
+2 pravrajitasya gāḍhe dṛṣṭīkṛtaṃ bandhanam uktam āryaiḥ satkāralābhayaśabandhanaṃ ca te sarvadā pravra<hi rend="bf">ji</hi>tena<lb/>
+3 tyajye //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 113 dvāv imau kāśyapa pravrajitasyāntārayakarau dharmau / katamau dvau /<lb/>
+gṛhapatipakṣaseva<hi rend="bf">nā</hi><lb/>
+4 ca āryapakṣavidveṣaṇatā cetīme kāśyapa dvau pravrajitasyāntarāyakarau dharmau / tatredam ucyate 3 //<lb/>
+5 gṛhasthapakṣasya ca sevanā yā ācāryapakṣasya ca yā vigarhaṇā / dvāv antarāyo paripanthabhūto tau bodhi<hi rend="bf">sa</hi>tvena
+</p><p xml:id="104">
+fol. 58v (KP-SI P/2)<lb/>
+1 vivaryanīyau //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 114 dvāv imau kāśyapa pravrajitasya malau katamau dvau / yaduta kleśādhivāsanatā ca mitrakulabhe<hi rend="bf">kṣā</hi>kakulādhyavasanatāgrahaṇaṃ<lb/>
+2 cetīme kāśyapa dvau pravrajitasya malau / tatredam ucyate 4 // kleśaś ca yo pravra<hi rend="bf">ji</hi>to<lb/>
+3 'dhivāsayet* mitraṃ sabhekṣākakulaṃ ca sevati / etau jinendreṇa hi deśitau malau tau bodhisatvena vi<hi rend="bf">va</hi>rjanīyau : //<lb/>
+4<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 115 dvāv imau kāśyapa pravrajitasyāśaniprapātau / katamau dvau / saddharmapratikṣepaś ca cyutaśīlasya<lb/>
+5 ca śraddhādeyaparibhogaṃ cetīme kāśyapa dvau pravrajitasya aśanīprapāto dharmaḥ tatredam ucyate // 5 // saddharmasya
+</p><p xml:id="105">
+fol. 59r (KP-SI P/2)<lb/>
+1 pratikṣepa cyutaśīlasya bhojanaṃ / aśaniprapāto dvāv etau varjanīyo kṛpātmakaiḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 116 dvāv imau kāśyapa pravrajitasya vra<hi rend="bf">ṇau</hi><lb/>
+2 katamau dvau / paradoṣapratyavekṣanatā ca svadoṣapraticchādanatā cetīme kāśyapa dvau pravrajitasya vraṇau<lb/>
+3 tatredam ucyate  6 // vṛṇute ca svakā doṣā pari doṣāś ca vīkṣate / viṣāgnitulyo dvāv etau vraṇau tyajyau parīkṣakaiḥ //<lb/>
+4<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 117 dvāv imau kāśyapa pravrajitasya paridāghau katamau dvau / yaduta sakaṣāyasya ca kāṣāyadhāraṇaṃ śīlavan<hi rend="bf">tā</hi> guṇavantā<lb/>
+5 cāntikād upasthānaparicaryāsvīkaraṇaṃ cetīme kāśyapa dvau pravrajitasya paridāghau / tatredam u<hi rend="bf">cya</hi>te 7 //
+</p><p xml:id="106">
+fol. 59v (KP-SI P/2)<lb/>
+1 sakaṣāyacittasya kaṣāyadhāraṇaṃ śīlānvitānāṃ ca sakāśa sevanā paricaryupasthānabhivādanaṃ ca dharmā<hi rend="bf">v</hi><lb/>
+2 imau dvau parivarjaṇīyau / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 118 dvāv imau kāśyapa pravrajitasya dīrghaglānyau katamau dvau / yaduta abhimānikasya ca ci<hi rend="bf">tta</hi>nidhyaptir<lb/>
+3 mahāyānasaṃprasthitānāṃ ca satvānā vichandanā imau kāśyapa dvau pravrajitasya dīrghagailā<hi rend="bf">nyau</hi> /<lb/>
+4 tatredam ucyate / 8 // nidhyapti cittasy' abhimānikānāṃ vicchandanā yāpi ca buddhayānaṃ / ime hi dve pravra<hi rend="bf">ji</hi>tasya<lb/>
+5 glānye ukte jinenāpratipudgalena //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 119 dvāv imau kāśyapa pravrajitasya acikitsauo gailānyau / katamau dvau /<lb/>
+ya<hi rend="bf">du</hi>tābhīkṣṇāpatti-āpadyanatā /
+</p><p xml:id="107">
+fol. 60r (KP-SI P/2)<lb/>
+1 avyutthānatā ceti ime kāśyapa dvau pravrajitasya acikitso glānyo 9 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 120 dvāv imau kā<hi rend="bf">śya</hi>pa<lb/>
+2 pravrajitasya śalyau katamau dvau / yaduta śikṣāpadasamatikramaṃ ca anādattasārasya ca kālakriyā<lb/>
+3 ime kāśyapa dvau pravrajitasya śalyau 10 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 121 śramaṇa śramaṇa iti kāśyapa ucyate / kiyan nu tāvat kāśya<hi rend="bf">pa</hi><lb/>
+4 śramaṇaḥ śramaṇa ity ucyate / catvāra ime kāśyapa śramaṇāḥ katame catvāraḥ yaduta varṇarūpaliṅgasaṃ<hi rend="bf">sthā</hi>naśramaṇa /<lb/>
+5 ācāraguptikuhakaśramaṇaḥ kīrtiśabdaślokaśramaṇaḥ bhūtapratipattiśramaṇaḥ ime kāśyapa
+</p><p xml:id="108">
+fol. 60v (KP-SI P/2)<lb/>
+1 catvāraḥ śramaṇāḥ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 122 tatra kāśyapa katamo varṇarūpaliṅgasaṃsthānaśramaṇaḥ iha kāśyapa ih' ekatya śramaṇa varṇarūpali<hi rend="bf">ṅga</hi>saṃsthānasamanvāgato<lb/>
+2 bhavati / saṃghāṭīpariveṣṭito muṇḍaśiraḥ supātrapāṇaiḥ parigṛhītaḥ sa ca<lb/>
+3 bhavaty apariśuddhakāyakarmasamudācāra apariśuddhavākkarmasamudācāraḥ apariśuddhamanaskarma<hi rend="bf">sa</hi>mudācāraḥ<lb/>
+4 bhavati / ayukta amuktaḥ adāntaḥ aśāntaḥ aguptaḥ avinītaḥ lubdhaḥ alaso : duḥśīlaḥ pā<hi rend="bf">pa</hi>dharmasamācāraḥ<lb/>
+5 ayam ucyate kāśyapa varṇarūpaliṅgasaṃsthānaśramaṇaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 123 tatra kāśyapa katamaḥ ācāraguptiku<hi rend="bf">ha</hi>kaḥ
+</p><p xml:id="109">
+fol. 61r (KP-SI P/2)<lb/>
+1 śramaṇaḥ iha kāśyapa ihaikatya śramaṇaḥ ācāracāritrasaṃpa<hi rend="it">n</hi>no bhavati saṃprajānacārī caturbhi īryā<hi rend="bf">pa</hi>thair<lb/>
+2 lūhānnapānabhojī saṃtuṣṭaḥ caturbhir āryavaṃśer asaṃsṛṣṭo gṛhasthapravrajitair alpabhāṣyo 'lpamantraḥ te<lb/>
+3 cāsyeryāpathāḥ kuhanalapanatayā kalpitā bhavanti / na cittapariśuddhaye / na śamāya nopaśamā<hi rend="bf">ya</hi> /<lb/>
+4 na damāya / upalaṃbhadṛṣṭikaś ca bhavati / śunyatānupalaṃbhāś ca dharmeṣu śrutvā prapātasaṃjñī bhavati /<lb/>
+5 śunyatāvādināṃ ca bhikṣūṇām antike aprasādasaṃjñīm utpādayati iyam ucyate kāśyapa ācāraguptikuhaka<hi rend="bf">śra</hi>maṇaḥ //
+</p><p xml:id="110">
+fol. 61v (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 124 tatra kāśyapa katamaḥ kīrtiśabdaślokaḥ śramaṇaḥ iha kāśyapa ihaikatya śramaṇaḥ pratisaṃkhyāya śī<hi rend="bf">laṃ</hi><lb/>
+2 rakṣati / katha<hi rend="it">ṃ</hi> māṃ pare jānīyuḥ śīlavān iti / pratisaṃkhyāya śrutam udgṛhṇīte katha<hi rend="it">ṃ</hi> māṃ pare jānīyur bahu<hi rend="bf">śru</hi>ta<lb/>
+3 iti / pratisaṃkhyāyāraṇye prativasati / katha<hi rend="it">ṃ</hi> māṃ pare jānīyur āraṇyaka iti / pratisaṃkhyā<hi rend="bf">ya</hi><lb/>
+4 alpecchaḥ saṃtuṣṭaḥ pravivikto viharati / yāvad eva paropadarśanāya na nirvedāya na virāgāya<lb/>
+5 na nirodhāya / nopaśamāya / nā saṃbodhaye / na śrāmaṇyāya / na brāhmaṇyāya / na nirvāṇāya / ayam ucya<hi rend="bf">te</hi>
+</p><p xml:id="111">
+fol. 62r (KP-SI P/2)<lb/>
+1 kāśyapa kīrtiśabdaślokaśramaṇa //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 125 tatra kāśyapa katamo bhūtapratipattiḥ śramaṇaḥ yaḥ kāśyapa bhikṣur anarthiko<lb/>
+2 bhavati kāyena ca jīvitenāpi / kaḥ punar vādo lābhasatkāraśloke / śunyatā ānimittā apraṇihitāś ca dha<hi rend="bf">rmāṃ</hi><lb/>
+3 śrutvā āptamano bhavati tathatvatāyāṃ pratipanno nirvāṇe cāpy anarthiko brahmacaryaṃ carati / kaḥ puna<hi rend="bf">r</hi><lb/>
+4 vādas traidhātukābhinandanatayā śunyatādṛṣṭyāpy anarthiko bhavati / kaḥ punar vāda ātmasatvajīvapoṣapu<hi rend="bf">dga</hi>ladṛṣṭyā /<lb/>
+5 dharmapratisaraṇaś ca bhavati / kleṣānāṃ ca adhyātma vimokṣa margati / na bahirdhā dhāvati / atyantapariśuddhaś ca
+</p><p xml:id="112">
+fol. 62v (KP-SI P/2)<lb/>
+1 prakṛtyā sarvadharmā asaṃkliṣṭān paśyati / ātmadvīpaś ca bhavaty ananyadvīpaḥ dharmato 'pi tathāgataṃ na samanupaśyati kaḥ pu<hi rend="bf">na</hi>r<lb/>
+2 vāda rūpakāyena / virāgato 'pi dharmaṃ nābhiniviśate kaḥ punar vāda rutavākpathodāharaṇena / asaṃ<hi rend="bf">skṛ</hi>tam<lb/>
+3 api cāryasaṃghaṃ na vikalpayati / kaḥ punar vādo gaṇasaṃnipātataḥ nāpi kasyacid dharmasya pra<hi rend="bf">hā</hi>ṇāyābhiyukto<lb/>
+4 bhavati na bhāvanāyai na sākṣīkriyāya / na saṃsāre virohati / na nirvāṇam abhi<hi rend="bf">na</hi>ndati /<lb/>
+5 na mokṣaṃ paryeṣate / na bandhaṃ / prakṛtiparinirvṛtā ca sarvadharmān viditvā na saṃsarati na pariṇirvāya<hi rend="bf">ti</hi> /
+</p><p xml:id="113">
+fol. 63r (KP-SI P/2)<lb/>
+1 ayam ucyate kāśyapa bhūtapratipattiḥ śramaṇaḥ // bhūtapratipattyā śrāmaṇyā yogaḥ karaṇīyo na nāmahe<hi rend="bf">tu</hi>na<lb/>
+2 bhavitavyo ime kāśyapa catvāra śramaṇā / tatredam ucyate //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 126 yo kāyavākcittamaner aśuddho adā<hi rend="bf">nt'</hi><lb/>
+3 agupto avinīta lubdho muṇḍaśiraś cīvarapātrapāṇī saṃsthānaliṅgā śramaṇeṣu vukto 1<lb/>
+ācāracaryāpi<lb/>
+4 samanvito pi rūkṣānnabhojī kuhanādisevī caturāryavaṃśehi samanvito pi saṃsarga dūrāt parivarjayan<hi rend="bf">to</hi> 2<lb/>
+5 te cāsya sarve na damāya bhonti na śāntaye nāpi ca nirvidāya / śunyānimitteṣu prapātasaṃjñī ā<hi rend="bf">cā</hi>raguptiḥ
+</p><p xml:id="114">
+fol. 63v (KP-SI P/2)<lb/>
+1 kuhako dvitīyo : 3 dhutāguṇā śīla śrutaṃ samādhiḥ parasya visvāpanahetu kurvati / na śāntaye nāpi ca<lb/>
+2 nirvidāya kīrtīyaślokaśramaṇo tṛtīya / 4 kāyena yo '<hi rend="it">n</hi>arthika jīvitena vā yo lābhasatkārapa<hi rend="bf">rā</hi>mukhaś ca<lb/>
+3 vimokṣa-utpādamukhaṃ ca śrutvā anarthikā sarvabhavadgatīṣu / 5 // atyantaśunyāś ca parīkṣ<hi rend="it">y</hi>a dharmā<hi rend="bf">n</hi><lb/>
+4 na nirvṛtiṃ paśyati nāpy anirvṛtiṃ / virāgato dharmam avekṣate sadā asaṃskṛtaṃ dharmam anitya nirvṛtaḥ 6 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 127 tadya<hi rend="bf">thā</hi>pi<lb/>
+5 nāma kāśyapa daridrapuruṣasya samṛddhakośa iti nāmadheyaṃ bhavet* tat kiṃ manyase kāśyapa anurūpaṃ
+</p><p xml:id="115">
+fol. 64r (KP-SI P/2)<lb/>
+1 tasya daridrapuruṣasya tan nāmadheyaṃ bhavet* āha no hīdam bhadanta bhagavan* bhagavān āha / evam eva kāśyapa ye te śra<hi rend="bf">ma</hi>ṇabrāhmaṇā<lb/>
+2 ity ucyante / na ca śrāmaṇyabrāhmaṇyasamanvāgatā bhavanti / tān ahaṃ daridrapuruṣān iti vadāmi /<lb/>
+3 tatredam ucyate // yathā daridrasya bhaveta nāmaṃ samṛddhakośaṃ ti na tac ca śobhate / śrāmaṇyahīna śramaṇo na<lb/>
+4 śobhate daridra āḍhyeti va ucyamānaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 128 tadyathāpi nāma kāśyapa kaścid eva puruṣo mahatā udakārṇaveno<hi rend="bf">hya</hi>mānaḥ<lb/>
+5 tṛṣayā kālaṃ kuryāt* evam eva kāśyapa ih' ekatye śramaṇabrāhmaṇo bahūn dharmān paryāpnuvanti na rā<hi rend="bf">ga</hi>tṛṣṇān
+</p><p xml:id="116">
+fol. 64v (KP-SI P/2)<lb/>
+1 vinodayanti / na dveṣatṛṣṇā na mohatṛṣṇā śaknuvanti vinodayituṃ / te mahatā dharmārṇavenohyamānā kleśatṛṣṇayā<lb/>
+2 kālagatā durgatigāmino bhavanti / tatredam ucyate 2 // yathā manuṣyo udakārṇavena uhyāti tṛṣṇāya kareya<lb/>
+3 kālam* tathā paṭhantā bahudharma tṛṣṇayā dharmārṇavasthā pi vrajanty apāyaṃ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 129 tadyathāpi nāma kāśyapa vaidyo o<hi rend="bf">ṣa</hi>dhabhāraṃ<lb/>
+4 gṛhītvā anuvicaret* tasya kaścid eva vyādhi utpadyeta na ca taṃ vyādhi śaknuyā cikitsituṃ / evam eva kā<hi rend="bf">śya</hi>pa<lb/>
+5 bahuśrutasya kleśavyādhi draṣṭavyā yas tena śrutena na śaknoti ātmanaḥ kleṣavyādhi cikitsituṃ / nirarthakaṃ tasya tac <hi rend="it">ch</hi>r<hi rend="it">u</hi><hi rend="bf">taṃ</hi>
+</p><p xml:id="117">
+fol. 65r (KP-SI P/2)<lb/>
+1 bhaviṣyati / tatredam ucyate 3 // yath' eva vaidy' auṣadhabhrastrasaṃsthe paribhrameta nikhilaṃhi loke / utpanna vyādhin na niva<hi rend="it">r</hi>tay<hi rend="it">e</hi> ca n<hi rend="it">i</hi><hi rend="bf">ra</hi>rthakaṃ<lb/>
+2 tasya bhaveta taṃ hi / bhikṣus tathā śīlaguṇer upetaḥ śrutena yukto pi na caś cikitset*<lb/>
+ayoniśa kleśasamutthitā<lb/>
+3 rujā vṛthāśramas tasya śrutābhiyogaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 130 tadyathāpi nāma kāśyapa glānaḥ puruṣo rājārhan bhaiṣajyam upayujyā<hi rend="bf">saṃ</hi>vareṇa<lb/>
+4 kālaṃ kuryāt* evam eva kāśyapa bahuśrutasya kleśavyādhi draṣṭavyaḥ yas tenāsaṃvareṇa kālaṃ karoti /<lb/>
+5 yo rājārhāṃ bhaiṣajyāṃ paryāpunitvā asaṃvareṇa apāyagāmī bhavati / tatredam ucyate 4 // yathāpi rājārhaṃ pītva bhe<hi rend="bf">ṣa</hi>jaṃ
+</p><p xml:id="118">
+fol. 65v (KP-SI P/2)<lb/>
+1 vrajen naro 'saṃvarato nipātaṃ / bahuśrutasy' eṣa tu kleśavyādhir yo 'saṃvareṇeha karoti kālam*<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 131 tadyathāpi nāma kāśyapa ana<hi rend="bf">rghaṃ</hi><lb/>
+2 vaiḍūryamahāmaṇiratnam uccāre patitam akāryopakaṃ bhavati / evam eva kāśyapa bahuśrutasya lābhasatkāra-<hi rend="bf">u</hi>ccārapatanaṃ<lb/>
+3 draṣṭavya / niṣkiṃcanaṃ devamanuṣyeṣu / tatredam ucyate 5 // ratnaṃ yathoccāragataṃ juguspitaṃ ya<hi rend="bf">thā</hi><lb/>
+4 syān na tathā yathā pura / bahuśrutasyāpi vadāmi bhikṣoḥ satkāramīḍe patanaṃ tath' eva / // tadyathāpi nāma kā<hi rend="bf">śya</hi>pa<lb/>
+5 tad eva vaiḍūryaṃ mahāmaṇiratnam amedhyāvaskarād uddhṛtaṃ bhavet sudhautaṃ suprakṣālitaṃ suparimārjitaṃ / taṃ maṇirat<hi rend="it">n</hi>asvabhāvam
+</p><p xml:id="119">
+fol. 66r (KP-SI P/2)<lb/>
+1 eva na vijahaty evam eva kāśyapa bahuśruto 'lpaprayatnena sarvakleśān viśodhayati mahāprajñāratnasvabhāvam <hi rend="it">e</hi><hi rend="bf">va</hi><lb/>
+2 na vijahāti 6 / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 132 tadyathāpi nāma kāśyapa mṛtakasya śirasi suvarṇamālā / evam eva kāśyapa duḥśīlasya <hi rend="it">kā</hi>ṣāyadhāraṇaṃ draṣṭavyaṃ / tatredam ucyate / 7 // suvarṇamāleva mṛtasya śīrṣe nyastā yathā syād atha puṣpamāl<hi rend="it">ā /</hi><lb/>
+4 kāṣāyavastrāṇi tathā viśīle dṛṣṭvāna kuryān manasaḥ pradoṣaṃ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 133 tadyathāpi nāma kāśyapa avadātavas<hi rend="it">t</hi>r<hi rend="it">aprāvṛ<hi rend="bf">ta</hi></hi>sya<lb/>
+5 pravaracandanānuliptasya śreṣṭhiputrasya vā rājaputrasya vā śirasi caṇpakamālābaddhaṃ bhavet* evam e<hi rend="it">va kāśyapa duḥ<hi rend="bf">śī</hi></hi>lavato
+</p><p xml:id="120">
+fol. 66v (KP-SI P/2)<lb/>
+1 bahuśrutasya kāṣāyadhāraṇaṃ draṣṭavya : tatredam ucyate 8 // susnātasyānuliptasya śreṣṭhiputrasya śobhan<hi rend="it">aṃ śīrṣe ca</hi><hi rend="bf">ṇpa</hi>kamāleva<lb/>
+2 śubhagandhā manoramā yathā tath' eva kāṣāyaṃ saṃvarasthe bahuśrute draṣṭavyaṃ śīlasaṃpannaj<hi rend="it">inaputre</hi><lb/>
+3 guṇānvite 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 134 catvāra ime kāśyapa duḥśīlā śīlavantapratirūpakāḥ katame catvāraḥ iha kāśyapa e<hi rend="it">ka</hi><hi rend="bf">tyo</hi><lb/>
+4 bhikṣuḥ prātimokṣasaṃvarasaṃvṛto viharati / ācāragocarasaṃpanna aṇumātreṣv avadyeṣu bhayadarśī samād<hi rend="it">ā</hi><hi rend="bf">ya</hi><lb/>
+5 śikṣate śikṣāpadeṣu / pariśuddhakāyakarmavāṅmanaskarmaṇā samanvāgato viharati / pariśuddhājīvaḥ sa ca bhav<hi rend="it">a</hi><hi rend="bf">ty</hi>
+</p><p xml:id="121">
+fol. 67r (KP-SI P/2)<lb/>
+1 ātmavādī ayaṃ kāśyapa prathamo duḥśīlaḥ śīlavantapratirūpako draṣṭavyaḥ // punar aparaṃ kāśyapa ih' ekatyo bhikṣur vinaya<hi rend="bf">dha</hi>ro bhavati /<lb/>
+2 pravartitavinayo vinayaguptipratiṣṭhitaḥ satkāyadṛṣṭir asyānucalitā bhavati / ayaṃ kāśyapa <hi rend="it">dvi</hi><hi rend="bf">tī</hi>yo<lb/>
+3 duḥśīlaḥ śīlavantapratirūpakaḥ // punar aparaṃ kāśyapa ih' ekatyo bhikṣuḥ maitrāvihāri bhavati satvāraṃ<hi rend="it">ba</hi><hi rend="bf">ṇa</hi>yā<lb/>
+4 samanvāgataḥ sa ca ajāti sarvadharmāṇāṃ śrutvā u<hi rend="it">t</hi>trasati / saṃtrasati / saṃtrāsam āpadyate / ayaṃ kā<hi rend="it">śyapa</hi><lb/>
+5 tṛtīyo duḥśīlaḥ śīlavantapratirūpakaḥ // punar aparaṃ kāśyapa ih' ekatyo bhikṣuḥ dvādaśadhutaguṇasa<hi rend="it">mādāya vartate</hi>
+</p><p xml:id="122">
+fol. 67v (KP-SI P/2)<lb/>
+1 upalaṃbhadṛṣṭikaś ca bhavaty ahaṃkārasthitaḥ ayaṃ kāśyapa caturtho duḥśīlaḥ śīlavantapratirūpako dra<hi rend="it">ṣṭavyaḥ ime kāśya</hi><hi rend="bf">pa</hi><lb/>
+2 catvāro duḥ<hi rend="it">śī</hi>lā śīlavantapratirūpakā draṣṭavyāḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 135 śīlaṃ śīlam iti kāśyapa ucyate / yatra nātmā + nair. +<lb/>
+3 nātmīyaṃ na satvo na satvaprajñaptiḥ na kriyā nākriyā / na karaṇaṃ nākaraṇaṃ / na cāro nācāraḥ na pracā<hi rend="it">ro</hi><lb/>
+4 nāpracāraḥ na nāmaṃ na rūpa / na nimittaṃ nānimittaṃ / na śamo na praśamaḥ na grāho notsargaḥ na grāhyaṃ nā<hi rend="it">g</hi>r<hi rend="it">ā</hi><hi rend="bf">hya</hi> /<lb/>
+5 na satvo na satvaprajñaptiḥ na vāṅ na vākprajñapti na cittaṃ na cittaprajñaptiḥ na loko nālokaḥ na niśrayo nā<hi rend="it">ni</hi><hi rend="bf">śra</hi>yaḥ
+</p><p xml:id="123">
+fol. 68r (KP-SI P/2)<lb/>
+1 nātmaśīlotkarṣaṇā / na paraduḥśīlapaṃsanā / na śīlamanyanā / na śīlakalpanā / na vikalpanā / na saṃka<hi rend="bf">lpa</hi>nā /<lb/>
+2 na parikalpanā / iyam ucyate kāśyapa āryāṇāṃ śīla / anāsravam aparyāpannaṃ traidhātukānu<hi rend="bf">ga</hi>taṃ<lb/>
+3 sarvaniśrayāpagaṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 136 atha bhagavāṃs tasyāṃ velāyam imāṃ gāthām abhāṣataḥ // na śīlavantasya m<hi rend="it">alaṃ</hi><lb/>
+4 na kiṃcana na śīlavantasya mado na niśrayaḥ na śīlavantasya tamo na bandhanam* na śīlavantasya rajo na d<hi rend="it">oṣaḥ</hi><lb/>
+5 śāntapraśānta-upaśāntamānaso kalpavikalpāpagato niraṃgaṇaḥ sarveñjanāmanyanavipramuk<hi rend="it">t</hi>aḥ <hi rend="it">sa</hi> śī<hi rend="it">lavā</hi><hi rend="bf">n</hi>
+</p><p xml:id="124">
+fol. 68v (KP-SI P/2)<lb/>
+1 kāśyapa buddhaśāsane : na kāyasāpekṣi na jīvitārthiko hy anarthikaḥ sarvabhavopapattibhiḥ samyaggat<hi rend="it">a</hi>ḥ sḥ ḥ ḥ ḥ<lb/>
+2 pratiṣṭhitaḥ sa śīlavān kāśyapa buddhaśāsane / 3 na lokalipto na ca lokaniśrito : ālokaprāpto amamo <hi rend="it">aki</hi><hi rend="bf">ñca</hi>naḥ<lb/>
+3 na cātmasaṃjñī na pareṣu saṃjñī saṃjñā parijñāya viśuddhaśīlaḥ 4 yasyā na 'pāraṃ na ca pāramadhy<hi rend="it">aṃ a</hi><hi rend="bf">pā</hi>rapāre<lb/>
+4 ca na jātu saktaḥ avabaddh' asakto akuho anāsravaḥ sa śīlavān kāśyapa buddhaśāsane / 5<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 137 nāme ca<lb/>
+5 rūpe ca asaktamānasaḥ samāhitas so hi sudāntacittaḥ yasyeha ātmā na ca ātmanīyā-m-etāvatā śīlasthi<hi rend="bf">to</hi>
+</p><p xml:id="125">
+fol. 69r (KP-SI P/2)<lb/>
+1 nirucyate / 6 na śikṣayā manyati prātimokṣe na cāpi tena bhavateha tanmayo / athottaraṃ margati āryamārge viśuddhaśīlasy<hi rend="it">a</hi><lb/>
+2 ime nimittā 7 na śīlaparamo na samādhitanmayo : paryeṣate-d-uttari prajñabhāvanā / anopalaṃbham āryāṇa gotraṃ<lb/>
+3 viśuddhaśīla<hi rend="it">ṃ</hi> sugatapraśastam* satkāyadṛṣṭe hi vimuktamānaso ahaṃ mametīha na tasya bhoti / adhimucyate<lb/>
+4 śunyata buddhagocaram imasya śīlasya samo na vidyate / 9 śīle pratiṣṭhāya samādhi śuddhaḥ samādhiprāptasya ca<lb/>
+5 prajñabhāvanā / prajñāya jñānaṃ bhavate viśuddhaṃ viśuddhajñānasya ca śīlasaṃpadā / 10 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 138 asmin khalu punar gāthābhinirhāre
+</p><p xml:id="126">
+fol. 69v (KP-SI P/2)<lb/>
+1 bhāṣyamāṇe aṣṭānāṃ bhikṣuśatānām anupādāyāsravebhyaś cittāni vimuktāni / dvātriṃśatīnāṃ ca prāṇasahasrāṇāṃ vira<hi rend="bf">jo</hi><lb/>
+2 vigatamalaṃ dharmeṣu dharmacakṣur viśuddhaṃ / paṃca bhikṣuśatāni dhyānalābhī<hi rend="it">ny</hi> utthāyāsanebhyaḥ prakrāntāni i<hi rend="bf">māṃ</hi><lb/>
+3 gaṃbhīrā<hi rend="it">ṃ</hi> dharmadeśanāṃ nāvataranto nāvagāhamānāḥ anadhimucyamānāḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 139 athāyuṣmān mahākāśyapo bhaga<hi rend="bf">va</hi>ntam<lb/>
+4 etad avocat* imāni bhagavāṃ paṃca bhikṣuṣatāni dhyānalābhīny utthāyāsanebhyaḥ prakrāntāni / imā<hi rend="it">ṃ</hi><lb/>
+5 gaṃbhīrā<hi rend="it">ṃ</hi> dharmadeśanām nāvataranto nāvagāhanto-m-anadhimucyamānāḥ bhagavān āha / tathā hy ete kāśyapa bhikṣavaḥ
+</p><p xml:id="127">
+fol. 70r (KP-SI P/2)<lb/>
+1 adhimānikā te-m-anadhimucyamānā imāṃ gaṃbhīrā<hi rend="it">ṃ</hi> gāthābhinirhārām anāsravaṃ śīlaviśuddhinirdeśaṃ śrutvā nāva<hi rend="bf">ta</hi>ranti<lb/>
+2 nādhimucyanti nāvagāhanti tat kasmād dheto gaṃbhīro 'yaṃ kāśyapa gāthābhinirhāraṃ gaṃbhīrā buddhānā bha<hi rend="bf">ga</hi>vantānāṃ<lb/>
+3 bodhi sā na śakyam anavaropitakuśalamūle pāpamitraparigṛhīter anadhimuktibahule satvai<hi rend="bf">r</hi><lb/>
+4 adhimucyituṃ vā paryāpunituṃ vā avatarituṃ vā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 140 api ca kāśyapa etāni paṃca bhikṣuśatāni kāśyapa<hi rend="bf">sya</hi><lb/>
+5 tathāgatasyārhata samyaksaṃbuddhasya pravacane anyatīrthikaśrāvakā abhūvan* te kāśyapasya tathāga<hi rend="bf">ta</hi>syāntikād
+</p><p xml:id="128">
+fol. 70v (KP-SI P/2)<lb/>
+1 upāraṃbhābhiprāyair ekā dharmadeśanā śrutā śrutvā c' eva cittaprasādo labdha āścāryaṃ yāvan madhurapriyabhā<hi rend="bf">ṇī</hi><lb/>
+2 khalv ayaṃ kāśyapas tathāgato 'rhāṃ saṃyaksambuddha iti / te tataś cyuta samānā ekacittaprasādena kāla<hi rend="bf">ga</hi>tāḥ<lb/>
+3 trāyastriṃśeṣu deveṣūpapannāḥ ten' eva hetunā iha mama śāsane pravrajitāḥ tāny etāni kā<hi rend="bf">śya</hi>pa<lb/>
+4 paṃca bhikṣuśatāni dṛṣṭigatapraskanditāni imāṃ gaṃbhīrā dharmadeśanā nāvataranti nāvagāhan<hi rend="bf">ti</hi><lb/>
+5 nādhimucyante na śraddadhanti / kṛtaṃ punar eṣā 'm ayaṃ dharmadeśanāyā parikarma na bhūyo vinipātagāmino bhavi<hi rend="bf">ṣya</hi>nti /
+</p><p xml:id="129">
+fol. 71r (KP-SI P/2)<lb/>
+1 ebhir eva skandhaiḥ parinirvāsyanti / //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 141 tatra bhagavān āyuṣmantaṃ subhūtim āmantrayati sma / gaccha tvaṃ subhūte<lb/>
+2 etān bhikṣu saṃjñapaya subhūtir āha / bhagavata eva tāvad ete bhikṣavo bhāṣitaṃ prativilomayanti kaḥ<lb/>
+3 punar vādo mama / atha khalu bhagavāṃs tasyāṃ velāyā<hi rend="it">ṃ</hi> yena mārgeṇa 'te bhikṣavo gacchanti sma / tasmin mā<hi rend="bf">rge</hi><lb/>
+4 dvau bhikṣu nirmimīte sma / atha tāni paṃca bhikṣuśatāni yena mārgeṇa tau dvau bhikṣu nirmitau tenopasaṃkrāma<hi rend="bf">nn</hi><lb/>
+5 upasaṃkramy' evam avocan* kutra āyuṣmanto gamiṣyatha : tāv avocatā : gamiṣyāma vayam araṇyāyataneṣ<hi rend="it">u</hi>
+</p><p xml:id="130">
+fol. 71v (KP-SI P/2)<lb/>
+1 sukhaṃ phāṣaṃ vihariṣyāmaḥ tat kasmād dhetor yaṃ hi bhagavān dharmaṃ deśayati tām āvā<hi rend="it">ṃ</hi> dharmadeśanāṃ nāva<hi rend="it">ta</hi>rāvo nāvagāhām<hi rend="it">a</hi><hi rend="bf">he</hi> /<lb/>
+2 n' adhimucyāvahe / u<hi rend="it">t</hi>trasāvaḥ saṃtrasāvaḥ saṃtrāsam āpadyāmahe / tāv āvām araṇyāyataneṣu sukhaṃ<lb/>
+3 vihariṣyāmaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 142 tāny api paṃca bhikṣuśatāny etad avocan* vayam apy āyuṣmanto bhagavato dharmadeśanā nāvatarāmo<lb/>
+4 nāvagāhāmahe nādhimucyāmahe / u<hi rend="it">t</hi>trasāmaḥ saṃtrasāmaḥ saṃtrāsam āpadyāmahe / te vayam araṇyāya<hi rend="it">ta</hi>ne<hi rend="bf">ṣu</hi><lb/>
+5 dhyānasukhavihārair vihariṣyāmaḥ nirmitakāv avocatā saṃgāyiṣyāma vayam āyuṣmanto na vivadiṣyāmaḥ avi<hi rend="bf">vā</hi>daparamo
+</p><p xml:id="131">
+fol. 72r (KP-SI P/2)<lb/>
+1 hi śramaṇadharmaḥ yad iha-m-āyuṣmanta ity ucyate parinirvāṇam iti / katamaḥ sa dharmo yaḥ pari<hi rend="it">nirvā</hi><hi rend="bf">sya</hi>ti<lb/>
+2 kaścit punar asmiṃ kaye ātmā vā satvo vā jīvo vā jantur vā poṣo vā pudgalo vā manujo vā mānavo <hi rend="it">vā</hi><lb/>
+3 kartā vā kārako vā vedako vā jānako vā saṃjānako vā utthāpako vā samutthāpako vā yaḥ parinirvāsyati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 143 te āhu<hi rend="it">ḥ /</hi><lb/>
+4 na kvacid asti / asmiṃ kāye ātmā vā satvo vā jīvo vā jantur vā puruṣo vā pudgalo vā manujo vā mānavo <hi rend="it">vā</hi><lb/>
+5 kartā vā kārako vā vedako vā jānako vā saṃjānako vā utthāpako vā yaḥ parinirvāsyati / nirmitakā prāhu<hi rend="it">ḥ</hi> / <hi rend="it">kiṃ</hi>
+</p><p xml:id="132">
+fol. 72v (KP-SI P/2)<lb/>
+1 puna sākṣīkṛyāyā parinirvāsyatīti / te āhuḥ rāgakṣayāya dveṣakṣayāya mohakṣayāya āyuṣmanta par<hi rend="it">i</hi><hi rend="bf">ni</hi>rvāṇam iti /<lb/>
+2 nirmitakā prāhuḥ kiṃ punar āyuṣmatā rāgadveṣamohāḥ saṃvidyante yāṃ kṣapayiṣyatha / te<lb/>
+3 āhu / na te ādhyātmena na bahirdhā nobhayam antareṇopalabhyante / nāpi te aparikalpitā utpadyan<hi rend="it">t</hi>e<lb/>
+4 nirmitakāv avocatā / tena-m-āyuṣmanto māsmān kalpayata : māsmān vikalpayata : yadāyuṣmanto <hi rend="it">na</hi><lb/>
+5 kalpayiṣyatha : na vikalpayiṣyatha : tadāyuṣmanto na raṃkṣyatha na viraṃkṣyatha : yaś cāyuṣmanto na rakto na viraktaḥ <hi rend="it">sa</hi>
+</p><p xml:id="133">
+fol. 73r (KP-SI P/2)<lb/>
+1 śānta ity ucyate /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 144 śīlam āyuṣmanto na saṃsarati na parinirvāti samādhiprajñāvimuktivimuktijñānadarśanam āyuṣ<hi rend="it">manto</hi><lb/>
+2 na saṃsarati na parinirvāti / ebhiś c' evāyuṣmanto dharmai nirvāṇaṃ sūcyate / ete ca dharmā śūnyā viviktā agrā<hi rend="it">hyāḥ</hi><lb/>
+3 prajahīte 'tām āyuṣmantaḥ saṃjñā yaduta parinirvāṇam iti mā ca saṃjñāyā saṃjñā kārṣṭa : mā asaṃjñāyā <hi rend="it">mā</hi><lb/>
+4 ca saṃjñayā saṃjñā parijñāsiṣṭa / yaḥ saṃjñayā saṃjñā parijānāti saṃjñābandhanam evāsya tad bhavati / saṃ<hi rend="it">jñā</hi><hi rend="bf">ve</hi>dayitanirodhasamāpattim<lb/>
+5 āyuṣmantaḥ samāpadyadhvaṃ mā ca kalpayatha mā vikalpayatha : saṃjñāvedayita<hi rend="it">niro</hi><hi rend="bf">dha</hi>samāpattisamāpannasya
+</p><p xml:id="134">
+fol. 73v (KP-SI P/2)<lb/>
+1 bhikṣor nāsty uttare karaṇīyam iti vadāmaḥ<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 145 asmiṃ khalu punar dharmaparyāye bhāṣyamāṇe <hi rend="it">te</hi><hi rend="bf">ṣāṃ</hi><lb/>
+2 paṃcānāṃ bhikṣuśatānām anupādāyāsravebhyaḥ cittāni vimuktāni / te vimuktacittā yena bhagavāṃs te<hi rend="it">no</hi><hi rend="bf">pa</hi>saṃkramann<lb/>
+3 upasaṃkramya bhagavataḥ pādau śirobhir vanditvā ekānte nyaṣīdan* athāyuṣmān subhutis tā<hi rend="it">n bhi</hi><hi rend="bf">kṣū</hi>n<lb/>
+4 etad avocat* kva nu khalv āyuṣmanto gatā kuto vā āgatāḥ te avoca<hi rend="it">ṃ</hi> na kvacid gamanāya / na kutaścid āga<hi rend="it">ma</hi><hi rend="bf">nā</hi>ya /<lb/>
+5 bhadanta subhūte bhagavatā dharmo deśitaḥ subhūtir āha / ko nāmāyuṣmantā<hi rend="it">ṃ</hi> śāstā / te āhuḥ yo <hi rend="it">no</hi>tpanno <hi rend="it">na pa</hi><hi rend="bf">ri</hi>nirvāsyati /
+</p><p xml:id="135">
+fol. 74r (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 146 subhūtir āha / kasya yuṣme śrāvakā kasya sakāśād yuṣme vinītā te āhur yena na prāpta nābhisaṃ<hi rend="it">buddhaḥ</hi><lb/>
+2 subhūtir āha / kasya sakāśād yuṣmākaṃ dharmaṃ śrutaṃ / te āhu<hi rend="it">r</hi> yasya na skandhā na dhātavo nāyatanāni 3 subhū<hi rend="it">ti</hi><hi rend="bf">r</hi><lb/>
+3 āha / kathaṃ punar yuṣme dharmaṃ śrutaṃ / te āhur na bandhanāya na mokṣāya / 4 subhūtir āha / kathaṃ yūyaṃ pra<hi rend="it">yu</hi><hi rend="bf">ktā</hi><lb/>
+4 te āhu<hi rend="it">ḥ</hi> / na yogāya na prayogāya / na prahāṇāya / 5 subhūtir āha kena yūyaṃ vinītāḥ te ā<hi rend="bf">hu</hi>ḥ<lb/>
+5 yasya na kāyapāriniṣpattir na cittapracāraṃ / 6 subhūtir āha / kathaṃ yuṣmābhi prayujyamānā vimuktāḥ <hi rend="it">te</hi>
+</p><p xml:id="136">
+fol. 74v (KP-SI P/2)<lb/>
+1 āhuḥ nāvidyaprahāṇāya na vidyotpādāya 7<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 147 subhūtir āha / kasya yūyaṃ śrāvakāḥ te āhuḥ yasya na prāpto nābh<hi rend="it">i</hi><hi rend="bf">saṃ</hi>buddhaḥ 8<lb/>
+2 subhūtir āha / kevacirena yūyaṃ parinirvāsyatha : te āhuḥ yāvaccireṇa tathāgatanirmi<hi rend="it">ta</hi><hi rend="bf">kā</hi>ḥ<lb/>
+3 parinirvāsyanti tāvaccireṇa vayaṃ parinirvāsyāmaḥ 9 subhūtir āha / kṛtaṃ yuṣmābhi svakārth<hi rend="it">a</hi><lb/>
+4 te āhuḥ arthānupalabdhatvāt 10 subhūtir āha / kṛtaṃ yuṣmābhiḥ karaṇīya / te āhu / kārakānupa<hi rend="it">la</hi><hi rend="bf">bdhi</hi>tvāt* 11<lb/>
+5 subhūtir āha / ke 'va yuṣmākaṃ sabrahmacāriṇa / te āhuḥ / ye traidhātuke nopacaranti / na pracaran<hi rend="it">ti 12</hi>
+</p><p xml:id="137">
+fol. 75r (KP-SI P/2)<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 148 subhūtir āha / kṣīṇā yūṣmākaṃ kleśāḥ te āhur atyantakṣayatvāt sarvadharmāṇāṃ 13 subhūtir āha / dharṣitā yu<hi rend="it">ṣmabhi</hi><hi rend="bf">r</hi><lb/>
+2 māraḥ te āhuḥ skandhamārānupalabdhitvāt* 14 subhūtir āha / paricīrṇo yuṣmābhis tathāgataḥ te āhu<hi rend="it">r na</hi><lb/>
+3 kāyena <hi rend="it">na vācā</hi> na cittena 15 subhūtir āha / sthitā yuṣmākaṃ dākṣīṇeyabhūmau : te āhuḥ agrāhataḥ a<hi rend="it">pra</hi><hi rend="bf">ti</hi>grāhataḥ 16<lb/>
+4 subhūtir āha / cchinnā yūyaṃ saṃsāraṃ / te āhuḥ anuccheda-aśāśvatatvāt* 17 su<hi rend="it">bhū</hi><hi rend="bf">ti</hi>r<lb/>
+5 āha / pratipannā yūyaṃ śramaṇabhūmau / te punar āhuḥ asaṃgāvimuktau / 18 subhūtir ā<hi rend="it">ha /</hi>
+</p><p xml:id="138">
+fol. 75v (KP-SI P/2)<lb/>
+1 ki<hi rend="it">ṃ</hi>gāmināyuṣmantaḥ te āhuḥ yadgaminas tathāgatanirmitāḥ 19 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 149 iti hy āyuṣmataḥ subhūte<hi rend="it">ḥ</hi> paripṛcchataḥ teṣā<hi rend="it">ṃ ca</hi><lb/>
+2 bhikṣūṇāṃ visarjayantānāṃ / tasyā parṣadi aṣṭānāṃ bhikṣuśatānāṃ paṃcānāṃ ca bhikṣuṇīśatānām anupādāya<hi rend="it">sra</hi><hi rend="bf">ve</hi>bhyaś<lb/>
+3 cittāni vimuktāni / dvātriṃśatīnāṃ ca prāṇasahasrāṇāṃ sadevamānuṣikāyāṃ prajāyāṃ virajo vigata<hi rend="it">malaṃ</hi><lb/>
+4 dharmeṣu dharmacakṣur viśuddham* //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 150 atha khalu samantāloko nāma bodhisatvo mahāsatvo bhagavantam etad avocat* i<hi rend="it">ha bha</hi><hi rend="bf">ga</hi>van<lb/>
+5 mahāratnakūṭe dharmaparyāye śikṣitukāmena bodhisatvena kathaṃ sthātavyaṃ kathaṃ pratipattavyaṃ / kathaṃ śikṣitavyam* <hi rend="it">bhaga</hi><hi rend="bf">vā</hi>n
+</p><p xml:id="139">
+fol. 76v (KP-SI P/2)<lb/>
+1 āha / udgṛhya kulaputra iha dharmaparyāye śikṣā ākhyātā pratipattisārāṇāṃ satpuruṣāṇām iyaṃ dharmapa<hi rend="it">r</hi>y<hi rend="it">ā</hi><hi rend="bf">yo</hi><lb/>
+2 bahvarthakaro bhaviṣyati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 151 tadyathāpi nāma kulaputra kaścid eva puruṣaḥ mṛnmayīnāv' abhiruhya gaṃgān<hi rend="it">adī</hi><hi rend="bf">m</hi><lb/>
+3 uttartukāmo bhavet* tat kiṃ manyase kulaputra kīdṛśena vīryeṇa tena puruṣeṇa sā nor vāhayitavyā bhave<hi rend="it">t* ā</hi><hi rend="bf">ha</hi><lb/>
+4 balavatā bhagavan vīryeṇa / tat kasmād dhetoḥ mā me asaṃprāptapārasy' evāntareṇa naur vipadyeta / mahā-o<hi rend="it">ghā</hi><hi rend="bf">rṇa</hi>vaprāpto<lb/>
+5 'smin mā haivāntareṇāyaṃ nāvā vikīryeta / bhagavān āha / evam eva samantāloka ato bahutare<hi rend="it">ṇa</hi>
+</p><p xml:id="140">
+fol. 76v (KP-SI P/2)<lb/>
+1 balavantatareṇa vīryeṇa bodhisatvena bodhiḥ samudānayitavyā : mahābalavīryeṇa ca buddhadharmā samudānayita<hi rend="it">vyā</hi><lb/>
+2<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 152 eva<hi rend="it">ṃ</hi> manasīkāreṇa anityo batāyaṃ kāyaḥ caturmahābhūtikaḥ mātāpitṛkalalasaṃbhūta / adhruvo<lb/>
+3 'nāśvāsikaḥ vipariṇāmadharmaḥ ucchadasnapanaparimardanabhedanavikiraṇavidhvaṃsanadharmaḥ odan<hi rend="it">aku</hi><hi rend="bf">lmā</hi>ṣopacitaḥ {MS: odanakulmāsopacitaḥ}<lb/>
+4 acirasthāyī anāhāro na tiṣṭhati / jarjaragṛhasadṛśo durbalaḥ mā haiva anādattasā<hi rend="it">ra</hi><hi rend="bf">syā</hi>ntareṇa<lb/>
+5 kālakriyā bhaviṣyati / mahoghārṇavaprāpto 'smi caturottararogaśataprāptānāṃ satvānām uhyamān<hi rend="it">ānā</hi><hi rend="bf">m<lb/>
+<hi rend="bf"></hi><lb/>
+fol. 77r (KP-SI P/2)<lb/>
+1 uttāraṇatāyā bodhisatvena mahādharmanāvaṃ samudānayiṣyāmi / yayā dharmanāvā sarvasatvā saṃsār<hi rend="it">ārṇa</hi><hi rend="bf">va</hi>prāptān<lb/>
+2 uhyamānān uttārayiṣyāmi /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 153 tatra samantāloka kīdṛśe dharmanau bodhisatvasya samudānayi<hi rend="it">tavyā</hi><lb/>
+3 iha samantāloka bodhisatvena dharmanāvā samudānayitavyā yaduta sarvasamacittasaṃbhārāḥ <hi rend="it">bha</hi><hi rend="bf">va</hi>nti<lb/>
+4 anantapuṇyopacitā śīlaphalanirjātā dānaparivārālaṃkārālaṃkṛtā : āśayadṛḍhasārab<hi rend="it">andha</hi><hi rend="bf">na</hi>subaddhā :<lb/>
+5 kṣāntisauratyasmṛtiśalyabaddhā saptabodhyaṃgasaṃbhāradṛḍhavīryakuśaladharmadārusamudānitā dhyān<hi rend="it">aci</hi><hi rend="bf">tta</hi>kramanīyakarmaṇīkṛtā :</hi>
+</p><p xml:id="141">
+fol. 77v (KP-SI P/2)<lb/>
+1 dāntaśāntājāneyakuśalaśilpasuniṣṭhitā atyantākopyadharmamahākaruṇāsaṃgṛhī<hi rend="it">tā</hi><lb/>
+2 catuḥsaṃgrahavastuśūraturagavāhinī pratyarthikaprajñājñānasupratirakṣitā / upāyakauśalyasukṛtavic. +<lb/>
+3 catubrahmavihārasuśodhitāṃ /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 154 catusmṛtyupasthānasucintitakāyopanītā / samyakprahāṇaprasaṭhā ri<hi rend="it">ddhipā</hi><hi rend="bf">da</hi>javajavitā /<lb/>
+4 indriyasunirīkṣita dānavakravigata balavegasamudgatā antareṇa 'śithilā bodhyaṃgavibodhan.<lb/>
+5 ariśatrumārapathajahanī mānokramavāhinī / kutīrthyatīrthajahanī / śamathanidhyaptinirdiṣṭā / vipaśyanāpra<hi rend="it">yo</hi><hi rend="bf">gā</hi> /
+</p><p xml:id="142">
+fol. 78r (KP-SI P/2)<lb/>
+1 ubhayor antayor asaktavāhinī / hetudharmayuktā vipulavistīrṇākṣayaprahāṇābandhā vighuṣṭaśabdā daśa<hi rend="it">su di</hi><hi rend="bf">kṣu</hi><lb/>
+2 śabdam ādāyaty āgacchatāgacchatābhiru<hi rend="it">ha</hi>ta mahādharmanāvaṃ nirvāṇapuragāminī / kṣemamārgagāminī / ma<hi rend="it">h</hi>ā<hi rend="it">pāri</hi><hi rend="bf">ma</hi>tīra<lb/>
+3 satkāyadṛṣṭiṃ jahanīṃ / pārimatīragāminī laghusarvadṛṣṭigatavigatā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 155 īdṛśī kulaputra dharma<hi rend="it">nau</hi><lb/>
+4 bodhisatvena samudānayitavya : aparimāṇakalpakoṭīnayutaśatasahasraparikhinnamānasena / <hi rend="it">sa</hi><hi rend="bf">rva</hi>satvānām<lb/>
+5 arthāya anayā saddharmanāvā sarvasatvā tārayitavyā : caturbhir oghe uhyamānā : īdṛ<hi rend="it">śī</hi>
+</p><p xml:id="143">
+fol. 78v (KP-SI P/2)<lb/>
+1 nāvā kulaputra bodhisatvena samudānayitavyā : tatra samantāloka katāmā bodhisatvasya kṣiprābhijñatā / yaduta akṛ<hi rend="it">tri</hi><hi rend="bf">ma</hi>ḥ<lb/>
+2 prayogaḥ sarvasatveṣu / tīvracchandikatā āśayaśuddhyā / utaptavīryatā sarvakuśalamūlasamudānaya .. +<lb/>
+3 ye kuśalacchandikatā yoniśamanasikāreṇa śrutātṛptatā prajñāpāripūryai : nirmānatā prajñopa<hi rend="it">cayā</hi><hi rend="bf">ya</hi> /<lb/>
+4 pravrajyānimnatāi sarvaguṇaparipūryai araṇyavāsaḥ kāyacittavivekatayā /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 156 asaṃsargo durjan. +<lb/>
+5 na vivarjanatayā / dharmārthikatā paramārthārthapratisaraṇatayā / jñānārtho 'tyantākopanārthatayā / dharmā<hi rend="it">r</hi>th<hi rend="it">o jñā</hi><hi rend="bf">nā</hi>rthatayā /
+</p><p xml:id="144">
+fol. 79r (KP-SI P/2)<lb/>
+1 satyārtho avisaṃvādanārthatayā / śunyatārtho samyakprayogārthatayā / vivekārtho atyantopa<hi rend="it">śamā</hi><hi rend="bf">rtha</hi>tāyeti // iyam ucyate samantāloka bodhisatvasya mahāsatvasya kṣiprābhijñatā //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 157 atha khalv āyuṣmān ma<hi rend="it">hākā</hi><hi rend="bf">śya</hi>po<lb/>
+3 bhagavantam etad avocat* āścāryaṃ bhagavan* āścāryaṃ sugata : yāvac ceyaṃ mahāratnakūṭo sūtrāntarā<hi rend="it">j</hi>ñ.<lb/>
+4 upakārībhūto mahāyānasaṃprasthitānāṃ kulaputrāṇāṃ ca kuladuhitṝṇāṃ ca / kiyad bhagavan sa kulaputro <hi rend="it">vā</hi><lb/>
+5 kuladuhitā vā puṇyaṃ prasavati / ya ito ratnakūṭaṃ sūtrāntarājñā-d-ekagāthām apy upadiśet*<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 158 evam ukte bhaga<hi rend="it">vān ā</hi><hi rend="bf">yu</hi>ṣmantaṃ
+</p><p xml:id="145">
+fol. 79v (KP-SI P/2)<lb/>
+1 mahākāśyapam etad avocat* yo hi kāśyapa kulaputro vā kuladuhitā vā gaṃgānadīvālukasameṣu lokadhā<hi rend="it">tuṣu</hi><lb/>
+2 paramāṇurajāṃsi bhindeya bhitvā tāttakā caiva vārā vāpeya / tāttakā caiva taṃ sarvalokadhātavaḥ sapt<hi rend="it">aratna</hi><hi rend="bf">pa</hi>ripūrṇaṃ kṛtvā tathāgatebhyo 'rhadbhyaḥ samyaksaṃbuddhebhyo dānaṃ dadyāt* gaṃgānadīvālukasamānāṃ ca buddhā<hi rend="it">nāṃ</hi><lb/>
+4 bhagavantānām ekaikasya ca tathāgatasya gaṃgānadīvālukāsamān vihārān karāpayet*<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 159 gaṃgānadīvā<hi rend="it">lukāsa</hi>mānāṃ ca buddhānāṃ bhagavatām ekaikaṃ ca tathāgatasyāprameyaśrāvakasaṃghaṃ gaṃgānadīvālukāsamān kalpāṃ <hi rend="it">ca sarva</hi><hi rend="bf">su</hi>khopadhānaiḥ
+</p><p xml:id="146">
+fol. 80r (KP-SI P/2)<lb/>
+1 paricaret / teṣāṃ ca buddhānāṃ bhagavatāṃ yāvajjīva manāpena kāyakarm<hi rend="it">e</hi>ṇa vākkarmeṇa m<hi rend="it">anaska</hi><hi rend="bf">rme</hi>ṇa<lb/>
+2 upasthānapāricaryāya tāttakā caiva gaṃgānadīvālukāsamāṃ lokadhātavaḥ paramāṇurajāṃsi <hi rend="it">ta</hi><hi rend="bf">tta</hi>kā<lb/>
+3 bhidya bhitvā vā tāttakā caiva vārā vāpeya / tān sarvaṃ lokadhātuḥ saptaratnaparipūrṇaṃ kṛtv<hi rend="it">ā dā</hi><hi rend="bf">naṃ</hi><lb/>
+4 dadyād buddhānāṃ bhagavatāṃ yāvajjīvaṃ ca manāpena kāyakarmaṇā vākkarmaṇā manaskarmaṇā upa<hi rend="it">sthāna</hi><hi rend="bf">pā</hi>ricaryāya<lb/>
+5 tāttakā caiva gaṃgānadīvālukāsamān api tāttakā caiva buddhānāṃ bhagavatāṃ satkuryād g<hi rend="it">urukuryā</hi><hi rend="bf">n</hi>
+</p><p xml:id="147">
+fol. 80v (KP-SI P/2)<lb/>
+1 mānayet pūjayet teṣāṃ ca parinirvṛtānāṃ saptaratnamayā stupā kārāpayet* yaś ca kulaputro vā kula<hi rend="it">duhi</hi><hi rend="bf">tā</hi><lb/>
+2 vā ito mahāratnakūṭāt sūtrāntarājñā sarvabuddhabhāṣitād ekām api gāthā udgṛhṇeya dhāra<hi rend="it">yet*</hi><lb/>
+3 asya puṇyaskandhasya sa pūrvakapuṇyaskandhaḥ śatimām api / kalā<hi rend="it">ṃ</hi> nopaiti / sahasrimām api / koṭi<hi rend="it">śa</hi><hi rend="bf">ta</hi>sahasrimām<lb/>
+4 api / saṃkhyām api / kalām api / gaṇanām api / upamā<hi rend="it">m a</hi>pi / upaniṣām api / na kṣa<hi rend="it">mate</hi><lb/>
+5 yaś ca śruṇeya śrutvā ca na parikṣipeya / ayaṃ tato bahutaraḥ puṇyaskandhaprasuto bhavet* yaś ca mātṛ<hi rend="it">g</hi>r<hi rend="it">āma</hi> +
+</p><p xml:id="148">
+fol. 81r (KP-SI P/2)<lb/>
+1 + .. .. śṛṇuyād vā likhāpayed vā paryāpnuyād vā tasya na jātu v<hi rend="it">i</hi>n<hi rend="it">i</hi>pāto bhaviṣyati / sa eva tasya paśc<hi rend="it">i</hi>m<hi rend="it">akaḥ bhā</hi><hi rend="bf">vo</hi><lb/>
+2 bhaviṣyati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 160 yatra ca pṛthivīpradeśe ayaṃ ratnakūṭo dharmaparyāyo bhāṣyate vā deśyate vā likhyate vā <hi rend="it">likhito</hi><lb/>
+3 vā pustagataṃ vā tiṣṭhet sa pṛthivīpradeśo caityabhūto sadevakasya lokasya yasya ca dharmabhāṇakasyānt<hi rend="it">ikā</hi><hi rend="bf">d</hi><lb/>
+4 imaṃ dharmaparyāyaṃ śṛṇuyād vā udgṛhṇīyād vā likhed vā paryāpnuyād vā / tasya dharmabhāṇakasyāntike <hi rend="it">e</hi><hi rend="bf">vaṃ</hi><hi rend="it">rū</hi>pā<lb/>
+5 gauravā-m-utpādayitavyaḥ tadyathāpi nāma kāśyapa <hi rend="it">ta</hi>thāgatas<hi rend="it">y</hi>a / y<hi rend="it">aś ca ku</hi>l<hi rend="it">aputr</hi>o <hi rend="it">vā ku</hi>l<hi rend="it">aduhitā dharma</hi><hi rend="bf">bhā</hi>ṇakaṃ
+</p><p xml:id="149">
+fol. 81v (KP-SI P/2)<lb/>
+1 satkari<hi rend="it">ṣ</hi>y<hi rend="it">a</hi>t<hi rend="it">i</hi> gurukariṣyati <hi rend="it">mā</hi>nayi<hi rend="it">ṣ</hi>y<hi rend="it">a</hi>t<hi rend="it">i</hi> / pūj<hi rend="it">a</hi>y<hi rend="it">iṣ</hi>y<hi rend="it">a</hi>t<hi rend="it">i /</hi> t. .. .y. .. .. .y. r. t. .. + + + + + + + + +<lb/>
+2 <hi rend="it">mara</hi><hi rend="bf">ṇa</hi>kāle cāsya tathāgatada<hi rend="it">r</hi>śanaṃ bhaviṣyati /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 161 tathāgatadarśanena ca daśa ca kāyakarmapār<hi rend="it">i</hi>śuddhi pr<hi rend="it">a</hi>til<hi rend="it">a</hi>p<hi rend="it">syate /</hi><lb/>
+3 <hi rend="it">ka</hi>tame daśa / yaduta vedanāyā aparyādattacitta kālaṃ kariṣyati / cakṣuvibhramaś cāsya na bhaviṣyati <hi rend="it">2 na ha<hi rend="bf">sta</hi></hi>vikṣepaṃ<lb/>
+4 ca kariṣyati 3 na pādavikṣepaṃ ca kariṣyati / 4 noccāraṃ kariṣyati / 5 na prasrāvaṃ kariṣyati / 6 na <hi rend="it">hṛ<hi rend="bf">da</hi>y</hi>ā<hi rend="it">t</hi><lb/>
+5 <hi rend="it">svedaṃ pra</hi>gh<hi rend="it">ār</hi>i<hi rend="it">ṣ</hi>yati / 7 na m<hi rend="it">u</hi>ṣṭiṃ kariṣyati / 8 na cākāśaṃ parā<hi rend="it">mṛśa</hi>ti : 9 yathā niṣaṇ<hi rend="it">ā</hi> .āv<hi rend="it">a</hi> .āy. + + + +
+</p><p xml:id="150">
+-------------------------------------------------------------
+</p><p xml:id="151">
+(KP-VD), pp. 58f.: SI P/85A<lb/>
+fol. 5<lb/>
+1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 14 <hi rend="it">ca</hi>tvārīmāni kāśyap<hi rend="it">a</hi> bodhisatvasya kalyāṇa<hi rend="it">m</hi>i<hi rend="it">tr</hi>ā<hi rend="it">ṇ</hi>i katamāni catvāri / yācanako bodhisatvasya kalyāṇamitraṃ bodhimārgopastaṃbh<hi rend="it">ā</hi><hi rend="bf">ya</hi><lb/>
+(KP-VD) SI P/85A<lb/>
+r2 dharmabhāṇako bodhisa<hi rend="it">t</hi>vasya kalyāṇamitraṃ śrutaprajñopastaṃbhāya / pravrajyāsamādapa<hi rend="it">k</hi>o bodhi<hi rend="it">sa</hi>tvasya kalyāṇamitraṃ sarvakuśala<hi rend="bf">mū</hi>lopastaṃbhāya /<lb/>
+(KP-VD) SI P/85A<lb/>
+r3 buddho bhagavāṃ bodhisatvasya kalyāṇamitraṃ sarvabuddhadharmopastaṃbhāya <hi rend="it">/</hi> imāni kāśyapa bodhisatvasya kalyā<hi rend="bf">ṇa</hi>mitrāṇi // 14 :<lb/>
+(KP-VD) SI P/85A<lb/>
+r4 <!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 15 catvāra ime kāśyapa bodhisatvapratirūpakāḥ katame catvāraḥ lābhasatkārārthiko bhavati na dharmārthik<hi rend="it">āḥ</hi><lb/>
+(KP-VD) SI P/85A<lb/>
+r5 kīrtiśabdaślokārthiko bhavati na guṇārthikaḥ ātmasukhārthiko bhavati na satvaduḥkhāpa<hi rend="it">naya</hi>nārthi<hi rend="it">kaḥ</hi> parṣadgaṇārthiko {MS: parṣadguṇārthiko} bhavati na vivek<hi rend="it">ārthi</hi><hi rend="bf">ka</hi>ḥ<lb/>
+(KP-VD) SI P/85A<lb/>
+r6 ime kāśyapa catvāro bodhisatvapratirūpakāḥ 15 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 16 catvāra ime kāśyapa bodhisatvasya bh<hi rend="it">ūtagu</hi>ṇāḥ katame catvāraḥ śunyatāṃ <hi rend="it">c</hi>ā<hi rend="it">dhi<hi rend="bf">mu</hi></hi>cyati<lb/>
+(KP-VD) SI P/85A<lb/>
+r7 karmavipākaṃ cābhiśraddadhāti {MS: cābhiśraddhadāti} nairātmyaṃ cāsya kṣamate sarvasatveṣu ca mahākaruṇā nirvā<hi rend="it">ṇagata</hi>ś cāsyāśayaḥ saṃsāragataś ca prayoga<hi rend="it">ḥ</hi><lb/>
+(KP-VD) SI P/85A<lb/>
+v1 <hi rend="it">sa</hi>tvaparipākāya ca dānaṃ vipākāpratikāṃkṣanatā ca ime kāśyapa catvāro bodhisatvasya bhū<hi rend="it">tagu</hi>ṇāḥ 16 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 17 catvāra ime kāśyapa<lb/>
+(KP-VD) SI P/85A<lb/>
+v2 bodhisatvasya mahānidhānapratilaṃbhāḥ katame catvāraḥ buddhotpādārāgaṇatā / ṣaṭpāramitāśrava<hi rend="it">ṇaḥ ap</hi>ratihatacittasya dharmabhāṇakadar<hi rend="it">śa</hi><hi rend="bf">na</hi>m* <lb/>
+(KP-VD) SI P/85A<lb/>
+v3 apramattasyāraṇyavāsābhirataḥ ime kāśyapa catvāro bodhisatvamahānidhānapratilaṃbh<hi rend="it">āḥ</hi> 17 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 18 catvāra ime kāśyapa bodhi<hi rend="it">sa</hi><hi rend="bf">tva</hi>sya<lb/>
+(KP-VD) SI P/85A<lb/>
+v4 mārasamatikramaṇā dharmāḥ katame catvāraḥ bodhicittasyānutsargaḥ {MS: bodhisatvasyānutsargaḥ} sarvasatveṣv apratihatacittatā / sarvadṛṣṭikṛtā<hi rend="it">nā</hi><hi rend="bf">m</hi><lb/>
+(KP-VD) SI P/85A<lb/>
+v5 avabodhaḥ anatimanyatā sarvasatveṣu ime kāśyapa catvāro bodhisatvasya mārasa<hi rend="it">mat</hi>ikramaṇā dharmāḥ 18 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 19 catvāra i<hi rend="bf">me</hi><lb/>
+(KP-VD) SI P/85A<lb/>
+v6 kāśyapa dharmā bodhisatvasya sarvakuśalamūlasaṃgrahāya saṃvartante katame catvāraḥ niṣkuhakasyāraṇyavāsaḥ pratikārāprātikāṃkṣiṇaś ca<hi rend="bf"><hi rend="it">tv</hi>ā</hi>ri<lb/>
+(KP-VD) SI P/85A<lb/>
+v7 sa<hi rend="it">ṃ</hi>grahavastū<hi rend="it">ni</hi> sarvasatveṣ<hi rend="it">u</hi> kāyajīv<hi rend="it">i</hi>t<hi rend="it">o</hi>ts<hi rend="it">a</hi>rgaḥ saddharmaparyeṣṭim ārabhya śrutārthātṛptatā sarvakuśalamūlasamudānayanatā +
+</p><p xml:id="152">
+------------------------------------------
+</p><p xml:id="153">
+(KP-VD), pp. 60-62: Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3
+</p><p xml:id="154">
+fol. 169?<lb/>
+r1 <hi rend="it">eva</hi><hi rend="bf">m</hi> eva kāśyapaikatyā śramaṇabrāhmaṇā bahūn dharmāṃ paryāpya na rā<hi rend="it">gat</hi>ṛ<hi rend="it">ṣṇā</hi> + + + + + + + + + + + + mohatṛṣṇā vinodayanti / te dharmārṇavānohyamāne : kleśatṛṣṇayā kāl. + +<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r2 tigāmino bhavanti 2 //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 129 tadyathā kāśyapa vaidya auṣadhabhrastrā gṛhītv. .. .. .. c. + + + + + + + + + + + utpadyeta / na ca taṃ vyādhi / śaknuyā cikitsitu<hi rend="it">ṃ</hi> / evam eva kāśyapa bahuśrutasya vy. + +<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r3 draṣṭavyaḥ yas tena śrutena na <hi rend="it">śa</hi>knoty ātmānaṃ kleṣavyādhiṃ ci<hi rend="it">ki</hi>tsi<hi rend="it">tuṃ n</hi>irarthakaṃ tasya taṃ śrutaṃ bhavati <hi rend="it">3</hi> //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 130 tadyathāpi kā<hi rend="it">śyapa</hi> glāna<hi rend="it">ḥ</hi> puruṣo rājārhaṃ bhaiṣajyam upayujyatāsaṃvareṇa kālaṃ <hi rend="it">kuryāt*</hi><lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r4 evam eva kāśyapa bahuśrutasya kleśavyādhi draṣṭa<hi rend="it">vyo</hi> yas tenāsaṃvareṇa kālaṃ karoti //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 131 tadyathāpi kāśyapa maṇiratnam uc<hi rend="it">c</hi>āre patita<hi rend="it">m</hi> akāryopagaṃ bhavaty evam ev<hi rend="it">a kāśya</hi><hi rend="bf">pa</hi><lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r5 bahuśrutasya lābhasatkāroccārapa + .o <hi rend="it">dra</hi>ṣṭavyaḥ niṣkiṃcana<hi rend="it">ṃ</hi> devaman. .e .yaṣu //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 132 tadyathāpi kāśyapa mṛtasya mālā / evam eva kāśyapa du<hi rend="it">ḥ</hi>śīlasya kāṣ. ya .r. + <lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r6 vyaḥ //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 133 tadyathāpi kāśyapa susnātasya suvili<hi rend="it">pta</hi>sy<hi rend="it">a succhi</hi>nnakeśanakhasyāvadāt<hi rend="it">a</hi>vastraprāvṛtasya pravaracandanānuliptasya śreṣṭhiputrasya śīrṣe caṇpakamālā evam eva kāśya<hi rend="it">pa duḥśī</hi><hi rend="bf">la</hi>vato<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r7 <hi rend="it">ba</hi>huśrutasya kāṣāyadhāra .. + + + + //<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 134 catvāra ime kāśyapa duḥśīlā śīlavapratirūpakāḥ katame catvāraḥ iha kāśya<hi rend="it">pa i</hi>haikatyo bhikṣ<hi rend="it">uḥ prāti</hi><hi rend="bf">mo</hi>k<hi rend="it">ṣa</hi>saṃ<hi rend="it">varasaṃv</hi>. rto<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+r8 bhavati / ācā .y. + + + + + + + aṇ<hi rend="it">umā</hi>treṣv api 'vadyeṣu bhayadarśī samādāya <hi rend="it">śi</hi>kṣati śikṣāpade .. .. .. .i .. ddh. .. .. .. .. .. .. + + +<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v1 .. .. .. + + <hi rend="it">samanvā</hi>gato <hi rend="it">v</hi>iharati pariśu + + + + + + + + .. .. .. yaṃ kāśyapa prathamo du<hi rend="it">ḥ</hi>śīla<hi rend="it">ḥ</hi> śīlavapratirūpakaḥ // punar aparaṃ kāśy<hi rend="it">apa</hi> ihaikatyo bhikṣur vinay<hi rend="it">adharo <hi rend="bf">bha</hi></hi>vati<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v2 pravṛ<hi rend="it">tavi</hi>nayo vinayagupto + + + + y. dṛṣṭiṃ cāsyānucalitaṃ bhavati : ayaṃ kāśyapa dvitīyo du<hi rend="it">ḥ</hi>śīla<hi rend="it">ḥ</hi> śīlavapratirūpakaḥ // puna<hi rend="it">r a</hi>paraṃ kāśyapa ihaik<hi rend="it">atyo bhi</hi><hi rend="bf">kṣu</hi><hi rend="it">ḥ</hi><lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v3 maitrāvihārī bhavati / satvāraṃbaṇay. + + + + <hi rend="it">sa</hi>manvāgato bhavati / ajātiṃ sarvasaṃkārāṇāṃ śrutvā : u<hi rend="it">t</hi>trasati saṃtrasati / saṃtrāsam āpadyate / ayaṃ kāśyapa tṛtīy<hi rend="it">o duḥ</hi><hi rend="bf">śī</hi>laḥ<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v4 śīlavapratirūpakaḥ // punar aparaṃ kāśyapa ihaikatyo bhikṣuḥ dvādaśa dhutaguṇān samā<hi rend="it">dā</hi>ya vartate / upalaṃbhadṛṣṭikaś ca bhavati / ahaṃkāramamaṃkāra +<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v5 ayaṃ kāśyapa caturtho du<hi rend="it">ḥ</hi>śīlaḥ śīlavapratirūpakāḥ // ime kāśyapa catvāro du<hi rend="it">ḥ</hi>śīla<hi rend="it">ḥ</hi> śīlavapratirūpakā<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 135 śīlaṃ śīlam iti kāśyapa ucyate / yatra nātmā n. + +<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v6 3 yaṃ : na kriyā nākriyā / na karaṇaṃ nākaraṇaṃ / na cāro nācāro na pracāro nāpracāra<hi rend="it">ḥ</hi> na nāmarūpam / na nimittaṃ : na śamo na praśamaḥ na grāho notsargaḥ na grāhyaṃ : na satvo na <hi rend="it">satvaprajña</hi><hi rend="bf">pti</hi>ḥ<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v7 na vā<hi rend="it">ṅ</hi> na vā<hi rend="it">k</hi>prajñaptiḥ na ci<hi rend="it">t</hi>taṃ na ci<hi rend="it">t</hi>taprajñaptiḥ na loko nālokaḥ na niśrayo nāniśrayaḥ nātmaś<hi rend="it">īlo</hi>tka<hi rend="it">r</hi>ṣ<hi rend="it">aṇā / na</hi> parākarmaśīlyapaṃsanā : na śīlamanyanā / na śī<hi rend="it">lakalpa</hi><hi rend="bf">nā</hi> :<lb/>
+(KP-VD) Hoenrle 143 S.B. 38+39+Mannerheim Fragment No. 3<lb/>
+v8 na saṃkalpanā : idam ucyate kāśyapa āryāṇāṃ śīlam* a + + + + + + + + + + + + .āpagatam* // sarvaniśrayavigatam* /<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 136 atha bhagavāṃ tasyā<hi rend="it">ṃ</hi> velāy.
+</p><p xml:id="155">
+---------------------------------------------------
+</p><p xml:id="156">
+(KP-VD), pp. 63f.: SHT I 374
+</p><p xml:id="157">
+r1<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 151 + + + <hi rend="it">kīd</hi>ṛ<hi rend="it">śe</hi>na vīryeṇa tena satpuruṣeṇa sā nāvā vāhayitavyā : āha  balavatā bhagavā<hi rend="it">n vīryeṇa</hi> + + + + + + + + + + + + + + +<lb/>
+2 <hi rend="it">rṇava</hi>pr<hi rend="it">ā</hi>pto 'smiṃ : mā hevāntareṇāyaṃ nāvā vikīryeta : bhagavān āha : evam eva samantā<hi rend="it">loka</hi> + + + + + + + + + + + + + + + +<lb/>
+3 bodhisatvena / buddhadharmā samudānayitavyāḥ :<lb/>
+<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->  152 eva<hi rend="it">ṃ</hi> manasikāreṇa anityo / ba<hi rend="it">tāyaṃ kāyaḥ</hi> + + + + + + + + + + + + + + +<lb/>
+4 ntasārasya kālakriyā bhaviṣyati mahoghārṇa<hi rend="it">va</hi>prāpto 'smiṃ : caturogaprāptānāṃ satvānāṃ vuhyam<hi rend="it">ānāṃ</hi> + + + + + + + + + + + + + + + + + +<lb/>
+v1 vān samudānayiṣyāmi : yayā mahādharmanāvā yān satvān saṃsārārṇāvaprāptān vuhyam<hi rend="it">ānān.</hi> + + + + + + + + + + + + + + + + + + + +<lb/>
+2<!-- TODO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> 153 śi dharmanāvā / bodhisatvena samudānayitvā : yeyaṃ sarvasatvasamacittatā saṃ + + + + + + + + + + + + + + + + + + + +<lb/>
+3 <hi rend="it">śīlapha</hi><hi rend="bf">l</hi><hi rend="it">a</hi>niryātā dānaparivārālaṃkṛtā : āśayadṛḍhasāra<hi rend="it">bandha</hi>nanibaddhā : kṣāntisau<hi rend="it">rat</hi>y<hi rend="it">asmṛtiśalyabaddhā</hi> + + + + + + + + + + +<lb/>
+4 <hi rend="it">sa<hi rend="bf">pta</hi>bodhyaṃgasaṃ</hi>bhāradṛḍhavīryakuśaladharmadārusam<hi rend="it">u</hi>dānītā  dhyānacittakramanīyakarmaṇyākṛtā : dāntaśānt. + + + + + + + + + + + + + + + + + +
+</p>
+</body>
+</text>
+</TEI>

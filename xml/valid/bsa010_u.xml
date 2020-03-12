@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_maitreya -madhyAntavibhAgakArikA">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Madhyāntavibhāgakārikā</title>
+	<!-- TODO: Verify author -->	
+	<author>Maitreya </author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. by Ramchandra Pandeya: Madhyantavibhagashastram. Delhi : Motilal Banarsidass, 1971.-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Maitreya (attrib.): Madhyantavibhagakarika<BR>
+Based on the ed. by Ramchandra Pandeya: Madhyantavibhagashastram.<BR>
+Delhi : Motilal Banarsidass, 1971.<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Sastra section, text no. 10<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Mvk">
+<body><p xml:id="0">
+Āryamaitreyapraṇītā Madhyāntavibhāgakārikā (Mvk)
+</p><p xml:id="1">
+Lakṣaṇaparicchedaḥ prathamaḥ
+</p>
+<lg xml:id="Mvk_1.1">
+<l>lakṣaṇaṃ hyāvṛtistattvaṃ pratipakṣasya bhāvanā /</l>
+<l>tatrāvasthā phalaprāptiryānānuttaryameva ca //</l>
+</lg>
+<lg xml:id="Mvk_1.2">
+<l>abhūtaparikalpo 'sti dvayaṃ tatra na vidyate /</l>
+<l>śūnyatā vidyate tvatra tasyāmapi sa vidyate //</l>
+</lg>
+<lg xml:id="Mvk_1.3">
+<l>na śūnyaṃ nāpi cāśūnyaṃ tasmāt sarvaṃ vidhīyate /</l>
+<l>sattvādasattvāt sattvācca madhyamā pratipacca sā //</l>
+</lg>
+<lg xml:id="Mvk_1.4">
+<l>arthasattvātmavijñaptipratibhāsaṃ prajāyate /</l>
+<l>vijñānaṃ nāsti cāsyārthastadabhāvāttadapyasat //</l>
+</lg>
+<lg xml:id="Mvk_1.5">
+<l>abhūtaparikalpatvaṃ siddhamasya bhavatyataḥ /</l>
+<l>na tathā sarvathābhāvāt tatkṣayānmuktiriṣyate //</l>
+</lg>
+<lg xml:id="Mvk_1.6">
+<l>kalpitaḥ paratantraśca pariniṣpanna eva ca /</l>
+<l>arthādabhūtakalpācca dvayābhāvācca deśitaḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.7">
+<l>upalabdhiṃ samāśritya nopalabdhiḥ prajāyate /</l>
+<l>nopalabdhiṃ samāśritya nopalabdhiḥ prajāyate //</l>
+</lg>
+<lg xml:id="Mvk_1.8">
+<l>upalabdhestataḥ siddhā nopalabdhisvabhāvatā /</l>
+<l>tasmācca samatā jñeyā nopalambhopalambhayoḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.9">
+<l>abhūtaparikalpaśca cittacaittāstridhātukāḥ /</l>
+<l>tatrārthadṛṣṭirvijñānaṃ tadviśeṣe tu caitasāḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.10">
+<l>evaṃ pratyayavijñānaṃ dvitīyaṃ caupabhogikam /</l>
+<l>upabhogaparicchedaprerakāstatra caitasāḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.11">
+<l>chādanādropaṇāccaiva nayanātsaṃparigrahāt /</l>
+<l>pūraṇāt triparicchedādupabhogācca karṣaṇāt //</l>
+</lg>
+<lg xml:id="Mvk_1.12">
+<l>nibandhanādābhimakhyād duḥkhanāt kliśyate jagat /</l>
+<l>tredhā dvedhā ca saṃkleśaḥ saptadhābhūtakalpanāt //</l>
+</lg>
+<lg xml:id="Mvk_1.13">
+<l>lakṣaṇaṃ cātha paryāyastadartho bheda eva ca /</l>
+<l>sādhanañceti vijñeyaṃ śūnyatāyāḥ samāsataḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.14">
+<l>dvayābhāvo hyabhāvasya bhāvaḥ śūnyasya lakṣaṇam /</l>
+<l>na bhāvo nāpi cābhāvao na pṛthaktvaikalakṣaṇam //</l>
+</lg>
+<lg xml:id="Mvk_1.15">
+<l>tathatā bhūtakoṭiścānimittaṃ paramārthatā /</l>
+<l>dharmadhātuśca paryāyāḥ śūnyatāyāḥ samāsataḥ //</l>
+</lg>
+<lg xml:id="Mvk_1.16">
+<l>ananyathāviparyāsatannirodhāryagocaraiḥ /</l>
+<l>hetutvāccāryadharmaṇāṃ paryāyārtho yathākramam //</l>
+</lg>
+<lg xml:id="Mvk_1.17">
+<l>saṃkliṣṭā ca viśuddhā ca samalā nirmalā ca sā /</l>
+<l>abdhātukanakākāśaśuddhivacchuddhiriṣyate //</l>
+</lg>
+<lg xml:id="Mvk_1.18">
+<l>bhoktṛbhojanataddhehapratiṣṭhāvastuśūnyatā /</l>
+<l>tacca yena yathā dṛṣṭaṃ yadarthaṃ tasya śūnyatā //</l>
+</lg>
+<lg xml:id="Mvk_1.19">
+<l>śubhadvayasya prāptyartha sadā sattvahitāya ca /</l>
+<l>saṃsārātyajanārthaṃ ca kuśalasyākṣayāya ca //</l>
+</lg>
+<lg xml:id="Mvk_1.20">
+<l>gotrasya ca viśuddhayarthaṃ lakṣaṇavyañjanāptaye /</l>
+<l>śuddhaye bu[ddha]dharmāṇāṃ bodhisattvaḥ prapadyate //</l>
+</lg>
+<lg xml:id="Mvk_1.21">
+<l>pudgalasyātha dharmāṇāmabhāvaḥ śūnyatātra hi /</l>
+<l>tadabhāvasya sadbhāvastasmin sā śūnyatāparā //</l>
+</lg>
+<lg xml:id="Mvk_1.22">
+<l>saṃkliṣṭā cedbhavennāsau muktāssyuḥ sarvadehinaḥ /</l>
+<l>viśuddhā cedbhavennāsau vyāyāmo niṣphalo bhavet //</l>
+</lg>
+<lg xml:id="Mvk_1.23">
+<l>na kliṣṭā nāpi va 'ākliṣṭā śuddhāśuddhā na caiva sā /</l>
+<l>prabhāsvaratvāccittasya kleśasyāgantukatvataḥ //</l>
+</lg>
+<p xml:id="2">
+// iti lakṣaṇaparicchedaḥ prathamaḥ //
+</p><p xml:id="3">
+Āvaraṇaparicchedo dvitīyaḥ
+</p>
+<lg xml:id="Mvk_2.1">
+<l>vyāpi prādeśikodriktasamādānavivarjanam /</l>
+<l>dvayāvaraṇamākhyātaṃ navadhā kleśalakṣaṇam //</l>
+</lg>
+<lg xml:id="Mvk_2.2">
+<l>saṃyojanānyāvaraṇamudvegasamupekṣayoḥ /</l>
+<l>tattvadṛṣṭeśca satkāyadṛṣṭestadvastuno 'pi ca //</l>
+</lg>
+<lg xml:id="Mvk_2.3">
+<l>nirodhamārgaratneṣu lābhasatkāra eva ca /</l>
+<l>saṅkleśasya parijñāne śubhādau daśadhāparam //</l>
+</lg>
+<lg xml:id="Mvk_2.4">
+<l>aprayogo 'nāyatane 'yogavihitaśca yaḥ /</l>
+<l>notpattiramanaskāraḥ sambhārasyāprapūrṇatā //</l>
+</lg>
+<lg xml:id="Mvk_2.5">
+<l>gotramitrasya vaidhuryaṃ cittasya parikheditā /</l>
+<l>pratipatteśca vaidhuryaṃ kuduṣṭajanavāsatā //</l>
+</lg>
+<lg xml:id="Mvk_2.6">
+<l>dauṣṭhulyamavaśiṣṭatvaṃ trayāt prajñāvipakvatā /</l>
+<l>prakṛtyā caiva dauṣṭhulyaṃ kausīdyaṃ ca pramāditā //</l>
+</lg>
+<lg xml:id="Mvk_2.7">
+<l>saktirbhave ca bhoge ca līnacittatvameva ca /</l>
+<l>aśraddhānadhimuktiśca yathārutavicāraṇā //</l>
+</lg>
+<lg xml:id="Mvk_2.8">
+<l>saddharme 'gauravaṃ lābhe gurutākṛpatā tathā /</l>
+<l>śrutavyasanamalpatvaṃ samādhyaparikarmitā //</l>
+</lg>
+<lg xml:id="Mvk_2.9">
+<l>śubhaṃ bodhiḥ samādānaṃ dhīmattvābhrāntyanāvṛtī /</l>
+<l>nṛtyatrāso 'matsaritvaṃ vaśitvañca śubhādayaḥ //</l>
+</lg>
+<lg xml:id="Mvk_2.10">
+<l>trīṇi trīṇi ca eteṣāṃ jñeyānyāvaraṇāni hi /</l>
+<l>pakṣyapāramitābhūmiṣvanyadāvaraṇaṃ punaḥ //</l>
+</lg>
+<lg xml:id="Mvk_2.11">
+<l>vastvakauśalakausīdyaṃ samādherdvayahīnatā /</l>
+<l>aropaṇātha daurbalyaṃ dṛṣṭidauṣṭhulyaduṣṭatā //</l>
+</lg>
+<lg xml:id="Mvk_2.12">
+<l>aiśvaryasyātha sugateḥ sattvātyāgasya cāvṛtiḥ /</l>
+<l>hānivṛddhyośca doṣāṇāṃ guṇānāmavatāraṇe //</l>
+</lg>
+<lg xml:id="Mvk_2.13">
+<l>vimocane 'kṣayatve ca nairantarye śubhasya ca /</l>
+<l>niyatīkaraṇe dharmasambhogaparipācane //</l>
+</lg>
+<lg xml:id="Mvk_2.14">
+<l>sarvatragārthe agrārthe niṣyandāgrārtha eva ca /</l>
+<l>niṣparigrahatārtha ca santānābheda eva ca //</l>
+</lg>
+<lg xml:id="Mvk_2.15">
+<l>nissaṅkleśaviśuddhyarthe 'nānātvārtha eva ca /</l>
+<l>ahīnānadhikārthe ca caturdhāvaśitāśraye //</l>
+</lg>
+<lg xml:id="Mvk_2.16">
+<l>dharmadhātāvavidyeyamakliṣṭā daśadhāvṛtiḥ /</l>
+<l>daśabhūmivipakṣeṇa pratipakṣāstu bhūmayaḥ //</l>
+</lg>
+<lg xml:id="Mvk_2.17">
+<l>kleśāvaraṇamākhyātaṃ jñeyāvaraṇameva ca /</l>
+<l>sarvāṇyāvaraṇānīha yatkṣayānmuktiriṣyate //</l>
+</lg>
+<p xml:id="4">
+// ityāvaraṇaparicchedo dvitīyaḥ //
+</p><p xml:id="5">
+Tattvaparicchedastṛtīyaḥ
+</p>
+<lg xml:id="Mvk_3.1">
+<l>mūlalakṣaṇatattvamaviparyāsalakṣaṇam /</l>
+<l>phalahetumayaṃ tattvaṃ sūkṣmaudārikameva ca //</l>
+</lg>
+<lg xml:id="Mvk_3.2">
+<l>prasiddhaṃ śuddhiviṣayaṃ saṅgrāhyaṃ bhedalakṣaṇam /</l>
+<l>kauśalyatattvaṃ daśadhā ātmadṛṣṭivipakṣataḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.3">
+<l>svabhāvastrividho 'sacca nityaṃ saccāpyatattvataḥ /</l>
+<l>sadasattattvataśceti svabhāvatrayamiṣyate //</l>
+</lg>
+<lg xml:id="Mvk_3.4">
+<l>samāropāpavādasya dharmapudgalayoriha /</l>
+<l>grāhyagrāhakayoścāpi bhāvābhāve ca darśanam //</l>
+</lg>
+<lg xml:id="Mvk_3.5">
+<l>yajjñānānna pravarteta taddhi tattvasya lakṣaṇam /</l>
+<l>asadartho hyanityārtha utpādadavyayalakṣaṇaḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.6">
+<l>samalāmalabhāvena mūlatattve yathākramam /</l>
+<l>duḥkhamādānalakṣmākhyaṃ sambandhenāparaṃ matam //</l>
+</lg>
+<lg xml:id="Mvk_3.7">
+<l>abhāvaścāpyatadbhāvaḥ prakṛtiḥ śūnyatā matā /</l>
+<l>alakṣaṇañca nairātmyaṃ tadvilakṣaṇameva ca //</l>
+</lg>
+<lg xml:id="Mvk_3.8">
+<l>svalakṣaṇañca nirdiṣṭaṃ duḥkhasatyamato matam /</l>
+<l>vāsanātha samutthānamavisaṃyoga eva ca //</l>
+</lg>
+<lg xml:id="Mvk_3.9">
+<l>svabhāvadvayanotpattirmalaśāntidvayaṃ matam /</l>
+<l>parijñāyāṃ prahāṇe ca prāptisākṣātkṛtāvayam //</l>
+</lg>
+<lg xml:id="Mvk_3.10">
+<l>mārgasatyaṃ samākhyātaṃ prajñaptipratipattitaḥ /</l>
+<l>tathodbhāvanayaudāraṃ paramārthantu ekataḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.11">
+<l>arthaprāptiprapattyā hi paramārthastridhā mataḥ /</l>
+<l>nirvikārāviparyāsapariniṣpattito dvayam //</l>
+</lg>
+<lg xml:id="Mvk_3.12">
+<l>lokaprasiddhamekasmāt trayād yuktiprasiddhakam /</l>
+<l>viśuddhagocaraṃ dvedhā ekasmādeva kīrtitam //</l>
+</lg>
+<lg xml:id="Mvk_3.13">
+<l>nimittasya vikalpasya nāmnaśca dvayasaṅgrahaḥ /</l>
+<l>samyagjñānasatattvasya ekenaiva ca saṅgrahaḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.14">
+<l>pravṛttitattvaṃ dvividhaṃ sanniveśakupannatā /</l>
+<l>ekaṃ lakṣaṇavijñaptiśuddhisamyakprapannatā //</l>
+</lg>
+<lg xml:id="Mvk_3.15">
+<l>ekahetutvabhoktṛtvakartṛtvavaśavartane /</l>
+<l>ādhipatyārthanityatve kleśaśuddhyāśraye 'pi ca //</l>
+</lg>
+<lg xml:id="Mvk_3.16">
+<l>yogitvāmuktamuktatve ātmadarśanameṣu hi /</l>
+<l>parikalpavikalpārthadharmatārthena teṣu te //</l>
+</lg>
+<lg xml:id="Mvk_3.17">
+<l>anekatvābhisaṅkṣepaparicchedārtha āditaḥ /</l>
+<l>grāhakagrāhyatadgrāhabījārthaścāparo mataḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.18">
+<l>veditārthaparicchedabhogāyadvārato 'param /</l>
+<l>punarhetuphalāyāsānāropānapavādataḥ //</l>
+</lg>
+<lg xml:id="Mvk_3.19">
+<l>aniṣṭeṣṭaviśuddhīnāṃ samotpattyādhipatyayoḥ /</l>
+<l>samprāptisamudācārapāratantryārthato 'param //</l>
+</lg>
+<lg xml:id="Mvk_3.20">
+<l>grahaṇasthānasandhānabhogaśuddhidvayārthataḥ /</l>
+<l>phalahetūpayogārthanopayogāttathāparam //</l>
+</lg>
+<lg xml:id="Mvk_3.21">
+<l>vedanāsanimittārthatannimittaprapattitaḥ /</l>
+<l>tacchamapratipakṣārthayogādaparamiṣyate //</l>
+</lg>
+<lg xml:id="Mvk_3.22">
+<l>guṇadoṣāvikalpena jñānena parataḥ svayam /</l>
+<l>niryāṇādaparaṃ jñeyaṃ saprajñaptisahetukāt //</l>
+</lg>
+<p xml:id="6">
+nimittāt praśamāt sārthāt paścimaṃ samudāhṛtam //
+</p><p xml:id="7">
+// iti tattvaparicchedastṛtīyaḥ //
+</p><p xml:id="8">
+Pratipakṣabhāvanāvasthāphalaparicchedaścaturthaḥ
+</p>
+<lg xml:id="Mvk_4.1">
+<l>dauṣṭhulyāt tarṣahetutvād vastutvādavimohataḥ /</l>
+<l>catussatyāvatārāya smṛtyupasthānabhāvanā //</l>
+</lg>
+<lg xml:id="Mvk_4.2">
+<l>parijñāte vipakṣe ca pratipakṣe ca sarvathā /</l>
+<l>tadapāyāya vīryaṃ hi caturdhā sampravartate //</l>
+</lg>
+<lg xml:id="Mvk_4.3">
+<l>karmaṇyatā sthitestatra sarvārthānāṃ samṛddhaye /</l>
+<l>pañcadoṣaprahāṇāṣṭasaṃskārāsevanānvayā //</l>
+</lg>
+<lg xml:id="Mvk_4.4">
+<l>kausīdyamavavādasya sammoṣo laya uddhavaḥ /</l>
+<l>asaṃskāro 'tha saṃskāraḥ pañca doṣā ime matāḥ //</l>
+</lg>
+<lg xml:id="Mvk_4.5">
+<l>āśrayo 'thāśritastasya nimittaṃ phalameva ca /</l>
+<l>ālambane 'sammoṣo layauddhatyānubuddhyanā //</l>
+</lg>
+<lg xml:id="Mvk_4.6">
+<l>tadapāyābhisaṃskāraḥ śāntau praśaṭhavāhitā /</l>
+<l>ropite mokṣabhāgīye cchandayogādhipatyataḥ //</l>
+</lg>
+<lg xml:id="Mvk_4.7">
+<l>ālambane 'sammoṣāvisāravicayasya ca /</l>
+<l>vipakṣasya hi saṃlekhāt pūrvasya phalamuttaram //</l>
+</lg>
+<lg xml:id="Mvk_4.8">
+<l>dvau dvau nirvedhabhāgīyāvindriyāṇi balāni ca /</l>
+<l>āśrayāṅgaṃ svabhāvāṅgaṃ niryāṇāṅgaṃ tṛtīyakam //</l>
+</lg>
+<lg xml:id="Mvk_4.9">
+<l>caturthamanuśaṃsāṅgaṃ niḥkleśāṅgaṃ tridhā matam /</l>
+<l>nidānenāśrayeṇeha svabhāvena ca deśitam //</l>
+</lg>
+<lg xml:id="Mvk_4.10">
+<l>paricchedo 'tha samprāptiḥ parasambhāvanā tridhā /</l>
+<l>vipakṣapratipakṣaśca mārgasyāṅgaṃ tadaṣṭadhā //</l>
+</lg>
+<lg xml:id="Mvk_4.11">
+<l>dṛṣṭau śīle 'tha saṃlekhe paravijñaptiriṣyate /</l>
+<l>kleśopakleśavaibhutvavipakṣapratipakṣatā //</l>
+</lg>
+<lg xml:id="Mvk_4.12">
+<l>anukūlā viparyastā sānubandhā viparyayā /</l>
+<l>aviparyastaviparyāsānanubandha ca bhāvanā //</l>
+</lg>
+<lg xml:id="Mvk_4.13">
+<l>ālambanamanaskāraprāptitastad viśiṣṭatā /</l>
+<l>hetvavasthāvatārākhyā prayogaphalasaṃjñitā //</l>
+</lg>
+<lg xml:id="Mvk_4.14">
+<l>kāryākāryaviśiṣṭā ca uttarānuttarā ca sā /</l>
+<l>adhimuktau praveśe ca niryāṇe vyākṛtāvapi //</l>
+</lg>
+<lg xml:id="Mvk_4.15">
+<l>kathikatve 'bhiṣeke ca samprāptāvanuśaṃsane /</l>
+<l>kṛtyānuṣṭhāna uddiṣṭā dharmādhātau tridhā punaḥ //</l>
+</lg>
+<lg xml:id="Mvk_4.16">
+<l>aśuddhāśuddhaśuddhā ca viśuddhā ca yathārthataḥ /</l>
+<l>pudgalānāṃ vyavasthānaṃ yathāyogamato matam //</l>
+</lg>
+<lg xml:id="Mvk_4.17">
+<l>bhājanatvaṃ vipākākhyaṃ balantasyādhipatyataḥ /</l>
+<l>rucirvṛddhirviśuddhiśca phalametad yathākramam //</l>
+</lg>
+<lg xml:id="Mvk_4.18">
+<l>uttarottaramādyañca tadabhyāsat samāptitaḥ /</l>
+<l>ānukūlyād vipakṣācca visaṃyogād viśeṣataḥ //</l>
+</lg>
+<p xml:id="9">
+uttarānuttaratvācca phalamanyat samāsataḥ /
+</p><p xml:id="10">
+// iti pratipakṣabhāvanādiparicchedaścaturthaḥ //
+</p><p xml:id="11">
+5 Yānānuttaryaparicchedaḥ pañcamaḥ
+</p>
+<lg xml:id="Mvk_5.1">
+<l>ānuttaryaṃprapattau hi punarālambane matam /</l>
+<l>samudāgama uddiṣṭaṃ pratipattistu ṣaḍ vidhā //</l>
+</lg>
+<lg xml:id="Mvk_5.2">
+<l>paramātha manaskāre anudharme 'ntavarjane /</l>
+<l>viśiṣṭā cāviśiṣṭā ca paramā dvādaśātmikā //</l>
+</lg>
+<lg xml:id="Mvk_5.3">
+<l>audāryamāyatatvañca adhikaro 'kṣayātmatā /</l>
+<l>nairantaryamakṛcchratvaṃ vittatvañca parigrahaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.4">
+<l>ārambhaprāptiniṣyandaniṣpattiḥ paramā matā /</l>
+<l>tataśca paramārthena daśa pāramitā matāḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.5">
+<l>dānaṃ śīlaṃ kṣamā vīryaṃ dhyānaṃ prajñā upāyatā /</l>
+<l>praṇidhānaṃ balaṃ jñānametāḥ pāramitā daśa //</l>
+</lg>
+<lg xml:id="Mvk_5.6">
+<l>anugraho 'vighātaśca karma tasya ca marṣaṇam /</l>
+<l>guṇavṛddhiśca sāmarthyamavatāravimocane //</l>
+</lg>
+<lg xml:id="Mvk_5.7">
+<l>akṣayatvaṃ sadā vṛttirniyataṃ bhogapācane /</l>
+<l>yathāprajñaptito dharmamahāyānamanaskriyā //</l>
+</lg>
+<lg xml:id="Mvk_5.8">
+<l>bodhisattvasya satataṃ prajñayā triprakārayā /</l>
+<l>dhātupuṣṭayaipraveśāya cārthasiddhyai bhavatyasau //</l>
+</lg>
+<lg xml:id="Mvk_5.9">
+<l>saṃyuktā dharmacaritaiḥ sā jñeyā daśabhiḥ punaḥ /</l>
+<l>lekhanā pūjanā dānaṃ śravaṇaṃ vācanod grahaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.10">
+<l>prakāśanātha svādhyāyaścintanā bhāvanā ca tat /</l>
+<l>ameyapuṇyaskandhaṃ hi caritaṃ tad daśātmakam //</l>
+</lg>
+<lg xml:id="Mvk_5.11">
+<l>viśeṣādakṣayatvācca parānugrahato 'śamāt /</l>
+<l>avikṣiptāviparyāsapraṇatā cānudhārmikī //</l>
+</lg>
+<lg xml:id="Mvk_5.12">
+<l>vyutthānaṃ viṣaye sārastathāsvādalayoddhavaḥ /</l>
+<l>sambhāvanābhisandhiśca manaskāre 'pyahaṃkṛtiḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.13">
+<l>hīnacittañca vikṣepaḥ parijñeyo hi dhīmatā /</l>
+<l>vyañjanārthamanaskāre 'visāre lakṣaṇadvaye //</l>
+</lg>
+<lg xml:id="Mvk_5.14">
+<l>aśuddhaśuddhāvāgantukatve 'trāsitānunnatau /</l>
+<l>saṃyogāt saṃstavāccaiva viyogādapyasaṃstavāt //</l>
+</lg>
+<lg xml:id="Mvk_5.15">
+<l>arthasattvamasattvañca vyañjane so 'viparyayaḥ /</l>
+<l>dvayena pratibhāsatvaṃ tathā cāvidyamānatā //</l>
+</lg>
+<lg xml:id="Mvk_5.16">
+<l>arthe sa cāviparyāsaḥ sadasattvena varjitaḥ /</l>
+<l>tajjalpabhāvito jalpamanaskārastadāśrayaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.17">
+<l>manaskāre 'viparyāso dvayaprakhyānakāraṇe /</l>
+<l>māyādivadasattvañca sattvañcārthasya tanmatam //</l>
+</lg>
+<lg xml:id="Mvk_5.18">
+<l>so 'visāre 'viparyāso bhāvābhāvāvisārataḥ /</l>
+<l>sarvasya nāmamātratvaṃ sarvakalpāpravṛttaye //</l>
+</lg>
+<lg xml:id="Mvk_5.19">
+<l>svalakṣaṇe 'viparyāsaḥ paramārthe svalakṣaṇe /</l>
+<l>dharmadhātuvinirmukto yasmād dharmo na vidyate //</l>
+</lg>
+<lg xml:id="Mvk_5.20">
+<l>sāmānyalakṣaṇantasmāt sa ca tatrāviparyayaḥ /</l>
+<l>viparyastamanaskārāvihāniparihāṇitaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.21">
+<l>tadaśuddhirviśuddhiśca sa ca tatrāviparyayaḥ /</l>
+<l>dharmadhātorviśuddhatvāt prakṛtyā vyomavatpunaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.22">
+<l>dvayasyāgantukatvaṃ hi sa ca tatrāviparyayaḥ /</l>
+<l>saṃkleśaśca viśuddhiśca dharmapudgalayorna hi //</l>
+</lg>
+<lg xml:id="Mvk_5.23">
+<l>asattvāt trāsatāmānau nātaḥ so 'trāviparyayaḥ /</l>
+<l>pṛthaktvaikatvamantaśca tīrthyaśrāvakayorapi //</l>
+</lg>
+<lg xml:id="Mvk_5.24">
+<l>samāropāpavādānto dvidhā pudgaladharmayoḥ /</l>
+<l>vipakṣapratipakṣāntaḥ śāśvatocchedasaṃjñitaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.25">
+<l>grāhyagrāhakasaṃkleśavyavadāne dvidhā tridhā /</l>
+<l>vikalpadvayatāntaśca sa ca saptavidho mataḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.26">
+<l>bhāvābhāve praśāmye 'tha śamane trāsyatadbhaye /</l>
+<l>grāhyagrāhe 'tha samyaktvamithyātve vyāpṛtau na ca //</l>
+</lg>
+<lg xml:id="Mvk_5.27">
+<l>ajanmasamakālatve sa vikalpadvayāntatā /</l>
+<l>viśiṣṭā cāviśiṣṭā ca jñeyā daśasu bhūmiṣu //</l>
+</lg>
+<lg xml:id="Mvk_5.28">
+<l>vyavasthānantato dhātuḥ sādhyasādhanadhāraṇā /</l>
+<l>avadhārapradhārā ca prativedhaḥ pratānatā //</l>
+</lg>
+<lg xml:id="Mvk_5.29">
+<l>pragamaḥ praśaṭhatvañca prakarṣālambanammatam /</l>
+<l>avaikalyāpratikṣepo 'vikṣepaśca prapūraṇā //</l>
+</lg>
+<lg xml:id="Mvk_5.30">
+<l>samutpādo nirūḍhiśca karmaṇyatvāpratiṣṭhitā /</l>
+<l>nirāvaraṇatā tasyāpraśrabdhisamudāgamaḥ //</l>
+</lg>
+<lg xml:id="Mvk_5.31">
+<l>śāstraṃ madhyavibhāgaṃ hi gūḍhasārārthameva ca /</l>
+<l>mahārthañcaiva sarvārthaṃ sarvānarthapraṇodanam //</l>
+</lg>
+<p xml:id="12">
+// iti yānānuttarya paricchedaḥ pañcamaḥ //
+</p><p xml:id="13">
+samāptā madhyāntavibhāgakārikāḥ
+</p>
+</body>
+</text>
+</TEI>

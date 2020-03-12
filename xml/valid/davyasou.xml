@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_davuldeNa jJAnezvara mahAsthavira-yazodharAcarita">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Yaśodharācarita</title>
+	<!-- TODO: Verify author -->	
+	<author>Davuldeṇa Jñāneśvara Mahāsthavira</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>members of the Sanskrit Buddhist Input Project</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     the ed. Bhikkhu Pāsādika and Bhikkhu Tampalawela Dhammaratana: Contemporary Sri Lankan Sanskrit Poetry: The Yaśodharācaritam by Davuldeṇa Jñāneśvara Mahāsthavira. Bulletin d'etudes indienne 21.1 (2003), pp. 47-70.-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Religious Literature -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Davuldena Jnanesvara Mahasthavira: Yasodharacarita (= Yaśo)<BR>
+Based on the ed. Bhikkhu Pāsādika and Bhikkhu Tampalawela Dhammaratana:<BR>
+Contemporary Sri Lankan Sanskrit Poetry: The Yaśodharācaritam by Davuldeṇa Jñāneśvara Mahāsthavira.<BR>
+Bulletin d'etudes indienne 21.1 (2003), pp. 47-70.<BR>
+Input by members of the Sanskrit Buddhist Input Project.<BR>
+With kind permission of the Digital Sanskrit Buddhist Canon Project<BR>
+of Nagarjuna Institute, Nepal<BR>
+and University of the West, Rosemead, California, USA<BR>
+(www.uwest.edu/sanskritcanon)<BR>
+Version: 2009-03-19 11:28:31<BR>
+Proof Reader: Milan Shakya<BR>
+The transliteration emulates the conventions of Nagari script.<BR>
+Therefore, many word boundaries are not marked by blanks.<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Yaśo">
+<body><p xml:id="0">
+śrī siddhārthaḥ kapilanagare bodhisattvaḥ saputrāṃ<lb/>
+devīṃ tyaktvā sakalavibhavaṃ cakravartiśriyaṃ ca /
+</p>
+<lg xml:id="Yaśo_1">
+<l>devīṃ tyaktvā sakalavibhavaṃ cakravartiśriyaṃ ca /</l>
+<l>māsy āṣāḍhe viratamanasā pūrṇimāyāṃ niśīthe</l>
+<l>niścakrāma śramaṇapadabhṛn mokṣam anveṣṭukāmaḥ //</l>
+</lg>
+<p xml:id="1">
+atha prabhāte śayanāt samutthitā<lb/>
+sutena sārdhaṃ mahiṣī yaśodharā /
+</p>
+<lg xml:id="Yaśo_2">
+<l>sutena sārdhaṃ mahiṣī yaśodharā /</l>
+<l>didṛkṣayā svāmivarasya satvaraṃ</l>
+<l>gatāvidūre śayanīyamandiram //</l>
+</lg>
+<p xml:id="2">
+yathā pure vañcayituṃ sa me patī<lb/>
+rahogataḥ kutra cid eva gūḍhavān /
+</p>
+<lg xml:id="Yaśo_3">
+<l>rahogataḥ kutra cid eva gūḍhavān /</l>
+<l>vicintya saudhe 'ntarabāhiraṃ bhṛśaṃ</l>
+<l>parīkṣyamāṇāpi dadarśa naiva tam //</l>
+</lg>
+<p xml:id="3">
+dadhāva tasmāt sacivasya mandiraṃ<lb/>
+gavākṣam udghāṭya drutaṃ drutaṃ śucā /
+</p>
+<lg xml:id="Yaśo_4">
+<l>gavākṣam udghāṭya drutaṃ drutaṃ śucā /</l>
+<l>kapāṭam āhatya dṛḍhaṃ muhur muhur</l>
+<l>vyarīravac channa bhavan bhavann iti //</l>
+</lg>
+<p xml:id="4">
+apekṣya kiṃ cit kvaṇam antarād gṛhe<lb/>
+vyatiṣṭhatālpaṃ pratihārasannidhau /
+</p>
+<lg xml:id="Yaśo_5">
+<l>vyatiṣṭhatālpaṃ pratihārasannidhau /</l>
+<l>vicārabhaṅgāc chvasatī ca pāṇinā</l>
+<l>pratāḍayām āsa kapolayugmakam //</l>
+</lg>
+<p xml:id="5">
+tato gatā sā nṛpamandurālayaṃ<lb/>
+turaṅgamaṃ nātra dadarśa kanthakam /
+</p>
+<lg xml:id="Yaśo_6">
+<l>turaṅgamaṃ nātra dadarśa kanthakam /</l>
+<l>kuto yayau kiṃ rahasā sa vallabho</l>
+<l>vitarkayantīti babhūva mūrchitā //</l>
+</lg>
+<p xml:id="6">
+vicintya yat kiṃ cid itas tataḥ śiraś<lb/>
+cacāla jaghrau ca mukhe sutasya sā /
+</p>
+<lg xml:id="Yaśo_7">
+<l>cacāla jaghrau ca mukhe sutasya sā /</l>
+<l>bhujātapatreṇa vilocanadvayān</l>
+<l>nyavārayat sā sravadaśruśīkaram //</l>
+</lg>
+<p xml:id="7">
+aśaknuvantī nitarāṃ samudgamāṃ<lb/>
+manovyathāṃ soḍhum udagramanyunā /
+</p>
+<lg xml:id="Yaśo_8">
+<l>manovyathāṃ soḍhum udagramanyunā /</l>
+<l>patipradattaṃ maṇikaṇṭhabhūṣaṇaṃ</l>
+<l>pravālamālām api kuṇḍaladvayam //</l>
+</lg>
+<p xml:id="8">
+lalāṭikāṃ hemamayāṅgulīyakaṃ<lb/>
+hiraṇyasūtreṇa nibaddhamekhalām /
+</p>
+<lg xml:id="Yaśo_9">
+<l>hiraṇyasūtreṇa nibaddhamekhalām /</l>
+<l>vimucya śīrṣābharaṇaṃ ca kaṅkaṇe</l>
+<l>sasarja dhig dhig vadatī sasambhramam //</l>
+</lg>
+<p xml:id="9">
+atītaḍat pādatalena bhūtalaṃ<lb/>
+jajṛmbha ūrdhvaṃ vicakarṣa mūrdhajam /
+</p>
+<lg xml:id="Yaśo_10">
+<l>jajṛmbha ūrdhvaṃ vicakarṣa mūrdhajam /</l>
+<l>jajalpa vākyaṃ vigatārtham ākulaṃ</l>
+<l>rurāva bhīteva ruroda gadgadam //</l>
+</lg>
+<p xml:id="10">
+niveśya bālaṃ śayane punaḥ punaḥ<lb/>
+samutkṣipantī yugapat karadvayam /
+</p>
+<lg xml:id="Yaśo_11">
+<l>samutkṣipantī yugapat karadvayam /</l>
+<l>vikampya śīrṣaṃ ca yathā vicetanā</l>
+<l>jughoṣa śaśvāsa papāta vivyathe //</l>
+</lg>
+<p xml:id="11">
+nipīḍyamānāpi bubhukṣayāniśaṃ<lb/>
+na bhojanaṃ bhoktum iyeṣa kiṃ cana /
+</p>
+<lg xml:id="Yaśo_12">
+<l>na bhojanaṃ bhoktum iyeṣa kiṃ cana /</l>
+<l>tṛṣāturā nodakabindum apy asau</l>
+<l>papau ca kāye 'py babhūva vepathuḥ //</l>
+</lg>
+<p xml:id="12">
+nihanyate dhīsmṛtiśaktidhīratā<lb/>
+śarīravarṇaṃ balam indriyeṣv api /
+</p>
+<lg xml:id="Yaśo_13">
+<l>śarīravarṇaṃ balam indriyeṣv api /</l>
+<l>vinaśyate jīvam anukrameṇa ca</l>
+<l>durantateyaṃ priyaviprayogatā //</l>
+</lg>
+<p xml:id="13">
+niṣadya bhūmyāṃ vinatārdhavigrahā<lb/>
+śiraś ca pāṇidvayam aṅkamastake /
+</p>
+<lg xml:id="Yaśo_14">
+<l>śiraś ca pāṇidvayam aṅkamastake /</l>
+<l>niveśya kiṃ cit pariṇamya kaṃdharaṃ</l>
+<l>mamajja cintājaladhāv apāśraye //</l>
+</lg>
+<p xml:id="14">
+yaśodharāyā avamānanakriyā<lb/>
+asahya siddhārthakumāra ekakaḥ /
+</p>
+<lg xml:id="Yaśo_15">
+<l>asahya siddhārthakumāra ekakaḥ /</l>
+<l>nivāsam utsṛjya gato nu kānanam</l>
+<l>iti pravādo 'pi bhaved aho mama //</l>
+</lg>
+<p xml:id="15">
+yad asti kāryaṃ triṣu mandireṣu tac<lb/>
+cakāra kāryakṣamasevikā yathā /
+</p>
+<lg xml:id="Yaśo_16">
+<l>cakāra kāryakṣamasevikā yathā /</l>
+<l>gatau sthitau vā śayane ca vipriyaṃ</l>
+<l>kadā canāhaṃ na cakāra kiṃ cana //</l>
+</lg>
+<p xml:id="16">
+vicintayantī sahasāgatāpadaṃ<lb/>
+pragamya devāyatanaṃ priyaṃ prati /
+</p>
+<lg xml:id="Yaśo_17">
+<l>pragamya devāyatanaṃ priyaṃ prati /</l>
+<l>sugandhipuspair api dhūmadīpakair</l>
+<l>apūpujad devagaṇaṃ sagauravam //</l>
+</lg>
+<p xml:id="17">
+bhujadvayaṃ mūrdhni niveśya śokinī<lb/>
+vilokya devapratimānanaśriyam /
+</p>
+<lg xml:id="Yaśo_18">
+<l>vilokya devapratimānanaśriyam /</l>
+<l>praṇamya bhaktyā pariśuddhacetasā</l>
+<l>yayāca devān iti viprayogataḥ //</l>
+</lg>
+<p xml:id="18">
+trilokasargasthitināśahetavaḥ<lb/>
+caturmukhaśrīpaticandraśekharāḥ /
+</p>
+<lg xml:id="Yaśo_19">
+<l>caturmukhaśrīpaticandraśekharāḥ /</l>
+<l>mahānubhāvā jagadīśvarāḥ surāḥ</l>
+<l>suduḥkhitāyai śaraṇaṃ bhavantu me //</l>
+</lg>
+<p xml:id="19">
+vidhāya yācñām iti devahastayor<lb/>
+upāyanīkṛtya babandha kārṣikau /
+</p>
+<lg xml:id="Yaśo_20">
+<l>upāyanīkṛtya babandha kārṣikau /</l>
+<l>upāharan miṣṭanavāmbupāyasaṃ</l>
+<l>sitāṃśukaṃ svarṇamayīṃ ca putrikām //</l>
+</lg>
+<p xml:id="20">
+pramodam āpādayituṃ sureśvarāṃś<lb/>
+cakāra ghaṇṭāninadaṃ ca bhūsurān /
+</p>
+<lg xml:id="Yaśo_21">
+<l>cakāra ghaṇṭāninadaṃ ca bhūsurān /</l>
+<l>ajījapad devagirā ca saṃstavān</l>
+<l>nanāma bhūmāv asakṛt nipatya sā //</l>
+</lg>
+<p xml:id="21">
+pure vane saṃvasathe 'pi vallabho<lb/>
+vased dhi kasminn iti divyācakṣuṣā /
+</p>
+<lg xml:id="Yaśo_22">
+<l>vased dhi kasminn iti divyācakṣuṣā /</l>
+<l>vilokya gehaṃ vinivartayantu taṃ</l>
+<l>divaukasaḥ prārthayataiva sā punaḥ //</l>
+</lg>
+<p xml:id="22">
+nirīkṣya jihmānimiṣeṇa cakṣuṣā<lb/>
+nihatya gāḍhaṃ caraṇaṃ bhuvas tale /
+</p>
+<lg xml:id="Yaśo_23">
+<l>nihatya gāḍhaṃ caraṇaṃ bhuvas tale /</l>
+<l>muhur muhur daṃśitakomalādharā</l>
+<l>prakarṣam utkṣipya vikampya tarjanīm //</l>
+</lg>
+<p xml:id="23">
+are-tvayāryasya gṛhābhiniṣkramaḥ<lb/>
+śruto na dṛṣṭaḥ vada kiṃ nirākulam /
+</p>
+<lg xml:id="Yaśo_24">
+<l>śruto na dṛṣṭaḥ vada kiṃ nirākulam /</l>
+<l>iti pratīhārabhaṭaṃ ruṣoccakai</l>
+<l>raveṇa papraccha sabāṣpalocanā //</l>
+</lg>
+<p xml:id="24">
+bhavān sa ārye nṛpavaṃśaśekharo<lb/>
+mayā na dṛṣṭaḥ pratihāram āgataḥ /
+</p>
+<lg xml:id="Yaśo_25">
+<l>mayā na dṛṣṭaḥ pratihāram āgataḥ /</l>
+<l>varāṅganābhiḥ saha kelikānane</l>
+<l>gate niśīthe 'ramateti me śrutam //</l>
+</lg>
+<p xml:id="25">
+avītarāgo nanu rājanandano<lb/>
+vavāñcha tasmān nanu nūtanapriyām /
+</p>
+<lg xml:id="Yaśo_26">
+<l>vavāñcha tasmān nanu nūtanapriyām /</l>
+<l>mithaḥ sa kāṃ cit pariṇīya nāṭikāṃ</l>
+<l>bahir gato 'ddheti vitarkayāmy aham //</l>
+</lg>
+<p xml:id="26">
+purā hi mandhātvabhidho mahāyaśāḥ<lb/>
+sa sārvabhaumo 'pi surāṅganāgaṇe /
+</p>
+<lg xml:id="Yaśo_27">
+<l>sa sārvabhaumo 'pi surāṅganāgaṇe /</l>
+<l>kṛtānurāgo parivarjya mānuṣīṃ</l>
+<l>śriyaṃ prapede nu divaukasāṃ puram //</l>
+</lg>
+<p xml:id="27">
+mano'bhirāmaṃ surasundarīgaṇaṃ<lb/>
+vihāya vindhyāvanatāpasāśrame /
+</p>
+<lg xml:id="Yaśo_28">
+<l>vihāya vindhyāvanatāpasāśrame /</l>
+<l>agastipatnīṃ parirabhya tāpasīṃ</l>
+<l>lalāsa rantuṃ niśi pākaśāsanaḥ //</l>
+</lg>
+<p xml:id="28">
+pratītalaṅkāvijite 'grabhūpatir<lb/>
+daśānano daṇḍakakānanaṃ gataḥ /
+</p>
+<lg xml:id="Yaśo_29">
+<l>daśānano daṇḍakakānanaṃ gataḥ /</l>
+<l>vigṛhya sītāṃ janakātmajām api</l>
+<l>nijapriyāvad vyadadhāt tadātmasāt //</l>
+</lg>
+<p xml:id="29">
+maheśvaraś cāpi purā tapaś carann<lb/>
+umāmahiṣyā saha kalikānane /
+</p>
+<lg xml:id="Yaśo_30">
+<l>umāmahiṣyā saha kalikānane /</l>
+<l>apāsya sātatyasamādhibhāvanaṃ</l>
+<l>vyarīramac cājanayat sutau nanu //</l>
+</lg>
+
+<lg xml:id="Yaśo_31">
+<l>śucākulāṃ sāntvayituṃ vadhūttamām</l>
+  <l>iti pratīhāra uraḥsthale 'ñjalim /</l>
+<l>vidhāya valgudhvaninānukampayā</l>
+<l>natena mūrdhnā vacasā vyajijñapat //</l>
+</lg>
+<p xml:id="30">
+are-tvam etarhi bhavantam uttamaṃ<lb/>
+gṛhe bahir vopavane 'pi kutra cit /
+</p>
+<lg xml:id="Yaśo_32">
+<l>gṛhe bahir vopavane 'pi kutra cit /</l>
+<l>aharmukhe kiṃ niśi vā dadarśitha</l>
+<l>vyapṛcchad itthaṃ nijasevikāṃ ruṣā //</l>
+</lg>
+<p xml:id="31">
+nidhāya vāmetarajānumaṇḍalaṃ<lb/>
+kṣitau bhujau cāpi lalāṭamastake /
+</p>
+<lg xml:id="Yaśo_33">
+<l>kṣitau bhujau cāpi lalāṭamastake /</l>
+<l>natārdhakāyaṃ nijagāda sevikā</l>
+<l>śrutaṃ ca dṛṣṭaṃ na na vedmi kiṃ cana //</l>
+</lg>
+<p xml:id="32">
+ataḥ-paraṃ harmyam upeyuṣī satī<lb/>
+pramārjya nisyandajalaṃ vilocane /
+</p>
+<lg xml:id="Yaśo_34">
+<l>pramārjya nisyandajalaṃ vilocane /</l>
+<l>are-kim āryo 'tra samāgato na vā</l>
+<l>vyapṛcchad antaḥpurapālapaṇḍakam //</l>
+</lg>
+<p xml:id="33">
+praśasyarūpeṇa girā ca valgunā<lb/>
+śriyā 'pi dhṛtyā tava kakṣam āgatāḥ /
+</p>
+<lg xml:id="Yaśo_35">
+<l>śriyā 'pi dhṛtyā tava kakṣam āgatāḥ /</l>
+<l>mahottame sarvajanena mānitā</l>
+<l>bhavanti tasya tritayāḥ priyāṅganāḥ //</l>
+</lg>
+<p xml:id="34">
+mano'bhirāmā bhavatī ca bhāratī<lb/>
+tathaiva lakṣmīr iti tāḥ priyāṅganāḥ /
+</p>
+<lg xml:id="Yaśo_36">
+<l>tathaiva lakṣmīr iti tāḥ priyāṅganāḥ /</l>
+<l>sadaiva tābhī ramate kumārakaḥ</l>
+<l>kadā cid anyatra mano 'sya no rajet //</l>
+</lg>
+<p xml:id="35">
+jugupsite satpuruṣair manasvibhiḥ<lb/>
+sadoṣakāme vimukho nu te patiḥ /
+</p>
+<lg xml:id="Yaśo_37">
+<l>sadoṣakāme vimukho nu te patiḥ /</l>
+<l>tato 'sya śuddhāntagatiḥ kadā cana</l>
+<l>śrutā na dṛṣṭā na divā vā niśi //</l>
+</lg>
+<p xml:id="36">
+tapodhanānāṃ samatām upeyivān<lb/>
+ratiṃ na kuryāt sa bhavatraye kva cit /
+</p>
+<lg xml:id="Yaśo_38">
+<l>ratiṃ na kuryāt sa bhavatraye kva cit /</l>
+<l>amedhyagehena same 'varodhane</l>
+<l>kathaṃ vidhatte ratim eṣa te patiḥ //</l>
+</lg>
+<p xml:id="37">
+asādhyarogāyatane sukhetare<lb/>
+bubhukṣayā nityanipīḍitodare /
+</p>
+<lg xml:id="Yaśo_39">
+<l>bubhukṣayā nityanipīḍitodare /</l>
+<l>atarpaṇīye vividhānnapānakaiḥ</l>
+<l>spṛhāṃ na dehe prakaroti paṇḍitaḥ //</l>
+</lg>
+<p xml:id="38">
+vikīrṇagharmodakavipruṣi tvaci<lb/>
+vicitravarṇaṃ śamalena saṃskṛte /
+</p>
+<lg xml:id="Yaśo_40">
+<l>vicitravarṇaṃ śamalena saṃskṛte /</l>
+<l>śarīra ālokya jano vinaśyate</l>
+<l>pataṅgavad dīpaśikhojjvalaprabhām //</l>
+</lg>
+<p xml:id="39">
+tato nṛpāntaḥpurapālakodite<lb/>
+kṛtāvadhānā vacane yaśodharā /
+</p>
+<lg xml:id="Yaśo_41">
+<l>kṛtāvadhānā vacane yaśodharā /</l>
+<l>divaukasāṃ nandanakānanopamaṃ</l>
+<l>jagāma rājopavanaṃ calātmanā //</l>
+</lg>
+<p xml:id="40">
+athābhirāmopavanasya rakṣakaḥ<lb/>
+puraḥ pragamyorasi baddhapāṇinā /
+</p>
+<lg xml:id="Yaśo_42">
+<l>puraḥ pragamyorasi baddhapāṇinā /</l>
+<l>kimartham ārye 'tra samāgatis tava</l>
+<l>bhavāmi jijñāsur iti nyavedayat //</l>
+</lg>
+<p xml:id="41">
+sakhe mamāryo rahasāruṇodaye<lb/>
+samāgato vātra na kiṃ samāgataḥ /
+</p>
+<lg xml:id="Yaśo_43">
+<l>samāgato vātra na kiṃ samāgataḥ /</l>
+<l>kim atra dṛṣṭaḥ sa na vā śrutas tvayā</l>
+<l>vicintya samyag vada māṃ yathātatham //</l>
+</lg>
+<p xml:id="42">
+gataspṛhaḥ pañcasu kāmavastuṣu<lb/>
+sa āryaputro vijitendriyo bhavet /
+</p>
+<lg xml:id="Yaśo_44">
+<l>sa āryaputro vijitendriyo bhavet /</l>
+<l>tato 'bhirāmopavanaṃ samāgamo</l>
+<l>na dṛṣṭa ārye na hi vā śruto mayā //</l>
+</lg>
+<p xml:id="43">
+vidhitsamāno 'bhyudayaṃ jagattraye<lb/>
+divaukasānām adhigamya yācanam /
+</p>
+<lg xml:id="Yaśo_45">
+<l>divaukasānām adhigamya yācanam /</l>
+<l>divo 'vatīrṇo nanu puṇyatejasā</l>
+<l>manuṣyajanmany ajaniṣṭa sa prabhuḥ //</l>
+</lg>
+<p xml:id="44">
+mahāmahe saty asitarṣir īyivān<lb/>
+divaṃ kim ity asya vimṛśya kāraṇam /
+</p>
+<lg xml:id="Yaśo_46">
+<l>divaṃ kim ity asya vimṛśya kāraṇam /</l>
+<l>svamitraśuddhodanabhūpateḥ suto</l>
+<l>'janīti harṣāt tam avekṣituṃ yayau //</l>
+</lg>
+<p xml:id="45">
+tato 'sitarṣir nṛpasaudham āgataḥ<lb/>
+kumārakaṃ vīkṣya sapuṇyasampadam /
+</p>
+<lg xml:id="Yaśo_47">
+<l>kumārakaṃ vīkṣya sapuṇyasampadam /</l>
+<l>atīndriyajñānamayena cakṣuṣā</l>
+<l>parīkṣamāṇo 'sya śarīralakṣaṇam //</l>
+</lg>
+<p xml:id="46">
+jagāda vākyaṃ śiśur eṣa puṇyavān<lb/>
+bhaved dhi buddho hatamārabandhanaḥ /
+</p>
+<lg xml:id="Yaśo_48">
+<l>bhaved dhi buddho hatamārabandhanaḥ /</l>
+<l>pratārayet sarvanarāmarāsurān</l>
+<l>apārasaṃsāramahārṇavād iti //</l>
+</lg>
+<p xml:id="47">
+dvijeṣu pañcasv atha dehalakṣaṇaṃ<lb/>
+parīkṣya kauṇḍaṇyabudho 'bravīd iti /
+</p>
+<lg xml:id="Yaśo_49">
+<l>parīkṣya kauṇḍaṇyabudho 'bravīd iti /</l>
+<l>vinaśya tṛṣṇādimalāny ayaṃ śiśur</l>
+<l>anuttaraṃ buddhapadaṃ gamiṣyati //</l>
+</lg>
+<p xml:id="48">
+tadā prasūtakṣaṇa eva lumbinī-<lb/>
+vane sa saptāmbujamūrdhny abhivrajan /
+</p>
+<lg xml:id="Yaśo_50">
+<l>vane sa saptāmbujamūrdhny abhivrajan /</l>
+<l>abhītanādaṃ nyanadaj jagattraye</l>
+<l>bhaveyam agras tv iti siṃhapotavat //</l>
+</lg>
+<p xml:id="49">
+bhramaddvirephaśrutiramyanisvanaḥ<lb/>
+sugandhinaḥ puṣpaparāgarāśinā /
+</p>
+<lg xml:id="Yaśo_51">
+<l>sugandhinaḥ puṣpaparāgarāśinā /</l>
+<l>taraṃgiṇīśīkaramiśramāruto</l>
+<l>vavau samantād vipine śanaiḥ tadā //</l>
+</lg>
+<p xml:id="50">
+mahātmanas tasya parārdhyajanmani<lb/>
+vasuṃdharāyā nidhayaḥ samudgatāḥ /
+</p>
+<lg xml:id="Yaśo_52">
+<l>vasuṃdharāyā nidhayaḥ samudgatāḥ /</l>
+<l>dharāṅganā tarhy atimātramoditā</l>
+<l>savismayāṃ siddhim adarśayad bhuvi //</l>
+</lg>
+<p xml:id="51">
+tataḥ paraṃ lumbinikānanād gṛhaṃ<lb/>
+vicitrajāmbūnadabimbasaṃnibham /
+</p>
+<lg xml:id="Yaśo_53">
+<l>vicitrajāmbūnadabimbasaṃnibham /</l>
+<l>kumārakaṃ tau pitarau savatsalau</l>
+<l>sabandhuvargaṃ parivārya ninyatuḥ //</l>
+</lg>
+<p xml:id="52">
+gurupradiṣṭaṃ vidhivad gurupriyaḥ<lb/>
+samastavidyāsamayaṃ ca darśanam /
+</p>
+<lg xml:id="Yaśo_54">
+<l>samastavidyāsamayaṃ ca darśanam /</l>
+<l>bhave bhave saṃcitapuṇyatejasā</l>
+<l>samadhyagīṣṭāciram eṣa buddhimā //</l>
+</lg>
+<lg xml:id="Yaśo_55">
+<l>śrutena dhṛtyā navayauvanaśriyam</l>
+  <l>upeyuṣo 'syāryasutasya janmanaḥ /</l>
+<l>saha tvayā ṣoḍaśame hi hāyane</l>
+<l>vivāhadīkṣāṃ vidhivac cakāra nu //</l>
+</lg>
+</body>
+</text>
+</TEI>

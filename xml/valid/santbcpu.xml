@@ -1,0 +1,4100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Everything that still needs to be done is marked with TODO -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sa_zAntideva-bodhicaryAvatAra+[bodhisattvacaryAvatAra]">
+  <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<!-- TODO: Verify title -->
+	<title>Bodhicaryāvatāra [Bodhisattvacaryāvatāra]</title>
+	<!-- TODO: Verify author -->	
+	<author>Śāntideva</author>
+	<respStmt>
+	  <!-- TODO: Verify entry by -->	
+	  <resp>data entry</resp>
+	  <name>Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>contribution to GRETIL</resp>
+	  <name>Richard Mahoney</name>
+	</respStmt>
+	<respStmt>
+	  <resp>initial normalization and conversion to legacy GRETIL formats</resp>
+	  <name>Reinhold Grünendahl</name>
+	</respStmt>
+	<respStmt>
+	  <resp>normalization and conversion to TEI-conformant markup</resp>
+	  <name>Sebastian Nehrdich</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<publisher>Göttingen Register of Electronic Texts in Indian Languages (GRETIL), SUB Göttingen</publisher>
+	<availability>
+	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
+	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
+	  The file will be immediately removed pending resolution of the claim.</p>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</licence>
+	</availability>
+	<date when-iso="2019-06-18"/>
+	<authority xml:id="bdrc">
+          <name>Buddhist Digital Resource Center</name>
+          <note><!-- more information about the collaboration --></note>
+        </authority>
+	<idno type="BDRC" xml:base="http://purl.bdrc.io/resource/" resp="#bdrc"><!-- bdrc ID --></idno>
+      </publicationStmt>      
+      <notesStmt>
+	<note><!-- notes go here --></note>
+      </notesStmt>
+      <sourceDesc>
+	<!-- TODO: based on information:
+	     not_specified-->
+	<!-- source(s), give all relevant for the constitution of the text with appropriate ids -->
+	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
+        <listWit>
+          <witness xml:id="MS1">
+            Manuscript 1 ...
+          </witness>
+        </listWit>
+	
+	<bibl xml:id="SourceA"><!-- loosely-structured sources -->
+	</bibl>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, monograph, optionally with series -->
+	  <monogr>
+	    <author></author><!-- either or -->
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in collection, optionally with series -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <editor></editor>
+	    <title></title>
+	    <imprint>
+	      <pubPlace></pubPlace>
+	      <publisher></publisher>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="page">64-70</biblScope>
+	  </monogr>
+	  <series>
+	    <title></title>
+	    <biblScope unit="volume"></biblScope>
+	  </series>
+	</biblStruct>
+	
+	<biblStruct xml:id="AuthorYear"><!-- structured source, article in journal -->
+	  <analytic>
+	    <author></author>
+	    <title></title>
+	  </analytic>
+	  <monogr>
+	    <title level="j"></title>
+	    <imprint>
+	      <date when-iso="1900"/>
+	    </imprint>
+	    <biblScope unit="volume"></biblScope>
+	    <biblScope unit="page">100-110</biblScope>
+	  </monogr>
+	</biblStruct>
+	
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+	<p>The Göttingen Register of Electronic Texts in Indian Languages (GRETIL) is a resource platform providing standardized machine-readable texts in Indian languages that have been contributed by various individuals and institutions.</p>
+      </projectDesc>
+      <editorialDecl>
+	<correction>
+	  <p>Apparent errors have been silently corrected.</p><!-- mostly, or: marked, not always the same -->
+	</correction>
+	<normalization>
+	  <p>GRETIL normalizes all texts contributed consistently for each language.
+	  Sanskrit texts are normalized in accordance with the scheme of the International Alphabet of Sanskrit Transliteration (IAST) in order to facilitate word search across its corpus without additional transformations.</p>
+	  <p>All characters that were fully equivalent to an IAST-conformant character in the text file contributed have been made to conform to the character list below.
+	  Non-conformant characters with additional information including accents, capitalization, and whitespace have been preserved as <gi>orig</gi> elements inside <gi>choice</gi> elements with their IAST-conformant equivalent in <gi>reg</gi> elements for the creation of a plain text.
+	  These additional informations will be available only in those transformations of this file that display the original information.</p>
+	  <p><!-- full table for Sanskrit --><table>
+	    <head>Characters Used for the Transliteration of Sanskrit according to IAST</head>
+	    <row role="label">
+	      <cell>Character</cell>
+	      <cell>Character Name</cell>
+	      <cell>Unicode Code Point</cell>
+	    </row>
+	    <row>
+	      <cell>a</cell>
+	      <cell>LATIN SMALL LETTER A</cell>
+	      <cell>U+0061</cell>
+	    </row>
+	    <row>
+	      <cell>ā</cell>
+	      <cell>LATIN SMALL LETTER A WITH MACRON</cell>
+	      <cell>U+0101</cell>
+	    </row>
+	    <row>
+	      <cell>i</cell>
+	      <cell>LATIN SMALL LETTER I</cell>
+	      <cell>U+0069</cell>
+	    </row>
+	    <row>
+	      <cell>ī</cell>
+	      <cell>LATIN SMALL LETTER I WITH MACRON</cell>
+	      <cell>U+012B</cell>
+	    </row>
+	    <row>
+	      <cell>u</cell>
+	      <cell>LATIN SMALL LETTER U</cell>
+	      <cell>U+0075</cell>
+	    </row>
+	    <row>
+	      <cell>ū</cell>
+	      <cell>LATIN SMALL LETTER U WITH MACRON</cell>
+	      <cell>U+016B</cell>
+	    </row>
+	    <row>
+	      <cell>ṛ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW</cell>
+	      <cell>U+1E5B</cell>
+	    </row>
+	    <row>
+	      <cell>ṝ</cell>
+	      <cell>LATIN SMALL LETTER R WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E5D</cell>
+	    </row>
+	    <row>
+	      <cell>ḷ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW</cell>
+	      <cell>U+1E37</cell>
+	    </row>
+	    <row>
+	      <cell>ḹ</cell>
+	      <cell>LATIN SMALL LETTER L WITH DOT BELOW AND MACRON</cell>
+	      <cell>U+1E39</cell>
+	    </row>
+	    <row>
+	      <cell>e</cell>
+	      <cell>LATIN SMALL LETTER E</cell>
+	      <cell>U+0065</cell>
+	    </row>
+	    <row>
+	      <cell>o</cell>
+	      <cell>LATIN SMALL LETTER O</cell>
+	      <cell>U+006F</cell>
+	    </row>
+	    <row>
+	      <cell>ṃ</cell>
+	      <cell>LATIN SMALL LETTER M WITH DOT BELOW</cell>
+	      <cell>U+1E43</cell>
+	    </row>
+	    <row>
+	      <cell>ḥ</cell>
+	      <cell>LATIN SMALL LETTER H WITH DOT BELOW</cell>
+	      <cell>U+1E25</cell>
+	    </row>
+	    <row>
+	      <cell>'</cell>
+	      <cell>APOSTROPHE</cell>
+	      <cell>U+0027</cell>
+	    </row>
+	    <row>
+	      <cell>k</cell>
+	      <cell>LATIN SMALL LETTER K</cell>
+	      <cell>U+006B</cell>
+	    </row>
+	    <row>
+	      <cell>g</cell>
+	      <cell>LATIN SMALL LETTER G</cell>
+	      <cell>U+0067</cell>
+	    </row>
+	    <row>
+	      <cell>ṅ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT ABOVE</cell>
+	      <cell>U+1E45</cell>
+	    </row>
+	    <row>
+	      <cell>c</cell>
+	      <cell>LATIN SMALL LETTER C</cell>
+	      <cell>U+0063</cell>
+	    </row>
+	    <row>
+	      <cell>j</cell>
+	      <cell>LATIN SMALL LETTER J</cell>
+	      <cell>U+006A</cell>
+	    </row>
+	    <row>
+	      <cell>ñ</cell>
+	      <cell>LATIN SMALL LETTER N WITH TILDE</cell>
+	      <cell>U+00F1</cell>
+	    </row>
+	    <row>
+	      <cell>ṭ</cell>
+	      <cell>LATIN SMALL LETTER T WITH DOT BELOW</cell>
+	      <cell>U+1E6D</cell>
+	    </row>
+	    <row>
+	      <cell>ḍ</cell>
+	      <cell>LATIN SMALL LETTER D WITH DOT BELOW</cell>
+	      <cell>U+1E0D</cell>
+	    </row>
+	    <row>
+	      <cell>ṇ</cell>
+	      <cell>LATIN SMALL LETTER N WITH DOT BELOW</cell>
+	      <cell>U+1E47</cell>
+	    </row>
+	    <row>
+	      <cell>p</cell>
+	      <cell>LATIN SMALL LETTER P</cell>
+	      <cell>U+0070</cell>
+	    </row>
+	    <row>
+	      <cell>b</cell>
+	      <cell>LATIN SMALL LETTER B</cell>
+	      <cell>U+0062</cell>
+	    </row>
+	    <row>
+	      <cell>m</cell>
+	      <cell>LATIN SMALL LETTER M</cell>
+	      <cell>U+006D</cell>
+	    </row>
+	    <row>
+	      <cell>y</cell>
+	      <cell>LATIN SMALL LETTER Y</cell>
+	      <cell>U+0079</cell>
+	    </row>
+	    <row>
+	      <cell>r</cell>
+	      <cell>LATIN SMALL LETTER R</cell>
+	      <cell>U+0072</cell>
+	    </row>
+	    <row>
+	      <cell>l</cell>
+	      <cell>LATIN SMALL LETTER L</cell>
+	      <cell>U+006C</cell>
+	    </row>
+	    <row>
+	      <cell>v</cell>
+	      <cell>LATIN SMALL LETTER V</cell>
+	      <cell>U+0076</cell>
+	    </row>
+	    <row>
+	      <cell>ś</cell>
+	      <cell>LATIN SMALL LETTER S WITH ACUTE</cell>
+	      <cell>U+x015B</cell>
+	    </row>
+	    <row>
+	      <cell>ṣ</cell>
+	      <cell>LATIN SMALL LETTER S WITH DOT BELOW</cell>
+	      <cell>U+1E63</cell>
+	    </row>
+	    <row>
+	      <cell>s</cell>
+	      <cell>LATIN SMALL LETTER S</cell>
+	      <cell>U+0073</cell>
+	    </row>
+	    <row>
+	      <cell>h</cell>
+	      <cell>LATIN SMALL LETTER H</cell>
+	      <cell>U+0068</cell>
+	    </row>
+	  </table>
+	</p>
+      </normalization>
+      <quotation marks="some"><!-- general marking of quotes -->
+	<p>If indicated unambiguously in the text file contributed quotation marks have been replaced with the <gi>q</gi> element and, in case a reference was provided, have been nested inside a <gi>cit</gi> with the respective reference provided in a <gi>ref</gi> element after the quote.</p>
+      </quotation>
+      <segmentation>
+	<p>Unnumbered <gi>div</gi> elements are used to structure the text, using the <att>type</att> and <att>n</att> attributes in accordance with the <gi>refsDecl</gi>.</p>
+      </segmentation>
+      <interpretation> 
+	<p>Interpretive markup which is visible only in analytic transformations of this file consists of:
+	<list>
+	  <item>Highlighting in <gi>hi</gi> elements,</item>
+	  <item>Corruptions in <gi>sic</gi> elements,</item>
+	  <item>Remarks in <gi>note</gi> elements with the @resp attribute identifying the agency.</item>
+	</list></p>
+      </interpretation>
+    </editorialDecl>
+    <refsDecl>
+    <!-- TODO: The structure of references below needs to be entered into xml nodes -->	
+    <!--  -->
+      <p>A reference is given in the <att>xml:id</att> attributes consisting of 
+      <list>
+	<item>a pragmatic abbreviation of the <label>title</label>: ,</item>
+	<item>the number of the <label type="tocinclude"></label> in arabic numerals,</item>
+	<item>the number of the <label></label> in arabic numerals,</item>
+	<item>the number of the <label>verse</label> in arabic numerals,</item>
+	<item>if applicable: the string ":c" to signify a <label>commentary</label> to the preceding <gi>p</gi> or <gi>lg</gi> element,</item>
+	<item>if applicable: the number of a verse in a <label>commentary</label> in arabic numerals.</item>
+      </list>
+      </p>
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc><!-- language-->
+    <langUsage>
+      <language ident="en">English</language>
+      <language ident="sa-Latn">Sanskrit</language>
+    </langUsage>
+    <textClass>
+      <keywords scheme="http://gretil.sub.uni-goettingen.de/"> <!-- own classification, there needs to be an overview -->
+	<term>Sanskrit -- Śāstra -- Philosophy -- Buddhist</term> <!-- more than one term can be applied -->
+      </keywords>
+    </textClass>
+  </profileDesc>
+  <revisionDesc><!-- revisions -->
+    <listChange>
+      <change when-iso="2019-01-01">
+	<persName>...</persName>
+	made this and that change.
+      </change>
+    </listChange>
+  </revisionDesc>
+  <!-- TODO: below is the original HTML header for comparision purpose -->
+  <!-- Santideva: Bodhicaryavatara<BR>
+Input by Richard Mahoney<BR>
+PLAIN TEXT VERSION<BR>
+The original encoding of this e-text emulates Nagari script.<BR>
+Therefore word boundaries are not always spaced.<BR>
+ -->
+</teiHeader>
+<text xml:lang="sa-Latn" xml:id="Bca">
+<body><p xml:id="0">
+Pariccheda 1
+</p><p xml:id="1">
+aum namo buddhāya /
+</p>
+<lg xml:id="Bca_1.1">
+<l>sugatān sasutān sadharmakāyān praṇipatyādarato 'khilāṃśca vandyān /</l>
+<l>sugatātmajasaṃvarāvatāraṃ kathayiṣyāmi yathāgamaṃ samāsāt //</l>
+</lg>
+<lg xml:id="Bca_1.2">
+<l>na hi kiṃcidapūrvamatra vācyaṃ na ca saṃgrathanakauśalaṃ mamāsti /</l>
+<l>ataeva na me parārthacintā svamano vāsayituṃ kṛtaṃ mamedaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.3">
+<l>mama tāvadanena yāti vṛddhiṃ kuśalaṃ bhāvayituṃ prasādavegaḥ /</l>
+<l>atha matsamadhātureva paśyed aparo 'pyenamato 'pi sārthako 'yaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.4">
+<l>kṣaṇasaṃpadiyaṃ sudurlabhā pratilabdhā puruṣārthasādhanī /</l>
+<l>yadi nātra vicintyate hitaṃ punarapyeṣa samāgamaḥ kutaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.5">
+<l>rātrau yathā meghaghanāndhakāre vidyutkṣaṇaṃ darśayati prakāśaṃ /</l>
+<l>buddhānubhāvena tathā kadācil-lokasya puṇyeṣu matiḥ kṣaṇaṃ syāt //</l>
+</lg>
+<lg xml:id="Bca_1.6">
+<l>tasmācchubhaṃ durbalameva nityaṃ balaṃ tu pāpasya mahatsughoraṃ /</l>
+<l>tajjīyate 'nyena śubhena kena saṃbodhicittaṃ yadi nāma na syāt //</l>
+</lg>
+<lg xml:id="Bca_1.7">
+<l>kalpānanalpān pravicintayadbhir dṛṣṭaṃ munīndrairhitametadeva /</l>
+<l>yataḥ sukhenaiva sukhaṃ pravṛddham utplāvayatyapramitāñjanaughān //</l>
+</lg>
+<lg xml:id="Bca_1.8">
+<l>bhavaduḥkhaśatāni tartukāmair api sattvavyasanāni hartukāmaiḥ /</l>
+<l>bahusaukhyaśatāni bhoktukāmair na vimocyaṃ hi sadaiva bodhicittaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.9">
+<l>bhavacārakabandhano varākaḥ sugatānāṃ suta ucyate kṣaṇen /</l>
+<l>na narāmaralokavandanīyo bhavati smodita eva bodhicitte //</l>
+</lg>
+<lg xml:id="Bca_1.10">
+<l>aśucipratimāmimāṃ gṛhītvā jinaratnapratimāṃ karotyanarghāṃ /</l>
+<l>rasajātamatīva vedhanīyaṃ sudṛḍhaṃ gṛhṇata bodhicittasaṃjñaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.11">
+<l>suparīkṣitamaprameyadhībhir bahumūlyaṃ jagadekasārthavāhaiḥ /</l>
+<l>gatipattanavipravāsaśīlāḥ sudṛḍhaṃ gṛhṇata bodhicittaratnaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.12">
+<l>kadalīva phalaṃ vihāya yāti kṣayamanyatkuśalaṃ hi sarvameva /</l>
+<l>satataṃ phalati kṣayaṃ na yāti prasavatyeva tu bodhicittavṛkṣaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.13">
+<l>kṛtvāpi pāpāni sudāruṇāni yadāśrayāduttarati kṣaṇena /</l>
+<l>śūrāśrayeṇeva mahābhayāni nāśrīyate tatkathamajñasattvaiḥ //</l>
+</lg>
+<lg xml:id="Bca_1.14">
+<l>yugāntakālānalavanmahānti pāpāni yannirdahati kṣaṇena /</l>
+<l>yasyānuśaṃsānamitānuvāca maitreyanāthaḥ sudhanāya dhīmān //</l>
+</lg>
+<lg xml:id="Bca_1.15">
+<l>tadbodhicittaṃ dvividhaṃ vijñātavyaṃ samāsataḥ /</l>
+<l>bodhipraṇidhicittaṃ ca bodhiprasthānameva ca //</l>
+</lg>
+<lg xml:id="Bca_1.16">
+<l>gantukāmasya gantuśca yathā bhedaḥ pratīyate /</l>
+<l>tathā bhedo 'nayorjñeyo yathāsaṃkhyena paṇḍitaiḥ //</l>
+</lg>
+<lg xml:id="Bca_1.17">
+<l>bodhipraṇidhicittasya saṃsāre 'pi phalaṃ mahat /</l>
+<l>na tvavicchinnapuṇyatvaṃ yathā prasthānacetasaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.18">
+<l>yataḥ prabhṛtyaparyanta-sattvadhātupramokṣaṇe /</l>
+<l>samādadāti taccittam anivartyena cetasā //</l>
+</lg>
+<lg xml:id="Bca_1.19">
+<l>tataḥ prabhṛti suptasya pramattasyāpyanekaśaḥ /</l>
+<l>avicchinnāḥ puṇyadhārāḥ pravartante nabhaḥsamāḥ //</l>
+</lg>
+<lg xml:id="Bca_1.20">
+<l>idaṃ subāhupṛcchāyāṃ sopapattikamuktavān /</l>
+<l>hīnādhimuktisattvārthaṃ svayameva tathāgataḥ //</l>
+</lg>
+<lg xml:id="Bca_1.21">
+<l>śiraḥśūlāni sattvānāṃ nāśayāmīti cintayan /</l>
+<l>aprameyeṇa puṇyena gṛhyate sma hitāśayaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.22">
+<l>kimutāpramitaṃ śūlam ekaikasya jihīrṣataḥ /</l>
+<l>aprameyaguṇaṃ sattvam ekaikaṃ ca cikīrṣataḥ //</l>
+</lg>
+<lg xml:id="Bca_1.23">
+<l>kasya mātuḥ piturvāpi hitāśaṃseyamīdṛśī /</l>
+<l>devatānāmṛṣīṇāṃ vā brahmaṇāṃ vā bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_1.24">
+<l>teṣāmeva ca sattvānāṃ svārthe 'pyeṣa manorathaḥ /</l>
+<l>notpannapūrvaḥ svapne 'pi parārthe saṃbhavaḥ kutaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.25">
+<l>sattvaratnaviśeṣo 'yam apūrvo jāyate kathaṃ /</l>
+<l>yatparārthāśayo 'nyeṣāṃ na svārthe 'pyupajāyate //</l>
+</lg>
+<lg xml:id="Bca_1.26">
+<l>jagadānandabījasya jagadduḥkhauṣadhasya ca /</l>
+<l>cittaratnasya yatpuṇyaṃ tatkathaṃ hi pramīyatāṃ //</l>
+</lg>
+<lg xml:id="Bca_1.27">
+<l>hitāśaṃsanamātreṇa buddhapūjā viśiṣyate /</l>
+<l>kiṃ punaḥ sarvasattvānāṃ sarvasaukhyārthamudyamāt //</l>
+</lg>
+<lg xml:id="Bca_1.28">
+<l>duḥkhamevābhidhāvanti duḥkhaniḥsaraṇāśayā /</l>
+<l>sukhecchayaiva saṃmohāt svasukhaṃ ghnanti śatruvat //</l>
+</lg>
+<lg xml:id="Bca_1.29">
+<l>yasteṣāṃ sukharaṅkāṇāṃ pīḍitānāmanekaśaḥ /</l>
+<l>tṛptiṃ pūrvasukhaiḥ kuryāt sarvāḥ pīḍāśchinatti ca //</l>
+</lg>
+<lg xml:id="Bca_1.30">
+<l>nāśayatyapi saṃmohaṃ sādhustena samaḥ kutaḥ /</l>
+<l>kuto vā tādṛśaṃ mitraṃ puṇyaṃ vā tādṛśaṃ kutaḥ //</l>
+</lg>
+<lg xml:id="Bca_1.31">
+<l>kṛte yaḥ pratikurvīta so 'pi tāvatpraśasyate /</l>
+<l>avyāpāritasādhustu bodhisattvaḥ kimucyatāṃ //</l>
+</lg>
+<lg xml:id="Bca_1.32">
+<l>katipayajanasatradāyakaḥ kuśalakṛdityabhipūjyate janaiḥ /</l>
+<l>kṣaṇamaśanakamātradānataḥ saparibhavaṃ divasārdhayāpanāt //</l>
+</lg>
+<lg xml:id="Bca_1.33">
+<l>kimu niravadhisattvasaṃkhyayā niravadhikālamanuprayacchataḥ /</l>
+<l>gaganajanaparikṣayākṣayaṃ sakalamanorathasaṃprapūraṇaṃ //</l>
+</lg>
+<lg xml:id="Bca_1.34">
+<l>iti sattrapatau jinasya puttre kaluṣaṃ sve hṛdaye karoti yaśca /</l>
+<l>kaluṣodayasaṃkhyayā sa kalpān narakeṣvāvasatīti nātha āha //</l>
+</lg>
+<lg xml:id="Bca_1.35">
+<l>atha yasya manaḥ prasādameti prasavettasya tato 'dhikaṃ phalaṃ /</l>
+<l>mahatā hi balena pāpakarma jinaputtreṣu śubhaṃ tvayatnataḥ //</l>
+</lg>
+<lg xml:id="Bca_1.36">
+<l>teṣāṃ śarīrāṇi namaskaromi yatroditaṃ tadvaracittaratnaṃ /</l>
+<l>yatrāpakāro 'pi sukhānubandhī sukhākarāṃstān śaraṇaṃ prayāmi //</l>
+</lg>
+<p xml:id="2">
+bodhicaryāvatāre bodhicittānuśaṃsā nāma prathamaḥ paricchedaḥ //
+</p><p xml:id="3">
+****************************************************************
+</p><p xml:id="4">
+Pariccheda 2
+</p>
+<lg xml:id="Bca_2.1">
+<l>taccittaratnagrahaṇāya samyak pūjāṃ karomyeṣa tathāgatānāṃ /</l>
+<l>saddharmaratnasya ca nirmalasya buddhātmajānāṃ ca guṇodadhīnāṃ //</l>
+</lg>
+<lg xml:id="Bca_2.2">
+<l>yāvanti puṣpāṇi phalāni caiva bhaiṣajyajātāni ca yāni santi /</l>
+<l>ratnāni yāvanti ca santi loke jalāni ca svacchamanoramāṇi //</l>
+</lg>
+<lg xml:id="Bca_2.3">
+<l>mahīdharā ratnamayāstathānye vanapradeśāśca vivekaramyāḥ /</l>
+<l>latāḥ sapuṣpābharaṇojjvalāśca drumāśca ye satphalanamraśākhāḥ //</l>
+</lg>
+<lg xml:id="Bca_2.4">
+<l>devādilokeṣu ca gandhadhūpāḥ kalpadrumā ratnamayāśca vṛkṣāḥ /</l>
+<l>sarāṃsi cāmbhoruhabhūṣaṇāni haṃsasvanātyantamanoharāṇi //</l>
+</lg>
+<lg xml:id="Bca_2.5">
+<l>akṛṣṭajātāni ca śasyajātāny anyāni vā pūjyavibhūṣaṇāni /</l>
+<l>ākāśadhātuprasarāvidhīni sarvāṇyapīmānyaparigrahāṇi //</l>
+</lg>
+<lg xml:id="Bca_2.6">
+<l>ādāya buddhyā munipuṅgavebhyo niryātayāmyeṣa saputrakebhyaḥ /</l>
+<l>gṛhṇantu tanme varadakṣiṇīyā mahākṛpā māmanukampamānāḥ //</l>
+</lg>
+<lg xml:id="Bca_2.7">
+<l>apuṇyavānasmi mahādaridraḥ pūjārthamanyanmama nāsti kiṃcit /</l>
+<l>ato mamārthāya parārthacintā gṛhṇantu nāthā idamātmaśaktyā //</l>
+</lg>
+<lg xml:id="Bca_2.8">
+<l>dadāmi cātmānamahaṃ jinebhyaḥ sarveṇa sarvaṃ ca tadātmajebhyaḥ /</l>
+<l>parigrahaṃ me kurutāgrasattvāḥ yuṣmāsu dāsatvamupaimi bhaktyā //</l>
+</lg>
+<lg xml:id="Bca_2.9">
+<l>parigraheṇāsmi bhavatkṛtena nirbhīrbhave sattvahitaṃ karomi /</l>
+<l>pūrvaṃ ca pāpaṃ samatikramāmi nānyacca pāpaṃ prakaromi bhūyaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.10">
+<l>ratnojjvalastambhamanorameṣu muktāmayodbhāsivitānakeṣu /</l>
+<l>svacchojjvalasphāṭikakuṭṭimeṣu sugandhiṣu snānagṛheṣu teṣu //</l>
+</lg>
+<lg xml:id="Bca_2.11">
+<l>manojñagandhodakapuṣpapūrṇaiḥ kumbhairmahāratnamayairanekaiḥ /</l>
+<l>snānaṃ karomyeṣa tathāgatānāṃ tadātmajānāṃ ca sagītavādyaṃ //</l>
+</lg>
+<lg xml:id="Bca_2.12">
+<l>pradhūpitairdhautamalairatulyair varstraiśca teṣāṃ tanumunmṛśāmi /</l>
+<l>tataḥ suraktāni sudhūpitāni dadāmi tebhyo varacīvarāṇi //</l>
+</lg>
+<lg xml:id="Bca_2.13">
+<l>divyairmṛduślakṣṇavicitraśobhair vastrairalaṅkāravaraiśca taistaiḥ /</l>
+<l>samantabhadrājitamañjughoṣa-lokeśvarādīnapi maṇḍayāmi //</l>
+</lg>
+<lg xml:id="Bca_2.14">
+<l>sarvatrisāhasravisārigandhair gandhottamaistānanulepayāmi /</l>
+<l>sūttaptasūnmṛṣṭasudhautahema-prabhojjvalānsarvamunīndrakāyān //</l>
+</lg>
+<lg xml:id="Bca_2.15">
+<l>mandāravendīvaramallikādyaiḥ sarvaiḥ sugandhaiḥ kusumairmanojñaiḥ /</l>
+<l>abhyarcayāmyarcyatamānmunīndrān sragbhiśca saṃsthānamanoramābhiḥ //</l>
+</lg>
+<lg xml:id="Bca_2.16">
+<l>sphītasphuradgandhamanoramaiśca tāndhūpameghairupadhūpayāmi /</l>
+<l>bhaujyaiśca svādyairvividhaiśca peyais tebhyo nividyaṃ ca nivedayāmi //</l>
+</lg>
+<lg xml:id="Bca_2.17">
+<l>ratnapradīpāṃśca nivedayāmi suvarṇapadmeṣu niviṣṭapaṅkvīn /</l>
+<l>gandhopalipteṣu ca kuṭṭimeṣu kirāmi puṣpaprakarānmanojñān //</l>
+</lg>
+<lg xml:id="Bca_2.18">
+<l>pralambamuktāmaṇihāraśobhān ābhāsvarāndigmukhamaṇḍanāṃstān /</l>
+<l>vimānameghān stutigītaramyān maitrīmayebhyo 'pi nivedayāmi //</l>
+</lg>
+<lg xml:id="Bca_2.19">
+<l>suvarṇadaṇḍaiḥ kamanīyarūpaiḥ saṃsaktamuktāni samucchritāni /</l>
+<l>pradhārayāmyeṣa mahāmunīnāṃ ratnātapatrāṇyatiśobhanāni //</l>
+</lg>
+<lg xml:id="Bca_2.20">
+<l>ataḥ paraṃ pritaṣṭhantāṃ pūjāmeghā manoramāḥ /</l>
+<l>tūryasaṅgītimeghāśca sarvasattvapraharṣaṇāḥ //</l>
+</lg>
+<lg xml:id="Bca_2.21">
+<l>sarvasaddharmaratneṣu caityeṣu pratimāsu ca /</l>
+<l>puṣparatnādivarṣāśca pravarttantāṃ nirantaram //</l>
+</lg>
+<lg xml:id="Bca_2.22">
+<l>mañjughoṣaprabhṛtayaḥ pūjayanti yathā jinān /</l>
+<l>tathā tathāgatānnāthān saputrānpūjayāmyaham //</l>
+</lg>
+<lg xml:id="Bca_2.23">
+<l>svarāṅgasāgaraiḥ stotraiḥ staumi cāhaṃ guṇodadhīn /</l>
+<l>stutisaṅgītimeghāśca saṃbhavantveṣvananyathā //</l>
+</lg>
+<lg xml:id="Bca_2.24">
+<l>sarvakṣetrāṇusaṃkhyaiśca praṇāmaiḥ praṇamāmyahaṃ /</l>
+<l>sarvatrādhvagatānbuddhān sahadharmagaṇottamān //</l>
+</lg>
+<lg xml:id="Bca_2.25">
+<l>sarcacaityāni vande 'haṃ bodhisattvāśrayāṃstathā /</l>
+<l>namaḥ karomyupādhyāyān abhivandyānyatīṃstathā //</l>
+</lg>
+<lg xml:id="Bca_2.26">
+<l>buddhaṃ gacchāmi śaraṇaṃ yāvadābodhimaṇḍataḥ /</l>
+<l>dharmaṃ gacchāmi śaraṇaṃ bodhisattvagaṇaṃ tathā //</l>
+</lg>
+<lg xml:id="Bca_2.27">
+<l>vijñāpayāmi saṃbuddhān sarvadikṣu vyavasthitān /</l>
+<l>mahākāruṇikāṃścāpi bodhisattvānkṛtāñjaliḥ //</l>
+</lg>
+<lg xml:id="Bca_2.28">
+<l>anādimati saṃsāre janmanyatraiva vā punaḥ /</l>
+<l>yanmayā paśunā pāpaṃ kṛtaṃ kāritameva vā //</l>
+</lg>
+<lg xml:id="Bca_2.29">
+<l>yaccānumoditaṃ kiṃcid ātmaghātāya mohataḥ /</l>
+<l>tadatyayaṃ deśayāmi paścāttāpena tāpitaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.30">
+<l>ratnatraye 'pakāro yo mātāpitṛṣu vā mayā /</l>
+<l>guruṣvanyeṣu vā kṣepāt kāyavāgbuddhibhiḥ kṛtaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.31">
+<l>anekadoṣaduṣṭena mayā pāpena nāyakāḥ /</l>
+<l>yatkṛtaṃ dāruṇaṃ pāpaṃ tatsarvaṃ deśayāmyaham //</l>
+</lg>
+<lg xml:id="Bca_2.32">
+<l>kathaṃ ca niḥsarāmyasmān nityodvego 'smi nāyakāḥ /</l>
+<l>mā bhūnme mṛtyuracirād akṣīṇe pāpasaṃcaye //</l>
+</lg>
+<lg xml:id="Bca_2.33">
+<l>kathaṃ ca niḥsarāmyasmāt paritrāyata satvaraṃ /</l>
+<l>mā mamākṣīṇapāpasya maraṇaṃ śīghrameṣyati //</l>
+</lg>
+<lg xml:id="Bca_2.34">
+<l>kṛtākṛtāparīkṣo 'yaṃ mṛtyurviśrambhaghātakaḥ /</l>
+<l>svasthāsvasthairaviśvāsya ākasmikamahāśaniḥ //</l>
+</lg>
+<lg xml:id="Bca_2.35">
+<l>priyāpriyanimittena pāpaṃ kṛtamanekadhā /</l>
+<l>sarvamutsṛjya gantavyam iti na jñātamīdṛśam //</l>
+</lg>
+<lg xml:id="Bca_2.36">
+<l>tattatsmaraṇatāṃ yāti yadyadvastvanubhūyate /</l>
+<l>svapnānubhūtavatsarvaṃ gataṃ na punarīkṣyate //</l>
+</lg>
+<lg xml:id="Bca_2.37">
+<l>apriyā na bhaviṣyanti priyo me na bhaviṣyati /</l>
+<l>ahaṃ ca na bhaviṣyāmi sarvaṃ ca na bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_2.38">
+<l>ihaiva tiṣṭhatastāvad gatā naike priyāpriyāḥ /</l>
+<l>tannimittaṃ tu yatpāpaṃ tatsthitaṃ ghoramagrataḥ //</l>
+</lg>
+<lg xml:id="Bca_2.39">
+<l>evamāgantuko 'smīti na mayā pratyavekṣitaṃ /</l>
+<l>mohānunayavidvaiṣaiḥ kṛtaṃ pāpamanekadhā //</l>
+</lg>
+<lg xml:id="Bca_2.40">
+<l>rātrindivamaviśrāmam āyuṣo vardhate vyayaḥ /</l>
+<l>āyasya cāgamo nāsti na mariṣyāmi kiṃ nvaham //</l>
+</lg>
+<lg xml:id="Bca_2.41">
+<l>iha śayyāgatenāpi bandhumadhye 'pi tiṣṭhatā /</l>
+<l>mayaivaikena soḍhavyā marmacchedādivedanā //</l>
+</lg>
+<lg xml:id="Bca_2.42">
+<l>yamadūtairgṛhītasya kuto bandhuḥ kutaḥ suhṛt /</l>
+<l>puṇyamekaṃ tadā trāṇaṃ mayā tacca na sevitam //</l>
+</lg>
+<lg xml:id="Bca_2.43">
+<l>anityajīvitāsaṅgād idaṃ bhayamajānatā /</l>
+<l>pramattena mayā nāthā bahu pāpamupārjitam //</l>
+</lg>
+<lg xml:id="Bca_2.44">
+<l>aṅgacchedārthamapyadya nīyamāno viśuṣyati /</l>
+<l>pipāsito dīnadṛṣṭir anyadevekṣate jagat //</l>
+</lg>
+<lg xml:id="Bca_2.45">
+<l>kiṃ punarbhairavākārair yamadūtairadhiṣṭhitaḥ /</l>
+<l>mahātrāsajvaragrastaḥ purīṣotsargaveṣṭitaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.46">
+<l>kātarairdṛṣṭipātaiśca trāṇānveṣī caturdiśaṃ /</l>
+<l>ko me mahābhayādasmāt sādhustrāṇaṃ bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_2.47">
+<l>trāṇaśūnyā diśo dṛṣṭvā punaḥ saṃmohamāgataḥ /</l>
+<l>tadāhaṃ kiṃ kariṣyāmi tasminsthāne mahābhaye //</l>
+</lg>
+<lg xml:id="Bca_2.48">
+<l>adyaiva śaraṇaṃ yāmi jagannāthānmahābalān /</l>
+<l>jagadrakṣārthamudyuktān sarvatrāsaharāṃjinān //</l>
+</lg>
+<lg xml:id="Bca_2.49">
+<l>taiścāpyadhigataṃ dharmaṃ saṃsārabhayanāśanaṃ /</l>
+<l>śaraṇaṃ yāmi bhāvena bodhisattvagaṇaṃ tathā //</l>
+</lg>
+<lg xml:id="Bca_2.50">
+<l>samastabhadrāyātmānaṃ dadāmi bhayavihvalaḥ /</l>
+<l>punaśca mañjughoṣāya dadāmyātmānamātmanā //</l>
+</lg>
+<lg xml:id="Bca_2.51">
+<l>taṃ cāvalokitaṃ nāthaṃ kṛpāvyākulacāriṇaṃ /</l>
+<l>viraumyārtaravaṃ bhītaḥ sa māṃ rakṣatu pāpinam //</l>
+</lg>
+<lg xml:id="Bca_2.52">
+<l>āryamākāśagarbhaṃ ca kṣitigarbhaṃ ca bhāvataḥ /</l>
+<l>sarvānmahākṛpāṃścāpi trāṇānveṣī viraumyaham //</l>
+</lg>
+<lg xml:id="Bca_2.53">
+<l>yaṃ dṛṣṭvaiva ca saṃtrastāḥ palāyante caturdiśaṃ /</l>
+<l>yamadūtādayo duṣṭās taṃ namasyāmi vajriṇam //</l>
+</lg>
+<lg xml:id="Bca_2.54">
+<l>atītya yuṣmadvacanaṃ sāmprataṃ bhayadarśanāt /</l>
+<l>śaraṇaṃ yāmi vo bhīto bhayaṃ nāśayata drutam //</l>
+</lg>
+<lg xml:id="Bca_2.55">
+<l>itvaravyādhibhīto 'pi vaidyavākyaṃ na laṅghayet /</l>
+<l>kimu vyādhiśatairgrastaś caturbhiścaturuttaraiḥ //</l>
+</lg>
+<lg xml:id="Bca_2.56">
+<l>ekenāpi yataḥ sarve jambudvīpagatā narāḥ /</l>
+<l>naśyanti yeṣāṃ bhaiṣajyaṃ sarvadikṣu na labhyate //</l>
+</lg>
+<lg xml:id="Bca_2.57">
+<l>tatra sarvajñavaidyasya sarvaśalyāpahāriṇaḥ /</l>
+<l>vākyamullaṅghayāmīti dhiṅmāmatyantamohitam //</l>
+</lg>
+<lg xml:id="Bca_2.58">
+<l>atyapramattastiṣṭhāmi prapāteṣvitareṣvapi /</l>
+<l>kimu yojanasāhastre prapāte dīrghakālike //</l>
+</lg>
+<lg xml:id="Bca_2.59">
+<l>adyaiva maraṇaṃ neti na yuktā me sukhāsikā /</l>
+<l>avaśyameti sā velā na bhaviṣyāmyahaṃ yadā //</l>
+</lg>
+<lg xml:id="Bca_2.60">
+<l>abhayaṃ kena me dattaṃ niḥsariṣyāmi vā kathaṃ /</l>
+<l>avaśyaṃ na bhaviṣyāmi kasmānme susthitaṃ manaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.61">
+<l>pūrvānubhūtanaṣṭebhyaḥ kiṃ me sāramavasthitaṃ /</l>
+<l>yeṣu me 'bhiniviṣṭena gurūṇāṃ laṅghitaṃ vacaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.62">
+<l>jīvalokamimaṃ tyaktvā bandhūnparicitāṃstathā /</l>
+<l>ekākī kvāpi yāsyāmi kiṃ me sarvaiḥ priyāpriyaiḥ //</l>
+</lg>
+<lg xml:id="Bca_2.63">
+<l>iyameva tu me cintā yuktā rātrindivaṃ sadā /</l>
+<l>aśubhānniyataṃ duḥkhaṃ niḥsareyaṃ tataḥ katham //</l>
+</lg>
+<lg xml:id="Bca_2.64">
+<l>mayā bālena mūḍhena yatkiṃcitpāpamācitaṃ /</l>
+<l>prakṛtyā yacca sāvadyaṃ prajñaptyāvadyameva ca //</l>
+</lg>
+<lg xml:id="Bca_2.65">
+<l>tatsarvaṃ deśayāmyeṣa nāthānāmagrataḥ sthitaḥ /</l>
+<l>kṛtāñjalirduḥkhabhītaḥ praṇipatya punaḥ punaḥ //</l>
+</lg>
+<lg xml:id="Bca_2.66">
+<l>atyayamatyayatvena pratigṛhṇantu nāyakāḥ /</l>
+<l>na bhadrakamidaṃ nāthā na karttavyaṃ punarmayā //</l>
+</lg>
+<p xml:id="5">
+iti dvitīyaḥ paricchedaḥ //
+</p><p xml:id="6">
+****************************************************************
+</p><p xml:id="7">
+Pariccheda 3
+</p>
+<lg xml:id="Bca_3.1">
+<l>apāyaduḥkhaviśrāmaṃ sarvasattvaiḥ kṛtaṃśubhaṃ /</l>
+<l>anumode pramodena sukhaṃ tiṣṭhantu duḥkhitāḥ //</l>
+</lg>
+<lg xml:id="Bca_3.2">
+<l>saṃsāraduḥkhanirmokṣam anumode śarīriṇāṃ /</l>
+<l>bodhisattvatvabuddhatvam anumode ca tāyinām //</l>
+</lg>
+<lg xml:id="Bca_3.3">
+<l>cittotpādasamudrāṃśca sarvasattvasukhāvahān /</l>
+<l>sarvasattvahitādhānān anumode ca śāsinām //</l>
+</lg>
+<lg xml:id="Bca_3.4">
+<l>sarvāsu dikṣu saṃbuddhān prārthayāmi kṛtāñjaliḥ /</l>
+<l>dharmapradīpaṃ kurvantu mohādduḥkhaprapātinām //</l>
+</lg>
+<lg xml:id="Bca_3.5">
+<l>nirvātukāmāṃśca jinān yācayāmi kṛtāñjaliḥ /</l>
+<l>kalpānanantāṃstiṣṭhantu mā bhūdandhamidaṃ jagat //</l>
+</lg>
+<lg xml:id="Bca_3.6">
+<l>evaṃ sarvamidaṃ kṛtvā yanmayāsāditaṃ śubhaṃ /</l>
+<l>tena syāṃ sarvasattvānāṃ sarvaduḥkhapraśāntikṛt //</l>
+</lg>
+<lg xml:id="Bca_3.7">
+<l>glānānāmasmi bhaiṣajyaṃ bhaveyaṃ vaidya eva ca /</l>
+<l>tadupasthāyakaścaiva yāvadrogāpunarbhavaḥ //</l>
+</lg>
+<lg xml:id="Bca_3.8">
+<l>kṣutpipāsāvyathāṃ hanyām annapānapravarṣaṇaiḥ /</l>
+<l>durbhikṣāntarakalpeṣu bhaveyaṃ pānabhojanam //</l>
+</lg>
+<lg xml:id="Bca_3.9">
+<l>daridrāṇāṃ ca sattvānāṃ nidhiḥ syāmahamakṣayaḥ /</l>
+<l>nānopakaraṇākārair upatiṣṭheyamagrataḥ //</l>
+</lg>
+<lg xml:id="Bca_3.10">
+<l>ātmabhāvāṃstathā bhogān sarvatrādhvagataṃ śubhaṃ /</l>
+<l>nirapekṣastyajāmyeṣa sarvasattvārthasiddhaye //</l>
+</lg>
+<lg xml:id="Bca_3.11">
+<l>sarvatyāgaśca nirvāṇaṃ nirvāṇārthi ca me manaḥ /</l>
+<l>tyaktavyaṃ cenmayā sarvaṃ varaṃ sattveṣu dīyatāṃ //</l>
+</lg>
+<lg xml:id="Bca_3.12">
+<l>yathāsukhīkṛtaścātmā mayāyaṃ sarvadehināṃ /</l>
+<l>ghnantu nindantu vā nityam ākirantu ca pāṃsubhiḥ //</l>
+</lg>
+<lg xml:id="Bca_3.13">
+<l>krīḍantu mama kāyena hasantu vilasantu ca /</l>
+<l>dattastebhyo mayā kāyaś cintayā kiṃ mayānayā //</l>
+</lg>
+<lg xml:id="Bca_3.14">
+<l>kārayantu ca karmāṇi yāni teṣāṃ sukhāvahaṃ /</l>
+<l>anarthaḥ kasyacinmā bhūn māmālambya kadācana //</l>
+</lg>
+<lg xml:id="Bca_3.15">
+<l>yeṣāṃ kruddhāprasannā vā māmālambya matirbhavet /</l>
+<l>teṣāṃ sa eva hetuḥ syān nityaṃ sarvārthasiddhaye //</l>
+</lg>
+<lg xml:id="Bca_3.16">
+<l>abhyākhyāsyanti māṃ ye ca ye cānye 'pyapakāriṇaḥ /</l>
+<l>utprāsakāstathānye 'pi sarve syurbodhibhāginaḥ //</l>
+</lg>
+<lg xml:id="Bca_3.17">
+<l>anāthānāmahaṃ nāthaḥ sārthavāhaśca yāyināṃ /</l>
+<l>pārepsūnāṃ ca naubhūtaḥ setuḥ saṅkrama eva ca //</l>
+</lg>
+<lg xml:id="Bca_3.18">
+<l>dīpārthināmahaṃ dīpaḥ śayyā śayyārthināmahaṃ /</l>
+<l>dāsārthināmahaṃ dāso bhaveyaṃ sarvadehināṃ //</l>
+</lg>
+<lg xml:id="Bca_3.19">
+<l>cintāmaṇirbhadraghaṭaḥ siddhavidyā mahauṣadhiḥ /</l>
+<l>bhaveyaṃ kalpavṛkṣaśca kāmadhenuśca dehināṃ //</l>
+</lg>
+<lg xml:id="Bca_3.20">
+<l>pṛthivyādīni bhūtāni niḥśeṣākāśavāsināṃ /</l>
+<l>sattvānāmaprameyāṇāṃ yathābhogānyanekadhā //</l>
+</lg>
+<lg xml:id="Bca_3.21">
+<l>evamākāśaniṣṭhasya sattvadhātoranekadhā /</l>
+<l>bhaveyamupajīvyo 'haṃ yāvatsarve na nirvṛtāḥ //</l>
+</lg>
+<lg xml:id="Bca_3.22">
+<l>yathā gṛhītaṃ sugatair bodhicittaṃ purātanaiḥ /</l>
+<l>te bodhisattvaśikṣāyām ānupūrvyā yathā sthitāḥ //</l>
+</lg>
+<lg xml:id="Bca_3.23">
+<l>tadvadutpādayāmyeṣa bodhicittaṃ jagaddhite /</l>
+<l>tadvadeva ca tāḥ śikṣāḥ śikṣiṣyāmi yathākramaṃ //</l>
+</lg>
+<lg xml:id="Bca_3.24">
+<l>evaṃ gṛhītvā matimān bodhicittaṃ prasādataḥ /</l>
+<l>punaḥ pṛṣṭhasya puṣṭyarthaṃ cittamevaṃ praharṣayet //</l>
+</lg>
+<lg xml:id="Bca_3.25">
+<l>adya me saphalaṃ janma sulabdho mānuṣo bhavaḥ /</l>
+<l>adya buddhakule jāto buddhaputro 'smi sāmprataṃ //</l>
+</lg>
+<lg xml:id="Bca_3.26">
+<l>tathādhunā mayā kāryaṃ svakulocitakāriṇāṃ /</l>
+<l>nirmalasya kulasyāsya kalaṅko na bhavedyathā //</l>
+</lg>
+<lg xml:id="Bca_3.27">
+<l>andhaḥ saṅkarakūṭebhyo yathā ratnamavāpnuyāt /</l>
+<l>tathā kathaṃcidapyetad bodhicittaṃ mamoditaṃ //</l>
+</lg>
+<lg xml:id="Bca_3.28">
+<l>jaganmṛtyuvināśāya jātametadrasāyanaṃ /</l>
+<l>jagaddāridryaśamanaṃ nidhānamidamakṣayaṃ //</l>
+</lg>
+<lg xml:id="Bca_3.29">
+<l>jagadvyādhipraśamanaṃ bhaiṣajyamidamuttamaṃ /</l>
+<l>bhavādhvabhramaṇaśrānto jagadviśrāmapādapaḥ //</l>
+</lg>
+<lg xml:id="Bca_3.30">
+<l>durgatyuttaraṇe setuḥ sāmānyaḥ sarvayāyināṃ /</l>
+<l>jagatkleśoṣmaśamana uditaścittacandramāḥ //</l>
+</lg>
+<lg xml:id="Bca_3.31">
+<l>jagadajñānatimira-protsāraṇamahāraviḥ /</l>
+<l>saddharmakṣīramathanān navanītaṃ samutthitaṃ //</l>
+</lg>
+<lg xml:id="Bca_3.32">
+<l>sukhabhogabubhukṣitasya vā janasārthasya bhavādhvacāriṇaḥ /</l>
+<l>sukhasatramidaṃ hyupasthitaṃ sakalābhyāgatasattvatarpaṇaṃ //</l>
+</lg>
+<lg xml:id="Bca_3.33">
+<l>jagadadya nimantritaṃ mayā sugatatvena sukhena cāntarā /</l>
+<l>purataḥ khalu sarvatāyinām abhinandantu surāsurādayaḥ //</l>
+</lg>
+<p xml:id="8">
+bodhicaryāvatāre bodhicittaparigraho nāma tṛtīyaḥ paricchedaḥ //
+</p><p xml:id="9">
+****************************************************************
+</p><p xml:id="10">
+Pariccheda 4
+</p>
+<lg xml:id="Bca_4.1">
+<l>evaṃ gṛhītvā sudṛḍhaṃ bodhicittaṃ jinātmajaḥ /</l>
+<l>śikṣānatikrame yatnaṃ kuryānnityamatandritaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.2">
+<l>sahasā yatsamārabdhaṃ samyag yadavicāritaṃ /</l>
+<l>tatra kuryānnavetyevaṃ pratijñāyāpi yujyate //</l>
+</lg>
+<lg xml:id="Bca_4.3">
+<l>vicāritaṃ tu yadbuddhair mahāprājñaiśca tatsutaiḥ /</l>
+<l>mayāpi ca yathāśakti tatra kiṃ parilambyate //</l>
+</lg>
+<lg xml:id="Bca_4.4">
+<l>yadicaivaṃ pratijñāya sādhayeyaṃ na karmaṇā /</l>
+<l>etāṃ sarvāṃ visaṃvādya kā gatirme bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_4.5">
+<l>manasā cintayitvāpi yo na dadyātpunarnaraḥ /</l>
+<l>sa preto bhavatītyuktam alpamātre 'pi vastuni //</l>
+</lg>
+<lg xml:id="Bca_4.6">
+<l>kimutānuttaraṃ saukhyam uccairuddhuṣya bhāvataḥ /</l>
+<l>jagatsarvaṃ visaṃvādya kā gatirme bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_4.7">
+<l>vetti sarvajña evaitām acintyāṃ karmaṇo gatiṃ /</l>
+<l>yadbodhicittatyāge 'pi mocayatyeva tānnarān //</l>
+</lg>
+<lg xml:id="Bca_4.8">
+<l>bodhisattvasya tenaivaṃ sarvāpattirgarīyasī /</l>
+<l>yasmādāpadyamāno 'sau sarva sattvārthahānikṛt //</l>
+</lg>
+<lg xml:id="Bca_4.9">
+<l>yo 'pyanyaḥ kṣaṇamapyasya puṇyavighnaṃ kariṣyati /</l>
+<l>tasya durgatiparyanto nāsti sattvārthadhātinaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.10">
+<l>ekasyāpi hi sattvasya hitaṃ hatvā hato bhavet /</l>
+<l>aśeṣākāśaparyanta-vāsināṃ kimu dehināṃ //</l>
+</lg>
+<lg xml:id="Bca_4.11">
+<l>evamāpattibalato bodhicittabalena ca /</l>
+<l>dolāyamānaḥ saṃsāre bhūmiprāptaścirāyate //</l>
+</lg>
+<lg xml:id="Bca_4.12">
+<l>tasmādyathā pratijñātaṃ sādhanīyaṃ mayādarāt /</l>
+<l>nādya cetkriyate yatnas talenāsmi talaṃ gataḥ //</l>
+</lg>
+<lg xml:id="Bca_4.13">
+<l>aprameyā gatā buddhāḥ sarvasattvagaveṣakāḥ /</l>
+<l>naiṣāmahaṃ svadoṣeṇa cikitsāgocaraṃ gataḥ //</l>
+</lg>
+<lg xml:id="Bca_4.14">
+<l>adyāpi cettathaiva syāṃ yathaivāhaṃ punaḥ punaḥ /</l>
+<l>durgativyādhimaraṇa-cchedabhedādyavāpnuyāṃ //</l>
+</lg>
+<lg xml:id="Bca_4.15">
+<l>kadā tathāgatotpādaṃ śraddhāṃ mānuṣyameva vā /</l>
+<l>kuśalābhyāsayogyatvam evaṃ lapsye 'ti durlabhaṃ //</l>
+</lg>
+<lg xml:id="Bca_4.16">
+<l>ārogyadivasaṃ cedaṃ sabhaktaṃ nirupadravaṃ /</l>
+<l>āyuḥ kṣaṇaṃ visaṃvādi kāyo yācitakopamaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.17">
+<l>nahīdṛśairmaccaritair mānuṣyaṃ labhyate punaḥ /</l>
+<l>alabhyamāne mānuṣye pāpameva kutaḥ śubhaṃ //</l>
+</lg>
+<lg xml:id="Bca_4.18">
+<l>yadā kuśalayogyo 'pi kuśalaṃ na karomyahaṃ /</l>
+<l>apāyaduḥkhaiḥ saṃmūḍhaḥ kiṃ kariṣyāmyahaṃ tadā //</l>
+</lg>
+<lg xml:id="Bca_4.19">
+<l>akurvataśca kuśalaṃ pāpaṃ cāpyupacinvataḥ /</l>
+<l>hataḥ sugataśabdo 'pi kalpakoṭiśatairapi //</l>
+</lg>
+<lg xml:id="Bca_4.20">
+<l>ata evāha bhagavān mānuṣamatidurlabhaṃ /</l>
+<l>mahārṇavayugacchidra-kūrmagrīvārpaṇopamaṃ //</l>
+</lg>
+<lg xml:id="Bca_4.21">
+<l>ekakṣaṇātkṛtātpāpād avīcau kalpamāpsyate /</l>
+<l>anādikālopacitāt pāpātkā sugatau kathā //</l>
+</lg>
+<lg xml:id="Bca_4.22">
+<l>na ca tanmātramevāsau vedayitvā vimucyate /</l>
+<l>yasyāttadvedayanneva pāpamanyatprasūyate //</l>
+</lg>
+<lg xml:id="Bca_4.23">
+<l>nātaḥparā vañcanāsti na ca moho 'styataḥparaḥ /</l>
+<l>yadīdṛśaṃ kṣaṇaṃ prāpya nābhyastaṃ kuśalaṃ mayā //</l>
+</lg>
+<lg xml:id="Bca_4.24">
+<l>yadi caivaṃ vimṛṣyāmi punaḥ sīdāmi mohitaḥ /</l>
+<l>śociṣyāmi ciraṃ bhūyo yamadūtaiḥ pracoditaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.25">
+<l>ciraṃ dhakṣyati me kāyaṃ nārakāgniḥ suduḥsahaḥ /</l>
+<l>paścāttāpānalaścittaṃ ciraṃ dhakṣyatiniścitaṃ //</l>
+</lg>
+<lg xml:id="Bca_4.26">
+<l>kathaṃcidapi saṃprāpto hitabhūmiṃ sudurlabhāṃ /</l>
+<l>jānannapi ca nīyo 'haṃ tāneva narakānpunaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.27">
+<l>atra me cetanā nāsti mantrairiva vimohitaḥ /</l>
+<l>na jāne kena muhyāmi ko 'trāntarmama tiṣṭhati //</l>
+</lg>
+<lg xml:id="Bca_4.28">
+<l>hastapādādirahitās tṛṣṇādveṣādiśatravaḥ /</l>
+<l>na śurā na ca te prājñāḥ kathaṃ dāsīkṛto 'smi taiḥ //</l>
+</lg>
+<lg xml:id="Bca_4.29">
+<l>maccittāvasthitā eva dhnanti māmeva susthitāḥ /</l>
+<l>tatrāpyahaṃ na kupyāmi dhigasthānasahiṣṇutāṃ //</l>
+</lg>
+<lg xml:id="Bca_4.30">
+<l>sarve devā manuṣyāśca yadi syurmama śatravaḥ /</l>
+<l>te 'pi nāvīcikaṃ vahniṃ samudānayituṃ kṣamāḥ //</l>
+</lg>
+<lg xml:id="Bca_4.31">
+<l>merorapi yadāsaṅgān na bhasmāpyupalabhyate /</l>
+<l>kṣaṇātkṣipanti māṃ tatra balinaḥ kleśaśatravaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.32">
+<l>nahi sarvānyaśatrūṇāṃ dīrghamāyurapīdṛśaṃ /</l>
+<l>anādyantaṃ mahādīrghaṃ yanmama kleśavairiṇāṃ //</l>
+</lg>
+<lg xml:id="Bca_4.33">
+<l>sarve hitāya kalpante ānukūlyena sevitāḥ /</l>
+<l>sevyamānāstvamī kleśāḥ sutarāṃ duḥkhakārakāḥ //</l>
+</lg>
+<lg xml:id="Bca_4.34">
+<l>itisatatadīrghavairiṣu vyasanaughaprasavaikahetuṣu /</l>
+<l>hṛdaye nivasatsu nirbhayaṃ mama saṃsāraratiḥ kathaṃ bhavet //</l>
+</lg>
+<lg xml:id="Bca_4.35">
+<l>bhavacārakapālakā ime narakādiṣvapi vadhyaghātakāḥ /</l>
+<l>mativeśmani lobhapañjare yadi tiṣṭhati kutaḥ sukhaṃ mama //</l>
+</lg>
+<lg xml:id="Bca_4.36">
+<l>tasmānna tāvadahamatra dhuraṃ kṣipāmi yāvanna śatrava ime nihatāḥ samakṣaṃ /</l>
+<l>khalpe 'pi tāvadapakāriṇi baddharoṣā mānonnatāstamanihatya na yānti nidrāṃ //</l>
+</lg>
+<lg xml:id="Bca_4.37">
+<l>prakṛtimaraṇaduḥkhitāndhakārān raṇaśirasi prasamaṃ nihantumugrāḥ /</l>
+<l>agaṇitaśaraśaktighātaduḥkhā na vimukhatāmupayāntyasādhayitvā //</l>
+</lg>
+<lg xml:id="Bca_4.38">
+<l>kimuta satatasarvaduḥkhahetūn prakṛtiripūnupahantumudyatasya /</l>
+<l>bhavati mama viṣādadainyamadya vyasanaśatairapi kena hetunā vai //</l>
+</lg>
+<lg xml:id="Bca_4.39">
+<l>akāraṇenaiva ripukṣatāni gātreṣvalaṇkāravadudvahanti /</l>
+<l>mahārhasiddhyai tu samudyatasya duḥkhāni kasmānmama bādhakāni //</l>
+</lg>
+<lg xml:id="Bca_4.40">
+<l>svajīvikāmātranibaddhacittāḥ kaivartacaṇḍālakṛṣīvalādyāḥ /</l>
+<l>śītātapādivyasanaṃ sahante jagaddhitārthaṃ na kathaṃ sahe 'ham //</l>
+</lg>
+<lg xml:id="Bca_4.41">
+<l>daśadigvyomaparyanta-jagatkleśavimokṣaṇe /</l>
+<l>pratijñāya mahātmāpi na kleśebhyo vimocitaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.42">
+<l>ātmapramāṇamajñātvā bruvannunmattakastadā /</l>
+<l>anivarttī bhaviṣyāmi tasmātkleśavadhe sadā //</l>
+</lg>
+<lg xml:id="Bca_4.43">
+<l>atra grahī bhaviṣyāmi baddhavairaśca vigrahī /</l>
+<l>anyatra tadvidhātkleśāt kleśaghātānubandhinaḥ //</l>
+</lg>
+<lg xml:id="Bca_4.44">
+<l>galantvantrāṇi me kāmaṃ śiraḥ patatu nāma me /</l>
+<l>na tvevāvanatiṃ yāmi sarvathā kleśavairiṇām //</l>
+</lg>
+<lg xml:id="Bca_4.45">
+<l>nirvāsitasyāpi tu nāma śatror deśāntare sthānaparigrahaḥ syāt /</l>
+<l>yataḥ punaḥ saṃbhṛtaśaktireti na kleśaśatrorgatirīdṛśī tu //</l>
+</lg>
+<lg xml:id="Bca_4.46">
+<l>kvāsau yāyānmanaḥstho nirastaḥ sthitvā yasminmadvadhārthaṃ yateta /</l>
+<l>nodyogo me kevalaṃ mandabuddheḥ kleśāḥ prajñādṛṣṭisādhyā varākāḥ //</l>
+</lg>
+<lg xml:id="Bca_4.47">
+<l>na kleśā viṣayeṣu nendriyagaṇe nāpyantarāle sthitā nāto 'nyatra kuhasthitāḥ punarime mathnanti kṛtsnaṃ jagat /</l>
+<l>māyaiveyamato vimuñca hṛdayatrāsaṃ bhajasvodyamaṃ prajñārthaṃ kimakāṇḍa eva narakeṣvātmānamābādhase //</l>
+</lg>
+<lg xml:id="Bca_4.48">
+<l>evaṃ viniścitya karomi yatnaṃ yathoktaśikṣāpratipattihetoḥ /</l>
+<l>vaidyopadeśāccalataḥ kuto 'sti bhaiṣajyasādhyasya nirāmayatvam //</l>
+</lg>
+<p xml:id="11">
+bodhicaryāvatāre bodhisattvaśikṣā caturthaḥ paricchedaḥ //
+</p><p xml:id="12">
+****************************************************************
+</p><p xml:id="13">
+Pariccheda 5
+</p>
+<lg xml:id="Bca_5.1">
+<l>śikṣāṃ rakṣitukāmena cittaṃ rakṣyaṃ prayatnataḥ /</l>
+<l>na śikṣā rakṣituṃ śakyā calaṃ cittamarakṣatā //</l>
+</lg>
+<lg xml:id="Bca_5.2">
+<l>adāntā mattamātaṅgā na kurvantīha tāṃ vyathām /</l>
+<l>karoti yāmavīcyādau muktaścittamataṅgajaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.3">
+<l>baddhaśceccitamātaṅgaḥ smṛtirajjvā samantataḥ /</l>
+<l>bhayamastaṃ gataṃ sarvaṃ kṛtsnaṃ kalyāṇamāgatam //</l>
+</lg>
+<lg xml:id="Bca_5.4">
+<l>byāghrāḥ siṃhā gajā ṛkṣāḥ sarpāḥ sarve ca śatravaḥ /</l>
+<l>sarve narakapālāśca ḍākinyo rākṣasāstathā //</l>
+</lg>
+<lg xml:id="Bca_5.5">
+<l>sarve baddhā bhavantyete cittasyaikasya bandhanāt /</l>
+<l>cittasyaikasya damanāt sarve dāntā bhavanti ca //</l>
+</lg>
+<lg xml:id="Bca_5.6">
+<l>yasmādbhayāni sarvāṇi duḥkhānyapramitāni ca /</l>
+<l>cittādeva bhavantīti kathitaṃ tattvavādinā //</l>
+</lg>
+<lg xml:id="Bca_5.7">
+<l>śastrāṇi kena narake ghaṭitāni prayatnataḥ /</l>
+<l>taptāyaḥkuṭṭimaṃ kena kuto jātāśca tāḥ striyaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.8">
+<l>pāpacittasamudbhūtaṃ tattatsarvaṃ jagau muniḥ /</l>
+<l>tasmānna kaścitrailokye cittādanyo bhayānakaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.9">
+<l>adaridraṃ jagatkṛtvā dānapāramitā yadi /</l>
+<l>jagaddaridramadyāpi sā kathaṃ pūrvatāyinām //</l>
+</lg>
+<lg xml:id="Bca_5.10">
+<l>phalena saha sarvasva-tyāgacittājjane 'khile /</l>
+<l>dānapāramitā proktā tasmāt sā cittameva tu //</l>
+</lg>
+<lg xml:id="Bca_5.11">
+<l>matsyādayaḥ kva nīyantāṃ mārayeyaṃ yato na tān /</l>
+<l>labdhe viraticitte tu śīlapāramitā matā //</l>
+</lg>
+<lg xml:id="Bca_5.12">
+<l>kiyato mārayiṣyāmi durjanān gaganopamān /</l>
+<l>mārite krodhacitte tu māritāḥ sarvaśatravaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.13">
+<l>bhūmiṃ chādayituṃ sarvāṃ kutaścarma bhaviṣyati /</l>
+<l>upānaccarmamātreṇa channā bhavati medinī //</l>
+</lg>
+<lg xml:id="Bca_5.14">
+<l>bāhyā bhāvā mayā tadvac chakyā vārayituṃ na hi /</l>
+<l>svacittaṃ vārayiṣyāmi kiṃ mamānyairnivāritaiḥ //</l>
+</lg>
+<lg xml:id="Bca_5.15">
+<l>sahāpi vākcharīrābhyāṃ mandavṛtterna tatphalam /</l>
+<l>yatpaṭorekakasyāpi cittasya brahmatādikam //</l>
+</lg>
+<lg xml:id="Bca_5.16">
+<l>japāstapāṃsi sarvāṇi dīrghakālakṛtānyapi /</l>
+<l>anyacittena mandena vṛthaivetyāha sarvavit //</l>
+</lg>
+<lg xml:id="Bca_5.17">
+<l>duḥkhaṃ hantuṃ sukhaṃ prāptuṃ te bhramanti mudhāmbare /</l>
+<l>yairetaddharmasarvasvaṃ cittaṃ guhyaṃ na bhāvitam //</l>
+</lg>
+<lg xml:id="Bca_5.18">
+<l>tasmātsvadhiṣṭhitaṃ cittaṃ mayā kāryaṃ surakṣitam /</l>
+<l>cittarakṣāvrataṃ muktvā bahubhiḥ kiṃ mama vrataiḥ //</l>
+</lg>
+<lg xml:id="Bca_5.19">
+<l>yathā capalamadhyastho rakṣati vraṇamādarāt /</l>
+<l>evaṃ durjanamadhyastho rakṣeccittavraṇaṃ sadā //</l>
+</lg>
+<lg xml:id="Bca_5.20">
+<l>vraṇaduḥkhalavādbhīto rakṣati vraṇamādarāt /</l>
+<l>saṃghātaparvatāghātād bhītaścittavraṇaṃ na kim //</l>
+</lg>
+<lg xml:id="Bca_5.21">
+<l>anena hi vihāreṇa viharan durjaneṣvapi /</l>
+<l>pramadājanamadhye 'pi yatirdhīro na khaṇḍyate //</l>
+</lg>
+<lg xml:id="Bca_5.22">
+<l>lābhā naśyantu me kāmaṃ satkāraḥ kāyajīvitam /</l>
+<l>naśyatvanyacca kuśalaṃ mā tu cittaṃ kadācana //</l>
+</lg>
+<lg xml:id="Bca_5.23">
+<l>cittaṃ rakṣitukāmānāṃ mayaiṣa kriyate 'ñjaliḥ /</l>
+<l>smṛtiṃ ca saṃprajanyaṃ ca sarvayatnena rakṣata //</l>
+</lg>
+<lg xml:id="Bca_5.24">
+<l>vyādhyākulo naro yadvan na kṣamaḥ sarvakarmasu /</l>
+<l>tathābhyāṃ vyākulaṃ cittaṃ na kṣamaṃ sarvakarmasu //</l>
+</lg>
+<lg xml:id="Bca_5.25">
+<l>asaṃprajanyacittasya śrutacintitabhāvitam /</l>
+<l>sacchidrakumbhajalavan na smṛtāvavatiṣṭhate //</l>
+</lg>
+<lg xml:id="Bca_5.26">
+<l>aneke śrutavanto 'pi śrāddhā yatnaparā api /</l>
+<l>asaṃprajanyadoṣeṇa bhavantyāpattikaśmalāḥ //</l>
+</lg>
+<lg xml:id="Bca_5.27">
+<l>asaṃprajanyacaureṇa smṛtimoṣānusāriṇā /</l>
+<l>upacityāpi puṇyāni muṣitā yānti durgatim //</l>
+</lg>
+<lg xml:id="Bca_5.28">
+<l>kleśataskarasaṅgho 'yam avatāragaveṣakaḥ /</l>
+<l>prāpyāvatāraṃ muṣṇāti hanti sadgatijībitam //</l>
+</lg>
+<lg xml:id="Bca_5.29">
+<l>tasmātsmṛtirmanodvārān nāpaneyā kadācana /</l>
+<l>gatāpi pratyupasthāpyā saṃsmṛtyāpāyikīṃ vyathām //</l>
+</lg>
+<lg xml:id="Bca_5.30">
+<l>upādhyāyānuśāsinyā bhītyāpyādarakāriṇām /</l>
+<l>dhanyānāṃ gurusaṃvāsāt sukaraṃ jāyate smṛtiḥ //</l>
+</lg>
+<lg xml:id="Bca_5.31">
+<l>buddhāśca bodhisattvāśca sarvatrāvyāhatekṣaṇāḥ /</l>
+<l>sarvamevāgratasteṣāṃ teṣāmasmi puraḥ sthitaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.32">
+<l>iti dhyātvā tathā tiṣṭhet trapādarabhayānvitaḥ /</l>
+<l>buddhānusmṛtirapyevaṃ bhavettasya muhurmuhuḥ //</l>
+</lg>
+<lg xml:id="Bca_5.33">
+<l>saṃprajanyaṃ tadāyāti na ca yātyāgataṃ punaḥ /</l>
+<l>smṛtiryadā manodvāre rakṣārthamavatiṣṭhate //</l>
+</lg>
+<lg xml:id="Bca_5.34">
+<l>pūrvaṃ tāvadidaṃ cittaṃ sadopasthāpyamīdṛśam /</l>
+<l>nirindriyeṇeva mayā sthātavyaṃ kāṣṭhavatsadā //</l>
+</lg>
+<lg xml:id="Bca_5.35">
+<l>niṣphalā netravikṣepā na karttavyāḥ kadācana /</l>
+<l>nidhyāyantīva satataṃ kāryā dṛṣṭiradhogatā //</l>
+</lg>
+<lg xml:id="Bca_5.36">
+<l>dṛṣṭiviśrāmahetostu diśaḥ paśyetkadācana /</l>
+<l>ābhāsamātraṃ dṛṣṭvā ca svāgatārthaṃ vilokayet //</l>
+</lg>
+<lg xml:id="Bca_5.37">
+<l>mārgādau bhayabodhārthaṃ muhuḥ paśyeccaturdiśam /</l>
+<l>diśo viśramya vīkṣeta parāvṛtyeva pṛṣṭhataḥ //</l>
+</lg>
+<lg xml:id="Bca_5.38">
+<l>saredapasaredvāpi puraḥ paścānnirūpya ca /</l>
+<l>evaṃ sarvāsvavasthāsu kāryaṃ buddhvā samācaret //</l>
+</lg>
+<lg xml:id="Bca_5.39">
+<l>kāyenaivamavastheyam ityākṣipya kriyāṃ punaḥ /</l>
+<l>kathaṃ kāyaḥ sthita iti draṣṭavyaṃ punarantarā //</l>
+</lg>
+<lg xml:id="Bca_5.40">
+<l>nirūpyaḥ sarvayatnena cittamattadvipastathā /</l>
+<l>dharmacintāmahāstambhe yathā baddho na mucyate //</l>
+</lg>
+<lg xml:id="Bca_5.41">
+<l>kutra me vartata iti pratyavekṣyaṃ tathā manaḥ /</l>
+<l>samādhānadhuraṃ naiva kṣaṇamapyutsṛjedyathā //</l>
+</lg>
+<lg xml:id="Bca_5.42">
+<l>bhayotsavādisaṃbandhe yadyaśakto yathāsukham /</l>
+<l>dānakāle tu śīlasya yasmāduktamupekṣaṇam //</l>
+</lg>
+<lg xml:id="Bca_5.43">
+<l>yadbuddhvā kartumārabdhaṃ tato 'nyanna vicintayet /</l>
+<l>tadeva tāvanniṣpādyaṃ tadgatenāntarātmanā //</l>
+</lg>
+<lg xml:id="Bca_5.44">
+<l>evaṃ hi sukṛtaṃ sarvam anyathā nobhayaṃ bhavet /</l>
+<l>asaṃprajanyakleśo 'pi vṛddhiṃ caivaṃ gamiṣyati //</l>
+</lg>
+<lg xml:id="Bca_5.45">
+<l>nānāvidhapralāpeṣu vartamāneṣvanekadhā /</l>
+<l>kautūhaleṣu sarveṣu hanyādautsukyamāgatam //</l>
+</lg>
+<lg xml:id="Bca_5.46">
+<l>mṛnmardanatṛṇaccheda-rekhādyaphalamāgatam /</l>
+<l>smṛtvā tāthāgatīṃ śikṣāṃ bhītastatkṣaṇamutsṛjet //</l>
+</lg>
+<lg xml:id="Bca_5.47">
+<l>yadā calitukāmaḥ syād vaktukāmo 'pi vā bhavet /</l>
+<l>svacittaṃ pratyavekṣyādau kuryāddhairyeṇa yuktimat //</l>
+</lg>
+<lg xml:id="Bca_5.48">
+<l>anunītaṃ pratihataṃ yadā paśyetsvakaṃ manaḥ /</l>
+<l>na kartavyaṃ na vaktavyaṃ sthātavyaṃ kāṣṭhavattadā //</l>
+</lg>
+<lg xml:id="Bca_5.49">
+<l>uddhataṃ sopahāsaṃ vā yadā mānamadānvitam /</l>
+<l>sotprāsātiśayaṃ vakraṃ vañcakaṃ ca mano bhavet //</l>
+</lg>
+<lg xml:id="Bca_5.50">
+<l>yadātmotkarṣaṇābhāsaṃ parapaṃsanameva ca /</l>
+<l>sādhikṣepaṃ sasaṃrambhaṃ sthātavyaṃ kāṣṭhavattadā //</l>
+</lg>
+<lg xml:id="Bca_5.51">
+<l>lābhasatkārakīrtyarthi parivārārthi vā punaḥ /</l>
+<l>upasthānārthi me cittaṃ tasmāttiṣṭhāmi kāṣṭhavat //</l>
+</lg>
+<lg xml:id="Bca_5.52">
+<l>parārtharūkṣaṃ svārthārthi pariṣatkāmameva vā /</l>
+<l>vaktumicchati me cittaṃ tasmāttiṣṭhāmi kāṣṭhavat //</l>
+</lg>
+<lg xml:id="Bca_5.53">
+<l>asahiṣṇvalasaṃ bhītaṃ pragalbhaṃ mukharaṃ tathā /</l>
+<l>svapakṣābhiniviṣṭaṃ vā tasmāttiṣṭhāmi kāṣṭhavat //</l>
+</lg>
+<lg xml:id="Bca_5.54">
+<l>evaṃ saṃkliṣṭamālokya niṣphalārambhi vā manaḥ /</l>
+<l>nigṛhṇīyād dṛḍhaṃ śūraḥ pratipakṣeṇa tatsadā //</l>
+</lg>
+<lg xml:id="Bca_5.55">
+<l>suniścitaṃ suprasannaṃ dhīraṃ sādaragauravam /</l>
+<l>salajjaṃ sabhayaṃ śāntaṃ parārādhanatatparam //</l>
+</lg>
+<lg xml:id="Bca_5.56">
+<l>parasparaviruddhābhir bālecchābhirakheditam /</l>
+<l>kleśotpādādidaṃ hyetad eṣāmiti dayānvitam //</l>
+</lg>
+<lg xml:id="Bca_5.57">
+<l>ātmasattvavaśaṃ nityam anavadyeṣu vastuṣu /</l>
+<l>nirmāṇamiva nirmānaṃ dhārayāmyeṣa mānasam //</l>
+</lg>
+<lg xml:id="Bca_5.58">
+<l>cirātprāptaṃ kṣaṇavaraṃ smṛtvā smṛtvā muhurmuhuḥ /</l>
+<l>dhārayāmīdṛśaṃ cittam aprakampyaṃ sumeruvat //</l>
+</lg>
+<lg xml:id="Bca_5.59">
+<l>gṛdhrairāmiṣasaṃgṛddhaiḥ kṛṣyamāṇa itastataḥ /</l>
+<l>na karotyanyathā kāyaḥ kasmādatra pratikriyām //</l>
+</lg>
+<lg xml:id="Bca_5.60">
+<l>rakṣasīmaṃ manaḥ kasmād ātmīkṛtya samucchrayam /</l>
+<l>tvattaścetpṛthagevāyaṃ tenātra tava ko vyayaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.61">
+<l>na svīkaroṣi he mūḍha kāṣṭhaputtalakaṃ śucim /</l>
+<l>amedhyaghaṭitaṃ yantraṃ kasmādrakṣasi pūtikam //</l>
+</lg>
+<lg xml:id="Bca_5.62">
+<l>imaṃ carmapuṭaṃ tāvat svabuddhyaiva pṛthak kuru /</l>
+<l>asthipañjarato māṃsaṃ prajñāśastreṇa mocaya //</l>
+</lg>
+<lg xml:id="Bca_5.63">
+<l>asthīnyapi pṛthak kṛtvā paśya majjānamantataḥ /</l>
+<l>kimatra sāramastīti svayameva vicāraya //</l>
+</lg>
+<lg xml:id="Bca_5.64">
+<l>evamanviṣya yatnena na dṛṣṭaṃ sāramatra te /</l>
+<l>adhunā vada kasmāttvaṃ kāyamadyāpi rakṣasi //</l>
+</lg>
+<lg xml:id="Bca_5.65">
+<l>na khāditavyamaśuci tvayā peyaṃ na śoṇitam /</l>
+<l>nāntrāṇi cūṣitavyāni kiṃ kāyena kariṣyasi //</l>
+</lg>
+<lg xml:id="Bca_5.66">
+<l>yuktaṃ gṛdhraśṛgālāder āhārārthaṃ tu rakṣitum /</l>
+<l>karmopakaraṇaṃ tvetan manuṣyāṇāṃ śarīrakam //</l>
+</lg>
+<lg xml:id="Bca_5.67">
+<l>evaṃ te rakṣataścāpi mṛtyurācchidya nirdayaḥ /</l>
+<l>kāyaṃ dāsyati gṛdhrebhyas tadā tvaṃ kiṃ kariṣyasi //</l>
+</lg>
+<lg xml:id="Bca_5.68">
+<l>na sthāsyatīti bhṛtyāya na vastrādi pradīyate /</l>
+<l>kāyo yāsyati khāditvā kasmāttvaṃ kuruṣe vyayam //</l>
+</lg>
+<lg xml:id="Bca_5.69">
+<l>dattvāsmai vetanaṃ tasmāt svārthaṃ kuru mano 'dhunā /</l>
+<l>nahi vaitanikopāttaṃ sarvaṃ tasmai pradīyate //</l>
+</lg>
+<lg xml:id="Bca_5.70">
+<l>kāye naubuddhimādhāya gatyāgamananiścayāt /</l>
+<l>yathākāmaṅgamaṃ kāyaṃ kuru sattvārthasiddhaye //</l>
+</lg>
+<lg xml:id="Bca_5.71">
+<l>evaṃ vaśīkṛtasvātmā nityaṃ smitamukho bhavet /</l>
+<l>tyajed bhṛkuṭisaṅkocaṃ pūrvābhāṣī jagatsuhṛt //</l>
+</lg>
+<lg xml:id="Bca_5.72">
+<l>saśabdapātaṃ sahasā na pīṭhādīn vinikṣipet /</l>
+<l>nāsphālayetkapāṭaṃ ca syānniḥśabdaruciḥ sadā //</l>
+</lg>
+<lg xml:id="Bca_5.73">
+<l>bako biḍālaścauraśca niḥśabdo nibhṛtaścaran /</l>
+<l>prāpnotyabhimataṃ kāryam evaṃ nityaṃ yatiścaret //</l>
+</lg>
+<lg xml:id="Bca_5.74">
+<l>paracodanadakṣāṇām anadhīṣṭopakāriṇām /</l>
+<l>pratīcchecchirasā vākyaṃ sarvaśiṣyaḥ sadā bhavet //</l>
+</lg>
+<lg xml:id="Bca_5.75">
+<l>subhāṣiteṣu sarveṣu sādhukāramudīrayet /</l>
+<l>puṇyakāriṇamālokya stutibhiḥ saṃpraharṣayet //</l>
+</lg>
+<lg xml:id="Bca_5.76">
+<l>parokṣaṃ ca guṇān brūyād anubrūyācca toṣataḥ /</l>
+<l>svavarṇe bhāṣyamāṇe ca bhāvayettadguṇajñatām //</l>
+</lg>
+<lg xml:id="Bca_5.77">
+<l>sarvārambhā hi tuṣṭyarthāḥ sā vittairapi durlabhā /</l>
+<l>bhokṣye tuṣṭisukhaṃ tasmāt paraśramakṛtairguṇaiḥ //</l>
+</lg>
+<lg xml:id="Bca_5.78">
+<l>na cātra me vyayaḥ kaścit paratra ca mahatsukham /</l>
+<l>aprītiduḥkhaṃ dveṣaistu mahadduḥkhaṃ paratra ca //</l>
+</lg>
+<lg xml:id="Bca_5.79">
+<l>viśvastavinyastapadaṃ vispaṣṭārthaṃ manoramam /</l>
+<l>śrutisaukhyaṃ kṛpāmūlaṃ mṛdumandasvaraṃ vadet //</l>
+</lg>
+<lg xml:id="Bca_5.80">
+<l>ṛju paśyetsadā sattvāṃś cakṣuṣā saṃpibanniva /</l>
+<l>etāneva samāśritya buddhatvaṃ me bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_5.81">
+<l>sātatyābhiniveśotthaṃ pratipakṣotthameva ca /</l>
+<l>guṇopakārikṣetre ca duḥkhite ca mahacchubham //</l>
+</lg>
+<lg xml:id="Bca_5.82">
+<l>dakṣa utthānasaṃpannaḥ svayaṅkārī sadā bhavet /</l>
+<l>nāvakāśaḥ pradātavyaḥ kasyacitsarvakarmasu //</l>
+</lg>
+<lg xml:id="Bca_5.83">
+<l>uttarottarataḥ śreṣṭhā dānapāramitādayaḥ /</l>
+<l>netarārthaṃ tyajecchreṣṭhām anyatrācārasetutaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.84">
+<l>evaṃ buddhvā parārtheṣu bhavetsatatamutthitaḥ /</l>
+<l>niṣiddhamapyanujñātaṃ kṛpālorarthadarśinaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.85">
+<l>vinipātagatānātha-bratasthān saṃvibhajya ca /</l>
+<l>bhuñjīta madhyamāṃ mātrāṃ tricīvarabahistyajet //</l>
+</lg>
+<lg xml:id="Bca_5.86">
+<l>saddharmasebakaṃ kāyam itarārthe na pīḍayet /</l>
+<l>evameva hi sattvānām āśāmāśu prapūrayet //</l>
+</lg>
+<lg xml:id="Bca_5.87">
+<l>tyajenna jīvitaṃ tasmād aśuddhe karuṇāśaye /</l>
+<l>tulyāśaye tu tattyājyam itthaṃ na parihīyate //</l>
+</lg>
+<lg xml:id="Bca_5.88">
+<l>dharmaṃ nirgaurave svasthe na śiroveṣṭhite vadet /</l>
+<l>sacchatradaṇḍaśastre ca nāvaguṇṭhitamastake //</l>
+</lg>
+<lg xml:id="Bca_5.89">
+<l>gambhīrodāramalpeṣu na strīṣu puruṣaṃ vinā /</l>
+<l>hīnotkṛṣṭeṣu dharmeṣu samaṃ gauravamācaret //</l>
+</lg>
+<lg xml:id="Bca_5.90">
+<l>nodāradharmapātraṃ ca hīne dharme niyojayet /</l>
+<l>na cācāraṃ parityajya sūtramantraiḥ pralobhayet //</l>
+</lg>
+<lg xml:id="Bca_5.91">
+<l>dantakāṣṭhasya kheṭasya visarjanamapāvṛtam /</l>
+<l>neṣṭaṃ jale sthale bhogye mūtrādeścāpi garhitam //</l>
+</lg>
+<lg xml:id="Bca_5.92">
+<l>mukhapūraṃ na bhuñjīta saśabdaṃ prasṛtānanam /</l>
+<l>pralambapādaṃ nāsīta na bāhū mardayetsamam //</l>
+</lg>
+<lg xml:id="Bca_5.93">
+<l>naikayā'nyastriyā kuryād yānaṃ śayanamāsanam /</l>
+<l>lokāprasādakaṃ sarvaṃ dṛṣṭvā pṛṣṭvā ca varjayet //</l>
+</lg>
+<lg xml:id="Bca_5.94">
+<l>nāṅgulyā kārayetkiṃcid dakṣiṇena tu sādaram /</l>
+<l>samastenaiva hastena mārgamapyevamādiśet //</l>
+</lg>
+<lg xml:id="Bca_5.95">
+<l>na bāhūtkṣepakaṃ kaṃcic chabdayedalpasaṃbhrame /</l>
+<l>acchaṭādi tu kartavyam anyathā syādasaṃvṛtaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.96">
+<l>nāthanirvāṇaśayyāvac chayītepsitayā diśā /</l>
+<l>saṃprajāna/llaghūtthānaḥ prāgavaśyaṃ niyogataḥ //</l>
+</lg>
+<lg xml:id="Bca_5.97">
+<l>ācāro bodhisattvānām aprameya udāhṛtaḥ /</l>
+<l>cittaśodhanamācāraṃ niyataṃ tāvadācaret //</l>
+</lg>
+<lg xml:id="Bca_5.98">
+<l>rātrindivaṃ ca triskandhaṃ trikālaṃ ca pravartayet /</l>
+<l>śeṣāpattiśamastena bodhicittajināśrayāt //</l>
+</lg>
+<lg xml:id="Bca_5.99">
+<l>yā avasthāḥ prapadyeta svayaṃ paravaśo 'pi vā /</l>
+<l>tāsvavasthāsu yāḥ śikṣāḥ śikṣettā eva yatnataḥ //</l>
+</lg>
+<lg xml:id="Bca_5.100">
+<l>na hi tadvidyate kiṃcid yanna śikṣyaṃ jinātmajaiḥ /</l>
+<l>na tadasti na yatpuṇyam evaṃ viharataḥ sataḥ //</l>
+</lg>
+<lg xml:id="Bca_5.101">
+<l>pāramparyeṇa sākṣādvā sattvārthaṃ nānyadācaret /</l>
+<l>sattvānāmeva cārthāya sarvaṃ bodhāya nāmayet //</l>
+</lg>
+<lg xml:id="Bca_5.102">
+<l>sadā kalyāṇamitraṃ ca jīvitārthe 'pi na tyajet /</l>
+<l>bodhisattvavratadharaṃ mahāyānārthakovidam //</l>
+</lg>
+<lg xml:id="Bca_5.103">
+<l>śrīsaṃbhavavimokṣācca śikṣedyadguruvartanam /</l>
+<l>etaccānyacca buddhoktaṃ jñeyaṃ sūtrāntavācanāt //</l>
+</lg>
+<lg xml:id="Bca_5.104">
+<l>śikṣāḥ sūtreṣu dṛśyante tasmātsūtrāṇi vācayet /</l>
+<l>ākāśagarbhe sūtre ca mūlāpattīrnirūpayet //</l>
+</lg>
+<lg xml:id="Bca_5.105">
+<l>śikṣāsamuccayo 'vaśyaṃ draṣṭavyaśca punaḥ punaḥ /</l>
+<l>vistareṇa sadācāro yasmāttatra pradarśitaḥ //</l>
+</lg>
+<lg xml:id="Bca_5.106">
+<l>saṅkṣepeṇāthavā tāvat paśyetsūtrasamuccayam /</l>
+<l>āryanāgārjunābaddhaṃ dvitīyaṃ ca prayatnataḥ //</l>
+</lg>
+<lg xml:id="Bca_5.107">
+<l>yato nivāryate yatra yadeva ca niyujyate /</l>
+<l>tallokacittarakṣārthaṃ śikṣāṃ dṛṣṭvā samācaret //</l>
+</lg>
+<lg xml:id="Bca_5.108">
+<l>etadeva samāsena saṃprajanyasya lakṣaṇam /</l>
+<l>yatkāyacittāvasthāyāḥ pratyavekṣā muhurmuhuḥ //</l>
+</lg>
+<lg xml:id="Bca_5.109">
+<l>kāyenaiva paṭhiṣyāmi vākpāṭhena tu kiṃ bhavet /</l>
+<l>cikitsāpāṭhamātreṇa rogiṇaḥ kiṃ bhaviṣyati //</l>
+</lg>
+<p xml:id="14">
+iti bodhicaryāvatāre saṃprajanyarakṣaṇaṃ nāma pañcamaḥ paricchedaḥ //
+</p><p xml:id="15">
+****************************************************************
+</p><p xml:id="16">
+Pariccheda 6
+</p>
+<lg xml:id="Bca_6.1">
+<l>sarvametatsucaritaṃ dānaṃ sugatapūjanam /</l>
+<l>kṛtaṃ kalpasahasrairyat pratighaḥ pratihanti tat //</l>
+</lg>
+<lg xml:id="Bca_6.2">
+<l>na ca dveṣasamaṃ pāpaṃ na ca kṣāntisamaṃ tapaḥ /</l>
+<l>tasmāt kṣāntiṃ prayatnena bhāvayedvividhairnayaiḥ //</l>
+</lg>
+<lg xml:id="Bca_6.3">
+<l>manaḥ śamaṃ na gṛhṇāti na prītisukhamaśnute /</l>
+<l>na nidrāṃ na dhṛtiṃ yāti dveṣaśalye hṛdi sthite //</l>
+</lg>
+<lg xml:id="Bca_6.4">
+<l>pūjayatyarthamānairyān ye 'pi cainaṃ samāśritāḥ /</l>
+<l>te 'pyenaṃ hantumicchanti svāminaṃ dveṣadurbhagam //</l>
+</lg>
+<lg xml:id="Bca_6.5">
+<l>suhṛdo 'pyudvijante 'smād dadāti na ca sevyate /</l>
+<l>saṅkṣepānnāsti tatkiṃcit krodhano yena susthitaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.6">
+<l>evamādīni duḥkhāni karotītyarisaṃjñayā /</l>
+<l>yaḥ krodhaṃ hanti nirbandhāt sa sukhīha paratra ca //</l>
+</lg>
+<lg xml:id="Bca_6.7">
+<l>aniṣṭakaraṇājjātam iṣṭasya ca vighātanāt /</l>
+<l>daurmanasyāśanaṃ prāpya dveṣo dṛpto nihanti mām //</l>
+</lg>
+<lg xml:id="Bca_6.8">
+<l>tasmādvighātayiṣyāmi tasyāśanamahaṃ ripoḥ /</l>
+<l>yasmānna madvadhādanyat kṛtyamasyāsti vairiṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.9">
+<l>atyaniṣṭāgamenāpi na kṣobhyā muditā mayā /</l>
+<l>daurmanasye 'pi nāstīṣṭaṃ kuśalaṃ tvavahīyate //</l>
+</lg>
+<lg xml:id="Bca_6.10">
+<l>yadyastyeva pratīkāro daurmanasyena tatra kim /</l>
+<l>atha nāsti pratīkāro daurmanasyena tatra kim //</l>
+</lg>
+<lg xml:id="Bca_6.11">
+<l>duḥkhaṃ nyakkārapāruṣyam ayaśaścetyanīpsitam /</l>
+<l>priyāṇāmātmano vāpi śatroścaitadviparyayāt //</l>
+</lg>
+<lg xml:id="Bca_6.12">
+<l>kathaṃcillabhyate saukhyaṃ duḥkhaṃ sthitamayantataḥ /</l>
+<l>duḥkhenaiva ca niḥsāraś cetastasmāddṛḍhībhava //</l>
+</lg>
+<lg xml:id="Bca_6.13">
+<l>durgāputrakakarṇāṭā dāhacchedādivedanām /</l>
+<l>vṛthā sahante muktyartham ahaṃ kasmāttu kātaraḥ //</l>
+</lg>
+<lg xml:id="Bca_6.14">
+<l>na kiṃcidasti tadvastu yadabhyāsasya duṣkaram /</l>
+<l>tasmānmṛduvyathābhyāsāt soḍhavyāpi mahāvyathā //</l>
+</lg>
+<lg xml:id="Bca_6.15">
+<l>uddaṃśadaṃśamaśaka-kṣutpipāsādivedanām /</l>
+<l>mahatkaṇḍvādiduḥkhaṃ ca kimanarthaṃ na paśyasi //</l>
+</lg>
+<lg xml:id="Bca_6.16">
+<l>śītoṣṇavṛṣṭivātādhi-vyādhibandhanatāḍanaiḥ /</l>
+<l>saukumāryaṃ na kartavyam anyathā vardhate vyathā //</l>
+</lg>
+<lg xml:id="Bca_6.17">
+<l>kecitsvaśoṇitaṃ dṛṣṭvā vikramante viśeṣataḥ /</l>
+<l>paraśoṇitamapyeke dṛṣṭvā mūrcchāṃ vrajanti yat //</l>
+</lg>
+<lg xml:id="Bca_6.18">
+<l>taccittasya dṛḍhatvena kātaratvena cāgatam /</l>
+<l>duḥkhaduryodhanastasmād bhavedabhibhavedvyathām //</l>
+</lg>
+<lg xml:id="Bca_6.19">
+<l>duḥkhe 'pi naiva cittasya prasādaṃ kṣobhayedbudhaḥ /</l>
+<l>saṅgrāmo hi saha kleśair yuddhe ca sulabhā vyathā //</l>
+</lg>
+<lg xml:id="Bca_6.20">
+<l>urasārātighātān ye pratīcchanto jayantyarīn /</l>
+<l>te te vijayinaḥ śūrāḥ śeṣāstu mṛtamārakāḥ //</l>
+</lg>
+<lg xml:id="Bca_6.21">
+<l>guṇo 'paraśca duḥkhasya yatsaṃvegānmadacyutiḥ /</l>
+<l>saṃsāriṣu ca kāruṇyaṃ pāpādbhītirjine spṛhā //</l>
+</lg>
+<lg xml:id="Bca_6.22">
+<l>pittādiṣu na me kopo mahāduḥkhakareṣvapi /</l>
+<l>sacetaneṣu kiṃ kopaḥ te 'pi pratyayakopitāḥ //</l>
+</lg>
+<lg xml:id="Bca_6.23">
+<l>aniṣyamāṇamapyetac chūlamutpadyate yathā /</l>
+<l>aniṣyamāṇo 'pi balāt krodha utpadyate tathā //</l>
+</lg>
+<lg xml:id="Bca_6.24">
+<l>kupyāmīti na saṃcintya kupyati svecchayā janaḥ /</l>
+<l>utpatsya ityabhipretya krodha utpadyate na ca //</l>
+</lg>
+<lg xml:id="Bca_6.25">
+<l>ye kecidaparādhāstu pāpāni vividhāni ca /</l>
+<l>sarvaṃ yatpratyayabalāt svatantraṃ tu na vidyate //</l>
+</lg>
+<lg xml:id="Bca_6.26">
+<l>na ca pratyayasāmagryā janayāmīti cetanā /</l>
+<l>na cāpi janitasyāsti janito 'smīti cetanā //</l>
+</lg>
+<lg xml:id="Bca_6.27">
+<l>yatpradhānaṃ kilābhīṣṭaṃ yattadātmeti kalpitam /</l>
+<l>tadeva hi bhavāmīti na saṃcintyopajāyate //</l>
+</lg>
+<lg xml:id="Bca_6.28">
+<l>anutpannaṃ hi tannāsti ka icchedbhavituṃ tadā /</l>
+<l>viṣayavyāpṛtatvācca niroddhumapi nehate //</l>
+</lg>
+<lg xml:id="Bca_6.29">
+<l>nityo hyacetanaścātmā vyomavat sphuṭamakriyaḥ /</l>
+<l>pratyayāntarasaṅge 'pi nirvikārasya kā kriyā //</l>
+</lg>
+<lg xml:id="Bca_6.30">
+<l>yaḥ pūrvavatkriyākāle kriyāyāstena kiṃ kṛtam /</l>
+<l>tasya kriyeti saṃbandhe katarattannibandhanam //</l>
+</lg>
+<lg xml:id="Bca_6.31">
+<l>evaṃ paravaśaṃ sarvaṃ yadvaśaṃ so 'pi cāvaśaḥ /</l>
+<l>nirmāṇavadaceṣṭeṣu bhāveṣvevaṃ kva kupyate //</l>
+</lg>
+<lg xml:id="Bca_6.32">
+<l>vāraṇāpi na yuktaivaṃ kaḥ kiṃ vārayatīti cet /</l>
+<l>yuktā pratītyatā yasmād duḥkhasyoparatirmatā //</l>
+</lg>
+<lg xml:id="Bca_6.33">
+<l>tasmādamitraṃ mitraṃ vā dṛṣṭvāpyanyāyakāriṇam /</l>
+<l>īdṛśāḥ pratyayā asyety evaṃ matvā sukhī bhavet //</l>
+</lg>
+<lg xml:id="Bca_6.34">
+<l>yadi tu khecchayā siddhiḥ sarveṣāmeva dehinām /</l>
+<l>na bhavetkasyacidduḥkhaṃ na duḥkhaṃ kaścidicchati //</l>
+</lg>
+<lg xml:id="Bca_6.35">
+<l>pramādādātmanātmānaṃ bādhante kaṇṭakādibhiḥ /</l>
+<l>bhaktacchedādibhiḥ kopād durāpastryādilipsayā //</l>
+</lg>
+<lg xml:id="Bca_6.36">
+<l>udvandhanaprapātaiśca viṣāpathyādibhakṣaṇaiḥ /</l>
+<l>nighnanti kecidātmānam apuṇyācaraṇena ca //</l>
+</lg>
+<lg xml:id="Bca_6.37">
+<l>yadaivaṃ kleśavaśyatvād ghnantyātmānamapi priyam /</l>
+<l>tadaiṣāṃ parakāyeṣu parihāraḥ kathaṃ bhavet //</l>
+</lg>
+<lg xml:id="Bca_6.38">
+<l>kleśonmattīkṛteṣveṣu pravṛtteṣvātmaghātane /</l>
+<l>na kevalaṃ dayā nāsti krodha utpadyate katham //</l>
+</lg>
+<lg xml:id="Bca_6.39">
+<l>yadi svabhāvo bālānāṃ paropadravakāritā /</l>
+<l>teṣu kopo na yukto me yathāgnau dahanātmake //</l>
+</lg>
+<lg xml:id="Bca_6.40">
+<l>atha doṣo 'yamāgantuḥ sattvāḥ prakṛtipeśalāḥ /</l>
+<l>yathāpyayuktastatkopaḥ kaṭudhūme yathāmbare //</l>
+</lg>
+<lg xml:id="Bca_6.41">
+<l>mukhyaṃ daṇḍādikaṃ hitvā prerake yadi kupyate /</l>
+<l>dveṣeṇa preritaḥ so 'pi dveṣe dveṣo 'stu me varam //</l>
+</lg>
+<lg xml:id="Bca_6.42">
+<l>mayāpi pūrvaṃ sattvānām īdṛśyeva vyathā kṛtā /</l>
+<l>tasmānme yuktamevaitat sattvopadravakāriṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.43">
+<l>tacchastraṃ mama kāyaśca dvayaṃ duḥkhasya kāraṇam /</l>
+<l>tena śastraṃ mayā kāyo gṛhītaḥ kutra kupyate //</l>
+</lg>
+<lg xml:id="Bca_6.44">
+<l>gaṇḍo 'yaṃ pratimākāro gṛhīto ghaṭṭanāsahaḥ /</l>
+<l>tṛṣṇāndhena mayā tatra vyathāyāṃ kutra kupyate //</l>
+</lg>
+<lg xml:id="Bca_6.45">
+<l>duḥkhaṃ necchāmi duḥkhasya hetumicchāmi bāliśaḥ /</l>
+<l>svāparādhāgate duḥkhe kasmādanyatra kupyate //</l>
+</lg>
+<lg xml:id="Bca_6.46">
+<l>asipatravanaṃ yadvad yathā nārakapakṣiṇaḥ /</l>
+<l>matkarmajanitā eva tathedaṃ kutra kupyate //</l>
+</lg>
+<lg xml:id="Bca_6.47">
+<l>matkarmacoditā eva jātā mayyapakāriṇaḥ /</l>
+<l>yena yāsyanti narakān mayaivāmī hatā nanu //</l>
+</lg>
+<lg xml:id="Bca_6.48">
+<l>etānāśritya me pāpaṃ kṣīyate kṣamato bahu /</l>
+<l>māmāśritya tu yāntyete narakān dīrghavedanān //</l>
+</lg>
+<lg xml:id="Bca_6.49">
+<l>ahamevāpakāryeṣāṃ mamaite copakāriṇaḥ /</l>
+<l>kasmādviparyayaṃ kṛtvā khalacetaḥ prakupyasi //</l>
+</lg>
+<lg xml:id="Bca_6.50">
+<l>bhavenmamāśayaguṇo na yāmi narakānyadi /</l>
+<l>eṣāmatra kimāyātaṃ yadyātmā rakṣito mayā //</l>
+</lg>
+<lg xml:id="Bca_6.51">
+<l>atha pratyapakārī syāṃ tathāpyete na rakṣitāḥ /</l>
+<l>hīyate cāpi me caryā tasmānnaṣṭāstapasvinaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.52">
+<l>mano hantumamūrtatvān na śakyaṃ kenacit kvacit /</l>
+<l>śarīrābhiniveśāttu kāyaduḥkhena bādhyate //</l>
+</lg>
+<lg xml:id="Bca_6.53">
+<l>nyakvāraḥ paruṣaṃ vākyam ayaśaścetyayaṃ gaṇaḥ /</l>
+<l>kāyaṃ na bādhate tena cetaḥ kasmātprakupyasi //</l>
+</lg>
+<lg xml:id="Bca_6.54">
+<l>mayyaprasādo yo 'nyeṣāṃ sa kiṃ māṃ bhakṣayiṣyati /</l>
+<l>iha janmāntare vāpi yenāsau me 'nabhīpsitaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.55">
+<l>lābhāntarāyakāritvād yadyasau me 'nabhīpsitaḥ /</l>
+<l>naṅkṣyatīhaiva me lābhaḥ pāpaṃ tu sthāsyati dhruvam //</l>
+</lg>
+<lg xml:id="Bca_6.56">
+<l>varamadyaiva me mṛtyur na mithyājīvitaṃ ciram /</l>
+<l>yasmācciramapi sthitvā mṛtyuduḥkhaṃ tadaiva me //</l>
+</lg>
+<lg xml:id="Bca_6.57">
+<l>svapne varṣaśataṃ saukhyaṃ bhuktvā yaśca vibudhyate /</l>
+<l>muhūrtamaparo yaśca sukhī bhūtvā vibudhyate //</l>
+</lg>
+<lg xml:id="Bca_6.58">
+<l>nanu nivartate saukhyaṃ dvayorapi bibuddhayoḥ /</l>
+<l>saivopamā mṛtyukāle cirajībyalpajīvinoḥ //</l>
+</lg>
+<lg xml:id="Bca_6.59">
+<l>labdhvāpi ca bahū/llābhān ciraṃ bhuktvā sukhānyapi /</l>
+<l>riktahastaśca nagnaśca yāsyāmi muṣito yathā //</l>
+</lg>
+<lg xml:id="Bca_6.60">
+<l>pāpakṣayaṃ ca puṇyaṃ ca lābhājjīvan karomi cet /</l>
+<l>puṇyakṣayaśca pāpaṃ ca lābhārthaṃ krudhyato nanu //</l>
+</lg>
+<lg xml:id="Bca_6.61">
+<l>yadarthameva jīvāmi tadeva yadi naśyati /</l>
+<l>kiṃ tena jīvitenāpi kevalāśubhakāriṇā //</l>
+</lg>
+<lg xml:id="Bca_6.62">
+<l>avarṇavādini dveṣaḥ sattvānnāśayatīti cet /</l>
+<l>parāyaśaskare 'pyevaṃ kopaste kiṃ na jāyate //</l>
+</lg>
+<lg xml:id="Bca_6.63">
+<l>parāyattāprasādatvād aprasādiṣu te kṣamā /</l>
+<l>kleśotpādaparāyatte kṣamā nāvarṇavādini //</l>
+</lg>
+<lg xml:id="Bca_6.64">
+<l>pratimāstūpasaddharma-nāśakākrośakeṣu ca /</l>
+<l>na yujyate mama dveṣo buddhādīnāṃ na hi byathā //</l>
+</lg>
+<lg xml:id="Bca_6.65">
+<l>gurusālohitādīnāṃ priyāṇāṃ cāpakāriṣu /</l>
+<l>pūrvavatpratyayotpādaṃ dṛṣṭvā kopaṃ nivārayet //</l>
+</lg>
+<lg xml:id="Bca_6.66">
+<l>cetanācetanakṛtā dehināṃ niyatā vyathā /</l>
+<l>sā vyathā cetane dṛṣṭā kṣamasvaināṃ vyathāmataḥ //</l>
+</lg>
+<lg xml:id="Bca_6.67">
+<l>mohādeke 'parādhyanti kupyantyanye 'pi mohitāḥ /</l>
+<l>brūmaḥ kameṣu nirdoṣaṃ kaṃ vā brūmo 'parādhinam //</l>
+</lg>
+<lg xml:id="Bca_6.68">
+<l>kasmādevaṃ kṛtaṃ pūrvaṃ yenaivaṃ bādhyase paraiḥ /</l>
+<l>sarve karmaparāyattaḥ ko 'hamatrānyathākṛtau //</l>
+</lg>
+<lg xml:id="Bca_6.69">
+<l>evaṃ buddhvā tu puṇyeṣu tathā yatnaṃ karomyaham /</l>
+<l>yena sarve bhaviṣyanti maitracittāḥ parasparam //</l>
+</lg>
+<lg xml:id="Bca_6.70">
+<l>dahyamāne gṛhe yadvad agnirgatvā gṛhāntaram /</l>
+<l>tṛṇādau yatra sajyeta tadākṛṣyāpanīyate //</l>
+</lg>
+<lg xml:id="Bca_6.71">
+<l>evaṃ cittaṃ yadāsaṅgād dahyate dveṣavahninā /</l>
+<l>tatkṣaṇaṃ tatparityājyaṃ puṇyātmoddāhaśaṅkayā //</l>
+</lg>
+<lg xml:id="Bca_6.72">
+<l>māraṇīyaḥ kathaṃ chittvā muktaścetkimabhadrakam /</l>
+<l>manuṣyaduḥkhairnarakān muktaścetkimabhadrakam //</l>
+</lg>
+<lg xml:id="Bca_6.73">
+<l>yadyetanmātramevādya duḥkhaṃ soḍhuṃ na pāryate /</l>
+<l>tannārakavyathāhetuḥ krodhaḥ kasmānna vāryate //</l>
+</lg>
+<lg xml:id="Bca_6.74">
+<l>kopārthamevamevāhaṃ narakeṣu sahasraśaḥ /</l>
+<l>kārito 'smi na cātmārthaḥ parārtho vā kṛto mayā //</l>
+</lg>
+<lg xml:id="Bca_6.75">
+<l>na cedaṃ tādṛśaṃ duḥkhaṃ mahārthaṃ ca kariṣyati /</l>
+<l>jagadduḥkhahare duḥkhe prītirevātra yujyate //</l>
+</lg>
+<lg xml:id="Bca_6.76">
+<l>yadi prītisukhaṃ prāptam anyaiḥ stutvā guṇorjitam /</l>
+<l>manastvamapi taṃ stutvā kasmādevaṃ na hṛṣyasi //</l>
+</lg>
+<lg xml:id="Bca_6.77">
+<l>idaṃ ca te hṛṣṭisukhaṃ niravadyaṃ sukhodayam /</l>
+<l>na vāritaṃ ca guṇibhiḥ parāvarjanamuttamam //</l>
+</lg>
+<lg xml:id="Bca_6.78">
+<l>tasyaiva sukhamityevaṃ tavedaṃ yadi na priyam /</l>
+<l>bhṛtidānādivirater dṛṣṭādṛṣṭaṃ hataṃ bhavet //</l>
+</lg>
+<lg xml:id="Bca_6.79">
+<l>svaguṇe kīrtyamāne ca parasaukhyamapīcchasi /</l>
+<l>kīrtyamāne paraguṇe svasaukhyamapi necchasi //</l>
+</lg>
+<lg xml:id="Bca_6.80">
+<l>bodhicittaṃ samutpādya sarvasattvasukhecchayā /</l>
+<l>svayaṃ labdhasukheṣvadya kasmātsattveṣu kupyasi //</l>
+</lg>
+<lg xml:id="Bca_6.81">
+<l>trailokyapūjyaṃ buddhatvaṃ sattvānāṃ kinna vāñchasi /</l>
+<l>satkāramitvaraṃ dṛṣṭvā teṣāṃ kiṃ paridahyase //</l>
+</lg>
+<lg xml:id="Bca_6.82">
+<l>puṣṇāti yastvayā poṣyaṃ tubhyameva dadāti saḥ /</l>
+<l>kuṭumbajīvinaṃ lavdhvā na hṛṣyasi prakupyasi //</l>
+</lg>
+<lg xml:id="Bca_6.83">
+<l>sa kiṃ necchati sattvānāṃ yasteṣāṃ bodhimicchati /</l>
+<l>bodhicittaṃ kutastasya yo 'nyasaṃpadi kupyati //</l>
+</lg>
+<lg xml:id="Bca_6.84">
+<l>yadi tena na tallabdhaṃ sthitaṃ dānapatergṛhe /</l>
+<l>sarvathāpi na tatte 'sti dattādattena tena kim //</l>
+</lg>
+<lg xml:id="Bca_6.85">
+<l>kiṃ vārayatu puṇyāni prasannān svaguṇānatha /</l>
+<l>labhamāno na gṛhṇātu vada kena na kupyasi //</l>
+</lg>
+<lg xml:id="Bca_6.86">
+<l>na kevalaṃ tvamātmānaṃ kṛtapāpaṃ na śocasi /</l>
+<l>kṛtapuṇyaiḥ saha spardhām aparaiḥ kartumicchasi //</l>
+</lg>
+<lg xml:id="Bca_6.87">
+<l>jātaṃ cedapriyaṃ śatros tvattuṣṭhyā kiṃ punarbhavet /</l>
+<l>tvadāśaṃsanamātreṇa na cāheturbhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_6.88">
+<l>ata tvadicchayā siddhaṃ tadduḥkhe kiṃ sukhaṃ tava /</l>
+<l>athāpyartho bhavedevam anarthaḥ konvataḥ paraḥ //</l>
+</lg>
+<lg xml:id="Bca_6.89">
+<l>etaddhi baḍiśaṃ ghoraṃ kleśabāḍiśikārpitam /</l>
+<l>yato narakapālāstvāṃ krītvā pakṣyanti kumbhiṣu //</l>
+</lg>
+<lg xml:id="Bca_6.90">
+<l>stutiryaśo 'tha satkāro na puṇyāya na cāyuṣe /</l>
+<l>na balārthaṃ na cārogye na ca kāyasukhāya me //</l>
+</lg>
+<lg xml:id="Bca_6.91">
+<l>etāvāṃśca bhavetsvārtho dhīmataḥ svārthavedinaḥ /</l>
+<l>madyadyūtādi sevyaṃ syān mānasaṃ sukhamicchatā //</l>
+</lg>
+<lg xml:id="Bca_6.92">
+<l>yaśo 'rthaṃ hārayantyartham ātmānaṃ mārayantyapi /</l>
+<l>kimakṣarāṇi bhakṣyāṇi mṛte kasya ca tatsukham //</l>
+</lg>
+<lg xml:id="Bca_6.93">
+<l>yathā pāṃśugṛhe bhinne rodityārtaravaṃ śiśuḥ /</l>
+<l>tathā stutiyaśohānau svacittaṃ pratibhāti me //</l>
+</lg>
+<lg xml:id="Bca_6.94">
+<l>śabdastāvadacittatvāt sa māṃ stautītyasaṃbhavaḥ /</l>
+<l>paraḥ kila mayi prīta ityetatprītikāraṇam //</l>
+</lg>
+<lg xml:id="Bca_6.95">
+<l>anyatra mayi vā prītyā kiṃ hi me parakīyayā /</l>
+<l>tasyaiva tatprītisukhaṃ bhāgo nālpo 'pi me tataḥ //</l>
+</lg>
+<lg xml:id="Bca_6.96">
+<l>tatsukhena sukhitvaṃ cet sarvatraiva mamāstu tat /</l>
+<l>kasmādanyaprasādena sukhiteṣu na me sukham //</l>
+</lg>
+<lg xml:id="Bca_6.97">
+<l>tasmādahaṃ stuto 'smīti prītirātmani jāyate /</l>
+<l>tatrāpyevamasaṃbandhāt kevalaṃ śiśuceṣṭitam //</l>
+</lg>
+<lg xml:id="Bca_6.98">
+<l>stutyādayaśca me kṣobhaṃ saṃvegaṃ nāśayantyamī /</l>
+<l>guṇavatsu ca mātsaryaṃ saṃpatkopaṃ ca kurvate //</l>
+</lg>
+<lg xml:id="Bca_6.99">
+<l>tasmātstutyādighātāya mama ye pratyupasthitāḥ /</l>
+<l>apāyapātarakṣārthaṃ pravṛttā nanu te mama //</l>
+</lg>
+<lg xml:id="Bca_6.100">
+<l>muktyarthinaścāyuktaṃ me lābhasatkārabandhanam /</l>
+<l>ye mocayanti māṃ bandhād dveṣasteṣu kathaṃ mama //</l>
+</lg>
+<lg xml:id="Bca_6.101">
+<l>duḥkhaṃ praveṣṭukāmasya ye kapāṭatvamāgatāḥ /</l>
+<l>buddhādhiṣṭhānata iva dveṣasteṣu kathaṃ mama //</l>
+</lg>
+<lg xml:id="Bca_6.102">
+<l>puṇyavighnaḥ kṛto 'nenety atra kopo na yujyate /</l>
+<l>kṣāntyā samaṃ tapo nāsti nanvetattadupasthitam //</l>
+</lg>
+<lg xml:id="Bca_6.103">
+<l>athāhamātmadoṣeṇa na karomi kṣamāmiha /</l>
+<l>mayaivātra kṛto vighnaḥ puṇyahetāvupasthite //</l>
+</lg>
+<lg xml:id="Bca_6.104">
+<l>yo hi yena vinā nāsti yasmiṃśca sati vidyate /</l>
+<l>sa eva kāraṇaṃ tasya sa kathaṃ vighna ucyate //</l>
+</lg>
+<lg xml:id="Bca_6.105">
+<l>na hi kālopapannena dānavighnaḥ kṛto 'rthinā /</l>
+<l>na ca pravrājake prāpte pravrajyāvighna ucyate //</l>
+</lg>
+<lg xml:id="Bca_6.106">
+<l>sulabhā yācakā loke durlabhāstvapakāriṇaḥ /</l>
+<l>yato me 'naparādhasya na kaścidaparādhyati //</l>
+</lg>
+<lg xml:id="Bca_6.107">
+<l>aśramopārjitastasmād nṛhe nidhirivotthitaḥ /</l>
+<l>bodhicaryāsahāyatvāt spṛhaṇīyo ripurmama //</l>
+</lg>
+<lg xml:id="Bca_6.108">
+<l>mayā cānena copāttaṃ tasmādetatkṣamāphalam /</l>
+<l>etasmai prathamaṃ deyam etatpūrvā kṣamā yataḥ //</l>
+</lg>
+<lg xml:id="Bca_6.109">
+<l>kṣamāsiddhyāśayo nāsya tena pūjyo na cedariḥ /</l>
+<l>siddhiheturucito 'pi saddharmaḥ pūjyate katham //</l>
+</lg>
+<lg xml:id="Bca_6.110">
+<l>apakārāśayo 'syeti śatruryadi na pūjyate /</l>
+<l>anyathā me kathaṃ kṣāntir bhiṣajīva hitodyate //</l>
+</lg>
+<lg xml:id="Bca_6.111">
+<l>tadduṣṭāśayamevātaḥ pratītyotpadyate kṣamā /</l>
+<l>sa evātaḥ kṣamāhetuḥ pūjyaḥ saddharmavanmayā //</l>
+</lg>
+<lg xml:id="Bca_6.112">
+<l>sattvakṣetraṃ jinakṣetram ityato muninoditam /</l>
+<l>etānārādhya bahavaḥ saṃpatpāraṃ yato gatāḥ //</l>
+</lg>
+<lg xml:id="Bca_6.113">
+<l>sattvebhyaśca jinebhyaśca buddhadharmāgame same /</l>
+<l>jineṣu gauravaṃ yadvan na sattveṣviti kaḥ kramaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.114">
+<l>āśayasya ca māhātmyaṃ na svataḥ kiṃ tu kāryataḥ /</l>
+<l>samaṃ ca tena māhātmyaṃ sattvānāṃ tena te samāḥ //</l>
+</lg>
+<lg xml:id="Bca_6.115">
+<l>maitryāśayaśca yatpūjyaḥ sattvamāhātmyameva tat /</l>
+<l>buddhaprasādādyatpuṇyaṃ buddhamāhātmyameva tat //</l>
+</lg>
+<lg xml:id="Bca_6.116">
+<l>buddhadharmāgamāṃśena tasmātsattvā jinaiḥ samāḥ /</l>
+<l>na tu buddhaiḥ samāḥ kecid anantāṃśairguṇārṇavaiḥ //</l>
+</lg>
+<lg xml:id="Bca_6.117">
+<l>guṇasāraikarāśīnāṃ guṇo 'ṇurapi cetkvacit /</l>
+<l>dṛśyate tasya pūjārthaṃ trailokyamapi na kṣamam //</l>
+</lg>
+<lg xml:id="Bca_6.118">
+<l>buddhadharmodayāṃśastu śreṣṭhaḥ sattveṣu vidyate /</l>
+<l>etadaṃśānurūpyeṇa sattvapūjā kṛtā bhavet //</l>
+</lg>
+<lg xml:id="Bca_6.119">
+<l>kiṃ ca niśchadmabandhūnām aprameyopakāriṇām /</l>
+<l>sattvārādhanamutsṛjya niṣkṛtiḥ kā parā bhavet //</l>
+</lg>
+<lg xml:id="Bca_6.120">
+<l>bhindanti dehaṃ praviśantyavīcīṃ yeṣāṃ kṛte tatra kṛte kṛtaṃ syāt /</l>
+<l>mahāpakāriṣvapi tena sarva-kalyāṇamevācaraṇīyameṣu //</l>
+</lg>
+<lg xml:id="Bca_6.121">
+<l>svayaṃ mama svāmina eva tāvat tadarthamātmanyapi nirvyapekṣāḥ /</l>
+<l>ahaṃ kathaṃ svāmiṣu teṣu teṣu karomi mānaṃ na tu dāsabhāvam //</l>
+</lg>
+<lg xml:id="Bca_6.122">
+<l>yeṣāṃ sukhe yānti mudaṃ munīndrā yeṣāṃ vyathāyāṃ praviśanti manyum /</l>
+<l>tattoṣaṇātsarvamunīndratuṣṭis tatrāpakāre 'pakṛtaṃ munīnām //</l>
+</lg>
+<lg xml:id="Bca_6.123">
+<l>ādīptakāyasya yathā samantān na sarvakāmairapi saumanasyam /</l>
+<l>sattvavyathāyāmapi tadvadeva na prītyupāyo 'sti dayāmayānām //</l>
+</lg>
+<lg xml:id="Bca_6.124">
+<l>tasmānmayā yajjanaduḥkhadena duḥkhaṃ kṛtaṃ sarvamahākṛpāṇām /</l>
+<l>tadadya pāpaṃ pratideśayāmi yatkheditāstanmunayaḥ kṣamantām //</l>
+</lg>
+<lg xml:id="Bca_6.125">
+<l>ārādhanāyādya tathāgatānāṃ sarvātmanā dāsyamupaimi loke /</l>
+<l>kurvantu me mūrdhni padaṃ janaughā vighnantu vā tuṣyatu lokanāthaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.126">
+<l>ātmīkṛtaṃ sarvamidaṃ jagattaiḥ kṛpātmabhirnaiva hi saṃśayo 'sti /</l>
+<l>dṛśyanta ete nanu sattvarūpās ta eva nāthāḥ kimanādaro 'tra //</l>
+</lg>
+<lg xml:id="Bca_6.127">
+<l>tathāgatārādhanametadeva svārthasya saṃsādhanametadeva /</l>
+<l>kokasya duḥkhāpahametadeva tasmānmamāstu vratametadeva //</l>
+</lg>
+<lg xml:id="Bca_6.128">
+<l>yathaiko rājapuruṣaḥ pramathnāti mahājanam /</l>
+<l>vikartuṃ naiva śaknoti dīrghadarśī mahājanaḥ //</l>
+</lg>
+<lg xml:id="Bca_6.129">
+<l>yasmānnaiva sa ekākī tasya rājabalaṃ balam /</l>
+<l>tathā na durbalaṃ kaṃcid aparāddhaṃ vimānayet //</l>
+</lg>
+<lg xml:id="Bca_6.130">
+<l>yasmānnarakapālāśca kṛpāvantaśca tadbalam /</l>
+<l>tasmādārādhayetsattvān bhṛtyaścaṇḍanṛpaṃ yathā //</l>
+</lg>
+<lg xml:id="Bca_6.131">
+<l>kupitaḥ kiṃ nṛpaḥ kuryād yena syānnarakavyathā /</l>
+<l>yatsattvadaurmanasyena kṛtena hyanubhūyate //</l>
+</lg>
+<lg xml:id="Bca_6.132">
+<l>tuṣṭaḥ kiṃ nṛpatirdadyād yadbuddhatvasamaṃ bhavet /</l>
+<l>yatsattvasaumanasyena kṛtena hyanubhūyate //</l>
+</lg>
+<lg xml:id="Bca_6.133">
+<l>āstāṃ bhaviṣyadbuddhatvaṃ sattvārādhanasaṃbhavam /</l>
+<l>ihaiva saubhāgyayaśaḥ sausthityaṃ kiṃ na paśyasi //</l>
+</lg>
+<lg xml:id="Bca_6.134">
+<l>prāsādikatvamārogyaṃ prāmodyaṃ cirajīvitam /</l>
+<l>cakravartisukhaṃ sphītaṃ kṣamī prāpnoti saṃsaran //</l>
+</lg>
+<p xml:id="17">
+bodhicaryāvatāre kṣāntipāramitā ṣaṣṭhaḥ paricchedaḥ //
+</p><p xml:id="18">
+****************************************************************
+</p><p xml:id="19">
+Pariccheda 7
+</p>
+<lg xml:id="Bca_7.1">
+<l>evaṃ kṣamo bhajedvīryaṃ vīrye bodhiryataḥ sthitā /</l>
+<l>na hi vīryaṃ vinā puṇyaṃ yathā vāyuṃ vināgatiḥ //</l>
+</lg>
+<lg xml:id="Bca_7.2">
+<l>kiṃ vīryaṃ kuśalotsāhas tadvipakṣaḥ ka ucyate /</l>
+<l>ālasyaṃ kutsitāsaktir viṣādātmāvamanyanā //</l>
+</lg>
+<lg xml:id="Bca_7.3">
+<l>avyāpārasukhāsvāda-nidrāpāśrayatṛṣṇayā /</l>
+<l>saṃsāraduḥkhānudvegād ālasyamupajāyate //</l>
+</lg>
+<lg xml:id="Bca_7.4">
+<l>kleśavāgurikāghrātaḥ praviṣṭo janmavāgurām /</l>
+<l>kimadyāpi na jānāsi mṛtyorvadanamāgataḥ //</l>
+</lg>
+<lg xml:id="Bca_7.5">
+<l>svayūthyānmāryamāṇāṃstvaṃ krameṇaiva na paśyasi /</l>
+<l>tathāpi nidrāṃ yāsyeva caṇḍālamahiṣo yathā //</l>
+</lg>
+<lg xml:id="Bca_7.6">
+<l>yamenodvīkṣyamāṇasya baddhamārgasya sarvataḥ /</l>
+<l>kathaṃ te rocate bhoktuṃ kathaṃ nidrā kathaṃ ratiḥ //</l>
+</lg>
+<lg xml:id="Bca_7.7">
+<l>yāvatsaṃbhṛtasaṃbhāraṃ maraṇaṃ śīghrameṣyati /</l>
+<l>saṃtyajyāpi tadālasyam akāle kiṃ kariṣyasi //</l>
+</lg>
+<lg xml:id="Bca_7.8">
+<l>idaṃ na prāptamārabdham idamardhakṛtaṃ sthitam /</l>
+<l>akasmānmṛtyurāyāto hā hato 'smīti cintayan //</l>
+</lg>
+<lg xml:id="Bca_7.9">
+<l>śokavegasamucchūna-sāśruraktekṣaṇānanān /</l>
+<l>bandhūn nirāśān saṃpaśyan yamadūtamukhāni ca //</l>
+</lg>
+<lg xml:id="Bca_7.10">
+<l>svapāpasmṛtisaṃtaptaḥ śṛṇvannādāṃśca nārakān /</l>
+<l>trāsoccāraviliptāṅgo vihvalaḥ kiṃ kariṣyasi //</l>
+</lg>
+<lg xml:id="Bca_7.11">
+<l>jīvamatsya ivāsmīti yuktaṃ bhayamihaiva te /</l>
+<l>kiṃ punaḥ kṛtapāpasya tīvrānnarakaduḥkhataḥ //</l>
+</lg>
+<lg xml:id="Bca_7.12">
+<l>spṛṣṭa uṣṇodakenāpi sukumāra pratapyase /</l>
+<l>kṛtvā ca nārakaṃ karma kimevaṃ svasthamāsyate //</l>
+</lg>
+<lg xml:id="Bca_7.13">
+<l>nirudyamaphalākāṅkṣin sukumāra bahuvyatha /</l>
+<l>mṛtyugrasto 'marākāra hā duḥkhita vihanyase //</l>
+</lg>
+<lg xml:id="Bca_7.14">
+<l>mānuṣyaṃ nāvamāsādya tara duḥkhamahānadīm /</l>
+<l>mūḍha kālo na nidrāyā iyaṃ naurdurlabhā punaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.15">
+<l>muktvā dharmaratiṃ śreṣṭhām anantaratisaṃtatim /</l>
+<l>ratirauddhatyahāsādau duḥkhahetau kathaṃ tava //</l>
+</lg>
+<lg xml:id="Bca_7.16">
+<l>aviṣādabalavyūha-tātparyātmavidheyatā /</l>
+<l>parātmasamatā caiva parātmaparivartanam //</l>
+</lg>
+<lg xml:id="Bca_7.17">
+<l>naivāvasādaḥ kartavyaḥ kuto me bodhirityataḥ /</l>
+<l>yasmāttathāgataḥ satyaṃ satyavādīdamuktavān //</l>
+</lg>
+<lg xml:id="Bca_7.18">
+<l>te 'pyāsan daṃśamaśakā makṣikāḥ kṛmayastathā /</l>
+<l>yairutsāhavaśāt prāptā durāpā bodhiruttamā //</l>
+</lg>
+<lg xml:id="Bca_7.19">
+<l>kimutāhaṃ naro jātyā śakto jñātuṃ hitāhitam /</l>
+<l>sarvajñanītyanutsargād bodhiṃ kiṃ nāpnuyāmaham //</l>
+</lg>
+<lg xml:id="Bca_7.20">
+<l>athāpi hastapādādi dātavyamiti me bhayam /</l>
+<l>gurulāghavamūḍhatvaṃ tanme syādavicārataḥ //</l>
+</lg>
+<lg xml:id="Bca_7.21">
+<l>chettavyaścāsmi bhettavyo dāhyaḥ pāṭyo 'pyanekaśaḥ /</l>
+<l>kalpakoṭīrasaṃkhyeyā na ca bodhirbhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_7.22">
+<l>idaṃ tu me parimitaṃ duḥkhaṃ saṃbodhisādhanam /</l>
+<l>naṣṭaśalyavyathāpohe tadutpādanaduḥkhavat //</l>
+</lg>
+<lg xml:id="Bca_7.23">
+<l>sarve 'pi vaidyāḥ kurvanti kriyāduḥkhairarogatām /</l>
+<l>tasmādbahūni duḥkhāni hantuṃ soḍhavyamalpakam //</l>
+</lg>
+<lg xml:id="Bca_7.24">
+<l>kriyāmimāmapyucitāṃ varavaidyo na dattavān /</l>
+<l>madhureṇopacāreṇa cikitsati mahāturān //</l>
+</lg>
+<lg xml:id="Bca_7.25">
+<l>ādau śākādidāne 'pi niyojayati nāyakaḥ /</l>
+<l>tatkaroti kramātpaścād yatsvamāṃsānyapi tyajet //</l>
+</lg>
+<lg xml:id="Bca_7.26">
+<l>yadā śākeṣviva prajñā svamāṃse 'pyupajāyate /</l>
+<l>māṃsāsthi tyajatastasya tadā kiṃ nāma duṣkaram //</l>
+</lg>
+<lg xml:id="Bca_7.27">
+<l>na duḥkhī tyaktapāpatvāt paṇḍitatvānna durmanāḥ /</l>
+<l>mithyākalpanayā citte pāpātkāye yato vyathā //</l>
+</lg>
+<lg xml:id="Bca_7.28">
+<l>puṇyena kāyaḥ sukhitaḥ pāṇḍityena manaḥ sukhi /</l>
+<l>tiṣṭhan parārthaṃ saṃsāre kṛpāluḥ kena khidyate //</l>
+</lg>
+<lg xml:id="Bca_7.29">
+<l>kṣapayan pūrvapāpāni pratīcchan puṇyasāgarān /</l>
+<l>bodhicittabalādeva śrāvakebhyo 'pi śīghragaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.30">
+<l>evaṃ sukhātsukhaṃ gacchan ko viṣīdetsacetanaḥ /</l>
+<l>bodhicittarathaṃ prāpya sarvakhedaśramāpaham //</l>
+</lg>
+<lg xml:id="Bca_7.31">
+<l>chandasthāmaratimukti-balaṃ sattvārthasiddhaye /</l>
+<l>chandaṃ duḥkhabhayātkuryād anuśaṃsāṃśca bhāvayan //</l>
+</lg>
+<lg xml:id="Bca_7.32">
+<l>evaṃ vipakṣamunmūlya yatetotsāhavṛddhaye /</l>
+<l>chandamānaratityāga-tātparyavaśitābalaiḥ //</l>
+</lg>
+<lg xml:id="Bca_7.33">
+<l>aprameyā mayā doṣā hantavyāḥ svaparātmanoḥ /</l>
+<l>ekaikasyāpi doṣasya yatra kalpārṇavaiḥ kṣayaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.34">
+<l>tatra doṣakṣayārambhe leśo 'pi mama nekṣyate /</l>
+<l>aprameyavyathābhājye noraḥ sphuṭati me katham //</l>
+</lg>
+<lg xml:id="Bca_7.35">
+<l>guṇā mayārjanīyāśca bahavaḥ svaparātmanoḥ /</l>
+<l>tatraikaikaguṇābhyāso bhavetkalpārṇavairna vā //</l>
+</lg>
+<lg xml:id="Bca_7.36">
+<l>guṇaleśe 'pi nābhyāso mama jātaḥ kadācana /</l>
+<l>vṛthā nītaṃ mayā janma kathaṃcillabdhamadbhutam //</l>
+</lg>
+<lg xml:id="Bca_7.37">
+<l>na prāptaṃ bhagavatpūjā-mahotsavasukhaṃ mayā /</l>
+<l>na kṛtā śāsane kārā daridrāśā na pūritā //</l>
+</lg>
+<lg xml:id="Bca_7.38">
+<l>bhītebhyo nābhayaṃ dattam ārtā na sukhinaḥ kṛtāḥ /</l>
+<l>duḥkhāya kevalaṃ mātur gato 'smi garbhaśalyatām //</l>
+</lg>
+<lg xml:id="Bca_7.39">
+<l>dharmacchandaviyogena paurvikeṇa mamādhunā /</l>
+<l>vipattirīdṛśī jātā ko dharme chandamutsṛjet //</l>
+</lg>
+<lg xml:id="Bca_7.40">
+<l>kuśalānāṃ ca sarveṣāṃ chandaṃ mūlaṃ munirjagau /</l>
+<l>tasyāpi mūlaṃ satataṃ vipākaphalabhāvanā //</l>
+</lg>
+<lg xml:id="Bca_7.41">
+<l>duḥkhāni daurmanasyāni bhayāni vividhāni ca /</l>
+<l>abhilāṣavighātāśca jāyante pāpakāriṇām //</l>
+</lg>
+<lg xml:id="Bca_7.42">
+<l>manorathaḥ śubhakṛtāṃ yatra yatraiva gacchati /</l>
+<l>tatra tatraiva tatpuṇyaiḥ phalārgheṇābhipūjyate //</l>
+</lg>
+<lg xml:id="Bca_7.43">
+<l>pāpakārisukhecchā tu yatra yatraiva gacchati /</l>
+<l>tatra tatraiva tatpāpair duḥkhaśastrairvihanyate //</l>
+</lg>
+<lg xml:id="Bca_7.44">
+<l>vipulasugandhiśītalasaroruhagarbhagatā madhurajinasvarāśanakṛtopacitadyutayaḥ /</l>
+<l>munikarabodhitāmbujavinirgatasadvapuṣaḥ sugatasutā bhavanti sugatasya puraḥ kuśalaiḥ //</l>
+</lg>
+<lg xml:id="Bca_7.45">
+<l>yamapuruṣāpanītasakalacchavirārtaravo hutavahatāpavidrutakatāmraniṣiktatanuḥ /</l>
+<l>jvaladasiśaktighātaśataśātitamāṃsadalaḥ patati sutaptalohadharaṇīṣvaśubhairbahuśaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.46">
+<l>tasmātkāryaḥ śubhacchando bhāvayitvaivamādarāt /</l>
+<l>vajradhvajasya vidhinā mānaṃ tvārabhya bhāvayet //</l>
+</lg>
+<lg xml:id="Bca_7.47">
+<l>pūrvaṃ nirūpya sāmagrīm ārabhennārabheta vā /</l>
+<l>anārambho varaṃ nāma na tvārabhya nivartanam //</l>
+</lg>
+<lg xml:id="Bca_7.48">
+<l>janmāntare 'pi so 'bhyāsaḥ pāpādduḥkhaṃ ca vardhate /</l>
+<l>anyacca kāryakālaṃ ca hīnaṃ tacca na sādhitam //</l>
+</lg>
+<lg xml:id="Bca_7.49">
+<l>triṣu māno vidhātavyaḥ karmopakleśaśaktiṣu /</l>
+<l>mayaivaikena kartavyam ityeṣā karmamānitā //</l>
+</lg>
+<lg xml:id="Bca_7.50">
+<l>kleśasvatantro loko 'yaṃ na kṣamaḥ svārthasādhane /</l>
+<l>tasmānmayaiṣāṃ kartavyaṃ nāśakto 'haṃ yathā janaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.51">
+<l>nīcaṃ karma karotyanyaḥ kathaṃ mayyapi tiṣṭhati /</l>
+<l>mānāccenna karomyetan māno naśyatu me varam //</l>
+</lg>
+<lg xml:id="Bca_7.52">
+<l>mṛtaṃ duṇḍubhamāsādya kāko 'pi garuḍāyate /</l>
+<l>āpadābādhate 'lpāpi mano me yadi durbalam //</l>
+</lg>
+<lg xml:id="Bca_7.53">
+<l>viṣādakṛtaniśceṣṭa āpadaḥ sukarā nanu /</l>
+<l>vyutthitaśceṣṭamānastu mahatāmapi durjayaḥ //</l>
+</lg>
+<lg xml:id="Bca_7.54">
+<l>tasmāddṛḍhena cittena karomyāpadamāpadaḥ /</l>
+<l>trailokyavijigīṣutvaṃ hāsyamāpajjitasya me //</l>
+</lg>
+<lg xml:id="Bca_7.55">
+<l>mayā hi sarvaṃ jetavyam ahaṃ jeyo na kenacit /</l>
+<l>mayaiṣa māno voḍhavyo jinasiṃhasuto hyaham //</l>
+</lg>
+<lg xml:id="Bca_7.56">
+<l>ye sattvā mānavijitā varākāste na māninaḥ /</l>
+<l>mānī śatruvaśaṃ naiti mānaśatruvaśāśca te //</l>
+</lg>
+<lg xml:id="Bca_7.57">
+<l>mānena durgatiṃ nītā mānuṣye 'pi hatotsavāḥ /</l>
+<l>parapiṇḍāśino dāsā mūrkhā durdarśanāḥ kṛśāḥ //</l>
+</lg>
+<lg xml:id="Bca_7.58">
+<l>sarvataḥ paribhūtāśca mānastabdhāstapasvinaḥ /</l>
+<l>te 'pi cenmānināṃ madhye dīnāstu vada kīdṛśāḥ //</l>
+</lg>
+<lg xml:id="Bca_7.59">
+<l>te mānino vijayinaśca ta eva śūrā ye mānaśatruvijayāya vahanti mānam /</l>
+<l>ye taṃ sphurantamapi mānaripuṃ nihatya kāmaṃ jane jayaphalaṃ pratipādayanti //</l>
+</lg>
+<lg xml:id="Bca_7.60">
+<l>saṃkleśapakṣamadhyastho bhaveddṛptaḥ sahasraśaḥ /</l>
+<l>duryodhanaḥ kleśagaṇaiḥ siṃho mṛgagaṇairiva //</l>
+</lg>
+<lg xml:id="Bca_7.61">
+<l>mahatsvapi hi kṛcchreṣu na rasaṃ cakṣurīkṣate /</l>
+<l>evaṃ kṛcchramapi prāpya na kleśavaśago bhavet //</l>
+</lg>
+<lg xml:id="Bca_7.62">
+<l>yadevāpadyate karma tatkarmavyasanī bhavet /</l>
+<l>tatkarmaśauṇḍo 'tṛptātmā krīḍāphalasukhepsuvat //</l>
+</lg>
+<lg xml:id="Bca_7.63">
+<l>sukhārthaṃ kriyate karma tathāpi syānna vā sukham /</l>
+<l>karmaiva tu sukhaṃ yasya niṣkarmā sa sukhī katham //</l>
+</lg>
+<lg xml:id="Bca_7.64">
+<l>kāmairna tṛptiḥ saṃsāre kṣuradhārāmadhūpamaiḥ /</l>
+<l>puṇyāmṛtaiḥ kathaṃ tṛptir vipākamadhuraiḥ śivaiḥ //</l>
+</lg>
+<lg xml:id="Bca_7.65">
+<l>tasmātkarmāvasāne 'pi nimajjettatra karmaṇi /</l>
+<l>yathā madhyāhnasaṃtapta ādau prāptasarāḥ karī //</l>
+</lg>
+<lg xml:id="Bca_7.66">
+<l>balanāśānubandhe tu punaḥ kartuṃ parityajet /</l>
+<l>susamāptaṃ ca tanmuñced uttarottaratṛṣṇayā //</l>
+</lg>
+<lg xml:id="Bca_7.67">
+<l>kleśaprahārān saṃrakṣet kleśāṃśca prahareddṛḍham /</l>
+<l>khaḍgayuddhamivāpannaḥ śikṣitenāriṇā saha //</l>
+</lg>
+<lg xml:id="Bca_7.68">
+<l>tatra khaḍgaṃ yathā bhraṣṭaṃ gṛhṇīyātsabhayastvaram /</l>
+<l>smṛtikhaḍgaṃ tathā bhraṣṭaṃ gṛhṇīyānnarakān smaran //</l>
+</lg>
+<lg xml:id="Bca_7.69">
+<l>viṣaṃ rudhiramāsādya prasarpati yathā tanau /</l>
+<l>tathaiva cchidramāsādya doṣaścitte prasarpati //</l>
+</lg>
+<lg xml:id="Bca_7.70">
+<l>tailapātradharo yadvad asihastairadhiṣṭhitaḥ /</l>
+<l>skhalite maraṇatrāsāt tatparaḥ syāttathā vratī //</l>
+</lg>
+<lg xml:id="Bca_7.71">
+<l>tasmādutsaṅgage sarpe yathottiṣṭhati satvaram /</l>
+<l>nidrālasyāgame tadvat pratikurvīta satvaram //</l>
+</lg>
+<lg xml:id="Bca_7.72">
+<l>ekaikasmiṃśchale suṣṭhu paritapya vicintayet /</l>
+<l>kathaṃ karomi yenedaṃ punarme na bhavediti //</l>
+</lg>
+<lg xml:id="Bca_7.73">
+<l>saṃsargaṃ karma vā prāptam icchedetena hetunā /</l>
+<l>kathaṃ nāmāsvavasthāsu smṛtyabhyāso bhavediti //</l>
+</lg>
+<lg xml:id="Bca_7.74">
+<l>laghuṃ kuryāttathātmānam apramādakathāṃ smaran /</l>
+<l>karmāgamādyathā pūrvaṃ sajjaḥ sarvatra vartate //</l>
+</lg>
+<lg xml:id="Bca_7.75">
+<l>yathaiva tūlakaṃ vāyor gamanāgamane vaśam /</l>
+<l>tathotsāhavaśaṃ yāyād ṛddhiścaivaṃ samṛdhyati //</l>
+</lg>
+<p xml:id="20">
+bodhicaryāvatāre vīryapāramitā nāma saptamaḥ paricchedaḥ //
+</p><p xml:id="21">
+****************************************************************
+</p><p xml:id="22">
+Pariccheda 8
+</p>
+<lg xml:id="Bca_8.1">
+<l>vardhayitvaivamutsāhaṃ samādhau sthāpayenmanaḥ /</l>
+<l>vikṣiptacittastu naraḥ kleśadaṃṣṭrāntare sthitaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.2">
+<l>kāyacittavivekena vikṣepasya na saṃbhavaḥ /</l>
+<l>tasmāllokaṃ parityajya vitarkān parivarjayet //</l>
+</lg>
+<lg xml:id="Bca_8.3">
+<l>snehānna tyajyate loko lābhādiṣu ca tṛṣṇayā /</l>
+<l>tasmādetatparityāge vidvānevaṃ vibhāvayet //</l>
+</lg>
+<lg xml:id="Bca_8.4">
+<l>śamathena vipaśyanāsuyuktaḥ kurute kleśavināśamityavetya /</l>
+<l>śamathaḥ prathamaṃ gaveṣaṇīyaḥ sa ca loke nirapekṣayābhiratyā //</l>
+</lg>
+<lg xml:id="Bca_8.5">
+<l>kasyānityeṣvanityasya sneho bhavitumarhati /</l>
+<l>yena janmasahasrāṇi draṣṭavyo na punaḥ priyaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.6">
+<l>apaśyannaratiṃ yāti samādhau na ca tiṣṭhati /</l>
+<l>na ca tṛpyati dṛṣṭvāpi pūrvavad bādhyate tṛṣā //</l>
+</lg>
+<lg xml:id="Bca_8.7">
+<l>na paśyati yathābhūtaṃ saṃvegādavahīyate /</l>
+<l>dahyate tena śokena priyasaṃgamakāṅkṣayā //</l>
+</lg>
+<lg xml:id="Bca_8.8">
+<l>taccintayā mudhā yāti hrasvamāyurmuhurmuhuḥ /</l>
+<l>aśāśvatena mitrena dharmo bhraśyati śāśvataḥ //</l>
+</lg>
+<lg xml:id="Bca_8.9">
+<l>bālaiḥ sabhāgacarito niyataṃ yāti durgatim /</l>
+<l>neṣyate viṣabhāgaśca kiṃ prāptaṃ bālasaṃgamāt //</l>
+</lg>
+<lg xml:id="Bca_8.10">
+<l>kṣaṇād bhavanti suhṛdo bhavanti ripavaḥ kṣaṇāt /</l>
+<l>toṣasthāne prakupyanti durārādhāḥ pṛthagjanāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.11">
+<l>hitamuktāḥ prakupyanti vārayanti ca māṃ hitāt /</l>
+<l>atha na śrūyate teṣāṃ kupitā yānti durgatim //</l>
+</lg>
+<lg xml:id="Bca_8.12">
+<l>īrṣyotkṛṣṭāt samādvandvo hīnānmānaḥ stutermadaḥ /</l>
+<l>avarṇāt pratighaśceti kadā bālāddhitaṃ bhavet //</l>
+</lg>
+<lg xml:id="Bca_8.13">
+<l>ātmotkarṣaḥ parāvarṇaḥ saṃsāraratisaṃkathā /</l>
+<l>ityādyavaśyamaśubhaṃ kiṃcidbālasya bālataḥ //</l>
+</lg>
+<lg xml:id="Bca_8.14">
+<l>evaṃ tasyāpi tatsaṅgāt tenānarthasamāgamaḥ /</l>
+<l>ekākī vihariṣyāmi sukhamakliṣṭamānasaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.15">
+<l>bālāddūraṃ palāyeta prāptamārādhayet priyaiḥ /</l>
+<l>na saṃstavānubandhena kiṃtūdāsīnasādhuvat //</l>
+</lg>
+<lg xml:id="Bca_8.16">
+<l>dharmārthamātramādāya bhṛṅgavat kusumānmadhu /</l>
+<l>apūrva iva sarvatra vihariṣyāmyasaṃstutaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.17">
+<l>lābhī ca satkṛtaścāham icchanti bahavaśca mām /</l>
+<l>iti martyasya saṃprāptān maraṇājjāyate bhayam //</l>
+</lg>
+<lg xml:id="Bca_8.18">
+<l>yatra tatra ratiṃ yāti manaḥ sukhābhimohitam /</l>
+<l>tattatsahasraguṇitaṃ duḥkhaṃ bhūtvopatiṣṭhati //</l>
+</lg>
+<lg xml:id="Bca_8.19">
+<l>tasmāt prājño na tamicched icchāto jāyate bhayam /</l>
+<l>svayameva ca yātyetad dhairyaṃ kṛtvā pratīkṣatām //</l>
+</lg>
+<lg xml:id="Bca_8.20">
+<l>bahavo lābhino 'bhūvan bahavaśca yaśasvinaḥ /</l>
+<l>saha lābhayaśobhiste na jñātāḥ kva gatā iti //</l>
+</lg>
+<lg xml:id="Bca_8.21">
+<l>māmevānye jugupsanti kiṃ prahṛṣyāmyahaṃ stutaḥ /</l>
+<l>māmevānye praśaṃsanti kiṃ viṣīdāmi ninditaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.22">
+<l>nānādhimuktikāḥ sattvā jinairapi na toṣitāḥ /</l>
+<l>kiṃ punarmādṛśairajñais tasmāt kiṃ kokacintayā //</l>
+</lg>
+<lg xml:id="Bca_8.23">
+<l>nindantyalābhinaṃ sattvam avadhyāyanti lābhinam /</l>
+<l>prakṛtyā duḥkhasaṃvāsaiḥ kathaṃ tairjāyate ratiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.24">
+<l>na bālaḥ kasyacinmitram iti coktaṃ tathāgataiḥ /</l>
+<l>na svārthena vinā prītir yasmādbālasya jāyate //</l>
+</lg>
+<lg xml:id="Bca_8.25">
+<l>svārthadvāreṇa yā prītir ātmārthaṃ prītireva sā /</l>
+<l>dravyanāśe yathodvegaḥ sukhahānikṛto hi saḥ //</l>
+</lg>
+<lg xml:id="Bca_8.26">
+<l>nāvadhyāyanti taravo na cārādhyāḥ prayatnataḥ /</l>
+<l>kadā taiḥ sukhasaṃvāsaiḥ saha vāso bhavenmama //</l>
+</lg>
+<lg xml:id="Bca_8.27">
+<l>śūnyadevakule sthitvā vṛkṣamūle guhāsu vā /</l>
+<l>kadānapekṣo yāsyāmi pṛṣṭhato 'navalokayan //</l>
+</lg>
+<lg xml:id="Bca_8.28">
+<l>amameṣu pradeśeṣu vistīrṇeṣu svabhāvataḥ /</l>
+<l>svacchandacāryanilayo vihariṣyāmyahaṃ kadā //</l>
+</lg>
+<lg xml:id="Bca_8.29">
+<l>mṛtpātramātravibhavaś caurāsaṃbhogacīvaraḥ /</l>
+<l>nirbhayo vihariṣyāmi kadā kāyamagopayan //</l>
+</lg>
+<lg xml:id="Bca_8.30">
+<l>kāyabhūmiṃ nijāṃ gatvā kaṅkālairaparaiḥ saha /</l>
+<l>svakāyaṃ tulayiṣyāmi kadā śatanadharmiṇam //</l>
+</lg>
+<lg xml:id="Bca_8.31">
+<l>ayameva hi kāyo me evaṃ pūtirbhaviṣyati /</l>
+<l>śṛgālā api yadgandhān nopasarpeyurantikam //</l>
+</lg>
+<lg xml:id="Bca_8.32">
+<l>asyaikasyāpi kāyasya sahajā asthikhaṇḍakāḥ /</l>
+<l>pṛthak pṛthaggamiṣyanti kimutānyaḥ priyo janaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.33">
+<l>eka utpadyate jantur mriyate caika eva hi /</l>
+<l>nānyasya tadvyathābhāgaḥ kiṃ priyairvighnakārakaiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.34">
+<l>adhvānaṃ pratipannasya yathāvāsaparigrahaḥ /</l>
+<l>tathā bhavādhvagasyāpi janmāvāsaparigrahaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.35">
+<l>caturbhiḥ puruṣairyāvat sa na nirdhāryate tataḥ /</l>
+<l>āśocyamāno lokena tāvadeva vanaṃ vrajet //</l>
+</lg>
+<lg xml:id="Bca_8.36">
+<l>asaṃstavāvirodhābhyām eka eva śarīrakaḥ /</l>
+<l>pūrvameva mṛto loke mriyamāṇo na śocati //</l>
+</lg>
+<lg xml:id="Bca_8.37">
+<l>na cāntikacarāḥ kecic chocantaḥ kurvate vyathām /</l>
+<l>buddhādyanusmṛtiṃ cāsya vikṣipanti na kecana //</l>
+</lg>
+<lg xml:id="Bca_8.38">
+<l>tasmādekākitā ramyā nirāyāsā śivodayā /</l>
+<l>sarvavikṣepaśamanī sevitavyā mayā sadā //</l>
+</lg>
+<lg xml:id="Bca_8.39">
+<l>sarvānyacintānirmuktaḥ svacittaikāgramānasaḥ /</l>
+<l>samādhānāya cittasya prayatiṣye damāya ca //</l>
+</lg>
+<lg xml:id="Bca_8.40">
+<l>kāmā hyanarthajanakā iha loke paratra ca /</l>
+<l>iha bandhavadhacchedair narakādau paratra ca //</l>
+</lg>
+<lg xml:id="Bca_8.41">
+<l>yadarthaṃ dūtadūtīnāṃ kṛtāñjaliranekadhā /</l>
+<l>na ca pāpamakīrttirvā yadarthaṃ gaṇitā purā //</l>
+</lg>
+<lg xml:id="Bca_8.42">
+<l>prakṣiptaśca bhaye 'pyātmā draviṇaṃ ca vyayīkṛtam /</l>
+<l>yānyeva ca pariṣvajya vabhūvottamanirvṛtāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.43">
+<l>tānyevāsthīni nānyāni svādhīnānyamamāni ca /</l>
+<l>prakāmaṃ saṃpariṣvajya kiṃ na gacchasi nirvṛtim //</l>
+</lg>
+<lg xml:id="Bca_8.44">
+<l>unnāmyamānaṃ yatnād yan nīyamānamadho hriyā /</l>
+<l>purā dṛṣṭamadṛṣṭaṃ vā mukhaṃ jālikayāvṛtam //</l>
+</lg>
+<lg xml:id="Bca_8.45">
+<l>tanmukhaṃ tūtparikleśam asahadbhirivādhunā /</l>
+<l>gṛdhrairvyaktīkṛtaṃ paśya kimidānīṃ palāyase //</l>
+</lg>
+<lg xml:id="Bca_8.46">
+<l>paracakṣurnipātebhyo 'pyāsīdyatparirakṣitam /</l>
+<l>tadadya bhakṣitaṃ yāvat kimīrṣyālo na rakṣasi //</l>
+</lg>
+<lg xml:id="Bca_8.47">
+<l>māṃsocchrayamimaṃ dṛṣṭvā gṛdhrairanyaiśca bhakṣitam /</l>
+<l>āhāraḥ pūjyate 'nyeṣāṃ srakcandanavibhūṣaṇaiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.48">
+<l>niścalādapi te trāsaḥ kaṅkālādevamīkṣitāt /</l>
+<l>vetāḍeneva kenāpi cālyamānād bhayaṃ na kim //</l>
+</lg>
+<lg xml:id="Bca_8.49">
+<l>ekasmādaśanādeṣāṃ lālāmedhyaṃ ca jāyate /</l>
+<l>tatrāmedhyamaniṣṭaṃ te lālāpānaṃ kathaṃ priyam //</l>
+</lg>
+<lg xml:id="Bca_8.50">
+<l>tūlagarbhairmṛdusparśai ramante nopadhānakaiḥ /</l>
+<l>durgandhaṃ na sravantīti kāmino 'medhyamohitāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.51">
+<l>yatra cchanne 'pyayaṃ rāgas tadacchannaṃ kimapriyam /</l>
+<l>na cetprayojanaṃ tena kasmācchannaṃ vimṛdyate //</l>
+</lg>
+<lg xml:id="Bca_8.52">
+<l>yadi te nāśucau rāgaḥ kasmādāliṅgase 'param /</l>
+<l>māṃsakardamasaṃliptaṃ snāyubaddhāsthipañjaram //</l>
+</lg>
+<lg xml:id="Bca_8.53">
+<l>svameva bahvamedhyaṃ te tenaiva dhṛtimācara /</l>
+<l>amedhyabhastrāmaparāṃ gūthaghasmara vismara //</l>
+</lg>
+<lg xml:id="Bca_8.54">
+<l>māṃsapriyo 'hamasyeti draṣṭuṃ spraṣṭuṃ ca vāñchasi /</l>
+<l>acetanaṃ svabhāvena māṃsaṃ tvaṃ kathamicchasi //</l>
+</lg>
+<lg xml:id="Bca_8.55">
+<l>yadicchasi na taccittaṃ draṣṭuṃ spraṣṭuṃ ca śakyate /</l>
+<l>yacca śakyaṃ na tadvetti kiṃ tadāliṅgase mudhā //</l>
+</lg>
+<lg xml:id="Bca_8.56">
+<l>nāmedhyamayamanyasya kāyaṃ vetsītyanadbhutam /</l>
+<l>svāmedhyamayameva tvaṃ taṃ nāvaiṣīti vismayaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.57">
+<l>vighanārkāṃśuvikacaṃ muktvā taruṇapaṅkajam /</l>
+<l>amedhyaśauṇḍacittasya kā ratirgūthapañjare //</l>
+</lg>
+<lg xml:id="Bca_8.58">
+<l>mṛdādyamedhyaliptatvād yadi na spraṣṭumicchasi /</l>
+<l>yatastannirgataṃ kāyāt taṃ spraṣṭuṃ kathamicchasi //</l>
+</lg>
+<lg xml:id="Bca_8.59">
+<l>yadi te nāśucau rāgaḥ kasmādāliṅgase param /</l>
+<l>amedhyakṣetrasaṃbhūtaṃ tadbījaṃ tena vardhitam //</l>
+</lg>
+<lg xml:id="Bca_8.60">
+<l>amedhyabhavamalpatvān na vāñchasyaśuciṃ kṛmim /</l>
+<l>bahvamedhyamayaṃ kāyam amedhyajamapīcchasi //</l>
+</lg>
+<lg xml:id="Bca_8.61">
+<l>na kevalamamedhyatvam ātmīyaṃ na jugupsasi /</l>
+<l>amedhyabhāṇḍānaparān gūthaghasmara vāñchasi //</l>
+</lg>
+<lg xml:id="Bca_8.62">
+<l>karpūrādiṣu hṛdyeṣu śālyannavyañjaneṣu vā /</l>
+<l>mukhakṣiptavisṛṣṭeṣu bhūmirapyaśucirmatā //</l>
+</lg>
+<lg xml:id="Bca_8.63">
+<l>yadi pratyakṣamapyetad amedhyaṃ nādhimucyase /</l>
+<l>śmaśāne patitān ghorān kāyān paśyāparānapi //</l>
+</lg>
+<lg xml:id="Bca_8.64">
+<l>carmaṇyutpāṭite yasmād bhayamutpadyate mahat /</l>
+<l>kathaṃ jñātvāpi tatraiva punarutpadyate ratiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.65">
+<l>kāye nyasto 'pyasau gandhaś candanādeva nānyataḥ /</l>
+<l>anyadīyena gandhena kasmādanyatra rajyate //</l>
+</lg>
+<lg xml:id="Bca_8.66">
+<l>yadi svabhāvadaurgandhyād rāgo nātra śivaṃ nanu /</l>
+<l>kimanartharucirlokas taṃ gandhenānulimpati //</l>
+</lg>
+<lg xml:id="Bca_8.67">
+<l>kāyasyātra kimāyātaṃ sugandhi yadi candanam /</l>
+<l>anyadīyena gandhena kasmādanyatra rajyate //</l>
+</lg>
+<lg xml:id="Bca_8.68">
+<l>yadi keśanakhairdīrghair dantaiḥ samalapāṇḍuraiḥ /</l>
+<l>malapaṅkadharo nagnaḥ kāyaḥ prakṛtibhīṣaṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.69">
+<l>sa kiṃ saṃskriyate yatnād ātmaghātāya śastravat /</l>
+<l>ātmavyāmohanodyuktair unmattairākulā mahī //</l>
+</lg>
+<lg xml:id="Bca_8.70">
+<l>kaṅkālān katiciddṛṣṭvā śmaśāne kila te ghṛṇā /</l>
+<l>grāmaśmaśāne ramase calatkaṅkālasaṃkule //</l>
+</lg>
+<lg xml:id="Bca_8.71">
+<l>evaṃ cāmedhyamapyetad vinā mūlyaṃ na labhyate /</l>
+<l>tadarthamarjanāyāso narakādiṣu ca vyathā //</l>
+</lg>
+<lg xml:id="Bca_8.72">
+<l>śiśornārjanasāmarthyaṃ kenāsau yauvane sukhī /</l>
+<l>yātyarjanena tāruṇyaṃ vṛddhaḥ kāmaiḥ karoti kim //</l>
+</lg>
+<lg xml:id="Bca_8.73">
+<l>keciddināntavyāpāraiḥ pariśrāntāḥ kukāminaḥ /</l>
+<l>gṛhamāgatya sāyāhne śerate sma mṛtā iva //</l>
+</lg>
+<lg xml:id="Bca_8.74">
+<l>daṇḍayātrābhirapare pravāsakleśaduḥkhitāḥ /</l>
+<l>vatsarairapi nekṣante putradārāṃstadarthinaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.75">
+<l>yadarthamiva vikrīta ātmā kāmavimohitaiḥ /</l>
+<l>tanna prāptaṃ mudhaivāyur nītaṃ tu parakarmaṇā //</l>
+</lg>
+<lg xml:id="Bca_8.76">
+<l>vikrītasvātmabhāvānāṃ sadā preṣaṇakāriṇām /</l>
+<l>prasūyante striyo 'nyeṣām aṭavīviṭapādiṣu //</l>
+</lg>
+<lg xml:id="Bca_8.77">
+<l>raṇaṃ jīvitasaṃdehaṃ viśanti kila jīvitam /</l>
+<l>mānārthaṃ dāsatāṃ yānti mūḍhāḥ kāmaviḍambitāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.78">
+<l>chidyante kāminaḥ kecid anye śūlasamarpitāḥ /</l>
+<l>dṛśyante dahyamānāśca hanyamānāśca śaktibhiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.79">
+<l>arjanarakṣaṇanāśaviṣādair arthamanarthamanantamavaihi /</l>
+<l>vyagratayā dhanasaktamatīnāṃ nāvasaro bhavaduḥkhavimukteḥ //</l>
+</lg>
+<lg xml:id="Bca_8.80">
+<l>evamādīnavo bhūyān alpāsvādastu kāminām /</l>
+<l>śakaṭaṃ vahato yadvat paśorghāsalavagrahaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.81">
+<l>tasyāsvādalavasyārthe yaḥ paśorapyadurlabhaḥ /</l>
+<l>hatā daivahateneyaṃ kṣaṇasaṃpatsudurlabhā //</l>
+</lg>
+<lg xml:id="Bca_8.82">
+<l>avaśyaṃ ganturalpasya narakādiprapātinaḥ /</l>
+<l>kāyasyārthe kṛto yo 'yaṃ sarvakālaṃ pariśramaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.83">
+<l>tataḥ koṭiśatenāpi śramabhāgena buddhatā /</l>
+<l>caryāduḥkhānmahadduḥkhaṃ sā ca bodhirna kāminām //</l>
+</lg>
+<lg xml:id="Bca_8.84">
+<l>na śastraṃ na viṣaṃ nāgnir na prapāto na vairiṇaḥ /</l>
+<l>kāmānāmupamāṃ yānti narakādivyathāsmṛteḥ //</l>
+</lg>
+<lg xml:id="Bca_8.85">
+<l>evamudvijya kāmebhyo viveke janayedratim /</l>
+<l>kalahāyāsaśūnyāsu śāntāsu vanabhūmiṣu //</l>
+</lg>
+<lg xml:id="Bca_8.86">
+<l>dhanyaiḥ śaśāṅkakaracandanaśītaleṣu ramyeṣu harmyavipuleṣu śilātaleṣu /</l>
+<l>niḥśabdasaumyavanamārutavījyamānaiḥ caṃkramyate parahitāya vicintyate ca //</l>
+</lg>
+<lg xml:id="Bca_8.87">
+<l>vihṛtya yatra kvacidiṣṭakālaṃ śūnyālaye vṛkṣatale guhāsu /</l>
+<l>parigraharakṣaṇakhedamuktaḥ caratyapekṣāvirato yatheṣṭam //</l>
+</lg>
+<lg xml:id="Bca_8.88">
+<l>svacchandacāryanilayaḥ pratibaddho na kasyacit /</l>
+<l>yatsaṃtoṣasukhaṃ bhuṅkte tadindrasyāpi durlabham //</l>
+</lg>
+<lg xml:id="Bca_8.89">
+<l>evamādibhirākārair vivekaguṇabhāvanāt /</l>
+<l>upaśāntavitarkaḥ san bodhicittaṃ tu bhāvayet //</l>
+</lg>
+<lg xml:id="Bca_8.90">
+<l>parātmasamatāmādau bhāvayedevamādarāt /</l>
+<l>samaduḥkhasukhāḥ sarve pālanīyā mayātmavat //</l>
+</lg>
+<lg xml:id="Bca_8.91">
+<l>hastādibhedena bahuprakāraḥ kāyo yathaikaḥ paripālanīyaḥ /</l>
+<l>tathā jagadbhinnamabhinnaduḥkha-sukhātmakaṃ sarvamidaṃ tathaiva //</l>
+</lg>
+<lg xml:id="Bca_8.92">
+<l>yadyapyanyeṣu deheṣu madduḥkhaṃ na prabādhate /</l>
+<l>tathāpi tadduḥkhameva mamātmasnehaduḥsaham //</l>
+</lg>
+<lg xml:id="Bca_8.93">
+<l>tathā yadyapyasaṃvedyam anyadduḥkhaṃ mayātmanā /</l>
+<l>tathāpi tasya tadduḥkham ātmasnehena duḥsaham //</l>
+</lg>
+<lg xml:id="Bca_8.94">
+<l>mayānyaduḥkhaṃ hantavyaṃ duḥkhatvādātmaduḥkhavat /</l>
+<l>anugrāhyā mayānye 'pi sattvatvādātmasattvavat //</l>
+</lg>
+<lg xml:id="Bca_8.95">
+<l>yadā mama pareṣāṃ ca tulyameva sukhaṃ priyam /</l>
+<l>tadātmanaḥ ko viśeṣo yenātraiva sukhodyamaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.96">
+<l>yadā mama pareṣāṃ ca bhayaṃ duḥkhaṃ ca na priyam /</l>
+<l>tadātmanaḥ ko viśeṣo yattaṃ rakṣāmi netaram //</l>
+</lg>
+<lg xml:id="Bca_8.97">
+<l>tadduḥkhena na me bādhety ato yadi na rakṣyate /</l>
+<l>nāgāmikāyaduḥkhānme bādhā tatkena rakṣyate //</l>
+</lg>
+<lg xml:id="Bca_8.98">
+<l>ahameva tadāpīti mithyeyaṃ pratikalpanā /</l>
+<l>anya eva mṛto yasmād anya eva prajāyate //</l>
+</lg>
+<lg xml:id="Bca_8.99">
+<l>yadi yasyaiva yadduḥkhaṃ rakṣyaṃ tasyaiva tanmatam /</l>
+<l>pādaduḥkhaṃ na hastasya kasmāt tattena rakṣyate //</l>
+</lg>
+<lg xml:id="Bca_8.100">
+<l>ayuktamapi cedetad ahaṃkārātpravartate /</l>
+<l>yadayuktaṃ nivartyaṃ tat svamanyacca yathābalam //</l>
+</lg>
+<lg xml:id="Bca_8.101">
+<l>saṃtānaḥ samudāyaśca paṅktisenādivanmṛṣā /</l>
+<l>yasya duḥkhaṃ sa nāstyasmāt kasya tat svaṃ bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_8.102">
+<l>asvāmikāni duḥkhāni sarvāṇyevāviśeṣataḥ /</l>
+<l>duḥkhatvādeva vāryāṇi niyamastatra kiṃkṛtaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.103">
+<l>duḥkhaṃ kasmānnivāryaṃ cet sarveṣāmavivādataḥ /</l>
+<l>vāryaṃ cetsarvamapyevaṃ na cedātmani sarvavat //</l>
+</lg>
+<lg xml:id="Bca_8.104">
+<l>kṛpayā bahu duḥkhaṃ cet kasmādutpadyate balāt /</l>
+<l>jagadduḥkhaṃ nirūpyedaṃ kṛpāduḥkhaṃ kathaṃ bahu //</l>
+</lg>
+<lg xml:id="Bca_8.105">
+<l>bahūnāmekaduḥkhena yadi duḥkhaṃ vigacchati /</l>
+<l>utpādyameva tadduḥkhaṃ sadayena parātmanoḥ //</l>
+</lg>
+<lg xml:id="Bca_8.106">
+<l>ataḥ supuṣpacandreṇa jānatāpi nṛpāpadam /</l>
+<l>ātmaduḥkhaṃ na nihataṃ bahūnāṃ duḥkhināṃ vyayāt //</l>
+</lg>
+<lg xml:id="Bca_8.107">
+<l>evaṃ bhāvitasaṃtānāḥ paraduḥkhasamapriyāḥ /</l>
+<l>avīcimavagāhante haṃsāḥ padmavanaṃ yathā //</l>
+</lg>
+<lg xml:id="Bca_8.108">
+<l>mucyamāneṣu sattveṣu ye te prāmodyasāgarāḥ /</l>
+<l>taireva nanu paryāptaṃ mokṣeṇārasikena kim //</l>
+</lg>
+<lg xml:id="Bca_8.109">
+<l>ataḥ parārthaṃ kṛtvāpi na mado na ca vismayaḥ /</l>
+<l>na vipākaphalākāṅkṣā parārthaikāntatṛṣṇayā //</l>
+</lg>
+<lg xml:id="Bca_8.110">
+<l>tasmādyathāntaśo 'varṇād ātmānaṃ gopayāmyaham /</l>
+<l>rakṣācittaṃ dayācittaṃ karomyevaṃ pareṣvapi //</l>
+</lg>
+<lg xml:id="Bca_8.111">
+<l>abhyāsādanyadīyeṣu śukraśoṇitabinduṣu /</l>
+<l>bhavatyahamiti jñānam asatyapi hi vastuni //</l>
+</lg>
+<lg xml:id="Bca_8.112">
+<l>tathākāyo 'nyadīyo 'pi kimātmeti na gṛhyate /</l>
+<l>paratvaṃ tu svakāyasya sthitameva na duṣkaram //</l>
+</lg>
+<lg xml:id="Bca_8.113">
+<l>jñātvā sadoṣamātmānaṃ parānapi guṇodadhīn /</l>
+<l>ātmabhāvaparityāgaṃ parādānaṃ ca bhāvayet //</l>
+</lg>
+<lg xml:id="Bca_8.114">
+<l>kāyasyāvayavatvena yathābhīṣṭāḥ karādayaḥ /</l>
+<l>jagato 'vayavatvena tathā kasmānna dehinaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.115">
+<l>yathātmabuddhirabhyāsāt svakāye 'smin nirātmake /</l>
+<l>pareṣvapi tathātmatvaṃ kimabhyāsānna jāyate //</l>
+</lg>
+<lg xml:id="Bca_8.116">
+<l>evaṃ parārthaṃ kṛtvāpi na mado na ca vismayaḥ /</l>
+<l>ātmānaṃ bhojayitvaiva phalāśā na ca jāyate //</l>
+</lg>
+<lg xml:id="Bca_8.117">
+<l>tasmādyathārtiśokāder ātmānaṃ goptumicchasi /</l>
+<l>rakṣācittaṃ dayācittaṃ jagatyabhyasyatāṃ tathā //</l>
+</lg>
+<lg xml:id="Bca_8.118">
+<l>adhyatiṣṭhadatho nāthaḥ scanāmāpyavalokitaḥ /</l>
+<l>parṣacchāradyabhayamapy apanetuṃ janasya hi //</l>
+</lg>
+<lg xml:id="Bca_8.119">
+<l>duṣkarānna nivarteta yasmādabhyāsaśaktitaḥ /</l>
+<l>yasyaiva śravaṇāttrāsas tenaiva na vinā ratiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.120">
+<l>ātmānaṃ ca parāṃścaiva yaḥ śīghraṃ trātumicchati /</l>
+<l>sa caretparamaṃ guhyaṃ parātmaparivartanam //</l>
+</lg>
+<lg xml:id="Bca_8.121">
+<l>yasminnātmanyatisnehād alpādapi bhayādbhayam /</l>
+<l>na dviṣetkastamātmānaṃ śatruvadyo bhayāvahaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.122">
+<l>yo mandya kṣutpipāsādi-pratīkāracikīrṣayā /</l>
+<l>pakṣimatsyamṛgān hanti paripanthaṃ ca tiṣṭhati //</l>
+</lg>
+<lg xml:id="Bca_8.123">
+<l>yo lābhasatkriyāhetoḥ pitarāvapi mārayet /</l>
+<l>ratnatrayasvamādadyād yenāvīcīndhano bhavet //</l>
+</lg>
+<lg xml:id="Bca_8.124">
+<l>kaḥ paṇḍitastamātmānam icchedrakṣet prapūjayet /</l>
+<l>na paśyecchatruvaccainaṃ kaścainaṃ pratimānayet //</l>
+</lg>
+<lg xml:id="Bca_8.125">
+<l>yadi dāsyāmi kiṃ bhokṣya ityātmārthe piśācatā /</l>
+<l>yadi bhokṣye kiṃ dadāmīti parārthe devarājatā //</l>
+</lg>
+<lg xml:id="Bca_8.126">
+<l>ātmārthaṃ pīḍayitvānyaṃ narakādiṣu pacyate /</l>
+<l>ātmānaṃ pīḍayitvā tu parārthaṃ sarvasaṃpadaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.127">
+<l>durgatirnīcatā maurkhyaṃ yayaivātmonnatīcchayā /</l>
+<l>tāmevānyatra saṃkrāmya sugatiḥ satkṛtirmatiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.128">
+<l>ātmārthaṃ paramājñapya dāsatvādyanubhūyate /</l>
+<l>parārthaṃ tvenamājñapya svāmitvādyanubhūyate //</l>
+</lg>
+<lg xml:id="Bca_8.129">
+<l>ye kecid duḥkhitā loke sarve te svasukhecchayā /</l>
+<l>ye kecit sukhitā loke sarve te 'nyasukhecchayā //</l>
+</lg>
+<lg xml:id="Bca_8.130">
+<l>bahunā vā kimuktena dṛśyatāmidamantaram /</l>
+<l>svārthārthinaśca bālasya muneścānyārthakāriṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.131">
+<l>na nāma sādhyaṃ buddhatvaṃ saṃsāre 'pi kutaḥ sukham /</l>
+<l>svasukhasyānyaduḥkhena parivartamakurvataḥ //</l>
+</lg>
+<lg xml:id="Bca_8.132">
+<l>āstāṃ tāvatparo loko dṛṣṭo 'pyartho na sidhyati /</l>
+<l>bhṛtyasyākurvataḥ karma svāmino 'dadato bhṛtim //</l>
+</lg>
+<lg xml:id="Bca_8.133">
+<l>tyaktvānyo 'nyasukhotpādaṃ dṛṣṭādṛṣṭasukhotsavam /</l>
+<l>anyo 'nyaduḥkhanādghoraṃ duḥkhaṃ gṛhṇanti mohitāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.134">
+<l>upadravā ye ca bhavanti koke yāvanti duḥkhāni bhayāni caiva /</l>
+<l>sarvāṇi tānyātmaparigraheṇa tatkiṃ mamānena parigraheṇa //</l>
+</lg>
+<lg xml:id="Bca_8.135">
+<l>ātmānamaparityajya duḥkhaṃ tyaktuṃ na śakyate /</l>
+<l>yathāgnimaparityajya dāhaṃ tyaktuṃ na śakyate //</l>
+</lg>
+<lg xml:id="Bca_8.136">
+<l>tasmātsvaduḥkhaśāntyarthaṃ paraduḥkhaśamāya ca /</l>
+<l>dadāmyanyebhya ātmānaṃ parān gṛhṇāmi cātmavat //</l>
+</lg>
+<lg xml:id="Bca_8.137">
+<l>anyasaṃbaddhamasmīti niścayaṃ kuru me manaḥ /</l>
+<l>sarvasattvārthamutsṛjya nānyaccintyaṃ tvayādhunā //</l>
+</lg>
+<lg xml:id="Bca_8.138">
+<l>na yuktaṃ svārthadṛṣṭyādi tadīyaiścakṣurādibhiḥ /</l>
+<l>na yuktaṃ syandituṃ svārtham anyadīyaiḥ karādibhiḥ //</l>
+</lg>
+<lg xml:id="Bca_8.139">
+<l>tena sattvaparo bhūtvā kāye 'sminyadyadīkṣase /</l>
+<l>tattadevāpahṛtyāsmāt parebhyo hitamācara //</l>
+</lg>
+<lg xml:id="Bca_8.140">
+<l>hīnādiṣvātmatāṃ kṛtvā paratvamapi cātmani /</l>
+<l>bhāvayerṣyāṃ ca mānaṃ ca nirvikalpyena cetasā //</l>
+</lg>
+<lg xml:id="Bca_8.141">
+<l>eṣa satkriyate nāhaṃ lābhī nāhamayaṃ yathā /</l>
+<l>stūyate 'yamahaṃ nindyo duḥkhito 'hamayaṃ sukhī //</l>
+</lg>
+<lg xml:id="Bca_8.142">
+<l>ahaṃ karomi karmāṇi tiṣṭhatyeṣa tu susthitaḥ /</l>
+<l>ayaṃ kila mahā/lloke nīco 'haṃ kila nirguṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.143">
+<l>kiṃ nirguṇena kartavyaṃ sarvasyātmā guṇānvitaḥ /</l>
+<l>santi te yeṣvahaṃ nīcaḥ santi te yeṣvahaṃ varaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.144">
+<l>śīladṛṣṭivipattyādi-kleśaśaktyā na madvaśāt /</l>
+<l>cikitsyo 'haṃ yathāśakti pīḍāpyaṅgīkṛtā mayā //</l>
+</lg>
+<lg xml:id="Bca_8.145">
+<l>athāhamacikitsyo 'sya kasmānmāmavamanyate /</l>
+<l>kiṃ mamaitadguṇaiḥ kṛtyam ātmā tu guṇavānayam //</l>
+</lg>
+<lg xml:id="Bca_8.146">
+<l>durgativyāḍavaktrasthe- -naivāsya karuṇā jane /</l>
+<l>aparān guṇamānena paṇḍitān vijigīṣate //</l>
+</lg>
+<lg xml:id="Bca_8.147">
+<l>samamātmānamālokya yataḥ svādhikyavṛddhaye /</l>
+<l>kalahenāpi saṃsādhyaṃ lābhasatkāramātmanaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.148">
+<l>api sarvatra me loke bhaveyuḥ prakaṭāḥ guṇāḥ /</l>
+<l>api nāma guṇā ye 'sya na śroṣyantyapi kecana //</l>
+</lg>
+<lg xml:id="Bca_8.149">
+<l>chādyerannapi me doṣāḥ syānme pūjāsya no bhavet /</l>
+<l>sulabdhā adya me lābhāḥ pūjito 'hamayaṃ na tu //</l>
+</lg>
+<lg xml:id="Bca_8.150">
+<l>paśyāmo muditāstāvac cirādenaṃ khalīkṛtam /</l>
+<l>hāsyaṃ janasya sarvasya nindyamānamitastataḥ //</l>
+</lg>
+<lg xml:id="Bca_8.151">
+<l>asyāpi hi varākasya spardhā kila mayā saha /</l>
+<l>kimasya śrutametāvat prajñārūpaṃ kulaṃ dhanam //</l>
+</lg>
+<lg xml:id="Bca_8.152">
+<l>evamātmaguṇāñśrutvā kīrtyamānānitastataḥ /</l>
+<l>saṃjātapulako hṛṣṭaḥ paribhokṣye sukhotsavam //</l>
+</lg>
+<lg xml:id="Bca_8.153">
+<l>yadyapyasya bhavellābho grāhyo 'smābhirasau balāt /</l>
+<l>datvāsmai yāpanāmātram asmatkarma karoti cet //</l>
+</lg>
+<lg xml:id="Bca_8.154">
+<l>sukhācca cyāvanīyo 'yaṃ yojyo 'smadvyathayā sadā /</l>
+<l>anena śataśaḥ sarve saṃsāravyathitā vayam //</l>
+</lg>
+<lg xml:id="Bca_8.155">
+<l>aprameyā gatāḥ kalpāḥ svārthaṃ jijñāsatastava /</l>
+<l>śrameṇa mahatānena duḥkhameva tvayārjitam //</l>
+</lg>
+<lg xml:id="Bca_8.156">
+<l>madvijñaptyā tathātrāpi pravartasvāvicārataḥ /</l>
+<l>drakṣyasyetadguṇān paścād bhūtaṃ hi vacanaṃ muneḥ //</l>
+</lg>
+<lg xml:id="Bca_8.157">
+<l>abhaviṣyadidaṃ karma kṛtaṃ pūrvaṃ yadi tvayā /</l>
+<l>bauddhaṃ saṃpatsukhaṃ muktvā nābhaviṣyadiyaṃ daśā //</l>
+</lg>
+<lg xml:id="Bca_8.158">
+<l>tasmādyathānyadīyeṣu śukraśoṇitabinduṣu /</l>
+<l>cakartha tvamahaṃkāraṃ tathānyeṣvapi bhāvaya //</l>
+</lg>
+<lg xml:id="Bca_8.159">
+<l>anyadīyaścaro bhūtvā kāye 'smin yadyadīkṣase /</l>
+<l>tattadevāpahṛtyarthaṃ parebhyo hitamācara //</l>
+</lg>
+<lg xml:id="Bca_8.160">
+<l>ayaṃ susthaḥ paro duḥstho nīcairanyo 'yamuccakaiḥ /</l>
+<l>paraḥ karotyayaṃ neti kuruṣverṣyāṃ tvamātmani //</l>
+</lg>
+<lg xml:id="Bca_8.161">
+<l>sukhācca cyāvayātmānaṃ paraduḥkhe niyojaya /</l>
+<l>kadāyaṃ kiṃ karotīti chalamasya nirūpaya //</l>
+</lg>
+<lg xml:id="Bca_8.162">
+<l>anyenāpi kṛtaṃ doṣaṃ pātayāsyaiva mastake /</l>
+<l>alpamapyasya doṣaṃ ca prakāśaya mahāmuneḥ //</l>
+</lg>
+<lg xml:id="Bca_8.163">
+<l>anyādhikayaśovādair yaśo 'sya malinīkuru /</l>
+<l>nikṛṣṭadāsavaccainaṃ sattvakāryeṣu vāhaya //</l>
+</lg>
+<lg xml:id="Bca_8.164">
+<l>nāgantukaguṇāṃśena stutyo doṣamayo hyayam /</l>
+<l>yathā kaścinna jānīyād guṇamasya tathā kuru //</l>
+</lg>
+<lg xml:id="Bca_8.165">
+<l>saṃkṣepād yadyadātmārthe pareṣvapakṛtaṃ tvayā /</l>
+<l>tattadātmani sattvārthe vyasanaṃ vinipātaya //</l>
+</lg>
+<lg xml:id="Bca_8.166">
+<l>naivotsāho 'sya dātavyo yenāyaṃ mukharo bhavet /</l>
+<l>sthāpyo navabadhūvṛttau hrīto bhīto 'tha saṃvṛtaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.167">
+<l>evaṃ kuruṣva tiṣṭhaivaṃ na kartavyamidaṃ tvayā /</l>
+<l>evameṣaḥ vaśaḥ kāryo nigrāhyastadatikrame //</l>
+</lg>
+<lg xml:id="Bca_8.168">
+<l>athaivamucyamāne 'pi cittaṃ nedaṃ kariṣyasi /</l>
+<l>tvāmeva nigrahīṣyāmi sarvadoṣāstadāśritāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.169">
+<l>kva yāsyasi mayā dṛṣṭaḥ sarvadarpānnihanmi te /</l>
+<l>anyo 'sau pūrvakaḥ kālas tvayā yatrāsmi nāśitaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.170">
+<l>adyāpyasti mama svārtha ityāśāṃ tyaja sāṃpratam /</l>
+<l>tvaṃ vikrīto mayānyeṣu bahukhedamacintayan //</l>
+</lg>
+<lg xml:id="Bca_8.171">
+<l>tvāṃ sattveṣu na dāsyāmi yadi nāma pramādataḥ /</l>
+<l>tvaṃ māṃ narakapāleṣu pradāsyasi na saṃśayaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.172">
+<l>evaṃ cānekadhā datvā tvayāhaṃ vyathitaściram /</l>
+<l>nihanmi svārthaceṭaṃ tvāṃ tāni vairāṇyanusmaran //</l>
+</lg>
+<lg xml:id="Bca_8.173">
+<l>na kartavyātmani prītir yadyātmaprītirasti te /</l>
+<l>yadyātmā rakṣitavyo 'yaṃ rakṣitavyo na yujyate //</l>
+</lg>
+<lg xml:id="Bca_8.174">
+<l>yathā yathāsya kāyasya kriyate paripālanam /</l>
+<l>sukumārataro bhūtvā patatyeva tathā tathā //</l>
+</lg>
+<lg xml:id="Bca_8.175">
+<l>asyaivaṃ patitasyāpi sarvāpīyaṃ vasundharā /</l>
+<l>nālaṃ pūrayituṃ vāñchāṃ tatko 'syecchāṃ kariṣyati //</l>
+</lg>
+<lg xml:id="Bca_8.176">
+<l>aśakyamicchataḥ kleśa āśābhaṅgaśca jāyate /</l>
+<l>nirāśo yastu sarvatra tasya saṃpadajīrṇikā //</l>
+</lg>
+<lg xml:id="Bca_8.177">
+<l>tasmānna prasaro deyaḥ kāyasyecchābhivṛddhaye /</l>
+<l>bhadrakaṃ nāma tadvastu yadiṣṭatvānna gṛhyate //</l>
+</lg>
+<lg xml:id="Bca_8.178">
+<l>bhasmaniṣṭhāvasāno 'yaṃ niśceṣṭānyena cālyate /</l>
+<l>aśucipratimā ghorā kasmādatra mamāgrahaḥ //</l>
+</lg>
+<lg xml:id="Bca_8.179">
+<l>kiṃ mamānena yantreṇa jīvinā vā mṛtena vā /</l>
+<l>loṣṭrādeḥ ko viśeṣo 'sya hāhaṃkāraṃ na naśyasi //</l>
+</lg>
+<lg xml:id="Bca_8.180">
+<l>śarīrapakṣapātena vṛthā duḥkhamupārjyate /</l>
+<l>kimasya kāṣṭhatulyasya dveṣeṇānunayena vā //</l>
+</lg>
+<lg xml:id="Bca_8.181">
+<l>mayā vā pālitasyaivaṃ gṛdhrādyairbhakṣitasya vā /</l>
+<l>na ca sneho na ca dveṣas tasmāt snehaṃ karomi kim //</l>
+</lg>
+<lg xml:id="Bca_8.182">
+<l>roṣo yasya khalīkārāt toṣo yasya ca pūjayā /</l>
+<l>sa eva cenna jānāti śramaḥ kasya kṛtena me //</l>
+</lg>
+<lg xml:id="Bca_8.183">
+<l>imaṃ ye kāyamicchanti te 'pi me suhṛdaḥ kila /</l>
+<l>sarve svakāyamicchanti te 'pi kasmānna me priyāḥ //</l>
+</lg>
+<lg xml:id="Bca_8.184">
+<l>tasmānmayānapekṣeṇa kāyastyakto jagaddhite /</l>
+<l>ato 'yaṃ bahudoṣo 'pi dhāryate karmabhāṇḍavat //</l>
+</lg>
+<lg xml:id="Bca_8.185">
+<l>tenālaṃ lokacaritaiḥ paṇḍitānanuyāmyaham /</l>
+<l>apramādakathāṃ smṛtvā styānamiddhaṃ nivārayan //</l>
+</lg>
+<lg xml:id="Bca_8.186">
+<l>tasmādāvaraṇaṃ hantuṃ samādhānaṃ karomyaham /</l>
+<l>vimārgāccittamākṛṣya svālambananirantaram //</l>
+</lg>
+<p xml:id="23">
+bodhicaryāvatāre dhyānapāramitā aṣṭamaḥ paricchedaḥ //
+</p><p xml:id="24">
+****************************************************************
+</p><p xml:id="25">
+Pariccheda 9
+</p>
+<lg xml:id="Bca_9.1">
+<l>imaṃ parikaraṃ sarvaṃ prajñārthaṃ hi munirjagau /</l>
+<l>tasmādutpādayet prajñāṃ duḥkhanivṛttikāṅkṣayā //</l>
+</lg>
+<lg xml:id="Bca_9.2">
+<l>saṃvṛtiḥ paramārthaśca satyadvayamidaṃ mataṃ /</l>
+<l>buddheragocarastattvaṃ buddhiḥ saṃvṛtirucyate //</l>
+</lg>
+<lg xml:id="Bca_9.3">
+<l>tatra loko dvidhā dṛṣṭo yogī prākṛtakastathā /</l>
+<l>tatra prākṛtako loko yogilokena bādhyate //</l>
+</lg>
+<lg xml:id="Bca_9.4">
+<l>bādhyante dhīviśeṣeṇa yogino 'pyuttarottaraiḥ /</l>
+<l>dṛṣṭāntenobhayeṣṭena kāryārthamavicārataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.5">
+<l>lokena bhāvā dṛśyante kalpyante cāpi tattvataḥ /</l>
+<l>na tu māyāvadityatra vivādo yogilokayoḥ //</l>
+</lg>
+<lg xml:id="Bca_9.6">
+<l>pratyakṣamapi rūpādi prasiddhyā na pramāṇataḥ /</l>
+<l>aśucyādiṣu śucyādi-prasiddhiriva sā mṛṣā //</l>
+</lg>
+<lg xml:id="Bca_9.7">
+<l>lokāvatāraṇārthaṃ ca bhāvā nāthena deśitāḥ /</l>
+<l>tattvataḥ kṣaṇikā naite saṃvṛtyā cedvirudhyate //</l>
+</lg>
+<lg xml:id="Bca_9.8">
+<l>na doṣo yogisaṃvṛtyā lokātte tattvadarśinaḥ /</l>
+<l>anyathā lokabādhā syād aśucistrīnirūpaṇe //</l>
+</lg>
+<lg xml:id="Bca_9.9">
+<l>māyopamājjināt puṇyaṃ sadbhāve 'pi kathaṃ yathā /</l>
+<l>yadi māyopamaḥ sattvaḥ kiṃ punarjāyate mṛtaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.10">
+<l>yāvatpratyayasāmagrī tāvanmāyāpi vartate /</l>
+<l>dīrghasaṃtānamātreṇa kathaṃ sattvo 'sti satyataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.11">
+<l>māyāpuruṣaghātādau cittābhāvānna pāpakaṃ /</l>
+<l>cittamāyāsamete tu pāpapuṇyasamudbhavaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.12">
+<l>mantrādīnāmasāmarthyān na māyācittasaṃbhavaḥ /</l>
+<l>sāpi nānāvidhā māyā nānāpratyayasaṃbhavā //</l>
+</lg>
+<lg xml:id="Bca_9.13">
+<l>naikasya sarvasāmarthyaṃ pratyayasyāsti kutracit /</l>
+<l>nirvṛtaḥ paramārthena saṃvṛtyā yadi saṃsaret //</l>
+</lg>
+<lg xml:id="Bca_9.14">
+<l>buddho 'pi saṃsaredevaṃ tataḥ kiṃ bodhicaryayā /</l>
+<l>pratyayānāmanucchede māyāpyucchidyate na hi //</l>
+</lg>
+<lg xml:id="Bca_9.15">
+<l>pratyayānāṃ tu vicchedāt saṃvṛtyāpi na saṃbhavaḥ /</l>
+<l>yadā na bhrāntirapyasti māyā kenopalabhyate //</l>
+</lg>
+<lg xml:id="Bca_9.16">
+<l>yadā māyaiva te nāsti tadā kimupalabhyate /</l>
+<l>cittasyaiva sa ākāro yadyapyanyo 'sti tattvataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.17">
+<l>cittameva yadā māyā tadā kiṃ kena dṛśyate /</l>
+<l>uktaṃ ca lokanāthena cittaṃ cittaṃ na paśyati //</l>
+</lg>
+<lg xml:id="Bca_9.18">
+<l>na cchinatti yathātmānam asidhārā tathā manaḥ /</l>
+<l>ātmabhāvaṃ yathā dīpaḥ saṃprakāśayatīti cet //</l>
+</lg>
+<lg xml:id="Bca_9.19">
+<l>naiva prakāśyate dīpo yasmānna tamasāvṛtaḥ /</l>
+<l>na hi sphaṭikavannīlaṃ nīlatve 'nyamapekṣate //</l>
+</lg>
+<lg xml:id="Bca_9.20">
+<l>tathā kiṃcit parāpekṣam anapekṣaṃ ca dṛśyate /</l>
+<l>anīlatve na tannīlaṃ kuryādātmānamātmanā //</l>
+</lg>
+<lg xml:id="Bca_9.21">
+<l>nīlameva hi ko nīlaṃ kuryādātmānamātmanā /</l>
+<l>anīlatve na tannīlaṃ kuryādātmānamātmanā //</l>
+</lg>
+<lg xml:id="Bca_9.22">
+<l>dīpaḥ prakāśata iti jñātvā jñānena kathyate /</l>
+<l>buddhiḥ prakāśata iti jñātvedaṃ kena kathyate //</l>
+</lg>
+<lg xml:id="Bca_9.23">
+<l>prakāśā vāprakāśā vā yadā dṛṣṭā na kenacit /</l>
+<l>vandhyāduhitṛlīleva kathyamānāpi sā mudhā //</l>
+</lg>
+<lg xml:id="Bca_9.24">
+<l>yadi nāsti svasaṃvittir vijñānaṃ smaryate katham /</l>
+<l>anyānubhūte saṃbandhāt smṛtirākhuviṣaṃ yathā //</l>
+</lg>
+<lg xml:id="Bca_9.25">
+<l>pratyayāntarayuktasya darśanāt svaṃ prakāśate /</l>
+<l>siddhāñjanavidherdṛṣṭo ghaṭo naivāñjanaṃ bhavet //</l>
+</lg>
+<lg xml:id="Bca_9.26">
+<l>yathā dṛṣṭaṃ śrutaṃ jñātaṃ naiveha pratiṣidhyate /</l>
+<l>satyataḥ kalpanā tvatra duḥkhaheturnivāryate //</l>
+</lg>
+<lg xml:id="Bca_9.27">
+<l>cittādanyā na māyā cen nāpyananyeti kalpyate /</l>
+<l>vastu cet sā kathaṃ nānyān anyā cennāsti vastutaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.28">
+<l>asatyapi yathā māyā dṛśyā draṣṭṛ tathā manaḥ /</l>
+<l>vastvāśrayaścet saṃsāraḥ so 'nyathākāśavadbhavet //</l>
+</lg>
+<lg xml:id="Bca_9.29">
+<l>vastvāśrayeṇābhāvasya kriyāvattvaṃ kathaṃ bhavet /</l>
+<l>asatsahāyamekaṃ hi cittamāpadyate tava //</l>
+</lg>
+<lg xml:id="Bca_9.30">
+<l>grāhyamuktaṃ yadā cittaṃ tadā sarve tathāgatāḥ /</l>
+<l>evaṃ ca ko guṇo labdhaś cittamātre 'pi kalpite //</l>
+</lg>
+<lg xml:id="Bca_9.31">
+<l>māyopamatve 'pi jñāte kathaṃ kleśo nivartate /</l>
+<l>yadā māyāstriyāṃ rāgas tatkarturapi jāyate //</l>
+</lg>
+<lg xml:id="Bca_9.32">
+<l>aprahīṇā hi tatkartur jñeyasaṃkleśavāsanā /</l>
+<l>taddṛṣṭikāle tasyāto durbalā śūnyavāsanā //</l>
+</lg>
+<lg xml:id="Bca_9.33">
+<l>śūnyatāvāsanādhānād dhīyate bhāvavāsanā /</l>
+<l>kiṃcinnāstīti cābhyāsāt sāpi paścāt prahīyate //</l>
+</lg>
+<lg xml:id="Bca_9.34">
+<l>yadā na labhyate bhāvo yo nāstīti prakalpyate /</l>
+<l>tadā nirāśrayo 'bhāvaḥ kathaṃ tiṣṭhenmateḥ puraḥ //</l>
+</lg>
+<lg xml:id="Bca_9.35">
+<l>yadā na bhāvo nābhāvo mateḥ saṃtiṣṭhate puraḥ /</l>
+<l>tadānyagatyabhāvena nirālambā praśāmyate //</l>
+</lg>
+<lg xml:id="Bca_9.36">
+<l>cintāmaṇiḥ kalpatarur yathecchāparipūraṇaḥ /</l>
+<l>vineyapraṇidhānābhyāṃ jinabimbaṃ tathekṣyate //</l>
+</lg>
+<lg xml:id="Bca_9.37">
+<l>yathā gāruḍikaḥ stambhaṃ sādhayitvā vinaśyati /</l>
+<l>sa tasmiṃściranaṣṭe 'pi viṣādīnupaśāmayet //</l>
+</lg>
+<lg xml:id="Bca_9.38">
+<l>bodhicaryānurūpyeṇa jinastambho 'pi sādhitaḥ /</l>
+<l>karoti sarvakāryāṇi bodhisattve 'pi nirvṛte //</l>
+</lg>
+<lg xml:id="Bca_9.39">
+<l>acittake kṛtā pūjā kathaṃ phalavatī bhavet /</l>
+<l>tulyaiva paṭhyate yasmāt tiṣṭhato nirvṛtasya ca //</l>
+</lg>
+<lg xml:id="Bca_9.40">
+<l>āgamācca phalaṃ tatra saṃvṛtyā tattvato 'pi vā /</l>
+<l>satyabuddhe kṛtā pūjā saphaleti kathaṃ yathā //</l>
+</lg>
+<lg xml:id="Bca_9.41">
+<l>satyadarśanato muktiḥ śūnyatādarśanena kim /</l>
+<l>na vinānena mārgeṇa bodhirityāgamo yataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.42">
+<l>nanvasiddhaṃ mahāyānaṃ kathaṃ siddhastvadāgamaḥ /</l>
+<l>yasmādubhayasiddho 'sau na siddho 'sau tavāditaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.43">
+<l>yatpratyayā ca tatrāsthā mahāyāne 'pi tāṃ kuru /</l>
+<l>anyobhayeṣṭasatyatve vedāderapi satyatā //</l>
+</lg>
+<lg xml:id="Bca_9.44">
+<l>savivādaṃ mahāyānam iti cedāgamaṃ tyaja /</l>
+<l>tīrthikaiḥ savivādatvāt svaiḥ paraiścāgamāntaram //</l>
+</lg>
+<lg xml:id="Bca_9.45">
+<l>śāsanaṃ bhikṣutāmūlaṃ bhikṣutaiva ca duḥkhitā /</l>
+<l>sāvalambanacittānāṃ nirvāṇamapi duḥsthitam //</l>
+</lg>
+<lg xml:id="Bca_9.46">
+<l>kleśaprahāṇānmuktiścet tadanantaramastu sā /</l>
+<l>dṛṣṭaṃ ca teṣu sāmarthyaṃ niḥkleśasyāpi karmaṇaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.47">
+<l>tṛṣṇā tāvadupādānaṃ nāsti cet saṃpradhāryate /</l>
+<l>kimakliṣṭāpi tṛṣṇaiṣāṃ nāsti saṃmohavat satī //</l>
+</lg>
+<lg xml:id="Bca_9.48">
+<l>vedanāpratyayā tṛṣṇā vedanaiṣāṃ ca vidyate /</l>
+<l>sālambanena cittena sthātavyaṃ yatra tatra vā //</l>
+</lg>
+<lg xml:id="Bca_9.49">
+<l>vinā śūnyatayā cittaṃ baddhamutpadyate punaḥ /</l>
+<l>yathāsaṃjñisamāpattau bhāvayettena śūnyatām //</l>
+</lg>
+<lg xml:id="Bca_9.50">
+<l>yatsūtre 'vataredvākyaṃ taccedbuddhoktamiṣyate /</l>
+<l>mahāyānaṃ bhavatsūtraiḥ prāyastulyaṃ na kiṃ matam //</l>
+</lg>
+<lg xml:id="Bca_9.51">
+<l>ekenāgamyamānena sakalaṃ yadi doṣavat /</l>
+<l>ekena sūtratulyena kiṃ na sarvaṃ jinoditam //</l>
+</lg>
+<lg xml:id="Bca_9.52">
+<l>mahākāśyapamukhyaiśca yadvākyaṃ nāvagāhyate /</l>
+<l>tattvayānavabuddhatvād agrāhyaṃ kaḥ kariṣyati //</l>
+</lg>
+<lg xml:id="Bca_9.53">
+<l>saktitrāsāttvanirmuktyā saṃsāre sidhyati sthitiḥ /</l>
+<l>mohena duḥkhināmarthe śūnyatāyā idaṃ phalam //</l>
+</lg>
+<lg xml:id="Bca_9.54">
+<l>tadevaṃ śūnyatāpakṣe dūṣaṇaṃ nopapadyate /</l>
+<l>tasmānnirvicikitsena bhāvanīyaiva śūnyatā //</l>
+</lg>
+<lg xml:id="Bca_9.55">
+<l>kleśajñeyāvṛtitamaḥ pratipakṣo hi śūnyatā /</l>
+<l>śīghraṃ sarvajñatākāmo na bhāvayati tāṃ katham //</l>
+</lg>
+<lg xml:id="Bca_9.56">
+<l>yadduḥkhajananaṃ vastu trāsastasmāt prajāyatām /</l>
+<l>śūnyatā duḥkhaśamanī tataḥ kiṃ jāyate bhayam //</l>
+</lg>
+<lg xml:id="Bca_9.57">
+<l>yatastato vāstu bhayaṃ yadyahaṃ nāma kiṃcana /</l>
+<l>ahameva na kiṃcicced bhayaṃ kasya bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_9.58">
+<l>dantakeśanakhā nāhaṃ nāsthi nāpyasmi śoṇitam /</l>
+<l>na śiṃghānaṃ na ca śleṣmā na pūyaṃ lasikāpi vā //</l>
+</lg>
+<lg xml:id="Bca_9.59">
+<l>nāhaṃ vasā na ca svedo na medo 'ntrāṇi nāpyaham /</l>
+<l>na cāhamantranirguṇḍī gūthamūtramahaṃ na ca //</l>
+</lg>
+<lg xml:id="Bca_9.60">
+<l>nāhaṃ māṃsaṃ na ca snāyur noṣmā vāyurahaṃ na ca /</l>
+<l>na ca chidrāṇyahaṃ nāpi ṣaḍvijñānāni sarvathā //</l>
+</lg>
+<lg xml:id="Bca_9.61">
+<l>śabdajñānaṃ yadi tadā śabdo gṛhyeta sarvadā /</l>
+<l>jñeyaṃ vinā tu kiṃ vetti yena jñānaṃ nirucyate //</l>
+</lg>
+<lg xml:id="Bca_9.62">
+<l>ajānānaṃ yadi jñānaṃ kāṣṭhaṃ jñānaṃ prasajyate /</l>
+<l>tenāsaṃnihitajñeyaṃ jñānaṃ nāstīti niścayaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.63">
+<l>tadeva rūpaṃ jānāti tadā kiṃ na śṛṇotyapi /</l>
+<l>śabdasyāsaṃnidhānāccet tatastajjñānamapyasat //</l>
+</lg>
+<lg xml:id="Bca_9.64">
+<l>śabdagrahaṇarūpaṃ yat tadrūpagrahaṇaṃ katham /</l>
+<l>ekaḥ pitā ca putraśca kalpyate na tu tattvataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.65">
+<l>sattvaṃ rajastamo vāpi na putro na pitā yataḥ /</l>
+<l>śabdagrahaṇayuktastu svabhāvastasya nekṣyate //</l>
+</lg>
+<lg xml:id="Bca_9.66">
+<l>tadevānyena rūpeṇa naṭavatso 'pyaśāśvataḥ /</l>
+<l>sa evānyasvabhāvaśced apūrveyaṃ tadekatā //</l>
+</lg>
+<lg xml:id="Bca_9.67">
+<l>anyadrūpamasatyaṃ cen nijaṃ tadrūpamucyatām /</l>
+<l>jñānatā cettataḥ sarva-puṃsāmaikyaṃ prasajyate //</l>
+</lg>
+<lg xml:id="Bca_9.68">
+<l>cetanācetane caikyaṃ tayoryenāstitā samā /</l>
+<l>viśeṣaśca yadā mithyā kaḥ sādṛśyāśrayastadā //</l>
+</lg>
+<lg xml:id="Bca_9.69">
+<l>acetanaśca naivāham acaitanyātpaṭādivat /</l>
+<l>atha jñaścetanāyogād ajño naṣṭaḥ prasajyate //</l>
+</lg>
+<lg xml:id="Bca_9.70">
+<l>athāvikṛta evātmā caitanyenāsya kiṃ kṛtam /</l>
+<l>ajñasya niṣkriyasyaivam ākāśasyātmatā matā //</l>
+</lg>
+<lg xml:id="Bca_9.71">
+<l>na karmaphalasaṃbandho yuktaścedātmanā vinā /</l>
+<l>karma kṛtvā vinaṣṭe hi phalaṃ kasya bhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_9.72">
+<l>dvayorapyāvayoḥ siddhe bhinnādhāre kriyāphale /</l>
+<l>nirvyāpāraśca tatrātmety atra vādo vṛthā nanu //</l>
+</lg>
+<lg xml:id="Bca_9.73">
+<l>hetumān phalayogīti dṛśyate naiṣa saṃbhavaḥ /</l>
+<l>saṃtānasyaikyamāśritya kartā bhokteti deśitam //</l>
+</lg>
+<lg xml:id="Bca_9.74">
+<l>atītānāgataṃ cittaṃ nāhaṃ taddhi na vidyate /</l>
+<l>athotpannamahaṃ cittaṃ naṣṭe 'sminnāstyahaṃ punaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.75">
+<l>yathaiva kadalīstambho na kaścid bhāgaśaḥ kṛtaḥ /</l>
+<l>tathāhamapyasadbhūto mṛgyamāṇo vicārataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.76">
+<l>yadi sattvo na vidyeta kasyopari kṛpeti cet /</l>
+<l>kāryārthamabhyupetena yo mohena prakalpitaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.77">
+<l>kāryaṃ kasya na cetsattvaḥ satyamīhā tu mohataḥ /</l>
+<l>duḥkhavyupaśamārthaṃ tu kāryamoho na vāryate //</l>
+</lg>
+<lg xml:id="Bca_9.78">
+<l>duḥkhaheturahaṃkāra ātmamohāttu vardhate /</l>
+<l>tato 'pi na nivartyaścet varaṃ nairātmyabhāvanā //</l>
+</lg>
+<lg xml:id="Bca_9.79">
+<l>kāyo na pādau na jaṅghā norū kāyaḥ kaṭirna ca /</l>
+<l>nodaraṃ nāpyayaṃ pṛṣṭhaṃ noro bāhū na cāpi saḥ //</l>
+</lg>
+<lg xml:id="Bca_9.80">
+<l>na hastau nāpyayaṃ pārśvau na kakṣau nāṃsalakṣaṇaḥ /</l>
+<l>na grīvā na śiraḥ kāyaḥ kāyo 'tra kataraḥ punaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.81">
+<l>yadi sarveṣu kāyo 'tham ekadeśena vartate /</l>
+<l>aṃśā aṃśeṣu vartante sa ca kutra svayaṃ sthitaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.82">
+<l>sarvātmanā cetsarvatra sthitaḥ kāyaḥ karādiṣu /</l>
+<l>kāyāstāvanta eva syur yāvantaste karādayaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.83">
+<l>naivāntarna bahiḥ kāyaḥ kathaṃ kāyaḥ karādiṣu /</l>
+<l>karādibhyaḥ pṛthag nāsti kathaṃ nu khalu vidyate //</l>
+</lg>
+<lg xml:id="Bca_9.84">
+<l>tannāsti kāyo mohāttu kāyabuddhiḥ karādiṣu /</l>
+<l>saṃniveśaviśeṣeṇa sthānau puruṣabuddhivat //</l>
+</lg>
+<lg xml:id="Bca_9.85">
+<l>yāvatpratyayasāmagrī tāvatkāyaḥ pumāniva /</l>
+<l>evaṃ karādau sā yāvat tāvatkāyo 'tra dṛśyate //</l>
+</lg>
+<lg xml:id="Bca_9.86">
+<l>evamaṅgulipuñjatvāt pādo 'pi kataro bhavet /</l>
+<l>so 'pi parvasamūhatvāt parvāpi svāṃśabhedataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.87">
+<l>aṃśā apyaṇubhedena so 'pyaṇurdigvibhāgataḥ /</l>
+<l>digvibhāgo niraṃśatvād ākāśaṃ tena nāstyaṇuḥ //</l>
+</lg>
+<lg xml:id="Bca_9.88">
+<l>evaṃ svapnopame rūpe ko rajyeta vicārakaḥ /</l>
+<l>kāyaścaivaṃ yadā nāsti tadā kā strī pumāṃśca kaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.89">
+<l>yadyasti duḥkhaṃ tattvena prahṛṣṭān kiṃ na bādhate /</l>
+<l>śokādyārtāya mṛṣṭādi sukhaṃ cetkiṃ na rocate //</l>
+</lg>
+<lg xml:id="Bca_9.90">
+<l>balīyasābhibhūtatvād yadi tannānubhūyate /</l>
+<l>vedanātvaṃ kathaṃ tasya yasya nānubhavātmatā //</l>
+</lg>
+<lg xml:id="Bca_9.91">
+<l>asti sūkṣmatayā duḥkhaṃ sthaulyaṃ tasya hṛtaṃ nanu /</l>
+<l>tuṣṭimātrā'parā cetsyāt tasmātsāpyasya sūkṣmatā //</l>
+</lg>
+<lg xml:id="Bca_9.92">
+<l>viruddhapratyayotpattau duḥkhasyānudayo yadi /</l>
+<l>kalpanābhiniveśo hi vedanetyāgataṃ nanu //</l>
+</lg>
+<lg xml:id="Bca_9.93">
+<l>ata eva vicāro 'yaṃ pratipakṣo 'sya bhāvyate /</l>
+<l>vikalpakṣetrasaṃbhūta-dhyānāhārā hi yoginaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.94">
+<l>sāntarāvindriyārthau cet saṃsargaḥ kuta etayoḥ /</l>
+<l>nirantaratve 'pyekatvaṃ kasya kenāstu saṃgatiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.95">
+<l>nāṇoraṇau praveśo 'sti nirākāśaḥ samaśca saḥ /</l>
+<l>apraveśe na miśratvam amiśratve na saṃgatiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.96">
+<l>niraṃśasya ca saṃsargaḥ kathaṃ nāmopapadyate /</l>
+<l>saṃsarge ca niraṃśatvaṃ yadi dṛṣṭaṃ nidarśaya //</l>
+</lg>
+<lg xml:id="Bca_9.97">
+<l>vijñānasya tvamūrtasya saṃsargo naiva yujyate /</l>
+<l>samūhasyāpyavastutvād yathā pūrvaṃ vicāritam //</l>
+</lg>
+<lg xml:id="Bca_9.98">
+<l>tadevaṃ sparśanābhāve vedanāsaṃbhavaḥ kutaḥ /</l>
+<l>kimarthamayamāyāsaḥ bādhā kasya kuto bhavet //</l>
+</lg>
+<lg xml:id="Bca_9.99">
+<l>yadā na vedakaḥ kaścid vedanā ca na vidyate /</l>
+<l>tadāvasthāmimāṃ dṛṣṭvā tṛṣṇe kiṃ na vidīryase //</l>
+</lg>
+<lg xml:id="Bca_9.100">
+<l>dṛśyate spṛśyate cāpi svapnamāyopamātmanā /</l>
+<l>cittena sahajātatvād vedanā tena nekṣyate //</l>
+</lg>
+<lg xml:id="Bca_9.101">
+<l>pūrvaṃ paścācca jātena smaryate nānubhūyate /</l>
+<l>svātmānaṃ nānubhavati na cānyenānubhūyate //</l>
+</lg>
+<lg xml:id="Bca_9.102">
+<l>na cāsti vedakaḥ kaścid vedanāto na tattvataḥ /</l>
+<l>nirātmake kalāpe 'smin ka eva bādhyate 'nayā //</l>
+</lg>
+<lg xml:id="Bca_9.103">
+<l>nendriyeṣu na rūpādau nāntarāle manaḥ sthitam /</l>
+<l>nāpyantarna bahiścittam anyatrāpi na labhyate //</l>
+</lg>
+<lg xml:id="Bca_9.104">
+<l>yanna kāye na cānyatra na miśraṃ na pṛthak kvacit /</l>
+<l>tanna kiṃcidataḥ sattvāḥ prakṛtyā parinirvṛtāḥ //</l>
+</lg>
+<lg xml:id="Bca_9.105">
+<l>jñeyātpūrvaṃ yadi jñānaṃ kimālambyāsya saṃbhavaḥ /</l>
+<l>jñeyena saha cejjñānaṃ kimālambyāsya saṃbhavaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.106">
+<l>atha jñeyādbhavetpaścāt tadā jñānaṃ kuto bhavet /</l>
+<l>evaṃ ca sarvadharmāṇām utpattirnāvasīyate //</l>
+</lg>
+<lg xml:id="Bca_9.107">
+<l>yadyevaṃ saṃvṛtirnāsti tataḥ satyadvayaṃ kutaḥ /</l>
+<l>atha sāpyanyasaṃvṛtyā syātsattvo nirvṛtaḥ kutaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.108">
+<l>paracittavikalpo 'sau svasaṃvṛtyā tu nāsti saḥ /</l>
+<l>sa paścānniyataḥ so 'sti na cennāstyeva saṃvṛtiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.109">
+<l>kalpanā kalpitaṃ ceti dvayamanyonyaniśritam /</l>
+<l>yathāprasiddhamāśritya vicāraḥ sarva ucyate //</l>
+</lg>
+<lg xml:id="Bca_9.110">
+<l>vicāritena tu yadā vicāreṇa vicāryate /</l>
+<l>tadānavasthā tasyāpi vicārasya vicāraṇāt //</l>
+</lg>
+<lg xml:id="Bca_9.111">
+<l>vicārite vicārye tu vicārasyāsti nāśrayaḥ /</l>
+<l>nirāśrayatvānnodeti tacca nirvāṇamucyate //</l>
+</lg>
+<lg xml:id="Bca_9.112">
+<l>yasya tvetaddvayaṃ satyaṃ sa evātyantaduḥsthitaḥ /</l>
+<l>yadi jñānavaśādartho jñānāstitve tu kā gatiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.113">
+<l>atha jñeyavaśājjñānaṃ jñeyāstitve tu kā gatiḥ /</l>
+<l>athānyonyavaśātsattvam abhāvaḥ syāddvayorapi //</l>
+</lg>
+<lg xml:id="Bca_9.114">
+<l>pitā cenna vinā putrāt kutaḥ putrasya saṃbhavaḥ /</l>
+<l>putrābhāve pitā nāsti tathā sattvaṃ tayordvayoḥ //</l>
+</lg>
+<lg xml:id="Bca_9.115">
+<l>aṅkuro jāyate bījād bījaṃ tenaiva sūcyate /</l>
+<l>jñeyājjñānena jātena tatsattā kiṃ na gamyate //</l>
+</lg>
+<lg xml:id="Bca_9.116">
+<l>aṅkurādanyato jñānād bījamastīti gamyate /</l>
+<l>jñānāstitvaṃ kuto jñātaṃ jñeyaṃ yattena gamyate //</l>
+</lg>
+<lg xml:id="Bca_9.117">
+<l>lokaḥ pratyakṣatastāvat sarvaṃ hetumudīkṣate /</l>
+<l>padmanālādibhedo hi hetubhedena jāyate //</l>
+</lg>
+<lg xml:id="Bca_9.118">
+<l>kiṃkṛto hetubhedaścet pūrvahetuprabhedataḥ /</l>
+<l>kasmāccetphalado hetuḥ pūrvahetuprabhāvataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.119">
+<l>īśvaro jagato hetuḥ vada kastāvadīśvaraḥ /</l>
+<l>bhūtāni cedbhavatvevaṃ nāmamātre 'pi kiṃ śramaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.120">
+<l>api tvaneke 'nityāśca niśceṣṭā na ca devatāḥ /</l>
+<l>laṅghyāścāśucayaścaiva kṣmādayo na sa īśvaraḥ //</l>
+</lg>
+<lg xml:id="Bca_9.121">
+<l>nākāśamīśo 'ceṣṭatvāt nātmā pūrvaniṣedhataḥ /</l>
+<l>acintyasya ca kartṛtvam apyacintyaṃ kimucyate //</l>
+</lg>
+<lg xml:id="Bca_9.122">
+<l>tena kiṃ sraṣṭumiṣṭaṃ ca ātmā cet nanvasau dhruvaḥ /</l>
+<l>kṣmādisvabhāva īśaśca jñānaṃ jñeyādanādi ca //</l>
+</lg>
+<lg xml:id="Bca_9.123">
+<l>karmaṇaḥ sukhaduḥkhe ca vada kiṃ tena virmitam /</l>
+<l>hetorādirna cedasti phalasyādiḥ kuto bhavet //</l>
+</lg>
+<lg xml:id="Bca_9.124">
+<l>kasmātsadā na kurute na hi so 'nyamapekṣate /</l>
+<l>tenākṛto 'nyo nāstyeva tenāsau kimapekṣatām //</l>
+</lg>
+<lg xml:id="Bca_9.125">
+<l>apekṣate cetsāmagrīṃ heturna punarīśvaraḥ /</l>
+<l>nākartumīśaḥ sāmagryāṃ na kartuṃ tadabhāvataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.126">
+<l>karotyanicchannīśaścet parāyattaḥ prasajyate /</l>
+<l>icchannapīcchāyattaḥ syāt kurvataḥ kuta īśatā //</l>
+</lg>
+<lg xml:id="Bca_9.127">
+<l>ye 'pi nityānaṇūnāhus te 'pi pūrvaṃ nivāritāḥ /</l>
+<l>sāṃkhyāḥ pradhānamicchanti nityaṃ lokasya kāraṇam //</l>
+</lg>
+<lg xml:id="Bca_9.128">
+<l>sattvaṃ rajastamaśceti guṇā aviṣamasthitāḥ /</l>
+<l>pradhānamiti kathyante viṣamairjagaducyate //</l>
+</lg>
+<lg xml:id="Bca_9.129">
+<l>ekasya trisvabhāvatvam ayuktaṃ tena nāsti tat /</l>
+<l>evaṃ guṇā na vidyante pratyekaṃ te 'pi hi tridhā //</l>
+</lg>
+<lg xml:id="Bca_9.130">
+<l>guṇābhāve ca śabdāder astitvamatidūrataḥ /</l>
+<l>acetane ca vastrādau sukhāderapyasaṃbhavaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.131">
+<l>taddheturūpā bhāvāścen nanu bhāvā vicāritāḥ /</l>
+<l>sukhādyeva ca te hetuḥ na ca tasmātpaṭādayaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.132">
+<l>paṭādestu sukhādi syāt tadabhāvātsukhādyasat /</l>
+<l>sukhādīnāṃ ca nityatvaṃ kadācinnopalabhyate //</l>
+</lg>
+<lg xml:id="Bca_9.133">
+<l>satyāmeva sukhavyaktau saṃvittiḥ kiṃ na gṛhyate /</l>
+<l>tadeva sūkṣmatāṃ yāti sthūlaṃ sūkṣmaṃ ca tatkatham //</l>
+</lg>
+<lg xml:id="Bca_9.134">
+<l>sthaulyaṃ tyaktvā bhavetsūkṣmam anitye sthaulyasūkṣmate /</l>
+<l>sarvasya vastunastadvat kiṃ nānityatvamiṣyate //</l>
+</lg>
+<lg xml:id="Bca_9.135">
+<l>na sthaulyaṃ cetsukhādanyat sukhasyānityatā sphuṭam /</l>
+<l>nāsadutpadyate kiṃcid asattvāditi cenmatam //</l>
+</lg>
+<lg xml:id="Bca_9.136">
+<l>vyaktasyāsata utpattir akāmasyāpi te sthitā /</l>
+<l>annādo 'medhyabhakṣaḥ syāt phalaṃ hetau yadi sthitam //</l>
+</lg>
+<lg xml:id="Bca_9.137">
+<l>paṭārgheṇaiva karpāsa-bījaṃ krītvā nivasyatām /</l>
+<l>mohāccennekṣate lokaḥ tattvajñasyāpi sā sthitiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.138">
+<l>lokasyāpi ca tajjñānam asti kasmānna paśyati /</l>
+<l>lokāpramāṇatāyāṃ cet vyaktadarśanamapyasat //</l>
+</lg>
+<lg xml:id="Bca_9.139">
+<l>pramāṇamapramāṇaṃ cen nanu tatpramitaṃ mṛṣā /</l>
+<l>tattvataḥ śūnyatā tasmād bhāvānāṃ nopapadyate //</l>
+</lg>
+<lg xml:id="Bca_9.140">
+<l>kalpitaṃ bhāvamaspṛṣṭvā tadabhāvo na gṛhyate /</l>
+<l>tasmādbhāvo mṛṣā yo hi tasyābhāvaḥ sphuṭaṃ mṛṣā //</l>
+</lg>
+<lg xml:id="Bca_9.141">
+<l>tasmātsvapne sute naṣṭe sa nāstīti vikalpanā /</l>
+<l>tadbhāvakalpanotpādaṃ vibadhnāti mṛṣā ca sā //</l>
+</lg>
+<lg xml:id="Bca_9.142">
+<l>tasmādevaṃ vicāreṇa nāsti kiṃcidahetutaḥ /</l>
+<l>na ca vyastasamasteṣu pratyayeṣu vyavasthitam //</l>
+</lg>
+<lg xml:id="Bca_9.143">
+<l>anyato nāpi cāyātaṃ na tiṣṭhati na gacchati /</l>
+<l>māyātaḥ ko viśeṣo 'sya yanmūḍhaiḥ satyataḥ kṛtam //</l>
+</lg>
+<lg xml:id="Bca_9.144">
+<l>māyayā nirmitaṃ yacca hetubhiryacca nirmitam /</l>
+<l>āyāti tatkutaḥ kutra yāti ceti nirūpyatām //</l>
+</lg>
+<lg xml:id="Bca_9.145">
+<l>yadanyasaṃnidhānena dṛṣṭaṃ na tadabhāvataḥ /</l>
+<l>pratibimbasame tasmin kṛtrime satyatā katham //</l>
+</lg>
+<lg xml:id="Bca_9.146">
+<l>vidyamānasya bhāvasya hetunā kiṃ prayojanam /</l>
+<l>athāpyavidyamāno 'sau hetunā kiṃ prayojanam //</l>
+</lg>
+<lg xml:id="Bca_9.147">
+<l>nābhāvasya vikāro 'sti hetukoṭiśatairapi /</l>
+<l>tadavasthaḥ kathaṃ bhāvaḥ ko vānyo bhāvatāṃ gataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.148">
+<l>nābhāvakāle bhāvaścet kadā bhāvo bhaviṣyati /</l>
+<l>nājātena hi bhāvena so 'bhāvo 'pagamiṣyati //</l>
+</lg>
+<lg xml:id="Bca_9.149">
+<l>na cānapagate 'bhāve bhāvāvasarasaṃbhavaḥ /</l>
+<l>bhāvaścābhāvatāṃ naiti dvisvabhāvaprasaṅgataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.150">
+<l>evaṃ ca na virodho 'sti na ca bhāvo 'sti sarvadā /</l>
+<l>ajātamaniruddhaṃ ca tasmātsarvamidaṃ jagat //</l>
+</lg>
+<lg xml:id="Bca_9.151">
+<l>svapnopamāstu gatayo vicāre kadalīsamāḥ /</l>
+<l>nirvṛtānirvṛtānāṃ ca viśeṣo nāsti vastutaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.152">
+<l>evaṃ śūnyeṣu dharmeṣu kiṃ labdhaṃ kiṃ hṛtaṃ bhavet /</l>
+<l>satkṛtaḥ paribhūto vā kena kaḥ saṃbhaviṣyati //</l>
+</lg>
+<lg xml:id="Bca_9.153">
+<l>kutaḥ sukhaṃ vā duḥkhaṃ vā kiṃ priyaṃ vā kimapriyam /</l>
+<l>kā tṛṣṇā kutra sā tṛṣṇā mṛgyamāṇā svabhāvataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.154">
+<l>vicāre jīvalokaḥ kaḥ ko nāmātra mariṣyati /</l>
+<l>ko bhaviṣyati ko bhūtaḥ ko bandhuḥ kasya kaḥ suhṛt //</l>
+</lg>
+<lg xml:id="Bca_9.155">
+<l>sarvamākāśasaṃkāśaṃ parigṛhṇantu madvidhāḥ /</l>
+<l>prakupyanti prahṛṣyanti kalahotsavahetubhiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.156">
+<l>śokāyāsairviṣādaiśca mithaśchedanabhedanaiḥ /</l>
+<l>yāpayanti sukṛcchreṇa pāpairātmasukhecchavaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.157">
+<l>mṛtāḥ patantyapāyeṣu dīrghatīvravyatheṣu ca /</l>
+<l>āgatyāgatya sugatiṃ bhūtvā bhūtvā sukhocitāḥ //</l>
+</lg>
+<lg xml:id="Bca_9.158">
+<l>bhave bahuprapātaśca tatra cāsattvamīdṛśam /</l>
+<l>tatrānyonyavirodhaśca na bhavettattvamīdṛśam //</l>
+</lg>
+<lg xml:id="Bca_9.159">
+<l>tatra cānupamāstīvrā anantaduḥkhasāgarāḥ /</l>
+<l>tatraivamalpabalatā tatrāpyalpatvamāyuṣaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.160">
+<l>tatrāpi jīvitārogya-vyāpāraiḥ kṣutklamaśramaiḥ /</l>
+<l>nidrayopadravairbāla-saṃsargairniṣphalaistathā //</l>
+</lg>
+<lg xml:id="Bca_9.161">
+<l>vṛthaivāyurvahatyāśu vivekastu sudurlabhaḥ /</l>
+<l>tatrāpyabhyastavikṣepa-nivāraṇagatiḥ kutaḥ //</l>
+</lg>
+<lg xml:id="Bca_9.162">
+<l>tatrāpi māro yatate mahāpāyaprapātane /</l>
+<l>tatrāsanmārgabāhulyād vicikitsā ca durjayā //</l>
+</lg>
+<lg xml:id="Bca_9.163">
+<l>punaśca kṣaṇadaurlamyaṃ buddhotpādo 'tidurlabhaḥ /</l>
+<l>kleśaugho durnivāraścety aho duḥkhaparamparā //</l>
+</lg>
+<lg xml:id="Bca_9.164">
+<l>aho batātiśocyatvam eṣāṃ duḥkhaughavartinām /</l>
+<l>ye nekṣante svadauḥsthityam evamapyatiduḥsthitāḥ //</l>
+</lg>
+<lg xml:id="Bca_9.165">
+<l>snātvā snātvā yathā kaścid viśedvahniṃ muhurmuhuḥ /</l>
+<l>svasausthityaṃ ca manyanta evamapyatiduḥsthitāḥ //</l>
+</lg>
+<lg xml:id="Bca_9.166">
+<l>ajarāmaralīlānām evaṃ viharatāṃ satām /</l>
+<l>āyāsyantyāpado ghorāḥ kṛtvā maraṇamagrataḥ //</l>
+</lg>
+<lg xml:id="Bca_9.167">
+<l>evaṃ duḥkhāgnitaptānāṃ śāntiṃ kuryāmahaṃ kadā /</l>
+<l>puṇyameghasamudbhūtaiḥ sukhopakaraṇaiḥ svakaiḥ //</l>
+</lg>
+<lg xml:id="Bca_9.168">
+<l>kadopalambhadṛṣṭibhyo deśayiṣyāmi śūnyatām /</l>
+<l>saṃvṛtyānupalambhena puṇyasaṃbhāramādarāt //</l>
+</lg>
+<p xml:id="26">
+bodhicaryāvatāre prajñāpāramitā nāma navamaḥ paricchedaḥ //
+</p><p xml:id="27">
+****************************************************************
+</p><p xml:id="28">
+Pariccheda 10
+</p>
+<lg xml:id="Bca_10.1">
+<l>bodhicaryāvatāraṃ me yadvicintayataḥ śubham /</l>
+<l>tena sarvaṃ janāḥ santu bodhicaryā vibhūṣaṇāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.2">
+<l>sarvāsu dikṣu yāvantaḥ kāyacittavyathāturāḥ /</l>
+<l>te prāpnuvantu matpuṇyaiḥ sukhaprāmodyasāgarān //</l>
+</lg>
+<lg xml:id="Bca_10.3">
+<l>āsaṃsāraṃ sukhajyānir mābhūtteṣāṃ kadācana /</l>
+<l>bodhisattvasukhaṃ prāptuṃ bhavatyavirataṃ jagat //</l>
+</lg>
+<lg xml:id="Bca_10.4">
+<l>yāvanto nārakāḥ kecid vidyante lokadhātuṣu /</l>
+<l>sukhāvatī sukhāmodair modantāṃ teṣu dehinaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.5">
+<l>śītārtāḥ prāpnuvantūṣṇam uṣṇārtāḥ santu śītalāḥ /</l>
+<l>bodhisattvamahāmegha-saṃbhavairjalasāgaraiḥ //</l>
+</lg>
+<lg xml:id="Bca_10.6">
+<l>asipatravanaṃ teṣāṃ syānnandanavanadyutiḥ /</l>
+<l>kūṭaśālmalīvṛkṣāśca jāyantāṃ kalpapādapāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.7">
+<l>dātyūhakāraṇḍavacakravāka-haṃsādikolāhalaramyaśobhaiḥ /</l>
+<l>sarobhirudyāmasarojagandhair bhavantu hṛdyāḥ narakapradeśāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.8">
+<l>so 'ṅgārarāśirmaṇirāśirastu taptā ca bhūḥ sphāṭikakuṭṭimaṃ syāt /</l>
+<l>bhavantu saṃghātamahīdharāśca pūjāvimānāḥ sugataprapūrṇāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.9">
+<l>aṅgārataptopalaśastravṛṣṭir adyaprabhṛtyastu ca puṣpavṛṣṭiḥ /</l>
+<l>tacchastrayuddhaṃ ca paraspareṇa kīḍārthamadyāstu ca puṣpayuddham //</l>
+</lg>
+<lg xml:id="Bca_10.10">
+<l>patitasakalamāṃsāḥ kundavarṇāsthidehā dahanasamajalāyāṃ vaitaraṇyāṃ nimagnāḥ /</l>
+<l>mama kuśalabalena prāptadivyātmabhāvāḥ saha suravanitābhiḥ santu mandākinīsthāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.11">
+<l>trastāḥ paśyantvakasmādiha yamapuruṣāḥ kākagṛdhrāśca ghorāḥ dhvāntaṃ dhvastaṃ samantāt sukharatijananī kasya saumyā prabheyam /</l>
+<l>ityūrdhvaṃ prekṣamāṇā gaganatalagataṃ vajrapāṇiṃ jvalantaṃ dṛṣṭvā prāmodyavegād vyapagataduritā yāṃtu tenaiva sārdham //</l>
+</lg>
+<lg xml:id="Bca_10.12">
+<l>patatu kamalavṛṣṭirgandhapānīyamiśrāc chamiti narakavahniṃ dṛśyate nāśayantī /</l>
+<l>kimidamiti sukhenāhlāditaṃ nāma kasmād bhavatu kamalapāṇerdarśanaṃ nārakāṇām //</l>
+</lg>
+<lg xml:id="Bca_10.13">
+<l>āyātāyāta śīghraṃ bhayamapanayata bhrātaro jīvitāḥ smaḥ saṃprāpto 'smākameṣa jvaladabhayakaraḥ ko 'pi cīrī kumāraḥ /</l>
+<l>sarvaṃ yasyānubhāvād vyasanamapagataṃ prītivegāḥ pravṛttāḥ jātaṃ saṃbodhicittaṃ sakalajanaparitrāṇamātā dayā ca //</l>
+</lg>
+<lg xml:id="Bca_10.14">
+<l>paśyantvenaṃ bhavantaḥ suraśatamukuṭairarcyamānāṅghripadmaṃ kāruṇyādārdradṛṣṭiṃ śirasi nipatitānekapuṣpaughavṛṣṭim /</l>
+<l>kūṭāgārairmanojñaiḥ stutimukharasurastrīsahastropagītair dṛṣṭvāgre mañjughoṣaṃ bhavatu kalakalaḥ sāṃprataṃ nārakāṇām //</l>
+</lg>
+<lg xml:id="Bca_10.15">
+<l>iti matkuśalaiḥ samantabhadra-pramukhānāvṛtabodhisattvameghān /</l>
+<l>sukhaśītasugandhavātavṛṣṭīn abhinandantu vilokya nārakāste //</l>
+</lg>
+<lg xml:id="Bca_10.16">
+<l>śāmyantu vedanāstīvrā nārakāṇāṃ bhayāni ca /</l>
+<l>durgatibhyo vimucyantāṃ sarvadurgativāsinaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.17">
+<l>anyonyabhakṣaṇabhayaṃ tiraścāmapagacchatu /</l>
+<l>bhavantu sukhinaḥ pretā yathottarakurau narāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.18">
+<l>saṃtarpyantāṃ pretāḥ snāpyantāṃ śītalā bhavantu sadā /*</l>
+<l>āryāvalokiteśvarakaragalitakṣīradhārābhiḥ //*</l>
+</lg>
+<lg xml:id="Bca_10.19">
+<l>andhāḥ paśyantu rūpāṇi śṛṇvantu badhirāḥ sadā /</l>
+<l>garbhiṇyaśca prasūyantāṃ māyādevīva nirvyathāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.20">
+<l>vastrabhojanapānīyaṃ srakcandanavibhūṣaṇam /</l>
+<l>mano 'bhilaṣitaṃ sarvaṃ labhantāṃ hitasaṃhitam //</l>
+</lg>
+<lg xml:id="Bca_10.21">
+<l>bhītāśca nirbhayāḥ santu śokārtāḥ prītilābhinaḥ /</l>
+<l>udvignāśca nirudvegā dhṛtimanto bhavantu ca //</l>
+</lg>
+<lg xml:id="Bca_10.22">
+<l>ārogyaṃ rogiṇāmastu mucyantāṃ sarvabandhanāt /</l>
+<l>durbalā balinaḥ santu snigdhacittāḥ parasparam //</l>
+</lg>
+<lg xml:id="Bca_10.23">
+<l>sarvā diśaḥ śivāḥ santu sarveṣāṃ pathivartinām /</l>
+<l>yena kāryeṇa gacchanti tadupāyena sidhyatu //</l>
+</lg>
+<lg xml:id="Bca_10.24">
+<l>nauyānayātrārūḍhāśca santu siddhamanorathāḥ /</l>
+<l>kṣemeṇa kūlamāsādya ramantāṃ saha bandhubhiḥ //</l>
+</lg>
+<lg xml:id="Bca_10.25">
+<l>kāntāronmārgapatitā labhantāṃ sārthasaṃhatim /</l>
+<l>aśrameṇa ca gacchantu cauravyāghrādinirbhayāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.26">
+<l>suptamattapramattānāṃ vyādhyāraṇyādisaṃkaṭe /</l>
+<l>anāthabālavṛddhānāṃ rakṣāṃ kurvantu devatāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.27">
+<l>sarvākṣaṇavinirmuktāḥ śraddhāprajñākṛpānvitāḥ /</l>
+<l>ākārācārasaṃpannāḥ santu jātismarāḥ sadā //</l>
+</lg>
+<lg xml:id="Bca_10.28">
+<l>bhavantvakṣayakośāśca yāvad naganagañjavat /</l>
+<l>nirdvandvā nirupāyāstāḥ santu svādhīnavṛttayaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.29">
+<l>alpaujasaśca ye sattvās te bhavantu mahaujasaḥ /</l>
+<l>bhavantu rūpasaṃpannā ye virūpāstapasvinaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.30">
+<l>yāḥ kāścana striyo loke puruṣatvaṃ vrajantu tāḥ /</l>
+<l>prāpnuvantu ca tāṃ nīcā hatamānā bhavantu ca //</l>
+</lg>
+<lg xml:id="Bca_10.31">
+<l>anena mama puṇyena sarvasattvā aśeṣataḥ /</l>
+<l>viramya sarvapāpebhyaḥ kurvantu kuśalaṃ sadā //</l>
+</lg>
+<lg xml:id="Bca_10.32">
+<l>bodhicittāvirahitā bodhicaryāparāyaṇāḥ /</l>
+<l>buddhaiḥ parigṛhītāśca mārakarmavivarjitāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.33">
+<l>aprameyāyuṣaścaiva sarvasattvā bhavantu te /</l>
+<l>nityaṃ jīvantu sukhitā mṛtyuśabdo 'pi naśyatu //</l>
+</lg>
+<lg xml:id="Bca_10.34">
+<l>ramyāḥ kalpadrumodyānaiḥ diśaḥ sarvā bhavantu ca /</l>
+<l>buddhabuddhātmajākīrṇā dharmadhvanimanoharaiḥ //</l>
+</lg>
+<lg xml:id="Bca_10.35">
+<l>śarkarādivyapetā ca samā pāṇitalopamā /</l>
+<l>mṛdvī ca vaidūryamayī bhūmiḥ sarvatra tiṣṭhatu //</l>
+</lg>
+<lg xml:id="Bca_10.36">
+<l>bodhisattvamahāparṣan-maṇḍalāni samantataḥ /</l>
+<l>niṣīdantu svaśobhāmir maṇḍayantu mahītalam //</l>
+</lg>
+<lg xml:id="Bca_10.37">
+<l>pakṣibhyaḥ sarvavṛkṣebhyo raśmibhyo gaganādapi /</l>
+<l>dharmadhvaniraviśrāmaṃ śrūyatāṃ sarvadehibhiḥ //</l>
+</lg>
+<lg xml:id="Bca_10.38">
+<l>buddhabuddhasutairnityaṃ labhantāṃ te samāgamam /</l>
+<l>pūjāmeghairanantaiśca pūjayantu jagadgurum //</l>
+</lg>
+<lg xml:id="Bca_10.39">
+<l>devo varṣatu kālena śasyasaṃpattirastu ca /</l>
+<l>sphīto bhavatu lokaśca rājā bhavatu dhārmikaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.40">
+<l>śaktā bhavantu cauṣadhyo mantrāḥ siddhantu jāpinām /</l>
+<l>bhavantu karuṇāviṣṭā ḍākinīrākṣasādayaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.41">
+<l>mā kaścidduḥkhitaḥ sattvo mā pāpī mā ca rogitaḥ /</l>
+<l>mā hīnaḥ paribhūto vā mā bhūt kaścicca durmanāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.42">
+<l>pāṭhasvādhyāyakalilā vihārāḥ santu susthitāḥ /</l>
+<l>nityaṃ syāt saṃghasāmagrī saṃghakāryaṃ ca sidhyatu //</l>
+</lg>
+<lg xml:id="Bca_10.43">
+<l>vivekalābhinaḥ santuḥ śikṣākāmāśca bhikṣavaḥ /</l>
+<l>karmaṇyacittā dhyāyantu sarvavikṣepavarjitāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.44">
+<l>lābhinyaḥ santu bhikṣuṇyaḥ kalahāyāsavarjitāḥ /</l>
+<l>bhavantvakhaṇḍaśīlāśca sarve pravrajitāstathā //</l>
+</lg>
+<lg xml:id="Bca_10.45">
+<l>duḥśīlāḥ santu saṃvignāḥ pāpakṣayaratāḥ sadā /</l>
+<l>sugaterlābhinaḥ santu tatra cākhaṇḍitavratāḥ //</l>
+</lg>
+<lg xml:id="Bca_10.46">
+<l>paṇḍitāḥ satkṛtāḥ santu lābhinaḥ paiṇḍapātikāḥ /</l>
+<l>bhavantu śuddhasaṃtānāḥ sarvadikkhyātakīrtayaḥ //</l>
+</lg>
+<lg xml:id="Bca_10.47">
+<l>abhuktvāpāyikaṃ duḥkhaṃ vinā duskaracaryayā /</l>
+<l>divyenaikena kāyena jagadbuddhatvamāpnuyāt //</l>
+</lg>
+<lg xml:id="Bca_10.48">
+<l>pūjyantāṃ sarvasaṃbuddhāḥ sarvasattvairanekadhā /</l>
+<l>acintyabauddhasaukhyena sukhinaḥ santu bhūyasā //</l>
+</lg>
+<lg xml:id="Bca_10.49">
+<l>sidhyantu bodhisattvānāṃ jagadarthaṃ manorathāḥ /</l>
+<l>yaccintayanti te nāthās tat sattvānāṃ samṛdhyatu //</l>
+</lg>
+<lg xml:id="Bca_10.50">
+<l>pratyekabuddhāḥ sukhino bhavantu śrāvakāstathā /</l>
+<l>devāsuranarairnityaṃ pūjyamānāḥ sagauravaiḥ //</l>
+</lg>
+<lg xml:id="Bca_10.51">
+<l>jātismaratvaṃ pravrajyām ahaṃ ca prāpnuyāṃ sadā /</l>
+<l>yāvat pramuditāṃ bhūmiṃ mañjughoṣaparigrahāt //</l>
+</lg>
+<lg xml:id="Bca_10.52">
+<l>yena tenāsanenāhaṃ yāpayeyaṃ balānvitaḥ /</l>
+<l>vivekavāsasāmagrīṃ prāpnuyāṃ sarvajātiṣu //</l>
+</lg>
+<lg xml:id="Bca_10.53">
+<l>yadā ca draṣṭukāmaḥ syāṃ praṣṭukāmaśca kiṃcana /</l>
+<l>tameva nāthaṃ paśyeyaṃ mañjunāthamavighnataḥ //</l>
+</lg>
+<lg xml:id="Bca_10.54">
+<l>daśadigvyomaparyanta-sarvasattvārthasādhane /</l>
+<l>yadācarati mañjuśrīḥ saiva caryā bhavenmama //</l>
+</lg>
+<lg xml:id="Bca_10.55">
+<l>ākāśasya sthitiryāvad yāvacca jagataḥ sthitiḥ /</l>
+<l>tāvanmama sthitirbhūyāj jagadduḥkhāni nighnataḥ //</l>
+</lg>
+<lg xml:id="Bca_10.56">
+<l>yatkiṃcijjagato duḥkhaṃ tat sarvaṃ mayi pacyatām /</l>
+<l>bodhisattvaśubhaiḥ sarvair jagat sukhitamastu ca //</l>
+</lg>
+<lg xml:id="Bca_10.57">
+<l>jagadduḥkhaikabhaiṣajyaṃ sarvasaṃpat sukhākaram /</l>
+<l>lābhasatkārasahitaṃ ciraṃ tiṣṭhatu śāsanam //</l>
+</lg>
+<lg xml:id="Bca_10.58">
+<l>mañjughoṣaṃ namasyāmi yat prasādānmatiḥ śubhe /</l>
+<l>kalyāṇamitraṃ vande 'haṃ yat prasādācca vardhata iti //</l>
+</lg>
+<p xml:id="29">
+bodhicaryāvatāre pariṇāmanā paricchedo daśamaḥ //
+</p>
+</body>
+</text>
+</TEI>
