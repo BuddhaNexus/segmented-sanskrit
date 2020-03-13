@@ -373,101 +373,128 @@ TEXT WITH PADA MARKERS<BR>
  -->
 </teiHeader>
 <text xml:lang="sa-Latn" xml:id="Js">
-<body><p xml:id="0">
-PADA MARKERS
-</p><p xml:id="1">
-For a four-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ //
-</p><p xml:id="2">
-For a six-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ \<lb/>
-........ # ........ //
-</p><p xml:id="3">
-metre: Śārdūlavikrīḍita
-</p>
+<body>
 <lg xml:id="Js_1">
-<l>kvedaṃ dāśabalaṃ guṇair aśabalaṃ caryāvibhutvaṃ vibho $ janmasyandanikāvivartanajaḍaṃ cetaḥ kva cedaṃ mama &amp;</l>
-<l>yenāvandhyaphalodayās tvayi bhavanty abhyāhitāḥ pāṃsavas % tena stutyanubandhinā mukharatām ālambate bhāratī //</l>
+<l>kvedaṃ dāśabalaṃ guṇair aśabalaṃ caryāvibhutvaṃ vibho</l>
+<l>janmasyandanikāvivartanajaḍaṃ cetaḥ kva cedaṃ mama /</l>
+<l>yenāvandhyaphalodayās tvayi bhavanty abhyāhitāḥ pāṃsavas</l>
+<l>tena stutyanubandhinā mukharatām ālambate bhāratī //</l>
 </lg>
 <lg xml:id="Js_2">
-<l>cittālambanalaṅghinaḥ śamadṛśām āveṇikāḥ sadguṇā $ vācāṃ gocaratāṃ tu yānti kalayā sthūlā hi vo mādṛśām &amp;</l>
-<l>ratnāny ambunidher upāmbupulineṣv āvir bhavanty arthinām % antarbhinnataraṅgadyotarucakajyotsnāni gṛhṇāti kaḥ //</l>
+<l>cittālambanalaṅghinaḥ śamadṛśām āveṇikāḥ sadguṇā</l>
+<l>vācāṃ gocaratāṃ tu yānti kalayā sthūlā hi vo mādṛśām /</l>
+<l>ratnāny ambunidher upāmbupulineṣv āvir bhavanty arthinām</l>
+<l>antarbhinnataraṅgadyotarucakajyotsnāni gṛhṇāti kaḥ //</l>
 </lg>
 <lg xml:id="Js_3">
-<l>yā vo bodhipathānuyānamahatām utsāhinī karmaṇām $ āsīl lokahitodaye jina kṛpāviṣyandinī santatiḥ &amp;</l>
-<l>sānekāpacitaḥ punāti bhagavan saṃkīrtyamānādhunā % jñeyābhogavisāriṇo gatamalāḥ prāg eva bodhau guṇāḥ //</l>
+<l>yā vo bodhipathānuyānamahatām utsāhinī karmaṇām</l>
+<l>āsīl lokahitodaye jina kṛpāviṣyandinī santatiḥ /</l>
+<l>sānekāpacitaḥ punāti bhagavan saṃkīrtyamānādhunā</l>
+<l>jñeyābhogavisāriṇo gatamalāḥ prāg eva bodhau guṇāḥ //</l>
 </lg>
 <lg xml:id="Js_4">
-<l>uddāmadviradasya rāgavaśino vṛttiṃ puronmādinīm $ ālokyāvyativartinā praṇihitā bodhau dhiyo yat tvayā &amp;</l>
-<l>vinyasyanta ivāmarās tvayi ciraṃ dharmābhiṣekaśriyaṃ % tenākampitakeśarāntam asṛjan puṣpopahāraṃ divaḥ //</l>
+<l>uddāmadviradasya rāgavaśino vṛttiṃ puronmādinīm</l>
+<l>ālokyāvyativartinā praṇihitā bodhau dhiyo yat tvayā /</l>
+<l>vinyasyanta ivāmarās tvayi ciraṃ dharmābhiṣekaśriyaṃ</l>
+<l>tenākampitakeśarāntam asṛjan puṣpopahāraṃ divaḥ //</l>
 </lg>
 <lg xml:id="Js_5">
-<l>kṣudduḥkhaglapitodarīṃ giridarīrandhrāntarālasthitāṃ $ dṛṣtvā śāvakaghālanaikarabhasāṃ vyāghrīṃ dayāghrātadhīḥ &amp;</l>
-<l>yat tvaṃ valkalinīṃ jaṭājanavatīṃ mūrtiṃ samutsṛṣṭavāṃs % trāṇaṃ tena bhavān bhavādrivivaravyāvartināṃ dehinām //</l>
+<l>kṣudduḥkhaglapitodarīṃ giridarīrandhrāntarālasthitāṃ</l>
+<l>dṛṣtvā śāvakaghālanaikarabhasāṃ vyāghrīṃ dayāghrātadhīḥ /</l>
+<l>yat tvaṃ valkalinīṃ jaṭājanavatīṃ mūrtiṃ samutsṛṣṭavāṃs</l>
+<l>trāṇaṃ tena bhavān bhavādrivivaravyāvartināṃ dehinām //</l>
 </lg>
 <lg xml:id="Js_6">
-<l>yat prāleyasitopalādribahalāṃ mātaṅgatāṃ bibhratā $ kāntārāntaravartināṃ tanubhṛtām ucchittaye vyāpadām &amp;</l>
-<l>śailendraṃ pṛthulopalaṃ calayatā muktas tvayātmā taṭān % manye matsariṇāṃ nitāntamalinās tena kṣatā vṛttayaḥ //</l>
+<l>yat prāleyasitopalādribahalāṃ mātaṅgatāṃ bibhratā</l>
+<l>kāntārāntaravartināṃ tanubhṛtām ucchittaye vyāpadām /</l>
+<l>śailendraṃ pṛthulopalaṃ calayatā muktas tvayātmā taṭān</l>
+<l>manye matsariṇāṃ nitāntamalinās tena kṣatā vṛttayaḥ //</l>
 </lg>
 <lg xml:id="Js_7">
-<l>yal lokāmbaracandracandravapuṣā candraprabhatve tvayā $ kalmāṣāntaśikhaṃ śikhāmaṇirucā dattaṃ dvijāyārthine &amp;</l>
-<l>nālāl lūnam ivāravindam asinā vyutkṛttamūlaṃ śiras % tenaiṣāṃ jagatāṃ gato 'si gurutām usṇīṣavan mūrdhani //</l>
+<l>yal lokāmbaracandracandravapuṣā candraprabhatve tvayā</l>
+<l>kalmāṣāntaśikhaṃ śikhāmaṇirucā dattaṃ dvijāyārthine /</l>
+<l>nālāl lūnam ivāravindam asinā vyutkṛttamūlaṃ śiras</l>
+<l>tenaiṣāṃ jagatāṃ gato 'si gurutām usṇīṣavan mūrdhani //</l>
 </lg>
 <lg xml:id="Js_8">
-<l>bālān bālasarojakomalatanūn yat putrakān arthine $ paryastākṣacalacchikhaṇḍakabhṛto dārāṃs ca bhāvanugān &amp;</l>
-<l>prādās tvaṃ jina tena nūnam ahhavan mārāṅganānāṃ mukhaṃ % saṃkocāñcitapakṣmalocanadalaṃ lajjālasāmantharam //</l>
+<l>bālān bālasarojakomalatanūn yat putrakān arthine</l>
+<l>paryastākṣacalacchikhaṇḍakabhṛto dārāṃs ca bhāvanugān /</l>
+<l>prādās tvaṃ jina tena nūnam ahhavan mārāṅganānāṃ mukhaṃ</l>
+<l>saṃkocāñcitapakṣmalocanadalaṃ lajjālasāmantharam //</l>
 </lg>
 <lg xml:id="Js_9">
-<l>śayyāsvapnavicāriṇā vanabhuvāṃ bhūtvā purā pakṣiṇā $ bhinnāśeṣakale jagaty avikale jyāyaḥpathāśaṃsinā &amp;</l>
-<l>vistāraṃ gamitaṃ vrataṃ vratabhṛtāṃ yan nātha kāpiñjalaṃ % tenājñānarujāṃ kirīṭakiraṇacchāyās padaṃ vo gatāḥ //</l>
+<l>śayyāsvapnavicāriṇā vanabhuvāṃ bhūtvā purā pakṣiṇā</l>
+<l>bhinnāśeṣakale jagaty avikale jyāyaḥpathāśaṃsinā /</l>
+<l>vistāraṃ gamitaṃ vrataṃ vratabhṛtāṃ yan nātha kāpiñjalaṃ</l>
+<l>tenājñānarujāṃ kirīṭakiraṇacchāyās padaṃ vo gatāḥ //</l>
 </lg>
 <lg xml:id="Js_10">
-<l>yat parṇāmbuphalāśinīṃ śaśatanuṃ tvaṃ nātha bibhrat purā $ tatkālātithaye kṛpāparicayād ātithyam āvedayan &amp;</l>
-<l>ārūḍhaḥ sphuṭavisphuliṅgam analaṃ tenādhunāpi kṣitāv % indor maṇḍalalāñchanaṃ śaśamayaṃ yuṣmadyaśo laksyate //</l>
+<l>yat parṇāmbuphalāśinīṃ śaśatanuṃ tvaṃ nātha bibhrat purā</l>
+<l>tatkālātithaye kṛpāparicayād ātithyam āvedayan /</l>
+<l>ārūḍhaḥ sphuṭavisphuliṅgam analaṃ tenādhunāpi kṣitāv</l>
+<l>indor maṇḍalalāñchanaṃ śaśamayaṃ yuṣmadyaśo laksyate //</l>
 </lg>
 <lg xml:id="Js_11">
-<l>yat kopāruṇadṛṣṭinā kalabhuvā kṛtvā bhruvor bhaṅginīṃ $ lekhām ullasitāsinā vidalitapratyaṅgam āśaṅkinā &amp;</l>
-<l>tvām āsīt kṣaṇam apy avikṣatadhiyaṃ tyaktukṣamā na kṣamā % manye tena niraṅkuśāḥ smaraśarāḥ puṅkheṣu bhaṅgaṃ gatāḥ //</l>
+<l>yat kopāruṇadṛṣṭinā kalabhuvā kṛtvā bhruvor bhaṅginīṃ</l>
+<l>lekhām ullasitāsinā vidalitapratyaṅgam āśaṅkinā /</l>
+<l>tvām āsīt kṣaṇam apy avikṣatadhiyaṃ tyaktukṣamā na kṣamā</l>
+<l>manye tena niraṅkuśāḥ smaraśarāḥ puṅkheṣu bhaṅgaṃ gatāḥ //</l>
 </lg>
 <lg xml:id="Js_12">
-<l>yad dveṣī kariṇā cirātatadhanur dantais tvayābhyarcitaḥ $ ṣaḍdantena satā sitonnatabṛhajjīmūtapuñjatviṣā &amp;</l>
-<l>kośākarṣaṇavāntabhūrirudhirakṣodāruṇais tena vaḥ % pātāle 'pi bhujaṃgamaiḥ ślathaphaṇair adyāpi daṃṣtrārcyate //</l>
+<l>yad dveṣī kariṇā cirātatadhanur dantais tvayābhyarcitaḥ</l>
+<l>ṣaḍdantena satā sitonnatabṛhajjīmūtapuñjatviṣā /</l>
+<l>kośākarṣaṇavāntabhūrirudhirakṣodāruṇais tena vaḥ</l>
+<l>pātāle 'pi bhujaṃgamaiḥ ślathaphaṇair adyāpi daṃṣtrārcyate //</l>
 </lg>
 <lg xml:id="Js_13">
-<l>saṃrambhāt phaṇināṃ phaṇāhaticalād bhīmormimālād apāṃ $ patyur yan makaracchaṭāvilulitāt paryastanaukā narāḥ &amp;</l>
-<l>premṇā kāyamahāplavena bhavatā tīrāntam āpāditās % tatkarmātiśayena tena nikhilā lokāḥ kalatrīkrtāḥ //</l>
+<l>saṃrambhāt phaṇināṃ phaṇāhaticalād bhīmormimālād apāṃ</l>
+<l>patyur yan makaracchaṭāvilulitāt paryastanaukā narāḥ /</l>
+<l>premṇā kāyamahāplavena bhavatā tīrāntam āpāditās</l>
+<l>tatkarmātiśayena tena nikhilā lokāḥ kalatrīkrtāḥ //</l>
 </lg>
 <lg xml:id="Js_14">
-<l>śailān maṇḍalino vilaṅghya viṣayāṃs toyāvalīmekhalān $ yac cintāmaṇinā narendra badaradvīpāntarālodarāt &amp;</l>
-<l>labdhvā pūrṇaphalās tvayā praṇayinām āśāvabandhāḥ kṛtās % tvattas tena samudbhavanti viduṣāṃ saddharmaratnāṅkurāḥ //</l>
+<l>śailān maṇḍalino vilaṅghya viṣayāṃs toyāvalīmekhalān</l>
+<l>yac cintāmaṇinā narendra badaradvīpāntarālodarāt /</l>
+<l>labdhvā pūrṇaphalās tvayā praṇayinām āśāvabandhāḥ kṛtās</l>
+<l>tvattas tena samudbhavanti viduṣāṃ saddharmaratnāṅkurāḥ //</l>
 </lg>
 <lg xml:id="Js_15">
-<l>sāndrābhrāntavitānanīlavapuṣām ojomuṣāṃ rakṣasāṃ $ khaḍgotkṛttadalair vipāṭitaśirārandhrasravallohitaiḥ &amp;</l>
-<l>yan māṃsair akṛthāḥ kṣudhāvyupaśamaṃ svair avyapetoṣmabhir % yogā janmarudho bhavodbhavatṛṣām ucchedinas tena vaḥ //</l>
+<l>sāndrābhrāntavitānanīlavapuṣām ojomuṣāṃ rakṣasāṃ</l>
+<l>khaḍgotkṛttadalair vipāṭitaśirārandhrasravallohitaiḥ /</l>
+<l>yan māṃsair akṛthāḥ kṣudhāvyupaśamaṃ svair avyapetoṣmabhir</l>
+<l>yogā janmarudho bhavodbhavatṛṣām ucchedinas tena vaḥ //</l>
 </lg>
 <lg xml:id="Js_16">
-<l>śyenottrāsaviśuṣkakampitagalasyotsaṅgasaṃsarpiṇo $ yan niḥsaṅgaratā śivāya śibinā rājñā satā pakṣiṇaḥ &amp;</l>
-<l>raktodgārakalaṅkitātulatulām āropitā te tanur % māras tena dukūlapakṣmataralaṃ nītas tulālāghavam //</l>
+<l>śyenottrāsaviśuṣkakampitagalasyotsaṅgasaṃsarpiṇo</l>
+<l>yan niḥsaṅgaratā śivāya śibinā rājñā satā pakṣiṇaḥ /</l>
+<l>raktodgārakalaṅkitātulatulām āropitā te tanur</l>
+<l>māras tena dukūlapakṣmataralaṃ nītas tulālāghavam //</l>
 </lg>
 <lg xml:id="Js_17">
-<l>lakṣmīm apy avadhūya vāñchitaphalām ākhaṇḍam ādhvaṃsinīṃ $ yat tiryakpratisandhibandham adhamaṃ kṛtvā bhavāñ janmanām &amp;</l>
-<l>cakre marmabhidāṃ rujāṃ svapiśitaiḥ prābandhakīnāṃ śamaṃ % tena kleśaviṣacchidāṃ tava dhiyāṃ avyāhatāḥ śaktayaḥ //</l>
+<l>lakṣmīm apy avadhūya vāñchitaphalām ākhaṇḍam ādhvaṃsinīṃ</l>
+<l>yat tiryakpratisandhibandham adhamaṃ kṛtvā bhavāñ janmanām /</l>
+<l>cakre marmabhidāṃ rujāṃ svapiśitaiḥ prābandhakīnāṃ śamaṃ</l>
+<l>tena kleśaviṣacchidāṃ tava dhiyāṃ avyāhatāḥ śaktayaḥ //</l>
 </lg>
 <lg xml:id="Js_18">
-<l>yat sandoham iva śriyāḥ phalam iva procchrāyi puṇyaujasāṃ $ digdhaṃ raktakaṇaiḥ sphuratkuvalayacchāyābhinīlāyitam &amp;</l>
-<l>utpāṭyākṣatalocanadvayam adād viprāya niścakṣuṣe % tenāndhasya tamasvato 'sya jagatas tuṅgaikadīpo bhavān //</l>
+<l>yat sandoham iva śriyāḥ phalam iva procchrāyi puṇyaujasāṃ</l>
+<l>digdhaṃ raktakaṇaiḥ sphuratkuvalayacchāyābhinīlāyitam /</l>
+<l>utpāṭyākṣatalocanadvayam adād viprāya niścakṣuṣe</l>
+<l>tenāndhasya tamasvato 'sya jagatas tuṅgaikadīpo bhavān //</l>
 </lg>
 <lg xml:id="Js_19">
-<l>ity ātmārthanibandhinedam ṛṣivākyālaṃkṛtaṃ darśitaṃ $ leśasyāpi na kīrtanaṃ jina kṛtaṃ tvadvarṇarāśer mama &amp;</l>
-<l>tārābdhānavatāṃ jalaṃ jalapurām ākarṣatā vāridher % velānteṣv iva rodhasāṃ jalalavacchedo hi saṃlakṣyate //</l>
+<l>ity ātmārthanibandhinedam ṛṣivākyālaṃkṛtaṃ darśitaṃ</l>
+<l>leśasyāpi na kīrtanaṃ jina kṛtaṃ tvadvarṇarāśer mama /</l>
+<l>tārābdhānavatāṃ jalaṃ jalapurām ākarṣatā vāridher</l>
+<l>velānteṣv iva rodhasāṃ jalalavacchedo hi saṃlakṣyate //</l>
 </lg>
 <lg xml:id="Js_20">
-<l>tvaccaryātiśayāṃśaleśaracanād yaḥ śreyasām udbhavaḥ $ sambhāro vipulaprasādavikasadbhaktyācitāṃśasya me &amp;</l>
-<l>tenātyantaparopakāranirataḥ svārthe 'pi mandādaro % bhūyāt sarvavidāṃ parārthaviduṣāṃ yānaikatāno janaḥ //</l>
+<l>tvaccaryātiśayāṃśaleśaracanād yaḥ śreyasām udbhavaḥ</l>
+<l>sambhāro vipulaprasādavikasadbhaktyācitāṃśasya me /</l>
+<l>tenātyantaparopakāranirataḥ svārthe 'pi mandādaro</l>
+<l>bhūyāt sarvavidāṃ parārthaviduṣāṃ yānaikatāno janaḥ //</l>
 </lg>
-<p xml:id="4">
+<p xml:id="1">
 jātakastava ācāryajñānayaśasaḥ
 </p>
 </body>

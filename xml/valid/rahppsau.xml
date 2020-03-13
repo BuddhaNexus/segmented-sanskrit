@@ -375,102 +375,133 @@ VERSION WITH PADA MARKERS<BR>
 </teiHeader>
 <text xml:lang="sa-Latn" xml:id="RahPps">
 <body><p xml:id="0">
-PADA MARKERS
-</p><p xml:id="1">
-For a four-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ //
-</p><p xml:id="2">
-For a six-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ \<lb/>
-........ # ........ //
-</p><p xml:id="3">
 Rāhulabhadra: Prajñāpāramitāstotra
 </p>
 <lg xml:id="RahPps_1">
-<l>nirvikalpe namas tubhyaṃ $ prajñāpāramite 'mite &amp;</l>
-<l>yā tvaṃ sarvānavadyāṅgi % niravadyair nirīkṣyase //</l>
+<l>nirvikalpe namas tubhyaṃ</l>
+<l>prajñāpāramite 'mite /</l>
+<l>yā tvaṃ sarvānavadyāṅgi</l>
+<l>niravadyair nirīkṣyase //</l>
 </lg>
 <lg xml:id="RahPps_2">
-<l>ākāśam iva nirlepāṃ $ niṣprapañcāṃ nirakṣarām &amp;</l>
-<l>yas tvāṃ paśyati bhāvena % sa paśyati tathāgatam //</l>
+<l>ākāśam iva nirlepāṃ</l>
+<l>niṣprapañcāṃ nirakṣarām /</l>
+<l>yas tvāṃ paśyati bhāvena</l>
+<l>sa paśyati tathāgatam //</l>
 </lg>
 <lg xml:id="RahPps_3">
-<l>tava cārye guṇāḍhyāyā $ buddhasya ca jagadguroḥ &amp;</l>
-<l>na paśyanty antaraṃ santaś % candracandrikayor iva //</l>
+<l>tava cārye guṇāḍhyāyā</l>
+<l>buddhasya ca jagadguroḥ /</l>
+<l>na paśyanty antaraṃ santaś</l>
+<l>candracandrikayor iva //</l>
 </lg>
 <lg xml:id="RahPps_4">
-<l>kṛpātmakāḥ prapadya tvāṃ $ buddhadharmapuraḥsarīm &amp;</l>
-<l>sukhenāyānti māhātmyam % atulaṃ bhaktivatsale //</l>
+<l>kṛpātmakāḥ prapadya tvāṃ</l>
+<l>buddhadharmapuraḥsarīm /</l>
+<l>sukhenāyānti māhātmyam</l>
+<l>atulaṃ bhaktivatsale //</l>
 </lg>
 <lg xml:id="RahPps_5">
-<l>sakṛd apy āśaye śuddhe $ yas tvāṃ vidhivad īkṣate &amp;</l>
-<l>tenāpi niyataṃ siddhiḥ % prāpyate 'moghadarśane //</l>
+<l>sakṛd apy āśaye śuddhe</l>
+<l>yas tvāṃ vidhivad īkṣate /</l>
+<l>tenāpi niyataṃ siddhiḥ</l>
+<l>prāpyate 'moghadarśane //</l>
 </lg>
 <lg xml:id="RahPps_6">
-<l>sarveṣām api vīrāṇāṃ $ parārthaniratātmanām &amp;</l>
-<l>poṣikā janayitrī ca % mātā tvam asi vatsalā //</l>
+<l>sarveṣām api vīrāṇāṃ</l>
+<l>parārthaniratātmanām /</l>
+<l>poṣikā janayitrī ca</l>
+<l>mātā tvam asi vatsalā //</l>
 </lg>
 <lg xml:id="RahPps_7">
-<l>yad buddhā lokaguravaḥ $ putrās tava kṛpālavaḥ &amp;</l>
-<l>tena tvam api kalyāṇi % sarvasattvapitāmahī //</l>
+<l>yad buddhā lokaguravaḥ</l>
+<l>putrās tava kṛpālavaḥ /</l>
+<l>tena tvam api kalyāṇi</l>
+<l>sarvasattvapitāmahī //</l>
 </lg>
 <lg xml:id="RahPps_8">
-<l>sarvapāramitābhis tvaṃ $ nirmalābhir anindite &amp;</l>
-<l>candralekheva tārābhir % anuyātāsi sarvadā //</l>
+<l>sarvapāramitābhis tvaṃ</l>
+<l>nirmalābhir anindite /</l>
+<l>candralekheva tārābhir</l>
+<l>anuyātāsi sarvadā //</l>
 </lg>
 <lg xml:id="RahPps_9">
-<l>vineyaṃ janam āsādya $ tatra tatra tathāgataiḥ &amp;</l>
-<l>bahurūpā tvam evaikā % nānānāmabhir īḍyase //</l>
+<l>vineyaṃ janam āsādya</l>
+<l>tatra tatra tathāgataiḥ /</l>
+<l>bahurūpā tvam evaikā</l>
+<l>nānānāmabhir īḍyase //</l>
 </lg>
 <lg xml:id="RahPps_10">
-<l>prabhāṃ prāpyeva dīptāṃśor $ avaśyāyodabindavaḥ &amp;</l>
-<l>tvāṃ prāpya pralayaṃ yānti % doṣā vādāś ca vādinām //</l>
+<l>prabhāṃ prāpyeva dīptāṃśor</l>
+<l>avaśyāyodabindavaḥ /</l>
+<l>tvāṃ prāpya pralayaṃ yānti</l>
+<l>doṣā vādāś ca vādinām //</l>
 </lg>
 <lg xml:id="RahPps_11">
-<l>tvam eva trāsajananī $ bālānāṃ bhīmadarśanā &amp;</l>
-<l>āśvāsajananī cāsi % viduṣāṃ saumyadarśanā //</l>
+<l>tvam eva trāsajananī</l>
+<l>bālānāṃ bhīmadarśanā /</l>
+<l>āśvāsajananī cāsi</l>
+<l>viduṣāṃ saumyadarśanā //</l>
 </lg>
 <lg xml:id="RahPps_12">
-<l>yasya tvayy apy abhiṣvaṅgas $ tvannāthasya na vidyate &amp;</l>
-<l>tasyāmba katham anyatra % rāgadveṣau bhaviṣyataḥ //</l>
+<l>yasya tvayy apy abhiṣvaṅgas</l>
+<l>tvannāthasya na vidyate /</l>
+<l>tasyāmba katham anyatra</l>
+<l>rāgadveṣau bhaviṣyataḥ //</l>
 </lg>
 <lg xml:id="RahPps_13">
-<l>nāgacchasi kutaś cit tvaṃ $ na ca kva cana gacchasi &amp;</l>
-<l>sthāneṣv api ca sarveṣu % vidvadbhir nopalabhyase //</l>
+<l>nāgacchasi kutaś cit tvaṃ</l>
+<l>na ca kva cana gacchasi /</l>
+<l>sthāneṣv api ca sarveṣu</l>
+<l>vidvadbhir nopalabhyase //</l>
 </lg>
 <lg xml:id="RahPps_14">
-<l>ye tvām evaṃ na paśyanti $ prapadyante ca bhāvataḥ &amp;</l>
-<l>prapadya ca vimucyante % tad idaṃ mahad adbhutam //</l>
+<l>ye tvām evaṃ na paśyanti</l>
+<l>prapadyante ca bhāvataḥ /</l>
+<l>prapadya ca vimucyante</l>
+<l>tad idaṃ mahad adbhutam //</l>
 </lg>
 <lg xml:id="RahPps_15">
-<l>tvām eva badhyate paśyann $ apaśyann api badhyate &amp;</l>
-<l>tvām eva mucyate paśyann % apaśyann api mucyate //</l>
+<l>tvām eva badhyate paśyann</l>
+<l>apaśyann api badhyate /</l>
+<l>tvām eva mucyate paśyann</l>
+<l>apaśyann api mucyate //</l>
 </lg>
 <lg xml:id="RahPps_16">
-<l>aho vismayanīyāsi $ gambhīrāsi yaśasvini &amp;</l>
-<l>sudurbodhāsi māyeva % dṛśyase na ca dṛśyase //</l>
+<l>aho vismayanīyāsi</l>
+<l>gambhīrāsi yaśasvini /</l>
+<l>sudurbodhāsi māyeva</l>
+<l>dṛśyase na ca dṛśyase //</l>
 </lg>
 <lg xml:id="RahPps_17">
-<l>buddhaiḥ pratyekabuddhaiś ca $ śrāvakaiś ca niṣevitā &amp;</l>
-<l>mārgas tvam ekā mokṣasya % nāsty anya iti niścayaḥ //</l>
+<l>buddhaiḥ pratyekabuddhaiś ca</l>
+<l>śrāvakaiś ca niṣevitā /</l>
+<l>mārgas tvam ekā mokṣasya</l>
+<l>nāsty anya iti niścayaḥ //</l>
 </lg>
 <lg xml:id="RahPps_18">
-<l>vyavahāraṃ puraskṛtya $ prajñaptyarthaṃ śarīriṇām &amp;</l>
-<l>kṛpayā lokanāthais tvam % ucyase ca na cocyase //</l>
+<l>vyavahāraṃ puraskṛtya</l>
+<l>prajñaptyarthaṃ śarīriṇām /</l>
+<l>kṛpayā lokanāthais tvam</l>
+<l>ucyase ca na cocyase //</l>
 </lg>
 <lg xml:id="RahPps_19">
-<l>śaktaḥ kas tvām iha stotuṃ $ nirnimittāṃ nirañjanām &amp;</l>
-<l>sarvavāgviśayātītāṃ % yā tvaṃ kva cid aniśritā //</l>
+<l>śaktaḥ kas tvām iha stotuṃ</l>
+<l>nirnimittāṃ nirañjanām /</l>
+<l>sarvavāgviśayātītāṃ</l>
+<l>yā tvaṃ kva cid aniśritā //</l>
 </lg>
 <lg xml:id="RahPps_20">
-<l>saty evam api saṃvṛtyā $ vākpathair vayam īdṛśaiḥ &amp;</l>
-<l>tvām astutyām api satīṃ % tuṣṭūṣantaḥ sunirvṛtāḥ //</l>
+<l>saty evam api saṃvṛtyā</l>
+<l>vākpathair vayam īdṛśaiḥ /</l>
+<l>tvām astutyām api satīṃ</l>
+<l>tuṣṭūṣantaḥ sunirvṛtāḥ //</l>
 </lg>
 <lg xml:id="RahPps_21">
-<l>prajñāpāramitāṃ stutvā $ yan mayopacitaṃ śubham &amp;</l>
-<l>tenāstv āśu jagat kṛtsnaṃ % prajñāpāraparāyaṇam //</l>
+<l>prajñāpāramitāṃ stutvā</l>
+<l>yan mayopacitaṃ śubham /</l>
+<l>tenāstv āśu jagat kṛtsnaṃ</l>
+<l>prajñāpāraparāyaṇam //</l>
 </lg>
 </body>
 </text>

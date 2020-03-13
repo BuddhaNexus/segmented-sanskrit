@@ -374,18 +374,8 @@ TEXT WITH PADA MARKERS<BR>
  -->
 </teiHeader>
 <text xml:lang="sa-Latn" xml:id="Mns">
-<body><p xml:id="0">
-PADA MARKERS
-</p><p xml:id="1">
-For a four-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ //
-</p><p xml:id="2">
-For a six-pada verse:<lb/>
-........ $ ........ &amp;<lb/>
-........ % ........ \<lb/>
-........ # ........ //
-</p><p xml:id="3">
+<body>
+<p xml:id="3">
 CONVENTIONS:<lb/>
 "tv" for "ttv" (as in "satva" etc.)<lb/>
 "nv" for "nnv" (as in "yanv ahaṃ" etc.)
@@ -395,117 +385,169 @@ Mañjuśrījñānasatvasya Paramārthā Nāmasaṃgītiḥ
 namo mañjuśrīkumārabhūtāya
 </p>
 <lg xml:id="Mns_1">
-<l>atha vajradharaḥ śrīmān $ durdāntadamakaḥ paraḥ &amp;</l>
-<l>trilokavijayī vīro % guhyarāṭ kuliśeśvaraḥ //</l>
+<l>atha vajradharaḥ śrīmān</l>
+<l>durdāntadamakaḥ paraḥ /</l>
+<l>trilokavijayī vīro</l>
+<l>guhyarāṭ kuliśeśvaraḥ //</l>
 </lg>
 <lg xml:id="Mns_2">
-<l>vibuddhapuṇḍarīkākṣaḥ $ protphullakamalānanaḥ &amp;</l>
-<l>prollālayan vajravaraṃ % svakareṇa muhur muhuḥ //</l>
+<l>vibuddhapuṇḍarīkākṣaḥ</l>
+<l>protphullakamalānanaḥ /</l>
+<l>prollālayan vajravaraṃ</l>
+<l>svakareṇa muhur muhuḥ //</l>
 </lg>
 <lg xml:id="Mns_3">
-<l>bhṛkuṭītaraṅgapramukhair $ anantair vajrapāṇibhiḥ &amp;</l>
-<l>durdāntadamakair vīrair % vīrabībhatsarūpibhiḥ //</l>
+<l>bhṛkuṭītaraṅgapramukhair</l>
+<l>anantair vajrapāṇibhiḥ /</l>
+<l>durdāntadamakair vīrair</l>
+<l>vīrabībhatsarūpibhiḥ //</l>
 </lg>
 <lg xml:id="Mns_4">
-<l>ullālayadbhiḥ svakaraiḥ $ prasphuradvajrakoṭibhiḥ &amp;</l>
-<l>prajñopāyamahākaruṇā- % jagadarthakaraiḥ paraiḥ //</l>
+<l>ullālayadbhiḥ svakaraiḥ</l>
+<l>prasphuradvajrakoṭibhiḥ /</l>
+<l>prajñopāyamahākaruṇā-</l>
+<l>jagadarthakaraiḥ paraiḥ //</l>
 </lg>
 <lg xml:id="Mns_5">
-<l>hṛṣṭatuṣṭāśayair muditaiḥ $ krodhavigraharūpibhiḥ &amp;</l>
-<l>buddhakṛtyakarair nāthaiḥ % sārdhaṃ praṇatavigrahaiḥ //</l>
+<l>hṛṣṭatuṣṭāśayair muditaiḥ</l>
+<l>krodhavigraharūpibhiḥ /</l>
+<l>buddhakṛtyakarair nāthaiḥ</l>
+<l>sārdhaṃ praṇatavigrahaiḥ //</l>
 </lg>
 <lg xml:id="Mns_6">
-<l>praṇamya nāthaṃ saṃbuddhaṃ $ bhagavantaṃ tathāgatam &amp;</l>
-<l>kṛtāñjalipuṭo bhūtvā % idam āha sthito 'grataḥ //</l>
+<l>praṇamya nāthaṃ saṃbuddhaṃ</l>
+<l>bhagavantaṃ tathāgatam /</l>
+<l>kṛtāñjalipuṭo bhūtvā</l>
+<l>idam āha sthito 'grataḥ //</l>
 </lg>
 <lg xml:id="Mns_7">
-<l>maddhitāya mamārthāya $ anukampāya me vibho &amp;</l>
-<l>māyājālābhisaṃbodher % yathā lābhī bhavāmy ahaṃ //</l>
+<l>maddhitāya mamārthāya</l>
+<l>anukampāya me vibho /</l>
+<l>māyājālābhisaṃbodher</l>
+<l>yathā lābhī bhavāmy ahaṃ //</l>
 </lg>
 <lg xml:id="Mns_8">
-<l>ajñānapaṅkamagnānāṃ $ kleśavyākulacetasāṃ &amp;</l>
-<l>hitāya sarvasatvānām % anuttaraphalāptaye //</l>
+<l>ajñānapaṅkamagnānāṃ</l>
+<l>kleśavyākulacetasāṃ /</l>
+<l>hitāya sarvasatvānām</l>
+<l>anuttaraphalāptaye //</l>
 </lg>
 <lg xml:id="Mns_9">
-<l>prakāśayatu saṃbuddho $ bhagavāṃ śāstā jagadguruḥ &amp;</l>
-<l>mahāsamayatatvajña % indriyāśayavit paraḥ //</l>
+<l>prakāśayatu saṃbuddho</l>
+<l>bhagavāṃ śāstā jagadguruḥ /</l>
+<l>mahāsamayatatvajña</l>
+<l>indriyāśayavit paraḥ //</l>
 </lg>
 <lg xml:id="Mns_10">
-<l>bhagavajjñānakāyasya $ mahoṣṇīṣasya gīṣpateḥ &amp;</l>
-<l>mañjuśrījñānasatvasya % jñānamūrteḥ svayaṃbhuvaḥ //</l>
+<l>bhagavajjñānakāyasya</l>
+<l>mahoṣṇīṣasya gīṣpateḥ /</l>
+<l>mañjuśrījñānasatvasya</l>
+<l>jñānamūrteḥ svayaṃbhuvaḥ //</l>
 </lg>
 <lg xml:id="Mns_11">
-<l>gambhīrārthām udārārthāṃ $ mahārthām asamāṃ śivāṃ &amp;</l>
-<l>ādimadhyāntakalyāṇīṃ % nāmasaṃgītim uttamāṃ //</l>
+<l>gambhīrārthām udārārthāṃ</l>
+<l>mahārthām asamāṃ śivāṃ /</l>
+<l>ādimadhyāntakalyāṇīṃ</l>
+<l>nāmasaṃgītim uttamāṃ //</l>
 </lg>
 <lg xml:id="Mns_12">
-<l>yātītair bhāṣitā buddhair $ bhāṣiṣyante hy anāgatāḥ &amp;</l>
-<l>pratyutpannāś ca saṃbuddhā % yāṃ bhāṣante punaḥ punaḥ //</l>
+<l>yātītair bhāṣitā buddhair</l>
+<l>bhāṣiṣyante hy anāgatāḥ /</l>
+<l>pratyutpannāś ca saṃbuddhā</l>
+<l>yāṃ bhāṣante punaḥ punaḥ //</l>
 </lg>
 <lg xml:id="Mns_13">
-<l>māyājālamahātantre $ yā cāsmiṃ saṃpragīyate &amp;</l>
-<l>mahāvajradharair hṛṣṭair % ameyair mantradhāribhiḥ //</l>
+<l>māyājālamahātantre</l>
+<l>yā cāsmiṃ saṃpragīyate /</l>
+<l>mahāvajradharair hṛṣṭair</l>
+<l>ameyair mantradhāribhiḥ //</l>
 </lg>
 <lg xml:id="Mns_14">
-<l>ahaṃ caināṃ dhārayiṣyāmy $ ā niryāṇād dṛḍhāśayaḥ &amp;</l>
-<l>yathā bhavāmy ahaṃ nātha % sarvasaṃbuddhaguhyadhṛk //</l>
+<l>ahaṃ caināṃ dhārayiṣyāmy</l>
+<l>ā niryāṇād dṛḍhāśayaḥ /</l>
+<l>yathā bhavāmy ahaṃ nātha</l>
+<l>sarvasaṃbuddhaguhyadhṛk //</l>
 </lg>
 <lg xml:id="Mns_15">
-<l>prakāśayiṣye satvānāṃ $ yathāśayaviśeṣataḥ &amp;</l>
-<l>aśeṣakleśanāśāya % aśeṣājñānahānaye //</l>
+<l>prakāśayiṣye satvānāṃ</l>
+<l>yathāśayaviśeṣataḥ /</l>
+<l>aśeṣakleśanāśāya</l>
+<l>aśeṣājñānahānaye //</l>
 </lg>
 <lg xml:id="Mns_16">
-<l>evam adhyeṣya guhyendro $ vajrapāṇis tathāgataṃ &amp;</l>
-<l>kṛtāñjalipuṭo bhūtvā % prahvakāyasthito 'grataḥ //</l>
+<l>evam adhyeṣya guhyendro</l>
+<l>vajrapāṇis tathāgataṃ /</l>
+<l>kṛtāñjalipuṭo bhūtvā</l>
+<l>prahvakāyasthito 'grataḥ //</l>
 </lg>
 <p xml:id="6">
 adhyeṣaṇāgāthāḥ ṣoḍaśa
 </p>
 <lg xml:id="Mns_17">
-<l>atha śākyamunir bhagavāṃ $ saṃbuddho dvipadottamaḥ &amp;</l>
-<l>nirṇamayyāyatāṃ sphītāṃ % svajihvāṃ svamukhāc chubhāṃ //</l>
+<l>atha śākyamunir bhagavāṃ</l>
+<l>saṃbuddho dvipadottamaḥ /</l>
+<l>nirṇamayyāyatāṃ sphītāṃ</l>
+<l>svajihvāṃ svamukhāc chubhāṃ //</l>
 </lg>
 <lg xml:id="Mns_18">
-<l>smitaṃ saṃdarśya lokānām $ apāyatrayaśodhanaṃ &amp;</l>
-<l>trailokyābhāsakaraṇaṃ % caturmārāriśāsanaṃ //</l>
+<l>smitaṃ saṃdarśya lokānām</l>
+<l>apāyatrayaśodhanaṃ /</l>
+<l>trailokyābhāsakaraṇaṃ</l>
+<l>caturmārāriśāsanaṃ //</l>
 </lg>
 <lg xml:id="Mns_19">
-<l>trilokam āpūrayantyā $ brāhmyā madhurayā girā &amp;</l>
-<l>pratyabhāṣata guhyendraṃ % vajrapāṇiṃ mahābalaṃ //</l>
+<l>trilokam āpūrayantyā</l>
+<l>brāhmyā madhurayā girā /</l>
+<l>pratyabhāṣata guhyendraṃ</l>
+<l>vajrapāṇiṃ mahābalaṃ //</l>
 </lg>
 <lg xml:id="Mns_20">
-<l>sādhu vajradharaḥ śrīmāṃ $ sādhu te vajrapāṇaye &amp;</l>
-<l>yas tvaṃ jagaddhitārthāya % mahākaruṇayānvitaḥ //</l>
+<l>sādhu vajradharaḥ śrīmāṃ</l>
+<l>sādhu te vajrapāṇaye /</l>
+<l>yas tvaṃ jagaddhitārthāya</l>
+<l>mahākaruṇayānvitaḥ //</l>
 </lg>
 <lg xml:id="Mns_21">
-<l>mahārthāṃ nāmasaṃgītiṃ $ pavitrām aghanāśanīṃ &amp;</l>
-<l>mañjuśrījñānakāyasya % mattaḥ śrotuṃ samudyataḥ //</l>
+<l>mahārthāṃ nāmasaṃgītiṃ</l>
+<l>pavitrām aghanāśanīṃ /</l>
+<l>mañjuśrījñānakāyasya</l>
+<l>mattaḥ śrotuṃ samudyataḥ //</l>
 </lg>
 <lg xml:id="Mns_22">
-<l>tat sādhu deśayāmy eṣa $ ahaṃ te guhyakādhipaḥ &amp;</l>
-<l>śṛṇu tvam ekāgramanās % tat sādhu bhagavann iti //</l>
+<l>tat sādhu deśayāmy eṣa</l>
+<l>ahaṃ te guhyakādhipaḥ /</l>
+<l>śṛṇu tvam ekāgramanās</l>
+<l>tat sādhu bhagavann iti //</l>
 </lg>
 <p xml:id="7">
 prativacanagāthāḥ ṣaṭ
 </p>
 <lg xml:id="Mns_23">
-<l>atha śākyamunir bhagavāṃ $ savakalaṃ mantrakulaṃ mahat &amp;</l>
-<l>mantravidyādharakulaṃ % vyavalokya kulatrayaṃ //</l>
+<l>atha śākyamunir bhagavāṃ</l>
+<l>savakalaṃ mantrakulaṃ mahat /</l>
+<l>mantravidyādharakulaṃ</l>
+<l>vyavalokya kulatrayaṃ //</l>
 </lg>
 <lg xml:id="Mns_24">
-<l>lokalokottarakulaṃ $ lokālokakulaṃ mahat &amp;</l>
-<l>mahāmudrākulaṃ cāgryaṃ % mahoṣṇīṣakulaṃ mahat //</l>
+<l>lokalokottarakulaṃ</l>
+<l>lokālokakulaṃ mahat /</l>
+<l>mahāmudrākulaṃ cāgryaṃ</l>
+<l>mahoṣṇīṣakulaṃ mahat //</l>
 </lg>
 <p xml:id="8">
 ṣaṭkulāvalokanagāthe dve
 </p>
 <lg xml:id="Mns_25">
-<l>imāṃ ṣaḍmantrarājānaṃ $ saṃyuktām advayodayāṃ &amp;</l>
-<l>anutpādadharmiṇīṃ gāthāṃ % bhāṣate sma girāṃ pateḥ //</l>
+<l>imāṃ ṣaḍmantrarājānaṃ</l>
+<l>saṃyuktām advayodayāṃ /</l>
+<l>anutpādadharmiṇīṃ gāthāṃ</l>
+<l>bhāṣate sma girāṃ pateḥ //</l>
 </lg>
 <lg xml:id="Mns_26">
-<l>a ā i ī u ū e ai $ o au aṃ aḥ sthito hṛdi &amp;</l>
-<l>jñānamūrtir ahaṃ buddho % buddhānāṃ tryadhvavartināṃ //</l>
+<l>a ā i ī u ū e ai</l>
+<l>o au aṃ aḥ sthito hṛdi /</l>
+<l>jñānamūrtir ahaṃ buddho</l>
+<l>buddhānāṃ tryadhvavartināṃ //</l>
 </lg>
 <lg xml:id="Mns_27">
 <l>oṃ vajratīkṣṇaduḥkhacchedaprajñājñānamūrtaye /</l>
@@ -515,562 +557,832 @@ prativacanagāthāḥ ṣaṭ
 māyājālābhisaṃbodhikramagāthās tisraḥ //
 </p>
 <lg xml:id="Mns_28">
-<l>tadyathā bhagavāṃ buddhaḥ $ saṃbuddho 'kārasaṃbhavaḥ &amp;</l>
-<l>akāraḥ sarvavarṇāgryo % mahārthaḥ paramākṣaraḥ //</l>
+<l>tadyathā bhagavāṃ buddhaḥ</l>
+<l>saṃbuddho 'kārasaṃbhavaḥ /</l>
+<l>akāraḥ sarvavarṇāgryo</l>
+<l>mahārthaḥ paramākṣaraḥ //</l>
 </lg>
 <lg xml:id="Mns_29">
-<l>mahāprāṇo hy anutpādo $ vāgudāhāravarjitaḥ &amp;</l>
-<l>sarvābhilāpahetvagryaḥ % sarvavāksuprabhāsvaraḥ //</l>
+<l>mahāprāṇo hy anutpādo</l>
+<l>vāgudāhāravarjitaḥ /</l>
+<l>sarvābhilāpahetvagryaḥ</l>
+<l>sarvavāksuprabhāsvaraḥ //</l>
 </lg>
 <lg xml:id="Mns_30">
-<l>mahāmahamahārāgaḥ $ sarvasatvaratiṃkaraḥ &amp;</l>
-<l>mahāmahamahādveṣaḥ % sarvakleśamahāripuḥ //</l>
+<l>mahāmahamahārāgaḥ</l>
+<l>sarvasatvaratiṃkaraḥ /</l>
+<l>mahāmahamahādveṣaḥ</l>
+<l>sarvakleśamahāripuḥ //</l>
 </lg>
 <lg xml:id="Mns_31">
-<l>mahāmahamahāmoho $ mūḍhadhīmohasūdanaḥ &amp;</l>
-<l>mahāmahamahākrodho % mahākrodharipur mahān //</l>
+<l>mahāmahamahāmoho</l>
+<l>mūḍhadhīmohasūdanaḥ /</l>
+<l>mahāmahamahākrodho</l>
+<l>mahākrodharipur mahān //</l>
 </lg>
 <lg xml:id="Mns_32">
-<l>mahāmahamahālobhaḥ $ sarvalobhanisūdanaḥ &amp;</l>
-<l>mahākāmo mahāsaukhyo % mahāmodo mahāratiḥ //</l>
+<l>mahāmahamahālobhaḥ</l>
+<l>sarvalobhanisūdanaḥ /</l>
+<l>mahākāmo mahāsaukhyo</l>
+<l>mahāmodo mahāratiḥ //</l>
 </lg>
 <lg xml:id="Mns_33">
-<l>mahārūpo mahākāyo $ mahāvarṇo mahāvapuḥ &amp;</l>
-<l>mahānāma mahodāro % mahāvipulamaṇḍalaḥ //</l>
+<l>mahārūpo mahākāyo</l>
+<l>mahāvarṇo mahāvapuḥ /</l>
+<l>mahānāma mahodāro</l>
+<l>mahāvipulamaṇḍalaḥ //</l>
 </lg>
 <lg xml:id="Mns_34">
-<l>mahāprajñāyudhadharo $ mahākleśāṅkuśo 'graṇīḥ &amp;</l>
-<l>mahāyaśā mahākīrtir % mahājyotir mahādyutiḥ //</l>
+<l>mahāprajñāyudhadharo</l>
+<l>mahākleśāṅkuśo 'graṇīḥ /</l>
+<l>mahāyaśā mahākīrtir</l>
+<l>mahājyotir mahādyutiḥ //</l>
 </lg>
 <lg xml:id="Mns_35">
-<l>mahāmāyādharo vidvān $ mahāmāyārthasādhakaḥ &amp;</l>
-<l>mahāmāyāratirato % mahāmāyendrajālikaḥ //</l>
+<l>mahāmāyādharo vidvān</l>
+<l>mahāmāyārthasādhakaḥ /</l>
+<l>mahāmāyāratirato</l>
+<l>mahāmāyendrajālikaḥ //</l>
 </lg>
 <lg xml:id="Mns_36">
-<l>mahādānapatiḥ śreṣṭho $ mahāśīladharo 'graṇīḥ &amp;</l>
-<l>mahākṣāntidharo dhīro % mahāvīryaparākramaḥ //</l>
+<l>mahādānapatiḥ śreṣṭho</l>
+<l>mahāśīladharo 'graṇīḥ /</l>
+<l>mahākṣāntidharo dhīro</l>
+<l>mahāvīryaparākramaḥ //</l>
 </lg>
 <lg xml:id="Mns_37">
-<l>mahādhyānasamādhistho $ mahāprajñāśarīradhṛk &amp;</l>
-<l>mahābalo mahopāyaḥ % praṇidhijñānasāgaraḥ //</l>
+<l>mahādhyānasamādhistho</l>
+<l>mahāprajñāśarīradhṛk /</l>
+<l>mahābalo mahopāyaḥ</l>
+<l>praṇidhijñānasāgaraḥ //</l>
 </lg>
 <lg xml:id="Mns_38">
-<l>mahāmaitrīmayo 'meyo $ mahākāruṇiko 'gradhīḥ &amp;</l>
-<l>mahāprajño mahādhīmāṃ % mahopāyo mahākṛtiḥ //</l>
+<l>mahāmaitrīmayo 'meyo</l>
+<l>mahākāruṇiko 'gradhīḥ /</l>
+<l>mahāprajño mahādhīmāṃ</l>
+<l>mahopāyo mahākṛtiḥ //</l>
 </lg>
 <lg xml:id="Mns_39">
-<l>mahāṛddhibalopeto $ mahāvego mahājavaḥ &amp;</l>
-<l>maharddhiko maheśākhyo % mahābalaparākramaḥ //</l>
+<l>mahāṛddhibalopeto</l>
+<l>mahāvego mahājavaḥ /</l>
+<l>maharddhiko maheśākhyo</l>
+<l>mahābalaparākramaḥ //</l>
 </lg>
 <lg xml:id="Mns_40">
-<l>mahābhavādrisaṃbhettā $ mahāvajradharo ghanaḥ &amp;</l>
-<l>mahākrūro mahāraudro % mahābhayabhayaṃkaraḥ //</l>
+<l>mahābhavādrisaṃbhettā</l>
+<l>mahāvajradharo ghanaḥ /</l>
+<l>mahākrūro mahāraudro</l>
+<l>mahābhayabhayaṃkaraḥ //</l>
 </lg>
 <lg xml:id="Mns_41">
-<l>mahāvidyottamo nātho $ mahāmantrottamo guruḥ &amp;</l>
-<l>mahāyānanayārūḍho % mahāyānanayottamaḥ //</l>
+<l>mahāvidyottamo nātho</l>
+<l>mahāmantrottamo guruḥ /</l>
+<l>mahāyānanayārūḍho</l>
+<l>mahāyānanayottamaḥ //</l>
 </lg>
 <p xml:id="10">
 vajradhātumahāmaṇḍalagāthāś caturdaśa //
 </p>
 <lg xml:id="Mns_42">
-<l>mahāvairocano buddho $ mahāmaunī mahāmuniḥ &amp;</l>
-<l>mahāmantranayodbhūto % mahāmantranayātmakaḥ //</l>
+<l>mahāvairocano buddho</l>
+<l>mahāmaunī mahāmuniḥ /</l>
+<l>mahāmantranayodbhūto</l>
+<l>mahāmantranayātmakaḥ //</l>
 </lg>
 <lg xml:id="Mns_43">
-<l>daśapāramitāprāpto $ daśapāramitāśrayaḥ &amp;</l>
-<l>daśapāramitāśuddhir % daśapāramitānayaḥ //</l>
+<l>daśapāramitāprāpto</l>
+<l>daśapāramitāśrayaḥ /</l>
+<l>daśapāramitāśuddhir</l>
+<l>daśapāramitānayaḥ //</l>
 </lg>
 <lg xml:id="Mns_44">
-<l>daśabhūmīśvaro nātho $ daśabhūmipratiṣṭhitaḥ &amp;</l>
-<l>daśajñānaviśuddhātmā % daśajñānaviśuddhadhṛk //</l>
+<l>daśabhūmīśvaro nātho</l>
+<l>daśabhūmipratiṣṭhitaḥ /</l>
+<l>daśajñānaviśuddhātmā</l>
+<l>daśajñānaviśuddhadhṛk //</l>
 </lg>
 <lg xml:id="Mns_45">
-<l>daśākāro daśārthārtho $ munīndro daśabalo vibhuḥ &amp;</l>
-<l>aśeṣaviśvārthakaro % daśākāravaśī mahān //</l>
+<l>daśākāro daśārthārtho</l>
+<l>munīndro daśabalo vibhuḥ /</l>
+<l>aśeṣaviśvārthakaro</l>
+<l>daśākāravaśī mahān //</l>
 </lg>
 <lg xml:id="Mns_46">
-<l>anādhir niṣprapañcātmā $ śuddhātmā tathatātmakaḥ &amp;</l>
-<l>bhūtavādī yathāvādī % tathākārī ananyavāk //</l>
+<l>anādhir niṣprapañcātmā</l>
+<l>śuddhātmā tathatātmakaḥ /</l>
+<l>bhūtavādī yathāvādī</l>
+<l>tathākārī ananyavāk //</l>
 </lg>
 <lg xml:id="Mns_47">
-<l>advayo 'dvayavādī ca $ bhūtakoṭivyavasthitaḥ &amp;</l>
-<l>nairātmyasiṃhanirnāda % kutīrthyamṛgabhīkaraḥ //</l>
+<l>advayo 'dvayavādī ca</l>
+<l>bhūtakoṭivyavasthitaḥ /</l>
+<l>nairātmyasiṃhanirnāda</l>
+<l>kutīrthyamṛgabhīkaraḥ //</l>
 </lg>
 <lg xml:id="Mns_48">
-<l>sarvatrago 'moghagatis $ tathāgatamanojavaḥ &amp;</l>
-<l>jino jitārir vijayī % cakravartī mahābalaḥ //</l>
+<l>sarvatrago 'moghagatis</l>
+<l>tathāgatamanojavaḥ /</l>
+<l>jino jitārir vijayī</l>
+<l>cakravartī mahābalaḥ //</l>
 </lg>
 <lg xml:id="Mns_49">
-<l>gaṇamukhyo gaṇācāryo $ gaṇeśo gaṇapatir vaśī &amp;</l>
-<l>mahānubhāvo dhaureyo % 'nanyaneyo mahānayaḥ //</l>
+<l>gaṇamukhyo gaṇācāryo</l>
+<l>gaṇeśo gaṇapatir vaśī /</l>
+<l>mahānubhāvo dhaureyo</l>
+<l>'nanyaneyo mahānayaḥ //</l>
 </lg>
 <lg xml:id="Mns_50">
-<l>vāgīśo vākpatir vāgmī $ vācaspatir anantagīḥ &amp;</l>
-<l>satyavāk satyavādī ca % catuḥsatyopadeśakaḥ //</l>
+<l>vāgīśo vākpatir vāgmī</l>
+<l>vācaspatir anantagīḥ /</l>
+<l>satyavāk satyavādī ca</l>
+<l>catuḥsatyopadeśakaḥ //</l>
 </lg>
 <lg xml:id="Mns_51">
-<l>avaivartiko hy anāgāmī $ khaḍgaḥ pratyekanāyakaḥ &amp;</l>
-<l>nānāniryāṇaniryāto % mahābhūtaikakāraṇaḥ //</l>
+<l>avaivartiko hy anāgāmī</l>
+<l>khaḍgaḥ pratyekanāyakaḥ /</l>
+<l>nānāniryāṇaniryāto</l>
+<l>mahābhūtaikakāraṇaḥ //</l>
 </lg>
 <lg xml:id="Mns_52">
-<l>arhan kṣīṇāsravo bhikṣur $ vītarāgo jitendriyaḥ &amp;</l>
-<l>kṣemaprāpto 'bhayaprāptaḥ % śītībhūto hy anāvilaḥ //</l>
+<l>arhan kṣīṇāsravo bhikṣur</l>
+<l>vītarāgo jitendriyaḥ /</l>
+<l>kṣemaprāpto 'bhayaprāptaḥ</l>
+<l>śītībhūto hy anāvilaḥ //</l>
 </lg>
 <lg xml:id="Mns_53">
-<l>vidyācaraṇasaṃpannaḥ $ sugato lokavit paraḥ &amp;</l>
-<l>nirmamo nirahaṃkāraḥ % satyadvayanaye sthitaḥ //</l>
+<l>vidyācaraṇasaṃpannaḥ</l>
+<l>sugato lokavit paraḥ /</l>
+<l>nirmamo nirahaṃkāraḥ</l>
+<l>satyadvayanaye sthitaḥ //</l>
 </lg>
 <lg xml:id="Mns_54">
-<l>saṃsārapārakoṭisthaḥ $ kṛtakṛtyaḥ sthale sthitaḥ &amp;</l>
-<l>kaivalyajñānaniṣṭhyūtaḥ % prajñāśastro vidāraṇaḥ //</l>
+<l>saṃsārapārakoṭisthaḥ</l>
+<l>kṛtakṛtyaḥ sthale sthitaḥ /</l>
+<l>kaivalyajñānaniṣṭhyūtaḥ</l>
+<l>prajñāśastro vidāraṇaḥ //</l>
 </lg>
 <lg xml:id="Mns_55">
-<l>saddharmo dharmarāḍ bhāsvāṃ $ lokālokakaraḥ paraḥ &amp;</l>
-<l>dharmeśvaro dharmarājā % śreyomārgopadeśakaḥ //</l>
+<l>saddharmo dharmarāḍ bhāsvāṃ</l>
+<l>lokālokakaraḥ paraḥ /</l>
+<l>dharmeśvaro dharmarājā</l>
+<l>śreyomārgopadeśakaḥ //</l>
 </lg>
 <lg xml:id="Mns_56">
-<l>siddhārthaḥ siddhasaṃkalpaḥ $ sarvasaṃkalpavarjitaḥ &amp;</l>
-<l>nirvikalpo 'kṣayo dhātur % dharmadhātuḥ paro 'vyayaḥ //</l>
+<l>siddhārthaḥ siddhasaṃkalpaḥ</l>
+<l>sarvasaṃkalpavarjitaḥ /</l>
+<l>nirvikalpo 'kṣayo dhātur</l>
+<l>dharmadhātuḥ paro 'vyayaḥ //</l>
 </lg>
 <lg xml:id="Mns_57">
-<l>puṇyavān puṇyasaṃbhāro $ jñānaṃ jñānākaraṃ mahat &amp;</l>
-<l>jñānavān sadasajjñānī % saṃbhāradvayasaṃbhṛtaḥ //</l>
+<l>puṇyavān puṇyasaṃbhāro</l>
+<l>jñānaṃ jñānākaraṃ mahat /</l>
+<l>jñānavān sadasajjñānī</l>
+<l>saṃbhāradvayasaṃbhṛtaḥ //</l>
 </lg>
 <lg xml:id="Mns_58">
-<l>śāśvato viśvarāḍ yogī $ dhyānaṃ dhyeyo dhiyāṃ patiḥ &amp;</l>
-<l>pratyātmavedyo hy acalaḥ % paramādyas trikāyadhṛk //</l>
+<l>śāśvato viśvarāḍ yogī</l>
+<l>dhyānaṃ dhyeyo dhiyāṃ patiḥ /</l>
+<l>pratyātmavedyo hy acalaḥ</l>
+<l>paramādyas trikāyadhṛk //</l>
 </lg>
 <lg xml:id="Mns_59">
-<l>pañcakāyātmako buddhaḥ $ pañcajñānātmako vibhuḥ &amp;</l>
-<l>pañcabuddhātmamakuṭaḥ % pañcacakṣur asaṅgadhṛk //</l>
+<l>pañcakāyātmako buddhaḥ</l>
+<l>pañcajñānātmako vibhuḥ /</l>
+<l>pañcabuddhātmamakuṭaḥ</l>
+<l>pañcacakṣur asaṅgadhṛk //</l>
 </lg>
 <lg xml:id="Mns_60">
-<l>janakaḥ sarvabuddhānāṃ $ buddhaputraḥ paro varaḥ &amp;</l>
-<l>prajñābhavodbhavo 'yonir % dharmayonir bhavāntakṛt //</l>
+<l>janakaḥ sarvabuddhānāṃ</l>
+<l>buddhaputraḥ paro varaḥ /</l>
+<l>prajñābhavodbhavo 'yonir</l>
+<l>dharmayonir bhavāntakṛt //</l>
 </lg>
 <lg xml:id="Mns_61">
-<l>ghanaikasāro vajrātmā $ sadyojāto jagatpatiḥ &amp;</l>
-<l>gaganodbhavaḥ svayaṃbhūḥ % prajñājñānānalo mahān //</l>
+<l>ghanaikasāro vajrātmā</l>
+<l>sadyojāto jagatpatiḥ /</l>
+<l>gaganodbhavaḥ svayaṃbhūḥ</l>
+<l>prajñājñānānalo mahān //</l>
 </lg>
 <lg xml:id="Mns_62">
-<l>vairocano mahādīptir $ jñānajyotir virocanaḥ &amp;</l>
-<l>jagatpradīpo jñānolko % mahātejāḥ prabhāsvaraḥ //</l>
+<l>vairocano mahādīptir</l>
+<l>jñānajyotir virocanaḥ /</l>
+<l>jagatpradīpo jñānolko</l>
+<l>mahātejāḥ prabhāsvaraḥ //</l>
 </lg>
 <lg xml:id="Mns_63">
-<l>vidyārājo 'gramantreśo $ mantrarājā mahārthakṛt &amp;</l>
-<l>mahoṣṇīṣo 'dbhutoṣṇīṣo % viśvadarśī viyatpatiḥ //</l>
+<l>vidyārājo 'gramantreśo</l>
+<l>mantrarājā mahārthakṛt /</l>
+<l>mahoṣṇīṣo 'dbhutoṣṇīṣo</l>
+<l>viśvadarśī viyatpatiḥ //</l>
 </lg>
 <lg xml:id="Mns_64">
-<l>sarvabuddhātmabhāvāgryo $ jagadānandalocanaḥ &amp;</l>
-<l>viśvarūpī vidhātā % ca pūjyo mānyo mahāṛṣiḥ //</l>
+<l>sarvabuddhātmabhāvāgryo</l>
+<l>jagadānandalocanaḥ /</l>
+<l>viśvarūpī vidhātā</l>
+<l>ca pūjyo mānyo mahāṛṣiḥ //</l>
 </lg>
 <lg xml:id="Mns_65">
-<l>kulatrayadharo mantrī $ mahāsamayamantradhṛk &amp;</l>
-<l>ratnatrayadharaḥ śreṣṭhas % triyānottamadeśakaḥ //</l>
+<l>kulatrayadharo mantrī</l>
+<l>mahāsamayamantradhṛk /</l>
+<l>ratnatrayadharaḥ śreṣṭhas</l>
+<l>triyānottamadeśakaḥ //</l>
 </lg>
 <lg xml:id="Mns_66">
-<l>amoghapāśo vijayī $ vajrapāśo mahāgrahaḥ &amp;</l>
-<l>vajrāṅkuśo mahāpāśo % vajrabhairavabhīkaraḥ //</l>
+<l>amoghapāśo vijayī</l>
+<l>vajrapāśo mahāgrahaḥ /</l>
+<l>vajrāṅkuśo mahāpāśo</l>
+<l>vajrabhairavabhīkaraḥ //</l>
 </lg>
 <p xml:id="11">
 suviśuddhadharmadhātujñānagāthāḥ pādonapañcaviṃśatiḥ //
 </p>
 <lg xml:id="Mns_67">
-<l>krodharāṭ ṣaṇmukho bhīmaḥ $ ṣaḍnetraḥ ṣaḍbhujo balī &amp;</l>
-<l>daṃṣṭrākarālakaṅkālo % halāhalaśatānanaḥ //</l>
+<l>krodharāṭ ṣaṇmukho bhīmaḥ</l>
+<l>ṣaḍnetraḥ ṣaḍbhujo balī /</l>
+<l>daṃṣṭrākarālakaṅkālo</l>
+<l>halāhalaśatānanaḥ //</l>
 </lg>
 <lg xml:id="Mns_68">
-<l>yamāntako vighnarāḍ $ vajravego bhayaṃkaraḥ &amp;</l>
-<l>vighuṣṭavajro hṛdvajro % māyāvajro mahodaraḥ //</l>
+<l>yamāntako vighnarāḍ</l>
+<l>vajravego bhayaṃkaraḥ /</l>
+<l>vighuṣṭavajro hṛdvajro</l>
+<l>māyāvajro mahodaraḥ //</l>
 </lg>
 <lg xml:id="Mns_69">
-<l>kuliśeśo vajrayonir $ vajramaṇḍo nabhopamaḥ &amp;</l>
-<l>acalaikajaṭāṭopo % gajacarmapaṭārdradhṛk //</l>
+<l>kuliśeśo vajrayonir</l>
+<l>vajramaṇḍo nabhopamaḥ /</l>
+<l>acalaikajaṭāṭopo</l>
+<l>gajacarmapaṭārdradhṛk //</l>
 </lg>
 <lg xml:id="Mns_70">
-<l>hāhākāro mahāghoro $ hīhīkāro bhayānakaḥ &amp;</l>
-<l>aṭṭahāso mahāhāso % vajrahāso mahāravaḥ //</l>
+<l>hāhākāro mahāghoro</l>
+<l>hīhīkāro bhayānakaḥ /</l>
+<l>aṭṭahāso mahāhāso</l>
+<l>vajrahāso mahāravaḥ //</l>
 </lg>
 <lg xml:id="Mns_71">
-<l>vajrasatvo mahāsatvo $ vajrarājo mahāsukhaḥ &amp;</l>
-<l>vajracaṇḍo mahāmodo % vajrahūṃkārahūṃkṛtiḥ //</l>
+<l>vajrasatvo mahāsatvo</l>
+<l>vajrarājo mahāsukhaḥ /</l>
+<l>vajracaṇḍo mahāmodo</l>
+<l>vajrahūṃkārahūṃkṛtiḥ //</l>
 </lg>
 <lg xml:id="Mns_72">
-<l>vajrabāṇāyudhadharo $ vajrakhaḍgo nikṛntanaḥ &amp;</l>
-<l>viśvavajradharo vajrī % ekavajrī raṇaṃjahaḥ //</l>
+<l>vajrabāṇāyudhadharo</l>
+<l>vajrakhaḍgo nikṛntanaḥ /</l>
+<l>viśvavajradharo vajrī</l>
+<l>ekavajrī raṇaṃjahaḥ //</l>
 </lg>
 <lg xml:id="Mns_73">
-<l>vajrajvālākarālākṣo $ vajrajvālāśiroruhaḥ &amp;</l>
-<l>vajrāveśo mahāveśaḥ % śatākṣo vajralocanaḥ //</l>
+<l>vajrajvālākarālākṣo</l>
+<l>vajrajvālāśiroruhaḥ /</l>
+<l>vajrāveśo mahāveśaḥ</l>
+<l>śatākṣo vajralocanaḥ //</l>
 </lg>
 <lg xml:id="Mns_74">
-<l>vajraromāṅkuratanur $ vajraromaikavigrahaḥ &amp;</l>
-<l>vajrakoṭinakhārambho % vajrasāraghanacchaviḥ //</l>
+<l>vajraromāṅkuratanur</l>
+<l>vajraromaikavigrahaḥ /</l>
+<l>vajrakoṭinakhārambho</l>
+<l>vajrasāraghanacchaviḥ //</l>
 </lg>
 <lg xml:id="Mns_75">
-<l>vajramālādharaḥ śrīmāṃ $ vajrābharaṇabhūṣitaḥ &amp;</l>
-<l>hāhāṭṭahāsa nirghoṣo % vajraghoṣaḥ ṣaḍakṣaraḥ //</l>
+<l>vajramālādharaḥ śrīmāṃ</l>
+<l>vajrābharaṇabhūṣitaḥ /</l>
+<l>hāhāṭṭahāsa nirghoṣo</l>
+<l>vajraghoṣaḥ ṣaḍakṣaraḥ //</l>
 </lg>
 <lg xml:id="Mns_76">
-<l>mañjughoṣo mahānādas $ trailokyaikavaro mahān &amp;</l>
-<l>ākāśadhātuparyanto % ghoṣo ghoṣavatāṃ varaḥ //</l>
+<l>mañjughoṣo mahānādas</l>
+<l>trailokyaikavaro mahān /</l>
+<l>ākāśadhātuparyanto</l>
+<l>ghoṣo ghoṣavatāṃ varaḥ //</l>
 </lg>
 <p xml:id="12">
 ādarśajñānagāthāḥ pādonasārdhadaśa //
 </p>
 <lg xml:id="Mns_77">
-<l>tathātābhūtanairātmyaṃ $ bhūtakoṭir anakṣaraḥ &amp;</l>
-<l>śūnyatāvādivṛṣabho % gambhīrodāragarjanaḥ //</l>
+<l>tathātābhūtanairātmyaṃ</l>
+<l>bhūtakoṭir anakṣaraḥ /</l>
+<l>śūnyatāvādivṛṣabho</l>
+<l>gambhīrodāragarjanaḥ //</l>
 </lg>
 <lg xml:id="Mns_78">
-<l>dharmaśaṅkho mahāśabdo $ dharmagaṇḍī mahāraṇaḥ &amp;</l>
-<l>apratiṣṭhitanirvāṇo % daśadigdharmadundubhiḥ //</l>
+<l>dharmaśaṅkho mahāśabdo</l>
+<l>dharmagaṇḍī mahāraṇaḥ /</l>
+<l>apratiṣṭhitanirvāṇo</l>
+<l>daśadigdharmadundubhiḥ //</l>
 </lg>
 <lg xml:id="Mns_79">
-<l>arūpo rūpavān agryo $ nānārūpo manomayaḥ &amp;</l>
-<l>sarvarūpāvabhāsaśrīr % aśeṣapratibimbadhṛk //</l>
+<l>arūpo rūpavān agryo</l>
+<l>nānārūpo manomayaḥ /</l>
+<l>sarvarūpāvabhāsaśrīr</l>
+<l>aśeṣapratibimbadhṛk //</l>
 </lg>
 <lg xml:id="Mns_80">
-<l>apradhṛṣyo maheśākhyas $ traidhātukamaheśvaraḥ &amp;</l>
-<l>samucchritāryamārgastho % dharmaketur mahodayaḥ //</l>
+<l>apradhṛṣyo maheśākhyas</l>
+<l>traidhātukamaheśvaraḥ /</l>
+<l>samucchritāryamārgastho</l>
+<l>dharmaketur mahodayaḥ //</l>
 </lg>
 <lg xml:id="Mns_81">
-<l>trailokyaikakumārāṅgaḥ $ sthaviro vṛddhaḥ prajāpatiḥ &amp;</l>
-<l>dvātriṃśallakṣaṇadharaḥ % kāntas trailokyasundaraḥ //</l>
+<l>trailokyaikakumārāṅgaḥ</l>
+<l>sthaviro vṛddhaḥ prajāpatiḥ /</l>
+<l>dvātriṃśallakṣaṇadharaḥ</l>
+<l>kāntas trailokyasundaraḥ //</l>
 </lg>
 <lg xml:id="Mns_82">
-<l>lokajñānaguṇācāryo $ lokācāryo viśāradaḥ &amp;</l>
-<l>nāthas trātā trilokāptaḥ % śaraṇaṃ tāyī niruttaraḥ //</l>
+<l>lokajñānaguṇācāryo</l>
+<l>lokācāryo viśāradaḥ /</l>
+<l>nāthas trātā trilokāptaḥ</l>
+<l>śaraṇaṃ tāyī niruttaraḥ //</l>
 </lg>
 <lg xml:id="Mns_83">
-<l>gaganābhogasaṃbhogaḥ $ sarvajñajñānasāgaraḥ &amp;</l>
-<l>avidyāṇḍakośasaṃbhettā % bhavapañjaradāraṇaḥ //</l>
+<l>gaganābhogasaṃbhogaḥ</l>
+<l>sarvajñajñānasāgaraḥ /</l>
+<l>avidyāṇḍakośasaṃbhettā</l>
+<l>bhavapañjaradāraṇaḥ //</l>
 </lg>
 <lg xml:id="Mns_84">
-<l>śamitāśeṣasaṃkleśaḥ $ saṃsārārṇavapāragaḥ &amp;</l>
-<l>jñānābhiṣekamakuṭaḥ % samyaksaṃbuddhabhūṣaṇaḥ //</l>
+<l>śamitāśeṣasaṃkleśaḥ</l>
+<l>saṃsārārṇavapāragaḥ /</l>
+<l>jñānābhiṣekamakuṭaḥ</l>
+<l>samyaksaṃbuddhabhūṣaṇaḥ //</l>
 </lg>
 <lg xml:id="Mns_85">
-<l>triduḥkhaduḥkhaśamanas $ tryanto 'nantas trimuktigaḥ &amp;</l>
-<l>sarvāvaraṇanirmukta % ākāśasamatāṃgataḥ //</l>
+<l>triduḥkhaduḥkhaśamanas</l>
+<l>tryanto 'nantas trimuktigaḥ /</l>
+<l>sarvāvaraṇanirmukta</l>
+<l>ākāśasamatāṃgataḥ //</l>
 </lg>
 <lg xml:id="Mns_86">
-<l>sarvakleśamalātītas $ tryadhvānadhvagatiṃgataḥ &amp;</l>
-<l>sarvasatvamahānāgo % guṇaśekharaśekharaḥ //</l>
+<l>sarvakleśamalātītas</l>
+<l>tryadhvānadhvagatiṃgataḥ /</l>
+<l>sarvasatvamahānāgo</l>
+<l>guṇaśekharaśekharaḥ //</l>
 </lg>
 <lg xml:id="Mns_87">
-<l>sarvopadhivinirmukto $ vyomavartmani susthitaḥ &amp;</l>
-<l>mahācintāmaṇidharaḥ % sarvaratnottamo vibhuḥ //</l>
+<l>sarvopadhivinirmukto</l>
+<l>vyomavartmani susthitaḥ /</l>
+<l>mahācintāmaṇidharaḥ</l>
+<l>sarvaratnottamo vibhuḥ //</l>
 </lg>
 <lg xml:id="Mns_88">
-<l>mahākalpataruḥ sphīto $ mahābhadraghaṭottamaḥ &amp;</l>
-<l>sarvasatvārthakṛt kartā % hitaiṣī satvavatsalaḥ //</l>
+<l>mahākalpataruḥ sphīto</l>
+<l>mahābhadraghaṭottamaḥ /</l>
+<l>sarvasatvārthakṛt kartā</l>
+<l>hitaiṣī satvavatsalaḥ //</l>
 </lg>
 <lg xml:id="Mns_89">
-<l>śubhāśubhajñaḥ kālajñaḥ $ samayajñaḥ samayī vibhuḥ &amp;</l>
-<l>satvendriyajño velajño % vimuktitrayakovidaḥ //</l>
+<l>śubhāśubhajñaḥ kālajñaḥ</l>
+<l>samayajñaḥ samayī vibhuḥ /</l>
+<l>satvendriyajño velajño</l>
+<l>vimuktitrayakovidaḥ //</l>
 </lg>
 <lg xml:id="Mns_90">
-<l>guṇī guṇajño dharmajñaḥ $ praśasto maṅgalodayaḥ &amp;</l>
-<l>sarvamaṅgalamāṅgalyaḥ % kīrtir lakṣmīr yaśaḥ śubhaḥ //</l>
+<l>guṇī guṇajño dharmajñaḥ</l>
+<l>praśasto maṅgalodayaḥ /</l>
+<l>sarvamaṅgalamāṅgalyaḥ</l>
+<l>kīrtir lakṣmīr yaśaḥ śubhaḥ //</l>
 </lg>
 <lg xml:id="Mns_91">
-<l>mahotsavo mahāśvāso $ mahānando mahāratiḥ &amp;</l>
-<l>satkāraḥ satkṛtir bhūtiḥ % pramodaḥ śrīr yaśaspatiḥ //</l>
+<l>mahotsavo mahāśvāso</l>
+<l>mahānando mahāratiḥ /</l>
+<l>satkāraḥ satkṛtir bhūtiḥ</l>
+<l>pramodaḥ śrīr yaśaspatiḥ //</l>
 </lg>
 <lg xml:id="Mns_92">
-<l>vareṇyo varadaḥ śreṣṭhaḥ $ śaraṇyaḥ śaraṇottamaḥ &amp;</l>
-<l>mahābhayāriḥ pravaro % niḥśeṣabhayanāśanaḥ //</l>
+<l>vareṇyo varadaḥ śreṣṭhaḥ</l>
+<l>śaraṇyaḥ śaraṇottamaḥ /</l>
+<l>mahābhayāriḥ pravaro</l>
+<l>niḥśeṣabhayanāśanaḥ //</l>
 </lg>
 <lg xml:id="Mns_93">
-<l>śikhī śikhaṇḍī jaṭilo $ jaṭī mauṇḍī kirīṭimān &amp;</l>
-<l>pañcānanaḥ pañcaśikhaḥ % pañcacīrakaśekharaḥ //</l>
+<l>śikhī śikhaṇḍī jaṭilo</l>
+<l>jaṭī mauṇḍī kirīṭimān /</l>
+<l>pañcānanaḥ pañcaśikhaḥ</l>
+<l>pañcacīrakaśekharaḥ //</l>
 </lg>
 <lg xml:id="Mns_94">
-<l>mahāvratadharo mauñjī $ brahmacārī vratottamaḥ &amp;</l>
-<l>mahātapās taponiṣṭhaḥ % snātako gautamo 'graṇīḥ //</l>
+<l>mahāvratadharo mauñjī</l>
+<l>brahmacārī vratottamaḥ /</l>
+<l>mahātapās taponiṣṭhaḥ</l>
+<l>snātako gautamo 'graṇīḥ //</l>
 </lg>
 <lg xml:id="Mns_95">
-<l>brahmavid brāhmaṇo brahmā $ brahmanirvāṇam āptavān &amp;</l>
-<l>muktir mokṣo vimokṣāṅgo % vimuktiḥ śāntatā śivaḥ //</l>
+<l>brahmavid brāhmaṇo brahmā</l>
+<l>brahmanirvāṇam āptavān /</l>
+<l>muktir mokṣo vimokṣāṅgo</l>
+<l>vimuktiḥ śāntatā śivaḥ //</l>
 </lg>
 <lg xml:id="Mns_96">
-<l>nirvāṇaṃ nirvṛtiḥ śāntiḥ $ śreyo niryāṇam antakaḥ &amp;</l>
-<l>sukhaduḥkhāntakṛn niṣṭhā % vairāgyam upadhikṣayaḥ //</l>
+<l>nirvāṇaṃ nirvṛtiḥ śāntiḥ</l>
+<l>śreyo niryāṇam antakaḥ /</l>
+<l>sukhaduḥkhāntakṛn niṣṭhā</l>
+<l>vairāgyam upadhikṣayaḥ //</l>
 </lg>
 <lg xml:id="Mns_97">
-<l>ajayo 'nupamo 'vyakto $ nirābhāso nirañjanaḥ &amp;</l>
-<l>niṣkalaḥ sarvago vyāpī % sūkṣmo bījam anāsravaḥ //</l>
+<l>ajayo 'nupamo 'vyakto</l>
+<l>nirābhāso nirañjanaḥ /</l>
+<l>niṣkalaḥ sarvago vyāpī</l>
+<l>sūkṣmo bījam anāsravaḥ //</l>
 </lg>
 <lg xml:id="Mns_98">
-<l>arajo virajo vimalo $ vāntadoṣo nirāmayaḥ &amp;</l>
-<l>suprabuddho vibuddhātmā % sarvajñaḥ sarvavit paraḥ //</l>
+<l>arajo virajo vimalo</l>
+<l>vāntadoṣo nirāmayaḥ /</l>
+<l>suprabuddho vibuddhātmā</l>
+<l>sarvajñaḥ sarvavit paraḥ //</l>
 </lg>
 <lg xml:id="Mns_99">
-<l>vijñānadharmatātīto $ jñānam advayarūpadhṛk &amp;</l>
-<l>nirvikalpo nirābhogas % tryadhvasaṃbuddhakāryakṛt //</l>
+<l>vijñānadharmatātīto</l>
+<l>jñānam advayarūpadhṛk /</l>
+<l>nirvikalpo nirābhogas</l>
+<l>tryadhvasaṃbuddhakāryakṛt //</l>
 </lg>
 <lg xml:id="Mns_100">
-<l>anādinidhano buddha $ ādibuddho niranyvayaḥ &amp;</l>
-<l>jñānaikacakṣur amalo % jñānamūrtis tathāgataḥ //</l>
+<l>anādinidhano buddha</l>
+<l>ādibuddho niranyvayaḥ /</l>
+<l>jñānaikacakṣur amalo</l>
+<l>jñānamūrtis tathāgataḥ //</l>
 </lg>
 <lg xml:id="Mns_101">
-<l>vāgīśvaro mahāvādī $ vādirāḍ vādipuṃgavaḥ &amp;</l>
-<l>vadatāṃ varo variṣṭho % vādisiṃho 'parājitaḥ //</l>
+<l>vāgīśvaro mahāvādī</l>
+<l>vādirāḍ vādipuṃgavaḥ /</l>
+<l>vadatāṃ varo variṣṭho</l>
+<l>vādisiṃho 'parājitaḥ //</l>
 </lg>
 <lg xml:id="Mns_102">
-<l>samantadarśī prāmodyas $ tejomālī sudarśanaḥ &amp;</l>
-<l>śrīvatsaḥ suprabho dīptir % bhā bhāsurakaradyutiḥ //</l>
+<l>samantadarśī prāmodyas</l>
+<l>tejomālī sudarśanaḥ /</l>
+<l>śrīvatsaḥ suprabho dīptir</l>
+<l>bhā bhāsurakaradyutiḥ //</l>
 </lg>
 <lg xml:id="Mns_103">
-<l>mahābhiṣagvaraḥ śreṣṭhaḥ $ śalyahartā niruttaraḥ &amp;</l>
-<l>aśeṣabhaiṣajyataruḥ % kleśavyādhimahāripuḥ //</l>
+<l>mahābhiṣagvaraḥ śreṣṭhaḥ</l>
+<l>śalyahartā niruttaraḥ /</l>
+<l>aśeṣabhaiṣajyataruḥ</l>
+<l>kleśavyādhimahāripuḥ //</l>
 </lg>
 <lg xml:id="Mns_104">
-<l>trailokyatilakaḥ kāntaḥ $ śrīmāṃ nakṣatramaṇḍalaḥ &amp;</l>
-<l>daśadigvyomaparyanto % dharmadhvajamahocchrayaḥ //</l>
+<l>trailokyatilakaḥ kāntaḥ</l>
+<l>śrīmāṃ nakṣatramaṇḍalaḥ /</l>
+<l>daśadigvyomaparyanto</l>
+<l>dharmadhvajamahocchrayaḥ //</l>
 </lg>
 <lg xml:id="Mns_105">
-<l>jagacchatraikavipulo $ maitrīkaruṇāmaṇḍalaḥ &amp;</l>
-<l>padmanarteśvaraḥ śrīmāṃ % ratnacchatro mahāvibhuḥ //</l>
+<l>jagacchatraikavipulo</l>
+<l>maitrīkaruṇāmaṇḍalaḥ /</l>
+<l>padmanarteśvaraḥ śrīmāṃ</l>
+<l>ratnacchatro mahāvibhuḥ //</l>
 </lg>
 <lg xml:id="Mns_106">
-<l>sarvabuddhamahārājā $ sarvabuddhātmabhāvadhṛk &amp;</l>
-<l>sarvabuddhamahāyogaḥ % sarvabuddhaikaśāsanaḥ //</l>
+<l>sarvabuddhamahārājā</l>
+<l>sarvabuddhātmabhāvadhṛk /</l>
+<l>sarvabuddhamahāyogaḥ</l>
+<l>sarvabuddhaikaśāsanaḥ //</l>
 </lg>
 <lg xml:id="Mns_107">
-<l>vajraratnābhiṣekaśrīḥ $ sarvaratnādhipeśvaraḥ &amp;</l>
-<l>sarvalokeśvarapatiḥ % sarvavajradharādhipaḥ //</l>
+<l>vajraratnābhiṣekaśrīḥ</l>
+<l>sarvaratnādhipeśvaraḥ /</l>
+<l>sarvalokeśvarapatiḥ</l>
+<l>sarvavajradharādhipaḥ //</l>
 </lg>
 <lg xml:id="Mns_108">
-<l>sarvabuddhamahācittaḥ $ sarvabuddhamanogatiḥ &amp;</l>
-<l>sarvabuddhamahākāyaḥ % sarvabuddhasarasvatiḥ //</l>
+<l>sarvabuddhamahācittaḥ</l>
+<l>sarvabuddhamanogatiḥ /</l>
+<l>sarvabuddhamahākāyaḥ</l>
+<l>sarvabuddhasarasvatiḥ //</l>
 </lg>
 <lg xml:id="Mns_109">
-<l>vajrasūryo mahāloko $ vajrendruvimalaprabhaḥ &amp;</l>
-<l>virāgādimahārāgo % viśvavarṇojjvalaprabhaḥ //</l>
+<l>vajrasūryo mahāloko</l>
+<l>vajrendruvimalaprabhaḥ /</l>
+<l>virāgādimahārāgo</l>
+<l>viśvavarṇojjvalaprabhaḥ //</l>
 </lg>
 <lg xml:id="Mns_110">
-<l>saṃbuddhavajraparyaṅko $ buddhasaṃgītidharmadhṛk &amp;</l>
-<l>buddhapadmodbhavaḥ śrīmāṃ % sarvajñajñānakośadhṛk //</l>
+<l>saṃbuddhavajraparyaṅko</l>
+<l>buddhasaṃgītidharmadhṛk /</l>
+<l>buddhapadmodbhavaḥ śrīmāṃ</l>
+<l>sarvajñajñānakośadhṛk //</l>
 </lg>
 <lg xml:id="Mns_111">
-<l>viśvamāyādharo rājā $ buddhavidyādharo mahān &amp;</l>
-<l>vajratīkṣṇo mahākhaḍgo % viśuddhaḥ paramākṣaraḥ //</l>
+<l>viśvamāyādharo rājā</l>
+<l>buddhavidyādharo mahān /</l>
+<l>vajratīkṣṇo mahākhaḍgo</l>
+<l>viśuddhaḥ paramākṣaraḥ //</l>
 </lg>
 <lg xml:id="Mns_112">
-<l>duḥkhacchedamahāyāno $ vajradharmamahāyudhaḥ &amp;</l>
-<l>jinajig vajragāmbhīryo % vajrabuddhir yathārthavit //</l>
+<l>duḥkhacchedamahāyāno</l>
+<l>vajradharmamahāyudhaḥ /</l>
+<l>jinajig vajragāmbhīryo</l>
+<l>vajrabuddhir yathārthavit //</l>
 </lg>
 <lg xml:id="Mns_113">
-<l>sarvapāramitāpūrī $ sarvabhūmivibhūṣaṇaḥ &amp;</l>
-<l>viśuddhadharmanairātmyaṃ % samyagjñānenduhṛtprabhaḥ //</l>
+<l>sarvapāramitāpūrī</l>
+<l>sarvabhūmivibhūṣaṇaḥ /</l>
+<l>viśuddhadharmanairātmyaṃ</l>
+<l>samyagjñānenduhṛtprabhaḥ //</l>
 </lg>
 <lg xml:id="Mns_114">
-<l>māyājālamahodyogaḥ $ sarvatantrādhipaḥ paraḥ &amp;</l>
-<l>aśeṣavajraparyaṅko % niḥśeṣajñānakāyadhṛk //</l>
+<l>māyājālamahodyogaḥ</l>
+<l>sarvatantrādhipaḥ paraḥ /</l>
+<l>aśeṣavajraparyaṅko</l>
+<l>niḥśeṣajñānakāyadhṛk //</l>
 </lg>
 <lg xml:id="Mns_115">
-<l>samantabhadraḥ sumatiḥ $ kṣitigarbho jagaddhṛtiḥ &amp;</l>
-<l>sarvabuddhamahāgarbho % viśvanirmāṇacakradhṛk //</l>
+<l>samantabhadraḥ sumatiḥ</l>
+<l>kṣitigarbho jagaddhṛtiḥ /</l>
+<l>sarvabuddhamahāgarbho</l>
+<l>viśvanirmāṇacakradhṛk //</l>
 </lg>
 <lg xml:id="Mns_116">
-<l>sarvabhāvasvabhāvāgryaḥ $ sarvabhāvasvabhāvadhṛk &amp;</l>
-<l>anutpādadharmā viśvārthaḥ % sarvadharmasvabhāvadhṛk //</l>
+<l>sarvabhāvasvabhāvāgryaḥ</l>
+<l>sarvabhāvasvabhāvadhṛk /</l>
+<l>anutpādadharmā viśvārthaḥ</l>
+<l>sarvadharmasvabhāvadhṛk //</l>
 </lg>
 <lg xml:id="Mns_117">
-<l>ekakṣaṇamahāprājñaḥ $ sarvadharmāvabodhadhṛk &amp;</l>
-<l>sarvadharmābhisamayo % bhūtāntamunir agradhīḥ //</l>
+<l>ekakṣaṇamahāprājñaḥ</l>
+<l>sarvadharmāvabodhadhṛk /</l>
+<l>sarvadharmābhisamayo</l>
+<l>bhūtāntamunir agradhīḥ //</l>
 </lg>
 <lg xml:id="Mns_118">
-<l>stimitaḥ suprasannātmā $ samyaksaṃbuddhabodhidhṛk &amp;</l>
-<l>pratyakṣaḥ sarvabuddhānāṃ % jñānārciḥ suprabhāsvaraḥ //</l>
+<l>stimitaḥ suprasannātmā</l>
+<l>samyaksaṃbuddhabodhidhṛk /</l>
+<l>pratyakṣaḥ sarvabuddhānāṃ</l>
+<l>jñānārciḥ suprabhāsvaraḥ //</l>
 </lg>
 <p xml:id="13">
 pratyavekṣaṇājñānagāthā dvācatvāriṃśat
 </p>
 <lg xml:id="Mns_119">
-<l>iṣṭārthasādhakaḥ paraḥ $ sarvāpāyaviśodhakaḥ &amp;</l>
-<l>sarvasatvottamo nāthaḥ % sarvasatvapramocakaḥ //</l>
+<l>iṣṭārthasādhakaḥ paraḥ</l>
+<l>sarvāpāyaviśodhakaḥ /</l>
+<l>sarvasatvottamo nāthaḥ</l>
+<l>sarvasatvapramocakaḥ //</l>
 </lg>
 <lg xml:id="Mns_120">
-<l>kleśasaṃgrāmaśūraikaḥ $ ajñānaripudarpahā &amp;</l>
-<l>dhīḥ śṛṅgāradharaḥ śrīmān % vīrabībhatsarūpadhṛk //</l>
+<l>kleśasaṃgrāmaśūraikaḥ</l>
+<l>ajñānaripudarpahā /</l>
+<l>dhīḥ śṛṅgāradharaḥ śrīmān</l>
+<l>vīrabībhatsarūpadhṛk //</l>
 </lg>
 <lg xml:id="Mns_121">
-<l>bāhudaṇḍaśatākṣepaḥ $ padanikṣepanartanaḥ &amp;</l>
-<l>śrīmacchatabhujābhogo % gaganābhoganartanaḥ //</l>
+<l>bāhudaṇḍaśatākṣepaḥ</l>
+<l>padanikṣepanartanaḥ /</l>
+<l>śrīmacchatabhujābhogo</l>
+<l>gaganābhoganartanaḥ //</l>
 </lg>
 <lg xml:id="Mns_122">
-<l>ekapādatalākrānta- $ mahīmaṇḍatale sthitaḥ &amp;</l>
-<l>brahmāṇḍaśikharākrānta- % pādāṅguṣṭhanakhe sthitaḥ //</l>
+<l>ekapādatalākrānta-</l>
+<l>mahīmaṇḍatale sthitaḥ /</l>
+<l>brahmāṇḍaśikharākrānta-</l>
+<l>pādāṅguṣṭhanakhe sthitaḥ //</l>
 </lg>
 <lg xml:id="Mns_123">
-<l>ekārtho 'dvayadharmārthaḥ $ paramārtho 'vinaśvaraḥ &amp;</l>
-<l>nānāvijñaptirūpārthaś % cittavijñānasantati //</l>
+<l>ekārtho 'dvayadharmārthaḥ</l>
+<l>paramārtho 'vinaśvaraḥ /</l>
+<l>nānāvijñaptirūpārthaś</l>
+<l>cittavijñānasantati //</l>
 </lg>
 <lg xml:id="Mns_124">
-<l>aśeṣabhāvārtharatiḥ $ śūnyatāratir agradhīḥ &amp;</l>
-<l>bhavarāgādyatītaś ca % bhavatrayamahāratiḥ //</l>
+<l>aśeṣabhāvārtharatiḥ</l>
+<l>śūnyatāratir agradhīḥ /</l>
+<l>bhavarāgādyatītaś ca</l>
+<l>bhavatrayamahāratiḥ //</l>
 </lg>
 <lg xml:id="Mns_125">
-<l>śuddhaśubhrābhradhavalaḥ $ śaraccandrāṃśusuprabhaḥ &amp;</l>
-<l>bālārkamaṇḍalacchāyo % mahārāganakhaprabhaḥ //</l>
+<l>śuddhaśubhrābhradhavalaḥ</l>
+<l>śaraccandrāṃśusuprabhaḥ /</l>
+<l>bālārkamaṇḍalacchāyo</l>
+<l>mahārāganakhaprabhaḥ //</l>
 </lg>
 <lg xml:id="Mns_126">
-<l>indranīlāgrasaccīro $ mahānīlakacāgradhṛk &amp;</l>
-<l>mahāmaṇimayūkhaśrīr % buddhanirmāṇabhūṣaṇaḥ //</l>
+<l>indranīlāgrasaccīro</l>
+<l>mahānīlakacāgradhṛk /</l>
+<l>mahāmaṇimayūkhaśrīr</l>
+<l>buddhanirmāṇabhūṣaṇaḥ //</l>
 </lg>
 <lg xml:id="Mns_127">
-<l>lokadhātuśatākampī $ ṛddhipādamahākramaḥ &amp;</l>
-<l>mahāsmṛtidharas tattvaś % catuḥsmṛtisamādhirāṭ //</l>
+<l>lokadhātuśatākampī</l>
+<l>ṛddhipādamahākramaḥ /</l>
+<l>mahāsmṛtidharas tattvaś</l>
+<l>catuḥsmṛtisamādhirāṭ //</l>
 </lg>
 <lg xml:id="Mns_128">
-<l>bodhyaṃgakusumāmodas $ tathāgataguṇodadhiḥ &amp;</l>
-<l>aṣṭāṅgamārganayavit % samyaksaṃbuddhamārgavit //</l>
+<l>bodhyaṃgakusumāmodas</l>
+<l>tathāgataguṇodadhiḥ /</l>
+<l>aṣṭāṅgamārganayavit</l>
+<l>samyaksaṃbuddhamārgavit //</l>
 </lg>
 <lg xml:id="Mns_129">
-<l>sarvasatvamahāsaṅgo $ niḥsaṅgo gaganopamaḥ &amp;</l>
-<l>sarvasatvamanojātaḥ % sarvasatvamanojavaḥ //</l>
+<l>sarvasatvamahāsaṅgo</l>
+<l>niḥsaṅgo gaganopamaḥ /</l>
+<l>sarvasatvamanojātaḥ</l>
+<l>sarvasatvamanojavaḥ //</l>
 </lg>
 <lg xml:id="Mns_130">
-<l>sarvasatvendriyārthajñaḥ $ sarvasatvamanoharaḥ &amp;</l>
-<l>pañcaskandhārthatatvajñaḥ % pañcaskandhaviśuddhadhṛk //</l>
+<l>sarvasatvendriyārthajñaḥ</l>
+<l>sarvasatvamanoharaḥ /</l>
+<l>pañcaskandhārthatatvajñaḥ</l>
+<l>pañcaskandhaviśuddhadhṛk //</l>
 </lg>
 <lg xml:id="Mns_131">
-<l>sarvaniryāṇakoṭisthaḥ $ sarvaniryāṇakovidaḥ &amp;</l>
-<l>sarvaniryāṇamārgasthaḥ % sarvaniryāṇadeśakaḥ //</l>
+<l>sarvaniryāṇakoṭisthaḥ</l>
+<l>sarvaniryāṇakovidaḥ /</l>
+<l>sarvaniryāṇamārgasthaḥ</l>
+<l>sarvaniryāṇadeśakaḥ //</l>
 </lg>
 <lg xml:id="Mns_132">
-<l>dvādaśāṅgabhavotkhāto $ dvādaśākāraśuddhadhṛk &amp;</l>
-<l>catuḥsatyanayākāro % aṣṭajñānāvabodhadhṛk //</l>
+<l>dvādaśāṅgabhavotkhāto</l>
+<l>dvādaśākāraśuddhadhṛk /</l>
+<l>catuḥsatyanayākāro</l>
+<l>aṣṭajñānāvabodhadhṛk //</l>
 </lg>
 <lg xml:id="Mns_133">
-<l>dvādaśākārasatyārthaḥ $ ṣoḍaśākāratattvavit &amp;</l>
-<l>viṃśatyākārasaṃbodhir % vibuddhaḥ sarvavit paraḥ //</l>
+<l>dvādaśākārasatyārthaḥ</l>
+<l>ṣoḍaśākāratattvavit /</l>
+<l>viṃśatyākārasaṃbodhir</l>
+<l>vibuddhaḥ sarvavit paraḥ //</l>
 </lg>
 <lg xml:id="Mns_134">
-<l>ameyabuddhanirmāṇa- $ kāyakoṭivibhāvakaḥ &amp;</l>
-<l>sarvakṣaṇābhisamayaḥ % sarvacittakṣaṇārthavit //</l>
+<l>ameyabuddhanirmāṇa-</l>
+<l>kāyakoṭivibhāvakaḥ /</l>
+<l>sarvakṣaṇābhisamayaḥ</l>
+<l>sarvacittakṣaṇārthavit //</l>
 </lg>
 <lg xml:id="Mns_135">
-<l>nānāyānanayopāya- $ jagadarthavibhāvakaḥ &amp;</l>
-<l>yānatritayaniryāta % ekayānaphale sthitaḥ //</l>
+<l>nānāyānanayopāya-</l>
+<l>jagadarthavibhāvakaḥ /</l>
+<l>yānatritayaniryāta</l>
+<l>ekayānaphale sthitaḥ //</l>
 </lg>
 <lg xml:id="Mns_136">
-<l>kleśadhātuviśuddhātmā $ karmadhātukṣayaṃkaraḥ &amp;</l>
-<l>oghodadhisamuttīrṇo % yogakāntāraniḥsṛtaḥ //</l>
+<l>kleśadhātuviśuddhātmā</l>
+<l>karmadhātukṣayaṃkaraḥ /</l>
+<l>oghodadhisamuttīrṇo</l>
+<l>yogakāntāraniḥsṛtaḥ //</l>
 </lg>
 <lg xml:id="Mns_137">
-<l>kleśopakleśasaṃkleśa- $ suprahīṇasavāsanaḥ &amp;</l>
-<l>prajñopāyamahākaruṇā % amoghajagadarthakṛt //</l>
+<l>kleśopakleśasaṃkleśa-</l>
+<l>suprahīṇasavāsanaḥ /</l>
+<l>prajñopāyamahākaruṇā</l>
+<l>amoghajagadarthakṛt //</l>
 </lg>
 <lg xml:id="Mns_138">
-<l>sarvasaṃjñāprahīṇārtho $ vijñānārtho nirodhadhṛk &amp;</l>
-<l>sarvasatvamanoviṣayaḥ % sarvasatvamanogatiḥ //</l>
+<l>sarvasaṃjñāprahīṇārtho</l>
+<l>vijñānārtho nirodhadhṛk /</l>
+<l>sarvasatvamanoviṣayaḥ</l>
+<l>sarvasatvamanogatiḥ //</l>
 </lg>
 <lg xml:id="Mns_139">
-<l>sarvasatvamano 'ntasthas $ taccittasamatāṃgataḥ &amp;</l>
-<l>sarvasatvamanohlādī % sarvasatvamanoratiḥ //</l>
+<l>sarvasatvamano 'ntasthas</l>
+<l>taccittasamatāṃgataḥ /</l>
+<l>sarvasatvamanohlādī</l>
+<l>sarvasatvamanoratiḥ //</l>
 </lg>
 <lg xml:id="Mns_140">
-<l>siddhānto vibhramāpetaḥ $ sarvabhrāntivivarjitaḥ &amp;</l>
-<l>niḥsandigdhamatis tryarthaḥ % sarvārthas triguṇātmakaḥ //</l>
+<l>siddhānto vibhramāpetaḥ</l>
+<l>sarvabhrāntivivarjitaḥ /</l>
+<l>niḥsandigdhamatis tryarthaḥ</l>
+<l>sarvārthas triguṇātmakaḥ //</l>
 </lg>
 <lg xml:id="Mns_141">
-<l>pañcaskandhārthas triṣkālaḥ $ sarvakṣaṇavibhāvakaḥ &amp;</l>
-<l>ekakṣaṇābhisaṃbuddhaḥ % sarvabuddhasvabhāvadhṛk //</l>
+<l>pañcaskandhārthas triṣkālaḥ</l>
+<l>sarvakṣaṇavibhāvakaḥ /</l>
+<l>ekakṣaṇābhisaṃbuddhaḥ</l>
+<l>sarvabuddhasvabhāvadhṛk //</l>
 </lg>
 <lg xml:id="Mns_142">
-<l>anaṅgakāyaḥ kāyāgryaḥ $ kāyakoṭivibhāvakaḥ &amp;</l>
-<l>aśeṣarūpasaṃdarśī % ratnaketur mahāmaṇiḥ //</l>
+<l>anaṅgakāyaḥ kāyāgryaḥ</l>
+<l>kāyakoṭivibhāvakaḥ /</l>
+<l>aśeṣarūpasaṃdarśī</l>
+<l>ratnaketur mahāmaṇiḥ //</l>
 </lg>
 <p xml:id="14">
 samatājñānagāthāś caturviṃśatiḥ
 </p>
 <lg xml:id="Mns_143">
-<l>sarvasaṃbuddhaboddhavyo $ buddhabodhir anuttaraḥ &amp;</l>
-<l>anakṣaro mantrayonir % mahāmantrakulatrayaḥ //</l>
+<l>sarvasaṃbuddhaboddhavyo</l>
+<l>buddhabodhir anuttaraḥ /</l>
+<l>anakṣaro mantrayonir</l>
+<l>mahāmantrakulatrayaḥ //</l>
 </lg>
 <lg xml:id="Mns_144">
-<l>sarvamantrārthajanako $ mahābindur anakṣaraḥ &amp;</l>
-<l>pañcākṣaro mahāśūnyo % binduśūnyaḥ śatākṣaraḥ //</l>
+<l>sarvamantrārthajanako</l>
+<l>mahābindur anakṣaraḥ /</l>
+<l>pañcākṣaro mahāśūnyo</l>
+<l>binduśūnyaḥ śatākṣaraḥ //</l>
 </lg>
 <lg xml:id="Mns_145">
-<l>sarvākāro nirākāraḥ $ ṣoḍaśārdhārdhabindudhṛk &amp;</l>
-<l>akalaḥ kalanātītaś % caturthadhyānakoṭidhṛk //</l>
+<l>sarvākāro nirākāraḥ</l>
+<l>ṣoḍaśārdhārdhabindudhṛk /</l>
+<l>akalaḥ kalanātītaś</l>
+<l>caturthadhyānakoṭidhṛk //</l>
 </lg>
 <lg xml:id="Mns_146">
-<l>sarvadhyānakalābhijñaḥ $ samādhikulagotravit &amp;</l>
-<l>samādhikāyo kāyāgryaḥ % sarvasaṃbhogakāyarāṭ //</l>
+<l>sarvadhyānakalābhijñaḥ</l>
+<l>samādhikulagotravit /</l>
+<l>samādhikāyo kāyāgryaḥ</l>
+<l>sarvasaṃbhogakāyarāṭ //</l>
 </lg>
 <lg xml:id="Mns_147">
-<l>nirmāṇakāyo kāyāgryo $ buddhanirmāṇavaṃśadhṛk &amp;</l>
-<l>daśadigviśvanirmāṇo % yathāvajjagadarthakṛt //</l>
+<l>nirmāṇakāyo kāyāgryo</l>
+<l>buddhanirmāṇavaṃśadhṛk /</l>
+<l>daśadigviśvanirmāṇo</l>
+<l>yathāvajjagadarthakṛt //</l>
 </lg>
 <lg xml:id="Mns_148">
-<l>devātidevo devendraḥ $ surendro dānavādhipaḥ &amp;</l>
-<l>amarendraḥ suraguruḥ % pramathaḥ pramatheśvaraḥ //</l>
+<l>devātidevo devendraḥ</l>
+<l>surendro dānavādhipaḥ /</l>
+<l>amarendraḥ suraguruḥ</l>
+<l>pramathaḥ pramatheśvaraḥ //</l>
 </lg>
 <lg xml:id="Mns_149">
-<l>uttīrṇabhavakāntāra $ ekaḥ śāstā jagadguruḥ &amp;</l>
-<l>prakhyāto daśadigloka- % dharmadānapatir mahān //</l>
+<l>uttīrṇabhavakāntāra</l>
+<l>ekaḥ śāstā jagadguruḥ /</l>
+<l>prakhyāto daśadigloka-</l>
+<l>dharmadānapatir mahān //</l>
 </lg>
 <lg xml:id="Mns_150">
-<l>maitrīsaṃnāhasaṃnaddhaḥ $ karuṇāvarmavarmitaḥ &amp;</l>
-<l>prajñākhaḍgadhanurbāṇaḥ % kleśājñānaraṇaṃjahaḥ //</l>
+<l>maitrīsaṃnāhasaṃnaddhaḥ</l>
+<l>karuṇāvarmavarmitaḥ /</l>
+<l>prajñākhaḍgadhanurbāṇaḥ</l>
+<l>kleśājñānaraṇaṃjahaḥ //</l>
 </lg>
 <lg xml:id="Mns_151">
-<l>mārārir mārajid vīraś $ caturmārabhayāntakṛt &amp;</l>
-<l>sarvamāracamūjetā % saṃbuddho lokanāyakaḥ //</l>
+<l>mārārir mārajid vīraś</l>
+<l>caturmārabhayāntakṛt /</l>
+<l>sarvamāracamūjetā</l>
+<l>saṃbuddho lokanāyakaḥ //</l>
 </lg>
 <lg xml:id="Mns_152">
-<l>vandyaḥ pūjyo 'bhivādyaś ca $ mānanīyaś ca nityaśaḥ &amp;</l>
-<l>arcanīyatamo mānyo % namasyaḥ paramo guruḥ //</l>
+<l>vandyaḥ pūjyo 'bhivādyaś ca</l>
+<l>mānanīyaś ca nityaśaḥ /</l>
+<l>arcanīyatamo mānyo</l>
+<l>namasyaḥ paramo guruḥ //</l>
 </lg>
 <lg xml:id="Mns_153">
-<l>trailokyaikakramagatir $ vyomaparyantavikramaḥ &amp;</l>
-<l>traividyaḥ śrotriyaḥ pūtaḥ % ṣaḍabhijñaḥ ṣaḍanusmrtiḥ //</l>
+<l>trailokyaikakramagatir</l>
+<l>vyomaparyantavikramaḥ /</l>
+<l>traividyaḥ śrotriyaḥ pūtaḥ</l>
+<l>ṣaḍabhijñaḥ ṣaḍanusmrtiḥ //</l>
 </lg>
 <lg xml:id="Mns_154">
-<l>bodhisatvo mahāsatvo $ lokātīto maharddhikaḥ &amp;</l>
-<l>prajñāpāramitāniṣṭhaḥ % prajñātattvatvam āgataḥ //</l>
+<l>bodhisatvo mahāsatvo</l>
+<l>lokātīto maharddhikaḥ /</l>
+<l>prajñāpāramitāniṣṭhaḥ</l>
+<l>prajñātattvatvam āgataḥ //</l>
 </lg>
 <lg xml:id="Mns_155">
-<l>ātmavit paravit sarvaḥ $ sarvīyo hy agrapudgalaḥ &amp;</l>
-<l>sarvopamām atikrānto % jñeyo jñānādhipaḥ paraḥ //</l>
+<l>ātmavit paravit sarvaḥ</l>
+<l>sarvīyo hy agrapudgalaḥ /</l>
+<l>sarvopamām atikrānto</l>
+<l>jñeyo jñānādhipaḥ paraḥ //</l>
 </lg>
 <lg xml:id="Mns_156">
-<l>dharmadānapatiḥ śreṣṭhaś $ caturmudrārthadeśakaḥ &amp;</l>
-<l>paryupāsyatamo jagatāṃ % niryāṇatrayayāyinām //</l>
+<l>dharmadānapatiḥ śreṣṭhaś</l>
+<l>caturmudrārthadeśakaḥ /</l>
+<l>paryupāsyatamo jagatāṃ</l>
+<l>niryāṇatrayayāyinām //</l>
 </lg>
 <lg xml:id="Mns_157">
-<l>paramārthaviśuddhaśrīś $ trailokyasubhago mahān &amp;</l>
-<l>sarvasaṃpatkaraḥ śrīmān % mañjuśrīḥ śrīmatāṃ varaḥ //</l>
+<l>paramārthaviśuddhaśrīś</l>
+<l>trailokyasubhago mahān /</l>
+<l>sarvasaṃpatkaraḥ śrīmān</l>
+<l>mañjuśrīḥ śrīmatāṃ varaḥ //</l>
 </lg>
 <p xml:id="15">
 kṛtyānuṣṭhānajñānagāthāḥ pañcadaśa
 </p>
 <lg xml:id="Mns_158">
-<l>namas te varada vajrāgrya $ bhūtakoṭi namo 'stu te &amp;</l>
-<l>namas te śūnyatāgarbha % buddhabodhi namo 'stu te //</l>
+<l>namas te varada vajrāgrya</l>
+<l>bhūtakoṭi namo 'stu te /</l>
+<l>namas te śūnyatāgarbha</l>
+<l>buddhabodhi namo 'stu te //</l>
 </lg>
 <lg xml:id="Mns_159">
-<l>buddharāga namas te 'stu $ buddhakāma namo namaḥ &amp;</l>
-<l>buddhaprīti namas tubhyaṃ % buddhamoda namo namaḥ //</l>
+<l>buddharāga namas te 'stu</l>
+<l>buddhakāma namo namaḥ /</l>
+<l>buddhaprīti namas tubhyaṃ</l>
+<l>buddhamoda namo namaḥ //</l>
 </lg>
 <lg xml:id="Mns_160">
-<l>buddhasmita namas tubhyaṃ $ buddhahāsa namo namaḥ &amp;</l>
-<l>buddhavāca namas te 'stu % buddhabhāva namo namaḥ //</l>
+<l>buddhasmita namas tubhyaṃ</l>
+<l>buddhahāsa namo namaḥ /</l>
+<l>buddhavāca namas te 'stu</l>
+<l>buddhabhāva namo namaḥ //</l>
 </lg>
 <lg xml:id="Mns_161">
-<l>abhavodbhava namas te ḥstu $ namas te buddhasaṃbhava &amp;</l>
-<l>gaganodbhava namas tubhyaṃ % namas te jñānasaṃbhava //</l>
+<l>abhavodbhava namas te ḥstu</l>
+<l>namas te buddhasaṃbhava /</l>
+<l>gaganodbhava namas tubhyaṃ</l>
+<l>namas te jñānasaṃbhava //</l>
 </lg>
 <lg xml:id="Mns_162">
-<l>māyājāla namas tubhyaṃ $ namas te buddhanāṭaka &amp;</l>
-<l>namas te sarva sarvebhyo % jñānakāya namo 'stu te //</l>
+<l>māyājāla namas tubhyaṃ</l>
+<l>namas te buddhanāṭaka /</l>
+<l>namas te sarva sarvebhyo</l>
+<l>jñānakāya namo 'stu te //</l>
 </lg>
 <p xml:id="16">
 iti pañcatathāgatajñānastutigāthāḥ pañca /
@@ -1105,24 +1417,34 @@ oṃ sarvadharmābhāvasvabhāvaviśuddhavajra a ā aṃ aḥ / prakṛtipariśu
 mantravinyāsaḥ //
 </p>
 <lg xml:id="Mns_163">
-<l>atha vajradharaḥ śrīmāṃ $ hṛṣṭatuṣṭaḥ kṛtāñjaliḥ &amp;</l>
-<l>praṇamya nāthaṃ saṃbuddhaṃ % bhagavantaṃ tathāgataṃ //</l>
+<l>atha vajradharaḥ śrīmāṃ</l>
+<l>hṛṣṭatuṣṭaḥ kṛtāñjaliḥ /</l>
+<l>praṇamya nāthaṃ saṃbuddhaṃ</l>
+<l>bhagavantaṃ tathāgataṃ //</l>
 </lg>
 <lg xml:id="Mns_164">
-<l>anyaiś ca bahuvidhair nāthair $ guhyendrair vajrapāṇibhiḥ &amp;</l>
-<l>sa sārdhaṃ krodharājānaiḥ % provācoccair idaṃ vacaḥ //</l>
+<l>anyaiś ca bahuvidhair nāthair</l>
+<l>guhyendrair vajrapāṇibhiḥ /</l>
+<l>sa sārdhaṃ krodharājānaiḥ</l>
+<l>provācoccair idaṃ vacaḥ //</l>
 </lg>
 <lg xml:id="Mns_165">
-<l>anumodāmahe nātha $ sādhu sādhu subhāṣitaṃ &amp;</l>
-<l>kṛto 'smākaṃ mahān arthaḥ % samyaksaṃbodhiprāpakaḥ //</l>
+<l>anumodāmahe nātha</l>
+<l>sādhu sādhu subhāṣitaṃ /</l>
+<l>kṛto 'smākaṃ mahān arthaḥ</l>
+<l>samyaksaṃbodhiprāpakaḥ //</l>
 </lg>
 <lg xml:id="Mns_166">
-<l>jagataś cāpy anāthasya $ vimuktiphalakāṃkṣiṇaḥ &amp;</l>
-<l>śreyomārgo viśuddho 'yaṃ % māyājālanayoditaḥ //</l>
+<l>jagataś cāpy anāthasya</l>
+<l>vimuktiphalakāṃkṣiṇaḥ /</l>
+<l>śreyomārgo viśuddho 'yaṃ</l>
+<l>māyājālanayoditaḥ //</l>
 </lg>
 <lg xml:id="Mns_167">
-<l>gambhīrodāravaipulyo $ mahārtho jagadarthakṛt &amp;</l>
-<l>buddhānāṃ viṣayo hy eṣa % samyaksaṃbuddhadeśitaḥ //</l>
+<l>gambhīrodāravaipulyo</l>
+<l>mahārtho jagadarthakṛt /</l>
+<l>buddhānāṃ viṣayo hy eṣa</l>
+<l>samyaksaṃbuddhadeśitaḥ //</l>
 </lg>
 <p xml:id="29">
 ity upasaṃhāragāthāḥ pañca //
