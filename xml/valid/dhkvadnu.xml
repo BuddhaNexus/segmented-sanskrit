@@ -34,8 +34,7 @@
 	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
 	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
 	  The file will be immediately removed pending resolution of the claim.</p>
-	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.</p><p xml:id="0 ">
-International License.</licence>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4 International License.</licence>
 	</availability>
 	<date when-iso="2019-06-18"/>
 	<authority xml:id="bdrc">
@@ -54,8 +53,7 @@ International License.</licence>
 	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
         <listWit>
           <witness xml:id="MS1">
-            Manuscript </p><p xml:id="1 ">
-...
+            Manuscript ...
           </witness>
         </listWit>
 	

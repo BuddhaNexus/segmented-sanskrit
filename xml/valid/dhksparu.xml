@@ -34,8 +34,7 @@
 	  <p>This e-text was provided to GRETIL in good faith that no copyright rights have been infringed.
 	  If anyone wishes to assert copyright over this file, please contact the GRETIL management at <email>gretil(at)sub(dot)uni-goettingen(dot)de</email>.
 	  The file will be immediately removed pending resolution of the claim.</p>
-	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.</p><p xml:id="0 ">
-International License.</licence>
+	  <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4 International License.</licence>
 	</availability>
 	<date when-iso="2019-06-18"/>
 	<authority xml:id="bdrc">
@@ -54,8 +53,7 @@ International License.</licence>
 	<!-- If there is textcritical apparatus, specify manuscript-witnesses below as loosely-structured sources -->
         <listWit>
           <witness xml:id="MS1">
-            Manuscript </p><p xml:id="1 ">
-...
+            Manuscript ...
           </witness>
         </listWit>
 	
@@ -433,105 +431,80 @@ future.
 E-mail: ono@logos.tsukuba.ac.jp
 </p><p xml:id="12">
 *************************************************************************
-</p><p xml:id="00001 ">
-pāratantryaṃ hi sambandhaḥ siddhe kā paratantratā 
-</p><p xml:id="00001 ">
+</p><p xml:id="00001">
+pāratantryaṃ hi sambandhaḥ siddhe kā paratantratā <lb/>
 tasmāt sarvasya bhāvasya sambandho na asti tattvataḥ 
-</p><p xml:id="00002 ">
-rūpa-śleṣo hi sambandho dvitve sa ca kathaṃ bhavet
-</p><p xml:id="00002 ">
+</p><p xml:id="00002">
+rūpa-śleṣo hi sambandho dvitve sa ca kathaṃ bhavet<lb/>
 tasmāt prakṛti-bhinnānāṃ sambandho na asti tattvataḥ 
-</p><p xml:id="00003 ">
-para-apekṣā hi sambandhaḥ so asan katham apekṣate
-</p><p xml:id="00003 ">
+</p><p xml:id="00003">
+para-apekṣā hi sambandhaḥ so asan katham apekṣate<lb/>
 saṃś ca sarva-nirāśaṃso bhāvaḥ katham apekṣate 
-</p><p xml:id="00004 ">
-dvayor eka-abhisambandhāt sambandho yadi tad-dvayoḥ 
-</p><p xml:id="00004 ">
+</p><p xml:id="00004">
+dvayor eka-abhisambandhāt sambandho yadi tad-dvayoḥ <lb/>
 kaḥ sambandho anavasthā ca na sambandha-matis tathā
-</p><p xml:id="00005 ">
-tau ca bhāvau tad-anyaś ca sarve te sva-ātmani sthitāḥ 
-</p><p xml:id="00005 ">
+</p><p xml:id="00005">
+tau ca bhāvau tad-anyaś ca sarve te sva-ātmani sthitāḥ <lb/>
 ity amiśrāḥ svayaṃ bhāvās tān miśrayati kalpanā 
-</p><p xml:id="00006 ">
-tām eva ca anurundhānaiḥ kriyā-kāraka-vācinaḥ 
-</p><p xml:id="00006 ">
+</p><p xml:id="00006">
+tām eva ca anurundhānaiḥ kriyā-kāraka-vācinaḥ <lb/>
 bhāva-bheda-pratīty-arthaṃ saṃyojyante abhidhāyakāḥ 
-</p><p xml:id="00007 ">
-kāryakāraṇabhāvo api tayor asahabhāvataḥ
-</p><p xml:id="00007 ">
+</p><p xml:id="00007">
+kāryakāraṇabhāvo api tayor asahabhāvataḥ<lb/>
 prasiddhyati kathaṃ dviṣṭho adviṣṭhe sambandhatā katham
-</p><p xml:id="00008 ">
-krameṇa bhāva ekatra vartamāṇo anya-nispṛhaḥ
-</p><p xml:id="00008 ">
+</p><p xml:id="00008">
+krameṇa bhāva ekatra vartamāṇo anya-nispṛhaḥ<lb/>
 tadbhāve api tad-bhāvāt sambandho na eka-vṛttimān 
-</p><p xml:id="00009 ">
-yady apekṣya tayor ekam anyatra asau pravartate
-</p><p xml:id="00009 ">
+</p><p xml:id="00009">
+yady apekṣya tayor ekam anyatra asau pravartate<lb/>
 upakārī hy apekṣyaḥ syāt kathaṃ ca upakaroty asan 
-</p><p xml:id="00010 ">
-yady eka-artha-abhisambandhāt kāryakāraṇatā tayoḥ
-</p><p xml:id="00010 ">
+</p><p xml:id="00010">
+yady eka-artha-abhisambandhāt kāryakāraṇatā tayoḥ<lb/>
 prāptā dvitva-ādi-sambandhāt savyetara-viśāṇayoḥ
-</p><p xml:id="00011 ">
-dviṣṭho hi kaścit sambandho na ato anyat tasya lakṣaṇam 
-</p><p xml:id="00011 ">
+</p><p xml:id="00011">
+dviṣṭho hi kaścit sambandho na ato anyat tasya lakṣaṇam <lb/>
 bhāva-abhāva-upadhir yogaḥ kāryakāraṇatā yadi
-</p><p xml:id="00012 ">
-yoga-upādhī na tāv eva kāryakāraṇatā atra kim 
-</p><p xml:id="00012 ">
+</p><p xml:id="00012">
+yoga-upādhī na tāv eva kāryakāraṇatā atra kim <lb/>
 bhedāc cen nanv ayaṃ śabdo niyoktāraṃ samāśritaḥ 
-</p><p xml:id="00013 ">
-paśyann ekam adṛṣṭasya darśane tad-adarśane 
-</p><p xml:id="00013 ">
+</p><p xml:id="00013">
+paśyann ekam adṛṣṭasya darśane tad-adarśane <lb/>
 apaśyat kāryam anveti vinā vyākhyātṛbhir janaḥ
-</p><p xml:id="00014 ">
-darśanād adarśane muktvā kārya-buddher asambhavāt
-</p><p xml:id="00014 ">
+</p><p xml:id="00014">
+darśanād adarśane muktvā kārya-buddher asambhavāt<lb/>
 kārya-ādi-śrutir apy atra lāghava-arthaṃ niveśitā
-</p><p xml:id="00015 ">
-tad-bhāva-abhāvāt tat-kārya-gatir yā apy anuvarṇyate 
-</p><p xml:id="00015 ">
+</p><p xml:id="00015">
+tad-bhāva-abhāvāt tat-kārya-gatir yā apy anuvarṇyate <lb/>
 saṃketa-viṣaya-ākhyā sā sāsnā-āder go-gatir yathā
-</p><p xml:id="00016 ">
-bhāve bhāvini tad-bhāvo bhāva eva ca bhāvitā
-</p><p xml:id="00016 ">
+</p><p xml:id="00016">
+bhāve bhāvini tad-bhāvo bhāva eva ca bhāvitā<lb/>
 prasiddhe hetu-phalate pratyakṣa-anupalambhataḥ
-</p><p xml:id="00017 ">
-etāvanmātra-tattva-arthāḥ kārya-kāraṇa-gocarāḥ
-</p><p xml:id="00017 ">
+</p><p xml:id="00017">
+etāvanmātra-tattva-arthāḥ kārya-kāraṇa-gocarāḥ<lb/>
 vikalpā darśayanty arthān mithyā-arthā ghaṭitān iva
-</p><p xml:id="00018 ">
-bhinne kā ghaṭanā abhinne kāryakāraṇatā api kā 
-</p><p xml:id="00018 ">
+</p><p xml:id="00018">
+bhinne kā ghaṭanā abhinne kāryakāraṇatā api kā <lb/>
 bhāve hy anyasya viśliṣṭau śilaṣṭau syātāṃ kathaṃ ca tau 
-</p><p xml:id="00019 ">
-saṃyogi-samavāyya-ādi sarvam etena cintitam 
-</p><p xml:id="00019 ">
+</p><p xml:id="00019">
+saṃyogi-samavāyya-ādi sarvam etena cintitam <lb/>
 anyonya-anupakārāc ca na sambandhī ca tādṛśaḥ 
-</p><p xml:id="00020 ">
-janane api hi kāryasya kenacit samavāyinā
-</p><p xml:id="00020 ">
+</p><p xml:id="00020">
+janane api hi kāryasya kenacit samavāyinā<lb/>
 samavāyī tadā na asau na tato atiprasaṅgataḥ
-</p><p xml:id="00021 ">
-tayor anupakāre api samavāye paratra vā 
-</p><p xml:id="00021 ">
+</p><p xml:id="00021">
+tayor anupakāre api samavāye paratra vā <lb/>
 sambandho yadi viśvaṃ syāt samavāyi parasparam 
-</p><p xml:id="00022 ">
-saṃyoga-janane api iṣṭau tataḥ saṃyoginau na tau
-</p><p xml:id="00022 ">
+</p><p xml:id="00022">
+saṃyoga-janane api iṣṭau tataḥ saṃyoginau na tau<lb/>
 karma-ādi-yogita-āpatteḥ sthiteś ca prativarṇitā 
-</p><p xml:id="00023 ">
-saṃyoga-ādy-āśraye yogyam ayogyaṃ tac ca jāyate
-</p><p xml:id="00023 ">
+</p><p xml:id="00023">
+saṃyoga-ādy-āśraye yogyam ayogyaṃ tac ca jāyate<lb/>
 nityaṃ yogya-svabhāvasya tad-vaikalya-virodhataḥ 
-</p><p xml:id="00024 ">
-iti tad-yogyatā-vācyaḥ svabhāvo asya nirucyatām 
-</p><p xml:id="00024 ">
+</p><p xml:id="00024">
+iti tad-yogyatā-vācyaḥ svabhāvo asya nirucyatām <lb/>
 vibhāga-yoga-gatibhiḥ kim anyair gamana-ādibhiḥ 
-</p><p xml:id="00025 ">
-teṣu satsv api tasya iti sambandhasya aprasiddhitaḥ 
-</p><p xml:id="00025 ">
+</p><p xml:id="00025">
+teṣu satsv api tasya iti sambandhasya aprasiddhitaḥ <lb/>
 yuktaḥ svabhāva-bhedo ayam tat pratikṣaṇa-janmanām 
 </p>
 </body>
