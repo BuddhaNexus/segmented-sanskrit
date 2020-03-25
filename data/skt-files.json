@@ -1,0 +1,7304 @@
+[
+{
+  "displayName": "Ahorātravratacaityasevānuśaṃsāvadāna (S01 ahovcs_u)",
+  "textname": "S01 ahovcs_u",
+  "filename": "S01ahovcs_u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Aśokāvadāna (S01 divav29u)",
+  "textname": "S01 divav29u",
+  "filename": "S01divav29u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhisattvāvadānakalpalatā (S01 bsu078_u)",
+  "textname": "S01 bsu078_u",
+  "filename": "S01bsu078_u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Divyāvadāna (S01 divyav_u)",
+  "textname": "S01 divyav_u",
+  "filename": "S01divyav_u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Dvāviṃśatyavadānakathā (S01 dvavims_tu)",
+  "textname": "S01 dvavims_tu",
+  "filename": "S01dvavims_tu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Garbhāvakrāntyavadāna (S01 kbavk10u)",
+  "textname": "S01 kbavk10u",
+  "filename": "S01kbavk10u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Kalpadrumāvadānamālā (S01 klpdrapu)",
+  "textname": "S01 klpdrapu",
+  "filename": "S01klpdrapu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Kaṭhināvadāna (S01 kathinau)",
+  "textname": "S01 kathinau",
+  "filename": "S01kathinau",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Khasarpaṇasādhana (S01 khasrpsu)",
+  "textname": "S01 khasrpsu",
+  "filename": "S01khasrpsu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāsudarśanāvadāna (S01 msudarsu)",
+  "textname": "S01 msudarsu",
+  "filename": "S01msudarsu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāvastu avadāna (S01 mhvastuu)",
+  "textname": "S01 mhvastuu",
+  "filename": "S01mhvastuu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Pāṃśupradāna avadāna (S01 pamsuavu)",
+  "textname": "S01 pamsuavu",
+  "filename": "S01pamsuavu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Pratītyasamutpādāvadāna (S01 kbavk75u)",
+  "textname": "S01 kbavk75u",
+  "filename": "S01kbavk75u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnamālāvadāna (S01 ratnml_u)",
+  "textname": "S01 ratnml_u",
+  "filename": "S01ratnml_u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Śārdūlakarṇāvadāna [Divyāvadāna] (S01 divav33u)",
+  "textname": "S01 divav33u",
+  "filename": "S01divav33u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Sudhanakinnaryavadāna (S01 kbavk64u)",
+  "textname": "S01 kbavk64u",
+  "filename": "S01kbavk64u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Sumāgadhāvadana (v Yutaka Iwamoto) (S01 sumagavu)",
+  "textname": "S01 sumagavu",
+  "filename": "S01sumagavu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Sumāgadhāvadana (v. P.L. Vaidya) (S01 kbavk93u)",
+  "textname": "S01 kbavk93u",
+  "filename": "S01kbavk93u",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Suvarṇavarṇāvadāna (S01 suvrnavu)",
+  "textname": "S01 suvrnavu",
+  "filename": "S01suvrnavu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Svayambhu Purāṇa (S01 svabhupu)",
+  "textname": "S01 svabhupu",
+  "filename": "S01svabhupu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Viśvantarāvadāna (S01 visvantu)",
+  "textname": "S01 visvantu",
+  "filename": "S01visvantu",
+  "category": "S01",
+  "filenr": 1
+},
+{
+  "displayName": "Dhvajāgrakeyurā dhāraṇī (v. Klaus Wille) (S02 dhvajkdu)",
+  "textname": "S02 dhvajkdu",
+  "filename": "S02dhvajkdu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Dhvajāgrakeyurā dhāraṇī (v. SBCIP) (S02 dhvajkeu)",
+  "textname": "S02 dhvajkeu",
+  "filename": "S02dhvajkeu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Ekādaśamukha (S02 bsu015_u)",
+  "textname": "S02 bsu015_u",
+  "filename": "S02bsu015_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Ekadaśamukhahṛdaya (S02 ekmuhr_u)",
+  "textname": "S02 ekmuhr_u",
+  "filename": "S02ekmuhr_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Grahamātṛkā nāma dhāraṇī (S02 grahmdhu)",
+  "textname": "S02 grahmdhu",
+  "filename": "S02grahmdhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Hayagrīvavidyā (S02 bsu017_u)",
+  "textname": "S02 bsu017_u",
+  "filename": "S02bsu017_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahādaṇḍadhāraṇīśītavatī (S02 madadh_u)",
+  "textname": "S02 madadh_u",
+  "filename": "S02madadh_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāmaṇivipulavimānaviśvasupratiṣṭhitaguhyaparamarahasyakalparājadhāraṇī (S02 manivdhu)",
+  "textname": "S02 manivdhu",
+  "filename": "S02manivdhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāpratisarā Mahāvidyārājñī (S02 mahpratu)",
+  "textname": "S02 mahpratu",
+  "filename": "S02mahpratu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāpratisarā vidyārājñī (S02 mpratpru)",
+  "textname": "S02 mpratpru",
+  "filename": "S02mpratpru",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāpratisarāvidyādhāraṇī (S02 mprsvdhu)",
+  "textname": "S02 mprsvdhu",
+  "filename": "S02mprsvdhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāpratisarāvidyāvidhi (S02 mpvv_u)",
+  "textname": "S02 mpvv_u",
+  "filename": "S02mpvv_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāsamnipātaratnaketudhāraṇī [Ratnaketuparivarta] (v. SBCIP) (S02 bsu024_u)",
+  "textname": "S02 bsu024_u",
+  "filename": "S02bsu024_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāsamnipātaratnaketudhāraṇī [Ratnaketuparivarta] (v. Klaus Wille) (S02 ratnakeu)",
+  "textname": "S02 ratnakeu",
+  "filename": "S02ratnakeu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mārīcīnāmadhāraṇī (S02 maricdhu)",
+  "textname": "S02 maricdhu",
+  "filename": "S02maricdhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Mekhalā dhāraṇī (S02 mekhdh_u)",
+  "textname": "S02 mekhdh_u",
+  "filename": "S02mekhdh_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Pratisarākalpadhāraṇī (S02 psarkdhu)",
+  "textname": "S02 psarkdhu",
+  "filename": "S02psarkdhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Sarvajñatākāradhāraṇī [Karuṇāpuṇḍarīka] (S02 sjdh_u)",
+  "textname": "S02 sjdh_u",
+  "filename": "S02sjdh_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Sitātapatrā (S02 bsu004_u)",
+  "textname": "S02 bsu004_u",
+  "filename": "S02bsu004_u",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Vajravidāraṇā Dhāraṇī (v. Klaus Wille) (S02 vajvidhu)",
+  "textname": "S02 vajvidhu",
+  "filename": "S02vajvidhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Vajravidāraṇā Dhāraṇī (v. SBCIP) (S02 vjviddhu)",
+  "textname": "S02 vjviddhu",
+  "filename": "S02vjviddhu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Vasudhārā dhāraṇī 1 (v. Klaus Wille) (S02 vadhdhdu)",
+  "textname": "S02 vadhdhdu",
+  "filename": "S02vadhdhdu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Vasudhārā dhāraṇī 2 (v. Klaus Wille) (S02 vadhdhgu)",
+  "textname": "S02 vadhdhgu",
+  "filename": "S02vadhdhgu",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Vasudhārā dhāraṇī 3 (v. SBCIP) (S02 vadhdhju)",
+  "textname": "S02 vadhdhju",
+  "filename": "S02vadhdhju",
+  "category": "S02",
+  "filenr": 1
+},
+{
+  "displayName": "Jātakamālā: Aryasura (v. Hanisch) (S03 ajm_u)",
+  "textname": "S03 ajm_u",
+  "filename": "S03ajm_u",
+  "category": "S03",
+  "filenr": 1
+},
+{
+  "displayName": "Jātakamālā: Aryasura (v. Vaidya) (S03 bsa032_u)",
+  "textname": "S03 bsa032_u",
+  "filename": "S03bsa032_u",
+  "category": "S03",
+  "filenr": 1
+},
+{
+  "displayName": "Jātakamālā: Ajātaśatrvavadāna (S03 gopjatmu)",
+  "textname": "S03 gopjatmu",
+  "filename": "S03gopjatmu",
+  "category": "S03",
+  "filenr": 1
+},
+{
+  "displayName": "Jātakamālā: Haribhaṭṭa (S03 hjatm_pu)",
+  "textname": "S03 hjatm_pu",
+  "filename": "S03hjatm_pu",
+  "category": "S03",
+  "filenr": 1
+},
+{
+  "displayName": "Jātakastava: Jñānayaśas (S03 jatkstpu)",
+  "textname": "S03 jatkstpu",
+  "filename": "S03jatkstpu",
+  "category": "S03",
+  "filenr": 1
+},
+{
+  "displayName": "Ajitasenavyākaraṇa (v. Klaus Wille) (S04 ajitsvyu)",
+  "textname": "S04 ajitsvyu",
+  "filename": "S04ajitsvyu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Ajitasenavyākaraṇa (v. SBCIP) (S04 bsu006_u)",
+  "textname": "S04 bsu006_u",
+  "filename": "S04bsu006_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Āmoghapāśanāmahṛdaya sūtra (v. Dhih) (S04 amoghapu)",
+  "textname": "S04 amoghapu",
+  "filename": "S04amoghapu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Āmoghapāśanāmahṛdaya sūtra (v. M.B. Shakya) (S04 bsu002_u)",
+  "textname": "S04 bsu002_u",
+  "filename": "S04bsu002_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Aparimitāyuḥ Sūtra (S04 bsu003_u)",
+  "textname": "S04 bsu003_u",
+  "filename": "S04bsu003_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Arthaviniścaya sūtra (S04 bsu005_u)",
+  "textname": "S04 bsu005_u",
+  "filename": "S04bsu005_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Āryabuddhabalādhānaprātihāryavikurvāṇanirdeśa nāma Mahāyāna Sūtra (S04 bsu008_u)",
+  "textname": "S04 bsu008_u",
+  "filename": "S04bsu008_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Āryānityatā sūtra (S04 bsu001_u)",
+  "textname": "S04 bsu001_u",
+  "filename": "S04bsu001_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Bhaiṣajyaguruvaidūryaprabharāja sūtra (S04 bsu012_u)",
+  "textname": "S04 bsu012_u",
+  "filename": "S04bsu012_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Bhavasaṅkrānti sūtra (S04 bsu010_u)",
+  "textname": "S04 bsu010_u",
+  "filename": "S04bsu010_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Daśabhūmika sūtra (S04 bsu014_u)",
+  "textname": "S04 bsu014_u",
+  "filename": "S04bsu014_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Dharmasamuccaya [Saddharmasmṛtyupasthānakārikā] (S04 bsa052_u)",
+  "textname": "S04 bsa052_u",
+  "filename": "S04bsa052_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Gaṇḍavyūha sūtra (S04 bsu016_u)",
+  "textname": "S04 bsu016_u",
+  "filename": "S04bsu016_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Guṇakāraṇḍavyūha sūtra (S04 bsu062_u)",
+  "textname": "S04 bsu062_u",
+  "filename": "S04bsu062_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Jñānālokālaṃkāra sūtra (S04 jnalokau)",
+  "textname": "S04 jnalokau",
+  "filename": "S04jnalokau",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Kāraṇḍavyūha Sūtra (S04 bsu019_u)",
+  "textname": "S04 bsu019_u",
+  "filename": "S04bsu019_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Karuṇāpuṇḍarīka sūtra (S04 bsu018_u)",
+  "textname": "S04 bsu018_u",
+  "filename": "S04bsu018_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Kāśyapaparivarta Sūtra (v. SBCIP) (S04 bsu020_u)",
+  "textname": "S04 bsu020_u",
+  "filename": "S04bsu020_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Kāśyapaparivarta Sūtra (v. Klaus Wille) (S04 kasyparu)",
+  "textname": "S04 kasyparu",
+  "filename": "S04kasyparu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Lalitavistara (S04 bsu022_u)",
+  "textname": "S04 bsu022_u",
+  "filename": "S04bsu022_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyamakāvatāra (S04 bsa053_u)",
+  "textname": "S04 bsa053_u",
+  "filename": "S04bsa053_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāmantrānusāriṇī mahāsūtra (S04 mahama_u)",
+  "textname": "S04 mahama_u",
+  "filename": "S04mahama_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāparinirvāṇa sūtra (S04 mpsu_w_u)",
+  "textname": "S04 mpsu_w_u",
+  "filename": "S04mpsu_w_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāvadāna sūtra (S04 mavadsuu)",
+  "textname": "S04 mavadsuu",
+  "filename": "S04mavadsuu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Maitreyavyākaraṇa (v. SBCIP) (S04 bsu009_u)",
+  "textname": "S04 bsu009_u",
+  "filename": "S04bsu009_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Maitreyavyākaraṇa (v. Hartmann) (S04 maivy_pu)",
+  "textname": "S04 maivy_pu",
+  "filename": "S04maivy_pu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Nairātmyaparipṛcchā sūtra (S04 bsu025_u)",
+  "textname": "S04 bsu025_u",
+  "filename": "S04bsu025_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Pratītyasamutpāda mahāyāna sūtra (S04 bsu026_u)",
+  "textname": "S04 bsu026_u",
+  "filename": "S04bsu026_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Rāṣṭrapālaparipṛcchā (S04 bsu029_u)",
+  "textname": "S04 bsu029_u",
+  "filename": "S04bsu029_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Saddharmalaṅkāvatāra sūtra [Laṅkāvatāra sūtra] (S04 bsu021_u)",
+  "textname": "S04 bsu021_u",
+  "filename": "S04bsu021_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Saddharmapuṇḍarīka sūtra (S04 bsu036_u)",
+  "textname": "S04 bsu036_u",
+  "filename": "S04bsu036_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sāgaranāgarājaparipṛcchā Nāma Mahāyāna sūtram (S04 bsu038_u)",
+  "textname": "S04 bsu038_u",
+  "filename": "S04bsu038_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Śālistamba sūtra (S04 bsu031_u)",
+  "textname": "S04 bsu031_u",
+  "filename": "S04bsu031_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Samādhirāja sūtra (v. SBCIP) (S04 bsu034_u)",
+  "textname": "S04 bsu034_u",
+  "filename": "S04bsu034_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Samādhirāja sūtra (Gilgit) (S04 srajsgiu)",
+  "textname": "S04 srajsgiu",
+  "filename": "S04srajsgiu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Saṃghāṭa Sūtra (v. SBCIP) (S04 bsu045_u)",
+  "textname": "S04 bsu045_u",
+  "filename": "S04bsu045_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Saṃghāṭa sūtra (v. Peters/Wille) (S04 samghscu)",
+  "textname": "S04 samghscu",
+  "filename": "S04samghscu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sarvatathāgatādhiṣṭhānavyūha Sūtra (S04 bsu037_u)",
+  "textname": "S04 bsu037_u",
+  "filename": "S04bsu037_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sukhāvatīvyūha sūtra saṃkṣiptamātṛkā (v. SBCIP) (S04 bsu032_u)",
+  "textname": "S04 bsu032_u",
+  "filename": "S04bsu032_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sukhāvatīvyūha sūtra saṃkṣiptamātṛkā (v. Fujita) (S04 sukhvysu)",
+  "textname": "S04 sukhvysu",
+  "filename": "S04sukhvysu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sukhāvatīvyūha sūtra vistaramātṛkā (v. SBCIP) (S04 bsu033_u)",
+  "textname": "S04 bsu033_u",
+  "filename": "S04bsu033_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Sukhāvatīvyūha sūtra vistaramātṛkā (v. Fujita) (S04 sukhvylu)",
+  "textname": "S04 sukhvylu",
+  "filename": "S04sukhvylu",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Suvarṇaprabhāsa sūtra (S04 bsu035_u)",
+  "textname": "S04 bsu035_u",
+  "filename": "S04bsu035_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Vimalakīrtinirdeśa sūtra (v. SBCIP) (S04 bsu061_u)",
+  "textname": "S04 bsu061_u",
+  "filename": "S04bsu061_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Vimalakīrtinirdeśa sūtra (v. Klaus Wille) (S04 vimkn_u)",
+  "textname": "S04 vimkn_u",
+  "filename": "S04vimkn_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Vinayaviniścaya upāliparipṛcchā sūtra (S04 bsu040_u)",
+  "textname": "S04 bsu040_u",
+  "filename": "S04bsu040_u",
+  "category": "S04",
+  "filenr": 1
+},
+{
+  "displayName": "Āryacaturdharmanirdeśa sūtra (S05 bsu013_u)",
+  "textname": "S05 bsu013_u",
+  "filename": "S05bsu013_u",
+  "category": "S05",
+  "filenr": 1
+},
+{
+  "displayName": "Pratītyasamutpādādivibhaṅganirdeśa sūtra (S05 bsu027_u)",
+  "textname": "S05 bsu027_u",
+  "filename": "S05bsu027_u",
+  "category": "S05",
+  "filenr": 1
+},
+{
+  "displayName": "Adhyardhaśatikā Prajñāpāramitā (v. Klaus Wille) (S06 adhsatpu)",
+  "textname": "S06 adhsatpu",
+  "filename": "S06adhsatpu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Adhyardhaśatikā Prajñāpāramitā (v. SBCIP) (S06 bsu056_u)",
+  "textname": "S06 bsu056_u",
+  "filename": "S06bsu056_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Advayaśatikā Prajñāpāramitā Sūtra (S06 bsu057_u)",
+  "textname": "S06 bsu057_u",
+  "filename": "S06bsu057_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Aṣṭādaśasāhasrikā Prajñāpāramitā ch 55–69 (S06 adsp55-u)",
+  "textname": "S06 adsp55-u",
+  "filename": "S06adsp55-u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Aṣṭādaśasāhasrikā Prajñāpāramitā ch 70–82 (S06 adsp70-u)",
+  "textname": "S06 adsp70-u",
+  "filename": "S06adsp70-u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Aṣṭasāhasrikā Prajñāpāramitā (S06 bsu049_u)",
+  "textname": "S06 bsu049_u",
+  "filename": "S06bsu049_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Daśasāhasrikā Prajñāpāramitā (S06 dsp1–2_u)",
+  "textname": "S06 dsp1–2_u",
+  "filename": "S06dsp1-2_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Fragments of Prajnāpāramitā texts (S06 ppfrag_u)",
+  "textname": "S06 ppfrag_u",
+  "filename": "S06ppfrag_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Kauśika prajñāpāramitā sūtra (S06 bsu055_u)",
+  "textname": "S06 bsu055_u",
+  "filename": "S06bsu055_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Larger Prajñāpāramitā (Gilgit Ms., fols. 1–27) (S06 pplg1__u)",
+  "textname": "S06 pplg1__u",
+  "filename": "S06pplg1__u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Larger Prajñāpāramitā (Gilgit Ms., fols. 202–205) (S06 pplg202u)",
+  "textname": "S06 pplg202u",
+  "filename": "S06pplg202u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyamaka śālistamba sūtram (S06 bsu023_u)",
+  "textname": "S06 bsu023_u",
+  "filename": "S06bsu023_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā I (S06 psp_1u)",
+  "textname": "S06 psp_1u",
+  "filename": "S06psp_1u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā II-III (S06 psp_2–3u)",
+  "textname": "S06 psp_2–3u",
+  "filename": "S06psp_2-3u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā IV (S06 psp_4u)",
+  "textname": "S06 psp_4u",
+  "filename": "S06psp_4u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā V (S06 psp_5u)",
+  "textname": "S06 psp_5u",
+  "filename": "S06psp_5u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā VI-VIII (S06 psp_6–8u)",
+  "textname": "S06 psp_6–8u",
+  "filename": "S06psp_6-8u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā (v. Dutt) (S06 pspdut2u)",
+  "textname": "S06 pspdut2u",
+  "filename": "S06pspdut2u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaviṃśatisāhasrikā Prajñāpāramitā (v. von Hinüber) (S06 pvspl_u)",
+  "textname": "S06 pvspl_u",
+  "filename": "S06pvspl_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāhṛdaya sūtra [vistaramatrka] (S06 bsu053_u)",
+  "textname": "S06 bsu053_u",
+  "filename": "S06bsu053_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāhṛdaya sūtra [samksiptamatrka] (S06 bsu054_u)",
+  "textname": "S06 bsu054_u",
+  "filename": "S06bsu054_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāhṛdaya sūtra (v. Richards) (S06 prajnhsu)",
+  "textname": "S06 prajnhsu",
+  "filename": "S06prajnhsu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāpiṇḍārtha (S06 bsa011_u)",
+  "textname": "S06 bsa011_u",
+  "filename": "S06bsa011_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnaguṇasaṃcayagāthā (S06 bsu028pu)",
+  "textname": "S06 bsu028pu",
+  "filename": "S06bsu028pu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Saptaśatikā prajñāpāramitā (S06 bsu052_u)",
+  "textname": "S06 bsu052_u",
+  "filename": "S06bsu052_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Sāratamā [āryāṣṭasāhasrikāyāḥ prajñāpāramitāyāḥ sāratamākhyā pañjikā] (S06 bsa051_u)",
+  "textname": "S06 bsa051_u",
+  "filename": "S06bsa051_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Śatasāhasrikā Prajñaparamitā 2-I (S06 sspp2_1u)",
+  "textname": "S06 sspp2_1u",
+  "filename": "S06sspp2_1u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Śatasāhasrikā Prajñaparamitā 2-II (S06 sspp2_2u)",
+  "textname": "S06 sspp2_2u",
+  "filename": "S06sspp2_2u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Śatasāhasrikā Prajñaparamitā 2-III (S06 sspp2_3u)",
+  "textname": "S06 sspp2_3u",
+  "filename": "S06sspp2_3u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Śatasāhasrikā Prajñaparamitā 2-IV (S06 sspp2_4u)",
+  "textname": "S06 sspp2_4u",
+  "filename": "S06sspp2_4u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Suvikrāntavikrāmiparipṛcchā [Sārdhadvisāhasrikā prajñāpāramitā] (S06 bsu030_u)",
+  "textname": "S06 bsu030_u",
+  "filename": "S06bsu030_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Svalpākṣarā prajñāpāramitā (S06 bsu050_u)",
+  "textname": "S06 bsu050_u",
+  "filename": "S06bsu050_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Triśatikāyāḥ prajñāpāramitāyāḥ kārikāsaptatiḥ (S06 atrisatu)",
+  "textname": "S06 atrisatu",
+  "filename": "S06atrisatu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Vajracchedikā Prajñāpāramitā Sūtra (v. SBCIP) (S06 bsu051_u)",
+  "textname": "S06 bsu051_u",
+  "filename": "S06bsu051_u",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Vajracchedikā Prajñāpāramitā Sūtra (Gilgit) (S06 vchedpgu)",
+  "textname": "S06 vchedpgu",
+  "filename": "S06vchedpgu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Vajracchedikā Prajñāpāramitā Sūtra (Afgan frag.) (S06 vchedppu)",
+  "textname": "S06 vchedppu",
+  "filename": "S06vchedppu",
+  "category": "S06",
+  "filenr": 1
+},
+{
+  "displayName": "Mañjuśrīmūlakalpa (S08 bsu041_u)",
+  "textname": "S08 bsu041_u",
+  "filename": "S08bsu041_u",
+  "category": "S08",
+  "filenr": 1
+},
+{
+  "displayName": "Abhayakaragupta: Niṣpannayogāvali (S08 abhnispu)",
+  "textname": "S08 abhnispu",
+  "filename": "S08abhnispu",
+  "category": "S08",
+  "filenr": 1
+},
+{
+  "displayName": "Sarvadurgatipariśodhana tantra (S08 sdurst_u)",
+  "textname": "S08 sdurst_u",
+  "filename": "S08sdurst_u",
+  "category": "S08",
+  "filenr": 1
+},
+{
+  "displayName": "Sarvatathāgatatattvasaṅgraha sūtra (S08 sarvttsu)",
+  "textname": "S08 sarvttsu",
+  "filename": "S08sarvttsu",
+  "category": "S08",
+  "filenr": 1
+},
+{
+  "displayName": "Anityatā sūtra (S10 anitysuu)",
+  "textname": "S10 anitysuu",
+  "filename": "S10anitysuu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Āyuḥparyanta sūtra (S10 ayuhparu)",
+  "textname": "S10 ayuhparu",
+  "filename": "S10ayuhparu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Daśabala sūtra (S10 dbsu1–4u)",
+  "textname": "S10 dbsu1–4u",
+  "filename": "S10dbsu1-4u",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Devatā sūtra (S10 dvtasutu)",
+  "textname": "S10 dvtasutu",
+  "filename": "S10dvtasutu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Ekottarāgama (S10 ekottaru)",
+  "textname": "S10 ekottaru",
+  "filename": "S10ekottaru",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Nagaropama sūtra [Saṃyuktāgama] (S10 nagsu_pu)",
+  "textname": "S10 nagsu_pu",
+  "filename": "S10nagsu_pu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Nidānasaṃyukta (S10 nidansyu)",
+  "textname": "S10 nidansyu",
+  "filename": "S10nidansyu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Saṃyuktāgama (S10 samyu_wu)",
+  "textname": "S10 samyu_wu",
+  "filename": "S10samyu_wu",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Tathāgatabimbakārāpaṇa sūtra (S10 tbimbk_u)",
+  "textname": "S10 tbimbk_u",
+  "filename": "S10tbimbk_u",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Triskandha sūtra (S10 bsu039_u)",
+  "textname": "S10 bsu039_u",
+  "filename": "S10bsu039_u",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Udānavarga (S10 udanav_u)",
+  "textname": "S10 udanav_u",
+  "filename": "S10udanav_u",
+  "category": "S10",
+  "filenr": 1
+},
+{
+  "displayName": "Prātimokṣa sūtra (V01 bsu046_u)",
+  "textname": "V01 bsu046_u",
+  "filename": "V01bsu046_u",
+  "category": "V01",
+  "filenr": 1
+},
+{
+  "displayName": "Prātimokṣasūtra of the Sarvastivadins (V02 prmosu_u)",
+  "textname": "V02 prmosu_u",
+  "filename": "V02prmosu_u",
+  "category": "V02",
+  "filenr": 1
+},
+{
+  "displayName": "Adhikaraṇavastu (V03 vinv16_u)",
+  "textname": "V03 vinv16_u",
+  "filename": "V03vinv16_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Bhaiṣajyavastu (V03 vinv06_u)",
+  "textname": "V03 vinv06_u",
+  "filename": "V03vinv06_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Carmavastu (V03 vinv05_u)",
+  "textname": "V03 vinv05_u",
+  "filename": "V03vinv05_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Cīvaravastu (V03 vinv07_u)",
+  "textname": "V03 vinv07_u",
+  "filename": "V03vinv07_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Karmavastu (V03 vinv10_u)",
+  "textname": "V03 vinv10_u",
+  "filename": "V03vinv10_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Kaṭhinavastu (V03 vinv08_u)",
+  "textname": "V03 vinv08_u",
+  "filename": "V03vinv08_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Kośāmbakavastu (V03 vinv09_u)",
+  "textname": "V03 vinv09_u",
+  "filename": "V03vinv09_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Pāṇḍulohitakavastu (V03 vinv11_u)",
+  "textname": "V03 vinv11_u",
+  "filename": "V03vinv11_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Pārivāsikavastu (V03 vinv13_u)",
+  "textname": "V03 vinv13_u",
+  "filename": "V03vinv13_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Poṣadhasthāpanavastu (V03 vinv14_u)",
+  "textname": "V03 vinv14_u",
+  "filename": "V03vinv14_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Poṣadhavastu (V03 vinv02_u)",
+  "textname": "V03 vinv02_u",
+  "filename": "V03vinv02_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Prātimoksasutra Mulasarvastivadin (V03 prmosubu)",
+  "textname": "V03 prmosubu",
+  "filename": "V03prmosubu",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Pravāraṇāvastu (V03 vinv03_u)",
+  "textname": "V03 vinv03_u",
+  "filename": "V03vinv03_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Pravrajyāvastu (V03 vinv01_u)",
+  "textname": "V03 vinv01_u",
+  "filename": "V03vinv01_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Pudgalavastu (V03 vinv12_u)",
+  "textname": "V03 vinv12_u",
+  "filename": "V03vinv12_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Saṅghabhedavastu 1 (V03 vinv171u)",
+  "textname": "V03 vinv171u",
+  "filename": "V03vinv171u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Saṅghabhedavastu 2 (V03 vinv172u)",
+  "textname": "V03 vinv172u",
+  "filename": "V03vinv172u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Śayanāsanavastu (V03 vinv15_u)",
+  "textname": "V03 vinv15_u",
+  "filename": "V03vinv15_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Upasaṃpadājñapti (V03 upsmpjnu)",
+  "textname": "V03 upsmpjnu",
+  "filename": "V03upsmpjnu",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Varṣāvastu (V03 vinv04_u)",
+  "textname": "V03 vinv04_u",
+  "filename": "V03vinv04_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Vinaya sūtra (Gunaprabha) (V03 vinsutru)",
+  "textname": "V03 vinsutru",
+  "filename": "V03vinsutru",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Vinaya sūtra 1 (Gunaprabha:):  Pravrajyavastu (V03 bsu058_u)",
+  "textname": "V03 bsu058_u",
+  "filename": "V03bsu058_u",
+  "category": "V03",
+  "filenr": 1
+},
+{
+  "displayName": "Prātimoksasutra of the Lokottaravadimahasanghika (V04 prmosulu)",
+  "textname": "V04 prmosulu",
+  "filename": "V04prmosulu",
+  "category": "V04",
+  "filenr": 1
+},
+{
+  "displayName": "Bhikṣukarmavākya (V05 bsa068_u)",
+  "textname": "V05 bsa068_u",
+  "filename": "V05bsa068_u",
+  "category": "V05",
+  "filenr": 1
+},
+{
+  "displayName": "Bhikṣuṇī Karmavācanā (V05 bhikavau)",
+  "textname": "V05 bhikavau",
+  "filename": "V05bhikavau",
+  "category": "V05",
+  "filenr": 1
+},
+{
+  "displayName": "Bhikṣuṇī Vinaya (V05 bhivin_u)",
+  "textname": "V05 bhivin_u",
+  "filename": "V05bhivin_u",
+  "category": "V05",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhisattvaprātimokṣa sūtra (V05 bsu011_u)",
+  "textname": "V05 bsu011_u",
+  "filename": "V05bsu011_u",
+  "category": "V05",
+  "filenr": 1
+},
+{
+  "displayName": "Prātimoksasutra fragments (V05 prmosufu)",
+  "textname": "V05 prmosufu",
+  "filename": "V05prmosufu",
+  "category": "V05",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmadipakārikā: Vimalamitra (SA01 vabhdiku)",
+  "textname": "SA01 vabhdiku",
+  "filename": "SA01vabhdiku",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmadipakārikā: Vimalamitra Karikas 1–383 (SA01 vabhdilu)",
+  "textname": "SA01 vabhdilu",
+  "filename": "SA01vabhdilu",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmakośabhāṣya (SA01 vakobhau)",
+  "textname": "SA01 vakobhau",
+  "filename": "SA01vakobhau",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmakośakārikā (SA01 vakobhku)",
+  "textname": "SA01 vakobhku",
+  "filename": "SA01vakobhku",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmasamuccaya (SA01 asabhs_u)",
+  "textname": "SA01 asabhs_u",
+  "filename": "SA01asabhs_u",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Abhidharmasamuccayabhāṣya (SA01 abhsubhu)",
+  "textname": "SA01 abhsubhu",
+  "filename": "SA01abhsubhu",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Daśākuśalakarmapathadeśanā (SA01 bsa039_u)",
+  "textname": "SA01 bsa039_u",
+  "filename": "SA01bsa039_u",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Dharmadhātugarbhavivaraṇa (SA01 nagdhdbu)",
+  "textname": "SA01 nagdhdbu",
+  "filename": "SA01nagdhdbu",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Mahākarmavibhaṅga (SA01 mkarmviu)",
+  "textname": "SA01 mkarmviu",
+  "filename": "SA01mkarmviu",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Sphuṭārthā Abhidharmakośavyākhyā (SA01 yabhkvyu)",
+  "textname": "SA01 yabhkvyu",
+  "filename": "SA01yabhkvyu",
+  "category": "SA01",
+  "filenr": 1
+},
+{
+  "displayName": "Sekoddeśa [Sekoddeśaṭikā] (SA02 narsekou)",
+  "textname": "SA02 narsekou",
+  "filename": "SA02narsekou",
+  "category": "SA02",
+  "filenr": 1
+},
+
+{
+  "displayName": "Acintyastava (SA05 nagast_u)",
+  "textname": "SA05 nagast_u",
+  "filename": "SA05nagast_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Anaparāddhastotra (SA05 busto1_u)",
+  "textname": "SA05 busto1_u",
+  "filename": "SA05busto1_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Buddhist Stotras (SA05bst-108u)",
+  "textname": "SA05 bst-108u",
+  "filename": "SA05bst-108u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Lokātītastava (SA05 naglok_u)",
+  "textname": "SA05 naglok_u",
+  "filename": "SA05naglok_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Mañjuśrīnāmasaṃgīti (v. Davidson) (SA05 manjn1pu)",
+  "textname": "SA05 manjn1pu",
+  "filename": "SA05manjn1pu",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Mañjuśrīnāmasaṃgīti (v. Janardan Shastri Pandey) (SA05 manjnspu)",
+  "textname": "SA05 manjnspu",
+  "filename": "SA05manjnspu",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Namastāre-ekaviṃśatistotraguṇasahita (SA05 namekvsu)",
+  "textname": "SA05 namekvsu",
+  "filename": "SA05namekvsu",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāstotra (SA05 rahppspu)",
+  "textname": "SA05 rahppspu",
+  "filename": "SA05rahppspu",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnāvalī [Ratnamālā] (1–2.46, and 4) (SA05 bsa025_u)",
+  "textname": "SA05 bsa025_u",
+  "filename": "SA05bsa025_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnāvalī [Ratnamālā] 1 (SA05 nrat_1_u)",
+  "textname": "SA05 nrat_1_u",
+  "filename": "SA05nrat_1_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnāvalī [Ratnamālā] 2 (SA05 nrat_2_u)",
+  "textname": "SA05 nrat_2_u",
+  "filename": "SA05nrat_2_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Ratnāvalī [Ratnamālā] 4 (SA05 nrat_4_u)",
+  "textname": "SA05 nrat_4_u",
+  "filename": "SA05nrat_4_u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Tārābhaṭṭārikānāmāṣṭottaraśatakastotra (SA05 tarb108u)",
+  "textname": "SA05 tarb108u",
+  "filename": "SA05tarb108u",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Tārāsragdharāstotra (SA05 tarasdhu)",
+  "textname": "SA05 tarasdhu",
+  "filename": "SA05tarasdhu",
+  "category": "SA05",
+  "filenr": 1
+},
+{
+  "displayName": "Gurukriyākrama (SA06 bsa042_u)",
+  "textname": "SA06 bsa042_u",
+  "filename": "SA06bsa042_u",
+  "category": "SA06",
+  "filenr": 1
+},
+{
+  "displayName": "Gurupañcāśikā (SA06 bsa045_u)",
+  "textname": "SA06 bsa045_u",
+  "filename": "SA06bsa045_u",
+  "category": "SA06",
+  "filenr": 1
+},
+{
+  "displayName": "Siddhārthacaritra Kāvya (SA07 bghsic_u)",
+  "textname": "SA07 bghsic_u",
+  "filename": "SA07bghsic_u",
+  "category": "SA07",
+  "filenr": 1
+},
+{
+  "displayName": "Subhāṣitaratnakaraṇḍakathā (SA07 subhrk_u)",
+  "textname": "SA07 subhrk_u",
+  "filename": "SA07subhrk_u",
+  "category": "SA07",
+  "filenr": 1
+},
+{
+  "displayName": "Yaśodharācarita (SA07 davyasou)",
+  "textname": "SA07 davyasou",
+  "filename": "SA07davyasou",
+  "category": "SA07",
+  "filenr": 1
+},
+{
+  "displayName": "Dharmasaṃgraha (SA08 bsa007_u)",
+  "textname": "SA08 bsa007_u",
+  "filename": "SA08bsa007_u",
+  "category": "SA08",
+  "filenr": 1
+},
+{
+  "displayName": "Bhavasaṃkrāntiparikathā (SA09 bsa067_u)",
+  "textname": "SA09 bsa067_u",
+  "filename": "SA09bsa067_u",
+  "category": "SA09",
+  "filenr": 1
+},
+{
+  "displayName": "Śiṣyalekha (SA09 cansisyu)",
+  "textname": "SA09 cansisyu",
+  "filename": "SA09cansisyu",
+  "category": "SA09",
+  "filenr": 1
+},
+{
+  "displayName": "Suhṛllekha (SA09 bsa015_u)",
+  "textname": "SA09 bsa015_u",
+  "filename": "SA09bsa015_u",
+  "category": "SA09",
+  "filenr": 1
+},
+{
+  "displayName": "Catuḥśatikā (SA10 bsa028_u)",
+  "textname": "SA10 bsa028_u",
+  "filename": "SA10bsa028_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Hastavālaprakaraṇavṛtti (SA10 bsa009_u)",
+  "textname": "SA10 bsa009_u",
+  "filename": "SA10bsa009_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyamakāloka (SA10 ksmadhlu)",
+  "textname": "SA10 ksmadhlu",
+  "filename": "SA10ksmadhlu",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyamakaśāstra [Mūlamadhyamakakārikā] (SA10 bsa027_u)",
+  "textname": "SA10 bsa027_u",
+  "filename": "SA10bsa027_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāyānaviṃśikā [Mahāyānaviṃśati] (SA10 nagmyv_u)",
+  "textname": "SA10 nagmyv_u",
+  "filename": "SA10nagmyv_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Mūlamadhyamakakārikā (SA10 nagmmk_u)",
+  "textname": "SA10 nagmmk_u",
+  "filename": "SA10nagmmk_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Prasannapadā (SA10 canprasu)",
+  "textname": "SA10 canprasu",
+  "filename": "SA10canprasu",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Pratītyasamutpādahṛdayakārikā (SA10 bsa012_u)",
+  "textname": "SA10 bsa012_u",
+  "filename": "SA10bsa012_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Pratītyasamutpādahṛdayavyākhyāna (SA10 bsa013_u)",
+  "textname": "SA10 bsa013_u",
+  "filename": "SA10bsa013_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Śaraṇagamanadeśanā (SA10 bsa036_u)",
+  "textname": "SA10 bsa036_u",
+  "filename": "SA10bsa036_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Satyadvayāvatāranāma (SA10 bsa024_u)",
+  "textname": "SA10 bsa024_u",
+  "filename": "SA10bsa024_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Śūnyatāsaptati (SA10 bsa016_u)",
+  "textname": "SA10 bsa016_u",
+  "filename": "SA10bsa016_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Sūtrārthasamuccayopadeśa (SA10 bsa038_u)",
+  "textname": "SA10 bsa038_u",
+  "filename": "SA10bsa038_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Vigrahavyāvartanī (SA10 bsa021_u)",
+  "textname": "SA10 bsa021_u",
+  "filename": "SA10bsa021_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Vigrahavyāvartanī [kārikā + vṛtti] (SA10 nagvigvu)",
+  "textname": "SA10 nagvigvu",
+  "filename": "SA10nagvigvu",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Vigrahavyāvartanīkārikā (SA10 nagvvy_u)",
+  "textname": "SA10 nagvvy_u",
+  "filename": "SA10nagvvy_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Yuktiṣaṣṭikakārikā (SA10 nagysk_u)",
+  "textname": "SA10 nagysk_u",
+  "filename": "SA10nagysk_u",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Yuktiṣaṣṭikārikā [Yuktiṣaṣṭikakārikā] (SA10 nagyuksu)",
+  "textname": "SA10 nagyuksu",
+  "filename": "SA10nagyuksu",
+  "category": "SA10",
+  "filenr": 1
+},
+{
+  "displayName": "Āpattideśanāvidhi   (SA11 bsa041_u)",
+  "textname": "SA11 bsa041_u",
+  "filename": "SA11bsa041_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bhāvanākrama    (SA11 bsa047_u)",
+  "textname": "SA11 bsa047_u",
+  "filename": "SA11bsa047_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhicaryāvatāra [Bodhisattvacaryāvatāra] (v. Vaidya)   (SA11 bsa003_u)",
+  "textname": "SA11 bsa003_u",
+  "filename": "SA11bsa003_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhicaryāvatāra [Bodhisattvacaryāvatāra] (v. Mahoney)  (SA11 santbcpu)",
+  "textname": "SA11 santbcpu",
+  "filename": "SA11santbcpu",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhicaryāvatārapañjika (SA11 bsa054_u)",
+  "textname": "SA11 bsa054_u",
+  "filename": "SA11bsa054_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhipathapradīpa   (SA11 bsa004_u)",
+  "textname": "SA11 bsa004_u",
+  "filename": "SA11bsa004_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhisattvādikarmika mārgāvatāra deśanā (SA11 bsa035_u)",
+  "textname": "SA11 bsa035_u",
+  "filename": "SA11bsa035_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Caryāsaṅgrahapradīpa    (SA11 bsa005_u)",
+  "textname": "SA11 bsa005_u",
+  "filename": "SA11bsa005_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Cittotpādasaṃvaravidhikrama (SA11 bsa040_u)",
+  "textname": "SA11 bsa040_u",
+  "filename": "SA11bsa040_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Garbhasaṃgraha  (SA11 bsa008_u)",
+  "textname": "SA11 bsa008_u",
+  "filename": "SA11bsa008_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāyānapathasādhanasaṅgraha    (SA11 bsa037_u)",
+  "textname": "SA11 bsa037_u",
+  "filename": "SA11bsa037_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Samādhisaṃbhāraparivarta    (SA11 bsa043_u)",
+  "textname": "SA11 bsa043_u",
+  "filename": "SA11bsa043_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya I. danaparamita (SA11 sanss01u)",
+  "textname": "SA11 sanss01u",
+  "filename": "SA11sanss01u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya II. saddharmaparigraha (SA11 sanss02u)",
+  "textname": "SA11 sanss02u",
+  "filename": "SA11sanss02u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya III. dharmabanakadiraksa (SA11 sanss03u)",
+  "textname": "SA11 sanss03u",
+  "filename": "SA11sanss03u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya IV. caturthah paricchedah (SA11 sanss04u)",
+  "textname": "SA11 sanss04u",
+  "filename": "SA11sanss04u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya V. anarthavivarjana (SA11 sanss05u)",
+  "textname": "SA11 sanss05u",
+  "filename": "SA11sanss05u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya VI. atmabhavaraksa (SA11 sanss06u)",
+  "textname": "SA11 sanss06u",
+  "filename": "SA11sanss06u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya VII. bhogapunyaraksa (SA11 sanss07u)",
+  "textname": "SA11 sanss07u",
+  "filename": "SA11sanss07u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya VIII. papasodhana (SA11 sanss08u)",
+  "textname": "SA11 sanss08u",
+  "filename": "SA11sanss08u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya IX. ksantiparamita (SA11 sanss09u)",
+  "textname": "SA11 sanss09u",
+  "filename": "SA11sanss09u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya X. viryaparamita (SA11 sanss10u)",
+  "textname": "SA11 sanss10u",
+  "filename": "SA11sanss10u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XI. aranyasamvarnana (SA11 sanss11u)",
+  "textname": "SA11 sanss11u",
+  "filename": "SA11sanss11u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XII. cittaparikarma (SA11 sanss12u)",
+  "textname": "SA11 sanss12u",
+  "filename": "SA11sanss12u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XIII. smrtyupasthanapariccheda (SA11 sanss13u)",
+  "textname": "SA11 sanss13u",
+  "filename": "SA11sanss13u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XIV. atmabhavaparisuddhi (SA11 sanss14u)",
+  "textname": "SA11 sanss14u",
+  "filename": "SA11sanss14u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XV. bhogapunyasuddhi (SA11 sanss15u)",
+  "textname": "SA11 sanss15u",
+  "filename": "SA11sanss15u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XVI. bhadracaryaviddhi (SA11 sanss16u)",
+  "textname": "SA11 sanss16u",
+  "filename": "SA11sanss16u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XVII. vandanadyanusamsa (SA11 sanss17u)",
+  "textname": "SA11 sanss17u",
+  "filename": "SA11sanss17u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XVIII. ratnatrayanusmrti (SA11 sanss18u)",
+  "textname": "SA11 sanss18u",
+  "filename": "SA11sanss18u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya XIX. punyavrddhi (SA11 sanss19u)",
+  "textname": "SA11 sanss19u",
+  "filename": "SA11sanss19u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccaya (SA11 sanssr_pu)",
+  "textname": "SA11 sanssr_pu",
+  "filename": "SA11sanssr_pu",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śikṣāsamuccayakārikā    (SA11 bsa014_u)",
+  "textname": "SA11 bsa014_u",
+  "filename": "SA11bsa014_u",
+  "category": "SA11",
+  "filenr": 1
+},
+{
+  "displayName": "Śatagāthā (SA13 bsa060_u)",
+  "textname": "SA13 bsa060_u",
+  "filename": "SA13bsa060_u",
+  "category": "SA13",
+  "filenr": 1
+},
+{
+  "displayName": "Abhisamayālaṅkāra (SA14 bsa026_u)",
+  "textname": "SA14 bsa026_u",
+  "filename": "SA14bsa026_u",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Abhisamayālaṅkāranāmaprajñāpāramitopadeśaśāstra (SA14 abhisamu)",
+  "textname": "SA14 abhisamu",
+  "filename": "SA14abhisamu",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Abhisamayālaṅkārāntaḥ pātināṃ (SA14 bsa033_u)",
+  "textname": "SA14 bsa033_u",
+  "filename": "SA14bsa033_u",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Abhisamayālaṅkāravṛttiḥ sphuṭārthā (SA14 bsa031_u)",
+  "textname": "SA14 bsa031_u",
+  "filename": "SA14bsa031_u",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Navaślokī (SA14 knavslou)",
+  "textname": "SA14 knavslou",
+  "filename": "SA14knavslou",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Pāramitāsamāsa (SA14 bsa050_u)",
+  "textname": "SA14 bsa050_u",
+  "filename": "SA14bsa050_u",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Prajñāpāramitāvajracchedikāṭīkā (SA14 kamvchtu)",
+  "textname": "SA14 kamvchtu",
+  "filename": "SA14kamvchtu",
+  "category": "SA14",
+  "filenr": 1
+},
+{
+  "displayName": "Ālambanaparīkṣā (SA15 bsa001_u)",
+  "textname": "SA15 bsa001_u",
+  "filename": "SA15bsa001_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Ālambanaparīkṣāvṛtti (SA15 bsa002_u)",
+  "textname": "SA15 bsa002_u",
+  "filename": "SA15bsa002_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Antarvyāptisamarthana (SA15 bsa0556u)",
+  "textname": "SA15 bsa0556u",
+  "filename": "SA15bsa0556u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Apohasiddhi (SA15 bsa0551u)",
+  "textname": "SA15 bsa0551u",
+  "filename": "SA15bsa0551u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Avayavinirākaraṇa (SA15 bsa0554u)",
+  "textname": "SA15 bsa0554u",
+  "filename": "SA15bsa0554u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetubindu (v. Gokhale) (SA15 bsa071_u)",
+  "textname": "SA15 bsa071_u",
+  "filename": "SA15bsa071_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetubindu (v. Steinkellner) (SA15 dhkhetuu)",
+  "textname": "SA15 dhkhetuu",
+  "filename": "SA15dhkhetuu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetubinduṭīkā (v. Krasser) (SA15 arhebt_u)",
+  "textname": "SA15 arhebt_u",
+  "filename": "SA15arhebt_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetubinduṭīkā (v. SBCIP) (SA15 arhebt2u)",
+  "textname": "SA15 arhebt2u",
+  "filename": "SA15arhebt2u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetutattvopadeśa (v. Tucci) (SA15 jithettu)",
+  "textname": "SA15 jithettu",
+  "filename": "SA15jithettu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Hetutattvopadeśa (v. Jitāri) (SA15 jithetuu)",
+  "textname": "SA15 jithetuu",
+  "filename": "SA15jithetuu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Kṣaṇabhaṅgasiddhi (SA15 bsa0552u)",
+  "textname": "SA15 bsa0552u",
+  "filename": "SA15bsa0552u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Kṣaṇabhaṅgasiddhi Vyatirekātmikā (v. SBCIP) (SA15 bsa0553u)",
+  "textname": "SA15 bsa0553u",
+  "filename": "SA15bsa0553u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Kṣaṇabhaṅgasiddhi Vyatirekātmikā (v. McDermott) (SA15 ratksanu)",
+  "textname": "SA15 ratksanu",
+  "filename": "SA15ratksanu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Nibandhāvalī (SA15 bsa075_u)",
+  "textname": "SA15 bsa075_u",
+  "filename": "SA15bsa075_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Nyāyabindu (SA15 dhknyayu)",
+  "textname": "SA15 dhknyayu",
+  "filename": "SA15dhknyayu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Nyāyabindu Prakaraṇa (SA15 dhnyabpu)",
+  "textname": "SA15 dhnyabpu",
+  "filename": "SA15dhnyabpu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Nyāyabindu Prakaraṇakārikā (SA15 bsa057_u)",
+  "textname": "SA15 bsa057_u",
+  "filename": "SA15bsa057_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Nyāyapraveśapravṛtti (SA15 bsa066_u)",
+  "textname": "SA15 bsa066_u",
+  "filename": "SA15bsa066_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Pramāṇavārttika (SA15 pramanvu)",
+  "textname": "SA15 pramanvu",
+  "filename": "SA15pramanvu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Pramāṇavārttikakārikā (SA15 dhkprvku)",
+  "textname": "SA15 dhkprvku",
+  "filename": "SA15dhkprvku",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Pramāṇavārttikaṭīkā (SA15 sbpramvu)",
+  "textname": "SA15 sbpramvu",
+  "filename": "SA15sbpramvu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Pramāṇavārttikavṛtti (SA15 dhkpvsvu)",
+  "textname": "SA15 dhkpvsvu",
+  "filename": "SA15dhkpvsvu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Pramāṇaviniścaya (SA15 dhkprviu)",
+  "textname": "SA15 dhkprviu",
+  "filename": "SA15dhkprviu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Sāmānyadūṣaṇadikprasāritā (SA15 bsa0555u)",
+  "textname": "SA15 bsa0555u",
+  "filename": "SA15bsa0555u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Sambandhaparīkṣā (v.SBCIP) (SA15 bsa063_u)",
+  "textname": "SA15 bsa063_u",
+  "filename": "SA15bsa063_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Sambandhaparīkṣā (v. Motoi Ono) (SA15 dhksparu)",
+  "textname": "SA15 dhksparu",
+  "filename": "SA15dhksparu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Santānāntarasiddhi (SA15 bsa059_u)",
+  "textname": "SA15 bsa059_u",
+  "filename": "SA15bsa059_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Santānāntarasiddhiṭīkā (SA15 bsa061_u)",
+  "textname": "SA15 bsa061_u",
+  "filename": "SA15bsa061_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Tarkaśāstra (SA15 bsa069_u)",
+  "textname": "SA15 bsa069_u",
+  "filename": "SA15bsa069_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Upāyahṛdaya (SA15 bsa070_u)",
+  "textname": "SA15 bsa070_u",
+  "filename": "SA15bsa070_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Vādanyāya (v.SBCIP) (SA15 bsa064_u)",
+  "textname": "SA15 bsa064_u",
+  "filename": "SA15bsa064_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Vādanyāya (v. Motoi Ono) (SA15 dhkvadnu)",
+  "textname": "SA15 dhkvadnu",
+  "filename": "SA15dhkvadnu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Vādarahasya [Udayananirākaraṇa] (SA15 rvadrahu)",
+  "textname": "SA15 rvadrahu",
+  "filename": "SA15rvadrahu",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Vajrasūcī (SA15 bsa020_u)",
+  "textname": "SA15 bsa020_u",
+  "filename": "SA15bsa020_u",
+  "category": "SA15",
+  "filenr": 1
+},
+{
+  "displayName": "Satyasiddhiśāstra (SA16 hvsatssu)",
+  "textname": "SA16 hvsatssu",
+  "filename": "SA16hvsatssu",
+  "category": "SA16",
+  "filenr": 1
+},
+{
+  "displayName": "Citralakṣaṇa (SA17 nagcitpu)",
+  "textname": "SA17 nagcitpu",
+  "filename": "SA17nagcitpu",
+  "category": "SA17",
+  "filenr": 1
+},
+{
+  "displayName": "Kriyāsaṃgrahakārikā (SA17 bsa044_u)",
+  "textname": "SA17 bsa044_u",
+  "filename": "SA17bsa044_u",
+  "category": "SA17",
+  "filenr": 1
+},
+{
+  "displayName": "Pratyakṣalakṣaṇa Tarkarahasya (SA17 tarkrplu)",
+  "textname": "SA17 tarkrplu",
+  "filename": "SA17tarkrplu",
+  "category": "SA17",
+  "filenr": 1
+},
+{
+  "displayName": "Samyaksambuddhabhāṣitaṃ pratimālakṣaṇam (SA17 bsu059_u)",
+  "textname": "SA17 bsu059_u",
+  "filename": "SA17bsu059_u",
+  "category": "SA17",
+  "filenr": 1
+},
+{
+  "displayName": "Stūpalakṣaṇakārikāvivecana (SA17 stuplaku)",
+  "textname": "SA17 stuplaku",
+  "filename": "SA17stuplaku",
+  "category": "SA17",
+  "filenr": 1
+},
+{
+  "displayName": "Sphuṭārthā Śrīghanācārasaṃgrahaṭīkā (SA18 jsphustu)",
+  "textname": "SA18 jsphustu",
+  "filename": "SA18jsphustu",
+  "category": "SA18",
+  "filenr": 1
+},
+{
+  "displayName": "Śrighanācārasaṃgraha (SA18 sghancsu)",
+  "textname": "SA18 sghancsu",
+  "filename": "SA18sghancsu",
+  "category": "SA18",
+  "filenr": 1
+},
+{
+  "displayName": "Śālistambakakārikā [Āryaśālistambakakārikā] (SA19 bsa062_u)",
+  "textname": "SA19 bsa062_u",
+  "filename": "SA19bsa062_u",
+  "category": "SA19",
+  "filenr": 1
+},
+{
+  "displayName": "Śālistambakamahāyānasūtraṭīkā [Āryaśālistambakamahāyānasūtraṭīkā] (SA19 nagsaliu)",
+  "textname": "SA19 nagsaliu",
+  "filename": "SA19nagsaliu",
+  "category": "SA19",
+  "filenr": 1
+},
+{
+  "displayName": "Tarkabhāṣā (SA19 bsa072_u)",
+  "textname": "SA19 bsa072_u",
+  "filename": "SA19bsa072_u",
+  "category": "SA19",
+  "filenr": 1
+},
+{
+  "displayName": "Tarkarahasya (SA19 tarkrsau)",
+  "textname": "SA19 tarkrsau",
+  "filename": "SA19tarkrsau",
+  "category": "SA19",
+  "filenr": 1
+},
+{
+  "displayName": "Bhavasaṃkrāntiṭīkā (SA20 bsa058_u)",
+  "textname": "SA20 bsa058_u",
+  "filename": "SA20bsa058_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhicittotpādasūtraśāstra (SA20 vasbocpu)",
+  "textname": "SA20 vasbocpu",
+  "filename": "SA20vasbocpu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhisattvabhūmi (SA20 bsa034_u)",
+  "textname": "SA20 bsa034_u",
+  "filename": "SA20bsa034_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Karmavibhaṅgopadeśa (SA20 bsu060_u)",
+  "textname": "SA20 bsu060_u",
+  "filename": "SA20bsu060_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyāntavibhāgabhāṣya [Madhyāntavibhāgakārikābhāṣya] (SA20 vmvkbh_u)",
+  "textname": "SA20 vmvkbh_u",
+  "filename": "SA20vmvkbh_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyāntavibhāgakārikā (SA20 bsa010_u)",
+  "textname": "SA20 bsa010_u",
+  "filename": "SA20bsa010_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Madhyāntavibhāgaṭīkā (Sthiramati) (SA20 mavt)",
+  "textname": "SA20 mavt",
+  "filename": "SA20mavt",
+  "category": "SA20",
+  "filenr": 176
+},
+{
+  "displayName": "Mahāyānasūtrālaṃkāra (v. Lévi) (SA20 asmahsbu)",
+  "textname": "SA20 asmahsbu",
+  "filename": "SA20asmahsbu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāyānasūtrālaṃkāra (v. Bagchi) (SA20 asmahsuu)",
+  "textname": "SA20 asmahsuu",
+  "filename": "SA20asmahsuu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāyānasūtrālaṃkāra (SA20 bsa030_u)",
+  "textname": "SA20 bsa030_u",
+  "filename": "SA20bsa030_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaskandhaprakaraṇa (SA20 bsa065_u)",
+  "textname": "SA20 bsa065_u",
+  "filename": "SA20bsa065_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcaskandhakavibhāṣā (Sthiramati)",
+  "textname": "SA20 psk",
+  "filename": "SA20psk",
+  "category": "SA20",
+  "filenr": 177
+},
+{
+  "displayName": "Ratnagotravibhāga (SA20 bsa073_u)",
+  "textname": "SA20 bsa073_u",
+  "filename": "SA20bsa073_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Śrāvakabhūmi (v. SSG) (SA20 srabhu_u)",
+  "textname": "SA20 srabhu_u",
+  "filename": "SA20srabhu_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Śrāvakabhūmi (v. Shukla) (SA20 srabhusu)",
+  "textname": "SA20 srabhusu",
+  "filename": "SA20srabhusu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Tattvaratnāvaloka [Tattvaratnāloka] (SA20 bsa017_u)",
+  "textname": "SA20 bsa017_u",
+  "filename": "SA20bsa017_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Triṃśikāvijñaptikārikā [Triṃśikākārikā] (SA20 bsa018_u)",
+  "textname": "SA20 bsa018_u",
+  "filename": "SA20bsa018_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Triṃśikāvijñaptikārikā Triṃśikāvijñaptibhāṣya [Triṃśikābhāṣya] (SA20 sthtvbhu)",
+  "textname": "SA20 sthtvbhu",
+  "filename": "SA20sthtvbhu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Trisvabhāvanirdeśa (SA20 bsa019_u)",
+  "textname": "SA20 bsa019_u",
+  "filename": "SA20bsa019_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Viṃśatikā vijñaptimātratāsiddhi [Viṃśatikākārikā, Viṃśikāvṛtti]] (SA20 vasvvmsu)",
+  "textname": "SA20 vasvvmsu",
+  "filename": "SA20vasvvmsu",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Viṃśatikākārikā [Viṃśikāvṛtti] (SA20 bsa023_u)",
+  "textname": "SA20 bsa023_u",
+  "filename": "SA20bsa023_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Viṃśikāvṛtti [Viṃśatikākārikā] (SA20 bsa022_u)",
+  "textname": "SA20 bsa022_u",
+  "filename": "SA20bsa022_u",
+  "category": "SA20",
+  "filenr": 1
+},
+{
+  "displayName": "Nityakarmapūjāvidhi (SA21 nitkarpu)",
+  "textname": "SA21 nitkarpu",
+  "filename": "SA21nitkarpu",
+  "category": "SA21",
+  "filenr": 1
+},
+{
+  "displayName": "Tatvajñānasaṃsiddhi (SA21 sunytjsu)",
+  "textname": "SA21 sunytjsu",
+  "filename": "SA21sunytjsu",
+  "category": "SA21",
+  "filenr": 1
+},
+{
+  "displayName": "Cittaviśuddhiprakaraṇa (SA22 bsa006_u)",
+  "textname": "SA22 bsa006_u",
+  "filename": "SA22bsa006_u",
+  "category": "SA22",
+  "filenr": 1
+},
+{
+  "displayName": "Guhyasamājamaṇḍalavidhi (SA22 dipguhsu)",
+  "textname": "SA22 dipguhsu",
+  "filename": "SA22dipguhsu",
+  "category": "SA22",
+  "filenr": 1
+},
+{
+  "displayName": "Pañcakrama (SA22 nagpancu)",
+  "textname": "SA22 nagpancu",
+  "filename": "SA22nagpancu",
+  "category": "SA22",
+  "filenr": 1
+},
+{
+  "displayName": "Piṇḍīkrama (SA22 nagpindu)",
+  "textname": "SA22 nagpindu",
+  "filename": "SA22nagpindu",
+  "category": "SA22",
+  "filenr": 1
+},
+{
+  "displayName": "Abhisamācārikadharma (XX abhisdhu)",
+  "textname": "XX abhisdhu",
+  "filename": "XXabhisdhu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Adbhutadharmaparyāya (XX adbhutdu)",
+  "textname": "XX adbhutdu",
+  "filename": "XXadbhutdu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Ahorātravratakathā 1 (XX ahovk1_u)",
+  "textname": "XX ahovk1_u",
+  "filename": "XXahovk1_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Ahorātravratakathā 2 (XX ahovk2_u)",
+  "textname": "XX ahovk2_u",
+  "filename": "XXahovk2_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Avadānaśataka (XX avsata_u)",
+  "textname": "XX avsata_u",
+  "filename": "XXavsata_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Bhramaharanāma Hevajrasādhana (XX rabhramu)",
+  "textname": "XX rabhramu",
+  "filename": "XXrabhramu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Bodhicittavivaraṇa (XX nagbhc_u)",
+  "textname": "XX nagbhc_u",
+  "filename": "XXnagbhc_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Bower Manuscript (XX bowermsu)",
+  "textname": "XX bowermsu",
+  "filename": "XXbowermsu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Buddhist Yoga Manual (XX byogalbu)",
+  "textname": "XX byogalbu",
+  "filename": "XXbyogalbu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Caryāmelāvaṇapradīpa (XX bsa048_u)",
+  "textname": "XX bsa048_u",
+  "filename": "XXbsa048_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Catuḥstavasamāsārtha (XX acatstvu)",
+  "textname": "XX acatstvu",
+  "filename": "XXacatstvu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Dharmaskandha (XX dhrmsk_u)",
+  "textname": "XX dhrmsk_u",
+  "filename": "XXdhrmsk_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Gaṇapatihṛdaya (XX ganphrdu)",
+  "textname": "XX ganphrdu",
+  "filename": "XXganphrdu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Kalpanāmaṇḍitikā (XX kukalpmu)",
+  "textname": "XX kukalpmu",
+  "filename": "XXkukalpmu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāsāhasrapramardanī (XX mspram_u)",
+  "textname": "XX mspram_u",
+  "filename": "XXmspram_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mahāśītavatī vidyārājñī (XX msitvatu)",
+  "textname": "XX msitvatu",
+  "filename": "XXmsitvatu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mṛtyuvañcanasitatārāsādhana (XX mrtvstsu)",
+  "textname": "XX mrtvstsu",
+  "filename": "XXmrtvstsu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mṛtyuvañcanatārāsādhana (XX mrtvts_u)",
+  "textname": "XX mrtvts_u",
+  "filename": "XXmrtvts_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mṛtyuvañcanopadeśa (XX vamvuppu)",
+  "textname": "XX vamvuppu",
+  "filename": "XXvamvuppu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Mṛtyuvañcanopadeśatārāsādhana (XX mrtvutsu)",
+  "textname": "XX mrtvutsu",
+  "filename": "XXmrtvutsu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Narmamālā (XX ksnarm_u)",
+  "textname": "XX ksnarm_u",
+  "filename": "XXksnarm_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Patna Dharmapada (XX dhppat_u)",
+  "textname": "XX dhppat_u",
+  "filename": "XXdhppat_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Prasādapratibhodhava [Śatapañcāśatka] (XX matpra_u)",
+  "textname": "XX matpra_u",
+  "filename": "XXmatpra_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Sabhikasaugataśāsanapravrajyāvratacaraṇaparivarta (XX sabhivpu)",
+  "textname": "XX sabhivpu",
+  "filename": "XXsabhivpu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Śarīrārthagāthā (XX asycsaru)",
+  "textname": "XX asycsaru",
+  "filename": "XXasycsaru",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Śrīmahādevīvyākaraṇa [Dvādaśadaṇḍakanāmāṣṭaśatavimalīkaraṇā] (XX bsu007_u)",
+  "textname": "XX bsu007_u",
+  "filename": "XXbsu007_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Tarkasopāna (XX vtrksopu)",
+  "textname": "XX vtrksopu",
+  "filename": "XXvtrksopu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Vibhāṣāprabhāvṛtti (XX vabhdicu)",
+  "textname": "XX vabhdicu",
+  "filename": "XXvabhdicu",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Yogāvatāra (XX bsa046_u)",
+  "textname": "XX bsa046_u",
+  "filename": "XXbsa046_u",
+  "category": "XX",
+  "filenr": 1
+},
+{
+  "displayName": "Atharvaveda-Samhita (Saunaka recension) (GV00 avs___u)",
+  "textname": "GV00 avs___u",
+  "filename": "GV00avs___u",
+  "category": "GV00",
+  "filenr": 405
+},
+{
+  "displayName": "Maitrayani-Samhita (GV00 maitrs_pu)",
+  "textname": "GV00 maitrs_pu",
+  "filename": "GV00maitrs_pu",
+  "category": "GV00",
+  "filenr": 408
+},
+{
+  "displayName": "Samaveda-Samhita (GV00 samavedu)",
+  "textname": "GV00 samavedu",
+  "filename": "GV00samavedu",
+  "category": "GV00",
+  "filenr": 409
+},
+{
+  "displayName": "Rgveda 1 (GV01 rv_01_u)",
+  "textname": "GV01 rv_01_u",
+  "filename": "GV01rv_01_u",
+  "category": "GV01",
+  "filenr": 410
+},
+{
+  "displayName": "Rgveda 2 (GV01 rv_02_u)",
+  "textname": "GV01 rv_02_u",
+  "filename": "GV01rv_02_u",
+  "category": "GV01",
+  "filenr": 411
+},
+{
+  "displayName": "Rgveda 3 (GV01 rv_03_u)",
+  "textname": "GV01 rv_03_u",
+  "filename": "GV01rv_03_u",
+  "category": "GV01",
+  "filenr": 412
+},
+{
+  "displayName": "Rgveda 4 (GV01 rv_04_u)",
+  "textname": "GV01 rv_04_u",
+  "filename": "GV01rv_04_u",
+  "category": "GV01",
+  "filenr": 413
+},
+{
+  "displayName": "Rgveda 5 (GV01 rv_05_u)",
+  "textname": "GV01 rv_05_u",
+  "filename": "GV01rv_05_u",
+  "category": "GV01",
+  "filenr": 414
+},
+{
+  "displayName": "Rgveda 6 (GV01 rv_06_u)",
+  "textname": "GV01 rv_06_u",
+  "filename": "GV01rv_06_u",
+  "category": "GV01",
+  "filenr": 415
+},
+{
+  "displayName": "Rgveda 7 (GV01 rv_07_u)",
+  "textname": "GV01 rv_07_u",
+  "filename": "GV01rv_07_u",
+  "category": "GV01",
+  "filenr": 416
+},
+{
+  "displayName": "Rgveda 8 (GV01 rv_08_u)",
+  "textname": "GV01 rv_08_u",
+  "filename": "GV01rv_08_u",
+  "category": "GV01",
+  "filenr": 417
+},
+{
+  "displayName": "Rgveda 9 (GV01 rv_09_u)",
+  "textname": "GV01 rv_09_u",
+  "filename": "GV01rv_09_u",
+  "category": "GV01",
+  "filenr": 418
+},
+{
+  "displayName": "Rgveda 10 (GV01 rv_10_u)",
+  "textname": "GV01 rv_10_u",
+  "filename": "GV01rv_10_u",
+  "category": "GV01",
+  "filenr": 419
+},
+{
+  "displayName": "Rgveda (Mandala 1) (GV01 rv_hn01u)",
+  "textname": "GV01 rv_hn01u",
+  "filename": "GV01rv_hn01u",
+  "category": "GV01",
+  "filenr": 420
+},
+{
+  "displayName": "Rgveda (Mandala 2) (GV01 rv_hn02u)",
+  "textname": "GV01 rv_hn02u",
+  "filename": "GV01rv_hn02u",
+  "category": "GV01",
+  "filenr": 421
+},
+{
+  "displayName": "Rgveda (Mandala 3) (GV01 rv_hn03u)",
+  "textname": "GV01 rv_hn03u",
+  "filename": "GV01rv_hn03u",
+  "category": "GV01",
+  "filenr": 422
+},
+{
+  "displayName": "Rgveda (Mandala 4) (GV01 rv_hn04u)",
+  "textname": "GV01 rv_hn04u",
+  "filename": "GV01rv_hn04u",
+  "category": "GV01",
+  "filenr": 423
+},
+{
+  "displayName": "Rgveda (Mandala 5) (GV01 rv_hn05u)",
+  "textname": "GV01 rv_hn05u",
+  "filename": "GV01rv_hn05u",
+  "category": "GV01",
+  "filenr": 424
+},
+{
+  "displayName": "Rgveda (Mandala 6) (GV01 rv_hn06u)",
+  "textname": "GV01 rv_hn06u",
+  "filename": "GV01rv_hn06u",
+  "category": "GV01",
+  "filenr": 425
+},
+{
+  "displayName": "Rgveda (Mandala 7) (GV01 rv_hn07u)",
+  "textname": "GV01 rv_hn07u",
+  "filename": "GV01rv_hn07u",
+  "category": "GV01",
+  "filenr": 426
+},
+{
+  "displayName": "Rgveda (Mandala 8) (GV01 rv_hn08u)",
+  "textname": "GV01 rv_hn08u",
+  "filename": "GV01rv_hn08u",
+  "category": "GV01",
+  "filenr": 427
+},
+{
+  "displayName": "Rgveda (Mandala 9) (GV01 rv_hn09u)",
+  "textname": "GV01 rv_hn09u",
+  "filename": "GV01rv_hn09u",
+  "category": "GV01",
+  "filenr": 428
+},
+{
+  "displayName": "Rgveda (Mandala 10) (GV01 rv_hn10u)",
+  "textname": "GV01 rv_hn10u",
+  "filename": "GV01rv_hn10u",
+  "category": "GV01",
+  "filenr": 429
+},
+{
+  "displayName": "Rgveda (GV01 rvh1–10u)",
+  "textname": "GV01 rvh1–10u",
+  "filename": "GV01rvh1-10u",
+  "category": "GV01",
+  "filenr": 430
+},
+{
+  "displayName": "The Khila Verses of the Rgveda (GV01 rvkhilau)",
+  "textname": "GV01 rvkhilau",
+  "filename": "GV01rvkhilau",
+  "category": "GV01",
+  "filenr": 431
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 1 (GV01 rvpp_01u)",
+  "textname": "GV01 rvpp_01u",
+  "filename": "GV01rvpp_01u",
+  "category": "GV01",
+  "filenr": 432
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 2 (GV01 rvpp_02u)",
+  "textname": "GV01 rvpp_02u",
+  "filename": "GV01rvpp_02u",
+  "category": "GV01",
+  "filenr": 433
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 3 (GV01 rvpp_03u)",
+  "textname": "GV01 rvpp_03u",
+  "filename": "GV01rvpp_03u",
+  "category": "GV01",
+  "filenr": 434
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 4 (GV01 rvpp_04u)",
+  "textname": "GV01 rvpp_04u",
+  "filename": "GV01rvpp_04u",
+  "category": "GV01",
+  "filenr": 435
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 5 (GV01 rvpp_05u)",
+  "textname": "GV01 rvpp_05u",
+  "filename": "GV01rvpp_05u",
+  "category": "GV01",
+  "filenr": 436
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 6 (GV01 rvpp_06u)",
+  "textname": "GV01 rvpp_06u",
+  "filename": "GV01rvpp_06u",
+  "category": "GV01",
+  "filenr": 437
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 7 (GV01 rvpp_07u)",
+  "textname": "GV01 rvpp_07u",
+  "filename": "GV01rvpp_07u",
+  "category": "GV01",
+  "filenr": 438
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 8 (GV01 rvpp_08u)",
+  "textname": "GV01 rvpp_08u",
+  "filename": "GV01rvpp_08u",
+  "category": "GV01",
+  "filenr": 439
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 9 (GV01 rvpp_09u)",
+  "textname": "GV01 rvpp_09u",
+  "filename": "GV01rvpp_09u",
+  "category": "GV01",
+  "filenr": 440
+},
+{
+  "displayName": "Rgveda-Samhita: Padapatha text 10 (GV01 rvpp_10u)",
+  "textname": "GV01 rvpp_10u",
+  "filename": "GV01rvpp_10u",
+  "category": "GV01",
+  "filenr": 441
+},
+{
+  "displayName": "Gopathabrahmana (GV02 gopbra_u)",
+  "textname": "GV02 gopbra_u",
+  "filename": "GV02gopbra_u",
+  "category": "GV02",
+  "filenr": 442
+},
+{
+  "displayName": "Gopatha-Brahmana (1,1.1–1,3.6) (GV02 gopthbru)",
+  "textname": "GV02 gopthbru",
+  "filename": "GV02gopthbru",
+  "category": "GV02",
+  "filenr": 443
+},
+{
+  "displayName": "Kausitaki-Brahmana (Sankhayana-Brahmana) (GV02 kausibru)",
+  "textname": "GV02 kausibru",
+  "filename": "GV02kausibru",
+  "category": "GV02",
+  "filenr": 444
+},
+{
+  "displayName": "Pancavimsabrahmana (GV02 pncvbr1u)",
+  "textname": "GV02 pncvbr1u",
+  "filename": "GV02pncvbr1u",
+  "category": "GV02",
+  "filenr": 445
+},
+{
+  "displayName": "Satapatha-Brahmana 1 (GV03 sb_01_u)",
+  "textname": "GV03 sb_01_u",
+  "filename": "GV03sb_01_u",
+  "category": "GV03",
+  "filenr": 447
+},
+{
+  "displayName": "Satapatha-Brahmana 2 (GV03 sb_02_u)",
+  "textname": "GV03 sb_02_u",
+  "filename": "GV03sb_02_u",
+  "category": "GV03",
+  "filenr": 448
+},
+{
+  "displayName": "Satapatha-Brahmana 3 (GV03 sb_03_u)",
+  "textname": "GV03 sb_03_u",
+  "filename": "GV03sb_03_u",
+  "category": "GV03",
+  "filenr": 449
+},
+{
+  "displayName": "Satapatha-Brahmana 4 (GV03 sb_04_u)",
+  "textname": "GV03 sb_04_u",
+  "filename": "GV03sb_04_u",
+  "category": "GV03",
+  "filenr": 450
+},
+{
+  "displayName": "Satapatha-Brahmana 5 (GV03 sb_05_u)",
+  "textname": "GV03 sb_05_u",
+  "filename": "GV03sb_05_u",
+  "category": "GV03",
+  "filenr": 451
+},
+{
+  "displayName": "Satapatha-Brahmana 6 (GV03 sb_06_u)",
+  "textname": "GV03 sb_06_u",
+  "filename": "GV03sb_06_u",
+  "category": "GV03",
+  "filenr": 452
+},
+{
+  "displayName": "Satapatha-Brahmana 7 (GV03 sb_07_u)",
+  "textname": "GV03 sb_07_u",
+  "filename": "GV03sb_07_u",
+  "category": "GV03",
+  "filenr": 453
+},
+{
+  "displayName": "Satapatha-Brahmana 8 (GV03 sb_08_u)",
+  "textname": "GV03 sb_08_u",
+  "filename": "GV03sb_08_u",
+  "category": "GV03",
+  "filenr": 454
+},
+{
+  "displayName": "Satapatha-Brahmana 9 (GV03 sb_09_u)",
+  "textname": "GV03 sb_09_u",
+  "filename": "GV03sb_09_u",
+  "category": "GV03",
+  "filenr": 455
+},
+{
+  "displayName": "Satapatha-Brahmana 10 (GV03 sb_10_u)",
+  "textname": "GV03 sb_10_u",
+  "filename": "GV03sb_10_u",
+  "category": "GV03",
+  "filenr": 456
+},
+{
+  "displayName": "Satapatha-Brahmana 11 (GV03 sb_11_u)",
+  "textname": "GV03 sb_11_u",
+  "filename": "GV03sb_11_u",
+  "category": "GV03",
+  "filenr": 457
+},
+{
+  "displayName": "Satapatha-Brahmana 13 (GV03 sb_13_u)",
+  "textname": "GV03 sb_13_u",
+  "filename": "GV03sb_13_u",
+  "category": "GV03",
+  "filenr": 458
+},
+{
+  "displayName": "Satapatha-Brahmana 14 (GV03 sb_14_u)",
+  "textname": "GV03 sb_14_u",
+  "filename": "GV03sb_14_u",
+  "category": "GV03",
+  "filenr": 459
+},
+{
+  "displayName": "Sankhayana-Aranyaka (GV04 sankharu)",
+  "textname": "GV04 sankharu",
+  "filename": "GV04sankharu",
+  "category": "GV04",
+  "filenr": 460
+},
+{
+  "displayName": "Agamasastra 1: Agamaprakarana (incl. Mandukya-Upanisad) (GV05 agsas_1u)",
+  "textname": "GV05 agsas_1u",
+  "filename": "GV05agsas_1u",
+  "category": "GV05",
+  "filenr": 461
+},
+{
+  "displayName": "Agamasastra 2: Vaitathyaprakarana (GV05 agsas_2u)",
+  "textname": "GV05 agsas_2u",
+  "filename": "GV05agsas_2u",
+  "category": "GV05",
+  "filenr": 462
+},
+{
+  "displayName": "Agamasastra 3: Advaitaprakarana (GV05 agsas_3u)",
+  "textname": "GV05 agsas_3u",
+  "filename": "GV05agsas_3u",
+  "category": "GV05",
+  "filenr": 463
+},
+{
+  "displayName": "Agamasastra 4: Alatasantiprakarana (GV05 agsas_4u)",
+  "textname": "GV05 agsas_4u",
+  "filename": "GV05agsas_4u",
+  "category": "GV05",
+  "filenr": 464
+},
+{
+  "displayName": "Aitareya-Upanisad (Aitareyopanisad) (GV05 aitup__u)",
+  "textname": "GV05 aitup__u",
+  "filename": "GV05aitup__u",
+  "category": "GV05",
+  "filenr": 465
+},
+{
+  "displayName": "Aitareya-Upanisad (Aitareyopanisad, commented) (GV05 aitupsbu)",
+  "textname": "GV05 aitupsbu",
+  "filename": "GV05aitupsbu",
+  "category": "GV05",
+  "filenr": 466
+},
+{
+  "displayName": "Brahmabindu-Upanisad (GV05 brbiuppu)",
+  "textname": "GV05 brbiuppu",
+  "filename": "GV05brbiuppu",
+  "category": "GV05",
+  "filenr": 467
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad (Brhadaranyakopanisad, mula) (Kanva recension) (GV05 brup___u)",
+  "textname": "GV05 brup___u",
+  "filename": "GV05brup___u",
+  "category": "GV05",
+  "filenr": 468
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 1 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb1u)",
+  "textname": "GV05 brupsb1u",
+  "filename": "GV05brupsb1u",
+  "category": "GV05",
+  "filenr": 469
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 2 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb2u)",
+  "textname": "GV05 brupsb2u",
+  "filename": "GV05brupsb2u",
+  "category": "GV05",
+  "filenr": 470
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 3 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb3u)",
+  "textname": "GV05 brupsb3u",
+  "filename": "GV05brupsb3u",
+  "category": "GV05",
+  "filenr": 471
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 4 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb4u)",
+  "textname": "GV05 brupsb4u",
+  "filename": "GV05brupsb4u",
+  "category": "GV05",
+  "filenr": 472
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 5 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb5u)",
+  "textname": "GV05 brupsb5u",
+  "filename": "GV05brupsb5u",
+  "category": "GV05",
+  "filenr": 473
+},
+{
+  "displayName": "Brhadaranyaka-Upanisad 6 (Brhadaranyakopanisad) (Kanva recension) (GV05 brupsb6u)",
+  "textname": "GV05 brupsb6u",
+  "filename": "GV05brupsb6u",
+  "category": "GV05",
+  "filenr": 474
+},
+{
+  "displayName": "Chandogya-Upanisad (Chandogyopanisad) (GV05 chup___u)",
+  "textname": "GV05 chup___u",
+  "filename": "GV05chup___u",
+  "category": "GV05",
+  "filenr": 476
+},
+{
+  "displayName": "Chandogya-Upanisad (Chandogyopanisad, commented) (GV05 chupsb_u)",
+  "textname": "GV05 chupsb_u",
+  "filename": "GV05chupsb_u",
+  "category": "GV05",
+  "filenr": 477
+},
+{
+  "displayName": "Garbha-Upanisad (Garbhopanisad) (GV05 garbhupu)",
+  "textname": "GV05 garbhupu",
+  "filename": "GV05garbhupu",
+  "category": "GV05",
+  "filenr": 478
+},
+{
+  "displayName": "Gaudapada: Mandukya-Upanisadkarika (Mandukyopanisadkarika) (GV05 gmandk_u)",
+  "textname": "GV05 gmandk_u",
+  "filename": "GV05gmandk_u",
+  "category": "GV05",
+  "filenr": 479
+},
+{
+  "displayName": "Isa-Upanisad (Isopanisad or Isavasyopanisad) (Kanva recension) (GV05 isup___u)",
+  "textname": "GV05 isup___u",
+  "filename": "GV05isup___u",
+  "category": "GV05",
+  "filenr": 480
+},
+{
+  "displayName": "Isa-Upanisad (Isopanisad or Isavasyopanisad, commented) (Kanva recension) (GV05 isupsb_u)",
+  "textname": "GV05 isupsb_u",
+  "filename": "GV05isupsb_u",
+  "category": "GV05",
+  "filenr": 481
+},
+{
+  "displayName": "Kaivalya-Upanisad (GV05 kaivup_u)",
+  "textname": "GV05 kaivup_u",
+  "filename": "GV05kaivup_u",
+  "category": "GV05",
+  "filenr": 482
+},
+{
+  "displayName": "Katha-Upanisad (GV05 kathop_u)",
+  "textname": "GV05 kathop_u",
+  "filename": "GV05kathop_u",
+  "category": "GV05",
+  "filenr": 483
+},
+{
+  "displayName": "Mandukya-Upanisad (GV05 mand_upu)",
+  "textname": "GV05 mand_upu",
+  "filename": "GV05mand_upu",
+  "category": "GV05",
+  "filenr": 484
+},
+{
+  "displayName": "Mandukya-Upanisad (Mandukyopanisad) (GV05 mandup_u)",
+  "textname": "GV05 mandup_u",
+  "filename": "GV05mandup_u",
+  "category": "GV05",
+  "filenr": 485
+},
+{
+  "displayName": "Nadabindu-Upanisad (GV05 ndbiuppu)",
+  "textname": "GV05 ndbiuppu",
+  "filename": "GV05ndbiuppu",
+  "category": "GV05",
+  "filenr": 486
+},
+{
+  "displayName": "Prasna-Upanisad (Prasnopanisad) (GV05 prasup_u)",
+  "textname": "GV05 prasup_u",
+  "filename": "GV05prasup_u",
+  "category": "GV05",
+  "filenr": 487
+},
+{
+  "displayName": "Prasna-Upanisad (Prasnopanisad, commented) (GV05 prasupbu)",
+  "textname": "GV05 prasupbu",
+  "filename": "GV05prasupbu",
+  "category": "GV05",
+  "filenr": 488
+},
+{
+  "displayName": "Sira-Upanisad (= Atharvasira-Upanisad) (GV05 sirup_u)",
+  "textname": "GV05 sirup_u",
+  "filename": "GV05sirup_u",
+  "category": "GV05",
+  "filenr": 489
+},
+{
+  "displayName": "Svetasvatara-Upanisad (Svetasvataropanisad) (v. SH) (GV05 svetu_pu)",
+  "textname": "GV05 svetu_pu",
+  "filename": "GV05svetu_pu",
+  "category": "GV05",
+  "filenr": 492
+},
+{
+  "displayName": "Svetasvatara-Upanisad (Svetasvataropanisad) (v. Brzezinski) (GV05 svetugpu)",
+  "textname": "GV05 svetugpu",
+  "filename": "GV05svetugpu",
+  "category": "GV05",
+  "filenr": 495
+},
+{
+  "displayName": "Apastamba-Grhyasutra (GV06 apastgcu)",
+  "textname": "GV06 apastgcu",
+  "filename": "GV06apastgcu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Apastamba-Sulbasutra (GV06 apsulb_u)",
+  "textname": "GV06 apsulb_u",
+  "filename": "GV06apsulb_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Asvalayana-Grhyasutra (GV06 asvgs_u)",
+  "textname": "GV06 asvgs_u",
+  "filename": "GV06asvgs_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Asvalayana-Srautasutra (GV06 asvss_u)",
+  "textname": "GV06 asvss_u",
+  "filename": "GV06asvss_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Atharvaprayascittani (GV06 avpray_u)",
+  "textname": "GV06 avpray_u",
+  "filename": "GV06avpray_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Atharvavedaparisista (GV06 avpari_u)",
+  "textname": "GV06 avpari_u",
+  "filename": "GV06avpari_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Atharvavidhikathana (Dantyosthavidhi) (GV06 dantyovu)",
+  "textname": "GV06 dantyovu",
+  "filename": "GV06dantyovu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Jaimini-Grhyasutra (GV06 jaimigsu)",
+  "textname": "GV06 jaimigsu",
+  "filename": "GV06jaimigsu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Kausika-Sutra (GV06 kaussu_u)",
+  "textname": "GV06 kaussu_u",
+  "filename": "GV06kaussu_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Kausikapaddhati (GV06 keskaupu)",
+  "textname": "GV06 keskaupu",
+  "filename": "GV06keskaupu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Kauthuma-Grhyasutra (GV06 kauthgsu)",
+  "textname": "GV06 kauthgsu",
+  "filename": "GV06kauthgsu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Manava-Grhyasutra (GV06 manavgsu)",
+  "textname": "GV06 manavgsu",
+  "filename": "GV06manavgsu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Rgvidhana (GV06 rgvidh_u)",
+  "textname": "GV06 rgvidh_u",
+  "filename": "GV06rgvidh_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Sankhayana-Grhyasutra (GV06 sankhgsu)",
+  "textname": "GV06 sankhgsu",
+  "filename": "GV06sankhgsu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Sankhayana-Srautasutra (GV06 sankhssu)",
+  "textname": "GV06 sankhssu",
+  "filename": "GV06sankhssu",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Vaitana-Srautasutra (GV06 vaitss_u)",
+  "textname": "GV06 vaitss_u",
+  "filename": "GV06vaitss_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Varaha-Grhyasutra (GV06 vargs_u)",
+  "textname": "GV06 vargs_u",
+  "filename": "GV06vargs_u",
+  "category": "GV06",
+  "filenr": 496
+},
+{
+  "displayName": "Bhagavadgita 1 (GE07 bhg4c01u)",
+  "textname": "GE07 bhg4c01u",
+  "filename": "GE07bhg4c01u",
+  "category": "GE07",
+  "filenr": 498
+},
+{
+  "displayName": "Bhagavadgita 2 (GE07 bhg4c02u)",
+  "textname": "GE07 bhg4c02u",
+  "filename": "GE07bhg4c02u",
+  "category": "GE07",
+  "filenr": 499
+},
+{
+  "displayName": "Bhagavadgita 3 (GE07 bhg4c03u)",
+  "textname": "GE07 bhg4c03u",
+  "filename": "GE07bhg4c03u",
+  "category": "GE07",
+  "filenr": 500
+},
+{
+  "displayName": "Bhagavadgita 4 (GE07 bhg4c04u)",
+  "textname": "GE07 bhg4c04u",
+  "filename": "GE07bhg4c04u",
+  "category": "GE07",
+  "filenr": 501
+},
+{
+  "displayName": "Bhagavadgita 5 (GE07 bhg4c05u)",
+  "textname": "GE07 bhg4c05u",
+  "filename": "GE07bhg4c05u",
+  "category": "GE07",
+  "filenr": 502
+},
+{
+  "displayName": "Bhagavadgita 6 (GE07 bhg4c06u)",
+  "textname": "GE07 bhg4c06u",
+  "filename": "GE07bhg4c06u",
+  "category": "GE07",
+  "filenr": 503
+},
+{
+  "displayName": "Bhagavadgita 7 (GE07 bhg4c07u)",
+  "textname": "GE07 bhg4c07u",
+  "filename": "GE07bhg4c07u",
+  "category": "GE07",
+  "filenr": 504
+},
+{
+  "displayName": "Bhagavadgita 8 (GE07 bhg4c08u)",
+  "textname": "GE07 bhg4c08u",
+  "filename": "GE07bhg4c08u",
+  "category": "GE07",
+  "filenr": 505
+},
+{
+  "displayName": "Bhagavadgita 9 (GE07 bhg4c09u)",
+  "textname": "GE07 bhg4c09u",
+  "filename": "GE07bhg4c09u",
+  "category": "GE07",
+  "filenr": 506
+},
+{
+  "displayName": "Bhagavadgita 10 (GE07 bhg4c10u)",
+  "textname": "GE07 bhg4c10u",
+  "filename": "GE07bhg4c10u",
+  "category": "GE07",
+  "filenr": 507
+},
+{
+  "displayName": "Bhagavadgita 11 (GE07 bhg4c11u)",
+  "textname": "GE07 bhg4c11u",
+  "filename": "GE07bhg4c11u",
+  "category": "GE07",
+  "filenr": 508
+},
+{
+  "displayName": "Bhagavadgita 12 (GE07 bhg4c12u)",
+  "textname": "GE07 bhg4c12u",
+  "filename": "GE07bhg4c12u",
+  "category": "GE07",
+  "filenr": 509
+},
+{
+  "displayName": "Bhagavadgita 13 (GE07 bhg4c13u)",
+  "textname": "GE07 bhg4c13u",
+  "filename": "GE07bhg4c13u",
+  "category": "GE07",
+  "filenr": 510
+},
+{
+  "displayName": "Bhagavadgita 14 (GE07 bhg4c14u)",
+  "textname": "GE07 bhg4c14u",
+  "filename": "GE07bhg4c14u",
+  "category": "GE07",
+  "filenr": 511
+},
+{
+  "displayName": "Bhagavadgita 15 (GE07 bhg4c15u)",
+  "textname": "GE07 bhg4c15u",
+  "filename": "GE07bhg4c15u",
+  "category": "GE07",
+  "filenr": 512
+},
+{
+  "displayName": "Bhagavadgita 16 (GE07 bhg4c16u)",
+  "textname": "GE07 bhg4c16u",
+  "filename": "GE07bhg4c16u",
+  "category": "GE07",
+  "filenr": 513
+},
+{
+  "displayName": "Bhagavadgita 17 (GE07 bhg4c17u)",
+  "textname": "GE07 bhg4c17u",
+  "filename": "GE07bhg4c17u",
+  "category": "GE07",
+  "filenr": 514
+},
+{
+  "displayName": "Bhagavadgita 18 (GE07 bhg4c18u)",
+  "textname": "GE07 bhg4c18u",
+  "filename": "GE07bhg4c18u",
+  "category": "GE07",
+  "filenr": 515
+},
+{
+  "displayName": "Bhagavadgita (v. Tokunaga) (GE07 bhgce__u)",
+  "textname": "GE07 bhgce__u",
+  "filename": "GE07bhgce__u",
+  "category": "GE07",
+  "filenr": 517
+},
+{
+  "displayName": "Harivamsa (Appendix I.) (GE07 hv_apppu)",
+  "textname": "GE07 hv_apppu",
+  "filename": "GE07hv_apppu",
+  "category": "GE07",
+  "filenr": 520
+},
+{
+  "displayName": "Harivamsa (GE07 hv_conpu)",
+  "textname": "GE07 hv_conpu",
+  "filename": "GE07hv_conpu",
+  "category": "GE07",
+  "filenr": 523
+},
+{
+  "displayName": "Mahabharata: Adiparvan (GE07 mbh_01_u)",
+  "textname": "GE07 mbh_01_u",
+  "filename": "GE07mbh_01_u",
+  "category": "GE07",
+  "filenr": 526
+},
+{
+  "displayName": "Mahabharata: Sabhaparvan (GE07 mbh_02_u)",
+  "textname": "GE07 mbh_02_u",
+  "filename": "GE07mbh_02_u",
+  "category": "GE07",
+  "filenr": 527
+},
+{
+  "displayName": "Mahabharata: Aranyakaparvan (GE07 mbh_03_u)",
+  "textname": "GE07 mbh_03_u",
+  "filename": "GE07mbh_03_u",
+  "category": "GE07",
+  "filenr": 528
+},
+{
+  "displayName": "Mahabharata: Virataparvan (GE07 mbh_04_u)",
+  "textname": "GE07 mbh_04_u",
+  "filename": "GE07mbh_04_u",
+  "category": "GE07",
+  "filenr": 529
+},
+{
+  "displayName": "Mahabharata: Udyogaparvan (GE07 mbh_05_u)",
+  "textname": "GE07 mbh_05_u",
+  "filename": "GE07mbh_05_u",
+  "category": "GE07",
+  "filenr": 530
+},
+{
+  "displayName": "Mahabharata: Bhismaparvan (GE07 mbh_06_u)",
+  "textname": "GE07 mbh_06_u",
+  "filename": "GE07mbh_06_u",
+  "category": "GE07",
+  "filenr": 531
+},
+{
+  "displayName": "Mahabharata: Dronaparvan (GE07 mbh_07_u)",
+  "textname": "GE07 mbh_07_u",
+  "filename": "GE07mbh_07_u",
+  "category": "GE07",
+  "filenr": 532
+},
+{
+  "displayName": "Mahabharata: Karnaparvan (GE07 mbh_08_u)",
+  "textname": "GE07 mbh_08_u",
+  "filename": "GE07mbh_08_u",
+  "category": "GE07",
+  "filenr": 533
+},
+{
+  "displayName": "Mahabharata: Salyaparvan (GE07 mbh_09_u)",
+  "textname": "GE07 mbh_09_u",
+  "filename": "GE07mbh_09_u",
+  "category": "GE07",
+  "filenr": 534
+},
+{
+  "displayName": "Mahabharata: Sauptikaparvan (GE07 mbh_10_u)",
+  "textname": "GE07 mbh_10_u",
+  "filename": "GE07mbh_10_u",
+  "category": "GE07",
+  "filenr": 535
+},
+{
+  "displayName": "Mahabharata: Striparvan (GE07 mbh_11_u)",
+  "textname": "GE07 mbh_11_u",
+  "filename": "GE07mbh_11_u",
+  "category": "GE07",
+  "filenr": 536
+},
+{
+  "displayName": "Mahabharata: Santiparvan (GE07 mbh_12_u)",
+  "textname": "GE07 mbh_12_u",
+  "filename": "GE07mbh_12_u",
+  "category": "GE07",
+  "filenr": 537
+},
+{
+  "displayName": "Mahabharata: Anusasanaparvan (GE07 mbh_13_u)",
+  "textname": "GE07 mbh_13_u",
+  "filename": "GE07mbh_13_u",
+  "category": "GE07",
+  "filenr": 538
+},
+{
+  "displayName": "Mahabharata: Asvamedhikaparvan (GE07 mbh_14_u)",
+  "textname": "GE07 mbh_14_u",
+  "filename": "GE07mbh_14_u",
+  "category": "GE07",
+  "filenr": 539
+},
+{
+  "displayName": "Mahabharata: Asramavasikaparvan (GE07 mbh_15_u)",
+  "textname": "GE07 mbh_15_u",
+  "filename": "GE07mbh_15_u",
+  "category": "GE07",
+  "filenr": 540
+},
+{
+  "displayName": "Mahabharata: Mausalaparvan (GE07 mbh_16_u)",
+  "textname": "GE07 mbh_16_u",
+  "filename": "GE07mbh_16_u",
+  "category": "GE07",
+  "filenr": 541
+},
+{
+  "displayName": "Mahabharata: Mahaprasthanikaparvan (GE07 mbh_17_u)",
+  "textname": "GE07 mbh_17_u",
+  "filename": "GE07mbh_17_u",
+  "category": "GE07",
+  "filenr": 542
+},
+{
+  "displayName": "Mahabharata: Svargarohanaparvan (GE07 mbh_18_u)",
+  "textname": "GE07 mbh_18_u",
+  "filename": "GE07mbh_18_u",
+  "category": "GE07",
+  "filenr": 543
+},
+{
+  "displayName": "Narayaniya (Mahabharata 12.321–339) (GE07 naray__u)",
+  "textname": "GE07 naray__u",
+  "filename": "GE07naray__u",
+  "category": "GE07",
+  "filenr": 544
+},
+{
+  "displayName": "Valmiki: Ramayana (1. Balakanda) (GE09 ram_01_u)",
+  "textname": "GE09 ram_01_u",
+  "filename": "GE09ram_01_u",
+  "category": "GE09",
+  "filenr": 548
+},
+{
+  "displayName": "Valmiki: Ramayana (2. Ayodhyakanda) (GE09 ram_02_u)",
+  "textname": "GE09 ram_02_u",
+  "filename": "GE09ram_02_u",
+  "category": "GE09",
+  "filenr": 549
+},
+{
+  "displayName": "Valmiki: Ramayana: (2. Ayodhyakanda 2nd revised) (GE09 ram_02pu)",
+  "textname": "GE09 ram_02pu",
+  "filename": "GE09ram_02pu",
+  "category": "GE09",
+  "filenr": 551
+},
+{
+  "displayName": "Valmiki: Ramayana: (2. Ayodhyakanda Southern recension) (GE09 ram_02su)",
+  "textname": "GE09ram_02su",
+  "filename": "GE09ram_02su",
+  "category": "GE09",
+  "filenr": 552
+},
+{
+  "displayName": "Valmiki: Ramayana (3. Aranyakanda) (GE09 ram_03_u)",
+  "textname": "GE09 ram_03_u",
+  "filename": "GE09ram_03_u",
+  "category": "GE09",
+  "filenr": 553
+},
+{
+  "displayName": "Valmiki: Ramayana (3. Aranyakanda 2nd revised) (GE09 ram_03pu)",
+  "textname": "GE09 ram_03pu",
+  "filename": "GE09ram_03pu",
+  "category": "GE09",
+  "filenr": 555
+},
+{
+  "displayName": "Valmiki: Ramayana (4. Kiskindhakanda) (GE09 ram_04_u)",
+  "textname": "GE09 ram_04_u",
+  "filename": "GE09ram_04_u",
+  "category": "GE09",
+  "filenr": 556
+},
+{
+  "displayName": "Valmiki: Ramayana (5. Sundarakanda) (GE09 ram_05_u)",
+  "textname": "GE09 ram_05_u",
+  "filename": "GE09ram_05_u",
+  "category": "GE09",
+  "filenr": 557
+},
+{
+  "displayName": "Valmiki: Ramayana (6. Yuddhakanda) (GE09 ram_06_u)",
+  "textname": "GE09 ram_06_u",
+  "filename": "GE09ram_06_u",
+  "category": "GE09",
+  "filenr": 558
+},
+{
+  "displayName": "Valmiki: Ramayana (7. Uttarakanda) (GE09 ram_07_u)",
+  "textname": "GE09 ram_07_u",
+  "filename": "GE09ram_07_u",
+  "category": "GE09",
+  "filenr": 559
+},
+{
+  "displayName": "Bhagavata-Purana 1 (GP10 bhp_01u)",
+  "textname": "GP10 bhp_01u",
+  "filename": "GP10bhp_01u",
+  "category": "GP10",
+  "filenr": 562
+},
+{
+  "displayName": "Bhagavata-Purana 2 (GP10 bhp_02u)",
+  "textname": "GP10 bhp_02u",
+  "filename": "GP10bhp_02u",
+  "category": "GP10",
+  "filenr": 563
+},
+{
+  "displayName": "Bhagavata-Purana 3 (GP10 bhp_03u)",
+  "textname": "GP10 bhp_03u",
+  "filename": "GP10bhp_03u",
+  "category": "GP10",
+  "filenr": 564
+},
+{
+  "displayName": "Bhagavata-Purana 4 (GP10 bhp_04u)",
+  "textname": "GP10 bhp_04u",
+  "filename": "GP10bhp_04u",
+  "category": "GP10",
+  "filenr": 565
+},
+{
+  "displayName": "Bhagavata-Purana 5 (GP10 bhp_05u)",
+  "textname": "GP10 bhp_05u",
+  "filename": "GP10bhp_05u",
+  "category": "GP10",
+  "filenr": 566
+},
+{
+  "displayName": "Bhagavata-Purana 6 (GP10 bhp_06u)",
+  "textname": "GP10 bhp_06u",
+  "filename": "GP10bhp_06u",
+  "category": "GP10",
+  "filenr": 567
+},
+{
+  "displayName": "Bhagavata-Purana 7 (GP10 bhp_07u)",
+  "textname": "GP10 bhp_07u",
+  "filename": "GP10bhp_07u",
+  "category": "GP10",
+  "filenr": 568
+},
+{
+  "displayName": "Bhagavata-Purana 8 (GP10 bhp_08u)",
+  "textname": "GP10 bhp_08u",
+  "filename": "GP10bhp_08u",
+  "category": "GP10",
+  "filenr": 569
+},
+{
+  "displayName": "Bhagavata-Purana 9 (GP10 bhp_09u)",
+  "textname": "GP10 bhp_09u",
+  "filename": "GP10bhp_09u",
+  "category": "GP10",
+  "filenr": 570
+},
+{
+  "displayName": "Bhagavata-Purana 10 (GP10 bhp_10u)",
+  "textname": "GP10 bhp_10u",
+  "filename": "GP10bhp_10u",
+  "category": "GP10",
+  "filenr": 571
+},
+{
+  "displayName": "Bhagavata-Purana 11 (GP10 bhp_11u)",
+  "textname": "GP10 bhp_11u",
+  "filename": "GP10bhp_11u",
+  "category": "GP10",
+  "filenr": 572
+},
+{
+  "displayName": "Bhagavata-Purana 12 (GP10 bhp_12u)",
+  "textname": "GP10 bhp_12u",
+  "filename": "GP10bhp_12u",
+  "category": "GP10",
+  "filenr": 573
+},
+{
+  "displayName": "Bhagavata-Purana 10,29–33 (with Sridhara's commentary (Bhavarthadipika)) (GP10 bhpc101u)",
+  "textname": "GP10 bhpc101u",
+  "filename": "GP10bhpc101u",
+  "category": "GP10",
+  "filenr": 574
+},
+{
+  "displayName": "Brahma-Purana (Adhyayas 1–246) (GP11 brahmppu)",
+  "textname": "GP11 brahmppu",
+  "filename": "GP11brahmppu",
+  "category": "GP11",
+  "filenr": 577
+},
+{
+  "displayName": "Agni-Purana (GP12 agp_bi_u)",
+  "textname": "GP12 agp_bi_u",
+  "filename": "GP12agp_bi_u",
+  "category": "GP12",
+  "filenr": 578
+},
+{
+  "displayName": "Brahmanda-Purana 1 (GP12 brndp1_u)",
+  "textname": "GP12 brndp1_u",
+  "filename": "GP12brndp1_u",
+  "category": "GP12",
+  "filenr": 579
+},
+{
+  "displayName": "Brahmanda-Purana 2 (GP12 brndp2_u)",
+  "textname": "GP12 brndp2_u",
+  "filename": "GP12brndp2_u",
+  "category": "GP12",
+  "filenr": 580
+},
+{
+  "displayName": "Brahmanda-Purana 3 (GP12 brndp3_u)",
+  "textname": "GP12 brndp3_u",
+  "filename": "GP12brndp3_u",
+  "category": "GP12",
+  "filenr": 581
+},
+{
+  "displayName": "Devigita (=Devibhagavata-Purana 7,31–40) (GP12 dbhp_dgu)",
+  "textname": "GP12 dbhp_dgu",
+  "filename": "GP12dbhp_dgu",
+  "category": "GP12",
+  "filenr": 582
+},
+{
+  "displayName": "Garuda-Purana 1 (GP12 garup1_u)",
+  "textname": "GP12 garup1_u",
+  "filename": "GP12garup1_u",
+  "category": "GP12",
+  "filenr": 583
+},
+{
+  "displayName": "Garuda-Purana 2 (GP12 garup2_u)",
+  "textname": "GP12 garup2_u",
+  "filename": "GP12garup2_u",
+  "category": "GP12",
+  "filenr": 584
+},
+{
+  "displayName": "Garuda-Purana 3 (GP12 garup3_u)",
+  "textname": "GP12 garup3_u",
+  "filename": "GP12garup3_u",
+  "category": "GP12",
+  "filenr": 585
+},
+{
+  "displayName": "Kurma-Purana 1 (GP12 kurmp1_u)",
+  "textname": "GP12 kurmp1_u",
+  "filename": "GP12kurmp1_u",
+  "category": "GP12",
+  "filenr": 586
+},
+{
+  "displayName": "Kurma-Purana 2 (GP12 kurmp2_u)",
+  "textname": "GP12 kurmp2_u",
+  "filename": "GP12kurmp2_u",
+  "category": "GP12",
+  "filenr": 587
+},
+{
+  "displayName": "Linga-Purana 1 (Adhyayas 1–108) (GP12 lip_1_pu)",
+  "textname": "GP12 lip_1_pu",
+  "filename": "GP12lip_1_pu",
+  "category": "GP12",
+  "filenr": 590
+},
+{
+  "displayName": "Linga-Purana 2,1–55 (GP12 lip_2__u)",
+  "textname": "GP12 lip_2__u",
+  "filename": "GP12lip_2__u",
+  "category": "GP12",
+  "filenr": 591
+},
+{
+  "displayName": "Markandeya-Purana (Adhyayas 1–93) (GP12 mkp1–93u)",
+  "textname": "GP12 mkp1–93u",
+  "filename": "GP12mkp1-93u",
+  "category": "GP12",
+  "filenr": 592
+},
+{
+  "displayName": "Matsyapurana (Adhyayas 1–176) (GP12 mtp176pu)",
+  "textname": "GP12 mtp176pu",
+  "filename": "GP12mtp176pu",
+  "category": "GP12",
+  "filenr": 595
+},
+{
+  "displayName": "Narada-Purana (Naradiya-Purana) 1 (GP12 nardp1_u)",
+  "textname": "GP12 nardp1_u",
+  "filename": "GP12nardp1_u",
+  "category": "GP12",
+  "filenr": 596
+},
+{
+  "displayName": "Narada-Purana (Naradiya-Purana) 2 (GP12 nardp2_u)",
+  "textname": "GP12 nardp2_u",
+  "filename": "GP12nardp2_u",
+  "category": "GP12",
+  "filenr": 597
+},
+{
+  "displayName": "Narasimha-Purana (GP12 narsippu)",
+  "textname": "GP12 narsippu",
+  "filename": "GP12narsippu",
+  "category": "GP12",
+  "filenr": 600
+},
+{
+  "displayName": "Siva-Purana (Book 1) (Vidyesvara-Samhita) (GP12 sivap1_u)",
+  "textname": "GP12 sivap1_u",
+  "filename": "GP12sivap1_u",
+  "category": "GP12",
+  "filenr": 601
+},
+{
+  "displayName": "Siva-Purana (Book 7) (Vayaviya-Samhita) (parts 1–2) (GP12 sivap7_u)",
+  "textname": "GP12 sivap7_u",
+  "filename": "GP12sivap7_u",
+  "category": "GP12",
+  "filenr": 602
+},
+{
+  "displayName": "Skandapurana (Adhyayas 1–31.14) (GP12 skp031pu)",
+  "textname": "GP12 skp031pu",
+  "filename": "GP12skp031pu",
+  "category": "GP12",
+  "filenr": 605
+},
+{
+  "displayName": "Skanda-Purana: Revakhanda (GP12 skprevku)",
+  "textname": "GP12 skprevku",
+  "filename": "GP12skprevku",
+  "category": "GP12",
+  "filenr": 606
+},
+{
+  "displayName": "Vamana-Purana (Adhyayas 1–69) (GP12 vamp__u)",
+  "textname": "GP12 vamp__u",
+  "filename": "GP12vamp__u",
+  "category": "GP12",
+  "filenr": 607
+},
+{
+  "displayName": "Vamana-Purana (Saromahatmya) (GP12 vampsm_u)",
+  "textname": "GP12 vampsm_u",
+  "filename": "GP12vampsm_u",
+  "category": "GP12",
+  "filenr": 608
+},
+{
+  "displayName": "Visnudharmottara-Purana (Adhyayas 2,127: Atharvavidhikathana) (GP12 vd2127_u)",
+  "textname": "GP12 vd2127_u",
+  "filename": "GP12vd2127_u",
+  "category": "GP12",
+  "filenr": 609
+},
+{
+  "displayName": "Visnudharmottara-Purana (Adhyayas 3,343–353) (GP12 vd3343pu)",
+  "textname": "GP12 vd3343pu",
+  "filename": "GP12vd3343pu",
+  "category": "GP12",
+  "filenr": 611
+},
+{
+  "displayName": "Visnu-Purana (v. Schreiner) (GP12 vipce_pu)",
+  "textname": "GP12 vipce_pu",
+  "filename": "GP12vipce_pu",
+  "category": "GP12",
+  "filenr": 614
+},
+{
+  "displayName": "Visnu-Purana (v. SP) (GP12 visnup_u)",
+  "textname": "GP12 visnup_u",
+  "filename": "GP12visnup_u",
+  "category": "GP12",
+  "filenr": 615
+},
+{
+  "displayName": "Revakhanda of the Vayupurana (GP12 vprevk_u)",
+  "textname": "GP12 vprevk_u",
+  "filename": "GP12vprevk_u",
+  "category": "GP12",
+  "filenr": 616
+},
+{
+  "displayName": "Haribhadrasuri: Sastravartasamuccaya (GR12 hsasvrpu)",
+  "textname": "GR12 hsasvrpu",
+  "filename": "GR12hsasvrpu",
+  "category": "GR12",
+  "filenr": 619
+},
+{
+  "displayName": "Bhatta Narayana: Stavacintamani (GR13 bhnstcpu)",
+  "textname": "GR13 bhnstcpu",
+  "filename": "GR13bhnstcpu",
+  "category": "GR13",
+  "filenr": 623
+},
+{
+  "displayName": "Bijanighantu (GR13 bijnighu)",
+  "textname": "GR13 bijnighu",
+  "filename": "GR13bijnighu",
+  "category": "GR13",
+  "filenr": 625
+},
+{
+  "displayName": "Cakrapaninatha: Bhavopaharastotra (GR13 cakbh_pu)",
+  "textname": "GR13 cakbh_pu",
+  "filename": "GR13cakbh_pu",
+  "category": "GR13",
+  "filenr": 628
+},
+{
+  "displayName": "Cakrapaninatha: Bhavopaharastotra (with commentary) (GR13 cakbhavu)",
+  "textname": "GR13 cakbhavu",
+  "filename": "GR13cakbhavu",
+  "category": "GR13",
+  "filenr": 629
+},
+{
+  "displayName": "Devikalottara-Agama (Devikalottaragama) (GR13 devikapu)",
+  "textname": "GR13 devikapu",
+  "filename": "GR13devikapu",
+  "category": "GR13",
+  "filenr": 632
+},
+{
+  "displayName": "Goraksanatha: Amaraughasasana (with commentary) (GR13 goramaru)",
+  "textname": "GR13 goramaru",
+  "filename": "GR13goramaru",
+  "category": "GR13",
+  "filenr": 633
+},
+{
+  "displayName": "Goraksanatha (=Gorakhnath): Goraksasataka (v. Kuvalayananda & Shukla) (GR13 gorst1pu)",
+  "textname": "GR13 gorst1pu",
+  "filename": "GR13gorst1pu",
+  "category": "GR13",
+  "filenr": 635
+},
+{
+  "displayName": "Goraksanatha [= Gorakhnath]: Goraksasataka (v. Briggs) (GR13 gorst2pu)",
+  "textname": "GR13 gorst2pu",
+  "filename": "GR13gorst2pu",
+  "category": "GR13",
+  "filenr": 637
+},
+{
+  "displayName": "Jnanasambhu: Sivapujastava (GR13 jssivppu)",
+  "textname": "GR13 jssivppu",
+  "filename": "GR13jssivppu",
+  "category": "GR13",
+  "filenr": 641
+},
+{
+  "displayName": "Kalhana: Ardhanarisvarastotra (GR13 kalhans_u)",
+  "textname": "GR13 kalhans_u",
+  "filename": "GR13kalhans_u",
+  "category": "GR13",
+  "filenr": 643
+},
+{
+  "displayName": "Karatoyamahatmya (GR13 karatopu)",
+  "textname": "GR13 karatopu",
+  "filename": "GR13karatopu",
+  "category": "GR13",
+  "filenr": 646
+},
+{
+  "displayName": "Kiranatantra (chapters 1–6) (with commentary) (GR13 kirtc_pu)",
+  "textname": "GR13 kirtc_pu",
+  "filename": "GR13kirtc_pu",
+  "category": "GR13",
+  "filenr": 648
+},
+{
+  "displayName": "Kiranatantra (chapters 1–6) (GR13 kirtm_pu)",
+  "textname": "GR13 kirtm_pu",
+  "filename": "GR13kirtm_pu",
+  "category": "GR13",
+  "filenr": 651
+},
+{
+  "displayName": "Kubjikamatatantra (GR13 kubjt_pu)",
+  "textname": "GR13 kubjt_pu",
+  "filename": "GR13kubjt_pu",
+  "category": "GR13",
+  "filenr": 654
+},
+{
+  "displayName": "Matrkabhedatantra (GR13 mabhedtu)",
+  "textname": "GR13 mabhedtu",
+  "filename": "GR13mabhedtu",
+  "category": "GR13",
+  "filenr": 655
+},
+{
+  "displayName": "Malinivijayottaratantra (GR13 malinivu)",
+  "textname": "GR13 malinivu",
+  "filename": "GR13malinivu",
+  "category": "GR13",
+  "filenr": 656
+},
+{
+  "displayName": "Mrgendragama (=Mrgendratantra) (1. Vidyapada) (GR13 mrgt1mpu)",
+  "textname": "GR13 mrgt1mpu",
+  "filename": "GR13mrgt1mpu",
+  "category": "GR13",
+  "filenr": 661
+},
+{
+  "displayName": "Mrgendragama (=Mrgendratantra) (3. Caryapada) (GR13 mrgt3mpu)",
+  "textname": "GR13 mrgt3mpu",
+  "filename": "GR13mrgt3mpu",
+  "category": "GR13",
+  "filenr": 666
+},
+{
+  "displayName": "Mrgendragama (=Mrgendratantra) (4. Yogapada) (GR13 mrgt4mpu)",
+  "textname": "GR13 mrgt4mpu",
+  "filename": "GR13mrgt4mpu",
+  "category": "GR13",
+  "filenr": 668
+},
+{
+  "displayName": "Parasurama-Kalpasutra (GR13 parakspu)",
+  "textname": "GR13 parakspu",
+  "filename": "GR13parakspu",
+  "category": "GR13",
+  "filenr": 670
+},
+{
+  "displayName": "Pasupatasutra (with Kaundinya's Pancarthabhasya) (GR13 pasupbhu)",
+  "textname": "GR13 pasupbhu",
+  "filename": "GR13pasupbhu",
+  "category": "GR13",
+  "filenr": 671
+},
+{
+  "displayName": "Pasupatasutra (GR13 pasupspu)",
+  "textname": "GR13 pasupspu",
+  "filename": "GR13pasupspu",
+  "category": "GR13",
+  "filenr": 673
+},
+{
+  "displayName": "Purusottamadeva: Ekaksarakosa (GR13 purekaku)",
+  "textname": "GR13 purekaku",
+  "filename": "GR13purekaku",
+  "category": "GR13",
+  "filenr": 674
+},
+{
+  "displayName": "Samkara: Saundaryalahari (GR13 saulahpu)",
+  "textname": "GR13 saulahpu",
+  "filename": "GR13saulahpu",
+  "category": "GR13",
+  "filenr": 679
+},
+{
+  "displayName": "Sivamahimnastava (GR13 sivmstpu)",
+  "textname": "GR13 sivmstpu",
+  "filename": "GR13sivmstpu",
+  "category": "GR13",
+  "filenr": 680
+},
+{
+  "displayName": "Sivasutra (with Vartika) (GR13 sivsutru)",
+  "textname": "GR13 sivsutru",
+  "filename": "GR13sivsutru",
+  "category": "GR13",
+  "filenr": 680
+},
+{
+  "displayName": "Siva-Upanisad (GR13 sivup_pu)",
+  "textname": "GR13 sivup_pu",
+  "filename": "GR13sivup_pu",
+  "category": "GR13",
+  "filenr": 682
+},
+{
+  "displayName": "Somananda: Saktavijnana (GR13 somsv_u)",
+  "textname": "GR13 somsv_u",
+  "filename": "GR13somsv_u",
+  "category": "GR13",
+  "filenr": 684
+},
+{
+  "displayName": "Srikantha: Ratnatrayapariksa (GR13 sratrppu)",
+  "textname": "GR13 sratrppu",
+  "filename": "GR13sratrppu",
+  "category": "GR13",
+  "filenr": 687
+},
+{
+  "displayName": "Sardhatrisatikalottaragama (GR13 stkal_pu)",
+  "textname": "GR13 stkal_pu",
+  "filename": "GR13stkal_pu",
+  "category": "GR13",
+  "filenr": 690
+},
+{
+  "displayName": "Svacchandatantra [Svacchandabhairavatantra] (GR13 svact_pu)",
+  "textname": "GR13 svact_pu",
+  "filename": "GR13svact_pu",
+  "category": "GR13",
+  "filenr": 693
+},
+{
+  "displayName": "Todalatantra (GR13 todaltpu)",
+  "textname": "GR13 todaltpu",
+  "filename": "GR13todaltpu",
+  "category": "GR13",
+  "filenr": 696
+},
+{
+  "displayName": "Uddamaresvaratantra (GR13 uddamt_u)",
+  "textname": "GR13 uddamt_u",
+  "filename": "GR13uddamt_u",
+  "category": "GR13",
+  "filenr": 697
+},
+{
+  "displayName": "Utpaladeva: Sivastotravali (GR13 utsivsau)",
+  "textname": "GR13 utsivsau",
+  "filename": "GR13utsivsau",
+  "category": "GR13",
+  "filenr": 698
+},
+{
+  "displayName": "Vinasikhatantra (GR13 vinst_pu)",
+  "textname": "GR13 vinst_pu",
+  "filename": "GR13vinst_pu",
+  "category": "GR13",
+  "filenr": 700
+},
+{
+  "displayName": "Astavakragita (GR14 astavgpu)",
+  "textname": "GR14 astavgpu",
+  "filename": "GR14astavgpu",
+  "category": "GR14",
+  "filenr": 704
+},
+{
+  "displayName": "Bhrgu-Samhita (GR14 bhrgus_u)",
+  "textname": "GR14 bhrgus_u",
+  "filename": "GR14bhrgus_u",
+  "category": "GR14",
+  "filenr": 705
+},
+{
+  "displayName": "Brahma-Samhita: Adhyaya 5 (GR14 brhms5cu)",
+  "textname": "GR14 brhms5cu",
+  "filename": "GR14brhms5cu",
+  "category": "GR14",
+  "filenr": 706
+},
+{
+  "displayName": "Prabodhananda Sarasvati Gosvami: Caitanyacandramrta (GR14 caitcanu)",
+  "textname": "GR14 caitcanu",
+  "filename": "GR14caitcanu",
+  "category": "GR14",
+  "filenr": 707
+},
+{
+  "displayName": "Dhyanacandra Gosvami: Gauragovindarcanasmaranapaddhati (GR14 dhyggs_u)",
+  "textname": "GR14 dhyggs_u",
+  "filename": "GR14dhyggs_u",
+  "category": "GR14",
+  "filenr": 708
+},
+{
+  "displayName": "Dhyanacandra Gosvami: Radhakrsnastakaliyalilasmaranakramapaddhati (GR14 dhyrkk_u)",
+  "textname": "GR14 dhyrkk_u",
+  "filename": "GR14dhyrkk_u",
+  "category": "GR14",
+  "filenr": 709
+},
+{
+  "displayName": "Datta, Kedaranatha (=Bhaktivinoda, 1838–1914): Harinamacintamani (GR14 harinc_u)",
+  "textname": "GR14 harinc_u",
+  "filename": "GR14harinc_u",
+  "category": "GR14",
+  "filenr": 710
+},
+{
+  "displayName": "Gopalabhatta: Haribhaktivilasa 1–11 (GR14 hbhvil_u)",
+  "textname": "GR14 hbhvil_u",
+  "filename": "GR14hbhvil_u",
+  "category": "GR14",
+  "filenr": 711
+},
+{
+  "displayName": "Jiva Gosvamin: Radhakrsnarcanadipika (GR14 jivrkadu)",
+  "textname": "GR14 jivrkadu",
+  "filename": "GR14jivrkadu",
+  "category": "GR14",
+  "filenr": 712
+},
+{
+  "displayName": "Jnanamrtasara-Samhita (Narada-Pancaratra) (GR14 jnass01u)",
+  "textname": "GR14 jnass01u",
+  "filename": "GR14jnass01u",
+  "category": "GR14",
+  "filenr": 713
+},
+{
+  "displayName": "Krsnadasa: Bhavanasarasamgraha (Lila's 1 & 2) (GR14 kbss_1-u)",
+  "textname": "GR14 kbss_1-u",
+  "filename": "GR14kbss_1-u",
+  "category": "GR14",
+  "filenr": 714
+},
+{
+  "displayName": "Kesava Kasmiri: Kramadipika (GR14 krdipc_u)",
+  "textname": "GR14 krdipc_u",
+  "filename": "GR14krdipc_u",
+  "category": "GR14",
+  "filenr": 715
+},
+{
+  "displayName": "Kulasekhara: Mukundamala (GR14 kumukumu)",
+  "textname": "GR14 kumukumu",
+  "filename": "GR14kumukumu",
+  "category": "GR14",
+  "filenr": 716
+},
+{
+  "displayName": "Rupa Gosvami: Laghubhagavatamrta (GR14 laghbh_u)",
+  "textname": "GR14 laghbh_u",
+  "filename": "GR14laghbh_u",
+  "category": "GR14",
+  "filenr": 717
+},
+{
+  "displayName": "Madhva (Anandatirtha): Krsnamrtamaharnava (GR14 mdhvkmou)",
+  "textname": "GR14 mdhvkmou",
+  "filename": "GR14mdhvkmou",
+  "category": "GR14",
+  "filenr": 718
+},
+{
+  "displayName": "Raghunathadasa Gosvami: Muktacarita (GR14 muktacau)",
+  "textname": "GR14 muktacau",
+  "filename": "GR14muktacau",
+  "category": "GR14",
+  "filenr": 719
+},
+{
+  "displayName": "Prakasa-Samhita (a Pancaratra Samhita) (GR14 prakassu)",
+  "textname": "GR14 prakassu",
+  "filename": "GR14prakassu",
+  "category": "GR14",
+  "filenr": 720
+},
+{
+  "displayName": "Pauskara-Samhita (GR14 ps27–43u)",
+  "textname": "GR14 ps27–43u",
+  "filename": "GR14ps27-43u",
+  "category": "GR14",
+  "filenr": 721
+},
+{
+  "displayName": "Rupa Gosvamin: Haribhaktirasamrtasindhu (GR14 ruphbr_u)",
+  "textname": "GR14 ruphbr_u",
+  "filename": "GR14ruphbr_u",
+  "category": "GR14",
+  "filenr": 722
+},
+{
+  "displayName": "Radhakrsnadasa Gosvami: Sadhanadipika (GR14 sadhdipu)",
+  "textname": "GR14 sadhdipu",
+  "filename": "GR14sadhdipu",
+  "category": "GR14",
+  "filenr": 723
+},
+{
+  "displayName": "Satvatatantra (GR14 satvtanu)",
+  "textname": "GR14 satvtanu",
+  "filename": "GR14satvtanu",
+  "category": "GR14",
+  "filenr": 724
+},
+{
+  "displayName": "Srinivasamakhi Vedantadesika: Dasavidhahetunirupana (GR14 sdahen_u)",
+  "textname": "GR14 sdahen_u",
+  "filename": "GR14sdahen_u",
+  "category": "GR14",
+  "filenr": 725
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (1: Tattvasamdarbha) (GR14 ss1_tatu)",
+  "textname": "GR14 ss1_tatu",
+  "filename": "GR14ss1_tatu",
+  "category": "GR14",
+  "filenr": 727
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (2: Bhagavatsamdarbha) (GR14 ss2_bhgu)",
+  "textname": "GR14 ss2_bhgu",
+  "filename": "GR14ss2_bhgu",
+  "category": "GR14",
+  "filenr": 728
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (3: Paramatmasamdarbha) (GR14 ss3_paru)",
+  "textname": "GR14 ss3_paru",
+  "filename": "GR14ss3_paru",
+  "category": "GR14",
+  "filenr": 729
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (4: Krsnasamdarbha) (GR14 ss4_krsu)",
+  "textname": "GR14 ss4_krsu",
+  "filename": "GR14ss4_krsu",
+  "category": "GR14",
+  "filenr": 730
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (5: Bhaktisamdarbha) (GR14 ss5_bhku)",
+  "textname": "GR14 ss5_bhku",
+  "filename": "GR14ss5_bhku",
+  "category": "GR14",
+  "filenr": 731
+},
+{
+  "displayName": "Jiva Gosvami: Satsamdarbha (6: Pritisamdarbha) (GR14 ss6_priu)",
+  "textname": "GR14 ss6_priu",
+  "filename": "GR14ss6_priu",
+  "category": "GR14",
+  "filenr": 732
+},
+{
+  "displayName": "Utpaladeva: Ajadapramatrsiddhi (GR14 utajp_pu)",
+  "textname": "GR14 utajp_pu",
+  "filename": "GR14utajp_pu",
+  "category": "GR14",
+  "filenr": 735
+},
+{
+  "displayName": "Vaikhanasamantraprasna (Prasnas 5–8) (GR14 vaimp__u)",
+  "textname": "GR14 vaimp__u",
+  "filename": "GR14vaimp__u",
+  "category": "GR14",
+  "filenr": 736
+},
+{
+  "displayName": "Visnudharmah (GR14 vdhapadu)",
+  "textname": "GR14 vdhapadu",
+  "filename": "GR14vdhapadu",
+  "category": "GR14",
+  "filenr": 738
+},
+{
+  "displayName": "Visvaksenasamhita (GR14 visvaksu)",
+  "textname": "GR14 visvaksu",
+  "filename": "GR14visvaksu",
+  "category": "GR14",
+  "filenr": 740
+},
+{
+  "displayName": "Yamuna: Catuhsloki (GR14 yamcatpu)",
+  "textname": "GR14 yamcatpu",
+  "filename": "GR14yamcatpu",
+  "category": "GR14",
+  "filenr": 742
+},
+{
+  "displayName": "Yamuna: Stotraratna (GR14 yamsr_pu)",
+  "textname": "GR14 yamsr_pu",
+  "filename": "GR14yamsr_pu",
+  "category": "GR14",
+  "filenr": 744
+},
+{
+  "displayName": "Anandavardhana: Dhvanyaloka, Uddyota 1 (GK16 andhvc1u)",
+  "textname": "GK16 andhvc1u",
+  "filename": "GK16andhvc1u",
+  "category": "GK16",
+  "filenr": 745
+},
+{
+  "displayName": "Anandavardhana: Dhvanyaloka, Uddyota 2 (GK16 andhvc2u)",
+  "textname": "GK16 andhvc2u",
+  "filename": "GK16andhvc2u",
+  "category": "GK16",
+  "filenr": 746
+},
+{
+  "displayName": "Anandavardhana: Dhvanyaloka, Uddyota 3 (GK16 andhvc3u)",
+  "textname": "GK16 andhvc3u",
+  "filename": "GK16andhvc3u",
+  "category": "GK16",
+  "filenr": 747
+},
+{
+  "displayName": "Anandavardhana: Dhvanyaloka, Uddyota 4 (GK16 andhvc4u)",
+  "textname": "GK16 andhvc4u",
+  "filename": "GK16andhvc4u",
+  "category": "GK16",
+  "filenr": 748
+},
+{
+  "displayName": "Anandavardhana: Dhvanyaloka (with Abhinavagupta's Locana) (GK16 andhvy_u)",
+  "textname": "GK16 andhvy_u",
+  "filename": "GK16andhvy_u",
+  "category": "GK16",
+  "filenr": 749
+},
+{
+  "displayName": "Bhamaha: Kavyalamkara (GK16 bhakavpu)",
+  "textname": "GK16 bhakavpu",
+  "filename": "GK16bhakavpu",
+  "category": "GK16",
+  "filenr": 752
+},
+{
+  "displayName": "Dandin: Kavyadarsa (Paricchedas 1 and 2) (GK16 dkavy12u)",
+  "textname": "GK16 dkavy12u",
+  "filename": "GK16dkavy12u",
+  "category": "GK16",
+  "filenr": 753
+},
+{
+  "displayName": "Dandin: Kavyadarsa (Pariccheda 1) (GK16 dkavy1pu)",
+  "textname": "GK16 dkavy1pu",
+  "filename": "GK16dkavy1pu",
+  "category": "GK16",
+  "filenr": 755
+},
+{
+  "displayName": "Dandin: Kavyadarsa (Pariccheda 2: Verses 2.1–144, 310–368) (GK16 dkavy2pu)",
+  "textname": "GK16 dkavy2pu",
+  "filename": "GK16dkavy2pu",
+  "category": "GK16",
+  "filenr": 757
+},
+{
+  "displayName": "Dandin: Kavyadarsa (Pariccheda 3) (GK16 dkavy3_u)",
+  "textname": "GK16 dkavy3_u",
+  "filename": "GK16dkavy3_u",
+  "category": "GK16",
+  "filenr": 758
+},
+{
+  "displayName": "Jayadeva (Piyusavarsa): Candraloka (GK16 jaycndpu)",
+  "textname": "GK16 jaycndpu",
+  "filename": "GK16jaycndpu",
+  "category": "GK16",
+  "filenr": 761
+},
+{
+  "displayName": "Jagannatha Panditaraja: Rasagangadhara (Anana 1) (GK16 jgrasg1u)",
+  "textname": "GK16 jgrasg1u",
+  "filename": "GK16jgrasg1u",
+  "category": "GK16",
+  "filenr": 762
+},
+{
+  "displayName": "Kuntaka: Vakroktijivita (GK16 kunvjivu)",
+  "textname": "GK16 kunvjivu",
+  "filename": "GK16kunvjivu",
+  "category": "GK16",
+  "filenr": 763
+},
+{
+  "displayName": "Mammata: Kavyaprakasa (GK16 mamkavpu)",
+  "textname": "GK16 mamkavpu",
+  "filename": "GK16mamkavpu",
+  "category": "GK16",
+  "filenr": 764
+},
+{
+  "displayName": "Mammata: Kavyaprakasa (with commentary) (GK16 mamkpb_u)",
+  "textname": "GK16 mamkpb_u",
+  "filename": "GK16mamkpb_u",
+  "category": "GK16",
+  "filenr": 765
+},
+{
+  "displayName": "Mammata: Kavyaprakasa (Karikavali) (GK16 mamkprku)",
+  "textname": "GK16 mamkprku",
+  "filename": "GK16mamkprku",
+  "category": "GK16",
+  "filenr": 767
+},
+{
+  "displayName": "Mammata: Sabdavyaparavicara (GK16 msabdvvu)",
+  "textname": "GK16 msabdvvu",
+  "filename": "GK16msabdvvu",
+  "category": "GK16",
+  "filenr": 768
+},
+{
+  "displayName": "Rajasekhara: Kavyamimamsa (Adhikarana 1) (GK16 rajkmimu)",
+  "textname": "GK16 rajkmimu",
+  "filename": "GK16rajkmimu",
+  "category": "GK16",
+  "filenr": 769
+},
+{
+  "displayName": "Rupa Gosvami: Natakacandrika (GK16 rnatc__u)",
+  "textname": "GK16 rnatc__u",
+  "filename": "GK16rnatc__u",
+  "category": "GK16",
+  "filenr": 770
+},
+{
+  "displayName": "Ruyyaka: Alamkarasarvasva (with Vidyacakravartin's Samjivani) (GK16 ruyalscu)",
+  "textname": "GK16 ruyalscu",
+  "filename": "GK16ruyalscu",
+  "category": "GK16",
+  "filenr": 773
+},
+{
+  "displayName": "Ruyyaka: Alamkarasarvasva (Sutras 1–34)(GK16 ruyalssu)",
+  "textname": "GK16 ruyalssu",
+  "filename": "GK16ruyalssu",
+  "category": "GK16",
+  "filenr": 774
+},
+{
+  "displayName": "Ruyyaka: Alamkarasarvasva (with Jayaratha's Vimarsini) (GK16 ruyalsvu)",
+  "textname": "GK16 ruyalsvu",
+  "filename": "GK16ruyalsvu",
+  "category": "GK16",
+  "filenr": 775
+},
+{
+  "displayName": "Ruyyaka: Vyaktivivekavyakhya (2nd vimarsa) (GK16 ruvyavivya_pu)",
+  "textname": "GK16 ruvyavivya_pu",
+  "filename": "GK16ruvyavivya_pu",
+  "category": "GK16",
+  "filenr": 772
+},
+{
+  "displayName": "Simhabhupala: Rasarnavasudhakara (GK16 simhrs_u)",
+  "textname": "GK16 simhrs_u",
+  "filename": "GK16simhrs_u",
+  "category": "GK16",
+  "filenr": 776
+},
+{
+  "displayName": "Simhabhupala: Rasarnavasudhakara (Karikas) (GK16 simhrsku)",
+  "textname": "GK16 simhrsku",
+  "filename": "GK16simhrsku",
+  "category": "GK16",
+  "filenr": 777
+},
+{
+  "displayName": "Udbhata: Kavyalamkarasarasamgraha (with Induraja's Laghuvrtti) (GK16 udkass_u)",
+  "textname": "GK16 udkass_u",
+  "filename": "GK16udkass_u",
+  "category": "GK16",
+  "filenr": 778
+},
+{
+  "displayName": "Udbhata: Kavyalamkarasarasamgraha (Karikas) (GK16 udkassku)",
+  "textname": "GK16 udkassku",
+  "filename": "GK16udkassku",
+  "category": "GK16",
+  "filenr": 779
+},
+{
+  "displayName": "Rupa Gosvamin: Ujjvalanilamani (GK16 ujjvni_u)",
+  "textname": "GK16 ujjvni_u",
+  "filename": "GK16ujjvni_u",
+  "category": "GK16",
+  "filenr": 780
+},
+{
+  "displayName": "Vamana: Kavyalamkara (Sutras) (GK16 vamkalsu)",
+  "textname": "GK16 vamkalsu",
+  "filename": "GK16vamkalsu",
+  "category": "GK16",
+  "filenr": 781
+},
+{
+  "displayName": "Vamana: Kavyalamkarasutra (with Vṛtti) (GK16 vamkalvu)",
+  "textname": "GK16 vamkalvu",
+  "filename": "GK16vamkalvu",
+  "category": "GK16",
+  "filenr": 782
+},
+{
+  "displayName": "Visvesvara Kavicandra: Camatkaracandrika (GK16 vcamkc_u)",
+  "textname": "GK16 vcamkc_u",
+  "filename": "GK16vcamkc_u",
+  "category": "GK16",
+  "filenr": 783
+},
+{
+  "displayName": "Vidyanatha: Prataparudriya (Prataparudrayasobhusana, with Kumarasvamin's Ratnapana) (GK16 viprud_u)",
+  "textname": "GK16 viprud_u",
+  "filename": "GK16viprud_u",
+  "category": "GK16",
+  "filenr": 784
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 1 (with commentary) (GK16 visa01cu)",
+  "textname": "GK16 visa01cu",
+  "filename": "GK16visa01cu",
+  "category": "GK16",
+  "filenr": 785
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 2 (with commentary) (GK16 visa02cu)",
+  "textname": "GK16 visa02cu",
+  "filename": "GK16visa02cu",
+  "category": "GK16",
+  "filenr": 786
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 3 (with commentary) (GK16 visa03cu)",
+  "textname": "GK16 visa03cu",
+  "filename": "GK16visa03cu",
+  "category": "GK16",
+  "filenr": 787
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 4 (with commentary) (GK16 visa04cu)",
+  "textname": "GK16 visa04cu",
+  "filename": "GK16visa04cu",
+  "category": "GK16",
+  "filenr": 788
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 5 (with commentary) (GK16 visa05cu)",
+  "textname": "GK16 visa05cu",
+  "filename": "GK16visa05cu",
+  "category": "GK16",
+  "filenr": 789
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 6 (with commentary) (GK16 visa06cu)",
+  "textname": "GK16 visa06cu",
+  "filename": "GK16visa06cu",
+  "category": "GK16",
+  "filenr": 790
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 7 (with commentary) (GK16 visa07cu)",
+  "textname": "GK16 visa07cu",
+  "filename": "GK16visa07cu",
+  "category": "GK16",
+  "filenr": 791
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 8 (with commentary) (GK16 visa08cu)",
+  "textname": "GK16 visa08cu",
+  "filename": "GK16visa08cu",
+  "category": "GK16",
+  "filenr": 792
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 9 (with commentary) (GK16 visa09cu)",
+  "textname": "GK16 visa09cu",
+  "filename": "GK16visa09cu",
+  "category": "GK16",
+  "filenr": 793
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana 10 (with commentary) (GK16 visa10cu)",
+  "textname": "GK16 visa10cu",
+  "filename": "GK16visa10cu",
+  "category": "GK16",
+  "filenr": 794
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana (GK16 visah__u)",
+  "textname": "GK16 visah__u",
+  "filename": "GK16visah__u",
+  "category": "GK16",
+  "filenr": 795
+},
+{
+  "displayName": "Visvanatha (kaviraja): Sahityadarpana (Karikas) (GK16 visvsdpu)",
+  "textname": "GK16 visvsdpu",
+  "filename": "GK16visvsdpu",
+  "category": "GK16",
+  "filenr": 797
+},
+{
+  "displayName": "Chandoviciti (GK17 chandovu)",
+  "textname": "GK17 chandovu",
+  "filename": "GK17chandovu",
+  "category": "GK17",
+  "filenr": 798
+},
+{
+  "displayName": "Jnanasrimitra: Vrttamalastuti (GK17 jvrtmspu)",
+  "textname": "GK17 jvrtmspu",
+  "filename": "GK17jvrtmspu",
+  "category": "GK17",
+  "filenr": 801
+},
+{
+  "displayName": "Kedarabhatta: Vrttaratnakara (Sutra verses) (GK17 kedvratu)",
+  "textname": "GK17 kedvratu",
+  "filename": "GK17kedvratu",
+  "category": "GK17",
+  "filenr": 802
+},
+{
+  "displayName": "Kedarabhatta: Vrttaratnakara (with Sulhana's Sukavihrdayanandini) (GK17 kvrtrsuu)",
+  "textname": "GK17 kvrtrsuu",
+  "filename": "GK17kvrtrsuu",
+  "category": "GK17",
+  "filenr": 803
+},
+{
+  "displayName": "Bharata: Natyasastra (GK18 bharnatu)",
+  "textname": "GK18 bharnatu",
+  "filename": "GK18bharnatu",
+  "category": "GK18",
+  "filenr": 804
+},
+{
+  "displayName": "Dhananjaya: Dasarupaka (Paricchedas 1–4) (GK18 dhandasu)",
+  "textname": "GK18 dhandasu",
+  "filename": "GK18dhandasu",
+  "category": "GK18",
+  "filenr": 805
+},
+{
+  "displayName": "Ghatakarparakavya (with Abhinavagupta's Ghatakarparavivrti) (GK19 aghatkvu)",
+  "textname": "GK19 aghatkvu",
+  "filename": "GK19aghatkvu",
+  "category": "GK19",
+  "filenr": 806
+},
+{
+  "displayName": "Abhinanda: Kadambarikathasara (GK19 akadambu)",
+  "textname": "GK19 akadambu",
+  "filename": "GK19akadambu",
+  "category": "GK19",
+  "filenr": 807
+},
+{
+  "displayName": "Amaru: Amarusataka (GK19 amaru_u)",
+  "textname": "GK19 amaru_u",
+  "filename": "GK19amaru_u",
+  "category": "GK19",
+  "filenr": 808
+},
+{
+  "displayName": "Anandabhatta: Vallalacarita (GK19 anvallcu)",
+  "textname": "GK19 anvallcu",
+  "filename": "GK19anvallcu",
+  "category": "GK19",
+  "filenr": 809
+},
+{
+  "displayName": "Appayadiksita: Vairagyasataka (GK19 appvairu)",
+  "textname": "GK19 appvairu",
+  "filename": "GK19appvairu",
+  "category": "GK19",
+  "filenr": 810
+},
+{
+  "displayName": "Asvaghosa: Buddhacarita (v. Schreiner) (GK19 asvbc_1u)",
+  "textname": "GK19 asvbc_1u",
+  "filename": "GK19asvbc_1u",
+  "category": "GK19",
+  "filenr": 811
+},
+{
+  "displayName": "Asvaghosa: Buddhacarita (v. SBCIP) (GK19 asvbuc2u)",
+  "textname": "GK19 asvbuc2u",
+  "filename": "GK19asvbuc2u",
+  "category": "GK19",
+  "filenr": 814
+},
+{
+  "displayName": "Asvaghosa: Saundarananda (v, SBCIP) (GK19 asvsau2u)",
+  "textname": "GK19 asvsau2u",
+  "filename": "GK19asvsau2u",
+  "category": "GK19",
+  "filenr": 815
+},
+{
+  "displayName": "Asvaghosa: Saundarananda (v. NN) (GK19 asvsaunu)",
+  "textname": "GK19 asvsaunu",
+  "filename": "GK19asvsaunu",
+  "category": "GK19",
+  "filenr": 816
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 1) (GK19 bahcar1u)",
+  "textname": "GK19 bahcar1u",
+  "filename": "GK19bahcar1u",
+  "category": "GK19",
+  "filenr": 817
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 2) (GK19 bahcar2u)",
+  "textname": "GK19 bahcar2u",
+  "filename": "GK19bahcar2u",
+  "category": "GK19",
+  "filenr": 818
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 3) (GK19 bahcar3u)",
+  "textname": "GK19 bahcar3u",
+  "filename": "GK19bahcar3u",
+  "category": "GK19",
+  "filenr": 819
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 4) (GK19 bahcar4u)",
+  "textname": "GK19 bahcar4u",
+  "filename": "GK19bahcar4u",
+  "category": "GK19",
+  "filenr": 820
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 5) (GK19 bahcar5_pu)",
+  "textname": "GK19 bahcar5_pu",
+  "filename": "GK19bahcar5_pu",
+  "category": "GK19",
+  "filenr": 822
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 6) (GK19 bahcar6u)",
+  "textname": "GK19 bahcar6u",
+  "filename": "GK19bahcar6u",
+  "category": "GK19",
+  "filenr": 823
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 7) (GK19 bahcar7u)",
+  "textname": "GK19 bahcar7u",
+  "filename": "GK19bahcar7u",
+  "category": "GK19",
+  "filenr": 824
+},
+{
+  "displayName": "Bana: Harsacarita (Ucchvasa 8) (GK19 bahcar8u)",
+  "textname": "GK19 bahcar8u",
+  "filename": "GK19bahcar8u",
+  "category": "GK19",
+  "filenr": 825
+},
+{
+  "displayName": "Bana: Harsacarita (Parisista) (GK19 bahcarpu)",
+  "textname": "GK19 bahcarpu",
+  "filename": "GK19bahcarpu",
+  "category": "GK19",
+  "filenr": 826
+},
+{
+  "displayName": "Bana: Kadambari (Purvabhaga: Varnana 84–122) (GK19 bankad1u)",
+  "textname": "GK19 bankad1u",
+  "filename": "GK19bankad1u",
+  "category": "GK19",
+  "filenr": 827
+},
+{
+  "displayName": "Bharavi: Kiratarjuniya (GK19 bhakirpu)",
+  "textname": "GK19 bhakirpu",
+  "filename": "GK19bhakirpu",
+  "category": "GK19",
+  "filenr": 830
+},
+{
+  "displayName": "Bhallata: Bhallatasataka (GK19 bhall_pu)",
+  "textname": "GK19 bhall_pu",
+  "filename": "GK19bhall_pu",
+  "category": "GK19",
+  "filenr": 834
+},
+{
+  "displayName": "Bhatti: Ravanavadha (Bhattikavya) (GK19 bhattiku)",
+  "textname": "GK19 bhattiku",
+  "filename": "GK19bhattiku",
+  "category": "GK19",
+  "filenr": 836
+},
+{
+  "displayName": "Bilhana: Caurapancasika (GK19 bicauppu)",
+  "textname": "GK19 bicauppu",
+  "filename": "GK19bicauppu",
+  "category": "GK19",
+  "filenr": 841
+},
+{
+  "displayName": "Damodaragupta: Kuttanimata (GK19 damkuttu)",
+  "textname": "GK19 damkuttu",
+  "filename": "GK19damkuttu",
+  "category": "GK19",
+  "filenr": 843
+},
+{
+  "displayName": "Dandin: Dasakumaracarita (Ucchvasas 3, 5 & 6) (GK19 danddk1u)",
+  "textname": "GK19 danddk1u",
+  "filename": "GK19danddk1u",
+  "category": "GK19",
+  "filenr": 844
+},
+{
+  "displayName": "Dandin: Dasakumaracarita (GK19 dandkc_u)",
+  "textname": "GK19 dandkc_u",
+  "filename": "GK19dandkc_u",
+  "category": "GK19",
+  "filenr": 846
+},
+{
+  "displayName": "Dhoyi: Pavanaduta (GK19 dhoypavu)",
+  "textname": "GK19 dhoypavu",
+  "filename": "GK19dhoypavu",
+  "category": "GK19",
+  "filenr": 847
+},
+{
+  "displayName": "Kusalamisra: Gudharthadipika (GK19 ghatgu_u)",
+  "textname": "GK19 ghatgu_u",
+  "filename": "GK19ghatgu_u",
+  "category": "GK19",
+  "filenr": 848
+},
+{
+  "displayName": "Govardhana: Aryasaptasati (GK19 govass_u)",
+  "textname": "GK19 govass_u",
+  "filename": "GK19govass_u",
+  "category": "GK19",
+  "filenr": 849
+},
+{
+  "displayName": "Jiva Gosvamin: Gopalacampu (Purvacampu 1–11) (GK19 gp01–11u)",
+  "textname": "GK19 gp01–11u",
+  "filename": "GK19gp01-11u",
+  "category": "GK19",
+  "filenr": 850
+},
+{
+  "displayName": "Jiva Gosvamin: Gopalacampu (Purvacampu 12–22) (GK19 gp12–22u)",
+  "textname": "GK19 gp12–22u",
+  "filename": "GK19gp12-22u",
+  "category": "GK19",
+  "filenr": 851
+},
+{
+  "displayName": "Jiva Gosvamin: Gopalacampu (Purvacampu 23–33) (GK19 gp23–33u)",
+  "textname": "GK19 gp23–33u",
+  "filename": "GK19gp23-33u",
+  "category": "GK19",
+  "filenr": 852
+},
+{
+  "displayName": "Jiva Gosvami: Gopalacampu (Uttaracampu 1–3) (GK19 gu01–03u)",
+  "textname": "GK19 gu01–03u",
+  "filename": "GK19gu01-03u",
+  "category": "GK19",
+  "filenr": 853
+},
+{
+  "displayName": "Jiva Gosvamin: Gopalacampu (Uttaracampu 5–6) (GK19 gu05–06u)",
+  "textname": "GK19 gu05–06u",
+  "filename": "GK19gu05-06u",
+  "category": "GK19",
+  "filenr": 854
+},
+{
+  "displayName": "Jiva Gosvami: Gopalacampu (Uttaracampu 29) (GK19 gu29___u)",
+  "textname": "GK19 gu29___u",
+  "filename": "GK19gu29___u",
+  "category": "GK19",
+  "filenr": 855
+},
+{
+  "displayName": "Jagannatha: Pranabharana (with auto-commentary) (GK19 jagpranu)",
+  "textname": "GK19 jagpranu",
+  "filename": "GK19jagpranu",
+  "category": "GK19",
+  "filenr": 856
+},
+{
+  "displayName": "Jagannatha: Sudhalahari (GK19 jagsudhu)",
+  "textname": "GK19 jagsudhu",
+  "filename": "GK19jagsudhu",
+  "category": "GK19",
+  "filenr": 857
+},
+{
+  "displayName": "Jalhana: Mugdhopadesa (GK19 jalmugpu)",
+  "textname": "GK19 jalmugpu",
+  "filename": "GK19jalmugpu",
+  "category": "GK19",
+  "filenr": 860
+},
+{
+  "displayName": "Jayadeva: Gitagovinda-kavya (in pausa) (GK19 jaygit1u)",
+  "textname": "GK19 jaygit1u",
+  "filename": "GK19jaygit1u",
+  "category": "GK19",
+  "filenr": 862
+},
+{
+  "displayName": "Jayadeva: Gitagovinda (GK19 jaygit2u)",
+  "textname": "GK19 jaygit2u",
+  "filename": "GK19jaygit2u",
+  "category": "GK19",
+  "filenr": 863
+},
+{
+  "displayName": "Jiva Gosvamin: Samkalpakalpadruma (GK19 jivskd_u)",
+  "textname": "GK19 jivskd_u",
+  "filename": "GK19jivskd_u",
+  "category": "GK19",
+  "filenr": 864
+},
+{
+  "displayName": "Kalidasa: Kumarasambhava (GK19 kakumspu)",
+  "textname": "GK19 kakumspu",
+  "filename": "GK19kakumspu",
+  "category": "GK19",
+  "filenr": 867
+},
+{
+  "displayName": "Kalidasa: Rtusamhara (GK19 kalrs_pu)",
+  "textname": "GK19 kalrs_pu",
+  "filename": "GK19kalrs_pu",
+  "category": "GK19",
+  "filenr": 870
+},
+{
+  "displayName": "Kalidasa: Meghaduta (GK19 kmeghdpu)",
+  "textname": "GK19 kmeghdpu",
+  "filename": "GK19kmeghdpu",
+  "category": "GK19",
+  "filenr": 873
+},
+{
+  "displayName": "Kalidasa: Meghaduta (Vallabhadeva's commentary) (GK19 kmeghvpu)",
+  "textname": "GK19 kmeghvpu",
+  "filename": "GK19kmeghvpu",
+  "category": "GK19",
+  "filenr": 876
+},
+{
+  "displayName": "Kalidasa: Meghaduta (alternative version) (GK19 meghdk_u)",
+  "textname": "GK19 meghdk_u",
+  "filename": "GK19meghdk_u",
+  "category": "GK19",
+  "filenr": 899
+},
+{
+  "displayName": "Kalidasa: Raghuvamsa (GK19 kragh_pu)",
+  "textname": "GK19 kragh_pu",
+  "filename": "GK19kragh_pu",
+  "category": "GK19",
+  "filenr": 879
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (6. Bhismaparvan) (GK19 ksbhm06u)",
+  "textname": "GK19 ksbhm06u",
+  "filename": "GK19ksbhm06u",
+  "category": "GK19",
+  "filenr": 880
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (7. Dronaparvan) (GK19 ksbhm07u)",
+  "textname": "GK19 ksbhm07u",
+  "filename": "GK19ksbhm07u",
+  "category": "GK19",
+  "filenr": 881
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (8. Karnaparvan) (GK19 ksbhm08u)",
+  "textname": "GK19 ksbhm08u",
+  "filename": "GK19ksbhm08u",
+  "category": "GK19",
+  "filenr": 882
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (9. Salyaparvan) (GK19 ksbhm09u)",
+  "textname": "GK19 ksbhm09u",
+  "filename": "GK19ksbhm09u",
+  "category": "GK19",
+  "filenr": 883
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (10. Gadaparvan) (GK19 ksbhm10u)",
+  "textname": "GK19 ksbhm10u",
+  "filename": "GK19ksbhm10u",
+  "category": "GK19",
+  "filenr": 884
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (11. Sauptikaparvan) (GK19 ksbhm11u)",
+  "textname": "GK19 ksbhm11u",
+  "filename": "GK19ksbhm11u",
+  "category": "GK19",
+  "filenr": 885
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (12. Striparvan) (GK19 ksbhm12u)",
+  "textname": "GK19 ksbhm12u",
+  "filename": "GK19ksbhm12u",
+  "category": "GK19",
+  "filenr": 886
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (13. Santiparvan) (GK19 ksbhm13u)",
+  "textname": "GK19 ksbhm13u",
+  "filename": "GK19ksbhm13u",
+  "category": "GK19",
+  "filenr": 887
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (14. Asvamedhikaparvan) (GK19 ksbhm14u)",
+  "textname": "GK19 ksbhm14u",
+  "filename": "GK19ksbhm14u",
+  "category": "GK19",
+  "filenr": 888
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (15. Asramavasikaparvan) (GK19 ksbhm15u)",
+  "textname": "GK19 ksbhm15u",
+  "filename": "GK19ksbhm15u",
+  "category": "GK19",
+  "filenr": 889
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (16. Mausalaparvan) (GK19 ksbhm16u)",
+  "textname": "GK19 ksbhm16u",
+  "filename": "GK19ksbhm16u",
+  "category": "GK19",
+  "filenr": 890
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (17. Mahaprasthanikaparvan) (GK19 ksbhm17u)",
+  "textname": "GK19 ksbhm17u",
+  "filename": "GK19ksbhm17u",
+  "category": "GK19",
+  "filenr": 891
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (18. Svargaparvan) (GK19 ksbhm18u)",
+  "textname": "GK19 ksbhm18u",
+  "filename": "GK19ksbhm18u",
+  "category": "GK19",
+  "filenr": 892
+},
+{
+  "displayName": "Ksemendra: Bharatamanjari (19. Harivamsa) (GK19 ksbhm19u)",
+  "textname": "GK19 ksbhm19u",
+  "filename": "GK19ksbhm19u",
+  "category": "GK19",
+  "filenr": 893
+},
+{
+  "displayName": "Ksemendra: Kalavilasa (GK19 kskala_u)",
+  "textname": "GK19 kskala_u",
+  "filename": "GK19kskala_u",
+  "category": "GK19",
+  "filenr": 894
+},
+{
+  "displayName": "Kalidasa: Syamaladandaka (GK19 ksyadndu)",
+  "textname": "GK19 ksyadndu",
+  "filename": "GK19ksyadndu",
+  "category": "GK19",
+  "filenr": 895
+},
+{
+  "displayName": "Kulasekhara: Mukundamala (GK19 kulmukuu)",
+  "textname": "GK19 kulmukuu",
+  "filename": "GK19kulmukuu",
+  "category": "GK19",
+  "filenr": 896
+},
+{
+  "displayName": "Lankesvara: Sivastuti (GK19 lnksivsu)",
+  "textname": "GK19 lnksivsu",
+  "filename": "GK19lnksivsu",
+  "category": "GK19",
+  "filenr": 897
+},
+{
+  "displayName": "Magha: Sisupalavadha (GK19 maghspvu)",
+  "textname": "GK19 maghspvu",
+  "filename": "GK19maghspvu",
+  "category": "GK19",
+  "filenr": 898
+},
+{
+  "displayName": "Nilakantha Diksita: Kalividambana (GK19 nkalivpu)",
+  "textname": "GK19 nkalivpu",
+  "filename": "GK19nkalivpu",
+  "category": "GK19",
+  "filenr": 904
+},
+{
+  "displayName": "Padmagupta (Parimala): Navasahasankacarita (GK19 padnscpu)",
+  "textname": "GK19 padnscpu",
+  "filename": "GK19padnscpu",
+  "category": "GK19",
+  "filenr": 907
+},
+{
+  "displayName": "Rupa Gosvami: Padyavali (GK19 padyavlu)",
+  "textname": "GK19 padyavlu",
+  "filename": "GK19padyavlu",
+  "category": "GK19",
+  "filenr": 910
+},
+{
+  "displayName": "Rupa Gosvami: Hamsaduta (GK19 ruphamdu)",
+  "textname": "GK19 ruphamdu",
+  "filename": "GK19ruphamdu",
+  "category": "GK19",
+  "filenr": 916
+},
+{
+  "displayName": "Raghavacaitanya: Mahaganapatistotra (with commentary) (GK19 raggancu)",
+  "textname": "GK19 raggancu",
+  "filename": "GK19raggancu",
+  "category": "GK19",
+  "filenr": 911
+},
+{
+  "displayName": "Kalidasa: Raghuvamsa (Kashmirian, as read by Vallabhadeva) (GK19 ragh1–6u)",
+  "textname": "GK19 ragh1–6u",
+  "filename": "GK19ragh1-6u",
+  "category": "GK19",
+  "filenr": 912
+},
+{
+  "displayName": "Ramodanta (GK19 ramodtpu)",
+  "textname": "GK19 ramodtpu",
+  "filename": "GK19ramodtpu",
+  "category": "GK19",
+  "filenr": 915
+},
+{
+  "displayName": "Rudrabhatta: Srngaratilaka (GK19 srngt_pu)",
+  "textname": "GK19 srngt_pu",
+  "filename": "GK19srngt_pu",
+  "category": "GK19",
+  "filenr": 917
+},
+{
+  "displayName": "Subandhu: Vasavadatta (GK19 suvasavu)",
+  "textname": "GK19 suvasavu",
+  "filename": "GK19suvasavu",
+  "category": "GK19",
+  "filenr": 920
+},
+{
+  "displayName": "Uddanda: Kokilasamdesa (GK19 uddkokpu)",
+  "textname": "GK19 uddkokpu",
+  "filename": "GK19uddkokpu",
+  "category": "GK19",
+  "filenr": 923
+},
+{
+  "displayName": "Bhasa: Dutavakya (GK20 bhasdutu)",
+  "textname": "GK20 bhasdutu",
+  "filename": "GK20bhasdutu",
+  "category": "GK20",
+  "filenr": 924
+},
+{
+  "displayName": "Bhasa: Svapnavasavadatta (GK20 bhassv_u)",
+  "textname": "GK20 bhassv_u",
+  "filename": "GK20bhassv_u",
+  "category": "GK20",
+  "filenr": 925
+},
+{
+  "displayName": "Bhattanarayana: Venisamhara (GK20 bhveni_u)",
+  "textname": "GK20 bhveni_u",
+  "filename": "GK20bhveni_u",
+  "category": "GK20",
+  "filenr": 926
+},
+{
+  "displayName": "Dramatic Fragments (buddhist) (GK20 dramfrag_pu)",
+  "textname": "GK20 dramfrag_pu",
+  "filename": "GK20dramfrag_pu",
+  "category": "GK20",
+  "filenr": 927
+},
+{
+  "displayName": "Harsadeva: Naganandanataka (GK20 harnagau)",
+  "textname": "GK20 harnagau",
+  "filename": "GK20harnagau",
+  "category": "GK20",
+  "filenr": 929
+},
+{
+  "displayName": "Harsadeva: Ratnavalinatika (GK20 hdratn_u)",
+  "textname": "GK20 hdratn_u",
+  "filename": "GK20hdratn_u",
+  "category": "GK20",
+  "filenr": 930
+},
+{
+  "displayName": "Harsadeva: Priyadarsika (GK20 hpriydpu)",
+  "textname": "GK20 hpriydpu",
+  "filename": "GK20hpriydpu",
+  "category": "GK20",
+  "filenr": 932
+},
+{
+  "displayName": "Kalidasa: Abhijnanasakuntalam (GK20 ksakunpu)",
+  "textname": "GK20 ksakunpu",
+  "filename": "GK20ksakunpu",
+  "category": "GK20",
+  "filenr": 934
+},
+{
+  "displayName": "Mahendravarman I: Mattavilasaprahasana (GK20 mmatvipu)",
+  "textname": "GK20 mmatvipu",
+  "filename": "GK20mmatvipu",
+  "category": "GK20",
+  "filenr": 936
+},
+{
+  "displayName": "Abhinanda: Ramacaritamahakavya 1–3 (GK20 rmc1–3pu)",
+  "textname": "GK20 rmc1–3pu",
+  "filename": "GK20rmc1-3pu",
+  "category": "GK20",
+  "filenr": 938
+},
+{
+  "displayName": "Ruyyaka: Sahrdayalila (GK20 ruysahlu)",
+  "textname": "GK20 ruysahlu",
+  "filename": "GK20ruysahlu",
+  "category": "GK20",
+  "filenr": 940
+},
+{
+  "displayName": "Udicya Syamilaka: Padataditaka (GK20 sypadatu)",
+  "textname": "GK20 sypadatu",
+  "filename": "GK20sypadatu",
+  "category": "GK20",
+  "filenr": 941
+},
+{
+  "displayName": "Buddhasvamin: Brhatkathaslokasamgraha (GK21 brkas_pu)",
+  "textname": "GK21 brkas_pu",
+  "filename": "GK21brkas_pu",
+  "category": "GK21",
+  "filenr": 943
+},
+{
+  "displayName": "Narayana: Hitopadesa (GK21 hitop_u)",
+  "textname": "GK21 hitop_u",
+  "filename": "GK21hitop_u",
+  "category": "GK21",
+  "filenr": 945
+},
+{
+  "displayName": "Somadeva: Kathasaritsagara (GK21 sokss_pu)",
+  "textname": "GK21 sokss_pu",
+  "filename": "GK21sokss_pu",
+  "category": "GK21",
+  "filenr": 947
+},
+{
+  "displayName": "Somadeva: Kathasaritsagara (Vetalapancavimsatika) (= SoKss_12,8.21–32.41) (GK21 soksvppu)",
+  "textname": "GK21 soksvppu",
+  "filename": "GK21soksvppu",
+  "category": "GK21",
+  "filenr": 949
+},
+{
+  "displayName": "Sukasaptati (GK21 suksaptu)",
+  "textname": "GK21 suksaptu",
+  "filename": "GK21suksaptu",
+  "category": "GK21",
+  "filenr": 950
+},
+{
+  "displayName": "Tantrākhyāyika 1 (GK21 ttrkhy1u)",
+  "textname": "GK21 ttrkhy1u",
+  "filename": "GK21ttrkhy1u",
+  "category": "GK21",
+  "filenr": 951
+},
+{
+  "displayName": "Tantrākhyāyika 2 (GK21 ttrkhy2u)",
+  "textname": "GK21 ttrkhy2u",
+  "filename": "GK21ttrkhy2u",
+  "category": "GK21",
+  "filenr": 952
+},
+{
+  "displayName": "Bhartrhari: Satakatraya (1. Nitisataka, 2. Srngarasataka, 3. Vairagyasataka) (GK22 bharst_u)",
+  "textname": "GK22 bharst_u",
+  "filename": "GK22bharst_u",
+  "category": "GK22",
+  "filenr": 953
+},
+{
+  "displayName": "Ksemendra: Darpadalana (GK22 ksdarppu)",
+  "textname": "GK22 ksdarppu",
+  "filename": "GK22ksdarppu",
+  "category": "GK22",
+  "filenr": 956
+},
+{
+  "displayName": "Mahasubhashitasangraha (verses 1–9979) (GK22 msubhs_u)",
+  "textname": "GK22 msubhs_u",
+  "filename": "GK22msubhs_u",
+  "category": "GK22",
+  "filenr": 957
+},
+{
+  "displayName": "Vallabhadeva: Subhasitavali (GK22 valsubhu)",
+  "textname": "GK22 valsubhu",
+  "filename": "GK22valsubhu",
+  "category": "GK22",
+  "filenr": 958
+},
+{
+  "displayName": "Vidyakara: Subhasitaratnakosa (v. Mandira) (GK22 vidsrgpu)",
+  "textname": "GK22 vidsrgpu",
+  "filename": "GK22vidsrgpu",
+  "category": "GK22",
+  "filenr": 961
+},
+{
+  "displayName": "Vidyakara: Subhasitaratnakosa (v. Isaacson/Brzezinski) (GK22 vidsripu)",
+  "textname": "GK22 vidsripu",
+  "filename": "GK22vidsripu",
+  "category": "GK22",
+  "filenr": 965
+},
+{
+  "displayName": "Visnusarma: Pancatantra (GK22 vispancu)",
+  "textname": "GK22 vispancu",
+  "filename": "GK22vispancu",
+  "category": "GK22",
+  "filenr": 967
+},
+{
+  "displayName": "Jonaraja and Pseudo-Jonaraja: Rajatarangini (GK23 jonart_pu)",
+  "textname": "GK23 jonart_pu",
+  "filename": "GK23jonart_pu",
+  "category": "GK23",
+  "filenr": 969
+},
+{
+  "displayName": "Govind Kaul: Pradesasamgraha (GK23 kaulpradsam_u)",
+  "textname": "GK23 kaulpradsam_u",
+  "filename": "GK23kaulpradsam_u",
+  "category": "GK23",
+  "filenr": 970
+},
+{
+  "displayName": "Jayaditya & Vamana: Kasikavrtti (GS24 jvkasipu)",
+  "textname": "GS24 jvkasipu",
+  "filename": "GS24jvkasipu",
+  "category": "GS24",
+  "filenr": 971
+},
+{
+  "displayName": "Panini: Astadhyayi (v. Lehman) (GS24 panini_u)",
+  "textname": "GS24 panini_u",
+  "filename": "GS24panini_u",
+  "category": "GS24",
+  "filenr": 973
+},
+{
+  "displayName": "Panini: Astadhyayi (v. Minamino) (GS24 paninipu)",
+  "textname": "GS24 paninipu",
+  "filename": "GS24paninipu",
+  "category": "GS24",
+  "filenr": 975
+},
+{
+  "displayName": "Nagesa [=Nagojibhatta]: Paribhasendusekhara (GS24 paribhsu)",
+  "textname": "GS24 paribhsu",
+  "filename": "GS24paribhsu",
+  "category": "GS24",
+  "filenr": 977
+},
+{
+  "displayName": "Patanjali: Vyakaranamahabhasya (Mahabhasya) (GS24 pmbhasuu)",
+  "textname": "GS24 pmbhasuu",
+  "filename": "GS24pmbhasuu",
+  "category": "GS24",
+  "filenr": 980
+},
+{
+  "displayName": "Kuḍaka's Samanvayadiś (SD) (GS24 samanv_u)",
+  "textname": "GS24 samanv_u",
+  "filename": "GS24samanv_u",
+  "category": "GS24",
+  "filenr": 981
+},
+{
+  "displayName": "Bhartrhari: Vakyapadiya (v. Ramseier) (GS24 vakyp1pu)",
+  "textname": "GS24 vakyp1pu",
+  "filename": "GS24vakyp1pu",
+  "category": "GS24",
+  "filenr": 984
+},
+{
+  "displayName": "Bhartrhari: Vakyapadiya 1–3,7 (v. Vasudeva) (GS24 vakyp_pu)",
+  "textname": "GS24 vakyp_pu",
+  "filename": "GS24vakyp_pu",
+  "category": "GS24",
+  "filenr": 986
+},
+{
+  "displayName": "Varadaraja: Laghusiddhantakaumudi (= Laghukaumudi) (GS24 varlghku)",
+  "textname": "GS24 varlghku",
+  "filename": "GS24varlghku",
+  "category": "GS24",
+  "filenr": 988
+},
+{
+  "displayName": "Amarasimha: Namalinganusasana [Amarakosa] (Kanda 1) (GS25 amark1pu)",
+  "textname": "GS25 amark1pu",
+  "filename": "GS25amark1pu",
+  "category": "GS25",
+  "filenr": 990
+},
+{
+  "displayName": "Amarasimha: Namalinganusasana [Amarakosa] (Kanda 2) (GS25 amark2_u)",
+  "textname": "GS25 amark2_u",
+  "filename": "GS25amark2_u",
+  "category": "GS25",
+  "filenr": 991
+},
+{
+  "displayName": "Amarasimha: Namalinganusasana [Amarakosa] (Kanda 3) (GS25 amark3_u)",
+  "textname": "GS25 amark3_u",
+  "filename": "GS25amark3_u",
+  "category": "GS25",
+  "filenr": 992
+},
+{
+  "displayName": "Jayarasi: Tattvopaplavasimha (GS26 jaytuppu)",
+  "textname": "GS26 jaytuppu",
+  "filename": "GS26jaytuppu",
+  "category": "GS26",
+  "filenr": 994
+},
+{
+  "displayName": "Sarvamatasamgraha (GS26 sarvmtsu)",
+  "textname": "GS26 sarvmtsu",
+  "filename": "GS26sarvmtsu",
+  "category": "GS26",
+  "filenr": 995
+},
+{
+  "displayName": "Samantabhadra: Aptamimamsa (GS26 sbhami_u)",
+  "textname": "GS26 sbhami_u",
+  "filename": "GS26sbhami_u",
+  "category": "GS26",
+  "filenr": 996
+},
+{
+  "displayName": "Mokṣopāya (GSP27 moksop_u)",
+  "textname": "GSP27 moksop_u",
+  "filename": "GSP27moksop_u",
+  "category": "GSP27",
+  "filenr": 997
+},
+{
+  "displayName": "Mokṣopāya (with Bhāskarakaṇṭha's Ṭīkā) 1 Vairāgya (GSP27 motik_1u)",
+  "textname": "GSP27 motik_1u",
+  "filename": "GSP27motik_1u",
+  "category": "GSP27",
+  "filenr": 998
+},
+{
+  "displayName": "Mokṣopāya (with Bhāskarakaṇṭha's Ṭīkā) 2 Mumukṣuvyavahāra (GSP27 motik_2u)",
+  "textname": "GSP27 motik_2u",
+  "filename": "GSP27motik_2u",
+  "category": "GSP27",
+  "filenr": 998
+},
+{
+  "displayName": "Mokṣopāya (with Bhāskarakaṇṭha's Ṭīkā) 3 Utpatti (GSP27 motik_3u)",
+  "textname": "GSP27 motik_3u",
+  "filename": "GSP27motik_3u",
+  "category": "GSP27",
+  "filenr": 998
+},
+{
+  "displayName": "Mokṣopāya (with Bhāskarakaṇṭha's Ṭīkā) 4 Sthiti (GSP27 motik_4u)",
+  "textname": "GSP27 motik_4u",
+  "filename": "GSP27motik_4u",
+  "category": "GSP27",
+  "filenr": 998
+},
+{
+  "displayName": "Durveka Misra: Hetubindutikaloka (GSP28 dhebta_u)",
+  "textname": "GSP28 dhebta_u",
+  "filename": "GSP28dhebta_u",
+  "category": "GSP28",
+  "filenr": 1000
+},
+{
+  "displayName": "Durvekamisra: Dharmottarapradipa (GSP28 durdhpru)",
+  "textname": "GSP28 durdhpru",
+  "filename": "GSP28durdhpru",
+  "category": "GSP28",
+  "filenr": 1001
+},
+{
+  "displayName": "Jaimini: Mimamsasutra (GSP28 jaimsutu)",
+  "textname": "GSP28 jaimsutu",
+  "filename": "GSP28jaimsutu",
+  "category": "GSP28",
+  "filenr": 1002
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 1, Adhikarana 1) (GSP28 jsbh1–1u)",
+  "textname": "GSP28 jsbh1–1u",
+  "filename": "GSP28jsbh1-1u",
+  "category": "GSP28",
+  "filenr": 1003
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 1, Adhikarana 2) (GSP28 jsbh1–2u)",
+  "textname": "GSP28 jsbh1–2u",
+  "filename": "GSP28jsbh1-2u",
+  "category": "GSP28",
+  "filenr": 1004
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 1, Adhikarana 3) (GSP28 jsbh1–3u)",
+  "textname": "GSP28 jsbh1–3u",
+  "filename": "GSP28jsbh1-3u",
+  "category": "GSP28",
+  "filenr": 1005
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 1, Adhikarana 4) (GSP28 jsbh1–4u)",
+  "textname": "GSP28 jsbh1–4u",
+  "filename": "GSP28jsbh1-4u",
+  "category": "GSP28",
+  "filenr": 1006
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 2, Adhikarana 1) (GSP28 jsbh2–1u)",
+  "textname": "GSP28 jsbh2–1u",
+  "filename": "GSP28jsbh2-1u",
+  "category": "GSP28",
+  "filenr": 1007
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 2, Adhikarana 2) (GSP28 jsbh2–2u)",
+  "textname": "GSP28 jsbh2–2u",
+  "filename": "GSP28jsbh2-2u",
+  "category": "GSP28",
+  "filenr": 1008
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 2, Adhikarana 3) (GSP28 jsbh2–3u)",
+  "textname": "GSP28 jsbh2–3u",
+  "filename": "GSP28jsbh2-3u",
+  "category": "GSP28",
+  "filenr": 1009
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 2, Adhikarana 4) (GSP28 jsbh2–4u)",
+  "textname": "GSP28 jsbh2–4u",
+  "filename": "GSP28jsbh2-4u",
+  "category": "GSP28",
+  "filenr": 1010
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 3, Adhikarana 1) (GSP28 jsbh3–1u)",
+  "textname": "GSP28 jsbh3–1u",
+  "filename": "GSP28jsbh3-1u",
+  "category": "GSP28",
+  "filenr": 1011
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 3, Adhikarana 2) (GSP28 jsbh3–2u)",
+  "textname": "GSP28 jsbh3–2u",
+  "filename": "GSP28jsbh3-2u",
+  "category": "GSP28",
+  "filenr": 1012
+},
+{
+  "displayName": "Khandadeva: Bhattadipika (Adhyaya 3, Adhikarana 3) (GSP28 jsbh3–3u)",
+  "textname": "GSP28 jsbh3–3u",
+  "filename": "GSP28jsbh3-3u",
+  "category": "GSP28",
+  "filenr": 1013
+},
+{
+  "displayName": "Kumarila: Tantravarttika 2.1.1–4 (Bhavarthadhikarana) (GSP28 ktv_2–1u)",
+  "textname": "GSP28 ktv_2–1u",
+  "filename": "GSP28ktv_2-1u",
+  "category": "GSP28",
+  "filenr": 1014
+},
+{
+  "displayName": "Kumarila Bhatta: Mimamsaslokavarttika (GSP28 mimslovu)",
+  "textname": "GSP28 mimslovu",
+  "filename": "GSP28mimslovu",
+  "category": "GSP28",
+  "filenr": 1015
+},
+{
+  "displayName": "Sucaritamisra: Mimamsaslokavarttikakasika (GSP28 mimsvtku)",
+  "textname": "GSP28 mimsvtku",
+  "filename": "GSP28mimsvtku",
+  "category": "GSP28",
+  "filenr": 1016
+},
+{
+  "displayName": "Madhava: Jaiminiyanyayamalavistara (Adhyaya 1) (GSP28 mjnya01u)",
+  "textname": "GSP28 mjnya01u",
+  "filename": "GSP28mjnya01u",
+  "category": "GSP28",
+  "filenr": 1017
+},
+{
+  "displayName": "Madhava: Jaiminiyanyayamalavistara (Adhyaya 2) (GSP28 mjnya02u)",
+  "textname": "GSP28 mjnya02u",
+  "filename": "GSP28mjnya02u",
+  "category": "GSP28",
+  "filenr": 1018
+},
+{
+  "displayName": "Madhava: Jaiminiyanyayamalavistara (Adhyaya 3) (GSP28 mjnya03u)",
+  "textname": "GSP28 mjnya03u",
+  "filename": "GSP28mjnya03u",
+  "category": "GSP28",
+  "filenr": 1019
+},
+{
+  "displayName": "Madhava: Jaiminiyanyayamalavistara (Adhyaya 4) (GSP28 mjnya04u)",
+  "textname": "GSP28 mjnya04u",
+  "filename": "GSP28mjnya04u",
+  "category": "GSP28",
+  "filenr": 1020
+},
+{
+  "displayName": "Jaimini: Mimamsasutra (with Sabara's Bhasya, Adhyayas 1–7) (GSP28 msbh1–7u)",
+  "textname": "GSP28 msbh1–7u",
+  "filename": "GSP28msbh1-7u",
+  "category": "GSP28",
+  "filenr": 1021
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 1) (GSP28 prakp01u)",
+  "textname": "GSP28 prakp01u",
+  "filename": "GSP28prakp01u",
+  "category": "GSP28",
+  "filenr": 1022
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 2) (GSP28 prakp02u)",
+  "textname": "GSP28 prakp02u",
+  "filename": "GSP28prakp02u",
+  "category": "GSP28",
+  "filenr": 1023
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 3) (GSP28 prakp03u)",
+  "textname": "GSP28 prakp03u",
+  "filename": "GSP28prakp03u",
+  "category": "GSP28",
+  "filenr": 1024
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 4) (GSP28 prakp04u)",
+  "textname": "GSP28 prakp04u",
+  "filename": "GSP28prakp04u",
+  "category": "GSP28",
+  "filenr": 1025
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 5) (GSP28 prakp05u)",
+  "textname": "GSP28 prakp05u",
+  "filename": "GSP28prakp05u",
+  "category": "GSP28",
+  "filenr": 1026
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 6) (GSP28 prakp06u)",
+  "textname": "GSP28 prakp06u",
+  "filename": "GSP28prakp06u",
+  "category": "GSP28",
+  "filenr": 1027
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 7) (GSP28 prakp07u)",
+  "textname": "GSP28 prakp07u",
+  "filename": "GSP28prakp07u",
+  "category": "GSP28",
+  "filenr": 1028
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 8) (GSP28 prakp08u)",
+  "textname": "GSP28 prakp08u",
+  "filename": "GSP28prakp08u",
+  "category": "GSP28",
+  "filenr": 1029
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 9) (GSP28 prakp09u)",
+  "textname": "GSP28 prakp09u",
+  "filename": "GSP28prakp09u",
+  "category": "GSP28",
+  "filenr": 1030
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 10) (GSP28 prakp10u)",
+  "textname": "GSP28 prakp10u",
+  "filename": "GSP28prakp10u",
+  "category": "GSP28",
+  "filenr": 1031
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 11) (GSP28 prakp11u)",
+  "textname": "GSP28 prakp11u",
+  "filename": "GSP28prakp11u",
+  "category": "GSP28",
+  "filenr": 1032
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 12) (GSP28 prakp12u)",
+  "textname": "GSP28 prakp12u",
+  "filename": "GSP28prakp12u",
+  "category": "GSP28",
+  "filenr": 1033
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 13) (GSP28 prakp13u)",
+  "textname": "GSP28 prakp13u",
+  "filename": "GSP28prakp13u",
+  "category": "GSP28",
+  "filenr": 1034
+},
+{
+  "displayName": "Salikanathamisra: Prakaranapancika (Prakarana 14) (GSP28 prakp14u)",
+  "textname": "GSP28 prakp14u",
+  "filename": "GSP28prakp14u",
+  "category": "GSP28",
+  "filenr": 1035
+},
+{
+  "displayName": "Sabara: Mimamsasutrabhasya (Jaimini's Mimamsasutra 1,1.1–5) (GSP28 sabbha1u)",
+  "textname": "GSP28 sabbha1u",
+  "filename": "GSP28sabbha1u",
+  "category": "GSP28",
+  "filenr": 1036
+},
+{
+  "displayName": "Parthasarathi Misra: Sastradipika (GSP28 sastrdiu)",
+  "textname": "GSP28 sastrdiu",
+  "filename": "GSP28sastrdiu",
+  "category": "GSP28",
+  "filenr": 1037
+},
+{
+  "displayName": "Annambhatta: Tarkasamgraha (GSP29 antarkpu)",
+  "textname": "GSP29 antarkpu",
+  "filename": "GSP29antarkpu",
+  "category": "GSP29",
+  "filenr": 1039
+},
+{
+  "displayName": "Annambhatta: Tarkasamgraha (with commentaries) (GSP29 antsdi_u)",
+  "textname": "GSP29 antsdi_u",
+  "filename": "GSP29antsdi_u",
+  "category": "GSP29",
+  "filenr": 1041
+},
+{
+  "displayName": "Gangesa: Tattvacintamani (Sabdakhanda) (GSP29 gangtciu)",
+  "textname": "GSP29 gangtciu",
+  "filename": "GSP29gangtciu",
+  "category": "GSP29",
+  "filenr": 1042
+},
+{
+  "displayName": "Gautama: Nyayasutra (v. SP) (GSP29 gaunys_u)",
+  "textname": "GSP29 gaunys_u",
+  "filename": "GSP29gaunys_u",
+  "category": "GSP29",
+  "filenr": 1043
+},
+{
+  "displayName": "Gautama: Nyayasutra (with Vacaspatimisra's Nyayasutravarttikatatparyatika) (GSP29 nystik_u)",
+  "textname": "GSP29 nystik_u",
+  "filename": "GSP29nystik_u",
+  "category": "GSP29",
+  "filenr": 1046
+},
+{
+  "displayName": "Gautama: Nyayasutra 5.1 (with Vatsyayana's Bhasya) (v. Ono) (GSP29 nysu51pu)",
+  "textname": "GSP29 nysu51pu",
+  "filename": "GSP29nysu51pu",
+  "category": "GSP29",
+  "filenr": 1048
+},
+{
+  "displayName": "Gautama: Nyayasutra (with Vatsyayana's Bhasya) (GSP29 nysvbh1u)",
+  "textname": "GSP29 nysvbh1u",
+  "filename": "GSP29nysvbh1u",
+  "category": "GSP29",
+  "filenr": 1050
+},
+{
+  "displayName": "Gautama: Nyayasutra (with Vatsyayana's Bhasya) (v. SP) (GSP29 nysvbh_u)",
+  "textname": "GSP29 nysvbh_u",
+  "filename": "GSP29nysvbh_u",
+  "category": "GSP29",
+  "filenr": 1051
+},
+{
+  "displayName": "Udayana: Nyayavarttikatatparyaparisuddhi (Adhyaya 1,1) (GSP29 nvtp1_1u)",
+  "textname": "GSP29 nvtp1_1u",
+  "filename": "GSP29nvtp1_1u",
+  "category": "GSP29",
+  "filenr": 1044
+},
+{
+  "displayName": "Udayana: Nyayavarttikatatparyaparisuddhi (Adhyaya 1,2) (GSP29 nvtp1_2u)",
+  "textname": "GSP29 nvtp1_2u",
+  "filename": "GSP29nvtp1_2u",
+  "category": "GSP29",
+  "filenr": 1045
+},
+{
+  "displayName": "Siddhasena Mahamati: Nyayavatara (with Siddharsi-ganin's Nyayavataravivrti) (GSP29 snyayvpu)",
+  "textname": "GSP29 snyayvpu",
+  "filename": "GSP29snyayvpu",
+  "category": "GSP29",
+  "filenr": 1053
+},
+{
+  "displayName": "Udayana: Nyayakusumanjali (Stavaka 1) (GSP29 udnyku1u)",
+  "textname": "GSP29 udnyku1u",
+  "filename": "GSP29udnyku1u",
+  "category": "GSP29",
+  "filenr": 1054
+},
+{
+  "displayName": "Udayana: Nyayakusumanjali (Stavaka 2) (GSP29 udnyku2u)",
+  "textname": "GSP29 udnyku2u",
+  "filename": "GSP29udnyku2u",
+  "category": "GSP29",
+  "filenr": 1055
+},
+{
+  "displayName": "Udayana: Nyayakusumanjali (Stavaka 3) (GSP29 udnyku3u)",
+  "textname": "GSP29 udnyku3u",
+  "filename": "GSP29udnyku3u",
+  "category": "GSP29",
+  "filenr": 1056
+},
+{
+  "displayName": "Udayana: Nyayakusumanjali (Stavaka 4) (GSP29 udnyku4u)",
+  "textname": "GSP29 udnyku4u",
+  "filename": "GSP29udnyku4u",
+  "category": "GSP29",
+  "filenr": 1057
+},
+{
+  "displayName": "Udayana: Nyayakusumanjali (Stavaka 5) (GSP29 udnyku5u)",
+  "textname": "GSP29 udnyku5u",
+  "filename": "GSP29udnyku5u",
+  "category": "GSP29",
+  "filenr": 1058
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Bhumika) (GSP29 vnyps00u)",
+  "textname": "GSP29 vnyps00u",
+  "filename": "GSP29vnyps00u",
+  "category": "GSP29",
+  "filenr": 1059
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 1,1) (GSP29 vnyps11u)",
+  "textname": "GSP29 vnyps11u",
+  "filename": "GSP29vnyps11u",
+  "category": "GSP29",
+  "filenr": 1060
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 1,2) (GSP29 vnyps12u)",
+  "textname": "GSP29 vnyps12u",
+  "filename": "GSP29vnyps12u",
+  "category": "GSP29",
+  "filenr": 1061
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 3,1) (GSP29 vnyps31u)",
+  "textname": "GSP29 vnyps31u",
+  "filename": "GSP29vnyps31u",
+  "category": "GSP29",
+  "filenr": 1062
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 3,2) (GSP29 vnyps32u)",
+  "textname": "GSP29 vnyps32u",
+  "filename": "GSP29vnyps32u",
+  "category": "GSP29",
+  "filenr": 1063
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 4,1) (GSP29 vnyps41u)",
+  "textname": "GSP29 vnyps41u",
+  "filename": "GSP29vnyps41u",
+  "category": "GSP29",
+  "filenr": 1064
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 4,2) (GSP29 vnyps42u)",
+  "textname": "GSP29 vnyps42u",
+  "filename": "GSP29vnyps42u",
+  "category": "GSP29",
+  "filenr": 1065
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 5,1) (GSP29 vnyps51u)",
+  "textname": "GSP29 vnyps51u",
+  "filename": "GSP29vnyps51u",
+  "category": "GSP29",
+  "filenr": 1066
+},
+{
+  "displayName": "Venkatanatha [Vedantadesika]: Nyayaparisuddhi (Adhyaya 5,2) (GSP29 vnyps52u)",
+  "textname": "GSP29 vnyps52u",
+  "filename": "GSP29vnyps52u",
+  "category": "GSP29",
+  "filenr": 1067
+},
+{
+  "displayName": "Vyasatirtha: Tarkatandava (Pariccheda 1) (GSP29 vytrkt1u)",
+  "textname": "GSP29 vytrkt1u",
+  "filename": "GSP29vytrkt1u",
+  "category": "GSP29",
+  "filenr": 1068
+},
+{
+  "displayName": "Vyasatirtha: Tarkatandava (Pariccheda 2) (GSP29 vytrkt2u)",
+  "textname": "GSP29 vytrkt2u",
+  "filename": "GSP29vytrkt2u",
+  "category": "GSP29",
+  "filenr": 1069
+},
+{
+  "displayName": "Vyasatirtha: Tarkatandava (Pariccheda 3) (GSP29 vytrkt3u)",
+  "textname": "GSP29 vytrkt3u",
+  "filename": "GSP29vytrkt3u",
+  "category": "GSP29",
+  "filenr": 1070
+},
+{
+  "displayName": "Abhinavagupta: Isvarapratyabhijnavimarsini (Adhikaras 1–4) (GSP30 abhiprvu)",
+  "textname": "GSP30 abhiprvu",
+  "filename": "GSP30abhiprvu",
+  "category": "GSP30",
+  "filenr": 1071
+},
+{
+  "displayName": "Abhinavagupta: Malinislokavarttika (Kanda 1) (GSP30 abhmal1u)",
+  "textname": "GSP30 abhmal1u",
+  "filename": "GSP30abhmal1u",
+  "category": "GSP30",
+  "filenr": 1072
+},
+{
+  "displayName": "Abhinavagupta: Malinislokavarttika (Kanda 2) (GSP30 abhmal2u)",
+  "textname": "GSP30 abhmal2u",
+  "filename": "GSP30abhmal2u",
+  "category": "GSP30",
+  "filenr": 1073
+},
+{
+  "displayName": "Abhinavagupta: Tantrasara (GSP30 abhtantu)",
+  "textname": "GSP30 abhtantu",
+  "filename": "GSP30abhtantu",
+  "category": "GSP30",
+  "filenr": 1074
+},
+{
+  "displayName": "Adyanatha: Anuttaraprakasapancasika (GSP30 adyapppu)",
+  "textname": "GSP30 adyapppu",
+  "filename": "GSP30adyapppu",
+  "category": "GSP30",
+  "filenr": 1077
+},
+{
+  "displayName": "Abhinavagupta: Anuttarastika (GSP30 anuttaru)",
+  "textname": "GSP30 anuttaru",
+  "filename": "GSP30anuttaru",
+  "category": "GSP30",
+  "filenr": 1078
+},
+{
+  "displayName": "Abhinavagupta: Paramarthasara (with Yogaraja's Paramarthasarasamgrahavivrti) (GSP30 aparmyou)",
+  "textname": "GSP30 aparmyou",
+  "filename": "GSP30aparmyou",
+  "category": "GSP30",
+  "filenr": 1079
+},
+{
+  "displayName": "Abhinavagupta: Bhairavastava (GSP30 bhairstu)",
+  "textname": "GSP30 bhairstu",
+  "filename": "GSP30bhairstu",
+  "category": "GSP30",
+  "filenr": 1080
+},
+{
+  "displayName": "Bhuti(raja): Svabodhasiddhi (GSP30 bhutisbs_u)",
+  "textname": "GSP30 bhutisbs_u",
+  "filename": "GSP30bhutisbs_u",
+  "category": "GSP30",
+  "filenr": 1081
+},
+{
+  "displayName": "Abhinavagupta: Bodhapancadasika (GSP30 bodhpanu)",
+  "textname": "GSP30 bodhpanu",
+  "filename": "GSP30bodhpanu",
+  "category": "GSP30",
+  "filenr": 1082
+},
+{
+  "displayName": "Abhinavagupta: Kramastotra (GSP30 kramstou)",
+  "textname": "GSP30 kramstou",
+  "filename": "GSP30kramstou",
+  "category": "GSP30",
+  "filenr": 1083
+},
+{
+  "displayName": "Ksemaraja: Bodhavilasa (GSP30 ksembodhv_u)",
+  "textname": "GSP30 ksembodhv_u",
+  "filename": "GSP30ksembodhv_u",
+  "category": "GSP30",
+  "filenr": 1084
+},
+{
+  "displayName": "Abhinavagupta: Paramarthasara (GSP30 parmartu)",
+  "textname": "GSP30 parmartu",
+  "filename": "GSP30parmartu",
+  "category": "GSP30",
+  "filenr": 1086
+},
+{
+  "displayName": "Paratrimsika (GSP30 partr_pu)",
+  "textname": "GSP30 partr_pu",
+  "filename": "GSP30partr_pu",
+  "category": "GSP30",
+  "filenr": 1089
+},
+{
+  "displayName": "Abhinavagupta: Paratrimsikavivarana (GSP30 partrvpu)",
+  "textname": "GSP30 partrvpu",
+  "filename": "GSP30partrvpu",
+  "category": "GSP30",
+  "filenr": 1091
+},
+{
+  "displayName": "Abhinavagupta: Paryantapancasika (GSP30 parypanu)",
+  "textname": "GSP30 parypanu",
+  "filename": "GSP30parypanu",
+  "category": "GSP30",
+  "filenr": 1092
+},
+{
+  "displayName": "Ksemaraja: Pratyabhijnahrdaya (GSP30 pratyabu)",
+  "textname": "GSP30 pratyabu",
+  "filename": "GSP30pratyabu",
+  "category": "GSP30",
+  "filenr": 1093
+},
+{
+  "displayName": "Vasugupta: Spandakarika (GSP30 spandkau)",
+  "textname": "GSP30 spandkau",
+  "filename": "GSP30spandkau",
+  "category": "GSP30",
+  "filenr": 1094
+},
+{
+  "displayName": "Abhinavagupta: Tantraloka (GSP30 tantralu)",
+  "textname": "GSP30 tantralu",
+  "filename": "GSP30tantralu",
+  "category": "GSP30",
+  "filenr": 1095
+},
+{
+  "displayName": "Timirodghāṭana (incl. Nirvāṇakārikā) (GSP30 timudghu)",
+  "textname": "GSP30 timudghu",
+  "filename": "GSP30timudghu",
+  "category": "GSP30",
+  "filenr": 1096
+},
+{
+  "displayName": "Utpaladeva: Isvarapratyabhijnakarika (with vrtti) (GSP30 utipk_pu)",
+  "textname": "GSP30 utipk_pu",
+  "filename": "GSP30utipk_pu",
+  "category": "GSP30",
+  "filenr": 1099
+},
+{
+  "displayName": "Vamadeva: Janmamaranavicara (GSP30 vamjanmu)",
+  "textname": "GSP30 vamjanmu",
+  "filename": "GSP30vamjanmu",
+  "category": "GSP30",
+  "filenr": 1100
+},
+{
+  "displayName": "Vamanadatta: Svabodhodayamanjari (GSP30 vamsbum_u)",
+  "textname": "GSP30 vamsbum_u",
+  "filename": "GSP30vamsbum_u",
+  "category": "GSP30",
+  "filenr": 1101
+},
+{
+  "displayName": "Vasugupta [or Kallata Bhatta?]: Spandakrika (GSP30 vasspacu)",
+  "textname": "GSP30 vasspacu",
+  "filename": "GSP30vasspacu",
+  "category": "GSP30",
+  "filenr": 1102
+},
+{
+  "displayName": "Vatulanatha: Vatulanathasutra (with Anantasaktipada's Vrtti) (GSP30 vatnsupu)",
+  "textname": "GSP30 vatnsupu",
+  "filename": "GSP30vatnsupu",
+  "category": "GSP30",
+  "filenr": 1104
+},
+{
+  "displayName": "Vijnanabhairava (GSP30 vijnbhau)",
+  "textname": "GSP30 vijnbhau",
+  "filename": "GSP30vijnbhau",
+  "category": "GSP30",
+  "filenr": 1106
+},
+{
+  "displayName": "Bhasarvajna: Ganakarika 1 (GSP31 bhgank_u)",
+  "textname": "GSP31 bhgank_u",
+  "filename": "GSP31bhgank_u",
+  "category": "GSP31",
+  "filenr": 1107
+},
+{
+  "displayName": "Isvarakrsna: Samkhyakarika (Samkhyasaptati) (with commentary) (GSP31 iskamatu)",
+  "textname": "GSP31 iskamatu",
+  "filename": "GSP31iskamatu",
+  "category": "GSP31",
+  "filenr": 1108
+},
+{
+  "displayName": "Isvarakrsna: Samkhyakarika (Samkhyasaptati) (GSP31 iskar_u)",
+  "textname": "GSP31 iskar_u",
+  "filename": "GSP31iskar_u",
+  "category": "GSP31",
+  "filenr": 1109
+},
+{
+  "displayName": "Isvarakrsna: Samkhyakarika (with Gaudapada's Bhasya) (GSP31 iskgaudu)",
+  "textname": "GSP31 iskgaudu",
+  "filename": "GSP31iskgaudu",
+  "category": "GSP31",
+  "filenr": 1110
+},
+{
+  "displayName": "Isvarakrsna: Samkhyakarika (GSP31 isvskaru)",
+  "textname": "GSP31 isvskaru",
+  "filename": "GSP31isvskaru",
+  "category": "GSP31",
+  "filenr": 1111
+},
+{
+  "displayName": "Isvarakrsna: Samkhyakarika (with Samkara Arya's Jayamangala) (GSP31 jaymangu)",
+  "textname": "GSP31 jaymangu",
+  "filename": "GSP31jaymangu",
+  "category": "GSP31",
+  "filenr": 1112
+},
+{
+  "displayName": "Kavirajayati (=Kavirajagiri): Samkhyatattvapradipa (GSP31 kavsttvu)",
+  "textname": "GSP31 kavsttvu",
+  "filename": "GSP31kavsttvu",
+  "category": "GSP31",
+  "filenr": 1113
+},
+{
+  "displayName": "Kesava: Samkhyatattvapradipika (Samkhyarthatattvapradipika) (GSP31 kestprau)",
+  "textname": "GSP31 kestprau",
+  "filename": "GSP31kestprau",
+  "category": "GSP31",
+  "filenr": 1114
+},
+{
+  "displayName": "Kapila: Samkhyasutra (GSP31 samkhsuu)",
+  "textname": "GSP31 samkhsuu",
+  "filename": "GSP31samkhsuu",
+  "category": "GSP31",
+  "filenr": 1115
+},
+{
+  "displayName": "Samkhyaparibhasa (GSP31 sparibhu)",
+  "textname": "GSP31 sparibhu",
+  "filename": "GSP31sparibhu",
+  "category": "GSP31",
+  "filenr": 1116
+},
+{
+  "displayName": "Tattvasamasasutravrtti (Kramadipika commentary on Tattvasamāsa) (GSP31 tatsuvru)",
+  "textname": "GSP31 tatsuvru",
+  "filename": "GSP31tatsuvru",
+  "category": "GSP31",
+  "filenr": 1117
+},
+{
+  "displayName": "Tattvamimamsa (GSP31 tattvmiu)",
+  "textname": "GSP31 tattvmiu",
+  "filename": "GSP31tattvmiu",
+  "category": "GSP31",
+  "filenr": 1118
+},
+{
+  "displayName": "Bhavaganesa [Ganesadiksita]: Tattvayatharthyadipana (commentary on Tattvasamāsa) (GSP31 tsc_bhau)",
+  "textname": "GSP31 tsc_bhau",
+  "filename": "GSP31tsc_bhau",
+  "category": "GSP31",
+  "filenr": 1119
+},
+{
+  "displayName": "Simanandadiksita (= Ksemananda/Ksemendra): Samkhyatattvavivecana ( commentary on Tattvasamāsa) (GSP31 tsc_simu)",
+  "textname": "GSP31 tsc_simu",
+  "filename": "GSP31tsc_simu",
+  "category": "GSP31",
+  "filenr": 1120
+},
+{
+  "displayName": "Samkhyasutravivarana (commentary on Tattvasamāsa) (GSP31 tsc_vivu)",
+  "textname": "GSP31 tsc_vivu",
+  "filename": "GSP31tsc_vivu",
+  "category": "GSP31",
+  "filenr": 1121
+},
+{
+  "displayName": "Sarvopakarani (commentary on Tattvasamasa) (GSP31 ttssarvu)",
+  "textname": "GSP31 ttssarvu",
+  "filename": "GSP31ttssarvu",
+  "category": "GSP31",
+  "filenr": 1122
+},
+{
+  "displayName": "Tattvasamasa (abstract of Sāṃkhya in 23–25 sūtras) (GSP31 tttvsamu)",
+  "textname": "GSP31 tttvsamu",
+  "filename": "GSP31tttvsamu",
+  "category": "GSP31",
+  "filenr": 1123
+},
+{
+  "displayName": "Vijnanabhiksu: Samkhyasara (GSP31 vijsamsu)",
+  "textname": "GSP31 vijsamsu",
+  "filename": "GSP31vijsamsu",
+  "category": "GSP31",
+  "filenr": 1124
+},
+{
+  "displayName": "Yuktidipika (commentary on Īśvarakṛṣṇa's Sāṃkhyakārikā) (GSP31 yuktdipu)",
+  "textname": "GSP31 yuktdipu",
+  "filename": "GSP31yuktdipu",
+  "category": "GSP31",
+  "filenr": 1125
+},
+{
+  "displayName": "Prasastapada: Padarthadharmasamgraha (GSP32 paddhs_u)",
+  "textname": "GSP32 paddhs_u",
+  "filename": "GSP32paddhs_u",
+  "category": "GSP32",
+  "filenr": 1126
+},
+{
+  "displayName": "Kanada: Vaisesikasutra (v. SP) (GSP32 vaisessu)",
+  "textname": "GSP32 vaisessu",
+  "filename": "GSP32vaisessu",
+  "category": "GSP32",
+  "filenr": 1127
+},
+{
+  "displayName": "Kanada: Vaisesikasutra (v. Masanobu) (GSP32 vaissu1u)",
+  "textname": "GSP32 vaissu1u",
+  "filename": "GSP32vaissu1u",
+  "category": "GSP32",
+  "filenr": 1128
+},
+{
+  "displayName": "Vadivagisvara: Manamanohara (GSP32 vvmanmhu)",
+  "textname": "GSP32 vvmanmhu",
+  "filename": "GSP32vvmanmhu",
+  "category": "GSP32",
+  "filenr": 1129
+},
+{
+  "displayName": "Badarayana: Brahmsutra (with Madhva's Bhasya and Jagannatha Tirtha's Dipika) (Adhyaya 1 Pada 1) (GSP33 bbdip11u)",
+  "textname": "GSP33 bbdip11u",
+  "filename": "GSP33bbdip11u",
+  "category": "GSP33",
+  "filenr": 1130
+},
+{
+  "displayName": "Badarayana: Brahmsutra (with Madhva's Bhasya and Jagannatha Tirtha's Dipika) (Adhyaya 1 Pada 2) (GSP33 bbdip12u)",
+  "textname": "GSP33 bbdip12u",
+  "filename": "GSP33bbdip12u",
+  "category": "GSP33",
+  "filenr": 1131
+},
+{
+  "displayName": "Badarayana: Brahmsutra (with Madhva's Bhasya and Jagannatha Tirtha's Dipika) (Adhyaya 1 Pada 3) (GSP33 bbdip13u)",
+  "textname": "GSP33 bbdip13u",
+  "filename": "GSP33bbdip13u",
+  "category": "GSP33",
+  "filenr": 1132
+},
+{
+  "displayName": "Badarayana: Brahmasutra (extract from Samkara's commentary) (GSP33 brahms2u)",
+  "textname": "GSP33 brahms2u",
+  "filename": "GSP33brahms2u",
+  "category": "GSP33",
+  "filenr": 1135
+},
+{
+  "displayName": "Badarayana: Brahmasutra (v. SP) (GSP33 brahmsuu)",
+  "textname": "GSP33 brahmsuu",
+  "filename": "GSP33brahmsuu",
+  "category": "GSP33",
+  "filenr": 1136
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Govindananda's Ratnaprabhavyakhya) (Adhyaya 1) (GSP33 brsgor1u)",
+  "textname": "GSP33 brsgor1u",
+  "filename": "GSP33brsgor1u",
+  "category": "GSP33",
+  "filenr": 1137
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Govindananda's Ratnaprabhavyakhya) (Adhyaya 2) (GSP33 brsgor2u)",
+  "textname": "GSP33 brsgor2u",
+  "filename": "GSP33brsgor2u",
+  "category": "GSP33",
+  "filenr": 1138
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Govindananda's Ratnaprabhavyakhya) (Adhyaya 3) (GSP33 brsgor3u)",
+  "textname": "GSP33 brsgor3u",
+  "filename": "GSP33brsgor3u",
+  "category": "GSP33",
+  "filenr": 1139
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Govindananda's Ratnaprabhavyakhya) (Adhyaya 4) (GSP33 brsgor4u)",
+  "textname": "GSP33 brsgor4u",
+  "filename": "GSP33brsgor4u",
+  "category": "GSP33",
+  "filenr": 1140
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Samkara's Sarirakamimamsabhasya) (Adhyaya 1) (GSP33 brssbh1u)",
+  "textname": "GSP33 brssbh1u",
+  "filename": "GSP33brssbh1u",
+  "category": "GSP33",
+  "filenr": 1141
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Samkara's Sarirakamimamsabhasya) (Adhyaya 2) (GSP33 brssbh2u)",
+  "textname": "GSP33 brssbh2u",
+  "filename": "GSP33brssbh2u",
+  "category": "GSP33",
+  "filenr": 1142
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Samkara's Sarirakamimamsabhasya) (Adhyaya 3) (GSP33 brssbh3u)",
+  "textname": "GSP33 brssbh3u",
+  "filename": "GSP33brssbh3u",
+  "category": "GSP33",
+  "filenr": 1143
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Samkara's Sarirakamimamsabhasya) (Adhyaya 4) (GSP33 brssbh4u)",
+  "textname": "GSP33 brssbh4u",
+  "filename": "GSP33brssbh4u",
+  "category": "GSP33",
+  "filenr": 1144
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with commentaries) (Adhyaya 1) (GSP33 brssgo1u)",
+  "textname": "GSP33 brssgo1u",
+  "filename": "GSP33brssgo1u",
+  "category": "GSP33",
+  "filenr": 1145
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with commentaries) (Adhyaya 2) (GSP33 brssgo2u)",
+  "textname": "GSP33 brssgo2u",
+  "filename": "GSP33brssgo2u",
+  "category": "GSP33",
+  "filenr": 1146
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with commentaries) (Adhyaya 3) (GSP33 brssgo3u)",
+  "textname": "GSP33 brssgo3u",
+  "filename": "GSP33brssgo3u",
+  "category": "GSP33",
+  "filenr": 1147
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with commentaries) (Adhyaya 4) (GSP33 brssgo4u)",
+  "textname": "GSP33 brssgo4u",
+  "filename": "GSP33brssgo4u",
+  "category": "GSP33",
+  "filenr": 1148
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Vacaspatimisra's Bhamati) (Adhyaya 1) (GSP33 brsvbh1u)",
+  "textname": "GSP33 brsvbh1u",
+  "filename": "GSP33brsvbh1u",
+  "category": "GSP33",
+  "filenr": 1149
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Vacaspatimisra's Bhamati) (Adhyaya 2) (GSP33 brsvbh2u)",
+  "textname": "GSP33 brsvbh2u",
+  "filename": "GSP33brsvbh2u",
+  "category": "GSP33",
+  "filenr": 1150
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Vacaspatimisra's Bhamati) (Adhyaya 3) (GSP33 brsvbh3u)",
+  "textname": "GSP33 brsvbh3u",
+  "filename": "GSP33brsvbh3u",
+  "category": "GSP33",
+  "filenr": 1151
+},
+{
+  "displayName": "Badarayana: Brahmasutra (with Vacaspatimisra's Bhamati) (Adhyaya 4) (GSP33 brsvbh4u)",
+  "textname": "GSP33 brsvbh4u",
+  "filename": "GSP33brsvbh4u",
+  "category": "GSP33",
+  "filenr": 1152
+},
+{
+  "displayName": "Bhaskara: Bhagavadasayanusaranabhasya (on Bhagavadgita 1–9) (GSP33 bhbhg_cu)",
+  "textname": "GSP33 bhbhg_cu",
+  "filename": "GSP33bhbhg_cu",
+  "category": "GSP33",
+  "filenr": 1133
+},
+{
+  "displayName": "Samkara: Bhagavadgitabhasya (GSP33 bhgsbh_u)",
+  "textname": "GSP33 bhgsbh_u",
+  "filename": "GSP33bhgsbh_u",
+  "category": "GSP33",
+  "filenr": 1134
+},
+{
+  "displayName": "Gaudapada: Agamasastra (=Gaudapadakarika, Gaudapadiyakarika) (GSP33 gaukarpu)",
+  "textname": "GSP33 gaukarpu",
+  "filename": "GSP33gaukarpu",
+  "category": "GSP33",
+  "filenr": 1154
+},
+{
+  "displayName": "Madhva Anandatirtha: Mahabharatatatparyanirnaya (GSP33 m_mbhtnu)",
+  "textname": "GSP33 m_mbhtnu",
+  "filename": "GSP33m_mbhtnu",
+  "category": "GSP33",
+  "filenr": 1156
+},
+{
+  "displayName": "Madhva Anandatirtha: Anuvyakhyana (commentary on Badarayana's Brahmasutra) (GSP33 madhanuu)",
+  "textname": "GSP33 madhanuu",
+  "filename": "GSP33madhanuu",
+  "category": "GSP33",
+  "filenr": 1157
+},
+{
+  "displayName": "Madhusudanasarasvati: Siddhantabindu (GSP33 madhsiddhb_u)",
+  "textname": "GSP33 madhsiddhb_u",
+  "filename": "GSP33madhsiddhb_u",
+  "category": "GSP33",
+  "filenr": 1158
+},
+{
+  "displayName": "Mandanamisra: Brahmasiddhi (GSP33 mbrahsiu)",
+  "textname": "GSP33 mbrahsiu",
+  "filename": "GSP33mbrahsiu",
+  "category": "GSP33",
+  "filenr": 1159
+},
+{
+  "displayName": "Mandanamisra: Vibhramaviveka (GSP33 mndvivpu)",
+  "textname": "GSP33 mndvivpu",
+  "filename": "GSP33mndvivpu",
+  "category": "GSP33",
+  "filenr": 1162
+},
+{
+  "displayName": "Narahari: Bodhasara (GSP33 nabodhsu)",
+  "textname": "GSP33 nabodhsu",
+  "filename": "GSP33nabodhsu",
+  "category": "GSP33",
+  "filenr": 1163
+},
+{
+  "displayName": "Jayatirtha: Nyayasudha (Adhyaya 1) (GSP33 nysu__1u)",
+  "textname": "GSP33 nysu__1u",
+  "filename": "GSP33nysu__1u",
+  "category": "GSP33",
+  "filenr": 1164
+},
+{
+  "displayName": "Jayatirtha: Nyayasudha (Adhyaya 2) (GSP33 nysu__2u)",
+  "textname": "GSP33 nysu__2u",
+  "filename": "GSP33nysu__2u",
+  "category": "GSP33",
+  "filenr": 1165
+},
+{
+  "displayName": "Jayatirtha: Nyayasudha (Adhyaya 3) (GSP33 nysu__3u)",
+  "textname": "GSP33 nysu__3u",
+  "filename": "GSP33nysu__3u",
+  "category": "GSP33",
+  "filenr": 1166
+},
+{
+  "displayName": "Jayatirtha: Nyayasudha (Adhyaya 4) (GSP33 nysu__4u)",
+  "textname": "GSP33 nysu__4u",
+  "filename": "GSP33nysu__4u",
+  "category": "GSP33",
+  "filenr": 1167
+},
+{
+  "displayName": "Ramanuja: Bhagavadgitabhasya (GSP33 ramgbhpu)",
+  "textname": "GSP33 ramgbhpu",
+  "filename": "GSP33ramgbhpu",
+  "category": "GSP33",
+  "filenr": 1169
+},
+{
+  "displayName": "Ramanuja: Sribhsya 1,1.3 (GSP33 rams11pu)",
+  "textname": "GSP33 rams11pu",
+  "filename": "GSP33rams11pu",
+  "category": "GSP33",
+  "filenr": 1171
+},
+{
+  "displayName": "Ramanuja: Vedarthasamgraha (GSP33 ramvaspu)",
+  "textname": "GSP33 ramvaspu",
+  "filename": "GSP33ramvaspu",
+  "category": "GSP33",
+  "filenr": 1173
+},
+{
+  "displayName": "Samkara: Kathopanisadbhasya (GSP33 samkaubh_u)",
+  "textname": "GSP33 samkaubh_u",
+  "filename": "GSP33samkaubh_u",
+  "category": "GSP33",
+  "filenr": 1174
+},
+{
+  "displayName": "Samkara: Upadesasahasri (GSP33 samkupad_u)",
+  "textname": "GSP33 samkupad_u",
+  "filename": "GSP33samkupad_u",
+  "category": "GSP33",
+  "filenr": 1175
+},
+{
+  "displayName": "Samkara: Vivekacudamani (GSP33 vivcud_u)",
+  "textname": "GSP33 vivcud_u",
+  "filename": "GSP33vivcud_u",
+  "category": "GSP33",
+  "filenr": 1177
+},
+{
+  "displayName": "Vacaspati: Bhamati (GSP33 vacbhamu)",
+  "textname": "GSP33 vacbhamu",
+  "filename": "GSP33vacbhamu",
+  "category": "GSP33",
+  "filenr": 1176
+},
+{
+  "displayName": "Yamuna: Siddhitraya (Part 1: Atmasiddhi) (GSP33 yaatsi_u)",
+  "textname": "GSP33 yaatsi_u",
+  "filename": "GSP33yaatsi_u",
+  "category": "GSP33",
+  "filenr": 1178
+},
+{
+  "displayName": "Yamuna: Siddhitraya (Part 2: Isvarasiddhi) (GSP33 yaissi_u)",
+  "textname": "GSP33 yaissi_u",
+  "filename": "GSP33yaissi_u",
+  "category": "GSP33",
+  "filenr": 1179
+},
+{
+  "displayName": "Yamuna: Siddhitraya (Part 3: Samvitsiddhi) (GSP33 yasasi_u)",
+  "textname": "GSP33 yasasi_u",
+  "filename": "GSP33yasasi_u",
+  "category": "GSP33",
+  "filenr": 1190
+},
+{
+  "displayName": "Yamuna: Gitarthasangraha (GSP33 yamgaspu)",
+  "textname": "GSP33 yamgaspu",
+  "filename": "GSP33yamgaspu",
+  "category": "GSP33",
+  "filenr": 1181
+},
+{
+  "displayName": "Yamuna: Isvarasiddhi (GSP33 yamis_pu)",
+  "textname": "GSP33 yamis_pu",
+  "filename": "GSP33yamis_pu",
+  "category": "GSP33",
+  "filenr": 1183
+},
+{
+  "displayName": "Yamuna: Samvitsiddhi (GSP33 yamss_pu)",
+  "textname": "GSP33 yamss_pu",
+  "filename": "GSP33yamss_pu",
+  "category": "GSP33",
+  "filenr": 1186
+},
+{
+  "displayName": "Yamunacarya: Samvitsiddhi (GSP33 yamsvspu)",
+  "textname": "GSP33 yamsvspu",
+  "filename": "GSP33yamsvspu",
+  "category": "GSP33",
+  "filenr": 1189
+},
+{
+  "displayName": "Gheranda-Samhita (GSP34 ghers_pu)",
+  "textname": "GSP34 ghers_pu",
+  "filename": "GSP34ghers_pu",
+  "category": "GSP34",
+  "filenr": 1194
+},
+{
+  "displayName": "Svatmarama: Hathayogapradipika (GSP34 hathyopu)",
+  "textname": "GSP34 hathyopu",
+  "filename": "GSP34hathyopu",
+  "category": "GSP34",
+  "filenr": 1195
+},
+{
+  "displayName": "Patanjali: Yogasutra (v. Schreiner) (GSP34 patyog_u)",
+  "textname": "GSP34 patyog_u",
+  "filename": "GSP34patyog_u",
+  "category": "GSP34",
+  "filenr": 1196
+},
+{
+  "displayName": "Patanjali: Yogasutra (with Bhasya (=Pātañjalayogaśāstra)) (GSP34 patyogbu)",
+  "textname": "GSP34 patyogbu",
+  "filename": "GSP34patyogbu",
+  "category": "GSP34",
+  "filenr": 1197
+},
+{
+  "displayName": "Patanjali: Yogasutra (v. Aklujkar) (GSP34 yogasutu)",
+  "textname": "GSP34 yogasutu",
+  "filename": "GSP34yogasutu",
+  "category": "GSP34",
+  "filenr": 1199
+},
+{
+  "displayName": "Patanjali: Yogasutra (with Bhasya) (v. Tokunaga) (GSP34 yogsubhu)",
+  "textname": "GSP34 yogsubhu",
+  "filename": "GSP34yogsubhu",
+  "category": "GSP34",
+  "filenr": 1200
+},
+{
+  "displayName": "Angirasasmrti (GSD36 angirspu)",
+  "textname": "GSD36 angirspu",
+  "filename": "GSD36angirspu",
+  "category": "GSD36",
+  "filenr": 1203
+},
+{
+  "displayName": "Brhaspatismrti (GSD36 brhasp_u)",
+  "textname": "GSD36 brhasp_u",
+  "filename": "GSD36brhasp_u",
+  "category": "GSD36",
+  "filenr": 1204
+},
+{
+  "displayName": "Brhaspatismrti: Vyavaharakanda (GSD36 brhasppu)",
+  "textname": "GSD36 brhasppu",
+  "filename": "GSD36brhasppu",
+  "category": "GSD36",
+  "filenr": 1207
+},
+{
+  "displayName": "Katyayanasmrti (GSD36 katy2p_u)",
+  "textname": "GSD36 katy2p_u",
+  "filename": "GSD36katy2p_u",
+  "category": "GSD36",
+  "filenr": 1211
+},
+{
+  "displayName": "Manusmrti (GSD36 manu2p_u)",
+  "textname": "GSD36 manu2p_u",
+  "filename": "GSD36manu2p_u",
+  "category": "GSD36",
+  "filenr": 1215
+},
+{
+  "displayName": "Mitramisra: Viramitrodaya (Samayaprakasa) (GSD36 mvir_sau)",
+  "textname": "GSD36 mvir_sau",
+  "filename": "GSD36mvir_sau",
+  "category": "GSD36",
+  "filenr": 1217
+},
+{
+  "displayName": "Naradasmrti (GSD36 narads_u)",
+  "textname": "GSD36 narads_u",
+  "filename": "GSD36narads_u",
+  "category": "GSD36",
+  "filenr": 1218
+},
+{
+  "displayName": "Naradasmrti (GSD36 nars2_pu)",
+  "textname": "GSD36 nars2_pu",
+  "filename": "GSD36nars2_pu",
+  "category": "GSD36",
+  "filenr": 1221
+},
+{
+  "displayName": "Parasarasmrti (GSD36 pars1__u)",
+  "textname": "GSD36 pars1__u",
+  "filename": "GSD36pars1__u",
+  "category": "GSD36",
+  "filenr": 1222
+},
+{
+  "displayName": "Parasaradharmasamhita (=Parasarasmrti): Kandas 1 & 2 (GSD36 pars2_pu)",
+  "textname": "GSD36 pars2_pu",
+  "filename": "GSD36pars2_pu",
+  "category": "GSD36",
+  "filenr": 1225
+},
+{
+  "displayName": "Visnusmrti (GSD36 visnu_pu)",
+  "textname": "GSD36 visnu_pu",
+  "filename": "GSD36visnu_pu",
+  "category": "GSD36",
+  "filenr": 1228
+},
+{
+  "displayName": "Yajnavalkyasmrti (GSD36 yajn2_pu)",
+  "textname": "GSD36 yajn2_pu",
+  "filename": "GSD36yajn2_pu",
+  "category": "GSD36",
+  "filenr": 1232
+},
+{
+  "displayName": "Yamasmrti (GSD36 ys-78_pu)",
+  "textname": "GSD36 ys-78_pu",
+  "filename": "GSD36ys-78_pu",
+  "category": "GSD36",
+  "filenr": 1236
+},
+{
+  "displayName": "Yamasmrti (South Indian recension) (GSD36 yssoutpu)",
+  "textname": "GSD36 yssoutpu",
+  "filename": "GSD36yssoutpu",
+  "category": "GSD36",
+  "filenr": 1246
+},
+{
+  "displayName": "Laghuyamasmrti (GSD36 ys-99_pu)",
+  "textname": "GSD36 ys-99_pu",
+  "filename": "GSD36ys-99_pu",
+  "category": "GSD36",
+  "filenr": 1239
+},
+{
+  "displayName": "Brhadyamasmrti (GSD36 ys182_pu)",
+  "textname": "GSD36 ys182_pu",
+  "filename": "GSD36ys182_pu",
+  "category": "GSD36",
+  "filenr": 1242
+},
+{
+  "displayName": "Apastamba-Dharmasutra (GSD37 apastd_u)",
+  "textname": "GSD37 apastd_u",
+  "filename": "GSD37apastd_u",
+  "category": "GSD37",
+  "filenr": 1247
+},
+{
+  "displayName": "Baudhayana-Dharmasutra (GSD37 baudhd_u)",
+  "textname": "GSD37 baudhd_u",
+  "filename": "GSD37baudhd_u",
+  "category": "GSD37",
+  "filenr": 1248
+},
+{
+  "displayName": "Gautama-Dharmasutra (GSD37 gautdh_u)",
+  "textname": "GSD37 gautdh_u",
+  "filename": "GSD37gautdh_u",
+  "category": "GSD37",
+  "filenr": 1249
+},
+{
+  "displayName": "Gautama: Dharmasutra (Adhyayas 1–3, with Maskari's Gautamasmṛtibhāṣya) (GSD37 gautdhcu)",
+  "textname": "GSD37 gautdhcu",
+  "filename": "GSD37gautdhcu",
+  "category": "GSD37",
+  "filenr": 1250
+},
+{
+  "displayName": "Vaikhaanasa Dharmasuutra 1–3 (GSD37 vaikhd_u)",
+  "textname": "GSD37 vaikhd_u",
+  "filename": "GSD37vaikhd_u",
+  "category": "GSD37",
+  "filenr": 1251
+},
+{
+  "displayName": "Vasistadharmasutra (GSD37 vasist_u)",
+  "textname": "GSD37 vasist_u",
+  "filename": "GSD37vasist_u",
+  "category": "GSD37",
+  "filenr": 1252
+},
+{
+  "displayName": "Kautilya: Arthasastra (GS38 kautil_u)",
+  "textname": "GS38 kautil_u",
+  "filename": "GS38kautil_u",
+  "category": "GS38",
+  "filenr": 1253
+},
+{
+  "displayName": "Jyotirisvara Kavisekhara: Pancasayaka (GS39 jyopancu)",
+  "textname": "GS39 jyopancu",
+  "filename": "GS39jyopancu",
+  "category": "GS39",
+  "filenr": 1254
+},
+{
+  "displayName": "Vatsyayana: Kamasutra (with notes v. Fezas) (GS39 kamasufu)",
+  "textname": "GS39 kamasufu",
+  "filename": "GS39kamasufu",
+  "category": "GS39",
+  "filenr": 1255
+},
+{
+  "displayName": "Vatsyayana: Kamasutram (v. Sugita) (GS39 kamasutu)",
+  "textname": "GS39 kamasutu",
+  "filename": "GS39kamasutu",
+  "category": "GS39",
+  "filenr": 1256
+},
+{
+  "displayName": "Minanatha: Smaradipika (GS39 minsmaru)",
+  "textname": "GS39 minsmaru",
+  "filename": "GS39minsmaru",
+  "category": "GS39",
+  "filenr": 1257
+},
+{
+  "displayName": "Pururavas: Kadambarisvikaranasutramanjari (GS39 purukadu)",
+  "textname": "GS39 purukadu",
+  "filename": "GS39purukadu",
+  "category": "GS39",
+  "filenr": 1258
+},
+{
+  "displayName": "Anandakanda (GS40 anandk_u)",
+  "textname": "GS40 anandk_u",
+  "filename": "GS40anandk_u",
+  "category": "GS40",
+  "filenr": 1259
+},
+{
+  "displayName": "Bhavamisra: Bhavaprakasa (GS40 bhavpr_u)",
+  "textname": "GS40 bhavpr_u",
+  "filename": "GS40bhavpr_u",
+  "category": "GS40",
+  "filenr": 1260
+},
+{
+  "displayName": "Agnivesa: Carakasamhita (GS40 caraka_u)",
+  "textname": "GS40 caraka_u",
+  "filename": "GS40caraka_u",
+  "category": "GS40",
+  "filenr": 1261
+},
+{
+  "displayName": "Dhundhukanatha: Rasendracintamani (GS40 dhrasciu)",
+  "textname": "GS40 dhrasciu",
+  "filename": "GS40dhrasciu",
+  "category": "GS40",
+  "filenr": 1262
+},
+{
+  "displayName": "Govindbhagavatpada: Rasahrdayatantra (GS40 grasht_u)",
+  "textname": "GS40 grasht_u",
+  "filename": "GS40grasht_u",
+  "category": "GS40",
+  "filenr": 1263
+},
+{
+  "displayName": "Nityanathasiddha [alias Nemanatha]: Rasaratnakara (GS40 nitrrk_u)",
+  "textname": "GS40 nitrrk_u",
+  "filename": "GS40nitrrk_u",
+  "category": "GS40",
+  "filenr": 1264
+},
+{
+  "displayName": "Narahari Pandita [Nrsimha]: Rajanighantu (GS40 rajnighu)",
+  "textname": "GS40 rajnighu",
+  "filename": "GS40rajnighu",
+  "category": "GS40",
+  "filenr": 1265
+},
+{
+  "displayName": "Rasadhyaya (with Rasadhyayatika, Adhyaya 1) (GS40 rasadh_u)",
+  "textname": "GS40 rasadh_u",
+  "filename": "GS40rasadh_u",
+  "category": "GS40",
+  "filenr": 1266
+},
+{
+  "displayName": "Rasadhyaya (with Tika) (verses 1–302) (GS40 rasadhpu)",
+  "textname": "GS40 rasadhpu",
+  "filename": "GS40rasadhpu",
+  "category": "GS40",
+  "filenr": 1269
+},
+{
+  "displayName": "Rasarnava (Patalas 1–12) (GS40 rasarnpu)",
+  "textname": "GS40 rasarnpu",
+  "filename": "GS40rasarnpu",
+  "category": "GS40",
+  "filenr": 1272
+},
+{
+  "displayName": "Somadeva: Rasendracudamani (chapters 3–5, 7–16) (GS40 rascum_u)",
+  "textname": "GS40 rascum_u",
+  "filename": "GS40rascum_u",
+  "category": "GS40",
+  "filenr": 1273
+},
+{
+  "displayName": "Camunda (Kayastha [= Kayasthacamunda]): Rasasamketakalika [=Rasasanketakalika] (GS40 rassanku)",
+  "textname": "GS40 rassanku",
+  "filename": "GS40rassanku",
+  "category": "GS40",
+  "filenr": 1274
+},
+{
+  "displayName": "Salinatha: Rasamanjari (GS40 salrasmu)",
+  "textname": "GS40 salrasmu",
+  "filename": "GS40salrasmu",
+  "category": "GS40",
+  "filenr": 1275
+},
+{
+  "displayName": "Susena: Ayurvedamahodadhau Annapanavidhi (GS40 samapviu)",
+  "textname": "GS40 samapviu",
+  "filename": "GS40samapviu",
+  "category": "GS40",
+  "filenr": 1276
+},
+{
+  "displayName": "Vagbhata: Astangahrdayasutra (GS40 vagaah_u)",
+  "textname": "GS40 vagaah_u",
+  "filename": "GS40vagaah_u",
+  "category": "GS40",
+  "filenr": 1277
+},
+{
+  "displayName": "Vahata: Astanganighantu (GS40 vanighpu)",
+  "textname": "GS40 vanighpu",
+  "filename": "GS40vanighpu",
+  "category": "GS40",
+  "filenr": 1280
+},
+{
+  "displayName": "Vagbhata: Rasaratnasamuccaya (GS40 vrasrs_u)",
+  "textname": "GS40 vrasrs_u",
+  "filename": "GS40vrasrs_u",
+  "category": "GS40",
+  "filenr": 1281
+},
+{
+  "displayName": "Vagbhata: Rasaratnasamuccaya (Adhyayas 1–18.29ab.) (GS40 vrasrscu)",
+  "textname": "GS40 vrasrscu",
+  "filename": "GS40vrasrscu",
+  "category": "GS40",
+  "filenr": 1282
+},
+{
+  "displayName": "Yogasataka (GS40 yogasatu)",
+  "textname": "GS40 yogasatu",
+  "filename": "GS40yogasatu",
+  "category": "GS40",
+  "filenr": 1283
+},
+{
+  "displayName": "Yasodhara: Rasaprakasasudhakara (GS40 yrasprpu)",
+  "textname": "GS40 yrasprpu",
+  "filename": "GS40yrasprpu",
+  "category": "GS40",
+  "filenr": 1286
+},
+{
+  "displayName": "Aryabhatiya (GS41 aryabh_u)",
+  "textname": "GS41 aryabh_u",
+  "filename": "GS41aryabh_u",
+  "category": "GS41",
+  "filenr": 1287
+},
+{
+  "displayName": "Aryabhatiya (with Bhaskara I and Somesvara) (GS41 aryabhcu)",
+  "textname": "GS41 aryabhcu",
+  "filename": "GS41aryabhcu",
+  "category": "GS41",
+  "filenr": 1288
+},
+{
+  "displayName": "Bhaskara: Bijaganita (GS41 bijaganu)",
+  "textname": "GS41 bijaganu",
+  "filename": "GS41bijaganu",
+  "category": "GS41",
+  "filenr": 1289
+},
+{
+  "displayName": "Varahamihira: Brhajjataka (GS41 brhajj_u)",
+  "textname": "GS41 brhajj_u",
+  "filename": "GS41brhajj_u",
+  "category": "GS41",
+  "filenr": 1290
+},
+{
+  "displayName": "Varahamihira: Brhatsamhita (GS41 brhats_u)",
+  "textname": "GS41 brhats_u",
+  "filename": "GS41brhats_u",
+  "category": "GS41",
+  "filenr": 1291
+},
+{
+  "displayName": "Brahmagupta: Brahmasphutasiddhanta (GS41 brsphutu)",
+  "textname": "GS41 brsphutu",
+  "filename": "GS41brsphutu",
+  "category": "GS41",
+  "filenr": 1292
+},
+{
+  "displayName": "Lagadha: Rgvedavedangajyotisa (GS41 lagrvvju)",
+  "textname": "GS41 lagrvvju",
+  "filename": "GS41lagrvvju",
+  "category": "GS41",
+  "filenr": 1293
+},
+{
+  "displayName": "Bhaskara: Lilavati (GS41 lilavatu)",
+  "textname": "GS41 lilavatu",
+  "filename": "GS41lilavatu",
+  "category": "GS41",
+  "filenr": 1294
+},
+{
+  "displayName": "Suryasiddhanta (GS41 surysidu)",
+  "textname": "GS41 surysidu",
+  "filename": "GS41surysidu",
+  "category": "GS41",
+  "filenr": 1295
+},
+{
+  "displayName": "Varahamihira: Tikanikayatra (GS41 tikaniku)",
+  "textname": "GS41 tikaniku",
+  "filename": "GS41tikaniku",
+  "category": "GS41",
+  "filenr": 1296
+},
+{
+  "displayName": "Varahamihira: Vivahapatalam (GS41 vivahapu)",
+  "textname": "GS41 vivahapu",
+  "filename": "GS41vivahapu",
+  "category": "GS41",
+  "filenr": 1297
+},
+{
+  "displayName": "Varahamihira: Yogayatra (v. Pingree) (GS41 yogay1_u)",
+  "textname": "GS41 yogay1_u",
+  "filename": "GS41yogay1_u",
+  "category": "GS41",
+  "filenr": 1298
+},
+{
+  "displayName": "Varahamihira: Yogayatra (v. Ramacandra) (GS41 yogay2_u)",
+  "textname": "GS41 yogay2_u",
+  "filename": "GS41yogay2_u",
+  "category": "GS41",
+  "filenr": 1299
+},
+{
+  "displayName": "Sanskrit portions of Javano-Balinese texts (OT sktexcerptsjb_pu)",
+  "textname": "OT sktexcerptsjb_pu",
+  "filename": "OTsktexcerptsjb_pu",
+  "category": "OT",
+  "filenr": 1301
+}
+]

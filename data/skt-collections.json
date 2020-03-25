@@ -1,0 +1,118 @@
+[
+  {
+    "collection": "Sūtrapiṭaka",
+    "categories": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S09",
+      "S10"
+    ]
+  },
+  {
+    "collection": "Vinayapiṭaka",
+    "categories": [
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05"
+    ]
+  },
+  {
+    "collection": "Śāstrapiṭaka",
+    "categories": [
+      "SA01",
+      "SA02",
+      "SA03",
+      "SA04",
+      "SA05",
+      "SA06",
+      "SA07",
+      "SA08",
+      "SA09",
+      "SA10",
+      "SA11",
+      "SA12",
+      "SA13",
+      "SA14",
+      "SA15",
+      "SA16",
+      "SA17",
+      "SA18",
+      "SA19",
+      "SA20",
+      "SA21",
+      "SA22",
+      "SA23",
+      "SA24",
+      "SA25",
+      "SA26",
+      "SA27",
+      "SA28"
+    ]
+  },
+  {
+    "collection": "Buddhist",
+    "categories": ["XX"]
+  },
+  {
+    "collection": "Veda",
+    "categories": ["GV00", "GV01", "GV02", "GV03", "GV04", "GV05", "GV06"]
+  },
+  {
+    "collection": "Epic",
+    "categories": ["GE07", "GE09"]
+  },
+  {
+    "collection": "Purana",
+    "categories": ["GP10", "GP11", "GP12"]
+  },
+  {
+    "collection": "Rellit",
+    "categories": ["GR12", "GR13", "GR14"]
+  },
+  {
+    "collection": "Poetry",
+    "categories": [
+      "GK16",
+      "GK17",
+      "GK18",
+      "GK19",
+      "GK20",
+      "GK21",
+      "GK22",
+      "GK23"
+    ]
+  },
+  {
+    "collection": "Sastra",
+    "categories": [
+      "GS24",
+      "GS25",
+      "GS26",
+      "GSP27",
+      "GSP28",
+      "GSP29",
+      "GSP30",
+      "GSP31",
+      "GSP32",
+      "GSP33",
+      "GSP34",
+      "GSD36",
+      "GSD37",
+      "GS38",
+      "GS39",
+      "GS40",
+      "GS41"
+    ]
+  },
+  {
+    "collection": "Other",
+    "categories": ["OT"]
+  }
+]
