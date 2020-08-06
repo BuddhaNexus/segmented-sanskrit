@@ -1,0 +1,1044 @@
+Filenumber    Filename    Done by
+S01ahovcs_u    Ahorātravratacaityasevānuśaṃsāvadāna
+S01divav29u    Aśokāvadāna
+S01bsu078_u    Bodhisattvāvadānakalpalatā
+S01divyav_u    Divyāvadāna    Vimala
+S01dvavims_tu    Dvāviṃśatyavadānakathā
+S01kbavk10u    Garbhāvakrāntyavadāna
+S01klpdrapu    Kalpadrumāvadānamālā
+S01kathinau    Kaṭhināvadāna
+S01khasrpsu    Khasarpaṇasādhana
+S01msudarsu    Mahāsudarśanāvadāna
+S01mhvastuu    Mahāvastu avadāna
+S01pamsuavu    Pāṃśupradāna avadāna
+S01kbavk75u    Pratītyasamutpādāvadāna
+S01ratnml_u    Ratnamālāvadāna
+S01divav33u    Śārdūlakarṇāvadāna [Divyāvadāna]
+S01kbavk64u    Sudhanakinnaryavadāna
+S01sumagavu    Sumāgadhāvadana
+S01kbavk93u    Sumāgadhāvadana
+S01suvrnavu    Suvarṇavarṇāvadāna
+S01svabhupu    Svayambhu Purāṇa
+S01visvantu    Viśvantarāvadāna
+S02dhvajkdu    Dhvajāgrakeyurā dhāraṇī
+S02dhvajkeu    Dhvajāgrakeyurā dhāraṇī
+S02bsu015_u    Ekādaśamukha
+S02ekmuhr_u    Ekadaśamukhahṛdaya
+S02grahmdhu    Grahamātṛkā nāma dhāraṇī
+S02bsu017_u    Hayagrīvavidyā
+S02madadh_u    Mahādaṇḍadhāraṇīśītavatī
+S02manivdhu    Mahāmaṇivipulavimānaviśvasupratiṣṭhitaguhyaparamarahasyakalparājadhāraṇī
+S02mahpratu    Mahāpratisarā Mahāvidyārājñī
+S02mpratpru    Mahāpratisarā vidyārājñī
+S02mprsvdhu    Mahāpratisarāvidyādhāraṇī
+S02mpvv_u    Mahāpratisarāvidyāvidhi
+S02bsu024_u    Mahāsamnipātaratnaketudhāraṇī [Ratnaketuparivarta]
+S02ratnakeu    Mahāsamnipātaratnaketudhāraṇī [Ratnaketuparivarta]
+S02maricdhu    Mārīcīnāmadhāraṇī
+S02mekhdh_u    Mekhalā dhāraṇī
+S02psarkdhu    Pratisarākalpadhāraṇī
+S02sjdh_u    Sarvajñatākāradhāraṇī [Karuṇāpuṇḍarīka]
+S02bsu004_u    Sitātapatrā
+S02vajvidhu    Vajravidāraṇā Dhāraṇī
+S02vjviddhu    Vajravidāraṇā Dhāraṇī
+S02vadhdhdu    Vasudhārā dhāraṇī 1
+S02vadhdhgu    Vasudhārā dhāraṇī 2
+S02vadhdhju    Vasudhārā dhāraṇī 3
+S03ajm_u    Jātakamālā: Aryasura
+S03bsa032_u    Jātakamālā: Aryasura
+S03gopjatmu    Jātakamālā: Ajātaśatrvavadāna
+S03hjatm_pu    Jātakamālā: Haribhaṭṭa
+S03jatkstpu    Jātakastava: Jñānayaśas
+S04ajitsvyu    Ajitasenavyākaraṇa
+S04bsu006_u    Ajitasenavyākaraṇa
+S04amoghapu    Āmoghapāśanāmahṛdaya sūtra
+S04bsu002_u    Āmoghapāśanāmahṛdaya sūtra
+S04bsu003_u    Aparimitāyuḥ Sūtra
+S04bsu005_u    Arthaviniścaya sūtra
+S04bsu008_u    Āryabuddhabalādhānaprātihāryavikurvāṇanirdeśa nāma Mahāyāna Sūtra
+S04bsu001_u    Āryānityatā sūtra
+S04bsu012_u    Bhaiṣajyaguruvaidūryaprabharāja sūtra
+S04bsu010_u    Bhavasaṅkrānti sūtra
+S04bsu014_u    Daśabhūmika sūtra
+S04bsa052_u    Dharmasamuccaya [Saddharmasmṛtyupasthānakārikā]
+S04bsu016_u    Gaṇḍavyūha sūtra
+S04bsu062_u    Guṇakāraṇḍavyūha sūtra
+S04jnalokau    Jñānālokālaṃkāra sūtra
+S04bsu019_u    Kāraṇḍavyūha Sūtra
+S04bsu018_u    Karuṇāpuṇḍarīka sūtra
+S04bsu020_u    Kāśyapaparivarta Sūtra
+S04kasyparu    Kāśyapaparivarta Sūtra
+S04bsu022_u    Lalitavistara
+S04bsa053_u    Madhyamakāvatāra
+S04mahama_u    Mahāmantrānusāriṇī mahāsūtra
+S04mpsu_w_u    Mahāparinirvāṇa sūtra
+S04mavadsuu    Mahāvadāna sūtra
+S04bsu009_u    Maitreyavyākaraṇa
+S04maivy_pu    Maitreyavyākaraṇa
+S04bsu025_u    Nairātmyaparipṛcchā sūtra
+S04bsu026_u    Pratītyasamutpāda mahāyāna sūtra
+S04bsu029_u    Rāṣṭrapālaparipṛcchā
+S04bsu021_u    Saddharmalaṅkāvatāra sūtra [Laṅkāvatāra sūtra]
+S04bsu036_u    Saddharmapuṇḍarīka sūtra
+S04bsu038_u    Sāgaranāgarājaparipṛcchā Nāma Mahāyāna sūtram
+S04bsu031_u    Śālistamba sūtra
+S04bsu034_u    Samādhirāja sūtra
+S04srajsgiu    Samādhirāja sūtra
+S04bsu045_u    Saṃghāṭa Sūtra
+S04samghscu    Saṃghāṭa sūtra
+S04bsu037_u    Sarvatathāgatādhiṣṭhānavyūha Sūtra
+S04bsu032_u    Sukhāvatīvyūha sūtra saṃkṣiptamātṛkā
+S04sukhvysu    Sukhāvatīvyūha sūtra saṃkṣiptamātṛkā
+S04bsu033_u    Sukhāvatīvyūha sūtra vistaramātṛkā
+S04sukhvylu    Sukhāvatīvyūha sūtra vistaramātṛkā
+S04bsu035_u    Suvarṇaprabhāsa sūtra
+S04bsu061_u    Vimalakīrtinirdeśa sūtra
+S04vimkn_u    Vimalakīrtinirdeśa sūtra
+S04bsu040_u    Vinayaviniścaya upāliparipṛcchā sūtra
+S05bsu013_u    Āryacaturdharmanirdeśa sūtra
+S05bsu027_u    Pratītyasamutpādādivibhaṅganirdeśa sūtra
+S06adhsatpu    Adhyardhaśatikā Prajñāpāramitā
+S06bsu056_u    Adhyardhaśatikā Prajñāpāramitā
+S06bsu057_u    Advayaśatikā Prajñāpāramitā Sūtra
+S06adsp55-u    Aṣṭādaśasāhasrikā Prajñāpāramitā ch 55–69
+S06adsp70-u    Aṣṭādaśasāhasrikā Prajñāpāramitā ch 70–82
+S06bsu049_u    Aṣṭasāhasrikā Prajñāpāramitā
+S06dsp1-2_u    Daśasāhasrikā Prajñāpāramitā
+S06ppfrag_u    Fragments of Prajnāpāramitā texts
+S06bsu055_u    Kauśika prajñāpāramitā sūtra
+S06pplg1__u    Larger Prajñāpāramitā
+S06pplg202u    Larger Prajñāpāramitā
+S06bsu023_u    Madhyamaka śālistamba sūtram
+S06psp_1u    Pañcaviṃśatisāhasrikā Prajñāpāramitā I
+S06psp_2-3u    Pañcaviṃśatisāhasrikā Prajñāpāramitā II-III
+S06psp_4u    Pañcaviṃśatisāhasrikā Prajñāpāramitā IV
+S06psp_5u    Pañcaviṃśatisāhasrikā Prajñāpāramitā V
+S06psp_6-8u    Pañcaviṃśatisāhasrikā Prajñāpāramitā VI-VIII
+S06pspdut2u    Pañcaviṃśatisāhasrikā Prajñāpāramitā
+S06pvspl_u    Pañcaviṃśatisāhasrikā Prajñāpāramitā
+S06bsu053_u    Prajñāpāramitāhṛdaya sūtra [vistaramatrka]
+S06bsu054_u    Prajñāpāramitāhṛdaya sūtra [samksiptamatrka]
+S06prajnhsu    Prajñāpāramitāhṛdaya sūtra
+S06bsa011_u    Prajñāpāramitāpiṇḍārtha
+S06bsu028pu    Ratnaguṇasaṃcayagāthā
+S06bsu052_u    Saptaśatikā prajñāpāramitā
+S06bsa051_u    Sāratamā [āryāṣṭasāhasrikāyāḥ prajñāpāramitāyāḥ sāratamākhyā pañjikā]
+S06sspp2_1u    Śatasāhasrikā Prajñaparamitā 2-I
+S06sspp2_2u    Śatasāhasrikā Prajñaparamitā 2-II
+S06sspp2_3u    Śatasāhasrikā Prajñaparamitā 2-III
+S06sspp2_4u    Śatasāhasrikā Prajñaparamitā 2-IV
+S06bsu030_u    Suvikrāntavikrāmiparipṛcchā [Sārdhadvisāhasrikā prajñāpāramitā]
+S06bsu050_u    Svalpākṣarā prajñāpāramitā
+S06atrisatu    Triśatikāyāḥ prajñāpāramitāyāḥ kārikāsaptatiḥ
+S06bsu051_u    Vajracchedikā Prajñāpāramitā Sūtra
+S06vchedpgu    Vajracchedikā Prajñāpāramitā Sūtra
+S06vchedppu    Vajracchedikā Prajñāpāramitā Sūtra
+S08bsu041_u    Mañjuśrīmūlakalpa
+S08abhnispu    Abhayakaragupta: Niṣpannayogāvali
+S08sdurst_u    Sarvadurgatipariśodhana tantra
+S08sarvttsu    Sarvatathāgatatattvasaṅgraha sūtra
+S10anitysuu    Anityatā sūtra
+S10ayuhparu    Āyuḥparyanta sūtra
+S10dbsu1-4u    Daśabala sūtra
+S10dvtasutu    Devatā sūtra
+S10ekottaru    Ekottarāgama
+S10nagsu_pu    Nagaropama sūtra [Saṃyuktāgama]
+S10nidansyu    Nidānasaṃyukta
+S10samyu_wu    Saṃyuktāgama
+S10tbimbk_u    Tathāgatabimbakārāpaṇa sūtra
+S10bsu039_u    Triskandha sūtra
+S10udanav_u    Udānavarga    Vimala
+V01bsu046_u    Prātimokṣa sūtra
+V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins
+V03vinv16_u    Adhikaraṇavastu
+V03vinv06_u    Bhaiṣajyavastu
+V03vinv05_u    Carmavastu
+V03vinv07_u    Cīvaravastu
+V03vinv10_u    Karmavastu
+V03vinv08_u    Kaṭhinavastu
+V03vinv09_u    Kośāmbakavastu
+V03vinv11_u    Pāṇḍulohitakavastu
+V03vinv13_u    Pārivāsikavastu
+V03vinv14_u    Poṣadhasthāpanavastu
+V03vinv02_u    Poṣadhavastu
+V03prmosubu    Prātimoksasutra Mulasarvastivadin
+V03vinv03_u    Pravāraṇāvastu
+V03vinv01_u    Pravrajyāvastu
+V03vinv12_u    Pudgalavastu
+V03vinv171u    Saṅghabhedavastu 1
+V03vinv172u    Saṅghabhedavastu 2
+V03vinv15_u    Śayanāsanavastu
+V03upsmpjnu    Upasaṃpadājñapti
+V03vinv04_u    Varṣāvastu
+V03vinsutru    Vinaya sūtra
+V03bsu058_u    Vinaya sūtra 1
+V04prmosulu    Prātimoksasutra of the Lokottaravadimahasanghika
+V05bsa068_u    Bhikṣukarmavākya
+V05bhikavau    Bhikṣuṇī Karmavācanā
+V05bhivin_u    Bhikṣuṇī Vinaya
+V05bsu011_u    Bodhisattvaprātimokṣa sūtra
+V05prmosufu    Prātimoksasutra fragments
+SA01vabhdiku    Abhidharmadipakārikā: Vimalamitra
+SA01vabhdilu    Abhidharmadipakārikā: Vimalamitra Karikas 1–383
+SA01vakobhau    Abhidharmakośabhāṣya
+SA01vakobhku    Abhidharmakośakārikā
+SA01asabhs_u    Abhidharmasamuccaya
+SA01abhsubhu    Abhidharmasamuccayabhāṣya
+SA01bsa039_u    Daśākuśalakarmapathadeśanā
+SA01nagdhdbu    Dharmadhātugarbhavivaraṇa
+SA01mkarmviu    Mahākarmavibhaṅga
+SA01yabhkvyu    Sphuṭārthā Abhidharmakośavyākhyā
+SA02narsekou    Sekoddeśa [Sekoddeśaṭikā]
+
+SA05nagast_u    Acintyastava
+SA05busto1_u    Anaparāddhastotra
+SA05naglok_u    Lokātītastava
+SA05manjn1pu    Mañjuśrīnāmasaṃgīti
+SA05manjnspu    Mañjuśrīnāmasaṃgīti
+SA05namekvsu    Namastāre-ekaviṃśatistotraguṇasahita
+SA05rahppspu    Prajñāpāramitāstotra
+SA05bsa025_u    Ratnāvalī [Ratnamālā]
+SA05nrat_1_u    Ratnāvalī [Ratnamālā] 1
+SA05nrat_2_u    Ratnāvalī [Ratnamālā] 2
+SA05nrat_4_u    Ratnāvalī [Ratnamālā] 4
+SA05tarb108u    Tārābhaṭṭārikānāmāṣṭottaraśatakastotra
+SA05tarasdhu    Tārāsragdharāstotra
+SA06bsa042_u    Gurukriyākrama
+SA06bsa045_u    Gurupañcāśikā
+SA07bghsic_u    Siddhārthacaritra Kāvya
+SA07subhrk_u    Subhāṣitaratnakaraṇḍakathā
+SA07davyasou    Yaśodharācarita
+SA08bsa007_u    Dharmasaṃgraha
+SA09bsa067_u    Bhavasaṃkrāntiparikathā
+SA09cansisyu    Śiṣyalekha
+SA09bsa015_u    Suhṛllekha
+SA10bsa028_u    Catuḥśatikā
+SA10bsa009_u    Hastavālaprakaraṇavṛtti
+SA10ksmadhlu    Madhyamakāloka
+SA10bsa027_u    Madhyamakaśāstra [Mūlamadhyamakakārikā]
+SA10nagmyv_u    Mahāyānaviṃśikā [Mahāyānaviṃśati]
+SA10nagmmk_u    Mūlamadhyamakakārikā
+SA10canprasu    Prasannapadā
+SA10bsa012_u    Pratītyasamutpādahṛdayakārikā
+SA10bsa013_u    Pratītyasamutpādahṛdayavyākhyāna
+SA10bsa036_u    Śaraṇagamanadeśanā
+SA10bsa024_u    Satyadvayāvatāranāma
+SA10bsa016_u    Śūnyatāsaptati
+SA10bsa038_u    Sūtrārthasamuccayopadeśa
+SA10bsa021_u    Vigrahavyāvartanī
+SA10nagvigvu    Vigrahavyāvartanī [kārikā + vṛtti]
+SA10nagvvy_u    Vigrahavyāvartanīkārikā
+SA10nagysk_u    Yuktiṣaṣṭikakārikā
+SA10nagyuksu    Yuktiṣaṣṭikārikā [Yuktiṣaṣṭikakārikā]
+SA11bsa041_u    Āpattideśanāvidhi  
+SA11bsa047_u    Bhāvanākrama   
+SA11bsa003_u    Bodhicaryāvatāra [Bodhisattvacaryāvatāra]
+SA11santbcpu    Bodhicaryāvatāra [Bodhisattvacaryāvatāra]
+SA11bsa054_u    Bodhicaryāvatārapañjika
+SA11bsa004_u    Bodhipathapradīpa  
+SA11bsa035_u    Bodhisattvādikarmika mārgāvatāra deśanā
+SA11bsa005_u    Caryāsaṅgrahapradīpa   
+SA11bsa040_u    Cittotpādasaṃvaravidhikrama
+SA11bsa008_u    Garbhasaṃgraha 
+SA11bsa037_u    Mahāyānapathasādhanasaṅgraha   
+SA11bsa043_u    Samādhisaṃbhāraparivarta   
+SA11sanss01u    Śikṣāsamuccaya I. danaparamita
+SA11sanss02u    Śikṣāsamuccaya II. saddharmaparigraha
+SA11sanss03u    Śikṣāsamuccaya III. dharmabanakadiraksa
+SA11sanss04u    Śikṣāsamuccaya IV. caturthah paricchedah
+SA11sanss05u    Śikṣāsamuccaya V. anarthavivarjana
+SA11sanss06u    Śikṣāsamuccaya VI. atmabhavaraksa
+SA11sanss07u    Śikṣāsamuccaya VII. bhogapunyaraksa
+SA11sanss08u    Śikṣāsamuccaya VIII. papasodhana
+SA11sanss09u    Śikṣāsamuccaya IX. ksantiparamita
+SA11sanss10u    Śikṣāsamuccaya X. viryaparamita
+SA11sanss11u    Śikṣāsamuccaya XI. aranyasamvarnana
+SA11sanss12u    Śikṣāsamuccaya XII. cittaparikarma
+SA11sanss13u    Śikṣāsamuccaya XIII. smrtyupasthanapariccheda
+SA11sanss14u    Śikṣāsamuccaya XIV. atmabhavaparisuddhi
+SA11sanss15u    Śikṣāsamuccaya XV. bhogapunyasuddhi
+SA11sanss16u    Śikṣāsamuccaya XVI. bhadracaryaviddhi
+SA11sanss17u    Śikṣāsamuccaya XVII. vandanadyanusamsa
+SA11sanss18u    Śikṣāsamuccaya XVIII. ratnatrayanusmrti
+SA11sanss19u    Śikṣāsamuccaya XIX. punyavrddhi
+SA11sanssr_pu    Śikṣāsamuccaya
+SA11bsa014_u    Śikṣāsamuccayakārikā   
+SA13bsa060_u    Śatagāthā
+SA14bsa026_u    Abhisamayālaṅkāra
+SA14abhisamu    Abhisamayālaṅkāranāmaprajñāpāramitopadeśaśāstra
+SA14bsa033_u    Abhisamayālaṅkārāntaḥ pātināṃ
+SA14bsa031_u    Abhisamayālaṅkāravṛttiḥ sphuṭārthā
+SA14knavslou    Navaślokī
+SA14bsa050_u    Pāramitāsamāsa
+SA14kamvchtu    Prajñāpāramitāvajracchedikāṭīkā
+SA15bsa001_u    Ālambanaparīkṣā
+SA15bsa002_u    Ālambanaparīkṣāvṛtti
+SA15bsa0556u    Antarvyāptisamarthana
+SA15bsa0551u    Apohasiddhi
+SA15bsa0554u    Avayavinirākaraṇa
+SA15bsa071_u    Hetubindu
+SA15dhkhetuu    Hetubindu
+SA15arhebt_u    Hetubinduṭīkā
+SA15arhebt2u    Hetubinduṭīkā
+SA15jithettu    Hetutattvopadeśa
+SA15jithetuu    Hetutattvopadeśa
+SA15bsa0552u    Kṣaṇabhaṅgasiddhi
+SA15bsa0553u    Kṣaṇabhaṅgasiddhi Vyatirekātmikā
+SA15ratksanu    Kṣaṇabhaṅgasiddhi Vyatirekātmikā
+SA15bsa075_u    Nibandhāvalī
+SA15dhknyayu    Nyāyabindu
+SA15dhnyabpu    Nyāyabindu Prakaraṇa
+SA15bsa057_u    Nyāyabindu Prakaraṇakārikā
+SA15bsa066_u    Nyāyapraveśapravṛtti
+SA15pramanvu    Pramāṇavārttika
+SA15dhkprvku    Pramāṇavārttikakārikā
+SA15sbpramvu    Pramāṇavārttikaṭīkā
+SA15dhkpvsvu    Pramāṇavārttikavṛtti
+SA15dhkprviu    Pramāṇaviniścaya
+SA15bsa0555u    Sāmānyadūṣaṇadikprasāritā
+SA15bsa063_u    Sambandhaparīkṣā
+SA15dhksparu    Sambandhaparīkṣā
+SA15bsa059_u    Santānāntarasiddhi
+SA15bsa061_u    Santānāntarasiddhiṭīkā
+SA15bsa069_u    Tarkaśāstra
+SA15bsa070_u    Upāyahṛdaya
+SA15bsa064_u    Vādanyāya
+SA15dhkvadnu    Vādanyāya
+SA15rvadrahu    Vādarahasya [Udayananirākaraṇa]
+SA15bsa020_u    Vajrasūcī
+SA16hvsatssu    Satyasiddhiśāstra
+SA17nagcitpu    Citralakṣaṇa
+SA17bsa044_u    Kriyāsaṃgrahakārikā
+SA17tarkrplu    Pratyakṣalakṣaṇa Tarkarahasya
+SA17bsu059_u    Samyaksambuddhabhāṣitaṃ pratimālakṣaṇam
+SA17stuplaku    Stūpalakṣaṇakārikāvivecana
+SA18jsphustu    Sphuṭārthā Śrīghanācārasaṃgrahaṭīkā
+SA18sghancsu    Śrighanācārasaṃgraha
+SA19bsa062_u    Śālistambakakārikā [Āryaśālistambakakārikā]
+SA19nagsaliu    Śālistambakamahāyānasūtraṭīkā [Āryaśālistambakamahāyānasūtraṭīkā]
+SA19bsa072_u    Tarkabhāṣā
+SA19tarkrsau    Tarkarahasya
+SA20bsa058_u    Bhavasaṃkrāntiṭīkā
+SA20vasbocpu    Bodhicittotpādasūtraśāstra
+SA20bsa034_u    Bodhisattvabhūmi
+SA20bsu060_u    Karmavibhaṅgopadeśa
+SA20vmvkbh_u    Madhyāntavibhāgabhāṣya [Madhyāntavibhāgakārikābhāṣya]
+SA20bsa010_u    Madhyāntavibhāgakārikā
+SA20mavt    Madhyāntavibhāgaṭīkā
+SA20asmahsbu    Mahāyānasūtrālaṃkāra
+SA20asmahsuu    Mahāyānasūtrālaṃkāra
+SA20bsa030_u    Mahāyānasūtrālaṃkāra
+SA20bsa065_u    Pañcaskandhaprakaraṇa
+SA20psk    Pañcaskandhakavibhāṣā
+SA20bsa073_u    Ratnagotravibhāga
+SA20srabhu_u    Śrāvakabhūmi
+SA20srabhusu    Śrāvakabhūmi
+SA20bsa017_u    Tattvaratnāvaloka [Tattvaratnāloka]
+SA20bsa018_u    Triṃśikāvijñaptikārikā [Triṃśikākārikā]
+SA20sthtvbhu    Triṃśikāvijñaptikārikā Triṃśikāvijñaptibhāṣya [Triṃśikābhāṣya]
+SA20bsa019_u    Trisvabhāvanirdeśa
+SA20vasvvmsu    Viṃśatikā vijñaptimātratāsiddhi [Viṃśatikākārikā, Viṃśikāvṛtti]]
+SA20bsa023_u    Viṃśatikākārikā [Viṃśikāvṛtti]
+SA20bsa022_u    Viṃśikāvṛtti [Viṃśatikākārikā]
+SA21nitkarpu    Nityakarmapūjāvidhi
+SA21sunytjsu    Tatvajñānasaṃsiddhi
+SA22bsa006_u    Cittaviśuddhiprakaraṇa
+SA22dipguhsu    Guhyasamājamaṇḍalavidhi
+SA22nagpancu    Pañcakrama
+SA22nagpindu    Piṇḍīkrama
+XXabhisdhu    Abhisamācārikadharma
+XXadbhutdu    Adbhutadharmaparyāya
+XXahovk1_u    Ahorātravratakathā 1
+XXahovk2_u    Ahorātravratakathā 2
+XXavsata_u    Avadānaśataka
+XXrabhramu    Bhramaharanāma Hevajrasādhana
+XXnagbhc_u    Bodhicittavivaraṇa
+XXbowermsu    Bower Manuscript
+XXbyogalbu    Buddhist Yoga Manual
+XXbsa048_u    Caryāmelāvaṇapradīpa
+XXacatstvu    Catuḥstavasamāsārtha
+XXdhrmsk_u    Dharmaskandha
+XXganphrdu    Gaṇapatihṛdaya
+XXkukalpmu    Kalpanāmaṇḍitikā
+XXmspram_u    Mahāsāhasrapramardanī
+XXmsitvatu    Mahāśītavatī vidyārājñī
+XXmrtvstsu    Mṛtyuvañcanasitatārāsādhana
+XXmrtvts_u    Mṛtyuvañcanatārāsādhana
+XXvamvuppu    Mṛtyuvañcanopadeśa
+XXmrtvutsu    Mṛtyuvañcanopadeśatārāsādhana
+XXksnarm_u    Narmamālā
+XXdhppat_u    Patna Dharmapada    Vimala
+XXmatpra_u    Prasādapratibhodhava [Śatapañcāśatka]
+XXsabhivpu    Sabhikasaugataśāsanapravrajyāvratacaraṇaparivarta
+XXasycsaru    Śarīrārthagāthā
+XXbsu007_u    Śrīmahādevīvyākaraṇa [Dvādaśadaṇḍakanāmāṣṭaśatavimalīkaraṇā]
+XXvtrksopu    Tarkasopāna
+XXvabhdicu    Vibhāṣāprabhāvṛtti
+XXbsa046_u    Yogāvatāra
+GV00avs___u    Atharvaveda-Samhita
+GV00maitrs_pu    Maitrayani-Samhita
+GV00samavedu    Samaveda-Samhita
+GV01rv_01_u    Rgveda 1
+GV01rv_02_u    Rgveda 2
+GV01rv_03_u    Rgveda 3
+GV01rv_04_u    Rgveda 4
+GV01rv_05_u    Rgveda 5
+GV01rv_06_u    Rgveda 6
+GV01rv_07_u    Rgveda 7
+GV01rv_08_u    Rgveda 8
+GV01rv_09_u    Rgveda 9
+GV01rv_10_u    Rgveda 10
+GV01rv_hn01u    Rgveda
+GV01rv_hn02u    Rgveda
+GV01rv_hn03u    Rgveda
+GV01rv_hn04u    Rgveda
+GV01rv_hn05u    Rgveda
+GV01rv_hn06u    Rgveda
+GV01rv_hn07u    Rgveda
+GV01rv_hn08u    Rgveda
+GV01rv_hn09u    Rgveda
+GV01rv_hn10u    Rgveda
+GV01rvh1-10u    Rgveda
+GV01rvkhilau    The Khila Verses of the Rgveda
+GV01rvpp_01u    Rgveda-Samhita: Padapatha text 1
+GV01rvpp_02u    Rgveda-Samhita: Padapatha text 2
+GV01rvpp_03u    Rgveda-Samhita: Padapatha text 3
+GV01rvpp_04u    Rgveda-Samhita: Padapatha text 4
+GV01rvpp_05u    Rgveda-Samhita: Padapatha text 5
+GV01rvpp_06u    Rgveda-Samhita: Padapatha text 6
+GV01rvpp_07u    Rgveda-Samhita: Padapatha text 7
+GV01rvpp_08u    Rgveda-Samhita: Padapatha text 8
+GV01rvpp_09u    Rgveda-Samhita: Padapatha text 9
+GV01rvpp_10u    Rgveda-Samhita: Padapatha text 10
+GV02gopbra_u    Gopathabrahmana
+GV02gopthbru    Gopatha-Brahmana
+GV02kausibru    Kausitaki-Brahmana
+GV02pncvbr1u    Pancavimsabrahmana
+GV03sb_01_u    Satapatha-Brahmana 1
+GV03sb_02_u    Satapatha-Brahmana 2
+GV03sb_03_u    Satapatha-Brahmana 3
+GV03sb_04_u    Satapatha-Brahmana 4
+GV03sb_05_u    Satapatha-Brahmana 5
+GV03sb_06_u    Satapatha-Brahmana 6
+GV03sb_07_u    Satapatha-Brahmana 7
+GV03sb_08_u    Satapatha-Brahmana 8
+GV03sb_09_u    Satapatha-Brahmana 9
+GV03sb_10_u    Satapatha-Brahmana 10
+GV03sb_11_u    Satapatha-Brahmana 11
+GV03sb_13_u    Satapatha-Brahmana 13
+GV03sb_14_u    Satapatha-Brahmana 14
+GV04sankharu    Sankhayana-Aranyaka
+GV05agsas_1u    Agamasastra 1: Agamaprakarana
+GV05agsas_2u    Agamasastra 2: Vaitathyaprakarana
+GV05agsas_3u    Agamasastra 3: Advaitaprakarana
+GV05agsas_4u    Agamasastra 4: Alatasantiprakarana
+GV05aitup__u    Aitareya-Upanisad
+GV05aitupsbu    Aitareya-Upanisad
+GV05brbiuppu    Brahmabindu-Upanisad
+GV05brup___u    Brhadaranyaka-Upanisad
+GV05brupsb1u    Brhadaranyaka-Upanisad 1
+GV05brupsb2u    Brhadaranyaka-Upanisad 2
+GV05brupsb3u    Brhadaranyaka-Upanisad 3
+GV05brupsb4u    Brhadaranyaka-Upanisad 4
+GV05brupsb5u    Brhadaranyaka-Upanisad 5
+GV05brupsb6u    Brhadaranyaka-Upanisad 6
+GV05chup___u    Chandogya-Upanisad
+GV05chupsb_u    Chandogya-Upanisad
+GV05garbhupu    Garbha-Upanisad
+GV05gmandk_u    Gaudapada: Mandukya-Upanisadkarika
+GV05isup___u    Isa-Upanisad
+GV05isupsb_u    Isa-Upanisad
+GV05kaivup_u    Kaivalya-Upanisad
+GV05kathop_u    Katha-Upanisad
+GV05mand_upu    Mandukya-Upanisad
+GV05mandup_u    Mandukya-Upanisad
+GV05ndbiuppu    Nadabindu-Upanisad
+GV05prasup_u    Prasna-Upanisad
+GV05prasupbu    Prasna-Upanisad
+GV05sirup_u    Sira-Upanisad
+GV05svetu_pu    Svetasvatara-Upanisad
+GV05svetugpu    Svetasvatara-Upanisad
+GV06apastgcu    Apastamba-Grhyasutra
+GV06apsulb_u    Apastamba-Sulbasutra
+GV06asvgs_u    Asvalayana-Grhyasutra
+GV06asvss_u    Asvalayana-Srautasutra
+GV06avpray_u    Atharvaprayascittani
+GV06avpari_u    Atharvavedaparisista
+GV06dantyovu    Atharvavidhikathana
+GV06jaimigsu    Jaimini-Grhyasutra
+GV06kaussu_u    Kausika-Sutra
+GV06keskaupu    Kausikapaddhati
+GV06kauthgsu    Kauthuma-Grhyasutra
+GV06manavgsu    Manava-Grhyasutra
+GV06rgvidh_u    Rgvidhana
+GV06sankhgsu    Sankhayana-Grhyasutra
+GV06sankhssu    Sankhayana-Srautasutra
+GV06vaitss_u    Vaitana-Srautasutra
+GV06vargs_u    Varaha-Grhyasutra
+GE07bhg4c01u    Bhagavadgita 1
+GE07bhg4c02u    Bhagavadgita 2
+GE07bhg4c03u    Bhagavadgita 3
+GE07bhg4c04u    Bhagavadgita 4
+GE07bhg4c05u    Bhagavadgita 5
+GE07bhg4c06u    Bhagavadgita 6
+GE07bhg4c07u    Bhagavadgita 7
+GE07bhg4c08u    Bhagavadgita 8
+GE07bhg4c09u    Bhagavadgita 9
+GE07bhg4c10u    Bhagavadgita 10
+GE07bhg4c11u    Bhagavadgita 11
+GE07bhg4c12u    Bhagavadgita 12
+GE07bhg4c13u    Bhagavadgita 13
+GE07bhg4c14u    Bhagavadgita 14
+GE07bhg4c15u    Bhagavadgita 15
+GE07bhg4c16u    Bhagavadgita 16
+GE07bhg4c17u    Bhagavadgita 17
+GE07bhg4c18u    Bhagavadgita 18
+GE07bhgce__u    Bhagavadgita
+GE07hv_apppu    Harivamsa
+GE07hv_conpu    Harivamsa
+GE07mbh_01_u    Mahabharata: Adiparvan
+GE07mbh_02_u    Mahabharata: Sabhaparvan
+GE07mbh_03_u    Mahabharata: Aranyakaparvan
+GE07mbh_04_u    Mahabharata: Virataparvan
+GE07mbh_05_u    Mahabharata: Udyogaparvan
+GE07mbh_06_u    Mahabharata: Bhismaparvan
+GE07mbh_07_u    Mahabharata: Dronaparvan
+GE07mbh_08_u    Mahabharata: Karnaparvan
+GE07mbh_09_u    Mahabharata: Salyaparvan
+GE07mbh_10_u    Mahabharata: Sauptikaparvan
+GE07mbh_11_u    Mahabharata: Striparvan
+GE07mbh_12_u    Mahabharata: Santiparvan
+GE07mbh_13_u    Mahabharata: Anusasanaparvan
+GE07mbh_14_u    Mahabharata: Asvamedhikaparvan
+GE07mbh_15_u    Mahabharata: Asramavasikaparvan
+GE07mbh_16_u    Mahabharata: Mausalaparvan
+GE07mbh_17_u    Mahabharata: Mahaprasthanikaparvan
+GE07mbh_18_u    Mahabharata: Svargarohanaparvan
+GE07naray__u    Narayaniya
+GE09ram_01_u    Valmiki: Ramayana
+GE09ram_02_u    Valmiki: Ramayana
+GE09ram_02su    Valmiki: Ramayana:
+GE09ram_03_u    Valmiki: Ramayana
+GE09ram_03pu    Valmiki: Ramayana
+GE09ram_04_u    Valmiki: Ramayana
+GE09ram_05_u    Valmiki: Ramayana
+GE09ram_06_u    Valmiki: Ramayana
+GE09ram_07_u    Valmiki: Ramayana
+GP10bhp_01u    Bhagavata-Purana 1
+GP10bhp_02u    Bhagavata-Purana 2
+GP10bhp_03u    Bhagavata-Purana 3
+GP10bhp_04u    Bhagavata-Purana 4
+GP10bhp_05u    Bhagavata-Purana 5
+GP10bhp_06u    Bhagavata-Purana 6
+GP10bhp_07u    Bhagavata-Purana 7
+GP10bhp_08u    Bhagavata-Purana 8
+GP10bhp_09u    Bhagavata-Purana 9
+GP10bhp_10u    Bhagavata-Purana 10
+GP10bhp_11u    Bhagavata-Purana 11
+GP10bhp_12u    Bhagavata-Purana 12
+GP10bhpc101u    Bhagavata-Purana 10,29–33
+GP11brahmppu    Brahma-Purana
+GP12agp_bi_u    Agni-Purana
+GP12brndp1_u    Brahmanda-Purana 1
+GP12brndp2_u    Brahmanda-Purana 2
+GP12brndp3_u    Brahmanda-Purana 3
+GP12dbhp_dgu    Devigita
+GP12garup1_u    Garuda-Purana 1
+GP12garup2_u    Garuda-Purana 2
+GP12garup3_u    Garuda-Purana 3
+GP12kurmp1_u    Kurma-Purana 1
+GP12kurmp2_u    Kurma-Purana 2
+GP12lip_1_pu    Linga-Purana 1
+GP12lip_2__u    Linga-Purana 2,1–55
+GP12mkp1-93u    Markandeya-Purana
+GP12mtp176pu    Matsyapurana
+GP12nardp1_u    Narada-Purana
+GP12nardp2_u    Narada-Purana
+GP12narsippu    Narasimha-Purana
+GP12sivap1_u    Siva-Purana
+GP12sivap7_u    Siva-Purana
+GP12skp031pu    Skandapurana
+GP12skprevku    Skanda-Purana: Revakhanda
+GP12vamp__u    Vamana-Purana
+GP12vampsm_u    Vamana-Purana
+GP12vd2127_u    Visnudharmottara-Purana
+GP12vd3343pu    Visnudharmottara-Purana
+GP12vipce_pu    Visnu-Purana
+GP12visnup_u    Visnu-Purana
+GP12vprevk_u    Revakhanda of the Vayupurana
+GR12hsasvrpu    Haribhadrasuri: Sastravartasamuccaya
+GR13bhnstcpu    Bhatta Narayana: Stavacintamani
+GR13bijnighu    Bijanighantu
+GR13cakbh_pu    Cakrapaninatha: Bhavopaharastotra
+GR13cakbhavu    Cakrapaninatha: Bhavopaharastotra
+GR13devikapu    Devikalottara-Agama
+GR13goramaru    Goraksanatha: Amaraughasasana
+GR13gorst1pu    Goraksanatha
+GR13gorst2pu    Goraksanatha [= Gorakhnath]: Goraksasataka
+GR13jssivppu    Jnanasambhu: Sivapujastava
+GR13kalhans_u    Kalhana: Ardhanarisvarastotra
+GR13karatopu    Karatoyamahatmya
+GR13kirtc_pu    Kiranatantra
+GR13kirtm_pu    Kiranatantra
+GR13kubjt_pu    Kubjikamatatantra
+GR13mabhedtu    Matrkabhedatantra
+GR13malinivu    Malinivijayottaratantra
+GR13mrgt1mpu    Mrgendragama
+GR13mrgt3mpu    Mrgendragama
+GR13mrgt4mpu    Mrgendragama
+GR13parakspu    Parasurama-Kalpasutra
+GR13pasupbhu    Pasupatasutra
+GR13pasupspu    Pasupatasutra
+GR13purekaku    Purusottamadeva: Ekaksarakosa
+GR13saulahpu    Samkara: Saundaryalahari
+GR13sivmstpu    Sivamahimnastava
+GR13sivsutru    Sivasutra
+GR13sivup_pu    Siva-Upanisad
+GR13somsv_u    Somananda: Saktavijnana
+GR13sratrppu    Srikantha: Ratnatrayapariksa
+GR13stkal_pu    Sardhatrisatikalottaragama
+GR13svact_pu    Svacchandatantra [Svacchandabhairavatantra]
+GR13todaltpu    Todalatantra
+GR13uddamt_u    Uddamaresvaratantra
+GR13utsivsau    Utpaladeva: Sivastotravali
+GR13vinst_pu    Vinasikhatantra
+GR14astavgpu    Astavakragita
+GR14bhrgus_u    Bhrgu-Samhita
+GR14brhms5cu    Brahma-Samhita: Adhyaya 5
+GR14caitcanu    Prabodhananda Sarasvati Gosvami: Caitanyacandramrta
+GR14dhyggs_u    Dhyanacandra Gosvami: Gauragovindarcanasmaranapaddhati
+GR14dhyrkk_u    Dhyanacandra Gosvami: Radhakrsnastakaliyalilasmaranakramapaddhati
+GR14harinc_u    Datta, Kedaranatha
+GR14hbhvil_u    Gopalabhatta: Haribhaktivilasa 1–11
+GR14jivrkadu    Jiva Gosvamin: Radhakrsnarcanadipika
+GR14jnass01u    Jnanamrtasara-Samhita
+GR14kbss_1-u    Krsnadasa: Bhavanasarasamgraha
+GR14krdipc_u    Kesava Kasmiri: Kramadipika
+GR14kumukumu    Kulasekhara: Mukundamala
+GR14laghbh_u    Rupa Gosvami: Laghubhagavatamrta
+GR14mdhvkmou    Madhva
+GR14muktacau    Raghunathadasa Gosvami: Muktacarita
+GR14prakassu    Prakasa-Samhita
+GR14ps27-43u    Pauskara-Samhita
+GR14ruphbr_u    Rupa Gosvamin: Haribhaktirasamrtasindhu
+GR14sadhdipu    Radhakrsnadasa Gosvami: Sadhanadipika
+GR14satvtanu    Satvatatantra
+GR14sdahen_u    Srinivasamakhi Vedantadesika: Dasavidhahetunirupana
+GR14ss1_tatu    Jiva Gosvami: Satsamdarbha
+GR14ss2_bhgu    Jiva Gosvami: Satsamdarbha
+GR14ss3_paru    Jiva Gosvami: Satsamdarbha
+GR14ss4_krsu    Jiva Gosvami: Satsamdarbha
+GR14ss5_bhku    Jiva Gosvami: Satsamdarbha
+GR14ss6_priu    Jiva Gosvami: Satsamdarbha
+GR14utajp_pu    Utpaladeva: Ajadapramatrsiddhi
+GR14vaimp__u    Vaikhanasamantraprasna
+GR14vdhapadu    Visnudharmah
+GR14visvaksu    Visvaksenasamhita
+GR14yamcatpu    Yamuna: Catuhsloki
+GR14yamsr_pu    Yamuna: Stotraratna
+GK16andhvc1u    Anandavardhana: Dhvanyaloka, Uddyota 1
+GK16andhvc2u    Anandavardhana: Dhvanyaloka, Uddyota 2
+GK16andhvc3u    Anandavardhana: Dhvanyaloka, Uddyota 3
+GK16andhvc4u    Anandavardhana: Dhvanyaloka, Uddyota 4
+GK16andhvy_u    Anandavardhana: Dhvanyaloka
+GK16bhakavpu    Bhamaha: Kavyalamkara
+GK16dkavy12u    Dandin: Kavyadarsa
+GK16dkavy1pu    Dandin: Kavyadarsa
+GK16dkavy2pu    Dandin: Kavyadarsa
+GK16dkavy3_u    Dandin: Kavyadarsa
+GK16jaycndpu    Jayadeva
+GK16jgrasg1u    Jagannatha Panditaraja: Rasagangadhara
+GK16kunvjivu    Kuntaka: Vakroktijivita
+GK16mamkavpu    Mammata: Kavyaprakasa
+GK16mamkpb_u    Mammata: Kavyaprakasa
+GK16mamkprku    Mammata: Kavyaprakasa
+GK16msabdvvu    Mammata: Sabdavyaparavicara
+GK16rajkmimu    Rajasekhara: Kavyamimamsa
+GK16rnatc__u    Rupa Gosvami: Natakacandrika
+GK16ruyalscu    Ruyyaka: Alamkarasarvasva
+GK16ruyalssu    Ruyyaka: Alamkarasarvasva
+GK16ruyalsvu    Ruyyaka: Alamkarasarvasva
+GK16ruvyavivya_pu    Ruyyaka: Vyaktivivekavyakhya
+GK16simhrs_u    Simhabhupala: Rasarnavasudhakara
+GK16simhrsku    Simhabhupala: Rasarnavasudhakara
+GK16udkass_u    Udbhata: Kavyalamkarasarasamgraha
+GK16udkassku    Udbhata: Kavyalamkarasarasamgraha
+GK16ujjvni_u    Rupa Gosvamin: Ujjvalanilamani
+GK16vamkalsu    Vamana: Kavyalamkara
+GK16vamkalvu    Vamana: Kavyalamkarasutra
+GK16vcamkc_u    Visvesvara Kavicandra: Camatkaracandrika
+GK16viprud_u    Vidyanatha: Prataparudriya
+GK16visa01cu    Visvanatha
+GK16visa02cu    Visvanatha
+GK16visa03cu    Visvanatha
+GK16visa04cu    Visvanatha
+GK16visa05cu    Visvanatha
+GK16visa06cu    Visvanatha
+GK16visa07cu    Visvanatha
+GK16visa08cu    Visvanatha
+GK16visa09cu    Visvanatha
+GK16visa10cu    Visvanatha
+GK16visah__u    Visvanatha
+GK16visvsdpu    Visvanatha
+GK17chandovu    Chandoviciti
+GK17jvrtmspu    Jnanasrimitra: Vrttamalastuti
+GK17kedvratu    Kedarabhatta: Vrttaratnakara
+GK17kvrtrsuu    Kedarabhatta: Vrttaratnakara
+GK18bharnatu    Bharata: Natyasastra
+GK18dhandasu    Dhananjaya: Dasarupaka
+GK19aghatkvu    Ghatakarparakavya
+GK19akadambu    Abhinanda: Kadambarikathasara
+GK19amaru_u    Amaru: Amarusataka
+GK19anvallcu    Anandabhatta: Vallalacarita
+GK19appvairu    Appayadiksita: Vairagyasataka
+GK19asvbc_1u    Asvaghosa: Buddhacarita
+GK19asvbuc2u    Asvaghosa: Buddhacarita
+GK19asvsau2u    Asvaghosa: Saundarananda
+GK19asvsaunu    Asvaghosa: Saundarananda
+GK19bahcar1u    Bana: Harsacarita
+GK19bahcar2u    Bana: Harsacarita
+GK19bahcar3u    Bana: Harsacarita
+GK19bahcar4u    Bana: Harsacarita
+GK19bahcar5_pu    Bana: Harsacarita
+GK19bahcar6u    Bana: Harsacarita
+GK19bahcar7u    Bana: Harsacarita
+GK19bahcar8u    Bana: Harsacarita
+GK19bahcarpu    Bana: Harsacarita
+GK19bankad1u    Bana: Kadambari
+GK19bhakirpu    Bharavi: Kiratarjuniya
+GK19bhall_pu    Bhallata: Bhallatasataka
+GK19bhattiku    Bhatti: Ravanavadha
+GK19bicauppu    Bilhana: Caurapancasika
+GK19damkuttu    Damodaragupta: Kuttanimata
+GK19danddk1u    Dandin: Dasakumaracarita
+GK19dandkc_u    Dandin: Dasakumaracarita
+GK19dhoypavu    Dhoyi: Pavanaduta
+GK19ghatgu_u    Kusalamisra: Gudharthadipika
+GK19govass_u    Govardhana: Aryasaptasati
+GK19gp01-11u    Jiva Gosvamin: Gopalacampu
+GK19gp12-22u    Jiva Gosvamin: Gopalacampu
+GK19gp23-33u    Jiva Gosvamin: Gopalacampu
+GK19gu01-03u    Jiva Gosvami: Gopalacampu
+GK19gu05-06u    Jiva Gosvamin: Gopalacampu
+GK19gu29___u    Jiva Gosvami: Gopalacampu
+GK19jagpranu    Jagannatha: Pranabharana
+GK19jagsudhu    Jagannatha: Sudhalahari
+GK19jalmugpu    Jalhana: Mugdhopadesa
+GK19jaygit1u    Jayadeva: Gitagovinda-kavya
+GK19jaygit2u    Jayadeva: Gitagovinda
+GK19jivskd_u    Jiva Gosvamin: Samkalpakalpadruma
+GK19kakumspu    Kalidasa: Kumarasambhava
+GK19kalrs_pu    Kalidasa: Rtusamhara
+GK19kmeghdpu    Kalidasa: Meghaduta
+GK19kmeghvpu    Kalidasa: Meghaduta
+GK19meghdk_u    Kalidasa: Meghaduta
+GK19kragh_pu    Kalidasa: Raghuvamsa
+GK19ksbhm06u    Ksemendra: Bharatamanjari
+GK19ksbhm07u    Ksemendra: Bharatamanjari
+GK19ksbhm08u    Ksemendra: Bharatamanjari
+GK19ksbhm09u    Ksemendra: Bharatamanjari
+GK19ksbhm10u    Ksemendra: Bharatamanjari
+GK19ksbhm11u    Ksemendra: Bharatamanjari
+GK19ksbhm12u    Ksemendra: Bharatamanjari
+GK19ksbhm13u    Ksemendra: Bharatamanjari
+GK19ksbhm14u    Ksemendra: Bharatamanjari
+GK19ksbhm15u    Ksemendra: Bharatamanjari
+GK19ksbhm16u    Ksemendra: Bharatamanjari
+GK19ksbhm17u    Ksemendra: Bharatamanjari
+GK19ksbhm18u    Ksemendra: Bharatamanjari
+GK19ksbhm19u    Ksemendra: Bharatamanjari
+GK19kskala_u    Ksemendra: Kalavilasa
+GK19ksyadndu    Kalidasa: Syamaladandaka
+GK19kulmukuu    Kulasekhara: Mukundamala
+GK19lnksivsu    Lankesvara: Sivastuti
+GK19maghspvu    Magha: Sisupalavadha
+GK19nkalivpu    Nilakantha Diksita: Kalividambana
+GK19padnscpu    Padmagupta
+GK19padyavlu    Rupa Gosvami: Padyavali
+GK19ruphamdu    Rupa Gosvami: Hamsaduta
+GK19raggancu    Raghavacaitanya: Mahaganapatistotra
+GK19ragh1-6u    Kalidasa: Raghuvamsa
+GK19ramodtpu    Ramodanta
+GK19srngt_pu    Rudrabhatta: Srngaratilaka
+GK19suvasavu    Subandhu: Vasavadatta
+GK19uddkokpu    Uddanda: Kokilasamdesa
+GK20bhasdutu    Bhasa: Dutavakya
+GK20bhassv_u    Bhasa: Svapnavasavadatta
+GK20bhveni_u    Bhattanarayana: Venisamhara
+GK20dramfrag_pu    Dramatic Fragments
+GK20harnagau    Harsadeva: Naganandanataka
+GK20hdratn_u    Harsadeva: Ratnavalinatika
+GK20hpriydpu    Harsadeva: Priyadarsika
+GK20ksakunpu    Kalidasa: Abhijnanasakuntalam
+GK20mmatvipu    Mahendravarman I: Mattavilasaprahasana
+GK20rmc1-3pu    Abhinanda: Ramacaritamahakavya 1–3
+GK20ruysahlu    Ruyyaka: Sahrdayalila
+GK20sypadatu    Udicya Syamilaka: Padataditaka
+GK21brkas_pu    Buddhasvamin: Brhatkathaslokasamgraha
+GK21hitop_u    Narayana: Hitopadesa
+GK21sokss_pu    Somadeva: Kathasaritsagara
+GK21soksvppu    Somadeva: Kathasaritsagara
+GK21suksaptu    Sukasaptati
+GK21ttrkhy1u    Tantrākhyāyika 1
+GK21ttrkhy2u    Tantrākhyāyika 2
+GK22bharst_u    Bhartrhari: Satakatraya
+GK22ksdarppu    Ksemendra: Darpadalana
+GK22msubhs_u    Mahasubhashitasangraha
+GK22valsubhu    Vallabhadeva: Subhasitavali
+GK22vidsrgpu    Vidyakara: Subhasitaratnakosa
+GK22vidsripu    Vidyakara: Subhasitaratnakosa
+GK22vispancu    Visnusarma: Pancatantra
+GK23jonart_pu    Jonaraja and Pseudo-Jonaraja: Rajatarangini
+GK23kaulpradsam_u    Govind Kaul: Pradesasamgraha
+GS24jvkasipu    Jayaditya & Vamana: Kasikavrtti
+GS24panini_u    Panini: Astadhyayi
+GS24paninipu    Panini: Astadhyayi
+GS24paribhsu    Nagesa [=Nagojibhatta]: Paribhasendusekhara
+GS24pmbhasuu    Patanjali: Vyakaranamahabhasya
+GS24samanv_u    Kuḍaka's Samanvayadiś
+GS24vakyp1pu    Bhartrhari: Vakyapadiya
+GS24vakyp_pu    Bhartrhari: Vakyapadiya 1–3,7
+GS24varlghku    Varadaraja: Laghusiddhantakaumudi
+GS25amark1pu    Amarasimha: Namalinganusasana [Amarakosa]
+GS25amark2_u    Amarasimha: Namalinganusasana [Amarakosa]
+GS25amark3_u    Amarasimha: Namalinganusasana [Amarakosa]
+GS26jaytuppu    Jayarasi: Tattvopaplavasimha
+GS26sarvmtsu    Sarvamatasamgraha
+GS26sbhami_u    Samantabhadra: Aptamimamsa
+GSP27moksop_u    Mokṣopāya
+GSP27motik_1u    Mokṣopāya
+GSP27motik_2u    Mokṣopāya
+GSP27motik_3u    Mokṣopāya
+GSP27motik_4u    Mokṣopāya
+GSP28dhebta_u    Durveka Misra: Hetubindutikaloka
+GSP28durdhpru    Durvekamisra: Dharmottarapradipa
+GSP28jaimsutu    Jaimini: Mimamsasutra
+GSP28jsbh1-1u    Khandadeva: Bhattadipika
+GSP28jsbh1-2u    Khandadeva: Bhattadipika
+GSP28jsbh1-3u    Khandadeva: Bhattadipika
+GSP28jsbh1-4u    Khandadeva: Bhattadipika
+GSP28jsbh2-1u    Khandadeva: Bhattadipika
+GSP28jsbh2-2u    Khandadeva: Bhattadipika
+GSP28jsbh2-3u    Khandadeva: Bhattadipika
+GSP28jsbh2-4u    Khandadeva: Bhattadipika
+GSP28jsbh3-1u    Khandadeva: Bhattadipika
+GSP28jsbh3-2u    Khandadeva: Bhattadipika
+GSP28jsbh3-3u    Khandadeva: Bhattadipika
+GSP28ktv_2-1u    Kumarila: Tantravarttika 2.1.1–4
+GSP28mimslovu    Kumarila Bhatta: Mimamsaslokavarttika
+GSP28mimsvtku    Sucaritamisra: Mimamsaslokavarttikakasika
+GSP28mjnya01u    Madhava: Jaiminiyanyayamalavistara
+GSP28mjnya02u    Madhava: Jaiminiyanyayamalavistara
+GSP28mjnya03u    Madhava: Jaiminiyanyayamalavistara
+GSP28mjnya04u    Madhava: Jaiminiyanyayamalavistara
+GSP28msbh1-7u    Jaimini: Mimamsasutra
+GSP28prakp01u    Salikanathamisra: Prakaranapancika
+GSP28prakp02u    Salikanathamisra: Prakaranapancika
+GSP28prakp03u    Salikanathamisra: Prakaranapancika
+GSP28prakp04u    Salikanathamisra: Prakaranapancika
+GSP28prakp05u    Salikanathamisra: Prakaranapancika
+GSP28prakp06u    Salikanathamisra: Prakaranapancika
+GSP28prakp07u    Salikanathamisra: Prakaranapancika
+GSP28prakp08u    Salikanathamisra: Prakaranapancika
+GSP28prakp09u    Salikanathamisra: Prakaranapancika
+GSP28prakp10u    Salikanathamisra: Prakaranapancika
+GSP28prakp11u    Salikanathamisra: Prakaranapancika
+GSP28prakp12u    Salikanathamisra: Prakaranapancika
+GSP28prakp13u    Salikanathamisra: Prakaranapancika
+GSP28prakp14u    Salikanathamisra: Prakaranapancika
+GSP28sabbha1u    Sabara: Mimamsasutrabhasya
+GSP28sastrdiu    Parthasarathi Misra: Sastradipika
+GSP29antarkpu    Annambhatta: Tarkasamgraha
+GSP29antsdi_u    Annambhatta: Tarkasamgraha
+GSP29gangtciu    Gangesa: Tattvacintamani
+GSP29gaunys_u    Gautama: Nyayasutra
+GSP29nystik_u    Gautama: Nyayasutra
+GSP29nysu51pu    Gautama: Nyayasutra 5.1
+GSP29nysvbh1u    Gautama: Nyayasutra
+GSP29nysvbh_u    Gautama: Nyayasutra
+GSP29nvtp1_1u    Udayana: Nyayavarttikatatparyaparisuddhi
+GSP29nvtp1_2u    Udayana: Nyayavarttikatatparyaparisuddhi
+GSP29snyayvpu    Siddhasena Mahamati: Nyayavatara
+GSP29udnyku1u    Udayana: Nyayakusumanjali
+GSP29udnyku2u    Udayana: Nyayakusumanjali
+GSP29udnyku3u    Udayana: Nyayakusumanjali
+GSP29udnyku4u    Udayana: Nyayakusumanjali
+GSP29udnyku5u    Udayana: Nyayakusumanjali
+GSP29vnyps00u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps11u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps12u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps31u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps32u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps41u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps42u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps51u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vnyps52u    Venkatanatha [Vedantadesika]: Nyayaparisuddhi
+GSP29vytrkt1u    Vyasatirtha: Tarkatandava
+GSP29vytrkt2u    Vyasatirtha: Tarkatandava
+GSP29vytrkt3u    Vyasatirtha: Tarkatandava
+GSP30abhiprvu    Abhinavagupta: Isvarapratyabhijnavimarsini
+GSP30abhmal1u    Abhinavagupta: Malinislokavarttika
+GSP30abhmal2u    Abhinavagupta: Malinislokavarttika
+GSP30abhtantu    Abhinavagupta: Tantrasara
+GSP30adyapppu    Adyanatha: Anuttaraprakasapancasika
+GSP30anuttaru    Abhinavagupta: Anuttarastika
+GSP30aparmyou    Abhinavagupta: Paramarthasara
+GSP30bhairstu    Abhinavagupta: Bhairavastava
+GSP30bhutisbs_u    Bhuti(raja): Svabodhasiddhi
+GSP30bodhpanu    Abhinavagupta: Bodhapancadasika
+GSP30kramstou    Abhinavagupta: Kramastotra
+GSP30ksembodhv_u    Ksemaraja: Bodhavilasa
+GSP30parmartu    Abhinavagupta: Paramarthasara
+GSP30partr_pu    Paratrimsika
+GSP30partrvpu    Abhinavagupta: Paratrimsikavivarana
+GSP30parypanu    Abhinavagupta: Paryantapancasika
+GSP30pratyabu    Ksemaraja: Pratyabhijnahrdaya
+GSP30spandkau    Vasugupta: Spandakarika
+GSP30tantralu    Abhinavagupta: Tantraloka
+GSP30timudghu    Timirodghāṭana
+GSP30utipk_pu    Utpaladeva: Isvarapratyabhijnakarika
+GSP30vamjanmu    Vamadeva: Janmamaranavicara
+GSP30vamsbum_u    Vamanadatta: Svabodhodayamanjari
+GSP30vasspacu    Vasugupta [or Kallata Bhatta?]: Spandakrika
+GSP30vatnsupu    Vatulanatha: Vatulanathasutra
+GSP30vijnbhau    Vijnanabhairava
+GSP31bhgank_u    Bhasarvajna: Ganakarika 1
+GSP31iskamatu    Isvarakrsna: Samkhyakarika
+GSP31iskar_u    Isvarakrsna: Samkhyakarika
+GSP31iskgaudu    Isvarakrsna: Samkhyakarika
+GSP31isvskaru    Isvarakrsna: Samkhyakarika
+GSP31jaymangu    Isvarakrsna: Samkhyakarika
+GSP31kavsttvu    Kavirajayati
+GSP31kestprau    Kesava: Samkhyatattvapradipika
+GSP31samkhsuu    Kapila: Samkhyasutra
+GSP31sparibhu    Samkhyaparibhasa
+GSP31tatsuvru    Tattvasamasasutravrtti
+GSP31tattvmiu    Tattvamimamsa
+GSP31tsc_bhau    Bhavaganesa [Ganesadiksita]: Tattvayatharthyadipana
+GSP31tsc_simu    Simanandadiksita
+GSP31tsc_vivu    Samkhyasutravivarana
+GSP31ttssarvu    Sarvopakarani
+GSP31tttvsamu    Tattvasamasa
+GSP31vijsamsu    Vijnanabhiksu: Samkhyasara
+GSP31yuktdipu    Yuktidipika
+GSP32paddhs_u    Prasastapada: Padarthadharmasamgraha
+GSP32vaisessu    Kanada: Vaisesikasutra
+GSP32vaissu1u    Kanada: Vaisesikasutra
+GSP32vvmanmhu    Vadivagisvara: Manamanohara
+GSP33bbdip11u    Badarayana: Brahmsutra
+GSP33bbdip12u    Badarayana: Brahmsutra
+GSP33bbdip13u    Badarayana: Brahmsutra
+GSP33brahms2u    Badarayana: Brahmasutra
+GSP33brahmsuu    Badarayana: Brahmasutra
+GSP33brsgor1u    Badarayana: Brahmasutra
+GSP33brsgor2u    Badarayana: Brahmasutra
+GSP33brsgor3u    Badarayana: Brahmasutra
+GSP33brsgor4u    Badarayana: Brahmasutra
+GSP33brssbh1u    Badarayana: Brahmasutra
+GSP33brssbh2u    Badarayana: Brahmasutra
+GSP33brssbh3u    Badarayana: Brahmasutra
+GSP33brssbh4u    Badarayana: Brahmasutra
+GSP33brssgo1u    Badarayana: Brahmasutra
+GSP33brssgo2u    Badarayana: Brahmasutra
+GSP33brssgo3u    Badarayana: Brahmasutra
+GSP33brssgo4u    Badarayana: Brahmasutra
+GSP33brsvbh1u    Badarayana: Brahmasutra
+GSP33brsvbh2u    Badarayana: Brahmasutra
+GSP33brsvbh3u    Badarayana: Brahmasutra
+GSP33brsvbh4u    Badarayana: Brahmasutra
+GSP33bhbhg_cu    Bhaskara: Bhagavadasayanusaranabhasya
+GSP33bhgsbh_u    Samkara: Bhagavadgitabhasya
+GSP33gaukarpu    Gaudapada: Agamasastra
+GSP33m_mbhtnu    Madhva Anandatirtha: Mahabharatatatparyanirnaya
+GSP33madhanuu    Madhva Anandatirtha: Anuvyakhyana
+GSP33madhsiddhb_u    Madhusudanasarasvati: Siddhantabindu
+GSP33mbrahsiu    Mandanamisra: Brahmasiddhi
+GSP33mndvivpu    Mandanamisra: Vibhramaviveka
+GSP33nabodhsu    Narahari: Bodhasara
+GSP33nysu__1u    Jayatirtha: Nyayasudha
+GSP33nysu__2u    Jayatirtha: Nyayasudha
+GSP33nysu__3u    Jayatirtha: Nyayasudha
+GSP33nysu__4u    Jayatirtha: Nyayasudha
+GSP33ramgbhpu    Ramanuja: Bhagavadgitabhasya
+GSP33rams11pu    Ramanuja: Sribhsya 1,1.3
+GSP33ramvaspu    Ramanuja: Vedarthasamgraha
+GSP33samkaubh_u    Samkara: Kathopanisadbhasya
+GSP33samkupad_u    Samkara: Upadesasahasri
+GSP33vivcud_u    Samkara: Vivekacudamani
+GSP33vacbhamu    Vacaspati: Bhamati
+GSP33yaatsi_u    Yamuna: Siddhitraya
+GSP33yaissi_u    Yamuna: Siddhitraya
+GSP33yasasi_u    Yamuna: Siddhitraya
+GSP33yamgaspu    Yamuna: Gitarthasangraha
+GSP33yamis_pu    Yamuna: Isvarasiddhi
+GSP33yamss_pu    Yamuna: Samvitsiddhi
+GSP33yamsvspu    Yamunacarya: Samvitsiddhi
+GSP34ghers_pu    Gheranda-Samhita
+GSP34hathyopu    Svatmarama: Hathayogapradipika
+GSP34patyog_u    Patanjali: Yogasutra
+GSP34patyogbu    Patanjali: Yogasutra
+GSP34yogasutu    Patanjali: Yogasutra
+GSP34yogsubhu    Patanjali: Yogasutra
+GSD36angirspu    Angirasasmrti
+GSD36brhasp_u    Brhaspatismrti
+GSD36brhasppu    Brhaspatismrti: Vyavaharakanda
+GSD36katy2p_u    Katyayanasmrti
+GSD36manu2p_u    Manusmrti
+GSD36mvir_sau    Mitramisra: Viramitrodaya
+GSD36narads_u    Naradasmrti
+GSD36nars2_pu    Naradasmrti
+GSD36pars1__u    Parasarasmrti
+GSD36pars2_pu    Parasaradharmasamhita
+GSD36visnu_pu    Visnusmrti
+GSD36yajn2_pu    Yajnavalkyasmrti
+GSD36ys-78_pu    Yamasmrti
+GSD36yssoutpu    Yamasmrti
+GSD36ys-99_pu    Laghuyamasmrti
+GSD36ys182_pu    Brhadyamasmrti
+GSD37apastd_u    Apastamba-Dharmasutra
+GSD37baudhd_u    Baudhayana-Dharmasutra
+GSD37gautdh_u    Gautama-Dharmasutra
+GSD37gautdhcu    Gautama: Dharmasutra
+GSD37vaikhd_u    Vaikhaanasa Dharmasuutra 1–3
+GSD37vasist_u    Vasistadharmasutra
+GS38kautil_u    Kautilya: Arthasastra
+GS39jyopancu    Jyotirisvara Kavisekhara: Pancasayaka
+GS39kamasufu    Vatsyayana: Kamasutra
+GS39kamasutu    Vatsyayana: Kamasutram
+GS39minsmaru    Minanatha: Smaradipika
+GS39purukadu    Pururavas: Kadambarisvikaranasutramanjari
+GS40anandk_u    Anandakanda
+GS40bhavpr_u    Bhavamisra: Bhavaprakasa
+GS40caraka_u    Agnivesa: Carakasamhita
+GS40dhrasciu    Dhundhukanatha: Rasendracintamani
+GS40grasht_u    Govindbhagavatpada: Rasahrdayatantra
+GS40nitrrk_u    Nityanathasiddha [alias Nemanatha]: Rasaratnakara
+GS40rajnighu    Narahari Pandita [Nrsimha]: Rajanighantu
+GS40rasadh_u    Rasadhyaya
+GS40rasadhpu    Rasadhyaya
+GS40rasarnpu    Rasarnava
+GS40rascum_u    Somadeva: Rasendracudamani
+GS40rassanku    Camunda
+GS40salrasmu    Salinatha: Rasamanjari
+GS40samapviu    Susena: Ayurvedamahodadhau Annapanavidhi
+GS40vagaah_u    Vagbhata: Astangahrdayasutra
+GS40vanighpu    Vahata: Astanganighantu
+GS40vrasrs_u    Vagbhata: Rasaratnasamuccaya
+GS40vrasrscu    Vagbhata: Rasaratnasamuccaya
+GS40yogasatu    Yogasataka
+GS40yrasprpu    Yasodhara: Rasaprakasasudhakara
+GS41aryabh_u    Aryabhatiya
+GS41aryabhcu    Aryabhatiya
+GS41bijaganu    Bhaskara: Bijaganita
+GS41brhajj_u    Varahamihira: Brhajjataka
+GS41brhats_u    Varahamihira: Brhatsamhita
+GS41brsphutu    Brahmagupta: Brahmasphutasiddhanta
+GS41lagrvvju    Lagadha: Rgvedavedangajyotisa
+GS41lilavatu    Bhaskara: Lilavati
+GS41surysidu    Suryasiddhanta
+GS41tikaniku    Varahamihira: Tikanikayatra
+GS41vivahapu    Varahamihira: Vivahapatalam
+GS41yogay1_u    Varahamihira: Yogayatra
+GS41yogay2_u    Varahamihira: Yogayatra
+OTsktexcerptsjb_pu    Sanskrit portions of Javano-Balinese texts    Vimala
+
