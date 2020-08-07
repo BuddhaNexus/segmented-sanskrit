@@ -68,7 +68,7 @@ S04bsu019_u    Kāraṇḍavyūha Sūtra
 S04bsu018_u    Karuṇāpuṇḍarīka sūtra
 S04bsu020_u    Kāśyapaparivarta Sūtra
 S04kasyparu    Kāśyapaparivarta Sūtra
-S04bsu022_u    Lalitavistara    Vimala
+S04bsu022_u    Lalitavistara    Vimala done
 S04bsa053_u    Madhyamakāvatāra
 S04mahama_u    Mahāmantrānusāriṇī mahāsūtra
 S04mpsu_w_u    Mahāparinirvāṇa sūtra
@@ -189,7 +189,6 @@ SA01nagdhdbu    Dharmadhātugarbhavivaraṇa
 SA01mkarmviu    Mahākarmavibhaṅga    Vimala
 SA01yabhkvyu    Sphuṭārthā Abhidharmakośavyākhyā
 SA02narsekou    Sekoddeśa [Sekoddeśaṭikā]
-
 SA05nagast_u    Acintyastava
 SA05busto1_u    Anaparāddhastotra
 SA05naglok_u    Lokātītastava
