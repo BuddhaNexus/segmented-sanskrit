@@ -54,9 +54,9 @@ S04bsu006_u    Ajitasenavyākaraṇa
 S04amoghapu    Āmoghapāśanāmahṛdaya sūtra
 S04bsu002_u    Āmoghapāśanāmahṛdaya sūtra
 S04bsu003_u    Aparimitāyuḥ Sūtra
-S04bsu005_u    Arthaviniścaya sūtra
+S04bsu005_u    Arthaviniścaya sūtra    Vimala
 S04bsu008_u    Āryabuddhabalādhānaprātihāryavikurvāṇanirdeśa nāma Mahāyāna Sūtra
-S04bsu001_u    Āryānityatā sūtra
+S04bsu001_u    Āryānityatā sūtra    Vimala
 S04bsu012_u    Bhaiṣajyaguruvaidūryaprabharāja sūtra
 S04bsu010_u    Bhavasaṅkrānti sūtra
 S04bsu014_u    Daśabhūmika sūtra
@@ -68,7 +68,7 @@ S04bsu019_u    Kāraṇḍavyūha Sūtra
 S04bsu018_u    Karuṇāpuṇḍarīka sūtra
 S04bsu020_u    Kāśyapaparivarta Sūtra
 S04kasyparu    Kāśyapaparivarta Sūtra
-S04bsu022_u    Lalitavistara
+S04bsu022_u    Lalitavistara    Vimala
 S04bsa053_u    Madhyamakāvatāra
 S04mahama_u    Mahāmantrānusāriṇī mahāsūtra
 S04mpsu_w_u    Mahāparinirvāṇa sūtra
@@ -140,44 +140,44 @@ S08sarvttsu    Sarvatathāgatatattvasaṅgraha sūtra
 S10anitysuu    Anityatā sūtra
 S10ayuhparu    Āyuḥparyanta sūtra
 S10dbsu1-4u    Daśabala sūtra
-S10dvtasutu    Devatā sūtra
-S10ekottaru    Ekottarāgama
+S10dvtasutu    Devatā sūtra    Vimala
+S10ekottaru    Ekottarāgama    Vimala
 S10nagsu_pu    Nagaropama sūtra [Saṃyuktāgama]
-S10nidansyu    Nidānasaṃyukta
+S10nidansyu    Nidānasaṃyukta    Vimala
 S10samyu_wu    Saṃyuktāgama
 S10tbimbk_u    Tathāgatabimbakārāpaṇa sūtra
 S10bsu039_u    Triskandha sūtra
 S10udanav_u    Udānavarga    Vimala
-V01bsu046_u    Prātimokṣa sūtra
-V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins
-V03vinv16_u    Adhikaraṇavastu
-V03vinv06_u    Bhaiṣajyavastu
-V03vinv05_u    Carmavastu
-V03vinv07_u    Cīvaravastu
-V03vinv10_u    Karmavastu
-V03vinv08_u    Kaṭhinavastu
-V03vinv09_u    Kośāmbakavastu
-V03vinv11_u    Pāṇḍulohitakavastu
-V03vinv13_u    Pārivāsikavastu
-V03vinv14_u    Poṣadhasthāpanavastu
-V03vinv02_u    Poṣadhavastu
-V03prmosubu    Prātimoksasutra Mulasarvastivadin
-V03vinv03_u    Pravāraṇāvastu
-V03vinv01_u    Pravrajyāvastu
-V03vinv12_u    Pudgalavastu
-V03vinv171u    Saṅghabhedavastu 1
-V03vinv172u    Saṅghabhedavastu 2
-V03vinv15_u    Śayanāsanavastu
-V03upsmpjnu    Upasaṃpadājñapti
-V03vinv04_u    Varṣāvastu
-V03vinsutru    Vinaya sūtra
-V03bsu058_u    Vinaya sūtra 1
-V04prmosulu    Prātimoksasutra of the Lokottaravadimahasanghika
-V05bsa068_u    Bhikṣukarmavākya
-V05bhikavau    Bhikṣuṇī Karmavācanā
-V05bhivin_u    Bhikṣuṇī Vinaya
-V05bsu011_u    Bodhisattvaprātimokṣa sūtra
-V05prmosufu    Prātimoksasutra fragments
+V01bsu046_u    Prātimokṣa sūtra    Vimala
+V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins    Vimala
+V03vinv16_u    Adhikaraṇavastu    Vimala
+V03vinv06_u    Bhaiṣajyavastu    Vimala
+V03vinv05_u    Carmavastu    Vimala
+V03vinv07_u    Cīvaravastu    Vimala
+V03vinv10_u    Karmavastu    Vimala
+V03vinv08_u    Kaṭhinavastu    Vimala
+V03vinv09_u    Kośāmbakavastu    Vimala
+V03vinv11_u    Pāṇḍulohitakavastu    Vimala
+V03vinv13_u    Pārivāsikavastu    Vimala
+V03vinv14_u    Poṣadhasthāpanavastu    Vimala
+V03vinv02_u    Poṣadhavastu    Vimala
+V03prmosubu    Prātimoksasutra Mulasarvastivadin    Vimala
+V03vinv03_u    Pravāraṇāvastu    Vimala
+V03vinv01_u    Pravrajyāvastu    Vimala
+V03vinv12_u    Pudgalavastu    Vimala
+V03vinv171u    Saṅghabhedavastu 1    Vimala
+V03vinv172u    Saṅghabhedavastu 2    Vimala
+V03vinv15_u    Śayanāsanavastu    Vimala
+V03upsmpjnu    Upasaṃpadājñapti    Vimala
+V03vinv04_u    Varṣāvastu    Vimala
+V03vinsutru    Vinaya sūtra    Vimala
+V03bsu058_u    Vinaya sūtra 1    Vimala
+V04prmosulu    Prātimoksasutra of the Lokottaravadimahasanghika    Vimala
+V05bsa068_u    Bhikṣukarmavākya    Vimala
+V05bhikavau    Bhikṣuṇī Karmavācanā    Vimala
+V05bhivin_u    Bhikṣuṇī Vinaya    Vimala
+V05bsu011_u    Bodhisattvaprātimokṣa sūtra    Vimala
+V05prmosufu    Prātimoksasutra fragments    Vimala
 SA01vabhdiku    Abhidharmadipakārikā: Vimalamitra
 SA01vabhdilu    Abhidharmadipakārikā: Vimalamitra Karikas 1–383
 SA01vakobhau    Abhidharmakośabhāṣya
@@ -186,7 +186,7 @@ SA01asabhs_u    Abhidharmasamuccaya
 SA01abhsubhu    Abhidharmasamuccayabhāṣya
 SA01bsa039_u    Daśākuśalakarmapathadeśanā
 SA01nagdhdbu    Dharmadhātugarbhavivaraṇa
-SA01mkarmviu    Mahākarmavibhaṅga
+SA01mkarmviu    Mahākarmavibhaṅga    Vimala
 SA01yabhkvyu    Sphuṭārthā Abhidharmakośavyākhyā
 SA02narsekou    Sekoddeśa [Sekoddeśaṭikā]
 
@@ -331,8 +331,8 @@ SA20bsa030_u    Mahāyānasūtrālaṃkāra
 SA20bsa065_u    Pañcaskandhaprakaraṇa
 SA20psk    Pañcaskandhakavibhāṣā
 SA20bsa073_u    Ratnagotravibhāga
-SA20srabhu_u    Śrāvakabhūmi
-SA20srabhusu    Śrāvakabhūmi
+SA20srabhu_u    Śrāvakabhūmi    Vimala
+SA20srabhusu    Śrāvakabhūmi    Vimala
 SA20bsa017_u    Tattvaratnāvaloka [Tattvaratnāloka]
 SA20bsa018_u    Triṃśikāvijñaptikārikā [Triṃśikākārikā]
 SA20sthtvbhu    Triṃśikāvijñaptikārikā Triṃśikāvijñaptibhāṣya [Triṃśikābhāṣya]
@@ -350,14 +350,14 @@ XXabhisdhu    Abhisamācārikadharma
 XXadbhutdu    Adbhutadharmaparyāya
 XXahovk1_u    Ahorātravratakathā 1
 XXahovk2_u    Ahorātravratakathā 2
-XXavsata_u    Avadānaśataka
+XXavsata_u    Avadānaśataka    Vimala
 XXrabhramu    Bhramaharanāma Hevajrasādhana
 XXnagbhc_u    Bodhicittavivaraṇa
 XXbowermsu    Bower Manuscript
 XXbyogalbu    Buddhist Yoga Manual
 XXbsa048_u    Caryāmelāvaṇapradīpa
 XXacatstvu    Catuḥstavasamāsārtha
-XXdhrmsk_u    Dharmaskandha
+XXdhrmsk_u    Dharmaskandha    Vimala
 XXganphrdu    Gaṇapatihṛdaya
 XXkukalpmu    Kalpanāmaṇḍitikā
 XXmspram_u    Mahāsāhasrapramardanī
@@ -370,7 +370,7 @@ XXksnarm_u    Narmamālā
 XXdhppat_u    Patna Dharmapada    Vimala
 XXmatpra_u    Prasādapratibhodhava [Śatapañcāśatka]
 XXsabhivpu    Sabhikasaugataśāsanapravrajyāvratacaraṇaparivarta
-XXasycsaru    Śarīrārthagāthā
+XXasycsaru    Śarīrārthagāthā    Vimala
 XXbsu007_u    Śrīmahādevīvyākaraṇa [Dvādaśadaṇḍakanāmāṣṭaśatavimalīkaraṇā]
 XXvtrksopu    Tarkasopāna
 XXvabhdicu    Vibhāṣāprabhāvṛtti
