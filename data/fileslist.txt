@@ -2,7 +2,7 @@ Filenumber    Filename    Done by
 S01ahovcs_u    Ahorātravratacaityasevānuśaṃsāvadāna
 S01divav29u    Aśokāvadāna
 S01bsu078_u    Bodhisattvāvadānakalpalatā
-S01divyav_u    Divyāvadāna    Vimala
+S01divyav_u    Divyāvadāna    Vimala done
 S01dvavims_tu    Dvāviṃśatyavadānakathā
 S01kbavk10u    Garbhāvakrāntyavadāna
 S01klpdrapu    Kalpadrumāvadānamālā
@@ -54,9 +54,9 @@ S04bsu006_u    Ajitasenavyākaraṇa
 S04amoghapu    Āmoghapāśanāmahṛdaya sūtra
 S04bsu002_u    Āmoghapāśanāmahṛdaya sūtra
 S04bsu003_u    Aparimitāyuḥ Sūtra
-S04bsu005_u    Arthaviniścaya sūtra    Vimala
+S04bsu005_u    Arthaviniścaya sūtra    Vimala done
 S04bsu008_u    Āryabuddhabalādhānaprātihāryavikurvāṇanirdeśa nāma Mahāyāna Sūtra
-S04bsu001_u    Āryānityatā sūtra    Vimala
+S04bsu001_u    Āryānityatā sūtra    Vimala done
 S04bsu012_u    Bhaiṣajyaguruvaidūryaprabharāja sūtra
 S04bsu010_u    Bhavasaṅkrānti sūtra
 S04bsu014_u    Daśabhūmika sūtra
@@ -147,7 +147,7 @@ S10nidansyu    Nidānasaṃyukta    Vimala
 S10samyu_wu    Saṃyuktāgama
 S10tbimbk_u    Tathāgatabimbakārāpaṇa sūtra
 S10bsu039_u    Triskandha sūtra
-S10udanav_u    Udānavarga    Vimala
+S10udanav_u    Udānavarga    Vimala done
 V01bsu046_u    Prātimokṣa sūtra    Vimala
 V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins    Vimala
 V03vinv16_u    Adhikaraṇavastu    Vimala
@@ -367,7 +367,7 @@ XXmrtvts_u    Mṛtyuvañcanatārāsādhana
 XXvamvuppu    Mṛtyuvañcanopadeśa
 XXmrtvutsu    Mṛtyuvañcanopadeśatārāsādhana
 XXksnarm_u    Narmamālā
-XXdhppat_u    Patna Dharmapada    Vimala
+XXdhppat_u    Patna Dharmapada    Vimala done
 XXmatpra_u    Prasādapratibhodhava [Śatapañcāśatka]
 XXsabhivpu    Sabhikasaugataśāsanapravrajyāvratacaraṇaparivarta
 XXasycsaru    Śarīrārthagāthā    Vimala
