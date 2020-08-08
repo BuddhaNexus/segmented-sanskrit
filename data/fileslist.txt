@@ -140,16 +140,16 @@ S08sarvttsu    Sarvatathāgatatattvasaṅgraha sūtra
 S10anitysuu    Anityatā sūtra
 S10ayuhparu    Āyuḥparyanta sūtra
 S10dbsu1-4u    Daśabala sūtra
-S10dvtasutu    Devatā sūtra    Vimala
-S10ekottaru    Ekottarāgama    Vimala
+S10dvtasutu    Devatā sūtra    Vimala done
+S10ekottaru    Ekottarāgama    Vimala done
 S10nagsu_pu    Nagaropama sūtra [Saṃyuktāgama]
-S10nidansyu    Nidānasaṃyukta    Vimala
+S10nidansyu    Nidānasaṃyukta    Vimala done
 S10samyu_wu    Saṃyuktāgama
 S10tbimbk_u    Tathāgatabimbakārāpaṇa sūtra
 S10bsu039_u    Triskandha sūtra
 S10udanav_u    Udānavarga    Vimala done
-V01bsu046_u    Prātimokṣa sūtra    Vimala
-V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins    Vimala
+V01bsu046_u    Prātimokṣa sūtra    Vimala done
+V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins    Vimala done
 V03vinv16_u    Adhikaraṇavastu    Vimala
 V03vinv06_u    Bhaiṣajyavastu    Vimala
 V03vinv05_u    Carmavastu    Vimala
