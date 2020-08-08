@@ -150,8 +150,8 @@ S10bsu039_u    Triskandha sūtra
 S10udanav_u    Udānavarga    Vimala done
 V01bsu046_u    Prātimokṣa sūtra    Vimala done
 V02prmosu_u    Prātimokṣasūtra of the Sarvastivadins    Vimala done
-V03vinv16_u    Adhikaraṇavastu    Vimala
-V03vinv06_u    Bhaiṣajyavastu    Vimala
+V03vinv16_u    Adhikaraṇavastu    Vimala done
+V03vinv06_u    Bhaiṣajyavastu    Vimala done
 V03vinv05_u    Carmavastu    Vimala
 V03vinv07_u    Cīvaravastu    Vimala
 V03vinv10_u    Karmavastu    Vimala
