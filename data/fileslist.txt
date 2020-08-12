@@ -2,7 +2,7 @@ Filenumber    Filename    Done by
 S01ahovcs_u    Ahorātravratacaityasevānuśaṃsāvadāna
 S01divav29u    Aśokāvadāna
 S01bsu078_u    Bodhisattvāvadānakalpalatā
-S01divyav_u    Divyāvadāna    Vimala done
+S01divyav_u    Divyāvadāna
 S01dvavims_tu    Dvāviṃśatyavadānakathā
 S01kbavk10u    Garbhāvakrāntyavadāna
 S01klpdrapu    Kalpadrumāvadānamālā
@@ -54,9 +54,9 @@ S04bsu006_u    Ajitasenavyākaraṇa
 S04amoghapu    Āmoghapāśanāmahṛdaya sūtra
 S04bsu002_u    Āmoghapāśanāmahṛdaya sūtra
 S04bsu003_u    Aparimitāyuḥ Sūtra
-S04bsu005_u    Arthaviniścaya sūtra    Vimala done
+S04bsu005_u    Arthaviniścaya sūtra
 S04bsu008_u    Āryabuddhabalādhānaprātihāryavikurvāṇanirdeśa nāma Mahāyāna Sūtra
-S04bsu001_u    Āryānityatā sūtra    Vimala done
+S04bsu001_u    Āryānityatā sūtra
 S04bsu012_u    Bhaiṣajyaguruvaidūryaprabharāja sūtra
 S04bsu010_u    Bhavasaṅkrānti sūtra
 S04bsu014_u    Daśabhūmika sūtra
@@ -155,29 +155,29 @@ V03vinv06_u    Bhaiṣajyavastu    Vimala done
 V03vinv05_u    Carmavastu    Vimala done
 V03vinv07_u    Cīvaravastu    Vimala done
 V03vinv10_u    Karmavastu    Vimala done
-V03vinv08_u    Kaṭhinavastu    Vimala
-V03vinv09_u    Kośāmbakavastu    Vimala
-V03vinv11_u    Pāṇḍulohitakavastu    Vimala
-V03vinv13_u    Pārivāsikavastu    Vimala
-V03vinv14_u    Poṣadhasthāpanavastu    Vimala
-V03vinv02_u    Poṣadhavastu    Vimala
-V03prmosubu    Prātimoksasutra Mulasarvastivadin    Vimala
-V03vinv03_u    Pravāraṇāvastu    Vimala
-V03vinv01_u    Pravrajyāvastu    Vimala
-V03vinv12_u    Pudgalavastu    Vimala
-V03vinv171u    Saṅghabhedavastu 1    Vimala
-V03vinv172u    Saṅghabhedavastu 2    Vimala
-V03vinv15_u    Śayanāsanavastu    Vimala
-V03upsmpjnu    Upasaṃpadājñapti    Vimala
-V03vinv04_u    Varṣāvastu    Vimala
-V03vinsutru    Vinaya sūtra    Vimala
-V03bsu058_u    Vinaya sūtra 1    Vimala
-V04prmosulu    Prātimoksasutra of the Lokottaravadimahasanghika    Vimala
-V05bsa068_u    Bhikṣukarmavākya    Vimala
-V05bhikavau    Bhikṣuṇī Karmavācanā    Vimala
-V05bhivin_u    Bhikṣuṇī Vinaya    Vimala
-V05bsu011_u    Bodhisattvaprātimokṣa sūtra    Vimala
-V05prmosufu    Prātimoksasutra fragments    Vimala
+V03vinv08_u    Kaṭhinavastu
+V03vinv09_u    Kośāmbakavastu
+V03vinv11_u    Pāṇḍulohitakavastu
+V03vinv13_u    Pārivāsikavastu
+V03vinv14_u    Poṣadhasthāpanavastu
+V03vinv02_u    Poṣadhavastu
+V03prmosubu    Prātimoksasutra Mulasarvastivadin
+V03vinv03_u    Pravāraṇāvastu
+V03vinv01_u    Pravrajyāvastu
+V03vinv12_u    Pudgalavastu
+V03vinv171u    Saṅghabhedavastu 1
+V03vinv172u    Saṅghabhedavastu 2
+V03vinv15_u    Śayanāsanavastu
+V03upsmpjnu    Upasaṃpadājñapti
+V03vinv04_u    Varṣāvastu
+V03vinsutru    Vinaya sūtra
+V03bsu058_u    Vinaya sūtra 1
+V04prmosulu    Prātimoksasutra of the Lokottaravadimahasanghika
+V05bsa068_u    Bhikṣukarmavākya
+V05bhikavau    Bhikṣuṇī Karmavācanā
+V05bhivin_u    Bhikṣuṇī Vinaya
+V05bsu011_u    Bodhisattvaprātimokṣa sūtra
+V05prmosufu    Prātimoksasutra fragments
 SA01vabhdiku    Abhidharmadipakārikā: Vimalamitra
 SA01vabhdilu    Abhidharmadipakārikā: Vimalamitra Karikas 1–383
 SA01vakobhau    Abhidharmakośabhāṣya
@@ -1039,5 +1039,5 @@ GS41tikaniku    Varahamihira: Tikanikayatra
 GS41vivahapu    Varahamihira: Vivahapatalam
 GS41yogay1_u    Varahamihira: Yogayatra
 GS41yogay2_u    Varahamihira: Yogayatra
-OTsktexcerptsjb_pu    Sanskrit portions of Javano-Balinese texts    Vimala
+OTsktexcerptsjb_pu    Sanskrit portions of Javano-Balinese texts    Vimala done
 
