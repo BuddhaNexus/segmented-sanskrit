@@ -180,14 +180,14 @@ V05bsu011_u    Bodhisattvaprātimokṣa sūtra
 V05prmosufu    Prātimoksasutra fragments
 SA01vabhdiku    Abhidharmadipakārikā: Vimalamitra
 SA01vabhdilu    Abhidharmadipakārikā: Vimalamitra Karikas 1–383
-SA01vakobhau    Abhidharmakośabhāṣya
+SA01vakobhau    Abhidharmakośabhāṣya    Done Sebastian
 SA01vakobhku    Abhidharmakośakārikā
-SA01asabhs_u    Abhidharmasamuccaya
-SA01abhsubhu    Abhidharmasamuccayabhāṣya
+SA01asabhs_u    Abhidharmasamuccaya	Done Sebastian
+SA01abhsubhu    Abhidharmasamuccayabhāṣya	Done Sebastian
 SA01bsa039_u    Daśākuśalakarmapathadeśanā
 SA01nagdhdbu    Dharmadhātugarbhavivaraṇa
 SA01mkarmviu    Mahākarmavibhaṅga    Vimala
-SA01yabhkvyu    Sphuṭārthā Abhidharmakośavyākhyā
+SA01yabhkvyu    Sphuṭārthā Abhidharmakośavyākhyā	Done Sebastian 
 SA02narsekou    Sekoddeśa [Sekoddeśaṭikā]
 SA05nagast_u    Acintyastava
 SA05busto1_u    Anaparāddhastotra
@@ -264,7 +264,7 @@ SA11sanssr_pu    Śikṣāsamuccaya
 SA11bsa014_u    Śikṣāsamuccayakārikā   
 SA13bsa060_u    Śatagāthā
 SA14bsa026_u    Abhisamayālaṅkāra
-SA14abhisamu    Abhisamayālaṅkāranāmaprajñāpāramitopadeśaśāstra
+SA14abhisamu    Abhisamayālaṅkāranāmaprajñāpāramitopadeśaśāstra Done Sebastian
 SA14bsa033_u    Abhisamayālaṅkārāntaḥ pātināṃ
 SA14bsa031_u    Abhisamayālaṅkāravṛttiḥ sphuṭārthā
 SA14knavslou    Navaślokī
@@ -334,7 +334,7 @@ SA20srabhu_u    Śrāvakabhūmi    Vimala
 SA20srabhusu    Śrāvakabhūmi    Vimala
 SA20bsa017_u    Tattvaratnāvaloka [Tattvaratnāloka]
 SA20bsa018_u    Triṃśikāvijñaptikārikā [Triṃśikākārikā]
-SA20sthtvbhu    Triṃśikāvijñaptikārikā Triṃśikāvijñaptibhāṣya [Triṃśikābhāṣya]
+SA20sthtvbhu    Triṃśikāvijñaptikārikā Triṃśikāvijñaptibhāṣya [Triṃśikābhāṣya]    Done Sebastian
 SA20bsa019_u    Trisvabhāvanirdeśa
 SA20vasvvmsu    Viṃśatikā vijñaptimātratāsiddhi [Viṃśatikākārikā, Viṃśikāvṛtti]]
 SA20bsa023_u    Viṃśatikākārikā [Viṃśikāvṛtti]
