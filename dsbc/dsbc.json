@@ -106,11 +106,11 @@
         "list": "abhidharma",
         "listnr": "20",
         "filelist": {
-            "751": "Prathamo&#039;dhyāyaḥ",
-            "752": "Dvitīyo&#039;dhyāyaḥ",
-            "753": "Tṛtīyo&#039;dhyāyaḥ",
-            "754": "Caturtho&#039;dhyāyaḥ",
-            "755": "Pañcamo&#039;dhyāyaḥ"
+            "751": "Prathamo’dhyāyaḥ",
+            "752": "Dvitīyo’dhyāyaḥ",
+            "753": "Tṛtīyo’dhyāyaḥ",
+            "754": "Caturtho’dhyāyaḥ",
+            "755": "Pañcamo’dhyāyaḥ"
         }
     },
     "95": {
@@ -121,14 +121,14 @@
         "list": "abhidharma",
         "listnr": "20",
         "filelist": {
-            "756": "Prathamo&#039;dhyāyaḥ",
-            "757": "Dvitīyo&#039;dhyāyaḥ",
-            "758": "Tṛtīyo&#039;dhyāyaḥ",
-            "759": "Caturtho&#039;dhyāyaḥ",
-            "760": "Pañcamo&#039;dhyāyaḥ",
-            "761": "Ṣaṣṭho&#039;dhyāyaḥ",
-            "762": "Saptamo&#039;dhyāyaḥ",
-            "763": "Aṣṭamo&#039;dhyāyaḥ"
+            "756": "Prathamo’dhyāyaḥ",
+            "757": "Dvitīyo’dhyāyaḥ",
+            "758": "Tṛtīyo’dhyāyaḥ",
+            "759": "Caturtho’dhyāyaḥ",
+            "760": "Pañcamo’dhyāyaḥ",
+            "761": "Ṣaṣṭho’dhyāyaḥ",
+            "762": "Saptamo’dhyāyaḥ",
+            "763": "Aṣṭamo’dhyāyaḥ"
         }
     },
     "96": {
@@ -844,7 +844,7 @@
             "276": "6 devī",
             "277": "7 tathāgatagotram",
             "278": "8 advayadharmamukhapraveśaḥ",
-            "279": "9 nirmāṇabhojyā&#039;dānam",
+            "279": "9 nirmāṇabhojyā’dānam",
             "280": "10 kṣayākṣayannāma dharmayautakam",
             "281": "11 abhiratilokadhātvādānaṁ tathāgatākṣobhyasandarśanaṁ ca",
             "282": "12 pūrvayogaḥ saddharmaparīndanā ca"
@@ -876,7 +876,7 @@
             "561": "5 puṇyaparyāyaparivartaḥ pañcamaḥ",
             "562": "6 anumodanāpariṇāmanāparivartaḥ ṣaṣṭhaḥ|",
             "563": "7 nirayaparivartaḥ saptamaḥ",
-            "564": "8 viśuddhiparivarto&#039;ṣṭamaḥ",
+            "564": "8 viśuddhiparivarto’ṣṭamaḥ",
             "565": "9 stutiparivarto navamaḥ",
             "566": "10 dhāraṇaguṇaparikīrtanaparivarto daśamaḥ",
             "567": "11 mārakarmaparivarta ekādaśaḥ",
@@ -886,7 +886,7 @@
             "571": "15 devaparivartaḥ pañcadaśaḥ",
             "572": "16 tathatāparivartaḥ ṣoḍaśaḥ",
             "573": "17 avinivartanīyākāraliṅganimittaparivartaḥ saptadaśaḥ",
-            "574": "18 śūnyatāparivarto&#039;ṣṭādaśaḥ",
+            "574": "18 śūnyatāparivarto’ṣṭādaśaḥ",
             "575": "19 gaṅgadevībhaginīparivarta ekonaviṁśaḥ|",
             "576": "20 upāyakauśalyamīmāṁsāparivarto viṁśatitamaḥ",
             "577": "21 mārakarmaparivarta ekaviṁśatitamaḥ|",
@@ -896,7 +896,7 @@
             "581": "25 śikṣāparivartaḥ pañcaviṁśatitamaḥ",
             "582": "26 māyopamaparivartaḥ ṣaḍviṁśatitamaḥ",
             "583": "27 sāraparivartaḥ saptaviṁśatitamaḥ",
-            "584": "28 avakīrṇakusumaparivarto&#039;ṣṭāviṁśatitamaḥ",
+            "584": "28 avakīrṇakusumaparivarto’ṣṭāviṁśatitamaḥ",
             "585": "29 anugamaparivarta ekonatriṁśattamaḥ",
             "586": "30 sadāpraruditaparivartastriṁśattamaḥ",
             "587": "31 dharmodgataparivarta ekatriṁśattamaḥ",
@@ -1292,7 +1292,7 @@
             "1317": "1-13 dhyānapaṭalama",
             "1318": "1-14 prajñāpaṭalam",
             "1319": "1-15 saṁgrahavastupaṭalam",
-            "1320": "1-16 pūjāsevā&#039;pramāṇapaṭalam",
+            "1320": "1-16 pūjāsevā’pramāṇapaṭalam",
             "1321": "1-17 bodhipakṣyapaṭalam",
             "1322": "1-18 bodhisattvaguṇapaṭalam",
             "1323": "2-1 bodhisattvaliṅgapaṭalam",
@@ -2421,7 +2421,7 @@
             "419": "5 pracalaparivartaḥ pañcamaḥ",
             "420": "6 garbhāvakrāntiparivartaḥ ṣaṣṭhaḥ",
             "421": "7 janmaparivartaḥ saptamaḥ",
-            "422": "8 devakulopanayanaparivarto&#039;ṣṭamaḥ",
+            "422": "8 devakulopanayanaparivarto’ṣṭamaḥ",
             "423": "9 ābharaṇaparivarto navamaḥ",
             "424": "10 lipiśālāsaṁdarśanaparivarto daśamaḥ",
             "425": "11 kṛṣigrāmaparivarta ekādaśaḥ",
@@ -2431,7 +2431,7 @@
             "429": "15 abhiniṣkramaṇaparivartaḥ pañcadaśaḥ",
             "430": "16 bimbisāropasaṁkramaṇaparivartaḥ ṣoḍaśaḥ",
             "431": "17 duṣkaracaryāparivartaḥ saptadaśaḥ",
-            "432": "18 nairañjanāparivarto&#039;ṣṭādaśaḥ",
+            "432": "18 nairañjanāparivarto’ṣṭādaśaḥ",
             "433": "19 bodhimaṇḍagamanaparivarta ekonaviṁśaḥ|",
             "434": "20 bodhimaṇḍavyūhaparivarto viṁśatitamaḥ",
             "435": "21 māragharṣaṇaparivarta ekaviṁśaḥ",
@@ -2646,8 +2646,8 @@
             "1335": "Lakṣaṇaparicchedaḥ prathamaḥ",
             "1336": "Āvaraṇaparicchedo dvitīyaḥ",
             "1337": "Tattvaparicchedastṛtīyaḥ",
-            "1338": "Pratipakṣabhāvanā&#039;vasthāphalaparicchedaścaturthaḥ",
-            "1339": "Yānā&#039;nuttaryaparicchedaḥ pañcamaḥ"
+            "1338": "Pratipakṣabhāvanā’vasthāphalaparicchedaścaturthaḥ",
+            "1339": "Yānā’nuttaryaparicchedaḥ pañcamaḥ"
         }
     },
     "206": {
@@ -2864,24 +2864,24 @@
         "list": "yogācāra",
         "listnr": "74",
         "filelist": {
-            "1340": "Prathamo&#039;dhikāraḥ",
-            "1341": "Dvitīyo&#039;dhikāraḥ",
-            "1342": "Tṛtīyo&#039;dhikāraḥ",
-            "1343": "Caturtho&#039;dhikāraḥ",
-            "1344": "Pañcamo&#039;dhikāraḥ",
-            "1345": "Ṣaṣṭho&#039;dhikāraḥ",
-            "1346": "Saptamo&#039;dhikāraḥ",
-            "1347": "Aṣṭamo&#039;dhikāraḥ",
-            "1348": "Navamo&#039;dhikāraḥ",
+            "1340": "Prathamo’dhikāraḥ",
+            "1341": "Dvitīyo’dhikāraḥ",
+            "1342": "Tṛtīyo’dhikāraḥ",
+            "1343": "Caturtho’dhikāraḥ",
+            "1344": "Pañcamo’dhikāraḥ",
+            "1345": "Ṣaṣṭho’dhikāraḥ",
+            "1346": "Saptamo’dhikāraḥ",
+            "1347": "Aṣṭamo’dhikāraḥ",
+            "1348": "Navamo’dhikāraḥ",
             "1349": "Daśamodhikāraḥ",
-            "1350": "Ekādaśo&#039;dhikāraḥ",
-            "1351": "Dvādaśo&#039;dhikāraḥ",
-            "1352": "Trayodaśo&#039;dhikāraḥ",
-            "1353": "Caturdaśo&#039;dhikāraḥ",
-            "1354": "Pañcadaśo&#039;dhikāraḥ",
-            "1355": "Ṣoḍaśo&#039;dhikāraḥ",
-            "1356": "Saptadaśo&#039;dhikāraḥ",
-            "1357": "Aṣṭādaśo&#039;dhikāraḥ",
+            "1350": "Ekādaśo’dhikāraḥ",
+            "1351": "Dvādaśo’dhikāraḥ",
+            "1352": "Trayodaśo’dhikāraḥ",
+            "1353": "Caturdaśo’dhikāraḥ",
+            "1354": "Pañcadaśo’dhikāraḥ",
+            "1355": "Ṣoḍaśo’dhikāraḥ",
+            "1356": "Saptadaśo’dhikāraḥ",
+            "1357": "Aṣṭādaśo’dhikāraḥ",
             "1358": "Ekonaviṁśatyadhikāraḥ",
             "1359": "Viṁśatitamaekaviṁśatitamaścādhikāraḥ"
         }
@@ -2894,24 +2894,24 @@
         "list": "yogācāra",
         "listnr": "74",
         "filelist": {
-            "1360": "Prathamo&#039;dhikāraḥ",
-            "1361": "Dvitīyo&#039;dhikāraḥ",
-            "1362": "Tṛtīyo&#039;dhikāraḥ",
-            "1363": "Caturtho&#039;dhikāraḥ",
-            "1364": "Pañcamo&#039;dhikāraḥ",
-            "1365": "Ṣaṣṭho&#039;dhikāraḥ",
-            "1366": "Saptamo&#039;dhikāraḥ",
-            "1367": "Aṣṭamo&#039;dhikāraḥ",
-            "1368": "Navamo&#039;dhikāraḥ",
+            "1360": "Prathamo’dhikāraḥ",
+            "1361": "Dvitīyo’dhikāraḥ",
+            "1362": "Tṛtīyo’dhikāraḥ",
+            "1363": "Caturtho’dhikāraḥ",
+            "1364": "Pañcamo’dhikāraḥ",
+            "1365": "Ṣaṣṭho’dhikāraḥ",
+            "1366": "Saptamo’dhikāraḥ",
+            "1367": "Aṣṭamo’dhikāraḥ",
+            "1368": "Navamo’dhikāraḥ",
             "1369": "Daśamodhikāraḥ",
-            "1370": "Ekādaśo&#039;dhikāraḥ",
-            "1371": "Dvādaśo&#039;dhikāraḥ",
-            "1372": "Trayodaśo&#039;dhikāraḥ",
-            "1373": "Caturdaśo&#039;dhikāraḥ",
-            "1374": "Pañcadaśo&#039;dhikāraḥ",
-            "1375": "Ṣoḍaśo&#039;dhikāraḥ",
-            "1376": "Saptadaśo&#039;dhikāraḥ",
-            "1377": "Aṣṭādaśo&#039;dhikāraḥ",
+            "1370": "Ekādaśo’dhikāraḥ",
+            "1371": "Dvādaśo’dhikāraḥ",
+            "1372": "Trayodaśo’dhikāraḥ",
+            "1373": "Caturdaśo’dhikāraḥ",
+            "1374": "Pañcadaśo’dhikāraḥ",
+            "1375": "Ṣoḍaśo’dhikāraḥ",
+            "1376": "Saptadaśo’dhikāraḥ",
+            "1377": "Aṣṭādaśo’dhikāraḥ",
             "1378": "Ekonaviṁśatyadhikāraḥ",
             "1379": "Viṁśatitamaekaviṁśatitamaścādhikāraḥ"
         }
@@ -3108,11 +3108,11 @@
         "list": "nāṭaka",
         "listnr": "66",
         "filelist": {
-            "1137": "Prathamo&#039;ṅkaḥ",
-            "1138": "Dvitīyo&#039;ṅkaḥ",
-            "1139": "Tṛtīyo&#039;ṅkaḥ",
-            "1140": "Caturtho&#039;ṅkaḥ",
-            "1141": "Pañcamo&#039;ṅkaḥ"
+            "1137": "Prathamo’ṅkaḥ",
+            "1138": "Dvitīyo’ṅkaḥ",
+            "1139": "Tṛtīyo’ṅkaḥ",
+            "1140": "Caturtho’ṅkaḥ",
+            "1141": "Pañcamo’ṅkaḥ"
         }
     },
     "163": {
@@ -3865,7 +3865,7 @@
         "list": "śākyamuni",
         "listnr": "48",
         "filelist": {
-            "873": "Śākyasiṁhastotram (chando&#039;mṛtoddhṛtam)"
+            "873": "Śākyasiṁhastotram (chando’mṛtoddhṛtam)"
         }
     },
     "181": {
@@ -4981,9 +4981,9 @@
         "list": "pramāṇa",
         "listnr": "69",
         "filelist": {
-            "1265": "Prathamo&#039;dhyāyaḥ",
-            "1266": "Dvitīyo&#039;dhyāyaḥ",
-            "1267": "Tṛtīyo&#039;dhyāyaḥ"
+            "1265": "Prathamo’dhyāyaḥ",
+            "1266": "Dvitīyo’dhyāyaḥ",
+            "1267": "Tṛtīyo’dhyāyaḥ"
         }
     },
     "825": {
