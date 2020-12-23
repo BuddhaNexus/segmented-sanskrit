@@ -1,0 +1,5439 @@
+{
+    "800": {
+        "name": "Tattvajñānasaṁsiddhiṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/800",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2930": "Tattvajñānasaṁsiddhiṭīkā"
+        }
+    },
+    "719": {
+        "name": "Bauddha manīṣā- Bauddheṣu Pramāṇamīmāṃsā",
+        "url": "http://www.dsbcproject.org/canon-text/book/719",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "2848": "Bauddha manīṣā- Bauddheṣu Pramāṇamīmāṃsā"
+        }
+    },
+    "282": {
+        "name": "Vādanyāyaṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/282",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1226": "Vādanyāyaṭīkā"
+        }
+    },
+    "113": {
+        "name": "(Ārya) tārānamaskāraikaviṃśatistotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/113",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "āryatārā",
+        "listnr": "28",
+        "filelist": {
+            "806": "(ārya) tārānamaskāraikaviṁśatistotram"
+        }
+    },
+    "160": {
+        "name": "(Ārya)mañjuśrīnāmāṣṭottaraśatakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/160",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mañjuśrī",
+        "listnr": "43",
+        "filelist": {
+            "853": "(ārya)mañjuśrīnāmāṣṭottaraśatakastotram"
+        }
+    },
+    "114": {
+        "name": "(Ārya)tārāsragdharāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/114",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "āryatārā",
+        "listnr": "28",
+        "filelist": {
+            "807": "(ārya)tārāsragdharāstotram"
+        }
+    },
+    "115": {
+        "name": "(Ārya)tārāṣṭottaraśatanāmastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/115",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "āryatārā",
+        "listnr": "28",
+        "filelist": {
+            "808": "(ārya)tārāṣṭottaraśatanāmastotram"
+        }
+    },
+    "116": {
+        "name": "(Ārya)tārāstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/116",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "āryatārā",
+        "listnr": "28",
+        "filelist": {
+            "809": "(ārya)tārāstutiḥ"
+        }
+    },
+    "805": {
+        "name": "Abhayapaddhati",
+        "url": "http://www.dsbcproject.org/canon-text/book/805",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2934": "Abhayapaddhati"
+        }
+    },
+    "94": {
+        "name": "Abhidharmadīpaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/94",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "751": "Prathamo&#039;dhyāyaḥ",
+            "752": "Dvitīyo&#039;dhyāyaḥ",
+            "753": "Tṛtīyo&#039;dhyāyaḥ",
+            "754": "Caturtho&#039;dhyāyaḥ",
+            "755": "Pañcamo&#039;dhyāyaḥ"
+        }
+    },
+    "95": {
+        "name": "Abhidharmadīpaṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/95",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "756": "Prathamo&#039;dhyāyaḥ",
+            "757": "Dvitīyo&#039;dhyāyaḥ",
+            "758": "Tṛtīyo&#039;dhyāyaḥ",
+            "759": "Caturtho&#039;dhyāyaḥ",
+            "760": "Pañcamo&#039;dhyāyaḥ",
+            "761": "Ṣaṣṭho&#039;dhyāyaḥ",
+            "762": "Saptamo&#039;dhyāyaḥ",
+            "763": "Aṣṭamo&#039;dhyāyaḥ"
+        }
+    },
+    "96": {
+        "name": "Abhidharmakoṣakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/96",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "764": "Prathamaṁ kośasthānam",
+            "765": "Dvitīyaṁ kośasthānam",
+            "766": "Tṛtīyaṁ kośasthānam",
+            "767": "Caturthaṁ kośasthānam",
+            "768": "Pañcamaṁ kośasthānam",
+            "769": "Ṣaṣṭhaṁ kośasthānam",
+            "770": "Saptamaṁ kośasthānam",
+            "771": "Aṣṭamaṁ kośasthānam"
+        }
+    },
+    "97": {
+        "name": "Abhidharmāmṛta",
+        "url": "http://www.dsbcproject.org/canon-text/book/97",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "772": "Prathamo binduḥ",
+            "773": "Dvitīyo binduḥ",
+            "774": "Tṛtīyo binduḥ",
+            "775": "Caturthā binduḥ",
+            "776": "Paṁcamo binduḥ",
+            "777": "Ṣaṣṭho binduḥ",
+            "778": "Saptamo binduḥ",
+            "779": "Aṣṭamo binduḥ",
+            "780": "Navamo binduḥ",
+            "781": "Daśamo binduḥ",
+            "782": "Dvādaśo binduḥ",
+            "783": "Trayodaśo binduḥ",
+            "784": "Caturdaśo binduḥ",
+            "785": "Paṁcadaśo binduḥ",
+            "786": "Ṣoḍaśo binduḥ"
+        }
+    },
+    "98": {
+        "name": "Abhidharmasamuccaya",
+        "url": "http://www.dsbcproject.org/canon-text/book/98",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "787": "Abhidharmasamuccaya"
+        }
+    },
+    "99": {
+        "name": "Abhidharmasamuccaya bhāṣya",
+        "url": "http://www.dsbcproject.org/canon-text/book/99",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "788": "Lakṣaṇasamuccayo nāma prathamaḥ samuccayaḥ",
+            "789": "Satyaviniścayo nāma dvitīyaḥ samuccayaḥ",
+            "790": "Dharmaviniścayo nāma tṛtīyaḥ samuccayaḥ",
+            "791": "Prāptiviniścayo nāma caturthaḥ samuccayaḥ",
+            "792": "Sāṁkathyaviniścayo nāma pañcamaḥ samuccayaḥ"
+        }
+    },
+    "276": {
+        "name": "Abhisamayālaṇkāraloka",
+        "url": "http://www.dsbcproject.org/canon-text/book/276",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1146": "Prathamaparivartaḥ",
+            "1147": "Dvitīyaparivartaḥ",
+            "1148": "Tṛtīyaparivartaḥ",
+            "1149": "Caturthaparivartaḥ",
+            "1150": "Pañcamaparivartaḥ",
+            "1151": "Ṣaṣṭhaparivartaḥ",
+            "1152": "Saptamaparivartaḥ",
+            "1153": "Aṣṭamaparivartaḥ",
+            "1154": "Navamaparivartaḥ",
+            "1155": "Daśamaparivartaḥ",
+            "1156": "Ekādaśaparivarttaḥ",
+            "1157": "Dvādaśaparivartaḥ",
+            "1158": "Trayodaśaparivartaḥ",
+            "1159": "Caturdaśaparivartaḥ",
+            "1160": "Pañcadaśaparivartaḥ",
+            "1161": "Ṣoḍaśaparivartaḥ",
+            "1162": "Saptadaśaparivartaḥ",
+            "1163": "Aṣṭādaśaparivartaḥ",
+            "1164": "Ūnaviṁśaparivartaḥ",
+            "1165": "Viṁśatitamaparivartaḥ",
+            "1166": "Ekaviṁśatitamaparivartaḥ",
+            "1167": "Dvāviṁśatitamaparivartaḥ",
+            "1168": "Trayoviṁśatitamaparivartaḥ",
+            "1169": "Caturthaviṁśatitamaparivartaḥ",
+            "1170": "Pañcaviṁśatitamaparivartaḥ",
+            "1171": "Ṣaḍviṁśatitamaparivartaḥ",
+            "1172": "Saptaviṁśatitamaparivartaḥ",
+            "1173": "Aṣṭāviṁśatitamaparivartaḥ",
+            "1174": "Ūnatriṁśattamaparivartaḥ",
+            "1175": "Triṁśattamaparivartaḥ",
+            "1176": "Ekatriṁśattamaparivartaḥ",
+            "1177": "Dvātriṁśattamaparivartaḥ"
+        }
+    },
+    "277": {
+        "name": "Abhisamayālaṅkārāntaḥ pātināṃ padārthānāṃ",
+        "url": "http://www.dsbcproject.org/canon-text/book/277",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1178": "Abhisamayālaṅkārāntaḥ pātināṁ padārthānāṁ"
+        }
+    },
+    "278": {
+        "name": "Abhisamayālaṅkāravṛttiḥ sphuṭārthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/278",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1179": "Sarvākārajñatādhikāraḥ prathamaḥ",
+            "1180": "Mārgajñatādhikāraḥ dvitīyaḥ",
+            "1181": "Sarvajñatādhikāraḥ tṛtīyaḥ",
+            "1182": "Sarvākārābhisambodhādhikāraḥ caturthaḥ",
+            "1183": "Mūrdhābhisamayādhikāraḥ pañcamaḥ",
+            "1184": "Ānupūrvikādhikāraḥ ṣaṣṭhaḥ",
+            "1185": "Ekakṣaṇābhisambodhādhikāraḥ saptamaḥ",
+            "1186": "Dharmakāyādhikāraḥ aṣṭamaḥ"
+        }
+    },
+    "726": {
+        "name": "Adhikaraṇavastu",
+        "url": "http://www.dsbcproject.org/canon-text/book/726",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2854": "Adhikaraṇavastu"
+        }
+    },
+    "173": {
+        "name": "Adhyardhaśatakaṃ nāma stotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/173",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "866": "Adhyardhaśatakaṁ nāma stotram"
+        }
+    },
+    "66": {
+        "name": "Adhyardhaśatikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/66",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "555": "Adhyardhaśatikā prajñāpāramitā"
+        }
+    },
+    "803": {
+        "name": "Adhyātmasāraśatakam(saṭīkam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/803",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2932": "Adhyātmasāraśatakam(saṭīkam)"
+        }
+    },
+    "109": {
+        "name": "Ādibuddhadvādaśakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/109",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ādibuddha",
+        "listnr": "25",
+        "filelist": {
+            "802": "Ādibuddhadvādaśakastotram"
+        }
+    },
+    "782": {
+        "name": "Ādikarmapradīpa",
+        "url": "http://www.dsbcproject.org/canon-text/book/782",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sveṣṭadevatā",
+        "listnr": "166",
+        "filelist": {
+            "2910": "Ādikarmapradīpa"
+        }
+    },
+    "110": {
+        "name": "Advayaparamārthā nāmasaṅgītiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/110",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ādibuddha",
+        "listnr": "25",
+        "filelist": {
+            "803": "Advayaparamārthā nāmasaṅgītiḥ"
+        }
+    },
+    "85": {
+        "name": "Advayasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/85",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yogottara tantra",
+        "listnr": "16",
+        "filelist": {
+            "740": "Advayasiddhiḥ"
+        }
+    },
+    "82": {
+        "name": "Advayavajrasaṇgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/82",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "tantra darśana",
+        "listnr": "14",
+        "filelist": {
+            "693": "1 kudṛṣṭinirghātanam",
+            "694": "2 mūlāpattayaḥ sthūlāpattayaḥ",
+            "695": "3 tattvaratnāvalī",
+            "696": "4 pañcatathāgatamudrāvivaraṇam",
+            "697": "5 sekanirṇayaḥ",
+            "698": "6 caturmudrā",
+            "699": "7 sekatānvayasaṁgrahaḥ",
+            "700": "8 pañcākāraḥ",
+            "701": "9 māyāniruktiḥ",
+            "702": "10 svapnaniruktiḥ",
+            "703": "11 tattvaprakāśaḥ",
+            "704": "12 apratiṣṭhānaprakāśaḥ",
+            "705": "13 yuganaddhaprakāśaḥ",
+            "706": "14 mahāsukhaprakāśaḥ",
+            "707": "15 tattvaviṁśikā",
+            "708": "16 mahāyānaviṁśikā",
+            "709": "17 nirbedhapañcaka",
+            "710": "18 madhyakaṣaṭka",
+            "711": "19 premapañcaka",
+            "712": "20 tattvadaśaka",
+            "713": "21 amanasikārādhāraḥ"
+        }
+    },
+    "23": {
+        "name": "Ajitasenavyākaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/23",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "258": "Ajitasenavyākaraṇam"
+        }
+    },
+    "112": {
+        "name": "Ākāśagarbhanāmāṣṭottaraśatastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/112",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ākāśagarbha",
+        "listnr": "27",
+        "filelist": {
+            "805": "Ākāśagarbhanāmāṣṭottaraśatastotram"
+        }
+    },
+    "283": {
+        "name": "Ālambanaparīkṣā",
+        "url": "http://www.dsbcproject.org/canon-text/book/283",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1227": "Ālambanaparīkṣā"
+        }
+    },
+    "284": {
+        "name": "Ālambanaparīkṣāvṛttiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/284",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1228": "Ālambanaparīkṣāvṛttiḥ"
+        }
+    },
+    "792": {
+        "name": "Amoghapāśakalparāja Part VI",
+        "url": "http://www.dsbcproject.org/canon-text/book/792",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "kriyā tantra",
+        "listnr": "11",
+        "filelist": {
+            "2920": "Amoghapāśakalparāja Part VI"
+        }
+    },
+    "794": {
+        "name": "Amoghapāśakalparāja Part VII",
+        "url": "http://www.dsbcproject.org/canon-text/book/794",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "kriyā tantra",
+        "listnr": "11",
+        "filelist": {
+            "2922": "Amoghapāśakalparāja Part VII"
+        }
+    },
+    "285": {
+        "name": "Antarvyāptisamarthanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/285",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1229": "Antarvyāptisamarthanam"
+        }
+    },
+    "741": {
+        "name": "Antarvyāptisamarthanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/741",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "hetuvidyā",
+        "listnr": "162",
+        "filelist": {
+            "2869": "Antarvyāptisamarthanam"
+        }
+    },
+    "731": {
+        "name": "Anupalabdhirahasya",
+        "url": "http://www.dsbcproject.org/canon-text/book/731",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "2859": "Anupalabdhirahasya"
+        }
+    },
+    "24": {
+        "name": "Aparimitāyuḥ nāma mahāyāna sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/24",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "259": "Aparimitāyuḥ nāma mahāyāna sūtram"
+        }
+    },
+    "256": {
+        "name": "Āpattideśanāvidhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/256",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1084": "Āpattideśanāvidhiḥ"
+        }
+    },
+    "286": {
+        "name": "Apohasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/286",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1230": "Apohasiddhiḥ"
+        }
+    },
+    "25": {
+        "name": "Arthaviniścayasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/25",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "260": "Arthaviniścayasūtram"
+        }
+    },
+    "67": {
+        "name": "Ārya advayaśatikā prajñāpāramitā sūtra",
+        "url": "http://www.dsbcproject.org/canon-text/book/67",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "556": "Ārya advayaśatikā prajñāpāramitā sūtra"
+        }
+    },
+    "9": {
+        "name": "Ārya amoghapāśahṛdaya nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/9",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "203": "Ārya amoghapāśahṛdaya nāma mahāyānasūtram"
+        }
+    },
+    "26": {
+        "name": "Ārya ṃaitreya-vyākaraṇaṃ",
+        "url": "http://www.dsbcproject.org/canon-text/book/26",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "261": "Ārya ṁaitreya-vyākaraṇaṁ"
+        }
+    },
+    "63": {
+        "name": "Āryābuddhabalādhānaprātihāryavikurvaṇanirdeśanā mamahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/63",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "nirdeśa",
+        "listnr": "7",
+        "filelist": {
+            "552": "Āryābuddhabalādhānaprātihāryavikurvaṇanirdeśanā mamahāyānasūtram"
+        }
+    },
+    "64": {
+        "name": "Āryacaturdharmanirdeśasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/64",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "nirdeśa",
+        "listnr": "7",
+        "filelist": {
+            "553": "Āryacaturdharmanirdeśasūtram"
+        }
+    },
+    "100": {
+        "name": "Āryadharmadhātugarbhavivaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/100",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "793": "Āryadharmadhātugarbhavivaraṇam"
+        }
+    },
+    "78": {
+        "name": "Āryamañjuśrīmūlakalpam",
+        "url": "http://www.dsbcproject.org/canon-text/book/78",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "kriyā tantra",
+        "listnr": "11",
+        "filelist": {
+            "635": "Atha prathamaḥ parivartaḥ",
+            "636": "Atha dvitīyaḥ parivartaḥ",
+            "637": "Atha tṛtīyaḥ parivartaḥ",
+            "638": "Caturthaḥ paṭalavisaraḥ",
+            "639": "Pañcamaḥ paṭalavisaraḥ",
+            "640": "Ṣaṣṭhaḥ paṭalavisaraḥ",
+            "641": "Saptamaḥ paṭalavisaraḥ",
+            "642": "Aṣṭamaḥ paṭalavisaraḥ",
+            "643": "Atha navamaḥ paṭalavisaraḥ",
+            "644": "Atha daśamaḥ paṭalavisaraḥ",
+            "645": "Athaikādaśaḥ paṭalavisaraḥ",
+            "646": "Atha dvādaśaḥ paṭalavisaraḥ",
+            "647": "Atha trayodaśaḥ paṭalavisaraḥ",
+            "648": "Atha caturdaśaḥ paṭalavisaraḥ",
+            "649": "Atha pañcadaśaḥ paṭalavisaraḥ",
+            "650": "Atha ṣoḍaśaḥ paṭalavisaraḥ",
+            "651": "Atha saptadaśaḥ paṭalavisaraḥ",
+            "652": "Athāṣṭādaśaḥ paṭalavisaraḥ",
+            "653": "Atha ekonaviṁśaḥ paṭalavisaraḥ",
+            "654": "Atha viṁśaḥ paṭalavisaraḥ",
+            "655": "Atha ekaviṁśaḥ paṭalavisaraḥ",
+            "656": "Atha dvāviṁśaḥ paṭalavisaraḥ",
+            "657": "Atha trayoviṁśatitamaḥ paṭalavisaraḥ",
+            "658": "Atha caturviṁśatitamaḥ paṭalavisaraḥ",
+            "659": "Atha pañcaviṁśatitamaḥ paṭalavisaraḥ",
+            "660": "Atha ṣaḍviṁśatitamaḥ paṭalavisaraḥ",
+            "661": "Saptaviṁśatitamaḥ paṭalavisaraḥ",
+            "662": "Atha aṣṭāviṁśatitamaḥ paṭalavisaraḥ",
+            "663": "Athaikonatriṁśaḥ paṭalavisaraḥ",
+            "664": "Atha triṁśaḥ paṭalavisaraḥ",
+            "665": "Athaikatriṁśaḥ paṭalavisaraḥ",
+            "666": "Atha dvātriṁśaḥ paṭalavisaraḥ",
+            "667": "Atha trayastriṁśaḥ paṭalavisaraḥ",
+            "668": "Atha catustriṁśaḥ paṭalavisaraḥ",
+            "669": "Atha pañcatriṁśaḥ paṭalavisaraḥ",
+            "670": "Atha ṣaṭtriṁśaḥ paṭalavisaraḥ",
+            "671": "Atha saptatriṁśaḥ paṭalavisaraḥ",
+            "672": "Athāṣṭātriṁśaḥ paṭalavisaraḥ",
+            "673": "Athaikonacatvāriṁśaḥ paṭalavisaraḥ",
+            "674": "Atha catvāriṁśaḥ paṭalavisaraḥ",
+            "675": "Atha ekacatvāriṁśaḥ paṭalavisaraḥ",
+            "676": "Atha dvicatvāriṁśaḥ paṭalavisaraḥ",
+            "677": "Atha tricatvāriṁśaḥ paṭalavisaraḥ",
+            "678": "Atha catuścatvāriṁśaḥ paṭalavisaraḥ",
+            "679": "Atha pañcacatvāriṁśaḥ paṭalavisaraḥ",
+            "680": "Atha ṣaṭcatvāriṁśaḥ paṭalavisaraḥ",
+            "681": "Atha saptacatvāriṁśaḥ paṭalavisaraḥ",
+            "682": "Athāṣṭacatvāriṁśaḥ paṭalavisaraḥ",
+            "683": "Athaikonapañcāśaḥ paṭalavisaraḥ",
+            "684": "Atha pañcāśaḥ paṭalavisaraḥ",
+            "685": "Atha ekapañcāśaḥ paṭalavisaraḥ",
+            "686": "Atha dvipañcāśaḥ paṭalavisaraḥ",
+            "687": "Atha tripañcāśaḥ paṭalavisaraḥ",
+            "688": "Atha catuḥpañcāśaḥ paṭalavisaraḥ",
+            "689": "Atha pañcapañcāśaḥ paṭalavisaraḥ"
+        }
+    },
+    "836": {
+        "name": "Āryamāyājālamahātantroddhṛtamaṇdalagāthāṭippaṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/836",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "2963": "Āryamāyājālamahātantroddhṛtamaṇdalagāthāṭippaṇī"
+        }
+    },
+    "27": {
+        "name": "Āryānityatā sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/27",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "262": "Āryānityatā sūtram"
+        }
+    },
+    "279": {
+        "name": "Āryaprajñāpāramitāvajracchedikāṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/279",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1187": "Āryaprajñāpāramitāvajracchedikāṭīkā"
+        }
+    },
+    "28": {
+        "name": "Āryapratītyasamutpādo nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/28",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "263": "Āryapratītyasamutpādo nāma mahāyānasūtram"
+        }
+    },
+    "29": {
+        "name": "Āryarāṣṭrapālaparipṛcchā nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/29",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "264": "Nidānaparivartaḥ prathamaḥ",
+            "265": "Dvitīyaḥ parivartaḥ"
+        }
+    },
+    "30": {
+        "name": "Āryasāgaranāgarājaparipṛcchā nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/30",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "266": "Āryasāgaranāgarājaparipṛcchā nāma mahāyānasūtram|"
+        }
+    },
+    "320": {
+        "name": "Āryaśālistambakakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/320",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "1284": "Āryaśālistambakakārikā"
+        }
+    },
+    "321": {
+        "name": "Āryaśālistambakamahāyānasūtraṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/321",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "1285": "Āryaśālistambakamahāyānasūtraṭīkā"
+        }
+    },
+    "31": {
+        "name": "Āryasaṃghāṭa sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/31",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "267": "Āryasaṁghāṭa sūtram"
+        }
+    },
+    "32": {
+        "name": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/32",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "268": "Āryasarvabuddhaviṣayāvatārajñānālokālaṃkāranāma mahāyānasūtram"
+        }
+    },
+    "862": {
+        "name": "Āryaśrīgrahamātṛkā nāma dhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/862",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "2990": "Āryaśrīgrahamātṛkā nāma dhāraṇī"
+        }
+    },
+    "11": {
+        "name": "Āryaśrīmahādevīvyākaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/11",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "204": "Āryaśrīmahādevīvyākaraṇam"
+        }
+    },
+    "33": {
+        "name": "Āryatriratnānusmṛtisūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/33",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "269": "Āryatriratnānusmṛtisūtram"
+        }
+    },
+    "34": {
+        "name": "Āryatriskandha sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/34",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "270": "Āryatriskandha sūtram"
+        }
+    },
+    "12": {
+        "name": "Āryavajravidāraṇā nāma dhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/12",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "205": "Āryavajravidāraṇā nāma dhāraṇī"
+        }
+    },
+    "35": {
+        "name": "Āryavimalakīrtinirdeśo nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/35",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "271": "1. buddhakṣetrapariśuddhinidānam",
+            "272": "2. acintyopāyakauśalyam",
+            "273": "3 śrāvakabodhisattvapreṣaṇoktam",
+            "274": "4 glānasaṁmodana ( kathā )",
+            "275": "5 acintyavimokṣanirdeśaḥ",
+            "276": "6 devī",
+            "277": "7 tathāgatagotram",
+            "278": "8 advayadharmamukhapraveśaḥ",
+            "279": "9 nirmāṇabhojyā&#039;dānam",
+            "280": "10 kṣayākṣayannāma dharmayautakam",
+            "281": "11 abhiratilokadhātvādānaṁ tathāgatākṣobhyasandarśanaṁ ca",
+            "282": "12 pūrvayogaḥ saddharmaparīndanā ca"
+        }
+    },
+    "118": {
+        "name": "Aṣṭamātṛkāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/118",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "aṣṭamātṛkā",
+        "listnr": "30",
+        "filelist": {
+            "811": "Aṣṭamātṛkāstotram"
+        }
+    },
+    "68": {
+        "name": "Aṣṭasāhasrikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/68",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "557": "1 sarvākārajñatācaryā prathamaḥ parivartaḥ",
+            "558": "2 śakraparivarto dvitīyaḥ",
+            "559": "3 aprameyaguṇadhāraṇapāramitāstūpasatkāraparivartastṛtīyaḥ",
+            "560": "4 guṇaparikīrtanaparivartaścaturthaḥ",
+            "561": "5 puṇyaparyāyaparivartaḥ pañcamaḥ",
+            "562": "6 anumodanāpariṇāmanāparivartaḥ ṣaṣṭhaḥ|",
+            "563": "7 nirayaparivartaḥ saptamaḥ",
+            "564": "8 viśuddhiparivarto&#039;ṣṭamaḥ",
+            "565": "9 stutiparivarto navamaḥ",
+            "566": "10 dhāraṇaguṇaparikīrtanaparivarto daśamaḥ",
+            "567": "11 mārakarmaparivarta ekādaśaḥ",
+            "568": "12 lokasaṁdarśanaparivarto dvādaśaḥ",
+            "569": "13 acintyaparivartastrayodaśaḥ",
+            "570": "14 aupamyaparivartaścaturdaśaḥ",
+            "571": "15 devaparivartaḥ pañcadaśaḥ",
+            "572": "16 tathatāparivartaḥ ṣoḍaśaḥ",
+            "573": "17 avinivartanīyākāraliṅganimittaparivartaḥ saptadaśaḥ",
+            "574": "18 śūnyatāparivarto&#039;ṣṭādaśaḥ",
+            "575": "19 gaṅgadevībhaginīparivarta ekonaviṁśaḥ|",
+            "576": "20 upāyakauśalyamīmāṁsāparivarto viṁśatitamaḥ",
+            "577": "21 mārakarmaparivarta ekaviṁśatitamaḥ|",
+            "578": "22 kalyāṇamitraparivarto dvāviṁśatitamaḥ",
+            "579": "23 śakraparivartastrayoviṁśatitamaḥ",
+            "580": "24 abhimānaparivartaścaturviṁśatitamaḥ",
+            "581": "25 śikṣāparivartaḥ pañcaviṁśatitamaḥ",
+            "582": "26 māyopamaparivartaḥ ṣaḍviṁśatitamaḥ",
+            "583": "27 sāraparivartaḥ saptaviṁśatitamaḥ",
+            "584": "28 avakīrṇakusumaparivarto&#039;ṣṭāviṁśatitamaḥ",
+            "585": "29 anugamaparivarta ekonatriṁśattamaḥ",
+            "586": "30 sadāpraruditaparivartastriṁśattamaḥ",
+            "587": "31 dharmodgataparivarta ekatriṁśattamaḥ",
+            "588": "32 parīndanāparivarto dvātriṁśattamaḥ"
+        }
+    },
+    "312": {
+        "name": "Ātreyatilakam ",
+        "url": "http://www.dsbcproject.org/canon-text/book/312",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śilpaśāstra",
+        "listnr": "71",
+        "filelist": {
+            "1279": "Ātreyatilakam"
+        }
+    },
+    "119": {
+        "name": "Avadhānastotram (vandanāstavaṃ vā)",
+        "url": "http://www.dsbcproject.org/canon-text/book/119",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "812": "Avadhānastotram (vandanāstavaṁ vā)"
+        }
+    },
+    "120": {
+        "name": "Avalokiteśvarahayagrīvadhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/120",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "813": "Avalokiteśvarahayagrīvadhāraṇī"
+        }
+    },
+    "121": {
+        "name": "Avalokiteśvarāṣṭakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/121",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "814": "Avalokiteśvarāṣṭakastotram"
+        }
+    },
+    "122": {
+        "name": "Avalokiteśvarastavaḥ (candrakāntābhikṣuṇīkṛtaḥ)",
+        "url": "http://www.dsbcproject.org/canon-text/book/122",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "815": "Avalokiteśvarastavaḥ (candrakāntābhikṣuṇīkṛtaḥ)"
+        }
+    },
+    "123": {
+        "name": "Avalokiteśvarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/123",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "816": "Avalokiteśvarastotram"
+        }
+    },
+    "124": {
+        "name": "Avalokiteśvarastotram (carapatipādaviracitam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/124",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "817": "Avalokiteśvarastotram (carapatipādaviracitam)"
+        }
+    },
+    "125": {
+        "name": "Avalokiteśvarāṣṭottaraśatanāmastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/125",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "818": "Avalokiteśvarāṣṭottaraśatanāmastotram"
+        }
+    },
+    "287": {
+        "name": "Avayavinirākaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/287",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1231": "Avayavinirākaraṇam"
+        }
+    },
+    "13": {
+        "name": "Avikalpapraveśadhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/13",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "206": "Avikalpapraveśadhāraṇī"
+        }
+    },
+    "324": {
+        "name": "Bāhyarthasiddhikārikānāma",
+        "url": "http://www.dsbcproject.org/canon-text/book/324",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1290": "Bāhyarthasiddhikārikānāma"
+        }
+    },
+    "780": {
+        "name": "Balimālikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/780",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sveṣṭadevatā",
+        "listnr": "166",
+        "filelist": {
+            "2908": "Balimālikā"
+        }
+    },
+    "229": {
+        "name": "Bauddha tantra kośa (I)",
+        "url": "http://www.dsbcproject.org/canon-text/book/229",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "958": "Bauddha tantra kośa (I)"
+        }
+    },
+    "823": {
+        "name": "Bauddhadharme tathā purāṇeṣu karuṇā",
+        "url": "http://www.dsbcproject.org/canon-text/book/823",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "adhunātana",
+        "listnr": "173",
+        "filelist": {
+            "2952": "Bauddhadharme tathā purāṇeṣu karuṇā"
+        }
+    },
+    "749": {
+        "name": "Baudha pāribhāṣikāḥ śabdāḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/749",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "2877": "Baudha pāribhāṣikāḥ śabdāḥ"
+        }
+    },
+    "191": {
+        "name": "Bhadracarīpraṇidhānastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/191",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sarvatathāgata",
+        "listnr": "50",
+        "filelist": {
+            "884": "Bhadracarīpraṇidhānastotram"
+        }
+    },
+    "842": {
+        "name": "Bhadracaryādeśanā",
+        "url": "http://www.dsbcproject.org/canon-text/book/842",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sarvatathāgata",
+        "listnr": "50",
+        "filelist": {
+            "2971": "Bhadracaryādeśanā"
+        }
+    },
+    "743": {
+        "name": "Bhagavatstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/743",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "Bhagavatstutiḥ",
+        "listnr": "164",
+        "filelist": {
+            "2871": "Bhagavatstutiḥ"
+        }
+    },
+    "36": {
+        "name": "Bhaiṣajyaguruvaidūryaprabharājasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/36",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "283": "Bhaiṣajyaguruvaidūryaprabharājasūtram"
+        }
+    },
+    "174": {
+        "name": "Bhaktiśatakam",
+        "url": "http://www.dsbcproject.org/canon-text/book/174",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "867": "Bhaktiśatakam"
+        }
+    },
+    "257": {
+        "name": "Bhāvanākramaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/257",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1085": "Bhāvanākramaḥ prathamaḥ",
+            "1086": "Bhāvanākramo dvitīyaḥ",
+            "1087": "Bhāvanākramastṛtīyaḥ"
+        }
+    },
+    "325": {
+        "name": "Bhavasaṅkrāntiparikathā",
+        "url": "http://www.dsbcproject.org/canon-text/book/325",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1291": "Bhavasaṅkrāntiparikathā"
+        }
+    },
+    "37": {
+        "name": "Bhavasaṅkrāntisūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/37",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "284": "Bhavasaṅakrāntisūtram"
+        }
+    },
+    "326": {
+        "name": "Bhavasaṅkrāntiṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/326",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1292": "Bhavasaṅkrāntiṭīkā"
+        }
+    },
+    "87": {
+        "name": "Bhikṣukarmavākya",
+        "url": "http://www.dsbcproject.org/canon-text/book/87",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "741": "Bhikṣukarmavākya"
+        }
+    },
+    "88": {
+        "name": "Bhikṣuṇī vinaya",
+        "url": "http://www.dsbcproject.org/canon-text/book/88",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "742": "Bhikṣuṇī vinaya"
+        }
+    },
+    "258": {
+        "name": "Bodhicaryāvatāraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/258",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1088": "1 bodhicittānuśaṁso nāma prathamaḥ paricchedaḥ",
+            "1089": "2 pāpadeśanā nāma dvitīyaḥ paricchedaḥ",
+            "1090": "3 bodhicittaparigraho nāma tṛtīyaḥ paricchedaḥ",
+            "1091": "4 bodhicittāpramādo nāma caturthaḥ paricchedaḥ",
+            "1092": "5 saṁprajanyarakṣaṇaṁ nāma pañcamaḥ paricchedaḥ",
+            "1093": "6 kṣāntipāramitā nāma ṣaṣṭhaḥ paricchedaḥ",
+            "1094": "7 vīryapāramitā nāma saptamaḥ paricchedaḥ",
+            "1095": "8 dhyānapāramitā nāma aṣṭamaḥ paricchedaḥ",
+            "1096": "9 prajñāpāramitā nāma navamaḥ paricchedaḥ",
+            "1097": "10 pariṇāmanāparicchedo daśamaḥ"
+        }
+    },
+    "259": {
+        "name": "Bodhicaryāvatāraḥ (pañjikā)",
+        "url": "http://www.dsbcproject.org/canon-text/book/259",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1098": "1 bodhicittānuśaṁso nāma prathamaḥ paricchedaḥ",
+            "1099": "2 pāpadeśanā nāma dvitīyaḥ paricchedaḥ",
+            "1100": "3 bodhicittaparigraho nāma tṛtīyaḥ paricchedaḥ",
+            "1101": "4 bodhicittāpramādo nāma caturthaḥ paricchedaḥ",
+            "1102": "5 saṁprajanyarakṣaṇaṁ nāma pañcamaḥ paricchedaḥ",
+            "1103": "6 kṣāntipāramitā nāma ṣaṣṭhaḥ paricchedaḥ",
+            "1104": "7 vīryapāramitā nāma saptamaḥ paricchedaḥ",
+            "1105": "8 dhyānapāramitā nāma aṣṭamaḥ paricchedaḥ",
+            "1106": "9 prajñāpāramitā nāma navamaḥ paricchedaḥ",
+            "1107": "10 pariṇāmanāparicchedo daśamaḥ"
+        }
+    },
+    "327": {
+        "name": "Bodhicittotpādasūtraśāstra",
+        "url": "http://www.dsbcproject.org/canon-text/book/327",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1293": "Prathamo vargaḥ",
+            "1294": "Dvitīyo vargaḥ",
+            "1295": "Tṛtiyo vargaḥ",
+            "1296": "Caturtho vargaḥ",
+            "1297": "Paṁcamo vargaḥ",
+            "1298": "Ṣaṣṭho vargaḥ",
+            "1299": "Saptamo vargaḥ",
+            "1300": "Aṣṭamo vargaḥ",
+            "1301": "Navami vargaḥ",
+            "1302": "Daśamo vargaḥ",
+            "1303": "Ekadaśo vargaḥ",
+            "1304": "Dvādaśo vargaḥ"
+        }
+    },
+    "260": {
+        "name": "Bodhipathapradīpaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/260",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1108": "Bodhipathapradīpaḥ"
+        }
+    },
+    "89": {
+        "name": "Bodhisattva-prātimokṣa-sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/89",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "743": "Bodhisattva prātimokṣa sūtram"
+        }
+    },
+    "328": {
+        "name": "Bodhisattvabhūmiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/328",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1305": "1-1 gotra-paṭalam",
+            "1306": "1-2 cittotpādapaṭalam",
+            "1307": "1-3 svaparārthapaṭalam",
+            "1308": "1-4 tattvārtha-paṭalam",
+            "1309": "1-5 prabhāvapaṭalam",
+            "1310": "1-6 paripākapaṭalam",
+            "1311": "1-7 bodhipaṭalam",
+            "1312": "1-8 balagotrapaṭalam",
+            "1313": "1-9 dānapaṭalam",
+            "1314": "1-10 śīlapaṭalam",
+            "1315": "1-11 kṣāntipaṭalam",
+            "1316": "1-12 vīryaṁpaṭalam",
+            "1317": "1-13 dhyānapaṭalama",
+            "1318": "1-14 prajñāpaṭalam",
+            "1319": "1-15 saṁgrahavastupaṭalam",
+            "1320": "1-16 pūjāsevā&#039;pramāṇapaṭalam",
+            "1321": "1-17 bodhipakṣyapaṭalam",
+            "1322": "1-18 bodhisattvaguṇapaṭalam",
+            "1323": "2-1 bodhisattvaliṅgapaṭalam",
+            "1324": "2-2 pakṣapaṭalam",
+            "1325": "2-3 adhyāśayapaṭalam",
+            "1326": "2-4 vihārapaṭalam",
+            "1327": "3-1 upapattipaṭalam",
+            "1328": "3-2 parigrahapaṭalam",
+            "1329": "3-3 bhūmipaṭalam",
+            "1330": "3-4 caryāpaṭalam",
+            "1331": "3-5 lakṣmaṇānuvyañjanapaṭalam",
+            "1332": "3-6 pratiṣṭhāpaṭalam"
+        }
+    },
+    "261": {
+        "name": "Bodhisattvādikarmika-mārgāvatāra-deśanā",
+        "url": "http://www.dsbcproject.org/canon-text/book/261",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1109": "Bodhisattvādikarmika-mārgāvatāra-deśanā"
+        }
+    },
+    "262": {
+        "name": "Bodhyāpattideśanāvṛttiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/262",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1110": "Bodhyāpattideśanāvṛttiḥ"
+        }
+    },
+    "876": {
+        "name": "Boudhatantrokta Siddhauṣadhi Saṅgrahaḥ ",
+        "url": "http://www.dsbcproject.org/canon-text/book/876",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "adhunātana",
+        "listnr": "173",
+        "filelist": {
+            "3006": "Boudhatantrokta Siddhauṣadhi Saṅgrahaḥ"
+        }
+    },
+    "175": {
+        "name": "Buddhabhaṭṭārakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/175",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "868": "Buddhabhaṭṭārakastotram"
+        }
+    },
+    "222": {
+        "name": "Buddhacarita",
+        "url": "http://www.dsbcproject.org/canon-text/book/222",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "915": "Bhagavatprasūtirnāma prathamaḥ sargaḥ",
+            "916": "Antaḥpuravihāro nāma dvitīyaḥ sargaḥ",
+            "917": "Saṁvegotpattirnāma tṛtīyaḥ sargaḥ",
+            "918": "Strīvighātano nāma caturthaḥ sargaḥ",
+            "919": "Abhiniṣkramaṇo nāma pañcamaḥ sargaḥ",
+            "920": "Chandakanivartano nāma ṣaṣṭhaḥ sargaḥ",
+            "921": "Tapovanapraveśo nāma saptamaḥ sargaḥ",
+            "922": "Antaḥpuravilāpo nāmāṣṭamaḥ sargaḥ",
+            "923": "Kumārānveṣaṇoṁ nāma navamaḥ sargaḥ",
+            "924": "Śreṇyābhigamano nāma daśamaḥ sargaḥ",
+            "925": "Kāmavigarhaṇo nāmaikādaśa sargaḥ",
+            "926": "Arāḍadarśano nāma dvādaśaḥ sargaḥ",
+            "927": "Māravijayo nāma trayodaśaḥ sargaḥ",
+            "928": "Caturdaśaḥ sargaḥ"
+        }
+    },
+    "176": {
+        "name": "Buddhagadyaya",
+        "url": "http://www.dsbcproject.org/canon-text/book/176",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "869": "Buddhagadyaya"
+        }
+    },
+    "149": {
+        "name": "Buddhagaṇḍīstavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/149",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "gaṇḍībhaṭṭāraka",
+        "listnr": "37",
+        "filelist": {
+            "842": "Buddhagaṇḍīstavaḥ"
+        }
+    },
+    "797": {
+        "name": "Buddhakapālatantra",
+        "url": "http://www.dsbcproject.org/canon-text/book/797",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoginītantra",
+        "listnr": "13",
+        "filelist": {
+            "2927": "Buddhakapālatantra"
+        }
+    },
+    "270": {
+        "name": "Buddhamatam",
+        "url": "http://www.dsbcproject.org/canon-text/book/270",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nāṭaka",
+        "listnr": "66",
+        "filelist": {
+            "1136": "Buddhamatam"
+        }
+    },
+    "177": {
+        "name": "Buddhastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/177",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "870": "Buddhastotram"
+        }
+    },
+    "140": {
+        "name": "Caityavandanāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/140",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "caityabhaṭṭāraka",
+        "listnr": "34",
+        "filelist": {
+            "833": "Caityavandanāstotram"
+        }
+    },
+    "142": {
+        "name": "Cakrasaṃvarastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/142",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cakrasaṁvara",
+        "listnr": "35",
+        "filelist": {
+            "835": "Cakrasaṁvarastutiḥ"
+        }
+    },
+    "80": {
+        "name": "Cakrasaṃvaratantram [Vol.1]",
+        "url": "http://www.dsbcproject.org/canon-text/book/80",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoginītantra",
+        "listnr": "13",
+        "filelist": {
+            "691": "Cakrasaṃvaratantram [Vol.1]"
+        }
+    },
+    "81": {
+        "name": "Cakrasaṃvaratantram [Vol.2]",
+        "url": "http://www.dsbcproject.org/canon-text/book/81",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoginītantra",
+        "listnr": "13",
+        "filelist": {
+            "692": "Cakrasaṃvaratantram [Vol.2]"
+        }
+    },
+    "762": {
+        "name": "Caṇḍamahāroṣaṇa tantra",
+        "url": "http://www.dsbcproject.org/canon-text/book/762",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yogottara tantra",
+        "listnr": "16",
+        "filelist": {
+            "2890": "Caṇḍamahāroṣaṇa tantra"
+        }
+    },
+    "200": {
+        "name": "Caṇḍikādaṇḍakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/200",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ugratārā",
+        "listnr": "53",
+        "filelist": {
+            "893": "Caṇḍikādaṇḍakastotram"
+        }
+    },
+    "856": {
+        "name": "Caryāsaṃgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/856",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2984": "Caryā saṁgrahaḥ"
+        }
+    },
+    "263": {
+        "name": "Caryāsaṅgrahapradīpaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/263",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1111": "Caryāsaṅgrahapradīpaḥ"
+        }
+    },
+    "237": {
+        "name": "Catuḥ śatikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/237",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1000": "Catuḥ śatikā"
+        }
+    },
+    "143": {
+        "name": "Catuḥṣaṣṭisaṃvarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/143",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cakrasaṁvara",
+        "listnr": "35",
+        "filelist": {
+            "836": "Catuḥṣaṣṭisaṁvarastotram"
+        }
+    },
+    "38": {
+        "name": "catuṣpariṣat sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/38",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "285": "Catuṣpariṣat sūtram"
+        }
+    },
+    "108": {
+        "name": "Chandoratnākaraḥ (svopajña samanvitaḥ)",
+        "url": "http://www.dsbcproject.org/canon-text/book/108",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "alaṃkāra",
+        "listnr": "22",
+        "filelist": {
+            "801": "Chandoratnākaraḥ (svopajña samanvitaḥ)"
+        }
+    },
+    "314": {
+        "name": "Citralakṣaṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/314",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śilpaśāstra",
+        "listnr": "71",
+        "filelist": {
+            "1280": "Citralakṣaṇam"
+        }
+    },
+    "329": {
+        "name": "Cittatatvasaṅgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/329",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1333": "Cittatatvasaṅgrahaḥ"
+        }
+    },
+    "354": {
+        "name": "Cittaviśuddhiprakaraṇa",
+        "url": "http://www.dsbcproject.org/canon-text/book/354",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1417": "Cittaviśuddhiprakaraṇa"
+        }
+    },
+    "264": {
+        "name": "Cittotpādasaṃvaravidhikramaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/264",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1112": "Cittotpādasaṁvaravidhikramaḥ"
+        }
+    },
+    "809": {
+        "name": "Ḍākārṇavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/809",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoginītantra",
+        "listnr": "13",
+        "filelist": {
+            "2938": "Ḍākārṇavaḥ"
+        }
+    },
+    "104": {
+        "name": "Ḍākinījālasaṃvararahasyam",
+        "url": "http://www.dsbcproject.org/canon-text/book/104",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "798": "Ḍākinījālasaṃvararahasyam"
+        }
+    },
+    "774": {
+        "name": "Daṇḍikathā",
+        "url": "http://www.dsbcproject.org/canon-text/book/774",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "lekha",
+        "listnr": "63",
+        "filelist": {
+            "2902": "Daṇḍikathā"
+        }
+    },
+    "39": {
+        "name": "Daśabhūmikasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/39",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "286": "1 pramuditā nāma prathamā bhūmiḥ",
+            "287": "2 vimalā nāma dvitīyā bhūmiḥ",
+            "288": "3 prabhākarī nāma tṛtīyā bhūmiḥ",
+            "289": "4 arciṣmatī nāma caturthī bhūmiḥ",
+            "290": "5 sudurjayā nāma pañcamī bhūmiḥ",
+            "291": "6 abhimukhī nāma ṣaṣṭhī bhūmiḥ",
+            "292": "7 duraṁgamā nāma saptamī bhūmiḥ",
+            "293": "8 acalā nāma aṣṭamī bhūmiḥ",
+            "294": "9 sādhumatī nāma navamī bhūmiḥ",
+            "295": "10 dharmameghā nāma daśamī bhūmiḥ",
+            "296": "11 parīndanāparivartaḥ",
+            "297": "Daśabhūmikasūtre gāthāvibhāgaḥ -1 pramuditā nāma prathamā bhūmiḥ",
+            "298": "2 vimalā nāma dvitīyā bhūmiḥ",
+            "299": "3 prabhākarī nāma tṛtīyā bhūmiḥ",
+            "300": "4 arciṣmatī nāma caturthī bhūmiḥ",
+            "301": "5 sudurjayā nāma pañcamī bhūmiḥ",
+            "302": "6 abhimukhī nāma ṣaṣṭhī bhūmiḥ",
+            "303": "7 dūraṁgamā nāma saptamī bhūmiḥ",
+            "304": "8 acalā nāma aṣṭamī bhūmiḥ",
+            "305": "9 sādhumatī nāma navamī bhūmiḥ",
+            "306": "10 dharmameghā nāma daśamī bhūmiḥ",
+            "307": "11 parīndanāparivartaḥ"
+        }
+    },
+    "139": {
+        "name": "Daśabhūmīśvaro nāma mahāyānasūtraratnarājastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/139",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "bodhisattvacaryā",
+        "listnr": "33",
+        "filelist": {
+            "832": "Daśabhūmīśvaro nāma mahāyānasūtraratnarājastotram"
+        }
+    },
+    "101": {
+        "name": "Daśākuśalakarmapathadeśanā",
+        "url": "http://www.dsbcproject.org/canon-text/book/101",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "794": "Daśākuśalakarmapathadeśanā"
+        }
+    },
+    "820": {
+        "name": "Dhāraṇī Saṃgraha",
+        "url": "http://www.dsbcproject.org/canon-text/book/820",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "2949": "Dhāraṇī Saṃgraha"
+        }
+    },
+    "147": {
+        "name": "Dharmadhātunāmastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/147",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "dharmadhātu",
+        "listnr": "36",
+        "filelist": {
+            "840": "Dharmadhātunāmastavaḥ"
+        }
+    },
+    "796": {
+        "name": "Dharmadhātustava",
+        "url": "http://www.dsbcproject.org/canon-text/book/796",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "dharmadhātu",
+        "listnr": "36",
+        "filelist": {
+            "2925": "Dharmadhātustava"
+        }
+    },
+    "203": {
+        "name": "Dharmadhātuvāgīśvaramaṇḍalastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/203",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vāgīśvara",
+        "listnr": "54",
+        "filelist": {
+            "896": "Dharmadhātuvāgīśvaramaṇḍalastotram"
+        }
+    },
+    "230": {
+        "name": "Dharmasaṃgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/230",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "959": "Dharmasaṁgrahaḥ"
+        }
+    },
+    "231": {
+        "name": "Dharmasamuccayaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/231",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "960": "1 jitavargaḥ",
+            "961": "2 dharmopadeśavargaḥ",
+            "962": "3 kāyajugutsāvargaḥ",
+            "963": "4 parivartavargaḥ",
+            "964": "5 anityatāvargaḥ",
+            "965": "6 apramādavargaḥ",
+            "966": "7 kāmajugupsāvargaḥ",
+            "967": "8 tṛṣṇāvargaḥ",
+            "968": "9 strījugupsāvargaḥ",
+            "969": "10 madyajugupsāvargaḥ",
+            "970": "11 cittavargaḥ",
+            "971": "12 vāgvargaḥ",
+            "972": "13 karmavargaḥ",
+            "973": "14 saṁyojanavargaḥ",
+            "974": "15 pāpavargaḥ",
+            "975": "16 narakavargaḥ",
+            "976": "17 pretavargaḥ",
+            "977": "18 tiryagvargaḥ",
+            "978": "19 kṣadhāvargaḥ",
+            "979": "20 kausīdyavargaḥ",
+            "980": "21 karuṇāvargaḥ",
+            "981": "22 dānavargaḥ",
+            "982": "23 śīlavargaḥ",
+            "983": "24 kṣāntivargaḥ",
+            "984": "25 vīryavargaḥ",
+            "985": "26 dhyānavargaḥ",
+            "986": "27 prajñāvargaḥ",
+            "987": "28 nirvāṇavargaḥ",
+            "988": "29 mārgavargaḥ",
+            "989": "30 bhikṣuvargaḥ",
+            "990": "31 puṇyavargaḥ",
+            "991": "32 devavargaḥ",
+            "992": "33 sukhavargaḥ",
+            "993": "34 mitravargaḥ",
+            "994": "35 rājāvavādavargaḥ",
+            "995": "36 stutivargaḥ"
+        }
+    },
+    "760": {
+        "name": "Dvādaśakāranayastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/760",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ādibuddha",
+        "listnr": "25",
+        "filelist": {
+            "2888": "Dvādaśakāranayastotram"
+        }
+    },
+    "15": {
+        "name": "Ekādaśamukham",
+        "url": "http://www.dsbcproject.org/canon-text/book/15",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "207": "Ekādaśamukham"
+        }
+    },
+    "40": {
+        "name": "Gaṇḍavyūha sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/40",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "308": "1 nidānaparivartaḥ",
+            "309": "2 samantabhadraḥ",
+            "310": "3 mañjuśrīḥ",
+            "311": "4 meghaśrīḥ",
+            "312": "5 sāgarameghaḥ",
+            "313": "6 supratiṣṭhitaḥ",
+            "314": "7 meghaḥ",
+            "315": "8 muktakaḥ",
+            "316": "9 sāradhvajaḥ",
+            "317": "10 āśā",
+            "318": "11 bhīṣmottaranirghoṣaḥ",
+            "319": "12 jayoṣmāyatanaḥ",
+            "320": "13 maitrāyaṇī",
+            "321": "14 sudarśanaḥ",
+            "322": "15 indriyeśvaraḥ",
+            "323": "16 prabhūtā",
+            "324": "17 vidvān",
+            "325": "18 ratnacūḍaḥ",
+            "326": "19 samantanetraḥ",
+            "327": "20 analaḥ",
+            "328": "21 mahāprabhaḥ",
+            "329": "22 acalā",
+            "330": "23 sarvagāmī",
+            "331": "24 utpalabhūtiḥ",
+            "332": "25 vairaḥ",
+            "333": "26 Jayottamaḥ",
+            "334": "27 siṁhavijṛmbhitā",
+            "335": "28 vasumitrā",
+            "336": "29 veṣṭhilaḥ",
+            "337": "30 avalokiteśvaraḥ",
+            "338": "31 ananyagāmī",
+            "339": "32 mahādevaḥ",
+            "340": "33 sthāvarā",
+            "341": "34 vāsantī",
+            "342": "35 samantagambhīraśrīvimalaprabhā",
+            "343": "36 pramuditanayanajagadvirocanā",
+            "344": "37 samantasattvatrāṇojaḥśrīḥ",
+            "345": "38 praśāntarutasāgaravatī",
+            "346": "39 sarvanagararakṣāsaṁbhavatejaḥśrīḥ",
+            "347": "40 sarvavṛkṣapraphullanasukhasaṁvāsā",
+            "348": "41 sarvajagadrakṣāpraṇidhānavīryaprabhā",
+            "349": "42 sutejomaṇḍalaratiśrīḥ",
+            "350": "43 gopā",
+            "351": "44 māyā",
+            "352": "45 surendrābhā",
+            "353": "46 viśvāmitraḥ",
+            "354": "47 śilpābhijñaḥ",
+            "355": "48 bhadrottamā",
+            "356": "49 muktāsāraḥ",
+            "357": "50 sucandraḥ",
+            "358": "51 ajitasenaḥ",
+            "359": "52 śivarāgraḥ",
+            "360": "53 śrīsaṁbhavaḥ śrīmatiśca",
+            "361": "54 maitreyaḥ",
+            "362": "56 samantabhadracaryāpraṇidhānam",
+            "363": "55 mañjuśrīḥ"
+        }
+    },
+    "150": {
+        "name": "Gaṇḍīstavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/150",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "gaṇḍībhaṭṭāraka",
+        "listnr": "37",
+        "filelist": {
+            "843": "Gaṇḍīstavaḥ"
+        }
+    },
+    "151": {
+        "name": "Gaṇeśastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/151",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "gaṇeśa",
+        "listnr": "38",
+        "filelist": {
+            "844": "Gaṇeśastotram"
+        }
+    },
+    "265": {
+        "name": "Garbha-saṅgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/265",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1113": "Garbha-saṅgrahaḥ"
+        }
+    },
+    "737": {
+        "name": "Guhyāsamājatantrapradīpodyotanaṭīkā ṣaṭkoṭivyākhyā",
+        "url": "http://www.dsbcproject.org/canon-text/book/737",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahāyogatantraṭīkā",
+        "listnr": "161",
+        "filelist": {
+            "2865": "Guhyāsamājatantrapradīpodyotanaṭīkā ṣaṭkoṭivyākhyā"
+        }
+    },
+    "342": {
+        "name": "Guhyavajravilāsinīsādhanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/342",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1397": "Guhyavajravilāsinīsādhanam"
+        }
+    },
+    "343": {
+        "name": "Guhyāvalī",
+        "url": "http://www.dsbcproject.org/canon-text/book/343",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1398": "Guhyāvalī"
+        }
+    },
+    "162": {
+        "name": "Guhyeśvarīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/162",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nairātmā",
+        "listnr": "44",
+        "filelist": {
+            "855": "Guhyeśvarīstotram"
+        }
+    },
+    "41": {
+        "name": "Guṇakāraṇḍavyūha sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/41",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "364": "1. śrītriratna bhajanānuśaṁsāvadānam",
+            "365": "2. avīci saṁśoṣaṇa śrīdharmarājābhibodhana prakaraṇam",
+            "366": "3. sūcīmukhodara parvata pretoddhāraṇa prakaraṇa",
+            "367": "4. śrīmaheśvarādi deva samutpādana prakaraṇam",
+            "368": "5. sarvākāra sarvasattva prabodhana bodhicaryāvatāraṇa prakaraṇa",
+            "369": "6. durdānta dānava prabodhana bodhicaryāvatāraṇa prakaraṇam",
+            "370": "7. adhomukha sattvoddhāraṇa prakaraṇam",
+            "371": "8. rūpamayī bhūmi catuṣpāda puruṣoddhāraṇa prakaraṇam",
+            "372": "9. bali saṁbodhana bodhimārgāvatāraṇa prakaraṇam",
+            "373": "10. tamondhakāra bhūmi yakṣa rākṣasa paribodhana saddharmāvatāraṇa prakaraṇam",
+            "374": "11. śuddhāvāsika sukuṇḍala devaputroddhāraṇa prakaraṇam",
+            "375": "12. siṁhaladvīpa rākṣasī paribodhanoddhāraṇa prakaraṇam",
+            "376": "13. vārāṇasī kṛmi kīṭoddhāraṇa prakaraṇa",
+            "377": "14. māgadhika sattva prabodhanoddhāraṇa prakaraṇa",
+            "378": "15. śrījetārāma viśvabhū darśana sukhāvatī pratyudgama prakaraṇam",
+            "379": "16. siṁhala sārthavāhoddhāraṇa prakaraṇam",
+            "380": "17. sarvasattvoddhāraṇa saṁbodhimārga sthāpana maheśvaromādevī saṁbodhi vyākaraṇopadeśa prakaraṇam",
+            "381": "18. sarva sabhāloka saddharma śravaṇotsāha saṁpramodita svasvālaya pratigamana prakaraṇam",
+            "382": "19. sikṣā saṁvara samuddeśa prakaraṇam",
+            "383": "20. phalaśrutiḥ"
+        }
+    },
+    "220": {
+        "name": "Gurukriyākramaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/220",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "darśana",
+        "listnr": "60",
+        "filelist": {
+            "913": "Gurukriyākramaḥ"
+        }
+    },
+    "221": {
+        "name": "Gurupañcāśikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/221",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "darśana",
+        "listnr": "60",
+        "filelist": {
+            "914": "Gurupañcāśikā"
+        }
+    },
+    "199": {
+        "name": "Gururatnatrayastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/199",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "triratna",
+        "listnr": "52",
+        "filelist": {
+            "892": "Gururatnatrayastotram"
+        }
+    },
+    "152": {
+        "name": "Hāratīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/152",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "hārītī",
+        "listnr": "39",
+        "filelist": {
+            "845": "Hāratīstotram"
+        }
+    },
+    "238": {
+        "name": "Hastavālaprakaraṇa",
+        "url": "http://www.dsbcproject.org/canon-text/book/238",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1001": "Hastavālaprakaraṇa"
+        }
+    },
+    "239": {
+        "name": "Hastavālaprakaraṇavṛttiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/239",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1002": "hastavālaprakaraṇavṛttiḥ"
+        }
+    },
+    "16": {
+        "name": "Hayagrīvavidyā",
+        "url": "http://www.dsbcproject.org/canon-text/book/16",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "208": "Hayagrīvavidyā"
+        }
+    },
+    "288": {
+        "name": "Hetubinduḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/288",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1232": "Hetubinduḥ"
+        }
+    },
+    "289": {
+        "name": "Hetubinduṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/289",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1233": "Hetoḥ sāmānyanirūpaṇam",
+            "1234": "Svabhāvahetunirūpaṇam",
+            "1235": "Kāryahetunirūpaṇam",
+            "1236": "Anupalabdhihetunirūpaṇam"
+        }
+    },
+    "290": {
+        "name": "Hetutattvopadeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/290",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1237": "Hetutattvopadeśaḥ"
+        }
+    },
+    "22": {
+        "name": "Jātakamālā",
+        "url": "http://www.dsbcproject.org/canon-text/book/22",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "jātaka",
+        "listnr": "5",
+        "filelist": {
+            "224": "1 vyāghrī-jātakam",
+            "225": "2 śibi-jātakam",
+            "226": "3 kulmāṣapiṇḍī-jātakam",
+            "227": "4 śreṣṭhi-jātakam",
+            "228": "5 aviṣahyaśreṣṭhi-jātakam",
+            "229": "6 śaśajātakam",
+            "230": "7 agastya-jātakam",
+            "231": "8 maitrībala-jātakam",
+            "232": "9 viśvantara-jātakam",
+            "233": "10 yajña-jātakam",
+            "234": "11 śakra-jātakam",
+            "235": "12 brāhmaṇa-jātakam",
+            "236": "13 unmādayantī-jātakam",
+            "237": "14 supāraga-jātakam",
+            "238": "15 matsya-jātakam",
+            "239": "16 vartakāpītaka-jātakam",
+            "240": "17 kumbha-jātakam",
+            "241": "18 aputra-jātakam",
+            "242": "19 bisa-jātakam",
+            "243": "20 śreṣṭhi-jātakam",
+            "244": "21 cuḍḍabodhi-jātakam",
+            "245": "22 haṁsa-jātakam",
+            "246": "23 mahābodhi-jātakam",
+            "247": "24 mahākapi-jātakam",
+            "248": "25 śarabha-jātakam",
+            "249": "26 ruru-jātakam",
+            "250": "27 mahākapi-jātakam",
+            "251": "28 kṣānti-jātakam",
+            "252": "29 brahma-jātakam",
+            "253": "30 hasti-jātakam",
+            "254": "31 sutasoma-jātakam",
+            "255": "32 ayogṛha-jātakam",
+            "256": "33 mahiṣa-jātakam",
+            "257": "34 śatapatra-jātakam"
+        }
+    },
+    "291": {
+        "name": "Jātinirākṛti",
+        "url": "http://www.dsbcproject.org/canon-text/book/291",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1238": "Jātinirākṛti"
+        }
+    },
+    "102": {
+        "name": "Jñānaprasthānam śāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/102",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "795": "prathamaḥ saṁkīrṇaskandhaḥ",
+            "796": "dvitīyaḥ saṁyojanaskaṁdhaḥ"
+        }
+    },
+    "860": {
+        "name": "Jñānasiddhi",
+        "url": "http://www.dsbcproject.org/canon-text/book/860",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahāyogatantraṭīkā",
+        "listnr": "161",
+        "filelist": {
+            "2988": "Jñānasiddhi"
+        }
+    },
+    "838": {
+        "name": "Kālacakrāvatāraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/838",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "jyotiḥśāstra",
+        "listnr": "177",
+        "filelist": {
+            "2965": "Kālacakrāvatāraḥ"
+        }
+    },
+    "728": {
+        "name": "kalpoktamārīcīsādhanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/728",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "kriyātantraṭīkā",
+        "listnr": "156",
+        "filelist": {
+            "2856": "Kalpoktamārīcīsādhanam"
+        }
+    },
+    "194": {
+        "name": "Kalyāṇapañcaviṃśatistotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/194",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "svayambhū",
+        "listnr": "51",
+        "filelist": {
+            "887": "Kalyāṇapañcaviṁśatistotram"
+        }
+    },
+    "211": {
+        "name": "Kalyāṇatriṃśatikāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/211",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "904": "Kalyāṇatriṁśatikāstotram"
+        }
+    },
+    "192": {
+        "name": "Kamalākarasarvatathāgatastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/192",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sarvatathāgata",
+        "listnr": "50",
+        "filelist": {
+            "885": "Kamalākarasarvatathāgatastotram"
+        }
+    },
+    "344": {
+        "name": "Kāṇhapādasya dohākoṣaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/344",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1399": "Kāṇhapādasya dohākoṣaḥ"
+        }
+    },
+    "42": {
+        "name": "Kāraṇḍavyūhaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/42",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "384": "Jetavanavihāravarṇanaṁ prathamaṁ prakaraṇam",
+            "385": "Avīciśoṣaṇaṁ nāma dvitīyaṁ prakaraṇam",
+            "386": "Sattvadhātuparimokṣaṇaṁ tṛtīyaṁ prakaraṇam",
+            "387": "Candrādyutpattirnāma caturthaṁ prakaraṇam",
+            "388": "Vividharaśminiḥsaraṇaṁ pañcamaṁ prakaraṇam",
+            "389": "Tathāgatasaṁvādaḥ ṣaṣṭhaṁ prakaraṇam",
+            "390": "Avalokiteśvarapuṇyaskandhakathanaṁ saptamaṁ prakaraṇam",
+            "391": "Vaineyadharmopadeśaḥ aṣṭamaṁ prakaraṇam",
+            "392": "Asurāśvāsanaṁ navamaṁ prakaraṇam",
+            "393": "Kāñcanamayabhūmyādyupasthānaṁ daśamaṁ prakaraṇam",
+            "394": "balisamāśvāsanamekādaśamaṁ prakaraṇam",
+            "395": "Yakṣādisamāśvāsanaṁ dvādaśaṁ prakaraṇam",
+            "396": "Devabhavanabhramaṇaṁ trayodaśaṁ prakaraṇam",
+            "397": "Siṁhalabhramaṇaṁ caturdaśaṁ prakaraṇam",
+            "398": "Vārāṇasībhramaṇaṁ pañcadaśaṁ prakaraṇam",
+            "399": "Magadhabhramaṇaṁ ṣoḍaśaṁ prakaraṇam",
+            "400": "Dvitīyo nirvyūhaḥ - aśvarājavarṇanaṁ prathamaṁ prakaraṇam",
+            "401": "Romavivaraṇāvarṇanaṁ dvitīyaṁ prakaraṇam",
+            "402": "Ṣaḍakṣarīmahāvidyāmāhātmyavarṇanaṁ tṛtīyaṁ prakaraṇam",
+            "403": "Ṣaḍakṣarimahāvidyāmaṇḍalavarṇanaṁ caturthaṁ prakaraṇam",
+            "404": "Mahāvidyopadeśo nāma pañcamaṁ prakaraṇam",
+            "405": "Mahāvidyāmaṇḍalavarṇanaṁ ṣaṣṭhaṁ prakaraṇam",
+            "406": "Saptamaṁ prakaraṇam",
+            "407": "Aṣṭamaṁ prakaraṇam"
+        }
+    },
+    "330": {
+        "name": "Karmavibhaṅgopadeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/330",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1334": "Karmavibhaṅgopadeśaḥ"
+        }
+    },
+    "43": {
+        "name": "Karuṇāpuṇḍarīka sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/43",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "408": "Dharma-cakra-pravartano nāma prathamaḥ parivartaḥ",
+            "409": "Dvitīyo dhāraṇī-mukha-parivartaḥ",
+            "410": "Dāna-visargas tṛtīyaḥ",
+            "411": "Bodhisattva-vyākaraṇa-parivartaścaturthaḥ",
+            "412": "Dāna-parivarto nāma pañcamaḥ",
+            "413": "Epilogue"
+        }
+    },
+    "44": {
+        "name": "Kāśyapaparivarta sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/44",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "414": "Kāśyapaparivarta sūtram"
+        }
+    },
+    "5": {
+        "name": "Kaṭhināvadāna",
+        "url": "http://www.dsbcproject.org/canon-text/book/5",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "avadāna",
+        "listnr": "3",
+        "filelist": {
+            "191": "Kaṭhināvadāna"
+        }
+    },
+    "69": {
+        "name": "Kauśikaprajñāpāramitāsūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/69",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "589": "Kauśikaprajñāpāramitāsūtram"
+        }
+    },
+    "315": {
+        "name": "Kriyāsaṃgrahakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/315",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śilpaśāstra",
+        "listnr": "71",
+        "filelist": {
+            "1281": "Kriyāsaṁgrahakārikā"
+        }
+    },
+    "828": {
+        "name": "Kriyāsaṁgrahapañjikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/828",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "2955": "Kriyāsaṁgrahapañjikā"
+        }
+    },
+    "292": {
+        "name": "Kṣaṇabhaṅgasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/292",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1239": "Kṣaṇabhaṅgasiddhiḥ"
+        }
+    },
+    "293": {
+        "name": "Kṣaṇabhaṅgasidviḥ vyatirekātmikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/293",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1240": "Kṣaṇabhaṅgasidviḥ vyatirekātmikā"
+        }
+    },
+    "881": {
+        "name": "Laghukaumudīvyākaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/881",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vyākaraṇa",
+        "listnr": "171",
+        "filelist": {
+            "3011": "Laghukaumudīvyākaraṇam"
+        }
+    },
+    "866": {
+        "name": "Laghutantraṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/866",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "2998": "Laghutantraṭīkā"
+        }
+    },
+    "45": {
+        "name": "Lalitavistaraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/45",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "415": "1 nidānaparivartaḥ prathamaḥ",
+            "416": "2 samutsāhaparivarto dvitīyaḥ",
+            "417": "3 kulapariśuddhiparivartastṛtīyaḥ",
+            "418": "4 dharmālokamukhaparivartaścaturthaḥ",
+            "419": "5 pracalaparivartaḥ pañcamaḥ",
+            "420": "6 garbhāvakrāntiparivartaḥ ṣaṣṭhaḥ",
+            "421": "7 janmaparivartaḥ saptamaḥ",
+            "422": "8 devakulopanayanaparivarto&#039;ṣṭamaḥ",
+            "423": "9 ābharaṇaparivarto navamaḥ",
+            "424": "10 lipiśālāsaṁdarśanaparivarto daśamaḥ",
+            "425": "11 kṛṣigrāmaparivarta ekādaśaḥ",
+            "426": "12 śilpasaṁdarśanaparivarto dvādaśaḥ",
+            "427": "13 saṁcodanāparivartastrayodaśaḥ",
+            "428": "14 svapnaparivartaścaturdaśaḥ",
+            "429": "15 abhiniṣkramaṇaparivartaḥ pañcadaśaḥ",
+            "430": "16 bimbisāropasaṁkramaṇaparivartaḥ ṣoḍaśaḥ",
+            "431": "17 duṣkaracaryāparivartaḥ saptadaśaḥ",
+            "432": "18 nairañjanāparivarto&#039;ṣṭādaśaḥ",
+            "433": "19 bodhimaṇḍagamanaparivarta ekonaviṁśaḥ|",
+            "434": "20 bodhimaṇḍavyūhaparivarto viṁśatitamaḥ",
+            "435": "21 māragharṣaṇaparivarta ekaviṁśaḥ",
+            "436": "22 abhisaṁbodhanaparivarto dvāviṁśaḥ",
+            "437": "23 saṁstavaparivartastrayoviṁśaḥ",
+            "438": "24 trapuṣabhallikaparivartaścaturviṁśaḥ",
+            "439": "25 adhyeṣaṇāparivartaḥ pañcaviṁśaḥ",
+            "440": "26 dharmacakrapravartanaparivartaḥ ṣaḍviṁśaḥ",
+            "441": "27 nigamaparivartaḥ saptaviṁśaḥ"
+        }
+    },
+    "126": {
+        "name": "Lokanāthastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/126",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "819": "Lokanāthastotram"
+        }
+    },
+    "153": {
+        "name": "Lokātītastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/153",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "40",
+        "filelist": {
+            "846": "Lokātītastavaḥ"
+        }
+    },
+    "776": {
+        "name": "Lokeśvara-pārājikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/776",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2904": "Lokeśvara-pārājikā"
+        }
+    },
+    "127": {
+        "name": "Lokeśvaraśatakam",
+        "url": "http://www.dsbcproject.org/canon-text/book/127",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "820": "Lokeśvaraśatakam"
+        }
+    },
+    "128": {
+        "name": "Lokeśvarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/128",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "821": "Lokeśvarastotram"
+        }
+    },
+    "739": {
+        "name": "Lupta bauddhavacana saṁgraha",
+        "url": "http://www.dsbcproject.org/canon-text/book/739",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "2867": "Lupta bauddhavacana saṁgraha"
+        }
+    },
+    "46": {
+        "name": "Madhyamaka-śālistambasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/46",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "442": "Madhyamaka-śālistambasūtram"
+        }
+    },
+    "240": {
+        "name": "Madhyamakahṛdayaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/240",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1003": "prathamaḥ paricchedaḥ",
+            "1004": "dvitīyaḥ paricchedaḥ",
+            "1005": "tṛtīyaḥ paricchedaḥ",
+            "1006": "caturthaḥ paricchedaḥ",
+            "1007": "pañcamaḥ paricchedaḥ",
+            "1008": "ṣaṣṭhaḥ paricchedaḥ",
+            "1009": "saptamaḥ paricchedaḥ",
+            "1010": "aṣṭamaḥ paricchedaḥ",
+            "1011": "navamaḥ paricchedaḥ",
+            "1012": "daśamaḥ paricchedaḥ",
+            "1013": "ekādaśaḥ paricchedaḥ"
+        }
+    },
+    "241": {
+        "name": "Madhyamakālokaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/241",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1014": "Madhyamakālokaḥ"
+        }
+    },
+    "242": {
+        "name": "Madhyamakaśāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/242",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1015": "Pratyayaparīkṣā nāma prathamaṁ prakaraṇam",
+            "1016": "Gatāgataparīkṣā dvitīyaṁ prakaraṇam",
+            "1017": "Cakṣurādīndriyaparīkṣā tṛtīyaṁ prakaraṇam",
+            "1018": "Skandhaparīkṣā caturthaṁ prakaraṇam",
+            "1019": "Dhātuparīkṣā pañcamaṁ prakaraṇam",
+            "1020": "Rāgaraktaparīkṣā ṣaṣṭhaṁ prakaraṇam",
+            "1021": "Saṁskṛtaparīkṣā saptamaṁ prakaraṇam",
+            "1022": "Karmakārakaparīkṣā aṣṭamaṁ prakaraṇam",
+            "1023": "Pūrvaparīkṣā navamaṁ prakaraṇam",
+            "1024": "Agnīndhanaparīkṣā daśamaṁ prakaraṇam",
+            "1025": "Pūrvāparakoṭiparīkṣā ekādaśamaṁ prakaraṇam",
+            "1026": "Duḥkhaparīkṣā dvādaśamaṁ prakaraṇam",
+            "1027": "Saṁskāraparīkṣā trayodaśamaṁ prakaraṇam",
+            "1028": "Saṁsargaparīkṣā caturdaśamaṁ prakaraṇam",
+            "1029": "Svabhāvaparīkṣā pañcadaśamaṁ prakaraṇam",
+            "1030": "Bandhamokṣaparīkṣā ṣoḍaśamaṁ prakaraṇam",
+            "1031": "Karmaphalaparīkṣā saptadaśamaṁ prakaraṇam",
+            "1032": "Ātmaparīkṣā aṣṭādaśamaṁ prakaraṇam",
+            "1033": "Kālaparīkṣā ekonaviṁśatitamaṁ prakaraṇam",
+            "1034": "Sāmagrīparīkṣā viṁśatitamaṁ prakaraṇam",
+            "1035": "Saṁbhavavibhavaparīkṣā ekaviṁśatitamaṁ prakaraṇam",
+            "1036": "Tathāgataparīkṣā dvāviṁśatitamaṁ prakaraṇam",
+            "1037": "Viparyāsaparīkṣā trayoviṁśatitamaṁ prakaraṇam",
+            "1038": "Āryasatyaparīkṣā caturviṁśatitamaṁ prakaraṇam",
+            "1039": "Nirvāṇaparīkṣā pañcaviṁśatitamaṁ prakaraṇam",
+            "1040": "Dvādaśāṅgaparīkṣā ṣaḍviṁśatitamaṁ prakaraṇam",
+            "1041": "Dṛṣṭiparīkṣā saptaviṁśatitamaṁ prakaraṇam"
+        }
+    },
+    "154": {
+        "name": "Madhyamakaśāstrastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/154",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "40",
+        "filelist": {
+            "847": "Madhyamakaśāstrastutiḥ"
+        }
+    },
+    "243": {
+        "name": "Madhyamakāvatāraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/243",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1042": "Prathamaścittotpādaḥ",
+            "1043": "Dvitīyaścittotpādaḥ",
+            "1044": "Tṛtīyaścittotpādaḥ",
+            "1045": "Caturthaścittotpādaḥ",
+            "1046": "Pañcamaścittotpādaḥ"
+        }
+    },
+    "852": {
+        "name": "Madhyamakāvatārakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/852",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "2980": "Madhyamakāvatāra-kārikā"
+        }
+    },
+    "244": {
+        "name": "Madhyamārthasaṃgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/244",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1047": "Madhyamārthasaṁgrahaḥ"
+        }
+    },
+    "331": {
+        "name": "Madhyāntavibhāga kārikāḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/331",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1335": "Lakṣaṇaparicchedaḥ prathamaḥ",
+            "1336": "Āvaraṇaparicchedo dvitīyaḥ",
+            "1337": "Tattvaparicchedastṛtīyaḥ",
+            "1338": "Pratipakṣabhāvanā&#039;vasthāphalaparicchedaścaturthaḥ",
+            "1339": "Yānā&#039;nuttaryaparicchedaḥ pañcamaḥ"
+        }
+    },
+    "206": {
+        "name": "Mahābodhibhaṭṭārakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/206",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrāsana",
+        "listnr": "56",
+        "filelist": {
+            "899": "Mahābodhibhaṭṭārakastotram"
+        }
+    },
+    "207": {
+        "name": "Mahābodhivandanāṣṭakam",
+        "url": "http://www.dsbcproject.org/canon-text/book/207",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrāsana",
+        "listnr": "56",
+        "filelist": {
+            "900": "Mahābodhivandanāṣṭakam"
+        }
+    },
+    "157": {
+        "name": "Mahācakravartināmāṣṭottaraśatastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/157",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahācakravartin",
+        "listnr": "41",
+        "filelist": {
+            "850": "Mahācakravartināmāṣṭottaraśatastotram"
+        }
+    },
+    "158": {
+        "name": "Mahākālastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/158",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahākāla",
+        "listnr": "42",
+        "filelist": {
+            "851": "Mahākālastotram"
+        }
+    },
+    "345": {
+        "name": "Mahāmāyāsādhanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/345",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1400": "Mahāmāyāsādhanam"
+        }
+    },
+    "346": {
+        "name": "Mahāmāyāsādhanopāyikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/346",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1401": "Mahāmāyāsādhanopāyikā"
+        }
+    },
+    "347": {
+        "name": "Mahāmāyātantram [guṇavatīṭīkāsahitam]",
+        "url": "http://www.dsbcproject.org/canon-text/book/347",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1402": "Mahāmāyātantram [guṇavatīṭīkāsahitam]"
+        }
+    },
+    "47": {
+        "name": "Mahāmegha sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/47",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "443": "Mahā megha sūtram"
+        }
+    },
+    "48": {
+        "name": "Mahāparinirvāṇa sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/48",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "444": "Mahāparinirvāṇa sūtram"
+        }
+    },
+    "167": {
+        "name": "Mahāpratisarāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/167",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcarakṣādevī",
+        "listnr": "46",
+        "filelist": {
+            "860": "Mahāpratisarāstotram"
+        }
+    },
+    "90": {
+        "name": "Mahāsāṃghikānāṃ prātimokṣasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/90",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "744": "Mahāsāṁghikānāṁ prātimokṣasūtram"
+        }
+    },
+    "17": {
+        "name": "Mahāsannipātaratnaketudhāraṇī sūtraṃ",
+        "url": "http://www.dsbcproject.org/canon-text/book/17",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "209": "Prathamaḥ parivartaḥ",
+            "210": "Dvitīyaḥ parivartaḥ",
+            "211": "Tṛtīyaḥ parivartaḥ",
+            "212": "Caturthaḥ parivartaḥ",
+            "213": "Pañcamaḥ parivartaḥ",
+            "214": "Ṣaṣṭhaḥ parivartaḥ",
+            "215": "Saptamaḥ parivartaḥ",
+            "216": "Aṣṭamaḥ parivartaḥ",
+            "217": "Navamaḥ parivartaḥ",
+            "218": "Daśamaḥ parivartaḥ",
+            "219": "Ekādaśaḥ parivartaḥ"
+        }
+    },
+    "6": {
+        "name": "Mahāsattvamaṇicūḍamahārājabodhisattvāvadānam",
+        "url": "http://www.dsbcproject.org/canon-text/book/6",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "avadāna",
+        "listnr": "3",
+        "filelist": {
+            "192": "Mahāsattvamaṇicūḍamahārājabodhisattvāvadānam"
+        }
+    },
+    "49": {
+        "name": "Mahāvadānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/49",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "445": "Mahāvadānasūtram"
+        }
+    },
+    "883": {
+        "name": "Mahāvastu Avadāna (Vol 1)",
+        "url": "http://www.dsbcproject.org/canon-text/book/883",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "avadāna",
+        "listnr": "3",
+        "filelist": {
+            "3013": "Mahāvastu Avadāna"
+        }
+    },
+    "232": {
+        "name": "Mahāvyutpatti",
+        "url": "http://www.dsbcproject.org/canon-text/book/232",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "996": "Mahāvyutpatti"
+        }
+    },
+    "266": {
+        "name": "Mahāyānapathasādhanasaṅgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/266",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1114": "Mahāyānapathasādhanasaṅgrahaḥ"
+        }
+    },
+    "867": {
+        "name": "Mahāyānasaṃgraha",
+        "url": "http://www.dsbcproject.org/canon-text/book/867",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "2994": "Mahāyānasaṃgraha"
+        }
+    },
+    "332": {
+        "name": "Mahāyānasūtrālaṃkāraḥ (kārikāḥ)",
+        "url": "http://www.dsbcproject.org/canon-text/book/332",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1340": "Prathamo&#039;dhikāraḥ",
+            "1341": "Dvitīyo&#039;dhikāraḥ",
+            "1342": "Tṛtīyo&#039;dhikāraḥ",
+            "1343": "Caturtho&#039;dhikāraḥ",
+            "1344": "Pañcamo&#039;dhikāraḥ",
+            "1345": "Ṣaṣṭho&#039;dhikāraḥ",
+            "1346": "Saptamo&#039;dhikāraḥ",
+            "1347": "Aṣṭamo&#039;dhikāraḥ",
+            "1348": "Navamo&#039;dhikāraḥ",
+            "1349": "Daśamodhikāraḥ",
+            "1350": "Ekādaśo&#039;dhikāraḥ",
+            "1351": "Dvādaśo&#039;dhikāraḥ",
+            "1352": "Trayodaśo&#039;dhikāraḥ",
+            "1353": "Caturdaśo&#039;dhikāraḥ",
+            "1354": "Pañcadaśo&#039;dhikāraḥ",
+            "1355": "Ṣoḍaśo&#039;dhikāraḥ",
+            "1356": "Saptadaśo&#039;dhikāraḥ",
+            "1357": "Aṣṭādaśo&#039;dhikāraḥ",
+            "1358": "Ekonaviṁśatyadhikāraḥ",
+            "1359": "Viṁśatitamaekaviṁśatitamaścādhikāraḥ"
+        }
+    },
+    "333": {
+        "name": "Mahāyānasutrālaṅkāraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/333",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1360": "Prathamo&#039;dhikāraḥ",
+            "1361": "Dvitīyo&#039;dhikāraḥ",
+            "1362": "Tṛtīyo&#039;dhikāraḥ",
+            "1363": "Caturtho&#039;dhikāraḥ",
+            "1364": "Pañcamo&#039;dhikāraḥ",
+            "1365": "Ṣaṣṭho&#039;dhikāraḥ",
+            "1366": "Saptamo&#039;dhikāraḥ",
+            "1367": "Aṣṭamo&#039;dhikāraḥ",
+            "1368": "Navamo&#039;dhikāraḥ",
+            "1369": "Daśamodhikāraḥ",
+            "1370": "Ekādaśo&#039;dhikāraḥ",
+            "1371": "Dvādaśo&#039;dhikāraḥ",
+            "1372": "Trayodaśo&#039;dhikāraḥ",
+            "1373": "Caturdaśo&#039;dhikāraḥ",
+            "1374": "Pañcadaśo&#039;dhikāraḥ",
+            "1375": "Ṣoḍaśo&#039;dhikāraḥ",
+            "1376": "Saptadaśo&#039;dhikāraḥ",
+            "1377": "Aṣṭādaśo&#039;dhikāraḥ",
+            "1378": "Ekonaviṁśatyadhikāraḥ",
+            "1379": "Viṁśatitamaekaviṁśatitamaścādhikāraḥ"
+        }
+    },
+    "245": {
+        "name": "Mahāyānaviṃśikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/245",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1048": "Mahāyānaviṁśikā"
+        }
+    },
+    "201": {
+        "name": "Mahogratārāṣṭakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/201",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ugratārā",
+        "listnr": "53",
+        "filelist": {
+            "894": "Mahogratārāṣṭakastotram"
+        }
+    },
+    "202": {
+        "name": "Mahogratārāstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/202",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "ugratārā",
+        "listnr": "53",
+        "filelist": {
+            "895": "Mahogratārāstutiḥ"
+        }
+    },
+    "850": {
+        "name": "Maitreyavyākaraṇa",
+        "url": "http://www.dsbcproject.org/canon-text/book/850",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "2978": "Maitreyavyākaraṇa"
+        }
+    },
+    "772": {
+        "name": "Maṃjuśrīpārājikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/772",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2900": "Maṃjuśrīpārājikā"
+        }
+    },
+    "195": {
+        "name": "Maṅgalaṣoḍaśastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/195",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "svayambhū",
+        "listnr": "51",
+        "filelist": {
+            "888": "Maṅgalaṣoḍaśastutiḥ"
+        }
+    },
+    "117": {
+        "name": "Maṅgalāṣṭakam",
+        "url": "http://www.dsbcproject.org/canon-text/book/117",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "aṣṭamahābodhisattva",
+        "listnr": "29",
+        "filelist": {
+            "810": "Maṅgalāṣṭakam"
+        }
+    },
+    "161": {
+        "name": "mañjuśrīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/161",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mañjuśrī",
+        "listnr": "43",
+        "filelist": {
+            "854": "Mañjuśrīstotram"
+        }
+    },
+    "854": {
+        "name": "Mañjuvajramukhyākhyāna",
+        "url": "http://www.dsbcproject.org/canon-text/book/854",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahāyogatantraṭīkā",
+        "listnr": "161",
+        "filelist": {
+            "2982": "Mañjuvajramukhyākhyāna"
+        }
+    },
+    "196": {
+        "name": "Mañjuvajrastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/196",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "svayambhū",
+        "listnr": "51",
+        "filelist": {
+            "889": "Mañjuvajrastotram"
+        }
+    },
+    "778": {
+        "name": "Mantroddhāra",
+        "url": "http://www.dsbcproject.org/canon-text/book/778",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2906": "Mantroddhāra"
+        }
+    },
+    "208": {
+        "name": "Māravijayastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/208",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrāsana",
+        "listnr": "56",
+        "filelist": {
+            "901": "Māravijayastotram"
+        }
+    },
+    "348": {
+        "name": "Marmakālikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/348",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1403": "1 āśīrvādābhidhānam",
+            "1404": "2 bāhyārcanavidhiḥ",
+            "1405": "3 bhāvanāvidhiḥ",
+            "1406": "4 śiṣyānugrahavidhiḥ",
+            "1407": "5 mantroddhāravidhiḥ",
+            "1408": "6 pūjāvidhiḥ",
+            "1409": "7 balividhiḥ",
+            "1410": "8 japavidhiḥ",
+            "1411": "9 samayaparipālanavidhiḥ"
+        }
+    },
+    "50": {
+        "name": "Megha sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/50",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "446": "Megha sūtram"
+        }
+    },
+    "91": {
+        "name": "Mūlasarvāstivāda-vinayavastu",
+        "url": "http://www.dsbcproject.org/canon-text/book/91",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "745": "1 bhaiṣajyavastu",
+            "746": "2 cīvaravastu",
+            "747": "3 kaṭhinavastu",
+            "748": "5 karmavastu",
+            "749": "4 kośāmbakavastu"
+        }
+    },
+    "846": {
+        "name": "Munimatālaṁkāra",
+        "url": "http://www.dsbcproject.org/canon-text/book/846",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sveṣṭadevatā",
+        "listnr": "166",
+        "filelist": {
+            "2974": "Munimatālaṁkāra"
+        }
+    },
+    "271": {
+        "name": "Nāgānandam nāṭaka",
+        "url": "http://www.dsbcproject.org/canon-text/book/271",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nāṭaka",
+        "listnr": "66",
+        "filelist": {
+            "1137": "Prathamo&#039;ṅkaḥ",
+            "1138": "Dvitīyo&#039;ṅkaḥ",
+            "1139": "Tṛtīyo&#039;ṅkaḥ",
+            "1140": "Caturtho&#039;ṅkaḥ",
+            "1141": "Pañcamo&#039;ṅkaḥ"
+        }
+    },
+    "163": {
+        "name": "Nairātmāṣṭakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/163",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nairātmā",
+        "listnr": "44",
+        "filelist": {
+            "856": "Nairātmāṣṭakastotram"
+        }
+    },
+    "51": {
+        "name": "Nairātmyaparipṛcchā nāma mahāyānasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/51",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "447": "Nairātmyaparipṛcchā nāma mahāyānasūtram"
+        }
+    },
+    "272": {
+        "name": "Nālandādahanam",
+        "url": "http://www.dsbcproject.org/canon-text/book/272",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nāṭaka",
+        "listnr": "66",
+        "filelist": {
+            "1142": "nālandādahanam"
+        }
+    },
+    "178": {
+        "name": "Nāmāṣṭaśatakaya",
+        "url": "http://www.dsbcproject.org/canon-text/book/178",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "871": "Nāmāṣṭaśatakaya"
+        }
+    },
+    "79": {
+        "name": "Nānāsiddhopadeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/79",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "sahajayāna",
+        "listnr": "12",
+        "filelist": {
+            "690": "Nānāsiddhopadeśaḥ"
+        }
+    },
+    "129": {
+        "name": "Narakoddhārastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/129",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "822": "Narakoddhārastotram"
+        }
+    },
+    "18": {
+        "name": "Nārāyaṇaparipṛcchā āryamahāmāyāvijayavāhinī nāma dhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/18",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "220": "Nārāyaṇaparipṛcchā āryamahāmāyāvijayavāhinī nāma dhāraṇī"
+        }
+    },
+    "155": {
+        "name": "Niraupamyastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/155",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "40",
+        "filelist": {
+            "848": "Niraupamyastavaḥ"
+        }
+    },
+    "274": {
+        "name": "Nītiśāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/274",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nīti",
+        "listnr": "67",
+        "filelist": {
+            "1144": "Nītiśāstram"
+        }
+    },
+    "349": {
+        "name": "Nityakarmapūjāvidhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/349",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1412": "Nityakarmapūjāvidhiḥ"
+        }
+    },
+    "273": {
+        "name": "Nṛtyaprasūtiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/273",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nāṭaka",
+        "listnr": "66",
+        "filelist": {
+            "1143": "Nṛtyaprasūtiḥ"
+        }
+    },
+    "294": {
+        "name": "Nyāyabindu prakaraṇakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/294",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1241": "Nyāyabindu prakaraṇakārikā"
+        }
+    },
+    "296": {
+        "name": "Nyāyabinduṭīkāṭippaṇī ",
+        "url": "http://www.dsbcproject.org/canon-text/book/296",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1242": "nyāyabinduṭīkāṭippaṇī"
+        }
+    },
+    "77": {
+        "name": "Nyāyapraveśakasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/77",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "pramāṇa",
+        "listnr": "9",
+        "filelist": {
+            "634": "Nyāyapraveśakasūtram"
+        }
+    },
+    "297": {
+        "name": "Nyāyapraveśapravṛttiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/297",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1243": "Nyāyapraveśapravṛttiḥ"
+        }
+    },
+    "355": {
+        "name": "Pañcakramaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/355",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1418": "Vajrajāpakramaḥ prathamaḥ",
+            "1419": "Anuttarasandhirityaparanāmā sarvaśuddhiviśuddhikramaḥ dvitīyaḥ",
+            "1420": "Svādhiṣṭhānakramaḥ tṛtīyaḥ",
+            "1421": "Abhisambodhikramaḥ caturthaḥ",
+            "1422": "Yuganaddhakramaḥ pañcamaḥ"
+        }
+    },
+    "148": {
+        "name": "Pañcākṣarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/148",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "dharmadhātu",
+        "listnr": "36",
+        "filelist": {
+            "841": "Pañcākṣarastotram"
+        }
+    },
+    "168": {
+        "name": "Pañcarakṣādevīstotrāṇi",
+        "url": "http://www.dsbcproject.org/canon-text/book/168",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcarakṣādevī",
+        "listnr": "46",
+        "filelist": {
+            "861": "Pañcarakṣādevīstotrāṇi"
+        }
+    },
+    "754": {
+        "name": "Pañcaśatikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/754",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "2882": "Pañcaśatikā prajñāpāramitā"
+        }
+    },
+    "334": {
+        "name": "Pañcaskandhaprakaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/334",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1380": "Pañcaskandhaprakaraṇam"
+        }
+    },
+    "164": {
+        "name": "Pañcatathāgatastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/164",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcabuddha",
+        "listnr": "45",
+        "filelist": {
+            "857": "Pañcatathāgatastotram"
+        }
+    },
+    "165": {
+        "name": "Pañcatathāgatastutigāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/165",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcabuddha",
+        "listnr": "45",
+        "filelist": {
+            "858": "Pañcatathāgatastutigāthā"
+        }
+    },
+    "156": {
+        "name": "Paramārthastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/156",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "40",
+        "filelist": {
+            "849": "Paramārthastavaḥ"
+        }
+    },
+    "280": {
+        "name": "Pāramitāsamāsaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/280",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1188": "1. dānapāramitāsamāsaḥ",
+            "1189": "2. śīlapāramitāsamāsaḥ",
+            "1190": "3. kṣāntipāramitāsamāsaḥ",
+            "1191": "4. vīryapāramitāsamāsaḥ",
+            "1192": "5. dhyānapāramitāsamāsaḥ",
+            "1193": "6. prajñāpāramitāsamāsaḥ"
+        }
+    },
+    "817": {
+        "name": "Paribhāṣāvṛtteh",
+        "url": "http://www.dsbcproject.org/canon-text/book/817",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vyākaraṇa",
+        "listnr": "171",
+        "filelist": {
+            "2946": "Paribhāṣāvṛtteh"
+        }
+    },
+    "874": {
+        "name": "Paścāttāpaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/874",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "3004": "Paścāttāpaḥ"
+        }
+    },
+    "356": {
+        "name": "Piṇḍīkramaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/356",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1423": "Piṇḍīkramaḥ"
+        }
+    },
+    "144": {
+        "name": "Pīṭhastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/144",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cakrasaṁvara",
+        "listnr": "35",
+        "filelist": {
+            "837": "Pīṭhastavaḥ"
+        }
+    },
+    "130": {
+        "name": "Potalakāṣṭakam",
+        "url": "http://www.dsbcproject.org/canon-text/book/130",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "823": "Potalakāṣṭakam"
+        }
+    },
+    "70": {
+        "name": "Prajñāpāramitāhṛdayasūtram [saṃkṣiptamātṛkā]",
+        "url": "http://www.dsbcproject.org/canon-text/book/70",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "590": "Prajñāpāramitāhṛdayasūtram [saṁkṣiptamātṛkā]"
+        }
+    },
+    "71": {
+        "name": "Prajñāpāramitāhṛdayasutram [vistaramātṛkā]",
+        "url": "http://www.dsbcproject.org/canon-text/book/71",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "591": "Prajñāpāramitāhṛdayasutram [vistaramātṛkā]"
+        }
+    },
+    "170": {
+        "name": "Prajñāpāramitāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/170",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "47",
+        "filelist": {
+            "863": "Prajñāpāramitāstotram"
+        }
+    },
+    "171": {
+        "name": "Prajñāpāramitāstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/171",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "47",
+        "filelist": {
+            "864": "Prajñāpāramitāstutiḥ"
+        }
+    },
+    "784": {
+        "name": "Prajñopāyaviniścayasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/784",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2912": "Prajñopāyaviniścayasiddhiḥ"
+        }
+    },
+    "298": {
+        "name": "Pramāṇavārtikam",
+        "url": "http://www.dsbcproject.org/canon-text/book/298",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1244": "Prathamaḥ paricchedaḥ",
+            "1245": "Dvitīyaḥ paricchedaḥ",
+            "1246": "Tṛtīyaḥ svārthānumānaparicchedaḥ",
+            "1247": "Parārthānumānanāmā caturthaḥ paricchedaḥ"
+        }
+    },
+    "247": {
+        "name": "Prasannapadā (madhyamakavṛtti)",
+        "url": "http://www.dsbcproject.org/canon-text/book/247",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1049": "Prathamaṁ prakaraṇam",
+            "1050": "Dvitīyaṁ prakaraṇam",
+            "1051": "Tṛtīyaṁ prakaraṇam",
+            "1052": "Caturtha prakaraṇam",
+            "1053": "Pañcamaṁ prakaraṇam",
+            "1054": "Ṣaṣṭhaṁ prakaraṇam",
+            "1055": "Saptamaṁ prakaraṇam",
+            "1056": "Aṣṭamaṁ prakaraṇam",
+            "1057": "Navamaṁ prakaraṇam",
+            "1058": "Daśamaṁ prakaraṇam",
+            "1059": "Ekādaśamaṁ prakaraṇam",
+            "1060": "Dvādaśamaṁ prakaraṇam",
+            "1061": "Trayodaśamaṁ prakaraṇam",
+            "1062": "Caturdaśamaṁ prakaraṇam",
+            "1063": "Pañcadaśamaṁ prakaraṇam",
+            "1064": "Ṣoḍaśamaṁ prakaraṇam",
+            "1065": "Saptadaśamaṁ prakaraṇam",
+            "1066": "Aṣṭādaśamaṁ prakaraṇam",
+            "1067": "Ekonaviṁśatitamaṁ prakaraṇam",
+            "1068": "Viṁśatitamaṁ prakaraṇam",
+            "1069": "Ekaviṁśatitamaṁ prakaraṇam",
+            "1070": "dvāviṁśatitamaṁ prakaraṇam",
+            "1071": "Trayoviṁśatitamaṁ prakaraṇam",
+            "1072": "Caturviṁśatitamaṁ prakaraṇam",
+            "1073": "Pañcaviṁśatitamaṁ prakaraṇam",
+            "1074": "Ṣaḍviṁśatitamaṁ prakaraṇam",
+            "1075": "Saptaviṁśatitamaṁ prakaraṇam"
+        }
+    },
+    "316": {
+        "name": "Pratimālakṣaṇavivaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/316",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śilpaśāstra",
+        "listnr": "71",
+        "filelist": {
+            "1282": "Pratimālakṣaṇavivaraṇam"
+        }
+    },
+    "169": {
+        "name": "Pratisarāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/169",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcarakṣādevī",
+        "listnr": "46",
+        "filelist": {
+            "862": "Pratisarāstotram"
+        }
+    },
+    "65": {
+        "name": "Pratītyasamutpādādivibhaṅganirdeśasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/65",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "nirdeśa",
+        "listnr": "7",
+        "filelist": {
+            "554": "Pratītyasamutpādādivibhaṅganirdeśasūtram"
+        }
+    },
+    "248": {
+        "name": "Pratītyasamutpādahṛdayakārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/248",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1076": "Pratītyasamutpādahṛdayakārikā"
+        }
+    },
+    "249": {
+        "name": "Pratītyasamutpādahṛdayavyākhyānam",
+        "url": "http://www.dsbcproject.org/canon-text/book/249",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1077": "Pratītyasamutpādahṛdayavyākhyānam"
+        }
+    },
+    "131": {
+        "name": "Rakṣākāla (kara) stavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/131",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "824": "Rakṣākāla (kara) stavaḥ"
+        }
+    },
+    "335": {
+        "name": "Ratnagotravibhāgo mahāyānottaratantraśāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/335",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1381": "Prathamaḥ paricchedaḥ",
+            "1382": "Dvitīyaḥ paricchedaḥ",
+            "1383": "Tṛtīyaḥ paricchedaḥ",
+            "1384": "Caturthaḥ paricchedaḥ",
+            "1385": "Paṁcamaḥ paricchedaḥ"
+        }
+    },
+    "72": {
+        "name": "Ratnaguṇasaṃcayagāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/72",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "592": "Prathamaḥ",
+            "593": "Dvitīyaḥ",
+            "594": "Tṛtīyaḥ",
+            "595": "Caturthaḥ",
+            "596": "Pañcamaḥ",
+            "597": "Ṣaṣṭhamaḥ",
+            "598": "Saptamaḥ",
+            "599": "Aṣṭamaḥ",
+            "600": "Navamaḥ",
+            "601": "Daśamaḥ",
+            "602": "ekādaśamaḥ",
+            "603": "Dvādaśamaḥ",
+            "604": "Trayodaśamaḥ",
+            "605": "Caturdaśamaḥ",
+            "606": "Pañcadaśamaḥ",
+            "607": "Ṣoḍaśamaḥ",
+            "608": "Saptadaśamaḥ",
+            "609": "Aṣṭādaśamaḥ",
+            "610": "Ekānnaviṁśatimaḥ",
+            "611": "Viṁśatitamaḥ",
+            "612": "Ekaviṁśatitamaḥ",
+            "613": "Dvāviṁśatitamaḥ",
+            "614": "Trayoviṁśatitamaḥ",
+            "615": "Caturviṁśatitamaḥ",
+            "616": "Pañcaviṁśatimaḥ",
+            "617": "Ṣaḍviṁśatimaḥ",
+            "618": "Saptaviṁśatimaḥ",
+            "619": "Aṣṭāviṁśatimaḥ",
+            "620": "Ekūnatriṁśatimaḥ",
+            "621": "Triṁśatimaḥ",
+            "622": "Ekatriṁśatimaḥ",
+            "623": "Dvātriṁśatimaḥ"
+        }
+    },
+    "300": {
+        "name": "Ratnakīrti nibandhāvalī",
+        "url": "http://www.dsbcproject.org/canon-text/book/300",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1248": "1 sarvajñasiddhiḥ",
+            "1249": "2 īśvarasādhanadūṣaṇam",
+            "1250": "3 apohasiddhiḥ",
+            "1251": "4 kṣaṇabhaṅgasiddhiḥ",
+            "1252": "5 kṣaṇabhaṅgasiddhiḥ",
+            "1253": "6 pramāṇāntarbhāvaprakaraṇam",
+            "1254": "7 vyāptinirṇayaḥ",
+            "1255": "8 sthirasiddhidūṣaṇam",
+            "1256": "9 citrādvaitaprakāśavādaḥ",
+            "1257": "10 santānāntaradūṣaṇam"
+        }
+    },
+    "132": {
+        "name": "Ratnamālāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/132",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "825": "Ratnamālāstotram"
+        }
+    },
+    "233": {
+        "name": "Ratnāvalī",
+        "url": "http://www.dsbcproject.org/canon-text/book/233",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "lekha",
+        "listnr": "63",
+        "filelist": {
+            "997": "ratnāvalī"
+        }
+    },
+    "133": {
+        "name": "Rūpastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/133",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "826": "rūpastavaḥ"
+        }
+    },
+    "807": {
+        "name": "Śabdabhedaprakāśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/807",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "2936": "Śabdabhedaprakāśaḥ"
+        }
+    },
+    "193": {
+        "name": "Ṣaḍabhijñastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/193",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sarvatathāgata",
+        "listnr": "50",
+        "filelist": {
+            "886": "Ṣaḍabhijñastotram"
+        }
+    },
+    "766": {
+        "name": "Saddharma-pārājikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/766",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2894": "Saddharma-pārājikā"
+        }
+    },
+    "53": {
+        "name": "Saddharmalaṅkāvatārasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/53",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "448": "1 rāvaṇādhyeṣaṇāparivartaḥ prathamaḥ",
+            "449": "2 ṣaṭtriṁśatsāhasrasarvadharmasamuccayo nāma dvitīyaḥ parivartaḥ",
+            "450": "3 anityatāparivarto nāma tṛtīyaḥ",
+            "451": "4 abhisamayaparivarto nāma caturthaḥ",
+            "452": "5 tathāgatanityānityaprasaṅgaparivarto nāma pañcamaḥ |",
+            "453": "6 kṣaṇikaparivarto nāma ṣaṣṭhaḥ",
+            "454": "7 nairmāṇikaparivarto nāma saptamaḥ",
+            "455": "8 māṁsabhakṣaṇaparivarto nāmāṣṭamaḥ",
+            "456": "9 dhāraṇīparivarto nāma navamaḥ",
+            "457": "10 sagāthakam"
+        }
+    },
+    "54": {
+        "name": "Saddharmapuṇḍarīkasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/54",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "458": "1 nidānaparivartaḥ",
+            "459": "2 upāyakauśalyaparivartaḥ",
+            "460": "3 aupamyaparivartaḥ",
+            "461": "4 adhimuktiparivartaḥ",
+            "462": "5 oṣadhīparivartaḥ",
+            "463": "6 vyākaraṇaparivartaḥ",
+            "464": "7 pūrvayogaparivartaḥ",
+            "465": "8 pañcabhikṣuśatavyākaraṇaparivartaḥ",
+            "466": "9 ānandādivyākaraṇaparivartaḥ",
+            "467": "10 dharmabhāṇakaparivartaḥ",
+            "468": "11 stūpasaṁdarśanaparivartaḥ",
+            "469": "12 utsāhaparivartaḥ",
+            "470": "13 sukhavihāraparivartaḥ",
+            "471": "14 bodhisattvapṛthivīvirasamudgamaparivartaḥ",
+            "472": "15 tathāgatāyuṣpramāṇaparivartaḥ",
+            "473": "16 puṇyaparyāyaparivartaḥ",
+            "474": "17 anumodanāpuṇyanirdeśaparivartaḥ",
+            "475": "18 dharmabhāṇakānuśaṁsāparivartaḥ",
+            "476": "19 sadāparibhūtaparivartaḥ",
+            "477": "20 tathāgataddharyabhisaṁskāraparivartaḥ",
+            "478": "21 dhāraṇīparivartaḥ",
+            "479": "22 bhaiṣajyarājapūrvayogaparivartaḥ",
+            "480": "23 gadgadasvaraparivartaḥ",
+            "481": "24 samantamukhaparivartaḥ",
+            "482": "25 śubhavyūharājapūrvayogaparivartaḥ",
+            "483": "26 samantabhadrotsāhanaparivartaḥ",
+            "484": "27 anuparīndanāparivartaḥ"
+        }
+    },
+    "813": {
+        "name": "Saddharmasmṛtyupasthānasūtra",
+        "url": "http://www.dsbcproject.org/canon-text/book/813",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "2942": "Saddharmasmṛtyupasthānasūtra"
+        }
+    },
+    "858": {
+        "name": "Ṣaḍgatikārikāḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/858",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "2986": "Ṣaḍgatikārikāḥ"
+        }
+    },
+    "134": {
+        "name": "Ṣaḍgatistotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/134",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "827": "Ṣaḍgatistotram"
+        }
+    },
+    "179": {
+        "name": "Śākyasiṃhastotram (brahmaṇā kṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/179",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "872": "Śākyasiṁhastotram (brahmaṇā kṛtam)"
+        }
+    },
+    "180": {
+        "name": "Śākyasiṃhastotram (chando'mṛtoddhṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/180",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "873": "Śākyasiṁhastotram (chando&#039;mṛtoddhṛtam)"
+        }
+    },
+    "181": {
+        "name": "Śākyasiṃhastotram (durgatipariśodhanoddhṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/181",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "874": "Śākyasiṁhastotram (durgatipariśodhanoddhṛtam)"
+        }
+    },
+    "182": {
+        "name": "Śākyasiṃhastotram (navagrahakṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/182",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "875": "Śākyasiṁhastotram (navagrahakṛtam)"
+        }
+    },
+    "183": {
+        "name": "Śākyasiṃhastotram (śaṅkarakṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/183",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "876": "Śākyasiṁhastotram (śaṅkarakṛtam)"
+        }
+    },
+    "184": {
+        "name": "Śākyasiṃhastotram (surapatikṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/184",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "877": "Śākyasiṁhastotram (surapatikṛtam)"
+        }
+    },
+    "185": {
+        "name": "Śākyasiṃhastotram (viṣṇukṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/185",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "878": "Śākyasiṁhastotram (viṣṇukṛtam)"
+        }
+    },
+    "186": {
+        "name": "Śākyasiṃhastotram (yaśodharākṛtam)",
+        "url": "http://www.dsbcproject.org/canon-text/book/186",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "879": "Śākyasiṁhastotram (yaśodharākṛtam)"
+        }
+    },
+    "55": {
+        "name": "Śālistambasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/55",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "485": "Śālistambasūtram"
+        }
+    },
+    "56": {
+        "name": "Samādhirājasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/56",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "486": "Nidānaparivartaḥ",
+            "487": "Śālendrarājapūrvayogaparivarto dvitīyaḥ",
+            "488": "Bhūtaguṇavarṇaprakāśanaparivartaḥ",
+            "489": "Buddhānusmṛtiparivartaḥ",
+            "490": "Ghoṣadattaparivartaḥ",
+            "491": "Samādhiparivartaḥ",
+            "492": "Trikṣāntyavatāraparivartaḥ",
+            "493": "Abhāvasamudgataparivartaḥ",
+            "494": "Gambhīradharmakṣāntiparivartaḥ",
+            "495": "Purapraveśaparivartaḥ",
+            "496": "Sūtradhāraṇaparivartaḥ",
+            "497": "Samādhyanuśikṣaṇāparivartaḥ",
+            "498": "Samādhinirdeśaparivartaḥ",
+            "499": "Smitasaṁdarśanaparivartaḥ",
+            "500": "Smitavyākaraṇaparivartaḥ",
+            "501": "Pūrvayogaparivartaḥ",
+            "502": "Bahubuddhanirhārasamādhimukhaparivartaḥ",
+            "503": "Samādhyanuparindanaparivartaḥ",
+            "504": "Acintyabuddhadharmanirdeśaparivartaḥ",
+            "505": "Indraketudhvajarājaparivartaḥ",
+            "506": "Pūrvayogaparivartaḥ",
+            "507": "Tathāgatakāyanirdeśaparivartaḥ",
+            "508": "Tathāgatācintyanirdeśaparivartaḥ",
+            "509": "Pratisaṁvidavatāraparivartaḥ",
+            "510": "Anumodanāparivartaḥ",
+            "511": "dānānuśaṁsāparivartaḥ",
+            "512": "Śīlanirdeśaparivartaḥ",
+            "513": "Daśānuśaṁsāparivartaḥ",
+            "514": "Tejaguṇarājaparivartaḥ",
+            "515": "Anuśaṁsāparivartaḥ",
+            "516": "Sarvadharmasvabhāvanirdeśaparivartaḥ",
+            "517": "Sūtradhāraṇānuśaṁsāparivartaḥ",
+            "518": "Kṣemadattaparivartaḥ",
+            "519": "Jñānāvatīparivartaḥ",
+            "520": "Supuṣpacandraparivartaḥ",
+            "521": "Śīlaskandhanirdeśaparivartaḥ",
+            "522": "Yaśaḥ prabhaparivartaḥ",
+            "523": "Kyavāṅbhanaḥsaṁvaraparivartaḥ",
+            "524": "Padatriśatanirdeśaparivartaḥ",
+            "525": "Parīndanāparivartaḥ"
+        }
+    },
+    "267": {
+        "name": "Samādhisaṃbhāraparivartaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/267",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1115": "Samādhisaṁbhāraparivartaḥ"
+        }
+    },
+    "758": {
+        "name": "Samājasādhanavyavastholi",
+        "url": "http://www.dsbcproject.org/canon-text/book/758",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "2886": "Samājasādhanavyavastholi"
+        }
+    },
+    "756": {
+        "name": "Samantabhadra nāma sādhana ṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/756",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "2884": "Samantabhadra nāma sādhana ṭīkā"
+        }
+    },
+    "301": {
+        "name": "Sāmānyadūṣaṇadikprasāritā",
+        "url": "http://www.dsbcproject.org/canon-text/book/301",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1258": "Sāmānyadūṣaṇadikprasāritā"
+        }
+    },
+    "302": {
+        "name": "Sambandhaparīkṣā",
+        "url": "http://www.dsbcproject.org/canon-text/book/302",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1259": "Sambandhaparīkṣā"
+        }
+    },
+    "317": {
+        "name": "Samyaksambuddhabhāṣitaṃ pratimālakṣaṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/317",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śilpaśāstra",
+        "listnr": "71",
+        "filelist": {
+            "1283": "Samyaksambuddhabhāṣitaṁ pratimālakṣaṇam"
+        }
+    },
+    "848": {
+        "name": "Saṅgītamālikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/848",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "2976": "Saṅgītamālikā"
+        }
+    },
+    "19": {
+        "name": "Ṣaṇmukhī dhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/19",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "221": "Ṣaṇmukhī dhāraṇī"
+        }
+    },
+    "303": {
+        "name": "Santānāntarasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/303",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1260": "Santānāntarasiddhiḥ"
+        }
+    },
+    "304": {
+        "name": "Santānāntarasiddhiṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/304",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1261": "Santānāntarasiddhiṭīkā"
+        }
+    },
+    "189": {
+        "name": "Saptabuddhastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/189",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "saptabuddha",
+        "listnr": "49",
+        "filelist": {
+            "882": "Saptabuddhastotram"
+        }
+    },
+    "190": {
+        "name": "Saptajinastavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/190",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "saptabuddha",
+        "listnr": "49",
+        "filelist": {
+            "883": "Saptajinastavaḥ"
+        }
+    },
+    "135": {
+        "name": "Saptākṣarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/135",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "828": "Saptākṣarastotram"
+        }
+    },
+    "73": {
+        "name": "Saptaśatikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/73",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "624": "Saptaśatikā prajñāpāramitā"
+        }
+    },
+    "136": {
+        "name": "Saptavidhānuttarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/136",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "avalokiteśvara",
+        "listnr": "31",
+        "filelist": {
+            "829": "Saptavidhānuttarastotram"
+        }
+    },
+    "137": {
+        "name": "Śāradāṣṭakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/137",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "bhagavatī",
+        "listnr": "32",
+        "filelist": {
+            "830": "Śāradāṣṭakastotram"
+        }
+    },
+    "350": {
+        "name": "Sarahapādasya dohākoṣaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/350",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1413": "Sarahapādasya dohākoṣaḥ"
+        }
+    },
+    "250": {
+        "name": "Śaraṇagamanadeśanā",
+        "url": "http://www.dsbcproject.org/canon-text/book/250",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1078": "Śaraṇagamanadeśanā"
+        }
+    },
+    "281": {
+        "name": "Sāratamākhyā pañjikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/281",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "68",
+        "filelist": {
+            "1194": "Sarvākārajñatācaryāparivarto nāma prathamaḥ",
+            "1195": "Śakraparivarto nāma dvitīyaḥ",
+            "1196": "Aprameyaguṇadhāraṇapāramitāstūpasatkāro nāma tṛtīyaḥ",
+            "1197": "Guṇaparikīrtanaparivarto nāma caturthaḥ",
+            "1198": "Puṇyaparyāyaparivarto nāma pañcamaḥ",
+            "1199": "Anumodanāparimāṇamanāparivarto nāma ṣaṣṭhaḥ",
+            "1200": "Nirayaparivarto nāma saptamaḥ",
+            "1201": "Viśuddhiparivarto nāmāṣṭamaḥ",
+            "1202": "Stutiparivarto nāma navamaḥ",
+            "1203": "Dhāraṇaguṇaparikīrtanaparivarto nāma daśamaḥ",
+            "1204": "Mārakarmaparivarto nāmaikādaśamaḥ",
+            "1205": "Lokasaṁdarśanaparivarto nāma dvādaśaḥ",
+            "1206": "trayodaśamaḥ",
+            "1207": "Caturdaśamaḥ",
+            "1208": "Devaparivarto nāma pañcadaśaḥ",
+            "1209": "Tathatāparivarto nāma ṣoḍaśaḥ",
+            "1210": "Avinirvatanīyākāraliṅganimittaparivarto nāma saptadaśaḥ",
+            "1211": "Śūnyatāparivarto nāmāṣṭādaśaḥ",
+            "1212": "Gaṅgadevābhaginīparivarto nāmekonaviṁśatitamaḥ",
+            "1213": "Upāyakauśalyamīmāṁsāparivarto nāma viṁśatitamaḥ",
+            "1214": "Mārakarmaparivarto nāmaikaviṁśatitamaḥ",
+            "1215": "Kalyāṇamitraparivarto nāma dvāviṁśatitamaḥ",
+            "1216": "Śakraparivarto nāma trayoviṁśatitamaḥ",
+            "1217": "Abhimānaparivarto nāma catarśititamaḥ",
+            "1218": "Śikṣāparivarto nāma pañcaviṁśatitamaḥ",
+            "1219": "Māyopamaparivarto nāma ṣaḍviṁśatitamaḥ",
+            "1220": "Sāraparivarto nāma saptaviṁśatitamaḥ",
+            "1221": "Avakīrṇakusumaparivarto nāmāṣṭāviṁśatitamaḥ",
+            "1222": "Anugamaparivarto nāmaikonatriṁśattamaḥ",
+            "1223": "Sadāpraruditaparivarto nāma triṁśattamaḥ",
+            "1224": "Dharmodgataparivarto nāmaikatriśattamaḥ",
+            "1225": "Parīnandanāparivarto nāma dvātriṁśattamaḥ"
+        }
+    },
+    "84": {
+        "name": "Sarva tathāgata tattva saṅgrahaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/84",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoga tantra",
+        "listnr": "15",
+        "filelist": {
+            "714": "Prathamaḥ",
+            "715": "Dvitīyaḥ",
+            "716": "Tṛtīyaḥ",
+            "717": "Caturthaḥ",
+            "718": "Pañcamaḥ",
+            "719": "Ṣaṣṭhamaḥ",
+            "720": "Saptamaḥ",
+            "721": "Aṣṭamaḥ",
+            "722": "Navamaḥ",
+            "723": "Daśamaḥ",
+            "724": "ekādaśamaḥ",
+            "725": "Dvādaśamaḥ",
+            "726": "Trayodaśamaḥ",
+            "727": "Caturdaśamaḥ",
+            "728": "Pañcadaśamaḥ",
+            "729": "Ṣoḍaśamaḥ",
+            "730": "Saptadaśamaḥ",
+            "731": "Aṣṭādaśamaḥ",
+            "732": "Ekānnaviṁśatimaḥ",
+            "733": "Viṁśatitamaḥ",
+            "734": "Ekaviṁśatitamaḥ",
+            "735": "Dvāviṁśatitamaḥ",
+            "736": "Trayoviṁśatitamaḥ",
+            "737": "Caturviṁśatitamaḥ",
+            "738": "Pañcaviṁśatimaḥ",
+            "739": "Ṣaḍviṁśatimaḥ"
+        }
+    },
+    "873": {
+        "name": "Sarvabuddhaviṣayāvatārajñānālokālaṁkāra nāma mahāyānasūtra",
+        "url": "http://www.dsbcproject.org/canon-text/book/873",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "3003": "Sarvabuddhaviṣayāvatārajñānālokālaṁkāra nāma mahāyānasūtra"
+        }
+    },
+    "730": {
+        "name": "Sarvadurgatipariśodhana tantra",
+        "url": "http://www.dsbcproject.org/canon-text/book/730",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "yoga tantra",
+        "listnr": "15",
+        "filelist": {
+            "2858": "Sarvadurgatipariśodhana tantra"
+        }
+    },
+    "732": {
+        "name": "Sarvaśabdabhāvacarcā",
+        "url": "http://www.dsbcproject.org/canon-text/book/732",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "2860": "Sarvaśabdabhāvacarcā"
+        }
+    },
+    "57": {
+        "name": "Sarvatathāgatādhiṣṭhānavyūham sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/57",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "526": "Sarvatathāgatādhiṣṭhānavyūham sūtram"
+        }
+    },
+    "275": {
+        "name": "Śatagāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/275",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "nīti",
+        "listnr": "67",
+        "filelist": {
+            "1145": "Śatagāthā"
+        }
+    },
+    "172": {
+        "name": "Ṣaṭpāramitāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/172",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "prajñāpāramitā",
+        "listnr": "47",
+        "filelist": {
+            "865": "Ṣaṭpāramitāstotram"
+        }
+    },
+    "145": {
+        "name": "Ṣaṭtriṃśatsaṃvarastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/145",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cakrasaṁvara",
+        "listnr": "35",
+        "filelist": {
+            "838": "Ṣaṭtriṁśatsaṁvarastutiḥ"
+        }
+    },
+    "187": {
+        "name": "Sattvārādhanagāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/187",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "880": "Sattvārādhanagāthā"
+        }
+    },
+    "251": {
+        "name": "Satyadvayāvatāranāma",
+        "url": "http://www.dsbcproject.org/canon-text/book/251",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1079": "Satyadvayāvatāranāma"
+        }
+    },
+    "311": {
+        "name": "Satyasiddhiśāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/311",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "sautrāntika",
+        "listnr": "70",
+        "filelist": {
+            "1274": "1 atha prasthānaskandhaḥ",
+            "1275": "2 atha duḥkhasatyaskandhaḥ",
+            "1276": "3 atha samudayasatyaskandhaḥ",
+            "1277": "4 atha nirodhasatyaskandhaḥ",
+            "1278": "5 atha mārgasatyaskandhaḥ"
+        }
+    },
+    "224": {
+        "name": "Saundaranandam Mahākāvyam",
+        "url": "http://www.dsbcproject.org/canon-text/book/224",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "929": "Prathamaḥ sargaḥ",
+            "930": "Dvitīyaḥ sargaḥ",
+            "931": "Tṛtīyaḥ sargaḥ",
+            "932": "Caturthaḥ sargaḥ",
+            "933": "Pañcamaḥ sargaḥ",
+            "934": "Ṣaṣṭhaḥ sargaḥ",
+            "935": "Saptamaḥ sargaḥ",
+            "936": "Aṣṭamaḥ sargaḥ",
+            "937": "Navamaḥ sargaḥ",
+            "938": "Daśamaḥ sargaḥ",
+            "939": "Ekādaśaḥ sargaḥ",
+            "940": "Dvādaśaḥ sargaḥ",
+            "941": "Trayodaśaḥ sargaḥ",
+            "942": "Caturdaśaḥ sargaḥ",
+            "943": "Pañcadaśaḥ sargaḥ",
+            "944": "Ṣoḍaśaḥ sargaḥ",
+            "945": "Saptadaśaḥ sargaḥ",
+            "946": "Aṣṭādaśaḥ sargaḥ"
+        }
+    },
+    "725": {
+        "name": "Śayanāsanavastu",
+        "url": "http://www.dsbcproject.org/canon-text/book/725",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2853": "Śayanāsanavastu"
+        }
+    },
+    "105": {
+        "name": "Sekoddeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/105",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "799": "Sekoddeśaḥ"
+        }
+    },
+    "106": {
+        "name": "Sekoddeśapañjikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/106",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "800": "Sekoddeśapañjikā"
+        }
+    },
+    "225": {
+        "name": "Siddhārthacaritakāvyam",
+        "url": "http://www.dsbcproject.org/canon-text/book/225",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "947": "Prathamaḥ sargaḥ",
+            "948": "Dvitīyaḥ sargaḥ",
+            "949": "Tṛtīyaḥ sargaḥ",
+            "950": "Caturthaḥ sargaḥ",
+            "951": "Pañcamaḥ sargaḥ",
+            "952": "Ṣaṣṭhaḥ sargaḥ",
+            "953": "Saptamaḥ sargaḥ",
+            "954": "Aṣṭamaḥ sargaḥ",
+            "955": "Navamaḥ sargaḥ",
+            "956": "Daśamaḥ sargaḥ"
+        }
+    },
+    "268": {
+        "name": "Śikṣāsamuccaya kārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/268",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1116": "Śikṣāsamuccaya kārikā"
+        }
+    },
+    "269": {
+        "name": "Śikṣāsamuccayaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/269",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka-yogācāra",
+        "listnr": "65",
+        "filelist": {
+            "1117": "Dānapāramitā prathamaḥ paricchedaḥ",
+            "1118": "Saddharmaparigraho dvitīyaḥ paricchedaḥ",
+            "1119": "Dharmabhāṇakādirakṣā tṛtīyaḥ paricchedaḥ",
+            "1120": "Anarthavarjanaṁ caturthaḥ paricchedaḥ",
+            "1121": "Śīlapāramitāyāmanarthavarjanaṁ pañcamaḥ paricchedaḥ",
+            "1122": "Ātmabhāvarakṣā ṣaṣṭhaḥ paricchedaḥ",
+            "1123": "Bhogapuṇyarakṣā saptamaḥ paricchedaḥ",
+            "1124": "Pāpaśodhanaṁ nāma aṣṭamaḥ paricchedaḥ",
+            "1125": "Kṣāntipāramitā navamaḥ paricchedaḥ",
+            "1126": "Vīryapāramitā daśamaḥ paricchedaḥ",
+            "1127": "Araṇyasaṁvarṇanaṁ nāmaikādaśaḥ paricchedaḥ",
+            "1128": "Cittaparikarma dvādaśaḥ paricchedaḥ",
+            "1129": "Smṛtyupasthānaparicchedaḥ trayodaśaḥ",
+            "1130": "Ātmabhāvapariśuddhiparicchedaścaturdaśaḥ",
+            "1131": "Bhogapuṇyaśuddhiḥ pañcadaśaḥ paricchedaḥ",
+            "1132": "Bhadracaryāvidhiḥ ṣoḍaśaḥ paricchedaḥ",
+            "1133": "Vandanānuśaṁsā saptadaśaḥ paricchedaḥ",
+            "1134": "Ratnatrayānusmṛtirnāmāṣṭādaśaḥ paricchedaḥ",
+            "1135": "Puṇyavṛddhirnāma navadaśaḥ paricchedaḥ"
+        }
+    },
+    "234": {
+        "name": "Śiṣyalekha",
+        "url": "http://www.dsbcproject.org/canon-text/book/234",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "lekha",
+        "listnr": "63",
+        "filelist": {
+            "998": "Śiṣyalekha"
+        }
+    },
+    "20": {
+        "name": "Sitātapatrā dhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/20",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "222": "Sitātapatrā dhāraṇī"
+        }
+    },
+    "751": {
+        "name": "Smāhitā Bhūmiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/751",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "2879": "Smāhitā Bhūmiḥ"
+        }
+    },
+    "166": {
+        "name": "Sragdharāpañcakastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/166",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pañcabuddha",
+        "listnr": "45",
+        "filelist": {
+            "859": "Sragdharāpañcakastotram"
+        }
+    },
+    "336": {
+        "name": "Śrāvakabhūmiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/336",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1386": "Prathamaṁ yogasthānam",
+            "1387": "Dvitīyaṁ yogasthānam",
+            "1388": "Tṛtīyaṁ yogasthānam",
+            "1389": "Caturthaṁ yogasthānam"
+        }
+    },
+    "351": {
+        "name": "Śrī Vajravārāhisādhana",
+        "url": "http://www.dsbcproject.org/canon-text/book/351",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1414": "Śrī Vajravārāhīsādhana"
+        }
+    },
+    "735": {
+        "name": "Śrīcakrasambarābhisamayavyākhyā",
+        "url": "http://www.dsbcproject.org/canon-text/book/735",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2863": "Śrīcakrasambarābhisamayavyākhyā"
+        }
+    },
+    "357": {
+        "name": "Śrīguhyasamājamaṇḍalavidhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/357",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1424": "Śrīguhyasamājamaṇḍalavidhiḥ"
+        }
+    },
+    "723": {
+        "name": "Śrīguhyasamājatantram",
+        "url": "http://www.dsbcproject.org/canon-text/book/723",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "anuttarayoga Tantra",
+        "listnr": "154",
+        "filelist": {
+            "2967": "Śrīguhyasamājatantram"
+        }
+    },
+    "768": {
+        "name": "Śrīlokeśvarabhāṣitaparājikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/768",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2896": "Śrīlokeśvarabhāṣitaparājikā"
+        }
+    },
+    "786": {
+        "name": "Śrīsahajasiddhi",
+        "url": "http://www.dsbcproject.org/canon-text/book/786",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2914": "Śrīsahajasiddhi"
+        }
+    },
+    "103": {
+        "name": "Subodhālaṅkāraḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/103",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "abhidharma",
+        "listnr": "20",
+        "filelist": {
+            "797": "Subodhālaṅkāraḥ"
+        }
+    },
+    "235": {
+        "name": "Suhṛllekhaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/235",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "lekha",
+        "listnr": "63",
+        "filelist": {
+            "999": "Suhṛllekhaḥ"
+        }
+    },
+    "58": {
+        "name": "Sukhāvatīvyūhaḥ (saṃkṣiptamātṛkā)",
+        "url": "http://www.dsbcproject.org/canon-text/book/58",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "527": "Sukhāvatīvyūhaḥ (saṁkṣiptamātṛkā)"
+        }
+    },
+    "59": {
+        "name": "Sukhāvatīvyūhaḥ (vistaramātṛkā)",
+        "url": "http://www.dsbcproject.org/canon-text/book/59",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "528": "Sukhāvatīvyūhaḥ (vistaramātṛkā)"
+        }
+    },
+    "252": {
+        "name": "Śūnyatāsaptatiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/252",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1080": "Śūnyatāsaptatiḥ"
+        }
+    },
+    "188": {
+        "name": "Suprabhātastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/188",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "śākyamuni",
+        "listnr": "48",
+        "filelist": {
+            "881": "Suprabhātastotram"
+        }
+    },
+    "253": {
+        "name": "Sūtrārthasamuccayopadeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/253",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1081": "Sūtrārthasamuccayopadeśaḥ"
+        }
+    },
+    "60": {
+        "name": "Suvarṇaprabhāsasūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/60",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "529": "Nidānaparivartaḥ",
+            "530": "Tathāgatāyuḥpramāṇanirdeśaparivartaḥ",
+            "531": "Svapnaparivartaḥ",
+            "532": "Deśanāparivartaḥ",
+            "533": "Kamalākarasarvatathāgatastavaparivartaḥ",
+            "534": "Śūnyatāparivartaḥ",
+            "535": "Caturmahārājaparivartaḥ",
+            "536": "Sarasvatīdevīparivartaḥ",
+            "537": "Śrīmahādevīparivartaḥ",
+            "538": "Sarvabuddhabodhisattvanāmasaṁdhāraṇiparivartaḥ",
+            "539": "Dṛḍhāpṛthivīdevatāparivartaḥ",
+            "540": "Saṁjñeyamahāyakṣasenāpatiparivartaḥ",
+            "541": "Devendrasamayarājaśāstraparivartaḥ",
+            "542": "Susaṁbhavaparivartaḥ",
+            "543": "Yakṣāśrayarakṣāparivartaḥ",
+            "544": "Daśadevaputrasahasravyākaraṇaparivartaḥ",
+            "545": "Vyādhipraśamanaparivartaḥ",
+            "546": "Jalavāhanasya matsyavaineyaparivartaḥ",
+            "547": "Vyāghrīparivartaḥ",
+            "548": "Sarvatathāgatastavaparivartaḥ",
+            "549": "Nigamanaparivartaḥ"
+        }
+    },
+    "74": {
+        "name": "Suvikrāntavikrāmiparipṛcchā nāma sārdhadvisāhasrikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/74",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "625": "1 nidānaparivartaḥ",
+            "626": "2 ānandaparivarto dvitīyaḥ",
+            "627": "3 tathatāparivartastṛtīyaḥ",
+            "628": "4 aupamyaparivartaścaturthaḥ",
+            "629": "5 subhūtiparivartaḥ pañcamaḥ",
+            "630": "6 caryāparivartaḥ ṣaṣṭhaḥ",
+            "631": "7 anuśaṁsāparivartaḥ saptamaḥ"
+        }
+    },
+    "721": {
+        "name": "Svabhāvavādaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/721",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "2850": "Svabhāvavādaḥ"
+        }
+    },
+    "75": {
+        "name": "Svalpākṣarā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/75",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "632": "Svalpākṣarā prajñāpāramitā"
+        }
+    },
+    "747": {
+        "name": "Śvānastavakāvyam",
+        "url": "http://www.dsbcproject.org/canon-text/book/747",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "2875": "Śvānastavakāvyam"
+        }
+    },
+    "770": {
+        "name": "Svapnādhyāya",
+        "url": "http://www.dsbcproject.org/canon-text/book/770",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cikitsavidyā",
+        "listnr": "23",
+        "filelist": {
+            "2898": "Svapnādhyāya"
+        }
+    },
+    "788": {
+        "name": "Svastyayanagāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/788",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "nirdeśa",
+        "listnr": "7",
+        "filelist": {
+            "2916": "svastyayanagāthā"
+        }
+    },
+    "7": {
+        "name": "Svayambhū purāṇa",
+        "url": "http://www.dsbcproject.org/canon-text/book/7",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "avadāna",
+        "listnr": "3",
+        "filelist": {
+            "193": "Prathama adhyāyaḥ",
+            "194": "Dvitīya adhyāyaḥ",
+            "195": "Tṛtīya adhyāyaḥ",
+            "196": "Caturtha adhyāyaḥ",
+            "197": "Pañcama adhyāyaḥ",
+            "198": "Ṣaṣṭhama adhyāyaḥ",
+            "199": "Saptama adhyāyaḥ",
+            "200": "Aṣṭama adhyāyaḥ",
+            "201": "Navama adhyāyaḥ",
+            "202": "Daśama adhyāyaḥ"
+        }
+    },
+    "197": {
+        "name": "Svayaṃbhūstavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/197",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "svayambhū",
+        "listnr": "51",
+        "filelist": {
+            "890": "Svayaṁbhūstavaḥ"
+        }
+    },
+    "198": {
+        "name": "Svayambhūstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/198",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "svayambhū",
+        "listnr": "51",
+        "filelist": {
+            "891": "Svayambhūstotram"
+        }
+    },
+    "322": {
+        "name": "Tarkabhāṣā",
+        "url": "http://www.dsbcproject.org/canon-text/book/322",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "1286": "1 pratyakṣam",
+            "1287": "2 svārthānumānam",
+            "1288": "3 parārthānumānam"
+        }
+    },
+    "323": {
+        "name": "Tarkabhāṣāṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/323",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "1289": "Tarkabhāṣāṭīkā"
+        }
+    },
+    "305": {
+        "name": "Tarkaśāstram",
+        "url": "http://www.dsbcproject.org/canon-text/book/305",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1262": "Atha prathamaṁ prakaraṇam",
+            "1263": "Atha dvitīyaṁ prakaraṇam",
+            "1264": "Atha tṛtīyaṁ prakaraṇam"
+        }
+    },
+    "834": {
+        "name": "Tattvajñānasaṁsiddhi-mahāsukharakāśikā-ṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/834",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2961": "Tattvajñānasaṁsiddhi-mahāsukharakāśikā-ṭīkā"
+        }
+    },
+    "352": {
+        "name": "Tattvajñānasaṃsiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/352",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1415": "Tattvajñānasaṁsiddhiḥ"
+        }
+    },
+    "790": {
+        "name": "Tattvaratnāvalī",
+        "url": "http://www.dsbcproject.org/canon-text/book/790",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "2918": "Tattvaratnāvalī"
+        }
+    },
+    "358": {
+        "name": "Tattvaratnāvalokaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/358",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1425": "Tattvaratnāvalokaḥ"
+        }
+    },
+    "359": {
+        "name": "Tattvasiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/359",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogottaratantraṭīkā",
+        "listnr": "76",
+        "filelist": {
+            "1426": "Tattvasiddhiḥ"
+        }
+    },
+    "337": {
+        "name": "Triṃśikāvijñaptikārikāḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/337",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1390": "Triṁśikāvijñaptikārikāḥ"
+        }
+    },
+    "811": {
+        "name": "Triratnasaundaryagāthā",
+        "url": "http://www.dsbcproject.org/canon-text/book/811",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "2940": "Triratnasaundaryagāthā"
+        }
+    },
+    "338": {
+        "name": "Trisvabhāvanirdeśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/338",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1391": "Trisvabhāvanirdeśaḥ"
+        }
+    },
+    "306": {
+        "name": "Udayananirākaraṇam",
+        "url": "http://www.dsbcproject.org/canon-text/book/306",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1265": "Prathamo&#039;dhyāyaḥ",
+            "1266": "Dvitīyo&#039;dhyāyaḥ",
+            "1267": "Tṛtīyo&#039;dhyāyaḥ"
+        }
+    },
+    "825": {
+        "name": "Upasampadā jñaptiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/825",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2954": "Upasampadā jñaptiḥ"
+        }
+    },
+    "307": {
+        "name": "Upāyahṛdayam",
+        "url": "http://www.dsbcproject.org/canon-text/book/307",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1268": "Atha prathamaṁ prakaraṇam",
+            "1269": "Atha dvitīyaṁ prakaraṇam",
+            "1270": "Atha tṛtīyaṁ prakaraṇam",
+            "1271": "Athe caturthaṁ prakaraṇam"
+        }
+    },
+    "353": {
+        "name": "Upodghātaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/353",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yoginītantraṭīkā",
+        "listnr": "75",
+        "filelist": {
+            "1416": "Upodghātaḥ"
+        }
+    },
+    "308": {
+        "name": "Vādanyāyaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/308",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1272": "Vādanyāyaḥ"
+        }
+    },
+    "204": {
+        "name": "Vāgīśvaravarṇanāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/204",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vāgīśvara",
+        "listnr": "54",
+        "filelist": {
+            "897": "Vāgīśvaravarṇanāstotram"
+        }
+    },
+    "138": {
+        "name": "Vāgvāṇīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/138",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "bhagavatī",
+        "listnr": "32",
+        "filelist": {
+            "831": "Vāgvāṇīstotram"
+        }
+    },
+    "76": {
+        "name": "Vajracchedikā nāma triśatikā prajñāpāramitā",
+        "url": "http://www.dsbcproject.org/canon-text/book/76",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "prajñāpāramitā",
+        "listnr": "8",
+        "filelist": {
+            "633": "vajracchedikā nāma triśatikā prajñāpāramitā"
+        }
+    },
+    "212": {
+        "name": "Vajradevīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/212",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "905": "Vajradevīstotram"
+        }
+    },
+    "159": {
+        "name": "Vajramahākālastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/159",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "mahākāla",
+        "listnr": "42",
+        "filelist": {
+            "852": "Vajramahākālastotram"
+        }
+    },
+    "205": {
+        "name": "Vajrapāṇināmāṣṭottaraśatastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/205",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrapāṇi",
+        "listnr": "55",
+        "filelist": {
+            "898": "Vajrapāṇināmāṣṭottaraśatastotram"
+        }
+    },
+    "818": {
+        "name": "Vajrasattvaniṣpādana Sūtra",
+        "url": "http://www.dsbcproject.org/canon-text/book/818",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "2947": "Vajrasattvaniṣpādana Sūtra"
+        }
+    },
+    "209": {
+        "name": "Vajrasattvastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/209",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrasattva",
+        "listnr": "57",
+        "filelist": {
+            "902": "Vajrasattvastotram"
+        }
+    },
+    "210": {
+        "name": "Vajrasattvastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/210",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrasattva",
+        "listnr": "57",
+        "filelist": {
+            "903": "Vajrasattvastutiḥ"
+        }
+    },
+    "764": {
+        "name": "Vajrasatva-pārājikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/764",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "2892": "Vajrasatva-pārājikā"
+        }
+    },
+    "310": {
+        "name": "Vajrasūcī",
+        "url": "http://www.dsbcproject.org/canon-text/book/310",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "1273": "Vajrasūcī"
+        }
+    },
+    "213": {
+        "name": "Vajravilāsinīsādhanāstavaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/213",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "906": "Vajravilāsinīsādhanāstavaḥ"
+        }
+    },
+    "214": {
+        "name": "Vajravilāsinīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/214",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "907": "Vajravilāsinīstotram"
+        }
+    },
+    "832": {
+        "name": "Vajrayāna darśana mīmāṁsā",
+        "url": "http://www.dsbcproject.org/canon-text/book/832",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vividha",
+        "listnr": "73",
+        "filelist": {
+            "2959": "Vajrayāna darśana mīmāṁsā"
+        }
+    },
+    "215": {
+        "name": "Vajrayoginīpraṇāmaikaviśikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/215",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "908": "vajrayoginīpraṇāmaikaviśikā"
+        }
+    },
+    "216": {
+        "name": "Vajrayoginyāḥ piṇḍārthastutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/216",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "909": "Vajrayoginyāḥ piṇḍārthastutiḥ"
+        }
+    },
+    "217": {
+        "name": "Vajrayoginyāḥ stutipraṇidhānam",
+        "url": "http://www.dsbcproject.org/canon-text/book/217",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vajrayoginī",
+        "listnr": "58",
+        "filelist": {
+            "910": "Vajrayoginyāḥ stutipraṇidhānam"
+        }
+    },
+    "745": {
+        "name": "Vāṅmaṇḍalanamaskāraślokāḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/745",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "advayatantraṭīkā",
+        "listnr": "21",
+        "filelist": {
+            "2873": "Vāṅmaṇḍalanamaskāraślokāḥ"
+        }
+    },
+    "146": {
+        "name": "Vasantatilakāstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/146",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "cakrasaṁvara",
+        "listnr": "35",
+        "filelist": {
+            "839": "Vasantatilakāstutiḥ"
+        }
+    },
+    "21": {
+        "name": "Vasudhārādhāraṇī",
+        "url": "http://www.dsbcproject.org/canon-text/book/21",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "dhāraṇī",
+        "listnr": "4",
+        "filelist": {
+            "223": "Vasudhārādhāraṇī"
+        }
+    },
+    "218": {
+        "name": "Vasudhārānāmadhāraṇīstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/218",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vasudhārā",
+        "listnr": "59",
+        "filelist": {
+            "911": "Vasudhārānāmadhāraṇīstotram"
+        }
+    },
+    "219": {
+        "name": "Vasudhārāstotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/219",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "vasudhārā",
+        "listnr": "59",
+        "filelist": {
+            "912": "Vasudhārāstotram"
+        }
+    },
+    "141": {
+        "name": "Vidyākṣarastotram",
+        "url": "http://www.dsbcproject.org/canon-text/book/141",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "caityabhaṭṭāraka",
+        "listnr": "34",
+        "filelist": {
+            "834": "Vidyākṣarastotram"
+        }
+    },
+    "254": {
+        "name": "Vigrahavyāvartanī",
+        "url": "http://www.dsbcproject.org/canon-text/book/254",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1082": "Vigrahavyāvartanī"
+        }
+    },
+    "111": {
+        "name": "Vikramāraccivaibhavam",
+        "url": "http://www.dsbcproject.org/canon-text/book/111",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "paṇḍita",
+        "listnr": "26",
+        "filelist": {
+            "804": "Vikramāraccivaibhavam"
+        }
+    },
+    "61": {
+        "name": "Vimalakīrtinirdeśa sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/61",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "550": "Vimalakīrtinirdeśa sūtram"
+        }
+    },
+    "879": {
+        "name": "Vimalaratnalekhaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/879",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "lekha",
+        "listnr": "63",
+        "filelist": {
+            "3009": "Vimalaratnalekhaḥ"
+        }
+    },
+    "339": {
+        "name": "Viṃśatikā vijñaptimātratāsiddhiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/339",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1392": "Viṁśatikā vijñaptimātratāsiddhiḥ"
+        }
+    },
+    "340": {
+        "name": "Viṃśatikākārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/340",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1393": "Viṁśatikākārikā"
+        }
+    },
+    "93": {
+        "name": "Vinaya sūtram",
+        "url": "http://www.dsbcproject.org/canon-text/book/93",
+        "category": "vinayapiṭaka",
+        "listnr": "18",
+        "filelist": {
+            "750": "Vinaya sūtram"
+        }
+    },
+    "62": {
+        "name": "Vinayaviniścaya upāliparipṛcchā",
+        "url": "http://www.dsbcproject.org/canon-text/book/62",
+        "category": "sūtrapiṭaka",
+        "categorynr": "2",
+        "list": "mahāyānasūtra",
+        "listnr": "6",
+        "filelist": {
+            "551": "Vinayaviniścaya upāliparipṛcchā"
+        }
+    },
+    "864": {
+        "name": "Viśālāmalavatī Pramāṇasamuccayaṭīkā",
+        "url": "http://www.dsbcproject.org/canon-text/book/864",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "pramāṇa",
+        "listnr": "69",
+        "filelist": {
+            "2992": "Viśālāmalavatī Pramāṇasamuccayaṭīkā"
+        }
+    },
+    "815": {
+        "name": "Viśvaprakāśaḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/815",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kośa",
+        "listnr": "62",
+        "filelist": {
+            "2944": "Viśvaprakāśaḥ"
+        }
+    },
+    "830": {
+        "name": "vṛttamālāstutiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/830",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "alaṃkāra",
+        "listnr": "22",
+        "filelist": {
+            "2957": "vṛttamālāstutiḥ"
+        }
+    },
+    "227": {
+        "name": "Yaśodharācaritam",
+        "url": "http://www.dsbcproject.org/canon-text/book/227",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "kāvya",
+        "listnr": "61",
+        "filelist": {
+            "957": "Yaśodharācaritam"
+        }
+    },
+    "341": {
+        "name": "Yogācārabhūmiḥ",
+        "url": "http://www.dsbcproject.org/canon-text/book/341",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "yogācāra",
+        "listnr": "74",
+        "filelist": {
+            "1394": "pañcavijñānakāya samprayuktā bhūmiḥ prathamā",
+            "1395": "manobhūmidvitīyā",
+            "1396": "savitarkā savicārā bhūmistṛtīyā"
+        }
+    },
+    "255": {
+        "name": "Yuktiṣaṣṭikārikā",
+        "url": "http://www.dsbcproject.org/canon-text/book/255",
+        "category": "śāstrapiṭaka",
+        "categorynr": "19",
+        "list": "madhyamaka",
+        "listnr": "64",
+        "filelist": {
+            "1083": "Yuktiṣaṣṭikārikā"
+        }
+    }
+}
