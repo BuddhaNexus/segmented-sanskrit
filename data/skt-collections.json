@@ -1,6 +1,6 @@
 [
-  {
-    "collection": "Sutrapitaka",
+{
+    "collection": "Buddhist",
     "categories": [
       "S01",
       "S02",
@@ -8,25 +8,18 @@
       "S04",
       "S05",
       "S06",
+      "S07",
       "S08",
-      "S10"
-    ]
-  },
-  {
-    "collection": "Vinayapitaka",
-    "categories": [
+      "S10",
       "V01",
       "V02",
       "V03",
       "V04",
-      "V05"
-    ]
-  },
-  {
-    "collection": "Sastrapitaka",
-    "categories": [
+      "V05",
       "SA01",
       "SA02",
+      "SA03",
+      "SA04",
       "SA05",
       "SA06",
       "SA07",
@@ -34,6 +27,7 @@
       "SA09",
       "SA10",
       "SA11",
+      "SA12",
       "SA13",
       "SA14",
       "SA15",
@@ -43,12 +37,15 @@
       "SA19",
       "SA20",
       "SA21",
-      "SA22"
+      "SA22",
+      "SA23",
+      "SA24",
+      "SA25",
+      "SA26",
+      "SA27",
+      "SA28",
+      "XX"
     ]
-  },
-  {
-    "collection": "Buddhist",
-    "categories": ["XX"]
   },
   {
     "collection": "Veda",
@@ -80,7 +77,7 @@
     ]
   },
   {
-    "collection": "Sastra",
+    "collection": "Treatises",
     "categories": [
       "GS24",
       "GS25",
@@ -93,6 +90,7 @@
       "GSP32",
       "GSP33",
       "GSP34",
+      "GSP35",
       "GSD36",
       "GSD37",
       "GS38",
