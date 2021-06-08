@@ -1,0 +1,16 @@
+{
+    "mkv6:0": "<article id='mkv6' lang='san'>",
+    "mkv6:1": "<header>",
+    "mkv6:2": "<ul>",
+    "mkv6:3": "<li class='division'>{}</li>",
+    "mkv6:4": "</ul>",
+    "mkv6:5": "<h1>{}</h1>",
+    "mkv6:6": "</header>",
+    "mkv6:7": "<p>{}</p>",
+    "mkv6:8": "<p>{}</p>",
+    "mkv6:9": "<blockquote class='gatha'>",
+    "mkv6:10": "<p>{}<br>",
+    "mkv6:11": "{}</p>",
+    "mkv6:12": "</blockquote>",
+    "mkv6:13": "<p>{}</p>"
+}

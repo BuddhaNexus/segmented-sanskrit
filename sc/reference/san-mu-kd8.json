@@ -1,0 +1,429 @@
+{
+    "san-mu-kd8:0": [],
+    "san-mu-kd8:1": [],
+    "san-mu-kd8:2": [],
+    "san-mu-kd8:3": [],
+    "san-mu-kd8:4": [],
+    "san-mu-kd8:5": [],
+    "san-mu-kd8:6": [],
+    "san-mu-kd8:7": [],
+    "san-mu-kd8:8": [
+        "sc1",
+        "mat186"
+    ],
+    "san-mu-kd8:9": [
+        "sc2",
+        "fol276r1",
+        "gbm6.864"
+    ],
+    "san-mu-kd8:10": [],
+    "san-mu-kd8:11": [
+        "sc3",
+        "mat187"
+    ],
+    "san-mu-kd8:12": [],
+    "san-mu-kd8:13": [],
+    "san-mu-kd8:14": [
+        "sc4",
+        "kat1"
+    ],
+    "san-mu-kd8:15": [
+        "sc5",
+        "mat188",
+        "kat2",
+        "mat189"
+    ],
+    "san-mu-kd8:16": [
+        "sc6",
+        "kat3",
+        "mat191",
+        "mat192"
+    ],
+    "san-mu-kd8:17": [
+        "sc7",
+        "kat4",
+        "matfol276v1",
+        "gbm6.865",
+        "mat194"
+    ],
+    "san-mu-kd8:18": [
+        "sc8",
+        "kat5",
+        "mat195"
+    ],
+    "san-mu-kd8:19": [
+        "sc9",
+        "kat6",
+        "mat196"
+    ],
+    "san-mu-kd8:20": [
+        "sc10",
+        "kat7",
+        "mat197"
+    ],
+    "san-mu-kd8:21": [
+        "sc11",
+        "kat8",
+        "mat198"
+    ],
+    "san-mu-kd8:22": [
+        "sc12",
+        "fol277r1",
+        "gbm6.866"
+    ],
+    "san-mu-kd8:23": [
+        "sc13",
+        "mat199"
+    ],
+    "san-mu-kd8:24": [
+        "sc14",
+        "kat10",
+        "mat200"
+    ],
+    "san-mu-kd8:25": [
+        "sc15",
+        "kat11"
+    ],
+    "san-mu-kd8:26": [
+        "sc16",
+        "kat12",
+        "mat202"
+    ],
+    "san-mu-kd8:27": [
+        "sc17",
+        "kat13",
+        "mat203"
+    ],
+    "san-mu-kd8:28": [
+        "sc18",
+        "kat14"
+    ],
+    "san-mu-kd8:29": [
+        "sc19",
+        "kat15",
+        "mat204"
+    ],
+    "san-mu-kd8:30": [
+        "sc20",
+        "kat16"
+    ],
+    "san-mu-kd8:31": [
+        "sc21",
+        "kat17",
+        "fol277v1",
+        "gbm6.867"
+    ],
+    "san-mu-kd8:32": [
+        "sc22",
+        "mat205",
+        "kat18"
+    ],
+    "san-mu-kd8:33": [
+        "sc23",
+        "kat19"
+    ],
+    "san-mu-kd8:34": [
+        "sc24",
+        "mat206",
+        "kat20"
+    ],
+    "san-mu-kd8:35": [
+        "sc25",
+        "kat21"
+    ],
+    "san-mu-kd8:36": [
+        "sc26",
+        "mat207"
+    ],
+    "san-mu-kd8:37": [
+        "sc27"
+    ],
+    "san-mu-kd8:38": [
+        "sc28"
+    ],
+    "san-mu-kd8:39": [],
+    "san-mu-kd8:40": [],
+    "san-mu-kd8:41": [
+        "sc29",
+        "kat23",
+        "mat209"
+    ],
+    "san-mu-kd8:42": [
+        "sc30",
+        "mat210"
+    ],
+    "san-mu-kd8:43": [],
+    "san-mu-kd8:44": [],
+    "san-mu-kd8:45": [],
+    "san-mu-kd8:46": [
+        "sc31",
+        "kat24",
+        "fol278r1",
+        "gbm6.868",
+        "mat212"
+    ],
+    "san-mu-kd8:47": [
+        "sc32",
+        "mat213"
+    ],
+    "san-mu-kd8:48": [],
+    "san-mu-kd8:49": [],
+    "san-mu-kd8:50": [
+        "sc33",
+        "kat25",
+        "mat214"
+    ],
+    "san-mu-kd8:51": [
+        "sc34",
+        "mat215"
+    ],
+    "san-mu-kd8:52": [],
+    "san-mu-kd8:53": [],
+    "san-mu-kd8:54": [
+        "sc35",
+        "kat26",
+        "mat216"
+    ],
+    "san-mu-kd8:55": [
+        "sc36",
+        "kat27",
+        "mat217"
+    ],
+    "san-mu-kd8:56": [
+        "sc37",
+        "kat28"
+    ],
+    "san-mu-kd8:57": [
+        "sc38",
+        "mat218",
+        "kat29"
+    ],
+    "san-mu-kd8:58": [
+        "sc39",
+        "kat30",
+        "mat219"
+    ],
+    "san-mu-kd8:59": [
+        "sc40",
+        "kat31",
+        "mat220",
+        "fol278v1",
+        "gbm6.869"
+    ],
+    "san-mu-kd8:60": [
+        "sc41",
+        "kat32"
+    ],
+    "san-mu-kd8:61": [
+        "sc42",
+        "mat221",
+        "kat33"
+    ],
+    "san-mu-kd8:62": [
+        "sc43",
+        "kat34"
+    ],
+    "san-mu-kd8:63": [
+        "sc44",
+        "kat35",
+        "mat222"
+    ],
+    "san-mu-kd8:64": [
+        "sc45"
+    ],
+    "san-mu-kd8:65": [],
+    "san-mu-kd8:66": [],
+    "san-mu-kd8:67": [
+        "sc46",
+        "kat36"
+    ],
+    "san-mu-kd8:68": [
+        "sc47",
+        "kat37"
+    ],
+    "san-mu-kd8:69": [
+        "sc48",
+        "mat223",
+        "kat38"
+    ],
+    "san-mu-kd8:70": [
+        "sc49",
+        "kat39"
+    ],
+    "san-mu-kd8:71": [
+        "sc50",
+        "kat40"
+    ],
+    "san-mu-kd8:72": [
+        "sc51",
+        "kat41",
+        "fol279r1",
+        "gbm6.870"
+    ],
+    "san-mu-kd8:73": [
+        "sc52",
+        "kat42"
+    ],
+    "san-mu-kd8:74": [
+        "sc53",
+        "mat224",
+        "kat43"
+    ],
+    "san-mu-kd8:75": [
+        "sc54",
+        "kat44"
+    ],
+    "san-mu-kd8:76": [
+        "sc55",
+        "kat45"
+    ],
+    "san-mu-kd8:77": [
+        "sc56",
+        "kat46"
+    ],
+    "san-mu-kd8:78": [
+        "sc57",
+        "kat47",
+        "mat225"
+    ],
+    "san-mu-kd8:79": [
+        "sc58",
+        "kat48"
+    ],
+    "san-mu-kd8:80": [
+        "sc59",
+        "kat49"
+    ],
+    "san-mu-kd8:81": [
+        "sc60",
+        "kat50"
+    ],
+    "san-mu-kd8:82": [
+        "sc61",
+        "kat51",
+        "fol279v1",
+        "gbm6.871"
+    ],
+    "san-mu-kd8:83": [
+        "sc62",
+        "kat52",
+        "mat226"
+    ],
+    "san-mu-kd8:84": [
+        "sc63",
+        "kat53"
+    ],
+    "san-mu-kd8:85": [
+        "sc64",
+        "kat54"
+    ],
+    "san-mu-kd8:86": [
+        "sc65",
+        "kat55",
+        "mat227"
+    ],
+    "san-mu-kd8:87": [
+        "sc66",
+        "kat56"
+    ],
+    "san-mu-kd8:88": [
+        "sc67"
+    ],
+    "san-mu-kd8:89": [
+        "sc68",
+        "kat57"
+    ],
+    "san-mu-kd8:90": [
+        "sc69"
+    ],
+    "san-mu-kd8:91": [
+        "sc70",
+        "mat228",
+        "kat58"
+    ],
+    "san-mu-kd8:92": [
+        "sc71"
+    ],
+    "san-mu-kd8:93": [
+        "sc72"
+    ],
+    "san-mu-kd8:94": [],
+    "san-mu-kd8:95": [],
+    "san-mu-kd8:96": [
+        "sc73",
+        "kat59",
+        "fol280r1",
+        "gbm6.872"
+    ],
+    "san-mu-kd8:97": [
+        "sc74",
+        "kat60"
+    ],
+    "san-mu-kd8:98": [
+        "sc75",
+        "kat61",
+        "mat229"
+    ],
+    "san-mu-kd8:99": [
+        "sc76",
+        "kat62"
+    ],
+    "san-mu-kd8:100": [
+        "sc77",
+        "kat63"
+    ],
+    "san-mu-kd8:101": [
+        "sc78"
+    ],
+    "san-mu-kd8:102": [
+        "sc79"
+    ],
+    "san-mu-kd8:103": [
+        "sc80"
+    ],
+    "san-mu-kd8:104": [
+        "sc81",
+        "kat64"
+    ],
+    "san-mu-kd8:105": [
+        "sc82"
+    ],
+    "san-mu-kd8:106": [
+        "sc83"
+    ],
+    "san-mu-kd8:107": [
+        "sc84",
+        "mat230"
+    ],
+    "san-mu-kd8:108": [
+        "sc85",
+        "kat65"
+    ],
+    "san-mu-kd8:109": [
+        "sc86"
+    ],
+    "san-mu-kd8:110": [
+        "sc87",
+        "kat66"
+    ],
+    "san-mu-kd8:111": [
+        "sc88",
+        "kat67i"
+    ],
+    "san-mu-kd8:112": [
+        "sc89"
+    ],
+    "san-mu-kd8:113": [
+        "sc90"
+    ],
+    "san-mu-kd8:114": [
+        "sc91"
+    ],
+    "san-mu-kd8:115": [
+        "sc92",
+        "kat67ii"
+    ],
+    "san-mu-kd8:116": [
+        "sc93"
+    ]
+}

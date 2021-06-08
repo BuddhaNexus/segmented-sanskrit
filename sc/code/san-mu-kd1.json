@@ -1,0 +1,2447 @@
+{
+    "san-mu-kd1:0": {},
+    "san-mu-kd1:1": {},
+    "san-mu-kd1:2": {},
+    "san-mu-kd1:3": {},
+    "san-mu-kd1:4": {},
+    "san-mu-kd1:5": {},
+    "san-mu-kd1:6": {},
+    "san-mu-kd1:7": {},
+    "san-mu-kd1:8": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "nāmadhe",
+            "y"
+        ]
+    },
+    "san-mu-kd1:9": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upakaraṇaviśe",
+            "ai"
+        ]
+    },
+    "san-mu-kd1:10": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "pṛthag",
+            "a",
+            "a"
+        ]
+    },
+    "san-mu-kd1:11": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dṛḍhaprahāritā",
+            "āṁ"
+        ]
+    },
+    "san-mu-kd1:12": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "biṁbisā",
+            "aḥ",
+            "ā",
+            "hayant"
+        ]
+    },
+    "san-mu-kd1:13": {
+        "gap": [
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "katha",
+            "atriyā"
+        ]
+    },
+    "san-mu-kd1:14": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "s sakāśaṁ"
+        ]
+    },
+    "san-mu-kd1:15": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "biṁ",
+            "dgrāhayateti"
+        ]
+    },
+    "san-mu-kd1:16": {
+        "gap": [
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "kumāre",
+            "vaṁ"
+        ]
+    },
+    "san-mu-kd1:17": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "s",
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:18": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "a",
+            "t",
+            "ṅ",
+            "ena"
+        ]
+    },
+    "san-mu-kd1:19": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "pre",
+            "āḥ"
+        ]
+    },
+    "san-mu-kd1:20": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "an",
+            "nupradadātu"
+        ]
+    },
+    "san-mu-kd1:21": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "mahā",
+            "a"
+        ]
+    },
+    "san-mu-kd1:22": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "a",
+            "go"
+        ]
+    },
+    "san-mu-kd1:23": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "m"
+        ]
+    },
+    "san-mu-kd1:24": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "it",
+            "gāthā",
+            "tavyaḥ"
+        ]
+    },
+    "san-mu-kd1:25": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upa",
+            "r",
+            "thayati"
+        ]
+    },
+    "san-mu-kd1:26": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ke",
+            "n"
+        ]
+    },
+    "san-mu-kd1:27": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a"
+        ]
+    },
+    "san-mu-kd1:28": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ddh"
+        ]
+    },
+    "san-mu-kd1:29": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "i",
+            "d"
+        ]
+    },
+    "san-mu-kd1:30": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "i"
+        ]
+    },
+    "san-mu-kd1:31": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "traiva"
+        ]
+    },
+    "san-mu-kd1:32": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bi",
+            "kīrṇabahujanamanuṣyaṁ"
+        ]
+    },
+    "san-mu-kd1:33": {
+        "gap": [
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "mahāpa",
+            "dheṣu"
+        ]
+    },
+    "san-mu-kd1:34": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "s",
+            "ī",
+            "avedāṅgapāragaḥ"
+        ]
+    },
+    "san-mu-kd1:35": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "āṁ"
+        ]
+    },
+    "san-mu-kd1:36": {
+        "gap": [
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "kadā",
+            "m"
+        ]
+    },
+    "san-mu-kd1:37": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "bhāra"
+        ]
+    },
+    "san-mu-kd1:38": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "e",
+            "ava"
+        ]
+    },
+    "san-mu-kd1:39": {
+        "gap": [
+            "///",
+            "+ + + + + +"
+        ],
+        "supplied": [
+            "bhai"
+        ]
+    },
+    "san-mu-kd1:40": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "gaccha",
+            "kṣukaśatakalilo"
+        ]
+    },
+    "san-mu-kd1:41": {
+        "gap": [
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "i",
+            "uyād"
+        ]
+    },
+    "san-mu-kd1:42": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "bhāṣi",
+            "naṁ"
+        ]
+    },
+    "san-mu-kd1:43": {
+        "gap": [
+            "///",
+            "+ + + +"
+        ],
+        "supplied": [
+            "a"
+        ]
+    },
+    "san-mu-kd1:44": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a",
+            "ā"
+        ]
+    },
+    "san-mu-kd1:45": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bahuratna",
+            "a"
+        ]
+    },
+    "san-mu-kd1:46": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dhyadeśaṁ"
+        ]
+    },
+    "san-mu-kd1:47": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bha",
+            "nigamapallikāpattaneṣu"
+        ]
+    },
+    "san-mu-kd1:48": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "anuprā",
+            "ṁ",
+            "śam"
+        ]
+    },
+    "san-mu-kd1:49": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dev",
+            "ha",
+            "tīti"
+        ]
+    },
+    "san-mu-kd1:50": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sthitaḥ"
+        ]
+    },
+    "san-mu-kd1:51": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "pakṣa"
+        ]
+    },
+    "san-mu-kd1:52": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "taḥ"
+        ]
+    },
+    "san-mu-kd1:53": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:54": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ni",
+            "na"
+        ]
+    },
+    "san-mu-kd1:55": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "paricā",
+            "e",
+            "ardh",
+            "ate"
+        ]
+    },
+    "san-mu-kd1:56": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upakaraṇa",
+            "ttikāgrahe"
+        ]
+    },
+    "san-mu-kd1:57": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "yā",
+            "ḥ",
+            "bh",
+            "sa",
+            "gamya"
+        ]
+    },
+    "san-mu-kd1:58": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ārikayā"
+        ]
+    },
+    "san-mu-kd1:59": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "māṇa",
+            "c",
+            "ām",
+            "ham"
+        ]
+    },
+    "san-mu-kd1:60": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kuru",
+            "a",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:61": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "samidhāhāra",
+            "vaḥ",
+            "asmād",
+            "eśād"
+        ]
+    },
+    "san-mu-kd1:62": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "va",
+            "tāś"
+        ]
+    },
+    "san-mu-kd1:63": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:64": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vidvajja",
+            "panti"
+        ]
+    },
+    "san-mu-kd1:65": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "paṇ",
+            "i",
+            "a",
+            "vito"
+        ]
+    },
+    "san-mu-kd1:66": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "s"
+        ]
+    },
+    "san-mu-kd1:67": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd1:68": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "madhyadeśaga",
+            "ṛ",
+            "yā",
+            "yo"
+        ]
+    },
+    "san-mu-kd1:69": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṣabhāḥ"
+        ]
+    },
+    "san-mu-kd1:70": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "śrāva",
+            "i",
+            "nāni"
+        ]
+    },
+    "san-mu-kd1:71": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ḥ",
+            "patākābhiḥ"
+        ]
+    },
+    "san-mu-kd1:72": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "haṁ"
+        ]
+    },
+    "san-mu-kd1:73": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "rā",
+            "dgṛhītāni"
+        ]
+    },
+    "san-mu-kd1:74": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kathāvimar",
+            "aṁ",
+            "ṇo"
+        ]
+    },
+    "san-mu-kd1:75": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṇena"
+        ]
+    },
+    "san-mu-kd1:76": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "śakti"
+        ]
+    },
+    "san-mu-kd1:77": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "brāhma"
+        ]
+    },
+    "san-mu-kd1:78": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bhogaḥ"
+        ]
+    },
+    "san-mu-kd1:79": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vā",
+            "i",
+            "d a",
+            "dīya",
+            "taraḥ"
+        ]
+    },
+    "san-mu-kd1:80": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "i",
+            "nurakṣitāḥ"
+        ]
+    },
+    "san-mu-kd1:81": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ti"
+        ]
+    },
+    "san-mu-kd1:82": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "nopasaṁkrāntaḥ"
+        ]
+    },
+    "san-mu-kd1:83": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ti",
+            "te"
+        ]
+    },
+    "san-mu-kd1:84": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "anenānura"
+        ]
+    },
+    "san-mu-kd1:85": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "jīvi",
+            "tā"
+        ]
+    },
+    "san-mu-kd1:86": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sa",
+            "va"
+        ]
+    },
+    "san-mu-kd1:87": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:88": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "e"
+        ]
+    },
+    "san-mu-kd1:89": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "paricāra",
+            "n",
+            "nikāyāc"
+        ]
+    },
+    "san-mu-kd1:90": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "t",
+            "yā"
+        ]
+    },
+    "san-mu-kd1:91": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "cedṛśaś"
+        ]
+    },
+    "san-mu-kd1:92": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vyākara"
+        ]
+    },
+    "san-mu-kd1:93": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "yā",
+            "ti"
+        ]
+    },
+    "san-mu-kd1:94": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ku",
+            "rāḥ"
+        ]
+    },
+    "san-mu-kd1:95": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "jñā",
+            "va",
+            "mayantu"
+        ]
+    },
+    "san-mu-kd1:96": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṣya"
+        ]
+    },
+    "san-mu-kd1:97": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ḥ",
+            "d"
+        ]
+    },
+    "san-mu-kd1:98": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ḥ",
+            "hmaṇikāyām"
+        ]
+    },
+    "san-mu-kd1:99": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:100": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ig",
+            "ī",
+            "ḥ",
+            "tāni"
+        ]
+    },
+    "san-mu-kd1:101": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:102": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "brā",
+            "śeṣo"
+        ]
+    },
+    "san-mu-kd1:103": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "brāhmaṇakā",
+            "svā"
+        ]
+    },
+    "san-mu-kd1:104": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "hā",
+            "mudito"
+        ]
+    },
+    "san-mu-kd1:105": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "s"
+        ]
+    },
+    "san-mu-kd1:106": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "balipra",
+            "ḥ",
+            "d"
+        ]
+    },
+    "san-mu-kd1:107": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sthā"
+        ]
+    },
+    "san-mu-kd1:108": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ku"
+        ]
+    },
+    "san-mu-kd1:109": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "diva",
+            "ān",
+            "s",
+            "a",
+            "e",
+            "rakaḥ"
+        ]
+    },
+    "san-mu-kd1:110": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "nāme"
+        ]
+    },
+    "san-mu-kd1:111": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "va"
+        ]
+    },
+    "san-mu-kd1:112": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vede"
+        ]
+    },
+    "san-mu-kd1:113": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sarva",
+            "kānāṁ"
+        ]
+    },
+    "san-mu-kd1:114": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sthitāḥ"
+        ]
+    },
+    "san-mu-kd1:115": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kasmā",
+            "d"
+        ]
+    },
+    "san-mu-kd1:116": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "yūya",
+            "to"
+        ]
+    },
+    "san-mu-kd1:117": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "māṇava"
+        ]
+    },
+    "san-mu-kd1:118": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vistare",
+            "svā"
+        ]
+    },
+    "san-mu-kd1:119": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "daṁ |"
+        ]
+    },
+    "san-mu-kd1:120": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ā"
+        ]
+    },
+    "san-mu-kd1:121": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ve",
+            "sthāpitāḥ"
+        ]
+    },
+    "san-mu-kd1:122": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kāṣṭhavāṭakagrāma",
+            "kāt"
+        ]
+    },
+    "san-mu-kd1:123": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:124": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "pu",
+            "thāṁ"
+        ]
+    },
+    "san-mu-kd1:125": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "saṁvibhāga",
+            "rasya"
+        ]
+    },
+    "san-mu-kd1:126": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bimbi"
+        ]
+    },
+    "san-mu-kd1:127": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ko",
+            "ti"
+        ]
+    },
+    "san-mu-kd1:128": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "aṁ",
+            "aṁ"
+        ]
+    },
+    "san-mu-kd1:129": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "āṇavena",
+            "o",
+            "t"
+        ]
+    },
+    "san-mu-kd1:130": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "g"
+        ]
+    },
+    "san-mu-kd1:131": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "nā",
+            "m uta"
+        ]
+    },
+    "san-mu-kd1:132": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "mā"
+        ]
+    },
+    "san-mu-kd1:133": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "nāgayā",
+            "cīravāsasā"
+        ]
+    },
+    "san-mu-kd1:134": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "’pratikū"
+        ]
+    },
+    "san-mu-kd1:135": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "māṇa"
+        ]
+    },
+    "san-mu-kd1:136": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ekā",
+            "i",
+            "vajjīvaṁ"
+        ]
+    },
+    "san-mu-kd1:137": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dā",
+            "tarau"
+        ]
+    },
+    "san-mu-kd1:138": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "mātāpita",
+            "u",
+            "su",
+            "sya"
+        ]
+    },
+    "san-mu-kd1:139": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "yāvajjī",
+            "ṛ",
+            "ttabhoj",
+            "nā"
+        ]
+    },
+    "san-mu-kd1:140": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ka",
+            "nar"
+        ]
+    },
+    "san-mu-kd1:141": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "koli",
+            "can"
+        ]
+    },
+    "san-mu-kd1:142": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ka"
+        ]
+    },
+    "san-mu-kd1:143": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ga"
+        ]
+    },
+    "san-mu-kd1:144": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "anu",
+            "cchāmi"
+        ]
+    },
+    "san-mu-kd1:145": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "anu"
+        ]
+    },
+    "san-mu-kd1:146": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "p",
+            "a",
+            "a",
+            "ṣyo"
+        ]
+    },
+    "san-mu-kd1:147": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "anu",
+            "gaḥ"
+        ]
+    },
+    "san-mu-kd1:148": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "āyuṣmāñ c",
+            "ā",
+            "haṁ"
+        ]
+    },
+    "san-mu-kd1:149": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "gṛham"
+        ]
+    },
+    "san-mu-kd1:150": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "gośālīpu",
+            "r",
+            "ñ",
+            "tiṣyakolitau"
+        ]
+    },
+    "san-mu-kd1:151": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "i",
+            "sti"
+        ]
+    },
+    "san-mu-kd1:152": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "u"
+        ]
+    },
+    "san-mu-kd1:153": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:154": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "indri",
+            "dahanāt"
+        ]
+    },
+    "san-mu-kd1:155": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "’stivā",
+            "i",
+            "te"
+        ]
+    },
+    "san-mu-kd1:156": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "to"
+        ]
+    },
+    "san-mu-kd1:157": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upa",
+            "daḥ"
+        ]
+    },
+    "san-mu-kd1:158": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "pra",
+            "tyayas"
+        ]
+    },
+    "san-mu-kd1:159": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:160": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "aparākram",
+            "jātiṣu"
+        ]
+    },
+    "san-mu-kd1:161": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bhāṣe",
+            "e",
+            "s"
+        ]
+    },
+    "san-mu-kd1:162": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dhar",
+            "a",
+            "e",
+            "dṛṣṭir"
+        ]
+    },
+    "san-mu-kd1:163": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṁ",
+            "nthiṁ"
+        ]
+    },
+    "san-mu-kd1:164": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "prāṇi",
+            "ṭ",
+            "kamāṁsakhalaṁ"
+        ]
+    },
+    "san-mu-kd1:165": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "atonidā",
+            "ṁ",
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:166": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sa",
+            "r"
+        ]
+    },
+    "san-mu-kd1:167": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ī",
+            "m"
+        ]
+    },
+    "san-mu-kd1:168": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "tā"
+        ]
+    },
+    "san-mu-kd1:169": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "jīvajī"
+        ]
+    },
+    "san-mu-kd1:170": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a"
+        ]
+    },
+    "san-mu-kd1:171": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṇī"
+        ]
+    },
+    "san-mu-kd1:172": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ekānnapaṁ",
+            "hasrāṇy"
+        ]
+    },
+    "san-mu-kd1:173": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sa",
+            "t",
+            "v",
+            "hāpuruṣabhūmaya"
+        ]
+    },
+    "san-mu-kd1:174": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upa",
+            "lpasahasrāṇi"
+        ]
+    },
+    "san-mu-kd1:175": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vra",
+            "e"
+        ]
+    },
+    "san-mu-kd1:176": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "m",
+            "yaḥ"
+        ]
+    },
+    "san-mu-kd1:177": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ri",
+            "t"
+        ]
+    },
+    "san-mu-kd1:178": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "upasaṁ",
+            "r",
+            "ka"
+        ]
+    },
+    "san-mu-kd1:179": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:180": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vi",
+            "i",
+            "dṛśo"
+        ]
+    },
+    "san-mu-kd1:181": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "dha",
+            "smi"
+        ]
+    },
+    "san-mu-kd1:182": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "akaraṇasetusamud",
+            "ā",
+            "kṣayād"
+        ]
+    },
+    "san-mu-kd1:183": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ā",
+            "saṁmataḥ"
+        ]
+    },
+    "san-mu-kd1:184": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "y",
+            "yī"
+        ]
+    },
+    "san-mu-kd1:185": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "vyu",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:186": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "saṁjayi",
+            "as",
+            "vavādaḥ"
+        ]
+    },
+    "san-mu-kd1:187": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bra",
+            "hiṁseti"
+        ]
+    },
+    "san-mu-kd1:188": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bra",
+            "a",
+            "ti"
+        ]
+    },
+    "san-mu-kd1:189": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "pravrāji"
+        ]
+    },
+    "san-mu-kd1:190": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kṣayati"
+        ]
+    },
+    "san-mu-kd1:191": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṣyeṇa"
+        ]
+    },
+    "san-mu-kd1:192": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "samupān",
+            "rabdhaḥ"
+        ]
+    },
+    "san-mu-kd1:193": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "’bhi",
+            "yaḥ"
+        ]
+    },
+    "san-mu-kd1:194": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "mī"
+        ]
+    },
+    "san-mu-kd1:195": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a",
+            "ṭ"
+        ]
+    },
+    "san-mu-kd1:196": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "sarva"
+        ]
+    },
+    "san-mu-kd1:197": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "brā",
+            "m"
+        ]
+    },
+    "san-mu-kd1:198": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "gṛhap"
+        ]
+    },
+    "san-mu-kd1:199": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "samenābhinirji"
+        ]
+    },
+    "san-mu-kd1:200": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "māṇavakavā",
+            "r"
+        ]
+    },
+    "san-mu-kd1:201": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "bhūṣa",
+            "pāt"
+        ]
+    },
+    "san-mu-kd1:202": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "kaści",
+            "pe"
+        ]
+    },
+    "san-mu-kd1:203": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ṭ",
+            "cāryamuṣṭiḥ"
+        ]
+    },
+    "san-mu-kd1:204": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "divyaśr",
+            "yam"
+        ]
+    },
+    "san-mu-kd1:205": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "prathamatara",
+            "y",
+            "cārikāṁ"
+        ]
+    },
+    "san-mu-kd1:206": {
+        "gap": [
+            "///",
+            "+ + + + + + + + + +"
+        ],
+        "supplied": [
+            "i",
+            "i",
+            "khaṁ"
+        ]
+    },
+    "san-mu-kd1:207": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "madhupā",
+            "te"
+        ]
+    },
+    "san-mu-kd1:208": {
+        "gap": [
+            "///"
+        ]
+    },
+    "san-mu-kd1:209": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "a",
+            "kāraṁ"
+        ]
+    },
+    "san-mu-kd1:210": {
+        "gap": [
+            "///",
+            "+",
+            "///",
+            "+ + + + + + + + + + + + +"
+        ],
+        "supplied": [
+            "aṇḍaṁ",
+            "pratiṣṭhāpi",
+            "kaduhitarau"
+        ]
+    },
+    "san-mu-kd1:211": {
+        "gap": [
+            "///",
+            "///",
+            "+ + + + + + + + + + + + + + + +"
+        ],
+        "supplied": [
+            "jaṭilasa",
+            "t",
+            "ā",
+            "yaṣṭ",
+            "ro"
+        ]
+    },
+    "san-mu-kd1:212": {
+        "gap": [
+            "///",
+            "///",
+            "+ + + + + + + + + + + + + +"
+        ],
+        "supplied": [
+            "a",
+            "e",
+            "kalandakani",
+            "jagṛhaṁ"
+        ]
+    },
+    "san-mu-kd1:213": {
+        "gap": [
+            "///",
+            "///",
+            "+ + + + + + + + + + + + + + + +"
+        ],
+        "supplied": [
+            "pa",
+            "m",
+            "tāni",
+            "śrama",
+            "valokitum"
+        ]
+    },
+    "san-mu-kd1:214": {
+        "gap": [
+            "///",
+            "///",
+            "+ + + +",
+            "+ + + + + + + +"
+        ],
+        "supplied": [
+            "āmato",
+            "ā",
+            "ato",
+            "tā",
+            "ya"
+        ]
+    },
+    "san-mu-kd1:215": {
+        "gap": [
+            "///",
+            "+ + + + + + +",
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "pratyā",
+            "ṛ",
+            "yataḥ",
+            "saṁlakṣaya",
+            "e",
+            "āni",
+            "āṇaśatasa",
+            "kasatvo"
+        ]
+    },
+    "san-mu-kd1:216": {
+        "gap": [
+            "///",
+            "+ + + + + + + + + + +",
+            "///",
+            "+ + +"
+        ],
+        "supplied": [
+            "ñ",
+            "tam",
+            "ti",
+            "nāṁ"
+        ]
+    },
+    "san-mu-kd1:217": {
+        "gap": [
+            "+ + + + +",
+            "///",
+            "+ +"
+        ],
+        "supplied": [
+            "v",
+            "d"
+        ]
+    },
+    "san-mu-kd1:218": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "ramitāparipūrṇānāṁ"
+        ]
+    },
+    "san-mu-kd1:219": {
+        "gap": [
+            "///"
+        ],
+        "supplied": [
+            "lānāṁ"
+        ]
+    },
+    "san-mu-kd1:220": {},
+    "san-mu-kd1:221": {},
+    "san-mu-kd1:222": {
+        "supplied": [
+            "ṁ",
+            "pa",
+            "bh",
+            "ḥ",
+            "āhāram u",
+            "s"
+        ]
+    },
+    "san-mu-kd1:223": {
+        "supplied": [
+            "t",
+            "gharakṣita",
+            "va",
+            "iti",
+            "ṁghasya",
+            "ḥ",
+            "asmākam",
+            "ṣaṇḍa"
+        ]
+    },
+    "san-mu-kd1:224": {
+        "supplied": [
+            "kṛtā"
+        ]
+    },
+    "san-mu-kd1:225": {
+        "supplied": [
+            "s tva"
+        ]
+    },
+    "san-mu-kd1:226": {},
+    "san-mu-kd1:227": {
+        "supplied": [
+            "asmākam"
+        ]
+    },
+    "san-mu-kd1:228": {
+        "supplied": [
+            "t",
+            "j"
+        ],
+        "unclear": [
+            "emend to taṭṭvākārāṁ"
+        ]
+    },
+    "san-mu-kd1:229": {},
+    "san-mu-kd1:230": {},
+    "san-mu-kd1:231": {},
+    "san-mu-kd1:232": {
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:233": {
+        "supplied": [
+            "ḥ"
+        ],
+        "unclear": [
+            "or supitu?",
+            "read <span class='supplied'>tūṣṇīṁ bhavitum"
+        ]
+    },
+    "san-mu-kd1:234": {
+        "supplied": [
+            "di"
+        ]
+    },
+    "san-mu-kd1:235": {},
+    "san-mu-kd1:236": {},
+    "san-mu-kd1:237": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:238": {},
+    "san-mu-kd1:239": {},
+    "san-mu-kd1:240": {},
+    "san-mu-kd1:241": {},
+    "san-mu-kd1:242": {},
+    "san-mu-kd1:243": {},
+    "san-mu-kd1:244": {},
+    "san-mu-kd1:245": {},
+    "san-mu-kd1:246": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:247": {},
+    "san-mu-kd1:248": {},
+    "san-mu-kd1:249": {
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:250": {},
+    "san-mu-kd1:251": {},
+    "san-mu-kd1:252": {},
+    "san-mu-kd1:253": {},
+    "san-mu-kd1:254": {},
+    "san-mu-kd1:255": {},
+    "san-mu-kd1:256": {},
+    "san-mu-kd1:257": {},
+    "san-mu-kd1:258": {},
+    "san-mu-kd1:259": {},
+    "san-mu-kd1:260": {
+        "supplied": [
+            "ma",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:261": {},
+    "san-mu-kd1:262": {},
+    "san-mu-kd1:263": {},
+    "san-mu-kd1:264": {
+        "supplied": [
+            "yad uta avidyānirodhāt saṁskāranirodhaḥ"
+        ]
+    },
+    "san-mu-kd1:265": {},
+    "san-mu-kd1:266": {},
+    "san-mu-kd1:267": {},
+    "san-mu-kd1:268": {},
+    "san-mu-kd1:269": {},
+    "san-mu-kd1:270": {},
+    "san-mu-kd1:271": {},
+    "san-mu-kd1:272": {},
+    "san-mu-kd1:273": {},
+    "san-mu-kd1:274": {},
+    "san-mu-kd1:275": {},
+    "san-mu-kd1:276": {},
+    "san-mu-kd1:277": {
+        "supplied": [
+            "ḥ",
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:278": {},
+    "san-mu-kd1:279": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:280": {},
+    "san-mu-kd1:281": {
+        "supplied": [
+            "ṁgama"
+        ]
+    },
+    "san-mu-kd1:282": {},
+    "san-mu-kd1:283": {},
+    "san-mu-kd1:284": {},
+    "san-mu-kd1:285": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd1:286": {},
+    "san-mu-kd1:287": {},
+    "san-mu-kd1:288": {},
+    "san-mu-kd1:289": {},
+    "san-mu-kd1:290": {
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:291": {},
+    "san-mu-kd1:292": {},
+    "san-mu-kd1:293": {},
+    "san-mu-kd1:294": {},
+    "san-mu-kd1:295": {
+        "supplied": [
+            "d arhatvaṁ sākṣā",
+            "j",
+            "ḥ"
+        ],
+        "unclear": [
+            "emend to taṭṭvākārāṇ"
+        ]
+    },
+    "san-mu-kd1:296": {
+        "supplied": [
+            "ny upacitā"
+        ]
+    },
+    "san-mu-kd1:297": {},
+    "san-mu-kd1:298": {},
+    "san-mu-kd1:299": {},
+    "san-mu-kd1:300": {},
+    "san-mu-kd1:301": {},
+    "san-mu-kd1:302": {
+        "supplied": [
+            "s",
+            "te",
+            "s",
+            "ṁ",
+            "ṁ",
+            "j",
+            "j",
+            "Śikṣ.",
+            "Śikṣ.",
+            "ḥ",
+            "Śikṣ.",
+            "ktaḥ | sa teno",
+            "ḥ",
+            "la",
+            "ḥ",
+            "bhikṣuḥ sthaviraḥ | yady apy evaṁ tathāpi tu",
+            "ṁ",
+            "s",
+            "ḥ"
+        ],
+        "unclear": [
+            "read <span class='supplied'>yaṁ tvaṁ satvam adrākṣīs taṭṭukākāraṁ sa śrāmaṇeraka āsīt",
+            "read <span class='supplied'>taṭṭukaṁ",
+            "read <span class='supplied'>taṭṭukaṁ",
+            "read <span class='supplied'>taṭṭukākāras",
+            "Read <span class='supplied'>yaṁ tvaṁ satvam adrākṣīr"
+        ]
+    },
+    "san-mu-kd1:303": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:304": {},
+    "san-mu-kd1:305": {
+        "supplied": [
+            "saṁgharakṣitena bhikṣuṇaiva karmāṇi kṛtāny upacitāni ko ’nyaḥ pratyanubhaviṣyati"
+        ]
+    },
+    "san-mu-kd1:306": {},
+    "san-mu-kd1:307": {},
+    "san-mu-kd1:308": {
+        "supplied": [
+            "lu"
+        ]
+    },
+    "san-mu-kd1:309": {},
+    "san-mu-kd1:310": {
+        "supplied": [
+            "ka"
+        ]
+    },
+    "san-mu-kd1:311": {},
+    "san-mu-kd1:312": {},
+    "san-mu-kd1:313": {
+        "supplied": [
+            "kaści"
+        ]
+    },
+    "san-mu-kd1:314": {},
+    "san-mu-kd1:315": {
+        "supplied": [
+            "sa"
+        ]
+    },
+    "san-mu-kd1:316": {},
+    "san-mu-kd1:317": {},
+    "san-mu-kd1:318": {
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:319": {
+        "supplied": [
+            "d",
+            "ṁ",
+            "na"
+        ]
+    },
+    "san-mu-kd1:320": {
+        "supplied": [
+            "d"
+        ]
+    },
+    "san-mu-kd1:321": {
+        "supplied": [
+            "sya"
+        ]
+    },
+    "san-mu-kd1:322": {},
+    "san-mu-kd1:323": {
+        "supplied": [
+            "d",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:324": {},
+    "san-mu-kd1:325": {
+        "supplied": [
+            "d"
+        ]
+    },
+    "san-mu-kd1:326": {
+        "supplied": [
+            "it"
+        ]
+    },
+    "san-mu-kd1:327": {},
+    "san-mu-kd1:328": {},
+    "san-mu-kd1:329": {},
+    "san-mu-kd1:330": {},
+    "san-mu-kd1:331": {},
+    "san-mu-kd1:332": {},
+    "san-mu-kd1:333": {},
+    "san-mu-kd1:334": {
+        "supplied": [
+            "yuṣmaṁ ku",
+            "asmād dharmavinayād",
+            "ha"
+        ]
+    },
+    "san-mu-kd1:335": {
+        "supplied": [
+            "ā"
+        ]
+    },
+    "san-mu-kd1:336": {
+        "supplied": [
+            "sā"
+        ]
+    },
+    "san-mu-kd1:337": {
+        "supplied": [
+            "ṁ",
+            "ṁ",
+            "ra"
+        ]
+    },
+    "san-mu-kd1:338": {},
+    "san-mu-kd1:339": {
+        "supplied": [
+            "ḥ",
+            "tāni",
+            "j",
+            "d"
+        ]
+    },
+    "san-mu-kd1:340": {},
+    "san-mu-kd1:341": {},
+    "san-mu-kd1:342": {},
+    "san-mu-kd1:343": {},
+    "san-mu-kd1:344": {},
+    "san-mu-kd1:345": {
+        "supplied": [
+            "ḥ",
+            "svādhyāyatā",
+            "la"
+        ]
+    },
+    "san-mu-kd1:346": {},
+    "san-mu-kd1:347": {},
+    "san-mu-kd1:348": {},
+    "san-mu-kd1:349": {},
+    "san-mu-kd1:350": {},
+    "san-mu-kd1:351": {},
+    "san-mu-kd1:352": {
+        "supplied": [
+            "s"
+        ]
+    },
+    "san-mu-kd1:353": {},
+    "san-mu-kd1:354": {
+        "supplied": [
+            "s"
+        ]
+    },
+    "san-mu-kd1:355": {
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:356": {
+        "supplied": [
+            "padma"
+        ]
+    },
+    "san-mu-kd1:357": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd1:358": {
+        "supplied": [
+            "tya",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:359": {},
+    "san-mu-kd1:360": {},
+    "san-mu-kd1:361": {},
+    "san-mu-kd1:362": {
+        "supplied": [
+            "c"
+        ]
+    },
+    "san-mu-kd1:363": {},
+    "san-mu-kd1:364": {},
+    "san-mu-kd1:365": {},
+    "san-mu-kd1:366": {},
+    "san-mu-kd1:367": {},
+    "san-mu-kd1:368": {},
+    "san-mu-kd1:369": {
+        "supplied": [
+            "ḥ",
+            "s"
+        ]
+    },
+    "san-mu-kd1:370": {
+        "supplied": [
+            "tvaṁ"
+        ]
+    },
+    "san-mu-kd1:371": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:372": {},
+    "san-mu-kd1:373": {},
+    "san-mu-kd1:374": {
+        "supplied": [
+            "trīṇi"
+        ]
+    },
+    "san-mu-kd1:375": {
+        "supplied": [
+            "rā"
+        ]
+    },
+    "san-mu-kd1:376": {},
+    "san-mu-kd1:377": {
+        "supplied": [
+            "ḥ",
+            "ḥ",
+            "d",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:378": {},
+    "san-mu-kd1:379": {
+        "supplied": [
+            "paravipattiṁ ātmasaṁpattiṁ parasaṁpattiṁ",
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:380": {
+        "supplied": [
+            "asmād dharmavinayād",
+            "sa"
+        ]
+    },
+    "san-mu-kd1:381": {},
+    "san-mu-kd1:382": {},
+    "san-mu-kd1:383": {
+        "supplied": [
+            "nām anyatamānyatamā"
+        ]
+    },
+    "san-mu-kd1:384": {},
+    "san-mu-kd1:385": {},
+    "san-mu-kd1:386": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:387": {
+        "supplied": [
+            "a",
+            "t",
+            "j"
+        ]
+    },
+    "san-mu-kd1:388": {},
+    "san-mu-kd1:389": {},
+    "san-mu-kd1:390": {
+        "supplied": [
+            "ṁ",
+            "ṁ",
+            "ṁ"
+        ]
+    },
+    "san-mu-kd1:391": {
+        "unclear": [
+            "|"
+        ],
+        "supplied": [
+            "ḥ"
+        ]
+    },
+    "san-mu-kd1:392": {},
+    "san-mu-kd1:393": {},
+    "san-mu-kd1:394": {},
+    "san-mu-kd1:395": {},
+    "san-mu-kd1:396": {},
+    "san-mu-kd1:397": {},
+    "san-mu-kd1:398": {},
+    "san-mu-kd1:399": {},
+    "san-mu-kd1:400": {}
+}

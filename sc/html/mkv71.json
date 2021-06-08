@@ -1,0 +1,16 @@
+{
+    "mkv71:0": "<article id='mkv71' lang='san'>",
+    "mkv71:1": "<header>",
+    "mkv71:2": "<ul>",
+    "mkv71:3": "<li class='division'>{}</li>",
+    "mkv71:4": "</ul>",
+    "mkv71:5": "<h1>{}</h1>",
+    "mkv71:6": "</header>",
+    "mkv71:7": "<p>{}</p>",
+    "mkv71:8": "<blockquote class='gatha'>",
+    "mkv71:9": "<p>{}<br>",
+    "mkv71:10": "{}<br>",
+    "mkv71:11": "{}</p>",
+    "mkv71:12": "</blockquote>",
+    "mkv71:13": "<p>{}</p>"
+}

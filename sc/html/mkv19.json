@@ -1,0 +1,10 @@
+{
+    "mkv19:0": "<article id='mkv19' lang='san'>",
+    "mkv19:1": "<header>",
+    "mkv19:2": "<ul>",
+    "mkv19:3": "<li class='division'>{}</li>",
+    "mkv19:4": "</ul>",
+    "mkv19:5": "<h1>{}</h1>",
+    "mkv19:6": "</header>",
+    "mkv19:7": "<p>{}</p>"
+}

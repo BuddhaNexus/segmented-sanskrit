@@ -1,0 +1,22 @@
+{
+    "avs98:0": "<article id='avs98' lang='san'>",
+    "avs98:1": "<header>",
+    "avs98:2": "<ul>",
+    "avs98:3": "<li class='division'>{}</li>",
+    "avs98:4": "<li class='vagga'>{}</li>",
+    "avs98:5": "</ul>",
+    "avs98:6": "<h1>{}</h1>",
+    "avs98:7": "</header>",
+    "avs98:8": "<p>{}</p>",
+    "avs98:9": "<p>{}</p>",
+    "avs98:10": "<p>{}</p>",
+    "avs98:11": "<p>{}</p>",
+    "avs98:12": "<p>{}</p>",
+    "avs98:13": "<blockquote class='gatha'>",
+    "avs98:14": "<p>{}<br>",
+    "avs98:15": "{}</p>",
+    "avs98:16": "</blockquote>",
+    "avs98:17": "<p>{}</p>",
+    "avs98:18": "<p>{}</p>",
+    "avs98:19": "<p>{}</p>"
+}

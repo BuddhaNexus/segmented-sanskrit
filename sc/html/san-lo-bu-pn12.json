@@ -1,0 +1,11 @@
+{
+    "san-lo-bu-pn12:0": "<article id='san-lo-bu-pn12' lang='san'>",
+    "san-lo-bu-pn12:1": "<header>",
+    "san-lo-bu-pn12:2": "<ul>",
+    "san-lo-bu-pn12:3": "<li class='division'>{}</li>",
+    "san-lo-bu-pn12:4": "</ul>",
+    "san-lo-bu-pn12:5": "<h1>{}</h1>",
+    "san-lo-bu-pn12:6": "</header>",
+    "san-lo-bu-pn12:7": "<p class='uddana'>{}</p>",
+    "san-lo-bu-pn12:8": "<p class='endsection'>{}</p>"
+}

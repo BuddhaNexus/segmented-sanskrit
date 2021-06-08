@@ -1,0 +1,19 @@
+{
+    "arv2:0": "<article id='arv2' lang='san'>",
+    "arv2:1": "<header>",
+    "arv2:2": "<ul>",
+    "arv2:3": "<li class='division'>{}</li>",
+    "arv2:4": "</ul>",
+    "arv2:5": "<h1>{}</h1>",
+    "arv2:6": "</header>",
+    "arv2:7": "<p>{}</p>",
+    "arv2:8": "<p>{}</p>",
+    "arv2:9": "<ol>",
+    "arv2:10": "<li>{}</li>",
+    "arv2:11": "<li>{}</li>",
+    "arv2:12": "<li>{}</li>",
+    "arv2:13": "<li>{}</li>",
+    "arv2:14": "<li>{}</li>",
+    "arv2:15": "</ol>",
+    "arv2:16": "<p>{}</p>"
+}

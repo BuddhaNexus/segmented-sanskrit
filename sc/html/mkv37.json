@@ -1,0 +1,22 @@
+{
+    "mkv37:0": "<article id='mkv37' lang='san'>",
+    "mkv37:1": "<header>",
+    "mkv37:2": "<ul>",
+    "mkv37:3": "<li class='division'>{}</li>",
+    "mkv37:4": "</ul>",
+    "mkv37:5": "<h1>{}</h1>",
+    "mkv37:6": "</header>",
+    "mkv37:7": "<p>{}</p>",
+    "mkv37:8": "<blockquote class='gatha'>",
+    "mkv37:9": "<p>{}<br>",
+    "mkv37:10": "{}<br>",
+    "mkv37:11": "{}<br>",
+    "mkv37:12": "{}<br>",
+    "mkv37:13": "{}<br>",
+    "mkv37:14": "{}<br>",
+    "mkv37:15": "{}<br>",
+    "mkv37:16": "{}<br>",
+    "mkv37:17": "{}</p>",
+    "mkv37:18": "</blockquote>",
+    "mkv37:19": "<p class='endsection'>{}</p>"
+}

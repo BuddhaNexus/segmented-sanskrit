@@ -1,0 +1,13 @@
+{
+    "san-lo-bi-vb-pc101:0": "<article id='san-lo-bi-vb-pc101' lang='san'>",
+    "san-lo-bi-vb-pc101:1": "<header>",
+    "san-lo-bi-vb-pc101:2": "<ul>",
+    "san-lo-bi-vb-pc101:3": "<li class='division'>{}</li>",
+    "san-lo-bi-vb-pc101:4": "</ul>",
+    "san-lo-bi-vb-pc101:5": "<h1>{}</h1>",
+    "san-lo-bi-vb-pc101:6": "</header>",
+    "san-lo-bi-vb-pc101:7": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc101:8": "<p>{}</p>",
+    "san-lo-bi-vb-pc101:9": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc101:10": "<p class='rule'>{}</p>"
+}

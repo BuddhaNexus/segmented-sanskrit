@@ -1,0 +1,20 @@
+{
+    "avs21:0": "<article id='avs21' lang='san'>",
+    "avs21:1": "<header>",
+    "avs21:2": "<ul>",
+    "avs21:3": "<li class='division'>{}</li>",
+    "avs21:4": "<li class='vagga'>{}</li>",
+    "avs21:5": "</ul>",
+    "avs21:6": "<h1>{}</h1>",
+    "avs21:7": "</header>",
+    "avs21:8": "<p class='uddana'>{}<br>",
+    "avs21:9": "{}<br>",
+    "avs21:10": "{}<br>",
+    "avs21:11": "{}</p>",
+    "avs21:12": "<p>{}</p>",
+    "avs21:13": "<p>{}</p>",
+    "avs21:14": "<p>{}</p>",
+    "avs21:15": "<p>{}</p>",
+    "avs21:16": "<p>{}</p>",
+    "avs21:17": "<p>{}</p>"
+}

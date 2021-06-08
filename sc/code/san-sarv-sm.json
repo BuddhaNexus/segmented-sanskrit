@@ -1,0 +1,34 @@
+{
+    "san-sarv-sm:0": {},
+    "san-sarv-sm:1": {},
+    "san-sarv-sm:2": {},
+    "san-sarv-sm:3": {},
+    "san-sarv-sm:4": {},
+    "san-sarv-sm:5": {
+        "add": [
+            "sārvāstivāda śikṣamānā rules"
+        ]
+    },
+    "san-sarv-sm:6": {},
+    "san-sarv-sm:7": {},
+    "san-sarv-sm:8": {},
+    "san-sarv-sm:9": {
+        "unclear": [
+            "pa",
+            "atā",
+            "avita",
+            "ā",
+            "s<span class='gap'>.",
+            "r"
+        ],
+        "supplied": [
+            "kā",
+            "pu",
+            "v",
+            "y"
+        ],
+        "gap": [
+            ".."
+        ]
+    }
+}

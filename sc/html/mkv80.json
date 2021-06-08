@@ -1,0 +1,11 @@
+{
+    "mkv80:0": "<article id='mkv80' lang='san'>",
+    "mkv80:1": "<header>",
+    "mkv80:2": "<ul>",
+    "mkv80:3": "<li class='division'>{}</li>",
+    "mkv80:4": "</ul>",
+    "mkv80:5": "<h1>{}</h1>",
+    "mkv80:6": "</header>",
+    "mkv80:7": "<p>{}</p>",
+    "mkv80:8": "<p class='endsutta'>{}</p>"
+}

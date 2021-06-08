@@ -1,0 +1,562 @@
+{
+    "san-mu-kd7:0": {},
+    "san-mu-kd7:1": {},
+    "san-mu-kd7:2": {},
+    "san-mu-kd7:3": {},
+    "san-mu-kd7:4": {},
+    "san-mu-kd7:5": {},
+    "san-mu-kd7:6": {},
+    "san-mu-kd7:7": {},
+    "san-mu-kd7:8": {},
+    "san-mu-kd7:9": {},
+    "san-mu-kd7:10": {},
+    "san-mu-kd7:11": {},
+    "san-mu-kd7:12": {},
+    "san-mu-kd7:13": {},
+    "san-mu-kd7:14": {},
+    "san-mu-kd7:15": {},
+    "san-mu-kd7:16": {},
+    "san-mu-kd7:17": {},
+    "san-mu-kd7:18": {},
+    "san-mu-kd7:19": {},
+    "san-mu-kd7:20": {},
+    "san-mu-kd7:21": {},
+    "san-mu-kd7:22": {},
+    "san-mu-kd7:23": {},
+    "san-mu-kd7:24": {},
+    "san-mu-kd7:25": {},
+    "san-mu-kd7:26": {},
+    "san-mu-kd7:27": {},
+    "san-mu-kd7:28": {},
+    "san-mu-kd7:29": {
+        "supplied": [
+            "vā",
+            "vā",
+            "sa"
+        ]
+    },
+    "san-mu-kd7:30": {},
+    "san-mu-kd7:31": {
+        "supplied": [
+            "sa"
+        ]
+    },
+    "san-mu-kd7:32": {},
+    "san-mu-kd7:33": {},
+    "san-mu-kd7:34": {},
+    "san-mu-kd7:35": {},
+    "san-mu-kd7:36": {},
+    "san-mu-kd7:37": {},
+    "san-mu-kd7:38": {},
+    "san-mu-kd7:39": {},
+    "san-mu-kd7:40": {},
+    "san-mu-kd7:41": {},
+    "san-mu-kd7:42": {},
+    "san-mu-kd7:43": {},
+    "san-mu-kd7:44": {
+        "supplied": [
+            "’va"
+        ]
+    },
+    "san-mu-kd7:45": {},
+    "san-mu-kd7:46": {},
+    "san-mu-kd7:47": {},
+    "san-mu-kd7:48": {
+        "supplied": [
+            "bibhemi"
+        ]
+    },
+    "san-mu-kd7:49": {},
+    "san-mu-kd7:50": {},
+    "san-mu-kd7:51": {},
+    "san-mu-kd7:52": {},
+    "san-mu-kd7:53": {},
+    "san-mu-kd7:54": {},
+    "san-mu-kd7:55": {},
+    "san-mu-kd7:56": {},
+    "san-mu-kd7:57": {},
+    "san-mu-kd7:58": {},
+    "san-mu-kd7:59": {
+        "supplied": [
+            "putri jñātigṛhe |"
+        ]
+    },
+    "san-mu-kd7:60": {},
+    "san-mu-kd7:61": {},
+    "san-mu-kd7:62": {
+        "del": [
+            "MS <span class='supplied'>haṁsāhṛtakaśālaiḥ"
+        ],
+        "supplied": [
+            "maṇḍena"
+        ]
+    },
+    "san-mu-kd7:63": {},
+    "san-mu-kd7:64": {},
+    "san-mu-kd7:65": {},
+    "san-mu-kd7:66": {},
+    "san-mu-kd7:67": {},
+    "san-mu-kd7:68": {},
+    "san-mu-kd7:69": {},
+    "san-mu-kd7:70": {},
+    "san-mu-kd7:71": {},
+    "san-mu-kd7:72": {},
+    "san-mu-kd7:73": {},
+    "san-mu-kd7:74": {},
+    "san-mu-kd7:75": {},
+    "san-mu-kd7:76": {
+        "del": [
+            "Ed. <span class='supplied'>brahmatto ’sya"
+        ],
+        "supplied": [
+            "arāḍabrahmadattasya",
+            "purāṇa"
+        ]
+    },
+    "san-mu-kd7:77": {
+        "supplied": [
+            "tat",
+            "bhūtaḥ"
+        ]
+    },
+    "san-mu-kd7:78": {
+        "supplied": [
+            "ma",
+            "ma"
+        ],
+        "del": [
+            "Ms: abhiniṣpīṣaṁ nāgacchanti"
+        ]
+    },
+    "san-mu-kd7:79": {},
+    "san-mu-kd7:80": {},
+    "san-mu-kd7:81": {},
+    "san-mu-kd7:82": {},
+    "san-mu-kd7:83": {},
+    "san-mu-kd7:84": {},
+    "san-mu-kd7:85": {},
+    "san-mu-kd7:86": {},
+    "san-mu-kd7:87": {},
+    "san-mu-kd7:88": {},
+    "san-mu-kd7:89": {},
+    "san-mu-kd7:90": {},
+    "san-mu-kd7:91": {},
+    "san-mu-kd7:92": {},
+    "san-mu-kd7:93": {},
+    "san-mu-kd7:94": {},
+    "san-mu-kd7:95": {},
+    "san-mu-kd7:96": {
+        "supplied": [
+            "sat"
+        ]
+    },
+    "san-mu-kd7:97": {},
+    "san-mu-kd7:98": {},
+    "san-mu-kd7:99": {},
+    "san-mu-kd7:100": {
+        "supplied": [
+            "iti"
+        ]
+    },
+    "san-mu-kd7:101": {
+        "supplied": [
+            "atha"
+        ]
+    },
+    "san-mu-kd7:102": {},
+    "san-mu-kd7:103": {},
+    "san-mu-kd7:104": {},
+    "san-mu-kd7:105": {},
+    "san-mu-kd7:106": {},
+    "san-mu-kd7:107": {},
+    "san-mu-kd7:108": {},
+    "san-mu-kd7:109": {},
+    "san-mu-kd7:110": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd7:111": {},
+    "san-mu-kd7:112": {},
+    "san-mu-kd7:113": {},
+    "san-mu-kd7:114": {},
+    "san-mu-kd7:115": {},
+    "san-mu-kd7:116": {},
+    "san-mu-kd7:117": {},
+    "san-mu-kd7:118": {
+        "del": [
+            "cf. Uv 30.35"
+        ]
+    },
+    "san-mu-kd7:119": {},
+    "san-mu-kd7:120": {},
+    "san-mu-kd7:121": {},
+    "san-mu-kd7:122": {
+        "supplied": [
+            "sa"
+        ]
+    },
+    "san-mu-kd7:123": {},
+    "san-mu-kd7:124": {},
+    "san-mu-kd7:125": {},
+    "san-mu-kd7:126": {},
+    "san-mu-kd7:127": {
+        "supplied": [
+            "svalpābādhāś ca",
+            "ṣu",
+            "na"
+        ]
+    },
+    "san-mu-kd7:128": {},
+    "san-mu-kd7:129": {
+        "supplied": [
+            "pari"
+        ]
+    },
+    "san-mu-kd7:130": {},
+    "san-mu-kd7:131": {},
+    "san-mu-kd7:132": {
+        "supplied": [
+            "bhikṣavaḥ kuṇḍūro"
+        ]
+    },
+    "san-mu-kd7:133": {},
+    "san-mu-kd7:134": {},
+    "san-mu-kd7:135": {},
+    "san-mu-kd7:136": {},
+    "san-mu-kd7:137": {},
+    "san-mu-kd7:138": {},
+    "san-mu-kd7:139": {},
+    "san-mu-kd7:140": {},
+    "san-mu-kd7:141": {},
+    "san-mu-kd7:142": {},
+    "san-mu-kd7:143": {},
+    "san-mu-kd7:144": {},
+    "san-mu-kd7:145": {},
+    "san-mu-kd7:146": {},
+    "san-mu-kd7:147": {},
+    "san-mu-kd7:148": {},
+    "san-mu-kd7:149": {},
+    "san-mu-kd7:150": {},
+    "san-mu-kd7:151": {},
+    "san-mu-kd7:152": {},
+    "san-mu-kd7:153": {},
+    "san-mu-kd7:154": {},
+    "san-mu-kd7:155": {
+        "supplied": [
+            "kā"
+        ]
+    },
+    "san-mu-kd7:156": {},
+    "san-mu-kd7:157": {},
+    "san-mu-kd7:158": {
+        "del": [
+            "MS <span class='supplied'>phaṇadaśaṁ"
+        ]
+    },
+    "san-mu-kd7:159": {},
+    "san-mu-kd7:160": {},
+    "san-mu-kd7:161": {
+        "del": [
+            "MS <span class='supplied'>phaṇadaśaṁ"
+        ]
+    },
+    "san-mu-kd7:162": {},
+    "san-mu-kd7:163": {},
+    "san-mu-kd7:164": {},
+    "san-mu-kd7:165": {},
+    "san-mu-kd7:166": {},
+    "san-mu-kd7:167": {},
+    "san-mu-kd7:168": {},
+    "san-mu-kd7:169": {},
+    "san-mu-kd7:170": {},
+    "san-mu-kd7:171": {},
+    "san-mu-kd7:172": {},
+    "san-mu-kd7:173": {},
+    "san-mu-kd7:174": {},
+    "san-mu-kd7:175": {},
+    "san-mu-kd7:176": {
+        "supplied": [
+            "vā",
+            "saḥ",
+            "tau kathayataḥ"
+        ]
+    },
+    "san-mu-kd7:177": {
+        "supplied": [
+            "śirasāṁ"
+        ]
+    },
+    "san-mu-kd7:178": {},
+    "san-mu-kd7:179": {},
+    "san-mu-kd7:180": {},
+    "san-mu-kd7:181": {},
+    "san-mu-kd7:182": {},
+    "san-mu-kd7:183": {},
+    "san-mu-kd7:184": {},
+    "san-mu-kd7:185": {},
+    "san-mu-kd7:186": {},
+    "san-mu-kd7:187": {
+        "supplied": [
+            "dha"
+        ]
+    },
+    "san-mu-kd7:188": {},
+    "san-mu-kd7:189": {},
+    "san-mu-kd7:190": {},
+    "san-mu-kd7:191": {},
+    "san-mu-kd7:192": {},
+    "san-mu-kd7:193": {},
+    "san-mu-kd7:194": {
+        "supplied": [
+            "gṛhapatiḥ"
+        ]
+    },
+    "san-mu-kd7:195": {},
+    "san-mu-kd7:196": {
+        "supplied": [
+            "yi"
+        ]
+    },
+    "san-mu-kd7:197": {},
+    "san-mu-kd7:198": {},
+    "san-mu-kd7:199": {},
+    "san-mu-kd7:200": {},
+    "san-mu-kd7:201": {},
+    "san-mu-kd7:202": {
+        "supplied": [
+            "kasya deyaḥ"
+        ]
+    },
+    "san-mu-kd7:203": {},
+    "san-mu-kd7:204": {},
+    "san-mu-kd7:205": {
+        "add": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "supplied": [
+            "lābhaḥ"
+        ]
+    },
+    "san-mu-kd7:206": {
+        "supplied": [
+            "ti"
+        ]
+    },
+    "san-mu-kd7:207": {
+        "add": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "supplied": [
+            "upagatakānupagatakānāṁ"
+        ]
+    },
+    "san-mu-kd7:208": {},
+    "san-mu-kd7:209": {},
+    "san-mu-kd7:210": {},
+    "san-mu-kd7:211": {},
+    "san-mu-kd7:212": {},
+    "san-mu-kd7:213": {},
+    "san-mu-kd7:214": {},
+    "san-mu-kd7:215": {},
+    "san-mu-kd7:216": {},
+    "san-mu-kd7:217": {},
+    "san-mu-kd7:218": {
+        "add": [
+            "1",
+            "2",
+            "3"
+        ],
+        "supplied": [
+            "tatsantako mṛtapariṣkāro"
+        ]
+    },
+    "san-mu-kd7:219": {
+        "add": [
+            "1",
+            "2",
+            "3"
+        ],
+        "supplied": [
+            "prakṛtisthakaḥ"
+        ]
+    },
+    "san-mu-kd7:220": {
+        "add": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "supplied": [
+            "durbhājitam |"
+        ]
+    },
+    "san-mu-kd7:221": {
+        "add": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    "san-mu-kd7:222": {},
+    "san-mu-kd7:223": {},
+    "san-mu-kd7:224": {},
+    "san-mu-kd7:225": {
+        "supplied": [
+            "sa kathayati |",
+            "pṛccha",
+            "yām ā",
+            "bhājayitavyam |"
+        ]
+    },
+    "san-mu-kd7:226": {},
+    "san-mu-kd7:227": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd7:228": {},
+    "san-mu-kd7:229": {},
+    "san-mu-kd7:230": {},
+    "san-mu-kd7:231": {},
+    "san-mu-kd7:232": {},
+    "san-mu-kd7:233": {},
+    "san-mu-kd7:234": {},
+    "san-mu-kd7:235": {},
+    "san-mu-kd7:236": {},
+    "san-mu-kd7:237": {},
+    "san-mu-kd7:238": {},
+    "san-mu-kd7:239": {
+        "supplied": [
+            "bhūtvā"
+        ]
+    },
+    "san-mu-kd7:240": {},
+    "san-mu-kd7:241": {
+        "supplied": [
+            "na"
+        ]
+    },
+    "san-mu-kd7:242": {},
+    "san-mu-kd7:243": {},
+    "san-mu-kd7:244": {},
+    "san-mu-kd7:245": {},
+    "san-mu-kd7:246": {},
+    "san-mu-kd7:247": {
+        "supplied": [
+            "sthāpitaḥ |",
+            "cīva",
+            "āyuṣmān ā",
+            "de",
+            "pāta"
+        ]
+    },
+    "san-mu-kd7:248": {
+        "supplied": [
+            "jñaḥ"
+        ]
+    },
+    "san-mu-kd7:249": {},
+    "san-mu-kd7:250": {},
+    "san-mu-kd7:251": {},
+    "san-mu-kd7:252": {},
+    "san-mu-kd7:253": {
+        "supplied": [
+            "na",
+            "bhaiṣajyam | sa ā",
+            "cid ruṣitapūrvā prāg eva tva",
+            "m ā",
+            "na"
+        ]
+    },
+    "san-mu-kd7:254": {},
+    "san-mu-kd7:255": {},
+    "san-mu-kd7:256": {},
+    "san-mu-kd7:257": {},
+    "san-mu-kd7:258": {},
+    "san-mu-kd7:259": {
+        "supplied": [
+            "vaidyā",
+            "sva",
+            "vaidya"
+        ]
+    },
+    "san-mu-kd7:260": {},
+    "san-mu-kd7:261": {},
+    "san-mu-kd7:262": {},
+    "san-mu-kd7:263": {},
+    "san-mu-kd7:264": {},
+    "san-mu-kd7:265": {
+        "supplied": [
+            "ḥ",
+            "ḥ"
+        ]
+    },
+    "san-mu-kd7:266": {
+        "supplied": [
+            "ka"
+        ]
+    },
+    "san-mu-kd7:267": {},
+    "san-mu-kd7:268": {},
+    "san-mu-kd7:269": {},
+    "san-mu-kd7:270": {},
+    "san-mu-kd7:271": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "san-mu-kd7:272": {},
+    "san-mu-kd7:273": {},
+    "san-mu-kd7:274": {},
+    "san-mu-kd7:275": {},
+    "san-mu-kd7:276": {
+        "supplied": [
+            "yo yā",
+            "kaṁ",
+            "na"
+        ]
+    },
+    "san-mu-kd7:277": {},
+    "san-mu-kd7:278": {},
+    "san-mu-kd7:279": {},
+    "san-mu-kd7:280": {
+        "supplied": [
+            "bhikṣoś cī"
+        ]
+    },
+    "san-mu-kd7:281": {
+        "add": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "supplied": [
+            "suparibhuktāni |",
+            "yena preṣitāni"
+        ]
+    },
+    "san-mu-kd7:282": {}
+}

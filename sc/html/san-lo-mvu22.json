@@ -1,0 +1,19 @@
+{
+    "san-lo-mvu22:0": "<article id='san-lo-mvu22' lang='san'>",
+    "san-lo-mvu22:1": "<header>",
+    "san-lo-mvu22:2": "<ul>",
+    "san-lo-mvu22:3": "<li class='division'>{}</li>",
+    "san-lo-mvu22:4": "</ul>",
+    "san-lo-mvu22:5": "<h1>{}</h1>",
+    "san-lo-mvu22:6": "</header>",
+    "san-lo-mvu22:7": "<p>{}</p>",
+    "san-lo-mvu22:8": "<p>{}</p>",
+    "san-lo-mvu22:9": "<p>{}</p>",
+    "san-lo-mvu22:10": "<p>{}</p>",
+    "san-lo-mvu22:11": "<p>{}</p>",
+    "san-lo-mvu22:12": "<blockquote class='gatha'>",
+    "san-lo-mvu22:13": "<p>{}<br>",
+    "san-lo-mvu22:14": "{}</p>",
+    "san-lo-mvu22:15": "</blockquote>",
+    "san-lo-mvu22:16": "<p>{}</p>"
+}

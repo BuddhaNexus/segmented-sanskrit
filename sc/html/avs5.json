@@ -1,0 +1,11 @@
+{
+    "avs5:0": "<article id='avs5' lang='san'>",
+    "avs5:1": "<header>",
+    "avs5:2": "<ul>",
+    "avs5:3": "<li class='division'>{}</li>",
+    "avs5:4": "<li class='vagga'>{}</li>",
+    "avs5:5": "</ul>",
+    "avs5:6": "<h1>{}</h1>",
+    "avs5:7": "</header>",
+    "avs5:8": "<p>{}</p>"
+}

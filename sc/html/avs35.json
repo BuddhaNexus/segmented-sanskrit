@@ -1,0 +1,22 @@
+{
+    "avs35:0": "<article id='avs35' lang='san'>",
+    "avs35:1": "<header>",
+    "avs35:2": "<ul>",
+    "avs35:3": "<li class='division'>{}</li>",
+    "avs35:4": "<li class='vagga'>{}</li>",
+    "avs35:5": "</ul>",
+    "avs35:6": "<h1>{}</h1>",
+    "avs35:7": "</header>",
+    "avs35:8": "<p>{}</p>",
+    "avs35:9": "<p>{}</p>",
+    "avs35:10": "<p>{}</p>",
+    "avs35:11": "<p>{}</p>",
+    "avs35:12": "<blockquote class='gatha'>",
+    "avs35:13": "<p>{}<br>",
+    "avs35:14": "{}</p>",
+    "avs35:15": "</blockquote>",
+    "avs35:16": "<p>{}</p>",
+    "avs35:17": "<p>{}</p>",
+    "avs35:18": "<p>{}</p>",
+    "avs35:19": "<p>{}</p>"
+}

@@ -1,0 +1,21 @@
+{
+    "san-lo-bi-vb-pc110:0": "<article id='san-lo-bi-vb-pc110' lang='san'>",
+    "san-lo-bi-vb-pc110:1": "<header>",
+    "san-lo-bi-vb-pc110:2": "<ul>",
+    "san-lo-bi-vb-pc110:3": "<li class='division'>{}</li>",
+    "san-lo-bi-vb-pc110:4": "</ul>",
+    "san-lo-bi-vb-pc110:5": "<h1>{}</h1>",
+    "san-lo-bi-vb-pc110:6": "</header>",
+    "san-lo-bi-vb-pc110:7": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc110:8": "<p>{}</p>",
+    "san-lo-bi-vb-pc110:9": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc110:10": "<p class='rule'>{}</p>",
+    "san-lo-bi-vb-pc110:11": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc110:12": "<ul>",
+    "san-lo-bi-vb-pc110:13": "<li><span class='term' id='def-1'>{}</li>",
+    "san-lo-bi-vb-pc110:14": "<li><span class='term' id='def-2'>{}</li>",
+    "san-lo-bi-vb-pc110:15": "<li><span class='term' id='def-3'>{}</li>",
+    "san-lo-bi-vb-pc110:16": "<li><span class='term' id='def-4'>{}</li>",
+    "san-lo-bi-vb-pc110:17": "</ul>",
+    "san-lo-bi-vb-pc110:18": "<p>{}</p>"
+}

@@ -17,6 +17,6 @@ NOTE: These files contain a lot of errors and need to be cleaned.
 
 
 NOTE:
-Files in segmented_files and dsbc_files are those currently used in Buddhanexus. These are converted from html. The XML files are not used.
+Files in new_segmented_files are those currently used in Buddhanexus. These are converted from html.
 
-The folver segmented_files_buddhist_from_html holds the jsons of the Buddhist texts that are derived directly from HTML to JSON conversion from Gretil HTML
+The folder segmented_files_buddhist_from_html holds the jsons of the Buddhist texts that are derived directly from HTML to JSON conversion from Gretil HTML

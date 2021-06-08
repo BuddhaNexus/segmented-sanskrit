@@ -1,0 +1,21 @@
+{
+    "san-lo-bi-vb-ss12:0": "<article id='san-lo-bi-vb-ss12' lang='san'>",
+    "san-lo-bi-vb-ss12:1": "<header>",
+    "san-lo-bi-vb-ss12:2": "<ul>",
+    "san-lo-bi-vb-ss12:3": "<li class='division'>{}</li>",
+    "san-lo-bi-vb-ss12:4": "</ul>",
+    "san-lo-bi-vb-ss12:5": "<h1>{}</h1>",
+    "san-lo-bi-vb-ss12:6": "</header>",
+    "san-lo-bi-vb-ss12:7": "<h2>{}</h2>",
+    "san-lo-bi-vb-ss12:8": "<p>{}</p>",
+    "san-lo-bi-vb-ss12:9": "<h2>{}</h2>",
+    "san-lo-bi-vb-ss12:10": "<p class='rule'>{}</p>",
+    "san-lo-bi-vb-ss12:11": "<h2>{}</h2>",
+    "san-lo-bi-vb-ss12:12": "<ul>",
+    "san-lo-bi-vb-ss12:13": "<li><span class='term' id='def-1'>{}</li>",
+    "san-lo-bi-vb-ss12:14": "<li><span class='term' id='def-2'>{}</li>",
+    "san-lo-bi-vb-ss12:15": "</ul>",
+    "san-lo-bi-vb-ss12:16": "<p>{}</p>",
+    "san-lo-bi-vb-ss12:17": "<h2>{}</h2>",
+    "san-lo-bi-vb-ss12:18": "<p class='rule'>{}</p>"
+}

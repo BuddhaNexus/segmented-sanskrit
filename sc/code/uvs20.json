@@ -1,0 +1,680 @@
+{
+    "uvs20:0": {},
+    "uvs20:1": {},
+    "uvs20:2": {},
+    "uvs20:3": {},
+    "uvs20:4": {},
+    "uvs20:5": {},
+    "uvs20:6": {},
+    "uvs20:7": {},
+    "uvs20:8": {
+        "supplied": [
+            "ṁ"
+        ],
+        "unclear": [
+            "ṁ"
+        ]
+    },
+    "uvs20:9": {},
+    "uvs20:10": {
+        "supplied": [
+            "o",
+            "a",
+            "aṁ",
+            "arv",
+            "a",
+            "a",
+            "i"
+        ]
+    },
+    "uvs20:11": {
+        "supplied": [
+            "a",
+            "eta |"
+        ]
+    },
+    "uvs20:12": {
+        "gap": [
+            "."
+        ],
+        "supplied": [
+            "nāṁa-rūpa"
+        ]
+    },
+    "uvs20:13": {},
+    "uvs20:14": {
+        "unclear": [
+            "u"
+        ]
+    },
+    "uvs20:15": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "uvs20:16": {
+        "supplied": [
+            "ṁ"
+        ]
+    },
+    "uvs20:17": {
+        "unclear": [
+            "na"
+        ]
+    },
+    "uvs20:18": {
+        "supplied": [
+            "ṁ",
+            "atvā"
+        ],
+        "gap": [
+            ". . . ."
+        ]
+    },
+    "uvs20:19": {
+        "gap": [
+            ". . . .",
+            "."
+        ],
+        "supplied": [
+            "śoca"
+        ]
+    },
+    "uvs20:20": {
+        "supplied": [
+            "a",
+            "ū",
+            "sya"
+        ]
+    },
+    "uvs20:21": {
+        "supplied": [
+            "u",
+            "a"
+        ],
+        "unclear": [
+            "ā",
+            "n"
+        ]
+    },
+    "uvs20:22": {
+        "supplied": [
+            "ṁ",
+            "t"
+        ]
+    },
+    "uvs20:23": {
+        "supplied": [
+            "v"
+        ],
+        "unclear": [
+            "na śocat"
+        ]
+    },
+    "uvs20:24": {},
+    "uvs20:25": {
+        "unclear": [
+            "ī"
+        ]
+    },
+    "uvs20:26": {
+        "unclear": [
+            "ā"
+        ],
+        "supplied": [
+            "anaḥ |"
+        ]
+    },
+    "uvs20:27": {
+        "supplied": [
+            "k",
+            "odhena abhibhūtas",
+            "a"
+        ]
+    },
+    "uvs20:28": {
+        "supplied": [
+            "na d",
+            "īpo bha",
+            "a",
+            "i",
+            "a"
+        ],
+        "unclear": [
+            "v",
+            "t",
+            "ś"
+        ]
+    },
+    "uvs20:29": {
+        "supplied": [
+            "a",
+            "a",
+            "aṁ",
+            "a",
+            "a",
+            "āṁ",
+            "a"
+        ],
+        "unclear": [
+            "y",
+            "l",
+            "n"
+        ]
+    },
+    "uvs20:30": {
+        "unclear": [
+            "t"
+        ],
+        "supplied": [
+            "o"
+        ]
+    },
+    "uvs20:31": {
+        "supplied": [
+            "r",
+            "a",
+            "e"
+        ],
+        "gap": [
+            ". . . ."
+        ]
+    },
+    "uvs20:32": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:33": {
+        "gap": [
+            ". ."
+        ],
+        "supplied": [
+            "kṣama"
+        ]
+    },
+    "uvs20:34": {},
+    "uvs20:35": {
+        "unclear": [
+            "nt"
+        ]
+    },
+    "uvs20:36": {
+        "supplied": [
+            "ba"
+        ]
+    },
+    "uvs20:37": {
+        "supplied": [
+            "ā",
+            "ā"
+        ],
+        "unclear": [
+            "ā"
+        ]
+    },
+    "uvs20:38": {
+        "supplied": [
+            "a"
+        ]
+    },
+    "uvs20:39": {
+        "supplied": [
+            "m",
+            "aṁ",
+            "a",
+            "aram",
+            "ā"
+        ],
+        "unclear": [
+            "n",
+            "c",
+            "p",
+            "c"
+        ]
+    },
+    "uvs20:40": {
+        "supplied": [
+            "a",
+            "ato"
+        ],
+        "unclear": [
+            "h"
+        ],
+        "gap": [
+            ".",
+            ". . . ."
+        ]
+    },
+    "uvs20:41": {
+        "gap": [
+            ". . ."
+        ],
+        "supplied": [
+            "i",
+            "aṁ j",
+            "ā",
+            "vā"
+        ],
+        "unclear": [
+            "ñ"
+        ]
+    },
+    "uvs20:42": {
+        "unclear": [
+            "sv"
+        ],
+        "supplied": [
+            "ayaṁ",
+            "at",
+            "opaśām",
+            "ate"
+        ]
+    },
+    "uvs20:43": {
+        "supplied": [
+            "atyukt",
+            "p",
+            "dh",
+            "ra-"
+        ],
+        "unclear": [
+            "o",
+            "ī"
+        ],
+        "gap": [
+            ". ."
+        ]
+    },
+    "uvs20:44": {
+        "gap": [
+            ". . ."
+        ],
+        "supplied": [
+            "sant",
+            "t",
+            "kṣati |"
+        ],
+        "unclear": [
+            "i",
+            "ī"
+        ]
+    },
+    "uvs20:45": {
+        "supplied": [
+            "tām",
+            "h",
+            "amāṁ k",
+            "ān"
+        ],
+        "unclear": [
+            "u",
+            "<span class='supplied'>pa",
+            "ṣ",
+            "i"
+        ]
+    },
+    "uvs20:46": {
+        "supplied": [
+            "n",
+            "t",
+            "a",
+            "k",
+            "amat",
+            "d",
+            "rbala"
+        ],
+        "unclear": [
+            "i",
+            "ṁ",
+            "ṣ",
+            "u"
+        ]
+    },
+    "uvs20:47": {
+        "supplied": [
+            "ubhin",
+            "a",
+            "rtthaṁ"
+        ],
+        "unclear": [
+            "n",
+            "ṁ",
+            "a"
+        ],
+        "gap": [
+            ". . ."
+        ]
+    },
+    "uvs20:48": {
+        "supplied": [
+            "ā",
+            "a",
+            "ś",
+            "a",
+            "a"
+        ],
+        "unclear": [
+            "tm",
+            "na"
+        ],
+        "gap": [
+            ". . ."
+        ]
+    },
+    "uvs20:49": {
+        "supplied": [
+            "a",
+            "aṁ",
+            "taṁ j",
+            "ā",
+            "vā"
+        ],
+        "unclear": [
+            "ñ"
+        ]
+    },
+    "uvs20:50": {},
+    "uvs20:51": {},
+    "uvs20:52": {
+        "unclear": [
+            "a"
+        ]
+    },
+    "uvs20:53": {
+        "supplied": [
+            "d",
+            "ā",
+            "al",
+            "aṁ",
+            "a",
+            "taḥ"
+        ],
+        "unclear": [
+            "p",
+            "i"
+        ]
+    },
+    "uvs20:54": {
+        "unclear": [
+            "ṛ"
+        ],
+        "supplied": [
+            "th"
+        ]
+    },
+    "uvs20:55": {},
+    "uvs20:56": {
+        "unclear": [
+            "a",
+            "ddh",
+            "y"
+        ],
+        "supplied": [
+            "u",
+            "āṁ",
+            "aṁ bhāṣe",
+            "a"
+        ]
+    },
+    "uvs20:57": {
+        "supplied": [
+            "a",
+            "i",
+            "a",
+            "a"
+        ],
+        "unclear": [
+            "ā",
+            "ri"
+        ],
+        "gap": [
+            "."
+        ]
+    },
+    "uvs20:58": {
+        "unclear": [
+            "i"
+        ]
+    },
+    "uvs20:59": {
+        "supplied": [
+            "a",
+            "ya"
+        ],
+        "unclear": [
+            "buddh"
+        ]
+    },
+    "uvs20:60": {
+        "supplied": [
+            "am",
+            "a",
+            "i"
+        ],
+        "unclear": [
+            "t"
+        ]
+    },
+    "uvs20:61": {
+        "supplied": [
+            "ḥ",
+            "u",
+            "prat",
+            "kru"
+        ],
+        "unclear": [
+            "k",
+            "i"
+        ]
+    },
+    "uvs20:62": {
+        "supplied": [
+            "t"
+        ]
+    },
+    "uvs20:63": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:64": {
+        "supplied": [
+            "saṅgrām",
+            "u"
+        ],
+        "unclear": [
+            "jayati d"
+        ]
+    },
+    "uvs20:65": {
+        "supplied": [
+            "a",
+            "t kr",
+            "kr",
+            "dh",
+            "na"
+        ],
+        "unclear": [
+            "a",
+            "k",
+            "o",
+            "e"
+        ]
+    },
+    "uvs20:66": {
+        "supplied": [
+            "asādh"
+        ]
+    },
+    "uvs20:67": {
+        "supplied": [
+            "t ka",
+            "yaṁ",
+            "ā",
+            "e",
+            "a"
+        ],
+        "unclear": [
+            "n",
+            "n"
+        ]
+    },
+    "uvs20:68": {
+        "supplied": [
+            "a",
+            "y",
+            "a"
+        ],
+        "unclear": [
+            "n"
+        ],
+        "gap": [
+            ".",
+            ". . . ."
+        ]
+    },
+    "uvs20:69": {
+        "supplied": [
+            "akkruddha",
+            "ya",
+            "r",
+            "dho"
+        ],
+        "unclear": [
+            "s",
+            "k",
+            "o"
+        ],
+        "gap": [
+            ". ."
+        ]
+    },
+    "uvs20:70": {
+        "unclear": [
+            "dā"
+        ],
+        "supplied": [
+            "ntasya"
+        ],
+        "gap": [
+            ".",
+            ". . . ."
+        ]
+    },
+    "uvs20:71": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:72": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:73": {
+        "gap": [
+            ". . ."
+        ]
+    },
+    "uvs20:74": {
+        "unclear": [
+            "a",
+            "y"
+        ],
+        "supplied": [
+            "y",
+            "a",
+            "a",
+            "e",
+            "a",
+            "ā"
+        ]
+    },
+    "uvs20:75": {
+        "unclear": [
+            "th"
+        ],
+        "gap": [
+            ". .",
+            ". . . ."
+        ]
+    },
+    "uvs20:76": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:77": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:78": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:79": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:80": {
+        "gap": [
+            ". ."
+        ],
+        "supplied": [
+            "-grā",
+            "o"
+        ]
+    },
+    "uvs20:81": {
+        "supplied": [
+            "vīśati"
+        ]
+    },
+    "uvs20:82": {
+        "supplied": [
+            "amaṇo",
+            "ā"
+        ]
+    },
+    "uvs20:83": {
+        "supplied": [
+            "a",
+            "mṛ",
+            "i",
+            "rakīrṇṇaka"
+        ],
+        "unclear": [
+            "t",
+            "p"
+        ]
+    },
+    "uvs20:84": {
+        "gap": [
+            ". . . .",
+            ". . . ."
+        ]
+    },
+    "uvs20:85": {
+        "supplied": [
+            "r",
+            "dha"
+        ],
+        "gap": [
+            ".",
+            ". . . ."
+        ]
+    },
+    "uvs20:86": {}
+}
