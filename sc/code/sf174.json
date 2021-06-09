@@ -1,14 +1,11 @@
 {
-    "sf174:0": {},
-    "sf174:1": {},
-    "sf174:2": {
+    "sf174:0": {
         "add": [
             "Abhavyasūtra"
         ]
     },
-    "sf174:3": {},
-    "sf174:4": {},
-    "sf174:5": {
+    "sf174:1": {},
+    "sf174:2": {
         "supplied": [
             "ra",
             "āḥ saṁvidyante aniṣṭā akāntā amanā",
@@ -25,7 +22,7 @@
             "+ + + +"
         ]
     },
-    "sf174:6": {
+    "sf174:3": {
         "supplied": [
             "yasmāt tu vyādhir jarā maraṇam ime trayo dharmā aniṣṭā akāntā amanāpā lokasya bhavanti",
             "t",
@@ -33,7 +30,7 @@
             "ke utpadyante supraveditasya dharmavinayasya prakāsanāya |"
         ]
     },
-    "sf174:7": {
+    "sf174:4": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo vyādhiṁ jarāṁ maraṇaṁ prahātum | kata",
             "s",
@@ -41,7 +38,7 @@
             "tadyathā rā"
         ]
     },
-    "sf174:8": {
+    "sf174:5": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo rāgadveṣamohaṁ prahātum | ka",
             "n |",
@@ -54,7 +51,7 @@
             "n dharmān aprahāya abhavyo rāgadveṣamohaṁ prahātum |"
         ]
     },
-    "sf174:9": {
+    "sf174:6": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo satkāyadṛṣṭiṁ śīlavrataparāma",
             "p",
@@ -66,7 +63,7 @@
             "āṁ"
         ]
     },
-    "sf174:10": {
+    "sf174:7": {
         "supplied": [
             "n dharmān aprahā",
             "avyo a",
@@ -82,7 +79,7 @@
             "tāṁ ca prahātum |"
         ]
     },
-    "sf174:11": {
+    "sf174:8": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo muṣṭasmṛtitām asaṁprajanyaṁ vikṣepaṁ ca prahātum | katamāṁ",
             "n",
@@ -92,7 +89,7 @@
             "janyaṁ vikṣepaṁ ca prahātum |"
         ]
     },
-    "sf174:12": {
+    "sf174:9": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo auddhatyam asaṁvaraṁ duḥśīlaṁ ca prahātum | katamāṁs trī",
             "a",
@@ -101,7 +98,7 @@
             "varaṁ duḥśīlaṁ ca prahātum |"
         ]
     },
-    "sf174:13": {
+    "sf174:10": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo āśraddhyam avadānyatāṁ kausīdyaṁ prahātum | katamāṁs trīn |",
             "āryā",
@@ -113,7 +110,7 @@
             "ahāya abhavyo āśraddhyam avadānyatāṁ kausīdyaṁ prahātum |"
         ]
     },
-    "sf174:14": {
+    "sf174:11": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo āryāṇām adarśanakāmatām āryasya dharmasya aśra",
             "akāmatām u",
@@ -125,7 +122,7 @@
             "ca prahātum |"
         ]
     },
-    "sf174:15": {
+    "sf174:12": {
         "supplied": [
             "trīn dharmān aprahāya abhavyo anādaryaṁ daurvacasyaṁ pāpa",
             "i",
@@ -137,7 +134,7 @@
             "n aprahāya abhavyo anādaryaṁ daurvacasyaṁ pāpamitratāṁ ca prahātum |"
         ]
     },
-    "sf174:16": {
+    "sf174:13": {
         "supplied": [
             "tat kasmād dhet",
             "n anapatrāpī prama",
@@ -169,7 +166,7 @@
             "+ + + + + + + + + + + + +"
         ]
     },
-    "sf174:17": {
+    "sf174:14": {
         "supplied": [
             "ā",
             "rāṁ ma",
@@ -177,7 +174,7 @@
             "rāgadveṣamohān | imāṁs trīn dharmān prahāya bhavyo vyādhiṁ jarāṁ maraṇaṁ prahātum |"
         ]
     },
-    "sf174:18": {
+    "sf174:15": {
         "supplied": [
             "trīṁs tu dharmān prahāya bhavyo rāgadveṣa",
             "amāṁ",
@@ -190,7 +187,7 @@
             "m | imāṁs trīn dharmān prahāya bhavyorāgadveṣamohān prahātum |"
         ]
     },
-    "sf174:19": {
+    "sf174:16": {
         "supplied": [
             "trīṁs tu dharmān prahāya bhavyaḥ satkāyadṛṣṭiṁ śīlavrataparā",
             "āṁ ca prahātum | katamāṁs trīn | ayoni",
@@ -198,7 +195,7 @@
             "mārgasevanāṁ līnacittatāṁ ca | imāṁs trīn dharmān prahāya bhavyaḥ satkāyadṛṣṭiṁ śīlavrataparāmarśaṁ vicikitsāṁ ca pra"
         ]
     },
-    "sf174:20": {
+    "sf174:17": {
         "supplied": [
             "ṁ",
             "u dharmān prahāya bhavyo ayoniśo ma",

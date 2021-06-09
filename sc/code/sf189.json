@@ -1,36 +1,33 @@
 {
-    "sf189:0": {},
-    "sf189:1": {},
-    "sf189:2": {
+    "sf189:0": {
         "add": [
             "Ekottarikāgama 7"
         ]
     },
-    "sf189:3": {},
-    "sf189:4": {
+    "sf189:1": {
         "supplied": [
             "svaṁ mukhanimittaṁ pratyavekṣamā"
         ]
     },
-    "sf189:5": {
+    "sf189:2": {
         "supplied": [
             "vā ubhayārthaṁ vā",
             "śeṣādhigamaṁ jñānaṁ v"
         ]
     },
-    "sf189:6": {
+    "sf189:3": {
         "supplied": [
             "rhy evaṁ śikṣitavyaṁ yan na naś c",
             "a",
             "ṣyaty evaṁ vo bhikṣavaḥ śikṣitavyaṁ ||"
         ]
     },
-    "sf189:7": {
+    "sf189:4": {
         "supplied": [
             "tat kasya hetor | anāvilatvād udakapātryāḥ |"
         ]
     },
-    "sf189:8": {
+    "sf189:5": {
         "supplied": [
             "evam eva sa bata āvilena c",
             "arśavihāratāṁ vā j",
@@ -39,5 +36,5 @@
             "ānam etad vidyate | tat kasya hetor | anāvi"
         ]
     },
-    "sf189:9": {}
+    "sf189:6": {}
 }

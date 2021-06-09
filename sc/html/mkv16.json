@@ -1,16 +1,9 @@
 {
-    "mkv16:0": "<article id='mkv16' lang='san'>",
-    "mkv16:1": "<header>",
-    "mkv16:2": "<ul>",
-    "mkv16:3": "<li class='division'>{}</li>",
-    "mkv16:4": "</ul>",
-    "mkv16:5": "<h1>{}</h1>",
-    "mkv16:6": "</header>",
-    "mkv16:7": "<p>{}</p>",
-    "mkv16:8": "<p>{}</p>",
-    "mkv16:9": "<blockquote class='gatha'>",
-    "mkv16:10": "<p>{}<br>",
-    "mkv16:11": "{}</p>",
-    "mkv16:12": "</blockquote>",
-    "mkv16:13": "<p class='endsection'>{}</p>"
+    "mkv16:0": "<article id='mkv16' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv16:1": "<h1>{}</h1></header>",
+    "mkv16:2": "<p>{}</p>",
+    "mkv16:3": "<p>{}</p>",
+    "mkv16:4": "<blockquote class='gatha'><p>{}<br>",
+    "mkv16:5": "{}</p></blockquote>",
+    "mkv16:6": "<p class='endsection'>{}</p>"
 }

@@ -1,13 +1,10 @@
 {
-    "sf277:0": {},
-    "sf277:1": {},
-    "sf277:2": {
+    "sf277:0": {
         "add": [
             "Agrajñasūtra"
         ]
     },
-    "sf277:3": {},
-    "sf277:4": {
+    "sf277:1": {
         "supplied": [
             "|",
             "adbhūyasā satvā ābhāsvare devanikāye upapadyante | te tatra bhavanti rūpiṇo manomayā avikalā ahīnendriyāḥ sarvāṅgapratyaṁ",
@@ -15,7 +12,7 @@
             "ītibhakṣāḥ prītyāhārā dīrghāyuṣo dīrgham adhvānaṁ tiṣṭhanti |"
         ]
     },
-    "sf277:5": {
+    "sf277:2": {
         "supplied": [
             "tena khalu samayena mahāpṛthivī ekodikā bhavati ekārṇavā | tasy",
             "ṁ",
@@ -25,13 +22,13 @@
             "rasasaṁpannaḥ | tadyathā navanītam evaṁvarṇaḥ | tadyathā kṣaudraṁ madhv aneḍakam evamāsvādaḥ |"
         ]
     },
-    "sf277:6": {
+    "sf277:3": {
         "supplied": [
             "bhavati sa samayo yad ayaṁ loko vivartate |",
             "ihatye manuṣyasabhāgatām āgaccanti | te ’pi rūpiṇo pūrvavad yāvad dīrgham adhvānam tiṣṭhanti |"
         ]
     },
-    "sf277:7": {
+    "sf277:4": {
         "supplied": [
             "tena khalu samayena",
             "ṁ",
@@ -39,12 +36,12 @@
             "|"
         ]
     },
-    "sf277:8": {
+    "sf277:5": {
         "supplied": [
             "rasam āsvādayati | yathā yathāsvādayati tathā tathā pratikāṁkṣati | yathā yathā pratikāṁkṣati tathā tathā kabaḍiṁkāropakrameṇa praparibhuktaḥ |"
         ]
     },
-    "sf277:9": {
+    "sf277:6": {
         "supplied": [
             "ur",
             "s",
@@ -53,7 +50,7 @@
             "kabaḍiṅkāropakrameṇa praparibhuktās teṣāṁ kāye dṛḍhatvaṁ gurutvaṁ prajñāyete śubhavarṇo ’ntarhitaḥ | andhakāro loke prādurbhūtaḥ |"
         ]
     },
-    "sf277:10": {
+    "sf277:7": {
         "supplied": [
             "dharmatā kha",
             "candramasau prajñāyete"

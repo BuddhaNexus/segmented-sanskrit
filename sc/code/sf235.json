@@ -1,41 +1,36 @@
 {
-    "sf235:0": {},
-    "sf235:1": {},
-    "sf235:2": {
+    "sf235:0": {
         "add": [
             "Ekottarikāgama 35"
         ]
     },
-    "sf235:3": {},
-    "sf235:4": {
+    "sf235:1": {
         "supplied": [
             "dvau balau / yaś cātyayam atyayato na jānā"
         ]
     },
-    "sf235:5": {
+    "sf235:2": {
         "supplied": [
             "to jñātvā yathādharmaṁ pratikaroti //"
         ]
     },
-    "sf235:6": {},
-    "sf235:7": {
+    "sf235:3": {
         "supplied": [
             "dvau saṁkli"
         ]
     },
-    "sf235:8": {},
-    "sf235:9": {},
-    "sf235:10": {
+    "sf235:4": {},
+    "sf235:5": {
         "supplied": [
             "ṣā ca / praticchannā apraticchannā ca / uttānā gaṁbhīrā ca / āvi"
         ]
     },
-    "sf235:11": {
+    "sf235:6": {
         "supplied": [
             "ṁ"
         ]
     },
-    "sf235:12": {
+    "sf235:7": {
         "supplied": [
             "kī"
         ],
@@ -43,7 +38,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "sf235:13": {
+    "sf235:8": {
         "gap": [
             "+ + + + +"
         ],
@@ -52,6 +47,6 @@
             "ā"
         ]
     },
-    "sf235:14": {},
-    "sf235:15": {}
+    "sf235:9": {},
+    "sf235:10": {}
 }

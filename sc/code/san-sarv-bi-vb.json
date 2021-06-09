@@ -1,18 +1,13 @@
 {
     "san-sarv-bi-vb:0": {},
-    "san-sarv-bi-vb:1": {},
-    "san-sarv-bi-vb:2": {},
-    "san-sarv-bi-vb:3": {},
-    "san-sarv-bi-vb:4": {},
-    "san-sarv-bi-vb:5": {
+    "san-sarv-bi-vb:1": {
         "add": [
             "sārvāstivāda Bhikṣuṇī vibhaṅga"
         ]
     },
-    "san-sarv-bi-vb:6": {},
-    "san-sarv-bi-vb:7": {},
-    "san-sarv-bi-vb:8": {},
-    "san-sarv-bi-vb:9": {
+    "san-sarv-bi-vb:2": {},
+    "san-sarv-bi-vb:3": {},
+    "san-sarv-bi-vb:4": {
         "gap": [
             "//",
             "/",
@@ -50,19 +45,20 @@
             "āva"
         ]
     },
-    "san-sarv-bi-vb:10": {},
-    "san-sarv-bi-vb:11": {
+    "san-sarv-bi-vb:5": {},
+    "san-sarv-bi-vb:6": {
         "gap": [
             ".",
             "//"
         ]
     },
-    "san-sarv-bi-vb:12": {},
-    "san-sarv-bi-vb:13": {
+    "san-sarv-bi-vb:7": {},
+    "san-sarv-bi-vb:8": {
         "gap": [
             "///",
             "////",
             "///",
+            ".",
             "//",
             "///",
             "/",
@@ -72,14 +68,14 @@
             "/"
         ],
         "unclear": [
-            "k<span class='gap'>.",
+            "k",
             "jñā",
             "s<span class='gap'>.",
             "th"
         ]
     },
-    "san-sarv-bi-vb:14": {},
-    "san-sarv-bi-vb:15": {
+    "san-sarv-bi-vb:9": {},
+    "san-sarv-bi-vb:10": {
         "gap": [
             "//",
             ".",
@@ -104,8 +100,8 @@
             "ay"
         ]
     },
-    "san-sarv-bi-vb:16": {},
-    "san-sarv-bi-vb:17": {
+    "san-sarv-bi-vb:11": {},
+    "san-sarv-bi-vb:12": {
         "gap": [
             "///",
             "/////",

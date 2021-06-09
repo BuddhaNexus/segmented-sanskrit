@@ -3,10 +3,16 @@
     "san-sarv-sm:1": [],
     "san-sarv-sm:2": [],
     "san-sarv-sm:3": [],
-    "san-sarv-sm:4": [],
-    "san-sarv-sm:5": [],
-    "san-sarv-sm:6": [],
-    "san-sarv-sm:7": [],
-    "san-sarv-sm:8": [],
-    "san-sarv-sm:9": []
+    "san-sarv-sm:4": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+    ]
 }

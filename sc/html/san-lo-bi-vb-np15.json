@@ -1,17 +1,12 @@
 {
-    "san-lo-bi-vb-np15:0": "<article id='san-lo-bi-vb-np15' lang='san'>",
-    "san-lo-bi-vb-np15:1": "<header>",
-    "san-lo-bi-vb-np15:2": "<ul>",
-    "san-lo-bi-vb-np15:3": "<li class='division'>{}</li>",
-    "san-lo-bi-vb-np15:4": "</ul>",
-    "san-lo-bi-vb-np15:5": "<h1>{}</h1>",
-    "san-lo-bi-vb-np15:6": "</header>",
-    "san-lo-bi-vb-np15:7": "<h2>{}</h2>",
-    "san-lo-bi-vb-np15:8": "<p>{}</p>",
-    "san-lo-bi-vb-np15:9": "<h2>{}</h2>",
-    "san-lo-bi-vb-np15:10": "<p class='rule'>{}</p>",
-    "san-lo-bi-vb-np15:11": "<h2>{}</h2>",
-    "san-lo-bi-vb-np15:12": "<p>{}</p>",
-    "san-lo-bi-vb-np15:13": "<h2>{}</h2>",
-    "san-lo-bi-vb-np15:14": "<p class='rule'>{}</p>"
+    "san-lo-bi-vb-np15:0": "<article id='san-lo-bi-vb-np15' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-bi-vb-np15:1": "<h1>{}</h1></header>",
+    "san-lo-bi-vb-np15:2": "<h2>{}</h2>",
+    "san-lo-bi-vb-np15:3": "<p>{}</p>",
+    "san-lo-bi-vb-np15:4": "<h2>{}</h2>",
+    "san-lo-bi-vb-np15:5": "<p class='rule'>{}</p>",
+    "san-lo-bi-vb-np15:6": "<h2>{}</h2>",
+    "san-lo-bi-vb-np15:7": "<p>{}</p>",
+    "san-lo-bi-vb-np15:8": "<h2>{}</h2>",
+    "san-lo-bi-vb-np15:9": "<p class='rule'>{}</p>"
 }

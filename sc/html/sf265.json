@@ -1,15 +1,12 @@
 {
-    "sf265:0": "<article id='sf262' lang='san'>",
-    "sf265:1": "<header>",
-    "sf265:2": "<h1>{}</h1>",
-    "sf265:3": "</header>",
+    "sf265:0": "<article id='sf262' lang='san'><header><h1>{}</h1></header>",
+    "sf265:1": "<p>{}</p>",
+    "sf265:2": "<p>{}</p>",
+    "sf265:3": "<p>{}</p>",
     "sf265:4": "<p>{}</p>",
     "sf265:5": "<p>{}</p>",
     "sf265:6": "<p>{}</p>",
     "sf265:7": "<p>{}</p>",
-    "sf265:8": "<p>{}</p>",
-    "sf265:9": "<p>{}</p>",
-    "sf265:10": "<p>{}</p>",
-    "sf265:11": "<p class='endsutta'>{}</p>",
-    "sf265:12": "<p class='endsutta'>{}</p>"
+    "sf265:8": "<p class='endsutta'>{}</p>",
+    "sf265:9": "<p class='endsutta'>{}</p>"
 }

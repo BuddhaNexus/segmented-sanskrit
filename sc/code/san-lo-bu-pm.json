@@ -1,51 +1,51 @@
 {
     "san-lo-bu-pm:0": {},
-    "san-lo-bu-pm:1": {},
-    "san-lo-bu-pm:2": {},
-    "san-lo-bu-pm:3": {},
-    "san-lo-bu-pm:4": {
+    "san-lo-bu-pm:1": {
         "add": [
             "Introductory verses"
         ]
     },
+    "san-lo-bu-pm:2": {},
+    "san-lo-bu-pm:3": {},
+    "san-lo-bu-pm:4": {
+        "vns": [
+            "Verse 1"
+        ]
+    },
     "san-lo-bu-pm:5": {},
-    "san-lo-bu-pm:6": {},
+    "san-lo-bu-pm:6": {
+        "vns": [
+            "Verse 2"
+        ]
+    },
     "san-lo-bu-pm:7": {},
     "san-lo-bu-pm:8": {
         "vns": [
-            "Verse 1"
+            "Verse 3"
         ]
     },
     "san-lo-bu-pm:9": {},
     "san-lo-bu-pm:10": {
         "vns": [
-            "Verse 2"
+            "Verse 4"
         ]
     },
     "san-lo-bu-pm:11": {},
     "san-lo-bu-pm:12": {
         "vns": [
-            "Verse 3"
-        ]
-    },
-    "san-lo-bu-pm:13": {},
-    "san-lo-bu-pm:14": {
-        "vns": [
-            "Verse 4"
-        ]
-    },
-    "san-lo-bu-pm:15": {},
-    "san-lo-bu-pm:16": {
-        "vns": [
             "Verse 5"
         ]
     },
-    "san-lo-bu-pm:17": {},
-    "san-lo-bu-pm:18": {
+    "san-lo-bu-pm:13": {
         "supplied": [
             "iti"
         ]
     },
+    "san-lo-bu-pm:14": {},
+    "san-lo-bu-pm:15": {},
+    "san-lo-bu-pm:16": {},
+    "san-lo-bu-pm:17": {},
+    "san-lo-bu-pm:18": {},
     "san-lo-bu-pm:19": {},
     "san-lo-bu-pm:20": {},
     "san-lo-bu-pm:21": {},
@@ -74,44 +74,44 @@
     "san-lo-bu-pm:44": {},
     "san-lo-bu-pm:45": {},
     "san-lo-bu-pm:46": {},
-    "san-lo-bu-pm:47": {},
-    "san-lo-bu-pm:48": {},
-    "san-lo-bu-pm:49": {},
-    "san-lo-bu-pm:50": {},
-    "san-lo-bu-pm:51": {},
-    "san-lo-bu-pm:52": {},
-    "san-lo-bu-pm:53": {
+    "san-lo-bu-pm:47": {
         "vns": [
             "Verse 22"
         ]
     },
-    "san-lo-bu-pm:54": {},
-    "san-lo-bu-pm:55": {
+    "san-lo-bu-pm:48": {},
+    "san-lo-bu-pm:49": {
         "vns": [
             "Verse 23"
         ]
     },
-    "san-lo-bu-pm:56": {},
-    "san-lo-bu-pm:57": {
+    "san-lo-bu-pm:50": {},
+    "san-lo-bu-pm:51": {
         "vns": [
             "Verse 24"
         ]
     },
-    "san-lo-bu-pm:58": {},
-    "san-lo-bu-pm:59": {
+    "san-lo-bu-pm:52": {},
+    "san-lo-bu-pm:53": {
         "vns": [
             "Verse 25"
         ]
     },
-    "san-lo-bu-pm:60": {},
-    "san-lo-bu-pm:61": {},
-    "san-lo-bu-pm:62": {},
-    "san-lo-bu-pm:63": {},
-    "san-lo-bu-pm:64": {
+    "san-lo-bu-pm:54": {},
+    "san-lo-bu-pm:55": {},
+    "san-lo-bu-pm:56": {},
+    "san-lo-bu-pm:57": {
         "supplied": [
             "ka"
         ]
     },
+    "san-lo-bu-pm:58": {},
+    "san-lo-bu-pm:59": {},
+    "san-lo-bu-pm:60": {},
+    "san-lo-bu-pm:61": {},
+    "san-lo-bu-pm:62": {},
+    "san-lo-bu-pm:63": {},
+    "san-lo-bu-pm:64": {},
     "san-lo-bu-pm:65": {},
     "san-lo-bu-pm:66": {},
     "san-lo-bu-pm:67": {},
@@ -121,45 +121,45 @@
     "san-lo-bu-pm:71": {},
     "san-lo-bu-pm:72": {},
     "san-lo-bu-pm:73": {},
-    "san-lo-bu-pm:74": {},
+    "san-lo-bu-pm:74": {
+        "supplied": [
+            "iti"
+        ]
+    },
     "san-lo-bu-pm:75": {},
     "san-lo-bu-pm:76": {},
     "san-lo-bu-pm:77": {},
     "san-lo-bu-pm:78": {},
     "san-lo-bu-pm:79": {},
     "san-lo-bu-pm:80": {},
-    "san-lo-bu-pm:81": {},
-    "san-lo-bu-pm:82": {},
-    "san-lo-bu-pm:83": {
-        "supplied": [
-            "iti"
-        ]
-    },
-    "san-lo-bu-pm:84": {},
-    "san-lo-bu-pm:85": {},
-    "san-lo-bu-pm:86": {},
-    "san-lo-bu-pm:87": {},
-    "san-lo-bu-pm:88": {},
-    "san-lo-bu-pm:89": {},
-    "san-lo-bu-pm:90": {
+    "san-lo-bu-pm:81": {
         "supplied": [
             "rā"
         ]
     },
-    "san-lo-bu-pm:91": {
+    "san-lo-bu-pm:82": {
         "supplied": [
             "ye, di"
         ]
     },
-    "san-lo-bu-pm:92": {},
-    "san-lo-bu-pm:93": {},
-    "san-lo-bu-pm:94": {},
-    "san-lo-bu-pm:95": {},
-    "san-lo-bu-pm:96": {
+    "san-lo-bu-pm:83": {},
+    "san-lo-bu-pm:84": {},
+    "san-lo-bu-pm:85": {},
+    "san-lo-bu-pm:86": {},
+    "san-lo-bu-pm:87": {
         "supplied": [
             "ma"
         ]
     },
+    "san-lo-bu-pm:88": {},
+    "san-lo-bu-pm:89": {},
+    "san-lo-bu-pm:90": {},
+    "san-lo-bu-pm:91": {},
+    "san-lo-bu-pm:92": {},
+    "san-lo-bu-pm:93": {},
+    "san-lo-bu-pm:94": {},
+    "san-lo-bu-pm:95": {},
+    "san-lo-bu-pm:96": {},
     "san-lo-bu-pm:97": {},
     "san-lo-bu-pm:98": {},
     "san-lo-bu-pm:99": {},
@@ -170,62 +170,66 @@
     "san-lo-bu-pm:104": {},
     "san-lo-bu-pm:105": {},
     "san-lo-bu-pm:106": {},
-    "san-lo-bu-pm:107": {},
-    "san-lo-bu-pm:108": {},
-    "san-lo-bu-pm:109": {},
-    "san-lo-bu-pm:110": {},
-    "san-lo-bu-pm:111": {},
-    "san-lo-bu-pm:112": {},
-    "san-lo-bu-pm:113": {},
-    "san-lo-bu-pm:114": {},
-    "san-lo-bu-pm:115": {},
-    "san-lo-bu-pm:116": {
+    "san-lo-bu-pm:107": {
         "supplied": [
             "kārā"
         ]
     },
-    "san-lo-bu-pm:117": {},
-    "san-lo-bu-pm:118": {},
-    "san-lo-bu-pm:119": {},
-    "san-lo-bu-pm:120": {
+    "san-lo-bu-pm:108": {},
+    "san-lo-bu-pm:109": {},
+    "san-lo-bu-pm:110": {},
+    "san-lo-bu-pm:111": {
         "supplied": [
             "va"
         ]
     },
-    "san-lo-bu-pm:121": {},
-    "san-lo-bu-pm:122": {},
-    "san-lo-bu-pm:123": {},
-    "san-lo-bu-pm:124": {
+    "san-lo-bu-pm:112": {},
+    "san-lo-bu-pm:113": {},
+    "san-lo-bu-pm:114": {},
+    "san-lo-bu-pm:115": {
         "supplied": [
             "ya",
             "ty e"
         ]
     },
-    "san-lo-bu-pm:125": {},
-    "san-lo-bu-pm:126": {
+    "san-lo-bu-pm:116": {},
+    "san-lo-bu-pm:117": {
         "supplied": [
             "a",
             "yena"
         ]
     },
-    "san-lo-bu-pm:127": {},
-    "san-lo-bu-pm:128": {
+    "san-lo-bu-pm:118": {},
+    "san-lo-bu-pm:119": {
         "supplied": [
             "ni"
         ]
     },
+    "san-lo-bu-pm:120": {},
+    "san-lo-bu-pm:121": {},
+    "san-lo-bu-pm:122": {},
+    "san-lo-bu-pm:123": {},
+    "san-lo-bu-pm:124": {},
+    "san-lo-bu-pm:125": {},
+    "san-lo-bu-pm:126": {},
+    "san-lo-bu-pm:127": {
+        "supplied": [
+            "ekā"
+        ]
+    },
+    "san-lo-bu-pm:128": {},
     "san-lo-bu-pm:129": {},
     "san-lo-bu-pm:130": {},
     "san-lo-bu-pm:131": {},
     "san-lo-bu-pm:132": {},
     "san-lo-bu-pm:133": {},
     "san-lo-bu-pm:134": {},
-    "san-lo-bu-pm:135": {},
-    "san-lo-bu-pm:136": {
-        "supplied": [
-            "ekā"
+    "san-lo-bu-pm:135": {
+        "add": [
+            "Chapter 1"
         ]
     },
+    "san-lo-bu-pm:136": {},
     "san-lo-bu-pm:137": {},
     "san-lo-bu-pm:138": {},
     "san-lo-bu-pm:139": {},
@@ -233,114 +237,114 @@
     "san-lo-bu-pm:141": {},
     "san-lo-bu-pm:142": {},
     "san-lo-bu-pm:143": {},
-    "san-lo-bu-pm:144": {
-        "add": [
-            "Chapter 1"
-        ]
-    },
+    "san-lo-bu-pm:144": {},
     "san-lo-bu-pm:145": {},
     "san-lo-bu-pm:146": {},
     "san-lo-bu-pm:147": {},
     "san-lo-bu-pm:148": {},
     "san-lo-bu-pm:149": {},
     "san-lo-bu-pm:150": {},
-    "san-lo-bu-pm:151": {},
-    "san-lo-bu-pm:152": {},
-    "san-lo-bu-pm:153": {},
-    "san-lo-bu-pm:154": {},
-    "san-lo-bu-pm:155": {},
-    "san-lo-bu-pm:156": {},
-    "san-lo-bu-pm:157": {},
-    "san-lo-bu-pm:158": {},
-    "san-lo-bu-pm:159": {},
-    "san-lo-bu-pm:160": {
+    "san-lo-bu-pm:151": {
         "supplied": [
             "evaṁrūpeṇa vā",
             "ssa"
         ]
     },
-    "san-lo-bu-pm:161": {},
-    "san-lo-bu-pm:162": {},
-    "san-lo-bu-pm:163": {},
-    "san-lo-bu-pm:164": {
+    "san-lo-bu-pm:152": {},
+    "san-lo-bu-pm:153": {},
+    "san-lo-bu-pm:154": {},
+    "san-lo-bu-pm:155": {
         "supplied": [
             "sa",
             "yena"
         ]
     },
-    "san-lo-bu-pm:165": {},
-    "san-lo-bu-pm:166": {},
-    "san-lo-bu-pm:167": {
+    "san-lo-bu-pm:156": {},
+    "san-lo-bu-pm:157": {},
+    "san-lo-bu-pm:158": {
         "add": [
             "Chapter 2"
         ]
     },
+    "san-lo-bu-pm:159": {},
+    "san-lo-bu-pm:160": {},
+    "san-lo-bu-pm:161": {},
+    "san-lo-bu-pm:162": {},
+    "san-lo-bu-pm:163": {},
+    "san-lo-bu-pm:164": {},
+    "san-lo-bu-pm:165": {},
+    "san-lo-bu-pm:166": {},
+    "san-lo-bu-pm:167": {},
     "san-lo-bu-pm:168": {},
     "san-lo-bu-pm:169": {},
-    "san-lo-bu-pm:170": {},
-    "san-lo-bu-pm:171": {},
-    "san-lo-bu-pm:172": {},
-    "san-lo-bu-pm:173": {},
-    "san-lo-bu-pm:174": {},
-    "san-lo-bu-pm:175": {},
-    "san-lo-bu-pm:176": {},
-    "san-lo-bu-pm:177": {},
-    "san-lo-bu-pm:178": {},
-    "san-lo-bu-pm:179": {
+    "san-lo-bu-pm:170": {
         "supplied": [
             "ḍa",
             "n",
             "n"
         ]
     },
-    "san-lo-bu-pm:180": {},
-    "san-lo-bu-pm:181": {
+    "san-lo-bu-pm:171": {},
+    "san-lo-bu-pm:172": {
         "supplied": [
             "ya"
+        ]
+    },
+    "san-lo-bu-pm:173": {},
+    "san-lo-bu-pm:174": {},
+    "san-lo-bu-pm:175": {},
+    "san-lo-bu-pm:176": {
+        "supplied": [
+            "na krī"
+        ]
+    },
+    "san-lo-bu-pm:177": {},
+    "san-lo-bu-pm:178": {},
+    "san-lo-bu-pm:179": {},
+    "san-lo-bu-pm:180": {},
+    "san-lo-bu-pm:181": {
+        "add": [
+            "Chapter 3"
         ]
     },
     "san-lo-bu-pm:182": {},
     "san-lo-bu-pm:183": {},
     "san-lo-bu-pm:184": {},
-    "san-lo-bu-pm:185": {
-        "supplied": [
-            "na krī"
-        ]
-    },
+    "san-lo-bu-pm:185": {},
     "san-lo-bu-pm:186": {},
-    "san-lo-bu-pm:187": {},
-    "san-lo-bu-pm:188": {},
-    "san-lo-bu-pm:189": {},
-    "san-lo-bu-pm:190": {
-        "add": [
-            "Chapter 3"
-        ]
-    },
-    "san-lo-bu-pm:191": {},
-    "san-lo-bu-pm:192": {},
-    "san-lo-bu-pm:193": {},
-    "san-lo-bu-pm:194": {},
-    "san-lo-bu-pm:195": {},
-    "san-lo-bu-pm:196": {
+    "san-lo-bu-pm:187": {
         "supplied": [
             "taṁ"
         ]
     },
-    "san-lo-bu-pm:197": {},
-    "san-lo-bu-pm:198": {},
-    "san-lo-bu-pm:199": {},
-    "san-lo-bu-pm:200": {
+    "san-lo-bu-pm:188": {},
+    "san-lo-bu-pm:189": {},
+    "san-lo-bu-pm:190": {},
+    "san-lo-bu-pm:191": {
         "supplied": [
             "tyo"
         ]
     },
+    "san-lo-bu-pm:192": {},
+    "san-lo-bu-pm:193": {},
+    "san-lo-bu-pm:194": {},
+    "san-lo-bu-pm:195": {},
+    "san-lo-bu-pm:196": {},
+    "san-lo-bu-pm:197": {},
+    "san-lo-bu-pm:198": {},
+    "san-lo-bu-pm:199": {},
+    "san-lo-bu-pm:200": {},
     "san-lo-bu-pm:201": {},
     "san-lo-bu-pm:202": {},
     "san-lo-bu-pm:203": {},
     "san-lo-bu-pm:204": {},
     "san-lo-bu-pm:205": {},
     "san-lo-bu-pm:206": {},
-    "san-lo-bu-pm:207": {},
+    "san-lo-bu-pm:207": {
+        "add": [
+            "Chapter 1: mṛṣā"
+        ]
+    },
     "san-lo-bu-pm:208": {},
     "san-lo-bu-pm:209": {},
     "san-lo-bu-pm:210": {},
@@ -349,11 +353,7 @@
     "san-lo-bu-pm:213": {},
     "san-lo-bu-pm:214": {},
     "san-lo-bu-pm:215": {},
-    "san-lo-bu-pm:216": {
-        "add": [
-            "Chapter 1: mṛṣā"
-        ]
-    },
+    "san-lo-bu-pm:216": {},
     "san-lo-bu-pm:217": {},
     "san-lo-bu-pm:218": {},
     "san-lo-bu-pm:219": {},
@@ -367,7 +367,11 @@
     "san-lo-bu-pm:227": {},
     "san-lo-bu-pm:228": {},
     "san-lo-bu-pm:229": {},
-    "san-lo-bu-pm:230": {},
+    "san-lo-bu-pm:230": {
+        "add": [
+            "Chapter 2: bījaṁ"
+        ]
+    },
     "san-lo-bu-pm:231": {},
     "san-lo-bu-pm:232": {},
     "san-lo-bu-pm:233": {},
@@ -376,11 +380,7 @@
     "san-lo-bu-pm:236": {},
     "san-lo-bu-pm:237": {},
     "san-lo-bu-pm:238": {},
-    "san-lo-bu-pm:239": {
-        "add": [
-            "Chapter 2: bījaṁ"
-        ]
-    },
+    "san-lo-bu-pm:239": {},
     "san-lo-bu-pm:240": {},
     "san-lo-bu-pm:241": {},
     "san-lo-bu-pm:242": {},
@@ -394,7 +394,11 @@
     "san-lo-bu-pm:250": {},
     "san-lo-bu-pm:251": {},
     "san-lo-bu-pm:252": {},
-    "san-lo-bu-pm:253": {},
+    "san-lo-bu-pm:253": {
+        "add": [
+            "Chapter 3: asaṁmato"
+        ]
+    },
     "san-lo-bu-pm:254": {},
     "san-lo-bu-pm:255": {},
     "san-lo-bu-pm:256": {},
@@ -403,11 +407,7 @@
     "san-lo-bu-pm:259": {},
     "san-lo-bu-pm:260": {},
     "san-lo-bu-pm:261": {},
-    "san-lo-bu-pm:262": {
-        "add": [
-            "Chapter 3: asaṁmato"
-        ]
-    },
+    "san-lo-bu-pm:262": {},
     "san-lo-bu-pm:263": {},
     "san-lo-bu-pm:264": {},
     "san-lo-bu-pm:265": {},
@@ -421,7 +421,11 @@
     "san-lo-bu-pm:273": {},
     "san-lo-bu-pm:274": {},
     "san-lo-bu-pm:275": {},
-    "san-lo-bu-pm:276": {},
+    "san-lo-bu-pm:276": {
+        "add": [
+            "Chapter 4: ekāhaparamo"
+        ]
+    },
     "san-lo-bu-pm:277": {},
     "san-lo-bu-pm:278": {},
     "san-lo-bu-pm:279": {},
@@ -430,11 +434,7 @@
     "san-lo-bu-pm:282": {},
     "san-lo-bu-pm:283": {},
     "san-lo-bu-pm:284": {},
-    "san-lo-bu-pm:285": {
-        "add": [
-            "Chapter 4: ekāhaparamo"
-        ]
-    },
+    "san-lo-bu-pm:285": {},
     "san-lo-bu-pm:286": {},
     "san-lo-bu-pm:287": {},
     "san-lo-bu-pm:288": {},
@@ -448,7 +448,11 @@
     "san-lo-bu-pm:296": {},
     "san-lo-bu-pm:297": {},
     "san-lo-bu-pm:298": {},
-    "san-lo-bu-pm:299": {},
+    "san-lo-bu-pm:299": {
+        "add": [
+            "Chapter 5: jyoti"
+        ]
+    },
     "san-lo-bu-pm:300": {},
     "san-lo-bu-pm:301": {},
     "san-lo-bu-pm:302": {},
@@ -457,11 +461,7 @@
     "san-lo-bu-pm:305": {},
     "san-lo-bu-pm:306": {},
     "san-lo-bu-pm:307": {},
-    "san-lo-bu-pm:308": {
-        "add": [
-            "Chapter 5: jyoti"
-        ]
-    },
+    "san-lo-bu-pm:308": {},
     "san-lo-bu-pm:309": {},
     "san-lo-bu-pm:310": {},
     "san-lo-bu-pm:311": {},
@@ -475,7 +475,11 @@
     "san-lo-bu-pm:319": {},
     "san-lo-bu-pm:320": {},
     "san-lo-bu-pm:321": {},
-    "san-lo-bu-pm:322": {},
+    "san-lo-bu-pm:322": {
+        "add": [
+            "Chapter 6: saprāṇakaṁ"
+        ]
+    },
     "san-lo-bu-pm:323": {},
     "san-lo-bu-pm:324": {},
     "san-lo-bu-pm:325": {},
@@ -484,11 +488,7 @@
     "san-lo-bu-pm:328": {},
     "san-lo-bu-pm:329": {},
     "san-lo-bu-pm:330": {},
-    "san-lo-bu-pm:331": {
-        "add": [
-            "Chapter 6: saprāṇakaṁ"
-        ]
-    },
+    "san-lo-bu-pm:331": {},
     "san-lo-bu-pm:332": {},
     "san-lo-bu-pm:333": {},
     "san-lo-bu-pm:334": {},
@@ -502,7 +502,11 @@
     "san-lo-bu-pm:342": {},
     "san-lo-bu-pm:343": {},
     "san-lo-bu-pm:344": {},
-    "san-lo-bu-pm:345": {},
+    "san-lo-bu-pm:345": {
+        "add": [
+            "Chapter 7: sañcintya"
+        ]
+    },
     "san-lo-bu-pm:346": {},
     "san-lo-bu-pm:347": {},
     "san-lo-bu-pm:348": {},
@@ -511,11 +515,7 @@
     "san-lo-bu-pm:351": {},
     "san-lo-bu-pm:352": {},
     "san-lo-bu-pm:353": {},
-    "san-lo-bu-pm:354": {
-        "add": [
-            "Chapter 7: sañcintya"
-        ]
-    },
+    "san-lo-bu-pm:354": {},
     "san-lo-bu-pm:355": {},
     "san-lo-bu-pm:356": {},
     "san-lo-bu-pm:357": {},
@@ -529,7 +529,11 @@
     "san-lo-bu-pm:365": {},
     "san-lo-bu-pm:366": {},
     "san-lo-bu-pm:367": {},
-    "san-lo-bu-pm:368": {},
+    "san-lo-bu-pm:368": {
+        "add": [
+            "Chapter 8: ūnaviṁśati"
+        ]
+    },
     "san-lo-bu-pm:369": {},
     "san-lo-bu-pm:370": {},
     "san-lo-bu-pm:371": {},
@@ -538,14 +542,14 @@
     "san-lo-bu-pm:374": {},
     "san-lo-bu-pm:375": {},
     "san-lo-bu-pm:376": {},
-    "san-lo-bu-pm:377": {
-        "add": [
-            "Chapter 8: ūnaviṁśati"
-        ]
-    },
+    "san-lo-bu-pm:377": {},
     "san-lo-bu-pm:378": {},
     "san-lo-bu-pm:379": {},
-    "san-lo-bu-pm:380": {},
+    "san-lo-bu-pm:380": {
+        "supplied": [
+            "pānaṁ"
+        ]
+    },
     "san-lo-bu-pm:381": {},
     "san-lo-bu-pm:382": {},
     "san-lo-bu-pm:383": {},
@@ -554,13 +558,13 @@
     "san-lo-bu-pm:386": {},
     "san-lo-bu-pm:387": {},
     "san-lo-bu-pm:388": {},
-    "san-lo-bu-pm:389": {
-        "supplied": [
-            "pānaṁ"
+    "san-lo-bu-pm:389": {},
+    "san-lo-bu-pm:390": {},
+    "san-lo-bu-pm:391": {
+        "add": [
+            "Chapter 9: sabhaktaka"
         ]
     },
-    "san-lo-bu-pm:390": {},
-    "san-lo-bu-pm:391": {},
     "san-lo-bu-pm:392": {},
     "san-lo-bu-pm:393": {},
     "san-lo-bu-pm:394": {},
@@ -569,12 +573,12 @@
     "san-lo-bu-pm:397": {},
     "san-lo-bu-pm:398": {},
     "san-lo-bu-pm:399": {},
-    "san-lo-bu-pm:400": {
-        "add": [
-            "Chapter 9: sabhaktaka"
+    "san-lo-bu-pm:400": {},
+    "san-lo-bu-pm:401": {
+        "supplied": [
+            "ni"
         ]
     },
-    "san-lo-bu-pm:401": {},
     "san-lo-bu-pm:402": {},
     "san-lo-bu-pm:403": {},
     "san-lo-bu-pm:404": {},
@@ -583,11 +587,7 @@
     "san-lo-bu-pm:407": {},
     "san-lo-bu-pm:408": {},
     "san-lo-bu-pm:409": {},
-    "san-lo-bu-pm:410": {
-        "supplied": [
-            "ni"
-        ]
-    },
+    "san-lo-bu-pm:410": {},
     "san-lo-bu-pm:411": {},
     "san-lo-bu-pm:412": {},
     "san-lo-bu-pm:413": {},
@@ -613,7 +613,11 @@
     "san-lo-bu-pm:433": {},
     "san-lo-bu-pm:434": {},
     "san-lo-bu-pm:435": {},
-    "san-lo-bu-pm:436": {},
+    "san-lo-bu-pm:436": {
+        "add": [
+            "Chapter 1"
+        ]
+    },
     "san-lo-bu-pm:437": {},
     "san-lo-bu-pm:438": {},
     "san-lo-bu-pm:439": {},
@@ -622,11 +626,7 @@
     "san-lo-bu-pm:442": {},
     "san-lo-bu-pm:443": {},
     "san-lo-bu-pm:444": {},
-    "san-lo-bu-pm:445": {
-        "add": [
-            "Chapter 1"
-        ]
-    },
+    "san-lo-bu-pm:445": {},
     "san-lo-bu-pm:446": {},
     "san-lo-bu-pm:447": {},
     "san-lo-bu-pm:448": {},
@@ -646,7 +646,11 @@
     "san-lo-bu-pm:462": {},
     "san-lo-bu-pm:463": {},
     "san-lo-bu-pm:464": {},
-    "san-lo-bu-pm:465": {},
+    "san-lo-bu-pm:465": {
+        "add": [
+            "Chapter 2"
+        ]
+    },
     "san-lo-bu-pm:466": {},
     "san-lo-bu-pm:467": {},
     "san-lo-bu-pm:468": {},
@@ -655,11 +659,7 @@
     "san-lo-bu-pm:471": {},
     "san-lo-bu-pm:472": {},
     "san-lo-bu-pm:473": {},
-    "san-lo-bu-pm:474": {
-        "add": [
-            "Chapter 2"
-        ]
-    },
+    "san-lo-bu-pm:474": {},
     "san-lo-bu-pm:475": {},
     "san-lo-bu-pm:476": {},
     "san-lo-bu-pm:477": {},
@@ -673,7 +673,11 @@
     "san-lo-bu-pm:485": {},
     "san-lo-bu-pm:486": {},
     "san-lo-bu-pm:487": {},
-    "san-lo-bu-pm:488": {},
+    "san-lo-bu-pm:488": {
+        "add": [
+            "Chapter 3"
+        ]
+    },
     "san-lo-bu-pm:489": {},
     "san-lo-bu-pm:490": {},
     "san-lo-bu-pm:491": {},
@@ -682,11 +686,7 @@
     "san-lo-bu-pm:494": {},
     "san-lo-bu-pm:495": {},
     "san-lo-bu-pm:496": {},
-    "san-lo-bu-pm:497": {
-        "add": [
-            "Chapter 3"
-        ]
-    },
+    "san-lo-bu-pm:497": {},
     "san-lo-bu-pm:498": {},
     "san-lo-bu-pm:499": {},
     "san-lo-bu-pm:500": {},
@@ -702,7 +702,11 @@
     "san-lo-bu-pm:510": {},
     "san-lo-bu-pm:511": {},
     "san-lo-bu-pm:512": {},
-    "san-lo-bu-pm:513": {},
+    "san-lo-bu-pm:513": {
+        "add": [
+            "Chapter 4"
+        ]
+    },
     "san-lo-bu-pm:514": {},
     "san-lo-bu-pm:515": {},
     "san-lo-bu-pm:516": {},
@@ -711,11 +715,7 @@
     "san-lo-bu-pm:519": {},
     "san-lo-bu-pm:520": {},
     "san-lo-bu-pm:521": {},
-    "san-lo-bu-pm:522": {
-        "add": [
-            "Chapter 4"
-        ]
-    },
+    "san-lo-bu-pm:522": {},
     "san-lo-bu-pm:523": {},
     "san-lo-bu-pm:524": {},
     "san-lo-bu-pm:525": {},
@@ -726,7 +726,11 @@
     "san-lo-bu-pm:530": {},
     "san-lo-bu-pm:531": {},
     "san-lo-bu-pm:532": {},
-    "san-lo-bu-pm:533": {},
+    "san-lo-bu-pm:533": {
+        "supplied": [
+            "bhuṁji"
+        ]
+    },
     "san-lo-bu-pm:534": {},
     "san-lo-bu-pm:535": {},
     "san-lo-bu-pm:536": {},
@@ -735,13 +739,13 @@
     "san-lo-bu-pm:539": {},
     "san-lo-bu-pm:540": {},
     "san-lo-bu-pm:541": {},
-    "san-lo-bu-pm:542": {
-        "supplied": [
-            "bhuṁji"
+    "san-lo-bu-pm:542": {},
+    "san-lo-bu-pm:543": {},
+    "san-lo-bu-pm:544": {
+        "add": [
+            "Chapter 5"
         ]
     },
-    "san-lo-bu-pm:543": {},
-    "san-lo-bu-pm:544": {},
     "san-lo-bu-pm:545": {},
     "san-lo-bu-pm:546": {},
     "san-lo-bu-pm:547": {},
@@ -750,11 +754,7 @@
     "san-lo-bu-pm:550": {},
     "san-lo-bu-pm:551": {},
     "san-lo-bu-pm:552": {},
-    "san-lo-bu-pm:553": {
-        "add": [
-            "Chapter 5"
-        ]
-    },
+    "san-lo-bu-pm:553": {},
     "san-lo-bu-pm:554": {},
     "san-lo-bu-pm:555": {},
     "san-lo-bu-pm:556": {},
@@ -766,7 +766,11 @@
     "san-lo-bu-pm:562": {},
     "san-lo-bu-pm:563": {},
     "san-lo-bu-pm:564": {},
-    "san-lo-bu-pm:565": {},
+    "san-lo-bu-pm:565": {
+        "add": [
+            "Chapter 6"
+        ]
+    },
     "san-lo-bu-pm:566": {},
     "san-lo-bu-pm:567": {},
     "san-lo-bu-pm:568": {},
@@ -775,11 +779,7 @@
     "san-lo-bu-pm:571": {},
     "san-lo-bu-pm:572": {},
     "san-lo-bu-pm:573": {},
-    "san-lo-bu-pm:574": {
-        "add": [
-            "Chapter 6"
-        ]
-    },
+    "san-lo-bu-pm:574": {},
     "san-lo-bu-pm:575": {},
     "san-lo-bu-pm:576": {},
     "san-lo-bu-pm:577": {},
@@ -815,113 +815,89 @@
     "san-lo-bu-pm:607": {},
     "san-lo-bu-pm:608": {},
     "san-lo-bu-pm:609": {},
-    "san-lo-bu-pm:610": {},
-    "san-lo-bu-pm:611": {},
-    "san-lo-bu-pm:612": {},
-    "san-lo-bu-pm:613": {},
-    "san-lo-bu-pm:614": {},
-    "san-lo-bu-pm:615": {},
-    "san-lo-bu-pm:616": {},
-    "san-lo-bu-pm:617": {},
-    "san-lo-bu-pm:618": {},
-    "san-lo-bu-pm:619": {
+    "san-lo-bu-pm:610": {
         "supplied": [
             "kā"
         ]
     },
-    "san-lo-bu-pm:620": {},
-    "san-lo-bu-pm:621": {},
-    "san-lo-bu-pm:622": {},
-    "san-lo-bu-pm:623": {
+    "san-lo-bu-pm:611": {},
+    "san-lo-bu-pm:612": {},
+    "san-lo-bu-pm:613": {
         "vns": [
             "Verse 1"
         ]
     },
-    "san-lo-bu-pm:624": {},
-    "san-lo-bu-pm:625": {},
-    "san-lo-bu-pm:626": {},
-    "san-lo-bu-pm:627": {},
-    "san-lo-bu-pm:628": {},
-    "san-lo-bu-pm:629": {
+    "san-lo-bu-pm:614": {},
+    "san-lo-bu-pm:615": {},
+    "san-lo-bu-pm:616": {},
+    "san-lo-bu-pm:617": {
         "vns": [
             "Verse 2"
         ]
     },
-    "san-lo-bu-pm:630": {},
-    "san-lo-bu-pm:631": {},
-    "san-lo-bu-pm:632": {},
-    "san-lo-bu-pm:633": {},
-    "san-lo-bu-pm:634": {
+    "san-lo-bu-pm:618": {},
+    "san-lo-bu-pm:619": {},
+    "san-lo-bu-pm:620": {
         "vns": [
             "Verse 3"
         ]
     },
-    "san-lo-bu-pm:635": {},
-    "san-lo-bu-pm:636": {},
-    "san-lo-bu-pm:637": {},
-    "san-lo-bu-pm:638": {},
-    "san-lo-bu-pm:639": {
+    "san-lo-bu-pm:621": {},
+    "san-lo-bu-pm:622": {},
+    "san-lo-bu-pm:623": {
         "vns": [
             "Verse 4"
         ]
     },
-    "san-lo-bu-pm:640": {},
-    "san-lo-bu-pm:641": {},
-    "san-lo-bu-pm:642": {},
-    "san-lo-bu-pm:643": {},
-    "san-lo-bu-pm:644": {
+    "san-lo-bu-pm:624": {},
+    "san-lo-bu-pm:625": {},
+    "san-lo-bu-pm:626": {
         "vns": [
             "Verse 5"
         ]
     },
-    "san-lo-bu-pm:645": {},
-    "san-lo-bu-pm:646": {
+    "san-lo-bu-pm:627": {},
+    "san-lo-bu-pm:628": {
         "vns": [
             "Verse 6"
         ]
     },
-    "san-lo-bu-pm:647": {},
-    "san-lo-bu-pm:648": {},
-    "san-lo-bu-pm:649": {},
-    "san-lo-bu-pm:650": {},
-    "san-lo-bu-pm:651": {
+    "san-lo-bu-pm:629": {},
+    "san-lo-bu-pm:630": {},
+    "san-lo-bu-pm:631": {
         "vns": [
             "Verse 7"
         ]
     },
-    "san-lo-bu-pm:652": {},
-    "san-lo-bu-pm:653": {
+    "san-lo-bu-pm:632": {},
+    "san-lo-bu-pm:633": {
         "vns": [
             "Verse 8"
         ]
     },
-    "san-lo-bu-pm:654": {},
-    "san-lo-bu-pm:655": {},
-    "san-lo-bu-pm:656": {
+    "san-lo-bu-pm:634": {},
+    "san-lo-bu-pm:635": {},
+    "san-lo-bu-pm:636": {
         "vns": [
             "Verse 9"
         ]
     },
-    "san-lo-bu-pm:657": {},
-    "san-lo-bu-pm:658": {},
-    "san-lo-bu-pm:659": {},
-    "san-lo-bu-pm:660": {},
-    "san-lo-bu-pm:661": {
+    "san-lo-bu-pm:637": {},
+    "san-lo-bu-pm:638": {},
+    "san-lo-bu-pm:639": {
         "vns": [
             "Verse 10"
         ]
     },
-    "san-lo-bu-pm:662": {},
-    "san-lo-bu-pm:663": {
+    "san-lo-bu-pm:640": {},
+    "san-lo-bu-pm:641": {
         "vns": [
             "Verse 11"
         ]
     },
-    "san-lo-bu-pm:664": {},
-    "san-lo-bu-pm:665": {},
-    "san-lo-bu-pm:666": {},
-    "san-lo-bu-pm:667": {},
-    "san-lo-bu-pm:668": {
+    "san-lo-bu-pm:642": {},
+    "san-lo-bu-pm:643": {},
+    "san-lo-bu-pm:644": {
         "gap": [
             "...........",
             "........."
@@ -930,37 +906,34 @@
             "Verse 12"
         ]
     },
-    "san-lo-bu-pm:669": {},
-    "san-lo-bu-pm:670": {},
-    "san-lo-bu-pm:671": {},
-    "san-lo-bu-pm:672": {},
-    "san-lo-bu-pm:673": {},
-    "san-lo-bu-pm:674": {},
-    "san-lo-bu-pm:675": {
+    "san-lo-bu-pm:645": {},
+    "san-lo-bu-pm:646": {},
+    "san-lo-bu-pm:647": {},
+    "san-lo-bu-pm:648": {},
+    "san-lo-bu-pm:649": {},
+    "san-lo-bu-pm:650": {},
+    "san-lo-bu-pm:651": {
         "vns": [
             "Verse 13"
         ]
     },
-    "san-lo-bu-pm:676": {},
-    "san-lo-bu-pm:677": {
+    "san-lo-bu-pm:652": {
         "gap": [
             "...."
         ]
     },
-    "san-lo-bu-pm:678": {
+    "san-lo-bu-pm:653": {
         "gap": [
             "...."
         ]
     },
-    "san-lo-bu-pm:679": {},
-    "san-lo-bu-pm:680": {},
-    "san-lo-bu-pm:681": {},
-    "san-lo-bu-pm:682": {},
-    "san-lo-bu-pm:683": {},
-    "san-lo-bu-pm:684": {
+    "san-lo-bu-pm:654": {},
+    "san-lo-bu-pm:655": {},
+    "san-lo-bu-pm:656": {},
+    "san-lo-bu-pm:657": {
         "scribe": [
             " yo dharmo ’yaṁ pravaramahāyānayayisya śākyabhikṣuloka śrī<span class='supplied'>dharasya"
         ]
     },
-    "san-lo-bu-pm:685": {}
+    "san-lo-bu-pm:658": {}
 }

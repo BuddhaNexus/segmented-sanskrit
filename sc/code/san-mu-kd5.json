@@ -3,12 +3,7 @@
     "san-mu-kd5:1": {},
     "san-mu-kd5:2": {},
     "san-mu-kd5:3": {},
-    "san-mu-kd5:4": {},
-    "san-mu-kd5:5": {},
-    "san-mu-kd5:6": {},
-    "san-mu-kd5:7": {},
-    "san-mu-kd5:8": {},
-    "san-mu-kd5:9": {
+    "san-mu-kd5:4": {
         "supplied": [
             "dā śayanāsana"
         ],
@@ -16,12 +11,12 @@
             "+ + +"
         ]
     },
-    "san-mu-kd5:10": {
+    "san-mu-kd5:5": {
         "gap": [
             "+ + + + + + + + +"
         ]
     },
-    "san-mu-kd5:11": {
+    "san-mu-kd5:6": {
         "supplied": [
             "buddho bhagavāñ chrāvastyāṁ viharati sma jetavane ’nāthapiṇḍadasyārāme | tasmin samaye ’śmakanagarāntake vāsava",
             "vistīrṇaviśālaparigraho vaiśravaṇadhanapratispardhī | tena sadṛśāt kulāt kalatram ānītam | sa tayā sārdhaṁ krīḍati ramate paricāraya",
@@ -33,29 +28,42 @@
             "MS karṇikayā"
         ]
     },
-    "san-mu-kd5:12": {
+    "san-mu-kd5:7": {
         "del": [
             "MS: samudratīrasamanuprāptaḥ"
         ]
     },
-    "san-mu-kd5:13": {
+    "san-mu-kd5:8": {
         "del": [
             "MS: tatra kālo caṇḍo lohitākṣaḥ udbandhapiṇḍakāyaṣṭi vigraho puruṣo dvāre tiṣṭhati",
             "MS: kathaṁ na śraddhāsye"
         ]
     },
-    "san-mu-kd5:14": {},
-    "san-mu-kd5:15": {},
-    "san-mu-kd5:16": {},
-    "san-mu-kd5:17": {},
-    "san-mu-kd5:18": {
+    "san-mu-kd5:9": {},
+    "san-mu-kd5:10": {},
+    "san-mu-kd5:11": {
         "del": [
             "MS: puṇyakāmāṁ tvam",
             "MS: nagaraṁ praviśya jīvan gacchati"
         ]
     },
-    "san-mu-kd5:19": {},
-    "san-mu-kd5:20": {},
+    "san-mu-kd5:12": {},
+    "san-mu-kd5:13": {},
+    "san-mu-kd5:14": {},
+    "san-mu-kd5:15": {},
+    "san-mu-kd5:16": {},
+    "san-mu-kd5:17": {},
+    "san-mu-kd5:18": {},
+    "san-mu-kd5:19": {
+        "del": [
+            "MS: pitro ’sya sūnāyām adhastāt"
+        ]
+    },
+    "san-mu-kd5:20": {
+        "del": [
+            "MS: sūryasyāvataraṇakālasamaye"
+        ]
+    },
     "san-mu-kd5:21": {},
     "san-mu-kd5:22": {},
     "san-mu-kd5:23": {},
@@ -66,65 +74,61 @@
     "san-mu-kd5:28": {},
     "san-mu-kd5:29": {},
     "san-mu-kd5:30": {
-        "del": [
-            "MS: pitro ’sya sūnāyām adhastāt"
+        "supplied": [
+            "yāvac careyam ahaṁ bhagavato ’ntike brahmacaryam |"
         ]
     },
-    "san-mu-kd5:31": {
-        "del": [
-            "MS: sūryasyāvataraṇakālasamaye"
-        ]
-    },
+    "san-mu-kd5:31": {},
     "san-mu-kd5:32": {},
     "san-mu-kd5:33": {},
     "san-mu-kd5:34": {},
     "san-mu-kd5:35": {},
     "san-mu-kd5:36": {},
-    "san-mu-kd5:37": {},
-    "san-mu-kd5:38": {},
+    "san-mu-kd5:37": {
+        "del": [
+            "MS: sacet kṣiyadharmiṇyau bhavataḥ | arghaṭakaṁ vārayitavye carmā dhārayitavyām"
+        ]
+    },
+    "san-mu-kd5:38": {
+        "del": [
+            "MS: pratyanta nagarāvatī nāma nagarī tasya pareṇa śarāvatī"
+        ]
+    },
     "san-mu-kd5:39": {},
     "san-mu-kd5:40": {},
     "san-mu-kd5:41": {},
     "san-mu-kd5:42": {},
     "san-mu-kd5:43": {
-        "supplied": [
-            "yāvac careyam ahaṁ bhagavato ’ntike brahmacaryam |"
+        "del": [
+            "following text restored according Tib: <span class='supplied'>ahaṁ bhagavataḥ pādābhivandakaḥ gacchāmi | sa kathayati | bhadantopananda yuktam etan na yuktam | aham api bhagavataḥ pādābhivandako ’trāgataḥ | piṇḍapātikas tvam iti manye | bhadantopananda evaṁrūpacarmagrahaṇe tvaṁ samartho vāsamarthaḥ | paśya bhadantopananda yena tvam asamarthas tenāhaṁ tava nānuprayacchāmi |"
         ]
     },
     "san-mu-kd5:44": {},
     "san-mu-kd5:45": {},
     "san-mu-kd5:46": {},
     "san-mu-kd5:47": {},
-    "san-mu-kd5:48": {},
-    "san-mu-kd5:49": {},
-    "san-mu-kd5:50": {
-        "del": [
-            "MS: sacet kṣiyadharmiṇyau bhavataḥ | arghaṭakaṁ vārayitavye carmā dhārayitavyām"
-        ]
-    },
-    "san-mu-kd5:51": {
-        "del": [
-            "MS: pratyanta nagarāvatī nāma nagarī tasya pareṇa śarāvatī"
-        ]
-    },
-    "san-mu-kd5:52": {},
-    "san-mu-kd5:53": {},
-    "san-mu-kd5:54": {},
-    "san-mu-kd5:55": {},
-    "san-mu-kd5:56": {
-        "del": [
-            "following text restored according Tib: <span class='supplied'>ahaṁ bhagavataḥ pādābhivandakaḥ gacchāmi | sa kathayati | bhadantopananda yuktam etan na yuktam | aham api bhagavataḥ pādābhivandako ’trāgataḥ | piṇḍapātikas tvam iti manye | bhadantopananda evaṁrūpacarmagrahaṇe tvaṁ samartho vāsamarthaḥ | paśya bhadantopananda yena tvam asamarthas tenāhaṁ tava nānuprayacchāmi |"
-        ]
-    },
-    "san-mu-kd5:57": {},
-    "san-mu-kd5:58": {},
-    "san-mu-kd5:59": {},
-    "san-mu-kd5:60": {},
-    "san-mu-kd5:61": {
+    "san-mu-kd5:48": {
         "del": [
             "GBM: pratibalā"
         ]
     },
+    "san-mu-kd5:49": {},
+    "san-mu-kd5:50": {},
+    "san-mu-kd5:51": {},
+    "san-mu-kd5:52": {},
+    "san-mu-kd5:53": {},
+    "san-mu-kd5:54": {},
+    "san-mu-kd5:55": {},
+    "san-mu-kd5:56": {},
+    "san-mu-kd5:57": {},
+    "san-mu-kd5:58": {},
+    "san-mu-kd5:59": {
+        "del": [
+            "MS: pānīyasyā<span class='unclear'>p"
+        ]
+    },
+    "san-mu-kd5:60": {},
+    "san-mu-kd5:61": {},
     "san-mu-kd5:62": {},
     "san-mu-kd5:63": {},
     "san-mu-kd5:64": {},
@@ -135,22 +139,5 @@
     "san-mu-kd5:69": {},
     "san-mu-kd5:70": {},
     "san-mu-kd5:71": {},
-    "san-mu-kd5:72": {
-        "del": [
-            "MS: pānīyasyā<span class='unclear'>p"
-        ]
-    },
-    "san-mu-kd5:73": {},
-    "san-mu-kd5:74": {},
-    "san-mu-kd5:75": {},
-    "san-mu-kd5:76": {},
-    "san-mu-kd5:77": {},
-    "san-mu-kd5:78": {},
-    "san-mu-kd5:79": {},
-    "san-mu-kd5:80": {},
-    "san-mu-kd5:81": {},
-    "san-mu-kd5:82": {},
-    "san-mu-kd5:83": {},
-    "san-mu-kd5:84": {},
-    "san-mu-kd5:85": {}
+    "san-mu-kd5:72": {}
 }

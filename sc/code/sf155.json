@@ -1,24 +1,21 @@
 {
-    "sf155:0": {},
-    "sf155:1": {},
-    "sf155:2": {
+    "sf155:0": {
         "add": [
             "Naḍakalāpikasūtra"
         ]
     },
-    "sf155:3": {},
-    "sf155:4": {
+    "sf155:1": {
         "supplied": [
             "bhagavān rā",
             "rati veṇuvane kalandakanivāpe |"
         ]
     },
-    "sf155:5": {
+    "sf155:2": {
         "supplied": [
             "tena khalu samayenāyuṣmāñ chāriputra āyuṣmāṁś ca mahākoṣṭhilo rājagṛhe viharato gṛdhrakūṭe parvate |"
         ]
     },
-    "sf155:6": {
+    "sf155:3": {
         "supplied": [
             "athāyuṣmāñ chāriputraḥ sāyāhne pratisaṁ",
             "tth",
@@ -32,36 +29,36 @@
             "tā mahākoṣṭhilena sārdhaṁ saṁmukhaṁ sammodanīṁ saṁrañjanīṁ kathāṁ vividhām upasaṁhṛtyaikānte nyaṣīdat | ekāntaniṣaṇṇa āyuṣmāñ chāriputra āyuṣmantaṁ mahākoṣṭhilam idam avocat |"
         ]
     },
-    "sf155:7": {
+    "sf155:4": {
         "supplied": [
             "pṛcchāma āyuṣman mahākoṣṭhila kañcid eva pradeśam | saced avakāśaṁ kuryāḥ praśnasya vyākaraṇ"
         ]
     },
-    "sf155:8": {
+    "sf155:5": {
         "supplied": [
             "u",
             "ṣ",
             "āmi"
         ]
     },
-    "sf155:9": {
+    "sf155:6": {
         "supplied": [
             "n",
             "ṣṭhila asti jarā | asty evāyuṣmañ chāriputra jarā |"
         ]
     },
-    "sf155:10": {
+    "sf155:7": {
         "supplied": [
             "kin nv āyuṣman mahākoṣthila asti maraṇam | asty evāyuṣmañ chāriputra maraṇam |"
         ]
     },
-    "sf155:11": {
+    "sf155:8": {
         "supplied": [
             "kin nv āyuṣmān mahāko",
             "tañ ca | aho svid asvayaṁkāraparakārahetusamutpannaṁ jarāmaraṇam |"
         ]
     },
-    "sf155:12": {
+    "sf155:9": {
         "supplied": [
             "na hy evāyuṣmañ",
             "r",
@@ -69,7 +66,7 @@
             "rakārahetusamutpannaṁ jarāmaraṇam | api tu jātipratyayaṁ jarāmaraṇam |"
         ]
     },
-    "sf155:13": {
+    "sf155:10": {
         "supplied": [
             "evaṁ jātir bhava upādā",
             "ṁ",
@@ -77,33 +74,33 @@
             "ṣa"
         ]
     },
-    "sf155:14": {
+    "sf155:11": {
         "supplied": [
             "an ma",
             "vayaṁkṛtaṁ nāmarūpam | aho svit parakṛtaṁ | aho svit svayaṁkṛtañ ca parakṛtañ ca | aho svid asvayaṁkāra",
             "u"
         ]
     },
-    "sf155:15": {
+    "sf155:12": {
         "supplied": [
             "vaya",
             "kṛtaṁ nāmarūpam | na parakṛtaṁ | na svayaṁkṛtañ ca parakṛtañ ca | nāpy asvayaṁkāraparakārahetusamutpannaṁ",
             "ṁ"
         ]
     },
-    "sf155:16": {
+    "sf155:13": {
         "supplied": [
             "hākoṣṭhila svayaṁkṛtaṁ vijñānam | aho svit parakṛtam | aho svit svayaṁkṛtañ ca parakṛtañ ca / aho svid asvayaṁkāraparakā",
             "e",
             "ṁ vijñānam | na parakṛtaṁ / na svayaṁkṛtañ ca parakṛtañ ca | nāpy asvayaṁkāraparakārahetusamutpannaṁ vijñāna"
         ]
     },
-    "sf155:17": {
+    "sf155:14": {
         "supplied": [
             "hākoṣthilasya bhāṣitasyārtham ājānīmaḥ"
         ]
     },
-    "sf155:18": {
+    "sf155:15": {
         "supplied": [
             "na svayaṁkṛtaṁ nāmarūpaṁ | na parakṛtaṁ | na svayaṁkṛ",
             "ñ",
@@ -112,13 +109,13 @@
             "a"
         ]
     },
-    "sf155:19": {
+    "sf155:16": {
         "supplied": [
             "uṣma",
             "chāriputra upamāṁ te kariṣyāmi | upamayā hy atraikatyā vjñapuruṣā bhāṣitasyārtham ājānanti |"
         ]
     },
-    "sf155:20": {
+    "sf155:17": {
         "supplied": [
             "tadya",
             "ś",
@@ -129,13 +126,13 @@
             "…"
         ]
     },
-    "sf155:21": {
+    "sf155:18": {
         "supplied": [
             "sādhu sādhv āyuṣman mahākoṣṭhila yathā śrutavatāryaśrāvakeṇa samyag eva śāstuḥ śāsanam ājānatā su",
             "pasaṁpadya viharatāyuṣmatā mahākoṣṭhilena imā evaṁrūpā gaṁbhīrā gaṁbhīrā praśnā vimṛśya v"
         ]
     },
-    "sf155:22": {
+    "sf155:19": {
         "supplied": [
             "ahākoṣṭhilaṁ ye sabrahmacāriṇo mūrdhnā pariharanta āyuṣmato mahākoṣṭhilasya labherañ ca darśanaṁ labherañ ca paryupāsanaṁ te",
             "ṁ",
@@ -143,7 +140,7 @@
             "yuṣmato mahākoṣṭhilasya labhāmahe ca darśanaṁ labhāmahe ca paryupāsanam |"
         ]
     },
-    "sf155:23": {
+    "sf155:20": {
         "supplied": [
             "sādhv a",
             "rā",
@@ -154,7 +151,7 @@
             "…"
         ]
     },
-    "sf155:24": {
+    "sf155:21": {
         "supplied": [
             "jarāmaraṇasya āyuṣman mahākoṣṭhi",
             "d",
@@ -168,7 +165,7 @@
             "sya vacanāya |"
         ]
     },
-    "sf155:25": {
+    "sf155:22": {
         "supplied": [
             "jarāmaraṇasya bhikṣur nirvide virāgāya nirodhāya pratipanno bhavati dharmakathiko",
             "ur ala",
@@ -178,7 +175,7 @@
             "pratipanno bhavati dharmakathiko bhikṣur alam asya vacanāya |"
         ]
     },
-    "sf155:26": {
+    "sf155:23": {
         "supplied": [
             "jarāmaraṇasya bhikṣur nirvide virāgāya nirodhā",
             "u",
@@ -194,7 +191,7 @@
             "vacan"
         ]
     },
-    "sf155:27": {
+    "sf155:24": {
         "supplied": [
             "s",
             "dhu sādhv ā",
@@ -205,13 +202,13 @@
             "denāmṛtadṛśā"
         ]
     },
-    "sf155:28": {
+    "sf155:25": {
         "supplied": [
             "pūrvavad yāvat paryu",
             "sanam |"
         ]
     },
-    "sf155:29": {
+    "sf155:26": {
         "supplied": [
             "atha kin nv asyottare karaṇīyam iti tau satpuruṣāv anyonyabhāṣitam a",
             "ndyānum",

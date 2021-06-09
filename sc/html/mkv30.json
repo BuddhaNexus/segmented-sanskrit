@@ -1,11 +1,6 @@
 {
-    "mkv30:0": "<article id='mkv30' lang='san'>",
-    "mkv30:1": "<header>",
-    "mkv30:2": "<ul>",
-    "mkv30:3": "<li class='division'>{}</li>",
-    "mkv30:4": "</ul>",
-    "mkv30:5": "<h1>{}</h1>",
-    "mkv30:6": "</header>",
-    "mkv30:7": "<p>{}</p>",
-    "mkv30:8": "<p>{}</p>"
+    "mkv30:0": "<article id='mkv30' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv30:1": "<h1>{}</h1></header>",
+    "mkv30:2": "<p>{}</p>",
+    "mkv30:3": "<p>{}</p>"
 }

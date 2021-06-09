@@ -1,14 +1,11 @@
 {
-    "sf162:0": "",
-    "sf162:1": "",
-    "sf162:2": "Yuṣmākasūtra",
-    "sf162:3": "",
-    "sf162:4": "nāyaṁ bhikṣavaḥ kāyo yuṣmākaṁ nāpy anyeṣām | ṣaḍ imāni sparśāyatanāni pūrvam abhisaṁskṛtāny abhisañcetitāni | paurāṇaṁ karma veditavyam iti vadāmi |",
-    "sf162:5": "katamāni ṣaṭ | cakṣuḥ sparśāyatanam | śrotraṁ ghrāṇaṁ jihvā kāyo manaḥ sparśāyatanam |",
-    "sf162:6": "tatra śrutavān āryaśrāvakaḥ pratītyasamutpādam eva sādhu ca suṣṭhu ca yoniśaḥ pratyavekṣate |",
-    "sf162:7": "yadutāsmin sati ṣaḍ vijñānakāyā bhavanti | ṣaṭ sparśakāyāḥ ṣaḍ vedanākāyāḥ ṣaṭ saṁjñākāyāḥ ṣaṭ cetanākāyā bhavanti | yadutāsmin saty evam āyatyāṁ jātijarāvyādhimaraṇaśokaparidevaduḥkhadaurmanasyopāyāsāḥ saṁbhavanti | evam asya kevalasya mahato duḥkhaskandhasya samudayo bhavati |",
-    "sf162:8": "evaṁ hi sahetuḥ sapratyayo lokaḥ samudeti | evaṁ hi sahetoḥ sapratyayasya lokasya samudayo bhavati |",
-    "sf162:9": "yadutāsminn asati ṣaḍ vijñānakāyā na bhavanti | ṣaṭ sparśakāyāḥ ṣaḍ vedanākāyāḥ ṣaṭ saṁjñākāyāḥ ṣaṭ cetanākāyā na bhavanti | yadutāsminn asaty evam āyatyām jātijarāvyādhimaraṇaśokaparidevaduḥkhadaurmanasyopāyāsā nirudhyante | evam asya kevalasya mahato duḥkhaskandhasya nirodho bhavati |",
-    "sf162:10": "yataś ca śrutavatāryaśrāvakeṇa lokasamudayaś ca lokanirodhaś ca yathābhūtaṁ samyakprajñayā sudṛṣṭo bhavati suviditaḥ sujuṣṭaḥ supratividdhaḥ | ayam ucyate āryāśrāvakaḥ | āgata imaṁ saddharmam upagata imaṁ saddharmam avaiti saddharmam ity ucyate ’vagāḍhaprāptaḥ paryavagāḍhaprāptaḥ śaikṣeṇa jñānena śaikṣeṇa darśanena lokasyodayāstaṁgāminyā prajñayā samanvāgata āryayā nairyāṇikayā nairvedhikayā niryāti tatkaraḥ samyagduḥkhakṣayāya duḥkhasyāntakriyāyai |",
-    "sf162:11": "tat kasmād dhetoḥ | tathā hi śrutavatāryaśrāvakeṇa lokasamudayaś ca lokanirodhaś ca yathābhūtaṁ samyakprajñayā sudṛṣṭaḥ suviditaḥ supratividdhaḥ ||"
+    "sf162:0": "Yuṣmākasūtra",
+    "sf162:1": "nāyaṁ bhikṣavaḥ kāyo yuṣmākaṁ nāpy anyeṣām | ṣaḍ imāni sparśāyatanāni pūrvam abhisaṁskṛtāny abhisañcetitāni | paurāṇaṁ karma veditavyam iti vadāmi |",
+    "sf162:2": "katamāni ṣaṭ | cakṣuḥ sparśāyatanam | śrotraṁ ghrāṇaṁ jihvā kāyo manaḥ sparśāyatanam |",
+    "sf162:3": "tatra śrutavān āryaśrāvakaḥ pratītyasamutpādam eva sādhu ca suṣṭhu ca yoniśaḥ pratyavekṣate |",
+    "sf162:4": "yadutāsmin sati ṣaḍ vijñānakāyā bhavanti | ṣaṭ sparśakāyāḥ ṣaḍ vedanākāyāḥ ṣaṭ saṁjñākāyāḥ ṣaṭ cetanākāyā bhavanti | yadutāsmin saty evam āyatyāṁ jātijarāvyādhimaraṇaśokaparidevaduḥkhadaurmanasyopāyāsāḥ saṁbhavanti | evam asya kevalasya mahato duḥkhaskandhasya samudayo bhavati |",
+    "sf162:5": "evaṁ hi sahetuḥ sapratyayo lokaḥ samudeti | evaṁ hi sahetoḥ sapratyayasya lokasya samudayo bhavati |",
+    "sf162:6": "yadutāsminn asati ṣaḍ vijñānakāyā na bhavanti | ṣaṭ sparśakāyāḥ ṣaḍ vedanākāyāḥ ṣaṭ saṁjñākāyāḥ ṣaṭ cetanākāyā na bhavanti | yadutāsminn asaty evam āyatyām jātijarāvyādhimaraṇaśokaparidevaduḥkhadaurmanasyopāyāsā nirudhyante | evam asya kevalasya mahato duḥkhaskandhasya nirodho bhavati |",
+    "sf162:7": "yataś ca śrutavatāryaśrāvakeṇa lokasamudayaś ca lokanirodhaś ca yathābhūtaṁ samyakprajñayā sudṛṣṭo bhavati suviditaḥ sujuṣṭaḥ supratividdhaḥ | ayam ucyate āryāśrāvakaḥ | āgata imaṁ saddharmam upagata imaṁ saddharmam avaiti saddharmam ity ucyate ’vagāḍhaprāptaḥ paryavagāḍhaprāptaḥ śaikṣeṇa jñānena śaikṣeṇa darśanena lokasyodayāstaṁgāminyā prajñayā samanvāgata āryayā nairyāṇikayā nairvedhikayā niryāti tatkaraḥ samyagduḥkhakṣayāya duḥkhasyāntakriyāyai |",
+    "sf162:8": "tat kasmād dhetoḥ | tathā hi śrutavatāryaśrāvakeṇa lokasamudayaś ca lokanirodhaś ca yathābhūtaṁ samyakprajñayā sudṛṣṭaḥ suviditaḥ supratividdhaḥ ||"
 }

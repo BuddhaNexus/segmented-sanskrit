@@ -1,17 +1,10 @@
 {
-    "uvs1:0": "<article id='uvs1' lang='san'>",
-    "uvs1:1": "<header>",
-    "uvs1:2": "<ul>",
-    "uvs1:3": "<li class='division'>{}</li>",
-    "uvs1:4": "</ul>",
-    "uvs1:5": "<h1>{}</h1>",
-    "uvs1:6": "</header>",
-    "uvs1:7": "<blockquote class='gatha'>",
-    "uvs1:8": "<p class='add'>{}</p>",
-    "uvs1:9": "<p>{}<br>",
-    "uvs1:10": "{}<br>",
-    "uvs1:11": "{}<br>",
-    "uvs1:12": "{}</p>",
-    "uvs1:13": "<p class='add'>{}</p>",
-    "uvs1:14": "</blockquote>"
+    "uvs1:0": "<article id='uvs1' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "uvs1:1": "<h1>{}</h1></header>",
+    "uvs1:2": "<blockquote class='gatha'><p class='add'>{}</p>",
+    "uvs1:3": "<p>{}<br>",
+    "uvs1:4": "{}<br>",
+    "uvs1:5": "{}<br>",
+    "uvs1:6": "{}</p>",
+    "uvs1:7": "<p class='add'>{}</p></blockquote>"
 }

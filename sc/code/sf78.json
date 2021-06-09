@@ -1,13 +1,10 @@
 {
-    "sf78:0": {},
-    "sf78:1": {},
-    "sf78:2": {
+    "sf78:0": {
         "add": [
             "Pūrṇikasūtra"
         ]
     },
-    "sf78:3": {},
-    "sf78:4": {
+    "sf78:1": {
         "supplied": [
             "athāyuṣmān pūrṇiko ’ciraprakrāntān saṁbahulān anyatīrthikaparivrājakān vi",
             "jagāma. upetya bhaga",
@@ -17,7 +14,7 @@
             "samudāhāras tat sarvaṁ bhagavato vistareṇārocayati."
         ]
     },
-    "sf78:5": {
+    "sf78:2": {
         "supplied": [
             "evaṁ vyā",
             "agavantam abhyācakṣe. nātisarāmy uktavādī cāhaṁ bhagavato dharmavā",
@@ -27,13 +24,13 @@
             "t parataḥ saha dharmeṇa vādānuvādaṁ garhasthānīyo dharmaḥ."
         ]
     },
-    "sf78:6": {
+    "sf78:3": {
         "supplied": [
             "tatthyaṁ tvaṁ pūrṇika vyākurvāṇ",
             "tvaṁ mama dharmavādī ca dharmasya cānudharmaṁ vyākarosi. na ca te kaścid āgacchet parataḥ saha dharmeṇa"
         ]
     },
-    "sf78:7": {
+    "sf78:4": {
         "supplied": [
             "vaṁ pūrṇika <span class='gap'>…",
             "ma",
@@ -43,7 +40,7 @@
             "rān na v"
         ]
     },
-    "sf78:8": {
+    "sf78:5": {
         "supplied": [
             "yāmāneṣu pūrṇika <span class='gap'>…",
             "rgharātram arthāya hitāya",

@@ -2,42 +2,35 @@
     "san-lo-bi-vb-np14:0": {},
     "san-lo-bi-vb-np14:1": {},
     "san-lo-bi-vb-np14:2": {},
-    "san-lo-bi-vb-np14:3": {},
-    "san-lo-bi-vb-np14:4": {},
-    "san-lo-bi-vb-np14:5": {},
-    "san-lo-bi-vb-np14:6": {},
-    "san-lo-bi-vb-np14:7": {},
-    "san-lo-bi-vb-np14:8": {
+    "san-lo-bi-vb-np14:3": {
         "supplied": [
             "pā"
         ]
     },
-    "san-lo-bi-vb-np14:9": {},
-    "san-lo-bi-vb-np14:10": {},
-    "san-lo-bi-vb-np14:11": {},
-    "san-lo-bi-vb-np14:12": {},
-    "san-lo-bi-vb-np14:13": {
+    "san-lo-bi-vb-np14:4": {},
+    "san-lo-bi-vb-np14:5": {},
+    "san-lo-bi-vb-np14:6": {},
+    "san-lo-bi-vb-np14:7": {
         "gloss": [
             "yā puna bhikṣuṇī",
             "upasampannā"
         ]
     },
-    "san-lo-bi-vb-np14:14": {
+    "san-lo-bi-vb-np14:8": {
         "gloss": [
             "pātra-sannicayan",
             "pātran nāma sumbhakaṁ upa-sambhakaṁ | uktaṭeyakaṁ vaṁkeṭakaṁ tiṁkhini-pātraṁ | jyeṣṭhakaṁ madhyamakaṁ kanyasakaṁ | apātraṁ atipātraṁ pariṣkāra-pātraṁ"
         ]
     },
-    "san-lo-bi-vb-np14:15": {
+    "san-lo-bi-vb-np14:9": {
         "gloss": [
             "sannicayaṁ kuryād",
             "saṁgrahaṁ kuryān"
         ]
     },
-    "san-lo-bi-vb-np14:16": {},
-    "san-lo-bi-vb-np14:17": {},
-    "san-lo-bi-vb-np14:18": {},
-    "san-lo-bi-vb-np14:19": {},
-    "san-lo-bi-vb-np14:20": {},
-    "san-lo-bi-vb-np14:21": {}
+    "san-lo-bi-vb-np14:10": {},
+    "san-lo-bi-vb-np14:11": {},
+    "san-lo-bi-vb-np14:12": {},
+    "san-lo-bi-vb-np14:13": {},
+    "san-lo-bi-vb-np14:14": {}
 }

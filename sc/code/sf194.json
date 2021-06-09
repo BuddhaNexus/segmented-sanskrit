@@ -1,41 +1,38 @@
 {
-    "sf194:0": {},
-    "sf194:1": {},
-    "sf194:2": {
+    "sf194:0": {
         "add": [
             "Ekottarikāgama 11"
         ]
     },
-    "sf194:3": {},
-    "sf194:4": {
+    "sf194:1": {
         "supplied": [
             "aḥ kalalībhūtaḥ syāt | tatra cakṣuṣmān pu",
             "u"
         ]
     },
-    "sf194:5": {
+    "sf194:2": {
         "supplied": [
             "vā uttaraṁ vā manuṣyadharmam alamā"
         ]
     },
-    "sf194:6": {
+    "sf194:3": {
         "supplied": [
             "vyaṁ yan na naś cittam āvilaṁ bhaviṣyaty evaṁ vo"
         ]
     },
-    "sf194:7": {
+    "sf194:4": {
         "supplied": [
             "ṇaḥ paśyet | tat kasya hetor | anāvilatvād uda",
             "a"
         ]
     },
-    "sf194:8": {
+    "sf194:5": {
         "supplied": [
             "maṁ jñānaṁ vā darśanaṁ vā sparśavihāratāṁ vā jñāsyati vā",
             "ra"
         ]
     },
-    "sf194:9": {
+    "sf194:6": {
         "supplied": [
             "tavya",
             "ya",
@@ -46,7 +43,7 @@
             "bhikṣavaḥ śikṣitavyaṁ || ||"
         ]
     },
-    "sf194:10": {
+    "sf194:7": {
         "gap": [
             "+ + +"
         ]

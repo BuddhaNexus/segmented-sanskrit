@@ -1,14 +1,9 @@
 {
-    "san-lo-mvu105:0": "<article id='san-lo-mvu105' lang='san'>",
-    "san-lo-mvu105:1": "<header>",
-    "san-lo-mvu105:2": "<ul>",
-    "san-lo-mvu105:3": "<li class='division'>{}</li>",
-    "san-lo-mvu105:4": "</ul>",
-    "san-lo-mvu105:5": "<h1>{}</h1>",
-    "san-lo-mvu105:6": "</header>",
-    "san-lo-mvu105:7": "<p>{}</p>",
-    "san-lo-mvu105:8": "<p>{}</p>",
-    "san-lo-mvu105:9": "<p>{}</p>",
-    "san-lo-mvu105:10": "<p>{}</p>",
-    "san-lo-mvu105:11": "<p class='endsection'>{}</p>"
+    "san-lo-mvu105:0": "<article id='san-lo-mvu105' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-mvu105:1": "<h1>{}</h1></header>",
+    "san-lo-mvu105:2": "<p>{}</p>",
+    "san-lo-mvu105:3": "<p>{}</p>",
+    "san-lo-mvu105:4": "<p>{}</p>",
+    "san-lo-mvu105:5": "<p>{}</p>",
+    "san-lo-mvu105:6": "<p class='endsection'>{}</p>"
 }

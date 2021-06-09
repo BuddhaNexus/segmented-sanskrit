@@ -1,12 +1,12 @@
 {
-    "divy25:0": "<article id='divy25' lang='san'>",
-    "divy25:1": "<header>",
-    "divy25:2": "<ul>",
-    "divy25:3": "<li class='division'>{}</li>",
-    "divy25:4": "</ul>",
-    "divy25:5": "<h1>{}</h1>",
-    "divy25:6": "</header>",
-    "divy25:7": "<p>{}<br>",
+    "divy25:0": "<article id='divy25' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "divy25:1": "<h1>{}</h1></header>",
+    "divy25:2": "<p>{}<br>",
+    "divy25:3": "{}<br>",
+    "divy25:4": "{}<br>",
+    "divy25:5": "{}<br>",
+    "divy25:6": "{}<br>",
+    "divy25:7": "{}<br>",
     "divy25:8": "{}<br>",
     "divy25:9": "{}<br>",
     "divy25:10": "{}<br>",
@@ -27,10 +27,5 @@
     "divy25:25": "{}<br>",
     "divy25:26": "{}<br>",
     "divy25:27": "{}<br>",
-    "divy25:28": "{}<br>",
-    "divy25:29": "{}<br>",
-    "divy25:30": "{}<br>",
-    "divy25:31": "{}<br>",
-    "divy25:32": "{}<br>",
-    "divy25:33": "{}</p>"
+    "divy25:28": "{}</p>"
 }

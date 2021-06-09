@@ -1,10 +1,5 @@
 {
-    "mkv48:0": "<article id='mkv48' lang='san'>",
-    "mkv48:1": "<header>",
-    "mkv48:2": "<ul>",
-    "mkv48:3": "<li class='division'>{}</li>",
-    "mkv48:4": "</ul>",
-    "mkv48:5": "<h1>{}</h1>",
-    "mkv48:6": "</header>",
-    "mkv48:7": "<p>{}</p>"
+    "mkv48:0": "<article id='mkv48' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv48:1": "<h1>{}</h1></header>",
+    "mkv48:2": "<p>{}</p>"
 }

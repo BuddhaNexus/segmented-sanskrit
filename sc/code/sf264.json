@@ -1,38 +1,35 @@
 {
     "sf264:0": {},
-    "sf264:1": {},
-    "sf264:2": {},
-    "sf264:3": {},
-    "sf264:4": {
+    "sf264:1": {
         "supplied": [
             "śrāvast",
             "āṁ"
         ]
     },
-    "sf264:5": {
+    "sf264:2": {
         "supplied": [
             "taṁ vo bhikṣavaḥ | supravrajyā vo bhiṣavaḥ | lābhā sulabdhā",
             "i",
             "alatā ajaḍatā aneḍamūkatā ahastasaṁvācakatā pratibalatā subhā"
         ]
     },
-    "sf264:6": {},
-    "sf264:7": {
+    "sf264:3": {},
+    "sf264:4": {
         "supplied": [
             "tapra"
         ]
     },
-    "sf264:8": {},
-    "sf264:9": {
+    "sf264:5": {},
+    "sf264:6": {
         "supplied": [
             "i"
         ]
     },
-    "sf264:10": {
+    "sf264:7": {
         "supplied": [
             "rātha",
             "vaṁ vo"
         ]
     },
-    "sf264:11": {}
+    "sf264:8": {}
 }

@@ -1,15 +1,10 @@
 {
-    "san-lo-bi-pn6:0": "<article id='san-lo-bi-pn6' lang='san'>",
-    "san-lo-bi-pn6:1": "<header>",
-    "san-lo-bi-pn6:2": "<ul>",
-    "san-lo-bi-pn6:3": "<li class='division'>{}</li>",
-    "san-lo-bi-pn6:4": "</ul>",
-    "san-lo-bi-pn6:5": "<h1>{}</h1>",
-    "san-lo-bi-pn6:6": "</header>",
-    "san-lo-bi-pn6:7": "<h2>{}</h2>",
-    "san-lo-bi-pn6:8": "<p>{}</p>",
-    "san-lo-bi-pn6:9": "<h2>{}</h2>",
-    "san-lo-bi-pn6:10": "<p class='rule'>{}</p>",
-    "san-lo-bi-pn6:11": "<h2>{}</h2>",
-    "san-lo-bi-pn6:12": "<p>{}</p>"
+    "san-lo-bi-pn6:0": "<article id='san-lo-bi-pn6' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-bi-pn6:1": "<h1>{}</h1></header>",
+    "san-lo-bi-pn6:2": "<h2>{}</h2>",
+    "san-lo-bi-pn6:3": "<p>{}</p>",
+    "san-lo-bi-pn6:4": "<h2>{}</h2>",
+    "san-lo-bi-pn6:5": "<p class='rule'>{}</p>",
+    "san-lo-bi-pn6:6": "<h2>{}</h2>",
+    "san-lo-bi-pn6:7": "<p>{}</p>"
 }

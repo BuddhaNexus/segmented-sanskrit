@@ -1,30 +1,23 @@
 {
     "san-lo-mvu100:0": [],
     "san-lo-mvu100:1": [],
-    "san-lo-mvu100:2": [],
-    "san-lo-mvu100:3": [],
-    "san-lo-mvu100:4": [],
-    "san-lo-mvu100:5": [],
-    "san-lo-mvu100:6": [],
-    "san-lo-mvu100:7": [
+    "san-lo-mvu100:2": [
         "sc1",
         "sen3.376"
     ],
-    "san-lo-mvu100:8": [
+    "san-lo-mvu100:3": [
         "sc2"
     ],
-    "san-lo-mvu100:9": [],
-    "san-lo-mvu100:10": [
+    "san-lo-mvu100:4": [
         "sc3"
     ],
-    "san-lo-mvu100:11": [],
-    "san-lo-mvu100:12": [
+    "san-lo-mvu100:5": [],
+    "san-lo-mvu100:6": [
         "sc4"
     ],
-    "san-lo-mvu100:13": [],
-    "san-lo-mvu100:14": [],
-    "san-lo-mvu100:15": [
+    "san-lo-mvu100:7": [],
+    "san-lo-mvu100:8": [
         "sc5"
     ],
-    "san-lo-mvu100:16": []
+    "san-lo-mvu100:9": []
 }

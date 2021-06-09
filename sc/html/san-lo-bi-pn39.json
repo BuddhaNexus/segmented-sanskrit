@@ -1,10 +1,5 @@
 {
-    "san-lo-bi-pn39:0": "<article id='san-lo-bi-pn39' lang='san'>",
-    "san-lo-bi-pn39:1": "<header>",
-    "san-lo-bi-pn39:2": "<ul>",
-    "san-lo-bi-pn39:3": "<li class='division'>{}</li>",
-    "san-lo-bi-pn39:4": "</ul>",
-    "san-lo-bi-pn39:5": "<h1>{}</h1>",
-    "san-lo-bi-pn39:6": "</header>",
-    "san-lo-bi-pn39:7": "<p class='rule'>{}</p>"
+    "san-lo-bi-pn39:0": "<article id='san-lo-bi-pn39' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-bi-pn39:1": "<h1>{}</h1></header>",
+    "san-lo-bi-pn39:2": "<p class='rule'>{}</p>"
 }

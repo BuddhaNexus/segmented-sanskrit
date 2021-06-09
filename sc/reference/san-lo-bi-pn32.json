@@ -2,21 +2,16 @@
     "san-lo-bi-pn32:0": [],
     "san-lo-bi-pn32:1": [],
     "san-lo-bi-pn32:2": [],
-    "san-lo-bi-pn32:3": [],
-    "san-lo-bi-pn32:4": [],
-    "san-lo-bi-pn32:5": [],
-    "san-lo-bi-pn32:6": [],
-    "san-lo-bi-pn32:7": [],
-    "san-lo-bi-pn32:8": [
+    "san-lo-bi-pn32:3": [
         "sc1",
         "roth284"
     ],
-    "san-lo-bi-pn32:9": [],
-    "san-lo-bi-pn32:10": [
+    "san-lo-bi-pn32:4": [],
+    "san-lo-bi-pn32:5": [
         "sc2"
     ],
-    "san-lo-bi-pn32:11": [],
-    "san-lo-bi-pn32:12": [
+    "san-lo-bi-pn32:6": [],
+    "san-lo-bi-pn32:7": [
         "sc3"
     ]
 }

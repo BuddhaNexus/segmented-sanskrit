@@ -1,23 +1,20 @@
 {
-    "sf158:0": {},
-    "sf158:1": {},
-    "sf158:2": {
+    "sf158:0": {
         "add": [
             "Kāṁsīsūtra"
         ]
     },
-    "sf158:3": {},
-    "sf158:4": {
+    "sf158:1": {
         "supplied": [
             "mantraya"
         ]
     },
-    "sf158:5": {
+    "sf158:2": {
         "supplied": [
             "yū"
         ]
     },
-    "sf158:6": {
+    "sf158:3": {
         "supplied": [
             "ur",
             "tthā",
@@ -28,13 +25,13 @@
             "ṁ"
         ]
     },
-    "sf158:7": {
+    "sf158:4": {
         "supplied": [
             "āmi",
             "vatā deśitam antaḥsaṁmarśam |"
         ]
     },
-    "sf158:8": {
+    "sf158:5": {
         "gap": [
             "…",
             "…"
@@ -43,7 +40,7 @@
             "nā"
         ]
     },
-    "sf158:9": {
+    "sf158:6": {
         "supplied": [
             "sama",
             "na"
@@ -52,7 +49,7 @@
             "…"
         ]
     },
-    "sf158:10": {
+    "sf158:7": {
         "supplied": [
             "atīte ’py adhvani ye kecic chramaṇā v",
             "rāhmaṇā vā yal loke priyarūpaṁ sā",
@@ -74,7 +71,7 @@
             "sebhyaḥ | na parimucyante"
         ]
     },
-    "sf158:11": {
+    "sf158:8": {
         "supplied": [
             "tu",
             "maṇā vā brāhmaṇā vā ya",
@@ -102,7 +99,7 @@
             "va"
         ]
     },
-    "sf158:12": {
+    "sf158:9": {
         "supplied": [
             "e",
             "pr",
@@ -127,7 +124,7 @@
             "nt"
         ]
     },
-    "sf158:13": {
+    "sf158:10": {
         "supplied": [
             "c chra",
             "ā vā brāhmaṇā vā yal loke priya",

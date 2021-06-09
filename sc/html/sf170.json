@@ -1,8 +1,5 @@
 {
-    "sf170:0": "<article id='sf170' lang='san'>",
-    "sf170:1": "<header>",
-    "sf170:2": "<h1>{}</h1>",
-    "sf170:3": "</header>",
-    "sf170:4": "<p>{}</p>",
-    "sf170:5": "<p>{}</p>"
+    "sf170:0": "<article id='sf170' lang='san'><header><h1>{}</h1></header>",
+    "sf170:1": "<p>{}</p>",
+    "sf170:2": "<p>{}</p>"
 }

@@ -1,18 +1,11 @@
 {
-    "san-lo-mvu43:0": "<article id='san-lo-mvu43' lang='san'>",
-    "san-lo-mvu43:1": "<header>",
-    "san-lo-mvu43:2": "<ul>",
-    "san-lo-mvu43:3": "<li class='division'>{}</li>",
-    "san-lo-mvu43:4": "</ul>",
-    "san-lo-mvu43:5": "<h1>{}</h1>",
-    "san-lo-mvu43:6": "</header>",
+    "san-lo-mvu43:0": "<article id='san-lo-mvu43' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-mvu43:1": "<h1>{}</h1></header>",
+    "san-lo-mvu43:2": "<p>{}</p>",
+    "san-lo-mvu43:3": "<p>{}</p>",
+    "san-lo-mvu43:4": "<blockquote class='gatha'><p>{}<br>",
+    "san-lo-mvu43:5": "{}</p></blockquote>",
+    "san-lo-mvu43:6": "<p>{}</p>",
     "san-lo-mvu43:7": "<p>{}</p>",
-    "san-lo-mvu43:8": "<p>{}</p>",
-    "san-lo-mvu43:9": "<blockquote class='gatha'>",
-    "san-lo-mvu43:10": "<p>{}<br>",
-    "san-lo-mvu43:11": "{}</p>",
-    "san-lo-mvu43:12": "</blockquote>",
-    "san-lo-mvu43:13": "<p>{}</p>",
-    "san-lo-mvu43:14": "<p>{}</p>",
-    "san-lo-mvu43:15": "<p class='endsection'>{}</p>"
+    "san-lo-mvu43:8": "<p class='endsection'>{}</p>"
 }

@@ -1,12 +1,7 @@
 {
     "dk18:0": {},
     "dk18:1": {},
-    "dk18:2": {},
-    "dk18:3": {},
-    "dk18:4": {},
-    "dk18:5": {},
-    "dk18:6": {},
-    "dk18:7": {
+    "dk18:2": {
         "gap": [
             "+ + + + + +",
             "+ + +"
@@ -22,17 +17,17 @@
             "|"
         ]
     },
-    "dk18:8": {
+    "dk18:3": {
         "corrected": [
             "c cetaḥsamādhir dvividhaḥ"
         ]
     },
-    "dk18:9": {
+    "dk18:4": {
         "corrected": [
             "|"
         ]
     },
-    "dk18:10": {
+    "dk18:5": {
         "corrected": [
             "ḥ kāntā",
             "ma",
@@ -52,7 +47,7 @@
             "+ + + +"
         ]
     },
-    "dk18:11": {
+    "dk18:6": {
         "corrected": [
             "vidhāvantaṁ tasminn evopa",
             "|",
@@ -63,7 +58,7 @@
             "+ + + + + + + + +"
         ]
     },
-    "dk18:12": {
+    "dk18:7": {
         "corrected": [
             "ti bahulīkurute tasya imaṁ mārga",
             "|",
@@ -74,20 +69,20 @@
             "|"
         ]
     },
-    "dk18:13": {
+    "dk18:8": {
         "corrected": [
             "parīttamaitrīsahabhuvaḥ",
             "|"
         ]
     },
-    "dk18:14": {
+    "dk18:9": {
         "corrected": [
             "|",
             "| yad evābhyaste parītte",
             "|"
         ]
     },
-    "dk18:15": {
+    "dk18:10": {
         "corrected": [
             "ā",
             "śanaiḥ spharati pūrvāṁ da",
@@ -110,7 +105,7 @@
             "*"
         ]
     },
-    "dk18:16": {
+    "dk18:11": {
         "corrected": [
             "|"
         ]

@@ -1,13 +1,10 @@
 {
-    "sf279:0": {},
-    "sf279:1": {},
-    "sf279:2": {
+    "sf279:0": {
         "add": [
             "Māratajjanīyasūtra"
         ]
     },
-    "sf279:3": {},
-    "sf279:4": {
+    "sf279:1": {
         "supplied": [
             "śramaṇa",
             "tā",
@@ -15,14 +12,14 @@
             "banam |"
         ]
     },
-    "sf279:5": {
+    "sf279:2": {
         "supplied": [
             "tena khalu samayena yaḥ kaścic chrāddho brāhamaṇagṛhapatiḥ",
             "kā",
             "aṁ"
         ]
     },
-    "sf279:6": {
+    "sf279:3": {
         "supplied": [
             "ṣino mārasyāvatāraprekṣino ’vatāragaveṣina etad abhavat | tathāhaṁ",
             "ṣṭvā satkurvaṁti gurukurvaṁti mānayaṁti pūjayaṁti | atra śramaṇānāṁ",
@@ -30,19 +27,19 @@
             "labhe avatāraṁ labhe ālambanam |"
         ]
     },
-    "sf279:7": {
+    "sf279:4": {
         "supplied": [
             "tena khalu samayena",
             "ta"
         ]
     },
-    "sf279:8": {
+    "sf279:5": {
         "supplied": [
             "āhmaṇagṛhapatibhiḥ prajñaptāḥ | evaṁ cāhuḥ | pratigṛhṇantv asmākaṁ śramaṇāḥ śīlavaṁto",
             "|"
         ]
     },
-    "sf279:9": {
+    "sf279:6": {
         "supplied": [
             "ṇānām",
             "tāni",
@@ -53,14 +50,14 @@
             "kaṁ bhaviṣyati dīrgharātram arthāya hitāya sukhāya |"
         ]
     },
-    "sf279:10": {
+    "sf279:7": {
         "supplied": [
             "apīdānīṁ śramaṇānām uttamāṅgaruhāṁ ke",
             "|",
             "d asmākaṁ bhaviṣyati dīrgharātram arthāya hitāya sukhāya |"
         ]
     },
-    "sf279:11": {
+    "sf279:8": {
         "supplied": [
             "apīdānīṁ śramaṇāṁ śī",
             "a",
@@ -68,12 +65,12 @@
             "dīrgha"
         ]
     },
-    "sf279:12": {
+    "sf279:9": {
         "supplied": [
             "pūjitā yena krakasundaḥ samyaksaṁbuddhas tenopajagmuḥ |"
         ]
     },
-    "sf279:13": {
+    "sf279:10": {
         "supplied": [
             "śramaṇa krakasundena samyaksaṁbuddhena anenāvavādenāvavaditāḥ saṁskāreṣv anityā",
             "i",
@@ -85,7 +82,7 @@
             "bha"
         ]
     },
-    "sf279:14": {
+    "sf279:11": {
         "supplied": [
             "u sama",
             "ena ya",
@@ -95,7 +92,7 @@
             "e"
         ]
     },
-    "sf279:15": {
+    "sf279:12": {
         "supplied": [
             "ṣino",
             "syāvatāraprekṣina etad abhavat | tath",
@@ -108,14 +105,14 @@
             "…"
         ]
     },
-    "sf279:16": {
+    "sf279:13": {
         "supplied": [
             "kasundastathāgato ’rhan samyaksaṁbu",
             "ra",
             "dūreṇa paścācchramaṇe"
         ]
     },
-    "sf279:17": {
+    "sf279:14": {
         "supplied": [
             "yaksaṁbuddhas tasyā eva rātryā atyayāt pūrvāhṇe ni",
             "va",
@@ -125,14 +122,14 @@
             "a"
         ]
     },
-    "sf279:18": {
+    "sf279:15": {
         "supplied": [
             "ṣī māraḥ kumārarūpam anvāviśya",
             "śar",
             "gnaṁ rudhiraṁ mukhe gālitam |"
         ]
     },
-    "sf279:19": {
+    "sf279:16": {
         "supplied": [
             "tathāpy āyu",
             "āṁ vi",
@@ -145,7 +142,7 @@
             "|"
         ]
     },
-    "sf279:20": {
+    "sf279:17": {
         "supplied": [
             "ākṣīt pāpimaṁ krakasundaḥ sa",
             "na nāgāvalokitena ava",
@@ -155,21 +152,21 @@
             "|"
         ]
     },
-    "sf279:21": {
+    "sf279:18": {
         "supplied": [
             "pimaṁ yasya kasya<span class='supplied'>cid ananvayāt tathāgate",
             "v",
             "|"
         ]
     },
-    "sf279:22": {
+    "sf279:19": {
         "supplied": [
             "dūṣī māras tasmāt sthānāt samantata",
             "ake",
             "|"
         ]
     },
-    "sf279:23": {
+    "sf279:20": {
         "supplied": [
             "na khalu samayenāvīcer mahānarakasya ca",
             "rala iti śataśaṅkur ity api pratyātmavedanīya",

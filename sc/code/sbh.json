@@ -1,8 +1,7 @@
 {
     "sbh:0": {},
     "sbh:1": {},
-    "sbh:2": {},
-    "sbh:3": {
+    "sbh:2": {
         "gap": [
             "//"
         ],
@@ -11,17 +10,25 @@
             "|"
         ]
     },
-    "sbh:4": {
+    "sbh:3": {
         "unclear": [
             "samanvāgato bhavati",
             "|"
         ]
     },
-    "sbh:5": {
+    "sbh:4": {
         "unclear": [
             "ya",
             "| yathāpīhai",
             "ja",
+            "|"
+        ]
+    },
+    "sbh:5": {
+        "unclear": [
+            "|",
+            "|",
+            "|",
             "|"
         ]
     },
@@ -35,24 +42,16 @@
     },
     "sbh:7": {
         "unclear": [
-            "|",
-            "|",
-            "|",
             "|"
         ]
     },
     "sbh:8": {
         "unclear": [
-            "|"
-        ]
-    },
-    "sbh:9": {
-        "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:10": {
+    "sbh:9": {
         "unclear": [
             "|",
             "a",
@@ -64,7 +63,7 @@
             "ttve"
         ]
     },
-    "sbh:11": {
+    "sbh:10": {
         "supplied": [
             "vān"
         ],
@@ -74,17 +73,17 @@
             "|"
         ]
     },
-    "sbh:12": {
+    "sbh:11": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:13": {
+    "sbh:12": {
         "supplied": [
             "nte"
         ]
     },
-    "sbh:14": {
+    "sbh:13": {
         "unclear": [
             "|"
         ],
@@ -95,7 +94,7 @@
             "cchandaḥ"
         ]
     },
-    "sbh:15": {
+    "sbh:14": {
         "unclear": [
             "|",
             "|"
@@ -104,13 +103,13 @@
             "ḥśī"
         ]
     },
-    "sbh:16": {
+    "sbh:15": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:17": {
+    "sbh:16": {
         "unclear": [
             "|",
             "a",
@@ -123,21 +122,21 @@
             "|"
         ]
     },
-    "sbh:18": {
+    "sbh:17": {
         "unclear": [
             "|",
             "yāpanāyai, brahmacaryānugrahāya",
             "|"
         ]
     },
-    "sbh:19": {
+    "sbh:18": {
         "unclear": [
             "sadivā caṁkramaniṣadyābhyāmāvaraṇīyebhyo  dharmebhyaścittaṁ pari",
             "laghu laghveva prativibudhya, caṁkramaniṣadyābhyā",
             "|"
         ]
     },
-    "sbh:20": {
+    "sbh:19": {
         "unclear": [
             "|"
         ],
@@ -145,20 +144,20 @@
             "bhi"
         ]
     },
-    "sbh:21": {
+    "sbh:20": {
         "unclear": [
             "|",
             "puṁjā"
         ]
     },
-    "sbh:22": {
+    "sbh:21": {
         "unclear": [
             "|",
             "a",
             "|"
         ]
     },
-    "sbh:23": {
+    "sbh:22": {
         "supplied": [
             "cetasa upakleśa",
             "rastaṅgamā"
@@ -169,7 +168,7 @@
             "|"
         ]
     },
-    "sbh:24": {
+    "sbh:23": {
         "unclear": [
             "a",
             "samādhi",
@@ -179,12 +178,12 @@
             "ta"
         ]
     },
-    "sbh:25": {
+    "sbh:24": {
         "supplied": [
             "āha | yānyaparinirvāṇadharmakasya liṁgāni |"
         ]
     },
-    "sbh:26": {
+    "sbh:25": {
         "supplied": [
             "pradeśamātraṁ |",
             "śaṁsa",
@@ -202,7 +201,7 @@
             "varta",
             "sya pudgalasya",
             "anekaparyā",
-            "yeṇa<span class='gap'>..............",
+            "yeṇa",
             "khā",
             "|",
             "idaṁ tṛtīyamagotrasthaṁ liṅgaṁ <span class='unclear'>|",
@@ -214,9 +213,12 @@
             "ryāṇikato a gotrasthaḥ pudgalaḥ pravrajita",
             "vā bhavati | idaṁ ṣaṣṭhamagotrasthasya pudgalasya",
             "a"
+        ],
+        "gap": [
+            ".............."
         ]
     },
-    "sbh:27": {
+    "sbh:26": {
         "unclear": [
             "avatīrṇo na niṣkrāntaḥ, avatīrṇo niṣkrānto",
             "a",
@@ -225,37 +227,37 @@
             "śca |"
         ]
     },
-    "sbh:28": {
+    "sbh:27": {
         "unclear": [
             "|",
             "roti"
         ]
     },
-    "sbh:29": {
+    "sbh:28": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:30": {
+    "sbh:29": {
         "unclear": [
             "a",
             "|",
             "|"
         ]
     },
-    "sbh:31": {
+    "sbh:30": {
         "unclear": [
             "tatra mṛdvindriyaḥ pudgalaḥ katamaḥ | yasya nātyarthaṁ jñeye vastunyālamba",
             "|",
             "|"
         ]
     },
-    "sbh:32": {
+    "sbh:31": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:33": {
+    "sbh:32": {
         "unclear": [
             "ndriyaḥ pudgalaḥ",
             "|",
@@ -268,18 +270,18 @@
             "|"
         ]
     },
-    "sbh:34": {
+    "sbh:33": {
         "unclear": [
             "rāgacaritaḥ pudgalaḥ"
         ]
     },
-    "sbh:35": {
+    "sbh:34": {
         "unclear": [
             "pra"
         ]
     },
-    "sbh:36": {},
-    "sbh:37": {
+    "sbh:35": {},
+    "sbh:36": {
         "unclear": [
             "mithyāpratipannāśca pudgalāḥ katame | akṣaṇo",
             "ḥ"
@@ -288,7 +290,7 @@
             "pannā anāvṛtā"
         ]
     },
-    "sbh:38": {
+    "sbh:37": {
         "supplied": [
             "|"
         ],
@@ -302,48 +304,48 @@
             "............................."
         ]
     },
-    "sbh:39": {},
-    "sbh:40": {
+    "sbh:38": {},
+    "sbh:39": {
         "gap": [
             "..........."
         ]
     },
-    "sbh:41": {
+    "sbh:40": {
         "supplied": [
             "naṁ",
             "bhi",
             "yī"
         ]
     },
-    "sbh:42": {
+    "sbh:41": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:43": {
+    "sbh:42": {
         "supplied": [
             "kaṁ vā",
             "yai"
         ]
     },
-    "sbh:44": {
+    "sbh:43": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:45": {
+    "sbh:44": {
         "gap": [
             "yī"
         ]
     },
-    "sbh:46": {
+    "sbh:45": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:47": {
+    "sbh:46": {
         "unclear": [
             "a",
             "a",
@@ -353,12 +355,12 @@
             "ttvaṁ"
         ]
     },
-    "sbh:48": {
+    "sbh:47": {
         "supplied": [
             "ttvaṁ"
         ]
     },
-    "sbh:49": {
+    "sbh:48": {
         "unclear": [
             "ḥ"
         ],
@@ -366,7 +368,7 @@
             "niṣṭhayā"
         ]
     },
-    "sbh:50": {
+    "sbh:49": {
         "unclear": [
             "|",
             "sa",
@@ -378,7 +380,7 @@
             "smin"
         ]
     },
-    "sbh:51": {
+    "sbh:50": {
         "unclear": [
             "a",
             "a",
@@ -394,18 +396,18 @@
             "nde"
         ]
     },
-    "sbh:52": {
+    "sbh:51": {
         "supplied": [
             "lo"
         ]
     },
-    "sbh:53": {},
-    "sbh:54": {
+    "sbh:52": {},
+    "sbh:53": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:55": {
+    "sbh:54": {
         "unclear": [
             "ḥ",
             "dīni"
@@ -414,31 +416,31 @@
             "pudgalasya"
         ]
     },
-    "sbh:56": {
+    "sbh:55": {
         "supplied": [
             "mu"
         ]
     },
-    "sbh:57": {
+    "sbh:56": {
         "supplied": [
             "ccha"
         ]
     },
-    "sbh:58": {
+    "sbh:57": {
         "unclear": [
             "rvasa",
             "|"
         ]
     },
-    "sbh:59": {
+    "sbh:58": {
         "unclear": [
             "ska",
             "|"
         ]
     },
+    "sbh:59": {},
     "sbh:60": {},
-    "sbh:61": {},
-    "sbh:62": {
+    "sbh:61": {
         "supplied": [
             "cchi"
         ],
@@ -449,24 +451,23 @@
             "||"
         ]
     },
-    "sbh:63": {
+    "sbh:62": {
         "unclear": [
             "|",
             "a",
             "|"
         ]
     },
+    "sbh:63": {},
     "sbh:64": {},
     "sbh:65": {},
-    "sbh:66": {},
-    "sbh:67": {},
-    "sbh:68": {
+    "sbh:66": {
         "unclear": [
             "va"
         ]
     },
-    "sbh:69": {},
-    "sbh:70": {
+    "sbh:67": {},
+    "sbh:68": {
         "unclear": [
             "|"
         ],
@@ -474,13 +475,13 @@
             "yaśca"
         ]
     },
-    "sbh:71": {
+    "sbh:69": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:72": {},
-    "sbh:73": {
+    "sbh:70": {},
+    "sbh:71": {
         "supplied": [
             "ātmasampat",
             "lo",
@@ -493,7 +494,7 @@
             "gama"
         ]
     },
-    "sbh:74": {
+    "sbh:72": {
         "unclear": [
             "|",
             "|",
@@ -504,13 +505,13 @@
             "cchi"
         ]
     },
-    "sbh:75": {},
-    "sbh:76": {
+    "sbh:73": {},
+    "sbh:74": {
         "supplied": [
             "yaṁ"
         ]
     },
-    "sbh:77": {
+    "sbh:75": {
         "supplied": [
             "ko",
             "caṁkramate"
@@ -522,7 +523,7 @@
             "a"
         ]
     },
-    "sbh:78": {
+    "sbh:76": {
         "supplied": [
             "rja",
             "bhi"
@@ -531,7 +532,7 @@
             "vinayaśikṣitānā"
         ]
     },
-    "sbh:79": {
+    "sbh:77": {
         "unclear": [
             "|",
             "|",
@@ -548,7 +549,7 @@
             "ro"
         ]
     },
-    "sbh:80": {
+    "sbh:78": {
         "supplied": [
             "|",
             "veśyā-"
@@ -557,12 +558,12 @@
             "|"
         ]
     },
-    "sbh:81": {
+    "sbh:79": {
         "supplied": [
             "nu"
         ]
     },
-    "sbh:82": {
+    "sbh:80": {
         "supplied": [
             "so ’ha",
             "nu",
@@ -576,7 +577,7 @@
             "|"
         ]
     },
-    "sbh:83": {
+    "sbh:81": {
         "unclear": [
             "|",
             "ṣu guru"
@@ -587,7 +588,7 @@
             "ṇām"
         ]
     },
-    "sbh:84": {
+    "sbh:82": {
         "supplied": [
             "manāṁsi",
             "ānuśaṁsā",
@@ -604,16 +605,16 @@
             "va"
         ]
     },
-    "sbh:85": {
+    "sbh:83": {
         "unclear": [
             "|",
             "|",
             "|"
         ]
     },
-    "sbh:86": {},
-    "sbh:87": {},
-    "sbh:88": {
+    "sbh:84": {},
+    "sbh:85": {},
+    "sbh:86": {
         "supplied": [
             "ā",
             "durgṛhītaṁ"
@@ -622,7 +623,7 @@
             "ḥ |"
         ]
     },
-    "sbh:89": {
+    "sbh:87": {
         "supplied": [
             "naṁ",
             "naṁ"
@@ -631,7 +632,7 @@
             "a"
         ]
     },
-    "sbh:90": {
+    "sbh:88": {
         "supplied": [
             "taṁ",
             "bhavati"
@@ -640,7 +641,7 @@
             "|"
         ]
     },
-    "sbh:91": {
+    "sbh:89": {
         "unclear": [
             "a",
             "|",
@@ -650,9 +651,9 @@
             "vyāpṛtyaivaṁ"
         ]
     },
-    "sbh:92": {},
-    "sbh:93": {},
-    "sbh:94": {
+    "sbh:90": {},
+    "sbh:91": {},
+    "sbh:92": {
         "unclear": [
             "|",
             "a",
@@ -673,7 +674,7 @@
             "mana āpa"
         ]
     },
-    "sbh:95": {
+    "sbh:93": {
         "unclear": [
             "a",
             "|",
@@ -685,17 +686,17 @@
             "va"
         ]
     },
-    "sbh:96": {
+    "sbh:94": {
         "supplied": [
             "kṣi"
         ]
     },
-    "sbh:97": {
+    "sbh:95": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:98": {
+    "sbh:96": {
         "supplied": [
             "nnaṁ"
         ],
@@ -703,7 +704,7 @@
             "|"
         ]
     },
-    "sbh:99": {
+    "sbh:97": {
         "unclear": [
             "|",
             "|"
@@ -712,13 +713,13 @@
             "ta"
         ]
     },
-    "sbh:100": {
+    "sbh:98": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:101": {},
-    "sbh:102": {
+    "sbh:99": {},
+    "sbh:100": {
         "supplied": [
             "ta"
         ],
@@ -726,37 +727,37 @@
             "|"
         ]
     },
-    "sbh:103": {
+    "sbh:101": {
         "unclear": [
             "śuddhānā",
             "stṛṇagu"
         ]
     },
-    "sbh:104": {
+    "sbh:102": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:105": {},
-    "sbh:106": {
+    "sbh:103": {},
+    "sbh:104": {
         "supplied": [
             "ṇaṁ"
         ]
     },
-    "sbh:107": {},
-    "sbh:108": {
+    "sbh:105": {},
+    "sbh:106": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:109": {
+    "sbh:107": {
         "unclear": [
             "tatra ca punaretāni",
             "ḥ"
         ]
     },
-    "sbh:110": {
+    "sbh:108": {
         "unclear": [
             "maku",
             "rāgodayaṁ, rāgavipākaṁ, sa cetsa evaṁ pratyavekṣamāṇo na ca",
@@ -777,18 +778,18 @@
             "|"
         ]
     },
+    "sbh:109": {},
+    "sbh:110": {},
     "sbh:111": {},
     "sbh:112": {},
-    "sbh:113": {},
-    "sbh:114": {},
-    "sbh:115": {
+    "sbh:113": {
         "unclear": [
             "kṣaṇā",
             "|",
             "|"
         ]
     },
-    "sbh:116": {
+    "sbh:114": {
         "supplied": [
             "śaṁsā",
             "vān",
@@ -810,7 +811,7 @@
             "......"
         ]
     },
-    "sbh:117": {
+    "sbh:115": {
         "unclear": [
             "ḥ"
         ],
@@ -818,12 +819,12 @@
             "śaṁsaḥ"
         ]
     },
-    "sbh:118": {
+    "sbh:116": {
         "supplied": [
             "śaṁsaḥ"
         ]
     },
-    "sbh:119": {
+    "sbh:117": {
         "supplied": [
             "vān",
             "śaṁsaḥ"
@@ -832,7 +833,7 @@
             "a"
         ]
     },
-    "sbh:120": {
+    "sbh:118": {
         "unclear": [
             "|"
         ],
@@ -840,7 +841,7 @@
             "śaṁsaḥ"
         ]
     },
-    "sbh:121": {
+    "sbh:119": {
         "supplied": [
             "vān",
             "te"
@@ -850,7 +851,7 @@
             "|"
         ]
     },
-    "sbh:122": {
+    "sbh:120": {
         "unclear": [
             "a",
             "|"
@@ -859,7 +860,7 @@
             "śaṁsaḥ"
         ]
     },
-    "sbh:123": {
+    "sbh:121": {
         "supplied": [
             "labhate",
             "ka",
@@ -869,7 +870,7 @@
             "|"
         ]
     },
-    "sbh:124": {
+    "sbh:122": {
         "supplied": [
             "cāturmahārājikāṇāṁ vā",
             "tra",
@@ -888,30 +889,29 @@
             "............"
         ]
     },
-    "sbh:125": {
+    "sbh:123": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:126": {
+    "sbh:124": {
         "supplied": [
             "to"
         ]
     },
-    "sbh:127": {},
-    "sbh:128": {},
-    "sbh:129": {},
-    "sbh:130": {
+    "sbh:125": {},
+    "sbh:126": {},
+    "sbh:127": {
         "supplied": [
             "śaṁso"
         ]
     },
-    "sbh:131": {
+    "sbh:128": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:132": {
+    "sbh:129": {
         "unclear": [
             "ḥ"
         ],
@@ -919,12 +919,12 @@
             "gatā"
         ]
     },
-    "sbh:133": {
+    "sbh:130": {
         "unclear": [
             "niryāṇakārī ca bhavati"
         ]
     },
-    "sbh:134": {
+    "sbh:131": {
         "unclear": [
             "jñānaṁ, ca",
             "|"
@@ -933,12 +933,12 @@
             "tā"
         ]
     },
-    "sbh:135": {
+    "sbh:132": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:136": {
+    "sbh:133": {
         "unclear": [
             "a",
             "a",
@@ -950,7 +950,7 @@
             "ye"
         ]
     },
-    "sbh:137": {
+    "sbh:134": {
         "unclear": [
             "|",
             "|",
@@ -961,7 +961,7 @@
             "yān"
         ]
     },
-    "sbh:138": {
+    "sbh:135": {
         "unclear": [
             "|",
             "r",
@@ -972,7 +972,7 @@
             "ca"
         ]
     },
-    "sbh:139": {
+    "sbh:136": {
         "unclear": [
             "|",
             "|",
@@ -985,13 +985,13 @@
             "a"
         ]
     },
-    "sbh:140": {
+    "sbh:137": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:141": {
+    "sbh:138": {
         "unclear": [
             "ḥ",
             "s"
@@ -1000,7 +1000,7 @@
             "te"
         ]
     },
-    "sbh:142": {
+    "sbh:139": {
         "unclear": [
             "a",
             "|",
@@ -1011,26 +1011,26 @@
             "tān"
         ]
     },
-    "sbh:143": {
+    "sbh:140": {
         "unclear": [
             "indriyaṁ",
             "rmeṣu",
             "ḥ"
         ]
     },
-    "sbh:144": {},
-    "sbh:145": {
+    "sbh:141": {},
+    "sbh:142": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:146": {
+    "sbh:143": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:147": {
+    "sbh:144": {
         "unclear": [
             "a"
         ],
@@ -1038,18 +1038,18 @@
             "saṁvṛṇoti"
         ]
     },
-    "sbh:148": {
+    "sbh:145": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:149": {},
-    "sbh:150": {
+    "sbh:146": {},
+    "sbh:147": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:151": {
+    "sbh:148": {
         "supplied": [
             "saṁvaropāyaḥ"
         ],
@@ -1058,22 +1058,22 @@
             "a"
         ]
     },
-    "sbh:152": {
+    "sbh:149": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:153": {
+    "sbh:150": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:154": {
+    "sbh:151": {
         "unclear": [
             "to bhāvanābalaṁsaṁgṛhī"
         ]
     },
-    "sbh:155": {
+    "sbh:152": {
         "unclear": [
             "bhā",
             "jahā",
@@ -1087,14 +1087,14 @@
             "śra"
         ]
     },
-    "sbh:156": {},
-    "sbh:157": {
+    "sbh:153": {},
+    "sbh:154": {
         "supplied": [
             "vidūṣyā"
         ]
     },
-    "sbh:158": {},
-    "sbh:159": {
+    "sbh:155": {},
+    "sbh:156": {
         "supplied": [
             "katamaḥ",
             "na āpatā",
@@ -1106,7 +1106,7 @@
             "|"
         ]
     },
-    "sbh:160": {
+    "sbh:157": {
         "unclear": [
             "ṣṭava"
         ],
@@ -1114,7 +1114,7 @@
             "māṁsa"
         ]
     },
-    "sbh:161": {
+    "sbh:158": {
         "supplied": [
             "tau",
             "dau",
@@ -1130,7 +1130,7 @@
             "a"
         ]
     },
-    "sbh:162": {
+    "sbh:159": {
         "supplied": [
             "nva"
         ],
@@ -1139,7 +1139,7 @@
             "ḥ"
         ]
     },
-    "sbh:163": {
+    "sbh:160": {
         "unclear": [
             "|",
             "|",
@@ -1158,7 +1158,7 @@
             "yaṁ samu"
         ]
     },
-    "sbh:164": {
+    "sbh:161": {
         "supplied": [
             "hi",
             "yā"
@@ -1167,7 +1167,7 @@
             "da"
         ]
     },
-    "sbh:165": {
+    "sbh:162": {
         "unclear": [
             "ḥ",
             "|"
@@ -1178,7 +1178,7 @@
             "|"
         ]
     },
-    "sbh:166": {
+    "sbh:163": {
         "supplied": [
             "kṣatriyā",
             "ḥ",
@@ -1189,7 +1189,7 @@
             "a"
         ]
     },
-    "sbh:167": {
+    "sbh:164": {
         "supplied": [
             "nte",
             "tai",
@@ -1198,7 +1198,7 @@
             "vi"
         ]
     },
-    "sbh:168": {
+    "sbh:165": {
         "unclear": [
             "katamo",
             "|",
@@ -1217,7 +1217,7 @@
             "dhya"
         ]
     },
-    "sbh:169": {
+    "sbh:166": {
         "unclear": [
             "ḥ",
             "a",
@@ -1234,7 +1234,7 @@
             "śaṁsa"
         ]
     },
-    "sbh:170": {
+    "sbh:167": {
         "unclear": [
             "a",
             "ḥ",
@@ -1256,7 +1256,7 @@
             "mān"
         ]
     },
-    "sbh:171": {
+    "sbh:168": {
         "supplied": [
             "māṁsa",
             "|",
@@ -1281,19 +1281,19 @@
             "rākā"
         ]
     },
-    "sbh:172": {
+    "sbh:169": {
         "unclear": [
             "|",
             "|",
             "a"
         ]
     },
-    "sbh:173": {
+    "sbh:170": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:174": {
+    "sbh:171": {
         "supplied": [
             "ye caite",
             "ya āharanti",
@@ -1307,7 +1307,7 @@
             "a"
         ]
     },
-    "sbh:175": {
+    "sbh:172": {
         "unclear": [
             "ḥ",
             "|",
@@ -1328,7 +1328,7 @@
             "kṣa"
         ]
     },
-    "sbh:176": {
+    "sbh:173": {
         "supplied": [
             "keśāṁśca",
             "-manulipya"
@@ -1337,7 +1337,7 @@
             "kāraiḥ"
         ]
     },
-    "sbh:177": {
+    "sbh:174": {
         "unclear": [
             "to ’ta",
             "|"
@@ -1347,7 +1347,7 @@
             "nto"
         ]
     },
-    "sbh:178": {
+    "sbh:175": {
         "unclear": [
             "a"
         ],
@@ -1355,7 +1355,7 @@
             "ha"
         ]
     },
-    "sbh:179": {
+    "sbh:176": {
         "unclear": [
             "|",
             "|",
@@ -1366,7 +1366,7 @@
             "paryavanahyatīya"
         ]
     },
-    "sbh:180": {
+    "sbh:177": {
         "unclear": [
             "|",
             "a",
@@ -1377,7 +1377,7 @@
             "hya"
         ]
     },
-    "sbh:181": {
+    "sbh:178": {
         "unclear": [
             "|",
             "|",
@@ -1387,12 +1387,12 @@
             "|"
         ]
     },
-    "sbh:182": {
+    "sbh:179": {
         "unclear": [
             "hāra"
         ]
     },
-    "sbh:183": {
+    "sbh:180": {
         "unclear": [
             "|",
             "|"
@@ -1401,12 +1401,12 @@
             "ti"
         ]
     },
-    "sbh:184": {
+    "sbh:181": {
         "supplied": [
             "hya"
         ]
     },
-    "sbh:185": {
+    "sbh:182": {
         "supplied": [
             "pathyaṁ vā",
             "taṁ",
@@ -1427,7 +1427,7 @@
             "ḥ"
         ]
     },
-    "sbh:186": {
+    "sbh:183": {
         "supplied": [
             "tā",
             "ma",
@@ -1435,7 +1435,7 @@
             "paryeṣyāraktaḥ"
         ]
     },
-    "sbh:187": {
+    "sbh:184": {
         "unclear": [
             "ḥ",
             "|",
@@ -1445,8 +1445,8 @@
             "yañca"
         ]
     },
-    "sbh:188": {},
-    "sbh:189": {
+    "sbh:185": {},
+    "sbh:186": {
         "supplied": [
             "ḥ",
             "vi"
@@ -1455,14 +1455,14 @@
             "|"
         ]
     },
-    "sbh:190": {},
-    "sbh:191": {
+    "sbh:187": {},
+    "sbh:188": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:192": {},
-    "sbh:193": {
+    "sbh:189": {},
+    "sbh:190": {
         "unclear": [
             "|",
             "sama"
@@ -1474,7 +1474,7 @@
             "na"
         ]
     },
-    "sbh:194": {
+    "sbh:191": {
         "supplied": [
             "bhu",
             "|"
@@ -1484,7 +1484,7 @@
             "|"
         ]
     },
-    "sbh:195": {
+    "sbh:192": {
         "supplied": [
             "yattā",
             "bhū",
@@ -1492,7 +1492,7 @@
             "ca"
         ]
     },
-    "sbh:196": {
+    "sbh:193": {
         "supplied": [
             "punaratiprabhūtabhojanaṁ",
             "|",
@@ -1512,7 +1512,7 @@
             "a"
         ]
     },
-    "sbh:197": {
+    "sbh:194": {
         "supplied": [
             "-mat pūrvarātram",
             "mada",
@@ -1530,7 +1530,7 @@
             "r"
         ]
     },
-    "sbh:198": {
+    "sbh:195": {
         "supplied": [
             "rya",
             "āyatanāni",
@@ -1547,7 +1547,7 @@
             "|"
         ]
     },
-    "sbh:199": {
+    "sbh:196": {
         "unclear": [
             "|",
             "|",
@@ -1562,7 +1562,7 @@
             "|"
         ]
     },
-    "sbh:200": {
+    "sbh:197": {
         "unclear": [
             "cittaṁ",
             "|",
@@ -1580,18 +1580,18 @@
             "tān"
         ]
     },
-    "sbh:201": {
+    "sbh:198": {
         "supplied": [
             "smṛtvopa-",
             "smṛtvā"
         ]
     },
-    "sbh:202": {
+    "sbh:199": {
         "supplied": [
             "saṁviśodhayati"
         ]
     },
-    "sbh:203": {
+    "sbh:200": {
         "unclear": [
             "a",
             "a",
@@ -1611,14 +1611,14 @@
             "va"
         ]
     },
-    "sbh:204": {
+    "sbh:201": {
         "unclear": [
             "a",
             "|"
         ]
     },
-    "sbh:205": {},
-    "sbh:206": {
+    "sbh:202": {},
+    "sbh:203": {
         "supplied": [
             "ccha"
         ],
@@ -1626,18 +1626,18 @@
             "c"
         ]
     },
-    "sbh:207": {
+    "sbh:204": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:208": {
+    "sbh:205": {
         "supplied": [
             "ti"
         ]
     },
-    "sbh:209": {
+    "sbh:206": {
         "supplied": [
             "sya",
             "yau"
@@ -1650,7 +1650,7 @@
             "ka"
         ]
     },
-    "sbh:210": {
+    "sbh:207": {
         "unclear": [
             "|",
             "|",
@@ -1663,12 +1663,12 @@
             "pnān"
         ]
     },
-    "sbh:211": {
+    "sbh:208": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:212": {
+    "sbh:209": {
         "unclear": [
             "ḥ",
             "ḥ",
@@ -1679,7 +1679,7 @@
             "ye"
         ]
     },
-    "sbh:213": {
+    "sbh:210": {
         "supplied": [
             "jānan",
             "nan"
@@ -1688,7 +1688,7 @@
             "a"
         ]
     },
-    "sbh:214": {
+    "sbh:211": {
         "supplied": [
             "suhṛṣṭacitta",
             "bhā",
@@ -1703,7 +1703,7 @@
             "haśa"
         ]
     },
-    "sbh:215": {
+    "sbh:212": {
         "unclear": [
             "a",
             "n",
@@ -1718,7 +1718,7 @@
             "vyā"
         ]
     },
-    "sbh:216": {
+    "sbh:213": {
         "supplied": [
             "gati",
             "ti"
@@ -1728,7 +1728,7 @@
             "|"
         ]
     },
-    "sbh:217": {
+    "sbh:214": {
         "unclear": [
             "|",
             "ka",
@@ -1745,7 +1745,7 @@
             "rthaḥ"
         ]
     },
-    "sbh:218": {
+    "sbh:215": {
         "supplied": [
             "sāmmiñjita"
         ],
@@ -1753,20 +1753,20 @@
             "la"
         ]
     },
-    "sbh:219": {
+    "sbh:216": {
         "unclear": [
             "a",
             "katamā"
         ]
     },
-    "sbh:220": {
+    "sbh:217": {
         "unclear": [
             "|",
             "kulāntaramvā, vihāramvā",
             "|"
         ]
     },
-    "sbh:221": {
+    "sbh:218": {
         "supplied": [
             "grāmādvā"
         ],
@@ -1774,7 +1774,7 @@
             "|"
         ]
     },
-    "sbh:222": {
+    "sbh:219": {
         "supplied": [
             "yāḥ",
             "ṇo",
@@ -1787,7 +1787,7 @@
             "ca"
         ]
     },
-    "sbh:223": {
+    "sbh:220": {
         "supplied": [
             "tā"
         ],
@@ -1796,14 +1796,14 @@
             "ntare"
         ]
     },
-    "sbh:224": {
+    "sbh:221": {
         "supplied": [
             "jñāṁ",
             "jā",
             "prā"
         ]
     },
-    "sbh:225": {
+    "sbh:222": {
         "supplied": [
             "kayi"
         ],
@@ -1813,7 +1813,7 @@
             "|"
         ]
     },
-    "sbh:226": {
+    "sbh:223": {
         "supplied": [
             "sammiñji",
             "sammiñji",
@@ -1833,7 +1833,7 @@
             "|"
         ]
     },
-    "sbh:227": {
+    "sbh:224": {
         "supplied": [
             "sammiñja",
             "yan",
@@ -1846,14 +1846,14 @@
             "sammiñji"
         ]
     },
-    "sbh:228": {
+    "sbh:225": {
         "supplied": [
             "mat",
             "saṁ",
             "ṇe"
         ]
     },
-    "sbh:229": {
+    "sbh:226": {
         "supplied": [
             "khaṇḍaṁ vā",
             "khaṇḍaṁ vā",
@@ -1863,7 +1863,7 @@
             "|"
         ]
     },
-    "sbh:230": {
+    "sbh:227": {
         "unclear": [
             "varaṁ"
         ],
@@ -1871,7 +1871,7 @@
             "rmā"
         ]
     },
-    "sbh:231": {
+    "sbh:228": {
         "supplied": [
             "saṁ",
             "saṁ",
@@ -1882,13 +1882,13 @@
             "saṁ"
         ]
     },
-    "sbh:232": {
+    "sbh:229": {
         "unclear": [
             "ṣu",
             "a"
         ]
     },
-    "sbh:233": {
+    "sbh:230": {
         "supplied": [
             "phā",
             "māṁsaṁ",
@@ -1896,7 +1896,7 @@
             "pī"
         ]
     },
-    "sbh:234": {
+    "sbh:231": {
         "supplied": [
             "so",
             "so vā"
@@ -1905,7 +1905,7 @@
             "|"
         ]
     },
-    "sbh:235": {
+    "sbh:232": {
         "supplied": [
             "dayi",
             "dayi",
@@ -1916,7 +1916,7 @@
             "|"
         ]
     },
-    "sbh:236": {
+    "sbh:233": {
         "supplied": [
             "aśan",
             "piban",
@@ -1931,7 +1931,7 @@
             "||"
         ]
     },
-    "sbh:237": {
+    "sbh:234": {
         "supplied": [
             "mastū",
             "mate",
@@ -1944,12 +1944,12 @@
             "|"
         ]
     },
-    "sbh:238": {
+    "sbh:235": {
         "unclear": [
             "ti vi"
         ]
     },
-    "sbh:239": {
+    "sbh:236": {
         "unclear": [
             "vā",
             "a",
@@ -1958,12 +1958,12 @@
             "|"
         ]
     },
-    "sbh:240": {
+    "sbh:237": {
         "supplied": [
             "tā"
         ]
     },
-    "sbh:241": {
+    "sbh:238": {
         "supplied": [
             "yathā"
         ],
@@ -1971,7 +1971,7 @@
             "|"
         ]
     },
-    "sbh:242": {
+    "sbh:239": {
         "supplied": [
             "maṁ",
             "gacchāmi",
@@ -1982,7 +1982,7 @@
             "|"
         ]
     },
-    "sbh:243": {
+    "sbh:240": {
         "unclear": [
             "ḥ",
             "ni",
@@ -1991,7 +1991,7 @@
             "|"
         ]
     },
-    "sbh:244": {
+    "sbh:241": {
         "supplied": [
             "|",
             "ṣaḥ",
@@ -2007,7 +2007,7 @@
             "|"
         ]
     },
-    "sbh:245": {
+    "sbh:242": {
         "unclear": [
             "punā",
             "|",
@@ -2016,7 +2016,7 @@
             "|"
         ]
     },
-    "sbh:246": {
+    "sbh:243": {
         "supplied": [
             "bhā",
             "ṇḍū",
@@ -2061,7 +2061,7 @@
             "bhā"
         ]
     },
-    "sbh:247": {
+    "sbh:244": {
         "unclear": [
             "nā",
             "ḥ",
@@ -2078,7 +2078,7 @@
             "dha"
         ]
     },
-    "sbh:248": {
+    "sbh:245": {
         "unclear": [
             "ḥ"
         ],
@@ -2086,7 +2086,7 @@
             "viddhāḥ"
         ]
     },
-    "sbh:249": {
+    "sbh:246": {
         "unclear": [
             "|",
             "|",
@@ -2097,7 +2097,7 @@
             "|"
         ]
     },
-    "sbh:250": {
+    "sbh:247": {
         "supplied": [
             "ra"
         ],
@@ -2105,7 +2105,7 @@
             "|"
         ]
     },
-    "sbh:251": {
+    "sbh:248": {
         "unclear": [
             "anena dānapratyarthādāna<span class='supplied'>pratyādāna",
             "a",
@@ -2120,13 +2120,13 @@
             "nāṁ"
         ]
     },
-    "sbh:252": {
+    "sbh:249": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:253": {
+    "sbh:250": {
         "supplied": [
             "ryayā",
             "valgunyā, vispa",
@@ -2136,12 +2136,12 @@
             "|"
         ]
     },
-    "sbh:254": {
+    "sbh:251": {
         "unclear": [
             "||"
         ]
     },
-    "sbh:255": {
+    "sbh:252": {
         "supplied": [
             "na"
         ],
@@ -2149,7 +2149,7 @@
             "|"
         ]
     },
-    "sbh:256": {
+    "sbh:253": {
         "supplied": [
             "vā"
         ],
@@ -2157,13 +2157,13 @@
             "|"
         ]
     },
-    "sbh:257": {},
-    "sbh:258": {
+    "sbh:254": {},
+    "sbh:255": {
         "supplied": [
             "naṁ"
         ]
     },
-    "sbh:259": {
+    "sbh:256": {
         "supplied": [
             "arthaṁ",
             "cārthān",
@@ -2171,7 +2171,7 @@
             "kṛ"
         ]
     },
-    "sbh:260": {
+    "sbh:257": {
         "supplied": [
             "re",
             "māṁ"
@@ -2180,14 +2180,14 @@
             "tā  pra"
         ]
     },
-    "sbh:261": {
+    "sbh:258": {
         "supplied": [
             "rmā",
             "carite",
             "carite"
         ]
     },
-    "sbh:262": {
+    "sbh:259": {
         "gap": [
             "sattvasaṁkleśāya"
         ],
@@ -2197,7 +2197,7 @@
             "paṁsa"
         ]
     },
-    "sbh:263": {
+    "sbh:260": {
         "supplied": [
             "ḥ",
             "samanvāgato"
@@ -2207,7 +2207,7 @@
             "|"
         ]
     },
-    "sbh:264": {
+    "sbh:261": {
         "unclear": [
             "|",
             "|",
@@ -2219,8 +2219,8 @@
             "vyam"
         ]
     },
-    "sbh:265": {},
-    "sbh:266": {
+    "sbh:262": {},
+    "sbh:263": {
         "supplied": [
             "tāni tāni",
             "rdhi"
@@ -2231,12 +2231,12 @@
             "|"
         ]
     },
-    "sbh:267": {
+    "sbh:264": {
         "unclear": [
             "geyaṁ"
         ]
     },
-    "sbh:268": {
+    "sbh:265": {
         "supplied": [
             "yasmiñchrāvake",
             "tau"
@@ -2246,13 +2246,13 @@
             "|"
         ]
     },
-    "sbh:269": {},
-    "sbh:270": {
+    "sbh:266": {},
+    "sbh:267": {
         "supplied": [
             "kīrttya"
         ]
     },
-    "sbh:271": {
+    "sbh:268": {
         "supplied": [
             "kīrttya"
         ],
@@ -2261,30 +2261,30 @@
             "|"
         ]
     },
-    "sbh:272": {},
-    "sbh:273": {},
+    "sbh:269": {},
+    "sbh:270": {},
+    "sbh:271": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:272": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:273": {
+        "supplied": [
+            "rī"
+        ]
+    },
     "sbh:274": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:275": {
-        "unclear": [
-            "|"
-        ]
-    },
+    "sbh:275": {},
     "sbh:276": {
-        "supplied": [
-            "rī"
-        ]
-    },
-    "sbh:277": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:278": {},
-    "sbh:279": {
         "unclear": [
             "gaṁ śru",
             "|"
@@ -2293,12 +2293,12 @@
             "va"
         ]
     },
-    "sbh:280": {
+    "sbh:277": {
         "supplied": [
             "ttvā"
         ]
     },
-    "sbh:281": {
+    "sbh:278": {
         "supplied": [
             "rā"
         ],
@@ -2308,20 +2308,20 @@
             "gaṇanāṁ"
         ]
     },
-    "sbh:282": {},
-    "sbh:283": {
+    "sbh:279": {},
+    "sbh:280": {
         "supplied": [
             "kṣā"
         ]
     },
-    "sbh:284": {
+    "sbh:281": {
         "unclear": [
             "ta",
             "ḥ",
             "a"
         ]
     },
-    "sbh:285": {
+    "sbh:282": {
         "unclear": [
             "|",
             "ḥ",
@@ -2333,7 +2333,7 @@
             "ta"
         ]
     },
-    "sbh:286": {
+    "sbh:283": {
         "unclear": [
             "ḥ",
             "ḥ",
@@ -2344,12 +2344,12 @@
             "|"
         ]
     },
-    "sbh:287": {
+    "sbh:284": {
         "unclear": [
             "n"
         ]
     },
-    "sbh:288": {
+    "sbh:285": {
         "unclear": [
             "|",
             "|",
@@ -2359,7 +2359,7 @@
             "yaṁ"
         ]
     },
-    "sbh:289": {
+    "sbh:286": {
         "supplied": [
             "kānāṁ, keṣu",
             "reṣu",
@@ -2371,7 +2371,7 @@
             "maḥ"
         ]
     },
-    "sbh:290": {
+    "sbh:287": {
         "unclear": [
             "|",
             "|",
@@ -2384,14 +2384,14 @@
             "gaḥ"
         ]
     },
-    "sbh:291": {
+    "sbh:288": {
         "unclear": [
             "a",
             "ḥ",
             "ḥ"
         ]
     },
-    "sbh:292": {
+    "sbh:289": {
         "unclear": [
             "hitena",
             "|",
@@ -2402,7 +2402,7 @@
             "ṣma vā"
         ]
     },
-    "sbh:293": {
+    "sbh:290": {
         "unclear": [
             "|",
             "|",
@@ -2418,14 +2418,14 @@
             "ima evaṁ bhāgīyā"
         ]
     },
-    "sbh:294": {},
-    "sbh:295": {
+    "sbh:291": {},
+    "sbh:292": {
         "supplied": [
             "paṁsa",
             "paṁsa"
         ]
     },
-    "sbh:296": {
+    "sbh:293": {
         "unclear": [
             "|",
             "|"
@@ -2434,12 +2434,12 @@
             "nayā"
         ]
     },
-    "sbh:297": {
+    "sbh:294": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:298": {
+    "sbh:295": {
         "unclear": [
             "na",
             "yā",
@@ -2450,25 +2450,25 @@
             "cara"
         ]
     },
-    "sbh:299": {},
-    "sbh:300": {
+    "sbh:296": {},
+    "sbh:297": {
         "unclear": [
             "kasmai dadāti kutra dadāti",
             "na"
         ]
     },
-    "sbh:301": {
+    "sbh:298": {
         "supplied": [
             "pa"
         ]
     },
-    "sbh:302": {
+    "sbh:299": {
         "unclear": [
             "a",
             "ḥ |"
         ]
     },
-    "sbh:303": {
+    "sbh:300": {
         "supplied": [
             "rau",
             "kau",
@@ -2478,14 +2478,14 @@
             "a"
         ]
     },
-    "sbh:304": {
+    "sbh:301": {
         "unclear": [
             "|",
             "ḥ",
             "a"
         ]
     },
-    "sbh:305": {
+    "sbh:302": {
         "unclear": [
             "|",
             "ḥ",
@@ -2495,12 +2495,12 @@
             "ma"
         ]
     },
-    "sbh:306": {
+    "sbh:303": {
         "supplied": [
             "ttva"
         ]
     },
-    "sbh:307": {
+    "sbh:304": {
         "unclear": [
             "ruṣe"
         ],
@@ -2513,31 +2513,31 @@
             "ttva"
         ]
     },
-    "sbh:308": {},
-    "sbh:309": {
+    "sbh:305": {},
+    "sbh:306": {
         "supplied": [
             "lā"
         ]
     },
-    "sbh:310": {
+    "sbh:307": {
         "supplied": [
             "so vā",
             "so vā"
         ]
     },
-    "sbh:311": {},
-    "sbh:312": {
+    "sbh:308": {},
+    "sbh:309": {
         "supplied": [
             "sattva"
         ]
     },
-    "sbh:313": {
+    "sbh:310": {
         "unclear": [
             "śa",
             "|"
         ]
     },
-    "sbh:314": {
+    "sbh:311": {
         "supplied": [
             "hastābhyāṁ",
             "samudānīya",
@@ -2549,7 +2549,7 @@
             "yanmalaṁ"
         ]
     },
-    "sbh:315": {
+    "sbh:312": {
         "supplied": [
             "tayā"
         ],
@@ -2557,8 +2557,8 @@
             "|"
         ]
     },
-    "sbh:316": {},
-    "sbh:317": {
+    "sbh:313": {},
+    "sbh:314": {
         "unclear": [
             "|",
             "vīrya",
@@ -2569,13 +2569,13 @@
             "su"
         ]
     },
-    "sbh:318": {
+    "sbh:315": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:319": {},
-    "sbh:320": {
+    "sbh:316": {},
+    "sbh:317": {
         "supplied": [
             "dha"
         ],
@@ -2583,17 +2583,17 @@
             "ni"
         ]
     },
-    "sbh:321": {
+    "sbh:318": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:322": {
+    "sbh:319": {
         "unclear": [
             "ndriyaḥ"
         ]
     },
-    "sbh:323": {
+    "sbh:320": {
         "supplied": [
             "cci",
             "nmāṁ"
@@ -2602,12 +2602,12 @@
             "ṁ"
         ]
     },
-    "sbh:324": {
+    "sbh:321": {
         "supplied": [
             "taḥ"
         ]
     },
-    "sbh:325": {
+    "sbh:322": {
         "unclear": [
             "a"
         ],
@@ -2617,8 +2617,8 @@
             "n | ra"
         ]
     },
-    "sbh:326": {},
-    "sbh:327": {
+    "sbh:323": {},
+    "sbh:324": {
         "supplied": [
             "pāṁsu",
             "śa"
@@ -2629,7 +2629,7 @@
             "|"
         ]
     },
-    "sbh:328": {
+    "sbh:325": {
         "unclear": [
             "ta",
             "a",
@@ -2641,8 +2641,8 @@
             "ḥ"
         ]
     },
-    "sbh:329": {},
-    "sbh:330": {
+    "sbh:326": {},
+    "sbh:327": {
         "supplied": [
             "n"
         ],
@@ -2650,12 +2650,12 @@
             "ri"
         ]
     },
-    "sbh:331": {
+    "sbh:328": {
         "unclear": [
             "cīva"
         ]
     },
-    "sbh:332": {
+    "sbh:329": {
         "supplied": [
             "nyat"
         ],
@@ -2663,7 +2663,7 @@
             "|"
         ]
     },
-    "sbh:333": {
+    "sbh:330": {
         "supplied": [
             "pāṁsu",
             "pāṁsu"
@@ -2672,14 +2672,14 @@
             "|"
         ]
     },
-    "sbh:334": {},
-    "sbh:335": {
+    "sbh:331": {},
+    "sbh:332": {
         "unclear": [
             "vṛkṣa",
             "|"
         ]
     },
-    "sbh:336": {
+    "sbh:333": {
         "supplied": [
             "de"
         ],
@@ -2687,20 +2687,20 @@
             "|"
         ]
     },
-    "sbh:337": {},
-    "sbh:338": {
+    "sbh:334": {},
+    "sbh:335": {
         "supplied": [
             "ma caṁ",
             "vṛkṣamūlaṁ",
             "pṛṣṭhaṁ vā"
         ]
     },
-    "sbh:339": {
+    "sbh:336": {
         "supplied": [
             "yā"
         ]
     },
-    "sbh:340": {
+    "sbh:337": {
         "unclear": [
             "cca ta",
             "|",
@@ -2713,7 +2713,7 @@
             "tūlābhinirhāre"
         ]
     },
-    "sbh:341": {
+    "sbh:338": {
         "supplied": [
             "pāṁsu"
         ],
@@ -2721,28 +2721,28 @@
             "na"
         ]
     },
-    "sbh:342": {
+    "sbh:339": {
         "supplied": [
             "bhi",
             "sāṁmiṁjita"
         ]
     },
-    "sbh:343": {
+    "sbh:340": {
         "unclear": [
             "heṇa"
         ]
     },
-    "sbh:344": {
+    "sbh:341": {
         "supplied": [
             "paṁsa"
         ]
     },
-    "sbh:345": {
+    "sbh:342": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:346": {
+    "sbh:343": {
         "unclear": [
             "ḥ"
         ],
@@ -2750,19 +2750,19 @@
             "ṇāṁ"
         ]
     },
-    "sbh:347": {
+    "sbh:344": {
         "supplied": [
             "sū",
             "saṁraṁjanīyairdharmaiḥ",
             "su"
         ]
     },
-    "sbh:348": {
+    "sbh:345": {
         "unclear": [
             "ḥ |"
         ]
     },
-    "sbh:349": {
+    "sbh:346": {
         "unclear": [
             "vādi",
             "|",
@@ -2783,31 +2783,30 @@
             "draṣṭāro"
         ]
     },
-    "sbh:350": {},
-    "sbh:351": {},
-    "sbh:352": {},
-    "sbh:353": {
+    "sbh:347": {},
+    "sbh:348": {},
+    "sbh:349": {
         "supplied": [
             "saddharmaśravaṇacintanā"
         ]
     },
-    "sbh:354": {},
-    "sbh:355": {
+    "sbh:350": {},
+    "sbh:351": {
         "unclear": [
             "||",
             "ḥ"
         ]
     },
-    "sbh:356": {},
-    "sbh:357": {},
-    "sbh:358": {},
-    "sbh:359": {
+    "sbh:352": {},
+    "sbh:353": {},
+    "sbh:354": {},
+    "sbh:355": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:360": {
+    "sbh:356": {
         "unclear": [
             "|",
             "|",
@@ -2820,19 +2819,19 @@
             "vi"
         ]
     },
-    "sbh:361": {},
-    "sbh:362": {
+    "sbh:357": {},
+    "sbh:358": {
         "supplied": [
             "na"
         ]
     },
-    "sbh:363": {},
-    "sbh:364": {
+    "sbh:359": {},
+    "sbh:360": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:365": {
+    "sbh:361": {
         "unclear": [
             "|"
         ],
@@ -2840,12 +2839,12 @@
             "mānanīye"
         ]
     },
-    "sbh:366": {
+    "sbh:362": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:367": {
+    "sbh:363": {
         "unclear": [
             "|",
             "vā vastuni",
@@ -2855,30 +2854,30 @@
             "mānanīye"
         ]
     },
-    "sbh:368": {
+    "sbh:364": {
         "supplied": [
             "ulva",
             "rko",
             "vyaḥ"
         ]
     },
-    "sbh:369": {
+    "sbh:365": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:370": {},
-    "sbh:371": {
+    "sbh:366": {},
+    "sbh:367": {
         "supplied": [
             "to ’va"
         ]
     },
-    "sbh:372": {
+    "sbh:368": {
         "supplied": [
             "yaḥ pu"
         ]
     },
-    "sbh:373": {
+    "sbh:369": {
         "unclear": [
             "bhāva"
         ],
@@ -2886,7 +2885,7 @@
             "spṛśati"
         ]
     },
-    "sbh:374": {
+    "sbh:370": {
         "unclear": [
             "|"
         ],
@@ -2894,19 +2893,19 @@
             "spṛśati"
         ]
     },
-    "sbh:375": {
+    "sbh:371": {
         "unclear": [
             "|",
             "bahulaṁ"
         ]
     },
-    "sbh:376": {},
-    "sbh:377": {
+    "sbh:372": {},
+    "sbh:373": {
         "supplied": [
             "caikā avaśiṣṭā"
         ]
     },
-    "sbh:378": {
+    "sbh:374": {
         "unclear": [
             "ḥ"
         ],
@@ -2917,27 +2916,27 @@
             "yī"
         ]
     },
-    "sbh:379": {},
-    "sbh:380": {},
-    "sbh:381": {},
-    "sbh:382": {
+    "sbh:375": {},
+    "sbh:376": {},
+    "sbh:377": {},
+    "sbh:378": {
         "supplied": [
             "nyā",
             "|"
         ]
     },
-    "sbh:383": {
+    "sbh:379": {
         "supplied": [
             "gotraḥ",
             "ṇā"
         ]
     },
-    "sbh:384": {
+    "sbh:380": {
         "unclear": [
             "ko"
         ]
     },
-    "sbh:385": {
+    "sbh:381": {
         "supplied": [
             "ktaḥ"
         ],
@@ -2945,35 +2944,35 @@
             "|"
         ]
     },
-    "sbh:386": {
+    "sbh:382": {
         "unclear": [
             "ubhayatobhāgavimuktaḥ pudgalaḥ",
             "yamucya"
         ]
     },
-    "sbh:387": {
+    "sbh:383": {
         "unclear": [
             "praṇidhānaprabhedena prapripatprabhedena mārgaphala prabhedena"
         ]
     },
-    "sbh:388": {
+    "sbh:384": {
         "supplied": [
             "yatī"
         ]
     },
-    "sbh:389": {
+    "sbh:385": {
         "unclear": [
             "r",
             "śrāmaṇeraḥ"
         ]
     },
-    "sbh:390": {
+    "sbh:386": {
         "unclear": [
             "|",
             "mandacarito"
         ]
     },
-    "sbh:391": {
+    "sbh:387": {
         "unclear": [
             "|",
             "a",
@@ -2983,7 +2982,7 @@
             "|"
         ]
     },
-    "sbh:392": {
+    "sbh:388": {
         "supplied": [
             "ṇa",
             "ñchakno",
@@ -2999,7 +2998,7 @@
             "dveṣa"
         ]
     },
-    "sbh:393": {
+    "sbh:389": {
         "unclear": [
             "moha"
         ],
@@ -3013,7 +3012,7 @@
             "pa"
         ]
     },
-    "sbh:394": {
+    "sbh:390": {
         "unclear": [
             "|",
             "katamāni mānacaritasya pudgalasya liṁgāni <span class='unclear'>|",
@@ -3025,7 +3024,7 @@
             "jyaśca"
         ]
     },
-    "sbh:395": {
+    "sbh:391": {
         "supplied": [
             "rmāñ",
             "caṁ",
@@ -3039,7 +3038,7 @@
             "|"
         ]
     },
-    "sbh:396": {
+    "sbh:392": {
         "unclear": [
             "|",
             "|",
@@ -3047,18 +3046,18 @@
             "|"
         ]
     },
-    "sbh:397": {
+    "sbh:393": {
         "unclear": [
             "ḥ"
         ]
     },
-    "sbh:398": {
+    "sbh:394": {
         "unclear": [
             "|",
             "asti pratipad duḥkhā kṣiprābhijñā"
         ]
     },
-    "sbh:399": {
+    "sbh:395": {
         "supplied": [
             "arhattva"
         ],
@@ -3066,35 +3065,35 @@
             "mārgapha"
         ]
     },
-    "sbh:400": {
+    "sbh:396": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:401": {
+    "sbh:397": {
         "supplied": [
             "sākṣī"
         ]
     },
+    "sbh:398": {},
+    "sbh:399": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:400": {},
+    "sbh:401": {
+        "unclear": [
+            "|"
+        ]
+    },
     "sbh:402": {},
     "sbh:403": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:404": {},
-    "sbh:405": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:406": {},
-    "sbh:407": {
         "supplied": [
             "māṁsā"
         ]
     },
-    "sbh:408": {
+    "sbh:404": {
         "unclear": [
             "|",
             "dhi",
@@ -3111,7 +3110,7 @@
             "dimaṁ"
         ]
     },
-    "sbh:409": {
+    "sbh:405": {
         "supplied": [
             "|",
             "māṁsā",
@@ -3123,18 +3122,18 @@
             "|"
         ]
     },
-    "sbh:410": {
+    "sbh:406": {
         "supplied": [
             "vastuparyantatā"
         ]
     },
-    "sbh:411": {
+    "sbh:407": {
         "unclear": [
             "vā",
             "ra"
         ]
     },
-    "sbh:412": {
+    "sbh:408": {
         "supplied": [
             "|"
         ],
@@ -3142,7 +3141,7 @@
             "ka"
         ]
     },
-    "sbh:413": {
+    "sbh:409": {
         "unclear": [
             "yogina",
             "d",
@@ -3153,13 +3152,13 @@
             "ś"
         ]
     },
-    "sbh:414": {},
-    "sbh:415": {
+    "sbh:410": {},
+    "sbh:411": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:416": {
+    "sbh:412": {
         "unclear": [
             "|",
             "<span class='supplied'>gī",
@@ -3170,7 +3169,7 @@
             "si"
         ]
     },
-    "sbh:417": {
+    "sbh:413": {
         "unclear": [
             "sa ce",
             "|",
@@ -3191,43 +3190,43 @@
             "spṛśati"
         ]
     },
-    "sbh:418": {},
-    "sbh:419": {},
-    "sbh:420": {
+    "sbh:414": {},
+    "sbh:415": {},
+    "sbh:416": {
         "unclear": [
             "pari"
         ]
     },
-    "sbh:421": {},
-    "sbh:422": {
+    "sbh:417": {},
+    "sbh:418": {
         "gap": [
             "prāvivekyasya"
         ]
     },
-    "sbh:423": {},
-    "sbh:424": {
+    "sbh:419": {},
+    "sbh:420": {
         "unclear": [
             "||"
         ]
     },
-    "sbh:425": {
+    "sbh:421": {
         "unclear": [
             "ṁ",
             "ḥ"
         ]
     },
-    "sbh:426": {
+    "sbh:422": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:427": {
+    "sbh:423": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:428": {},
-    "sbh:429": {
+    "sbh:424": {},
+    "sbh:425": {
         "supplied": [
             "māṁsa",
             "kkaṁ",
@@ -3238,7 +3237,7 @@
             "ḥ"
         ]
     },
-    "sbh:430": {
+    "sbh:426": {
         "supplied": [
             "aśubhatā",
             "ta",
@@ -3246,10 +3245,10 @@
             "kā"
         ]
     },
-    "sbh:431": {},
-    "sbh:432": {},
-    "sbh:433": {},
-    "sbh:434": {
+    "sbh:427": {},
+    "sbh:428": {},
+    "sbh:429": {},
+    "sbh:430": {
         "supplied": [
             "bha iti"
         ],
@@ -3257,7 +3256,7 @@
             "|"
         ]
     },
-    "sbh:435": {
+    "sbh:431": {
         "supplied": [
             "|",
             "-śā aśubhatetyucyate"
@@ -3266,7 +3265,7 @@
             "nya"
         ]
     },
-    "sbh:436": {
+    "sbh:432": {
         "supplied": [
             "cchandaḥ",
             "cchandaḥ",
@@ -3279,7 +3278,7 @@
             "d"
         ]
     },
-    "sbh:437": {
+    "sbh:433": {
         "unclear": [
             "su vya"
         ],
@@ -3287,12 +3286,12 @@
             "va"
         ]
     },
-    "sbh:438": {
+    "sbh:434": {
         "supplied": [
             "māṁsa"
         ]
     },
-    "sbh:439": {
+    "sbh:435": {
         "supplied": [
             "rṣikāṇi",
             "rṣi",
@@ -3300,7 +3299,7 @@
             "pāṁsu"
         ]
     },
-    "sbh:440": {
+    "sbh:436": {
         "supplied": [
             "ṇa",
             "ma"
@@ -3309,7 +3308,7 @@
             "ma"
         ]
     },
-    "sbh:441": {
+    "sbh:437": {
         "unclear": [
             "dhyā",
             "|"
@@ -3318,9 +3317,9 @@
             "|"
         ]
     },
-    "sbh:442": {},
-    "sbh:443": {},
-    "sbh:444": {
+    "sbh:438": {},
+    "sbh:439": {},
+    "sbh:440": {
         "supplied": [
             "ḥ",
             "avyābādhatā"
@@ -3329,26 +3328,26 @@
             "yā ca"
         ]
     },
-    "sbh:445": {
+    "sbh:441": {
         "unclear": [
             "|",
             "|",
             "|"
         ]
     },
-    "sbh:446": {
+    "sbh:442": {
         "unclear": [
             "moha"
         ]
     },
-    "sbh:447": {},
-    "sbh:448": {
+    "sbh:443": {},
+    "sbh:444": {
         "gap": [
             "mu",
             "mu"
         ]
     },
-    "sbh:449": {
+    "sbh:445": {
         "unclear": [
             "ḥ"
         ],
@@ -3356,9 +3355,9 @@
             "kkaṁ"
         ]
     },
-    "sbh:450": {},
-    "sbh:451": {},
-    "sbh:452": {
+    "sbh:446": {},
+    "sbh:447": {},
+    "sbh:448": {
         "supplied": [
             "bdhātuḥ",
             "abdhātugatamupagatamupādattaṁ",
@@ -3368,9 +3367,9 @@
             "tamu"
         ]
     },
-    "sbh:453": {},
-    "sbh:454": {},
-    "sbh:455": {
+    "sbh:449": {},
+    "sbh:450": {},
+    "sbh:451": {
         "supplied": [
             "ṣma",
             "mu",
@@ -3378,8 +3377,8 @@
             "nte"
         ]
     },
-    "sbh:456": {},
-    "sbh:457": {
+    "sbh:452": {},
+    "sbh:453": {
         "supplied": [
             "ṣṭhi",
             "vātāṣṭhīlā"
@@ -3388,7 +3387,7 @@
             "gānusāriṇovāyavaḥ"
         ]
     },
-    "sbh:458": {
+    "sbh:454": {
         "supplied": [
             "u",
             "mu",
@@ -3401,29 +3400,29 @@
             "ḥ ||"
         ]
     },
-    "sbh:459": {
+    "sbh:455": {
         "unclear": [
             "?"
         ]
     },
-    "sbh:460": {
+    "sbh:456": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:461": {},
-    "sbh:462": {
+    "sbh:457": {},
+    "sbh:458": {
         "unclear": [
             "ḥ"
         ]
     },
+    "sbh:459": {},
+    "sbh:460": {},
+    "sbh:461": {},
+    "sbh:462": {},
     "sbh:463": {},
     "sbh:464": {},
-    "sbh:465": {},
-    "sbh:466": {},
-    "sbh:467": {},
-    "sbh:468": {},
-    "sbh:469": {
+    "sbh:465": {
         "supplied": [
             "ntaḥ"
         ],
@@ -3432,7 +3431,7 @@
             "t"
         ]
     },
-    "sbh:470": {
+    "sbh:466": {
         "unclear": [
             "|",
             "rutpannaṁ",
@@ -3447,24 +3446,24 @@
             "tasmādāśvāsapraśvāsāḥ kāyasanniśritāści"
         ]
     },
-    "sbh:471": {
+    "sbh:467": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:472": {
+    "sbh:468": {
         "supplied": [
             "|",
             "pāḥ"
         ]
     },
-    "sbh:473": {
+    "sbh:469": {
         "unclear": [
             "|",
             "ḥ"
         ]
     },
-    "sbh:474": {
+    "sbh:470": {
         "unclear": [
             "|",
             "sau"
@@ -3474,28 +3473,28 @@
             "sphurakā"
         ]
     },
-    "sbh:475": {
+    "sbh:471": {
         "unclear": [
             "ricayo"
         ]
     },
-    "sbh:476": {
+    "sbh:472": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:477": {},
-    "sbh:478": {},
-    "sbh:479": {},
-    "sbh:480": {},
-    "sbh:481": {
+    "sbh:473": {},
+    "sbh:474": {},
+    "sbh:475": {},
+    "sbh:476": {},
+    "sbh:477": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:482": {},
-    "sbh:483": {
+    "sbh:478": {},
+    "sbh:479": {
         "unclear": [
             "|"
         ],
@@ -3504,23 +3503,23 @@
             "se"
         ]
     },
-    "sbh:484": {
+    "sbh:480": {
         "unclear": [
             "bhilakṣa"
         ]
     },
-    "sbh:485": {
+    "sbh:481": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:486": {
+    "sbh:482": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:487": {
+    "sbh:483": {
         "unclear": [
             "sa"
         ],
@@ -3528,8 +3527,8 @@
             "|"
         ]
     },
-    "sbh:488": {},
-    "sbh:489": {
+    "sbh:484": {},
+    "sbh:485": {
         "supplied": [
             "ści",
             "yaḥ",
@@ -3542,13 +3541,13 @@
             "|"
         ]
     },
-    "sbh:490": {
+    "sbh:486": {
         "unclear": [
             "dākā",
             "|"
         ]
     },
-    "sbh:491": {
+    "sbh:487": {
         "unclear": [
             "ca prati",
             "|",
@@ -3559,8 +3558,8 @@
             "ḥ"
         ]
     },
-    "sbh:492": {},
-    "sbh:493": {
+    "sbh:488": {},
+    "sbh:489": {
         "supplied": [
             "ta  āśvasan",
             "|",
@@ -3576,7 +3575,7 @@
             "śvasimi"
         ]
     },
-    "sbh:494": {
+    "sbh:490": {
         "supplied": [
             "|"
         ],
@@ -3584,7 +3583,7 @@
             "|"
         ]
     },
-    "sbh:495": {
+    "sbh:491": {
         "unclear": [
             "|",
             "t",
@@ -3595,13 +3594,13 @@
             "tama"
         ]
     },
-    "sbh:496": {
+    "sbh:492": {
         "supplied": [
             "tanni",
             "samohaṁ"
         ]
     },
-    "sbh:497": {
+    "sbh:493": {
         "unclear": [
             "middha",
             "|",
@@ -3611,7 +3610,7 @@
             "|"
         ]
     },
-    "sbh:498": {
+    "sbh:494": {
         "unclear": [
             "puna",
             "|"
@@ -3620,7 +3619,7 @@
             "samādadhaṁścittaṁ"
         ]
     },
-    "sbh:499": {
+    "sbh:495": {
         "supplied": [
             "vimocitaṁ",
             "yaṁści"
@@ -3630,7 +3629,7 @@
             "|"
         ]
     },
-    "sbh:500": {
+    "sbh:496": {
         "unclear": [
             "a",
             "|",
@@ -3640,7 +3639,7 @@
             "rśī"
         ]
     },
-    "sbh:501": {
+    "sbh:497": {
         "unclear": [
             "|",
             "vidhaṁ"
@@ -3649,7 +3648,7 @@
             "saṁ"
         ]
     },
-    "sbh:502": {
+    "sbh:498": {
         "supplied": [
             "kauśalyālambanaṁ",
             "mat"
@@ -3658,19 +3657,19 @@
             "ka"
         ]
     },
-    "sbh:503": {
+    "sbh:499": {
         "unclear": [
             "audāri"
         ]
     },
-    "sbh:504": {
+    "sbh:500": {
         "unclear": [
             "|",
             "|",
             "| śro"
         ]
     },
-    "sbh:505": {
+    "sbh:501": {
         "unclear": [
             "|",
             "jā",
@@ -3678,14 +3677,14 @@
             "|"
         ]
     },
-    "sbh:506": {
+    "sbh:502": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:507": {},
-    "sbh:508": {},
-    "sbh:509": {
+    "sbh:503": {},
+    "sbh:504": {},
+    "sbh:505": {
         "unclear": [
             "|"
         ],
@@ -3693,8 +3692,8 @@
             "tmā"
         ]
     },
-    "sbh:510": {},
-    "sbh:511": {
+    "sbh:506": {},
+    "sbh:507": {
         "unclear": [
             "|",
             "ntara",
@@ -3705,7 +3704,7 @@
             "ṇā"
         ]
     },
-    "sbh:512": {
+    "sbh:508": {
         "supplied": [
             "mat",
             "nti"
@@ -3714,31 +3713,31 @@
             "|"
         ]
     },
-    "sbh:513": {
+    "sbh:509": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:514": {},
-    "sbh:515": {
+    "sbh:510": {},
+    "sbh:511": {
         "supplied": [
             "svabhāvaudārikatā"
         ]
     },
-    "sbh:516": {
+    "sbh:512": {
         "unclear": [
             "rāś",
             "|",
             "|"
         ]
     },
-    "sbh:517": {
+    "sbh:513": {
         "supplied": [
             "vau",
             ":"
         ]
     },
-    "sbh:518": {
+    "sbh:514": {
         "unclear": [
             "t",
             "rā",
@@ -3752,26 +3751,26 @@
             "vo"
         ]
     },
-    "sbh:519": {},
-    "sbh:520": {
+    "sbh:515": {},
+    "sbh:516": {
         "unclear": [
             "duḥkhaṁ",
             "|"
         ]
     },
-    "sbh:521": {},
-    "sbh:522": {
+    "sbh:517": {},
+    "sbh:518": {
         "unclear": [
             "dha ā"
         ]
     },
-    "sbh:523": {
+    "sbh:519": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:524": {},
-    "sbh:525": {
+    "sbh:520": {},
+    "sbh:521": {
         "supplied": [
             "spraṣṭavyam",
             "-thama"
@@ -3781,7 +3780,7 @@
             "|"
         ]
     },
-    "sbh:526": {
+    "sbh:522": {
         "supplied": [
             "to",
             "|",
@@ -3789,7 +3788,7 @@
             "jñāyate"
         ]
     },
-    "sbh:527": {
+    "sbh:523": {
         "supplied": [
             "|"
         ],
@@ -3797,7 +3796,7 @@
             "ā"
         ]
     },
-    "sbh:528": {
+    "sbh:524": {
         "supplied": [
             "|"
         ],
@@ -3806,18 +3805,18 @@
             "ḥ |"
         ]
     },
-    "sbh:529": {
+    "sbh:525": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:530": {
+    "sbh:526": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:531": {
+    "sbh:527": {
         "unclear": [
             "ri",
             "c",
@@ -3836,7 +3835,7 @@
             "tāḥ"
         ]
     },
-    "sbh:532": {
+    "sbh:528": {
         "supplied": [
             "tra",
             "s"
@@ -3847,30 +3846,30 @@
             "|"
         ]
     },
-    "sbh:533": {},
-    "sbh:534": {},
-    "sbh:535": {
+    "sbh:529": {},
+    "sbh:530": {},
+    "sbh:531": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:536": {
+    "sbh:532": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:537": {
+    "sbh:533": {
         "unclear": [
             "sthānāni",
             "ti"
         ]
     },
-    "sbh:538": {
+    "sbh:534": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:539": {
+    "sbh:535": {
         "unclear": [
             "|",
             "|"
@@ -3879,7 +3878,7 @@
             "spṛṣṭāḥ"
         ]
     },
-    "sbh:540": {
+    "sbh:536": {
         "unclear": [
             "|",
             "na",
@@ -3889,17 +3888,17 @@
             "yat tribhiḥ"
         ]
     },
-    "sbh:541": {
+    "sbh:537": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:542": {
+    "sbh:538": {
         "supplied": [
             "tacchīlavān"
         ]
     },
-    "sbh:543": {
+    "sbh:539": {
         "supplied": [
             "cittaṁ"
         ],
@@ -3907,12 +3906,12 @@
             "ñ"
         ]
     },
-    "sbh:544": {
+    "sbh:540": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:545": {
+    "sbh:541": {
         "unclear": [
             "|",
             "||",
@@ -3923,30 +3922,30 @@
             "||"
         ]
     },
-    "sbh:546": {
+    "sbh:542": {
         "unclear": [
             "|",
             "|",
             "a"
         ]
     },
-    "sbh:547": {
+    "sbh:543": {
         "supplied": [
             "dhikārārthena"
         ]
     },
-    "sbh:548": {
+    "sbh:544": {
         "supplied": [
             "nā a"
         ]
     },
-    "sbh:549": {},
-    "sbh:550": {
+    "sbh:545": {},
+    "sbh:546": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:551": {
+    "sbh:547": {
         "unclear": [
             "ḥ",
             "ḥ"
@@ -3955,42 +3954,42 @@
             "|"
         ]
     },
-    "sbh:552": {},
-    "sbh:553": {
+    "sbh:548": {},
+    "sbh:549": {
         "supplied": [
             "-yena strota"
         ]
     },
-    "sbh:554": {},
-    "sbh:555": {
+    "sbh:550": {},
+    "sbh:551": {
         "supplied": [
             "yenā"
         ]
     },
-    "sbh:556": {},
-    "sbh:557": {
+    "sbh:552": {},
+    "sbh:553": {
         "unclear": [
             "tāvīndriya"
         ]
     },
-    "sbh:558": {
+    "sbh:554": {
         "unclear": [
             "a",
             "|"
         ]
     },
-    "sbh:559": {
+    "sbh:555": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:560": {},
-    "sbh:561": {
+    "sbh:556": {},
+    "sbh:557": {
         "unclear": [
             "dharmā"
         ]
     },
-    "sbh:562": {
+    "sbh:558": {
         "supplied": [
             "trāsu",
             "ccha",
@@ -4001,7 +4000,7 @@
             "reṣu"
         ]
     },
-    "sbh:563": {
+    "sbh:559": {
         "unclear": [
             "samāpatti",
             "ḥ",
@@ -4009,8 +4008,8 @@
             "ḥ"
         ]
     },
-    "sbh:564": {},
-    "sbh:565": {
+    "sbh:560": {},
+    "sbh:561": {
         "unclear": [
             "|",
             "c",
@@ -4020,7 +4019,7 @@
             "bdhi"
         ]
     },
-    "sbh:566": {
+    "sbh:562": {
         "unclear": [
             "tatrānulomika upadeśaḥ katamaḥ"
         ],
@@ -4029,7 +4028,7 @@
             "śca"
         ]
     },
-    "sbh:567": {
+    "sbh:563": {
         "unclear": [
             "va"
         ],
@@ -4037,30 +4036,30 @@
             "voditaḥ"
         ]
     },
-    "sbh:568": {
+    "sbh:564": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:569": {
+    "sbh:565": {
         "unclear": [
             "c",
             "|"
         ]
     },
-    "sbh:570": {
+    "sbh:566": {
         "unclear": [
             "|",
             "lyaṁ, prītiḥ",
             "cātma"
         ]
     },
-    "sbh:571": {
+    "sbh:567": {
         "supplied": [
             "māṁsā"
         ]
     },
-    "sbh:572": {
+    "sbh:568": {
         "supplied": [
             "nayā"
         ],
@@ -4068,7 +4067,7 @@
             "a"
         ]
     },
-    "sbh:573": {
+    "sbh:569": {
         "unclear": [
             "|"
         ],
@@ -4076,15 +4075,15 @@
             "nti"
         ]
     },
-    "sbh:574": {},
-    "sbh:575": {},
-    "sbh:576": {},
-    "sbh:577": {
+    "sbh:570": {},
+    "sbh:571": {},
+    "sbh:572": {},
+    "sbh:573": {
         "unclear": [
             "j"
         ]
     },
-    "sbh:578": {
+    "sbh:574": {
         "supplied": [
             "|",
             "|",
@@ -4109,13 +4108,13 @@
             "..."
         ]
     },
-    "sbh:579": {
+    "sbh:575": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:580": {},
-    "sbh:581": {
+    "sbh:576": {},
+    "sbh:577": {
         "unclear": [
             "|",
             "|",
@@ -4126,13 +4125,13 @@
             "ityayaṁ caturvidhaśchandaḥ"
         ]
     },
-    "sbh:582": {
+    "sbh:578": {
         "unclear": [
             "ṁ",
             "vaṇā"
         ]
     },
-    "sbh:583": {
+    "sbh:579": {
         "unclear": [
             "a",
             "ṁ",
@@ -4142,7 +4141,7 @@
             "prayogatā"
         ]
     },
-    "sbh:584": {
+    "sbh:580": {
         "unclear": [
             "|",
             "|"
@@ -4153,8 +4152,8 @@
             "c"
         ]
     },
-    "sbh:585": {},
-    "sbh:586": {
+    "sbh:581": {},
+    "sbh:582": {
         "unclear": [
             "c"
         ],
@@ -4163,23 +4162,23 @@
             "sthī"
         ]
     },
-    "sbh:587": {
+    "sbh:583": {
         "unclear": [
             "ś"
         ]
     },
-    "sbh:588": {
+    "sbh:584": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:589": {
+    "sbh:585": {
         "unclear": [
             "miko"
         ]
     },
-    "sbh:590": {},
-    "sbh:591": {
+    "sbh:586": {},
+    "sbh:587": {
         "supplied": [
             "da",
             "māṁsā"
@@ -4188,7 +4187,7 @@
             "praharṣa"
         ]
     },
-    "sbh:592": {
+    "sbh:588": {
         "supplied": [
             "rja",
             "saḥ"
@@ -4197,7 +4196,7 @@
             "|"
         ]
     },
-    "sbh:593": {
+    "sbh:589": {
         "unclear": [
             "c"
         ],
@@ -4206,31 +4205,31 @@
             "a"
         ]
     },
+    "sbh:590": {},
+    "sbh:591": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:592": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:593": {},
     "sbh:594": {},
-    "sbh:595": {
-        "unclear": [
-            "|"
-        ]
-    },
+    "sbh:595": {},
     "sbh:596": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:597": {},
-    "sbh:598": {},
-    "sbh:599": {},
-    "sbh:600": {
         "supplied": [
             "ccha"
         ]
     },
-    "sbh:601": {
+    "sbh:597": {
         "unclear": [
             "ta"
         ]
     },
-    "sbh:602": {
+    "sbh:598": {
         "unclear": [
             "ḥ",
             "mālamba"
@@ -4239,20 +4238,20 @@
             "ccha"
         ]
     },
-    "sbh:603": {},
-    "sbh:604": {},
-    "sbh:605": {},
-    "sbh:606": {},
-    "sbh:607": {
+    "sbh:599": {},
+    "sbh:600": {},
+    "sbh:601": {},
+    "sbh:602": {},
+    "sbh:603": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:608": {},
-    "sbh:609": {},
-    "sbh:610": {},
-    "sbh:611": {},
-    "sbh:612": {
+    "sbh:604": {},
+    "sbh:605": {},
+    "sbh:606": {},
+    "sbh:607": {},
+    "sbh:608": {
         "supplied": [
             "raḥ",
             "yo"
@@ -4261,7 +4260,7 @@
             "|"
         ]
     },
-    "sbh:613": {
+    "sbh:609": {
         "unclear": [
             "c"
         ],
@@ -4270,8 +4269,8 @@
             "ntīḥ"
         ]
     },
-    "sbh:614": {},
-    "sbh:615": {
+    "sbh:610": {},
+    "sbh:611": {
         "unclear": [
             "ṁ",
             "prahā",
@@ -4279,7 +4278,7 @@
             "|"
         ]
     },
-    "sbh:616": {
+    "sbh:612": {
         "supplied": [
             "sapta"
         ],
@@ -4287,7 +4286,7 @@
             "|"
         ]
     },
-    "sbh:617": {
+    "sbh:613": {
         "unclear": [
             "c",
             "|"
@@ -4300,7 +4299,7 @@
             "māṁsā"
         ]
     },
-    "sbh:618": {
+    "sbh:614": {
         "unclear": [
             "|",
             "|",
@@ -4319,12 +4318,12 @@
             "yuva"
         ]
     },
-    "sbh:619": {
+    "sbh:615": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:620": {
+    "sbh:616": {
         "supplied": [
             "||",
             "|",
@@ -4336,7 +4335,7 @@
             "ḥ"
         ]
     },
-    "sbh:621": {
+    "sbh:617": {
         "unclear": [
             "|",
             "|"
@@ -4346,8 +4345,8 @@
             "tā"
         ]
     },
-    "sbh:622": {},
-    "sbh:623": {
+    "sbh:618": {},
+    "sbh:619": {
         "unclear": [
             "|",
             "ta",
@@ -4357,7 +4356,7 @@
             "kṣyāḥ"
         ]
     },
-    "sbh:624": {
+    "sbh:620": {
         "unclear": [
             "|",
             "vigatarāgaṁ",
@@ -4371,12 +4370,12 @@
             "nā"
         ]
     },
-    "sbh:625": {
+    "sbh:621": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:626": {
+    "sbh:622": {
         "unclear": [
             "|",
             "d"
@@ -4389,37 +4388,37 @@
             "...."
         ]
     },
-    "sbh:627": {},
-    "sbh:628": {},
-    "sbh:629": {
+    "sbh:623": {},
+    "sbh:624": {},
+    "sbh:625": {
         "unclear": [
             "|"
         ]
     },
+    "sbh:626": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:627": {
+        "unclear": [
+            "|"
+        ]
+    },
+    "sbh:628": {},
+    "sbh:629": {},
     "sbh:630": {
         "unclear": [
             "|"
         ]
     },
     "sbh:631": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:632": {},
-    "sbh:633": {},
-    "sbh:634": {
-        "unclear": [
-            "|"
-        ]
-    },
-    "sbh:635": {
         "supplied": [
             "nā",
             "|"
         ]
     },
-    "sbh:636": {
+    "sbh:632": {
         "supplied": [
             "ddhi"
         ],
@@ -4427,7 +4426,7 @@
             "|"
         ]
     },
-    "sbh:637": {
+    "sbh:633": {
         "supplied": [
             "nmana",
             "manaḥ",
@@ -4441,7 +4440,7 @@
             "yāṁ"
         ]
     },
-    "sbh:638": {
+    "sbh:634": {
         "unclear": [
             "|",
             "|"
@@ -4452,13 +4451,13 @@
             "rdho"
         ]
     },
-    "sbh:639": {
+    "sbh:635": {
         "unclear": [
             "|",
             "yāṁ"
         ]
     },
-    "sbh:640": {
+    "sbh:636": {
         "supplied": [
             "darśī",
             "darśī",
@@ -4470,12 +4469,12 @@
             "ṁ"
         ]
     },
-    "sbh:641": {
+    "sbh:637": {
         "supplied": [
             "darśī"
         ]
     },
-    "sbh:642": {
+    "sbh:638": {
         "supplied": [
             "sa",
             "ye"
@@ -4488,7 +4487,7 @@
             "|"
         ]
     },
-    "sbh:643": {
+    "sbh:639": {
         "supplied": [
             "prahīyate",
             "ṇā"
@@ -4499,12 +4498,12 @@
             "nāṁ"
         ]
     },
-    "sbh:644": {
+    "sbh:640": {
         "supplied": [
             "dī"
         ]
     },
-    "sbh:645": {
+    "sbh:641": {
         "supplied": [
             "yadarthaṁ ca karoti | yaśca <span class='unclear'>karma"
         ],
@@ -4512,8 +4511,8 @@
             ".."
         ]
     },
-    "sbh:646": {},
-    "sbh:647": {
+    "sbh:642": {},
+    "sbh:643": {
         "unclear": [
             "ko",
             "ca",
@@ -4521,12 +4520,12 @@
             "|"
         ]
     },
-    "sbh:648": {
+    "sbh:644": {
         "supplied": [
             "kau"
         ]
     },
-    "sbh:649": {
+    "sbh:645": {
         "unclear": [
             "ḥ",
             "|",
@@ -4541,19 +4540,19 @@
             "yi"
         ]
     },
-    "sbh:650": {
+    "sbh:646": {
         "unclear": [
             "ḥ",
             "ḥ |"
         ]
     },
-    "sbh:651": {
+    "sbh:647": {
         "unclear": [
             "|",
             "a"
         ]
     },
-    "sbh:652": {
+    "sbh:648": {
         "supplied": [
             "bale",
             "le",
@@ -4570,7 +4569,7 @@
             "|"
         ]
     },
-    "sbh:653": {
+    "sbh:649": {
         "supplied": [
             "ya"
         ],
@@ -4579,35 +4578,35 @@
             "|"
         ]
     },
-    "sbh:654": {},
-    "sbh:655": {
+    "sbh:650": {},
+    "sbh:651": {
         "supplied": [
             "ṇa"
         ]
     },
-    "sbh:656": {
+    "sbh:652": {
         "unclear": [
             "c",
             "|"
         ]
     },
-    "sbh:657": {
+    "sbh:653": {
         "unclear": [
             "c",
             "c",
             "ṁ"
         ]
     },
-    "sbh:658": {},
-    "sbh:659": {},
-    "sbh:660": {
+    "sbh:654": {},
+    "sbh:655": {},
+    "sbh:656": {
         "supplied": [
             "sārtha",
             "styā"
         ]
     },
-    "sbh:661": {},
-    "sbh:662": {
+    "sbh:657": {},
+    "sbh:658": {
         "supplied": [
             "samādhi",
             "pratilabhyate",
@@ -4629,7 +4628,7 @@
             "ta"
         ]
     },
-    "sbh:663": {
+    "sbh:659": {
         "supplied": [
             "la",
             "nnva",
@@ -4644,7 +4643,7 @@
             "ś"
         ]
     },
-    "sbh:664": {
+    "sbh:660": {
         "supplied": [
             "|"
         ],
@@ -4654,14 +4653,14 @@
             "a"
         ]
     },
-    "sbh:665": {},
-    "sbh:666": {},
-    "sbh:667": {
+    "sbh:661": {},
+    "sbh:662": {},
+    "sbh:663": {
         "supplied": [
             "māṁsa"
         ]
     },
-    "sbh:668": {
+    "sbh:664": {
         "supplied": [
             "co",
             "sa caiṣo ’ṣṭa",
@@ -4677,7 +4676,7 @@
             "idaṁ"
         ]
     },
-    "sbh:669": {
+    "sbh:665": {
         "unclear": [
             "a",
             "|"
@@ -4689,7 +4688,7 @@
             "te"
         ]
     },
-    "sbh:670": {
+    "sbh:666": {
         "unclear": [
             "adhi",
             "yā",
@@ -4697,13 +4696,13 @@
             "a"
         ]
     },
-    "sbh:671": {
+    "sbh:667": {
         "supplied": [
             "saṁjānataḥ",
             "ryā"
         ]
     },
-    "sbh:672": {
+    "sbh:668": {
         "supplied": [
             "yacca",
             "tatkasya hetoḥ",
@@ -4713,8 +4712,8 @@
             "|"
         ]
     },
-    "sbh:673": {},
-    "sbh:674": {
+    "sbh:669": {},
+    "sbh:670": {
         "supplied": [
             "sthā",
             "ṇi",
@@ -4731,8 +4730,8 @@
             "mā"
         ]
     },
-    "sbh:675": {},
-    "sbh:676": {
+    "sbh:671": {},
+    "sbh:672": {
         "supplied": [
             "|",
             "|"
@@ -4742,7 +4741,7 @@
             "|"
         ]
     },
-    "sbh:677": {
+    "sbh:673": {
         "unclear": [
             "|",
             "|",
@@ -4752,15 +4751,15 @@
             "s"
         ]
     },
-    "sbh:678": {},
-    "sbh:679": {},
-    "sbh:680": {},
-    "sbh:681": {
+    "sbh:674": {},
+    "sbh:675": {},
+    "sbh:676": {},
+    "sbh:677": {
         "supplied": [
             "ḥ"
         ]
     },
-    "sbh:682": {
+    "sbh:678": {
         "supplied": [
             "||",
             "hiṁsā",
@@ -4771,7 +4770,7 @@
             "|"
         ]
     },
-    "sbh:683": {
+    "sbh:679": {
         "supplied": [
             "rthī",
             "dvi",
@@ -4785,7 +4784,7 @@
             ".........."
         ]
     },
-    "sbh:684": {
+    "sbh:680": {
         "unclear": [
             "nā",
             "|"
@@ -4795,7 +4794,7 @@
             "|"
         ]
     },
-    "sbh:685": {
+    "sbh:681": {
         "supplied": [
             "ḥ |",
             "yaśchando"
@@ -4804,18 +4803,18 @@
             "|"
         ]
     },
-    "sbh:686": {},
-    "sbh:687": {
+    "sbh:682": {},
+    "sbh:683": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:688": {
+    "sbh:684": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:689": {
+    "sbh:685": {
         "supplied": [
             "kañca",
             "rgaṁ"
@@ -4824,23 +4823,23 @@
             "|"
         ]
     },
-    "sbh:690": {},
-    "sbh:691": {},
-    "sbh:692": {
+    "sbh:686": {},
+    "sbh:687": {},
+    "sbh:688": {
         "unclear": [
             "|",
             "t"
         ]
     },
-    "sbh:693": {
+    "sbh:689": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:694": {},
-    "sbh:695": {},
-    "sbh:696": {
+    "sbh:690": {},
+    "sbh:691": {},
+    "sbh:692": {
         "supplied": [
             "tāḥ",
             "lāḥ"
@@ -4849,18 +4848,18 @@
             "taiḥ"
         ]
     },
-    "sbh:697": {
+    "sbh:693": {
         "unclear": [
             "dī"
         ]
     },
-    "sbh:698": {},
-    "sbh:699": {
+    "sbh:694": {},
+    "sbh:695": {
         "supplied": [
             "karma"
         ]
     },
-    "sbh:700": {
+    "sbh:696": {
         "unclear": [
             "|",
             "|",
@@ -4872,13 +4871,13 @@
             "ddhā"
         ]
     },
-    "sbh:701": {},
-    "sbh:702": {
+    "sbh:697": {},
+    "sbh:698": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:703": {
+    "sbh:699": {
         "supplied": [
             "rhi",
             "ccha"
@@ -4887,27 +4886,27 @@
             "ri"
         ]
     },
-    "sbh:704": {
+    "sbh:700": {
         "unclear": [
             "|"
         ]
     },
+    "sbh:701": {},
+    "sbh:702": {},
+    "sbh:703": {},
+    "sbh:704": {
+        "unclear": [
+            "ḥ"
+        ]
+    },
     "sbh:705": {},
     "sbh:706": {},
-    "sbh:707": {},
+    "sbh:707": {
+        "unclear": [
+            "ḥ"
+        ]
+    },
     "sbh:708": {
-        "unclear": [
-            "ḥ"
-        ]
-    },
-    "sbh:709": {},
-    "sbh:710": {},
-    "sbh:711": {
-        "unclear": [
-            "ḥ"
-        ]
-    },
-    "sbh:712": {
         "supplied": [
             "mārgadeśikāḥ",
             "ri"
@@ -4919,14 +4918,14 @@
             "|"
         ]
     },
-    "sbh:713": {},
-    "sbh:714": {
+    "sbh:709": {},
+    "sbh:710": {
         "supplied": [
             "ya",
             "ntaṁ"
         ]
     },
-    "sbh:715": {
+    "sbh:711": {
         "unclear": [
             "t"
         ],
@@ -4934,8 +4933,8 @@
             "arhanvā punaḥ"
         ]
     },
-    "sbh:716": {},
-    "sbh:717": {
+    "sbh:712": {},
+    "sbh:713": {
         "unclear": [
             "ḥ |",
             "taṁ",
@@ -4946,7 +4945,7 @@
             "|"
         ]
     },
-    "sbh:718": {
+    "sbh:714": {
         "unclear": [
             "ḥ",
             "ḥ",
@@ -4964,7 +4963,7 @@
             "..............................."
         ]
     },
-    "sbh:719": {
+    "sbh:715": {
         "supplied": [
             "yādya"
         ],
@@ -4972,7 +4971,7 @@
             "|"
         ]
     },
-    "sbh:720": {
+    "sbh:716": {
         "supplied": [
             "śān"
         ],
@@ -4980,7 +4979,7 @@
             "a"
         ]
     },
-    "sbh:721": {
+    "sbh:717": {
         "supplied": [
             "|",
             "ntā",
@@ -4988,7 +4987,7 @@
             "dhātum"
         ]
     },
-    "sbh:722": {
+    "sbh:718": {
         "supplied": [
             "tāyāṁ",
             "|",
@@ -4998,7 +4997,7 @@
             "t"
         ]
     },
-    "sbh:723": {
+    "sbh:719": {
         "supplied": [
             "vamārambho"
         ],
@@ -5006,25 +5005,25 @@
             "mā"
         ]
     },
-    "sbh:724": {},
-    "sbh:725": {
+    "sbh:720": {},
+    "sbh:721": {
         "unclear": [
             "ḥ",
             "||"
         ]
     },
-    "sbh:726": {},
-    "sbh:727": {},
-    "sbh:728": {},
-    "sbh:729": {},
-    "sbh:730": {
+    "sbh:722": {},
+    "sbh:723": {},
+    "sbh:724": {},
+    "sbh:725": {},
+    "sbh:726": {
         "supplied": [
             "ṇa",
             "ṇa",
             "smi"
         ]
     },
-    "sbh:731": {
+    "sbh:727": {
         "supplied": [
             "stvaṁ",
             "yāṁ",
@@ -5034,8 +5033,8 @@
             "cci"
         ]
     },
-    "sbh:732": {},
-    "sbh:733": {
+    "sbh:728": {},
+    "sbh:729": {
         "unclear": [
             "|"
         ],
@@ -5043,7 +5042,7 @@
             "trai"
         ]
     },
-    "sbh:734": {
+    "sbh:730": {
         "unclear": [
             "|",
             "|",
@@ -5067,7 +5066,7 @@
             "aśru"
         ]
     },
-    "sbh:735": {
+    "sbh:731": {
         "unclear": [
             "|",
             "c"
@@ -5080,7 +5079,7 @@
             "mū"
         ]
     },
-    "sbh:736": {
+    "sbh:732": {
         "supplied": [
             "ridaṁ",
             "raṁ"
@@ -5089,7 +5088,7 @@
             "a"
         ]
     },
-    "sbh:737": {
+    "sbh:733": {
         "supplied": [
             "ca",
             "ṇa"
@@ -5099,12 +5098,12 @@
             "|"
         ]
     },
-    "sbh:738": {
+    "sbh:734": {
         "supplied": [
             "khīṁ"
         ]
     },
-    "sbh:739": {
+    "sbh:735": {
         "supplied": [
             "khī",
             "khī",
@@ -5114,12 +5113,12 @@
             "ti"
         ]
     },
-    "sbh:740": {
+    "sbh:736": {
         "supplied": [
             "yaścittavyapakarṣas"
         ]
     },
-    "sbh:741": {
+    "sbh:737": {
         "unclear": [
             "|",
             "ḥ",
@@ -5132,58 +5131,58 @@
             "sthitau"
         ]
     },
-    "sbh:742": {
+    "sbh:738": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:743": {},
-    "sbh:744": {
+    "sbh:739": {},
+    "sbh:740": {
         "unclear": [
             "la"
         ]
     },
-    "sbh:745": {
+    "sbh:741": {
         "supplied": [
             "ti",
             "ma"
         ]
     },
-    "sbh:746": {
+    "sbh:742": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:747": {
+    "sbh:743": {
         "unclear": [
             "c"
         ]
     },
-    "sbh:748": {
+    "sbh:744": {
         "unclear": [
             "re"
         ]
     },
-    "sbh:749": {
+    "sbh:745": {
         "supplied": [
             "śchi",
             "ma"
         ]
     },
-    "sbh:750": {
+    "sbh:746": {
         "supplied": [
             "re",
             "ṇā"
         ]
     },
-    "sbh:751": {},
-    "sbh:752": {
+    "sbh:747": {},
+    "sbh:748": {
         "unclear": [
             "tā",
             "|"
         ]
     },
-    "sbh:753": {
+    "sbh:749": {
         "unclear": [
             "c"
         ],
@@ -5192,7 +5191,7 @@
             "śchi"
         ]
     },
-    "sbh:754": {
+    "sbh:750": {
         "supplied": [
             "māṁsā"
         ],
@@ -5200,8 +5199,8 @@
             "|"
         ]
     },
-    "sbh:755": {},
-    "sbh:756": {
+    "sbh:751": {},
+    "sbh:752": {
         "supplied": [
             "ḥ",
             "|"
@@ -5210,7 +5209,7 @@
             "|"
         ]
     },
-    "sbh:757": {
+    "sbh:753": {
         "unclear": [
             "|"
         ],
@@ -5218,18 +5217,18 @@
             "yayā"
         ]
     },
-    "sbh:758": {},
-    "sbh:759": {
+    "sbh:754": {},
+    "sbh:755": {
         "supplied": [
             "khī"
         ]
     },
-    "sbh:760": {
+    "sbh:756": {
         "supplied": [
             "paryeṣamāṇa etānyeva"
         ]
     },
-    "sbh:761": {
+    "sbh:757": {
         "unclear": [
             "a"
         ],
@@ -5237,25 +5236,25 @@
             "ta"
         ]
     },
-    "sbh:762": {
+    "sbh:758": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:763": {},
-    "sbh:764": {
+    "sbh:759": {},
+    "sbh:760": {
         "unclear": [
             "|",
             "pakṣaṁ"
         ]
     },
-    "sbh:765": {
+    "sbh:761": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:766": {
+    "sbh:762": {
         "unclear": [
             "|",
             "|",
@@ -5267,13 +5266,13 @@
             "|"
         ]
     },
-    "sbh:767": {
+    "sbh:763": {
         "supplied": [
             "ni",
             "khī"
         ]
     },
-    "sbh:768": {
+    "sbh:764": {
         "unclear": [
             "ḥ |",
             "|",
@@ -5285,12 +5284,12 @@
             "gha"
         ]
     },
-    "sbh:769": {
+    "sbh:765": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:770": {
+    "sbh:766": {
         "supplied": [
             "prasrāva"
         ],
@@ -5300,7 +5299,7 @@
             "|"
         ]
     },
-    "sbh:771": {
+    "sbh:767": {
         "supplied": [
             "rai",
             "māṁse",
@@ -5312,20 +5311,20 @@
             "tvanu"
         ]
     },
-    "sbh:772": {
+    "sbh:768": {
         "supplied": [
             "yadā punarbhūtaśaṁkalikāyā nimittaṁ manasi karoti | tadāsthiśaṁkalikāmadhimucyate",
             "|"
         ]
     },
-    "sbh:773": {
+    "sbh:769": {
         "supplied": [
             "kāt",
             "ri",
             "vā"
         ]
     },
-    "sbh:774": {
+    "sbh:770": {
         "unclear": [
             "ḥ"
         ],
@@ -5333,7 +5332,7 @@
             "|"
         ]
     },
-    "sbh:775": {
+    "sbh:771": {
         "supplied": [
             "anayāśubhayā varṇanibhayā etāmaśubhamatā tāṁ",
             "vipulatā"
@@ -5342,7 +5341,7 @@
             "|"
         ]
     },
-    "sbh:776": {
+    "sbh:772": {
         "unclear": [
             "a",
             "a",
@@ -5353,13 +5352,13 @@
             "tā"
         ]
     },
-    "sbh:777": {
+    "sbh:773": {
         "unclear": [
             "mānaḥ",
             "|"
         ]
     },
-    "sbh:778": {
+    "sbh:774": {
         "supplied": [
             "|"
         ],
@@ -5367,13 +5366,13 @@
             "|"
         ]
     },
-    "sbh:779": {
+    "sbh:775": {
         "supplied": [
             "ku"
         ]
     },
-    "sbh:780": {},
-    "sbh:781": {
+    "sbh:776": {},
+    "sbh:777": {
         "supplied": [
             "tā",
             "ṇa udāsīnapakṣaḥ",
@@ -5383,7 +5382,7 @@
             "|"
         ]
     },
-    "sbh:782": {
+    "sbh:778": {
         "unclear": [
             "pakṣa",
             "ṁ",
@@ -5395,7 +5394,7 @@
             "traṁ"
         ]
     },
-    "sbh:783": {
+    "sbh:779": {
         "unclear": [
             "t",
             "ṁ",
@@ -5407,24 +5406,24 @@
             "trama"
         ]
     },
-    "sbh:784": {
+    "sbh:780": {
         "supplied": [
             "ma",
             "ḥ"
         ]
     },
-    "sbh:785": {
+    "sbh:781": {
         "supplied": [
             "ntī",
             "ḥ"
         ]
     },
-    "sbh:786": {
+    "sbh:782": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:787": {
+    "sbh:783": {
         "unclear": [
             "|",
             "|",
@@ -5437,8 +5436,8 @@
             "ya"
         ]
     },
-    "sbh:788": {},
-    "sbh:789": {
+    "sbh:784": {},
+    "sbh:785": {
         "unclear": [
             "|",
             "|"
@@ -5447,7 +5446,7 @@
             "yā"
         ]
     },
-    "sbh:790": {
+    "sbh:786": {
         "supplied": [
             "|"
         ],
@@ -5456,13 +5455,13 @@
             "ko"
         ]
     },
-    "sbh:791": {},
-    "sbh:792": {
+    "sbh:787": {},
+    "sbh:788": {
         "supplied": [
             "ṣeti"
         ]
     },
-    "sbh:793": {
+    "sbh:789": {
         "supplied": [
             "na",
             "nvā"
@@ -5472,8 +5471,8 @@
             "ṁ"
         ]
     },
-    "sbh:794": {},
-    "sbh:795": {
+    "sbh:790": {},
+    "sbh:791": {
         "unclear": [
             "a",
             "ś"
@@ -5483,7 +5482,7 @@
             "taḥ"
         ]
     },
-    "sbh:796": {
+    "sbh:792": {
         "supplied": [
             "sa",
             "ni",
@@ -5498,7 +5497,7 @@
             "|"
         ]
     },
-    "sbh:797": {
+    "sbh:793": {
         "unclear": [
             "śvāsapra"
         ],
@@ -5506,7 +5505,7 @@
             "ḥ"
         ]
     },
-    "sbh:798": {
+    "sbh:794": {
         "supplied": [
             "yan",
             "vipulatāṁ"
@@ -5515,8 +5514,8 @@
             "|"
         ]
     },
-    "sbh:799": {},
-    "sbh:800": {
+    "sbh:795": {},
+    "sbh:796": {
         "supplied": [
             "|"
         ],
@@ -5525,7 +5524,7 @@
             "ṁ"
         ]
     },
-    "sbh:801": {
+    "sbh:797": {
         "supplied": [
             "ca"
         ],
@@ -5533,7 +5532,7 @@
             "|"
         ]
     },
-    "sbh:802": {
+    "sbh:798": {
         "supplied": [
             "prayoga",
             "ranti",
@@ -5553,12 +5552,12 @@
             "|"
         ]
     },
-    "sbh:803": {
+    "sbh:799": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:804": {
+    "sbh:800": {
         "supplied": [
             "na"
         ],
@@ -5566,26 +5565,26 @@
             "|"
         ]
     },
-    "sbh:805": {
+    "sbh:801": {
         "unclear": [
             "ṁ",
             "śamatha",
             "|"
         ]
     },
-    "sbh:806": {},
-    "sbh:807": {
+    "sbh:802": {},
+    "sbh:803": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:808": {
+    "sbh:804": {
         "supplied": [
             "śa",
             "lau"
         ]
     },
-    "sbh:809": {
+    "sbh:805": {
         "supplied": [
             "upalakṣaṇa",
             "|"
@@ -5595,7 +5594,7 @@
             "|"
         ]
     },
-    "sbh:810": {
+    "sbh:806": {
         "supplied": [
             "bhā",
             "ṇī",
@@ -5603,17 +5602,17 @@
             "ṇā"
         ]
     },
-    "sbh:811": {
+    "sbh:807": {
         "supplied": [
             "cchi"
         ]
     },
-    "sbh:812": {
+    "sbh:808": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:813": {
+    "sbh:809": {
         "supplied": [
             "bhatāṁ",
             "ṇa",
@@ -5625,7 +5624,7 @@
             "|"
         ]
     },
-    "sbh:814": {
+    "sbh:810": {
         "unclear": [
             "|",
             "|"
@@ -5639,15 +5638,15 @@
             "narbhaṁ"
         ]
     },
-    "sbh:815": {},
-    "sbh:816": {
+    "sbh:811": {},
+    "sbh:812": {
         "supplied": [
             "ṇā",
             "ṇa",
             "ṇā"
         ]
     },
-    "sbh:817": {
+    "sbh:813": {
         "unclear": [
             "ṁ",
             "kī",
@@ -5659,7 +5658,7 @@
             "śaḥ"
         ]
     },
-    "sbh:818": {
+    "sbh:814": {
         "supplied": [
             "saṁharṣya",
             "tyanu",
@@ -5673,12 +5672,12 @@
             "ḥ"
         ]
     },
-    "sbh:819": {
+    "sbh:815": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:820": {
+    "sbh:816": {
         "supplied": [
             "syā a",
             "vipulatāṁ",
@@ -5688,7 +5687,7 @@
             "ṁ"
         ]
     },
-    "sbh:821": {
+    "sbh:817": {
         "supplied": [
             "dhā",
             "yā",
@@ -5704,7 +5703,7 @@
             "ta"
         ]
     },
-    "sbh:822": {
+    "sbh:818": {
         "supplied": [
             "taṁ",
             "tā",
@@ -5716,22 +5715,22 @@
             "te"
         ]
     },
-    "sbh:823": {},
-    "sbh:824": {
+    "sbh:819": {},
+    "sbh:820": {
         "supplied": [
             "pakṣaiḥ"
         ]
     },
-    "sbh:825": {},
-    "sbh:826": {
+    "sbh:821": {},
+    "sbh:822": {
         "supplied": [
             "anurūpastathābhyāsa ā śaithilyād viparyayaḥ"
         ]
     },
-    "sbh:827": {},
-    "sbh:828": {},
-    "sbh:829": {},
-    "sbh:830": {
+    "sbh:823": {},
+    "sbh:824": {},
+    "sbh:825": {},
+    "sbh:826": {
         "unclear": [
             "|",
             "|"
@@ -5740,24 +5739,24 @@
             "ā"
         ]
     },
-    "sbh:831": {
+    "sbh:827": {
         "unclear": [
             "ḥ",
             "|"
         ]
     },
-    "sbh:832": {
+    "sbh:828": {
         "supplied": [
             "|"
         ]
     },
-    "sbh:833": {
+    "sbh:829": {
         "supplied": [
             "saṁvejya",
             "modyādhyātmaṁ śamathayati"
         ]
     },
-    "sbh:834": {
+    "sbh:830": {
         "supplied": [
             "saṁśamayati"
         ],
@@ -5765,12 +5764,12 @@
             "|"
         ]
     },
-    "sbh:835": {
+    "sbh:831": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:836": {
+    "sbh:832": {
         "unclear": [
             "ḥ",
             "a",
@@ -5781,7 +5780,7 @@
             "a"
         ]
     },
-    "sbh:837": {
+    "sbh:833": {
         "supplied": [
             "raṁ",
             "raṁ"
@@ -5793,7 +5792,7 @@
             "|"
         ]
     },
-    "sbh:838": {
+    "sbh:834": {
         "unclear": [
             "a",
             "ṁ",
@@ -5804,7 +5803,7 @@
             "samyaggataiḥ"
         ]
     },
-    "sbh:839": {
+    "sbh:835": {
         "supplied": [
             "ttaṁ",
             "śukla",
@@ -5818,7 +5817,7 @@
             "|"
         ]
     },
-    "sbh:840": {
+    "sbh:836": {
         "unclear": [
             "rā",
             "rā"
@@ -5828,7 +5827,7 @@
             "va"
         ]
     },
-    "sbh:841": {
+    "sbh:837": {
         "supplied": [
             "tamādikarmi",
             "kaṁ",
@@ -5845,7 +5844,7 @@
             "|"
         ]
     },
-    "sbh:842": {
+    "sbh:838": {
         "supplied": [
             "rūpā ātmanaśca",
             "jya",
@@ -5867,7 +5866,7 @@
             "|"
         ]
     },
-    "sbh:843": {
+    "sbh:839": {
         "supplied": [
             "hya",
             "sye"
@@ -5877,7 +5876,7 @@
             "|"
         ]
     },
-    "sbh:844": {
+    "sbh:840": {
         "supplied": [
             "|",
             "ṇi",
@@ -5907,7 +5906,7 @@
             "ḥ |"
         ]
     },
-    "sbh:845": {
+    "sbh:841": {
         "unclear": [
             "ṁ",
             "ṁ",
@@ -5925,7 +5924,7 @@
             "sarvāṁ"
         ]
     },
-    "sbh:846": {
+    "sbh:842": {
         "supplied": [
             "ta",
             "pūrvānta",
@@ -5949,7 +5948,7 @@
             "saṁ"
         ]
     },
-    "sbh:847": {
+    "sbh:843": {
         "unclear": [
             "a",
             "a",
@@ -5991,7 +5990,7 @@
             "ta"
         ]
     },
-    "sbh:848": {
+    "sbh:844": {
         "unclear": [
             "sta",
             "kṣya"
@@ -6000,7 +5999,7 @@
             "si"
         ]
     },
-    "sbh:849": {
+    "sbh:845": {
         "supplied": [
             "k",
             "ṇa",
@@ -6035,7 +6034,7 @@
             "|"
         ]
     },
-    "sbh:850": {
+    "sbh:846": {
         "unclear": [
             "a",
             "ḥ",
@@ -6048,7 +6047,7 @@
             "daṁ"
         ]
     },
-    "sbh:851": {
+    "sbh:847": {
         "supplied": [
             "rni",
             "te"
@@ -6062,7 +6061,7 @@
             "|"
         ]
     },
-    "sbh:852": {
+    "sbh:848": {
         "unclear": [
             "a",
             "a",
@@ -6088,7 +6087,7 @@
             "............"
         ]
     },
-    "sbh:853": {
+    "sbh:849": {
         "supplied": [
             "cittadauṣṭhulyaṁ",
             "ddhatyaṁ",
@@ -6098,7 +6097,7 @@
             "sa"
         ]
     },
-    "sbh:854": {
+    "sbh:850": {
         "supplied": [
             "mā",
             "dha",
@@ -6115,51 +6114,50 @@
             "ādikarmikasya"
         ]
     },
+    "sbh:851": {},
+    "sbh:852": {},
+    "sbh:853": {},
+    "sbh:854": {},
     "sbh:855": {},
     "sbh:856": {},
-    "sbh:857": {},
-    "sbh:858": {},
-    "sbh:859": {},
-    "sbh:860": {},
-    "sbh:861": {},
-    "sbh:862": {
+    "sbh:857": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:863": {
+    "sbh:858": {
         "supplied": [
             "ga",
             "|",
             "yi"
         ]
     },
-    "sbh:864": {
+    "sbh:859": {
         "unclear": [
             "la"
         ]
     },
-    "sbh:865": {
+    "sbh:860": {
         "unclear": [
             "ḍvi"
         ]
     },
-    "sbh:866": {
+    "sbh:861": {
         "supplied": [
             "māṁsā"
         ]
     },
-    "sbh:867": {
+    "sbh:862": {
         "supplied": [
             "arthaṁ, svalakṣaṇaṁ, sāmānyalakṣaṇaṁ"
         ]
     },
-    "sbh:868": {
+    "sbh:863": {
         "supplied": [
             "c"
         ]
     },
-    "sbh:869": {
+    "sbh:864": {
         "unclear": [
             "ḥ"
         ],
@@ -6167,7 +6165,7 @@
             "kyā"
         ]
     },
-    "sbh:870": {
+    "sbh:865": {
         "supplied": [
             "|",
             "yā"
@@ -6176,13 +6174,13 @@
             "n"
         ]
     },
-    "sbh:871": {
+    "sbh:866": {
         "supplied": [
             "ttvāḥ",
             "|"
         ]
     },
-    "sbh:872": {
+    "sbh:867": {
         "supplied": [
             "duḥ",
             "t"
@@ -6192,7 +6190,7 @@
             "|"
         ]
     },
-    "sbh:873": {
+    "sbh:868": {
         "unclear": [
             "ḥ",
             "ra",
@@ -6203,12 +6201,12 @@
             "|"
         ]
     },
-    "sbh:874": {
+    "sbh:869": {
         "supplied": [
             "ma"
         ]
     },
-    "sbh:875": {
+    "sbh:870": {
         "unclear": [
             "|",
             "|"
@@ -6226,12 +6224,12 @@
             "-cintya"
         ]
     },
-    "sbh:876": {
+    "sbh:871": {
         "supplied": [
             "|"
         ]
     },
-    "sbh:877": {
+    "sbh:872": {
         "supplied": [
             "ṣyau"
         ],
@@ -6239,18 +6237,18 @@
             "ā"
         ]
     },
-    "sbh:878": {
+    "sbh:873": {
         "supplied": [
             "ya",
             "ḥ"
         ]
     },
-    "sbh:879": {
+    "sbh:874": {
         "supplied": [
             "|"
         ]
     },
-    "sbh:880": {
+    "sbh:875": {
         "supplied": [
             "c",
             "bhā",
@@ -6262,14 +6260,14 @@
             "n"
         ]
     },
-    "sbh:881": {
+    "sbh:876": {
         "supplied": [
             "|",
             "|"
         ]
     },
-    "sbh:882": {},
-    "sbh:883": {
+    "sbh:877": {},
+    "sbh:878": {
         "unclear": [
             "ḥ",
             "ṅ",
@@ -6281,7 +6279,7 @@
             "smin"
         ]
     },
-    "sbh:884": {
+    "sbh:879": {
         "unclear": [
             "|"
         ],
@@ -6289,7 +6287,7 @@
             "tāṁ"
         ]
     },
-    "sbh:885": {
+    "sbh:880": {
         "supplied": [
             "-kṣagataḥ",
             "|"
@@ -6299,8 +6297,8 @@
             "|"
         ]
     },
-    "sbh:886": {},
-    "sbh:887": {
+    "sbh:881": {},
+    "sbh:882": {
         "unclear": [
             "|",
             "ḥ"
@@ -6309,20 +6307,20 @@
             "cā"
         ]
     },
-    "sbh:888": {},
-    "sbh:889": {
+    "sbh:883": {},
+    "sbh:884": {
         "supplied": [
             "ṣe",
             "pi"
         ]
     },
-    "sbh:890": {
+    "sbh:885": {
         "supplied": [
             "ritā",
             "dhobhū"
         ]
     },
-    "sbh:891": {
+    "sbh:886": {
         "unclear": [
             "|",
             "|",
@@ -6343,7 +6341,7 @@
             "akṛtsna"
         ]
     },
-    "sbh:892": {
+    "sbh:887": {
         "unclear": [
             "|",
             "na",
@@ -6357,7 +6355,7 @@
             "mān"
         ]
     },
-    "sbh:893": {
+    "sbh:888": {
         "supplied": [
             "kṣo ’nākhyātaḥ",
             "ṅ",
@@ -6371,7 +6369,7 @@
             "|"
         ]
     },
-    "sbh:894": {
+    "sbh:889": {
         "supplied": [
             "yā",
             "śaṁsa"
@@ -6381,8 +6379,8 @@
             "ḥ"
         ]
     },
-    "sbh:895": {},
-    "sbh:896": {
+    "sbh:890": {},
+    "sbh:891": {
         "supplied": [
             "|",
             "n",
@@ -6394,7 +6392,7 @@
             "a"
         ]
     },
-    "sbh:897": {
+    "sbh:892": {
         "unclear": [
             "a",
             "ke",
@@ -6402,7 +6400,7 @@
             "ṁ"
         ]
     },
-    "sbh:898": {
+    "sbh:893": {
         "supplied": [
             "jñi"
         ],
@@ -6410,7 +6408,7 @@
             "ṁ"
         ]
     },
-    "sbh:899": {
+    "sbh:894": {
         "supplied": [
             "jñi",
             "maṁ",
@@ -6424,8 +6422,8 @@
             "a"
         ]
     },
-    "sbh:900": {},
-    "sbh:901": {
+    "sbh:895": {},
+    "sbh:896": {
         "unclear": [
             "|",
             "a",
@@ -6439,7 +6437,7 @@
             "ḥ"
         ]
     },
-    "sbh:902": {
+    "sbh:897": {
         "supplied": [
             "sa tathā"
         ],
@@ -6450,7 +6448,7 @@
             "ma"
         ]
     },
-    "sbh:903": {
+    "sbh:898": {
         "unclear": [
             "|",
             "a",
@@ -6469,7 +6467,7 @@
             "dū"
         ]
     },
-    "sbh:904": {
+    "sbh:899": {
         "supplied": [
             "kyā",
             "yaṁścai",
@@ -6482,7 +6480,7 @@
             "|"
         ]
     },
-    "sbh:905": {
+    "sbh:900": {
         "supplied": [
             "ṇṇaḥ",
             "nte",
@@ -6506,14 +6504,14 @@
             "|"
         ]
     },
-    "sbh:906": {
+    "sbh:901": {
         "unclear": [
             "ṁ",
             "|"
         ]
     },
-    "sbh:907": {},
-    "sbh:908": {
+    "sbh:902": {},
+    "sbh:903": {
         "unclear": [
             "|",
             "|",
@@ -6525,7 +6523,7 @@
             "hre"
         ]
     },
-    "sbh:909": {
+    "sbh:904": {
         "unclear": [
             "|",
             "|"
@@ -6535,14 +6533,14 @@
             "k"
         ]
     },
-    "sbh:910": {
+    "sbh:905": {
         "unclear": [
             "di",
             "|",
             "|"
         ]
     },
-    "sbh:911": {
+    "sbh:906": {
         "unclear": [
             "|"
         ],
@@ -6550,7 +6548,7 @@
             "kāreṇa"
         ]
     },
-    "sbh:912": {
+    "sbh:907": {
         "unclear": [
             "|",
             "|"
@@ -6561,7 +6559,7 @@
             "temaṁ"
         ]
     },
-    "sbh:913": {
+    "sbh:908": {
         "supplied": [
             "yatāṁ",
             "yāṁ",
@@ -6577,7 +6575,7 @@
             "|"
         ]
     },
-    "sbh:914": {
+    "sbh:909": {
         "unclear": [
             "ṁ",
             "ā",
@@ -6588,7 +6586,7 @@
             "ṇāmā"
         ]
     },
-    "sbh:915": {
+    "sbh:910": {
         "unclear": [
             "pañcada",
             "pariśramakṛtaḥ",
@@ -6600,25 +6598,25 @@
             "taḥ"
         ]
     },
-    "sbh:916": {
+    "sbh:911": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:917": {},
-    "sbh:918": {},
-    "sbh:919": {
+    "sbh:912": {},
+    "sbh:913": {},
+    "sbh:914": {
         "supplied": [
             "gamadhipatiṁ kṛtvā vi"
         ]
     },
-    "sbh:920": {
+    "sbh:915": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:921": {},
-    "sbh:922": {
+    "sbh:916": {},
+    "sbh:917": {
         "supplied": [
             "grāmanigamarājarāṣṭradhānīṁ dahan paraiti | tatrodakakledo nāma tathāpi tanmahānudakaskandhaḥ samudāgato"
         ],
@@ -6626,8 +6624,8 @@
             "ḥ"
         ]
     },
-    "sbh:923": {},
-    "sbh:924": {
+    "sbh:918": {},
+    "sbh:919": {
         "supplied": [
             "ḥ",
             "ḥ",
@@ -6639,7 +6637,7 @@
             "|"
         ]
     },
-    "sbh:925": {
+    "sbh:920": {
         "supplied": [
             "nā",
             "śīṁ",
@@ -6650,7 +6648,7 @@
             "s"
         ]
     },
-    "sbh:926": {
+    "sbh:921": {
         "supplied": [
             "nāṁ",
             "sa tathātmano",
@@ -6666,7 +6664,7 @@
             "|"
         ]
     },
-    "sbh:927": {
+    "sbh:922": {
         "unclear": [
             "saṁ",
             "|",
@@ -6679,7 +6677,7 @@
             "ḥ"
         ]
     },
-    "sbh:928": {
+    "sbh:923": {
         "supplied": [
             "te",
             "vi",
@@ -6690,13 +6688,13 @@
             "|"
         ]
     },
-    "sbh:929": {
+    "sbh:924": {
         "supplied": [
             "eva",
             "ro"
         ]
     },
-    "sbh:930": {
+    "sbh:925": {
         "supplied": [
             "ta",
             "te"
@@ -6706,7 +6704,7 @@
             "|"
         ]
     },
-    "sbh:931": {
+    "sbh:926": {
         "supplied": [
             "ta",
             "te"
@@ -6715,7 +6713,7 @@
             "ṁ"
         ]
     },
-    "sbh:932": {
+    "sbh:927": {
         "supplied": [
             "rātmano vā"
         ],
@@ -6723,7 +6721,7 @@
             "pare"
         ]
     },
-    "sbh:933": {
+    "sbh:928": {
         "unclear": [
             "ṁ",
             "c",
@@ -6734,17 +6732,17 @@
             "duḥ"
         ]
     },
-    "sbh:934": {
+    "sbh:929": {
         "supplied": [
             "pau"
         ]
     },
-    "sbh:935": {
+    "sbh:930": {
         "supplied": [
             "ṣṭā"
         ]
     },
-    "sbh:936": {
+    "sbh:931": {
         "unclear": [
             "mā"
         ],
@@ -6753,8 +6751,8 @@
             "te"
         ]
     },
-    "sbh:937": {},
-    "sbh:938": {
+    "sbh:932": {},
+    "sbh:933": {
         "unclear": [
             "vi"
         ],
@@ -6763,7 +6761,7 @@
             "te"
         ]
     },
-    "sbh:939": {
+    "sbh:934": {
         "supplied": [
             "ya",
             "tada",
@@ -6778,7 +6776,7 @@
             "a"
         ]
     },
-    "sbh:940": {
+    "sbh:935": {
         "unclear": [
             "paṁca",
             "|",
@@ -6808,8 +6806,8 @@
             "te"
         ]
     },
-    "sbh:941": {},
-    "sbh:942": {
+    "sbh:936": {},
+    "sbh:937": {
         "supplied": [
             "cā",
             "vyavacārya",
@@ -6817,7 +6815,7 @@
             "na"
         ]
     },
-    "sbh:943": {
+    "sbh:938": {
         "supplied": [
             "mva",
             "śī"
@@ -6830,7 +6828,7 @@
             "|"
         ]
     },
-    "sbh:944": {
+    "sbh:939": {
         "supplied": [
             "ttvā",
             "ṣa",
@@ -6844,7 +6842,7 @@
             "kṛtaṁ"
         ]
     },
-    "sbh:945": {
+    "sbh:940": {
         "supplied": [
             "kī",
             "kīṁ",
@@ -6854,7 +6852,7 @@
             "|"
         ]
     },
-    "sbh:946": {
+    "sbh:941": {
         "supplied": [
             "yām"
         ],
@@ -6862,7 +6860,7 @@
             "vidhā"
         ]
     },
-    "sbh:947": {
+    "sbh:942": {
         "supplied": [
             "anityatā",
             "svā",
@@ -6876,7 +6874,7 @@
             "rayā"
         ]
     },
-    "sbh:948": {
+    "sbh:943": {
         "supplied": [
             "rme",
             "tā",
@@ -6889,13 +6887,13 @@
             "ṁ"
         ]
     },
-    "sbh:949": {
+    "sbh:944": {
         "supplied": [
             "tasya"
         ]
     },
-    "sbh:950": {},
-    "sbh:951": {
+    "sbh:945": {},
+    "sbh:946": {
         "supplied": [
             "ṣva"
         ],
@@ -6903,37 +6901,37 @@
             "|"
         ]
     },
-    "sbh:952": {
+    "sbh:947": {
         "supplied": [
             "traṁ",
             "saḥ",
             "hatātmeti"
         ]
     },
-    "sbh:953": {
+    "sbh:948": {
         "supplied": [
             "ttvo",
             "yeta",
             "tatra vā"
         ]
     },
-    "sbh:954": {
+    "sbh:949": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:955": {
+    "sbh:950": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:956": {
+    "sbh:951": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:957": {},
-    "sbh:958": {
+    "sbh:952": {},
+    "sbh:953": {
         "unclear": [
             "na",
             "|",
@@ -6946,14 +6944,14 @@
             "teśca"
         ]
     },
-    "sbh:959": {
+    "sbh:954": {
         "unclear": [
             "ḥ",
             "ḥ",
             "taḥ"
         ]
     },
-    "sbh:960": {
+    "sbh:955": {
         "unclear": [
             "to"
         ],
@@ -6961,7 +6959,7 @@
             "yate | ayamasyocyate | caturṣvāryasatye<span class='unclear'>ṣu"
         ]
     },
-    "sbh:961": {
+    "sbh:956": {
         "supplied": [
             "vyavacārya"
         ],
@@ -6969,7 +6967,7 @@
             "evaṁ tadevaṁ pratisaṁvedī manaskāraḥ | pratyayenopaparīkṣyavyavacārayitvā<span class='supplied'>cārya"
         ]
     },
-    "sbh:962": {
+    "sbh:957": {
         "supplied": [
             "g"
         ],
@@ -6980,7 +6978,7 @@
             "d"
         ]
     },
-    "sbh:963": {
+    "sbh:958": {
         "unclear": [
             "rā",
             "paryanta",
@@ -7023,13 +7021,13 @@
             "bandha"
         ]
     },
-    "sbh:964": {
+    "sbh:959": {
         "unclear": [
             "a",
             "ḥ |"
         ]
     },
-    "sbh:965": {
+    "sbh:960": {
         "unclear": [
             "|"
         ],
@@ -7039,7 +7037,7 @@
             "ḍhami"
         ]
     },
-    "sbh:966": {
+    "sbh:961": {
         "supplied": [
             "tan",
             "smin",
@@ -7051,7 +7049,7 @@
             "yā"
         ]
     },
-    "sbh:967": {
+    "sbh:962": {
         "unclear": [
             "|",
             "nyā",
@@ -7061,7 +7059,7 @@
             "vra"
         ]
     },
-    "sbh:968": {
+    "sbh:963": {
         "gap": [
             "ga"
         ],
@@ -7069,31 +7067,31 @@
             "|"
         ]
     },
-    "sbh:969": {},
-    "sbh:970": {
+    "sbh:964": {},
+    "sbh:965": {
         "unclear": [
             "a"
         ]
     },
-    "sbh:971": {
+    "sbh:966": {
         "supplied": [
             "yān",
             "vidhya<span class='unclear'>ti",
             "kṛtaṁ"
         ]
     },
-    "sbh:972": {
+    "sbh:967": {
         "supplied": [
             "māṁsa"
         ]
     },
-    "sbh:973": {
+    "sbh:968": {
         "unclear": [
             "|",
             "na"
         ]
     },
-    "sbh:974": {
+    "sbh:969": {
         "supplied": [
             "tye",
             "ṇai",
@@ -7107,7 +7105,7 @@
             "a"
         ]
     },
-    "sbh:975": {
+    "sbh:970": {
         "supplied": [
             "yā e"
         ],
@@ -7116,7 +7114,7 @@
             "|"
         ]
     },
-    "sbh:976": {
+    "sbh:971": {
         "unclear": [
             "ṁ"
         ],
@@ -7124,28 +7122,28 @@
             "ñcittasthityāṁ"
         ]
     },
-    "sbh:977": {
+    "sbh:972": {
         "unclear": [
             "ya",
             "|"
         ]
     },
-    "sbh:978": {
+    "sbh:973": {
         "unclear": [
             "|"
         ]
     },
-    "sbh:979": {
+    "sbh:974": {
         "unclear": [
             "mātra"
         ]
     },
-    "sbh:980": {
+    "sbh:975": {
         "supplied": [
             "yayā ta"
         ]
     },
-    "sbh:981": {
+    "sbh:976": {
         "supplied": [
             "māṁsa",
             "lā"
@@ -7160,13 +7158,13 @@
             "ṁ"
         ]
     },
-    "sbh:982": {
+    "sbh:977": {
         "unclear": [
             "|",
             "|"
         ]
     },
-    "sbh:983": {
+    "sbh:978": {
         "unclear": [
             "tā"
         ],
@@ -7187,7 +7185,7 @@
             "............."
         ]
     },
-    "sbh:984": {
+    "sbh:979": {
         "unclear": [
             "nā",
             "nā"
@@ -7200,7 +7198,7 @@
             "yastyāgaḥ"
         ]
     },
-    "sbh:985": {
+    "sbh:980": {
         "gap": [
             ".........."
         ],
@@ -7208,7 +7206,7 @@
             "praviṣṭaḥ/praviśati"
         ]
     },
-    "sbh:986": {
+    "sbh:981": {
         "gap": [
             "......",
             ".........."
@@ -7217,7 +7215,7 @@
             "tau"
         ]
     },
-    "sbh:987": {
+    "sbh:982": {
         "supplied": [
             "no",
             "tiḥ",
@@ -7227,36 +7225,35 @@
             "........."
         ]
     },
-    "sbh:988": {
+    "sbh:983": {
         "gap": [
             "........"
         ]
     },
-    "sbh:989": {
+    "sbh:984": {
         "unclear": [
             "ra"
         ]
     },
-    "sbh:990": {},
-    "sbh:991": {},
-    "sbh:992": {
+    "sbh:985": {},
+    "sbh:986": {
         "supplied": [
             "māṁsa"
         ]
     },
-    "sbh:993": {},
-    "sbh:994": {
+    "sbh:987": {},
+    "sbh:988": {
         "supplied": [
             "ṇāṁ"
         ]
     },
-    "sbh:995": {
+    "sbh:989": {
         "supplied": [
             "ttira"
         ]
     },
-    "sbh:996": {},
-    "sbh:997": {},
-    "sbh:998": {},
-    "sbh:999": {}
+    "sbh:990": {},
+    "sbh:991": {},
+    "sbh:992": {},
+    "sbh:993": {}
 }

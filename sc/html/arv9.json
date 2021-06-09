@@ -1,17 +1,10 @@
 {
-    "arv9:0": "<article id='arv9' lang='san'>",
-    "arv9:1": "<header>",
-    "arv9:2": "<ul>",
-    "arv9:3": "<li class='division'>{}</li>",
-    "arv9:4": "</ul>",
-    "arv9:5": "<h1>{}</h1>",
-    "arv9:6": "</header>",
-    "arv9:7": "<p>{}</p>",
-    "arv9:8": "<ol>",
-    "arv9:9": "<li>{}</li>",
-    "arv9:10": "<li>{}</li>",
-    "arv9:11": "<li>{}</li>",
-    "arv9:12": "<li>{}</li>",
-    "arv9:13": "</ol>",
-    "arv9:14": "<p>{}</p>"
+    "arv9:0": "<article id='arv9' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "arv9:1": "<h1>{}</h1></header>",
+    "arv9:2": "<p>{}</p>",
+    "arv9:3": "<ol><li>{}</li>",
+    "arv9:4": "<li>{}</li>",
+    "arv9:5": "<li>{}</li>",
+    "arv9:6": "<li>{}</li></ol>",
+    "arv9:7": "<p>{}</p>"
 }

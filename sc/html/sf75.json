@@ -1,8 +1,5 @@
 {
-    "sf75:0": "<article id='sf75' lang='san'>",
-    "sf75:1": "<header>",
-    "sf75:2": "<h1>{}</h1>",
-    "sf75:3": "</header>",
-    "sf75:4": "<p>{}</p>",
-    "sf75:5": "<p>{}</p>"
+    "sf75:0": "<article id='sf75' lang='san'><header><h1>{}</h1></header>",
+    "sf75:1": "<p>{}</p>",
+    "sf75:2": "<p>{}</p>"
 }

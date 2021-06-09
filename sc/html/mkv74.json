@@ -1,16 +1,9 @@
 {
-    "mkv74:0": "<article id='mkv74' lang='san'>",
-    "mkv74:1": "<header>",
-    "mkv74:2": "<ul>",
-    "mkv74:3": "<li class='division'>{}</li>",
-    "mkv74:4": "</ul>",
-    "mkv74:5": "<h1>{}</h1>",
-    "mkv74:6": "</header>",
-    "mkv74:7": "<p>{}</p>",
-    "mkv74:8": "<p>{}</p>",
-    "mkv74:9": "<blockquote class='gatha'>",
-    "mkv74:10": "<p>{}<br>",
-    "mkv74:11": "{}</p>",
-    "mkv74:12": "</blockquote>",
-    "mkv74:13": "<p class='endsection'>{}</p>"
+    "mkv74:0": "<article id='mkv74' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv74:1": "<h1>{}</h1></header>",
+    "mkv74:2": "<p>{}</p>",
+    "mkv74:3": "<p>{}</p>",
+    "mkv74:4": "<blockquote class='gatha'><p>{}<br>",
+    "mkv74:5": "{}</p></blockquote>",
+    "mkv74:6": "<p class='endsection'>{}</p>"
 }

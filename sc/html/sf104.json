@@ -1,15 +1,10 @@
 {
-    "sf104:0": "<article id='sf298' lang='san'>",
-    "sf104:1": "<header>",
-    "sf104:2": "<h1>{}</h1>",
-    "sf104:3": "</header>",
-    "sf104:4": "<p><span class='evam'>{}</p>",
-    "sf104:5": "<blockquote class='gatha'>",
+    "sf104:0": "<article id='sf298' lang='san'><header><h1>{}</h1></header>",
+    "sf104:1": "<p><span class='evam'>{}</p>",
+    "sf104:2": "<blockquote class='gatha'><p>{}<br>",
+    "sf104:3": "{}</p>",
+    "sf104:4": "<p>{}<br>",
+    "sf104:5": "{}</p>",
     "sf104:6": "<p>{}<br>",
-    "sf104:7": "{}</p>",
-    "sf104:8": "<p>{}<br>",
-    "sf104:9": "{}</p>",
-    "sf104:10": "<p>{}<br>",
-    "sf104:11": "{}</p>",
-    "sf104:12": "</blockquote>"
+    "sf104:7": "{}</p></blockquote>"
 }

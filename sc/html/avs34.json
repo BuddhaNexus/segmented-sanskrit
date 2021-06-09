@@ -1,17 +1,12 @@
 {
-    "avs34:0": "<article id='avs34' lang='san'>",
-    "avs34:1": "<header>",
-    "avs34:2": "<ul>",
-    "avs34:3": "<li class='division'>{}</li>",
-    "avs34:4": "<li class='vagga'>{}</li>",
-    "avs34:5": "</ul>",
-    "avs34:6": "<h1>{}</h1>",
-    "avs34:7": "</header>",
+    "avs34:0": "<article id='avs34' lang='san'><header><ul><li class='division'>{}</li>",
+    "avs34:1": "<li class='vagga'>{}</li></ul>",
+    "avs34:2": "<h1>{}</h1></header>",
+    "avs34:3": "<p>{}</p>",
+    "avs34:4": "<p>{}</p>",
+    "avs34:5": "<p>{}</p>",
+    "avs34:6": "<p>{}</p>",
+    "avs34:7": "<p>{}</p>",
     "avs34:8": "<p>{}</p>",
-    "avs34:9": "<p>{}</p>",
-    "avs34:10": "<p>{}</p>",
-    "avs34:11": "<p>{}</p>",
-    "avs34:12": "<p>{}</p>",
-    "avs34:13": "<p>{}</p>",
-    "avs34:14": "<p>{}</p>"
+    "avs34:9": "<p>{}</p>"
 }

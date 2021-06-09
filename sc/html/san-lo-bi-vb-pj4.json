@@ -1,7 +1,4 @@
 {
-    "san-lo-bi-vb-pj4:0": "<article id='san-lo-bi-vb-pj4' lang='san'>",
-    "san-lo-bi-vb-pj4:1": "<header>",
-    "san-lo-bi-vb-pj4:2": "<h1>{}</h1>",
-    "san-lo-bi-vb-pj4:3": "</header>",
-    "san-lo-bi-vb-pj4:4": "<p>{}</p>"
+    "san-lo-bi-vb-pj4:0": "<article id='san-lo-bi-vb-pj4' lang='san'><header><h1>{}</h1></header>",
+    "san-lo-bi-vb-pj4:1": "<p>{}</p>"
 }

@@ -4,21 +4,14 @@
     "avs39:2": {},
     "avs39:3": {},
     "avs39:4": {},
-    "avs39:5": {},
-    "avs39:6": {},
-    "avs39:7": {},
-    "avs39:8": {},
-    "avs39:9": {},
-    "avs39:10": {
+    "avs39:5": {
         "add": [
             "V: The portion from tathāgatenaitāni up to khalu dehinām is out of place here."
         ]
     },
-    "avs39:11": {},
-    "avs39:12": {},
-    "avs39:13": {},
-    "avs39:14": {},
-    "avs39:15": {
+    "avs39:6": {},
+    "avs39:7": {},
+    "avs39:8": {
         "gap": [
             "###"
         ],
@@ -26,5 +19,5 @@
             "There seem to be a long gap."
         ]
     },
-    "avs39:16": {}
+    "avs39:9": {}
 }

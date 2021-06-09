@@ -1,67 +1,64 @@
 {
-    "sf172:0": {},
-    "sf172:1": {},
-    "sf172:2": {
+    "sf172:0": {
         "add": [
             "Dṛṣṭisampannasūtra"
         ]
     },
-    "sf172:3": {},
-    "sf172:4": {},
-    "sf172:5": {
+    "sf172:1": {},
+    "sf172:2": {
         "supplied": [
             "yu"
         ]
     },
-    "sf172:6": {},
-    "sf172:7": {
+    "sf172:3": {},
+    "sf172:4": {
         "supplied": [
             "d a",
             "śa",
             "kuryāḥ"
         ]
     },
-    "sf172:8": {
+    "sf172:5": {
         "supplied": [
             "yu",
             "k",
             "sṭh"
         ]
     },
-    "sf172:9": {
+    "sf172:6": {
         "supplied": [
             "ṛjv",
             "ā ca",
             "v"
         ]
     },
-    "sf172:10": {},
-    "sf172:11": {},
-    "sf172:12": {
+    "sf172:7": {},
+    "sf172:8": {},
+    "sf172:9": {
         "supplied": [
             "mūlam"
         ]
     },
-    "sf172:13": {
+    "sf172:10": {
         "supplied": [
             "ka"
         ]
     },
-    "sf172:14": {
+    "sf172:11": {
         "supplied": [
             "ku",
             "śa",
             "vaṁ"
         ]
     },
-    "sf172:15": {
+    "sf172:12": {
         "supplied": [
             "ū",
             "prajā",
             "kuśala"
         ]
     },
-    "sf172:16": {
+    "sf172:13": {
         "supplied": [
             "ko ’",
             "r",
@@ -74,14 +71,14 @@
             "ddha"
         ]
     },
-    "sf172:17": {
+    "sf172:14": {
         "supplied": [
             "n",
             "mahākoṣṭhila a"
         ]
     },
-    "sf172:18": {},
-    "sf172:19": {
+    "sf172:15": {},
+    "sf172:16": {
         "supplied": [
             "kim āhārān yathā",
             "d",
@@ -90,7 +87,7 @@
             "hārān yathābhū"
         ]
     },
-    "sf172:20": {
+    "sf172:17": {
         "supplied": [
             "āti | tṛṣṇā p",
             "na",
@@ -98,7 +95,7 @@
             "j"
         ]
     },
-    "sf172:21": {
+    "sf172:18": {
         "supplied": [
             "im ā",
             "ūtaṁ",
@@ -107,7 +104,7 @@
             "mo"
         ]
     },
-    "sf172:22": {
+    "sf172:19": {
         "supplied": [
             "pratipadaṁ",
             "ṣ",
@@ -116,7 +113,7 @@
             "ra"
         ]
     },
-    "sf172:23": {
+    "sf172:20": {
         "supplied": [
             "ya",
             "āh",
@@ -124,44 +121,44 @@
             "ṁ"
         ]
     },
-    "sf172:24": {
+    "sf172:21": {
         "supplied": [
             "vi"
         ]
     },
-    "sf172:25": {
+    "sf172:22": {
         "supplied": [
             "eva paryāyaḥ | aho svid a"
         ]
     },
-    "sf172:26": {
+    "sf172:23": {
         "supplied": [
             "ṁ",
             "n",
             "rodhagāminīṁ pratipadaṁ ya"
         ]
     },
-    "sf172:27": {
+    "sf172:24": {
         "supplied": [
             "vo ’",
             "ānāti"
         ]
     },
-    "sf172:28": {
+    "sf172:25": {
         "supplied": [
             "im ās",
             "ava",
             "da"
         ]
     },
-    "sf172:29": {
+    "sf172:26": {
         "supplied": [
             "ni",
             "va",
             "nā"
         ]
     },
-    "sf172:30": {
+    "sf172:27": {
         "supplied": [
             "i",
             "ṁ",
@@ -169,28 +166,28 @@
             "va"
         ]
     },
-    "sf172:31": {
+    "sf172:28": {
         "supplied": [
             "va",
             "gā",
             "ṁ"
         ]
     },
-    "sf172:32": {},
-    "sf172:33": {
+    "sf172:29": {},
+    "sf172:30": {
         "supplied": [
             "yu",
             "tra"
         ]
     },
-    "sf172:34": {
+    "sf172:31": {
         "supplied": [
             "bhū",
             "niro",
             "nīṁ pra"
         ]
     },
-    "sf172:35": {
+    "sf172:32": {
         "supplied": [
             "duḥ",
             "mara",
@@ -202,7 +199,7 @@
             "ḥ"
         ]
     },
-    "sf172:36": {
+    "sf172:33": {
         "supplied": [
             "ya",
             "ā",
@@ -210,14 +207,14 @@
             "da"
         ]
     },
-    "sf172:37": {
+    "sf172:34": {
         "supplied": [
             "ḥ",
             "e",
             "i"
         ]
     },
-    "sf172:38": {
+    "sf172:35": {
         "supplied": [
             "ṣṭ",
             "ṅg",
@@ -225,25 +222,25 @@
             "ṁ"
         ]
     },
-    "sf172:39": {},
-    "sf172:40": {
+    "sf172:36": {},
+    "sf172:37": {
         "supplied": [
             "ti"
         ]
     },
-    "sf172:41": {
+    "sf172:38": {
         "supplied": [
             "y",
             "d ā"
         ]
     },
-    "sf172:42": {
+    "sf172:39": {
         "supplied": [
             "thā",
             "samu"
         ]
     },
-    "sf172:43": {
+    "sf172:40": {
         "supplied": [
             "p",
             "aj",
@@ -251,7 +248,7 @@
             "i"
         ]
     },
-    "sf172:44": {
+    "sf172:41": {
         "supplied": [
             "ṇa",
             "mu",
@@ -260,63 +257,63 @@
             "yaḥ"
         ]
     },
-    "sf172:45": {},
-    "sf172:46": {
+    "sf172:42": {},
+    "sf172:43": {
         "supplied": [
             "m",
             "rvavat"
         ]
     },
-    "sf172:47": {
+    "sf172:44": {
         "supplied": [
             "yataś cāryaśrāvaka eva",
             "raṇa"
         ]
     },
-    "sf172:48": {
+    "sf172:45": {
         "supplied": [
             "tā"
         ]
     },
-    "sf172:49": {
+    "sf172:46": {
         "supplied": [
             "ṣ",
             "e",
             "ta"
         ]
     },
-    "sf172:50": {
+    "sf172:47": {
         "supplied": [
             "bhūtaṁ prajānā",
             "ṁskā",
             "ya"
         ]
     },
-    "sf172:51": {
+    "sf172:48": {
         "supplied": [
             "iṁ",
             "skāro"
         ]
     },
-    "sf172:52": {
+    "sf172:49": {
         "supplied": [
             "kārasa",
             "muda",
             "da"
         ]
     },
-    "sf172:53": {
+    "sf172:50": {
         "supplied": [
             "avidyāyā nirodhāt saṁskāranirodhaḥ | a",
             "ṁ"
         ]
     },
-    "sf172:54": {
+    "sf172:51": {
         "supplied": [
             "rgaḥ pūrvavat |"
         ]
     },
-    "sf172:55": {
+    "sf172:52": {
         "supplied": [
             "yataś cāyuṣ",
             "an",
@@ -325,7 +322,7 @@
             "ni"
         ]
     },
-    "sf172:56": {
+    "sf172:53": {
         "supplied": [
             "ryaśrāvako ’",
             "i",
@@ -338,7 +335,7 @@
             "u"
         ]
     },
-    "sf172:57": {
+    "sf172:54": {
         "supplied": [
             "k",
             "n nv ā",
@@ -346,7 +343,7 @@
             "ṣa eva paryā"
         ]
     },
-    "sf172:58": {
+    "sf172:55": {
         "supplied": [
             "sara",
             "m",
@@ -358,7 +355,7 @@
             "ktā bhavati vidyotpannā |"
         ]
     },
-    "sf172:59": {
+    "sf172:56": {
         "supplied": [
             "n",
             "v a",

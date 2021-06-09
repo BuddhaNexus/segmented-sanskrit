@@ -6,18 +6,18 @@
     "san-lo-mvu101:4": {},
     "san-lo-mvu101:5": {},
     "san-lo-mvu101:6": {},
-    "san-lo-mvu101:7": {},
+    "san-lo-mvu101:7": {
+        "gap": [
+            "+ + + + + + + + +"
+        ]
+    },
     "san-lo-mvu101:8": {},
     "san-lo-mvu101:9": {},
     "san-lo-mvu101:10": {},
     "san-lo-mvu101:11": {},
     "san-lo-mvu101:12": {},
     "san-lo-mvu101:13": {},
-    "san-lo-mvu101:14": {
-        "gap": [
-            "+ + + + + + + + +"
-        ]
-    },
+    "san-lo-mvu101:14": {},
     "san-lo-mvu101:15": {},
     "san-lo-mvu101:16": {},
     "san-lo-mvu101:17": {},
@@ -52,14 +52,5 @@
     "san-lo-mvu101:46": {},
     "san-lo-mvu101:47": {},
     "san-lo-mvu101:48": {},
-    "san-lo-mvu101:49": {},
-    "san-lo-mvu101:50": {},
-    "san-lo-mvu101:51": {},
-    "san-lo-mvu101:52": {},
-    "san-lo-mvu101:53": {},
-    "san-lo-mvu101:54": {},
-    "san-lo-mvu101:55": {},
-    "san-lo-mvu101:56": {},
-    "san-lo-mvu101:57": {},
-    "san-lo-mvu101:58": {}
+    "san-lo-mvu101:49": {}
 }

@@ -1,13 +1,8 @@
 {
-    "san-lo-bi-vb-as3:0": "<article id='san-lo-bi-vb-as3' lang='san'>",
-    "san-lo-bi-vb-as3:1": "<header>",
-    "san-lo-bi-vb-as3:2": "<ul>",
-    "san-lo-bi-vb-as3:3": "<li class='division'>{}</li>",
-    "san-lo-bi-vb-as3:4": "</ul>",
-    "san-lo-bi-vb-as3:5": "<h1>{}</h1>",
-    "san-lo-bi-vb-as3:6": "</header>",
-    "san-lo-bi-vb-as3:7": "<p>{}</p>",
-    "san-lo-bi-vb-as3:8": "<p class='uddana'>{}</p>",
-    "san-lo-bi-vb-as3:9": "<h2>{}</h2>",
-    "san-lo-bi-vb-as3:10": "<p>{}</p>"
+    "san-lo-bi-vb-as3:0": "<article id='san-lo-bi-vb-as3' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-bi-vb-as3:1": "<h1>{}</h1></header>",
+    "san-lo-bi-vb-as3:2": "<p>{}</p>",
+    "san-lo-bi-vb-as3:3": "<p class='uddana'>{}</p>",
+    "san-lo-bi-vb-as3:4": "<h2>{}</h2>",
+    "san-lo-bi-vb-as3:5": "<p>{}</p>"
 }

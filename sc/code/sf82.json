@@ -1,16 +1,13 @@
 {
     "sf82:0": {},
-    "sf82:1": {},
-    "sf82:2": {},
-    "sf82:3": {},
-    "sf82:4": {
+    "sf82:1": {
         "supplied": [
             "bhagavān rājagṛhe viharati veṇuvane kalandakanivāpe. tena khalu samayena tasmin rājagṛhe",
             "prativasati sumāgadhāyāḥ puṣkaraṇyās tīre. <span class='gap'>…",
             "ānāṁ śākyaputrīyāṇāṁ dharmaḥ. ājñāyaivāhaṁ tasmād dharmavinayād apakrāntaḥ."
         ]
     },
-    "sf82:5": {
+    "sf82:2": {
         "supplied": [
             "atha saṁbahulā bhikṣavaḥ",
             "dāya rājagṛhaṁ piṇḍāya prāviśan. aśrauṣuḥ saṁbahulā bhikṣavo rājagṛhaṁ piṇḍāya carantaḥ. a",
@@ -19,7 +16,7 @@
             "kṣavo bhagavantam idam avocan."
         ]
     },
-    "sf82:6": {
+    "sf82:3": {
         "supplied": [
             "iha vayaṁ bhadanta saṁbahulā bhikṣavaḥ pūrvāhṇe nivāsya pātracīvara",
             "āviśāma. aśrauṣma vayaṁ saṁbahulā bhikṣavo rājagṛhaṁ piṇḍāya carantaḥ. asmiṁ rājagṛhe śarabho nā",
@@ -27,7 +24,7 @@
             "m upādāya. adhivāsayati bhagavān saṁbahulānāṁ bhikṣūṇāṁ tūṣṇīṁbhavena."
         ]
     },
-    "sf82:7": {
+    "sf82:4": {
         "supplied": [
             "atha bhagavān sāyāhne pratisaṁlayanād",
             "rivrājakaḥ sumāgadhāyāḥ puṣkaraṇyās tīre tenopajagāma. adrākṣīc charabhaḥ parivrājako bhagavantaṁ dūrata eva. dṛṣṭvā ca pu",
@@ -35,22 +32,23 @@
             "m avocat."
         ]
     },
-    "sf82:8": {
+    "sf82:5": {
         "supplied": [
             "satyaṁ khalu tvaṁ śarabha, evaṁ vadasi. ājñāto me śramaṇānāṁ śākyaputrīyāṇāṁ dharmaḥ. ājñāyaivāhaṁ ta"
         ]
     },
-    "sf82:9": {
+    "sf82:6": {
         "supplied": [
-            "vam uktaḥ śarabhaḥ parivrājakaḥ tūṣṇīm evābhūt. <span class='gap'>…",
+            "vam uktaḥ śarabhaḥ parivrājakaḥ tūṣṇīm evābhūt. ",
             "t te paripūrṇaṁ bhaviṣyati vayam anumodayiṣyāmaḥ. sacet te aparipūrṇaṁ bhaviṣyati vayaṁ te paripūrṇayiṣyāmaḥ. a",
             "tūṣṇīm evābhūt. dvir api trir api śarabhaḥ parivrājakaḥ tūṣṇīm evābhūt."
         ],
         "gap": [
+            "…",
             "…"
         ]
     },
-    "sf82:10": {
+    "sf82:7": {
         "supplied": [
             "atha śarabhasya parivrājakasya svakāḥ sabra",
             "kam idam avocan. yad eva tvaṁ śramaṇaṁ gautamam upasaṁkramyeyaiva tad eva te śramaṇaḥ gautama upa",
@@ -62,7 +60,7 @@
             "…"
         ]
     },
-    "sf82:11": {
+    "sf82:8": {
         "supplied": [
             "atha bhagavān śarabhaṁ parivrājakam idam avocat. yo me saced evaṁ vadet, na śramaṇasya gautamasya tathāgataḥ",
             "sādhu ca suṣṭhu ca samanuyuñjyāṁ samanugāhyāṁ. tasya sādhu ca suṣṭhu ca samanuyuñjyamānasya samanugāhyamānasya, a",
@@ -73,7 +71,7 @@
             "…"
         ]
     },
-    "sf82:12": {
+    "sf82:9": {
         "supplied": [
             "yo me sace",
             "tamasya dharmavinayaḥ, tam ahaṁ sādhu ca suṣṭhu ca samanuyuñjyāṁ samanugāhyāṁ. pūrvavad yāvat tadya",
@@ -84,23 +82,26 @@
             "…"
         ]
     },
-    "sf82:13": {
+    "sf82:10": {
         "supplied": [
             "atha bhagavān sumāgadhāyāḥ puṣkaraṇyās tīre pariṣadi sa",
             "yāsanāt prakrāntaḥ."
         ]
     },
-    "sf82:14": {
+    "sf82:11": {
         "supplied": [
             "atha śarabhasya parivrājakasya svakāḥ sabrahmacāriṇaḥ śarabhaṁ parivrājakam idam avo",
             "ś chinnaviṣāṇaḥ śūnyāyāṁ gośālāyāṁ mahānādaṁ naditavyaṁ manyeta, evam eva tvam anyatra śramaṇād gauta",
-            "aditavyaṁ manyase. tadyathā śarabha bhaḍḍalikā puṁrutakaṁ raviṣyāmīti bhaḍḍalikārutakam eva ravati. <span class='gap'>…",
+            "aditavyaṁ manyase. tadyathā śarabha bhaḍḍalikā puṁrutakaṁ raviṣyāmīti bhaḍḍalikārutakam eva ravati. ",
             "d a",
             ".. tvam anyatra śramaṇād gautamāt pariṣadi siṁhanādaṁ naditavyaṁ manyase. tadyathā śarabha śṛgālo",
             "raviṣyāmīti śṛgālaravitakaṁ ravati. evam eva tvam anyatra śramaṇād gautamāt pariśadi siṁhanādaṁ manyase."
+        ],
+        "gap": [
+            "…"
         ]
     },
-    "sf82:15": {
+    "sf82:12": {
         "supplied": [
             "atha śarabhasya pari",
             "hmacāriṇaḥ <span class='gap'>…"

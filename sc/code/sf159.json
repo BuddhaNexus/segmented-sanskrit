@@ -1,13 +1,10 @@
 {
-    "sf159:0": {},
-    "sf159:1": {},
-    "sf159:2": {
+    "sf159:0": {
         "add": [
             "Kumbhasūtra"
         ]
     },
-    "sf159:3": {},
-    "sf159:4": {
+    "sf159:1": {
         "supplied": [
             "atā bhikṣavo bhikṣuḥ pa",
             "īmā",
@@ -17,13 +14,13 @@
             "r"
         ]
     },
-    "sf159:5": {
+    "sf159:2": {
         "supplied": [
             "ga",
             "nmūlakā bhadanta dharmāḥ pūrvavad yāvad bhāṣiṣye |"
         ]
     },
-    "sf159:6": {
+    "sf159:3": {
         "supplied": [
             "ḥ",
             "naḥ parimī",
@@ -42,7 +39,7 @@
             "bhavam |"
         ]
     },
-    "sf159:7": {
+    "sf159:4": {
         "supplied": [
             "sa evaṁ parimī",
             "āṁsamāno jān",
@@ -58,7 +55,7 @@
             "cched"
         ]
     },
-    "sf159:8": {
+    "sf159:5": {
         "supplied": [
             "nirodhagāminī pratipat tāṁ ya",
             "pannaś ca",
@@ -67,7 +64,7 @@
             "dhinirodhāya |"
         ]
     },
-    "sf159:9": {
+    "sf159:6": {
         "supplied": [
             "punar aparaṁ bhikṣuḥ",
             "ṁ",
@@ -80,7 +77,7 @@
             "ḥ |"
         ]
     },
-    "sf159:10": {
+    "sf159:7": {
         "supplied": [
             "rimīmāṁsamāno jānāti |",
             "upadhis",
@@ -92,7 +89,7 @@
             "paryādānaṁ gacche"
         ]
     },
-    "sf159:11": {
+    "sf159:8": {
         "supplied": [
             "prati",
             "ra",
@@ -104,7 +101,7 @@
             "rodh"
         ]
     },
-    "sf159:12": {
+    "sf159:9": {
         "supplied": [
             "punar aparaṁ",
             "naḥ",
@@ -114,7 +111,7 @@
             "kiṁprabhavā |"
         ]
     },
-    "sf159:13": {
+    "sf159:10": {
         "supplied": [
             "vedanā",
             "dā",
@@ -124,13 +121,13 @@
             "rudhyeta |"
         ]
     },
-    "sf159:14": {
+    "sf159:11": {
         "supplied": [
             "sa yā ca tṛṣṇānirodhagāminī",
             "thābhūtaṁ prajānāti | tathā pratipannaś ca bhavaty anudharmacārī | ayam ucyate bhikṣuḥ samyagduḥkhakṣayāya duḥkhasyāntakriyāyai pratipanno yad uta vedanānirodhāya |"
         ]
     },
-    "sf159:15": {
+    "sf159:12": {
         "supplied": [
             "punar aparaṁ bhikṣuḥ pari",
             "āṁ",
@@ -138,7 +135,7 @@
             "iṁpra"
         ]
     },
-    "sf159:16": {
+    "sf159:13": {
         "supplied": [
             "sa evaṁ",
             "mīmāṁsamāno jānāti | veda",
@@ -149,7 +146,7 @@
             "e"
         ]
     },
-    "sf159:17": {
+    "sf159:14": {
         "supplied": [
             "ca vedanānirodhagāminī pratipat tāṁ yathābhūtaṁ prajānāti | tathā pratipannaś ca bhavaty anu",
             "ayam ucyate bhikṣuḥ",
@@ -158,7 +155,7 @@
             "parśanirodhāya |"
         ]
     },
-    "sf159:18": {
+    "sf159:15": {
         "supplied": [
             "punar a",
             "parimīmāṁsamānaḥ",
@@ -168,7 +165,7 @@
             "vaḥ |"
         ]
     },
-    "sf159:19": {
+    "sf159:16": {
         "supplied": [
             "sa e",
             "ī",
@@ -188,7 +185,7 @@
             "i"
         ]
     },
-    "sf159:20": {
+    "sf159:17": {
         "supplied": [
             "ānā",
             "bhava",
@@ -199,7 +196,7 @@
             "yad uta ṣaḍā"
         ]
     },
-    "sf159:21": {
+    "sf159:18": {
         "supplied": [
             "punar a",
             "māṁsamā",
@@ -209,7 +206,7 @@
             "kiṁjātīyaṁ"
         ]
     },
-    "sf159:22": {
+    "sf159:19": {
         "supplied": [
             "parimī",
             "ṁ",
@@ -225,7 +222,7 @@
             "m apy asya nirudhyeta |"
         ]
     },
-    "sf159:23": {
+    "sf159:20": {
         "supplied": [
             "yā ca ṣaḍāyatana",
             "dhagāminī pratipat tāṁ yathābhūtaṁ prajān",
@@ -233,7 +230,7 @@
             "ṣayāya duḥkhasyāntakriyāyai pratipanno yad uta nāmarūpanirodhāya |"
         ]
     },
-    "sf159:24": {
+    "sf159:21": {
         "supplied": [
             "punar a",
             "ṁ",
@@ -244,20 +241,20 @@
             "nāmarūpaṁ punaḥ kinnidānaṁ kiṁsamudayaṁ kiṁjātīyaṁ kiṁprabhavam |"
         ]
     },
-    "sf159:25": {
+    "sf159:22": {
         "supplied": [
             "sa evaṁ parimīmāṁsamāno jānāti | nāmarūpaṁ vijñānanidānaṁ vijñānasamudayaṁ vijñānajā",
             "ṁ",
             "m apariśeṣaṁ nirudhyetāpariśeṣam adhyastaṁ parikṣayaṁ paryādā"
         ]
     },
-    "sf159:26": {
+    "sf159:23": {
         "supplied": [
             "nirodhagāminī pratipat tāṁ yathābhūtaṁ prajānāti | tathā prati",
             "ḥkhakṣayāya duḥkhasyāntakriyāyai pratipanno yad uta"
         ]
     },
-    "sf159:27": {
+    "sf159:24": {
         "supplied": [
             "ḥ parimīmāṁsate samyagduḥkhakṣayāya duḥkhasyānta",
             "ri",
@@ -265,7 +262,7 @@
             "ṁ"
         ]
     },
-    "sf159:28": {
+    "sf159:25": {
         "supplied": [
             "sa evaṁ",
             "skāra",
@@ -287,7 +284,7 @@
             "gacched vijñā"
         ]
     },
-    "sf159:29": {
+    "sf159:26": {
         "supplied": [
             "sa",
             "āmi",
@@ -300,7 +297,7 @@
             "nirodhāya |"
         ]
     },
-    "sf159:30": {
+    "sf159:27": {
         "supplied": [
             "punar aparaṁ bhikṣuḥ",
             "syāntakriyā",
@@ -308,7 +305,7 @@
             "naḥ kinni"
         ]
     },
-    "sf159:31": {
+    "sf159:28": {
         "supplied": [
             "rā avidyā",
             "vidyāsamuda",
@@ -321,7 +318,7 @@
             "t saṁskārā apy asya nirudhyeran |"
         ]
     },
-    "sf159:32": {
+    "sf159:29": {
         "supplied": [
             "sa yā ca saṁskāranirodhagāminī pratipat tāṁ yathā",
             "taṁ prajā",
@@ -331,7 +328,7 @@
             "v"
         ]
     },
-    "sf159:33": {
+    "sf159:30": {
         "supplied": [
             "n",
             "adh",
@@ -347,7 +344,7 @@
             "dyā"
         ]
     },
-    "sf159:34": {
+    "sf159:31": {
         "supplied": [
             "yataś ca",
             "i",
@@ -362,7 +359,7 @@
             "n"
         ]
     },
-    "sf159:35": {
+    "sf159:32": {
         "supplied": [
             "dha",
             "t",
@@ -371,7 +368,7 @@
             "t"
         ]
     },
-    "sf159:36": {
+    "sf159:33": {
         "supplied": [
             "śr",
             "kt",
@@ -388,7 +385,7 @@
             "ve"
         ]
     },
-    "sf159:37": {
+    "sf159:34": {
         "supplied": [
             "vī",
             "u",

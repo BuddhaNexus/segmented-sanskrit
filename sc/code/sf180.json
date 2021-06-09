@@ -1,41 +1,38 @@
 {
-    "sf180:0": {},
-    "sf180:1": {},
-    "sf180:2": {
+    "sf180:0": {
         "add": [
             "Ekottarikāgama 3"
         ]
     },
-    "sf180:3": {},
-    "sf180:4": {
+    "sf180:1": {
         "supplied": [
             "ntam aguptam arakṣitam asaṁvṛtam abhāvita",
             "bhavati |"
         ]
     },
-    "sf180:5": {
+    "sf180:2": {
         "supplied": [
             "tasmāt tarhy evaṁ śikṣitavyaṁ"
         ]
     },
-    "sf180:6": {
+    "sf180:3": {
         "supplied": [
             "dharmam api samanupaśyāmi yad evam su",
             "vipākaṁ bhavati |"
         ]
     },
-    "sf180:7": {
+    "sf180:4": {
         "supplied": [
             "tasmāt tarhy evaṁ śikṣitavyaṁ"
         ]
     },
-    "sf180:8": {
+    "sf180:5": {
         "supplied": [
             "pākam eva anarthāya arthāya",
             "pārihāṇāya apārihāṇāya || ||"
         ]
     },
-    "sf180:9": {
+    "sf180:6": {
         "supplied": [
             "a",
             "dāntam aguptam arakṣitam asaṁv",
@@ -43,25 +40,25 @@
             "a"
         ]
     },
-    "sf180:10": {
+    "sf180:7": {
         "supplied": [
             "m abhāvitaṁ saṁrāgā",
             "śikṣitavyaṁ ||"
         ]
     },
-    "sf180:11": {
+    "sf180:8": {
         "supplied": [
             "nāham e",
             "daṁ cittaṁ | cittaṁ hi bhikṣa",
             "ḥ sudāntaṁ suguptaṁ surakṣitaṁ susaṁvṛtaṁ"
         ]
     },
-    "sf180:12": {
+    "sf180:9": {
         "supplied": [
             "vitam asaṁrāgāya saṁvartsyati evaṁ vo bhikṣavaḥ śikṣitavyaṁ ||"
         ]
     },
-    "sf180:13": {
+    "sf180:10": {
         "supplied": [
             "yathā saṁrā",
             "a sa",

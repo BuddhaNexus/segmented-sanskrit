@@ -1,34 +1,31 @@
 {
-    "sf84:0": {},
-    "sf84:1": {},
-    "sf84:2": {
+    "sf84:0": {
         "add": [
             "Brāhmaṇasatyānisūtra"
         ]
     },
-    "sf84:3": {},
-    "sf84:4": {
+    "sf84:1": {
         "supplied": [
             "bhagavān rājagṛhe viharati veṇuvane kalandakanivāpe. atha saṁbahu",
             "ānāṁ sumāgadhāyāḥ puṣkariṇyās tīre sanniṣaṇṇānāṁ sannipatitānām ayaṁ evaṁrūpo ’bhūd antarākathāsa",
             "aṇasatyāni. ity api brāhmaṇasatyāni."
         ]
     },
-    "sf84:5": {
+    "sf84:2": {
         "supplied": [
             "aśrauṣīd bhagavāṁs teṣāṁ saṁbahulānāṁ brāhmaṇaparivrājakānāṁ",
             "re sanniṣaṇṇānāṁ sannipatitānām ayam evaṁrūpo ’bhūd antarākathāsamudāhāro divāvihāropagato divyena śrotreṇa vi",
             "śrutvā ca punar yena sumāgadhāyāḥ puṣkariṇyās tīraṁ tenopajagāma."
         ]
     },
-    "sf84:6": {
+    "sf84:3": {
         "supplied": [
             "adrākṣuḥ saṁbahulā brāhmaṇaparivrājakā bhagavantaṁ",
             "agavato ’rthāyāsanaṁ prajñapayanty evaṁ cāhur. niṣīdataṁ bhagavān prajñapta evāsane. nyaṣīdad bhagavān pra",
             "bhagavān saṁbahulān brāhmaṇaparivrājakān idam avocat."
         ]
     },
-    "sf84:7": {
+    "sf84:4": {
         "supplied": [
             "kā nu yuṣmākaṁ saṁbahulānāṁ brāhmaṇaparivrājakānāṁ sumāgadhāyāḥ puṣka",
             "nāṁ sannipatitānām antarākathā viprakṛtā. kayā cātha kathayaitarhi sanniṣaṇṇāḥ sannipatitāḥ. ihā",
@@ -37,26 +34,26 @@
             "riṇyās tīre sanniṣaṇṇānāṁ sannipatitānām antarākathā viprakṛtā. tayā ca bho gautama kathayai"
         ]
     },
-    "sf84:8": {
+    "sf84:5": {
         "supplied": [
             "imāni brāhmaṇasatyāni. yāni mayā svayam abhijñāya sākṣīkṛtvopasaṁpadya praveditā"
         ]
     },
-    "sf84:9": {
+    "sf84:6": {
         "supplied": [
             "ḥ. sarve prāṇino ’vadhā iti vadamānā brāhmaṇāḥ satyam āhur na mṛśā. śreyāṁsaḥ sma i",
             "iti manyante yad atra satyaṁ tad anabhiniveśya sarvaloke maitrāsahagatena cittena viharan",
             "m abhijñāya sākṣīkṛtvopasaṁpadya praveditaṁ."
         ]
     },
-    "sf84:10": {
+    "sf84:7": {
         "supplied": [
             "brāhmaṇā evam āhuḥ. yat kiṁcit samudayadharmaṁ sa",
             "brāhmaṇāḥ satyam āhur na mṛśā. pūrvavad yāvad iti yad atra satyaṁ tad anabhiniviśya sarvaloke udayavyayā",
             "hmaṇasatyaṁ yan mayā svayam abhijñāya sākṣīkṛtvopasaṁpadya praveditaṁ."
         ]
     },
-    "sf84:11": {
+    "sf84:8": {
         "supplied": [
             "brāhmaṇā eva",
             "a kvacana kaścana kiñcanam astīti vadamānā brāhmaṇāḥ satyam āhur na mṛśā. pūrvava",

@@ -1,17 +1,12 @@
 {
-    "avs33:0": "<article id='avs33' lang='san'>",
-    "avs33:1": "<header>",
-    "avs33:2": "<ul>",
-    "avs33:3": "<li class='division'>{}</li>",
-    "avs33:4": "<li class='vagga'>{}</li>",
-    "avs33:5": "</ul>",
-    "avs33:6": "<h1>{}</h1>",
-    "avs33:7": "</header>",
+    "avs33:0": "<article id='avs33' lang='san'><header><ul><li class='division'>{}</li>",
+    "avs33:1": "<li class='vagga'>{}</li></ul>",
+    "avs33:2": "<h1>{}</h1></header>",
+    "avs33:3": "<p>{}</p>",
+    "avs33:4": "<p>{}</p>",
+    "avs33:5": "<p>{}</p>",
+    "avs33:6": "<p>{}</p>",
+    "avs33:7": "<p>{}</p>",
     "avs33:8": "<p>{}</p>",
-    "avs33:9": "<p>{}</p>",
-    "avs33:10": "<p>{}</p>",
-    "avs33:11": "<p>{}</p>",
-    "avs33:12": "<p>{}</p>",
-    "avs33:13": "<p>{}</p>",
-    "avs33:14": "<p>{}</p>"
+    "avs33:9": "<p>{}</p>"
 }

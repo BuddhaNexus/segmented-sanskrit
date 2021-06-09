@@ -1,16 +1,11 @@
 {
     "san-lo-mvu15:0": [],
     "san-lo-mvu15:1": [],
-    "san-lo-mvu15:2": [],
-    "san-lo-mvu15:3": [],
-    "san-lo-mvu15:4": [],
-    "san-lo-mvu15:5": [],
-    "san-lo-mvu15:6": [],
-    "san-lo-mvu15:7": [
+    "san-lo-mvu15:2": [
         "sc1",
         "sen1.137",
         "sen1.138",
         "sen1.139"
     ],
-    "san-lo-mvu15:8": []
+    "san-lo-mvu15:3": []
 }

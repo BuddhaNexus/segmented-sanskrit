@@ -2,26 +2,19 @@
     "san-mu-kd6:0": {},
     "san-mu-kd6:1": {},
     "san-mu-kd6:2": {},
-    "san-mu-kd6:3": {},
+    "san-mu-kd6:3": {
+        "supplied": [
+            "bhaiṣajyavastuni"
+        ]
+    },
     "san-mu-kd6:4": {},
     "san-mu-kd6:5": {},
     "san-mu-kd6:6": {},
     "san-mu-kd6:7": {},
     "san-mu-kd6:8": {},
-    "san-mu-kd6:9": {
-        "supplied": [
-            "bhaiṣajyavastuni"
-        ]
-    },
+    "san-mu-kd6:9": {},
     "san-mu-kd6:10": {},
-    "san-mu-kd6:11": {},
-    "san-mu-kd6:12": {},
-    "san-mu-kd6:13": {},
-    "san-mu-kd6:14": {},
-    "san-mu-kd6:15": {},
-    "san-mu-kd6:16": {},
-    "san-mu-kd6:17": {},
-    "san-mu-kd6:18": {
+    "san-mu-kd6:11": {
         "add": [
             "MS adds <i>jānantaḥ pṛcchanti ajānanto na pṛcchanti |</i>"
         ],
@@ -29,38 +22,36 @@
             "bhagavān āha"
         ]
     },
-    "san-mu-kd6:19": {
+    "san-mu-kd6:12": {
         "supplied": [
             "uktaṁ bhagavatā bhikṣubhir bhaiṣajyaṁ pratisevitavyam iti"
         ]
     },
-    "san-mu-kd6:20": {},
-    "san-mu-kd6:21": {},
-    "san-mu-kd6:22": {},
-    "san-mu-kd6:23": {},
-    "san-mu-kd6:24": {},
-    "san-mu-kd6:25": {
+    "san-mu-kd6:13": {},
+    "san-mu-kd6:14": {},
+    "san-mu-kd6:15": {},
+    "san-mu-kd6:16": {
         "supplied": [
             "patrabhaiṣajyaṁ"
         ]
     },
-    "san-mu-kd6:26": {
+    "san-mu-kd6:17": {
         "supplied": [
             "puṣpa",
             "śirīṣakaṣāyaḥ"
         ]
     },
-    "san-mu-kd6:27": {
+    "san-mu-kd6:18": {
         "supplied": [
             "ṣṭhāmi | teṣām arthā"
         ]
     },
-    "san-mu-kd6:28": {
+    "san-mu-kd6:19": {
         "supplied": [
             "upasaṁkramya kathayati | vāyvābādhikaṁ"
         ]
     },
-    "san-mu-kd6:29": {
+    "san-mu-kd6:20": {
         "supplied": [
             "sarvajñaḥ | tam eva gatvā pṛccheti | etat prakaraṇaṁ bhikṣavo bhagavata ārocayanti | bhagavān āha | pañca",
             "bhūtaḥ | bhagavān āha | śoṣayitavyaḥ | te ātape śoṣayanti | nirvīryaṁ bhavati | bhagavān āha |",
@@ -71,7 +62,7 @@
             "bhavati |"
         ]
     },
-    "san-mu-kd6:30": {
+    "san-mu-kd6:21": {
         "supplied": [
             "śrāvastyāṁ nidānam | tena khalu samayenānyatama",
             "viṣyati | bhadramukha kiṁ vayaṁ kāmabhoginaḥ | ārya idaṁ te bhaiṣajyam | na śakyam anyathā svasthe",
@@ -83,7 +74,7 @@
             "yitavyam | añjanadhārakasya bhikṣor āsamudācārikā dharmā mayā prajñaptāḥ | etān na samādāya"
         ]
     },
-    "san-mu-kd6:31": {
+    "san-mu-kd6:22": {
         "supplied": [
             "patis taṁ dṛṣṭvā āha | eṣa āyuṣmān kasya putraḥ | apare āhuḥ | amukasya gṛhapateḥ | te kathayanti | śākyaputrīyaśramaṇā anāthā a",
             "vān āha | evaṁ sati bhikṣavaḥ saikatasya bhikṣor glānyanirūpaṇāya praṣṭavyam | atha te vaidyasakāśam upasaṁkrāntāḥ | bhadramukha asyaivam evaṁ",
@@ -93,7 +84,7 @@
             "bhūtas tadā evaṁ śikṣāṁ samādāya"
         ]
     },
-    "san-mu-kd6:32": {
+    "san-mu-kd6:23": {
         "supplied": [
             "sthavira evaṁ te ābādhaḥ | sa kathayati | āyuṣmantaḥ satatam ahaṁ bahvābādhaḥ | niryāṇaprakaraṇaṁ nāsti | te kathayanti | sthavira purā kiṁ dhṛtam | sa kathayati |",
             "evaṁ saty anujñātam",
@@ -109,7 +100,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:33": {
+    "san-mu-kd6:24": {
         "supplied": [
             "styāṁ nidānam | yasmād āyuṣm",
             "bhavanto mā kaṇena guḍaṁ",
@@ -119,7 +110,7 @@
             "cayanti bhagavān āha"
         ]
     },
-    "san-mu-kd6:34": {
+    "san-mu-kd6:25": {
         "supplied": [
             "styāṁ piṇḍāya praviṣṭaḥ | so ’nupūrveṇa vīthīṁ",
             "na saṁghasya guḍakhādanīyaṁ",
@@ -128,7 +119,7 @@
             "nāmiṣeṇāmiṣakṛtyaṁ kartum | āgāra"
         ]
     },
-    "san-mu-kd6:35": {
+    "san-mu-kd6:26": {
         "supplied": [
             "śāriputrasya paricaryā",
             "lavaṇaṁ sauvīrakaṁ bhaiṣajyaṁ",
@@ -140,35 +131,33 @@
             "MS adds <i>saptāhasyātyayān na paribhoktavyam</i>"
         ]
     },
-    "san-mu-kd6:36": {},
-    "san-mu-kd6:37": {},
-    "san-mu-kd6:38": {
+    "san-mu-kd6:27": {},
+    "san-mu-kd6:28": {},
+    "san-mu-kd6:29": {
         "gap": [
             "....."
         ]
     },
-    "san-mu-kd6:39": {
+    "san-mu-kd6:30": {
         "supplied": [
             "patnī mahāsenā nāma | sa",
             "upanimantrito na"
         ]
     },
-    "san-mu-kd6:40": {
+    "san-mu-kd6:31": {
         "gap": [
             "[folios 95 to 140 are missing]"
         ]
     },
-    "san-mu-kd6:41": {
+    "san-mu-kd6:32": {
         "supplied": [
             "tvaṁ vajrapāṇe nīlanīlām etāṁ vanarājim | paśyāmi bhadanta | eṣa vajrapāṇe kāśmīrama",
             "neṣyati | atha paryaṅkaṁ baddhvā samagre kāśmī"
         ]
     },
-    "san-mu-kd6:42": {},
-    "san-mu-kd6:43": {},
-    "san-mu-kd6:44": {},
-    "san-mu-kd6:45": {},
-    "san-mu-kd6:46": {
+    "san-mu-kd6:33": {},
+    "san-mu-kd6:34": {},
+    "san-mu-kd6:35": {
         "supplied": [
             "ram anuprāptaḥ | dhānyapure senarājaḥ paramasatyeṣu prati",
             "bhagavāṁs tasya vinayakālaṁ jñātvā kumbhakāraveṣaṁ gṛhītvā tena sārdhaṁ",
@@ -194,22 +183,22 @@
             "kuśanavaṁśyaḥ"
         ]
     },
-    "san-mu-kd6:47": {},
-    "san-mu-kd6:48": {
+    "san-mu-kd6:36": {},
+    "san-mu-kd6:37": {
         "supplied": [
             "nāgarājam apalālaṁ vi"
         ]
     },
-    "san-mu-kd6:49": {},
-    "san-mu-kd6:50": {},
-    "san-mu-kd6:51": {},
-    "san-mu-kd6:52": {
+    "san-mu-kd6:38": {},
+    "san-mu-kd6:39": {},
+    "san-mu-kd6:40": {},
+    "san-mu-kd6:41": {
         "supplied": [
             "pradeśe"
         ]
     },
-    "san-mu-kd6:53": {},
-    "san-mu-kd6:54": {
+    "san-mu-kd6:42": {},
+    "san-mu-kd6:43": {
         "supplied": [
             "bhagavān",
             "r āyuṣmantam ānanda",
@@ -220,7 +209,7 @@
             "yadā sā guhā purṇā"
         ]
     },
-    "san-mu-kd6:55": {
+    "san-mu-kd6:44": {
         "supplied": [
             "ana",
             "cā",
@@ -228,13 +217,24 @@
             "sa markaṭaḥ"
         ]
     },
-    "san-mu-kd6:56": {},
-    "san-mu-kd6:57": {
+    "san-mu-kd6:45": {},
+    "san-mu-kd6:46": {
         "supplied": [
             "kuryāt",
             "kaḥ"
         ]
     },
+    "san-mu-kd6:47": {},
+    "san-mu-kd6:48": {},
+    "san-mu-kd6:49": {},
+    "san-mu-kd6:50": {},
+    "san-mu-kd6:51": {},
+    "san-mu-kd6:52": {},
+    "san-mu-kd6:53": {},
+    "san-mu-kd6:54": {},
+    "san-mu-kd6:55": {},
+    "san-mu-kd6:56": {},
+    "san-mu-kd6:57": {},
     "san-mu-kd6:58": {},
     "san-mu-kd6:59": {},
     "san-mu-kd6:60": {},
@@ -253,7 +253,11 @@
     "san-mu-kd6:73": {},
     "san-mu-kd6:74": {},
     "san-mu-kd6:75": {},
-    "san-mu-kd6:76": {},
+    "san-mu-kd6:76": {
+        "supplied": [
+            "ca"
+        ]
+    },
     "san-mu-kd6:77": {},
     "san-mu-kd6:78": {},
     "san-mu-kd6:79": {},
@@ -265,12 +269,12 @@
     "san-mu-kd6:85": {},
     "san-mu-kd6:86": {},
     "san-mu-kd6:87": {},
-    "san-mu-kd6:88": {
+    "san-mu-kd6:88": {},
+    "san-mu-kd6:89": {
         "supplied": [
-            "ca"
+            "ṣamaṁ samaṁ tathā"
         ]
     },
-    "san-mu-kd6:89": {},
     "san-mu-kd6:90": {},
     "san-mu-kd6:91": {},
     "san-mu-kd6:92": {},
@@ -282,11 +286,7 @@
     "san-mu-kd6:98": {},
     "san-mu-kd6:99": {},
     "san-mu-kd6:100": {},
-    "san-mu-kd6:101": {
-        "supplied": [
-            "ṣamaṁ samaṁ tathā"
-        ]
-    },
+    "san-mu-kd6:101": {},
     "san-mu-kd6:102": {},
     "san-mu-kd6:103": {},
     "san-mu-kd6:104": {},
@@ -299,7 +299,11 @@
     "san-mu-kd6:111": {},
     "san-mu-kd6:112": {},
     "san-mu-kd6:113": {},
-    "san-mu-kd6:114": {},
+    "san-mu-kd6:114": {
+        "supplied": [
+            "ca lābhakathā na"
+        ]
+    },
     "san-mu-kd6:115": {},
     "san-mu-kd6:116": {},
     "san-mu-kd6:117": {},
@@ -310,41 +314,41 @@
     "san-mu-kd6:122": {},
     "san-mu-kd6:123": {},
     "san-mu-kd6:124": {},
-    "san-mu-kd6:125": {},
-    "san-mu-kd6:126": {
-        "supplied": [
-            "ca lābhakathā na"
-        ]
-    },
-    "san-mu-kd6:127": {},
-    "san-mu-kd6:128": {},
-    "san-mu-kd6:129": {},
-    "san-mu-kd6:130": {},
-    "san-mu-kd6:131": {},
-    "san-mu-kd6:132": {},
-    "san-mu-kd6:133": {},
-    "san-mu-kd6:134": {},
-    "san-mu-kd6:135": {},
-    "san-mu-kd6:136": {},
-    "san-mu-kd6:137": {
+    "san-mu-kd6:125": {
         "supplied": [
             "tava"
         ]
     },
+    "san-mu-kd6:126": {},
+    "san-mu-kd6:127": {},
+    "san-mu-kd6:128": {},
+    "san-mu-kd6:129": {},
+    "san-mu-kd6:130": {},
+    "san-mu-kd6:131": {
+        "supplied": [
+            "śan mahāpuruṣalakṣaṇā"
+        ]
+    },
+    "san-mu-kd6:132": {
+        "supplied": [
+            "pādau śirasā vanditvā"
+        ]
+    },
+    "san-mu-kd6:133": {},
+    "san-mu-kd6:134": {},
+    "san-mu-kd6:135": {},
+    "san-mu-kd6:136": {},
+    "san-mu-kd6:137": {},
     "san-mu-kd6:138": {},
     "san-mu-kd6:139": {},
     "san-mu-kd6:140": {},
     "san-mu-kd6:141": {},
     "san-mu-kd6:142": {},
     "san-mu-kd6:143": {},
-    "san-mu-kd6:144": {
-        "supplied": [
-            "śan mahāpuruṣalakṣaṇā"
-        ]
-    },
+    "san-mu-kd6:144": {},
     "san-mu-kd6:145": {
         "supplied": [
-            "pādau śirasā vanditvā"
+            "śrutvā"
         ]
     },
     "san-mu-kd6:146": {},
@@ -353,7 +357,11 @@
     "san-mu-kd6:149": {},
     "san-mu-kd6:150": {},
     "san-mu-kd6:151": {},
-    "san-mu-kd6:152": {},
+    "san-mu-kd6:152": {
+        "supplied": [
+            "ṇi"
+        ]
+    },
     "san-mu-kd6:153": {},
     "san-mu-kd6:154": {},
     "san-mu-kd6:155": {},
@@ -362,66 +370,37 @@
     "san-mu-kd6:158": {},
     "san-mu-kd6:159": {},
     "san-mu-kd6:160": {
-        "supplied": [
-            "śrutvā"
-        ]
-    },
-    "san-mu-kd6:161": {},
-    "san-mu-kd6:162": {},
-    "san-mu-kd6:163": {},
-    "san-mu-kd6:164": {},
-    "san-mu-kd6:165": {},
-    "san-mu-kd6:166": {},
-    "san-mu-kd6:167": {},
-    "san-mu-kd6:168": {},
-    "san-mu-kd6:169": {
-        "supplied": [
-            "ṇi"
-        ]
-    },
-    "san-mu-kd6:170": {},
-    "san-mu-kd6:171": {},
-    "san-mu-kd6:172": {},
-    "san-mu-kd6:173": {},
-    "san-mu-kd6:174": {},
-    "san-mu-kd6:175": {},
-    "san-mu-kd6:176": {},
-    "san-mu-kd6:177": {},
-    "san-mu-kd6:178": {},
-    "san-mu-kd6:179": {},
-    "san-mu-kd6:180": {
         "scribe": [
             "MS: <i>tasthur nepacchitā</i>; cf. <i>nepacchitā</i>, Pravr-v III, fol.47r6"
         ]
     },
-    "san-mu-kd6:181": {},
-    "san-mu-kd6:182": {},
-    "san-mu-kd6:183": {
+    "san-mu-kd6:161": {},
+    "san-mu-kd6:162": {
         "supplied": [
             "na"
         ]
     },
-    "san-mu-kd6:184": {
+    "san-mu-kd6:163": {
         "supplied": [
             "vā"
         ]
     },
-    "san-mu-kd6:185": {},
-    "san-mu-kd6:186": {},
-    "san-mu-kd6:187": {},
-    "san-mu-kd6:188": {
+    "san-mu-kd6:164": {},
+    "san-mu-kd6:165": {},
+    "san-mu-kd6:166": {},
+    "san-mu-kd6:167": {
         "supplied": [
             "yad asau na vijñāsyatīti",
             "kraratna"
         ]
     },
-    "san-mu-kd6:189": {},
-    "san-mu-kd6:190": {
+    "san-mu-kd6:168": {},
+    "san-mu-kd6:169": {
         "supplied": [
             "sarva"
         ]
     },
-    "san-mu-kd6:191": {
+    "san-mu-kd6:170": {
         "supplied": [
             "ra",
             "sam a",
@@ -439,20 +418,20 @@
             "nuyātrikā bha"
         ]
     },
-    "san-mu-kd6:192": {
+    "san-mu-kd6:171": {
         "supplied": [
             "kṛd da",
             "hasti",
             "ru"
         ]
     },
-    "san-mu-kd6:193": {
+    "san-mu-kd6:172": {
         "supplied": [
             "damatha",
             "m anvāhiṇḍya"
         ]
     },
-    "san-mu-kd6:194": {
+    "san-mu-kd6:173": {
         "supplied": [
             "maṇiratnasya",
             "vartī tan maṇi",
@@ -460,7 +439,7 @@
             "ma"
         ]
     },
-    "san-mu-kd6:195": {
+    "san-mu-kd6:174": {
         "supplied": [
             "sya strīra",
             "tanugā",
@@ -468,7 +447,7 @@
             "utpalagandhaḥ"
         ]
     },
-    "san-mu-kd6:196": {
+    "san-mu-kd6:175": {
         "supplied": [
             "yuṣmā",
             "brāhmaṇadārikayā | kim a",
@@ -478,30 +457,30 @@
             "MS (GBM 970.5f.) adds <i>bhagavān saṁlakṣayati | yaḥ kaścid ādīnavo bhikṣavaḥ paṭaplotikaṁ prāvṛtyāntargṛhaṁ gacchati | tasmān na bhikṣuṇā paṭaplotiṁ prāvṛtyāntargṛhaṁ gantavyam | gacchati sātisāro bhavati |</i>"
         ]
     },
-    "san-mu-kd6:197": {},
-    "san-mu-kd6:198": {
+    "san-mu-kd6:176": {},
+    "san-mu-kd6:177": {
         "supplied": [
             "m eko dattaḥ",
             "ga"
         ]
     },
-    "san-mu-kd6:199": {
+    "san-mu-kd6:178": {
         "supplied": [
             "ārya"
         ]
     },
-    "san-mu-kd6:200": {},
-    "san-mu-kd6:201": {},
-    "san-mu-kd6:202": {},
-    "san-mu-kd6:203": {},
-    "san-mu-kd6:204": {},
-    "san-mu-kd6:205": {
+    "san-mu-kd6:179": {},
+    "san-mu-kd6:180": {},
+    "san-mu-kd6:181": {},
+    "san-mu-kd6:182": {},
+    "san-mu-kd6:183": {},
+    "san-mu-kd6:184": {
         "supplied": [
             "ya",
             "vi"
         ]
     },
-    "san-mu-kd6:206": {
+    "san-mu-kd6:185": {
         "supplied": [
             "dharmya",
             "ur"
@@ -510,15 +489,15 @@
             "Tib. inserts the whole Vairambhasūtra; cf. AN II 54–57"
         ]
     },
-    "san-mu-kd6:207": {},
-    "san-mu-kd6:208": {},
-    "san-mu-kd6:209": {},
-    "san-mu-kd6:210": {
+    "san-mu-kd6:186": {},
+    "san-mu-kd6:187": {},
+    "san-mu-kd6:188": {},
+    "san-mu-kd6:189": {
         "supplied": [
             "dv"
         ]
     },
-    "san-mu-kd6:211": {
+    "san-mu-kd6:190": {
         "add": [
             "Mark Allon 2003: Parallel see SN IV 179–181"
         ],
@@ -528,20 +507,45 @@
             "kaḥ āvartagrāhaḥ |"
         ]
     },
-    "san-mu-kd6:212": {
+    "san-mu-kd6:191": {
         "supplied": [
             "tapena vā",
             "devo"
         ]
     },
-    "san-mu-kd6:213": {},
-    "san-mu-kd6:214": {},
-    "san-mu-kd6:215": {
+    "san-mu-kd6:192": {},
+    "san-mu-kd6:193": {},
+    "san-mu-kd6:194": {
         "supplied": [
             "na madhye saṁsrakṣyāmi",
             "ndena"
         ]
     },
+    "san-mu-kd6:195": {},
+    "san-mu-kd6:196": {},
+    "san-mu-kd6:197": {},
+    "san-mu-kd6:198": {},
+    "san-mu-kd6:199": {},
+    "san-mu-kd6:200": {},
+    "san-mu-kd6:201": {},
+    "san-mu-kd6:202": {},
+    "san-mu-kd6:203": {},
+    "san-mu-kd6:204": {},
+    "san-mu-kd6:205": {},
+    "san-mu-kd6:206": {},
+    "san-mu-kd6:207": {},
+    "san-mu-kd6:208": {},
+    "san-mu-kd6:209": {},
+    "san-mu-kd6:210": {},
+    "san-mu-kd6:211": {},
+    "san-mu-kd6:212": {
+        "supplied": [
+            "vahati"
+        ]
+    },
+    "san-mu-kd6:213": {},
+    "san-mu-kd6:214": {},
+    "san-mu-kd6:215": {},
     "san-mu-kd6:216": {},
     "san-mu-kd6:217": {},
     "san-mu-kd6:218": {},
@@ -554,17 +558,18 @@
     "san-mu-kd6:225": {},
     "san-mu-kd6:226": {},
     "san-mu-kd6:227": {},
-    "san-mu-kd6:228": {},
+    "san-mu-kd6:228": {
+        "supplied": [
+            "santi cobhayakarmakāriṇaḥ",
+            "la"
+        ]
+    },
     "san-mu-kd6:229": {},
     "san-mu-kd6:230": {},
     "san-mu-kd6:231": {},
     "san-mu-kd6:232": {},
     "san-mu-kd6:233": {},
-    "san-mu-kd6:234": {
-        "supplied": [
-            "vahati"
-        ]
-    },
+    "san-mu-kd6:234": {},
     "san-mu-kd6:235": {},
     "san-mu-kd6:236": {},
     "san-mu-kd6:237": {},
@@ -578,57 +583,27 @@
     "san-mu-kd6:245": {},
     "san-mu-kd6:246": {},
     "san-mu-kd6:247": {},
-    "san-mu-kd6:248": {},
-    "san-mu-kd6:249": {},
-    "san-mu-kd6:250": {},
-    "san-mu-kd6:251": {
-        "supplied": [
-            "santi cobhayakarmakāriṇaḥ",
-            "la"
-        ]
-    },
-    "san-mu-kd6:252": {},
-    "san-mu-kd6:253": {},
-    "san-mu-kd6:254": {},
-    "san-mu-kd6:255": {},
-    "san-mu-kd6:256": {},
-    "san-mu-kd6:257": {},
-    "san-mu-kd6:258": {},
-    "san-mu-kd6:259": {},
-    "san-mu-kd6:260": {},
-    "san-mu-kd6:261": {},
-    "san-mu-kd6:262": {},
-    "san-mu-kd6:263": {},
-    "san-mu-kd6:264": {},
-    "san-mu-kd6:265": {},
-    "san-mu-kd6:266": {},
-    "san-mu-kd6:267": {},
-    "san-mu-kd6:268": {},
-    "san-mu-kd6:269": {},
-    "san-mu-kd6:270": {},
-    "san-mu-kd6:271": {},
-    "san-mu-kd6:272": {},
-    "san-mu-kd6:273": {
+    "san-mu-kd6:248": {
         "supplied": [
             "na"
         ]
     },
-    "san-mu-kd6:274": {
+    "san-mu-kd6:249": {
         "add": [
             "cf. <i>nepacchitā</i>, Pravr-v III, fol. 47r6"
         ]
     },
-    "san-mu-kd6:275": {
+    "san-mu-kd6:250": {
         "supplied": [
             "pādau śirasā vanditvā"
         ]
     },
-    "san-mu-kd6:276": {},
-    "san-mu-kd6:277": {},
-    "san-mu-kd6:278": {},
-    "san-mu-kd6:279": {},
-    "san-mu-kd6:280": {},
-    "san-mu-kd6:281": {
+    "san-mu-kd6:251": {},
+    "san-mu-kd6:252": {},
+    "san-mu-kd6:253": {},
+    "san-mu-kd6:254": {},
+    "san-mu-kd6:255": {},
+    "san-mu-kd6:256": {
         "supplied": [
             "anenopakramyāsmin pradeśe abhivādane kṛte"
         ],
@@ -636,36 +611,92 @@
             "Tib. adds <i>dharmatā khalu</i> etc., cf. Divy 63.11."
         ]
     },
-    "san-mu-kd6:282": {
+    "san-mu-kd6:257": {
         "supplied": [
             "ksaṁbuddhasya"
         ]
     },
+    "san-mu-kd6:258": {},
+    "san-mu-kd6:259": {},
+    "san-mu-kd6:260": {},
+    "san-mu-kd6:261": {},
+    "san-mu-kd6:262": {},
+    "san-mu-kd6:263": {},
+    "san-mu-kd6:264": {
+        "supplied": [
+            "uktaṁ"
+        ]
+    },
+    "san-mu-kd6:265": {},
+    "san-mu-kd6:266": {},
+    "san-mu-kd6:267": {
+        "supplied": [
+            "m uktam"
+        ]
+    },
+    "san-mu-kd6:268": {},
+    "san-mu-kd6:269": {},
+    "san-mu-kd6:270": {},
+    "san-mu-kd6:271": {},
+    "san-mu-kd6:272": {},
+    "san-mu-kd6:273": {},
+    "san-mu-kd6:274": {},
+    "san-mu-kd6:275": {},
+    "san-mu-kd6:276": {
+        "supplied": [
+            "m api cetasā"
+        ]
+    },
+    "san-mu-kd6:277": {},
+    "san-mu-kd6:278": {},
+    "san-mu-kd6:279": {},
+    "san-mu-kd6:280": {},
+    "san-mu-kd6:281": {
+        "supplied": [
+            "m uktaṁ"
+        ]
+    },
+    "san-mu-kd6:282": {},
     "san-mu-kd6:283": {},
     "san-mu-kd6:284": {},
     "san-mu-kd6:285": {},
     "san-mu-kd6:286": {},
     "san-mu-kd6:287": {},
     "san-mu-kd6:288": {},
-    "san-mu-kd6:289": {},
-    "san-mu-kd6:290": {},
-    "san-mu-kd6:291": {},
-    "san-mu-kd6:292": {},
-    "san-mu-kd6:293": {
+    "san-mu-kd6:289": {
         "supplied": [
-            "uktaṁ"
+            "ṣu",
+            "puruṣa anāthapiṇḍa"
         ]
     },
+    "san-mu-kd6:290": {
+        "supplied": [
+            "m",
+            "upā",
+            "dattaṁ",
+            "ca",
+            "sa"
+        ]
+    },
+    "san-mu-kd6:291": {},
+    "san-mu-kd6:292": {},
+    "san-mu-kd6:293": {},
     "san-mu-kd6:294": {},
     "san-mu-kd6:295": {},
     "san-mu-kd6:296": {},
     "san-mu-kd6:297": {},
     "san-mu-kd6:298": {
         "supplied": [
-            "m uktam"
+            "me"
         ]
     },
-    "san-mu-kd6:299": {},
+    "san-mu-kd6:299": {
+        "supplied": [
+            "mū",
+            "ntarāyaṁ",
+            "na"
+        ]
+    },
     "san-mu-kd6:300": {},
     "san-mu-kd6:301": {},
     "san-mu-kd6:302": {},
@@ -679,23 +710,24 @@
     "san-mu-kd6:310": {},
     "san-mu-kd6:311": {},
     "san-mu-kd6:312": {},
-    "san-mu-kd6:313": {
+    "san-mu-kd6:313": {},
+    "san-mu-kd6:314": {},
+    "san-mu-kd6:315": {
         "supplied": [
-            "m api cetasā"
+            "pakaḥ pratisaṁlīyati",
+            "ś cīvarakarṇikena"
         ]
     },
-    "san-mu-kd6:314": {},
-    "san-mu-kd6:315": {},
     "san-mu-kd6:316": {},
     "san-mu-kd6:317": {},
     "san-mu-kd6:318": {},
     "san-mu-kd6:319": {},
-    "san-mu-kd6:320": {
+    "san-mu-kd6:320": {},
+    "san-mu-kd6:321": {
         "supplied": [
-            "m uktaṁ"
+            "sumeru"
         ]
     },
-    "san-mu-kd6:321": {},
     "san-mu-kd6:322": {},
     "san-mu-kd6:323": {},
     "san-mu-kd6:324": {},
@@ -703,22 +735,13 @@
     "san-mu-kd6:326": {},
     "san-mu-kd6:327": {},
     "san-mu-kd6:328": {},
-    "san-mu-kd6:329": {},
-    "san-mu-kd6:330": {
+    "san-mu-kd6:329": {
         "supplied": [
-            "ṣu",
-            "puruṣa anāthapiṇḍa"
+            "ta"
         ]
     },
-    "san-mu-kd6:331": {
-        "supplied": [
-            "m",
-            "upā",
-            "dattaṁ",
-            "ca",
-            "sa"
-        ]
-    },
+    "san-mu-kd6:330": {},
+    "san-mu-kd6:331": {},
     "san-mu-kd6:332": {},
     "san-mu-kd6:333": {},
     "san-mu-kd6:334": {},
@@ -728,20 +751,14 @@
     "san-mu-kd6:338": {},
     "san-mu-kd6:339": {},
     "san-mu-kd6:340": {},
-    "san-mu-kd6:341": {},
-    "san-mu-kd6:342": {
+    "san-mu-kd6:341": {
         "supplied": [
-            "me"
+            "sa rājā māndhātā nirargalaṁ"
         ]
     },
+    "san-mu-kd6:342": {},
     "san-mu-kd6:343": {},
-    "san-mu-kd6:344": {
-        "supplied": [
-            "mū",
-            "ntarāyaṁ",
-            "na"
-        ]
-    },
+    "san-mu-kd6:344": {},
     "san-mu-kd6:345": {},
     "san-mu-kd6:346": {},
     "san-mu-kd6:347": {},
@@ -762,91 +779,13 @@
     "san-mu-kd6:362": {},
     "san-mu-kd6:363": {},
     "san-mu-kd6:364": {},
-    "san-mu-kd6:365": {},
-    "san-mu-kd6:366": {
-        "supplied": [
-            "pakaḥ pratisaṁlīyati",
-            "ś cīvarakarṇikena"
-        ]
-    },
-    "san-mu-kd6:367": {},
-    "san-mu-kd6:368": {},
-    "san-mu-kd6:369": {},
-    "san-mu-kd6:370": {},
-    "san-mu-kd6:371": {},
-    "san-mu-kd6:372": {
-        "supplied": [
-            "sumeru"
-        ]
-    },
-    "san-mu-kd6:373": {},
-    "san-mu-kd6:374": {},
-    "san-mu-kd6:375": {},
-    "san-mu-kd6:376": {},
-    "san-mu-kd6:377": {},
-    "san-mu-kd6:378": {},
-    "san-mu-kd6:379": {},
-    "san-mu-kd6:380": {},
-    "san-mu-kd6:381": {},
-    "san-mu-kd6:382": {},
-    "san-mu-kd6:383": {},
-    "san-mu-kd6:384": {
-        "supplied": [
-            "ta"
-        ]
-    },
-    "san-mu-kd6:385": {},
-    "san-mu-kd6:386": {},
-    "san-mu-kd6:387": {},
-    "san-mu-kd6:388": {},
-    "san-mu-kd6:389": {},
-    "san-mu-kd6:390": {},
-    "san-mu-kd6:391": {},
-    "san-mu-kd6:392": {},
-    "san-mu-kd6:393": {},
-    "san-mu-kd6:394": {},
-    "san-mu-kd6:395": {},
-    "san-mu-kd6:396": {},
-    "san-mu-kd6:397": {
-        "supplied": [
-            "sa rājā māndhātā nirargalaṁ"
-        ]
-    },
-    "san-mu-kd6:398": {},
-    "san-mu-kd6:399": {},
-    "san-mu-kd6:400": {},
-    "san-mu-kd6:401": {},
-    "san-mu-kd6:402": {},
-    "san-mu-kd6:403": {},
-    "san-mu-kd6:404": {},
-    "san-mu-kd6:405": {},
-    "san-mu-kd6:406": {},
-    "san-mu-kd6:407": {},
-    "san-mu-kd6:408": {},
-    "san-mu-kd6:409": {},
-    "san-mu-kd6:410": {},
-    "san-mu-kd6:411": {},
-    "san-mu-kd6:412": {},
-    "san-mu-kd6:413": {},
-    "san-mu-kd6:414": {},
-    "san-mu-kd6:415": {},
-    "san-mu-kd6:416": {},
-    "san-mu-kd6:417": {},
-    "san-mu-kd6:418": {},
-    "san-mu-kd6:419": {},
-    "san-mu-kd6:420": {},
-    "san-mu-kd6:421": {},
-    "san-mu-kd6:422": {},
-    "san-mu-kd6:423": {},
-    "san-mu-kd6:424": {},
-    "san-mu-kd6:425": {},
-    "san-mu-kd6:426": {
+    "san-mu-kd6:365": {
         "supplied": [
             "r adhi"
         ]
     },
-    "san-mu-kd6:427": {},
-    "san-mu-kd6:428": {
+    "san-mu-kd6:366": {},
+    "san-mu-kd6:367": {
         "supplied": [
             "yu",
             "taṁ dṛṣṭvā vikopaṁ janayate",
@@ -862,11 +801,93 @@
             "d a"
         ]
     },
-    "san-mu-kd6:429": {
+    "san-mu-kd6:368": {
         "supplied": [
             "caturaṁgo balakāyaḥ"
         ]
     },
+    "san-mu-kd6:369": {},
+    "san-mu-kd6:370": {},
+    "san-mu-kd6:371": {},
+    "san-mu-kd6:372": {},
+    "san-mu-kd6:373": {},
+    "san-mu-kd6:374": {},
+    "san-mu-kd6:375": {},
+    "san-mu-kd6:376": {},
+    "san-mu-kd6:377": {},
+    "san-mu-kd6:378": {},
+    "san-mu-kd6:379": {},
+    "san-mu-kd6:380": {},
+    "san-mu-kd6:381": {},
+    "san-mu-kd6:382": {},
+    "san-mu-kd6:383": {},
+    "san-mu-kd6:384": {},
+    "san-mu-kd6:385": {},
+    "san-mu-kd6:386": {},
+    "san-mu-kd6:387": {},
+    "san-mu-kd6:388": {},
+    "san-mu-kd6:389": {
+        "supplied": [
+            "taṁ"
+        ]
+    },
+    "san-mu-kd6:390": {},
+    "san-mu-kd6:391": {},
+    "san-mu-kd6:392": {},
+    "san-mu-kd6:393": {},
+    "san-mu-kd6:394": {},
+    "san-mu-kd6:395": {},
+    "san-mu-kd6:396": {},
+    "san-mu-kd6:397": {},
+    "san-mu-kd6:398": {},
+    "san-mu-kd6:399": {},
+    "san-mu-kd6:400": {},
+    "san-mu-kd6:401": {},
+    "san-mu-kd6:402": {},
+    "san-mu-kd6:403": {
+        "supplied": [
+            "madhyamāgame"
+        ]
+    },
+    "san-mu-kd6:404": {
+        "supplied": [
+            "ca"
+        ]
+    },
+    "san-mu-kd6:405": {},
+    "san-mu-kd6:406": {},
+    "san-mu-kd6:407": {},
+    "san-mu-kd6:408": {},
+    "san-mu-kd6:409": {},
+    "san-mu-kd6:410": {},
+    "san-mu-kd6:411": {},
+    "san-mu-kd6:412": {},
+    "san-mu-kd6:413": {},
+    "san-mu-kd6:414": {},
+    "san-mu-kd6:415": {},
+    "san-mu-kd6:416": {},
+    "san-mu-kd6:417": {},
+    "san-mu-kd6:418": {},
+    "san-mu-kd6:419": {
+        "supplied": [
+            "na khalv evaṁ draṣṭavyam |"
+        ]
+    },
+    "san-mu-kd6:420": {
+        "supplied": [
+            "r nidhi",
+            "parvatāgre nidhi"
+        ]
+    },
+    "san-mu-kd6:421": {},
+    "san-mu-kd6:422": {},
+    "san-mu-kd6:423": {},
+    "san-mu-kd6:424": {},
+    "san-mu-kd6:425": {},
+    "san-mu-kd6:426": {},
+    "san-mu-kd6:427": {},
+    "san-mu-kd6:428": {},
+    "san-mu-kd6:429": {},
     "san-mu-kd6:430": {},
     "san-mu-kd6:431": {},
     "san-mu-kd6:432": {},
@@ -875,7 +896,11 @@
     "san-mu-kd6:435": {},
     "san-mu-kd6:436": {},
     "san-mu-kd6:437": {},
-    "san-mu-kd6:438": {},
+    "san-mu-kd6:438": {
+        "supplied": [
+            "kāka"
+        ]
+    },
     "san-mu-kd6:439": {},
     "san-mu-kd6:440": {},
     "san-mu-kd6:441": {},
@@ -885,7 +910,11 @@
     "san-mu-kd6:445": {},
     "san-mu-kd6:446": {},
     "san-mu-kd6:447": {},
-    "san-mu-kd6:448": {},
+    "san-mu-kd6:448": {
+        "supplied": [
+            "ṣu"
+        ]
+    },
     "san-mu-kd6:449": {},
     "san-mu-kd6:450": {},
     "san-mu-kd6:451": {},
@@ -894,69 +923,94 @@
     "san-mu-kd6:454": {},
     "san-mu-kd6:455": {},
     "san-mu-kd6:456": {},
-    "san-mu-kd6:457": {
-        "supplied": [
-            "taṁ"
-        ]
-    },
+    "san-mu-kd6:457": {},
     "san-mu-kd6:458": {},
     "san-mu-kd6:459": {},
     "san-mu-kd6:460": {},
     "san-mu-kd6:461": {},
     "san-mu-kd6:462": {},
     "san-mu-kd6:463": {},
-    "san-mu-kd6:464": {},
+    "san-mu-kd6:464": {
+        "supplied": [
+            "tataḥ",
+            "deśaḥ"
+        ]
+    },
     "san-mu-kd6:465": {},
     "san-mu-kd6:466": {},
-    "san-mu-kd6:467": {},
+    "san-mu-kd6:467": {
+        "supplied": [
+            "sama",
+            "asmākaṁ nāmnā"
+        ]
+    },
     "san-mu-kd6:468": {},
-    "san-mu-kd6:469": {},
-    "san-mu-kd6:470": {},
+    "san-mu-kd6:469": {
+        "supplied": [
+            "ṇī utpalapadmakumudapuṇ",
+            "tā paṁcakinnarīśataparivṛtā nānā"
+        ]
+    },
+    "san-mu-kd6:470": {
+        "supplied": [
+            "no"
+        ]
+    },
     "san-mu-kd6:471": {},
     "san-mu-kd6:472": {},
     "san-mu-kd6:473": {},
     "san-mu-kd6:474": {},
-    "san-mu-kd6:475": {
-        "supplied": [
-            "madhyamāgame"
-        ]
-    },
-    "san-mu-kd6:476": {
-        "supplied": [
-            "ca"
-        ]
-    },
+    "san-mu-kd6:475": {},
+    "san-mu-kd6:476": {},
     "san-mu-kd6:477": {},
     "san-mu-kd6:478": {},
     "san-mu-kd6:479": {},
-    "san-mu-kd6:480": {},
-    "san-mu-kd6:481": {},
+    "san-mu-kd6:480": {
+        "supplied": [
+            "sa"
+        ]
+    },
+    "san-mu-kd6:481": {
+        "supplied": [
+            "tavidhvastāḥ",
+            "gaccha"
+        ]
+    },
     "san-mu-kd6:482": {},
-    "san-mu-kd6:483": {},
+    "san-mu-kd6:483": {
+        "supplied": [
+            "nānā",
+            "ni"
+        ]
+    },
     "san-mu-kd6:484": {},
-    "san-mu-kd6:485": {},
+    "san-mu-kd6:485": {
+        "supplied": [
+            "svasthā"
+        ]
+    },
     "san-mu-kd6:486": {},
     "san-mu-kd6:487": {},
     "san-mu-kd6:488": {},
-    "san-mu-kd6:489": {},
+    "san-mu-kd6:489": {
+        "supplied": [
+            "rha"
+        ]
+    },
     "san-mu-kd6:490": {},
     "san-mu-kd6:491": {},
     "san-mu-kd6:492": {},
     "san-mu-kd6:493": {},
-    "san-mu-kd6:494": {
-        "supplied": [
-            "na khalv evaṁ draṣṭavyam |"
-        ]
-    },
-    "san-mu-kd6:495": {
-        "supplied": [
-            "r nidhi",
-            "parvatāgre nidhi"
-        ]
-    },
+    "san-mu-kd6:494": {},
+    "san-mu-kd6:495": {},
     "san-mu-kd6:496": {},
     "san-mu-kd6:497": {},
-    "san-mu-kd6:498": {},
+    "san-mu-kd6:498": {
+        "supplied": [
+            "ṣya",
+            "hantavyaḥ |"
+        ]
+    },
     "san-mu-kd6:499": {},
     "san-mu-kd6:500": {},
     "san-mu-kd6:501": {},
@@ -971,26 +1025,23 @@
     "san-mu-kd6:510": {},
     "san-mu-kd6:511": {},
     "san-mu-kd6:512": {},
-    "san-mu-kd6:513": {
-        "supplied": [
-            "kāka"
-        ]
-    },
+    "san-mu-kd6:513": {},
     "san-mu-kd6:514": {},
     "san-mu-kd6:515": {},
     "san-mu-kd6:516": {},
     "san-mu-kd6:517": {},
     "san-mu-kd6:518": {},
-    "san-mu-kd6:519": {},
+    "san-mu-kd6:519": {
+        "supplied": [
+            "evam āha | tāta adyaiva mayāvaśyaṁ gantavyam | rājā tūṣṇīm avasthitaḥ | tataḥ",
+            "manoharā"
+        ]
+    },
     "san-mu-kd6:520": {},
     "san-mu-kd6:521": {},
     "san-mu-kd6:522": {},
     "san-mu-kd6:523": {},
-    "san-mu-kd6:524": {
-        "supplied": [
-            "ṣu"
-        ]
-    },
+    "san-mu-kd6:524": {},
     "san-mu-kd6:525": {},
     "san-mu-kd6:526": {},
     "san-mu-kd6:527": {},
@@ -999,81 +1050,103 @@
     "san-mu-kd6:530": {},
     "san-mu-kd6:531": {},
     "san-mu-kd6:532": {},
-    "san-mu-kd6:533": {},
-    "san-mu-kd6:534": {},
+    "san-mu-kd6:533": {
+        "gap": [
+            "[folios 181–198 are missing; the remaining portion has been taken from Divy 453–461]"
+        ]
+    },
+    "san-mu-kd6:534": {
+        "supplied": [
+            "na nivartate | tato rājñā nagaraprākāraśṛṅgāṭakeṣv ārakṣakāḥ puruṣāḥ sthāpitā yathā kumāro na niṣkāsatīti | kumāraḥ kṛtsnāṁ rātriṁ jāgartukāmaḥ | uktaṁ ca | paṁceme rātryām alpaṁ svapanti bahu jāgrati | katame paṁca | puruṣāḥ striyam apekṣamāṇāḥ | pratibaddhacittaḥ strīpuruṣaḥ | utkruśaprāṇī | caurasenāpatiḥ | bhikṣuś cālabdhavīrya iti | atha kumārasyaitad abhavat | yadi dvāreṇa yāsyāmi rājā dvārapālakān rakṣakāṁś ca daṇḍenotsādayiṣyati yanv aham arakṣitena pathā gaccheyam iti | sa rātryāṁ vyutthāya nīlotpalamālābaddhaśirā yena rakṣiṇaḥ puruṣā na santi tena tāṁ mālāṁ dhvaje baddhvāvatīrṇaḥ | candraś ca coditaḥ |"
+        ]
+    },
     "san-mu-kd6:535": {},
     "san-mu-kd6:536": {},
-    "san-mu-kd6:537": {},
-    "san-mu-kd6:538": {},
+    "san-mu-kd6:537": {
+        "supplied": [
+            "kaccit priyā mama manoharaṇaikadakṣā dṛṣṭā tvayā bhuvi manoharanāmadheyā || iti |"
+        ]
+    },
+    "san-mu-kd6:538": {
+        "supplied": [
+            "anubhūtapūrvaratim anusmaran jagāma | dadarśa mṛgīm | tām apy uvācā |"
+        ]
+    },
     "san-mu-kd6:539": {},
     "san-mu-kd6:540": {},
-    "san-mu-kd6:541": {},
+    "san-mu-kd6:541": {
+        "supplied": [
+            "sa tām atikramyānyatamaṁ pradeśaṁ gato dadarśa vanaṁ nānāpuṣpaphalopaśobhitaṁ bhramarair upabhujyamānasāram | tato ’nyatamaṁ bhramaram uvāca |"
+        ]
+    },
     "san-mu-kd6:542": {},
-    "san-mu-kd6:543": {
+    "san-mu-kd6:543": {},
+    "san-mu-kd6:544": {
         "supplied": [
-            "tataḥ",
-            "deśaḥ"
+            "tasmād api pradeśād atikrāntaḥ paśyaty āśīviṣam | dṛṣṭvā cāha ||"
         ]
     },
-    "san-mu-kd6:544": {},
     "san-mu-kd6:545": {},
-    "san-mu-kd6:546": {
+    "san-mu-kd6:546": {},
+    "san-mu-kd6:547": {
         "supplied": [
-            "sama",
-            "asmākaṁ nāmnā"
+            "tam api pradeśaṁ samatikrānto dadarśāparaṁ kokilābhināditam | drṣṭvā ca punas taṁ kokilam uvāca |"
         ]
     },
-    "san-mu-kd6:547": {},
     "san-mu-kd6:548": {
         "supplied": [
-            "ṇī utpalapadmakumudapuṇ",
-            "tā paṁcakinnarīśataparivṛtā nānā"
+            "bhoḥ kokilottama vanāntaravṛkṣavāsin nārīmanohara patat trigaṇasya rājan |"
         ]
     },
     "san-mu-kd6:549": {
         "supplied": [
-            "no"
+            "nīlotpalāmalasamāyatacārūnetrā dṛṣṭā tvayā mama manoharanāmadheyā ||"
         ]
     },
-    "san-mu-kd6:550": {},
+    "san-mu-kd6:550": {
+        "supplied": [
+            "tam api pradeśaṁ samatikrānto dadarśāśokavṛkṣaṁ sarvapariphullam |"
+        ]
+    },
     "san-mu-kd6:551": {},
     "san-mu-kd6:552": {},
     "san-mu-kd6:553": {},
     "san-mu-kd6:554": {},
     "san-mu-kd6:555": {},
-    "san-mu-kd6:556": {},
+    "san-mu-kd6:556": {
+        "supplied": [
+            "tataḥ sa ṛṣiḥ sudhanaṁ kumāraṁ svāgatavacanāsanadānakriyādipuraḥsaraḥ pratisaṁmodyovāca |"
+        ]
+    },
     "san-mu-kd6:557": {},
     "san-mu-kd6:558": {},
     "san-mu-kd6:559": {},
     "san-mu-kd6:560": {},
     "san-mu-kd6:561": {},
-    "san-mu-kd6:562": {},
+    "san-mu-kd6:562": {
+        "supplied": [
+            "mahac ca duḥkhaṁ vasatāṁ vaneṣu yātāṁ ca <span class='var' title='ramāṁ (divy)'>māṁ"
+        ]
+    },
     "san-mu-kd6:563": {
         "supplied": [
-            "sa"
+            "iyaṁ ca tayāṁgulimudrikā dattā | kathayati ca | kumāra viṣamāḥ panthāno durgamāḥ khedam āpatsyase nivartasveti | yadi ca nivāryamāṇo na tiṣṭhet tasya mārgam upadeṣṭum arhasi | kumāra idaṁ ca tayā samākhyātam | uttare digbhāge trayaḥ kālaparvatās tān atikramyāpare trayas tān apy atikramya himavān parvatarājaḥ | tatpraveśena tvayā imāni bhaiṣajyāni samudānetavyāni | tadyathā <span class='var' title='sūdayā (divy)'>sudhā"
+        ],
+        "add": [
+            "Divy: <i>-ka</i>"
         ]
     },
     "san-mu-kd6:564": {
         "supplied": [
-            "tavidhvastāḥ",
-            "gaccha"
+            "ardhāntaragataṁ nāgaṁ yatra paśyet kirīṭakam |<span class='add'>Divy: <i>kiṭibhakaś ca</i>"
         ]
     },
     "san-mu-kd6:565": {},
     "san-mu-kd6:566": {},
-    "san-mu-kd6:567": {
-        "supplied": [
-            "nānā",
-            "ni"
-        ]
-    },
+    "san-mu-kd6:567": {},
     "san-mu-kd6:568": {},
     "san-mu-kd6:569": {},
-    "san-mu-kd6:570": {
-        "supplied": [
-            "svasthā"
-        ]
-    },
+    "san-mu-kd6:570": {},
     "san-mu-kd6:571": {},
     "san-mu-kd6:572": {},
     "san-mu-kd6:573": {},
@@ -1081,7 +1154,7 @@
     "san-mu-kd6:575": {},
     "san-mu-kd6:576": {
         "supplied": [
-            "rha"
+            "naṅgā pataṅgā tapanī citrā rudanī hasanī āśīviṣā vetravatī ca |"
         ]
     },
     "san-mu-kd6:577": {},
@@ -1090,278 +1163,87 @@
     "san-mu-kd6:580": {},
     "san-mu-kd6:581": {},
     "san-mu-kd6:582": {},
-    "san-mu-kd6:583": {},
-    "san-mu-kd6:584": {},
+    "san-mu-kd6:583": {
+        "supplied": [
+            "rudanyāṁ saumanasyena samuttāraḥ | hasanyāṁ tūṣṇīṁbhāvena | āśīviṣāyāṁ sarpaviṣamantraprayogena samuttāro vetranadyāṁ tīkṣṇaśastrasaṁpātayogena samuttāraḥ | nadīm atikramya pañcayakṣaśatānāṁ gulmakasthānam | tad dhairyam āsthāya vidrāvyam | tato drumasya kinnararājasya bhavanam iti |"
+        ]
+    },
+    "san-mu-kd6:584": {
+        "supplied": [
+            "tataḥ sudhanaḥ kumāro yathopadiṣṭān oṣadhamantrāgadaprayogān samudānīya tasya ṛṣeḥ pādābhivandanaṁ kṛtvā prakrāntaḥ | tatas tena yathopadiṣṭāḥ sarve samudānītāḥ sthāpayitvā vānaram | tatas tān ādāya punar api tasya ṛṣeḥ sakāśam upasaṁkrāntaḥ | uktaś ca | alaṁ kumāra kim anena vyavasāyena kiṁ manoharayā | tvam ekākī asahāyaḥ śārīrasaṁśayam avāpsyasīti | kumāraḥ prāha | maharṣe ’vaśyam evāhaṁ prayāsyāmīti | kutaḥ"
+        ]
+    },
     "san-mu-kd6:585": {},
     "san-mu-kd6:586": {},
     "san-mu-kd6:587": {},
     "san-mu-kd6:588": {},
     "san-mu-kd6:589": {
         "supplied": [
-            "ṣya",
-            "hantavyaḥ |"
+            "tataḥ sudhanaḥ kumāro manoharopadiṣṭena vidhinā saṁprasthito ’nupūrveṇa parvatanadīguhāprapātādīni bhaiṣajyamantrāgadaprayogena vinirjitya drumasya kinnararājasya bhavanasamīpaṁ gataḥ | kumāro ’pasyat"
         ]
     },
     "san-mu-kd6:590": {},
     "san-mu-kd6:591": {},
     "san-mu-kd6:592": {},
     "san-mu-kd6:593": {},
-    "san-mu-kd6:594": {},
-    "san-mu-kd6:595": {},
+    "san-mu-kd6:594": {
+        "supplied": [
+            "tatas tāḥ sudhanakumāreṇābhihitāḥ | kim anena bahunā pānīyena kriyata iti | tāḥ kathayati | asti drumasya kinnararājasya duhitā manoharā nāma | sā manuṣyahastagatā babhūva | tasyāḥ sa manuṣyagandho naśyati | sudhanaḥ kumāraḥ pṛcchati | kim ete ghaṭāḥ samastāḥ sarve tasyā upari nipātyante āhosvid ānupūrveṇeti | tāḥ kathayanti | ānupūrvyā | sa saṁlakṣayati | śobhano ’yam upāya imām aṁgulimudrām ekasmin ghaṭe prakṣipāmīti | tenaikasyāḥ kinnaryā ghaṭe ’nālakṣitaṁ prakṣiptā | sā ca kinnarī abhihitā | anena tvayā ghaṭena manoharā tatprathamataraṁ snāpayitavyā | sā saṁlakṣayati | nūnam atra kāryeṇa bhavitavyam | tatas tayāsau ghaṭaḥ prathamataraṁ manoharāyā mūrdhni nipātito yāvad aṁgulimudrā utsaṅge nipatitā | sā manoharayā pratyabhijñātā | tataḥ kinnarīṁ pṛcchati | mā tatra kaścin manuṣyo ’bhyāgataḥ | sāha | abhyāgataḥ | gacchainaṁ pracchannaṁ praveśaya | tayā praveśitaḥ sugupte pradeśe sthāpitaḥ |"
+        ]
+    },
+    "san-mu-kd6:595": {
+        "supplied": [
+            "tato manoharā pituḥ pādayor nipatya kathayati | tāta yady asau sudhanaḥ kumāra āgacched yenāhaṁ hṛtā tasya tvaṁ kiṁ kuryāḥ | sa kathayati | tam ahaṁ khaṇḍaśataṁ kṛtvā catasṛṣu dikṣu kṣipeyaṁ manuṣyaḥ asau kiṁ teneti | manoharā kathayati | tāta manuṣyabhūtasya kuta ihāgamanam | aham eva bravīmīti | tato drumasya kinnararājasya paryavasthāno vigataḥ | tato vigataparyavasthānaḥ kathayati | yady asau kumāra āgacchet tasya hi tvāṁ sarvālaṅkāravibhūṣitāṁ prabhūtacittopakaraṇaiḥ kinnarīsahasraparivṛtāṁ bhāryāratnaṁ dadyām iti | tato manoharayā hṛṣṭatuṣṭapramuditayā sudhanaḥ kumāro divyālaṅkāravibhūṣito drumasya kinnararājasyopadarśitaḥ | tato drumaḥ kinnararājaḥ sudhanaṁ kumāraṁ dadarśābhirūpaṁ darśanīyaṁ prāsādikaṁ paramayā śubhavarṇapuṣkalatayā samanvāgatam | dṛṣṭvā ca punaḥ paraṁ vismayam upagataḥ | tatas tasya vijñāsāṁ kartukāmena sauvarṇāstambhā ucchritāḥ sapta tālāḥ sapta bheryaḥ sapta śūkarāḥ | āha ca |"
+        ]
+    },
     "san-mu-kd6:596": {},
     "san-mu-kd6:597": {},
     "san-mu-kd6:598": {},
     "san-mu-kd6:599": {},
     "san-mu-kd6:600": {},
     "san-mu-kd6:601": {},
-    "san-mu-kd6:602": {},
-    "san-mu-kd6:603": {},
-    "san-mu-kd6:604": {},
-    "san-mu-kd6:605": {},
-    "san-mu-kd6:606": {},
-    "san-mu-kd6:607": {},
-    "san-mu-kd6:608": {},
-    "san-mu-kd6:609": {},
-    "san-mu-kd6:610": {},
-    "san-mu-kd6:611": {},
-    "san-mu-kd6:612": {
-        "supplied": [
-            "evam āha | tāta adyaiva mayāvaśyaṁ gantavyam | rājā tūṣṇīm avasthitaḥ | tataḥ",
-            "manoharā"
-        ]
-    },
-    "san-mu-kd6:613": {},
-    "san-mu-kd6:614": {},
-    "san-mu-kd6:615": {},
-    "san-mu-kd6:616": {},
-    "san-mu-kd6:617": {},
-    "san-mu-kd6:618": {},
-    "san-mu-kd6:619": {},
-    "san-mu-kd6:620": {},
-    "san-mu-kd6:621": {},
-    "san-mu-kd6:622": {},
-    "san-mu-kd6:623": {},
-    "san-mu-kd6:624": {},
-    "san-mu-kd6:625": {},
-    "san-mu-kd6:626": {},
-    "san-mu-kd6:627": {},
-    "san-mu-kd6:628": {},
-    "san-mu-kd6:629": {},
-    "san-mu-kd6:630": {},
-    "san-mu-kd6:631": {},
-    "san-mu-kd6:632": {
-        "gap": [
-            "[folios 181–198 are missing; the remaining portion has been taken from Divy 453–461]"
-        ]
-    },
-    "san-mu-kd6:633": {
-        "supplied": [
-            "na nivartate | tato rājñā nagaraprākāraśṛṅgāṭakeṣv ārakṣakāḥ puruṣāḥ sthāpitā yathā kumāro na niṣkāsatīti | kumāraḥ kṛtsnāṁ rātriṁ jāgartukāmaḥ | uktaṁ ca | paṁceme rātryām alpaṁ svapanti bahu jāgrati | katame paṁca | puruṣāḥ striyam apekṣamāṇāḥ | pratibaddhacittaḥ strīpuruṣaḥ | utkruśaprāṇī | caurasenāpatiḥ | bhikṣuś cālabdhavīrya iti | atha kumārasyaitad abhavat | yadi dvāreṇa yāsyāmi rājā dvārapālakān rakṣakāṁś ca daṇḍenotsādayiṣyati yanv aham arakṣitena pathā gaccheyam iti | sa rātryāṁ vyutthāya nīlotpalamālābaddhaśirā yena rakṣiṇaḥ puruṣā na santi tena tāṁ mālāṁ dhvaje baddhvāvatīrṇaḥ | candraś ca coditaḥ |"
-        ]
-    },
-    "san-mu-kd6:634": {},
-    "san-mu-kd6:635": {},
-    "san-mu-kd6:636": {
-        "supplied": [
-            "kaccit priyā mama manoharaṇaikadakṣā dṛṣṭā tvayā bhuvi manoharanāmadheyā || iti |"
-        ]
-    },
-    "san-mu-kd6:637": {
-        "supplied": [
-            "anubhūtapūrvaratim anusmaran jagāma | dadarśa mṛgīm | tām apy uvācā |"
-        ]
-    },
-    "san-mu-kd6:638": {},
-    "san-mu-kd6:639": {},
-    "san-mu-kd6:640": {},
-    "san-mu-kd6:641": {
-        "supplied": [
-            "sa tām atikramyānyatamaṁ pradeśaṁ gato dadarśa vanaṁ nānāpuṣpaphalopaśobhitaṁ bhramarair upabhujyamānasāram | tato ’nyatamaṁ bhramaram uvāca |"
-        ]
-    },
-    "san-mu-kd6:642": {},
-    "san-mu-kd6:643": {},
-    "san-mu-kd6:644": {},
-    "san-mu-kd6:645": {
-        "supplied": [
-            "tasmād api pradeśād atikrāntaḥ paśyaty āśīviṣam | dṛṣṭvā cāha ||"
-        ]
-    },
-    "san-mu-kd6:646": {},
-    "san-mu-kd6:647": {},
-    "san-mu-kd6:648": {},
-    "san-mu-kd6:649": {
-        "supplied": [
-            "tam api pradeśaṁ samatikrānto dadarśāparaṁ kokilābhināditam | drṣṭvā ca punas taṁ kokilam uvāca |"
-        ]
-    },
-    "san-mu-kd6:650": {},
-    "san-mu-kd6:651": {
-        "supplied": [
-            "bhoḥ kokilottama vanāntaravṛkṣavāsin nārīmanohara patat trigaṇasya rājan |"
-        ]
-    },
-    "san-mu-kd6:652": {
-        "supplied": [
-            "nīlotpalāmalasamāyatacārūnetrā dṛṣṭā tvayā mama manoharanāmadheyā ||"
-        ]
-    },
-    "san-mu-kd6:653": {
-        "supplied": [
-            "tam api pradeśaṁ samatikrānto dadarśāśokavṛkṣaṁ sarvapariphullam |"
-        ]
-    },
-    "san-mu-kd6:654": {},
-    "san-mu-kd6:655": {},
-    "san-mu-kd6:656": {},
-    "san-mu-kd6:657": {},
-    "san-mu-kd6:658": {},
-    "san-mu-kd6:659": {},
-    "san-mu-kd6:660": {
-        "supplied": [
-            "tataḥ sa ṛṣiḥ sudhanaṁ kumāraṁ svāgatavacanāsanadānakriyādipuraḥsaraḥ pratisaṁmodyovāca |"
-        ]
-    },
-    "san-mu-kd6:661": {},
-    "san-mu-kd6:662": {},
-    "san-mu-kd6:663": {},
-    "san-mu-kd6:664": {},
-    "san-mu-kd6:665": {},
-    "san-mu-kd6:666": {},
-    "san-mu-kd6:667": {
-        "supplied": [
-            "mahac ca duḥkhaṁ vasatāṁ vaneṣu yātāṁ ca <span class='var' title='ramāṁ (divy)'>māṁ"
-        ]
-    },
-    "san-mu-kd6:668": {},
-    "san-mu-kd6:669": {
-        "supplied": [
-            "iyaṁ ca tayāṁgulimudrikā dattā | kathayati ca | kumāra viṣamāḥ panthāno durgamāḥ khedam āpatsyase nivartasveti | yadi ca nivāryamāṇo na tiṣṭhet tasya mārgam upadeṣṭum arhasi | kumāra idaṁ ca tayā samākhyātam | uttare digbhāge trayaḥ kālaparvatās tān atikramyāpare trayas tān apy atikramya himavān parvatarājaḥ | tatpraveśena tvayā imāni bhaiṣajyāni samudānetavyāni | tadyathā <span class='var' title='sūdayā (divy)'>sudhā"
-        ],
-        "add": [
-            "Divy: <i>-ka</i>"
-        ]
-    },
-    "san-mu-kd6:670": {},
-    "san-mu-kd6:671": {
-        "supplied": [
-            "ardhāntaragataṁ nāgaṁ yatra paśyet kirīṭakam |<span class='add'>Divy: <i>kiṭibhakaś ca</i>"
-        ]
-    },
-    "san-mu-kd6:672": {},
-    "san-mu-kd6:673": {},
-    "san-mu-kd6:674": {},
-    "san-mu-kd6:675": {},
-    "san-mu-kd6:676": {},
-    "san-mu-kd6:677": {},
-    "san-mu-kd6:678": {},
-    "san-mu-kd6:679": {},
-    "san-mu-kd6:680": {},
-    "san-mu-kd6:681": {},
-    "san-mu-kd6:682": {},
-    "san-mu-kd6:683": {
-        "supplied": [
-            "naṅgā pataṅgā tapanī citrā rudanī hasanī āśīviṣā vetravatī ca |"
-        ]
-    },
-    "san-mu-kd6:684": {},
-    "san-mu-kd6:685": {},
-    "san-mu-kd6:686": {},
-    "san-mu-kd6:687": {},
-    "san-mu-kd6:688": {},
-    "san-mu-kd6:689": {},
-    "san-mu-kd6:690": {},
-    "san-mu-kd6:691": {
-        "supplied": [
-            "rudanyāṁ saumanasyena samuttāraḥ | hasanyāṁ tūṣṇīṁbhāvena | āśīviṣāyāṁ sarpaviṣamantraprayogena samuttāro vetranadyāṁ tīkṣṇaśastrasaṁpātayogena samuttāraḥ | nadīm atikramya pañcayakṣaśatānāṁ gulmakasthānam | tad dhairyam āsthāya vidrāvyam | tato drumasya kinnararājasya bhavanam iti |"
-        ]
-    },
-    "san-mu-kd6:692": {
-        "supplied": [
-            "tataḥ sudhanaḥ kumāro yathopadiṣṭān oṣadhamantrāgadaprayogān samudānīya tasya ṛṣeḥ pādābhivandanaṁ kṛtvā prakrāntaḥ | tatas tena yathopadiṣṭāḥ sarve samudānītāḥ sthāpayitvā vānaram | tatas tān ādāya punar api tasya ṛṣeḥ sakāśam upasaṁkrāntaḥ | uktaś ca | alaṁ kumāra kim anena vyavasāyena kiṁ manoharayā | tvam ekākī asahāyaḥ śārīrasaṁśayam avāpsyasīti | kumāraḥ prāha | maharṣe ’vaśyam evāhaṁ prayāsyāmīti | kutaḥ"
-        ]
-    },
-    "san-mu-kd6:693": {},
-    "san-mu-kd6:694": {},
-    "san-mu-kd6:695": {},
-    "san-mu-kd6:696": {},
-    "san-mu-kd6:697": {},
-    "san-mu-kd6:698": {},
-    "san-mu-kd6:699": {
-        "supplied": [
-            "tataḥ sudhanaḥ kumāro manoharopadiṣṭena vidhinā saṁprasthito ’nupūrveṇa parvatanadīguhāprapātādīni bhaiṣajyamantrāgadaprayogena vinirjitya drumasya kinnararājasya bhavanasamīpaṁ gataḥ | kumāro ’pasyat"
-        ]
-    },
-    "san-mu-kd6:700": {},
-    "san-mu-kd6:701": {},
-    "san-mu-kd6:702": {},
-    "san-mu-kd6:703": {},
-    "san-mu-kd6:704": {},
-    "san-mu-kd6:705": {},
-    "san-mu-kd6:706": {
-        "supplied": [
-            "tatas tāḥ sudhanakumāreṇābhihitāḥ | kim anena bahunā pānīyena kriyata iti | tāḥ kathayati | asti drumasya kinnararājasya duhitā manoharā nāma | sā manuṣyahastagatā babhūva | tasyāḥ sa manuṣyagandho naśyati | sudhanaḥ kumāraḥ pṛcchati | kim ete ghaṭāḥ samastāḥ sarve tasyā upari nipātyante āhosvid ānupūrveṇeti | tāḥ kathayanti | ānupūrvyā | sa saṁlakṣayati | śobhano ’yam upāya imām aṁgulimudrām ekasmin ghaṭe prakṣipāmīti | tenaikasyāḥ kinnaryā ghaṭe ’nālakṣitaṁ prakṣiptā | sā ca kinnarī abhihitā | anena tvayā ghaṭena manoharā tatprathamataraṁ snāpayitavyā | sā saṁlakṣayati | nūnam atra kāryeṇa bhavitavyam | tatas tayāsau ghaṭaḥ prathamataraṁ manoharāyā mūrdhni nipātito yāvad aṁgulimudrā utsaṅge nipatitā | sā manoharayā pratyabhijñātā | tataḥ kinnarīṁ pṛcchati | mā tatra kaścin manuṣyo ’bhyāgataḥ | sāha | abhyāgataḥ | gacchainaṁ pracchannaṁ praveśaya | tayā praveśitaḥ sugupte pradeśe sthāpitaḥ |"
-        ]
-    },
-    "san-mu-kd6:707": {
-        "supplied": [
-            "tato manoharā pituḥ pādayor nipatya kathayati | tāta yady asau sudhanaḥ kumāra āgacched yenāhaṁ hṛtā tasya tvaṁ kiṁ kuryāḥ | sa kathayati | tam ahaṁ khaṇḍaśataṁ kṛtvā catasṛṣu dikṣu kṣipeyaṁ manuṣyaḥ asau kiṁ teneti | manoharā kathayati | tāta manuṣyabhūtasya kuta ihāgamanam | aham eva bravīmīti | tato drumasya kinnararājasya paryavasthāno vigataḥ | tato vigataparyavasthānaḥ kathayati | yady asau kumāra āgacchet tasya hi tvāṁ sarvālaṅkāravibhūṣitāṁ prabhūtacittopakaraṇaiḥ kinnarīsahasraparivṛtāṁ bhāryāratnaṁ dadyām iti | tato manoharayā hṛṣṭatuṣṭapramuditayā sudhanaḥ kumāro divyālaṅkāravibhūṣito drumasya kinnararājasyopadarśitaḥ | tato drumaḥ kinnararājaḥ sudhanaṁ kumāraṁ dadarśābhirūpaṁ darśanīyaṁ prāsādikaṁ paramayā śubhavarṇapuṣkalatayā samanvāgatam | dṛṣṭvā ca punaḥ paraṁ vismayam upagataḥ | tatas tasya vijñāsāṁ kartukāmena sauvarṇāstambhā ucchritāḥ sapta tālāḥ sapta bheryaḥ sapta śūkarāḥ | āha ca |"
-        ]
-    },
-    "san-mu-kd6:708": {},
-    "san-mu-kd6:709": {},
-    "san-mu-kd6:710": {},
-    "san-mu-kd6:711": {},
-    "san-mu-kd6:712": {},
-    "san-mu-kd6:713": {},
-    "san-mu-kd6:714": {},
-    "san-mu-kd6:715": {},
-    "san-mu-kd6:716": {
+    "san-mu-kd6:602": {
         "supplied": [
             "sudhanaḥ kumāro bodhisatvaḥ | kuśalāś ca bhavanti bodhisatvās teṣu teṣu śilpasthānakarmasthāneṣu devatāś caiṣām autsukyam āpatsyante avighnabhāvāya | tato bodhisatvo nṛtyagītavīṇāpaṇavasughoṣakavallarīmṛdaṅgādinānāvidhena daivatyopasaṁhatena vāditraviśeṣeṇa samantād āpūryamāṇo ’nekaiḥ kinnarasahasraiḥ parivṛtāḥ |"
         ]
     },
-    "san-mu-kd6:717": {},
-    "san-mu-kd6:718": {},
-    "san-mu-kd6:719": {},
-    "san-mu-kd6:720": {},
-    "san-mu-kd6:721": {},
-    "san-mu-kd6:722": {},
-    "san-mu-kd6:723": {
+    "san-mu-kd6:603": {},
+    "san-mu-kd6:604": {},
+    "san-mu-kd6:605": {},
+    "san-mu-kd6:606": {},
+    "san-mu-kd6:607": {
         "supplied": [
             "nīlotpaladalābhenāsinā gṛhītena paśyato drumasya kinnararājasya sauvarṇastambhasamīpaṁ gatvā tān stambhān kadalīcchedena khaṇḍakhaṇḍaṁ chettum ārabdhaḥ | tatas tān tilaśo ’vakīrya sapta tālān sapta bherīḥ sapta ca śūkarān bāṇena vidhya sumeruvad akampyo ’vasthitaḥ | tato gaganatalasthābhir devatābhiś ca kinnaraśatasahasrair hāhākārakilikilāprakṣveḍoccair nādo mukto yaṁ dṛṣṭvā ca kinnararājaḥ paraṁ vismayam upagataḥ | tataḥ kinnarīsahasrasya manoharāsamānarūpasya madhye manoharāṁ sthāpayitvā sudhanaḥ kumāro ’bhihitaḥ | ehi kumāra pratyabhijānāsi manoharām iti | tataḥ sudhanaḥ kumāras tāṁ pratyabhijñāya gāthābhigītenoktavān |"
         ]
     },
-    "san-mu-kd6:724": {},
-    "san-mu-kd6:725": {},
-    "san-mu-kd6:726": {},
-    "san-mu-kd6:727": {},
-    "san-mu-kd6:728": {
+    "san-mu-kd6:608": {},
+    "san-mu-kd6:609": {},
+    "san-mu-kd6:610": {
         "supplied": [
             "tataḥ sā drutapadam abhikrāntā | kinnarāḥ kathayanti | devāyaṁ sudhanaḥ kumāro balavīryaparākramasamanvito manoharāyāḥ pratirūpaḥ | kimarthaṁ vipralabhya | dīyatām asya manohareti | tato drumaḥ kinnararājaḥ kinnaragaṇena saṁvarṇitaḥ sudhanaṁ kinnarābhimatena mahatā satkāreṇa puraskṛtya manoharāṁ divyālaṅkāravibhūṣitāṁ vāmena pāṇinā gṛhītvā dakṣiṇena sauvarṇabhṛṅgāraṁ sudhanaḥ kumāro ’bhihitaḥ | kumāra eṣā te manoharā kinnarīparivṛtā bhāryārthāya dattā | aparicitā mānuṣāḥ | yathaināṁ na parityakṣyasīti | paraṁ tāteti sudhanaḥ kumāro drumasya kinnararājasya pratiśrutya kinnarabhavanastho manoharayā sārdhaṁ niṣpuruṣeṇa tūryeṇa kṛīḍate ramate paricārayati |"
         ]
     },
-    "san-mu-kd6:729": {
+    "san-mu-kd6:611": {
         "supplied": [
             "so ’pareṇa samayena svadeśam anusmṛtya mātāpitṛviyogajena duḥkhenātyāhato manoharāyā nivedayati | mātāpitṛviyogajaṁ me duḥkhaṁ bādhata iti | tato manoharayā eṣa vṛttānto vistareṇa pitur niveditaḥ | sa kathayati | gaccha kumāreṇa sārdham apakrāntayā te bhavitavyaṁ vipralambhakā manuṣyāḥ | tato drumeṇa kinnararājena prabhūtaṁ maṇimuktāsuvarṇādīn datvānupreṣitaḥ | sa manoharayā sārdham uparivihāyasā kinnarakhagapathena saṁprasthito ’nupūrveṇa hastināpuranagaram anuprāptaḥ | tato hastināpuraṁ nagaraṁ nānāmanohareṇa surabhiṇā gandhaviśeṣeṇa sarvadig āmoditam | śrutvā dhanena rājñānandabheryaś ca tāḍitāḥ | sarvaṁ ca tan nagaram apagatapāṣāṇaśarkarakaṭhallaṁ kāritaṁ candanavārisiktam āmuktapaṭṭadāmakalāpasamucchritadhvajapatākaṁ surabhidhūpaghaṭikopanibaddhaṁ nānāpuṣpāvakīrṇaramaṇīyam | tataḥ kumāro ’nekanaravarasahasraparivṛto manoharayā sārdhaṁ hastināpuraṁ nagaraṁ praviṣṭaḥ | tato mārgaśramaṁ prativinodya vividhāni ratnāny ādāya pituḥ sakāśam upasaṁkrāntaḥ | pitrā kaṇṭhe pariṣvaktaḥ pārśve rājāsane niṣaṇṇaḥ | kinnaranagaragamanāgamanaṁ ca vistareṇa samākhyātam |"
         ]
     },
-    "san-mu-kd6:730": {
+    "san-mu-kd6:612": {
         "supplied": [
             "tato dhanena rājñātibalavīryaparākrama iti viditvā rājyābhiṣekeṇābhiṣiktaḥ | sudhanaḥ kumāraḥ saṁlakṣayati | yan mama manoharayā sārdhaṁ samāgamaḥ saṁvṛtto rājyābhiṣekaś cānuprāptas tat pūrvakṛtahetuviśeṣād yanv aham idānīṁ dānāni dadyāṁ puṇyāni kuryām iti | tena hastināpure nagare dvādaśavarṣāṇi nirargalo yajña iṣṭaḥ |"
         ]
     },
-    "san-mu-kd6:731": {
+    "san-mu-kd6:613": {
         "supplied": [
             "syāt kalu te mahārājānyaḥ sa tena kālena tena samayena sudhanaḥ kumāro veti | na khalv evaṁ draṣṭavyam | api tv aham eva tena kālena tena samayena bodhisatvacaryāyāṁ vartamānaḥ sudhano nāma rājā babhūva | yan mayā manoharānimittaṁ balavīryaparākramo darśito dvādaśavarṣāṇi nirargalo yajña iṣṭo na tena mayānuttarā samyaksaṁbodhir adhigatā kin tu tad dānaṁ tac ca vīryam anuttarāyāḥ samyaksaṁbodher hetumātrakaṁ pratyayamātrakaṁ saṁbhāramātrakam |"
         ]
     },
-    "san-mu-kd6:732": {
+    "san-mu-kd6:614": {
         "gap": [
             "[folios 181–198 are missing]"
         ]
     },
-    "san-mu-kd6:733": {
+    "san-mu-kd6:615": {
         "supplied": [
             "n",
             "pūrvaṁ no lābhasatkāra evam evāsīt idānīṁ lokāḥ śramaṇasya gautamasya sakāśaṁ gacchanti | tasya satkāraṁ kurvanti | a",
@@ -1373,21 +1255,17 @@
             "jikā bhagavataḥ purataḥ sthitvāha |"
         ]
     },
-    "san-mu-kd6:734": {},
-    "san-mu-kd6:735": {},
-    "san-mu-kd6:736": {},
-    "san-mu-kd6:737": {},
-    "san-mu-kd6:738": {
+    "san-mu-kd6:616": {},
+    "san-mu-kd6:617": {},
+    "san-mu-kd6:618": {
         "supplied": [
             "ra",
             "n āha |"
         ]
     },
-    "san-mu-kd6:739": {},
-    "san-mu-kd6:740": {},
-    "san-mu-kd6:741": {},
-    "san-mu-kd6:742": {},
-    "san-mu-kd6:743": {
+    "san-mu-kd6:619": {},
+    "san-mu-kd6:620": {},
+    "san-mu-kd6:621": {
         "supplied": [
             "atha śakro devendraḥ aho",
             "ṇavikā lajjitā dūram apasṛtā | atha sthavirasthavirā bhikṣavo bhagavantam evam āhuḥ |",
@@ -1395,7 +1273,7 @@
             "i"
         ]
     },
-    "san-mu-kd6:744": {
+    "san-mu-kd6:622": {
         "supplied": [
             "vatā",
             "tiṣṭhatāṁ dhriyamāṇānāṁ yāpayatāṁ yaduta daśāvaśyakaraṇīyāni bhavanti | na tāvad buddhā bhaga",
@@ -1403,25 +1281,23 @@
             "ṣṭhāpitau bhavataḥ | anavatapte mahāsarasi śrāvakasaṁghena sārdhaṁ pūrvikā karmaplotideśanā vyākṛtā bhavati |"
         ]
     },
-    "san-mu-kd6:745": {
+    "san-mu-kd6:623": {
         "supplied": [
             "atha buddho",
             "ayata bhikṣavo yenānavataptaṁ mahāsaras tena svakasvakānāṁ pūrvikāṁ karmaplotiṁ vyākuryāma | bhikṣavaḥ evaṁ bhadanta iti",
             "caṇḍayakṣarākṣasaniṣevite nānāpuṣpavṛkṣopaśobhite prādurbhūtaḥ |"
         ]
     },
-    "san-mu-kd6:746": {},
-    "san-mu-kd6:747": {},
-    "san-mu-kd6:748": {},
-    "san-mu-kd6:749": {},
-    "san-mu-kd6:750": {},
-    "san-mu-kd6:751": {
+    "san-mu-kd6:624": {},
+    "san-mu-kd6:625": {},
+    "san-mu-kd6:626": {},
+    "san-mu-kd6:627": {},
+    "san-mu-kd6:628": {
         "supplied": [
             "ddhibalasya lābhī hanteha gacchāmi saro mahodadhim ||"
         ]
     },
-    "san-mu-kd6:752": {},
-    "san-mu-kd6:753": {
+    "san-mu-kd6:629": {
         "supplied": [
             "dharmatā khalu ya",
             "bhagavataś cetasā cittam ājānanti | atha nandopanandayor nāgarājayor etad abhavat | kimarthaṁ bhagavatā laukikaṁ cittam utpāditam | pa",
@@ -1448,7 +1324,7 @@
             "a āvām āgatau |"
         ]
     },
-    "san-mu-kd6:754": {
+    "san-mu-kd6:630": {
         "supplied": [
             "saṁśayajātā bhikṣavaḥ sarvasaṁśayacchettāraṁ bhagavantaṁ papracchuḥ | bhadanta bhagavatā",
             "ḥ",
@@ -1457,7 +1333,7 @@
             "kṣava etarhi atīte ’dhvany api śilpakuśalena parājitaḥ |"
         ]
     },
-    "san-mu-kd6:755": {
+    "san-mu-kd6:631": {
         "supplied": [
             "bhūtapūrvaṁ",
             "madhya",
@@ -1487,7 +1363,7 @@
             "ṛddhyā parājitaḥ |"
         ]
     },
-    "san-mu-kd6:756": {
+    "san-mu-kd6:632": {
         "supplied": [
             "bhūyo ’pi yo ’nena śilpakuśalena parājitas tac chrūyatām | bhūtapūrvaṁ bhikṣavo dvayoś citrakalācā",
             "āmīt",
@@ -1516,7 +1392,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:757": {
+    "san-mu-kd6:633": {
         "gap": [
             ".",
             "+ + +"
@@ -1536,7 +1412,7 @@
             "e"
         ]
     },
-    "san-mu-kd6:758": {
+    "san-mu-kd6:634": {
         "supplied": [
             "ṭā",
             "yo nābhyudeṣya",
@@ -1549,7 +1425,7 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:759": {
+    "san-mu-kd6:635": {
         "supplied": [
             "ṇ",
             "lapra",
@@ -1581,14 +1457,13 @@
             ".."
         ]
     },
-    "san-mu-kd6:760": {
+    "san-mu-kd6:636": {
         "supplied": [
             "ahākā",
             "karoti | kathayati"
         ]
     },
-    "san-mu-kd6:761": {},
-    "san-mu-kd6:762": {
+    "san-mu-kd6:637": {
         "supplied": [
             "sa tatra ga"
         ],
@@ -1596,14 +1471,14 @@
             "."
         ]
     },
-    "san-mu-kd6:763": {
+    "san-mu-kd6:638": {
         "supplied": [
             "va",
             "1"
         ]
     },
-    "san-mu-kd6:764": {},
-    "san-mu-kd6:765": {
+    "san-mu-kd6:639": {},
+    "san-mu-kd6:640": {
         "gap": [
             "..",
             "+ + + + +",
@@ -1613,7 +1488,7 @@
             "2"
         ]
     },
-    "san-mu-kd6:766": {
+    "san-mu-kd6:641": {
         "supplied": [
             "ra",
             "tha",
@@ -1624,19 +1499,19 @@
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:767": {
+    "san-mu-kd6:642": {
         "supplied": [
             "s",
             "ave",
             "3"
         ]
     },
-    "san-mu-kd6:768": {
+    "san-mu-kd6:643": {
         "supplied": [
             "nasam"
         ]
     },
-    "san-mu-kd6:769": {
+    "san-mu-kd6:644": {
         "gap": [
             "+ + + + +",
             "..",
@@ -1647,7 +1522,7 @@
             "4"
         ]
     },
-    "san-mu-kd6:770": {
+    "san-mu-kd6:645": {
         "gap": [
             "+ + + + + + + + + + + +"
         ],
@@ -1655,7 +1530,7 @@
             "sahasra"
         ]
     },
-    "san-mu-kd6:771": {
+    "san-mu-kd6:646": {
         "supplied": [
             "ṣu",
             "5"
@@ -1664,8 +1539,8 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:772": {},
-    "san-mu-kd6:773": {
+    "san-mu-kd6:647": {},
+    "san-mu-kd6:648": {
         "supplied": [
             "a",
             "6"
@@ -1675,24 +1550,24 @@
             "+ + + + +"
         ]
     },
-    "san-mu-kd6:774": {
+    "san-mu-kd6:649": {
         "gap": [
             "+ + + + + + + + + + +",
             "."
         ]
     },
-    "san-mu-kd6:775": {
+    "san-mu-kd6:650": {
         "supplied": [
             "nar manu",
             "7"
         ]
     },
-    "san-mu-kd6:776": {
+    "san-mu-kd6:651": {
         "supplied": [
             "o"
         ]
     },
-    "san-mu-kd6:777": {
+    "san-mu-kd6:652": {
         "supplied": [
             "ataḥ",
             "8"
@@ -1701,7 +1576,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:778": {
+    "san-mu-kd6:653": {
         "gap": [
             "+ + + + + +"
         ],
@@ -1710,35 +1585,35 @@
             "aśrāvakān"
         ]
     },
-    "san-mu-kd6:779": {
+    "san-mu-kd6:654": {
         "supplied": [
             "9"
         ]
     },
-    "san-mu-kd6:780": {},
-    "san-mu-kd6:781": {
+    "san-mu-kd6:655": {},
+    "san-mu-kd6:656": {
         "supplied": [
             "āvakas te ’haṁ 10"
         ]
     },
-    "san-mu-kd6:782": {
+    "san-mu-kd6:657": {
         "gap": [
             "+ + + + + + + + + +",
             ".."
         ]
     },
-    "san-mu-kd6:783": {
+    "san-mu-kd6:658": {
         "supplied": [
             "tvaṁ dha",
             "11"
         ]
     },
-    "san-mu-kd6:784": {
+    "san-mu-kd6:659": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:785": {
+    "san-mu-kd6:660": {
         "gap": [
             "+ + + + + + + + + +"
         ],
@@ -1746,7 +1621,7 @@
             "12"
         ]
     },
-    "san-mu-kd6:786": {
+    "san-mu-kd6:661": {
         "gap": [
             "+ + +"
         ],
@@ -1754,13 +1629,13 @@
             "hadhārī"
         ]
     },
-    "san-mu-kd6:787": {
+    "san-mu-kd6:662": {
         "supplied": [
             "13"
         ]
     },
-    "san-mu-kd6:788": {},
-    "san-mu-kd6:789": {
+    "san-mu-kd6:663": {},
+    "san-mu-kd6:664": {
         "gap": [
             "+ + + + + + + + + + +",
             "."
@@ -1769,18 +1644,18 @@
             "14"
         ]
     },
-    "san-mu-kd6:790": {
+    "san-mu-kd6:665": {
         "gap": [
             "+ + +"
         ]
     },
-    "san-mu-kd6:791": {
+    "san-mu-kd6:666": {
         "supplied": [
             "15"
         ]
     },
-    "san-mu-kd6:792": {},
-    "san-mu-kd6:793": {
+    "san-mu-kd6:667": {},
+    "san-mu-kd6:668": {
         "supplied": [
             "āpto",
             "pa",
@@ -1791,15 +1666,14 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:794": {},
-    "san-mu-kd6:795": {
+    "san-mu-kd6:669": {},
+    "san-mu-kd6:670": {
         "supplied": [
             "yākaroti"
         ]
     },
-    "san-mu-kd6:796": {},
-    "san-mu-kd6:797": {},
-    "san-mu-kd6:798": {
+    "san-mu-kd6:671": {},
+    "san-mu-kd6:672": {
         "supplied": [
             "a",
             "ar",
@@ -1807,29 +1681,28 @@
             "ayaty"
         ]
     },
-    "san-mu-kd6:799": {},
-    "san-mu-kd6:800": {
+    "san-mu-kd6:673": {
         "supplied": [
             "araṇye"
         ]
     },
-    "san-mu-kd6:801": {
+    "san-mu-kd6:674": {
         "supplied": [
             "18"
         ]
     },
-    "san-mu-kd6:802": {},
-    "san-mu-kd6:803": {
+    "san-mu-kd6:675": {},
+    "san-mu-kd6:676": {
         "supplied": [
             "19"
         ]
     },
-    "san-mu-kd6:804": {
+    "san-mu-kd6:677": {
         "supplied": [
             "ā"
         ]
     },
-    "san-mu-kd6:805": {
+    "san-mu-kd6:678": {
         "supplied": [
             "āyasaṁ",
             "20"
@@ -1838,25 +1711,25 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:806": {
+    "san-mu-kd6:679": {
         "supplied": [
             "dh",
             "tata"
         ]
     },
-    "san-mu-kd6:807": {
+    "san-mu-kd6:680": {
         "supplied": [
             "21"
         ]
     },
-    "san-mu-kd6:808": {},
-    "san-mu-kd6:809": {
+    "san-mu-kd6:681": {},
+    "san-mu-kd6:682": {
         "supplied": [
             "22"
         ]
     },
-    "san-mu-kd6:810": {},
-    "san-mu-kd6:811": {
+    "san-mu-kd6:683": {},
+    "san-mu-kd6:684": {
         "supplied": [
             "ā",
             "a",
@@ -1865,71 +1738,69 @@
             "23"
         ]
     },
-    "san-mu-kd6:812": {
+    "san-mu-kd6:685": {
         "supplied": [
             "mā jātir labdho"
         ]
     },
-    "san-mu-kd6:813": {
+    "san-mu-kd6:686": {
         "supplied": [
             "vā",
             "24"
         ]
     },
-    "san-mu-kd6:814": {},
-    "san-mu-kd6:815": {},
-    "san-mu-kd6:816": {
+    "san-mu-kd6:687": {},
+    "san-mu-kd6:688": {},
+    "san-mu-kd6:689": {
         "supplied": [
             "25"
         ]
     },
-    "san-mu-kd6:817": {
+    "san-mu-kd6:690": {
         "gap": [
             ".",
             "+ + + +"
         ]
     },
-    "san-mu-kd6:818": {
+    "san-mu-kd6:691": {
         "supplied": [
             "26"
         ]
     },
-    "san-mu-kd6:819": {},
-    "san-mu-kd6:820": {
+    "san-mu-kd6:692": {},
+    "san-mu-kd6:693": {
         "supplied": [
             "27"
         ]
     },
-    "san-mu-kd6:821": {},
-    "san-mu-kd6:822": {},
-    "san-mu-kd6:823": {
+    "san-mu-kd6:694": {},
+    "san-mu-kd6:695": {
         "supplied": [
             "lyā",
             "anam ida",
             "a"
         ]
     },
-    "san-mu-kd6:824": {},
-    "san-mu-kd6:825": {
+    "san-mu-kd6:696": {
         "gap": [
             ".. .. .."
         ]
     },
-    "san-mu-kd6:826": {
+    "san-mu-kd6:697": {
         "supplied": [
             "ṁ",
             "28"
         ]
     },
-    "san-mu-kd6:827": {},
-    "san-mu-kd6:828": {
+    "san-mu-kd6:698": {},
+    "san-mu-kd6:699": {
         "supplied": [
             "ḥ",
             "29"
         ]
     },
-    "san-mu-kd6:829": {},
-    "san-mu-kd6:830": {
+    "san-mu-kd6:700": {},
+    "san-mu-kd6:701": {
         "gap": [
             "..",
             "+ + +"
@@ -1938,39 +1809,39 @@
             "30"
         ]
     },
-    "san-mu-kd6:831": {},
-    "san-mu-kd6:832": {
+    "san-mu-kd6:702": {},
+    "san-mu-kd6:703": {
         "supplied": [
             "ṁ"
         ]
     },
-    "san-mu-kd6:833": {
+    "san-mu-kd6:704": {
         "supplied": [
             "31"
         ]
     },
-    "san-mu-kd6:834": {},
-    "san-mu-kd6:835": {
+    "san-mu-kd6:705": {},
+    "san-mu-kd6:706": {
         "supplied": [
             "rocayam 32"
         ]
     },
-    "san-mu-kd6:836": {},
-    "san-mu-kd6:837": {
+    "san-mu-kd6:707": {},
+    "san-mu-kd6:708": {
         "supplied": [
             "33"
         ]
     },
-    "san-mu-kd6:838": {},
-    "san-mu-kd6:839": {
+    "san-mu-kd6:709": {},
+    "san-mu-kd6:710": {
         "supplied": [
             "t",
             "tībhūto ’smi nir",
             "34"
         ]
     },
-    "san-mu-kd6:840": {},
-    "san-mu-kd6:841": {
+    "san-mu-kd6:711": {},
+    "san-mu-kd6:712": {
         "gap": [
             ".. +"
         ],
@@ -1979,18 +1850,18 @@
             "35"
         ]
     },
-    "san-mu-kd6:842": {},
-    "san-mu-kd6:843": {
+    "san-mu-kd6:713": {},
+    "san-mu-kd6:714": {
         "supplied": [
             "36"
         ]
     },
-    "san-mu-kd6:844": {
+    "san-mu-kd6:715": {
         "supplied": [
             "ktakarāṇāt"
         ]
     },
-    "san-mu-kd6:845": {
+    "san-mu-kd6:716": {
         "gap": [
             "+ + +"
         ],
@@ -1999,25 +1870,25 @@
             "37"
         ]
     },
-    "san-mu-kd6:846": {
+    "san-mu-kd6:717": {
         "gap": [
             ". .. .. ..",
             "+ +"
         ]
     },
-    "san-mu-kd6:847": {},
-    "san-mu-kd6:848": {
+    "san-mu-kd6:718": {},
+    "san-mu-kd6:719": {
         "supplied": [
             "a",
             "38"
         ]
     },
-    "san-mu-kd6:849": {
+    "san-mu-kd6:720": {
         "supplied": [
             "kṛtaṁ"
         ]
     },
-    "san-mu-kd6:850": {
+    "san-mu-kd6:721": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -2026,7 +1897,7 @@
             "39"
         ]
     },
-    "san-mu-kd6:851": {
+    "san-mu-kd6:722": {
         "gap": [
             ".. .. +"
         ],
@@ -2034,23 +1905,23 @@
             "pa"
         ]
     },
-    "san-mu-kd6:852": {
+    "san-mu-kd6:723": {
         "supplied": [
             "40"
         ]
     },
-    "san-mu-kd6:853": {},
-    "san-mu-kd6:854": {
+    "san-mu-kd6:724": {},
+    "san-mu-kd6:725": {
         "supplied": [
             "41"
         ]
     },
-    "san-mu-kd6:855": {
+    "san-mu-kd6:726": {
         "gap": [
             "+ + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:856": {
+    "san-mu-kd6:727": {
         "gap": [
             "+ + + + +"
         ],
@@ -2059,25 +1930,24 @@
             "42"
         ]
     },
-    "san-mu-kd6:857": {
+    "san-mu-kd6:728": {
         "supplied": [
             "olitaḥ"
         ]
     },
-    "san-mu-kd6:858": {
+    "san-mu-kd6:729": {
         "supplied": [
             "kaṁ ka",
             "43"
         ]
     },
-    "san-mu-kd6:859": {
+    "san-mu-kd6:730": {
         "supplied": [
             "g",
             "tṛ"
         ]
     },
-    "san-mu-kd6:860": {},
-    "san-mu-kd6:861": {
+    "san-mu-kd6:731": {
         "supplied": [
             "bhitam",
             "m āyu",
@@ -2090,14 +1960,13 @@
             ".."
         ]
     },
-    "san-mu-kd6:862": {},
-    "san-mu-kd6:863": {
+    "san-mu-kd6:732": {
         "supplied": [
             "v",
             "ṇaṁ"
         ]
     },
-    "san-mu-kd6:864": {
+    "san-mu-kd6:733": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -2105,27 +1974,27 @@
             "44"
         ]
     },
-    "san-mu-kd6:865": {
+    "san-mu-kd6:734": {
         "supplied": [
             "tata",
             "ci",
             "ṇam"
         ]
     },
-    "san-mu-kd6:866": {
+    "san-mu-kd6:735": {
         "supplied": [
             "ḥ",
             "45"
         ]
     },
-    "san-mu-kd6:867": {},
-    "san-mu-kd6:868": {
+    "san-mu-kd6:736": {},
+    "san-mu-kd6:737": {
         "supplied": [
             "sādi",
             "46"
         ]
     },
-    "san-mu-kd6:869": {
+    "san-mu-kd6:738": {
         "supplied": [
             "ṣeṇa"
         ],
@@ -2133,7 +2002,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:870": {
+    "san-mu-kd6:739": {
         "gap": [
             "+ + + + + + + + + +"
         ],
@@ -2141,30 +2010,30 @@
             "47"
         ]
     },
-    "san-mu-kd6:871": {
+    "san-mu-kd6:740": {
         "supplied": [
             "jñāti"
         ]
     },
-    "san-mu-kd6:872": {
+    "san-mu-kd6:741": {
         "supplied": [
             "48"
         ]
     },
-    "san-mu-kd6:873": {
+    "san-mu-kd6:742": {
         "supplied": [
             "m an",
             "t",
             "araḥ"
         ]
     },
-    "san-mu-kd6:874": {
+    "san-mu-kd6:743": {
         "supplied": [
             "ca",
             "49"
         ]
     },
-    "san-mu-kd6:875": {
+    "san-mu-kd6:744": {
         "supplied": [
             "ṇidhiḥ"
         ],
@@ -2172,7 +2041,7 @@
             "+ + + + + + + + +"
         ]
     },
-    "san-mu-kd6:876": {
+    "san-mu-kd6:745": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -2180,23 +2049,23 @@
             "50"
         ]
     },
-    "san-mu-kd6:877": {
+    "san-mu-kd6:746": {
         "supplied": [
             "budvīpam a"
         ]
     },
-    "san-mu-kd6:878": {
+    "san-mu-kd6:747": {
         "supplied": [
             "51"
         ]
     },
-    "san-mu-kd6:879": {},
-    "san-mu-kd6:880": {
+    "san-mu-kd6:748": {},
+    "san-mu-kd6:749": {
         "supplied": [
             "52"
         ]
     },
-    "san-mu-kd6:881": {
+    "san-mu-kd6:750": {
         "supplied": [
             "īpe"
         ],
@@ -2204,7 +2073,7 @@
             "+ + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:882": {
+    "san-mu-kd6:751": {
         "supplied": [
             "ya",
             "53"
@@ -2214,18 +2083,18 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:883": {},
-    "san-mu-kd6:884": {
+    "san-mu-kd6:752": {},
+    "san-mu-kd6:753": {
         "supplied": [
             "54"
         ]
     },
-    "san-mu-kd6:885": {
+    "san-mu-kd6:754": {
         "supplied": [
             "ṁ"
         ]
     },
-    "san-mu-kd6:886": {
+    "san-mu-kd6:755": {
         "supplied": [
             "āro",
             "55"
@@ -2234,12 +2103,12 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:887": {
+    "san-mu-kd6:756": {
         "supplied": [
             "etad bhadantā"
         ]
     },
-    "san-mu-kd6:888": {
+    "san-mu-kd6:757": {
         "gap": [
             ".. ..",
             "+ +"
@@ -2249,19 +2118,19 @@
             "56"
         ]
     },
-    "san-mu-kd6:889": {},
-    "san-mu-kd6:890": {
+    "san-mu-kd6:758": {},
+    "san-mu-kd6:759": {
         "supplied": [
             "ḥ",
             "57"
         ]
     },
-    "san-mu-kd6:891": {
+    "san-mu-kd6:760": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:892": {
+    "san-mu-kd6:761": {
         "gap": [
             "+ + + + +"
         ],
@@ -2271,20 +2140,19 @@
             "58"
         ]
     },
-    "san-mu-kd6:893": {
+    "san-mu-kd6:762": {
         "supplied": [
             "ś",
             "bhi"
         ]
     },
-    "san-mu-kd6:894": {
+    "san-mu-kd6:763": {
         "supplied": [
             "59"
         ]
     },
-    "san-mu-kd6:895": {},
-    "san-mu-kd6:896": {},
-    "san-mu-kd6:897": {
+    "san-mu-kd6:764": {},
+    "san-mu-kd6:765": {
         "supplied": [
             "asam idam avoca",
             "tena"
@@ -2293,26 +2161,25 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:898": {},
-    "san-mu-kd6:899": {
+    "san-mu-kd6:766": {
         "supplied": [
             "ṁ"
         ]
     },
-    "san-mu-kd6:900": {
+    "san-mu-kd6:767": {
         "supplied": [
             "60"
         ]
     },
-    "san-mu-kd6:901": {},
-    "san-mu-kd6:902": {
+    "san-mu-kd6:768": {},
+    "san-mu-kd6:769": {
         "supplied": [
             "ṁ",
             "ṁ",
             "61"
         ]
     },
-    "san-mu-kd6:903": {
+    "san-mu-kd6:770": {
         "supplied": [
             "t",
             "ā",
@@ -2322,50 +2189,50 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:904": {
+    "san-mu-kd6:771": {
         "supplied": [
             "62"
         ]
     },
-    "san-mu-kd6:905": {},
-    "san-mu-kd6:906": {
+    "san-mu-kd6:772": {},
+    "san-mu-kd6:773": {
         "supplied": [
             "63"
         ]
     },
-    "san-mu-kd6:907": {},
-    "san-mu-kd6:908": {
+    "san-mu-kd6:774": {},
+    "san-mu-kd6:775": {
         "supplied": [
             "aḥ 64"
         ]
     },
-    "san-mu-kd6:909": {
+    "san-mu-kd6:776": {
         "supplied": [
             "ārādhita"
         ]
     },
-    "san-mu-kd6:910": {
+    "san-mu-kd6:777": {
         "supplied": [
             "hatva",
             "ca ma",
             "65"
         ]
     },
-    "san-mu-kd6:911": {},
-    "san-mu-kd6:912": {
+    "san-mu-kd6:778": {},
+    "san-mu-kd6:779": {
         "supplied": [
             "66"
         ]
     },
-    "san-mu-kd6:913": {},
-    "san-mu-kd6:914": {
+    "san-mu-kd6:780": {},
+    "san-mu-kd6:781": {
         "supplied": [
             "san",
             "e",
             "67"
         ]
     },
-    "san-mu-kd6:915": {
+    "san-mu-kd6:782": {
         "gap": [
             "+ + + +"
         ],
@@ -2373,88 +2240,86 @@
             "guṇ"
         ]
     },
-    "san-mu-kd6:916": {
+    "san-mu-kd6:783": {
         "supplied": [
             "68"
         ]
     },
-    "san-mu-kd6:917": {},
-    "san-mu-kd6:918": {
+    "san-mu-kd6:784": {},
+    "san-mu-kd6:785": {
         "supplied": [
             "69"
         ]
     },
-    "san-mu-kd6:919": {},
-    "san-mu-kd6:920": {
+    "san-mu-kd6:786": {},
+    "san-mu-kd6:787": {
         "supplied": [
             "70"
         ]
     },
-    "san-mu-kd6:921": {
+    "san-mu-kd6:788": {
         "gap": [
             ".",
             "+ + + + + +"
         ]
     },
-    "san-mu-kd6:922": {
+    "san-mu-kd6:789": {
         "supplied": [
             "71"
         ]
     },
-    "san-mu-kd6:923": {},
-    "san-mu-kd6:924": {
+    "san-mu-kd6:790": {},
+    "san-mu-kd6:791": {
         "supplied": [
             "72"
         ]
     },
-    "san-mu-kd6:925": {},
-    "san-mu-kd6:926": {
+    "san-mu-kd6:792": {},
+    "san-mu-kd6:793": {
         "supplied": [
             "rāt 73"
         ]
     },
-    "san-mu-kd6:927": {
+    "san-mu-kd6:794": {
         "supplied": [
             "i",
             "e"
         ]
     },
-    "san-mu-kd6:928": {
+    "san-mu-kd6:795": {
         "supplied": [
             "74"
         ]
     },
-    "san-mu-kd6:929": {},
-    "san-mu-kd6:930": {},
-    "san-mu-kd6:931": {
+    "san-mu-kd6:796": {},
+    "san-mu-kd6:797": {
         "supplied": [
             "yākṛ",
             "vyākarotu"
         ]
     },
-    "san-mu-kd6:932": {},
-    "san-mu-kd6:933": {
+    "san-mu-kd6:798": {
         "supplied": [
             "rdiśasya saṁ"
         ]
     },
-    "san-mu-kd6:934": {
+    "san-mu-kd6:799": {
         "supplied": [
             "75"
         ]
     },
-    "san-mu-kd6:935": {
+    "san-mu-kd6:800": {
         "supplied": [
             "ū"
         ]
     },
-    "san-mu-kd6:936": {
+    "san-mu-kd6:801": {
         "supplied": [
             "76"
         ]
     },
-    "san-mu-kd6:937": {},
-    "san-mu-kd6:938": {
+    "san-mu-kd6:802": {},
+    "san-mu-kd6:803": {
         "gap": [
             "+ + +"
         ],
@@ -2463,14 +2328,14 @@
             "77"
         ]
     },
-    "san-mu-kd6:939": {},
-    "san-mu-kd6:940": {
+    "san-mu-kd6:804": {},
+    "san-mu-kd6:805": {
         "supplied": [
             "78"
         ]
     },
-    "san-mu-kd6:941": {},
-    "san-mu-kd6:942": {
+    "san-mu-kd6:806": {},
+    "san-mu-kd6:807": {
         "gap": [
             "+ + + + + + +",
             ".."
@@ -2479,14 +2344,14 @@
             "79"
         ]
     },
-    "san-mu-kd6:943": {
+    "san-mu-kd6:808": {
         "supplied": [
             "r abh",
             "a",
             "am"
         ]
     },
-    "san-mu-kd6:944": {
+    "san-mu-kd6:809": {
         "gap": [
             "+ +"
         ],
@@ -2495,14 +2360,14 @@
             "80"
         ]
     },
-    "san-mu-kd6:945": {},
-    "san-mu-kd6:946": {
+    "san-mu-kd6:810": {},
+    "san-mu-kd6:811": {
         "supplied": [
             "ḥ",
             "81"
         ]
     },
-    "san-mu-kd6:947": {
+    "san-mu-kd6:812": {
         "supplied": [
             "k."
         ],
@@ -2510,7 +2375,7 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:948": {
+    "san-mu-kd6:813": {
         "gap": [
             "+ + + +"
         ],
@@ -2519,18 +2384,18 @@
             "82"
         ]
     },
-    "san-mu-kd6:949": {
+    "san-mu-kd6:814": {
         "supplied": [
             "vā"
         ]
     },
-    "san-mu-kd6:950": {
+    "san-mu-kd6:815": {
         "supplied": [
             "83"
         ]
     },
-    "san-mu-kd6:951": {},
-    "san-mu-kd6:952": {
+    "san-mu-kd6:816": {},
+    "san-mu-kd6:817": {
         "supplied": [
             "laṁ",
             "84"
@@ -2539,7 +2404,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:953": {
+    "san-mu-kd6:818": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -2547,14 +2412,13 @@
             "bhikṣu"
         ]
     },
-    "san-mu-kd6:954": {
+    "san-mu-kd6:819": {
         "supplied": [
             "85"
         ]
     },
-    "san-mu-kd6:955": {},
-    "san-mu-kd6:956": {},
-    "san-mu-kd6:957": {
+    "san-mu-kd6:820": {},
+    "san-mu-kd6:821": {
         "supplied": [
             "tā",
             "idānī",
@@ -2564,17 +2428,16 @@
             "+ + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:958": {},
-    "san-mu-kd6:959": {},
-    "san-mu-kd6:960": {
+    "san-mu-kd6:822": {},
+    "san-mu-kd6:823": {
         "supplied": [
             "roc",
             "ta",
             "86"
         ]
     },
-    "san-mu-kd6:961": {},
-    "san-mu-kd6:962": {
+    "san-mu-kd6:824": {},
+    "san-mu-kd6:825": {
         "supplied": [
             "t",
             "v",
@@ -2586,7 +2449,7 @@
             "+ + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:963": {
+    "san-mu-kd6:826": {
         "gap": [
             "+ + +"
         ],
@@ -2594,7 +2457,7 @@
             "kā"
         ]
     },
-    "san-mu-kd6:964": {
+    "san-mu-kd6:827": {
         "gap": [
             "..",
             "+ +"
@@ -2603,8 +2466,8 @@
             "88"
         ]
     },
-    "san-mu-kd6:965": {},
-    "san-mu-kd6:966": {
+    "san-mu-kd6:828": {},
+    "san-mu-kd6:829": {
         "gap": [
             "+ +"
         ],
@@ -2613,13 +2476,13 @@
             "89"
         ]
     },
-    "san-mu-kd6:967": {
+    "san-mu-kd6:830": {
         "gap": [
             "..",
             "+ + + +"
         ]
     },
-    "san-mu-kd6:968": {
+    "san-mu-kd6:831": {
         "gap": [
             "+ + + + + + + + + + + + + +"
         ],
@@ -2629,7 +2492,7 @@
             "90"
         ]
     },
-    "san-mu-kd6:969": {
+    "san-mu-kd6:832": {
         "supplied": [
             "ṁ"
         ],
@@ -2638,25 +2501,25 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:970": {
+    "san-mu-kd6:833": {
         "supplied": [
             "91"
         ]
     },
-    "san-mu-kd6:971": {},
-    "san-mu-kd6:972": {
+    "san-mu-kd6:834": {},
+    "san-mu-kd6:835": {
         "supplied": [
             "śrutaś ca vāgī",
             "n",
             "92"
         ]
     },
-    "san-mu-kd6:973": {
+    "san-mu-kd6:836": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:974": {
+    "san-mu-kd6:837": {
         "gap": [
             "+ + + + + + + + + + + + +"
         ],
@@ -2666,13 +2529,12 @@
             "93"
         ]
     },
-    "san-mu-kd6:975": {
+    "san-mu-kd6:838": {
         "supplied": [
             "tamaḥ || ||"
         ]
     },
-    "san-mu-kd6:976": {},
-    "san-mu-kd6:977": {
+    "san-mu-kd6:839": {
         "supplied": [
             "d",
             "āja",
@@ -2684,29 +2546,28 @@
             "+ + + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:978": {},
-    "san-mu-kd6:979": {
+    "san-mu-kd6:840": {
         "supplied": [
             "putro"
         ]
     },
-    "san-mu-kd6:980": {
+    "san-mu-kd6:841": {
         "supplied": [
             "94"
         ]
     },
-    "san-mu-kd6:981": {
+    "san-mu-kd6:842": {
         "supplied": [
             "ṁ"
         ]
     },
-    "san-mu-kd6:982": {
+    "san-mu-kd6:843": {
         "supplied": [
             "ṁ",
             "95"
         ]
     },
-    "san-mu-kd6:983": {
+    "san-mu-kd6:844": {
         "supplied": [
             "ā"
         ],
@@ -2714,7 +2575,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:984": {
+    "san-mu-kd6:845": {
         "gap": [
             "+ + +"
         ],
@@ -2724,18 +2585,18 @@
             "96"
         ]
     },
-    "san-mu-kd6:985": {
+    "san-mu-kd6:846": {
         "supplied": [
             "tena ka"
         ]
     },
-    "san-mu-kd6:986": {
+    "san-mu-kd6:847": {
         "supplied": [
             "97"
         ]
     },
-    "san-mu-kd6:987": {},
-    "san-mu-kd6:988": {
+    "san-mu-kd6:848": {},
+    "san-mu-kd6:849": {
         "gap": [
             "..",
             "+ + +"
@@ -2744,7 +2605,7 @@
             "98"
         ]
     },
-    "san-mu-kd6:989": {
+    "san-mu-kd6:850": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -2752,7 +2613,7 @@
             "tāsu tasū"
         ]
     },
-    "san-mu-kd6:990": {
+    "san-mu-kd6:851": {
         "supplied": [
             "ā",
             "kā",
@@ -2762,14 +2623,14 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:991": {},
-    "san-mu-kd6:992": {
+    "san-mu-kd6:852": {},
+    "san-mu-kd6:853": {
         "supplied": [
             "100"
         ]
     },
-    "san-mu-kd6:993": {},
-    "san-mu-kd6:994": {
+    "san-mu-kd6:854": {},
+    "san-mu-kd6:855": {
         "supplied": [
             "rhatvaṁ",
             "’s",
@@ -2781,25 +2642,25 @@
             "+ + + + + + + + +"
         ]
     },
-    "san-mu-kd6:995": {
+    "san-mu-kd6:856": {
         "supplied": [
             "rvadarśi"
         ]
     },
-    "san-mu-kd6:996": {
+    "san-mu-kd6:857": {
         "supplied": [
             "ḥ",
             "102"
         ]
     },
-    "san-mu-kd6:997": {},
-    "san-mu-kd6:998": {
+    "san-mu-kd6:858": {},
+    "san-mu-kd6:859": {
         "supplied": [
             "n",
             "103"
         ]
     },
-    "san-mu-kd6:999": {
+    "san-mu-kd6:860": {
         "supplied": [
             "ḥ",
             "ṛ",
@@ -2809,25 +2670,24 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1000": {
+    "san-mu-kd6:861": {
         "supplied": [
             "ti 104"
         ]
     },
-    "san-mu-kd6:1001": {
+    "san-mu-kd6:862": {
         "supplied": [
             "piṇḍo",
             "ḥ"
         ]
     },
-    "san-mu-kd6:1002": {
+    "san-mu-kd6:863": {
         "supplied": [
             "105"
         ]
     },
-    "san-mu-kd6:1003": {},
-    "san-mu-kd6:1004": {},
-    "san-mu-kd6:1005": {
+    "san-mu-kd6:864": {},
+    "san-mu-kd6:865": {
         "supplied": [
             "mantaṁ s",
             "ā",
@@ -2838,18 +2698,17 @@
             "ṁ"
         ]
     },
-    "san-mu-kd6:1006": {},
-    "san-mu-kd6:1007": {
+    "san-mu-kd6:866": {
         "supplied": [
             "ma"
         ]
     },
-    "san-mu-kd6:1008": {
+    "san-mu-kd6:867": {
         "supplied": [
             "106"
         ]
     },
-    "san-mu-kd6:1009": {
+    "san-mu-kd6:868": {
         "gap": [
             "+ + +"
         ],
@@ -2857,7 +2716,7 @@
             "satkṛ"
         ]
     },
-    "san-mu-kd6:1010": {
+    "san-mu-kd6:869": {
         "gap": [
             "..",
             "+ + +"
@@ -2867,25 +2726,25 @@
             "107"
         ]
     },
-    "san-mu-kd6:1011": {
+    "san-mu-kd6:870": {
         "add": [
             "<i>rūpayauvanamūrcchitaḥ</i>: J.W. de Jong; <i>IIJ</i> 7 (1964), pp. 232–235"
         ]
     },
-    "san-mu-kd6:1012": {},
-    "san-mu-kd6:1013": {
+    "san-mu-kd6:871": {},
+    "san-mu-kd6:872": {
         "supplied": [
             "108"
         ]
     },
-    "san-mu-kd6:1014": {},
-    "san-mu-kd6:1015": {
+    "san-mu-kd6:873": {},
+    "san-mu-kd6:874": {
         "supplied": [
             "aradhāriṇam",
             "109"
         ]
     },
-    "san-mu-kd6:1016": {
+    "san-mu-kd6:875": {
         "supplied": [
             "s",
             "a"
@@ -2894,26 +2753,26 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1017": {
+    "san-mu-kd6:876": {
         "supplied": [
             "nir",
             "o",
             "110"
         ]
     },
-    "san-mu-kd6:1018": {},
-    "san-mu-kd6:1019": {
+    "san-mu-kd6:877": {},
+    "san-mu-kd6:878": {
         "supplied": [
             "111"
         ]
     },
-    "san-mu-kd6:1020": {},
-    "san-mu-kd6:1021": {
+    "san-mu-kd6:879": {},
+    "san-mu-kd6:880": {
         "supplied": [
             "112"
         ]
     },
-    "san-mu-kd6:1022": {
+    "san-mu-kd6:881": {
         "supplied": [
             "ca"
         ],
@@ -2922,7 +2781,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1023": {
+    "san-mu-kd6:882": {
         "gap": [
             "+ +"
         ],
@@ -2932,57 +2791,57 @@
             "113"
         ]
     },
-    "san-mu-kd6:1024": {},
-    "san-mu-kd6:1025": {
+    "san-mu-kd6:883": {},
+    "san-mu-kd6:884": {
         "supplied": [
             "114"
         ]
     },
-    "san-mu-kd6:1026": {},
-    "san-mu-kd6:1027": {
+    "san-mu-kd6:885": {},
+    "san-mu-kd6:886": {
         "supplied": [
             "115"
         ]
     },
-    "san-mu-kd6:1028": {
+    "san-mu-kd6:887": {
         "supplied": [
             "a ya",
             "o",
             "a"
         ]
     },
-    "san-mu-kd6:1029": {
+    "san-mu-kd6:888": {
         "supplied": [
             "116"
         ]
     },
-    "san-mu-kd6:1030": {},
-    "san-mu-kd6:1031": {
+    "san-mu-kd6:889": {},
+    "san-mu-kd6:890": {
         "supplied": [
             "117"
         ]
     },
-    "san-mu-kd6:1032": {},
-    "san-mu-kd6:1033": {
+    "san-mu-kd6:891": {},
+    "san-mu-kd6:892": {
         "supplied": [
             "āyasya de",
             "118"
         ]
     },
-    "san-mu-kd6:1034": {},
-    "san-mu-kd6:1035": {
+    "san-mu-kd6:893": {},
+    "san-mu-kd6:894": {
         "supplied": [
             "119"
         ]
     },
-    "san-mu-kd6:1036": {},
-    "san-mu-kd6:1037": {
+    "san-mu-kd6:895": {},
+    "san-mu-kd6:896": {
         "supplied": [
             "120"
         ]
     },
-    "san-mu-kd6:1038": {},
-    "san-mu-kd6:1039": {
+    "san-mu-kd6:897": {},
+    "san-mu-kd6:898": {
         "gap": [
             "+ +"
         ],
@@ -2991,14 +2850,14 @@
             "121"
         ]
     },
-    "san-mu-kd6:1040": {},
-    "san-mu-kd6:1041": {
+    "san-mu-kd6:899": {},
+    "san-mu-kd6:900": {
         "supplied": [
             "122"
         ]
     },
-    "san-mu-kd6:1042": {},
-    "san-mu-kd6:1043": {
+    "san-mu-kd6:901": {},
+    "san-mu-kd6:902": {
         "gap": [
             "+ +"
         ],
@@ -3008,48 +2867,46 @@
             "123"
         ]
     },
-    "san-mu-kd6:1044": {
+    "san-mu-kd6:903": {
         "supplied": [
             "asatyo mahā"
         ]
     },
-    "san-mu-kd6:1045": {
+    "san-mu-kd6:904": {
         "supplied": [
             "124"
         ]
     },
-    "san-mu-kd6:1046": {},
-    "san-mu-kd6:1047": {
+    "san-mu-kd6:905": {},
+    "san-mu-kd6:906": {
         "supplied": [
             "125"
         ]
     },
-    "san-mu-kd6:1048": {
+    "san-mu-kd6:907": {
         "supplied": [
             "gatasthaviro bhikṣusaṁ"
         ]
     },
-    "san-mu-kd6:1049": {
+    "san-mu-kd6:908": {
         "supplied": [
             "126"
         ]
     },
-    "san-mu-kd6:1050": {},
-    "san-mu-kd6:1051": {},
-    "san-mu-kd6:1052": {
+    "san-mu-kd6:909": {},
+    "san-mu-kd6:910": {
         "supplied": [
             "gatena svakā karmaplotir i",
             "tu athā"
         ]
     },
-    "san-mu-kd6:1053": {},
-    "san-mu-kd6:1054": {},
-    "san-mu-kd6:1055": {
+    "san-mu-kd6:911": {},
+    "san-mu-kd6:912": {
         "supplied": [
             "āḥ 127"
         ]
     },
-    "san-mu-kd6:1056": {
+    "san-mu-kd6:913": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -3058,7 +2915,7 @@
             "a"
         ]
     },
-    "san-mu-kd6:1057": {
+    "san-mu-kd6:914": {
         "gap": [
             "+ +"
         ],
@@ -3066,14 +2923,14 @@
             "128"
         ]
     },
-    "san-mu-kd6:1058": {},
-    "san-mu-kd6:1059": {
+    "san-mu-kd6:915": {},
+    "san-mu-kd6:916": {
         "supplied": [
             "129"
         ]
     },
-    "san-mu-kd6:1060": {},
-    "san-mu-kd6:1061": {
+    "san-mu-kd6:917": {},
+    "san-mu-kd6:918": {
         "gap": [
             "..",
             "+ + + + + + +"
@@ -3082,7 +2939,7 @@
             "130"
         ]
     },
-    "san-mu-kd6:1062": {
+    "san-mu-kd6:919": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -3090,7 +2947,7 @@
             "na"
         ]
     },
-    "san-mu-kd6:1063": {
+    "san-mu-kd6:920": {
         "supplied": [
             "ve",
             "131"
@@ -3099,15 +2956,15 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1064": {},
-    "san-mu-kd6:1065": {
+    "san-mu-kd6:921": {},
+    "san-mu-kd6:922": {
         "supplied": [
             "kāla",
             "ka",
             "132"
         ]
     },
-    "san-mu-kd6:1066": {
+    "san-mu-kd6:923": {
         "supplied": [
             "vaṁ"
         ],
@@ -3115,7 +2972,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1067": {
+    "san-mu-kd6:924": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -3123,32 +2980,32 @@
             "133"
         ]
     },
-    "san-mu-kd6:1068": {
+    "san-mu-kd6:925": {
         "supplied": [
             "iyaṁ",
             "e",
             "bhavaḥ"
         ]
     },
-    "san-mu-kd6:1069": {
+    "san-mu-kd6:926": {
         "supplied": [
             "134"
         ]
     },
-    "san-mu-kd6:1070": {},
-    "san-mu-kd6:1071": {
+    "san-mu-kd6:927": {},
+    "san-mu-kd6:928": {
         "supplied": [
             "arhatvaṁ",
             "sm",
             "nirvṛtaḥ 135"
         ]
     },
-    "san-mu-kd6:1072": {
+    "san-mu-kd6:929": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1073": {
+    "san-mu-kd6:930": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -3157,18 +3014,18 @@
             "136"
         ]
     },
-    "san-mu-kd6:1074": {
+    "san-mu-kd6:931": {
         "supplied": [
             "nd",
             "kaḥ sthavi"
         ]
     },
-    "san-mu-kd6:1075": {
+    "san-mu-kd6:932": {
         "supplied": [
             "137"
         ]
     },
-    "san-mu-kd6:1076": {
+    "san-mu-kd6:933": {
         "supplied": [
             "uddha",
             "varg"
@@ -3177,15 +3034,14 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1077": {
+    "san-mu-kd6:934": {
         "supplied": [
             "ddānam ||",
             "27 akṣaras lost",
             "piṇḍo"
         ]
     },
-    "san-mu-kd6:1078": {},
-    "san-mu-kd6:1079": {
+    "san-mu-kd6:935": {
         "supplied": [
             "atha stha",
             "nan",
@@ -3201,8 +3057,7 @@
             "+ + + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1080": {},
-    "san-mu-kd6:1081": {
+    "san-mu-kd6:936": {
         "supplied": [
             "ni"
         ],
@@ -3210,23 +3065,23 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1082": {
+    "san-mu-kd6:937": {
         "supplied": [
             "138"
         ]
     },
-    "san-mu-kd6:1083": {},
-    "san-mu-kd6:1084": {
+    "san-mu-kd6:938": {},
+    "san-mu-kd6:939": {
         "supplied": [
             "139"
         ]
     },
-    "san-mu-kd6:1085": {
+    "san-mu-kd6:940": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1086": {
+    "san-mu-kd6:941": {
         "gap": [
             "+ + +"
         ],
@@ -3235,20 +3090,20 @@
             "taḥ 140"
         ]
     },
-    "san-mu-kd6:1087": {
+    "san-mu-kd6:942": {
         "supplied": [
             "ḥ",
             "ṁ"
         ]
     },
-    "san-mu-kd6:1088": {
+    "san-mu-kd6:943": {
         "supplied": [
             "ṁ",
             "141"
         ]
     },
-    "san-mu-kd6:1089": {},
-    "san-mu-kd6:1090": {
+    "san-mu-kd6:944": {},
+    "san-mu-kd6:945": {
         "supplied": [
             "naś",
             "142"
@@ -3257,7 +3112,7 @@
             "+ + + + +"
         ]
     },
-    "san-mu-kd6:1091": {
+    "san-mu-kd6:946": {
         "gap": [
             "+ + + + + +"
         ],
@@ -3265,7 +3120,7 @@
             "dṛṣ"
         ]
     },
-    "san-mu-kd6:1092": {
+    "san-mu-kd6:947": {
         "gap": [
             "+ + + +"
         ],
@@ -3273,19 +3128,19 @@
             "143"
         ]
     },
-    "san-mu-kd6:1093": {},
-    "san-mu-kd6:1094": {
+    "san-mu-kd6:948": {},
+    "san-mu-kd6:949": {
         "supplied": [
             "144"
         ]
     },
-    "san-mu-kd6:1095": {
+    "san-mu-kd6:950": {
         "supplied": [
             "r",
             "ikaḥ"
         ]
     },
-    "san-mu-kd6:1096": {
+    "san-mu-kd6:951": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -3293,7 +3148,7 @@
             "145"
         ]
     },
-    "san-mu-kd6:1097": {
+    "san-mu-kd6:952": {
         "gap": [
             "+ +"
         ],
@@ -3301,13 +3156,13 @@
             "kuṇa"
         ]
     },
-    "san-mu-kd6:1098": {
+    "san-mu-kd6:953": {
         "supplied": [
             "146"
         ]
     },
-    "san-mu-kd6:1099": {},
-    "san-mu-kd6:1100": {
+    "san-mu-kd6:954": {},
+    "san-mu-kd6:955": {
         "supplied": [
             "147"
         ],
@@ -3315,7 +3170,7 @@
             "brāhmā vihārāś"
         ]
     },
-    "san-mu-kd6:1101": {
+    "san-mu-kd6:956": {
         "gap": [
             "+ + + + + + +"
         ],
@@ -3324,20 +3179,20 @@
             "o"
         ]
     },
-    "san-mu-kd6:1102": {
+    "san-mu-kd6:957": {
         "supplied": [
             "vārāṇa",
             "148"
         ]
     },
-    "san-mu-kd6:1103": {},
-    "san-mu-kd6:1104": {
+    "san-mu-kd6:958": {},
+    "san-mu-kd6:959": {
         "supplied": [
             "149"
         ]
     },
-    "san-mu-kd6:1105": {},
-    "san-mu-kd6:1106": {
+    "san-mu-kd6:960": {},
+    "san-mu-kd6:961": {
         "supplied": [
             "paś",
             "aṁ",
@@ -3345,12 +3200,12 @@
             "150"
         ]
     },
-    "san-mu-kd6:1107": {
+    "san-mu-kd6:962": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1108": {
+    "san-mu-kd6:963": {
         "gap": [
             "+ + +"
         ],
@@ -3360,15 +3215,15 @@
             "151"
         ]
     },
-    "san-mu-kd6:1109": {},
-    "san-mu-kd6:1110": {
+    "san-mu-kd6:964": {},
+    "san-mu-kd6:965": {
         "supplied": [
             "ā",
             "152"
         ]
     },
-    "san-mu-kd6:1111": {},
-    "san-mu-kd6:1112": {
+    "san-mu-kd6:966": {},
+    "san-mu-kd6:967": {
         "supplied": [
             "u",
             "153"
@@ -3377,7 +3232,7 @@
             "māriṣā"
         ]
     },
-    "san-mu-kd6:1113": {
+    "san-mu-kd6:968": {
         "supplied": [
             "āt"
         ],
@@ -3385,19 +3240,19 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1114": {
+    "san-mu-kd6:969": {
         "supplied": [
             "nukampayā 154"
         ]
     },
-    "san-mu-kd6:1115": {},
-    "san-mu-kd6:1116": {
+    "san-mu-kd6:970": {},
+    "san-mu-kd6:971": {
         "supplied": [
             "155"
         ]
     },
-    "san-mu-kd6:1117": {},
-    "san-mu-kd6:1118": {
+    "san-mu-kd6:972": {},
+    "san-mu-kd6:973": {
         "supplied": [
             "156"
         ],
@@ -3405,69 +3260,67 @@
             "māriṣa"
         ]
     },
-    "san-mu-kd6:1119": {
+    "san-mu-kd6:974": {
         "gap": [
             "+ + + +",
             ".."
         ]
     },
-    "san-mu-kd6:1120": {
+    "san-mu-kd6:975": {
         "supplied": [
             "kumāra nirbhīta",
             "157"
         ]
     },
-    "san-mu-kd6:1121": {},
-    "san-mu-kd6:1122": {
+    "san-mu-kd6:976": {},
+    "san-mu-kd6:977": {
         "supplied": [
             "158"
         ]
     },
-    "san-mu-kd6:1123": {},
-    "san-mu-kd6:1124": {
+    "san-mu-kd6:978": {},
+    "san-mu-kd6:979": {
         "supplied": [
             "ṁ",
             "i",
             "159"
         ]
     },
-    "san-mu-kd6:1125": {},
-    "san-mu-kd6:1126": {
+    "san-mu-kd6:980": {},
+    "san-mu-kd6:981": {
         "supplied": [
             "a",
             "160"
         ]
     },
-    "san-mu-kd6:1127": {},
-    "san-mu-kd6:1128": {
+    "san-mu-kd6:982": {},
+    "san-mu-kd6:983": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1129": {
+    "san-mu-kd6:984": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1130": {
+    "san-mu-kd6:985": {
         "supplied": [
             "162"
         ]
     },
-    "san-mu-kd6:1131": {
+    "san-mu-kd6:986": {
         "supplied": [
             "ekādaśaḥ ||"
         ]
     },
-    "san-mu-kd6:1132": {},
-    "san-mu-kd6:1133": {
+    "san-mu-kd6:987": {
         "supplied": [
             "alas tasyāṁ ve"
         ]
     },
-    "san-mu-kd6:1134": {},
-    "san-mu-kd6:1135": {},
-    "san-mu-kd6:1136": {
+    "san-mu-kd6:988": {},
+    "san-mu-kd6:989": {
         "supplied": [
             "ratna",
             "163"
@@ -3476,33 +3329,33 @@
             "mahāstūpaṁ"
         ]
     },
-    "san-mu-kd6:1137": {},
-    "san-mu-kd6:1138": {
+    "san-mu-kd6:990": {},
+    "san-mu-kd6:991": {
         "supplied": [
             "164"
         ]
     },
-    "san-mu-kd6:1139": {},
-    "san-mu-kd6:1140": {
+    "san-mu-kd6:992": {},
+    "san-mu-kd6:993": {
         "supplied": [
             "165"
         ]
     },
-    "san-mu-kd6:1141": {},
-    "san-mu-kd6:1142": {
+    "san-mu-kd6:994": {},
+    "san-mu-kd6:995": {
         "supplied": [
             "166"
         ]
     },
-    "san-mu-kd6:1143": {},
-    "san-mu-kd6:1144": {
+    "san-mu-kd6:996": {},
+    "san-mu-kd6:997": {
         "supplied": [
             "santa",
             "ḥ",
             "167"
         ]
     },
-    "san-mu-kd6:1145": {
+    "san-mu-kd6:998": {
         "supplied": [
             "ā",
             "a"
@@ -3511,19 +3364,19 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1146": {
+    "san-mu-kd6:999": {
         "supplied": [
             "ḥ",
             "168"
         ]
     },
-    "san-mu-kd6:1147": {},
-    "san-mu-kd6:1148": {
+    "san-mu-kd6:1000": {},
+    "san-mu-kd6:1001": {
         "supplied": [
             "169"
         ]
     },
-    "san-mu-kd6:1149": {
+    "san-mu-kd6:1002": {
         "supplied": [
             "aṁ"
         ],
@@ -3532,13 +3385,13 @@
             ".."
         ]
     },
-    "san-mu-kd6:1150": {
+    "san-mu-kd6:1003": {
         "supplied": [
             "n",
             "170"
         ]
     },
-    "san-mu-kd6:1151": {
+    "san-mu-kd6:1004": {
         "gap": [
             "+ +"
         ],
@@ -3546,17 +3399,17 @@
             "tṛ"
         ]
     },
-    "san-mu-kd6:1152": {
+    "san-mu-kd6:1005": {
         "supplied": [
             "171"
         ]
     },
-    "san-mu-kd6:1153": {
+    "san-mu-kd6:1006": {
         "supplied": [
             "s"
         ]
     },
-    "san-mu-kd6:1154": {
+    "san-mu-kd6:1007": {
         "gap": [
             "+ + +"
         ],
@@ -3564,7 +3417,7 @@
             "172"
         ]
     },
-    "san-mu-kd6:1155": {
+    "san-mu-kd6:1008": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -3572,7 +3425,7 @@
             "la"
         ]
     },
-    "san-mu-kd6:1156": {
+    "san-mu-kd6:1009": {
         "gap": [
             "+ + +"
         ],
@@ -3580,14 +3433,14 @@
             "173"
         ]
     },
-    "san-mu-kd6:1157": {},
-    "san-mu-kd6:1158": {
+    "san-mu-kd6:1010": {},
+    "san-mu-kd6:1011": {
         "supplied": [
             "174"
         ]
     },
-    "san-mu-kd6:1159": {},
-    "san-mu-kd6:1160": {
+    "san-mu-kd6:1012": {},
+    "san-mu-kd6:1013": {
         "supplied": [
             "śv",
             "175"
@@ -3596,7 +3449,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1161": {
+    "san-mu-kd6:1014": {
         "supplied": [
             "at"
         ],
@@ -3604,7 +3457,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1162": {
+    "san-mu-kd6:1015": {
         "gap": [
             "+ +"
         ],
@@ -3613,18 +3466,18 @@
             "176"
         ]
     },
-    "san-mu-kd6:1163": {},
-    "san-mu-kd6:1164": {
+    "san-mu-kd6:1016": {},
+    "san-mu-kd6:1017": {
         "supplied": [
             "177"
         ]
     },
-    "san-mu-kd6:1165": {
+    "san-mu-kd6:1018": {
         "supplied": [
             "ko"
         ]
     },
-    "san-mu-kd6:1166": {
+    "san-mu-kd6:1019": {
         "supplied": [
             "o",
             "178"
@@ -3633,7 +3486,7 @@
             "+ + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1167": {
+    "san-mu-kd6:1020": {
         "gap": [
             "+ +"
         ],
@@ -3641,27 +3494,27 @@
             "ta"
         ]
     },
-    "san-mu-kd6:1168": {
+    "san-mu-kd6:1021": {
         "supplied": [
             "a",
             "179"
         ]
     },
-    "san-mu-kd6:1169": {},
-    "san-mu-kd6:1170": {
+    "san-mu-kd6:1022": {},
+    "san-mu-kd6:1023": {
         "supplied": [
             "ḥ",
             "180"
         ]
     },
-    "san-mu-kd6:1171": {
+    "san-mu-kd6:1024": {
         "gap": [
             ".. .. ..",
             ".. ..",
             "+ + + + + + +"
         ]
     },
-    "san-mu-kd6:1172": {
+    "san-mu-kd6:1025": {
         "gap": [
             "+ + + + + + + + + + + + +"
         ],
@@ -3669,23 +3522,22 @@
             "181"
         ]
     },
-    "san-mu-kd6:1173": {
+    "san-mu-kd6:1026": {
         "supplied": [
             "kṣusaṁghā"
         ]
     },
-    "san-mu-kd6:1174": {
+    "san-mu-kd6:1027": {
         "supplied": [
             "182"
         ]
     },
-    "san-mu-kd6:1175": {
+    "san-mu-kd6:1028": {
         "supplied": [
             "o"
         ]
     },
-    "san-mu-kd6:1176": {},
-    "san-mu-kd6:1177": {
+    "san-mu-kd6:1029": {
         "supplied": [
             "tha sthavira",
             "bakkulam idam avocan vyākṛtam āyuṣmaṁ bakkula āyuṣmatā śaivalena svakā karmapl",
@@ -3693,15 +3545,14 @@
             "athāyuṣmān bakkulas tasyāṁ velāyāṁ svakāṁ karmaplotiṁ vyākaroti"
         ]
     },
-    "san-mu-kd6:1178": {},
-    "san-mu-kd6:1179": {},
-    "san-mu-kd6:1180": {
+    "san-mu-kd6:1030": {},
+    "san-mu-kd6:1031": {
         "supplied": [
             "kṣusaṁghaṁ nya",
             "m 183"
         ]
     },
-    "san-mu-kd6:1181": {
+    "san-mu-kd6:1032": {
         "supplied": [
             "ṣajyaṁ"
         ],
@@ -3709,7 +3560,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1182": {
+    "san-mu-kd6:1033": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -3717,7 +3568,7 @@
             "184"
         ]
     },
-    "san-mu-kd6:1183": {
+    "san-mu-kd6:1034": {
         "gap": [
             "+ +"
         ],
@@ -3725,7 +3576,7 @@
             "nimantrita"
         ]
     },
-    "san-mu-kd6:1184": {
+    "san-mu-kd6:1035": {
         "gap": [
             "+ + +"
         ],
@@ -3734,12 +3585,12 @@
             "185"
         ]
     },
-    "san-mu-kd6:1185": {
+    "san-mu-kd6:1036": {
         "supplied": [
             "ṁ"
         ]
     },
-    "san-mu-kd6:1186": {
+    "san-mu-kd6:1037": {
         "supplied": [
             "jyadānas",
             "a",
@@ -3747,7 +3598,7 @@
             "186"
         ]
     },
-    "san-mu-kd6:1187": {
+    "san-mu-kd6:1038": {
         "supplied": [
             "bh",
             "taṁ"
@@ -3756,7 +3607,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1188": {
+    "san-mu-kd6:1039": {
         "gap": [
             "+ + + + + + + + + + + + +"
         ],
@@ -3765,27 +3616,27 @@
             "187"
         ]
     },
-    "san-mu-kd6:1189": {
+    "san-mu-kd6:1040": {
         "supplied": [
             "me mānu"
         ]
     },
-    "san-mu-kd6:1190": {
+    "san-mu-kd6:1041": {
         "supplied": [
             "188"
         ]
     },
-    "san-mu-kd6:1191": {
+    "san-mu-kd6:1042": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1192": {
+    "san-mu-kd6:1043": {
         "supplied": [
             "189"
         ]
     },
-    "san-mu-kd6:1193": {
+    "san-mu-kd6:1044": {
         "supplied": [
             "ṁkīrṇo"
         ],
@@ -3793,7 +3644,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1194": {
+    "san-mu-kd6:1045": {
         "gap": [
             "+ + + +"
         ],
@@ -3802,34 +3653,33 @@
             "190"
         ]
     },
-    "san-mu-kd6:1195": {
+    "san-mu-kd6:1046": {
         "supplied": [
             "ānam a"
         ]
     },
-    "san-mu-kd6:1196": {
+    "san-mu-kd6:1047": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1197": {
+    "san-mu-kd6:1048": {
         "supplied": [
             "191"
         ]
     },
-    "san-mu-kd6:1198": {},
-    "san-mu-kd6:1199": {
+    "san-mu-kd6:1049": {},
+    "san-mu-kd6:1050": {
         "supplied": [
             "192"
         ]
     },
-    "san-mu-kd6:1200": {
+    "san-mu-kd6:1051": {
         "supplied": [
             "avarga"
         ]
     },
-    "san-mu-kd6:1201": {},
-    "san-mu-kd6:1202": {
+    "san-mu-kd6:1052": {
         "supplied": [
             "lena svakā karmaplotir idānīm āyuṣmān api",
             "a",
@@ -3838,9 +3688,8 @@
             "vyākaroti"
         ]
     },
-    "san-mu-kd6:1203": {},
-    "san-mu-kd6:1204": {},
-    "san-mu-kd6:1205": {
+    "san-mu-kd6:1053": {},
+    "san-mu-kd6:1054": {
         "gap": [
             "+ + + + +"
         ],
@@ -3848,12 +3697,12 @@
             "193"
         ]
     },
-    "san-mu-kd6:1206": {
+    "san-mu-kd6:1055": {
         "gap": [
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1207": {
+    "san-mu-kd6:1056": {
         "supplied": [
             "a",
             "194"
@@ -3862,14 +3711,14 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1208": {},
-    "san-mu-kd6:1209": {
+    "san-mu-kd6:1057": {},
+    "san-mu-kd6:1058": {
         "supplied": [
             "195"
         ]
     },
-    "san-mu-kd6:1210": {},
-    "san-mu-kd6:1211": {
+    "san-mu-kd6:1059": {},
+    "san-mu-kd6:1060": {
         "gap": [
             "..",
             "+ + + + + + + + + + + + + +",
@@ -3879,28 +3728,28 @@
             "196"
         ]
     },
-    "san-mu-kd6:1212": {
+    "san-mu-kd6:1061": {
         "gap": [
             "+ +"
         ]
     },
-    "san-mu-kd6:1213": {
+    "san-mu-kd6:1062": {
         "supplied": [
             "sthavirai",
             "197"
         ]
     },
-    "san-mu-kd6:1214": {
+    "san-mu-kd6:1063": {
         "supplied": [
             "u"
         ]
     },
-    "san-mu-kd6:1215": {
+    "san-mu-kd6:1064": {
         "supplied": [
             "198"
         ]
     },
-    "san-mu-kd6:1216": {
+    "san-mu-kd6:1065": {
         "supplied": [
             "a"
         ],
@@ -3908,7 +3757,7 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1217": {
+    "san-mu-kd6:1066": {
         "gap": [
             "+ + + +"
         ],
@@ -3918,7 +3767,7 @@
             "199"
         ]
     },
-    "san-mu-kd6:1218": {
+    "san-mu-kd6:1067": {
         "supplied": [
             "am"
         ],
@@ -3926,29 +3775,29 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1219": {
+    "san-mu-kd6:1068": {
         "supplied": [
             "deva",
             "itaḥ 200"
         ]
     },
-    "san-mu-kd6:1220": {
+    "san-mu-kd6:1069": {
         "supplied": [
             "iya",
             "e"
         ]
     },
-    "san-mu-kd6:1221": {
+    "san-mu-kd6:1070": {
         "supplied": [
             "201"
         ]
     },
-    "san-mu-kd6:1222": {
+    "san-mu-kd6:1071": {
         "gap": [
             "+ + + + + + +"
         ]
     },
-    "san-mu-kd6:1223": {
+    "san-mu-kd6:1072": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -3956,7 +3805,7 @@
             "202"
         ]
     },
-    "san-mu-kd6:1224": {
+    "san-mu-kd6:1073": {
         "supplied": [
             "ḥ"
         ],
@@ -3964,15 +3813,14 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1225": {
+    "san-mu-kd6:1074": {
         "supplied": [
             "vyāka",
             "203"
         ]
     },
-    "san-mu-kd6:1226": {},
-    "san-mu-kd6:1227": {},
-    "san-mu-kd6:1228": {
+    "san-mu-kd6:1075": {},
+    "san-mu-kd6:1076": {
         "supplied": [
             "am idam avocan vyākṛ",
             "i",
@@ -3982,19 +3830,18 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1229": {},
-    "san-mu-kd6:1230": {
+    "san-mu-kd6:1077": {
         "supplied": [
             "s",
             "hā"
         ]
     },
-    "san-mu-kd6:1231": {
+    "san-mu-kd6:1078": {
         "supplied": [
             "204"
         ]
     },
-    "san-mu-kd6:1232": {
+    "san-mu-kd6:1079": {
         "gap": [
             "..",
             "+ + + + +"
@@ -4003,13 +3850,13 @@
             "tatrākā"
         ]
     },
-    "san-mu-kd6:1233": {
+    "san-mu-kd6:1080": {
         "supplied": [
             "205"
         ]
     },
-    "san-mu-kd6:1234": {},
-    "san-mu-kd6:1235": {
+    "san-mu-kd6:1081": {},
+    "san-mu-kd6:1082": {
         "supplied": [
             "nuṣyaṁ",
             "āga",
@@ -4020,24 +3867,24 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1236": {},
-    "san-mu-kd6:1237": {
+    "san-mu-kd6:1083": {},
+    "san-mu-kd6:1084": {
         "supplied": [
             "207"
         ]
     },
-    "san-mu-kd6:1238": {
+    "san-mu-kd6:1085": {
         "gap": [
             "+ + + + + + +",
             ".."
         ]
     },
-    "san-mu-kd6:1239": {
+    "san-mu-kd6:1086": {
         "supplied": [
             "anukampayā 208"
         ]
     },
-    "san-mu-kd6:1240": {
+    "san-mu-kd6:1087": {
         "supplied": [
             "ga",
             "aṁ",
@@ -4045,32 +3892,31 @@
             "a"
         ]
     },
-    "san-mu-kd6:1241": {
+    "san-mu-kd6:1088": {
         "supplied": [
             "209"
         ]
     },
-    "san-mu-kd6:1242": {},
-    "san-mu-kd6:1243": {
+    "san-mu-kd6:1089": {},
+    "san-mu-kd6:1090": {
         "supplied": [
             "ūtāś ca nirvṛtāḥ 210"
         ]
     },
-    "san-mu-kd6:1244": {
+    "san-mu-kd6:1091": {
         "supplied": [
             "uruvi",
             "ḥ"
         ]
     },
-    "san-mu-kd6:1245": {
+    "san-mu-kd6:1092": {
         "supplied": [
             "vatapte mahā",
             "211"
         ]
     },
-    "san-mu-kd6:1246": {},
-    "san-mu-kd6:1247": {},
-    "san-mu-kd6:1248": {
+    "san-mu-kd6:1093": {},
+    "san-mu-kd6:1094": {
         "gap": [
             "+ + + + + + +"
         ],
@@ -4081,14 +3927,13 @@
             "aśāḥ svakāṁ ka"
         ]
     },
-    "san-mu-kd6:1249": {},
-    "san-mu-kd6:1250": {},
-    "san-mu-kd6:1251": {
+    "san-mu-kd6:1095": {},
+    "san-mu-kd6:1096": {
         "supplied": [
             "212"
         ]
     },
-    "san-mu-kd6:1252": {
+    "san-mu-kd6:1097": {
         "supplied": [
             "ḥ",
             "ā"
@@ -4098,7 +3943,7 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1253": {
+    "san-mu-kd6:1098": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -4108,26 +3953,26 @@
             "213"
         ]
     },
-    "san-mu-kd6:1254": {
+    "san-mu-kd6:1099": {
         "gap": [
             "..",
             "+ + +"
         ]
     },
-    "san-mu-kd6:1255": {
+    "san-mu-kd6:1100": {
         "supplied": [
             "ṁ",
             "214"
         ]
     },
-    "san-mu-kd6:1256": {},
-    "san-mu-kd6:1257": {
+    "san-mu-kd6:1101": {},
+    "san-mu-kd6:1102": {
         "supplied": [
             "i",
             "215"
         ]
     },
-    "san-mu-kd6:1258": {
+    "san-mu-kd6:1103": {
         "supplied": [
             "śatāny"
         ],
@@ -4135,7 +3980,7 @@
             "+ + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1259": {
+    "san-mu-kd6:1104": {
         "gap": [
             "+ + + + + +"
         ],
@@ -4143,28 +3988,28 @@
             "216"
         ]
     },
-    "san-mu-kd6:1260": {
+    "san-mu-kd6:1105": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1261": {
+    "san-mu-kd6:1106": {
         "supplied": [
             "217"
         ]
     },
-    "san-mu-kd6:1262": {},
-    "san-mu-kd6:1263": {
+    "san-mu-kd6:1107": {},
+    "san-mu-kd6:1108": {
         "supplied": [
             "ṇaśyati 218"
         ]
     },
-    "san-mu-kd6:1264": {
+    "san-mu-kd6:1109": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1265": {
+    "san-mu-kd6:1110": {
         "gap": [
             "+ +"
         ],
@@ -4174,12 +4019,12 @@
             "219"
         ]
     },
-    "san-mu-kd6:1266": {
+    "san-mu-kd6:1111": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1267": {
+    "san-mu-kd6:1112": {
         "gap": [
             "+ + +"
         ],
@@ -4187,18 +4032,18 @@
             "220"
         ]
     },
-    "san-mu-kd6:1268": {},
-    "san-mu-kd6:1269": {
+    "san-mu-kd6:1113": {},
+    "san-mu-kd6:1114": {
         "supplied": [
             "221"
         ]
     },
-    "san-mu-kd6:1270": {
+    "san-mu-kd6:1115": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1271": {
+    "san-mu-kd6:1116": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4206,7 +4051,7 @@
             "222"
         ]
     },
-    "san-mu-kd6:1272": {
+    "san-mu-kd6:1117": {
         "gap": [
             "+ +"
         ],
@@ -4215,28 +4060,28 @@
             "aṁ"
         ]
     },
-    "san-mu-kd6:1273": {
+    "san-mu-kd6:1118": {
         "supplied": [
             "anubhū",
             "223"
         ]
     },
-    "san-mu-kd6:1274": {},
-    "san-mu-kd6:1275": {
+    "san-mu-kd6:1119": {},
+    "san-mu-kd6:1120": {
         "supplied": [
             "ya",
             "ś",
             "224"
         ]
     },
-    "san-mu-kd6:1276": {
+    "san-mu-kd6:1121": {
         "gap": [
             ". .. .. .. ..",
             ".. .. .",
             "+ +"
         ]
     },
-    "san-mu-kd6:1277": {
+    "san-mu-kd6:1122": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4244,27 +4089,25 @@
             "225"
         ]
     },
-    "san-mu-kd6:1278": {
+    "san-mu-kd6:1123": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1279": {
+    "san-mu-kd6:1124": {
         "supplied": [
             "226"
         ]
     },
-    "san-mu-kd6:1280": {},
-    "san-mu-kd6:1281": {},
-    "san-mu-kd6:1282": {
+    "san-mu-kd6:1125": {},
+    "san-mu-kd6:1126": {
         "supplied": [
             "sthavirastha",
             "tiṣkam idam avocan vyākṛtam āyuṣmaṁ jyotiṣka āyuṣmatā yaśasā svakā karmaploti",
             "aḥ vyākarotu"
         ]
     },
-    "san-mu-kd6:1283": {},
-    "san-mu-kd6:1284": {
+    "san-mu-kd6:1127": {
         "supplied": [
             "dhānyāṁ"
         ],
@@ -4272,7 +4115,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1285": {
+    "san-mu-kd6:1128": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4280,22 +4123,22 @@
             "227"
         ]
     },
-    "san-mu-kd6:1286": {
+    "san-mu-kd6:1129": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1287": {
+    "san-mu-kd6:1130": {
         "supplied": [
             "228"
         ]
     },
-    "san-mu-kd6:1288": {
+    "san-mu-kd6:1131": {
         "gap": [
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1289": {
+    "san-mu-kd6:1132": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4303,7 +4146,7 @@
             "229"
         ]
     },
-    "san-mu-kd6:1290": {
+    "san-mu-kd6:1133": {
         "gap": [
             "+ + + + +"
         ],
@@ -4311,12 +4154,12 @@
             "saha"
         ]
     },
-    "san-mu-kd6:1291": {
+    "san-mu-kd6:1134": {
         "supplied": [
             "230"
         ]
     },
-    "san-mu-kd6:1292": {
+    "san-mu-kd6:1135": {
         "supplied": [
             "a",
             "a s",
@@ -4324,7 +4167,7 @@
             "tāḥ"
         ]
     },
-    "san-mu-kd6:1293": {
+    "san-mu-kd6:1136": {
         "gap": [
             "+ + + + + + + + + + + +",
             ".. ..",
@@ -4335,12 +4178,12 @@
             "231"
         ]
     },
-    "san-mu-kd6:1294": {
+    "san-mu-kd6:1137": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1295": {
+    "san-mu-kd6:1138": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -4348,13 +4191,13 @@
             "233"
         ]
     },
-    "san-mu-kd6:1296": {},
-    "san-mu-kd6:1297": {
+    "san-mu-kd6:1139": {},
+    "san-mu-kd6:1140": {
         "supplied": [
             "234"
         ]
     },
-    "san-mu-kd6:1298": {
+    "san-mu-kd6:1141": {
         "supplied": [
             "aṁ",
             "a bhoj",
@@ -4363,7 +4206,7 @@
             "sanam"
         ]
     },
-    "san-mu-kd6:1299": {
+    "san-mu-kd6:1142": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4371,12 +4214,12 @@
             "235"
         ]
     },
-    "san-mu-kd6:1300": {
+    "san-mu-kd6:1143": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1301": {
+    "san-mu-kd6:1144": {
         "gap": [
             "+ +"
         ],
@@ -4385,19 +4228,19 @@
             "236"
         ]
     },
-    "san-mu-kd6:1302": {},
-    "san-mu-kd6:1303": {
+    "san-mu-kd6:1145": {},
+    "san-mu-kd6:1146": {
         "supplied": [
             "237"
         ]
     },
-    "san-mu-kd6:1304": {
+    "san-mu-kd6:1147": {
         "gap": [
             "..",
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1305": {
+    "san-mu-kd6:1148": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4405,18 +4248,18 @@
             "238"
         ]
     },
-    "san-mu-kd6:1306": {
+    "san-mu-kd6:1149": {
         "gap": [
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1307": {
+    "san-mu-kd6:1150": {
         "supplied": [
             "239"
         ]
     },
-    "san-mu-kd6:1308": {},
-    "san-mu-kd6:1309": {
+    "san-mu-kd6:1151": {},
+    "san-mu-kd6:1152": {
         "supplied": [
             "o",
             "240"
@@ -4426,19 +4269,19 @@
             "///"
         ]
     },
-    "san-mu-kd6:1310": {
+    "san-mu-kd6:1153": {
         "supplied": [
             "kṛ",
             "241"
         ]
     },
-    "san-mu-kd6:1311": {
+    "san-mu-kd6:1154": {
         "supplied": [
             "242"
         ]
     },
-    "san-mu-kd6:1312": {},
-    "san-mu-kd6:1313": {
+    "san-mu-kd6:1155": {},
+    "san-mu-kd6:1156": {
         "supplied": [
             "as",
             "a",
@@ -4448,12 +4291,12 @@
             "+ + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1314": {
+    "san-mu-kd6:1157": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1315": {
+    "san-mu-kd6:1158": {
         "gap": [
             "+ + + +"
         ],
@@ -4462,14 +4305,14 @@
             "244"
         ]
     },
-    "san-mu-kd6:1316": {},
-    "san-mu-kd6:1317": {
+    "san-mu-kd6:1159": {},
+    "san-mu-kd6:1160": {
         "supplied": [
             "245"
         ]
     },
-    "san-mu-kd6:1318": {},
-    "san-mu-kd6:1319": {
+    "san-mu-kd6:1161": {},
+    "san-mu-kd6:1162": {
         "supplied": [
             "nāyakaḥ",
             "246"
@@ -4478,12 +4321,12 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1320": {
+    "san-mu-kd6:1163": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1321": {
+    "san-mu-kd6:1164": {
         "gap": [
             "+ + + + +"
         ],
@@ -4491,22 +4334,22 @@
             "247"
         ]
     },
-    "san-mu-kd6:1322": {
+    "san-mu-kd6:1165": {
         "gap": [
             "+ + + + + +"
         ]
     },
-    "san-mu-kd6:1323": {
+    "san-mu-kd6:1166": {
         "supplied": [
             "248"
         ]
     },
-    "san-mu-kd6:1324": {
+    "san-mu-kd6:1167": {
         "supplied": [
             "āmuneḥ"
         ]
     },
-    "san-mu-kd6:1325": {
+    "san-mu-kd6:1168": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4514,29 +4357,29 @@
             "249"
         ]
     },
-    "san-mu-kd6:1326": {
+    "san-mu-kd6:1169": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1327": {
+    "san-mu-kd6:1170": {
         "supplied": [
             "sārtha",
             "ndhanam 250"
         ]
     },
-    "san-mu-kd6:1328": {
+    "san-mu-kd6:1171": {
         "supplied": [
             "lokasyā",
             "u"
         ]
     },
-    "san-mu-kd6:1329": {
+    "san-mu-kd6:1172": {
         "supplied": [
             "251"
         ]
     },
-    "san-mu-kd6:1330": {
+    "san-mu-kd6:1173": {
         "supplied": [
             "ddham"
         ],
@@ -4544,7 +4387,7 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1331": {
+    "san-mu-kd6:1174": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4552,7 +4395,7 @@
             "252"
         ]
     },
-    "san-mu-kd6:1332": {
+    "san-mu-kd6:1175": {
         "gap": [
             "+ + + + + + + + + +"
         ],
@@ -4560,7 +4403,7 @@
             "’prati"
         ]
     },
-    "san-mu-kd6:1333": {
+    "san-mu-kd6:1176": {
         "gap": [
             ".",
             "+ + +"
@@ -4569,13 +4412,13 @@
             "253"
         ]
     },
-    "san-mu-kd6:1334": {},
-    "san-mu-kd6:1335": {
+    "san-mu-kd6:1177": {},
+    "san-mu-kd6:1178": {
         "supplied": [
             "254"
         ]
     },
-    "san-mu-kd6:1336": {
+    "san-mu-kd6:1179": {
         "supplied": [
             "taḥ"
         ],
@@ -4583,7 +4426,7 @@
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1337": {
+    "san-mu-kd6:1180": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4591,12 +4434,12 @@
             "255"
         ]
     },
-    "san-mu-kd6:1338": {
+    "san-mu-kd6:1181": {
         "gap": [
             "+ + + + + + +"
         ]
     },
-    "san-mu-kd6:1339": {
+    "san-mu-kd6:1182": {
         "gap": [
             "..",
             "+ + + + + + +"
@@ -4605,14 +4448,13 @@
             "256"
         ]
     },
-    "san-mu-kd6:1340": {},
-    "san-mu-kd6:1341": {
+    "san-mu-kd6:1183": {},
+    "san-mu-kd6:1184": {
         "supplied": [
             "257"
         ]
     },
-    "san-mu-kd6:1342": {},
-    "san-mu-kd6:1343": {
+    "san-mu-kd6:1185": {
         "gap": [
             "///"
         ],
@@ -4621,8 +4463,7 @@
             "tasyāṁ velāyāṁ svakāṁ karmaplotiṁ vyākaroti"
         ]
     },
-    "san-mu-kd6:1344": {},
-    "san-mu-kd6:1345": {
+    "san-mu-kd6:1186": {
         "gap": [
             "+ + + + + + + + + + + + +"
         ],
@@ -4630,13 +4471,13 @@
             "va"
         ]
     },
-    "san-mu-kd6:1346": {
+    "san-mu-kd6:1187": {
         "supplied": [
             "258"
         ]
     },
-    "san-mu-kd6:1347": {},
-    "san-mu-kd6:1348": {
+    "san-mu-kd6:1188": {},
+    "san-mu-kd6:1189": {
         "supplied": [
             "ṣ.",
             "259"
@@ -4645,19 +4486,19 @@
             "///"
         ]
     },
-    "san-mu-kd6:1349": {
+    "san-mu-kd6:1190": {
         "supplied": [
             "ta"
         ]
     },
-    "san-mu-kd6:1350": {
+    "san-mu-kd6:1191": {
         "supplied": [
             "ś ca",
             "261"
         ]
     },
-    "san-mu-kd6:1351": {},
-    "san-mu-kd6:1352": {
+    "san-mu-kd6:1192": {},
+    "san-mu-kd6:1193": {
         "supplied": [
             "ṣṭhi",
             "262"
@@ -4666,12 +4507,12 @@
             "+ + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1353": {
+    "san-mu-kd6:1194": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1354": {
+    "san-mu-kd6:1195": {
         "gap": [
             "+ + + + +"
         ],
@@ -4679,13 +4520,13 @@
             "263"
         ]
     },
-    "san-mu-kd6:1355": {},
-    "san-mu-kd6:1356": {
+    "san-mu-kd6:1196": {},
+    "san-mu-kd6:1197": {
         "supplied": [
             "264"
         ]
     },
-    "san-mu-kd6:1357": {
+    "san-mu-kd6:1198": {
         "supplied": [
             "nāpaḥ śāstā sa"
         ],
@@ -4693,7 +4534,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1358": {
+    "san-mu-kd6:1199": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4701,17 +4542,17 @@
             "265"
         ]
     },
-    "san-mu-kd6:1359": {
+    "san-mu-kd6:1200": {
         "supplied": [
             "sa"
         ]
     },
-    "san-mu-kd6:1360": {
+    "san-mu-kd6:1201": {
         "supplied": [
             "266"
         ]
     },
-    "san-mu-kd6:1361": {
+    "san-mu-kd6:1202": {
         "supplied": [
             "u",
             "ñ",
@@ -4721,7 +4562,7 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1362": {
+    "san-mu-kd6:1203": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4729,7 +4570,7 @@
             "267"
         ]
     },
-    "san-mu-kd6:1363": {
+    "san-mu-kd6:1204": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -4737,31 +4578,35 @@
             "mātāpi"
         ]
     },
-    "san-mu-kd6:1364": {
+    "san-mu-kd6:1205": {
         "supplied": [
             "268"
         ]
     },
-    "san-mu-kd6:1365": {
+    "san-mu-kd6:1206": {
         "gap": [
             ".. .. .. .",
             ".."
         ]
     },
-    "san-mu-kd6:1366": {
+    "san-mu-kd6:1207": {
         "gap": [
             "+ + +",
             "+ + + +",
             "..",
             ".",
-            "+ + + + +",
-            "+ + + + + + + + + + + + + + + +"
+            "+ + + + +"
         ],
         "supplied": [
-            "269<br>"
+            "269"
         ]
     },
-    "san-mu-kd6:1367": {
+    "san-mu-kd6:1208": {
+        "gap": [
+            "+ + + + + + + + + + + + + + + +"
+        ]
+    },
+    "san-mu-kd6:1209": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -4771,8 +4616,8 @@
             "270"
         ]
     },
-    "san-mu-kd6:1368": {},
-    "san-mu-kd6:1369": {
+    "san-mu-kd6:1210": {},
+    "san-mu-kd6:1211": {
         "gap": [
             "..",
             "+ + + + + + + + + + + + + + +"
@@ -4781,12 +4626,12 @@
             "271"
         ]
     },
-    "san-mu-kd6:1370": {
+    "san-mu-kd6:1212": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1371": {
+    "san-mu-kd6:1213": {
         "gap": [
             "+ + + + + + + + +"
         ],
@@ -4794,8 +4639,8 @@
             "272"
         ]
     },
-    "san-mu-kd6:1372": {},
-    "san-mu-kd6:1373": {
+    "san-mu-kd6:1214": {},
+    "san-mu-kd6:1215": {
         "supplied": [
             "akṣyatha jīvitaṁ",
             "273"
@@ -4804,17 +4649,17 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1374": {
+    "san-mu-kd6:1216": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1375": {
+    "san-mu-kd6:1217": {
         "supplied": [
             "274"
         ]
     },
-    "san-mu-kd6:1376": {
+    "san-mu-kd6:1218": {
         "supplied": [
             "a"
         ],
@@ -4822,7 +4667,7 @@
             "+ + +"
         ]
     },
-    "san-mu-kd6:1377": {
+    "san-mu-kd6:1219": {
         "gap": [
             "+ + + + + + + + + + + + + + + +",
             "///"
@@ -4831,22 +4676,22 @@
             "275"
         ]
     },
-    "san-mu-kd6:1378": {
+    "san-mu-kd6:1220": {
         "supplied": [
             "mātā pi"
         ]
     },
-    "san-mu-kd6:1379": {
+    "san-mu-kd6:1221": {
         "supplied": [
             "277"
         ]
     },
-    "san-mu-kd6:1380": {
+    "san-mu-kd6:1222": {
         "gap": [
             "+ + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1381": {
+    "san-mu-kd6:1223": {
         "gap": [
             "+ + + + + + + + + + + + + + + +",
             "///"
@@ -4855,15 +4700,15 @@
             "278"
         ]
     },
-    "san-mu-kd6:1382": {},
-    "san-mu-kd6:1383": {
+    "san-mu-kd6:1224": {},
+    "san-mu-kd6:1225": {
         "supplied": [
             "h",
             "me",
             "280"
         ]
     },
-    "san-mu-kd6:1384": {
+    "san-mu-kd6:1226": {
         "gap": [
             "+ + + + + + + + + +",
             "+ +"
@@ -4873,7 +4718,7 @@
             "aṁ"
         ]
     },
-    "san-mu-kd6:1385": {
+    "san-mu-kd6:1227": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4881,12 +4726,12 @@
             "281"
         ]
     },
-    "san-mu-kd6:1386": {
+    "san-mu-kd6:1228": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1387": {
+    "san-mu-kd6:1229": {
         "gap": [
             "+ + + + + +"
         ],
@@ -4894,8 +4739,8 @@
             "282"
         ]
     },
-    "san-mu-kd6:1388": {},
-    "san-mu-kd6:1389": {
+    "san-mu-kd6:1230": {},
+    "san-mu-kd6:1231": {
         "supplied": [
             "ṁ",
             "aṁ",
@@ -4905,9 +4750,8 @@
             "///"
         ]
     },
-    "san-mu-kd6:1390": {},
-    "san-mu-kd6:1391": {},
-    "san-mu-kd6:1392": {
+    "san-mu-kd6:1232": {},
+    "san-mu-kd6:1233": {
         "supplied": [
             "an",
             "āyuṣmatā rāṣṭrapālena svakā karmaplotir idānīm āyuṣmān api svātir vyākarotu svakāṁ"
@@ -4916,14 +4760,13 @@
             "///"
         ]
     },
-    "san-mu-kd6:1393": {},
-    "san-mu-kd6:1394": {
+    "san-mu-kd6:1234": {
         "supplied": [
             "ḥ",
             "ādhanaḥ"
         ]
     },
-    "san-mu-kd6:1395": {
+    "san-mu-kd6:1235": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -4931,18 +4774,18 @@
             "285"
         ]
     },
-    "san-mu-kd6:1396": {
+    "san-mu-kd6:1236": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1397": {
+    "san-mu-kd6:1237": {
         "supplied": [
             "286"
         ]
     },
-    "san-mu-kd6:1398": {},
-    "san-mu-kd6:1399": {
+    "san-mu-kd6:1238": {},
+    "san-mu-kd6:1239": {
         "supplied": [
             "kasya",
             "287"
@@ -4951,12 +4794,12 @@
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1400": {
+    "san-mu-kd6:1240": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1401": {
+    "san-mu-kd6:1241": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -4966,24 +4809,24 @@
             "288"
         ]
     },
-    "san-mu-kd6:1402": {
+    "san-mu-kd6:1242": {
         "supplied": [
             "a",
             "karaṇḍān ma"
         ]
     },
-    "san-mu-kd6:1403": {
+    "san-mu-kd6:1243": {
         "supplied": [
             "ḥ",
             "289"
         ]
     },
-    "san-mu-kd6:1404": {
+    "san-mu-kd6:1244": {
         "supplied": [
             "ṇam"
         ]
     },
-    "san-mu-kd6:1405": {
+    "san-mu-kd6:1245": {
         "gap": [
             "+ + + + + + + + + + + + + + + +",
             "///"
@@ -4992,7 +4835,7 @@
             "290"
         ]
     },
-    "san-mu-kd6:1406": {
+    "san-mu-kd6:1246": {
         "supplied": [
             "s."
         ],
@@ -5000,14 +4843,14 @@
             "+ + + + +"
         ]
     },
-    "san-mu-kd6:1407": {
+    "san-mu-kd6:1247": {
         "supplied": [
             "ḥ",
             "292"
         ]
     },
-    "san-mu-kd6:1408": {},
-    "san-mu-kd6:1409": {
+    "san-mu-kd6:1248": {},
+    "san-mu-kd6:1249": {
         "gap": [
             "+ + + + + + + + + + + + + + +"
         ],
@@ -5015,12 +4858,12 @@
             "293"
         ]
     },
-    "san-mu-kd6:1410": {
+    "san-mu-kd6:1250": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1411": {
+    "san-mu-kd6:1251": {
         "gap": [
             "..",
             "+ + + + + +"
@@ -5029,19 +4872,19 @@
             "294"
         ]
     },
-    "san-mu-kd6:1412": {},
-    "san-mu-kd6:1413": {
+    "san-mu-kd6:1252": {},
+    "san-mu-kd6:1253": {
         "supplied": [
             "295"
         ]
     },
-    "san-mu-kd6:1414": {
+    "san-mu-kd6:1254": {
         "gap": [
             ".",
             "+ + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1415": {
+    "san-mu-kd6:1255": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5049,12 +4892,12 @@
             "296"
         ]
     },
-    "san-mu-kd6:1416": {
+    "san-mu-kd6:1256": {
         "gap": [
             "+ + + + + +"
         ]
     },
-    "san-mu-kd6:1417": {
+    "san-mu-kd6:1257": {
         "supplied": [
             "ekabuddham",
             "śītībhūta",
@@ -5064,12 +4907,12 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1418": {
+    "san-mu-kd6:1258": {
         "supplied": [
             "j"
         ]
     },
-    "san-mu-kd6:1419": {
+    "san-mu-kd6:1259": {
         "supplied": [
             "to",
             "298"
@@ -5078,12 +4921,12 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1420": {
+    "san-mu-kd6:1260": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1421": {
+    "san-mu-kd6:1261": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -5092,22 +4935,22 @@
             "299"
         ]
     },
-    "san-mu-kd6:1422": {
+    "san-mu-kd6:1262": {
         "supplied": [
             "naḥ sarvaṁ pratide"
         ]
     },
-    "san-mu-kd6:1423": {
+    "san-mu-kd6:1263": {
         "supplied": [
             "300"
         ]
     },
-    "san-mu-kd6:1424": {
+    "san-mu-kd6:1264": {
         "supplied": [
             "n"
         ]
     },
-    "san-mu-kd6:1425": {
+    "san-mu-kd6:1265": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5115,24 +4958,24 @@
             "301"
         ]
     },
-    "san-mu-kd6:1426": {
+    "san-mu-kd6:1266": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1427": {
+    "san-mu-kd6:1267": {
         "supplied": [
             "ya",
             "anāt 302"
         ]
     },
-    "san-mu-kd6:1428": {},
-    "san-mu-kd6:1429": {
+    "san-mu-kd6:1268": {},
+    "san-mu-kd6:1269": {
         "supplied": [
             "303"
         ]
     },
-    "san-mu-kd6:1430": {
+    "san-mu-kd6:1270": {
         "supplied": [
             "avān"
         ],
@@ -5140,7 +4983,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1431": {
+    "san-mu-kd6:1271": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5148,18 +4991,18 @@
             "304"
         ]
     },
-    "san-mu-kd6:1432": {
+    "san-mu-kd6:1272": {
         "gap": [
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1433": {
+    "san-mu-kd6:1273": {
         "supplied": [
             "305"
         ]
     },
-    "san-mu-kd6:1434": {},
-    "san-mu-kd6:1435": {
+    "san-mu-kd6:1274": {},
+    "san-mu-kd6:1275": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -5167,12 +5010,12 @@
             "306"
         ]
     },
-    "san-mu-kd6:1436": {
+    "san-mu-kd6:1276": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1437": {
+    "san-mu-kd6:1277": {
         "gap": [
             "+ + + + + + +"
         ],
@@ -5180,19 +5023,19 @@
             "307"
         ]
     },
-    "san-mu-kd6:1438": {},
-    "san-mu-kd6:1439": {
+    "san-mu-kd6:1278": {},
+    "san-mu-kd6:1279": {
         "supplied": [
             "308"
         ]
     },
-    "san-mu-kd6:1440": {
+    "san-mu-kd6:1280": {
         "gap": [
             "..",
             "+ + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1441": {
+    "san-mu-kd6:1281": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5200,7 +5043,7 @@
             "309"
         ]
     },
-    "san-mu-kd6:1442": {
+    "san-mu-kd6:1282": {
         "gap": [
             "+ + + + +"
         ],
@@ -5209,36 +5052,34 @@
             "d"
         ]
     },
-    "san-mu-kd6:1443": {
+    "san-mu-kd6:1283": {
         "supplied": [
             "310"
         ]
     },
-    "san-mu-kd6:1444": {
+    "san-mu-kd6:1284": {
         "gap": [
             "///"
         ]
     },
-    "san-mu-kd6:1445": {},
-    "san-mu-kd6:1446": {
+    "san-mu-kd6:1285": {
         "supplied": [
             "jaṅghākā",
             "uṣmāñ jaṅghākāśyapaḥ tasyāṁ velāyāṁ svakāṁ karmaplotiṁ vyākaroti"
         ]
     },
-    "san-mu-kd6:1447": {},
-    "san-mu-kd6:1448": {},
-    "san-mu-kd6:1449": {
+    "san-mu-kd6:1286": {},
+    "san-mu-kd6:1287": {
         "gap": [
             "+ + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1450": {
+    "san-mu-kd6:1288": {
         "supplied": [
             "311"
         ]
     },
-    "san-mu-kd6:1451": {
+    "san-mu-kd6:1289": {
         "supplied": [
             "lo"
         ],
@@ -5246,7 +5087,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1452": {
+    "san-mu-kd6:1290": {
         "gap": [
             "+ + + + +",
             "///"
@@ -5259,18 +5100,18 @@
             "312"
         ]
     },
-    "san-mu-kd6:1453": {},
-    "san-mu-kd6:1454": {
+    "san-mu-kd6:1291": {},
+    "san-mu-kd6:1292": {
         "supplied": [
             "rmaṇaḥ 314"
         ]
     },
-    "san-mu-kd6:1455": {
+    "san-mu-kd6:1293": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1456": {
+    "san-mu-kd6:1294": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5278,19 +5119,19 @@
             "315"
         ]
     },
-    "san-mu-kd6:1457": {
+    "san-mu-kd6:1295": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1458": {
+    "san-mu-kd6:1296": {
         "supplied": [
             "saṁghā",
             "316"
         ]
     },
-    "san-mu-kd6:1459": {},
-    "san-mu-kd6:1460": {
+    "san-mu-kd6:1297": {},
+    "san-mu-kd6:1298": {
         "gap": [
             "+ + + + + + + + + + + + + + +",
             "///"
@@ -5299,8 +5140,8 @@
             "317"
         ]
     },
-    "san-mu-kd6:1461": {},
-    "san-mu-kd6:1462": {
+    "san-mu-kd6:1299": {},
+    "san-mu-kd6:1300": {
         "supplied": [
             "ḥ",
             "ḥ",
@@ -5313,12 +5154,12 @@
             "///"
         ]
     },
-    "san-mu-kd6:1463": {
+    "san-mu-kd6:1301": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1464": {
+    "san-mu-kd6:1302": {
         "gap": [
             "+ + + + + + + + + + +"
         ],
@@ -5326,12 +5167,12 @@
             "321"
         ]
     },
-    "san-mu-kd6:1465": {
+    "san-mu-kd6:1303": {
         "supplied": [
             "d"
         ]
     },
-    "san-mu-kd6:1466": {
+    "san-mu-kd6:1304": {
         "supplied": [
             "karma",
             "āhrade",
@@ -5341,16 +5182,14 @@
             "///"
         ]
     },
-    "san-mu-kd6:1467": {},
-    "san-mu-kd6:1468": {
+    "san-mu-kd6:1305": {
         "supplied": [
             "bhi",
             "a",
             "kāśyapena svakā karmaplotir idānīm āyuṣmān api cūḍapanthako vyākarotu svakāṁ karmaplotiṁ | athāyuṣmān cūḍapanthakas tasyāṁ velāyāṁ svakāṁ karmaplotiṁ vyākaroti"
         ]
     },
-    "san-mu-kd6:1469": {},
-    "san-mu-kd6:1470": {
+    "san-mu-kd6:1306": {
         "gap": [
             "+ +"
         ],
@@ -5358,14 +5197,14 @@
             "sū"
         ]
     },
-    "san-mu-kd6:1471": {
+    "san-mu-kd6:1307": {
         "supplied": [
             "d",
             "n",
             "323"
         ]
     },
-    "san-mu-kd6:1472": {
+    "san-mu-kd6:1308": {
         "supplied": [
             "a",
             "ī",
@@ -5377,7 +5216,7 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1473": {
+    "san-mu-kd6:1309": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5385,12 +5224,12 @@
             "324"
         ]
     },
-    "san-mu-kd6:1474": {
+    "san-mu-kd6:1310": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1475": {
+    "san-mu-kd6:1311": {
         "gap": [
             "+ + + + +"
         ],
@@ -5398,12 +5237,12 @@
             "325"
         ]
     },
-    "san-mu-kd6:1476": {
+    "san-mu-kd6:1312": {
         "supplied": [
             "m a"
         ]
     },
-    "san-mu-kd6:1477": {
+    "san-mu-kd6:1313": {
         "gap": [
             ".. ..",
             "..",
@@ -5414,24 +5253,24 @@
             "326"
         ]
     },
-    "san-mu-kd6:1478": {},
-    "san-mu-kd6:1479": {
+    "san-mu-kd6:1314": {},
+    "san-mu-kd6:1315": {
         "supplied": [
             "ārādhi",
             "ḥ"
         ]
     },
-    "san-mu-kd6:1480": {
+    "san-mu-kd6:1316": {
         "supplied": [
             "328"
         ]
     },
-    "san-mu-kd6:1481": {
+    "san-mu-kd6:1317": {
         "gap": [
             "+ + + + + +"
         ]
     },
-    "san-mu-kd6:1482": {
+    "san-mu-kd6:1318": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5439,23 +5278,23 @@
             "329"
         ]
     },
-    "san-mu-kd6:1483": {
+    "san-mu-kd6:1319": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1484": {
+    "san-mu-kd6:1320": {
         "supplied": [
             "sa",
             "330"
         ]
     },
-    "san-mu-kd6:1485": {
+    "san-mu-kd6:1321": {
         "supplied": [
             "c"
         ]
     },
-    "san-mu-kd6:1486": {
+    "san-mu-kd6:1322": {
         "supplied": [
             "navatapte",
             "331"
@@ -5465,16 +5304,14 @@
             "///"
         ]
     },
-    "san-mu-kd6:1487": {},
-    "san-mu-kd6:1488": {
+    "san-mu-kd6:1323": {
         "supplied": [
             "i",
             "rpadāsa āyuṣmatā cūḍapa",
             "plotiṁ | athāyuṣmān cūḍapanthakas tasyāṁ velāyāṁ svakāṁ karmaplotiṁ vyākaroti"
         ]
     },
-    "san-mu-kd6:1489": {},
-    "san-mu-kd6:1490": {
+    "san-mu-kd6:1324": {
         "gap": [
             "+ + + + + + + + + +"
         ],
@@ -5482,7 +5319,7 @@
             "śramaṇa"
         ]
     },
-    "san-mu-kd6:1491": {
+    "san-mu-kd6:1325": {
         "gap": [
             "..",
             "+ + + +"
@@ -5491,12 +5328,12 @@
             "332"
         ]
     },
-    "san-mu-kd6:1492": {
+    "san-mu-kd6:1326": {
         "gap": [
             ".."
         ]
     },
-    "san-mu-kd6:1493": {
+    "san-mu-kd6:1327": {
         "gap": [
             "+ + + + +"
         ],
@@ -5504,12 +5341,12 @@
             "333"
         ]
     },
-    "san-mu-kd6:1494": {
+    "san-mu-kd6:1328": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1495": {
+    "san-mu-kd6:1329": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5517,24 +5354,24 @@
             "334"
         ]
     },
-    "san-mu-kd6:1496": {
+    "san-mu-kd6:1330": {
         "gap": [
             "+ + + + + + + + + + + + + + +",
             ".."
         ]
     },
-    "san-mu-kd6:1497": {
+    "san-mu-kd6:1331": {
         "supplied": [
             "335"
         ]
     },
-    "san-mu-kd6:1498": {
+    "san-mu-kd6:1332": {
         "gap": [
             "..",
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1499": {
+    "san-mu-kd6:1333": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5542,12 +5379,12 @@
             "336"
         ]
     },
-    "san-mu-kd6:1500": {
+    "san-mu-kd6:1334": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1501": {
+    "san-mu-kd6:1335": {
         "gap": [
             "+ +",
             "+ + + + + + + + + + + + + +"
@@ -5556,7 +5393,7 @@
             "337"
         ]
     },
-    "san-mu-kd6:1502": {
+    "san-mu-kd6:1336": {
         "gap": [
             "+ + +"
         ],
@@ -5566,7 +5403,7 @@
             "aṁ"
         ]
     },
-    "san-mu-kd6:1503": {
+    "san-mu-kd6:1337": {
         "supplied": [
             "t",
             "ātram ahaṁ tadā",
@@ -5576,7 +5413,7 @@
             "///"
         ]
     },
-    "san-mu-kd6:1504": {
+    "san-mu-kd6:1338": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -5589,7 +5426,7 @@
             "a"
         ]
     },
-    "san-mu-kd6:1505": {
+    "san-mu-kd6:1339": {
         "supplied": [
             "a",
             "o",
@@ -5600,8 +5437,8 @@
             "340"
         ]
     },
-    "san-mu-kd6:1506": {},
-    "san-mu-kd6:1507": {
+    "san-mu-kd6:1340": {},
+    "san-mu-kd6:1341": {
         "supplied": [
             "to",
             "341"
@@ -5610,34 +5447,34 @@
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1508": {
+    "san-mu-kd6:1342": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1509": {
+    "san-mu-kd6:1343": {
         "supplied": [
             "priyo manāpaḥ sarveṣāṁ niṣṭhāprāptaś ca saṁ",
             "342"
         ]
     },
-    "san-mu-kd6:1510": {
+    "san-mu-kd6:1344": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1511": {
+    "san-mu-kd6:1345": {
         "supplied": [
             "ne",
             "343"
         ]
     },
-    "san-mu-kd6:1512": {
+    "san-mu-kd6:1346": {
         "supplied": [
             "atipudgalaḥ"
         ]
     },
-    "san-mu-kd6:1513": {
+    "san-mu-kd6:1347": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5645,12 +5482,12 @@
             "344"
         ]
     },
-    "san-mu-kd6:1514": {
+    "san-mu-kd6:1348": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1515": {
+    "san-mu-kd6:1349": {
         "gap": [
             "+ +"
         ],
@@ -5660,7 +5497,7 @@
             "aṁ 345"
         ]
     },
-    "san-mu-kd6:1516": {
+    "san-mu-kd6:1350": {
         "supplied": [
             "dānāni",
             "a",
@@ -5669,7 +5506,7 @@
             "aṁ"
         ]
     },
-    "san-mu-kd6:1517": {
+    "san-mu-kd6:1351": {
         "supplied": [
             "ca",
             "ajña",
@@ -5680,22 +5517,22 @@
             "///"
         ]
     },
-    "san-mu-kd6:1518": {
+    "san-mu-kd6:1352": {
         "supplied": [
             "bu"
         ]
     },
-    "san-mu-kd6:1519": {
+    "san-mu-kd6:1353": {
         "supplied": [
             "348"
         ]
     },
-    "san-mu-kd6:1520": {
+    "san-mu-kd6:1354": {
         "gap": [
             "+ + + + + + + +"
         ]
     },
-    "san-mu-kd6:1521": {
+    "san-mu-kd6:1355": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5703,7 +5540,7 @@
             "349"
         ]
     },
-    "san-mu-kd6:1522": {
+    "san-mu-kd6:1356": {
         "gap": [
             "+ + + + + + + + + + + + +"
         ],
@@ -5711,13 +5548,13 @@
             "u"
         ]
     },
-    "san-mu-kd6:1523": {
+    "san-mu-kd6:1357": {
         "supplied": [
             "350"
         ]
     },
-    "san-mu-kd6:1524": {},
-    "san-mu-kd6:1525": {
+    "san-mu-kd6:1358": {},
+    "san-mu-kd6:1359": {
         "gap": [
             "..",
             "+ + + + + + + + + + + + +"
@@ -5726,12 +5563,12 @@
             "351"
         ]
     },
-    "san-mu-kd6:1526": {
+    "san-mu-kd6:1360": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1527": {
+    "san-mu-kd6:1361": {
         "gap": [
             "+ + + + + + + + + +"
         ],
@@ -5739,12 +5576,12 @@
             "352"
         ]
     },
-    "san-mu-kd6:1528": {
+    "san-mu-kd6:1362": {
         "supplied": [
             "d"
         ]
     },
-    "san-mu-kd6:1529": {
+    "san-mu-kd6:1363": {
         "gap": [
             "+ +",
             ".. ..",
@@ -5755,17 +5592,17 @@
             "353"
         ]
     },
-    "san-mu-kd6:1530": {
+    "san-mu-kd6:1364": {
         "gap": [
             "+ + + +"
         ]
     },
-    "san-mu-kd6:1531": {
+    "san-mu-kd6:1365": {
         "supplied": [
             "355"
         ]
     },
-    "san-mu-kd6:1532": {
+    "san-mu-kd6:1366": {
         "gap": [
             ". .. .. .",
             "..",
@@ -5773,7 +5610,7 @@
             "+ + + + + +"
         ]
     },
-    "san-mu-kd6:1533": {
+    "san-mu-kd6:1367": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -5781,12 +5618,12 @@
             "356"
         ]
     },
-    "san-mu-kd6:1534": {
+    "san-mu-kd6:1368": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ]
     },
-    "san-mu-kd6:1535": {
+    "san-mu-kd6:1369": {
         "gap": [
             "+ + + +"
         ],
@@ -5794,12 +5631,12 @@
             "357"
         ]
     },
-    "san-mu-kd6:1536": {
+    "san-mu-kd6:1370": {
         "supplied": [
             "aḥ"
         ]
     },
-    "san-mu-kd6:1537": {
+    "san-mu-kd6:1371": {
         "gap": [
             "..",
             "+ + + + + + + + + + + +",
@@ -5809,7 +5646,7 @@
             "358"
         ]
     },
-    "san-mu-kd6:1538": {
+    "san-mu-kd6:1372": {
         "gap": [
             "+ + + + + + + +"
         ],
@@ -5817,12 +5654,12 @@
             "d"
         ]
     },
-    "san-mu-kd6:1539": {
+    "san-mu-kd6:1373": {
         "supplied": [
             "360"
         ]
     },
-    "san-mu-kd6:1540": {
+    "san-mu-kd6:1374": {
         "supplied": [
             "arpadāsavargo"
         ],
@@ -5830,39 +5667,39 @@
             "///"
         ]
     },
-    "san-mu-kd6:1541": {
+    "san-mu-kd6:1375": {
         "supplied": [
             "a",
             "403",
             "ma"
         ]
     },
-    "san-mu-kd6:1542": {
+    "san-mu-kd6:1376": {
         "supplied": [
             "vān",
             "406"
         ]
     },
-    "san-mu-kd6:1543": {
+    "san-mu-kd6:1377": {
         "supplied": [
             "ta"
         ]
     },
-    "san-mu-kd6:1544": {
+    "san-mu-kd6:1378": {
         "supplied": [
             "jentākasya ca snānena tāla",
             "bhūtaṁ sukhaṁ bahu",
             "411"
         ]
     },
-    "san-mu-kd6:1545": {
+    "san-mu-kd6:1379": {
         "supplied": [
             "ḥ",
             "413",
             "labdhā"
         ]
     },
-    "san-mu-kd6:1546": {
+    "san-mu-kd6:1380": {
         "gap": [
             "..",
             ".",
@@ -5875,56 +5712,56 @@
             ". .."
         ]
     },
-    "san-mu-kd6:1547": {
+    "san-mu-kd6:1381": {
         "supplied": [
             "439"
         ]
     },
-    "san-mu-kd6:1548": {
+    "san-mu-kd6:1382": {
         "supplied": [
             "śayyā"
         ]
     },
-    "san-mu-kd6:1549": {
+    "san-mu-kd6:1383": {
         "supplied": [
             "cin",
             "i",
             "a"
         ]
     },
-    "san-mu-kd6:1550": {
+    "san-mu-kd6:1384": {
         "supplied": [
             "sa",
             "rā bhikṣava ayuṣmantam upasenam idam avocan vyākṛtāyuṣman upasena āyuṣmatā dravyamallaputreṇa svakā karmaplotir idānīm āyuṣmān api"
         ]
     },
-    "san-mu-kd6:1551": {
+    "san-mu-kd6:1385": {
         "supplied": [
             "sva",
             "s"
         ]
     },
-    "san-mu-kd6:1552": {
+    "san-mu-kd6:1386": {
         "supplied": [
             "448"
         ]
     },
-    "san-mu-kd6:1553": {
+    "san-mu-kd6:1387": {
         "supplied": [
             "ta",
             "ḥ",
             "451"
         ]
     },
-    "san-mu-kd6:1554": {
+    "san-mu-kd6:1388": {
         "supplied": [
             "ya",
             "ta",
             "pāgataḥ"
         ]
     },
-    "san-mu-kd6:1555": {},
-    "san-mu-kd6:1556": {
+    "san-mu-kd6:1389": {},
+    "san-mu-kd6:1390": {
         "supplied": [
             "kṛtapu",
             "485",
@@ -5932,14 +5769,14 @@
             "nuṣa"
         ]
     },
-    "san-mu-kd6:1557": {
+    "san-mu-kd6:1391": {
         "supplied": [
             "mā",
             "nuttaraḥ",
             "488"
         ]
     },
-    "san-mu-kd6:1558": {
+    "san-mu-kd6:1392": {
         "supplied": [
             "’s",
             "i",
@@ -5947,20 +5784,20 @@
             "drikaḥ"
         ]
     },
-    "san-mu-kd6:1559": {},
-    "san-mu-kd6:1560": {
+    "san-mu-kd6:1393": {},
+    "san-mu-kd6:1394": {
         "supplied": [
             "tā",
             "492"
         ]
     },
-    "san-mu-kd6:1561": {
+    "san-mu-kd6:1395": {
         "supplied": [
             "karmav",
             "gato"
         ]
     },
-    "san-mu-kd6:1562": {
+    "san-mu-kd6:1396": {
         "supplied": [
             "mā",
             "ḍ",
@@ -5970,7 +5807,7 @@
             "taṁ"
         ]
     },
-    "san-mu-kd6:1563": {
+    "san-mu-kd6:1397": {
         "supplied": [
             "c",
             "t",
@@ -5982,13 +5819,13 @@
             "523cd"
         ]
     },
-    "san-mu-kd6:1564": {
+    "san-mu-kd6:1398": {
         "supplied": [
             "e",
             "usaṁghāgrataḥ"
         ]
     },
-    "san-mu-kd6:1565": {
+    "san-mu-kd6:1399": {
         "supplied": [
             "vipa",
             "i",
@@ -5996,52 +5833,51 @@
             "ākāruṇikam"
         ]
     },
-    "san-mu-kd6:1566": {
+    "san-mu-kd6:1400": {
         "supplied": [
             "na cā",
             "sādya"
         ]
     },
-    "san-mu-kd6:1567": {},
-    "san-mu-kd6:1568": {},
-    "san-mu-kd6:1569": {
+    "san-mu-kd6:1401": {},
+    "san-mu-kd6:1402": {
         "supplied": [
             "na",
             "praya",
             "nn asatkṛto"
         ]
     },
-    "san-mu-kd6:1570": {},
-    "san-mu-kd6:1571": {
+    "san-mu-kd6:1403": {},
+    "san-mu-kd6:1404": {
         "supplied": [
             "vācayati",
             "vārāṇasī"
         ]
     },
-    "san-mu-kd6:1572": {
+    "san-mu-kd6:1405": {
         "supplied": [
             "varta"
         ]
     },
-    "san-mu-kd6:1573": {},
-    "san-mu-kd6:1574": {
+    "san-mu-kd6:1406": {},
+    "san-mu-kd6:1407": {
         "supplied": [
             "vakān",
             "ā"
         ]
     },
-    "san-mu-kd6:1575": {},
-    "san-mu-kd6:1576": {
+    "san-mu-kd6:1408": {},
+    "san-mu-kd6:1409": {
         "add": [
             "Cf. SBV II 22ff."
         ]
     },
-    "san-mu-kd6:1577": {
+    "san-mu-kd6:1410": {
         "supplied": [
             "mandāgninā"
         ]
     },
-    "san-mu-kd6:1578": {
+    "san-mu-kd6:1411": {
         "supplied": [
             "na"
         ],
@@ -6049,51 +5885,47 @@
             "..."
         ]
     },
-    "san-mu-kd6:1579": {
+    "san-mu-kd6:1412": {
         "gap": [
             "[folios 220–221 are missing in the MS]"
         ]
     },
-    "san-mu-kd6:1580": {},
-    "san-mu-kd6:1581": {},
-    "san-mu-kd6:1582": {},
-    "san-mu-kd6:1583": {},
-    "san-mu-kd6:1584": {},
-    "san-mu-kd6:1585": {},
-    "san-mu-kd6:1586": {},
-    "san-mu-kd6:1587": {},
-    "san-mu-kd6:1588": {},
-    "san-mu-kd6:1589": {},
-    "san-mu-kd6:1590": {},
-    "san-mu-kd6:1591": {},
-    "san-mu-kd6:1592": {},
-    "san-mu-kd6:1593": {},
-    "san-mu-kd6:1594": {},
-    "san-mu-kd6:1595": {},
-    "san-mu-kd6:1596": {},
-    "san-mu-kd6:1597": {},
-    "san-mu-kd6:1598": {
+    "san-mu-kd6:1413": {},
+    "san-mu-kd6:1414": {},
+    "san-mu-kd6:1415": {},
+    "san-mu-kd6:1416": {},
+    "san-mu-kd6:1417": {},
+    "san-mu-kd6:1418": {},
+    "san-mu-kd6:1419": {},
+    "san-mu-kd6:1420": {},
+    "san-mu-kd6:1421": {},
+    "san-mu-kd6:1422": {},
+    "san-mu-kd6:1423": {},
+    "san-mu-kd6:1424": {},
+    "san-mu-kd6:1425": {},
+    "san-mu-kd6:1426": {},
+    "san-mu-kd6:1427": {
         "add": [
             "MS: <i>nopacchito</i>; read <i>nepa</i>; cf. <i>nepacchitā</i>, Pravr-v III, fol.47r6"
         ]
     },
-    "san-mu-kd6:1599": {},
-    "san-mu-kd6:1600": {},
-    "san-mu-kd6:1601": {},
-    "san-mu-kd6:1602": {},
-    "san-mu-kd6:1603": {},
-    "san-mu-kd6:1604": {},
-    "san-mu-kd6:1605": {},
-    "san-mu-kd6:1606": {},
-    "san-mu-kd6:1607": {},
-    "san-mu-kd6:1608": {},
-    "san-mu-kd6:1609": {},
-    "san-mu-kd6:1610": {},
-    "san-mu-kd6:1611": {},
-    "san-mu-kd6:1612": {},
-    "san-mu-kd6:1613": {},
-    "san-mu-kd6:1614": {},
-    "san-mu-kd6:1615": {
+    "san-mu-kd6:1428": {},
+    "san-mu-kd6:1429": {},
+    "san-mu-kd6:1430": {},
+    "san-mu-kd6:1431": {},
+    "san-mu-kd6:1432": {},
+    "san-mu-kd6:1433": {},
+    "san-mu-kd6:1434": {},
+    "san-mu-kd6:1435": {},
+    "san-mu-kd6:1436": {},
+    "san-mu-kd6:1437": {},
+    "san-mu-kd6:1438": {},
+    "san-mu-kd6:1439": {},
+    "san-mu-kd6:1440": {},
+    "san-mu-kd6:1441": {},
+    "san-mu-kd6:1442": {},
+    "san-mu-kd6:1443": {},
+    "san-mu-kd6:1444": {
         "supplied": [
             "prativasati",
             "ṁ",
@@ -6101,7 +5933,7 @@
             "ṁ"
         ]
     },
-    "san-mu-kd6:1616": {
+    "san-mu-kd6:1445": {
         "supplied": [
             "ḥ",
             "pi snuṣāyā ākhyātaṁ sā",
@@ -6140,7 +5972,7 @@
             ".."
         ]
     },
-    "san-mu-kd6:1617": {
+    "san-mu-kd6:1446": {
         "supplied": [
             "yasyā mātrayābhiprasannā utthāyāsanā",
             "āna",
@@ -6158,25 +5990,25 @@
             "abhyavakāśadvārakoṣṭhakaprāsādāgniśālāyantradhararājāṅganadevasthānagṛhapatikuṭibhikṣuṇīśālā | etāni"
         ]
     },
-    "san-mu-kd6:1618": {
+    "san-mu-kd6:1447": {
         "supplied": [
             "uddānam | <span class='gap'>...."
         ]
     },
-    "san-mu-kd6:1619": {
+    "san-mu-kd6:1448": {
         "supplied": [
             "bhadramukha bhagavatā nānujñātam | vaidyaḥ kathayati | ārya kāruṇiko vaḥ śāstā sthānam etad vidyate yad anujñāsyati | etat prakaraṇaṁ bhikṣavo bhagavata ārocayanti",
             "nātra kaukṛtyaṁ karaṇīyam |"
         ]
     },
-    "san-mu-kd6:1620": {
+    "san-mu-kd6:1449": {
         "supplied": [
             "bhagavān āha | vaidyopadeśena peyā pātavvyeti | tasyopasthāpakena śītalā peyā dattā | sa vaidyasakāśaṁ gatvā",
             "nāhaṁ svasthaḥ | vaidyaḥ kathayati | ārya kiṁ tvayā peyā na pītā | sa kathayati | pitā | kim uṣṇā | śītalaiva |",
             "ārya na śobhanaṁ kṛtam | uṣṇīkṛtya pātavyā | bhikṣavo na jānate kutra uṣṇīkartavyā | bhagavān āha | tasmāt tarhi bhikṣavaḥ kalpikaśālā saṁmantavyā | bhikṣavo na jānate kīdṛg iti | bhagavān āha | paṁca kalpikaśālā bhavanti | ārambhyamāṇāntikā ucchrīyamāṇāntikā goniṣādikā udbhūtava"
         ]
     },
-    "san-mu-kd6:1621": {
+    "san-mu-kd6:1450": {
         "supplied": [
             "ārambhyamāṇāntikā katamā | tadyathā navakarmiko bhikṣur yatra prathamataḥ sthitvā saṁghasya kalpikasthānam iti kṛtvā vācayati idaṁ kalpikasthānam iti | idam ārambhyamāṇāntikā ucyate |",
             "katamā",
@@ -6190,7 +6022,7 @@
             "kalpikasthānaṁ saṁmantuṁ te tūṣṇīm | na kṣamante bhāṣantām | kṣāntam anujñātaṁ saṁghena yasmāt tūṣṇīm evaitad dhārayāmi |"
         ]
     },
-    "san-mu-kd6:1622": {
+    "san-mu-kd6:1451": {
         "supplied": [
             "vaiśālyāṁ siṁhaḥ senāpatiḥ prativasati | sa jñātibhir āhṛtaṁ māṁsaṁ paribhuṁkte | yadā bhagavato",
             "prayacchati | bhikṣavas tat paribhuṁjate | tīrthikā avadhyāyanti kṣipanti vivācayanti | āyuṣmantaḥ siṁhena senāpatinā uddiśya kṛtaṁ māṁsam āhṛtam | tat śra",
@@ -6199,7 +6031,7 @@
             "uddiśya kṛtam iti"
         ]
     },
-    "san-mu-kd6:1623": {
+    "san-mu-kd6:1452": {
         "supplied": [
             "sakṛcchraḥ kālo vartate | bhikṣavaḥ pārśvaṁ datvā tiṣṭhanti",
             "te kathayanti",
@@ -6207,40 +6039,43 @@
             "nāmi | evaṁvidhe durbhikṣe kṛcchre kāntāre bhikṣavaḥ pratijāgartavyam | nātra kaukṛtyaṁ karaṇīyam"
         ]
     },
-    "san-mu-kd6:1624": {
+    "san-mu-kd6:1453": {
         "supplied": [
             "gṛhītvā vihāraṁ gacchanti durbhikṣakāle bhuṁjiṣyāma iti kṛtvā",
             "kṛtvā prāggṛhītaṁ paribhoktavyam | nātra kaukṛtyaṁ karaṇīyam |"
         ]
     },
-    "san-mu-kd6:1625": {
+    "san-mu-kd6:1454": {
         "supplied": [
             "śrāvastyāṁ nidānam |",
             "āryā yuṣmākaṁ kṛte adhiṣṭhitaṁ bhaktam avaśiṣyate | etat pragṛhyatām | te tad gṛhī",
             "evaṁvidhaṁ dānam iti kṛtvā paribhoktavyam | nātra kaukṛtyaṁ karaṇīyam |"
         ]
     },
-    "san-mu-kd6:1626": {
+    "san-mu-kd6:1455": {
         "supplied": [
             "śrāvastyāṁ nidānam | sakṛcchraḥ kālo vartate",
             "kathayanti | āryāḥ sadya eva prakrāntāḥ | khādyakāny avaśiṣyante | durlabhāny etāni | gṛhītvā gaccha",
             "evaṁvidhe durbhikṣe kṛcchre kāntāre prāgdattam iti kṛtvā paribhoktavyam | nātra kaukṛtyaṁ karaṇīyam |"
         ]
     },
-    "san-mu-kd6:1627": {
+    "san-mu-kd6:1456": {
         "supplied": [
             "āryāṇāṁ dātavyāni | bhikṣūṇāṁ parigrahārthaṁ dattāni | bhikṣavaḥ pratigrahītavyam iti kṛtvā",
-            "tatremāni vanāstikāni | drākṣādāḍimbatinduka <span class='gap'>..."
+            "tatremāni vanāstikāni | drākṣādāḍimbatinduka "
+        ],
+        "gap": [
+            "..."
         ]
     },
-    "san-mu-kd6:1628": {
+    "san-mu-kd6:1457": {
         "supplied": [
             "sat",
             "stikāni",
             "kaukṛtyān na paribhuṁjate | bhikṣavo bhagavata ārocayanti | bhagavān āha | durlabhānīti kṛ"
         ]
     },
-    "san-mu-kd6:1629": {
+    "san-mu-kd6:1458": {
         "supplied": [
             "ṣamyād glānyam utpannam | āyuṣmān mahāmaudgalyāyanaḥ saṁlakṣaya",
             "sva",
@@ -6254,7 +6089,7 @@
             "..."
         ]
     },
-    "san-mu-kd6:1630": {
+    "san-mu-kd6:1459": {
         "gap": [
             "+ + + + + + + +",
             "///",
@@ -6290,7 +6125,7 @@
             "1ff. has been suplied from Divy 123ff."
         ]
     },
-    "san-mu-kd6:1631": {
+    "san-mu-kd6:1460": {
         "supplied": [
             "gavāṁ saṁlakṣayati | ayaṁ miṇḍhako gṛhapatiḥ saparivāro bhadraṁkare nagare prativasati | tasya vaineyakāla āpannaḥ |",
             "tatra bhagavān āyuṣmantam ānandam āmantrayate | gaccha tvam ānanda",
@@ -6313,7 +6148,7 @@
             "+ +"
         ]
     },
-    "san-mu-kd6:1632": {
+    "san-mu-kd6:1461": {
         "supplied": [
             "atha bhagavān",
             "dāntapa",
@@ -6346,7 +6181,7 @@
             ".. .."
         ]
     },
-    "san-mu-kd6:1633": {
+    "san-mu-kd6:1462": {
         "supplied": [
             "kagṛhapatis tenopasaṁkrama | upasaṁkramya",
             "ti gaṇena kriyākāraḥ kṛta iti | vaktavyaḥ | tava putrasya paṁcaśatiko nakulakaḥ",
@@ -6358,29 +6193,27 @@
             "gṛhapate tvam āgamya bhūyasā sarva eva janakāyo labhīti | tato"
         ]
     },
-    "san-mu-kd6:1634": {},
-    "san-mu-kd6:1635": {},
-    "san-mu-kd6:1636": {},
-    "san-mu-kd6:1637": {},
-    "san-mu-kd6:1638": {},
-    "san-mu-kd6:1639": {
+    "san-mu-kd6:1463": {},
+    "san-mu-kd6:1464": {},
+    "san-mu-kd6:1465": {},
+    "san-mu-kd6:1466": {
         "supplied": [
             "bhagavān āha"
         ]
     },
-    "san-mu-kd6:1640": {
+    "san-mu-kd6:1467": {
         "supplied": [
             "bhikṣavo na jānate kena grahītavyaḥ kathaṁ ceti |",
             "ke"
         ]
     },
-    "san-mu-kd6:1641": {},
-    "san-mu-kd6:1642": {
+    "san-mu-kd6:1468": {},
+    "san-mu-kd6:1469": {
         "supplied": [
             "adhvagā icchanti"
         ]
     },
-    "san-mu-kd6:1643": {
+    "san-mu-kd6:1470": {
         "supplied": [
             "karma kṛtaṁ yena ṣaḍabhijñātā",
             "mahāpuṇyāḥ saṁvṛttāḥ | bhagavato ’ntike satyāni",
@@ -6388,14 +6221,14 @@
             "dehinām |"
         ]
     },
-    "san-mu-kd6:1644": {
+    "san-mu-kd6:1471": {
         "supplied": [
             "bhūtapūrvaṁ bhikṣavo ’tīte ’dhvani vārāṇasyāṁ nagaryāṁ brahmadatto nāma rājā",
             "samudgake tasmin",
             "tāvat kvāthayanti yāvat tāny asthīni śvetāni saṁvṛttā"
         ]
     },
-    "san-mu-kd6:1645": {
+    "san-mu-kd6:1472": {
         "supplied": [
             "dhānyānām e",
             "taraṁ cātaḥ śāstāram ārāgayeyaṁ mā virāgayeyam iti",
@@ -6404,19 +6237,17 @@
             "tathaiva putrasya snuṣāyā dāsasya praṇidhiḥ siddhā"
         ]
     },
-    "san-mu-kd6:1646": {},
-    "san-mu-kd6:1647": {},
-    "san-mu-kd6:1648": {},
-    "san-mu-kd6:1649": {},
-    "san-mu-kd6:1650": {},
-    "san-mu-kd6:1651": {},
-    "san-mu-kd6:1652": {
+    "san-mu-kd6:1473": {},
+    "san-mu-kd6:1474": {},
+    "san-mu-kd6:1475": {},
+    "san-mu-kd6:1476": {},
+    "san-mu-kd6:1477": {
         "supplied": [
             "ḥ"
         ]
     },
-    "san-mu-kd6:1653": {},
-    "san-mu-kd6:1654": {
+    "san-mu-kd6:1478": {},
+    "san-mu-kd6:1479": {
         "supplied": [
             "|",
             "ye",
@@ -6446,14 +6277,14 @@
             "|"
         ]
     },
-    "san-mu-kd6:1655": {
+    "san-mu-kd6:1480": {
         "supplied": [
             "|",
             "ḥ",
             "|"
         ]
     },
-    "san-mu-kd6:1656": {
+    "san-mu-kd6:1481": {
         "supplied": [
             "|",
             "antaṁ divyābh",
@@ -6462,20 +6293,20 @@
             "r ā"
         ]
     },
-    "san-mu-kd6:1657": {
+    "san-mu-kd6:1482": {
         "supplied": [
             "atasahasrapariv",
             "|"
         ]
     },
-    "san-mu-kd6:1658": {
+    "san-mu-kd6:1483": {
         "supplied": [
             "’pi",
             "jo ’nekanāgapariv",
             "bhagavantaṁ divyair utpa"
         ]
     },
-    "san-mu-kd6:1659": {
+    "san-mu-kd6:1484": {
         "supplied": [
             "ak",
             "a",
@@ -6484,7 +6315,7 @@
             "saṁ"
         ]
     },
-    "san-mu-kd6:1660": {
+    "san-mu-kd6:1485": {
         "supplied": [
             "|",
             "|",
@@ -6492,27 +6323,27 @@
             "|"
         ]
     },
-    "san-mu-kd6:1661": {
+    "san-mu-kd6:1486": {
         "supplied": [
             "naṁ",
             "ṁ"
         ]
     },
-    "san-mu-kd6:1662": {
+    "san-mu-kd6:1487": {
         "supplied": [
             "|",
             "atra te",
             "|"
         ]
     },
-    "san-mu-kd6:1663": {
+    "san-mu-kd6:1488": {
         "supplied": [
             "|",
             "nāga",
             "|"
         ]
     },
-    "san-mu-kd6:1664": {
+    "san-mu-kd6:1489": {
         "supplied": [
             "vaiśravaṇaṁ",
             "māśā tuṣā saṁśāmā",
@@ -6521,7 +6352,7 @@
             "vaiśravaṇasya"
         ]
     },
-    "san-mu-kd6:1665": {
+    "san-mu-kd6:1490": {
         "supplied": [
             "|",
             "|",
@@ -6533,13 +6364,13 @@
             "|"
         ]
     },
-    "san-mu-kd6:1666": {
+    "san-mu-kd6:1491": {
         "supplied": [
             "|",
             "ṇi"
         ]
     },
-    "san-mu-kd6:1667": {
+    "san-mu-kd6:1492": {
         "supplied": [
             "|",
             "|",
@@ -6573,14 +6404,14 @@
             "|"
         ]
     },
-    "san-mu-kd6:1668": {
+    "san-mu-kd6:1493": {
         "supplied": [
             "|",
             "|",
             "|"
         ]
     },
-    "san-mu-kd6:1669": {
+    "san-mu-kd6:1494": {
         "supplied": [
             "|",
             "tvā",
@@ -6598,6 +6429,193 @@
             "Dutt: As the Tibetan translation does not agree with the Sanskrit text, we reconstruct here the Sanskrit from Tibetan: <span class='supplied'>itīmāni bhikṣavo ’ṣṭau pānāni kāle pratigrāhitāni kāle marditāni kāle adhiṣṭhitāni kāle paribhoktavyāni | akāle na paribhoktavyāni | rātryāś ca prathame yāme ’tikrānte na paribhoktavyāni | itīmāni aṣṭau pānāni kāle pratigrāhitāni akāle marditāni akāle parisrutāni akāle adhiṣṭhitāni na paribhoktavyāni | itīmāni aṣṭau pānāni kāle pratigrāhitāni kāle marditāni akāle parisrutāni akāle adhiṣṭhitāni na paribhoktavyāni | itīmāni aṣṭau pānāni akāle pratigrāhitāni akāle marditāni akāle parisrutāni paścādbhaktena na paribhoktavyāni | rātryāś ca yāme ’tikrānte na paribhoktavyāni |"
         ]
     },
+    "san-mu-kd6:1495": {},
+    "san-mu-kd6:1496": {},
+    "san-mu-kd6:1497": {},
+    "san-mu-kd6:1498": {},
+    "san-mu-kd6:1499": {},
+    "san-mu-kd6:1500": {},
+    "san-mu-kd6:1501": {},
+    "san-mu-kd6:1502": {},
+    "san-mu-kd6:1503": {},
+    "san-mu-kd6:1504": {},
+    "san-mu-kd6:1505": {},
+    "san-mu-kd6:1506": {},
+    "san-mu-kd6:1507": {},
+    "san-mu-kd6:1508": {},
+    "san-mu-kd6:1509": {},
+    "san-mu-kd6:1510": {},
+    "san-mu-kd6:1511": {},
+    "san-mu-kd6:1512": {},
+    "san-mu-kd6:1513": {
+        "supplied": [
+            "kaineya"
+        ]
+    },
+    "san-mu-kd6:1514": {},
+    "san-mu-kd6:1515": {},
+    "san-mu-kd6:1516": {},
+    "san-mu-kd6:1517": {
+        "supplied": [
+            "vyaya"
+        ]
+    },
+    "san-mu-kd6:1518": {},
+    "san-mu-kd6:1519": {},
+    "san-mu-kd6:1520": {},
+    "san-mu-kd6:1521": {},
+    "san-mu-kd6:1522": {},
+    "san-mu-kd6:1523": {
+        "supplied": [
+            "d dharaṇī"
+        ]
+    },
+    "san-mu-kd6:1524": {},
+    "san-mu-kd6:1525": {},
+    "san-mu-kd6:1526": {},
+    "san-mu-kd6:1527": {},
+    "san-mu-kd6:1528": {},
+    "san-mu-kd6:1529": {},
+    "san-mu-kd6:1530": {},
+    "san-mu-kd6:1531": {},
+    "san-mu-kd6:1532": {},
+    "san-mu-kd6:1533": {},
+    "san-mu-kd6:1534": {},
+    "san-mu-kd6:1535": {},
+    "san-mu-kd6:1536": {},
+    "san-mu-kd6:1537": {},
+    "san-mu-kd6:1538": {},
+    "san-mu-kd6:1539": {},
+    "san-mu-kd6:1540": {},
+    "san-mu-kd6:1541": {},
+    "san-mu-kd6:1542": {},
+    "san-mu-kd6:1543": {},
+    "san-mu-kd6:1544": {},
+    "san-mu-kd6:1545": {},
+    "san-mu-kd6:1546": {},
+    "san-mu-kd6:1547": {},
+    "san-mu-kd6:1548": {},
+    "san-mu-kd6:1549": {},
+    "san-mu-kd6:1550": {},
+    "san-mu-kd6:1551": {},
+    "san-mu-kd6:1552": {},
+    "san-mu-kd6:1553": {},
+    "san-mu-kd6:1554": {},
+    "san-mu-kd6:1555": {},
+    "san-mu-kd6:1556": {},
+    "san-mu-kd6:1557": {},
+    "san-mu-kd6:1558": {},
+    "san-mu-kd6:1559": {},
+    "san-mu-kd6:1560": {},
+    "san-mu-kd6:1561": {},
+    "san-mu-kd6:1562": {},
+    "san-mu-kd6:1563": {},
+    "san-mu-kd6:1564": {},
+    "san-mu-kd6:1565": {},
+    "san-mu-kd6:1566": {},
+    "san-mu-kd6:1567": {},
+    "san-mu-kd6:1568": {},
+    "san-mu-kd6:1569": {},
+    "san-mu-kd6:1570": {},
+    "san-mu-kd6:1571": {},
+    "san-mu-kd6:1572": {},
+    "san-mu-kd6:1573": {},
+    "san-mu-kd6:1574": {},
+    "san-mu-kd6:1575": {},
+    "san-mu-kd6:1576": {},
+    "san-mu-kd6:1577": {},
+    "san-mu-kd6:1578": {},
+    "san-mu-kd6:1579": {},
+    "san-mu-kd6:1580": {},
+    "san-mu-kd6:1581": {},
+    "san-mu-kd6:1582": {},
+    "san-mu-kd6:1583": {},
+    "san-mu-kd6:1584": {},
+    "san-mu-kd6:1585": {},
+    "san-mu-kd6:1586": {},
+    "san-mu-kd6:1587": {},
+    "san-mu-kd6:1588": {},
+    "san-mu-kd6:1589": {},
+    "san-mu-kd6:1590": {},
+    "san-mu-kd6:1591": {},
+    "san-mu-kd6:1592": {},
+    "san-mu-kd6:1593": {},
+    "san-mu-kd6:1594": {},
+    "san-mu-kd6:1595": {},
+    "san-mu-kd6:1596": {},
+    "san-mu-kd6:1597": {},
+    "san-mu-kd6:1598": {},
+    "san-mu-kd6:1599": {},
+    "san-mu-kd6:1600": {},
+    "san-mu-kd6:1601": {},
+    "san-mu-kd6:1602": {},
+    "san-mu-kd6:1603": {},
+    "san-mu-kd6:1604": {},
+    "san-mu-kd6:1605": {},
+    "san-mu-kd6:1606": {},
+    "san-mu-kd6:1607": {},
+    "san-mu-kd6:1608": {},
+    "san-mu-kd6:1609": {},
+    "san-mu-kd6:1610": {},
+    "san-mu-kd6:1611": {},
+    "san-mu-kd6:1612": {},
+    "san-mu-kd6:1613": {},
+    "san-mu-kd6:1614": {},
+    "san-mu-kd6:1615": {},
+    "san-mu-kd6:1616": {},
+    "san-mu-kd6:1617": {},
+    "san-mu-kd6:1618": {},
+    "san-mu-kd6:1619": {},
+    "san-mu-kd6:1620": {},
+    "san-mu-kd6:1621": {},
+    "san-mu-kd6:1622": {},
+    "san-mu-kd6:1623": {},
+    "san-mu-kd6:1624": {},
+    "san-mu-kd6:1625": {},
+    "san-mu-kd6:1626": {},
+    "san-mu-kd6:1627": {},
+    "san-mu-kd6:1628": {},
+    "san-mu-kd6:1629": {},
+    "san-mu-kd6:1630": {},
+    "san-mu-kd6:1631": {},
+    "san-mu-kd6:1632": {},
+    "san-mu-kd6:1633": {},
+    "san-mu-kd6:1634": {},
+    "san-mu-kd6:1635": {},
+    "san-mu-kd6:1636": {},
+    "san-mu-kd6:1637": {},
+    "san-mu-kd6:1638": {},
+    "san-mu-kd6:1639": {},
+    "san-mu-kd6:1640": {},
+    "san-mu-kd6:1641": {},
+    "san-mu-kd6:1642": {},
+    "san-mu-kd6:1643": {},
+    "san-mu-kd6:1644": {},
+    "san-mu-kd6:1645": {},
+    "san-mu-kd6:1646": {},
+    "san-mu-kd6:1647": {},
+    "san-mu-kd6:1648": {},
+    "san-mu-kd6:1649": {},
+    "san-mu-kd6:1650": {},
+    "san-mu-kd6:1651": {},
+    "san-mu-kd6:1652": {},
+    "san-mu-kd6:1653": {},
+    "san-mu-kd6:1654": {},
+    "san-mu-kd6:1655": {},
+    "san-mu-kd6:1656": {},
+    "san-mu-kd6:1657": {},
+    "san-mu-kd6:1658": {},
+    "san-mu-kd6:1659": {},
+    "san-mu-kd6:1660": {},
+    "san-mu-kd6:1661": {},
+    "san-mu-kd6:1662": {},
+    "san-mu-kd6:1663": {},
+    "san-mu-kd6:1664": {},
+    "san-mu-kd6:1665": {},
+    "san-mu-kd6:1666": {},
+    "san-mu-kd6:1667": {},
+    "san-mu-kd6:1668": {},
+    "san-mu-kd6:1669": {},
     "san-mu-kd6:1670": {},
     "san-mu-kd6:1671": {},
     "san-mu-kd6:1672": {},
@@ -6617,29 +6635,17 @@
     "san-mu-kd6:1686": {},
     "san-mu-kd6:1687": {},
     "san-mu-kd6:1688": {},
-    "san-mu-kd6:1689": {
-        "supplied": [
-            "kaineya"
-        ]
-    },
+    "san-mu-kd6:1689": {},
     "san-mu-kd6:1690": {},
     "san-mu-kd6:1691": {},
     "san-mu-kd6:1692": {},
-    "san-mu-kd6:1693": {
-        "supplied": [
-            "vyaya"
-        ]
-    },
+    "san-mu-kd6:1693": {},
     "san-mu-kd6:1694": {},
     "san-mu-kd6:1695": {},
     "san-mu-kd6:1696": {},
     "san-mu-kd6:1697": {},
     "san-mu-kd6:1698": {},
-    "san-mu-kd6:1699": {
-        "supplied": [
-            "d dharaṇī"
-        ]
-    },
+    "san-mu-kd6:1699": {},
     "san-mu-kd6:1700": {},
     "san-mu-kd6:1701": {},
     "san-mu-kd6:1702": {},
@@ -6651,7 +6657,11 @@
     "san-mu-kd6:1708": {},
     "san-mu-kd6:1709": {},
     "san-mu-kd6:1710": {},
-    "san-mu-kd6:1711": {},
+    "san-mu-kd6:1711": {
+        "supplied": [
+            "saṁ"
+        ]
+    },
     "san-mu-kd6:1712": {},
     "san-mu-kd6:1713": {},
     "san-mu-kd6:1714": {},
@@ -6672,7 +6682,11 @@
     "san-mu-kd6:1729": {},
     "san-mu-kd6:1730": {},
     "san-mu-kd6:1731": {},
-    "san-mu-kd6:1732": {},
+    "san-mu-kd6:1732": {
+        "supplied": [
+            "pra"
+        ]
+    },
     "san-mu-kd6:1733": {},
     "san-mu-kd6:1734": {},
     "san-mu-kd6:1735": {},
@@ -6683,7 +6697,11 @@
     "san-mu-kd6:1740": {},
     "san-mu-kd6:1741": {},
     "san-mu-kd6:1742": {},
-    "san-mu-kd6:1743": {},
+    "san-mu-kd6:1743": {
+        "supplied": [
+            "t"
+        ]
+    },
     "san-mu-kd6:1744": {},
     "san-mu-kd6:1745": {},
     "san-mu-kd6:1746": {},
@@ -6695,196 +6713,7 @@
     "san-mu-kd6:1752": {},
     "san-mu-kd6:1753": {},
     "san-mu-kd6:1754": {},
-    "san-mu-kd6:1755": {},
-    "san-mu-kd6:1756": {},
-    "san-mu-kd6:1757": {},
-    "san-mu-kd6:1758": {},
-    "san-mu-kd6:1759": {},
-    "san-mu-kd6:1760": {},
-    "san-mu-kd6:1761": {},
-    "san-mu-kd6:1762": {},
-    "san-mu-kd6:1763": {},
-    "san-mu-kd6:1764": {},
-    "san-mu-kd6:1765": {},
-    "san-mu-kd6:1766": {},
-    "san-mu-kd6:1767": {},
-    "san-mu-kd6:1768": {},
-    "san-mu-kd6:1769": {},
-    "san-mu-kd6:1770": {},
-    "san-mu-kd6:1771": {},
-    "san-mu-kd6:1772": {},
-    "san-mu-kd6:1773": {},
-    "san-mu-kd6:1774": {},
-    "san-mu-kd6:1775": {},
-    "san-mu-kd6:1776": {},
-    "san-mu-kd6:1777": {},
-    "san-mu-kd6:1778": {},
-    "san-mu-kd6:1779": {},
-    "san-mu-kd6:1780": {},
-    "san-mu-kd6:1781": {},
-    "san-mu-kd6:1782": {},
-    "san-mu-kd6:1783": {},
-    "san-mu-kd6:1784": {},
-    "san-mu-kd6:1785": {},
-    "san-mu-kd6:1786": {},
-    "san-mu-kd6:1787": {},
-    "san-mu-kd6:1788": {},
-    "san-mu-kd6:1789": {},
-    "san-mu-kd6:1790": {},
-    "san-mu-kd6:1791": {},
-    "san-mu-kd6:1792": {},
-    "san-mu-kd6:1793": {},
-    "san-mu-kd6:1794": {},
-    "san-mu-kd6:1795": {},
-    "san-mu-kd6:1796": {},
-    "san-mu-kd6:1797": {},
-    "san-mu-kd6:1798": {},
-    "san-mu-kd6:1799": {},
-    "san-mu-kd6:1800": {},
-    "san-mu-kd6:1801": {},
-    "san-mu-kd6:1802": {},
-    "san-mu-kd6:1803": {},
-    "san-mu-kd6:1804": {},
-    "san-mu-kd6:1805": {},
-    "san-mu-kd6:1806": {},
-    "san-mu-kd6:1807": {},
-    "san-mu-kd6:1808": {},
-    "san-mu-kd6:1809": {},
-    "san-mu-kd6:1810": {},
-    "san-mu-kd6:1811": {},
-    "san-mu-kd6:1812": {},
-    "san-mu-kd6:1813": {},
-    "san-mu-kd6:1814": {},
-    "san-mu-kd6:1815": {},
-    "san-mu-kd6:1816": {},
-    "san-mu-kd6:1817": {},
-    "san-mu-kd6:1818": {},
-    "san-mu-kd6:1819": {},
-    "san-mu-kd6:1820": {},
-    "san-mu-kd6:1821": {},
-    "san-mu-kd6:1822": {},
-    "san-mu-kd6:1823": {},
-    "san-mu-kd6:1824": {},
-    "san-mu-kd6:1825": {},
-    "san-mu-kd6:1826": {},
-    "san-mu-kd6:1827": {},
-    "san-mu-kd6:1828": {},
-    "san-mu-kd6:1829": {},
-    "san-mu-kd6:1830": {},
-    "san-mu-kd6:1831": {},
-    "san-mu-kd6:1832": {},
-    "san-mu-kd6:1833": {},
-    "san-mu-kd6:1834": {},
-    "san-mu-kd6:1835": {},
-    "san-mu-kd6:1836": {},
-    "san-mu-kd6:1837": {},
-    "san-mu-kd6:1838": {},
-    "san-mu-kd6:1839": {},
-    "san-mu-kd6:1840": {},
-    "san-mu-kd6:1841": {},
-    "san-mu-kd6:1842": {},
-    "san-mu-kd6:1843": {},
-    "san-mu-kd6:1844": {},
-    "san-mu-kd6:1845": {},
-    "san-mu-kd6:1846": {},
-    "san-mu-kd6:1847": {},
-    "san-mu-kd6:1848": {},
-    "san-mu-kd6:1849": {},
-    "san-mu-kd6:1850": {},
-    "san-mu-kd6:1851": {},
-    "san-mu-kd6:1852": {},
-    "san-mu-kd6:1853": {},
-    "san-mu-kd6:1854": {},
-    "san-mu-kd6:1855": {},
-    "san-mu-kd6:1856": {},
-    "san-mu-kd6:1857": {},
-    "san-mu-kd6:1858": {},
-    "san-mu-kd6:1859": {},
-    "san-mu-kd6:1860": {},
-    "san-mu-kd6:1861": {},
-    "san-mu-kd6:1862": {},
-    "san-mu-kd6:1863": {},
-    "san-mu-kd6:1864": {},
-    "san-mu-kd6:1865": {},
-    "san-mu-kd6:1866": {},
-    "san-mu-kd6:1867": {},
-    "san-mu-kd6:1868": {},
-    "san-mu-kd6:1869": {},
-    "san-mu-kd6:1870": {},
-    "san-mu-kd6:1871": {},
-    "san-mu-kd6:1872": {},
-    "san-mu-kd6:1873": {},
-    "san-mu-kd6:1874": {},
-    "san-mu-kd6:1875": {},
-    "san-mu-kd6:1876": {},
-    "san-mu-kd6:1877": {},
-    "san-mu-kd6:1878": {},
-    "san-mu-kd6:1879": {},
-    "san-mu-kd6:1880": {},
-    "san-mu-kd6:1881": {},
-    "san-mu-kd6:1882": {},
-    "san-mu-kd6:1883": {},
-    "san-mu-kd6:1884": {},
-    "san-mu-kd6:1885": {},
-    "san-mu-kd6:1886": {},
-    "san-mu-kd6:1887": {
-        "supplied": [
-            "saṁ"
-        ]
-    },
-    "san-mu-kd6:1888": {},
-    "san-mu-kd6:1889": {},
-    "san-mu-kd6:1890": {},
-    "san-mu-kd6:1891": {},
-    "san-mu-kd6:1892": {},
-    "san-mu-kd6:1893": {},
-    "san-mu-kd6:1894": {},
-    "san-mu-kd6:1895": {},
-    "san-mu-kd6:1896": {},
-    "san-mu-kd6:1897": {},
-    "san-mu-kd6:1898": {},
-    "san-mu-kd6:1899": {},
-    "san-mu-kd6:1900": {},
-    "san-mu-kd6:1901": {},
-    "san-mu-kd6:1902": {},
-    "san-mu-kd6:1903": {},
-    "san-mu-kd6:1904": {},
-    "san-mu-kd6:1905": {},
-    "san-mu-kd6:1906": {},
-    "san-mu-kd6:1907": {},
-    "san-mu-kd6:1908": {
-        "supplied": [
-            "pra"
-        ]
-    },
-    "san-mu-kd6:1909": {},
-    "san-mu-kd6:1910": {},
-    "san-mu-kd6:1911": {},
-    "san-mu-kd6:1912": {},
-    "san-mu-kd6:1913": {},
-    "san-mu-kd6:1914": {},
-    "san-mu-kd6:1915": {},
-    "san-mu-kd6:1916": {},
-    "san-mu-kd6:1917": {},
-    "san-mu-kd6:1918": {},
-    "san-mu-kd6:1919": {
-        "supplied": [
-            "t"
-        ]
-    },
-    "san-mu-kd6:1920": {},
-    "san-mu-kd6:1921": {},
-    "san-mu-kd6:1922": {},
-    "san-mu-kd6:1923": {},
-    "san-mu-kd6:1924": {},
-    "san-mu-kd6:1925": {},
-    "san-mu-kd6:1926": {},
-    "san-mu-kd6:1927": {},
-    "san-mu-kd6:1928": {},
-    "san-mu-kd6:1929": {},
-    "san-mu-kd6:1930": {},
-    "san-mu-kd6:1931": {},
-    "san-mu-kd6:1932": {
+    "san-mu-kd6:1755": {
         "supplied": [
             "maṁgale",
             "śrībhadre",
@@ -6892,14 +6721,14 @@
             "amaraṇi brahme"
         ]
     },
-    "san-mu-kd6:1933": {},
-    "san-mu-kd6:1934": {},
-    "san-mu-kd6:1935": {
+    "san-mu-kd6:1756": {},
+    "san-mu-kd6:1757": {},
+    "san-mu-kd6:1758": {
         "supplied": [
             "amaraṇi"
         ]
     },
-    "san-mu-kd6:1936": {},
-    "san-mu-kd6:1937": {},
-    "san-mu-kd6:1938": {}
+    "san-mu-kd6:1759": {},
+    "san-mu-kd6:1760": {},
+    "san-mu-kd6:1761": {}
 }

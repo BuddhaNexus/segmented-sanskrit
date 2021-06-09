@@ -8,21 +8,14 @@
     "san-lo-bu-pn14:6": {},
     "san-lo-bu-pn14:7": {},
     "san-lo-bu-pn14:8": {},
-    "san-lo-bu-pn14:9": {},
-    "san-lo-bu-pn14:10": {},
-    "san-lo-bu-pn14:11": {},
-    "san-lo-bu-pn14:12": {},
-    "san-lo-bu-pn14:13": {},
-    "san-lo-bu-pn14:14": {},
-    "san-lo-bu-pn14:15": {
+    "san-lo-bu-pn14:9": {
         "supplied": [
             "da"
         ]
     },
-    "san-lo-bu-pn14:16": {},
-    "san-lo-bu-pn14:17": {},
-    "san-lo-bu-pn14:18": {},
-    "san-lo-bu-pn14:19": {
+    "san-lo-bu-pn14:10": {},
+    "san-lo-bu-pn14:11": {},
+    "san-lo-bu-pn14:12": {
         "counter": [
             "śrīḥ",
             "śrīḥ",
@@ -42,7 +35,7 @@
             "śrīḥ"
         ]
     },
-    "san-lo-bu-pn14:20": {
+    "san-lo-bu-pn14:13": {
         "counter": [
             "tha",
             "tha",
@@ -62,5 +55,5 @@
             "tha"
         ]
     },
-    "san-lo-bu-pn14:21": {}
+    "san-lo-bu-pn14:14": {}
 }

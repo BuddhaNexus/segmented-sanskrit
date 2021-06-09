@@ -1,37 +1,34 @@
 {
-    "sf192:0": {},
-    "sf192:1": {},
-    "sf192:2": {
+    "sf192:0": {
         "add": [
             "Ekottarikāgama 10"
         ]
     },
-    "sf192:3": {},
-    "sf192:4": {
+    "sf192:1": {
         "supplied": [
             "darśa",
             "ḥ",
             "aparikarmīkṛtaḥ | tatra cakṣuṣmān puruṣaḥ svaṁ mukhani"
         ]
     },
-    "sf192:5": {
+    "sf192:2": {
         "supplied": [
             "aparikarmīkṛtena ātmārthaṁ vā jñāsyati parārthaṁ vā ubhayārthaṁ vā uttaraṁ vā manuṣyadharmam alamāryaviśeṣādhigamaṁ vā jñānaṁ vā darśanaṁ vā sparśavihāratāṁ vā jñāsyati vā drakṣyati vā nedaṁ sthānaṁ vidyate | tat kasya heto"
         ]
     },
-    "sf192:6": {},
-    "sf192:7": {
+    "sf192:3": {},
+    "sf192:4": {
         "supplied": [
             "darśaḥ pariśuddhaḥ syāt paryavadā"
         ]
     },
-    "sf192:8": {
+    "sf192:5": {
         "supplied": [
             "ddhena cittena paryavadātena suparikarmīkṛtena",
             "tad vidyate | tat kasya hetor | supa"
         ]
     },
-    "sf192:9": {
+    "sf192:6": {
         "supplied": [
             "ṁ"
         ]

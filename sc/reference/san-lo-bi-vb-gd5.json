@@ -1,16 +1,11 @@
 {
     "san-lo-bi-vb-gd5:0": [],
     "san-lo-bi-vb-gd5:1": [],
-    "san-lo-bi-vb-gd5:2": [],
-    "san-lo-bi-vb-gd5:3": [],
-    "san-lo-bi-vb-gd5:4": [],
-    "san-lo-bi-vb-gd5:5": [],
-    "san-lo-bi-vb-gd5:6": [],
-    "san-lo-bi-vb-gd5:7": [
+    "san-lo-bi-vb-gd5:2": [
         "sc1",
         "roth93"
     ],
-    "san-lo-bi-vb-gd5:8": [
+    "san-lo-bi-vb-gd5:3": [
         "sc2"
     ]
 }

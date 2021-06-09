@@ -1,7 +1,4 @@
 {
-    "sf74:0": "<article id='sf69' lang='san'>",
-    "sf74:1": "<header>",
-    "sf74:2": "<h1>{}</h1>",
-    "sf74:3": "</header>",
-    "sf74:4": "<p><span class='evam'>{}</p>"
+    "sf74:0": "<article id='sf69' lang='san'><header><h1>{}</h1></header>",
+    "sf74:1": "<p><span class='evam'>{}</p>"
 }

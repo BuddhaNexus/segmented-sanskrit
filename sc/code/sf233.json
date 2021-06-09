@@ -1,34 +1,31 @@
 {
-    "sf233:0": {},
-    "sf233:1": {},
-    "sf233:2": {
+    "sf233:0": {
         "add": [
             "Ekottarikāgama 32"
         ]
     },
-    "sf233:3": {},
-    "sf233:4": {
+    "sf233:1": {
         "supplied": [
             "dvau dharmau saṁrāgāya saṁvartete adharmacaryā viṣamacaryā ca | adharmacaryā viṣamacaryā ca saṁrāgāya saṁvartete |",
             "au",
             "idam avocat ||"
         ]
     },
-    "sf233:5": {
+    "sf233:2": {
         "supplied": [
             "rāgāya saṁvartete evaṁ sadveṣāya asadveṣāya saṁmohāya asaṁ",
             "dāya anucchedāya saṁśreṇanāya viśreṇanāya saṁdhūpanāya vidhūpanāya",
             "vyupaśamāya saṁvartete | idam avocat ||"
         ]
     },
-    "sf233:6": {
+    "sf233:3": {
         "supplied": [
             "dvau dharmau virā",
             "adharmacaryā viṣamacaryā ca virāgaṇāya saṁvartete |",
             "dharmacaryā ca samacaryā ca ārāgaṇāya saṁvartete | idam avocat ||"
         ]
     },
-    "sf233:7": {
+    "sf233:4": {
         "supplied": [
             "cakṣuṣkaraṇāya ajñānakaraṇāya jñānakaraṇāya"
         ],
@@ -36,7 +33,7 @@
             "+ + +"
         ]
     },
-    "sf233:8": {
+    "sf233:5": {
         "supplied": [
             "dvau dharmau duścaritā",
             "a",
@@ -45,7 +42,7 @@
             "saṁvartete dharmacaryā samacaryā ca | dharmacaryā samacaryā ca su"
         ]
     },
-    "sf233:9": {
+    "sf233:6": {
         "supplied": [
             "niravadyāya",
             "ya",
@@ -59,12 +56,12 @@
             "+ + … + +"
         ]
     },
-    "sf233:10": {
+    "sf233:7": {
         "supplied": [
             "dharmau praṇītāya saṁvartete dharmacaryā sama"
         ]
     },
-    "sf233:11": {
+    "sf233:8": {
         "gap": [
             "+ + … + +",
             "+ + … + +",
@@ -77,13 +74,13 @@
             "anabhisamayāya a"
         ]
     },
-    "sf233:12": {
+    "sf233:9": {
         "supplied": [
             "adharmacaryā viṣamacaryā ca | adharmacaryā viṣa",
             "ryā samacaryā ca satpuruṣasaṁsevāyai saṁvartete | i"
         ]
     },
-    "sf233:13": {
+    "sf233:10": {
         "gap": [
             "+ + … + +",
             "+ + … + +"
@@ -94,24 +91,24 @@
             "a"
         ]
     },
-    "sf233:14": {
+    "sf233:11": {
         "supplied": [
             "dharmau buddhe agauravāya saṁvartete adharmacaryā viṣamacaryā ca |",
             "samacaryā ca buddhe gauravāya saṁvartete | idam avocat ||"
         ]
     },
-    "sf233:15": {
+    "sf233:12": {
         "supplied": [
             "ya",
             "kṣāyāṁ anuśāsane apramāde pratisaṁ"
         ]
     },
-    "sf233:16": {
+    "sf233:13": {
         "supplied": [
             "tāyai saṁvartete | dvau dharmau mātṛjñatāyai saṁvartete dha"
         ]
     },
-    "sf233:17": {
+    "sf233:14": {
         "supplied": [
             "tāyai evam na pitṛjñatāyai pitṛjñatāyai na śrāma",
             "śayanāsanaglānapratyayabhaiṣajyapariṣkāraiḥ | saṁtuṣṭo"
@@ -120,10 +117,10 @@
             "+ + … + +"
         ]
     },
-    "sf233:18": {},
-    "sf233:19": {},
-    "sf233:20": {},
-    "sf233:21": {
+    "sf233:15": {},
+    "sf233:16": {},
+    "sf233:17": {},
+    "sf233:18": {
         "add": [
             "uddāna nicht erhalten"
         ]

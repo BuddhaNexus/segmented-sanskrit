@@ -1,15 +1,12 @@
 {
     "sf102:0": {},
-    "sf102:1": {},
-    "sf102:2": {},
-    "sf102:3": {},
-    "sf102:4": {
+    "sf102:1": {
         "supplied": [
             "hitaṁ",
             "kṛtaṁ tac chrūyatāṁ."
         ]
     },
-    "sf102:5": {
+    "sf102:2": {
         "supplied": [
             "bhūtapūrvaṁ mahārāja r",
             "cakraratnena hastiratnenāśvaratnena maṇi",
@@ -22,7 +19,7 @@
             "i"
         ]
     },
-    "sf102:6": {
+    "sf102:3": {
         "supplied": [
             "rāja",
             "rājā mahāsudarśano ’bhirūpo ’bhūd",
@@ -32,7 +29,7 @@
             "ṁ"
         ]
     },
-    "sf102:7": {
+    "sf102:4": {
         "supplied": [
             "dho",
             "’bhūd arogajātīyaḥ sa",
@@ -41,7 +38,7 @@
             "rājā mahāsudarśano ’lpābādho ’bhūd arogajātīyaḥ pūrvavad, iyaṁ"
         ]
     },
-    "sf102:8": {
+    "sf102:5": {
         "supplied": [
             "tadyathā putrāṇāṁ pitā. rājño ’pi ma",
             "udyānabhūmiṁ niryān sārathim āma",
@@ -55,7 +52,7 @@
             "riddhir ity ucyate."
         ]
     },
-    "sf102:9": {
+    "sf102:6": {
         "supplied": [
             "athāpare",
             "nopasaṁkrāntā",
@@ -64,7 +61,7 @@
             "anukaṁpām upādāya. alaṁ grāma"
         ]
     },
-    "sf102:10": {
+    "sf102:7": {
         "supplied": [
             "m",
             "idam avocan. idam asmābhir devam uddi",
@@ -80,7 +77,7 @@
             "deva dhanajā"
         ]
     },
-    "sf102:11": {
+    "sf102:8": {
         "supplied": [
             "māpayeyam. aśrauṣuś ca",
             "ṁ",
@@ -96,7 +93,7 @@
             "avocat. alaṁ grāmaṇyaḥ saṁvidyante me i"
         ]
     },
-    "sf102:12": {
+    "sf102:9": {
         "supplied": [
             "ṁ",
             "tya,",
@@ -107,7 +104,7 @@
             "ṁ"
         ]
     },
-    "sf102:13": {
+    "sf102:10": {
         "supplied": [
             "ti",
             "koṭṭarājasahasrāṇi rājño",
@@ -117,20 +114,20 @@
             "rājño mahāsudarśana"
         ]
     },
-    "sf102:14": {
+    "sf102:11": {
         "supplied": [
             "sāde",
             "caturvidhāḥ prācīnā māpit"
         ]
     },
-    "sf102:15": {
+    "sf102:12": {
         "supplied": [
             "y",
             "yā",
             "rupyamayā vaiḍūryamayā sphaṭika"
         ]
     },
-    "sf102:16": {
+    "sf102:13": {
         "supplied": [
             "mayasya",
             "staṁbhasya ru",
@@ -140,32 +137,32 @@
             "d"
         ]
     },
-    "sf102:17": {
+    "sf102:14": {
         "supplied": [
             "pyamayā",
             "vaiḍūryamayā sphaṭ"
         ]
     },
-    "sf102:18": {},
-    "sf102:19": {
+    "sf102:15": {},
+    "sf102:16": {
         "supplied": [
             "caturvidhā baladharaṇyā mā"
         ]
     },
-    "sf102:20": {
+    "sf102:17": {
         "supplied": [
             "y",
             "rupyamayāni vaiḍūryamayāṇi"
         ]
     },
-    "sf102:21": {},
-    "sf102:22": {
+    "sf102:18": {},
+    "sf102:19": {
         "supplied": [
             "y",
             "caturvidhāni sopānāni mā"
         ]
     },
-    "sf102:23": {
+    "sf102:20": {
         "supplied": [
             "t",
             "suvarṇamayībhi rupyamayībhi vai",
@@ -173,7 +170,7 @@
             "suvarṇamayaḥ, vaiḍūryama"
         ]
     },
-    "sf102:24": {
+    "sf102:21": {
         "supplied": [
             "y",
             "dhāni",
@@ -188,14 +185,14 @@
             "lohitopadhānaḥ."
         ]
     },
-    "sf102:25": {
+    "sf102:22": {
         "supplied": [
             "suvarṇamayasya",
             "vaiḍūryamayasya sphaṭikamayaḥ, spha",
             "i"
         ]
     },
-    "sf102:26": {
+    "sf102:23": {
         "supplied": [
             "tālānāṁ vāyunā īryamāṇānā",
             "a",
@@ -203,8 +200,8 @@
             "tasya."
         ]
     },
-    "sf102:27": {},
-    "sf102:28": {
+    "sf102:24": {},
+    "sf102:25": {
         "supplied": [
             "sahasrāṇi",
             "sarvajātakṛtaniṣṭhi",
@@ -225,7 +222,7 @@
             "candanavāriṣiktā"
         ]
     },
-    "sf102:29": {
+    "sf102:26": {
         "supplied": [
             "śīti",
             "koṭṭarājasahasrāṇi sarva",
@@ -244,7 +241,7 @@
             "tam."
         ]
     },
-    "sf102:30": {
+    "sf102:27": {
         "supplied": [
             "atha caturaśīti koṭ",
             "a",
@@ -258,7 +255,7 @@
             "yugenā"
         ]
     },
-    "sf102:31": {
+    "sf102:28": {
         "supplied": [
             "pratyekaṁ",
             "na",
@@ -267,7 +264,7 @@
             "atha rājā mahāsu"
         ]
     },
-    "sf102:32": {
+    "sf102:29": {
         "supplied": [
             "ḥ",
             "varṇamayaṁ",
@@ -283,7 +280,7 @@
             "viharati."
         ]
     },
-    "sf102:33": {
+    "sf102:30": {
         "supplied": [
             "atha cat",
             "r",
@@ -306,7 +303,7 @@
             "yena dharmyaḥ prā"
         ]
     },
-    "sf102:34": {
+    "sf102:31": {
         "supplied": [
             "d",
             "rājā mahāsudarśa",
@@ -325,7 +322,7 @@
             "idam avocat. p"
         ]
     },
-    "sf102:35": {
+    "sf102:32": {
         "supplied": [
             "rmyāt",
             "prāsādād avatā",
@@ -346,7 +343,7 @@
             "yā."
         ]
     },
-    "sf102:36": {
+    "sf102:33": {
         "supplied": [
             "atha strīratna",
             "bhaginivādena samu",
@@ -376,7 +373,7 @@
             "Bechert"
         ]
     },
-    "sf102:37": {
+    "sf102:34": {
         "supplied": [
             "vaṁ",
             "mitravatta",
@@ -390,7 +387,7 @@
             "c"
         ]
     },
-    "sf102:38": {
+    "sf102:35": {
         "supplied": [
             "naḥ",
             "strīratnenānenāvavā",
@@ -408,14 +405,14 @@
             "paryaṁke paryaṁ"
         ]
     },
-    "sf102:39": {
+    "sf102:36": {
         "supplied": [
             "vihārāṁ bhāvayitvā kā",
             "anubhūtā maraṇān",
             "i"
         ]
     },
-    "sf102:40": {
+    "sf102:37": {
         "supplied": [
             "vac",
             "ca nadī hira",
@@ -426,54 +423,50 @@
             "hetoḥ."
         ]
     },
-    "sf102:41": {},
-    "sf102:42": {
+    "sf102:38": {
         "supplied": [
             "cchinnā"
         ]
     },
-    "sf102:43": {
+    "sf102:39": {
         "supplied": [
             "|| 1 ||"
         ]
     },
-    "sf102:44": {},
-    "sf102:45": {},
-    "sf102:46": {
+    "sf102:40": {},
+    "sf102:41": {
         "supplied": [
             "grabala"
         ]
     },
-    "sf102:47": {
+    "sf102:42": {
         "supplied": [
             "|| 2 ||"
         ]
     },
-    "sf102:48": {
+    "sf102:43": {
         "supplied": [
             "pratyekapratye"
         ]
     },
-    "sf102:49": {},
-    "sf102:50": {},
-    "sf102:51": {
+    "sf102:44": {},
+    "sf102:45": {
         "supplied": [
             "|| 3 ||"
         ]
     },
-    "sf102:52": {
+    "sf102:46": {
         "supplied": [
             "dhāvī",
             "śrāddho muktena"
         ]
     },
-    "sf102:53": {
+    "sf102:47": {
         "supplied": [
             "|| 4 ||"
         ]
     },
-    "sf102:54": {},
-    "sf102:55": {
+    "sf102:48": {
         "supplied": [
             "nāma rājā cakravartī",
             "kālena tena samayena",
@@ -482,5 +475,5 @@
             "hetumātrakaṁ pratyaya"
         ]
     },
-    "sf102:56": {}
+    "sf102:49": {}
 }

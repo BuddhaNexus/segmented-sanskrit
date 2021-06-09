@@ -1,18 +1,13 @@
 {
     "san-sarv-bi-pm-tf3215:0": {},
-    "san-sarv-bi-pm-tf3215:1": {},
-    "san-sarv-bi-pm-tf3215:2": {},
-    "san-sarv-bi-pm-tf3215:3": {},
-    "san-sarv-bi-pm-tf3215:4": {},
-    "san-sarv-bi-pm-tf3215:5": {
+    "san-sarv-bi-pm-tf3215:1": {
         "add": [
             "sārvāstivāda Bhikṣuṇī prātimokṣasūtra"
         ]
     },
-    "san-sarv-bi-pm-tf3215:6": {},
-    "san-sarv-bi-pm-tf3215:7": {},
-    "san-sarv-bi-pm-tf3215:8": {},
-    "san-sarv-bi-pm-tf3215:9": {
+    "san-sarv-bi-pm-tf3215:2": {},
+    "san-sarv-bi-pm-tf3215:3": {},
+    "san-sarv-bi-pm-tf3215:4": {
         "gap": [
             "/",
             "////",
@@ -62,8 +57,8 @@
             "i"
         ]
     },
-    "san-sarv-bi-pm-tf3215:10": {},
-    "san-sarv-bi-pm-tf3215:11": {
+    "san-sarv-bi-pm-tf3215:5": {},
+    "san-sarv-bi-pm-tf3215:6": {
         "gap": [
             "..",
             "⊙",
@@ -82,8 +77,8 @@
             "bhiniṣpattaye abhi"
         ]
     },
-    "san-sarv-bi-pm-tf3215:12": {},
-    "san-sarv-bi-pm-tf3215:13": {
+    "san-sarv-bi-pm-tf3215:7": {},
+    "san-sarv-bi-pm-tf3215:8": {
         "gap": [
             "////////////////////////////////",
             "///////////////////////////////////////"
@@ -95,8 +90,8 @@
             "t"
         ]
     },
-    "san-sarv-bi-pm-tf3215:14": {},
-    "san-sarv-bi-pm-tf3215:15": {
+    "san-sarv-bi-pm-tf3215:9": {},
+    "san-sarv-bi-pm-tf3215:10": {
         "gap": [
             ".",
             "...",
@@ -118,8 +113,8 @@
             "i"
         ]
     },
-    "san-sarv-bi-pm-tf3215:16": {},
-    "san-sarv-bi-pm-tf3215:17": {
+    "san-sarv-bi-pm-tf3215:11": {},
+    "san-sarv-bi-pm-tf3215:12": {
         "supplied": [
             "punar",
             "tma"
@@ -131,8 +126,8 @@
             "/"
         ]
     },
-    "san-sarv-bi-pm-tf3215:18": {},
-    "san-sarv-bi-pm-tf3215:19": {
+    "san-sarv-bi-pm-tf3215:13": {},
+    "san-sarv-bi-pm-tf3215:14": {
         "supplied": [
             "yāni kha"
         ],

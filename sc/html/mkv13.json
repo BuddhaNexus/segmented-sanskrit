@@ -1,11 +1,6 @@
 {
-    "mkv13:0": "<article id='mkv13' lang='san'>",
-    "mkv13:1": "<header>",
-    "mkv13:2": "<ul>",
-    "mkv13:3": "<li class='division'>{}</li>",
-    "mkv13:4": "</ul>",
-    "mkv13:5": "<h1>{}</h1>",
-    "mkv13:6": "</header>",
-    "mkv13:7": "<p>{}</p>",
-    "mkv13:8": "<p>{}</p>"
+    "mkv13:0": "<article id='mkv13' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv13:1": "<h1>{}</h1></header>",
+    "mkv13:2": "<p>{}</p>",
+    "mkv13:3": "<p>{}</p>"
 }

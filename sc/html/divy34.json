@@ -1,12 +1,12 @@
 {
-    "divy34:0": "<article id='divy34' lang='san'>",
-    "divy34:1": "<header>",
-    "divy34:2": "<ul>",
-    "divy34:3": "<li class='division'>{}</li>",
-    "divy34:4": "</ul>",
-    "divy34:5": "<h1>{}</h1>",
-    "divy34:6": "</header>",
-    "divy34:7": "<p><span class='evam'>{}<br>",
+    "divy34:0": "<article id='divy34' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "divy34:1": "<h1>{}</h1></header>",
+    "divy34:2": "<p><span class='evam'>{}<br>",
+    "divy34:3": "{}<br>",
+    "divy34:4": "{}<br>",
+    "divy34:5": "{}<br>",
+    "divy34:6": "{}<br>",
+    "divy34:7": "{}<br>",
     "divy34:8": "{}<br>",
     "divy34:9": "{}<br>",
     "divy34:10": "{}<br>",
@@ -45,10 +45,5 @@
     "divy34:43": "{}<br>",
     "divy34:44": "{}<br>",
     "divy34:45": "{}<br>",
-    "divy34:46": "{}<br>",
-    "divy34:47": "{}<br>",
-    "divy34:48": "{}<br>",
-    "divy34:49": "{}<br>",
-    "divy34:50": "{}<br>",
-    "divy34:51": "{}</p>"
+    "divy34:46": "{}</p>"
 }

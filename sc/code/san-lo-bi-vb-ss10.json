@@ -2,94 +2,85 @@
     "san-lo-bi-vb-ss10:0": {},
     "san-lo-bi-vb-ss10:1": {},
     "san-lo-bi-vb-ss10:2": {},
-    "san-lo-bi-vb-ss10:3": {},
-    "san-lo-bi-vb-ss10:4": {},
-    "san-lo-bi-vb-ss10:5": {},
-    "san-lo-bi-vb-ss10:6": {},
-    "san-lo-bi-vb-ss10:7": {},
-    "san-lo-bi-vb-ss10:8": {
+    "san-lo-bi-vb-ss10:3": {
         "supplied": [
             "va",
             "na"
         ]
     },
-    "san-lo-bi-vb-ss10:9": {},
-    "san-lo-bi-vb-ss10:10": {},
-    "san-lo-bi-vb-ss10:11": {},
-    "san-lo-bi-vb-ss10:12": {},
-    "san-lo-bi-vb-ss10:13": {},
-    "san-lo-bi-vb-ss10:14": {
+    "san-lo-bi-vb-ss10:4": {},
+    "san-lo-bi-vb-ss10:5": {},
+    "san-lo-bi-vb-ss10:6": {},
+    "san-lo-bi-vb-ss10:7": {},
+    "san-lo-bi-vb-ss10:8": {
         "gloss": [
             "yā puna bhikṣuṇī",
             "upasampannā yāvad ubhayataḥ saṁghena"
         ]
     },
-    "san-lo-bi-vb-ss10:15": {
+    "san-lo-bi-vb-ss10:9": {
         "gloss": [
             "sā eṣā bhikṣuṇī jānantī",
             "| svayam vā jā<span class='corr' title='no→ne'>ne"
         ]
     },
-    "san-lo-bi-vb-ss10:16": {
+    "san-lo-bi-vb-ss10:10": {
         "gloss": [
             "bhikṣuṇīṁ samagreṇa saṁghene",
             "a-vyagreṇa"
         ]
     },
-    "san-lo-bi-vb-ss10:17": {
+    "san-lo-bi-vb-ss10:11": {
         "gloss": [
             "dharmato vinayato",
             "| sati āpatyā a-darśanena | a-pratidharmeṇa | trayāṇāṁ dṛṣṭīnāṁ a-pratinissargāya"
         ]
     },
-    "san-lo-bi-vb-ss10:18": {
+    "san-lo-bi-vb-ss10:12": {
         "gloss": [
             "utkṣiptam",
             "a-saṁbhoga-kṛtaṁ"
         ]
     },
-    "san-lo-bi-vb-ss10:19": {
+    "san-lo-bi-vb-ss10:13": {
         "gloss": [
             "a-pratikṛtan",
             "a-pratyosāritaṁ"
         ]
     },
-    "san-lo-bi-vb-ss10:20": {
+    "san-lo-bi-vb-ss10:14": {
         "gloss": [
             "akṛtvā pūrva-kṛtyaṁ",
             "prakṛti-sthā bhikṣuṇīyo a-saṁjñāpayitvā"
         ]
     },
-    "san-lo-bi-vb-ss10:21": {
+    "san-lo-bi-vb-ss10:15": {
         "gloss": [
             "an-avalokayitvā bhikṣuṇī-saṁghaṁ",
             "| saṁgha-madhye avalokanām akṛtvā svayam eva pratyosārayet"
         ]
     },
+    "san-lo-bi-vb-ss10:16": {},
+    "san-lo-bi-vb-ss10:17": {},
+    "san-lo-bi-vb-ss10:18": {
+        "supplied": [
+            "tī"
+        ]
+    },
+    "san-lo-bi-vb-ss10:19": {},
+    "san-lo-bi-vb-ss10:20": {},
+    "san-lo-bi-vb-ss10:21": {},
     "san-lo-bi-vb-ss10:22": {},
     "san-lo-bi-vb-ss10:23": {},
     "san-lo-bi-vb-ss10:24": {},
     "san-lo-bi-vb-ss10:25": {
         "supplied": [
-            "tī"
+            "nā"
         ]
     },
     "san-lo-bi-vb-ss10:26": {},
     "san-lo-bi-vb-ss10:27": {},
-    "san-lo-bi-vb-ss10:28": {},
-    "san-lo-bi-vb-ss10:29": {},
-    "san-lo-bi-vb-ss10:30": {},
-    "san-lo-bi-vb-ss10:31": {},
-    "san-lo-bi-vb-ss10:32": {},
-    "san-lo-bi-vb-ss10:33": {},
-    "san-lo-bi-vb-ss10:34": {
-        "supplied": [
-            "nā"
-        ]
-    },
-    "san-lo-bi-vb-ss10:35": {},
-    "san-lo-bi-vb-ss10:36": {},
-    "san-lo-bi-vb-ss10:37": {
+    "san-lo-bi-vb-ss10:28": {
         "supplied": [
             "ti",
             "a"

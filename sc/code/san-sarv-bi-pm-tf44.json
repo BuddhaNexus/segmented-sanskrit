@@ -1,18 +1,13 @@
 {
     "san-sarv-bi-pm-tf44:0": {},
-    "san-sarv-bi-pm-tf44:1": {},
-    "san-sarv-bi-pm-tf44:2": {},
-    "san-sarv-bi-pm-tf44:3": {},
-    "san-sarv-bi-pm-tf44:4": {},
-    "san-sarv-bi-pm-tf44:5": {
+    "san-sarv-bi-pm-tf44:1": {
         "add": [
             "sārvāstivāda Bhikṣuṇī prātimokṣasūtra"
         ]
     },
-    "san-sarv-bi-pm-tf44:6": {},
-    "san-sarv-bi-pm-tf44:7": {},
-    "san-sarv-bi-pm-tf44:8": {},
-    "san-sarv-bi-pm-tf44:9": {
+    "san-sarv-bi-pm-tf44:2": {},
+    "san-sarv-bi-pm-tf44:3": {},
+    "san-sarv-bi-pm-tf44:4": {
         "gap": [
             "//////////////",
             ".",
@@ -27,8 +22,8 @@
             "ā"
         ]
     },
-    "san-sarv-bi-pm-tf44:10": {},
-    "san-sarv-bi-pm-tf44:11": {
+    "san-sarv-bi-pm-tf44:5": {},
+    "san-sarv-bi-pm-tf44:6": {
         "unclear": [
             "kṣu",
             "jā",
@@ -63,8 +58,8 @@
             "ād"
         ]
     },
-    "san-sarv-bi-pm-tf44:12": {},
-    "san-sarv-bi-pm-tf44:13": {
+    "san-sarv-bi-pm-tf44:7": {},
+    "san-sarv-bi-pm-tf44:8": {
         "gap": [
             "///",
             "/////////",
@@ -80,12 +75,12 @@
             "e"
         ]
     },
-    "san-sarv-bi-pm-tf44:14": {
+    "san-sarv-bi-pm-tf44:9": {
         "add": [
             "pārājika closing formula"
         ]
     },
-    "san-sarv-bi-pm-tf44:15": {
+    "san-sarv-bi-pm-tf44:10": {
         "gap": [
             "/////////////",
             ".",
@@ -112,13 +107,13 @@
             "tṛ"
         ]
     },
-    "san-sarv-bi-pm-tf44:16": {},
-    "san-sarv-bi-pm-tf44:17": {
+    "san-sarv-bi-pm-tf44:11": {},
+    "san-sarv-bi-pm-tf44:12": {
         "add": [
             "saṅghāvaśeṣa introduction"
         ]
     },
-    "san-sarv-bi-pm-tf44:18": {
+    "san-sarv-bi-pm-tf44:13": {
         "gap": [
             "///////////////////////",
             "//////////////////////////",
@@ -133,8 +128,8 @@
             "anti"
         ]
     },
-    "san-sarv-bi-pm-tf44:19": {},
-    "san-sarv-bi-pm-tf44:20": {
+    "san-sarv-bi-pm-tf44:14": {},
+    "san-sarv-bi-pm-tf44:15": {
         "unclear": [
             "yā p",
             "tr",
@@ -160,8 +155,8 @@
             "sara"
         ]
     },
-    "san-sarv-bi-pm-tf44:21": {},
-    "san-sarv-bi-pm-tf44:22": {
+    "san-sarv-bi-pm-tf44:16": {},
+    "san-sarv-bi-pm-tf44:17": {
         "supplied": [
             "nar",
             "bhi",
@@ -175,8 +170,8 @@
             "////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:23": {},
-    "san-sarv-bi-pm-tf44:24": {
+    "san-sarv-bi-pm-tf44:18": {},
+    "san-sarv-bi-pm-tf44:19": {
         "gap": [
             "////////////////////////",
             "//////",
@@ -192,8 +187,8 @@
             "ṣy"
         ]
     },
-    "san-sarv-bi-pm-tf44:25": {},
-    "san-sarv-bi-pm-tf44:26": {
+    "san-sarv-bi-pm-tf44:20": {},
+    "san-sarv-bi-pm-tf44:21": {
         "gap": [
             "////",
             ".",
@@ -206,8 +201,8 @@
             "saṁghā"
         ]
     },
-    "san-sarv-bi-pm-tf44:27": {},
-    "san-sarv-bi-pm-tf44:28": {
+    "san-sarv-bi-pm-tf44:22": {},
+    "san-sarv-bi-pm-tf44:23": {
         "gap": [
             "////",
             ".",
@@ -221,8 +216,8 @@
             "t"
         ]
     },
-    "san-sarv-bi-pm-tf44:29": {},
-    "san-sarv-bi-pm-tf44:30": {
+    "san-sarv-bi-pm-tf44:24": {},
+    "san-sarv-bi-pm-tf44:25": {
         "gap": [
             "///////",
             "/",
@@ -230,8 +225,8 @@
             "////"
         ]
     },
-    "san-sarv-bi-pm-tf44:31": {},
-    "san-sarv-bi-pm-tf44:32": {
+    "san-sarv-bi-pm-tf44:26": {},
+    "san-sarv-bi-pm-tf44:27": {
         "gap": [
             "////",
             ".",
@@ -286,8 +281,8 @@
             "ruc"
         ]
     },
-    "san-sarv-bi-pm-tf44:33": {},
-    "san-sarv-bi-pm-tf44:34": {
+    "san-sarv-bi-pm-tf44:28": {},
+    "san-sarv-bi-pm-tf44:29": {
         "gap": [
             "/",
             "/////////",
@@ -300,8 +295,8 @@
             "k"
         ]
     },
-    "san-sarv-bi-pm-tf44:35": {},
-    "san-sarv-bi-pm-tf44:36": {
+    "san-sarv-bi-pm-tf44:30": {},
+    "san-sarv-bi-pm-tf44:31": {
         "gap": [
             "/",
             "///",
@@ -317,8 +312,8 @@
             "v"
         ]
     },
-    "san-sarv-bi-pm-tf44:37": {},
-    "san-sarv-bi-pm-tf44:38": {
+    "san-sarv-bi-pm-tf44:32": {},
+    "san-sarv-bi-pm-tf44:33": {
         "gap": [
             "///////////////",
             "//",
@@ -329,8 +324,8 @@
             "r"
         ]
     },
-    "san-sarv-bi-pm-tf44:39": {},
-    "san-sarv-bi-pm-tf44:40": {
+    "san-sarv-bi-pm-tf44:34": {},
+    "san-sarv-bi-pm-tf44:35": {
         "gap": [
             "///////////////",
             "///",
@@ -413,8 +408,8 @@
             "kal"
         ]
     },
-    "san-sarv-bi-pm-tf44:41": {},
-    "san-sarv-bi-pm-tf44:42": {
+    "san-sarv-bi-pm-tf44:36": {},
+    "san-sarv-bi-pm-tf44:37": {
         "gap": [
             "////////////////////",
             ".",
@@ -432,8 +427,8 @@
             "tt"
         ]
     },
-    "san-sarv-bi-pm-tf44:43": {},
-    "san-sarv-bi-pm-tf44:44": {
+    "san-sarv-bi-pm-tf44:38": {},
+    "san-sarv-bi-pm-tf44:39": {
         "gap": [
             ".",
             "/////",
@@ -445,8 +440,8 @@
             "rm"
         ]
     },
-    "san-sarv-bi-pm-tf44:45": {},
-    "san-sarv-bi-pm-tf44:46": {
+    "san-sarv-bi-pm-tf44:40": {},
+    "san-sarv-bi-pm-tf44:41": {
         "gap": [
             "//////",
             ".",
@@ -460,8 +455,8 @@
             "////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:47": {},
-    "san-sarv-bi-pm-tf44:48": {
+    "san-sarv-bi-pm-tf44:42": {},
+    "san-sarv-bi-pm-tf44:43": {
         "unclear": [
             "yā",
             "tau",
@@ -477,21 +472,22 @@
             "/////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:49": {},
-    "san-sarv-bi-pm-tf44:50": {
+    "san-sarv-bi-pm-tf44:44": {},
+    "san-sarv-bi-pm-tf44:45": {
         "unclear": [
-            "cch<span class='gap'>."
+            "cch"
         ],
         "gap": [
+            ".",
             "/////////////////////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:51": {
+    "san-sarv-bi-pm-tf44:46": {
         "gap": [
             "/////////////////////////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:52": {
+    "san-sarv-bi-pm-tf44:47": {
         "gap": [
             "////",
             "/////////////"
@@ -503,17 +499,17 @@
             "eśa-"
         ]
     },
-    "san-sarv-bi-pm-tf44:53": {
+    "san-sarv-bi-pm-tf44:48": {
         "supplied": [
             "sam uddeśam āga"
         ]
     },
-    "san-sarv-bi-pm-tf44:54": {
+    "san-sarv-bi-pm-tf44:49": {
         "supplied": [
             "aṇītabhojanāni"
         ]
     },
-    "san-sarv-bi-pm-tf44:55": {
+    "san-sarv-bi-pm-tf44:50": {
         "unclear": [
             "i",
             "yā"
@@ -525,7 +521,7 @@
             "i"
         ]
     },
-    "san-sarv-bi-pm-tf44:56": {
+    "san-sarv-bi-pm-tf44:51": {
         "unclear": [
             "t<span class='supplied'>th"
         ],
@@ -533,7 +529,7 @@
             "////////////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:57": {
+    "san-sarv-bi-pm-tf44:52": {
         "supplied": [
             "t"
         ],
@@ -545,18 +541,18 @@
             "nam"
         ]
     },
-    "san-sarv-bi-pm-tf44:58": {
+    "san-sarv-bi-pm-tf44:53": {
         "gap": [
             "////////////////////////////////////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:59": {
+    "san-sarv-bi-pm-tf44:54": {
         "gap": [
             "////////////////////////////////////////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:60": {},
-    "san-sarv-bi-pm-tf44:61": {
+    "san-sarv-bi-pm-tf44:55": {},
+    "san-sarv-bi-pm-tf44:56": {
         "unclear": [
             "l"
         ],
@@ -564,8 +560,8 @@
             "o"
         ]
     },
-    "san-sarv-bi-pm-tf44:62": {},
-    "san-sarv-bi-pm-tf44:63": {
+    "san-sarv-bi-pm-tf44:57": {},
+    "san-sarv-bi-pm-tf44:58": {
         "gap": [
             "//////",
             "/////////////////"
@@ -575,29 +571,31 @@
             "ā"
         ]
     },
-    "san-sarv-bi-pm-tf44:64": {},
-    "san-sarv-bi-pm-tf44:65": {
+    "san-sarv-bi-pm-tf44:59": {},
+    "san-sarv-bi-pm-tf44:60": {
         "unclear": [
-            "g<span class='gap'>.",
-            "n<span class='gap'>.",
+            "g",
+            "n",
             "śayi"
         ],
         "gap": [
+            ".",
             "////",
+            ".",
             "//////"
         ],
         "supplied": [
             "an de"
         ]
     },
-    "san-sarv-bi-pm-tf44:66": {},
-    "san-sarv-bi-pm-tf44:67": {
+    "san-sarv-bi-pm-tf44:61": {},
+    "san-sarv-bi-pm-tf44:62": {
         "supplied": [
             "ccha"
         ]
     },
-    "san-sarv-bi-pm-tf44:68": {},
-    "san-sarv-bi-pm-tf44:69": {
+    "san-sarv-bi-pm-tf44:63": {},
+    "san-sarv-bi-pm-tf44:64": {
         "supplied": [
             "cā"
         ],
@@ -607,8 +605,8 @@
             "ṇī"
         ]
     },
-    "san-sarv-bi-pm-tf44:70": {},
-    "san-sarv-bi-pm-tf44:71": {
+    "san-sarv-bi-pm-tf44:65": {},
+    "san-sarv-bi-pm-tf44:66": {
         "gap": [
             "////",
             "."
@@ -619,8 +617,8 @@
             "sya"
         ]
     },
-    "san-sarv-bi-pm-tf44:72": {},
-    "san-sarv-bi-pm-tf44:73": {
+    "san-sarv-bi-pm-tf44:67": {},
+    "san-sarv-bi-pm-tf44:68": {
         "unclear": [
             "ni",
             "ṇṇa",
@@ -630,8 +628,8 @@
             "/////////"
         ]
     },
-    "san-sarv-bi-pm-tf44:74": {},
-    "san-sarv-bi-pm-tf44:75": {
+    "san-sarv-bi-pm-tf44:69": {},
+    "san-sarv-bi-pm-tf44:70": {
         "gap": [
             "////"
         ],
@@ -640,8 +638,8 @@
             "a"
         ]
     },
-    "san-sarv-bi-pm-tf44:76": {},
-    "san-sarv-bi-pm-tf44:77": {
+    "san-sarv-bi-pm-tf44:71": {},
+    "san-sarv-bi-pm-tf44:72": {
         "supplied": [
             "śī",
             "yāma"
@@ -650,8 +648,8 @@
             "s"
         ]
     },
-    "san-sarv-bi-pm-tf44:78": {},
-    "san-sarv-bi-pm-tf44:79": {
+    "san-sarv-bi-pm-tf44:73": {},
+    "san-sarv-bi-pm-tf44:74": {
         "supplied": [
             "syā"
         ],
@@ -659,8 +657,8 @@
             "glānasya dharm"
         ]
     },
-    "san-sarv-bi-pm-tf44:80": {},
-    "san-sarv-bi-pm-tf44:81": {
+    "san-sarv-bi-pm-tf44:75": {},
+    "san-sarv-bi-pm-tf44:76": {
         "gap": [
             "///////////",
             "//////////////////"

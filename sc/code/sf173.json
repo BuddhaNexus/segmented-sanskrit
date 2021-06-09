@@ -1,13 +1,10 @@
 {
-    "sf173:0": {},
-    "sf173:1": {},
-    "sf173:2": {
+    "sf173:0": {
         "add": [
             "Bhūtamidaṁsūtra"
         ]
     },
-    "sf173:3": {},
-    "sf173:4": {
+    "sf173:1": {
         "supplied": [
             "p",
             "t",
@@ -15,13 +12,13 @@
             "trayati |"
         ]
     },
-    "sf173:5": {
+    "sf173:2": {
         "supplied": [
             "uktam idaṁ śāripu",
             "u"
         ]
     },
-    "sf173:6": {
+    "sf173:3": {
         "supplied": [
             "ye",
             "ḥ pṛthagv",
@@ -30,46 +27,46 @@
             "|| ||"
         ]
     },
-    "sf173:7": {
+    "sf173:4": {
         "supplied": [
             "ke śāriputra śaikṣāḥ ke ca saṅ"
         ]
     },
-    "sf173:8": {
+    "sf173:5": {
         "supplied": [
             "ñ chāriputras"
         ]
     },
-    "sf173:9": {
+    "sf173:6": {
         "supplied": [
             "i",
             "t"
         ]
     },
-    "sf173:10": {
+    "sf173:7": {
         "supplied": [
             "yā parāyaṇesv ajitapra",
             "e",
             "u"
         ]
     },
-    "sf173:11": {
+    "sf173:8": {
         "supplied": [
             "ye ca"
         ]
     },
-    "sf173:12": {
+    "sf173:9": {
         "supplied": [
             "ṣmāñ chāripu"
         ]
     },
-    "sf173:13": {},
-    "sf173:14": {
+    "sf173:10": {},
+    "sf173:11": {
         "supplied": [
             "putra |"
         ]
     },
-    "sf173:15": {
+    "sf173:12": {
         "supplied": [
             "evam etad bhū",
             "ṁ bhadanta | bhūta",
@@ -77,14 +74,14 @@
             "tipanno bha"
         ]
     },
-    "sf173:16": {
+    "sf173:13": {
         "supplied": [
             "u",
             "v",
             "pratipanno bhavati |"
         ]
     },
-    "sf173:17": {
+    "sf173:14": {
         "supplied": [
             "ta",
             "rodha",
@@ -93,18 +90,18 @@
             "de vir"
         ]
     },
-    "sf173:18": {
+    "sf173:15": {
         "supplied": [
             "a u",
             "śai"
         ]
     },
-    "sf173:19": {
+    "sf173:16": {
         "supplied": [
             "tra"
         ]
     },
-    "sf173:20": {
+    "sf173:17": {
         "supplied": [
             "evam etad bhūtaṁ bhadanta | bhūtasya",
             "u",
@@ -113,7 +110,7 @@
             "bhava"
         ]
     },
-    "sf173:21": {
+    "sf173:18": {
         "supplied": [
             "ṣu",
             "virāgāya nirodhāyānu",
@@ -121,7 +118,7 @@
             "yaksu"
         ]
     },
-    "sf173:22": {
+    "sf173:19": {
         "supplied": [
             "hā",
             "yad bhūtaṁ tan nirodhadharmam i",
@@ -130,13 +127,13 @@
             "tto bhavati |"
         ]
     },
-    "sf173:23": {
+    "sf173:20": {
         "supplied": [
             "ima",
             "ṅ"
         ]
     },
-    "sf173:24": {
+    "sf173:21": {
         "supplied": [
             "vam e",
             "ā",
@@ -144,19 +141,19 @@
             "ātadharmāṇaḥ |"
         ]
     },
-    "sf173:25": {
+    "sf173:22": {
         "supplied": [
             "atha bha",
             "d vi"
         ]
     },
-    "sf173:26": {
+    "sf173:23": {
         "supplied": [
             "athāyu",
             "i"
         ]
     },
-    "sf173:27": {
+    "sf173:24": {
         "supplied": [
             "tisaṁviditaṁ mām",
             "to bha",
@@ -168,13 +165,13 @@
             "rvaṁ dhandhā"
         ]
     },
-    "sf173:28": {
+    "sf173:25": {
         "supplied": [
             "tha",
             "tad abhavat |"
         ]
     },
-    "sf173:29": {
+    "sf173:26": {
         "supplied": [
             "sacet kevalikāṁ rātriṁ",
             "ā",
@@ -188,7 +185,7 @@
             "o vyākuryām |"
         ]
     },
-    "sf173:30": {
+    "sf173:27": {
         "supplied": [
             "saced ekam divasam | ekaṁ r",
             "pad",
@@ -198,7 +195,7 @@
             "tam evārtham anyaiḥ padair anyair vyañjanaiḥ"
         ]
     },
-    "sf173:31": {
+    "sf173:28": {
         "supplied": [
             "t",
             "a | upe",
@@ -207,7 +204,7 @@
             "gavantam idam avocat |"
         ]
     },
-    "sf173:32": {
+    "sf173:29": {
         "supplied": [
             "āyu",
             "ṇa",
@@ -216,13 +213,13 @@
             "dgṛhītaḥ pari"
         ]
     },
-    "sf173:33": {
+    "sf173:30": {
         "supplied": [
             "taṁ mām āyuṣmanto",
             "vān etaṁ pūrvavat |"
         ]
     },
-    "sf173:34": {
+    "sf173:31": {
         "supplied": [
             "sacet",
             "ātrim āyuṣmantaṁ śāriputra",
@@ -233,7 +230,7 @@
             "ñjanaiḥ praśnaṁ pṛṣṭo vyākuryāt |"
         ]
     },
-    "sf173:35": {
+    "sf173:32": {
         "supplied": [
             "bhi",
             "o",

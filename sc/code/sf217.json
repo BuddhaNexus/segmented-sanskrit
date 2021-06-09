@@ -1,18 +1,15 @@
 {
-    "sf217:0": {},
-    "sf217:1": {},
-    "sf217:2": {
+    "sf217:0": {
         "add": [
             "Ekottarikāgama 26"
         ]
     },
-    "sf217:3": {},
-    "sf217:4": {
+    "sf217:1": {
         "supplied": [
             "tac chṛṇuta sādhu ca suṣṭhu ca manasikuruta bhāṣi"
         ]
     },
-    "sf217:5": {
+    "sf217:2": {
         "supplied": [
             "p",
             "amāne dharme pratyuhyamāne avinaye dīpyamāne vina",
@@ -20,148 +17,148 @@
             "dharmavādiṣu avinayavādiṣu pudgaleṣu balava"
         ]
     },
-    "sf217:6": {
+    "sf217:3": {
         "supplied": [
             "yasyāṁ parṣadi dharmo dīpyate adharmaḥ pra",
             "pratyuhyamāne dharmavādino vinayavā",
             "balavatsu adharmavādina avina"
         ]
     },
-    "sf217:7": {
+    "sf217:4": {
         "supplied": [
             "me yad uktam idaṁ me tat pratyuktam ||"
         ]
     },
-    "sf217:8": {},
-    "sf217:9": {
+    "sf217:5": {},
+    "sf217:6": {
         "supplied": [
             "kā bhikṣavaḥ sthavireṣu bhikṣuṣu agauravā",
             "ḥ",
             "śikṣāyāṁ mandagauravāḥ | iyam ucyate"
         ]
     },
-    "sf217:10": {
+    "sf217:7": {
         "supplied": [
             "sthavirāś ca bhikṣavaḥ na śaithilikā bhavan"
         ]
     },
-    "sf217:11": {
+    "sf217:8": {
         "supplied": [
             "anagravatīṁ ca vaḥ parṣadaṁ deśayiṣyāṁi agravatīṁ ce"
+        ]
+    },
+    "sf217:9": {},
+    "sf217:10": {
+        "supplied": [
+            "grā parṣat katamā | yeyaṁ parṣat kalahajātā viha"
+        ]
+    },
+    "sf217:11": {
+        "supplied": [
+            "harati na bhaṇḍanajātā na vigṛhitā na vi"
         ]
     },
     "sf217:12": {},
     "sf217:13": {
         "supplied": [
-            "grā parṣat katamā | yeyaṁ parṣat kalahajātā viha"
+            "uttānāṁ ca vaḥ parṣadaṁ deśayiṣyāmi gaṁbhīrāṁ ca, tac ch"
         ]
     },
     "sf217:14": {
         "supplied": [
-            "harati na bhaṇḍanajātā na vigṛhitā na vi"
-        ]
-    },
-    "sf217:15": {},
-    "sf217:16": {
-        "supplied": [
-            "uttānāṁ ca vaḥ parṣadaṁ deśayiṣyāmi gaṁbhīrāṁ ca, tac ch"
-        ]
-    },
-    "sf217:17": {
-        "supplied": [
             "samāhitā ||| | iyam u"
         ]
     },
-    "sf217:18": {
+    "sf217:15": {
         "supplied": [
             "hitā ||| | iyam ucyate"
         ]
     },
-    "sf217:19": {},
-    "sf217:20": {
+    "sf217:16": {},
+    "sf217:17": {
         "supplied": [
             "ṣyāmi dharmagurukāṁ ca, tac chṛṇuta sādhu"
         ]
     },
-    "sf217:21": {
+    "sf217:18": {
         "supplied": [
             "mānayanti pūjayanti te āmiṣam e"
         ]
     },
-    "sf217:22": {
+    "sf217:19": {
         "supplied": [
             "gurukā parṣat katamā | yathāpīhaikatyā",
             "kulāny uddāyādāni kurvanti | iyam ucyate dharmagurukā parṣat |"
         ]
     },
-    "sf217:23": {},
-    "sf217:24": {
+    "sf217:20": {},
+    "sf217:21": {
         "supplied": [
             "viṣamāṁ ca vaḥ parṣadaṁ deśayiṣyāmi"
         ]
     },
-    "sf217:25": {
+    "sf217:22": {
         "supplied": [
             "dhārmikī adharmavādinī | sa sva",
             "śayati saṁprakāśayaty anusandhim api",
             "ti vibhajati vivṛṇoty uttanīkaroti"
         ]
     },
-    "sf217:26": {
+    "sf217:23": {
         "supplied": [
             "rmiko bhavati dharmavādī | tasya parṣad api dhārm",
             "sthāpayati vibhajati vivṛṇoty uttanīkaro",
             "saṁhitenācaṣṭe prajñapayati prasthāpa"
         ]
     },
-    "sf217:27": {
+    "sf217:24": {
         "supplied": [
             "ca vaḥ parṣadaṁ deśayiṣyāmi samāṁ ceti me yad u"
         ]
     },
-    "sf217:28": {},
-    "sf217:29": {
+    "sf217:25": {},
+    "sf217:26": {
         "supplied": [
             "yeyaṁ parṣad idaṁ duḥkham āryasatyam iti yathābhū",
             "yam ucyate anāryā parṣat |"
         ]
     },
-    "sf217:30": {
+    "sf217:27": {
         "supplied": [
             "āryā parṣat kata",
             "tipad āryasatyam iti yathābhūtaṁ prajānāti | i"
         ]
     },
-    "sf217:31": {},
-    "sf217:32": {
+    "sf217:28": {},
+    "sf217:29": {
         "supplied": [
             "ṇi |||"
         ]
     },
-    "sf217:33": {
+    "sf217:30": {
         "supplied": [
             "antaro"
         ]
     },
-    "sf217:34": {},
-    "sf217:35": {},
-    "sf217:36": {},
-    "sf217:37": {
+    "sf217:31": {},
+    "sf217:32": {},
+    "sf217:33": {},
+    "sf217:34": {
         "supplied": [
             "|"
         ]
     },
-    "sf217:38": {
+    "sf217:35": {
         "supplied": [
             "r"
         ]
     },
-    "sf217:39": {},
-    "sf217:40": {},
-    "sf217:41": {
+    "sf217:36": {},
+    "sf217:37": {},
+    "sf217:38": {
         "supplied": [
             "ṣadhena ca ||"
         ]
     },
-    "sf217:42": {}
+    "sf217:39": {}
 }

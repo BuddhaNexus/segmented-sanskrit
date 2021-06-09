@@ -1,12 +1,12 @@
 {
-    "divy7:0": "<article id='divy7' lang='san'>",
-    "divy7:1": "<header>",
-    "divy7:2": "<ul>",
-    "divy7:3": "<li class='division'>{}</li>",
-    "divy7:4": "</ul>",
-    "divy7:5": "<h1>{}</h1>",
-    "divy7:6": "</header>",
-    "divy7:7": "<p>{}<br>",
+    "divy7:0": "<article id='divy7' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "divy7:1": "<h1>{}</h1></header>",
+    "divy7:2": "<p>{}<br>",
+    "divy7:3": "{}<br>",
+    "divy7:4": "{}<br>",
+    "divy7:5": "{}<br>",
+    "divy7:6": "{}<br>",
+    "divy7:7": "{}<br>",
     "divy7:8": "{}<br>",
     "divy7:9": "{}<br>",
     "divy7:10": "{}<br>",
@@ -220,10 +220,5 @@
     "divy7:218": "{}<br>",
     "divy7:219": "{}<br>",
     "divy7:220": "{}<br>",
-    "divy7:221": "{}<br>",
-    "divy7:222": "{}<br>",
-    "divy7:223": "{}<br>",
-    "divy7:224": "{}<br>",
-    "divy7:225": "{}<br>",
-    "divy7:226": "{}</p>"
+    "divy7:221": "{}</p>"
 }

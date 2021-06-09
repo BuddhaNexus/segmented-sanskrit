@@ -1,11 +1,6 @@
 {
-    "mkv65:0": "<article id='mkv65' lang='san'>",
-    "mkv65:1": "<header>",
-    "mkv65:2": "<ul>",
-    "mkv65:3": "<li class='division'>{}</li>",
-    "mkv65:4": "</ul>",
-    "mkv65:5": "<h1>{}</h1>",
-    "mkv65:6": "</header>",
-    "mkv65:7": "<p>{}</p>",
-    "mkv65:8": "<p>{}</p>"
+    "mkv65:0": "<article id='mkv65' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv65:1": "<h1>{}</h1></header>",
+    "mkv65:2": "<p>{}</p>",
+    "mkv65:3": "<p>{}</p>"
 }

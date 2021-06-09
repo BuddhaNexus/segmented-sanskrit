@@ -1,19 +1,14 @@
 {
     "san-lo-bi-pn-conc:0": [],
     "san-lo-bi-pn-conc:1": [],
-    "san-lo-bi-pn-conc:2": [],
-    "san-lo-bi-pn-conc:3": [],
-    "san-lo-bi-pn-conc:4": [],
-    "san-lo-bi-pn-conc:5": [],
-    "san-lo-bi-pn-conc:6": [],
-    "san-lo-bi-pn-conc:7": [
+    "san-lo-bi-pn-conc:2": [
         "sc1",
         "roth293"
     ],
-    "san-lo-bi-pn-conc:8": [
+    "san-lo-bi-pn-conc:3": [
         "sc2"
     ],
-    "san-lo-bi-pn-conc:9": [
+    "san-lo-bi-pn-conc:4": [
         "sc3"
     ]
 }

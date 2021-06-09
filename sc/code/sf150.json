@@ -1,31 +1,28 @@
 {
-    "sf150:0": {},
-    "sf150:1": {},
-    "sf150:2": {
+    "sf150:0": {
         "add": [
             "Vṛkṣasūtra (1st)"
         ]
     },
-    "sf150:3": {},
-    "sf150:4": {
+    "sf150:1": {
         "supplied": [
             "śrāvastyāṁ",
             "nam |"
         ]
     },
-    "sf150:5": {
+    "sf150:2": {
         "supplied": [
             "tatra bhagavān bhikṣūn āmantrayati |"
         ]
     },
-    "sf150:6": {
+    "sf150:3": {
         "supplied": [
             "upādānīyeṣu dharmeṣv āsvādānudarśino viharatas tṛṣṇā pravardhate | tṛṣṇāpratyayam upādānam | upādānapratyayo bhavaḥ | bha",
             "yā",
             "ātiḥ | jātipratyayaṁ jarāmaraṇaṁ śokaparidevaduḥkhadaurmanasyopāyāsāḥ saṁbhavanti | evam asya kevalasya mahato duḥkhaskandhasya samudayo samudayo bhava"
         ]
     },
-    "sf150:7": {
+    "sf150:4": {
         "supplied": [
             "arasya puruṣa utpadyeta arthakāmo hitakāmo yogakṣemakāmo yas taṁ vṛkṣaṁ",
             "ā",
@@ -38,13 +35,13 @@
             "+ + + + + + + + + +"
         ]
     },
-    "sf150:8": {
+    "sf150:5": {
         "supplied": [
             "evam eva upā",
             "aratas tṛṣṇā pravardhate pūrvavad yāvat samudayo bhavati |"
         ]
     },
-    "sf150:9": {
+    "sf150:6": {
         "supplied": [
             "upādānīyeṣu dharmeṣv anityānudarśino vibhavānudarśino virāgānudarśi",
             "darśinas tṛṣṇā nirudhyate | tṛṣṇāni",
@@ -52,7 +49,7 @@
             "te | evam asya kevalasya mahato duḥkhaskandha"
         ]
     },
-    "sf150:10": {
+    "sf150:7": {
         "supplied": [
             "a navasya daharasya",
             "puruṣa utpadyeta anarthakāmo ’hitakāmo ’yo",
@@ -65,7 +62,7 @@
             ".. .. .. .. .. .. .. .. .. .. .. .. .. .. .. .."
         ]
     },
-    "sf150:11": {
+    "sf150:8": {
         "supplied": [
             "vo",
             "an",
@@ -73,12 +70,12 @@
             "las tālamastakavad anābhavagatika āyatyām anutpādadha"
         ]
     },
-    "sf150:12": {
+    "sf150:9": {
         "supplied": [
             "anta |"
         ]
     },
-    "sf150:13": {
+    "sf150:10": {
         "supplied": [
             "evam eva upādānīyeṣu dharme",
             "bhavānudarśino virāgānudarśino",
@@ -87,7 +84,7 @@
             "nasyopāyāsā nirudhyante | evam asya kevalasya mahato duḥkhaskandhasya niodho bhavati |"
         ]
     },
-    "sf150:14": {
+    "sf150:11": {
         "supplied": [
             "atha te bhikṣavo bhagavato",
             "| abhinandyānumodya bhagavato ’ntikāt prakrāntāḥ ||"

@@ -1,13 +1,10 @@
 {
-    "sf156:0": {},
-    "sf156:1": {},
-    "sf156:2": {
+    "sf156:0": {
         "add": [
             "Markatasūtra"
         ]
     },
-    "sf156:3": {},
-    "sf156:4": {
+    "sf156:1": {
         "supplied": [
             "lo bhikṣavo ’",
             "rma",
@@ -19,7 +16,7 @@
             "cye"
         ]
     },
-    "sf156:5": {
+    "sf156:2": {
         "supplied": [
             "t kasmād dhetoḥ | dṛśyate bhikṣavo ’sya caturma",
             "bhauti",
@@ -28,7 +25,7 @@
             "ādānam a"
         ]
     },
-    "sf156:6": {
+    "sf156:3": {
         "supplied": [
             "citta",
             "ti vā",
@@ -43,7 +40,7 @@
             "v"
         ]
     },
-    "sf156:7": {
+    "sf156:4": {
         "supplied": [
             "ta",
             "rāt",
@@ -56,7 +53,7 @@
             "’ham asmi | eṣa me ātmeti |"
         ]
     },
-    "sf156:8": {
+    "sf156:5": {
         "supplied": [
             "ta",
             "len",
@@ -64,7 +61,7 @@
             "na"
         ]
     },
-    "sf156:9": {
+    "sf156:6": {
         "supplied": [
             "bhikṣavo",
             "ta",
@@ -73,7 +70,7 @@
             "paga"
         ]
     },
-    "sf156:10": {
+    "sf156:7": {
         "supplied": [
             "d",
             "et",
@@ -84,7 +81,7 @@
             "yo ’pi tiṣṭhamā"
         ]
     },
-    "sf156:11": {
+    "sf156:8": {
         "supplied": [
             "ar",
             "te",
@@ -97,7 +94,7 @@
             "pravartate"
         ]
     },
-    "sf156:12": {
+    "sf156:9": {
         "supplied": [
             "na",
             "tpa",
@@ -106,7 +103,7 @@
             "va nirudhyamānaṁ ni"
         ]
     },
-    "sf156:13": {
+    "sf156:10": {
         "supplied": [
             "t",
             "ti v",
@@ -116,7 +113,7 @@
             "na"
         ]
     },
-    "sf156:14": {
+    "sf156:11": {
         "supplied": [
             "rāvakaḥ pratī",
             "tp",
@@ -125,7 +122,7 @@
             "avekṣate |"
         ]
     },
-    "sf156:15": {
+    "sf156:12": {
         "supplied": [
             "yad uta sukhavedanīyaṁ",
             "ḥ",
@@ -144,12 +141,12 @@
             "gatā |"
         ]
     },
-    "sf156:16": {
+    "sf156:13": {
         "supplied": [
             "evam eva duḥkhavedanīyaṁ saumanasyavedanīyaṁ daurmanasyaveda"
         ]
     },
-    "sf156:17": {
+    "sf156:14": {
         "supplied": [
             "ṣ",
             "vedanīyaṁ s",
@@ -166,7 +163,7 @@
             "a"
         ]
     },
-    "sf156:18": {
+    "sf156:15": {
         "supplied": [
             "ti | i",
             "nāḥ",
@@ -178,7 +175,7 @@
             "avanty astaṁgacchanti |"
         ]
     },
-    "sf156:19": {
+    "sf156:16": {
         "supplied": [
             "evaṁ paśyan śru",
             "pi nirvi",

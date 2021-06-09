@@ -1,13 +1,10 @@
 {
-    "sf280:0": {},
-    "sf280:1": {},
-    "sf280:2": {
+    "sf280:0": {
         "add": [
             "Avasrutasūtra"
         ]
     },
-    "sf280:3": {},
-    "sf280:4": {
+    "sf280:1": {
         "supplied": [
             "dakṣiṇa",
             "va",
@@ -20,7 +17,7 @@
             ".. .. .."
         ]
     },
-    "sf280:5": {
+    "sf280:2": {
         "supplied": [
             "evaṁ vihārī bhikṣu rūpam abhibhūr",
             "|",
@@ -33,7 +30,7 @@
             "|"
         ]
     },
-    "sf280:6": {
+    "sf280:3": {
         "supplied": [
             "taḥ saṁmukham udgṛhītaḥ yo ’yam avasrutānava"
         ],
@@ -41,7 +38,7 @@
             ". .. .. .."
         ]
     },
-    "sf280:7": {
+    "sf280:4": {
         "supplied": [
             "atha bhagavāṁ āyusmato mahāmaudgalyā",
             "ābhujya ṛjuṁ",
@@ -55,7 +52,7 @@
             "|"
         ]
     },
-    "sf280:8": {
+    "sf280:5": {
         "supplied": [
             "ṁ",
             "|",
@@ -63,7 +60,7 @@
             "ata grāhayata vācayata avasrutānavasrutaṁ dharmaparyāyam | tat kasmād dhetoḥ | ayaṁ dharmaparyāyaḥ hitopasaṁhitaḥ arthopasaṁhitaḥ śīlopasaṁhitaḥ brahmacaryopsaṁhitaḥ abhijñāyai saṁbodhaye nirvāṇāya saṁvartate yāvac ca satpuruṣeṇa pravrajitena śraddhayā avasrutānavasruto dharmaparyāya udgṛhya paryavāpya tathā tathā dhārayitavyo grāhayitavyo vācayitavyaḥ |"
         ]
     },
-    "sf280:9": {
+    "sf280:6": {
         "supplied": [
             "atha bhikṣavo bhagavato bhāṣitam abhinandyānumodya bhagavato ’ntikāt prakrāntāḥ |"
         ]

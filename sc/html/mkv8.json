@@ -1,18 +1,11 @@
 {
-    "mkv8:0": "<article id='mkv8' lang='san'>",
-    "mkv8:1": "<header>",
-    "mkv8:2": "<ul>",
-    "mkv8:3": "<li class='division'>{}</li>",
-    "mkv8:4": "</ul>",
-    "mkv8:5": "<h1>{}</h1>",
-    "mkv8:6": "</header>",
-    "mkv8:7": "<p>{}</p>",
-    "mkv8:8": "<p>{}</p>",
-    "mkv8:9": "<blockquote class='gatha'>",
-    "mkv8:10": "<p>{}<br>",
-    "mkv8:11": "{}<br>",
-    "mkv8:12": "{}<br>",
-    "mkv8:13": "{}</p>",
-    "mkv8:14": "</blockquote>",
-    "mkv8:15": "<p class='endsection'>{}</p>"
+    "mkv8:0": "<article id='mkv8' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "mkv8:1": "<h1>{}</h1></header>",
+    "mkv8:2": "<p>{}</p>",
+    "mkv8:3": "<p>{}</p>",
+    "mkv8:4": "<blockquote class='gatha'><p>{}<br>",
+    "mkv8:5": "{}<br>",
+    "mkv8:6": "{}<br>",
+    "mkv8:7": "{}</p></blockquote>",
+    "mkv8:8": "<p class='endsection'>{}</p>"
 }

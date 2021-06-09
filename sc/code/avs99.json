@@ -2,41 +2,34 @@
     "avs99:0": {},
     "avs99:1": {},
     "avs99:2": {},
-    "avs99:3": {},
+    "avs99:3": {
+        "gap": [
+            "+ + + + + +"
+        ]
+    },
     "avs99:4": {},
     "avs99:5": {},
-    "avs99:6": {},
+    "avs99:6": {
+        "gap": [
+            "+ + + + + +"
+        ]
+    },
     "avs99:7": {},
-    "avs99:8": {
-        "gap": [
-            "+ + + + + +"
-        ]
-    },
-    "avs99:9": {},
-    "avs99:10": {},
-    "avs99:11": {
-        "gap": [
-            "+ + + + + +"
-        ]
-    },
-    "avs99:12": {},
-    "avs99:13": {},
-    "avs99:14": {
+    "avs99:8": {},
+    "avs99:9": {
         "corrected": [
             "tatra śrutavān āryaśrāvaka idaṁ pratisaṁśikṣyate: ahaṁ ced evamdṛṣṭiḥ syām evaṁvādī: sarvaṁ me na kṣamata iti, dvābhyāṁ me sārdhaṁ syād vigrahaḥ, syād vivādaḥ | yaś caivaṁdṛṣṭir evaṁvādī: sarvaṁ me kṣamata iti, yaś ca evaṁdṛṣṭir evaṁvādi: ekaṁ me kṣamate ekaṁ me na kṣamate iti | vigrahe sati vivādaḥ, vivāde sati vihiṁsā, iti sa tāṁ savigrahāṁ savivādāṁ savihiṁsāṁ ca samanupaśyann imāṁ ca dṛṣṭiṁ pratinisṛjati, anyāṁ ca dṛṣṭiṁ nopādatte | evam asyāś ca dṛṣṭeḥ prahāṇaṁ bhavati pratinisargo vāntībhāvaḥ | anyasyāś ca dṛṣṭer apratisaṁdhir anupādānam aprādurbhāvaḥ ||"
         ]
     },
+    "avs99:10": {},
+    "avs99:11": {},
+    "avs99:12": {},
+    "avs99:13": {},
+    "avs99:14": {},
     "avs99:15": {},
     "avs99:16": {},
     "avs99:17": {},
     "avs99:18": {},
     "avs99:19": {},
-    "avs99:20": {},
-    "avs99:21": {},
-    "avs99:22": {},
-    "avs99:23": {},
-    "avs99:24": {},
-    "avs99:25": {},
-    "avs99:26": {},
-    "avs99:27": {}
+    "avs99:20": {}
 }

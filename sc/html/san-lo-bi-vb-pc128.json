@@ -1,13 +1,8 @@
 {
-    "san-lo-bi-vb-pc128:0": "<article id='san-lo-bi-vb-pc128' lang='san'>",
-    "san-lo-bi-vb-pc128:1": "<header>",
-    "san-lo-bi-vb-pc128:2": "<ul>",
-    "san-lo-bi-vb-pc128:3": "<li class='division'>{}</li>",
-    "san-lo-bi-vb-pc128:4": "</ul>",
-    "san-lo-bi-vb-pc128:5": "<h1>{}</h1>",
-    "san-lo-bi-vb-pc128:6": "</header>",
-    "san-lo-bi-vb-pc128:7": "<h2>{}</h2>",
-    "san-lo-bi-vb-pc128:8": "<p>{}</p>",
-    "san-lo-bi-vb-pc128:9": "<h2>{}</h2>",
-    "san-lo-bi-vb-pc128:10": "<p class='rule'>{}</p>"
+    "san-lo-bi-vb-pc128:0": "<article id='san-lo-bi-vb-pc128' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-lo-bi-vb-pc128:1": "<h1>{}</h1></header>",
+    "san-lo-bi-vb-pc128:2": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc128:3": "<p>{}</p>",
+    "san-lo-bi-vb-pc128:4": "<h2>{}</h2>",
+    "san-lo-bi-vb-pc128:5": "<p class='rule'>{}</p>"
 }

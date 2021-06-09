@@ -1,9 +1,6 @@
 {
     "sf83:0": {},
-    "sf83:1": {},
-    "sf83:2": {},
-    "sf83:3": {},
-    "sf83:4": {
+    "sf83:1": {
         "supplied": [
             "|| bhagavān rājagṛhe viharati veṇuvane kalandakanivāpe. tena khalu samayena tasmin rājagṛhe pīṭho nāmaḥ parivrājakaḥ prativasati",
             "sa evaṁ pariṣadi vācaṁ bhāṣate. <span class='gap'>…",
@@ -13,19 +10,19 @@
             "–hier immer puṣkaraṇyās erg.–"
         ]
     },
-    "sf83:5": {
+    "sf83:2": {
         "supplied": [
             "atha saṁbahulā bhikṣavaḥ pūrvāhṇe nivāsya pātracīvaram ādāya rājagṛhaṁ",
             "saṁbahulā bhikṣavo rājagṛhaṁ piṇḍāya carantaḥ, asmiṁ rājagṛhe sumāgadhāyāḥ puṣkaraṇyās tīre pīṭho nāmaḥ parivrā",
             "riṣadi vācaṁ bhāṣate. pūrvavat. ekānte nyaṣīdan. ekāntaniṣaṇṇāḥ saṁbahulā bhikṣavo bha"
         ]
     },
-    "sf83:6": {
+    "sf83:3": {
         "supplied": [
             "vayaṁ bhadanta pūrvavat. adhivāsayati bhagavān saṁbahulānāṁ bhikṣūṇāṁ tūṣṇīṁbhavena."
         ]
     },
-    "sf83:7": {
+    "sf83:4": {
         "supplied": [
             "atha bhagavān sāyā",
             "ya yena pīṭhaḥ parivrājakaḥ sumāgadhāyāḥ puṣkaraṇyās tīre tenopajagāma. adrākṣīt pīṭhaḥ parivrājako bhagavantaṁ dūrata",
@@ -33,13 +30,13 @@
             "aṁ parivrājakam idam avocat."
         ]
     },
-    "sf83:8": {
+    "sf83:5": {
         "supplied": [
             "satyaṁ khalu tvaṁ pīṭha, evaṁ vadasi. <span class='gap'>…",
             "ṣyāmīti. <span class='gap'>…"
         ]
     },
-    "sf83:9": {
+    "sf83:6": {
         "supplied": [
             "atha pīṭhaḥ pa",
             "tasyāṁ velāyāṁ gāthāṁ babhāṣe ||"
@@ -48,8 +45,7 @@
             "…"
         ]
     },
-    "sf83:10": {},
-    "sf83:11": {
+    "sf83:7": {
         "gap": [
             "…",
             "…"
@@ -58,7 +54,7 @@
             "na vi"
         ]
     },
-    "sf83:12": {
+    "sf83:8": {
         "gap": [
             "…",
             "…"
@@ -68,14 +64,12 @@
             "u"
         ]
     },
-    "sf83:13": {},
-    "sf83:14": {
+    "sf83:9": {
         "supplied": [
             "atha bhagavāṁ cetasā pīṭhasya parivrājakasya cittam ājñāya tasyāṁ"
         ]
     },
-    "sf83:15": {},
-    "sf83:16": {
+    "sf83:10": {
         "gap": [
             "+ + + + + + + + + + + + + + +"
         ],
@@ -83,7 +77,7 @@
             "|"
         ]
     },
-    "sf83:17": {
+    "sf83:11": {
         "gap": [
             "+ + + + + + + + + + + + + + + +"
         ],
@@ -91,18 +85,18 @@
             "||"
         ]
     },
-    "sf83:18": {
+    "sf83:12": {
         "gap": [
             "…",
             "…"
         ]
     },
-    "sf83:19": {
+    "sf83:13": {
         "supplied": [
             "yasya kāyena vācā ca manasā nā"
         ]
     },
-    "sf83:20": {
+    "sf83:14": {
         "supplied": [
             "sthāneṣu",
             "||"
@@ -111,14 +105,13 @@
             "+ + + + + + + +"
         ]
     },
-    "sf83:21": {},
-    "sf83:22": {
+    "sf83:15": {
         "supplied": [
             "atha pīṭhasya parivrājakasya etad abhavad i",
             "asā cittam ājānāti. … yena bhagavāṁs tenāñjaliṁ praṇamya bhagavantam idam avocat."
         ]
     },
-    "sf83:23": {
+    "sf83:16": {
         "supplied": [
             "la",
             "ma svākhyāte dharmavinaye pravrajyām upasaṁpadaṁ bhikṣubhāvam. labdhavāṁ te svākhyāte dharmavinaye pravrajyām upasaṁpadaṁ bhikṣubhāvam. evaṁ pravrajitaḥ sa pī",

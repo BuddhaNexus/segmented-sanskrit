@@ -1,12 +1,7 @@
 {
-    "san-sarv-sm:0": "<article id='san-sarv-sm' lang='san'>",
-    "san-sarv-sm:1": "<header>",
-    "san-sarv-sm:2": "<ul>",
-    "san-sarv-sm:3": "<li class='division'>{}</li>",
-    "san-sarv-sm:4": "</ul>",
-    "san-sarv-sm:5": "<h1>{}</h1>",
-    "san-sarv-sm:6": "</header>",
-    "san-sarv-sm:7": "<h2>{}</h2>",
-    "san-sarv-sm:8": "<h4>{}</h4>",
-    "san-sarv-sm:9": "<p><a class='Vd' id='r1' href='#r1'></a>{}</p>"
+    "san-sarv-sm:0": "<article id='san-sarv-sm' lang='san'><header><ul><li class='division'>{}</li></ul>",
+    "san-sarv-sm:1": "<h1>{}</h1></header>",
+    "san-sarv-sm:2": "<h2>{}</h2>",
+    "san-sarv-sm:3": "<h4>{}</h4>",
+    "san-sarv-sm:4": "<p><a class='Vd' id='r1' href='#r1'></a>{}</p>"
 }
