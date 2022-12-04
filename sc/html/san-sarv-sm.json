@@ -1,7 +1,0 @@
-{
-    "san-sarv-sm:0": "<article id='san-sarv-sm' lang='san'><header><ul><li class='division'>{}</li></ul>",
-    "san-sarv-sm:1": "<h1>{}</h1></header>",
-    "san-sarv-sm:2": "<h2>{}</h2>",
-    "san-sarv-sm:3": "<h4>{}</h4>",
-    "san-sarv-sm:4": "<p><a class='Vd' id='r1' href='#r1'></a>{}</p>"
-}

@@ -17,6 +17,9 @@ NOTE: These files contain a lot of errors and need to be cleaned.
 
 
 NOTE:
-Files in new_segmented_files are those currently used in Buddhanexus. These are converted from html.
+Files in segmented_files are those currently used in Buddhanexus. These are converted from html.
 
-The folder segmented_files_buddhist_from_html holds the jsons of the Buddhist texts that are derived directly from HTML to JSON conversion from Gretil HTML
+Further sources come from SuttaCentral.net (sf and uvs files)
+
+The checked_jsons are manually checked Gretil files. They use verse numbers as segment numbers and are therefore more accurate than the machine-created files.
+

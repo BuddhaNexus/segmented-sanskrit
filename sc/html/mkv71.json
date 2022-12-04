@@ -1,9 +1,0 @@
-{
-    "mkv71:0": "<article id='mkv71' lang='san'><header><ul><li class='division'>{}</li></ul>",
-    "mkv71:1": "<h1>{}</h1></header>",
-    "mkv71:2": "<p>{}</p>",
-    "mkv71:3": "<blockquote class='gatha'><p>{}<br>",
-    "mkv71:4": "{}<br>",
-    "mkv71:5": "{}</p></blockquote>",
-    "mkv71:6": "<p>{}</p>"
-}
